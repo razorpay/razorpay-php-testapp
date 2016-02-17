@@ -4,12 +4,12 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 //Load API, Ideally it should installed by composer and autoloaded if your project uses composer
-require('libs/razorpay-php-master/Razorpay.php');
+require('libs/razorpay-php/Razorpay.php');
 
 use Razorpay\Api\Api;
 
 //Use your key_id and key secret
-$api = new Api('rzp_test_1DP5mmOlF5G5ag', 'thisissupersecret');
+$api = new Api('rzp_test_KEY_ID', 'INSERT_KEY_SECRET');
 
 //This is submited by the checkout form
 if (isset($_POST['razorpay_payment_id']) === false)
