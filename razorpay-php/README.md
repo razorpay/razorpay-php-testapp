@@ -24,7 +24,7 @@ Razorpay client PHP Api. The api follows the following practices:
 
 Then, run `composer update`. If you are not using composer, download
 the latest release from [the releases section](https://github.com/razorpay/razorpay-php/releases).
-You should download the `razorpay-php.zip` file.
+**You should download the `razorpay-php.zip` file**.
 
 After that include `Razorpay.php` in your application and you can use the
 API as usual.
@@ -62,6 +62,7 @@ The Razorpay PHP SDK is released under the MIT License.
 
 Steps to follow for a release:
 
+0. Merge the branch with the new code to master.
 1. Bump the Version in `src/Api.php`.
 2. Rename Unreleased to the new tag in `CHANGELOG`
 3. Fix links at bottom in `CHANGELOG`

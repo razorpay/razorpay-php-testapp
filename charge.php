@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 //Load API, Ideally it should installed by composer and autoloaded if your project uses composer
-require('libs/razorpay-php/Razorpay.php');
+require('razorpay-php/Razorpay.php');
 
 use Razorpay\Api\Api;
 
