@@ -10,7 +10,7 @@ class Api
 
     public static $secret = null;
 
-    const VERSION = '1.2.2';
+    const VERSION = '1.2.6';
 
     /**
      * @param string $api_key
@@ -22,6 +22,15 @@ class Api
 
         // Add the version to all HTTP Requests
         Request::addHeader('User-Agent', "Razorpay-PHP/".self::VERSION);
+    }
+
+    /*
+     *  Set Headers
+     *
+     */
+    function setHeader($header, $value)
+    {
+        Request::addHeader($header, $value);
     }
 
     /**

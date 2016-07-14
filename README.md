@@ -18,5 +18,5 @@ Make sure that you download the latest version of `razorpay-php.zip` file from
 the releases section **[here](https://github.com/razorpay/razorpay-php/releases)**.
 You can extract that to the razorpay-php directory as well.
 
-This release currently uses the 1.2.2 version of the SDK. Please ensure that you are
+This release currently uses the 1.2.6 version of the SDK. Please ensure that you are
 using the latest as the test app might lag behind.
