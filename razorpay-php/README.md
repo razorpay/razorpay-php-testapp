@@ -38,7 +38,8 @@ $api = new Api($api_key, $api_secret);
 $api->payment->all($options); // Returns array of payment objects
 $payment = $api->payment->fetch($id); // Returns a particular payment
 $api->payment->fetch($id)->capture(array('amount'=>$amount)); // Captures a payment
-$api->payment->fetch($id)->refund($id); // Refunds a payment
+$api->payment->fetch($id)->refund(); // Refunds a payment 
+$api->payment->fetch($id)->refund(array('amount'=>$refundAmount)); // Partially refunds a payment
 
 // To get the payment details
 echo $payment->amount;
@@ -50,7 +51,7 @@ For further help, see our documentation on <https://docs.razorpay.com>.
 
 [composer-install]: https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx
 
-## Hacking
+## Developing
 
 See the [doc.md](doc.md) file for getting started with development.
 

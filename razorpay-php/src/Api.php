@@ -10,10 +10,11 @@ class Api
 
     public static $secret = null;
 
-    const VERSION = '1.2.6';
+    const VERSION = '1.2.8';
 
     /**
-     * @param string $api_key
+     * @param string $key
+     * @param string $secret
      */
     function __construct($key, $secret)
     {
@@ -35,6 +36,7 @@ class Api
 
     /**
      * @param string $name
+     * @return mixed
      */
     function __get($name)
     {
