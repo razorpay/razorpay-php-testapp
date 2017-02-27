@@ -8,8 +8,11 @@ require('../razorpay-php/Razorpay.php');
 
 use Razorpay\Api\Api;
 
+$keyId = '<Your API KEY>';
+$keySecret = '<Your Key Secret>';
+
 //Use your key_id and key secret
-$api = new Api('rzp_test_KEY_ID', 'INSERT_KEY_SECRET');
+$api = new Api($keyId, $keySecret);
 
 //This is submited by the checkout form
 if (isset($_POST['razorpay_payment_id']) === false)
