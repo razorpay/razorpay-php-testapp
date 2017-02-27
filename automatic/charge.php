@@ -1,11 +1,12 @@
 <?php
+
+require('../config.php');
+
 //These should be commented out in production
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 session_start();
-
-$keySecret = '<Enter your key secret>';
 
 $success = false;
 $error = "";

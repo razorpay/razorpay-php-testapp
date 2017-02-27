@@ -1,12 +1,11 @@
 <?php
 
+require('../config.php');
+
 session_start();
 
 require('../razorpay-php/Razorpay.php');
 use Razorpay\Api\Api;
-
-$keyId = '<Enter your key id>';
-$keySecret = '<Enter your key secret>';
 
 $api = new Api($keyId, $keySecret);
 

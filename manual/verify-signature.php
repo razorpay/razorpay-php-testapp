@@ -1,8 +1,8 @@
 <?php
 
-session_start();
+require('../config.php');
 
-$keySecret = '<Enter your key secret>';
+session_start();
 
 $success = false;
 $error = "";
