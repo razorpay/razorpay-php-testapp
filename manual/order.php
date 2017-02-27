@@ -37,7 +37,7 @@ var options = {
     "amount": "$amount", 
     "name": "Merchant Name",
     "description": "Purchase Description",
-    "image": "/your_logo.png",
+    "image": "../daft-punk.jpg",
     "handler": function (response){
         document.getElementById('razorpay_payment_id').value = response.razorpay_payment_id;
         document.getElementById('razorpay_signature').value = response.razorpay_signature;

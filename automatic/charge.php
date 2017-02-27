@@ -9,7 +9,6 @@ ini_set('display_errors', 1);
 session_start();
 
 $success = false;
-$error = "";
 
 if (empty($_POST['razorpay_payment_id']) === false)
 {
@@ -20,14 +19,7 @@ if (empty($_POST['razorpay_payment_id']) === false)
     $signature = hash_hmac('sha256', $razorpayOrderId . '|' . $razorpayPaymentId, $keySecret);
 
     // This method is defined only for php 5.6.0 and later
-    if (string_equals($signature , $razorpaySignature))
-    {
-        $success = true;
-    }
-    else 
-    {
-        $error = "Payment Failed";
-    }
+    $success = string_equals($signature , $razorpaySignature);
 }
 
 if ($success === true)
@@ -38,7 +30,7 @@ if ($success === true)
 else 
 {
     $html = "<p>Your payment failed</p>
-             <p>Error Message: {$error}</p>";
+             <p>Error Message: Payment Failed</p>";
 }
 
 echo $html;
@@ -55,10 +47,12 @@ function string_equals($str1, $str2)
     {
         return hash_equals($str1, $str2);
     }
+
     if (strlen($str1) !== strlen($str2)) 
     {
         return false;
     }
+    
     $result = 0;
     
     for ($i = 0; $i < strlen($str1); $i++) 

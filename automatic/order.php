@@ -37,13 +37,13 @@ $html = <<<EOT
         data-amount="$amount"
         data-name="Daft Punk"
         data-description="Purchase Description"
-        data-image="vk.jpg"
+        data-image="../daft-punk.jpg"
         data-netbanking="true"
         data-description="Tron Legacy"
         data-prefill.name="Harshil Mathur"
         data-prefill.email="harshil@razorpay.com"
         data-prefill.contact="9999999999"
-        data-notes.shopping_order_id="21"
+        data-notes.shopping_order_id="3456"
         data-order_id="$razorpayOrderId">
       </script>
       <!-- Any extra fields to be submitted with the form but not sent to Razorpay -->
