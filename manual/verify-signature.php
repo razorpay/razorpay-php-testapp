@@ -2,7 +2,7 @@
 
 session_start();
 
-$keySecret = '<Your Key Secret>';
+$keySecret = '<Enter your key secret>';
 
 $success = false;
 $error = "";
