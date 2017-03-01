@@ -23,14 +23,14 @@ options.theme.image_padding = true;
 options.modal = {
     ondismiss: function() {
         console.log("This code runs when the popup is closed");
-    };
+    }
     // Boolean indicating whether pressing escape key 
     // should close the checkout form. (default: true)
     escape: true,
     // Boolean indicating whether clicking translucent blank
     // space outside checkout form should close the form. (default: false)
     backdropclose: false
-}
+};
 
 var rzp = new Razorpay(options);
 
