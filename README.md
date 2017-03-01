@@ -4,11 +4,14 @@ Sample App for Razorpay PHP Integration
 This app uses a non composer integration, ideally you should use composer to integrate the Razorpay API.
 
 # Demo
-You can see a demo of the php-testapp by opening up the demo.html file on your browser. Follow the steps below:
+You can see a demo of the php-testapp by opening up the `index.html` file on your browser. Follow the steps below:
 1. Copy the contents of config.php.sample to config.php.
 2. Enter your key id / key secret in the config.php file.
 3. If you'd like a currency other than INR, change the displayCurrency to whatever currency you'd like.
 4. Watch the demo to test out automatic or manual checkout.
+
+An easy way to test this is to run `php -S localhost:8000` in the root directory
+and opening <http://localhost:8000> in your browser.
 
 ## Contents:
 1. Automatic checkout test app
