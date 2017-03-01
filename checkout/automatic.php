@@ -1,7 +1,7 @@
 <!--  The entire list of Checkout fields is available at
  https://docs.razorpay.com/docs/checkout-form#checkout-fields -->
 
-<form action="charge.php" method="POST">
+<form action="verify.php" method="POST">
   <script
     src="https://checkout.razorpay.com/v1/checkout.js"
     data-key="<?php echo $keyId?>"
@@ -15,7 +15,7 @@
     data-prefill.email="harshil@razorpay.com"
     data-prefill.contact="9999999999"
     data-notes.shopping_order_id="3456"
-    data-order_id="$razorpayOrderId"
+    data-order_id="<?php echo $razorpayOrderId?>"
     <?php if ($displayCurrency !== 'INR') { ?> data-display_amount="<?php echo $displayAmount?>" <?php } ?>
     <?php if ($displayCurrency !== 'INR') { ?> data-display_currency="<?php echo $displayCurrency?>" <?php } ?>
   >
