@@ -4,24 +4,35 @@ require('../config.php');
 
 session_start();
 
+require('../razorpay-php/Razorpay.php');
+use Razorpay\Api\Api;
+
 $success = false;
 
 if (empty($_POST['razorpay_payment_id']) === false)
 {
-    $razorpayOrderId = $_SESSION['razorpay_order_id'];
-    $razorpayPaymentId = $_POST['razorpay_payment_id'];
-    $razorpaySignature = $_POST['razorpay_signature'];
+    $api = new Api($keyId, $keySecret);
 
-    $signature = hash_hmac('sha256', $razorpayOrderId . '|' . $razorpayPaymentId, $keySecret);
+    try
+    {
+        $attributes = array(
+            'razorpay_order_id' => $_SESSION['razorpay_order_id'],
+            'razorpay_payment_id' => $_POST['razorpay_payment_id'],
+            'razorpay_signature' => $_POST['razorpay_signature']
+        );
 
-    // This method is defined only for php 5.6.0 and later
-    $success = string_equals($signature , $razorpaySignature);
+        $success = $api->utility->verifyPaymentSignature($attributes);
+    }
+    catch(Exception $e)
+    {
+        echo 'Razorpay Error : ' . $e->getMessage();
+    }
 }
 
 if ($success === true)
 {
     $html = "<p>Your payment was successful</p>
-             <p>Payment ID: {$razorpayPaymentId}</p>";
+             <p>Payment ID: {$_POST['razorpay_payment_id']}</p>";
 }
 else 
 {
@@ -30,31 +41,3 @@ else
 }
 
 echo $html;
-
-/*
- * Taken from https://stackoverflow.com/questions/10576827/secure-string-compare-function
- * under the MIT license
- * For versions later than php 5.6.0, hash_equals is used
- * For newer versions, this manual method of comparing strings is used
- */
-function string_equals($str1, $str2)
-{
-    if (function_exists('hash_equals'))
-    {
-        return hash_equals($str1, $str2);
-    }
-
-    if (strlen($str1) !== strlen($str2)) 
-    {
-        return false;
-    }
-    
-    $result = 0;
-    
-    for ($i = 0; $i < strlen($str1); $i++) 
-    {
-        $result |= ord($str1[$i]) ^ ord($str2[$i]);
-    }
-    
-    return ($result == 0);
-}
