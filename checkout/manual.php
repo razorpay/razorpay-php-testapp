@@ -5,6 +5,7 @@
     <input type="hidden" name="razorpay_signature"  id="razorpay_signature" >
 </form>
 <script>
+// Checkout details as a json
 var options = <?php echo $json?>;
 
 /**
@@ -23,7 +24,7 @@ options.theme.image_padding = true;
 options.modal = {
     ondismiss: function() {
         console.log("This code runs when the popup is closed");
-    }
+    },
     // Boolean indicating whether pressing escape key 
     // should close the checkout form. (default: true)
     escape: true,
