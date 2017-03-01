@@ -24,6 +24,22 @@ $_SESSION['razorpay_order_id'] = $razorpayOrderId;
 
 $amount = $orderData['amount'];
 
+if ($displayCurrency !== 'INR')
+{
+    $fromCurrency = urlencode('INR');
+    $toCurrency = urlencode($displayCurrency);
+    $fromAmount = $amount / 100;
+    $url = "https://www.google.com/finance/converter?a=$fromAmount&from=$fromCurrency&to=$toCurrency";
+    $toAmount = file_get_contents($url);
+    $toAmount = explode("<span class=bld>",$toAmount);
+    $toAmount = explode("</span>",$toAmount[1]);
+    $displayAmount = preg_replace("/[^0-9\.]/", null, $toAmount[0]);
+}
+else
+{
+    $displayAmount = $amount;
+}
+
 $html = <<<EOT
 <html>
 <head lang="en">
@@ -35,6 +51,7 @@ $html = <<<EOT
         src="https://checkout.razorpay.com/v1/checkout.js"
         data-key="$keyId"
         data-amount="$amount"
+        data-currency="INR"
         data-name="Daft Punk"
         data-description="Purchase Description"
         data-image="../daft-punk.jpg"
@@ -44,7 +61,10 @@ $html = <<<EOT
         data-prefill.email="harshil@razorpay.com"
         data-prefill.contact="9999999999"
         data-notes.shopping_order_id="3456"
-        data-order_id="$razorpayOrderId">
+        data-order_id="$razorpayOrderId"
+        <?php if ($displayCurrency !== 'INR') { ?>data-display_amount="$displayAmount"<? } ?>
+        <?php if ($displayCurrency !== 'INR') { ?>data-display_currency="$displayCurrency"<? } ?>
+        >
       </script>
       <!-- Any extra fields to be submitted with the form but not sent to Razorpay -->
       <input type="hidden" name="shopping_order_id" value="3456">

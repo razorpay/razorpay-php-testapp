@@ -24,6 +24,22 @@ $_SESSION['razorpay_order_id'] = $razorpayOrderId;
 
 $amount = $orderData['amount'];
 
+if ($displayCurrency !== 'INR')
+{
+    $fromCurrency = urlencode('INR');
+    $toCurrency = urlencode($displayCurrency);
+    $fromAmount = $amount / 100;
+    $url = "https://www.google.com/finance/converter?a=$fromAmount&from=$fromCurrency&to=$toCurrency";
+    $toAmount = file_get_contents($url);
+    $toAmount = explode("<span class=bld>",$toAmount);
+    $toAmount = explode("</span>",$toAmount[1]);
+    $displayAmount = preg_replace("/[^0-9\.]/", null, $toAmount[0]);
+}
+else
+{
+    $displayAmount = $amount;
+}
+
 $html = <<<EOT
 <button id="rzp-button1">Pay with Razorpay</button>
 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
@@ -57,6 +73,13 @@ var options = {
     },
     "order_id": "$razorpayOrderId",
 };
+
+if ("$displayCurrency" !== 'INR')
+{
+    options.display_currency = "$displayCurrency";
+    options.display_amount = "$displayAmount";
+}
+
 var rzp1 = new Razorpay(options);
 
 document.getElementById('rzp-button1').onclick = function(e){

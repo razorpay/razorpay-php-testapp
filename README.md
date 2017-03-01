@@ -5,9 +5,10 @@ This app uses a non composer integration, ideally you should use composer to int
 
 # Demo
 You can see a demo of the php-testapp by opening up the demo.html file on your browser. Follow the steps below:
-1. Copy the contents of config.php.sample to config.php
-2. Enter your key id / key secret in the config.php file
-3. Watch the demo to test out automatic or manual checkout
+1. Copy the contents of config.php.sample to config.php.
+2. Enter your key id / key secret in the config.php file.
+3. If you'd like a currency other than INR, change the displayCurrency to whatever currency you'd like.
+4. Watch the demo to test out automatic or manual checkout.
 
 ## Contents:
 1. Automatic checkout test app
