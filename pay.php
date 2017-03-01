@@ -41,24 +41,24 @@ if (isset($_GET['checkout']) and in_array($_GET['checkout'], ['automatic', 'manu
 }
 
 $data = [
-    "key"           =>  $keyId,
-    "amount"        =>  $amount, 
-    "name"          =>  "Merchant Name",
-    "description"   =>  "Purchase Description",
-    "image"         =>  "../daft-punk.jpg",
-    "prefill"       =>  [
-        "name"      =>  "Test customer",
-        "email"     =>  "customer@merchant.com",
-        "contact"   =>  "9999999999",
+    "key"               => $keyId,
+    "amount"            => $amount,
+    "name"              => "Merchant Name",
+    "description"       => "Purchase Description",
+    "image"             => "../daft-punk.jpg",
+    "prefill"           => [
+    "name"              => "Test customer",
+    "email"             => "customer@merchant.com",
+    "contact"           => "9999999999",
     ],
-    "notes"         =>  [
-        "address"   =>  "Hello World",
-        "merchant_order_id" =>  "12312321",
+    "notes"             => [
+    "address"           => "Hello World",
+    "merchant_order_id" => "12312321",
     ],
-    "theme" =>  [
-        "color" =>  "#F37254"
+    "theme"             => [
+    "color"             => "#F37254"
     ],
-    "order_id"  =>  $razorpayOrderId,
+    "order_id"          => $razorpayOrderId,
 ];
 
 if ($displayCurrency !== 'INR')

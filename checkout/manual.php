@@ -19,7 +19,7 @@ options.handler = function (response){
 };
 
 // Boolean whether to show image inside a white frame. (default: true)
-options.theme.image_padding = true;
+options.theme.image_padding = false;
 
 options.modal = {
     ondismiss: function() {
