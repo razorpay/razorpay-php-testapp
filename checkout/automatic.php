@@ -1,3 +1,6 @@
+<!--  The entire list of Checkout fields is available at
+ https://docs.razorpay.com/docs/checkout-form#checkout-fields -->
+
 <form action="charge.php" method="POST">
   <script
     src="https://checkout.razorpay.com/v1/checkout.js"
