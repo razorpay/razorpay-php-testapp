@@ -29,17 +29,18 @@ class Utility
         // Use lang's built-in hash_equals if exists to mitigate timing attacks
         if (function_exists('hash_equals'))
         {
-            if (hash_equals($actualSignature, $expectedSignature) === true)
-            {
-                return true;
-            }
+            $verified = hash_equals($actualSignature, $expectedSignature);
         }
-        else if ($this->hashEquals($actualSignature, $expectedSignature) === true)
+        else
         {
-            return true;
+            $verified = $this->hashEquals($actualSignature, $expectedSignature);
         }
 
-        throw new Errors\BadRequestError('Invalid signature');
+        if ($verified === false)
+        {
+            throw new Errors\SignatureVerificationError(
+                'Invalid signature passed');
+        }
     }
 
     private function hashEquals($actualSignature, $expectedSignature)
