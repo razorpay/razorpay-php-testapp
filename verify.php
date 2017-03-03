@@ -8,7 +8,7 @@ require('razorpay-php/Razorpay.php');
 use Razorpay\Api\Api;
 use Razorpay\Api\Errors\SignatureVerificationError;
 
-$success = false;
+$success = true;
 
 $error = "Payment Failed";
 
@@ -27,10 +27,11 @@ if (empty($_POST['razorpay_payment_id']) === false)
             'razorpay_signature' => $_POST['razorpay_signature']
         );
 
-        $success = $api->utility->verifyPaymentSignature($attributes);
+        $api->utility->verifyPaymentSignature($attributes);
     }
     catch(SignatureVerificationError $e)
     {
+        $success = false;
         $error = 'Razorpay Error : ' . $e->getMessage();
     }
 }
