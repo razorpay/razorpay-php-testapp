@@ -2,16 +2,15 @@
 
 require('config.php');
 
-//These should be commented out in production
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 session_start();
 
 require('razorpay-php/Razorpay.php');
 use Razorpay\Api\Api;
+use Razorpay\Api\Errors\SignatureVerificationError;
 
 $success = false;
+
+$error = "Payment Failed";
 
 if (empty($_POST['razorpay_payment_id']) === false)
 {
@@ -30,9 +29,9 @@ if (empty($_POST['razorpay_payment_id']) === false)
 
         $success = $api->utility->verifyPaymentSignature($attributes);
     }
-    catch(Exception $e)
+    catch(SignatureVerificationError $e)
     {
-        echo 'Razorpay Error : ' . $e->getMessage();
+        $error = 'Razorpay Error : ' . $e->getMessage();
     }
 }
 
@@ -41,10 +40,10 @@ if ($success === true)
     $html = "<p>Your payment was successful</p>
              <p>Payment ID: {$_POST['razorpay_payment_id']}</p>";
 }
-else 
+else
 {
     $html = "<p>Your payment failed</p>
-             <p>Error Message: Payment Failed</p>";
+             <p>{$error}</p>";
 }
 
 echo $html;

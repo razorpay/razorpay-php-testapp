@@ -10,11 +10,15 @@ use Razorpay\Api\Api;
 
 $api = new Api($keyId, $keySecret);
 
+//
+// We create an razorpay order using orders api
+// Docs: https://docs.razorpay.com/docs/orders
+//
 $orderData = [
     'receipt'         => 3456,
     'amount'          => 2000 * 100, // 2000 rupees in paise
     'currency'        => 'INR',
-    'payment_capture' => 1 // auto capture 
+    'payment_capture' => 1 // auto capture
 ];
 
 $razorpayOrder = $api->order->create($orderData);
@@ -43,11 +47,11 @@ if (isset($_GET['checkout']) and in_array($_GET['checkout'], ['automatic', 'manu
 $data = [
     "key"               => $keyId,
     "amount"            => $amount,
-    "name"              => "Merchant Name",
-    "description"       => "Purchase Description",
-    "image"             => "../daft-punk.jpg",
+    "name"              => "DJ Tiesto",
+    "description"       => "Tron Legacy",
+    "image"             => "https://s29.postimg.org/r6dj1g85z/daft_punk.jpg",
     "prefill"           => [
-    "name"              => "Test customer",
+    "name"              => "Daft Punk",
     "email"             => "customer@merchant.com",
     "contact"           => "9999999999",
     ],
