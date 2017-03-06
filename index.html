@@ -1,25 +1,37 @@
+<!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="http://yegor256.github.io/tacit/tacit.min.css"/>
 </head>
 <body>
-    <form action="charge.php" method="POST">
-      <script
-        src="https://checkout.razorpay.com/v1/checkout.js"
-        data-key="rzp_test_WyK93y9mvps7SN"
-        data-amount="5100"
-        data-name="Daft Punk"
-        data-description="Purchase Description"
-        data-image="vk.jpg"
-        data-netbanking="true"
-        data-description="Tron Legacy"
-        data-prefill.name="Harshil Mathur"
-        data-prefill.email="harshil@razorpay.com"
-        data-prefill.contact="9999999999"
-        data-notes.shopping_order_id="21">
-      </script>
-      <!-- Any extra fields to be submitted with the form but not sent to Razorpay -->
-      <input type="hidden" name="shopping_order_id" value="21">
+    <form id="checkout-selection" method="POST">
+        <input type="radio" name="checkout" value="automatic">Automatic Checkout Demo<br>
+        <input type="radio" name="checkout" value="orders">Manual Checkout Demo<br>
+        <input type="submit" value="Submit">
     </form>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) 
+        {
+            var form = $('#checkout-selection');
+            var radio = $('input[name="checkout"]');
+            var choice = '';
+
+            radio.change(function(e) 
+            {
+                choice = this.value;
+                if (choice === 'orders') 
+                {
+                    form.attr('action', 'pay.php?checkout=manual');
+                } 
+                else 
+                {
+                    form.attr('action', 'pay.php?checkout=automatic');
+                }
+            });
+        });
+    </script>
+
 </body>
 </html>
