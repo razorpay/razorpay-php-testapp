@@ -18,6 +18,14 @@ options.handler = function (response){
     document.razorpayform.submit();
 };
 
+/* 
+If you want to use the callback_url and no the handler function then follow the below steps
+1.comment down or remove the code from the line number 15-19.
+2. use the below link of code instead 
+    options.callback_url="https://www.example.com/payment/success/";
+once the payment is done you'll get the response on the above callback_url
+ */
+
 // Boolean whether to show image inside a white frame. (default: true)
 options.theme.image_padding = false;
 
