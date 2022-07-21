@@ -1,7 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: composer
-    directory: "/"
+    directory: "razorpay-php/"
     schedule:
       interval: daily
       time: "04:00"
