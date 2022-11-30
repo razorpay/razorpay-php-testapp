@@ -4,8 +4,17 @@ namespace Razorpay\Api;
 
 use Requests;
 use Exception;
+use Requests_Hooks;
 use Razorpay\Api\Errors;
 use Razorpay\Api\Errors\ErrorCode;
+
+
+// Available since PHP 5.5.19 and 5.6.3
+// https://git.io/fAMVS | https://secure.php.net/manual/en/curl.constants.php
+if (defined('CURL_SSLVERSION_TLSv1_1') === false)
+{
+    define('CURL_SSLVERSION_TLSv1_1', 5);
+}
 
 /**
  * Request class to communicate to the request libarary
@@ -17,7 +26,7 @@ class Request
      * @var array
      */
     protected static $headers = array(
-        'Razorpay-API'  =>  1
+        'Razorpay-API'  =>  1    
     );
 
     /**
@@ -25,6 +34,7 @@ class Request
      * @param  string   $method HTTP Verb
      * @param  string   $url    Relative URL for the request
      * @param  array $data Data to be passed along the request
+     * @param  array $additionHeader headers to be passed along the request
      * @return array Response data in array format. Not meant
      * to be used directly
      */
@@ -32,18 +42,27 @@ class Request
     {
         $url = Api::getFullUrl($url);
 
+        $hooks = new Requests_Hooks();
+
+        $hooks->register('curl.before_send', array($this, 'setCurlSslOpts'));
+
         $options = array(
             'auth' => array(Api::getKey(), Api::getSecret()),
+            'hook' => $hooks,
             'timeout' => 60
         );
-
+        
         $headers = $this->getRequestHeaders();
 
-        $response = Requests::request($url, $headers, $data, $method, $options);
-
+        $response = Requests::request($url, $headers, $data, $method, $options);  
         $this->checkErrors($response);
 
         return json_decode($response->body, true);
+    }
+
+    public function setCurlSslOpts($curl)
+    {
+        curl_setopt($curl, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1_1);
     }
 
     /**
@@ -138,8 +157,9 @@ class Request
     {
         $uaHeader = array(
             'User-Agent' => $this->constructUa()
+            
         );
-
+        
         $headers = array_merge(self::$headers, $uaHeader);
 
         return $headers;
