@@ -8,32 +8,50 @@ class Utility
 
     public function verifyPaymentSignature($attributes)
     {
-        $expectedSignature = $attributes['razorpay_signature'];
-        $orderId = $attributes['razorpay_order_id'];
+        $actualSignature = $attributes['razorpay_signature'];
+
         $paymentId = $attributes['razorpay_payment_id'];
 
-        $payload = $orderId . '|' . $paymentId;
+        if (isset($attributes['razorpay_order_id']) === true)
+        {
+            $orderId = $attributes['razorpay_order_id'];
 
-        return self::verifySignature($payload, $expectedSignature);
+            $payload = $orderId . '|' . $paymentId;
+        }
+        else if (isset($attributes['razorpay_subscription_id']) === true)
+        {
+            $subscriptionId = $attributes['razorpay_subscription_id'];
+
+            $payload = $paymentId . '|' . $subscriptionId;
+        }
+        else
+        {
+            throw new Errors\SignatureVerificationError(
+                'Either razorpay_order_id or razorpay_subscription_id must be present.');
+        }
+
+        $secret = Api::getSecret();
+
+        self::verifySignature($payload, $actualSignature, $secret);
     }
 
-    public function verifyWebhookSignature($payload, $expectedSignature)
+    public function verifyWebhookSignature($payload, $actualSignature, $secret)
     {
-        return self::verifySignature($payload, $expectedSignature);
+        self::verifySignature($payload, $actualSignature, $secret);
     }
 
-    public function verifySignature($payload, $expectedSignature)
+    public function verifySignature($payload, $actualSignature, $secret)
     {
-        $actualSignature = hash_hmac(self::SHA256, $payload, Api::getSecret());
+        $expectedSignature = hash_hmac(self::SHA256, $payload, $secret);
 
         // Use lang's built-in hash_equals if exists to mitigate timing attacks
         if (function_exists('hash_equals'))
         {
-            $verified = hash_equals($actualSignature, $expectedSignature);
+            $verified = hash_equals($expectedSignature, $actualSignature);
         }
         else
         {
-            $verified = $this->hashEquals($actualSignature, $expectedSignature);
+            $verified = $this->hashEquals($expectedSignature, $actualSignature);
         }
 
         if ($verified === false)
@@ -43,7 +61,7 @@ class Utility
         }
     }
 
-    private function hashEquals($actualSignature, $expectedSignature)
+    private function hashEquals($expectedSignature, $actualSignature)
     {
         if (strlen($expectedSignature) === strlen($actualSignature))
         {
