@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "0320650f5da8e9cd6c4c985279a9963a",
@@ -53,36 +53,35 @@
                 "iri",
                 "sockets"
             ],
-            "time": "2014-05-18 04:59:02"
+            "time": "2014-05-18T04:59:02+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "raveren/kint",
-            "version": "1.0.10",
+            "version": "v1.2.10",
             "source": {
                 "type": "git",
-                "url": "https://github.com/raveren/kint.git",
-                "reference": "c8423b9928bd35bf6ad14c688ab9c6d17d97d0eb"
+                "url": "https://github.com/php-sage/sage.git",
+                "reference": "16b6ed64d7c3dfd215f44497f98fb1d49cdbdd43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/raveren/kint/zipball/c8423b9928bd35bf6ad14c688ab9c6d17d97d0eb",
-                "reference": "c8423b9928bd35bf6ad14c688ab9c6d17d97d0eb",
+                "url": "https://api.github.com/repos/php-sage/sage/zipball/16b6ed64d7c3dfd215f44497f98fb1d49cdbdd43",
+                "reference": "16b6ed64d7c3dfd215f44497f98fb1d49cdbdd43",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.1.0"
             },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
+            "require-dev": {
+                "seld/phar-utils": "^1.2",
+                "symfony/finder": "^3.0 || ^4.0 || ^5.0"
             },
+            "type": "library",
             "autoload": {
                 "files": [
-                    "Kint.class.php"
+                    "Sage.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -96,17 +95,25 @@
                 },
                 {
                     "name": "Contributors",
-                    "homepage": "https://github.com/raveren/kint/contributors"
+                    "homepage": "https://github.com/phpsage/sage/contributors"
                 }
             ],
-            "description": "Kint - debugging helper for PHP developers",
-            "homepage": "https://github.com/raveren/kint",
+            "description": "☯ Insightful PHP debugging assistant.",
+            "homepage": "https://github.com/phpsage/sage",
             "keywords": [
                 "debug",
-                "kint",
-                "php"
+                "debug_backtrace",
+                "json_decode",
+                "php",
+                "sage",
+                "var_dup"
             ],
-            "time": "2015-09-16 14:09:00"
+            "support": {
+                "issues": "https://github.com/php-sage/sage/issues",
+                "source": "https://github.com/php-sage/sage/tree/v1.2.10"
+            },
+            "abandoned": "php-sage/sage",
+            "time": "2022-01-13T22:50:03+00:00"
         }
     ],
     "aliases": [],
@@ -118,5 +125,6 @@
         "php": ">=5.3.2",
         "ext-json": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
