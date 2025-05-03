@@ -29,7 +29,7 @@
     "license": "MIT",
     "require": {
         "php": ">=5.3.2",
-        "rmccue/requests": "v1.6.1",
+        "rmccue/requests": "v2.0.12",
         "ext-json": "*"
     },
     "require-dev": {
