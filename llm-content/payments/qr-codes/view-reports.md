@@ -15,14 +15,14 @@ You can generate the QR Codes report from the Dashboard.
          2. Navigate to **Reports**.
          3. On the Reports page, enter the following details:
             1. **Select Report Type**: Select the **QR Codes Report**.
-                ![Select QR Codes Report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-codes-report.jpg.md) 
+                ![Select QR Codes Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-codes-report.jpg.md) 
             2. **Select Period**: Select the period for which the report should be generated.
             3. **Select Format**: Select the file format. You can report in CSV, XLS and XLSX formats.
             4. **Email Report To**: You can send the report to the email address registered with Razorpay.
          4. Click **Generate Report**.
-             ![Generate a QR Codes Report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-codes-report-2.jpg.md)
+             ![Generate a QR Codes Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-codes-report-2.jpg.md)
 
-            Download a [sample QR Codes Report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/sample-qrcode-report.xlsx.md).
+            Download a [sample QR Codes Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/sample-qrcode-report.xlsx.md).
         
 
 Once the report is generated, you can view the following fields:

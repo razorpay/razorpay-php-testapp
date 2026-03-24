@@ -21,12 +21,12 @@ List of Documents for a Sole Proprietorship
 
 - **Account Opening Form** (duly signed by all Authorised Signatories with relevant seals)
 - **Customer Information Form(s)** (CIF) of all Authorised Signatories/Proprietor signed in individual capacities.
-- [ 2 ID proofs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/sole-proprietorship/#list-of-other-applicable-documents.md) in the name of the entity.
-- [KYC of Proprietor](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/kyc.md).
-- [KYC of Authorised Signatory](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/kyc.md) (if different from proprietor).
-- Nature of industry proof (in case not indicative in [entity documents](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/sole-proprietorship/#list-of-other-applicable-documents.md), please check for invoice copy, bill of entry, freight invoice, or agreement copy).
+- [ 2 ID proofs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/sole-proprietorship.md#list-of-other-applicable-documents) in the name of the entity.
+- [KYC of Proprietor](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/kyc.md).
+- [KYC of Authorised Signatory](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/kyc.md) (if different from proprietor).
+- Nature of industry proof (in case not indicative in [entity documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/sole-proprietorship.md#list-of-other-applicable-documents), please check for invoice copy, bill of entry, freight invoice, or agreement copy).
 
-[Download Forms](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/IDFC.zip.md)
+[Download Forms](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/IDFC.zip.md)
     
 
     

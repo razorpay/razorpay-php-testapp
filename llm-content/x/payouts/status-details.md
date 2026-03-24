@@ -6,7 +6,7 @@ description: Check the status of payouts on the RazorpayX Dashboard.
 
 # Check Payout Status
 
-Payout Status details are returned when a payout is created and moves to another state. Know more about [Payout States](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle.md).
+Payout Status details are returned when a payout is created and moves to another state. Know more about [Payout States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md).
 
 > **WARN**
 >
@@ -20,8 +20,8 @@ Payout Status details are returned when a payout is created and moves to another
 
 Status details shows intermediate statuses (`pending`, `processing`, `queued`) and terminal states (`reversed` and `failed`) along with the payout clearance SLA. You can view the status of a payout in the following places: 
 - [RazorpayX Dashboard](#check-status-on-dashboard)
-- [Fetch Payout API response](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md)
-- [Webhook Payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md)
+- [Fetch Payout API response](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md)
+- [Webhook Payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md)
 
 Status details also tells you why a payout is in the `processing` state. Some reasons include:
 
@@ -50,7 +50,7 @@ You can check the status details of a payout in three ways on the RazorpayX Dash
 
              1. Click the **Need Help?** widget. 
              1. In the right pane, use commas to enter multiple Payout IDs in the text box.   
-                ![Search Payout Status on RazorpayX Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-payout-status-support-search.jpg.md)
+                ![Search Payout Status on RazorpayX Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-payout-status-support-search.jpg.md)
              1. Click **Search**. 
 
              It opens a list view of the payouts along with their statuses. You can hover over the payout status or open the summary view for more information on the payout's status. 
@@ -62,7 +62,7 @@ You can check the status details of a payout in three ways on the RazorpayX Dash
              2. Navigate to **Payouts** from the left menu.
              3. Select the particular payout to open the summary view in the right pane.
 
-                 ![Payout status details on RazorpayX Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-payouts-status-summary.jpg.md)
+                 ![Payout status details on RazorpayX Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-payouts-status-summary.jpg.md)
             
 
         
@@ -70,12 +70,12 @@ You can check the status details of a payout in three ways on the RazorpayX Dash
 
              You can also subscribe to daily reports to receive a detailed document on the status, status and SLA for the payouts in the `processing` status. 
              
-             To subscribe, [raise a support ticket](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md) from the RazorpayX Dashboard with a list of recipient email IDs. We will enable the function for you in 3 working days.
+             To subscribe, [raise a support ticket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md) from the RazorpayX Dashboard with a list of recipient email IDs. We will enable the function for you in 3 working days.
             
 
     
 
-![Check Payout Status on RazorpayX Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-check-payout-status-dashboard.jpg.md)
+![Check Payout Status on RazorpayX Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-check-payout-status-dashboard.jpg.md)
 
 ## Payout Status Details
 Find below an exhaustive list of payout statuses, their details and also possible steps you can take to proceed further.
@@ -402,6 +402,6 @@ Find below an exhaustive list of payout statuses, their details and also possibl
 
 ### Related Information
 
-- [About Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md)
-- [Payout Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/best-practices.md)
-- [Status Details via API](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md)
+- [About Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md)
+- [Payout Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/best-practices.md)
+- [Status Details via API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md)

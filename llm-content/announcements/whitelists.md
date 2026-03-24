@@ -13,11 +13,11 @@ SSL certificates for `api.razorpay.com` with valid date ranges are tabulated bel
 
  Certificate File | Valid From | Expiry
  ---
- [X3.pem](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x3.pem.md) & [Chain](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x3-chain.pem.md) | March 13th, 2020 | July 28th, 2021
+ [X3.pem](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x3.pem.md) & [Chain](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x3-chain.pem.md) | March 13th, 2020 | July 28th, 2021
  ---
- [X2.pem](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x2.pem.md) & [Chain](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x2-chain.pem.md) | April 10th, 2019 | April 15th, 2020
+ [X2.pem](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x2.pem.md) & [Chain](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x2-chain.pem.md) | April 10th, 2019 | April 15th, 2020
  ---
- [X1.pem](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x1.pem.md) & [Chain](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x1-chain.pem.md) | Feb 7th, 2016 | April 12th, 2019
+ [X1.pem](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x1.pem.md) & [Chain](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x1-chain.pem.md) | Feb 7th, 2016 | April 12th, 2019
 
 As we roll out our infrastructure changes on a gradual basis, we recommend whitelisting our certificate as per Valid From/Expiry timelines. If they overlap, you should whitelist all of the certificates in that range.
 
@@ -57,4 +57,4 @@ List of Razorpay IPs from which Webhooks are sent from our servers:
 52.66.76.63
 ```
 
-It is highly recommended to use [Webhook Signature](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/#validation.md) to validate the integrity of the webhooks, even though you have whitelisted our Webhook IPs.
+It is highly recommended to use [Webhook Signature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md#validation) to validate the integrity of the webhooks, even though you have whitelisted our Webhook IPs.

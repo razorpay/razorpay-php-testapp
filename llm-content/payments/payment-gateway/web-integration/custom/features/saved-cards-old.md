@@ -10,13 +10,13 @@ You can save sensitive card information entered by the customer as "tokens" in R
 ## Prerequisites
 
 - Sign up for a Razorpay account.
-- [Generate the API Keys on Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/#api-keys.md).
+- [Generate the API Keys on Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings.md#api-keys).
 
 Watch the video to see how to generate API key in Test Mode.
 
 [Video: https://www.youtube.com/embed/6mJnOWZDhDo]
 
-- [Integrate with our Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
+- [Integrate with our Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
 
 > **WARN**
 >
@@ -38,7 +38,7 @@ Watch the video to see how to generate API key in Test Mode.
 
 Flash Checkout enables you to save customer card details right on Standard Checkout. Authentication is done using PCI DSS compliant technology to ensure that all the card information is stored with maximum possible security.
 
-**Read more:** [Learn more about Flash Checkout.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/#flash-checkout.md)
+**Read more:** [Learn more about Flash Checkout.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings.md#flash-checkout)
 
 Watch this video to see how to enable or disable Flash Checkout:
 
@@ -54,7 +54,7 @@ Razorpay identifies a customer by a unique customer identifier generated at the 
 
 Razorpay identifies a customer by a unique customer identifier generated at the time of creation. This allows Razorpay to take action on a particular customer on behalf of the merchant for example, send an invoice, set recurring payments, and others./create-customer-req
 
-**Read More**: [Learn more about Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md).
+**Read More**: [Learn more about Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md).
 
 ### Step 3: Save the Card Details on Checkout
 
@@ -139,7 +139,7 @@ Once the payment is complete, token is generated with these card details.
 >     - If CVV is still collected for tokenised cards and the customer enters a CVV, pass the entered CVV value to Razorpay.        
 >     
 
-**Read more:** [Learn about the other Checkout parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md) for web integration.
+**Read more:** [Learn about the other Checkout parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md) for web integration.
 
 ### Step 4: Fetch all Tokens of Customer
 

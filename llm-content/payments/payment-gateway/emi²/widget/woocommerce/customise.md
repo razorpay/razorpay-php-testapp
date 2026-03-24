@@ -19,11 +19,11 @@ After successfully integrating Affordability Widget with your WooCommerce websit
 To customise the widget:
 
 1. Log in to the [WordPress account](https://wordpress.com/log-in), navigate to **WooCommerce** → **Settings** and click the **Payments** tab.
-    ![WooCommerce settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/woocommerce-settings.jpg.md)
+    ![WooCommerce settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/woocommerce-settings.jpg.md)
 2. In the **Payments** tab, scroll down to **Razorpay** and click **Manage** to edit the settings.
-    ![edit](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-razorpay-edit.jpg.md)
+    ![edit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-razorpay-edit.jpg.md)
 3. Select **Affordability Widget**.
-    ![Select Affordability Widget to customise the widget](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-woocommerce-affordability.jpg.md)
+    ![Select Affordability Widget to customise the widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-woocommerce-affordability.jpg.md)
 
 You can now customise the following options:
 
@@ -61,7 +61,7 @@ You can now customise the following options:
 
 ## 1. Offers 
 
-Configure the offers you want to display on the website based on your requirement. The customers can choose from a wide range of offers for your product or service. Know how to [create offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create.md).
+Configure the offers you want to display on the website based on your requirement. The customers can choose from a wide range of offers for your product or service. Know how to [create offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md).
 
 > **INFO**
 >
@@ -71,7 +71,7 @@ Configure the offers you want to display on the website based on your requiremen
 > By default, all the offers marked visible on the Dashboard during the offer creation appear on the widget.
 > 
 
-![Configure the offers on the widget](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-woocommerce-offers.jpg.md)
+![Configure the offers on the widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-woocommerce-offers.jpg.md)
 
 #### 1.1 Offers Enable/Disable
 
@@ -80,7 +80,7 @@ To disable the offers, clear the check box. If you disable the offers completely
 
 #### 1.2 Additional Offers
 
-By default, all those offers with the **Show Offer on Checkout** option enabled during creation will appear on the widget. Additionally, you can enter the `offer_id` of the offer that did not have the [Show Offer on Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create#offer-validity:~:text=Show%20Offer%20on%20Checkout.md) option enabled during offer creation.
+By default, all those offers with the **Show Offer on Checkout** option enabled during creation will appear on the widget. Additionally, you can enter the `offer_id` of the offer that did not have the [Show Offer on Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md#offer-validity:~:text=Show%20Offer%20on%20Checkout) option enabled during offer creation.
 
 #### 1.3 Limited Offers
 
@@ -94,7 +94,7 @@ Select the check box to display the exact discount amount on the widget. This wi
 
 Configure the payment methods you want to display on the website based on your requirement.
 
-![Configure the Payment Methods on the widget](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-woocommerce-payment-methods.jpg.md)
+![Configure the Payment Methods on the widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-woocommerce-payment-methods.jpg.md)
 
 #### 2.1 Card EMI Enable/Disable
 
@@ -102,7 +102,7 @@ To display the **Card EMI** payment option, select the **Enable Card EMI** check
 
 #### 2.2 Limited Card EMI Providers
 
-Razorpay supports [Debit Card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#5-can-you-provide-a-list-of-the.md) and [Credit Card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#1-what-are-the-standard-credit-card-interest.md) EMI providers for EMI options. By default, all EMI options satisfying the minimum transaction amount will appear on the widget. If you want to display limited EMI options on the widget, enter the list of **provider codes** based on your requirement.
+Razorpay supports [Debit Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#5-can-you-provide-a-list-of-the) and [Credit Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#1-what-are-the-standard-credit-card-interest) EMI providers for EMI options. By default, all EMI options satisfying the minimum transaction amount will appear on the widget. If you want to display limited EMI options on the widget, enter the list of **provider codes** based on your requirement.
 
     
 > **INFO**
@@ -120,7 +120,7 @@ To display the **Cardless EMI** payment option, select the **Enable Cardless EMI
 
 #### 2.4 Limited Cardless EMI Providers
 
-Razorpay supports [these providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#cardless-emi.md) for Cardless EMI options. By default, all Cardless EMI options satisfying the minimum transaction amount will appear on the widget. To display limited Cardless EMI options on the widget, enter the list of **provider codes** based on your requirement.
+Razorpay supports [these providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#cardless-emi) for Cardless EMI options. By default, all Cardless EMI options satisfying the minimum transaction amount will appear on the widget. To display limited Cardless EMI options on the widget, enter the list of **provider codes** based on your requirement.
     
 > **INFO**
 >
@@ -133,11 +133,11 @@ Razorpay supports [these providers](@/Applications/MAMP/htdocs/new-docs/llm-cont
 
 #### 2.5 Pay Later Enable/Disable
 
-To display the [Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later.md) payment option, select the **Enable Pay Later** check box. To disable the Pay Later payment option, clear the check box. If you disable the Pay Later options, they will not appear on the widget and the customers will not be able to view them.
+To display the [Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md) payment option, select the **Enable Pay Later** check box. To disable the Pay Later payment option, clear the check box. If you disable the Pay Later options, they will not appear on the widget and the customers will not be able to view them.
 
 ### 2.6 Limited Pay Later Providers
 
-Razorpay supports [these providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs#2-what-are-the-standard-interest-rates-charged.md) for Pay Later options. By default, all Pay Later options satisfying the minimum transaction amount will appear on the widget. If you want to display limited Pay Later options on the widget, enter the list of **provider codes** based on your requirement.
+Razorpay supports [these providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#2-what-are-the-standard-interest-rates-charged) for Pay Later options. By default, all Pay Later options satisfying the minimum transaction amount will appear on the widget. If you want to display limited Pay Later options on the widget, enter the list of **provider codes** based on your requirement.
     
 > **INFO**
 >
@@ -151,10 +151,10 @@ Razorpay supports [these providers](@/Applications/MAMP/htdocs/new-docs/llm-cont
 
 Alter the appearance of the widget based on your website. You can customise the widget based on the following themes and colors.
 
-![Configure the themes and colours of the widget](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-woocommerce-theme.jpg.md)
+![Configure the themes and colours of the widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-woocommerce-theme.jpg.md)
 
 - **Widget Theme Colour**: Enter the 6-character HEX code of the theme based on your requirement. The default theme colour is blue.
-![Configure the widget theme colour](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-theme-colour.jpg.md)
+![Configure the widget theme colour](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-theme-colour.jpg.md)
 
 - **Heading Colour**: Enter the 6-character HEX code of the heading colour based on your requirement. The default colour is black.
 
@@ -167,19 +167,19 @@ Alter the appearance of the widget based on your website. You can customise the 
 > 
 
 - **Heading Font Size**: Enter the font size of the heading based on your requirement. The default size is 12.
-![Customise the heading colour and font size](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-heading.jpg.md)
+![Customise the heading colour and font size](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-heading.jpg.md)
 
 - **Content Colour**: Enter the 6-character HEX code of the content colour based on your requirement. The default colour is grey.
 
 - **Content Font Size**: Enter the font size of the content based on your requirement. The default size is 12.
-![Customise the content colour and font size](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-content.jpg.md)
+![Customise the content colour and font size](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-content.jpg.md)
 
-![View the customisation field on the WooCommerce Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-woocommerce-theme2.jpg.md)
+![View the customisation field on the WooCommerce Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-woocommerce-theme2.jpg.md)
 
 - **Link Colour**: Enter the 6-character HEX code of the link colour based on your requirement. The default colour is blue.
 
 - **Link Font Size**: Enter the font size of the link based on your requirement. The default size is 12.
-![Customise the link colour and font size](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-link.jpg.md)
+![Customise the link colour and font size](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-link.jpg.md)
 
 - **Footer Colour**: Enter the 6-character HEX code of the footer colour based on your requirement. The default colour is grey.
 
@@ -191,11 +191,11 @@ Alter the appearance of the widget based on your website. You can customise the 
 
     If you want to display the light variant of the logo, clear the **Enable Dark Logo** check box.
 
-![Customise the appearance of the logo on the widget](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-dark-logo.jpg.md)
+![Customise the appearance of the logo on the widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-dark-logo.jpg.md)
 
 Once you customise the widget based on your requirement, click **Save Changes**.
 
 ### Related Information
 
-- [Affordability Widget: WooCommerce FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#woocommerce.md)
-- [About Affordability Widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget.md)
+- [Affordability Widget: WooCommerce FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#woocommerce)
+- [About Affordability Widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget.md)

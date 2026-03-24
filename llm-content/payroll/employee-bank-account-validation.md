@@ -45,7 +45,7 @@ Common use cases include:
                     - Beneficiary Name (as it appears on your bank account)
                 6. Click **Continue** to initiate the penny drop validation process.
                 7. Wait for administrator approval notification.
-                    ![Upload document and verfiy the info](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/sent-approval-ca.jpg.md) 
+                    ![Upload document and verfiy the info](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/sent-approval-ca.jpg.md) 
                 The system will automatically verify your account through a penny drop test transaction to confirm the account exists and matches your details.
               
 
@@ -59,7 +59,7 @@ Common use cases include:
                 5. Make an approval decision:
                     - Approve the account if details are correct and validation is successful.
                     - Reject the account with a comment explaining the reason.
-                     ![Approve or reject the bank account information](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/approve-ca.jpg.md) 
+                     ![Approve or reject the bank account information](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/approve-ca.jpg.md) 
                 6. Submit the decision which triggers notification to the employee.
                 
                 
@@ -107,7 +107,7 @@ Common use cases include:
                     1. A cancelled cheque with your name printed on it.
                     2. A recent bank statement showing your account details.
               6. Enter the OTP sent to your verified emailID.
-                    ![enter OTP sent to your valid emailID](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/otp-ca.jpg.md) 
+                    ![enter OTP sent to your valid emailID](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/otp-ca.jpg.md) 
               7. Click **Continue** to send your information for review.
               8. Wait for administrator approval notification.
               Your uploaded document will be manually verified by an administrator to confirm your account details before approval.

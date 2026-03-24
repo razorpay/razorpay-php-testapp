@@ -11,13 +11,13 @@ The Linked Account users can initiate a refund for individual transaction levels
 
 By default, refunds are processed using the Linked Account’s unsettled balance. However, Razorpay Route provides the option to use a Refund Credits pool to process these transactions, instead of the existing unsettled balance.
 
-The Linked Account holders must send an offline request to you to use [Refund Credits](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/#enable-refund-credits.md). Upon gaining access, funds can be transferred to the Refund Credits pool through the account number that you share.
+The Linked Account holders must send an offline request to you to use [Refund Credits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md#enable-refund-credits). Upon gaining access, funds can be transferred to the Refund Credits pool through the account number that you share.
 
 Once enabled, only Refund Credits can be used to process refunds. The **Refund Credits** can be seen on the **Reversals** screen as shown below:
 
-![Refund credits on the Reversals screen](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/Route-Refund-Credits.jpg.md)
+![Refund credits on the Reversals screen](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/Route-Refund-Credits.jpg.md)
 
-You can initiate the following types of refunds from the Linked Account: [Individual Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/initiate-refund/#individual-refunds.md), [Full Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/initiate-refund/#full-refund.md), [Partial Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/initiate-refund/#partial-refund.md) and [Batch Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/initiate-refund/#batch-refunds.md).
+You can initiate the following types of refunds from the Linked Account: [Individual Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/initiate-refund.md#individual-refunds), [Full Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/initiate-refund.md#full-refund), [Partial Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/initiate-refund.md#partial-refund) and [Batch Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/initiate-refund.md#batch-refunds).
 
 ## Refund Checklist
 
@@ -26,7 +26,7 @@ You can initiate the following types of refunds from the Linked Account: [Indivi
 - To allow refund capability for an existing account, go to the **Accounts** tab and enable the **Allow Refunds** option against the relevant account.
 
     
-![Refund checklist page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route_allow_refund.jpg.md)
+![Refund checklist page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route_allow_refund.jpg.md)
 
 ## Initiate Refund
 
@@ -53,7 +53,7 @@ To initiate a full refund:
 
 The screen appears as shown below:
 
-![Full refund page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/Route-Full-Refund.jpg.md)
+![Full refund page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/Route-Full-Refund.jpg.md)
 
 ### Partial Refund
 
@@ -63,7 +63,7 @@ To initiate a partial refund:
 
 The screen appears as shown below:
 
-![Partial refund page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/Route-Partial-Refund.jpg.md)
+![Partial refund page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/Route-Partial-Refund.jpg.md)
 
 ### Batch Refund
 
@@ -89,7 +89,7 @@ Once uploaded, if the funds are sufficient, the batch file is processed.
 After the batch refund is processed, you can download the output file to view the reversals. In case some of the batch records were not processed, an error is displayed for such records. You may then attempt a repeat refund after handling the errors.
 
 ### Related Information
-- [Route](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route.md)
-- [Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account.md)
-- [Reversals and Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/reversals-settlements.md)
-- [Manage Profile and Team](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/manage-profile.md)
+- [Route](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route.md)
+- [Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md)
+- [Reversals and Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/reversals-settlements.md)
+- [Manage Profile and Team](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/manage-profile.md)

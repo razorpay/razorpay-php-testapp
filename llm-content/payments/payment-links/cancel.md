@@ -32,6 +32,6 @@ To cancel a Payment Link:
 
 #### Related Information
 
-- [Create a Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/create.md)
+- [Create a Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/create.md)
 
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/faqs.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/faqs.md)

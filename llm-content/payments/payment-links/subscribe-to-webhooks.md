@@ -24,10 +24,10 @@ payment_link.expired | Triggered when a Payment Link expires.
 ---
 payment_link.cancelled | Triggered when you cancel a Payment Link.
 
-Know more about [ Webhooks ](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) and check the [sample payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payment-links.md).
+Know more about [ Webhooks ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) and check the [sample payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payment-links.md).
 
 #### Related Information
 
-- [Payment Links States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/states.md)
+- [Payment Links States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/states.md)
 
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/faqs.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/faqs.md)

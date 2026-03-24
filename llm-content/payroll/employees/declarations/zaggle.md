@@ -45,7 +45,7 @@ There are three steps to declare flexible benefits on Zaggle.
             1. Click **START DECLARING**.
             1. On the **Flexible Benefits** page, select the check boxes for the benefits you want to avail. 
             1. Enter the monthly amount to declare. The amount you declare must be between the minimum and maximum allocated limits. 
-                ![Select check boxes to declare benefits](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-fbp-zaggle.jpg.md)
+                ![Select check boxes to declare benefits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-fbp-zaggle.jpg.md)
             1. Click **CONTINUE**. 
 
             This saves your flexible benefits plan. 
@@ -88,5 +88,5 @@ Once the fund transfer is complete, you receive an email notification. You can t
 
 ### Related Information 
 
-- [IT Declarations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations.md)
-- [Employee Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees.md)
+- [IT Declarations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations.md)
+- [Employee Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md)

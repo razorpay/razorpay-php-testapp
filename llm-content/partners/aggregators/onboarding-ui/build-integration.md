@@ -47,8 +47,8 @@ Follow these steps:
 
 4. Check the preview of the onboarding UI on the right (desktop and phone) and click **Save**.
 
-![Configure Onboarding UI theme on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-onboarding-ui-configurator.jpg.md)
+![Configure Onboarding UI theme on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-onboarding-ui-configurator.jpg.md)
 
 ## Next Step
 
-[2. Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-ui/test-integration.md)
+[2. Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-ui/test-integration.md)

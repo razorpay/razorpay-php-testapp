@@ -43,16 +43,16 @@ As per NPCI guidelines, the following MCC codes are restricted and cannot accept
 
 Following are a few of the best practices to be followed to accept online payments using UPI Collect Flow:
 
-1. You should validate the VPA before initiating the payment request. Know more about[ VPA Validation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/validate-vpa.md).
+1. You should validate the VPA before initiating the payment request. Know more about[ VPA Validation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/validate-vpa.md).
 2. You should add a custom UPI Collect expiry based on the business requirement to provide enough time for the customer to complete the payment.
-3. You should use the [Saved VPA](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/saved-vpa.md) feature provided by Razorpay to provide a better customer experience and have a better conversion.
+3. You should use the [Saved VPA](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/saved-vpa.md) feature provided by Razorpay to provide a better customer experience and have a better conversion.
 
 ## Prerequisites
 
 - Contact our [Support Team](https://razorpay.com/support/#raise-a-request) to get this feature enabled for your account.
 - Keep the API key (combination of `Key_Id` and `Key_Secret`) handy for integration. 
-- [Generate API Keys from the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) if you have not done already.
-- Configure the [payment capture settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md) on the Dashboard.
+- [Generate API Keys from the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) if you have not done already.
+- Configure the [payment capture settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md) on the Dashboard.
 
 ## UPI Collect Flow
 
@@ -454,7 +454,7 @@ body, err: = client.Payment.ValidateVpa(para_attr, nil)
 > 
 >   **Deprecation Notice**
 > 
->   UPI Collect is deprecated effective 28 February 2026. This tab is applicable only for exempted businesses. If you are not covered by the exemptions, refer to the [ migration documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/announcements/upi-collect-migration/s2s-integration.md) to switch to UPI Intent.
+>   UPI Collect is deprecated effective 28 February 2026. This tab is applicable only for exempted businesses. If you are not covered by the exemptions, refer to the [ migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/s2s-integration.md) to switch to UPI Intent.
 >   
 
 ### Step 1.4: Initiate a Payment
@@ -674,7 +674,7 @@ body, err: = client.Payment.CreateUpi(para_attr, nil)
 : `string` Unique identifier of the order, obtained in the response of the previous step.
 
 `notes` _optional_
-: `json object` Key-value pairs that can hold additional information about the payment. Refer to the [Notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) section of the API Reference Guide.
+: `json object` Key-value pairs that can hold additional information about the payment. Refer to the [Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) section of the API Reference Guide.
 
 `description` _optional_
 : `string` Descriptive text of the payment.
@@ -1236,7 +1236,7 @@ body, err := client.Payment.CreateUpi(para_attr, nil)
 : `string` Token of the saved VPA.
 
 `notes` _optional_
-: `json object` Key-value pairs that can hold additional information about the payment. Refer to the [Notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) section of the API Reference Guide.
+: `json object` Key-value pairs that can hold additional information about the payment. Refer to the [Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) section of the API Reference Guide.
 
 `description` _optional_
 : `string` Descriptive text of the payment.

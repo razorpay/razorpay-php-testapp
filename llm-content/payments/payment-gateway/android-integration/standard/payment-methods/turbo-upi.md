@@ -9,9 +9,9 @@ description: Steps to integrate Razorpay Turbo UPI with your app.
 
 With Razorpay Turbo UPI, businesses experience faster and simpler payments. It condenses the payment process from 5 steps to just 1, eliminating app redirections. Enjoy a seamless in-app payment experience, reduce dependencies on third-party UPI apps, and gain complete visibility of the payment journey.
 
-You can seamlessly integrate Turbo UPI with Razorpay Android Standard SDK. Explore the full potential of [Razorpay Turbo UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/turbo-upi.md) and know How it Works.
+You can seamlessly integrate Turbo UPI with Razorpay Android Standard SDK. Explore the full potential of [Razorpay Turbo UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/turbo-upi.md) and know How it Works.
 
-![Turbo UPI Standard Checkout Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-flow.jpg.md)
+![Turbo UPI Standard Checkout Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-flow.jpg.md)
 
     
 ### Prerequisites
@@ -19,7 +19,7 @@ You can seamlessly integrate Turbo UPI with Razorpay Android Standard SDK. Explo
          Before you start integrating Turbo UPI with Razorpay Android Standard SDK, ensure that you follow these guidelines for a smooth integration process:
 
          1. **SDK Version Compatibility:**
-             - Integrate with [Razorpay Android Standard SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard.md). Ensure that you integrate with SDK version 1.6.37 or higher.
+             - Integrate with [Razorpay Android Standard SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard.md). Ensure that you integrate with SDK version 1.6.37 or higher.
 
          2. **Import the following frameworks:**
              - In the root settings.gradle file, use:
@@ -64,12 +64,12 @@ You can seamlessly integrate Turbo UPI with Razorpay Android Standard SDK. Explo
 
          5. **Contact Prefill in Standard Checkout:**
              - Standard Checkout should load with the contact prefilled. This contact information is crucial for setting up UPI accounts.
-             - Make sure your Checkout options include [**prefill contact**](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps/#14-initiate-payment-and-display-checkout-form.md).
+             - Make sure your Checkout options include [**prefill contact**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps.md#14-initiate-payment-and-display-checkout-form).
         
 
 ## Onboarding Flow
 
-Ensure your customers [onboard with Razorpay Turbo UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/turbo-upi/#onboarding-flow.md) to get started.
+Ensure your customers [onboard with Razorpay Turbo UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/turbo-upi.md#onboarding-flow) to get started.
 
 ### Turbo UI SDK Integration
 
@@ -130,14 +130,14 @@ Follow these steps to integrate with Razorpay Turbo UPI:
 > 
 > **Payment Flow**
 > 
-> Razorpay SDK will handle all the changes related to `UpiTurbo` internally. To integrate with the payment flow, [initiate payment and display the checkout form](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps/#14-initiate-payment-and-display-checkout-form.md).
+> Razorpay SDK will handle all the changes related to `UpiTurbo` internally. To integrate with the payment flow, [initiate payment and display the checkout form](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps.md#14-initiate-payment-and-display-checkout-form).
 > 
 
 ### Non-Transactional Flow
 
 Razorpay provides a single exposed function that allows you to manage linked UPI accounts and access all non-transactional flows seamlessly. 
 
-![View the non-transactional flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-non-transactional.jpg.md)
+![View the non-transactional flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-non-transactional.jpg.md)
 
     
 ### Manage UPI Accounts
@@ -204,4 +204,4 @@ The SDKs given below provide access to exposed models for seamless integration.
 
          
 
-         [Refer to the list of possible error reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/payment-methods/turbo-upi/error-codes.md).
+         [Refer to the list of possible error reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/payment-methods/turbo-upi/error-codes.md).

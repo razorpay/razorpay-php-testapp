@@ -12,7 +12,7 @@ Use Razorpay Turbo UPI to make UPI payments faster. Follow these steps to integr
 
          1. Contact our [integrations team](mailto:integrations@razorpay.com) to get your mobile number, app, and GitHub account whitelisted to get access to the `https://github.com/upi-turbo/ios-sample-app` - sample app repository. In this repository, you will find the framework files (libraries for Turbo) and the sample app source code to help you with the integration. Use branch `custom_ui/turbo_ui` to access sample app and frameworks for Turbo UPI with UI.
 
-         2. Integrate with the [Razorpay iOS Custom SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/build-integration.md).
+         2. Integrate with the [Razorpay iOS Custom SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/build-integration.md).
 
          3. Add the following lines to your Podfile for Turbo pod installation:
 
@@ -37,7 +37,7 @@ Use Razorpay Turbo UPI to make UPI payments faster. Follow these steps to integr
 >          **Watch Out!**
 > 
 >          - The minimum supported iOS version for using Turbo UPI is currently 12.0.
->          - Use the `rzp_test_0wFRWIZnH65uny` API key id for testing on the UAT environment and the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+>          - Use the `rzp_test_0wFRWIZnH65uny` API key id for testing on the UAT environment and the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.
 >          
 
         
@@ -408,7 +408,7 @@ After initialising the Turbo SDK, proceed to securely link UPI accounts and comp
 ### Request Parameters
 
         `customer_id` _optional_
-        : `string` Unique identifier of the customer to whom the Customer Identifier must be tagged. Create a customer using the [Customer API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md)
+        : `string` Unique identifier of the customer to whom the Customer Identifier must be tagged. Create a customer using the [Customer API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md)
 
         `amount` _mandatory_
         : `integer` The transaction amount expressed in the currency subunit. For example, for an actual amount of ₹299.35, the value of this field should be `29935`.
@@ -423,7 +423,7 @@ After initialising the Turbo SDK, proceed to securely link UPI accounts and comp
         : `string` Customer's phone number.
 
         `order_id`  _mandatory_
-        : `string` Order id generated via the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+        : `string` Order id generated via the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
         `method` _mandatory_
         : `string` The payment method used by the customer on Checkout. In this case, it is `upi` (default).
@@ -586,7 +586,7 @@ The SDKs given below provide access to exposed models for seamless integration.
 
          
 
-         [Refer to the list of possible error reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/error-codes.md).
+         [Refer to the list of possible error reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/error-codes.md).
         
 
     
@@ -674,7 +674,7 @@ Complete these steps to take your integration live:
 
 - Switch to Prod environment and podfile.
 
-- Replace the UAT credential with the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+- Replace the UAT credential with the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.
 
 For iOS users, outgoing device binding SMS is editable by default. To ensure these SMS messages are non-editable, you must complete the following steps:
 

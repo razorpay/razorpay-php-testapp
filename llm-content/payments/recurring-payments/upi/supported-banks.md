@@ -13,7 +13,7 @@ We support all the apps and banks mentioned in the [NPCI list](https://www.npci.
 > **Handy Tips**
 > 
 > For certain MCCs, the maximum amount limit for one transaction is ₹1,00,000.
-> Refer to the [list of supported MCCs, issuing banks and PSP applications](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/supported-banks-apps/#supported-mccs.md).
+> Refer to the [list of supported MCCs, issuing banks and PSP applications](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/supported-banks-apps.md#supported-mccs).
 > 
 
 ### Intent Support with PSP Apps
@@ -143,7 +143,7 @@ The below table gives information about the frequently used intent-supported PSP
 > **Watch Out!**
 > 
 > - Contact our [Support team](https://razorpay.com/support/#request) to enable PSP apps other than PhonePe and Paytm on Standard Checkout for UPI TPV. Watch this video on how to get it enabled.
->   ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+>   ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > - UPI Intent TPV is not supported for @okaxis handle.
 > 
 
@@ -201,7 +201,7 @@ The below table gives information about the frequently used intent-supported PSP
 > 
 > **Watch Out!**
 > - Contact our [Support team](https://razorpay.com/support/#request) to enable UPI Intent on Standard Checkout. Watch this video on how to get it enabled.
->   ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+>   ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > - UPI Intent is not supported for @okaxis handle.
 > 
 
@@ -2913,5 +2913,5 @@ curl -u [YOUR_KEY_ID] \
 ```
 ### Related Information
 
-- [Integrate Recurring Payments Using UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upi/integrate.md)
-- [Recurring Payments APIs for UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upi/apis.md)
+- [Integrate Recurring Payments Using UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upi/integrate.md)
+- [Recurring Payments APIs for UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upi/apis.md)

@@ -14,7 +14,7 @@ description: Troubleshoot common errors for Razorpay Direct - Credit Card Plugin
     
 ### 2. How can I install Razorpay Direct - Credit Card Plugin?
 
-          Follow the [installation steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/razorpay-direct-credit-card/#integration-steps.md) to install the plugin.
+          Follow the [installation steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/razorpay-direct-credit-card.md#integration-steps) to install the plugin.
         
 
         
@@ -38,7 +38,7 @@ description: Troubleshoot common errors for Razorpay Direct - Credit Card Plugin
         
 ### 6. What if I am not a Razorpay Payment Gateway user? How can I start using the Razorpay Direct - Credit Card Plugin?
 
-         You can create a Razorpay account and use the [Razorpay Direct - Credit Card Plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/razorpay-direct-credit-card.md) for credit card payments even if you are not currently a [Razorpay Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway.md) user.
+         You can create a Razorpay account and use the [Razorpay Direct - Credit Card Plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/razorpay-direct-credit-card.md) for credit card payments even if you are not currently a [Razorpay Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md) user.
         
   
         
@@ -48,7 +48,7 @@ description: Troubleshoot common errors for Razorpay Direct - Credit Card Plugin
          To verify if webhooks are enabled:
          1. Log in to the Dashboard and navigate to **Account & Settings**.
          2. In the **Website and app settings** section, click **Webhooks**.
-            ![Navigate to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
+            ![Navigate to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
          3. Select the relevant webhook **URL**.
          4. On the right panel, check if the status for `order.paid`, `payment.authorized`, `refund.processed` and `refund.failed` is enabled.
         
@@ -57,4 +57,4 @@ description: Troubleshoot common errors for Razorpay Direct - Credit Card Plugin
 ### 8. How can I accept payments?
 
  
-         To accept **live** payments, follow the steps mentioned in the [Switch from Test Mode to Live Mode](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/razorpay-direct-credit-card/#22-switch-from-test-mode-to-live-mode.md)  section.
+         To accept **live** payments, follow the steps mentioned in the [Switch from Test Mode to Live Mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/razorpay-direct-credit-card.md#22-switch-from-test-mode-to-live-mode)  section.

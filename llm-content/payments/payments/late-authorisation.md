@@ -11,7 +11,7 @@ Late authorisation is a situation that arises when a payment is interrupted by e
 
 If there is no response from the bank about a payment that a customer has made, the Dashboard displays this transaction's status as `Created.` If there is no response, even after 10 minutes, the transaction is marked as `Failed` due to timeout. After that, Razorpay polls the bank at various intervals for 3 days, from the payment creation day. During this time, if our system receives the payment status from the bank as **Successful**, the payment is marked as `Authorized.` The payments authorised in this manner are considered as late authorised.
 
-![Handle Late authorisation](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/late_auth.jpg.md)
+![Handle Late authorisation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/late_auth.jpg.md)
 
 > **INFO**
 >
@@ -19,7 +19,7 @@ If there is no response from the bank about a payment that a customer has made, 
 > 
 > **Handy Tips**
 > 
-> On average, less than 0.5% of the total number of payments get late authorised. In cases where funds get debited from the customer's bank account and are not [captured](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments.md), the amount is automatically refunded to the customer. As a best practice, you should subscribe to the [ **`payment.authorized`** webhook ](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) to get notifications about authorised or failed payments.
+> On average, less than 0.5% of the total number of payments get late authorised. In cases where funds get debited from the customer's bank account and are not [captured](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments.md), the amount is automatically refunded to the customer. As a best practice, you should subscribe to the [ **`payment.authorized`** webhook ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) to get notifications about authorised or failed payments.
 > 
 
 Not all payments that appear as failed are considered as late authorised. Late authorisation is a special case of handling technical or manual interruptions that prevent Razorpay from receiving payment status from the bank and proceed with the payment flow.
@@ -31,7 +31,7 @@ Interruptions that prevent a payment gateway from receiving payment status infor
 - Technical issues at the customer's bank's end.
 - Customers closing the pop-up window or pressing the back button after submitting the OTP.
 
-If Razorpay receives the payment status from the bank later, payment is moved to the `authorized` state leading to late payment authorisation. You have little control over these interruptions. Know more about [handling late authorisations](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/late-authorisation/handle.md) to avoid customer inconvenience.
+If Razorpay receives the payment status from the bank later, payment is moved to the `authorized` state leading to late payment authorisation. You have little control over these interruptions. Know more about [handling late authorisations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/late-authorisation/handle.md) to avoid customer inconvenience.
 
 ## Normal Authorisations Vs. Late Authorisations
 
@@ -51,4 +51,4 @@ Authorised payments are payments that the customer completes. You need to captur
 
 ### Related Information
 
-[ Handle Late Payment Authorisations ](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/late-authorisation/handle.md)
+[ Handle Late Payment Authorisations ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/late-authorisation/handle.md)

@@ -37,5 +37,5 @@ You can verify the `razorpay_signature` parameter to validate that it is authent
 
 ### Related Information
 
-- [Payment Links APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links.md)
-- [Subscribe to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/subscribe-to-webhooks.md)
+- [Payment Links APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links.md)
+- [Subscribe to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/subscribe-to-webhooks.md)

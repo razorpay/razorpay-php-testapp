@@ -25,7 +25,7 @@ Watch this video to see how to create a Standard Payment Link.
          3. Click **+ Create Payment Link**.
          4. Enter the required details in the Standard Payment Link pop-up page.
             
-            - **Amount** (Mandatory): Select the currency and amount for the Payment Link. For example, select `₹` and enter`1000` for ₹1,000. You can also accept payments in [international currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+            - **Amount** (Mandatory): Select the currency and amount for the Payment Link. For example, select `₹` and enter`1000` for ₹1,000. You can also accept payments in [international currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
             - **Payment For** (Optional): Enter a description entered. For example, `School fees for Gaurav Kumar - Class XII B`.
 
@@ -34,7 +34,7 @@ Watch this video to see how to create a Standard Payment Link.
             - **Notify via Email** (Optional): Select this option if you want us to send the Payment Link to the customer via email. Available only if you have entered the customer's email.
  
 Customers receive email in the following format: 
-              ![Payment link email format](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-link-email-templete.jpg.md)
+              ![Payment link email format](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-link-email-templete.jpg.md)
             - **Notify via SMS** (Optional): Select this option if you want us to send the Payment Link to the customer via SMS. Available only if you have entered the customer's phone number. 
  Customers receive SMS in the following format: 
             For example, `Acme Corp has requested payment of INR 100. You can pay through this link: https://rzp.io/rzp/D6W1Xk3u - Razorpay`
@@ -78,7 +78,7 @@ Watch this video to see how to create a UPI Payment Link.
             - **Notify via Email** (Optional): Select this option if you want us to send the Payment Link to the customer via email. Available only if you have entered the customer's email.
  
 Customers receive email in the following format: 
-              ![Payment link email format](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-link-email-templete.jpg.md)
+              ![Payment link email format](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-link-email-templete.jpg.md)
             - **Notify via SMS** (Optional): Select this option if you want us to send the Payment Link to the customer via SMS. Available only if you have entered the customer's phone number. 
 Customers receive SMS in the following format: 
             For example, `Acme Corp has requested payment of INR 100. You can pay through this link: https://rzp.io/rzp/D6W1Xk3u - Razorpay`
@@ -113,18 +113,18 @@ Customers receive SMS in the following format:
          2. Navigate to **Payment Links**.
          3. Select the Payment Links you wish to test.
          4. Copy the link URL and open it in your browser.
-             ![Payment Link Test Payment](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pl-dashboard-test-payment.jpg.md)
+             ![Payment Link Test Payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pl-dashboard-test-payment.jpg.md)
          5. Select the payment method of your choice and proceed with the payment.
          6. Select **Success** or **Failure**, depending on which flow you wish to test.
-             ![Test Payment Success or Failure Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pl-test-payment-success.jpg.md)
+             ![Test Payment Success or Failure Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pl-test-payment-success.jpg.md)
          7. You should see a confirmation message depending on the flow you have selected.
-             ![image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pl-test-payments-success.jpg.md)
+             ![image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pl-test-payments-success.jpg.md)
         
 
 ## Create a Payment Link Using API
 
 You can create a Payment Link using:
-- [Create a Standard Payment Link API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/create-standard.md)
-- [Create a UPI Payment Link API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/create-upi.md)
+- [Create a Standard Payment Link API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links/create-standard.md)
+- [Create a UPI Payment Link API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links/create-upi.md)
 
 #### Related Information

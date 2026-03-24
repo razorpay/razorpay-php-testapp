@@ -18,15 +18,15 @@ To pay advances to your vendors for whom you have created the PO:
 2. Navigate to **Vendor Payments** → **Purchase Orders**.
 3. Select the PO for which you want to pay an advance. In the right pane, click **PAY ADVANCE**.
 
-While making an [advance payment](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/advances.md), RazorpayX lists the PO that may be related to your payment. You can select the relevant PO to link it to the advance payment or you can choose **Advance is not against my PO**.
+While making an [advance payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/advances.md), RazorpayX lists the PO that may be related to your payment. You can select the relevant PO to link it to the advance payment or you can choose **Advance is not against my PO**.
 
-![Link purchase order to advance payment](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-po-link-advance-payment.jpg.md)
+![Link purchase order to advance payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-po-link-advance-payment.jpg.md)
 
 ## Invoices and Purchase Orders
 
-You can link POs to your invoices while [adding the invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/invoices/#add-invoices.md). All the existing POs that are `issued`, `partially billed` or `billed` and related to the vendor are displayed and you can select the relevant PO. You can also select **No PO to link against this Invoice**, this is an irreversible action.
+You can link POs to your invoices while [adding the invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/invoices.md#add-invoices). All the existing POs that are `issued`, `partially billed` or `billed` and related to the vendor are displayed and you can select the relevant PO. You can also select **No PO to link against this Invoice**, this is an irreversible action.
 
-![Link PO to invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/link-po-invoice.jpg.md)
+![Link PO to invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/link-po-invoice.jpg.md)
 
     
 ### Link Invoice while creating PO
@@ -36,5 +36,5 @@ You can link POs to your invoices while [adding the invoices](@/Applications/MAM
          1. Log in to the [RazorpayX Dashboard](http://x.razorpay.com/auth).
          2. Navigate to **Vendor Payments** → **Purchase Orders**.
          3. Select the PO you want to link to an invoice. In the right pane, click **LINK TO INVOICE**.
-         ![Link purchase order to invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-po-link-invoice.jpg.md)
+         ![Link purchase order to invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-po-link-invoice.jpg.md)
          4. A list of invoices in `unpaid` or `draft` state is displayed and you can choose the required invoices to link. If there are invoices in other states, remove the filter from the top of the page for all the invoices to be displayed.

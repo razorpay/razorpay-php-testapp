@@ -15,7 +15,7 @@ These are regular Payment Links, which are not customised.
 
 - **Customised Payment Links** 
 
-You can [customise Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/customise.md) as per your business requirements.
+You can [customise Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/customise.md) as per your business requirements.
 
 > **INFO**
 >
@@ -25,9 +25,9 @@ You can [customise Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-conten
 > As per Razorpay's updated security policy, even if the customer's email address and phone number are provided while creating the Payment Link, these details are not auto-populated on the Checkout section of the Payment Link hosted page. The customer will have to enter these details manually while making the payment.
 > 
 
-- After successful completion of the payment, customers can be redirected to a specific URL using the `callback_url` and `callback_method` parameters. Know more about how to use [these paramaters](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/#using-callback-url-parameter.md).
+- After successful completion of the payment, customers can be redirected to a specific URL using the `callback_url` and `callback_method` parameters. Know more about how to use [these paramaters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links.md#using-callback-url-parameter).
 
-- Verify the `razorpay_signature` parameter to validate that it is authentic and sent from Razorpay servers. Know more about how to [Verify Signature](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/apis/#verify-signature.md).
+- Verify the `razorpay_signature` parameter to validate that it is authentic and sent from Razorpay servers. Know more about how to [Verify Signature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/apis.md#verify-signature).
 
 ### Request
 
@@ -55,7 +55,7 @@ The \{input field\} is required
 wrong input fields sent.
 * code: 400
 * description: When wrong input fields are sent during Payment Link creation.
-* solution: Ensure that the input fields are added correctly. Refer to these [request parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links#request-parameters.md) on how to add correct input fields.
+* solution: Ensure that the input fields are added correctly. Refer to these [request parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links.md#request-parameters) on how to add correct input fields.
 
 payment link creation with reference ID already attempted
 * code: 400

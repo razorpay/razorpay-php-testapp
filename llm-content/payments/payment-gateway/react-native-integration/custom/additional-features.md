@@ -15,7 +15,7 @@ Use the Razorpay React Native SDK to integrate supported payment methods on the 
 
 ## Fetch Payment Methods
 
-Use the [Fetch Payment Methods API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/build-integration/#14-fetch-payment-methods.md) to fetch the payment methods available for your account.
+Use the [Fetch Payment Methods API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/build-integration.md#14-fetch-payment-methods) to fetch the payment methods available for your account.
 
 Below are the sample payloads for each payment method.
 
@@ -109,7 +109,7 @@ Follow the steps given below to use UPI Intent flow in Razorpay's React Native C
      
     ```
 
-Check the complete list of [UPI supported apps and their package names](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/supported-apps.md).
+Check the complete list of [UPI supported apps and their package names](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/supported-apps.md).
 
 #### Collect Flow
 

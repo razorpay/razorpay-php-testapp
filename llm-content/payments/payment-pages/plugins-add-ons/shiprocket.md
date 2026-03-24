@@ -13,24 +13,24 @@ Shiprocket is India's leading logistics software, offering automated shipping so
 2. Click the **+ Create Payment Page** button.
 3. Click **Select Payment page**.
 4. Click **Page Settings**.
-    ![Payment Pages - Page Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-shiprocket-settings.jpg.md)
+    ![Payment Pages - Page Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-shiprocket-settings.jpg.md)
 5. Scroll down to the **Create orders on Shiprocket** section and click **Enable**.
-    ![Payment Pages - Shiprocket](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-shiprocket-enable.jpg.md)
+    ![Payment Pages - Shiprocket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-shiprocket-enable.jpg.md)
 6. A pop-up will appear informing you that the following fields will be added to your Payment Page. Click **Continue**.
     - Name
     - Address 
     - City
     - State
     - Pincode
-    ![Payment Pages - Shiprocket Options](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-shiprocket-fields.jpg.md)
-7. Continue with the creation of your Payment Page. Know more about how to [Create a Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/create/#step-2-add-page-details.md).
+    ![Payment Pages - Shiprocket Options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-shiprocket-fields.jpg.md)
+7. Continue with the creation of your Payment Page. Know more about how to [Create a Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/create.md#step-2-add-page-details/).
 
 ## 2. Configure Your Shiprocket Account
 
 1. Log in to your [Shiprocket Account](https://app.shiprocket.in/login) or create one if you have not already.
 2. On your Shiprocket Dashboard:
     1. Navigate to **All Channels** and click **+ Add New Channel**.
-        ![Shiprocket - Add New Channel](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-shiprocket-integrate.jpg.md)
+        ![Shiprocket - Add New Channel](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-shiprocket-integrate.jpg.md)
     2. Navigate to Razorpay Payment Pages and click **Integrate**.
     3. Click **Connect with Razorpay**. You will be redirected to the Razorpay login page. 
 3. Log in to your Razorpay Account.

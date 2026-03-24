@@ -8,7 +8,7 @@ description: Update a Webhook using Razorpay APIs.
 
 ## Update a Webhook
 
-Use this endpoint to update the details of a webhook. Know about the [various error responses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md) for this API.
+Use this endpoint to update the details of a webhook. Know about the [various error responses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md) for this API.
 
 ### Request
 

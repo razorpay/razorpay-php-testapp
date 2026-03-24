@@ -68,7 +68,7 @@ description: Find answers to frequently asked questions about card as a payment 
     
 ### 11. How can a business enable card payments on Razorpay?
 
-         Businesses can enable card payments by signing up with Razorpay, completing the KYC process, and configuring the card payment option in the [dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-methods/#request-for-payment-methods.md).
+         Businesses can enable card payments by signing up with Razorpay, completing the KYC process, and configuring the card payment option in the [dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-methods.md#request-for-payment-methods).
         
 
     

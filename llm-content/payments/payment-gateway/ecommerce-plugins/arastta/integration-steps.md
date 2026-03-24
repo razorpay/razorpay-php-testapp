@@ -31,7 +31,7 @@ Follow the steps given below:
          3. Log in to [Arastta](https://arastta.org/).
          4. Navigate to the **Admin Panel** → **Marketplace** → **Payments** and enable the Razorpay extension.
          5. Click **Edit** next to Razorpay and complete the following actions:
-            1. Add your Razorpay `[KEY_ID]` and `[KEY_SECRET]`. These can be generated from your Razorpay [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md).
+            1. Add your Razorpay `[KEY_ID]` and `[KEY_SECRET]`. These can be generated from your Razorpay [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
             2. Change plugin status to **Enabled**.
             3. Click **Save** to save the plugin settings.
         

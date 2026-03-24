@@ -26,5 +26,5 @@ To view a detailed break-down of a settlement made to your account:
 
 ### Related Information
 
-- [Normal Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/refunds/normal.md)
-- [Refunds FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/refunds/faqs.md)
+- [Normal Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/refunds/normal.md)
+- [Refunds FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/refunds/faqs.md)

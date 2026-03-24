@@ -35,7 +35,7 @@ To view the settlement timeline:
 2. Navigate to **Settlements**.
 3. Click on the **details** of the settlement ID for which you want to view the timeline.
 4. You will be able to see the settlement timeline for that particular settlement ID.
-    ![POS settlement details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos-settlement-details.jpg.md)
+    ![POS settlement details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos-settlement-details.jpg.md)
 
 ## Enable Settlements Placed On Hold
 
@@ -43,9 +43,9 @@ To view the settlement timeline:
 
 ## Reports
 
-Detailed insights can be gained using reports and real-time data on the Dashboard. These reports can then be used for accounting and reconciliation purposes. Know more about [ reports.](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/dashboard/reports.md)
+Detailed insights can be gained using reports and real-time data on the Dashboard. These reports can then be used for accounting and reconciliation purposes. Know more about [ reports.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/dashboard/reports.md)
 
 ### Related Information
 
-- [About Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/settlements.md)
-- [ Settlement FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/settlements/faqs.md)
+- [About Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/settlements.md)
+- [ Settlement FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/settlements/faqs.md)

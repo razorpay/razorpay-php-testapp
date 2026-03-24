@@ -5,7 +5,7 @@ description: Know how to mange your standard user roles, add or remove users and
 
 # Roles and Permissions
 
-You can assign predefined roles to your team members and limit their access to the Dashboard. The below table explains each role and the Optimizer routes permissions associated with it. Know more about [Dashboard Roles](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team.md).
+You can assign predefined roles to your team members and limit their access to the Dashboard. The below table explains each role and the Optimizer routes permissions associated with it. Know more about [Dashboard Roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md).
 
 Role | Permissions
 ---
@@ -48,9 +48,9 @@ Finance | -  Fetch Optimizer Gateways.
 
 ### Related Information
 
-- [Add Payment Providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/add-payment-providers.md)
-- [SR Analytics Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/success-rate.md)
-- [Single Reconciliation View](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/reconciliation.md)
-- [Tokenisation for Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/tokenisation.md)
-- [Supported Gateways and Aggregators](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md)
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/faqs.md)
+- [Add Payment Providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/add-payment-providers.md)
+- [SR Analytics Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/success-rate.md)
+- [Single Reconciliation View](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/reconciliation.md)
+- [Tokenisation for Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/tokenisation.md)
+- [Supported Gateways and Aggregators](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/faqs.md)

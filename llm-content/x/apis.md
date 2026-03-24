@@ -14,28 +14,28 @@ The table below lists the various APIs and gives a brief description of each API
 
 API | Description
 ---
-[Contacts APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts/api.md) | APIs to create, fetch details, update, activate, or deactivate a contact to whom payouts can be made.
+[Contacts APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts/api.md) | APIs to create, fetch details, update, activate, or deactivate a contact to whom payouts can be made.
 ---
-[Fund Account APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts/api#fund-account-apis.md) | APIs to create, fetch details, activate, or deactivate a fund account to which payouts are made.
+[Fund Account APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts/api.md#fund-account-apis) | APIs to create, fetch details, activate, or deactivate a fund account to which payouts are made.
 ---
-[Account Validation APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts/api#account-validation-apis.md) | APIs to bank account and vpa creation and validation.
+[Account Validation APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts/api.md#account-validation-apis) | APIs to bank account and vpa creation and validation.
 ---
-[Payout APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/api#payout-apis.md) | APIs to create, fetch or cancel a payout made to a contact's fund account.
+[Payout APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/api.md#payout-apis) | APIs to create, fetch or cancel a payout made to a contact's fund account.
 ---
-[Payouts to Cards APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/api#payout-to-cards-apis.md) | APIs to make payouts to tokenised or unsaved cards.
+[Payouts to Cards APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/api.md#payout-to-cards-apis) | APIs to make payouts to tokenised or unsaved cards.
 ---
-[Composite APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/api#payout-composite-api.md) | APIs to make payouts with just the contact details along with bank account details, UPI ID, or card details without having to create a fund account.
+[Composite APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/api.md#payout-composite-api) | APIs to make payouts with just the contact details along with bank account details, UPI ID, or card details without having to create a fund account.
 ---
-[Payout Link APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/api.md) | APIs to create payout links for contacts whose fund account details are not available. Payouts can be made by sending a payout link to the contact.
+[Payout Link APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/api.md) | APIs to create payout links for contacts whose fund account details are not available. Payouts can be made by sending a payout link to the contact.
 ---
-[Transaction APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-statement/api.md) | API to fetch all transactions made on your business account.
+[Transaction APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-statement/api.md) | API to fetch all transactions made on your business account.
 ---
-[Fetch Balance API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/account-validation/balance-fetch.md) | API to fetch account balance(s).
+[Fetch Balance API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/account-validation/balance-fetch.md) | API to fetch account balance(s).
 ---
-[Amazon Payout APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-wallet/amazon/api#list-of-apis.md) | APIs needed to make payouts via Amazon Pay.
+[Amazon Payout APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-wallet/amazon/api.md#list-of-apis) | APIs needed to make payouts via Amazon Pay.
 
 ### Related Information
 
-- [Contacts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts.md)
-- [Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md)
-- [Subscribe to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/x/apis/subscribe.md)
+- [Contacts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md)
+- [Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md)
+- [Subscribe to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/apis/subscribe.md)

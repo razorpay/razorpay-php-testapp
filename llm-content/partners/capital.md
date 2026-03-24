@@ -5,7 +5,7 @@ description: Become a Razorpay Capital Partner. Refer Line of Credit to business
 
 # Capital Partnership
 
-[Razorpay Capital](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md) is a lending platform enabling businesses to meet their cash flow challenges. With the Partnership program for Capital, you can refer businesses to Razorpay [Line of Credit](https://razorpay.com/x/line-of-credit/) and earn lucrative rewards when your leads use the product. 
+[Razorpay Capital](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md) is a lending platform enabling businesses to meet their cash flow challenges. With the Partnership program for Capital, you can refer businesses to Razorpay [Line of Credit](https://razorpay.com/x/line-of-credit/) and earn lucrative rewards when your leads use the product. 
 
 > **SUCCESS**
 >
@@ -22,8 +22,8 @@ Watch this video to see how you can refer leads to Razorpay Capital.
 [Video: https://www.youtube.com/embed/6xj9HxlM7Y8]
 
 1. Sign up or log in to your Dashboard.
-    - [New to Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/new-to-razorpay.md). 
-    - [Existing Razorpay Merchant](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/existing-merchant#become-a-razorpay-partner.md). 
+    - [New to Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/new-to-razorpay.md). 
+    - [Existing Razorpay Merchant](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/existing-merchant.md#become-a-razorpay-partner). 
 2. Enable the Capital Dashboard.
 3. Refer leads for Line of Credit using [Referral links](#refer-businesses-via-referral-link) or [Dashboard bulk upload](#refer-businesses-via-dashboard-upload). 
 
@@ -55,9 +55,9 @@ The Razorpay Capital Partner program is a closed group program with an invite-on
 
 1. Fill the [interest for Capital Partnerships](https://form.typeform.com/to/s6XX4Uxx) form to communicate your interest in the program. One of our associates will get in touch with you.
 1. Once picked as a [suitable profile](#partner-eligibility), you receive a mail from Razorpay with an exclusive invite link.
-1. Open the link and [sign up for the Partner Program](@/Applications/MAMP/htdocs/new-docs/llm-content/partners#next-steps.md).
+1. Open the link and [sign up for the Partner Program](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners.md#next-steps).
 1. After signing up, share your merchant ID (MID) with the sales associate. Your merchant ID is available at the top-right corner of the screen on your Dashboard.
-    ![Razorpay Dashboard with MID highlighted](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/capital-partnerships-mid.jpg.md)
+    ![Razorpay Dashboard with MID highlighted](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/capital-partnerships-mid.jpg.md)
 
 After you share your MID, your Capital Referral Dashboard is enabled in a day. You have successfully become a Partner for Razorpay Capital. 
 
@@ -75,15 +75,15 @@ Refer and invite your customers to apply for Razorpay Line of Credit. This optio
 ### To copy the referral link:
 
          1. Log in to the Dashboard and navigate to your Partner Dashboard.
-             ![Navigate to Partner to the top-left on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/capital-partnerships-partner-dashboard.jpg.md)
+             ![Navigate to Partner to the top-left on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/capital-partnerships-partner-dashboard.jpg.md)
          2. In the left menu, navigate to **Affiliate Accounts**.
          3. Shift to the **Line Of Credit** tab.
          4. Click **Share Referral Link**. 
-             ![Switch to Line of Credit tab in Affiliate Accounts and click Share referral link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/capital-partnerships-loc.jpg.md)
+             ![Switch to Line of Credit tab in Affiliate Accounts and click Share referral link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/capital-partnerships-loc.jpg.md)
 
              If you do not see the **Line of Credit** option, reach out to the sales POC.
          5. In the **Share Referral Link** pop-up, copy the referral link. 
-             ![Copy the referral link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/capital-partnerships-share-link.jpg.md)
+             ![Copy the referral link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/capital-partnerships-share-link.jpg.md)
 
          After you have copied the referral link, share it directly on social media or your website. After the referred business (the lead) signs up and uses the product, you receive the referral bonus. 
 
@@ -97,15 +97,15 @@ You can personally refer and invite your leads to Razorpay Capital in bulk via t
 ### To upload leads on the Dashboard:
 
             1. Log in to the Dashboard and navigate to your Partner Dashboard. 
-                 ![Navigate to Partner to the top left on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/capital-partnerships-partner-dashboard.jpg.md)
+                 ![Navigate to Partner to the top left on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/capital-partnerships-partner-dashboard.jpg.md)
             2. In the left menu, navigate to **Affiliate Accounts**.
             3. Shift to the **Line Of Credit** tab.
             4. Click **+ Add New Clients**.
-                 ![Add new account on the Affiliate Accounts Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/capital-partnerships-dashboard-upload.jpg.md)
+                 ![Add new account on the Affiliate Accounts Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/capital-partnerships-dashboard-upload.jpg.md)
 
                 If you do not see the **Line of Credit** option, reach out to the sales POC. 
             5. The **Add New Merchants - Line of Credit** pop-up window appears. 
-                 ![Add New Merchants window showing upload details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/capital-partnerships-bulk-dashboard-upload.jpg.md)
+                 ![Add New Merchants window showing upload details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/capital-partnerships-bulk-dashboard-upload.jpg.md)
             6. Click **Download sample file** and enter your leads' email addresses and details. The sample file contains the required fields along with the recommended formats and values. 
 
                 **Fields and Descriptions**
@@ -179,7 +179,7 @@ You can personally refer and invite your leads to Razorpay Capital in bulk via t
 
             After you successfully upload the file, the file is processed and the leads details are displayed under **Affiliate Accounts** → **Line of Credit** tab.
 
-            ![Leads from your upload or referral links appear on your Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/capital-partnerships-loc-leads.jpg.md)
+            ![Leads from your upload or referral links appear on your Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/capital-partnerships-loc-leads.jpg.md)
 
             Some leads may be missing from the Dashboard due to failures. Please check for Razorpay's status email in your inbox. This mail contains the details of the failed leads.
         
@@ -188,7 +188,7 @@ You can personally refer and invite your leads to Razorpay Capital in bulk via t
 
 As a Partner, you can track the status of the lead's application status under the **Line Of Credit** tab in your Partner Dashboard. It is displayed under the **Activation Status** column.
 
-![Activation status to track application of leads](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/capital-partnerships-activation-status.jpg.md)
+![Activation status to track application of leads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/capital-partnerships-activation-status.jpg.md)
 
 The values of this column change as the lead's application passes each stage. 
 
@@ -244,4 +244,4 @@ For queries or assistance in any of the steps mentioned above, reach out to the 
 ### Related Information 
 
 - [Top 10 Advantages of a Business Line of Credit](https://razorpay.com/learn/business-banking/why-is-line-of-credit-necessary-for-businesses/)
-- [Line of Credit](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/line-of-credit.md)
+- [Line of Credit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/line-of-credit.md)

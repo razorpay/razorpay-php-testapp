@@ -20,7 +20,7 @@ To log in to the RazorpayX Vendor Portal, please visit [`https://x.razorpay.com/
 ## Onboarding
 
 1. Check the email registered with the business owner to find an invite to join the [Vendor Portal](https://x.razorpay.com/vendor-portal/). Click **ACCEPT INVITE**.
-    ![Accept Invite](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-vp-accept-invite.jpg.md)
+    ![Accept Invite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-vp-accept-invite.jpg.md)
 2. You will be redirected to the RazorpayX Vendor Portal. Set a password for your account and click **Create Account**.
 3. Click **Complete your Profile**. The form has the following fields:
 
@@ -47,7 +47,7 @@ Your Vendor Portal is ready to use!
 ## Create Payment Request
 
 1. Click **+ Payment Request**.
-    ![Create Payment Request](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-payment-request.jpg.md)
+    ![Create Payment Request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-payment-request.jpg.md)
 2. Click **Upload Invoice**. You can upload an invoice in .pdf, .jpg or .jpeg format. It is not mandatory to upload an invoice. 
 3. On uploading an invoice, Vendor Portal automatically fills the required fields in the Payment Request form, however, the details can also be added manually. The fields are:
     - Invoice Date
@@ -58,10 +58,10 @@ Your Vendor Portal is ready to use!
         - TDS
     - Description
     - Note
-        ![Enter Invoice Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-vp-invoice-details.jpg.md)
+        ![Enter Invoice Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-vp-invoice-details.jpg.md)
 4. Click **Review and Send Invoice**.
 5. Review the details and click **Send to Merchant**.
-    ![Send invoice to Merchant](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-vp-sent-to-merchant.jpg.md)
+    ![Send invoice to Merchant](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-vp-sent-to-merchant.jpg.md)
 
 The Payment Request status is visible on your Dashboard.
 
@@ -74,8 +74,8 @@ Invoices can be in any one of the following states:
 - `Partially Paid`
 - `Paid`
 
- ![Payment Status](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-vp-status.jpg.md)
+ ![Payment Status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-vp-status.jpg.md)
 
  ## Related Information
 
- - [Set Up Vendor Portal for Businesses](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/portal/business.md)
+ - [Set Up Vendor Portal for Businesses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/portal/business.md)

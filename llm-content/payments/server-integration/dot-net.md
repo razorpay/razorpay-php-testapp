@@ -14,7 +14,7 @@ Install the Razorpay .NET SDK and integrate it with your .NET-based website to a
 
 ## Dependencies
 
-You must use .NET v4.5 or higher with TLS version 1.2. Using it with a lower .NET version will lead to [ errors](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/server-integration/dot-net/troubleshooting-faqs.md). Know more about the [latest .NET versions](https://versionsof.net/framework/).
+You must use .NET v4.5 or higher with TLS version 1.2. Using it with a lower .NET version will lead to [ errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/server-integration/dot-net/troubleshooting-faqs.md). Know more about the [latest .NET versions](https://versionsof.net/framework/).
 
 ## .NET Client API
 
@@ -98,4 +98,4 @@ Install Razorpay using either:
 
 ### Related Information
 
-[Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md)
+[Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md)

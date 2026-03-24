@@ -11,7 +11,7 @@ Use this endpoint to comply with the regulatory guidelines in a manner such that
 
 - TPV stands for Third Party Validation. This feature is made available only to businesses operating in Mutual fund, Securities or Brokerage sectors. 
 
-- You can perform third party validation using Payment Links by passing the `options` parameter along with the Create Payment Links API request. Check the [use cases to perform TPV using Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/use-cases.md).
+- You can perform third party validation using Payment Links by passing the `options` parameter along with the Create Payment Links API request. Check the [use cases to perform TPV using Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/use-cases.md).
 
  to get this feature activated on your Razorpay account.
 
@@ -83,7 +83,7 @@ The \{input field\} is required
 wrong input fields sent.
 * code: 400
 * description: When wrong input fields are sent during Payment Link creation.
-* solution: Ensure that the input fields are added correctly. Refer to these [request parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links#request-parameters.md) on how to add correct input fields.
+* solution: Ensure that the input fields are added correctly. Refer to these [request parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links.md#request-parameters) on how to add correct input fields.
 
 payment link creation with reference ID already attempted
 * code: 400

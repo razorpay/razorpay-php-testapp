@@ -19,7 +19,7 @@ UbiAttendance also offers many advanced attendance marking and other enhanced re
 > 
 > **Watch Out!**
 > 
-> - API access is required for UbiAttendance integration. [Contact Support](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/plans/#contact-support.md) for API aceess.
+> - API access is required for UbiAttendance integration. [Contact Support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/plans.md#contact-support) for API aceess.
 > - You must be on the paid plans of UbiAttendance and RazorpayX Payroll.
 > 
 
@@ -35,7 +35,7 @@ Following are some prerequisites before integrating with UbiAttendance:
 
 1. You **must** disable Payroll's Attendance Module. 
 1. Request access to RazorpayX Payroll APIs. 
-    [Contact Support](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/plans/#contact-support.md) to request access to Payroll APIs. Integration with UbiAttendance requires Payroll's API ID and Key.
+    [Contact Support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/plans.md#contact-support) to request access to Payroll APIs. Integration with UbiAttendance requires Payroll's API ID and Key.
 1. Ensure you have selected the following API permissions: 
     - Add additions and deductions to Payroll
     - Modify attendance
@@ -46,7 +46,7 @@ Following are some prerequisites before integrating with UbiAttendance:
 > 
 > **Watch Out!**
 > 
-> - Additions to payroll arising due to overtime payments to employees must be manually added as [additions](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#additions.md) on the Payroll Dashboard. UbiAttendance does not automatically transfer the additions data to Payroll.
+> - Additions to payroll arising due to overtime payments to employees must be manually added as [additions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#additions) on the Payroll Dashboard. UbiAttendance does not automatically transfer the additions data to Payroll.
 > 
 
 ## Integration Steps

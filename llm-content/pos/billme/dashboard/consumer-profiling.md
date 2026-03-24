@@ -67,7 +67,7 @@ You can easily filter customer data based on:
 - Total Spend
 - Total Visit
 
-![Filter Consumer Profiles](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/filter-consumer-profiles.jpg.md)
+![Filter Consumer Profiles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/filter-consumer-profiles.jpg.md)
 
 ### Export
 
@@ -82,7 +82,7 @@ The export feature allows businesses to export detailed customer information in 
 - Total Visit
 - Emails
 
-![Filter Consumer Profiles](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/export-filters-consumer-profiles.jpg.md)
+![Filter Consumer Profiles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/export-filters-consumer-profiles.jpg.md)
 
 ## Add / Upload
 
@@ -92,13 +92,13 @@ Businesses can add or upload new customer data using the following two options:
 
 Add individual customer details directly into the system using a form.
 
-![Add Consumer Profiles](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/manually-add-consumer-profile.jpg.md)
+![Add Consumer Profiles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/manually-add-consumer-profile.jpg.md)
 
 ### Upload Bulk Consumer Profiles
 
 Bulk upload customer data by downloading the sample CSV template, filling in customer information and uploading it back into the system.
 
-![Add Consumer Profiles in Bulk](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bulk-upload-consumer-profiles.jpg.md)
+![Add Consumer Profiles in Bulk](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bulk-upload-consumer-profiles.jpg.md)
 
 #### Upload Instructions
 

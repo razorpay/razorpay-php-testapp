@@ -9,9 +9,9 @@ Understand the Subscription flow and how to create Subscriptions from the Checko
 
 ## Subscription Life Cycle
 
-1. [Create a Plan](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create/#plan.md).
-1. After the Plan is created, you can then [create a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create/#subscription.md) for your customer.
-1. Customer makes the [Authentication Transaction](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create/#authentication-transaction.md).
+1. [Create a Plan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md#plan).
+1. After the Plan is created, you can then [create a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md#subscription) for your customer.
+1. Customer makes the [Authentication Transaction](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md#authentication-transaction).
 1. The Subscription becomes active when the billing cycle starts.
 
 > **INFO**
@@ -65,12 +65,12 @@ You can collect the authentication transaction using Subscription via Checkout o
 > 
 >     **Handy Tips**
 > 
->     You can [integrate Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/integration-guide.md) into your checkout only using [Subscriptions APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions.md).
+>     You can [integrate Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/integration-guide.md) into your checkout only using [Subscriptions APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions.md).
 >     
 
     You can integrate Razorpay Subscriptions with your Razorpay Checkout Form on your website or application. Customers can select their desired Subscription Plan on your website or application and proceed to make the authentication payment using Razorpay's Checkout.
 
-    1. [Create a Plan](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create/#plan.md).
+    1. [Create a Plan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md#plan).
     1. The customer selects the Plan from your website or application.
     1. After the customer selects a Plan, a Subscription is created in Razorpay and the `subscription_id` received in the response, is passed on to the Razorpay Checkout via the checkout options.
     1. On the Checkout form, the customer makes the payment using the card details.
@@ -79,9 +79,9 @@ You can collect the authentication transaction using Subscription via Checkout o
 
   
   
-    You can create a custom Subscription for a customer and send a [Subscription link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-subscription-links.md) to them. Customers click the link and are taken to a checkout page hosted by Razorpay where they make the authentication payment via Razorpay's checkout page. There is no need to host the link on your website or application.
+    You can create a custom Subscription for a customer and send a [Subscription link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-subscription-links.md) to them. Customers click the link and are taken to a checkout page hosted by Razorpay where they make the authentication payment via Razorpay's checkout page. There is no need to host the link on your website or application.
 
-    1. [Create a Plan](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create/#plan.md).
+    1. [Create a Plan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md#plan).
     1. You create a Subscription link by:
         - Selecting a Plan.
         - Adding an upfront amount.
@@ -96,9 +96,9 @@ You can collect the authentication transaction using Subscription via Checkout o
 ## Subscriptions Actions
 
 You can perform the following actions on Subscriptions that are active:
-- [Update a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/update.md)
-- [Pause and Resume a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/pause-resume-cancel.md)
-- [Cancel a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/pause-resume-cancel/#cancel-a-subscription-via-the-dashboard.md)
+- [Update a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/update.md)
+- [Pause and Resume a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/pause-resume-cancel.md)
+- [Cancel a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/pause-resume-cancel.md#cancel-a-subscription-via-the-dashboard)
 
 ## Invoice
 
@@ -112,7 +112,7 @@ Invoices are automatically created for Subscriptions. Invoice includes details s
   - The `invoice.paid` webhook is fired.
   
 
-Know more about the [Subscription states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/states.md).
+Know more about the [Subscription states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/states.md).
 
 > **WARN**
 >
@@ -143,8 +143,8 @@ Know more about the [Subscription states](@/Applications/MAMP/htdocs/new-docs/ll
 
 ### Related Information
 
-- [Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md)
-- [Subscription States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/states.md)
-- [Create Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create.md)
-- [Test Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/test.md)
-- [Payment Retries](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/payment-retries.md)
+- [Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md)
+- [Subscription States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/states.md)
+- [Create Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md)
+- [Test Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/test.md)
+- [Payment Retries](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/payment-retries.md)

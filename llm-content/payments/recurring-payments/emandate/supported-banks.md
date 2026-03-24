@@ -3236,7 +3236,7 @@ curl -u [YOUR_KEY_ID] \
 ```
 
 #### Related Information
-- [Integrate Recurring Payments Using Emandate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/integrate.md)
-- [Charge Customers During Registration - Use Cases and Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/charge-customer-during-registration.md)
-- [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/apis.md)
-- [Handle Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/errors.md)
+- [Integrate Recurring Payments Using Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/integrate.md)
+- [Charge Customers During Registration - Use Cases and Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/charge-customer-during-registration.md)
+- [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/apis.md)
+- [Handle Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/errors.md)

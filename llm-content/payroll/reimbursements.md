@@ -10,7 +10,7 @@ Your employees may incur expenses on your organisation's behalf. You can pay rei
 
 ## Reimbursements
 
-An employee can [apply for reimbursement](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/reimbursements.md) from their Dashboard whenever they pay for organisational expenses from their own pockets. 
+An employee can [apply for reimbursement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/reimbursements.md) from their Dashboard whenever they pay for organisational expenses from their own pockets. 
 
 Once the admin/manager of the employee approves the reimbursement request, you can reimburse the expense in two ways:
 
@@ -80,6 +80,6 @@ You can also find pending reimbursements to approve or evaluate in the right pan
 
 ### Related Information
 
-- [Salary](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary.md)
-- [Instant Reimbursement](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/instant-reimbursement.md)
-- [Reimbursements for Employees](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees#reimbursements.md)
+- [Salary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md)
+- [Instant Reimbursement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/instant-reimbursement.md)
+- [Reimbursements for Employees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md#reimbursements)

@@ -25,13 +25,13 @@ You can [sign up for a RazorpayX account](https://x.razorpay.com/auth/signup) or
 To create a new RazorpayX account:
 1. [Sign up](https://x.razorpay.com/auth/signup) for a RazorpayX account.
 2. Enter your business email address and click **Get Started**. This will be the username you will use to login.
-   ![Enter Email to sign up for RazorpayX Account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/email.jpg.md)
+   ![Enter Email to sign up for RazorpayX Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/email.jpg.md)
 3. Create a password. It should be at least 8 characters long, must contain a number and a letter. Click **Create Account**.
 4. Enter your name and phone number in the contact details input screen.
 5. Select Business Category from the drop-down list and click **Continue**.
-   ![Set Up your RazorpayX Account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/modified-pre-signup-flow.jpg.md)
+   ![Set Up your RazorpayX Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/modified-pre-signup-flow.jpg.md)
 6. Enter the OTP sent on the registered email address for verification and click **Finish →**.
-   ![Enter OTP to create RazorpayX Account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/OTP.jpg.md)
+   ![Enter OTP to create RazorpayX Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/OTP.jpg.md)
 
 ## Existing Users
 
@@ -39,7 +39,7 @@ If you are an existing Razorpay user, you can use your Razorpay Payments credent
 
 ### Related Information
 
-- [About RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md)
+- [About RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md)
 - [Open a Current Account](https://razorpay.com/x/current-accounts/)
-- [Test Mode](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/test-mode.md)
-- [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/api-keys.md)
+- [Test Mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/test-mode.md)
+- [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/api-keys.md)

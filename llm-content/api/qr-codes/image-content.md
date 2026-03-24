@@ -4,7 +4,7 @@ title: QR Codes (Image Content)
 
 # QR Codes (Image Content)
 
-Create Razorpay [QR Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes.md) and share them with customers to accept digital payments.
+Create Razorpay [QR Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes.md) and share them with customers to accept digital payments.
 
 > **INFO**
 >
@@ -14,13 +14,13 @@ Create Razorpay [QR Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/payme
 >  This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 >  
 
-Fork the Razorpay Postman Public Workspace and try the QR Codes (Image Content) APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+Fork the Razorpay Postman Public Workspace and try the QR Codes (Image Content) APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-90436eef-f17f-4bc1-9d13-b622a4270125)
 
 ### Related Guides
 
-[About QR Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes.md)
+[About QR Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes.md)
 
 ### Endpoints
 

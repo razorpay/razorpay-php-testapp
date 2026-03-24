@@ -10,9 +10,9 @@ Typically, payout disbursals for P2P NBFCs can take upto 4 calendar days as thes
 
 With RazorpayX Escrow Account, in partnership with Axis Trustee supports instant disbursals for P2P Escrow. This solution works 24x7x365 where the Trustee automatically approves a payout in under 2 seconds. Together with instant trustee approvals and IMPS payouts, borrowers and investors of the P2P platform can receive the credit in their bank accounts instantly.
 
-LSP partners are onboarded as [sub-accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/sub-accounts.md) with P2P Escrow as the master account.
+LSP partners are onboarded as [sub-accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/sub-accounts.md) with P2P Escrow as the master account.
 
-![How P2P lending works](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-escrow-p2p-lending.jpg.md)
+![How P2P lending works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-escrow-p2p-lending.jpg.md)
 
 ## Onboarding for NBFCs
 
@@ -26,7 +26,7 @@ Raise a request to the trustee for allowing Dashboard access to the relevant tea
 
 ## Required Documents
 
-Connect with your RazorpayX POC or [contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md) for document templates, letters and other supporting material.
+Connect with your RazorpayX POC or [contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md) for document templates, letters and other supporting material.
 
     
 ### Documents required by Trustee
@@ -84,11 +84,11 @@ S. No | Document | Source | When to Obtain
 
 ## API Integration
 
-You can make payouts via your Escrow Account using our [Payout APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/api.md).
+You can make payouts via your Escrow Account using our [Payout APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/api.md).
 
 Points to remember:
 
-- Ensure to follow all the payout [best practices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/best-practices.md).
-- Contact type must be `borrower` or `investor`. Know more about [Contact APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts/api.md).
-- Payout purpose must be `Loan disbursement` or `Investor withdrawal`. Know more about [Payout purpose](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/#payout-purpose.md).
-- [Allowlist your IPs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/allowlist-ip.md).
+- Ensure to follow all the payout [best practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/best-practices.md).
+- Contact type must be `borrower` or `investor`. Know more about [Contact APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts/api.md).
+- Payout purpose must be `Loan disbursement` or `Investor withdrawal`. Know more about [Payout purpose](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#payout-purpose).
+- [Allowlist your IPs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/allowlist-ip.md).

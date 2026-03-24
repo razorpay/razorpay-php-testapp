@@ -14,7 +14,7 @@ With Razorpay, you can let your customers pay for their purchases through credit
 
 Instalment Types | Availability
 ---
-[Credit Card Instalments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/instalments/credit-card-instalments.md) | ✓
+[Credit Card Instalments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/instalments/credit-card-instalments.md) | ✓
 
 > **WARN**
 >
@@ -30,4 +30,4 @@ Instalment Types | Availability
 
 ### Related Information
 
-[Credit Card Instalments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/instalments/credit-card-instalments.md)
+[Credit Card Instalments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/instalments/credit-card-instalments.md)

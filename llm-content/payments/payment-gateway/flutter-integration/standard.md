@@ -17,7 +17,7 @@ The Razorpay Flutter plugin acts as a wrapper around our native Android and iOS 
 > 
 > **Update SDK**
 > 
-> Check your [current SDK version](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/standard/troubleshooting-faqs/#6-how-can-i-check-the-razorpay-flutter.md). If it is outdated, please [update the SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/standard/troubleshooting-faqs/#7-how-can-i-update-the-razorpay-flutter.md) to ensure uninterrupted settlements of your funds.
+> Check your [current SDK version](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/standard/troubleshooting-faqs.md#6-how-can-i-check-the-razorpay-flutter). If it is outdated, please [update the SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/standard/troubleshooting-faqs.md#7-how-can-i-update-the-razorpay-flutter) to ensure uninterrupted settlements of your funds.
 > 
 
 ## Integration Steps
@@ -27,7 +27,7 @@ The Razorpay Flutter plugin acts as a wrapper around our native Android and iOS 
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup). 
 
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
 Follow these integration steps:
 
@@ -41,5 +41,5 @@ Follow these integration steps:
 
 ### Related Information
 
-- [Troubleshooting and FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/standard/troubleshooting-faqs.md)
-- [Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md)
+- [Troubleshooting and FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/standard/troubleshooting-faqs.md)
+- [Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md)

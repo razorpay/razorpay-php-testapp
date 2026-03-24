@@ -11,10 +11,10 @@ You can build a Payment Page from your Dashboard to start accepting payments fro
 
 - Ensure you have an account.
 - Log in to the Dashboard and complete the KYC requirements.
-- The Dashboard has [test and live modes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/test-live-modes.md). Use the test mode for a sandbox experience. You can switch to live mode when you are ready to accept payments. You will have to create a new Payment Page in live mode.
-- Understand the [Payment Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md).
+- The Dashboard has [test and live modes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/test-live-modes.md). Use the test mode for a sandbox experience. You can switch to live mode when you are ready to accept payments. You will have to create a new Payment Page in live mode.
+- Understand the [Payment Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md).
 
-![Payment Pages Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-create_pp.jpg.md)
+![Payment Pages Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-create_pp.jpg.md)
 
 ## Steps to Create a Payment Page
 
@@ -37,7 +37,7 @@ Configure webhooks to receive payment notifications.
 1. Log in to the Dashboard and navigate to Payment Pages.
 2. Click the **+ Create Payment Page** button and select the **Select Payment page** button.
 
-![Select which product you want to use.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-select-choice.jpg.md)
+![Select which product you want to use.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-select-choice.jpg.md)
 
 ### Step 2: Add Page Details
 
@@ -46,7 +46,7 @@ Add Business Details
 1. Enter the page title. The **Payment Page Title** cannot exceed 40 characters.
 2. Fill in the page details:
     1. Enter a brief description for the page.
-    2. You can use the [rich-text features](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/add-images-videos.md) to add images and videos.
+    2. You can use the [rich-text features](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/add-images-videos.md) to add images and videos.
 3. Click **Add social media share icons**. This makes the Payment Page shareable on popular social media sites and Instant Messaging (IM) services such as Facebook, Twitter and WhatsApp.
 4. Click **Add your contact information** to enter support email and contact number details.
 5. Click **Add Terms & Conditions** to add your terms of business. For example, terms and conditions for refund of payment.
@@ -57,11 +57,11 @@ Add Business Details
 > **Optional Fields and Customisation**
 > 
 > - Apart from `title` and `contact information`, all fields in this section are optional.
-> - You can customise this section by adding videos, images and more, using our [rich-text features](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/add-images-videos.md).
+> - You can customise this section by adding videos, images and more, using our [rich-text features](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/add-images-videos.md).
 > 
 
 The section appears as shown once the details are filled in:
-![Payment Pages - Business Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-completed_business_details.jpg.md)
+![Payment Pages - Business Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-completed_business_details.jpg.md)
 
 ### Add Payment Details
 
@@ -102,7 +102,7 @@ Create and Configure Price Field
 3. Crop the image as per your requirements using the zoom bar.
 4. Click **Save**.
 
-![Payment Pages - Additional Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-image_added.jpg.md)
+![Payment Pages - Additional Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-image_added.jpg.md)
 
 You can remove the image by selecting **Remove Image** on the **Additional Options** menu.
 
@@ -142,30 +142,30 @@ Feature | Item with Quantity | Fixed Amount | Customer decides Amount
 `Email` and `Phone` fields appear by default and are mandatory. You cannot delete these. However, you may add descriptions to appear with these fields.
 1. Click the edit icon.
 2. Click **Add Description** to enter a brief description regarding the field.
-![Payment Pages - Contact Details Description](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-phone_field.jpg.md)
+![Payment Pages - Contact Details Description](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-phone_field.jpg.md)
 
 ### Add Custom Input Fields
 
 You can add more fields to collect additional data from the customer. Let us add `Full Name` as a mandatory field.
 
 1. Click **Add new** and select **Input Field**. In the drop-down, select **Single Line Text** as the **Field Type**.
-    ![Payment Pages - Custom Input Fields](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-custom_field_1.jpg.md)
+    ![Payment Pages - Custom Input Fields](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-custom_field_1.jpg.md)
 2. Add the label for the field - `Full Name`.
-    ![Payment Pages - Custom Input Fields](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-custom_field_ps.jpg.md)
+    ![Payment Pages - Custom Input Fields](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-custom_field_ps.jpg.md)
 3. Click **Save**.
 
 ### Reorder Fields
 
 You can reorder the fields by dragging them up and down the section. Hover over a field and use the drag icon present in the left corner.
 
-![Payment Pages - Custom Input Fields](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-reorder_generic.gif.md)
+![Payment Pages - Custom Input Fields](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-reorder_generic.gif.md)
 
 ### Customise Pay Button Label
 
 1. Hover on the Pay button and click the edit icon.
-    ![Payment Pages - Custom Pay Button Label](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-pay_button_hover.jpg.md)
+    ![Payment Pages - Custom Pay Button Label](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-pay_button_hover.jpg.md)
 2. Enter a new label - `Book Tickets` and click the save icon.
-    ![Payment Pages - Custom Pay Button Label](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-pay_button.jpg.md)
+    ![Payment Pages - Custom Pay Button Label](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-pay_button.jpg.md)
 
 The label cannot exceed 16 characters.
 
@@ -186,7 +186,7 @@ To configure page settings, click **Page Settings**. On the pop-up page:
 5. You can [put a hyperlink button on your website](#create-hyperlink-button). This can be done only after your page is published.
 6. Click **Save**.
 
-![Configure Page Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-page-settings.jpg.md)
+![Configure Page Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-page-settings.jpg.md)
 
 ### Step 5: Publish and Share
 
@@ -202,7 +202,7 @@ Enter the email and phone number of customers to send the page directly to them.
 
 An example of a custom URL is `https://rzp.io/l/grofersexpo`. 
 
-![Enter Contact details to share Payment Page Link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-payment-button-result.jpg.md)
+![Enter Contact details to share Payment Page Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-payment-button-result.jpg.md)
 
 ### Create Hyperlink Button
 
@@ -213,7 +213,7 @@ To get a hyperlink button:
 1. In the pop-up page, customise the button text and select the button size.
 1. Copy the HTML code to embed on your website and click **Done**.
 
-![Hyperlink Button](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-generic-embed-button.jpg.md)
+![Hyperlink Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-generic-embed-button.jpg.md)
 
 Here is a demo of how the Payment Button would appear, when embedded on your website. 
 
@@ -223,18 +223,18 @@ After you are done with the publish settings, click **Back to Dashboard**. Once 
 
 ### Step 6: Set Up Webhooks
 
-You can set up webhooks to receive notifications on payments using the page. Know more about how to [set up webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/subscribe-to-webhooks.md).
+You can set up webhooks to receive notifications on payments using the page. Know more about how to [set up webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/subscribe-to-webhooks.md).
 
 ## View Payment Page in Action
 Your Payment Page is now live! 
 
-![Sample Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-generic_hosted_page_view.jpg.md)
+![Sample Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-generic_hosted_page_view.jpg.md)
 
 ## Payments
 
-You can view the payments as and when they are made in the [Transactions Details View](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/view-reports.md) of the page.
+You can view the payments as and when they are made in the [Transactions Details View](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/view-reports.md) of the page.
 
-![Payment Page Transaction Tab](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-generic_report.jpg.md)
+![Payment Page Transaction Tab](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-generic_report.jpg.md)
 
 ### Export Data
 
@@ -267,6 +267,6 @@ You will receive the payments in your bank account as per your settlement cycle.
 
 ### Related Information
 
-- [How Payment Pages Work](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/how-it-works.md)
-- [Search for Payment Pages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/search.md)
-- [Manage Payment Pages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/manage.md)
+- [How Payment Pages Work](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/how-it-works.md)
+- [Search for Payment Pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/search.md)
+- [Manage Payment Pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/manage.md)

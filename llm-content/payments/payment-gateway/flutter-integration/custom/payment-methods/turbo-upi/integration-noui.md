@@ -32,7 +32,7 @@ With Razorpay Turbo UPI, businesses experience faster and simpler payments. It c
              - `app/libs`: All libraries (Bank, SecureComponent and Turbo) common for headless SDK.
              - `app/build.gradle`: All transitive dependencies needed to integrate Turbo SDK.
 
-         2. Integrate with [Razorpay Flutter Custom Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/custom/build-integration.md).
+         2. Integrate with [Razorpay Flutter Custom Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/custom/build-integration.md).
 
          3. Import the following frameworks:
              - Razorpay Turbo Wrapper Plugin SDK (maven)
@@ -519,7 +519,7 @@ The SDKs given below provide access to exposed models for seamless integration.
 
          
 
-         [Refer to the list of possible error reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/custom/payment-methods/turbo-upi/error-codes.md).
+         [Refer to the list of possible error reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/custom/payment-methods/turbo-upi/error-codes.md).
         
 
     
@@ -630,4 +630,4 @@ Complete these steps to take your integration live:
     - `keep class retrofit2.** { *; }`
     - `keep class okhttp3.** { *; }`
 
-1. Replace the UAT credential with the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+1. Replace the UAT credential with the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.

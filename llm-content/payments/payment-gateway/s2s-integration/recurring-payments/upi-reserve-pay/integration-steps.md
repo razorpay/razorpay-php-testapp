@@ -250,7 +250,7 @@ Use this API endpoint to initiate UPI mandate authorisation via intent flow. Thi
 
 ```curl: Request
 curl -u : \
--X POST https://api.razorpay.com/v1/orders \
+-X POST https://api.razorpay.com/v1/payments/create/json \
 -H "Content-Type: application/json" \
 -d '{
   "amount": 200,
@@ -285,7 +285,7 @@ curl -u : \
 ### Request Parameters
 
 `amount`
-: `integer` The amount you want to charge your customer. This should be the same as the order amount. The maximum amount that can be blocked is ₹15,000.
+: `integer` The amount you want to charge your customer. This should be the same as the order amount. The maximum amount that can be blocked is ₹10,000.
 
 `currency`
 : `string` The 3-letter ISO currency code for the payment.
@@ -692,7 +692,7 @@ Payment payment = client.Payment.Fetch(paymentid);
 > 
 > **Handy Tips**
 > 
-> You can also retrieve the `token_id` via the [payment.failed webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/webhooks/#payment-failed.md).
+> You can also retrieve the `token_id` via the [payment.failed webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#payment-failed).
 > 
 
   
@@ -861,7 +861,7 @@ Once the initial amount block is authorised, you can execute debits against the 
 > 
 > **Handy Tips**
 > 
-> Before initiating a debit, it is good practice to check the remaining funds available under the mandate to avoid payment failures. See [Track Mandate Funds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-reserve-pay/manage/#track-mandate-funds.md).
+> Before initiating a debit, it is good practice to check the remaining funds available under the mandate to avoid payment failures. See [Track Mandate Funds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-reserve-pay/manage.md#track-mandate-funds).
 > 
 
 ### 3.1 Create an Order to Charge the Customer

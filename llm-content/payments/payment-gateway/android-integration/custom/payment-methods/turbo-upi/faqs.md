@@ -49,7 +49,7 @@ description: Find answers to frequently asked questions about Turbo UPI.
 ### 5. Can I enable Turbo UPI on all Razorpay checkouts?
 
  
-         We have built Turbo UPI in a way that it can be deployed across any Razorpay checkout - [Standard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard.md), Custom or S2S. The integration process for each of these options will depend on whether you want to control the user experience. With our Standard Checkout offering, you can complete the integration and start processing payments within 1-2 days.
+         We have built Turbo UPI in a way that it can be deployed across any Razorpay checkout - [Standard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard.md), Custom or S2S. The integration process for each of these options will depend on whether you want to control the user experience. With our Standard Checkout offering, you can complete the integration and start processing payments within 1-2 days.
         
 
     
@@ -108,8 +108,8 @@ description: Find answers to frequently asked questions about Turbo UPI.
 ### 1. What are the specific guidelines or best practices for designing the user interface for UPI payments?
 
          - Using the Turbo UPI logo is recommended for a better user experience. You can download the logo using the button below.
-            [Download Turbo UPI Logo](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/Turbo-upi-logo.zip.md)
-            ![Turbo UPI Logo image](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-logo.jpg.md)
+            [Download Turbo UPI Logo](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/Turbo-upi-logo.zip.md)
+            ![Turbo UPI Logo image](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-logo.jpg.md)
          - Ensure to have the UPI logo against the account as per UPI guidelines.
          - Encourage users to complete the onboarding process by clearly communicating the benefits they will receive. This could include highlighting the simplicity of a one-step payment, showcasing any ongoing offers, or emphasising unique features. 
          - Ensure users can complete onboarding and continue payment in a single flow. We recommend having an option to continue payment as soon as onboarding is complete.
@@ -160,7 +160,7 @@ description: Find answers to frequently asked questions about Turbo UPI.
     
 ### 1. How will I be notified about my payment status?
 
-         Razorpay provides notifications about payment status through webhooks, ensuring you are promptly informed about the status of your transactions. When a payment is processed, Razorpay will trigger a webhook to notify you whether the payment was successful or failed. Refer to the [payment payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments/#payments.md).
+         Razorpay provides notifications about payment status through webhooks, ensuring you are promptly informed about the status of your transactions. When a payment is processed, Razorpay will trigger a webhook to notify you whether the payment was successful or failed. Refer to the [payment payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md#payments).
         
 
     
@@ -200,7 +200,7 @@ description: Find answers to frequently asked questions about Turbo UPI.
     
 ### 2. Is Turbo UPI supported with Optimizer?
 
-         Yes, Turbo UPI can be enabled for businesses who use Optimizer. However, a prerequisite is that the business sets a routing rule to direct 100% of traffic towards Razorpay instead of other PGs. Only then will end-users be able to benefit from Turbo UPI. Know more about [Turbo UPI on Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/create-custom-rule/#turbo-upi-on-optimizer.md).
+         Yes, Turbo UPI can be enabled for businesses who use Optimizer. However, a prerequisite is that the business sets a routing rule to direct 100% of traffic towards Razorpay instead of other PGs. Only then will end-users be able to benefit from Turbo UPI. Know more about [Turbo UPI on Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/create-custom-rule.md#turbo-upi-on-optimizer).
         
 
     
@@ -285,7 +285,7 @@ description: Find answers to frequently asked questions about Turbo UPI.
     
 ### 3. How are we notified about the downtime if the partner bank faces fluctuations?
 
-         We have built Downtime Detection on Turbo UPI. We will inform you via email or [Webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments/#payment-downtime-started.md) if there are any fluctuations due to which Success Rates fall. Also, there are [Downtime APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/downtime/#entity.md), which you can consume to know the latest status. 
+         We have built Downtime Detection on Turbo UPI. We will inform you via email or [Webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md#payment-downtime-started) if there are any fluctuations due to which Success Rates fall. Also, there are [Downtime APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/downtime.md#entity), which you can consume to know the latest status. 
         
 
     
@@ -305,7 +305,7 @@ description: Find answers to frequently asked questions about Turbo UPI.
             - Points of friction, that is, where users spend maximum time.
             - Conversion rates of transaction flow and account linking flow.
 
-         [Refer to the list of possible error reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/error-codes.md)
+         [Refer to the list of possible error reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/error-codes.md)
         
 
     

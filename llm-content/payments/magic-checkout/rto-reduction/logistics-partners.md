@@ -24,12 +24,12 @@ Your logistics partner is responsible for delivering orders to your customers. Y
 
 You can integrate with the following logistics partners:
 
-- [Shiprocket](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/shiprocket.md)
-- [Delhivery](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/delhivery.md)
-- [iThink Logistics](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/ithink-logistics.md)
-- [Unicommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/unicommerce.md)
-- [ClickPost](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/clickpost.md)
+- [Shiprocket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/shiprocket.md)
+- [Delhivery](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/delhivery.md)
+- [iThink Logistics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/ithink-logistics.md)
+- [Unicommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/unicommerce.md)
+- [ClickPost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/clickpost.md)
 
 ### Related Information 
-- [Upload Order Status](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/delivery-status.md)
-- [Customisations and Extensions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/customisations-extensions.md)
+- [Upload Order Status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/delivery-status.md)
+- [Customisations and Extensions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/customisations-extensions.md)

@@ -61,10 +61,10 @@ curl -X POST 'api.rzp..com/v1/upi/tpap/devices/bind' \
 : `object` The device details.
 
   `content`
-  : `string` SMS content to be used for device binding of this token as returned by the [Get Verification Token API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/customer-onboarding/verification-token.md).
+  : `string` SMS content to be used for device binding of this token as returned by the [Get Verification Token API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/customer-onboarding/verification-token.md).
 
 `device` _mandatory_
-: `object` The device information. This should be the same information sent when you [get the verification token api](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/customer-onboarding/verification-token.md).
+: `object` The device information. This should be the same information sent when you [get the verification token api](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/customer-onboarding/verification-token.md).
 
   `uuid`
   : `string` The unique identifier of the device. For example, `advertising_id` or `android_id`.
@@ -117,4 +117,4 @@ curl -X POST 'api.rzp..com/v1/upi/tpap/devices/bind' \
 : `string` The version of the operating system.
 
 `status`
-: `string` Device binding status. Know more about the [device binding status](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/tpap-pro/integration-guide/#device-binding-status.md).
+: `string` Device binding status. Know more about the [device binding status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/tpap-pro/integration-guide.md#device-binding-status).

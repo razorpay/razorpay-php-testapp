@@ -21,7 +21,7 @@ Amazon Pay is a wallet-based payment method that allows customers with an Amazon
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -42,7 +42,7 @@ You can accept payments through wallets which are available by default. However,
 > 
 
   
-    To list external wallets on your web application, you need to first integrate our [Checkout form](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md). After you integrate, follow the steps given below:
+    To list external wallets on your web application, you need to first integrate our [Checkout form](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md). After you integrate, follow the steps given below:
 
     1. Add a key `external` to `checkout.js` options.
     2. Set `wallets` with wallet name array in `external` as the first parameter.

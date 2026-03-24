@@ -12,7 +12,7 @@ UPI QR Code is a payment method that allows you to accept payments from your cus
 1. Send a request to create a virtual account with `receiver.type` as `qr_code`. A QR code is generated as a result of virtual account creation.
 2. Display the QR code on your app used for collecting payments.
 3. Customers scan and pay using any of the UPI apps on their mobile devices.
-4. Verify the payment status either by polling Razorpay APIs or by[ subscribing to Webhook events](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
+4. Verify the payment status either by polling Razorpay APIs or by[ subscribing to Webhook events](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
 
 ## Prerequisites
 
@@ -45,11 +45,11 @@ UPI QR Code is a payment method that allows you to accept payments from your cus
 
 2. Verify that the `virtual_account` feature enabled on your account.
 
-    If you are already using the [Smart Collect](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect.md) product of Razorpay, this feature is enabled for your account. If you are not, then you must log in to Dashboard and complete the onboarding process of the Smart Collect product for the `virtual_account` feature to be enabled for your account.
+    If you are already using the [Smart Collect](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect.md) product of Razorpay, this feature is enabled for your account. If you are not, then you must log in to Dashboard and complete the onboarding process of the Smart Collect product for the `virtual_account` feature to be enabled for your account.
 
     ![](/docs/assets/images/smart-collect-onboarding.jpg)
 
-3. Know about the [Virtual Accounts APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect.md).
+3. Know about the [Virtual Accounts APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect.md).
 
 ## Integration flow
 
@@ -85,14 +85,14 @@ You need to create a virtual account by sending an API request to Razorpay for g
 : `string` A brief description of the payment.
 
 `customer_id` _optional_
-: `string` Unique identifier of the customer for whom UPI QR Code is created. Know more about the [ Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md).
+: `string` Unique identifier of the customer for whom UPI QR Code is created. Know more about the [ Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md).
 
 `close_by`_optional_
 : `integer` Specifies the UNIX timestamp at which the virtual account is scheduled to be automatically closed. It should be set at least 15 minutes after the time of creation.
 
 `notes` _optional_
 : `object` Object consisting of key value pairs that allow you to store additional data. 
- Know more about[ Notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md).
+ Know more about[ Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes).
 
 `amount_expected` _mandatory_
 : `integer` The maximum amount you expect to receive in this virtual account. Pass `69999` = ₹699.99 (INR is the default currency).
@@ -173,7 +173,7 @@ For example, `qr_4lsdkfldlteskf`
 
 ### Step 2: Verifying the Payment Status
 
-To know if the customer has made the payment or not, you can track the payment status either by polling the Razorpay servers or subscribing to [ specific events generated in our system](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
+To know if the customer has made the payment or not, you can track the payment status either by polling the Razorpay servers or subscribing to [ specific events generated in our system](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
 
 #### Fetch All Virtual Accounts
 

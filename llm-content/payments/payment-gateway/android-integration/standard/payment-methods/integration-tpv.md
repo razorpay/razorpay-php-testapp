@@ -5,7 +5,7 @@ description: Know how Razorpay performs Third-Party Validation (TPV) of investor
 
 # Integrate Turbo UPI TPV
 
-Third-party validation (TPV) of bank accounts is mandatory for businesses in the BFSI (Banking, Financial Services and Insurance) sector dealing with Securities, Broking and Mutual Funds. You can accept customer payments with the Turbo UPI TPV SDK. Know more about [How TPV works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/#how-it-works.md).
+Third-party validation (TPV) of bank accounts is mandatory for businesses in the BFSI (Banking, Financial Services and Insurance) sector dealing with Securities, Broking and Mutual Funds. You can accept customer payments with the Turbo UPI TPV SDK. Know more about [How TPV works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation.md#how-it-works).
 
 > **WARN**
 >
@@ -13,7 +13,7 @@ Third-party validation (TPV) of bank accounts is mandatory for businesses in the
 > 
 > **Watch Out!**
 > 
-> You can choose to maintain a whitelisted account per customer using the S2S [Customer Add Bank Account API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers/bank-accounts/#1-add-bank-account-of-customer.md) on your end. This is an additional functionality. This will help you during the onboarding flow, where only whitelisted accounts will be shown to the users during onboarding.
+> You can choose to maintain a whitelisted account per customer using the S2S [Customer Add Bank Account API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers/bank-accounts.md#1-add-bank-account-of-customer) on your end. This is an additional functionality. This will help you during the onboarding flow, where only whitelisted accounts will be shown to the users during onboarding.
 > 
 
     
@@ -27,7 +27,7 @@ Third-party validation (TPV) of bank accounts is mandatory for businesses in the
              - `app/libs`: All libraries (Bank, SecureComponent and Turbo).
              - `app/build.gradle`: All transitive dependencies needed to integrate Turbo SDK.
 
-         2. Integrate with the [Razorpay Android Standard Checkout SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps.md).
+         2. Integrate with the [Razorpay Android Standard Checkout SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps.md).
 
          3. Import the following frameworks:
              - Checkout SDK
@@ -52,7 +52,7 @@ Third-party validation (TPV) of bank accounts is mandatory for businesses in the
 >          - API Key Usage for Different Environments:
 >             - Use the `rzp_test_5sHeuuremkiApj` API key id for testing on the UAT environment.
 >             - Use the `rzp_test_V5AtnjYvupQXm1` API key id for testing on the Mock environment. 
->             - Use the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+>             - Use the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.
 >          - As a compliance requirement, you need to get approval from Google for **READ_SMS** permission. Refer [to the Google article](https://support.google.com/googleplay/android-developer/answer/10208820?hl=en) for more details.
 >          
 
@@ -406,7 +406,7 @@ Given below are the steps:
     
 ### Step 4: Payment Flow
 
-         Razorpay SDK will handle all the changes related to Turbo UPI internally. To integrate with the payment flow, [initiate payment and display the checkout form](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps/#14-initiate-payment-and-display-checkout-form.md).
+         Razorpay SDK will handle all the changes related to Turbo UPI internally. To integrate with the payment flow, [initiate payment and display the checkout form](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps.md#14-initiate-payment-and-display-checkout-form).
         
 
     
@@ -452,7 +452,7 @@ Given below are the steps:
          1. Create a signature in your server using the following attributes:
             - `order_id`: Retrieve the `order_id` from your server. Do not use the `razorpay_order_id` returned by Checkout.
             - `razorpay_payment_id`: Returned by Checkout.
-            - `key_secret`: Available in your server. The `key_secret` that was generated from the  [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md).  
+            - `key_secret`: Available in your server. The `key_secret` that was generated from the  [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).  
 
          2. Use the SHA256 algorithm, the `razorpay_payment_id` and the `order_id` to construct a HMAC hex digest as shown below:
 
@@ -515,7 +515,7 @@ Razorpay provides a single exposed function that allows you to manage linked UPI
 > 
 > You can use the following S2S APIs to maintain and fetch a list of all TPV bank accounts for a customer.
 > - Use the [Add Bank Account of Customers API](#step-12-add-customer-s-bank-account) to add bank account of the customers.
-> - Use the [Delete Bank Account of Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers/bank-accounts/#2-delete-bank-account-of-customer.md) to delete bank account of the customers.
+> - Use the [Delete Bank Account of Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers/bank-accounts.md#2-delete-bank-account-of-customer) to delete bank account of the customers.
 > 
 
 ### Models Exposed from the SDKs
@@ -568,7 +568,7 @@ The SDKs given below provide access to exposed models for seamless integration.
 
          
 
-         [Refer to the list of possible error reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/payment-methods/turbo-upi/error-codes.md).
+         [Refer to the list of possible error reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/payment-methods/turbo-upi/error-codes.md).
         
 
 ## 2. Test Integration
@@ -616,4 +616,4 @@ Complete these steps to take your integration live:
     - `keep class retrofit2.** { *; }`
     - `keep class okhttp3.** { *; }`
 
-- Replace the UAT credential with the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+- Replace the UAT credential with the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.

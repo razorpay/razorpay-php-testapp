@@ -18,7 +18,7 @@ You can use this feature where you can charge any amount to your customer as par
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -176,7 +176,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
   : `string` Here, it has to be `netbanking`.
 
   `max_amount` _optional_
-  : `integer` The maximum amount, in paise, that a customer can be charged in one transaction. Know about [maximum and default values](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/faqs/#2-what-is-the-maximum-amount-which-can.md).
+  : `integer` The maximum amount, in paise, that a customer can be charged in one transaction. Know about [maximum and default values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/faqs.md#2-what-is-the-maximum-amount-which-can).
 
   `expire_at` _optional_
   : `integer` The timestamp, in Unix format, till when you can use the token (authorisation on the payment method) to charge the customer subsequent payments. Default is 10 years for `emandate`. The value can range from the current date to 31-12-2099 (`4101580799`).
@@ -327,7 +327,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
   : `string` Here, it has to be `netbanking`.
 
   `max_amount` _optional_
-  : `integer` The maximum amount, in paise, that a customer can be charged in one transaction. Know about [maximum and default values](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/faqs/#2-what-is-the-maximum-amount-which-can.md).
+  : `integer` The maximum amount, in paise, that a customer can be charged in one transaction. Know about [maximum and default values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/faqs.md#2-what-is-the-maximum-amount-which-can).
 
   `expire_at` _optional_
   : `integer` The timestamp, in Unix, till when you can use the token (authorization on the payment method) to charge the customer subsequent payments. Default is 10 years for `emandate`. The value can range from the current date to 31-12-2099 (`4101580799`).
@@ -418,7 +418,7 @@ Following are the two steps to create and charge your customer a subsequent paym
 @include recurring-payments/subsequent-payments/rec-pay-req
 
 ### Related Information
-- [Integrate Recurring Payments Using Emandate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/integrate.md)
-- [Supported Banks and Apps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/supported-banks.md)
-- [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/apis.md)
-- [Handle Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/errors.md)
+- [Integrate Recurring Payments Using Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/integrate.md)
+- [Supported Banks and Apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/supported-banks.md)
+- [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/apis.md)
+- [Handle Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/errors.md)

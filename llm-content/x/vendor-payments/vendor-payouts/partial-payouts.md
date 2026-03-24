@@ -29,11 +29,11 @@ To make a partial payout:
 2. Navigate to **Menu** → **Vendor Payments**.
 3. Select the invoice you want to pay partially. A pop-up screen appears to the right side of the screen. 
 4. In this window, click or hover over the options arrow next to the **PAY/SCHEDULE** button for the drop-down menu to appear. Here, click **PAY PARTIALLY**.
-    ![Select Pay Partially in the pop-up window on RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-partial-payouts-select.jpg.md)
+    ![Select Pay Partially in the pop-up window on RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-partial-payouts-select.jpg.md)
 5. You must now create a payout. 
-    - In the **New Payout** window, enter the Contact's valid details and [create a Fund Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts/#create-a-contact-with-fund-account.md) if the Contact doesn't have one. You can also select the [Contact type](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts/#contact-types.md) to be `Vendor`.
+    - In the **New Payout** window, enter the Contact's valid details and [create a Fund Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md#create-a-contact-with-fund-account) if the Contact doesn't have one. You can also select the [Contact type](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md#contact-types) to be `Vendor`.
     - Your contact, fund account and payout progress is automatically saved in RazorpayX. If you quit the **New Payout** window, or click **BACK**, you can always restart from the **Edit Invoice Screen**, as shown. 
-      ![Edit Invoice screen showing all the invoice details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-vp-partial-payouts-edit-invoice.jpg.md)
+      ![Edit Invoice screen showing all the invoice details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-vp-partial-payouts-edit-invoice.jpg.md)
 6. Finalise all the payout details and click **Next**.
     
 > **INFO**
@@ -50,9 +50,9 @@ After you make a Partial Payout, the invoice status changes to `Partially Paid`.
  
 ### Related Information
 
-- [Bulk Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/bulk.md)
-- [Scheduled Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/scheduled-payouts.md)
-- [Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/invoices.md)
-- [Invoice Life Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/life-cycle.md)
-- [Advances](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/advances.md)
-- [Purchase Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/purchase-order.md)
+- [Bulk Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/bulk.md)
+- [Scheduled Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/scheduled-payouts.md)
+- [Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/invoices.md)
+- [Invoice Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/life-cycle.md)
+- [Advances](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/advances.md)
+- [Purchase Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/purchase-order.md)

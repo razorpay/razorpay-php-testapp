@@ -24,7 +24,7 @@ Once you apply for leaves, they are sent to your managers for approval as config
 > 
 > **Available Now!**
 > 
-> Watch the video on to how to [mark attendance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/video-tutorials/#mark-and-modify-attendance.md) and [apply for leaves](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/video-tutorials/#apply-for-leaves.md).
+> Watch the video on to how to [mark attendance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/video-tutorials.md#mark-and-modify-attendance) and [apply for leaves](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/video-tutorials.md#apply-for-leaves).
 > 
 
 > **INFO**
@@ -32,7 +32,7 @@ Once you apply for leaves, they are sent to your managers for approval as config
 > 
 > **Handy Tips**
 > 
-> - If your organisation has integrated [Payroll with Slack](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/slack.md), you can update your leaves and attendance from within the Slack App. Refer to the [leave commands](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/slack#how-it-works.md).
+> - If your organisation has integrated [Payroll with Slack](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/slack.md), you can update your leaves and attendance from within the Slack App. Refer to the [leave commands](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/slack.md#how-it-works).
 > - You can check in and check out of your organisation via the biometric device, if your organisation has enabled it.
 > 
 
@@ -42,7 +42,7 @@ To mark attendance:
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
 1. Navigate to **Attendance** in the left menu.
 2. Use the **CHECK IN** and **CHECK OUT** options on the **Leave & Attendance** page to mark attendance for the day. You can also edit it on a future date and send it for approval.
-    ![Check in and check out for attendance RazorpayX Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-mark-attendance1.jpg.md)
+    ![Check in and check out for attendance RazorpayX Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-mark-attendance1.jpg.md)
 
 You have successfully marked your attendance for a single day. 
 
@@ -67,7 +67,7 @@ You can edit and delete incorrect attendance data on the Payroll Dashboard. Afte
             1. Go to to **Attendance** in the left menu → [**Attendance** table](#attendance-table).
             1. Navigate to the specific date for which you want to edit attendace. Click the edit icon in the **Edit** column against that date.
             1. In the **Change Attendance** pop-up window, update you attendance/leave information.
-                ![Apply leave on RazorpayX Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-leave-apply.jpg.md)
+                ![Apply leave on RazorpayX Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-leave-apply.jpg.md)
 
             This successfully raises the edit attendance request to the admin/manager for approval.
         
@@ -81,7 +81,7 @@ You can edit and delete incorrect attendance data on the Payroll Dashboard. Afte
             1. Go to **Attendance** in the left menu.
             1. Navigate to the specific date for which you want to delete your attendace. Click the edit icon in the **Edit** column against that date.
             1. In the **Change Attendance** pop-up window, click **DELETE ATTENDANCE**.
-                ![Apply leave on RazorpayX Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-leave-apply.jpg.md)
+                ![Apply leave on RazorpayX Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-leave-apply.jpg.md)
 
             This successfully raises the delete attendance request to your admin/manager for approval.
         
@@ -93,7 +93,7 @@ You can edit and delete incorrect attendance data on the Payroll Dashboard. Afte
 
             Here you can view the **Date**, **Status**, **Check In** and **Check Out** times. We automatically update the **Duration** and add the **Remarks** provided by you or your manager in the specific columns.
 
-            ![RazorpayX Payroll apply for leave](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-attendance-apply.jpg.md)
+            ![RazorpayX Payroll apply for leave](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-attendance-apply.jpg.md)
         
 
 ## Apply for Leaves
@@ -103,14 +103,14 @@ To apply for a leave:
 1. Go to **Attendance** in the left menu.
 1. In the [**Attendance** table](#attendance-table), find the date on which you are on leave. Click the edit icon in the **Edit** column.
 
-    ![RazorpayX Payroll apply for leave](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-attendance-apply.jpg.md)
+    ![RazorpayX Payroll apply for leave](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-attendance-apply.jpg.md)
 1. In the **Change Attendance** pop-up modal: 
     1. Select the **Status**. Select the leave to avail from the drop-down menu.
     1. Leave the **Check In** and **Check Out** times blank.
     1. Enter **Remarks** as applicable.
     1. Click **SEND REQUEST**.
 
-    ![Apply leave on RazorpayX Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-leave-apply.jpg.md)
+    ![Apply leave on RazorpayX Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-leave-apply.jpg.md)
 
 This successfully creates a leave request for the chosen date. We update your attendance calendar after your manager/HR's approval. 
 
@@ -130,7 +130,7 @@ You can edit and update, or delete your leave and leaves modification requests o
          1. Select the **From Date** and **To Date** in the modal. 
          1. Click **SEND REQUEST**.
 
-         ![Update bulk leaves on Razorpay Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-bulk-leave.jpg.md)
+         ![Update bulk leaves on Razorpay Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-bulk-leave.jpg.md)
         
 
     
@@ -148,7 +148,7 @@ You can edit and update, or delete your leave and leaves modification requests o
             Brown | Indicates `Pending Approval` from the Manager.
             
 
-            ![Razorpay Payroll leave status indicators](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-leave-codes.jpg.md)
+            ![Razorpay Payroll leave status indicators](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-leave-codes.jpg.md)
         
 
     
@@ -164,10 +164,10 @@ When you modify your attendance or add a leave, we raise the leave as a request 
 1. Go to the **Open Requests** section on the **Leave & Attendance** page.
 1. Select the check box against the list requests you have raised to delete them. 
 
-![Modify leave request. Select the check box to update on Razorpay Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-leave-request.jpg.md)
+![Modify leave request. Select the check box to update on Razorpay Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-leave-request.jpg.md)
 
 ### Related Information
 
-- [Employee Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees.md)
-- [Slack Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/slack.md)
-- [IT Declarations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations.md)
+- [Employee Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md)
+- [Slack Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/slack.md)
+- [IT Declarations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations.md)

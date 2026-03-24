@@ -5,7 +5,7 @@ description: List of payment methods that support Instant Refunds.
 
 # Supported Payment Methods
 
-We support the following payment methods for instant refunds. The list of banks that support instant refunds differ according to payment methods - [Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/supported-payment-methods/#netbanking.md) and [UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/supported-payment-methods/#upi.md).
+We support the following payment methods for instant refunds. The list of banks that support instant refunds differ according to payment methods - [Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/supported-payment-methods.md#netbanking) and [UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/supported-payment-methods.md#upi).
 
 Refunds will be sent back to the original payment method used in making the payment. For example, if netbanking was used to make the payment, the refund will be pushed to the same netbanking details.
 

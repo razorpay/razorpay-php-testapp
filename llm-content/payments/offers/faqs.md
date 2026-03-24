@@ -8,7 +8,7 @@ description: Find answers to frequently asked questions about Razorpay Payment O
 
 ### 1. How can I edit an Offer?
 
-         You cannot edit an offer once you create it. To make changes, [disable](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create#disabling-offers.md) the previous offer and [create](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create.md) a new one.
+         You cannot edit an offer once you create it. To make changes, [disable](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md#disabling-offers) the previous offer and [create](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md) a new one.
         
 
     

@@ -55,7 +55,7 @@ To create a Webstore on the Razorpay  Mobile App, you must complete the followin
 >         The Category name cannot exceed 100 characters.
 >         
 
-        ![Adding category name for PP Stores](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-category-name-add.jpg.md)
+        ![Adding category name for PP Stores](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-category-name-add.jpg.md)
 10. Add a brief description for your product if needed and click **Add product**.
     
 
@@ -88,9 +88,9 @@ Customise your page by adding a custom URL, adding an expiry date and so on thro
 
 4. You can add an expiry date for your Webstore.
 5. You can also add a custom message for your customers and redirect to your preferred website after successful payment.
-6. You can also configure Facebook Pixel and Google Analytics for your Webstore for metrics. Know more about how to add [Facebook Pixel and Google Analytics](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/plugins-add-ons.md) to your Webstore.
+6. You can also configure Facebook Pixel and Google Analytics for your Webstore for metrics. Know more about how to add [Facebook Pixel and Google Analytics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/plugins-add-ons.md) to your Webstore.
 7. Click **Save**.
-    ![Configure Settings for your Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-store-settings.jpg.md)
+    ![Configure Settings for your Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-store-settings.jpg.md)
 
 ### Step 4: Share and Start Accepting Payments
 
@@ -98,7 +98,7 @@ Share your Webstore with your customers and start accepting payments.
 
 1. Once your are done creating the Webstore, tap **Publish Page** to complete the Webstore creation.
 2. Tap **Share** to send the URL to your customers via different social media channels. You can also find the URL on the Dashboard in the Webstore list.
-    ![Webstore succesful creation.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/stores-mobile-live.jpg.md)
+    ![Webstore succesful creation.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/stores-mobile-live.jpg.md)
 
 ## Edit Webstore
 
@@ -136,6 +136,6 @@ Share your Webstore with your customers and start accepting payments.
 
 ### Related Information
 
-- [Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore.md)
-- [Razorpay Mobile App](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app.md)
-- [Create and Send Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app/accept-payments/payment-links.md)
+- [Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore.md)
+- [Razorpay Mobile App](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app.md)
+- [Create and Send Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app/accept-payments/payment-links.md)

@@ -9,7 +9,7 @@ description: Know how Razorpay performs Third-Party Validation (TPV) of your cus
 
 Third-Party Validation (TPV) of bank accounts is a mandatory requirement for businesses in the BFSI (Banking, Financial Services and Insurance) sector dealing with Securities, Broking and Mutual Funds. As per Securities and Exchange Board of India (SEBI) guidelines, transactions must be made by the investors **only** from those bank accounts provided when they registered with your business.
 
-With Razorpay, you can comply with the SEBI guidelines for online payment collections by offering TPV integrations with [major banks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/bank-list.md) at Checkout. Investors can make payments using netbanking, debit card or UPI. Know [how to integrate TPV on Razorpay Standard Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/standard-integration.md).
+With Razorpay, you can comply with the SEBI guidelines for online payment collections by offering TPV integrations with [major banks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation/bank-list.md) at Checkout. Investors can make payments using netbanking, debit card or UPI. Know [how to integrate TPV on Razorpay Standard Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation/standard-integration.md).
 
  to get this feature activated on your Razorpay account.
 
@@ -19,15 +19,15 @@ With Razorpay, you can comply with the SEBI guidelines for online payment collec
        1. At the Checkout, investors complete the payment using the bank account details passed during the order creation.
        2. The payment is marked as successful only when the bank account details entered in the order match those entered by the investor on the Checkout. If the investor tries to make a payment with an account other than the registered account, Razorpay fails the transaction.
       
-       ![TPV Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/tpv-standard-checkout.jpg.md)
+       ![TPV Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/tpv-standard-checkout.jpg.md)
        
       
 
 ## Supported Products
 
 TPV is supported on the following products:
-- [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/third-party-validation.md)
-- [Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway.md)
+- [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links/third-party-validation.md)
+- [Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md)
 
 ## Supported Platforms
 
@@ -50,7 +50,7 @@ TPV is supported on the following platforms:
 
 ## Integration Flow
 
-Know [how to integrate TPV on Razorpay Standard Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/standard-integration.md).
+Know [how to integrate TPV on Razorpay Standard Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation/standard-integration.md).
 
 ### Related Information
 

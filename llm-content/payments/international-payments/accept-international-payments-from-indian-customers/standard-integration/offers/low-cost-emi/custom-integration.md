@@ -7,22 +7,22 @@ description: Integrate Low Cost EMI Offers with Custom Checkout built using Razo
 
 In the Checkout form designed to meet your business needs and branding, you can display Low Cost EMI Offers to attract a broader customer base by reducing the upfront cost barrier, leading to increased sales and higher average order values. 
 
-You can decide the cost to subvent for each EMI tenure while [creating an offer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/low-cost-emi/create.md) and the customer bears the remaining cost. This approach ensures that customers enjoy the benefits of EMI at an affordable cost, helping you minimise the overall cost.
+You can decide the cost to subvent for each EMI tenure while [creating an offer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/low-cost-emi/create.md) and the customer bears the remaining cost. This approach ensures that customers enjoy the benefits of EMI at an affordable cost, helping you minimise the overall cost.
 
 > **INFO**
 >
 > 
 > **New to Custom Checkout Integration?**
 > 
-> If yes, know more about the [custom integration flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
+> If yes, know more about the [custom integration flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
 > 
 
 ## Prerequisites
 
 Before integrating Low Cost EMI offers for your custom Checkout, run through this checklist:
 
-1. Understand the [payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments#payment-life-cycle.md).
-2. Generate the API keys from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/#api-keys.md).
+1. Understand the [payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments.md#payment-life-cycle).
+2. Generate the API keys from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings.md#api-keys).
 
 > **WARN**
 >
@@ -34,7 +34,7 @@ Before integrating Low Cost EMI offers for your custom Checkout, run through thi
 
 ## Integration Steps
 
-The procedure for integrating Custom Checkout on your website is explained in the [Custom Integration document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md). However, the procedure varies while passing the offers in the payment details.
+The procedure for integrating Custom Checkout on your website is explained in the [Custom Integration document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md). However, the procedure varies while passing the offers in the payment details.
 
 1. [Create a Low Cost EMI Offer](#step-1-create-a-low-cost-emi-offer)
 2. [Create an Order and Pass Offer_id](#step-2-create-an-order-and-pass-offer-id)
@@ -43,7 +43,7 @@ The procedure for integrating Custom Checkout on your website is explained in th
 
 ## Step 1: Create a Low Cost EMI Offer
 
-You can create a Low Cost EMI offer from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/create.md).
+You can create a Low Cost EMI offer from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/create.md).
 
 > **WARN**
 >
@@ -181,16 +181,16 @@ Using the following attributes, send an order request using the Orders API.
 > 
 >   **Handy Tips**
 > 
->   This is mandatory only in cases where you want to associate an offer or offers with the Order or you had not selected the [Show Offer on Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/create/#offer-validity.md) while creating the offer from the Dashboard.
+>   This is mandatory only in cases where you want to associate an offer or offers with the Order or you had not selected the [Show Offer on Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/create.md#offer-validity) while creating the offer from the Dashboard.
 >   
 
 ## Step 3: Show the Offer on Checkout
 
 You need to show the availability of Low Cost EMI Offers on checkout. Customers should be able to view the discount on interest being given to them and how much interest they need to bear. 
 
-For example, you can view the image below to see how Low Cost EMI offers appear on [Razorpay Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/low-cost-emi.md).
+For example, you can view the image below to see how Low Cost EMI offers appear on [Razorpay Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/low-cost-emi.md).
 
-![Low Cost EMI on Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/low-cost-emi-standard.jpg.md)
+![Low Cost EMI on Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/low-cost-emi-standard.jpg.md)
 
 ## Step 4: Submit Payment Details
 
@@ -227,17 +227,17 @@ $btn.on('click', function(){
 })
 ```
 
-Know more about [Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
+Know more about [Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
 
 ## Next Steps
 
 After the customer has availed the offer and made the payment at the Checkout, you can track the status of the payments:
 
 - From the Dashboard.
-- By [configuring webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
-- By polling our [payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#fetch-payments-based-on-orders.md).
+- By [configuring webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
+- By polling our [payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#fetch-payments-based-on-orders).
 
 ### Related Information
-- [About Low Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/low-cost-emi.md)
-- [Create Low Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/low-cost-emi/create.md)
-- [Tutorial - How to Create Low Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/low-cost-emi/tutorial.md)
+- [About Low Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/low-cost-emi.md)
+- [Create Low Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/low-cost-emi/create.md)
+- [Tutorial - How to Create Low Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/low-cost-emi/tutorial.md)

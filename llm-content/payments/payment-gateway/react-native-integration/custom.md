@@ -21,7 +21,7 @@ The React Native SDK acts as a wrapper around the Razorpay Custom UI SDK to buil
 > 
 > **Handy Tips**
 > 
-> [Razorpay React Native Standard SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/react-native-integration/standard.md) supports all payment methods by default. We recommend you integrate with the Razorpay React Native Standard SDK. If you integrate with Custom Checkout SDK, you will need to integrate these manually.
+> [Razorpay React Native Standard SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/react-native-integration/standard.md) supports all payment methods by default. We recommend you integrate with the Razorpay React Native Standard SDK. If you integrate with Custom Checkout SDK, you will need to integrate these manually.
 > 
 
 ## List of Razorpay React Native Custom SDK Versions (Last 4 versions)
@@ -47,7 +47,7 @@ Version No. | Release Date | Changes
 > 
 > **Update SDK**
 > 
-> Check your current SDK version. If it is outdated, please [update the SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/react-native-integration/custom/troubleshooting-faqs/#4-how-can-i-update-the-razorpay-react.md) to ensure uninterrupted settlements of your funds.
+> Check your current SDK version. If it is outdated, please [update the SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/react-native-integration/custom/troubleshooting-faqs.md#4-how-can-i-update-the-razorpay-react) to ensure uninterrupted settlements of your funds.
 > 
 
 @include payment-methods/upi-collect-deprecated/custom
@@ -56,18 +56,18 @@ Version No. | Release Date | Changes
 
 - Create a [Razorpay Account](https://dashboard.razorpay.com/signup).
 
-- [Generate API Keys in Test Mode](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md). To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
-- Know about the [Razorpay Payment Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md).
+- [Generate API Keys in Test Mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys). To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Know about the [Razorpay Payment Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md).
 
 ## Integration Steps
 
 Follow these integration steps:
 
-1. [Build Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/react-native-integration/custom/build-integration.md)
-2. [Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/react-native-integration/custom/test-integration.md)
-3. [Go-Live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/react-native-integration/custom/go-live-checklist.md)
+1. [Build Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/react-native-integration/custom/build-integration.md)
+2. [Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/react-native-integration/custom/test-integration.md)
+3. [Go-Live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/react-native-integration/custom/go-live-checklist.md)
 
 ### Related Information
 
-- [Troubleshooting and FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/react-native-integration/standard/troubleshooting-faqs.md)
-- [Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md)
+- [Troubleshooting and FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/react-native-integration/standard/troubleshooting-faqs.md)
+- [Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md)

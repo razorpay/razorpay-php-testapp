@@ -5,9 +5,9 @@ description: Configure and highlight axio as a payment method on Razorpay Checko
 
 # Highlight axio on Checkout
 
-After [axio payment method is enabled](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi.md), it appears as a Cardless EMI provider under EMI on Razorpay Standard Checkout. You can highlight **axio** on the Razorpay Checkout using a configuration and make it more prominent.
+After [axio payment method is enabled](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi.md), it appears as a Cardless EMI provider under EMI on Razorpay Standard Checkout. You can highlight **axio** on the Razorpay Checkout using a configuration and make it more prominent.
 
-![Highlighted Axio on Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cardless-emi-axio-axio-checkout.jpg.md)
+![Highlighted Axio on Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cardless-emi-axio-axio-checkout.jpg.md)
 
 Follow these steps to highlight axio on Razorpay Checkout:
 
@@ -30,7 +30,7 @@ Based on how you want to control the payment methods at the Checkout, there are 
 >  
 >         **Attention Plugin Users** 
 
->         If you are using one of our [plugins](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins.md) to accept payments, you can highlight axio on Checkout only by creating a global setting of the payments as a **Configuration ID**. Contact our [Support Team](https://razorpay.com/support/#raise-a-request) for more details about Configuration ID.
+>         If you are using one of our [plugins](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins.md) to accept payments, you can highlight axio on Checkout only by creating a global setting of the payments as a **Configuration ID**. Contact our [Support Team](https://razorpay.com/support/#raise-a-request) for more details about Configuration ID.
 >         
 
         
@@ -170,7 +170,7 @@ body, err := client.Order.Create(data, nil)
 
 ```
 
-Know more about [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 ## Sample Code
 
@@ -247,4 +247,4 @@ Know more about [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api
 
 ### Related Information
 
-[Configure Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods.md) on Razorpay Checkout
+[Configure Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods.md) on Razorpay Checkout

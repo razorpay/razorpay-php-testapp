@@ -21,7 +21,7 @@ To upload Items in bulk, you must download the [Items template](#download-items-
                     1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
                     2. Go to **Vendor Payments** in the left navigation and click **Items**.
                     3. In the **Items** window, click **+ Items** drop-down button on the top right and select **Bulk upload Items** from the drop-down list. 
-                    4. Click **Template** to download the template. You can also [click here](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ItemsTemplate.xlsx.md) to download the template.
+                    4. Click **Template** to download the template. You can also [click here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ItemsTemplate.xlsx.md) to download the template.
                     5. Fill the Items details in the file as per the validations in the template.
 
 ### Instructions for Filling the Template
@@ -88,5 +88,5 @@ To upload Items in bulk, you must download the [Items template](#download-items-
 
 ### Related Information
 
-- [Import Purchase Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/purchase-order/bulk-import-po.md)
-- [Bulk Import GRN](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/grn/bulk-import-grn.md)
+- [Import Purchase Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/purchase-order/bulk-import-po.md)
+- [Bulk Import GRN](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/grn/bulk-import-grn.md)

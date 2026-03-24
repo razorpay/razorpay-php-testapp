@@ -9,7 +9,7 @@ The Razorpay Android Custom SDK lets you integrate the supported payment methods
 
 ## Fetch Payment Methods
 
-Use the [Fetch Payment Methods API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/build-integration/#14-fetch-payment-methods.md) to fetch the payment methods available for your account.
+Use the [Fetch Payment Methods API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/build-integration.md#14-fetch-payment-methods) to fetch the payment methods available for your account.
 
 Below are the sample payloads for each payment method.
 
@@ -26,12 +26,12 @@ This payment method allows you to display your Customer Identifier details on ch
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
 
-There are no specific request parameters to be passed. Instead, you must pass the `fetchVirtualAccount` method for your Customer Identifier to get created and the details to appear on the checkout. Know more about [integrating bank transfer with Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/bank-transfer/custom-integration.md).
+There are no specific request parameters to be passed. Instead, you must pass the `fetchVirtualAccount` method for your Customer Identifier to get created and the details to appear on the checkout. Know more about [integrating bank transfer with Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bank-transfer/custom-integration.md).
 
 ## Debit and Credit Card
 
@@ -75,9 +75,9 @@ data.put("card[expiry_year]", "30")
 data.put("card[cvv]", "100")
 ```
 
-Check the [list of supported cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods#supported-cards.md).
+Check the [list of supported cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md#supported-cards).
 
-If you want to securely store customer's card details as network tokens, know about [Saved Cards feature](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards.md).
+If you want to securely store customer's card details as network tokens, know about [Saved Cards feature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards.md).
 
 ## EMI on Debit and Credit Cards
 
@@ -115,7 +115,7 @@ data.put("card[expiry_year]", "30")
 data.put("card[cvv]", "100")
 ```
 
-Check the list of supported [debit card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/debit-card-emi#supported-banks-for-debit-card-emis.md) and [credit card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/credit-card-emi/#supported-payment-partners.md) EMI providers.
+Check the list of supported [debit card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md#supported-banks-for-debit-card-emis) and [credit card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/credit-card-emi.md#supported-payment-partners) EMI providers.
 
 ## Cardless EMI
 
@@ -131,7 +131,7 @@ For Cardless EMI, `method` should be specified as `cardless_emi` and an addition
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -167,7 +167,7 @@ payload.put("method", "cardless_emi")
 payload.put("provider", "walnut369")
 ```
 
-Check the [list of supported Cardless EMI providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi#supported-payment-partners.md).
+Check the [list of supported Cardless EMI providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi.md#supported-payment-partners).
 
 ## Netbanking
 
@@ -194,7 +194,7 @@ data.put("method", "netbanking")
 data.put("bank", "SBIN")
 ```
 
-Check the [list of supported banks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/netbanking/#supported-banks.md).
+Check the [list of supported banks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/netbanking.md#supported-banks).
 
 ## Pay Later
 
@@ -223,7 +223,7 @@ payload.put("method", "paylater")
 payload.put("provider", "lazypay")
 ```
 
-Check the [list of Pay Later providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later#providers.md).
+Check the [list of Pay Later providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md#providers).
 
 ## Wallet
 
@@ -251,7 +251,7 @@ data.put("method", "wallet")
 data.put("wallet", "mobikwik")
 ```
 
-Check the list [Wallets supported by Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/wallets/#supported-wallets.md).
+Check the list [Wallets supported by Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets.md#supported-wallets).
 
 ## UPI
 
@@ -422,7 +422,7 @@ To implement this flow:
         data.put("upi_app_package_name", "com.google.android.apps.nbu.paisa.user") // pass package name that is returned in getAppsWhichSupportUpi and/or getAppsWhichSupportUpiAutopay
         ```
 
-Check the complete list of [UPI supported apps and their package names](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/supported-apps.md).
+Check the complete list of [UPI supported apps and their package names](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/supported-apps.md).
 
 #### Customise Order of Apps
 
@@ -554,10 +554,10 @@ data.put("vpa", "gaurav.kumar@exampleupi")
 
 Make UPI payments a faster, 2-step experience for your customers with Razorpay's Turbo UPI SDK.
 
-1. [Turbo UPI Headless Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-noui.md)
-2. [Turbo UPI UI Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-ui.md)
+1. [Turbo UPI Headless Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-noui.md)
+2. [Turbo UPI UI Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-ui.md)
 
-Know more about the [Customer Onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi.md).
+Know more about the [Customer Onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi.md).
 
 ## CRED
 

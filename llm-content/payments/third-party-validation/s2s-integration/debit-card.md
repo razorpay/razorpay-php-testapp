@@ -26,8 +26,8 @@ Investors can pay with a debit card and input the necessary card details (card n
 
 - Contact our [Support Team](https://razorpay.com/support/#raise-a-request) to get this feature enabled for your account.
 - Keep the API key (combination of `Key_Id` and `Key_Secret`) handy for integration. 
-- [Generate API Keys from the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) if you have not done already.
-- Configure the [payment capture settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md) on the Dashboard.
+- [Generate API Keys from the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) if you have not done already.
+- Configure the [payment capture settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md) on the Dashboard.
 
 ## Integration
 

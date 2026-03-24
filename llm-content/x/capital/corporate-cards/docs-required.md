@@ -78,8 +78,8 @@ Find the list of documents required for different business entity types.
 
 ## Related Information
 
-- [About RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md)
-- [About RazorpayX Corporate Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/corporate-cards.md)
+- [About RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md)
+- [About RazorpayX Corporate Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/corporate-cards.md)
 - [Sign up for RazorpayX Corporate Cards](https://razorpay.com/x/corporate-cards/) 
-- [RBL Onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/corporate-cards/rbl-onboarding.md)
-- [Yes Bank Onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/corporate-cards/ybl-onboarding.md)
+- [RBL Onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/corporate-cards/rbl-onboarding.md)
+- [Yes Bank Onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/corporate-cards/ybl-onboarding.md)

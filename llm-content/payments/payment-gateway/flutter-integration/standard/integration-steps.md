@@ -28,7 +28,7 @@ Follow these steps to integrate your Flutter application:
 > - Replace Test API keys with Live API keys
 > - Integrate with other APIs
 
-> Refer to the [post-integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/standard/integration-steps/#2-test-integration.md).
+> Refer to the [post-integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/standard/integration-steps.md#2-test-integration).
 > 
 
 > **WARN**

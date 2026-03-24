@@ -40,10 +40,10 @@ The process of submitting various evidence/documents to banks and gateways for c
 : `integer` Amount, in currency subunits, for which the dispute was created.
 
 `currency`
-: `string` 3-letter ISO currency code associated with the amount. List of [ supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` 3-letter ISO currency code associated with the amount. List of [ supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 `amount_deducted`
-: `integer` The amount, in currency subunits, deducted from your Razorpay current balance when the dispute is `lost`. This amount will be `0` unless the status of dispute is updated to `lost`. Learn about the different[ states of disputes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/#dispute-states.md).
+: `integer` The amount, in currency subunits, deducted from your Razorpay current balance when the dispute is `lost`. This amount will be `0` unless the status of dispute is updated to `lost`. Learn about the different[ states of disputes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes.md#dispute-states).
 
 `reason_code`
 : `string` Code associated with the reason for dispute.
@@ -74,7 +74,7 @@ The process of submitting various evidence/documents to banks and gateways for c
 : `integer` Timestamp (in Unix) when dispute was created.
 
 `evidence`
-: `object` Provides details of the evidence submitted/saved for contesting a dispute. Use the [Documents API ](@/Applications/MAMP/htdocs/new-docs/llm-content/api/documents.md) to securely share documents with Razorpay.
+: `object` Provides details of the evidence submitted/saved for contesting a dispute. Use the [Documents API ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/documents.md) to securely share documents with Razorpay.
 
   `amount`
   : `integer` The contested amount in currency subunits, for which evidence is provided. The value can vary from `0` to the dispute amount. The default value is the dispute amount. 
@@ -83,7 +83,7 @@ The process of submitting various evidence/documents to banks and gateways for c
   : `string` The explanation provided by you for contesting the dispute. Can have a maximum length of 1000 characters.
 
   `shipping_proof`
-  : `list` (List of document ids) [Document(s)](@/Applications/MAMP/htdocs/new-docs/llm-content/api/documents.md) which serves as proof that the product was shipped to the customer at the customer provided address. It should show the customer’s full shipping address, if possible.
+  : `list` (List of document ids) [Document(s)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/documents.md) which serves as proof that the product was shipped to the customer at the customer provided address. It should show the customer’s full shipping address, if possible.
 
   `billing_proof`
   : `list` (List of document ids) Document(s) which serves as proof of order confirmation such as receipt.
@@ -525,7 +525,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
 ### Contest a Dispute
 
 Contesting a dispute indicates that you would like to challenge the dispute raised against a payment. In addition to explicitly contesting a dispute, the contest process can also be triggered by:
-- Attaching an evidence document (A document uploaded to the Razorpay ecosystem using [Documents API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/documents.md) having purpose set to `dispute_evidence`).
+- Attaching an evidence document (A document uploaded to the Razorpay ecosystem using [Documents API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/documents.md) having purpose set to `dispute_evidence`).
 - Providing the evidence in textual format.
 - Specifying the contest amount (partial or full) 
 .
@@ -673,7 +673,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
 : `string` The explanation provided by you for contesting the dispute. Can have a maximum length of 1000 characters.
 
 `shipping_proof`
-: `list` (List of document ids) [Document(s)](@/Applications/MAMP/htdocs/new-docs/llm-content/api/documents.md) which serves as proof that the product was shipped to the customer at the customer provided address. It should show the customer’s full shipping address, if possible.
+: `list` (List of document ids) [Document(s)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/documents.md) which serves as proof that the product was shipped to the customer at the customer provided address. It should show the customer’s full shipping address, if possible.
 
 `billing_proof`
 : `list` (List of document ids) Document(s) which serves as proof of order confirmation such as receipt.
@@ -738,7 +738,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
 
 All successful responses are returned with HTTP Status code 200. In case of failure, Razorpay API returns a JSON error response with the parameters that detail the reason for the failure.
 
-[Learn more about error codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md).
+[Learn more about error codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md).
 
 ## Webhooks
 
@@ -1296,4 +1296,4 @@ Webhook Event | Description
 
 ### Related Information
 
-- [Documents API ](@/Applications/MAMP/htdocs/new-docs/llm-content/api/documents.md) to securely share documents with Razorpay.
+- [Documents API ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/documents.md) to securely share documents with Razorpay.

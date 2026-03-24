@@ -265,7 +265,7 @@ If the payment made by the customer is successful, the following fields are sent
 ```
 #### Failure Callback
 
-If the payment has failed, the callback will contain details of the error. Refer to [errors](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#errors.md) for details.
+If the payment has failed, the callback will contain details of the error. Refer to [errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#errors) for details.
 
 ### 1.4 Verify Payment Signature
 
@@ -277,4 +277,4 @@ If the payment has failed, the callback will contain details of the error. Refer
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v1/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v1/test-integration.md)

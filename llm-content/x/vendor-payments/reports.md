@@ -10,12 +10,12 @@ You can generate reports from Vendor Payments to export details of all invoices/
  
 ## Generate a Report
  
-To generate a report, you can either navigate to [**Reports**](@/Applications/MAMP/htdocs/new-docs/llm-content/x/reports.md) on the RazorpayX Dashboard or follow the steps below:
+To generate a report, you can either navigate to [**Reports**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/reports.md) on the RazorpayX Dashboard or follow the steps below:
  
 1. Log in to your [RazorpayX Dashboard](https://x.razorpay.com/).
 2. Click **Vendor Payments** in the left navigation menu.
 3. Click **View More Filters** and apply the required filters.
-   ![Filter Vendor Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-vp-download-report-filter.jpg.md)
+   ![Filter Vendor Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-vp-download-report-filter.jpg.md)
 4. Click the download icon.
 5. Select the report you want to generate:
    - Vendor Payments
@@ -28,7 +28,7 @@ To generate a report, you can either navigate to [**Reports**](@/Applications/MA
 9. Click:
    - **DOWNLOAD** to download the report and save it on your system. It may take up to 10 minutes.
    - **EMAIL** to email the report to yourself or your team members.
-   ![Download Vendor Payments Report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-vp-download-report.jpg.md)
+   ![Download Vendor Payments Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-vp-download-report.jpg.md)
 
 ## Types of Vendor Payment Reports
 
@@ -46,9 +46,9 @@ Vendors | Provides a list of all the vendors in the system, along with their con
 
 ## Share Reports with CA
  
-You can share the invoice report with your Chartered Accountant or Financial Manager via the [CA user role feature](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/ca-portal.md) available in RazorpayX.
+You can share the invoice report with your Chartered Accountant or Financial Manager via the [CA user role feature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/ca-portal.md) available in RazorpayX.
  
 ### Related Information
  
-- [About Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md)
-- [Invoice Life Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/life-cycle.md)
+- [About Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md)
+- [Invoice Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/life-cycle.md)

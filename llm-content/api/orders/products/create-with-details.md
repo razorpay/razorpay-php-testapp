@@ -26,7 +26,7 @@ Use this endpoint to create an Order with the transaction details and the domain
 : `integer` The amount for which the order was created, in currency subunits. For example, for an amount of , enter `29500`. Payment can only be made for this amount against the Order.
 
 `currency` _mandatory_
-: `string` ISO code for the currency in which you want to accept the payment. The default length is 3 characters. Refer to the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).  
+: `string` ISO code for the currency in which you want to accept the payment. The default length is 3 characters. Refer to the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).  
 
 `receipt` _optional_
 : `string` Receipt number that corresponds to this order, set for your internal reference. Can have a maximum length of 40 characters and has to be unique.
@@ -87,7 +87,7 @@ Use this endpoint to create an Order with the transaction details and the domain
  Can have a maximum length of 7 characters.
 
     `mf_amc_code` _mandatory for RTA_
-    : `string` The AMC code for the mutual fund. Can have a maximum length of 5 characters. [List of possible values](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/products/appendix.md).
+    : `string` The AMC code for the mutual fund. Can have a maximum length of 5 characters. [List of possible values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/products/appendix.md).
     
 
   
@@ -158,4 +158,4 @@ Use this endpoint to create an Order with the transaction details and the domain
  Can have a maximum length of 7 characters.
 
     `mf_amc_code` _mandatory for RTA_
-    : `string` The AMC code for the mutual fund. Can have a maximum length of 5 characters. [List of possible values](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/products/appendix.md)
+    : `string` The AMC code for the mutual fund. Can have a maximum length of 5 characters. [List of possible values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/products/appendix.md)

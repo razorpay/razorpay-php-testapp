@@ -112,7 +112,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 : `integer` The amount for which the order is created, in currency subunits. For example, for an amount of , enter `29500`. Payment can only be made for this amount against the Order.
 
 `currency` _mandatory_
-: `string` ISO code for the currency in which you want to accept the payment. The default length is 3 characters. Refer to the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` ISO code for the currency in which you want to accept the payment. The default length is 3 characters. Refer to the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 `receipt` _optional_
 : `string` Receipt number that corresponds to this order, set for your internal reference. Can have a maximum length of 40 characters and has to be unique.
@@ -379,7 +379,7 @@ While building a custom UI for accepting payments from your customers, you shoul
 
 After creating an order and obtaining the customer's payment details, send the information to Razorpay to complete the payment. The data that needs to be submitted depends on the customer's payment method. You can do this by invoking `createPayment` method.
 
-Know more about [sample codes for various payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods.md).
+Know more about [sample codes for various payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods.md).
 
 @include integration-steps/curlec-fpx-callout
 
@@ -482,4 +482,4 @@ When you use a callback URL, Razorpay makes a post call to the callback URL, wit
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/outward-remittances/custom-integration/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/outward-remittances/custom-integration/test-integration.md)

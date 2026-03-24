@@ -51,4 +51,4 @@ Explore how Razorpay Billme can streamline billing processes across various indu
 
 ### Related Information
 
-[About Billme](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/billme.md)
+[About Billme](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/billme.md)

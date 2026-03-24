@@ -39,7 +39,7 @@ Watch this video to learn how to customise the Affordability Widget.
 
 ## 1. Offers
 
-Configure the offers you want to display on the website based on your requirement. The customers can make a choice from a wide range of offers available for your product or service. Know how to [create offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create.md).
+Configure the offers you want to display on the website based on your requirement. The customers can make a choice from a wide range of offers available for your product or service. Know how to [create offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md).
 
 > **INFO**
 >
@@ -51,7 +51,7 @@ Configure the offers you want to display on the website based on your requiremen
 
 ### 1.1 Additional Offers 
 
-By default, all those offers with the **Show Offer on Checkout** option enabled during creation will appear on the widget. Additionally, you can enter the `offer_id` of the offer that did not have the [Show Offer on Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create#offer-validity:~:text=Show%20Offer%20on%20Checkout.md) option enabled during offer creation.
+By default, all those offers with the **Show Offer on Checkout** option enabled during creation will appear on the widget. Additionally, you can enter the `offer_id` of the offer that did not have the [Show Offer on Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md#offer-validity:~:text=Show%20Offer%20on%20Checkout) option enabled during offer creation.
 
 ```js: Add Parameter
 {
@@ -70,7 +70,7 @@ By default, all those offers with the **Show Offer on Checkout** option enabled 
 #### Parameters
 
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹4000, enter `400000`.
@@ -104,7 +104,7 @@ To show limited offers:
 #### Parameters
  
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹4000, enter `400000`.
@@ -134,7 +134,7 @@ To completely disable the offers:
 #### Parameters
  
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹4000, enter `400000`.
@@ -163,7 +163,7 @@ Configure the payment methods you want to display on the website based on your r
 
 #### 2.1.1 Limited Providers for EMI
 
-Razorpay supports [Debit Card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#5-can-you-provide-a-list-of-the.md) and [Credit Card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#1-what-are-the-standard-credit-card-interest.md) EMI providers for EMI options. By default, all EMI options satisfying the minimum transaction amount will appear on the widget. In case you want to display limited EMI options on the widget, enter the list of **provider codes** based on your requirement.
+Razorpay supports [Debit Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#5-can-you-provide-a-list-of-the) and [Credit Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#1-what-are-the-standard-credit-card-interest) EMI providers for EMI options. By default, all EMI options satisfying the minimum transaction amount will appear on the widget. In case you want to display limited EMI options on the widget, enter the list of **provider codes** based on your requirement.
 
 To show a limited set of providers:
 
@@ -184,13 +184,13 @@ To show a limited set of providers:
 #### Parameters
  
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹3000, enter `300000`.
 
 `display.emi.issuers` _optional_
-: `array` List of limited set of [providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#1-what-are-the-issuers-that-razorpay-supports.md) for EMI options.
+: `array` List of limited set of [providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#1-what-are-the-issuers-that-razorpay-supports) for EMI options.
 
 #### 2.1.2 Disable EMI Options
 
@@ -211,7 +211,7 @@ To completely disable EMI options:
 #### Parameters
  
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹4000, enter `400000`.
@@ -237,7 +237,7 @@ To completely disable EMI options:
 
 #### 2.2.1 Limited providers for Cardless EMI
 
-Razorpay supports these [Cardless EMI providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#cardless-emi.md). By default, all Cardless EMI options satisfying the minimum transaction amount will appear on the widget. In case you want to display limited Cardless EMI options on the widget, enter the list of **provider codes** based on your requirement.
+Razorpay supports these [Cardless EMI providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#cardless-emi). By default, all Cardless EMI options satisfying the minimum transaction amount will appear on the widget. In case you want to display limited Cardless EMI options on the widget, enter the list of **provider codes** based on your requirement.
 
 To show a limited set of providers:
 
@@ -259,13 +259,13 @@ To show a limited set of providers:
 #### Parameters
  
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹3000, enter `300000`.
 
 `display.cardlessEmi.providers` _optional_
-: `array` List of limited set of [providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi/#supported-payment-partners.md) for Cardless EMI options.
+: `array` List of limited set of [providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi.md#supported-payment-partners) for Cardless EMI options.
 
 #### 2.2.2 Disable Cardless EMI Options
 
@@ -286,7 +286,7 @@ To completely disable Cardless EMI options:
 #### Parameters
  
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹4000, enter `400000`.
@@ -312,7 +312,7 @@ To completely disable Cardless EMI options:
 
 #### 2.3.1 Limited Providers for Pay Later
 
-Razorpay supports these [Pay Later providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs#2-what-are-the-standard-interest-rates-charged.md). By default, all Pay Later options satisfying the minimum transaction amount will appear on the widget. In case you want to display limited Pay Later options on the widget, enter the list of **provider codes** based on your requirement.
+Razorpay supports these [Pay Later providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#2-what-are-the-standard-interest-rates-charged). By default, all Pay Later options satisfying the minimum transaction amount will appear on the widget. In case you want to display limited Pay Later options on the widget, enter the list of **provider codes** based on your requirement.
 
 To show a limited set of providers:
 
@@ -333,13 +333,13 @@ To show a limited set of providers:
 #### Parameters
  
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹100, enter `400000`.
 
 `display.paylater.providers` _optional_
-: `array` List of limited set of [providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later/#providers.md) for Pay Later options.
+: `array` List of limited set of [providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md#providers) for Pay Later options.
 
 #### 2.3.2 Disable Pay Later Options
 
@@ -360,7 +360,7 @@ To completely disable Pay Later options:
 #### Parameters
  
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹100, enter `400000`.
@@ -381,7 +381,7 @@ Change the appearance of the widget based on your website. Following are the cus
 
 Customise the theme colour based on your requirement. For example, if the background colour of the header is blue, you can change the colour to purple.
 
-![Customise the widget theme colour](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-theme-colour-v2.jpg.md)
+![Customise the widget theme colour](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-theme-colour-v2.jpg.md)
 
 > **INFO**
 >
@@ -407,7 +407,7 @@ To change the theme colour:
 #### Parameters
 
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹4000, enter `400000`.
@@ -422,7 +422,7 @@ To change the theme colour:
 
 You can customise the colour and font size of the headings on the widget. For example, if the colour of the heading is white and the font size is 12px you can change the colour to black and the font size to 14px.
 
-![Customise the heading colour and font size](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-heading-v2.jpg.md)
+![Customise the heading colour and font size](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-heading-v2.jpg.md)
 
 > **INFO**
 >
@@ -454,7 +454,7 @@ To change the heading colour and font size:
 #### Parameters
  
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹4000, enter `400000`.
@@ -474,7 +474,7 @@ You can customise the colour and font size of the content on the widget. For exa
 
 Additionally, you can also customise the background colour to match the look and feel of your website. 
 
-![Customise the content colour and font size](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-content-v2.jpg.md)
+![Customise the content colour and font size](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-content-v2.jpg.md)
 
 > **INFO**
 >
@@ -506,7 +506,7 @@ To change the content colour, font size and background colour:
 #### Parameters
  
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹4000, enter `400000`.
@@ -527,7 +527,7 @@ To change the content colour, font size and background colour:
 
 You can customise the colour of the discount value on the widget. For example, if the colour of the value is green, you can change the colour to pink.
 
-![Customise the content colour and font size](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-discount-v2.jpg.md)
+![Customise the content colour and font size](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-discount-v2.jpg.md)
 
 > **INFO**
 >
@@ -558,7 +558,7 @@ To change the discount value colour:
 #### Parameters
  
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹4000, enter `400000`.
@@ -575,7 +575,7 @@ By default, a button appears on the widget to view the plans, offers and options
 
 Additionally, you can customise the colour and font size of the link on the widget. For example, if the colour of the link is blue and the font size is 10px you can change the colour to black and the font size to 12px.
 
-![Customise the link colour and font size](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-button-link.jpg.md)
+![Customise the link colour and font size](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-button-link.jpg.md)
 
 > **INFO**
 >
@@ -608,7 +608,7 @@ To change the button to a link and its colour and font size:
 #### Parameters
  
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹4000, enter `400000`.
@@ -634,7 +634,7 @@ You can customise the colour and font size of the footer on the widget. For exam
 Razorpay provides customisation option for the logo in two variants:
 - Light (default)
 - Dark 
-![Customise the appearance of the logo on the widget](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-dark-logo-v2.jpg.md)
+![Customise the appearance of the logo on the widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-dark-logo-v2.jpg.md)
 
 > **INFO**
 >
@@ -667,7 +667,7 @@ To change the footer colour, font size and logo:
 #### Parameters
  
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹4000, enter `400000`.
@@ -690,7 +690,7 @@ To change the footer colour, font size and logo:
 
 Activate the widget's dark mode when your website utilises dark mode. This is specifically designed for websites with darker background colors, improving the presentation of offers, plans, and options.
 
-![Enable widget dark mode on your website](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-dark-mode.jpg.md)
+![Enable widget dark mode on your website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-dark-mode.jpg.md)
 
 To enable dark mode: 
 
@@ -711,7 +711,7 @@ To enable dark mode:
 #### Parameters
  
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹4000, enter `400000`.
@@ -726,6 +726,6 @@ To enable dark mode:
 
 ### Related Information
 
-- [Integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/native-web.md)
-- [Affordability Widget FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#affordability-widget.md)
-- [About Affordability Widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget.md)
+- [Integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/native-web.md)
+- [Affordability Widget FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#affordability-widget)
+- [About Affordability Widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget.md)

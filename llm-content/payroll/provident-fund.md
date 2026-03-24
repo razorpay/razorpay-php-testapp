@@ -91,7 +91,7 @@ You must set up PF organisation on the Payroll Dashboard to collect employee inf
 
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard).
 1. Go to **Settings** → **Payments & Compliance Setup**. Click **EDIT**.
-    ![EDIT on Payroll Dashboard Settings > Payments & Compliance Setup](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pf-enable.jpg.md)
+    ![EDIT on Payroll Dashboard Settings > Payments & Compliance Setup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pf-enable.jpg.md)
 1. On the **Payments Settings** page, navigate to the **PF Settings** section.
 1. Select the relevant check boxes to enable or disable PF Settings. You can choose to: 
     - Include [employer's contribution](#how-pf-is-calculated) in employee's CTC.
@@ -99,7 +99,7 @@ You must set up PF organisation on the Payroll Dashboard to collect employee inf
     - Use only basic salary to calculate PF. 
     - Use PF limit as ₹15,000 when calculating PF contributions. 
 
-    ![Payroll Dashboard Setup PF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pf-edit-setup.jpg.md)
+    ![Payroll Dashboard Setup PF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pf-edit-setup.jpg.md)
 1. Click **CONTINUE**.
 
 You have successfully set up PF payments for your organisation and employees. 
@@ -123,7 +123,7 @@ There are two steps to individually register employees for Provident Fund:
                     
                     If the employee does not have a UAN, follow the steps to register employees for PF on the EPFO portal. 
 
-                    ![specific and meaningful image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pf-register.jpg.md)
+                    ![specific and meaningful image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pf-register.jpg.md)
                 1. Click **CONTINUE**.
 
                 This saves the employee's UAN on the Payroll Dashboard.
@@ -315,20 +315,20 @@ There are two steps to individually register employees for Provident Fund:
             1. Log in to the EPFO portal using your credentials. You can also retrieve your credentials from **Company Details** → **External Credentials** on the Payroll Dashboard.
             1. Enter the OTP sent to your registered mobile number to authenticate your log in. 
             1. On the EPFO website, navigate to **Member** in the top menu. Click **REGISTER INDIVIDUAL** in the drop-down menu.
-                ![EPFO portal Payroll make PF payments](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pf-epfo-payments.jpg.md)
+                ![EPFO portal Payroll make PF payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pf-epfo-payments.jpg.md)
             1. On the **Member Registration** page and section: 
                 - Select the **Yes** option for **Previous Employment/UAN** if the UAN if is already available for the employee. 
                 - Select the **No** option to register the employee for PF. 
                     1. Provide the employee's identity details such as **Name** and **Date of Birth** as on Aadhaar, **Gender**, **Father/Husband's Name**, **Nationality**, **Religion**, **Marital Status** and more.
                     2. Enter the **Date of Joining** and **Monthly EPF Wages as on Joining**. The monthly wages are as decided during [PF setup](#setup-pf).
 
-                        ![Payroll Register employee for PF New UAN](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pf-register-new-employee-UAN.jpg.md)
+                        ![Payroll Register employee for PF New UAN](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pf-register-new-employee-UAN.jpg.md)
             1. In the KYC Details section, select the **Document Type** to verify employee details. Employee's Aadhaar is mandatory.
                 1. Select the check boxes for the documents you choose to upload.
                 1. Enter the **DOCUMENT NUMBER**. For Aadhaar, you must enter the employee's Aadhaar number. 
                 1. Enter the **Name as per Document**. 
 
-                    ![specific and meaningful image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pf-register-new-UAN.jpg.md)
+                    ![specific and meaningful image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pf-register-new-UAN.jpg.md)
             1. Select the check box to affirm that you have the employee's consent to upload the above information. Click **Save**.
 
             This completes the registration process. Employee's details are now moved to the **Member details pending for approval section**. You can also edit or delete the registration as necessary. You must now approve the changes.
@@ -336,7 +336,7 @@ There are two steps to individually register employees for Provident Fund:
             1. Navigate to **Member** in the top menu. Click **APPROVALS**. 
             1. On the **Pending** page, review the details and click **Approve**.
 
-                ![Approve changes on EPFO](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pf-register-UAN-approve.jpg.md)
+                ![Approve changes on EPFO](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pf-register-UAN-approve.jpg.md)
 
             You have successfully registered your employees for PF via your organisation. Add the UAN on the employee's profile on the Payroll Dashboard. 
             
@@ -374,7 +374,7 @@ There are two steps to individually register employees for Provident Fund:
             
                 Non-registration/Delayed registration of employees
                 
-                 In some cases, new/existing employees' PF registration may be pending. Even though the salary is processed, the PF payment remains on hold due to incomplete PF/UAN information. Know more about [enabling compliances](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/quickstart/#enable-compliances.md). 
+                 In some cases, new/existing employees' PF registration may be pending. Even though the salary is processed, the PF payment remains on hold due to incomplete PF/UAN information. Know more about [enabling compliances](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/quickstart.md#enable-compliances). 
 
                     To resolve this: 
                     1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
@@ -513,7 +513,7 @@ There are two steps to individually register employees for Provident Fund:
                         1. Enter the OTP sent to your registered mobile number and authenticate your login.
                         1. On the EPFO portal, navigate to **Payments** tab in the top menu → **ECR/RETURN FILING** in the drop-down menu.
                         1. Go to **ECR Quick Links** and click **ECR Upload**.
-                            ![EPFO ECR file upload](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pf-ecr-upload.jpg.md)
+                            ![EPFO ECR file upload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pf-ecr-upload.jpg.md)
                         1. On the **ECR Upload** page, enter the following: 
                             1. **Wage Month**. Select the payroll month, For example, August 2024.
                             1. **Salary Disbursal Date**. 
@@ -522,7 +522,7 @@ There are two steps to individually register employees for Provident Fund:
                             1. **Contribution Rate %**. Select the number from the drop-down menu to indicate the percentage of employer's contribution. For example, 12%.
                             1. **Remarks**. Specify the payroll month, or any other remarks.
 
-                                ![Update ECR details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pf-ecr-upload-details.jpg.md)
+                                ![Update ECR details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pf-ecr-upload-details.jpg.md)
                         1. Click **Upload**.  
 
                         This successfully submits your organisation's ECR file for validation. The processed ECR file now moves to **Draft ECR's**.
@@ -530,12 +530,12 @@ There are two steps to individually register employees for Provident Fund:
                         1. In the **Draft ECR's:** section, click the download icon in the **ECR Statement** column. 
                         1. Verify the ECR Statement. Click **Verify** in the **Action** column to proceed. 
 
-                            ![Payroll PF ECR validation](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pf-ecr-validation.jpg.md)
+                            ![Payroll PF ECR validation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pf-ecr-validation.jpg.md)
 
                         This successfully validates the ECR file. You can now prepare the PF challan to make the payment.
 
                         1. In the **In-Process ECR's** section, click **Prepare Challan** in the Action column.
-                            ![EPFO click Prepare Challan](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pf-ecr-validate-stmt.jpg.md)
+                            ![EPFO click Prepare Challan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pf-ecr-validate-stmt.jpg.md)
                         1. The **Summary of Electronic Challan cum Return (ECR) page opens**. Here: 
                             1. Review the ECR details. 
                             1. Go to the **Employer details** section at the bottom of the challan. 
@@ -544,7 +544,7 @@ There are two steps to individually register employees for Provident Fund:
                             1. Enter the **Gross wages of the Excluded employees**. If two employees were excluded, provide the sum of their wages.
                         1. Click **Generate Challan** at the bottom of the page.
                             
-                            ![Generate challan EPFO](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pf-ecr-generate-challan.jpg.md)
+                            ![Generate challan EPFO](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pf-ecr-generate-challan.jpg.md)
 
                         This successfully finalises the challan. Click **Pay** in the **Payment** column to make the PF payment.
 
@@ -562,4 +562,4 @@ There are two steps to individually register employees for Provident Fund:
 
 ### Related Information
 
-[Statutory Compliance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md)
+[Statutory Compliance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md)

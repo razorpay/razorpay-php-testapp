@@ -7,7 +7,7 @@ description: Check the various Account & Settings options on the Razorpay Dashbo
 
 You can perform multiple configurations using **Account & Settings** on the Dashboard.
 
-![Settings on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-new-accounts-settings.jpg.md)
+![Settings on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-new-accounts-settings.jpg.md)
 
          1. Log in to the Dashboard.
          2. Click **Account & Settings** and click **Edit** next to **Phone number**.
@@ -21,7 +21,7 @@ You can perform multiple configurations using **Account & Settings** on the Dash
 
 ## Update Login Email
 
-You can change your registered email address after full activation of your account. You can either change it from your profile or navigate to [account details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/account-details/#update-login-email.md).
+You can change your registered email address after full activation of your account. You can either change it from your profile or navigate to [account details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/account-details.md#update-login-email).
 
     
 ### Update login mail:
@@ -68,36 +68,36 @@ Following are the settings available under **Account & Settings** and the action
 
     
         
-            - [Add or update business website/app details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/business-website-details.md)
+            - [Add or update business website/app details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/business-website-details.md)
 
-            - [Generate or regenerate API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys.md)
+            - [Generate or regenerate API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md)
 
-            - [Configure Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/webhooks.md)
+            - [Configure Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/webhooks.md)
 
         
     
 
     
         
-            - [Update account details such as email, phone and more](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/account-details.md)
+            - [Update account details such as email, phone and more](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/account-details.md)
 
             
-            - [View business details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/business-details.md)
+            - [View business details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/business-details.md)
 
-            - [Add or update customer support details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/customer-support-details.md)
-
-            
-            
-            - [View account activation details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/activation-details.md)
+            - [Add or update customer support details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/customer-support-details.md)
 
             
             
-            - [View GST details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/gst-details.md)
+            - [View account activation details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/activation-details.md)
 
             
-            - [Raise support ticket](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/support-tickets.md)
+            
+            - [View GST details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/gst-details.md)
 
-            - [Manage team](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team.md)
+            
+            - [Raise support ticket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/support-tickets.md)
+
+            - [Manage team](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md)
 
         
     
@@ -105,50 +105,37 @@ Following are the settings available under **Account & Settings** and the action
     
         
             
-            - [View and add credits](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/credits.md)
+            - [View and add credits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/credits.md)
 
             
-            - [View and add balances](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/balances.md)
+            - [View and add balances](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/balances.md)
 
-            - [Set reminders for Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/reminders.md)
+            - [Set reminders for Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/reminders.md)
 
-            - [Update transaction limits](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/transaction-limits.md)
+            - [Update transaction limits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/transaction-limits.md)
 
-            - [Configure payments capture and refund settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/capture-refund.md)
-
-        
-    
-
-    
-        
-            - [Update bank account details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/bank-account-details.md)
-
-            - [View settlement details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/settlement-details.md)
+            - [Configure payments capture and refund settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/capture-refund.md)
 
         
     
 
     
-    
         
-            - [Configure email settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/email-sms-whatsapp/#manage-email-notifications.md)
+            - [Update bank account details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/bank-account-details.md)
 
-            - [Configure SMS settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/email-sms-whatsapp/#manage-sms-notifications.md)
-
-            - [Configure WhatsApp settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/email-sms-whatsapp/#manage-whatsapp-notifications.md)
+            - [View settlement details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/settlement-details.md)
 
         
     
 
     
     
-    
         
-            - [Checkout Styling](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/checkout-styling.md)
+            - [Configure email settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/email-sms-whatsapp.md#manage-email-notifications)
 
-            - [Checkout Features](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/checkout-features.md)
+            - [Configure SMS settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/email-sms-whatsapp.md#manage-sms-notifications)
 
-            - [Payment Configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-configuration.md)
+            - [Configure WhatsApp settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/email-sms-whatsapp.md#manage-whatsapp-notifications)
 
         
     
@@ -157,9 +144,11 @@ Following are the settings available under **Account & Settings** and the action
     
     
         
-            - [Generate FIRS certificate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/firs.md)
+            - [Checkout Styling](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-styling.md)
 
-            - [Configure international payment codes (purpose code, IEC code, HS code)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/international-payment-codes.md)
+            - [Checkout Features](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-features.md)
+
+            - [Payment Configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-configuration.md)
 
         
     
@@ -168,7 +157,18 @@ Following are the settings available under **Account & Settings** and the action
     
     
         
-            - [Manage payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-methods.md)
+            - [Generate FIRS certificate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/firs.md)
+
+            - [Configure international payment codes (purpose code, IEC code, HS code)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/international-payment-codes.md)
+
+        
+    
+
+    
+    
+    
+        
+            - [Manage payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-methods.md)
 
         
     
@@ -176,5 +176,5 @@ Following are the settings available under **Account & Settings** and the action
     
 
 ### Related Information
-- [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard.md)
-- [Frequently Asked Questions (FAQs)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/faqs.md)
+- [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard.md)
+- [Frequently Asked Questions (FAQs)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/faqs.md)

@@ -47,7 +47,7 @@ To complete Re-KYC:
     1. Click the **pencil** icon next to your name.
     2. You will be able to edit your name. Make the required changes and click **Continue**.
 3. Verify your business type, PAN and other relevant documents. In case the details are incorrect or not up-to date, click the **pencil** icon to make changes and upload your latest documents. 
-4. Click **Continue**. You can upload `.pdf`, `.jpeg`, `.png` or `.jpg`. Ensure that the file size does not exceed 25 MB. Know more about [KYC Documents](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/business-types-kyc-documents/#kyc-documents.md).
+4. Click **Continue**. You can upload `.pdf`, `.jpeg`, `.png` or `.jpg`. Ensure that the file size does not exceed 25 MB. Know more about [KYC Documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/business-types-kyc-documents.md#kyc-documents).
 5. Complete all the steps, select the check box and click **Submit Application**.
 
 > **WARN**

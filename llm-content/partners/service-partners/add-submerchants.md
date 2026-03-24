@@ -6,7 +6,7 @@ description: Service Partners can invite Sub-merchants using their email IDs or 
 
 # Add Sub-merchants
 
-As a Service Partner, you can invite your affiliates to use Razorpay Payments products and RazorpayX powered Current Account. You get a partnership commission when the Sub-merchants perform any transaction using Razorpay products. Know more about [partnership commission](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/commissions.md).
+As a Service Partner, you can invite your affiliates to use Razorpay Payments products and RazorpayX powered Current Account. You get a partnership commission when the Sub-merchants perform any transaction using Razorpay products. Know more about [partnership commission](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/commissions.md).
 
 > **INFO**
 >
@@ -45,11 +45,11 @@ You can invite Sub-merchants using their email id to sign up and register on Raz
             2. Click **Partner** and navigate to **Affiliate Accounts**.
             3. Select the **Payments** or **RazorpayX** tab depending on the product you want to refer your affiliate. 
             4. Click **+ Add New Clients**.
-                 ![Service Partners - add new clients](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-reseller-add-client.jpg.md)
+                 ![Service Partners - add new clients](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-reseller-add-client.jpg.md)
             5. Under the **Using Email** tab, enter the **Client Name**, **Email ID** and **Contact number** (_optional_) to which the invite link must be sent. Click **Next**.
-                 ![Service Partners - enter client details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-add_sub_merchant.jpg.md)
+                 ![Service Partners - enter client details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-add_sub_merchant.jpg.md)
             6. If you want to perform KYC for your client, select **Yes, I will assist my client with their KYC** and click **Send Invite**.
-                 ![Service Partners - perform client KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-add-sumb-do-kyc.jpg.md)
+                 ![Service Partners - perform client KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-add-sumb-do-kyc.jpg.md)
 
                 
 > **INFO**
@@ -57,8 +57,8 @@ You can invite Sub-merchants using their email id to sign up and register on Raz
 > 
 >                     **Handy Tips**
 >                     
->                     We recommended you to perform KYC for your Sub-merchants as it decreases onboarding time by 50% and acts as a value added service. Know how to [perform KYC for your Sub-merchants](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/service-partners/perform-kyc.md). During onboarding, your client will see a consent screen to allow you access to perform KYC. They need to approve it for you to submit the KYC form on their behalf.
->                          ![KYC consent form during Sub-merchant onboarding.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-consent-screen.jpg.md)
+>                     We recommended you to perform KYC for your Sub-merchants as it decreases onboarding time by 50% and acts as a value added service. Know how to [perform KYC for your Sub-merchants](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/service-partners/perform-kyc.md). During onboarding, your client will see a consent screen to allow you access to perform KYC. They need to approve it for you to submit the KYC form on their behalf.
+>                          ![KYC consent form during Sub-merchant onboarding.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-consent-screen.jpg.md)
 >                 
 
         
@@ -70,7 +70,7 @@ You can send invites to multiple users using the **Bulk Upload** option. Upload 
     
 ### Bulk Upload Template
 
-         To view and understand the file format requirements, download the [sample template](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/sample_invite_submerchant_batch.xlsx.md). The account creation template contains the following headers.
+         To view and understand the file format requirements, download the [sample template](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/sample_invite_submerchant_batch.xlsx.md). The account creation template contains the following headers.
 
             `account_name` _optional_
             : Name of the Sub-merchant's account.
@@ -101,11 +101,11 @@ You can send invites to multiple users using the **Bulk Upload** option. Upload 
             4. Click **+ Add New Clients**.
             5. Shift to the **Bulk Upload** tab.
             6. Upload the file. You can drag and drop or **click to upload**. 
-                 ![add multiple account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-add-multiple-account.jpg.md)
+                 ![add multiple account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-add-multiple-account.jpg.md)
             7. The file is validated for any associated errors and uploaded to the Razorpay server. Click **Next**.
-                 ![send invite](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-send-invite.jpg.md)
+                 ![send invite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-send-invite.jpg.md)
             8. If you want to perform KYC for your client, select **Yes, I will assist my client with their KYC** and click **Send Invites** to send invites to your clients via email.
-                 ![Reseller Partners - perform client KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-add-sumb-do-kyc-bulk.jpg.md)
+                 ![Reseller Partners - perform client KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-add-sumb-do-kyc-bulk.jpg.md)
 
                 
 > **INFO**
@@ -113,8 +113,8 @@ You can send invites to multiple users using the **Bulk Upload** option. Upload 
 > 
 >                 **Handy Tips**
 >                 
->                 We recommended you to perform KYC for your Sub-merchants as it decreases onboarding time by 50% and acts as a value added service. Know how to [perform KYC for your Sub-merchants](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/service-partners/perform-kyc.md). During onboarding, your client will see a consent screen to allow you access to perform KYC. They need to approve it for you to submit the KYC form on their behalf.
->                    ![KYC consent form during Sub-merchant onboarding.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-consent-screen.jpg.md)
+>                 We recommended you to perform KYC for your Sub-merchants as it decreases onboarding time by 50% and acts as a value added service. Know how to [perform KYC for your Sub-merchants](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/service-partners/perform-kyc.md). During onboarding, your client will see a consent screen to allow you access to perform KYC. They need to approve it for you to submit the KYC form on their behalf.
+>                    ![KYC consent form during Sub-merchant onboarding.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-consent-screen.jpg.md)
 >                 
 
         
@@ -125,8 +125,8 @@ Once the file is successfully processed, you will receive the account creation s
 
     
         - The newly added Payments Sub-merchants will appear on your list on the Partner Dashboard with a default **Activation Status** as **Not Submitted**. 
-        - To get started, the Sub-merchants must proceed to complete the [Account Set Up](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up.md) and [KYC Verification](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#2-submit-kyc-details.md) processes by using their Razorpay account credentials.
-              ![email sent](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-email-sent.jpg.md)
+        - To get started, the Sub-merchants must proceed to complete the [Account Set Up](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md) and [KYC Verification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#2-submit-kyc-details) processes by using their Razorpay account credentials.
+              ![email sent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-email-sent.jpg.md)
     
     
         - RazorpayX Affiliates will appear with a default CA status as **Application not initiated**. 
@@ -144,17 +144,17 @@ Share a referral link with potential Sub-merchants via social media or instant m
             1. Log in to the Dashboard.
             2. In the **Partner** section, navigate to **Affiliate Accounts**.
             3. Click **Share Referral Link**.
-                 ![Service Partners - share referral link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-share-referral-link.jpg.md)
+                 ![Service Partners - share referral link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-share-referral-link.jpg.md)
             4. For Partner accounts on which X referrals have been activated in the **Share Referral Link** modal, select Razorpay Payments or RazorpayX depending on the product you want to refer an affiliate.
             5. If you want to perform KYC for your client, select **Yes, I will assist my client with their KYC**.
-                 ![Service Partners - share referral link with KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/referral-link-with-kyc.jpg.md)
+                 ![Service Partners - share referral link with KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/referral-link-with-kyc.jpg.md)
             6. A drop-down page appears where you can share the link using:
                 - Copy button: This copies the referral link. You can copy-paste this link and send it via email or instant messaging apps such as WhatsApp.
                 - Facebook: Click the Facebook icon to share the referral link as a post on your Facebook account.
                 - Twitter: Click the Twitter icon to send a tweet with the referral link.
                 - WhatsApp: Click the WhatsApp icon to send a message with the referral link.
             7. If you do not want to perform KYC for your Sub-merchants, select **No, my client will perform KYC on their own**. A **different** referral link will be displayed. You can share this link using the above options.
-                ![Service Partners - share referral link without KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/referral-link-without-kyc.jpg.md)
+                ![Service Partners - share referral link without KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/referral-link-without-kyc.jpg.md)
 
                 
 > **INFO**
@@ -162,8 +162,8 @@ Share a referral link with potential Sub-merchants via social media or instant m
 > 
 >                 **Handy Tips**
 >                 
->                 We recommended you to perform KYC for your Sub-merchants as it decreases onboarding time by 50% and acts as a value added service. Know how to [perform KYC for your Sub-merchants](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/service-partners/perform-kyc.md). During onboarding, your affiliate will see a consent screen to allow you access to perform KYC. They need to approve it for you to submit the KYC form on their behalf.
->                    ![KYC consent form during Sub-merchant onboarding.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-consent-screen.jpg.md)
+>                 We recommended you to perform KYC for your Sub-merchants as it decreases onboarding time by 50% and acts as a value added service. Know how to [perform KYC for your Sub-merchants](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/service-partners/perform-kyc.md). During onboarding, your affiliate will see a consent screen to allow you access to perform KYC. They need to approve it for you to submit the KYC form on their behalf.
+>                    ![KYC consent form during Sub-merchant onboarding.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-consent-screen.jpg.md)
 >                 
 
             
@@ -173,23 +173,23 @@ Share a referral link with potential Sub-merchants via social media or instant m
 ## Actions After Inviting
 
     
-        Your contact will receive an invite via email and SMS to create a Razorpay account. To get started, the contacts invited for `Payment` products, must proceed to create a Razorpay account and complete account activation and [KYC Verification](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#2-submit-kyc-details.md). Sub-merchants invited for `Payments` can be seen under **Payments**.
+        Your contact will receive an invite via email and SMS to create a Razorpay account. To get started, the contacts invited for `Payment` products, must proceed to create a Razorpay account and complete account activation and [KYC Verification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#2-submit-kyc-details). Sub-merchants invited for `Payments` can be seen under **Payments**.
 
         **All Invites**
 
         You can check all the invites sent in the **All Invites** tab. You can resend invites to your contacts.
-             ![Service Partners - All invites sent](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/resellers-all-invites.jpg.md)
+             ![Service Partners - All invites sent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/resellers-all-invites.jpg.md)
             
         **Accepted Invites**
 
         To see the contacts that have accepted your invite, switch to the **Accepted Invites** tab. You can check the activation status and request for KYC.
-              ![Service Partners - Accepted invites](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/resellers-accepted-invites.jpg.md)
+              ![Service Partners - Accepted invites](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/resellers-accepted-invites.jpg.md)
               
     
         A RazorpayX affiliate will be displayed with a default CA status as **Application not initiated**. Sub-merchants referred for `RazorpayX powered Current Account` must log in to their [RazorpayX Dashboard ](https://x.razorpay.com/auth) and initiate Current Account application. 
 
         Sub-merchants invited for `Current Account` can be seen under **RazorpayX**:
-             ![Service Partners - List of affiliate account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/resellers-affiliate-accounts-x.jpg.md)
+             ![Service Partners - List of affiliate account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/resellers-affiliate-accounts-x.jpg.md)
     
 
 ## Sub-merchant Activation Status
@@ -258,6 +258,6 @@ Activated | The account activation status is `Activated` once the KYC documents 
 
 ### Related Information
 
-- [Partners](@/Applications/MAMP/htdocs/new-docs/llm-content/partners.md)
-- [About Service Partners](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/service-partners.md)
-- [Partner Commissions](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/commissions.md)
+- [Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners.md)
+- [About Service Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/service-partners.md)
+- [Partner Commissions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/commissions.md)

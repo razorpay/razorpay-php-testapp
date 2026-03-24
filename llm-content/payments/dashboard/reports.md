@@ -15,12 +15,12 @@ We offer many reports to track the cash flow of your business.
 ### To download a report:
 
          1. Log in to the Dashboard and click **Reports**.
-             ![Schedule Reports](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/schedule-report-left-nav.jpg.md)
+             ![Schedule Reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/schedule-report-left-nav.jpg.md)
          2. Click **Download Report**.
          3. Click **What report is this?** to select the report type and format.
-             ![Download Reports Type and Format](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/download-report-type-format2.jpg.md)
+             ![Download Reports Type and Format](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/download-report-type-format2.jpg.md)
          4. To select the time frame of the report, click **What will you receive in this report?**. You can also select a custom time range by clicking the **Custom** button and selecting your preferred time and date.
-             ![Download Reports Timeframe](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/download-report-time-select.jpg.md)
+             ![Download Reports Timeframe](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/download-report-time-select.jpg.md)
 
              
 > **INFO**
@@ -33,9 +33,9 @@ We offer many reports to track the cash flow of your business.
 
     
          5. Click **Yes** on the **Do you want this report in an email?** section to add the email recipients with whom you want to share the report and click **Start Download**.
-             ![Download Reports Add Email](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/download-report-add-email.jpg.md)
+             ![Download Reports Add Email](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/download-report-add-email.jpg.md)
          6. Your report request will begin processing. You can track the status and download the report in the **Downloads** section.
-             ![Download Reports Add Email](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/downloads-section3.jpg.md)
+             ![Download Reports Add Email](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/downloads-section3.jpg.md)
         
 
     
@@ -72,7 +72,7 @@ Scheduling reports offers numerous advantages. It guarantees punctual and regula
         
 
 Your report will be scheduled. You can track and manage all your schedules in the **Schedules** section.
-![schedule Reports section](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/schedule-section2.jpg.md)
+![schedule Reports section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/schedule-section2.jpg.md)
 
 ## View and Edit Schedules
 You can also access and review previous schedules associated with a specific scheduled report. This allows you to view the scheduled report's history and corresponding configuration. You can also modify a scheduled report's configuration as per your requirements.
@@ -84,7 +84,7 @@ You can also access and review previous schedules associated with a specific sch
          2. Click **Schedules** and click **Open** on the schedule you want to view under **View Activity**.
          3. Click **Edit Schedule** to modify the existing settings of the scheduled report.
          4. Click **Edit Schedule** to save the changes.
-             ![save edit schedule reports](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/save-edit-activity.jpg.md)
+             ![save edit schedule reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/save-edit-activity.jpg.md)
         
 
 ## Limit on Reports

@@ -9,11 +9,11 @@ Razorpay Webstore makes it easy to launch an online store. This no-code platform
 
 With the ability to create and instantly share a Webstore, the platform helps businesses establish an online presence and accelerate growth. It simplifies product listing and payment collection, making it easier for businesses to reach and engage with customers worldwide.
 
-![Webstore Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/webstore-flow.jpg.md)
+![Webstore Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/webstore-flow.jpg.md)
 
 A quick glimpse of a Webstore.
 
-![Example of a Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/storefront-example.jpg.md)
+![Example of a Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/storefront-example.jpg.md)
 
 ## Advantages
 
@@ -22,7 +22,7 @@ A quick glimpse of a Webstore.
 - Set up custom URLs that align with your brand and are easy to remember.
 - Add multiple products, images, descriptions, and discounts effortlessly—no development work required.
 - Manage product inventory seamlessly, giving you full control over demand and supply.
-- Webstore is readily integrated with [Magic Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout.md) which comes with pre-filled address of 100M+ customer, reducing the cart drop-offs.
+- Webstore is readily integrated with [Magic Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout.md) which comes with pre-filled address of 100M+ customer, reducing the cart drop-offs.
 
 ### Use Cases
 
@@ -64,11 +64,11 @@ A quick glimpse of a Webstore.
 
 ### Supported Payment Methods
 
-Customers can make online payments using [Card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards.md), [Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/netbanking.md), [UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi.md), and **wallets**.
+Customers can make online payments using [Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards.md), [Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/netbanking.md), [UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi.md), and **wallets**.
   
 ### International Currency Support
 
-You can receive payments in any of the [supported international currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+You can receive payments in any of the [supported international currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 ## Get Started
 
@@ -76,12 +76,12 @@ To create Razorpay Webstore, log in to the Dashboard and click **Payment Pages**
 
 ### What Next
 
-Understand [how you can use Razorpay Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/how-it-works.md). Know about the various [Webstore states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/states.md).
+Understand [how you can use Razorpay Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/how-it-works.md). Know about the various [Webstore states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/states.md).
 
 ### Related Information
 
-- [How Razorpay Webstore Works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/how-it-works.md)
-- [Webstore States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/states.md)
-- [Create a Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/create.md)
-- [Search for Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/search.md)
-- [Manage Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/manage.md)
+- [How Razorpay Webstore Works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/how-it-works.md)
+- [Webstore States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/states.md)
+- [Create a Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/create.md)
+- [Search for Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/search.md)
+- [Manage Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/manage.md)

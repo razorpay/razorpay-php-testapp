@@ -41,7 +41,7 @@ If your application `targetSdkVersion` is 30 or above, add the following code in
 > 
 > **Handy Tips**
 > 
-> - Refer to the list of [supported UPI apps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/supported-apps.md).
+> - Refer to the list of [supported UPI apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/supported-apps.md).
 > - Additionally, we recommend you to create 2 sections - **Primary** and **Others**. Under **Primary**, display the following 4 apps:
 >   - GPay
 >   - PhonePe

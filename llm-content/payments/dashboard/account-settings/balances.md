@@ -21,7 +21,7 @@ Always maintain sufficient available balance in your account to ensure your tran
 
 Your available balance is now segregated based on the channel type that is, **Online (Domestic transactions + International Cards), In-person and International**.
 
-![account settings balances razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-balances.jpg.md)
+![account settings balances razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-balances.jpg.md)
 
 > **WARN**
 >
@@ -91,7 +91,7 @@ You can add funds to Reserve balance through UPI or bank transfer payment method
         3. Click **Balances** under **Payments and refunds** section.
         4. Click **Add Funds**.
             
-            ![Add Reserve balance](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/reserve-balance.jpg.md)
+            ![Add Reserve balance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/reserve-balance.jpg.md)
             
         5. Select **UPI**.
         6. Enter the description and amount to be added.
@@ -119,7 +119,7 @@ You can add funds to Reserve balance through UPI or bank transfer payment method
         5. Select **Bank Transfer**.
         6. Copy the account number and IFSC code.
             
-            ![Copy IFSC and account number](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/copy-ifsc.jpg.md)
+            ![Copy IFSC and account number](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/copy-ifsc.jpg.md)
             
         7. Open your netbanking portal, create a beneficiary with these details and transfer the amount.
 
@@ -283,5 +283,5 @@ Each balance card displays:
 
 ### Related Information 
 
-- [About Account and Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings.md)
-- [About Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard.md)
+- [About Account and Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings.md)
+- [About Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard.md)

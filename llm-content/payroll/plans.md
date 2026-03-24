@@ -29,7 +29,7 @@ Following are the common payroll features available with each plan.
             ---
             Direct salary payments | ✓ | ✓ | ✓
             ---
-            [One-time Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/one-time-payments.md) | ✓ | ✓ | ✓
+            [One-time Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/one-time-payments.md) | ✓ | ✓ | ✓
             ---
             Salary Adjustments | ✓ | ✓ | ✓
             ---
@@ -43,7 +43,7 @@ Following are the common payroll features available with each plan.
             
             Facilities and Features | Prime | Elite | Enterprise
             ---
-            Expense management/[Reimbursements](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/reimbursements.md) | ✓ | ✓ | ✓  
+            Expense management/[Reimbursements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/reimbursements.md) | ✓ | ✓ | ✓  
             ---
             Contractor payments | ✓** | ✓** | ✓
              
@@ -56,7 +56,7 @@ Following are the common payroll features available with each plan.
             
             Facilities and Features | Prime | Elite | Enterprise
             ---
-            [Compliance Calculations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md) (PT, TDS) | ✓ | ✓ | ✓ 
+            [Compliance Calculations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md) (PT, TDS) | ✓ | ✓ | ✓ 
             ---
             Advance Compliance (ESI, PF) | ✓ | ✓ | ✓
             ---
@@ -74,9 +74,9 @@ Following are the common payroll features available with each plan.
             ---
             Standard Roles and Permissions | ✓ | ✓ | ✓
             ---
-            [Custom Roles and Permissions](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/user-roles-workflows.md) | x | ✓ | ✓
+            [Custom Roles and Permissions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/user-roles-workflows.md) | x | ✓ | ✓
             ---
-            [Custom Salary Structure](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary#setup-salary-structure.md) | ✓ | ✓ | ✓
+            [Custom Salary Structure](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md#setup-salary-structure/) | ✓ | ✓ | ✓
             ---
             NPS | ✓ | ✓ | ✓ 
             ---
@@ -88,17 +88,17 @@ Following are the common payroll features available with each plan.
             ---
             Resettlement | ✓ | ✓ | ✓
             ---
-            [Salary Advance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#advance-salary.md) | ✓ | ✓ | ✓
+            [Salary Advance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#advance-salary) | ✓ | ✓ | ✓
             ---
             Loan Management | ✓ | ✓ | ✓
             ---
-            [Flexible Benefits](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary#avail-flexible-benefits.md) | ✓ | ✓ | ✓
+            [Flexible Benefits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md#avail-flexible-benefits) | ✓ | ✓ | ✓
             ---
             Approval Workflows | x | ✓ | ✓
             ---
             Bonus Management | ✓ | ✓ | ✓
             ---
-            [Investment Proof Verification](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary#set-up-flexi-benefits.md) | ✓ | ✓ | ✓
+            [Investment Proof Verification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md#set-up-flexi-benefits) | ✓ | ✓ | ✓
             
         
 
@@ -126,9 +126,9 @@ Following are the common payroll features available with each plan.
             ---
             Email and SMS Notifications | ✓ | ✓ | ✓
             ---
-            Payslips via [WhatsApp](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/whatsapp.md) | ✓ | ✓ | ✓
+            Payslips via [WhatsApp](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/whatsapp.md) | ✓ | ✓ | ✓
             ---
-            Payslips via and [Slack](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/slack.md) | ✓ | ✓ | ✓
+            Payslips via and [Slack](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/slack.md) | ✓ | ✓ | ✓
             ---
             Reimbursements via WhatsApp | ✓ | ✓ | ✓
             ---
@@ -136,9 +136,9 @@ Following are the common payroll features available with each plan.
             ---
             Salary Account | ✓ | ✓ | ✓
             ---
-            [Employee ITR Filing](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations/#make-declarations.md) | ✓ | ✓ | ✓ 
+            [Employee ITR Filing](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations.md#make-declarations) | ✓ | ✓ | ✓ 
             ---
-            [Letter Generation](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/documents-letters.md) | ✓ | ✓ | ✓
+            [Letter Generation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/documents-letters.md) | ✓ | ✓ | ✓
             ---
             Salary Account Integration | ✓ | ✓ | ✓
             
@@ -227,7 +227,7 @@ Your queries are better addressed via live chat or email.
 
 ### Related Information
 
-- [RazorpayX Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll.md) 
+- [RazorpayX Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll.md) 
 - [Pricing](https://razorpay.com/payroll/pricing/)
 - [RazorpayX Payroll Dashboard](https://payroll.razorpay.com/login)
 - [Enquire for Annual Subscription Plan](https://docs.google.com/forms/d/e/1FAIpQLSdBldXsR3eNaNx7Lvxs8MY6UuudwP0TtJgHqrK1rz239aaiCA/viewform)

@@ -146,9 +146,9 @@ You must meet the following prerequisites to accept international payments from 
 
      1. Log in to Amazon Seller Central account.
      2. Navigate to **Settings** and click **Account Info**.
-        ![Amazon Account Info](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/amazon-account-info.jpg.md)
+        ![Amazon Account Info](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/amazon-account-info.jpg.md)
      3. Navigate to the **Payment Information** tab and click **Deposit Methods**.
-        ![Amazon Payment Information](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/amazon-payment-information.jpg.md)
+        ![Amazon Payment Information](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/amazon-payment-information.jpg.md)
      4. Enter the relevant bank account details based on your selling region:
         - ACH account – Amazon USA
         - FPS account – Amazon UK
@@ -156,9 +156,9 @@ You must meet the following prerequisites to accept international payments from 
         - NPP/Osko/BECS Account - Amazon Australia
         - EFT Account - Amazon Canada
         - RIX Account - Amazon Sweden
-        ![Amazon Deposit Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/amazon-deposit-methods.jpg.md)
+        ![Amazon Deposit Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/amazon-deposit-methods.jpg.md)
      5. Select the **Default Account** check box (Under **Type of Account**) to make Razorpay as your primary deposit method and click **Set Deposit Method**.
-        ![Amazon Set the Deposit Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/amazon-set-deposit-methods.jpg.md)
+        ![Amazon Set the Deposit Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/amazon-set-deposit-methods.jpg.md)
     
 
 ## Freelancing Platforms
@@ -174,9 +174,9 @@ If you are offering services on freelancing platforms, you can connect your Razo
      2. Navigate to **Connect Platforms** on the left navigation with Intl Bank Transfer.
      3. On Freelancing Platforms section. Click the platform you want to connect (**Upwork**, **Deel**, **Toptal** or **Freelancer**).
      5. Follow the on-screen instructions to integrate with the specific platform.
-        ![Freelancing platforms section](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/freelancing-platforms.jpg.md)
+        ![Freelancing platforms section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/freelancing-platforms.jpg.md)
     
 
 ### Related Information
 
-[Transactions and Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-bank-transfer/transactions-invoices.md)
+[Transactions and Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer/transactions-invoices.md)

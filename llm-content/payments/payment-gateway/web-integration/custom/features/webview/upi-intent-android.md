@@ -156,7 +156,7 @@ class MyWebViewClient(private val activity: Activity): WebViewClient() {
 
 To enable and test UPI intent in WebView-based Checkout:
 1. Open your website integrated with custom checkout.
-2. Pass `webview_intent: true` parameter in the [payload](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration/#132-instantiate-custom-checkout.md) sent to checkout to enable UPI intent support.
+2. Pass `webview_intent: true` parameter in the [payload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md#132-instantiate-custom-checkout) sent to checkout to enable UPI intent support.
 3. Ensure that UPI intent is triggered when the payment request is made.
 
 > **WARN**

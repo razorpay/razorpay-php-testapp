@@ -12,13 +12,13 @@ Settlement is the process in which the money received from your customers is set
 
 Following are some of the prerequisites for settlements of payments from customers to your bank account:
 - Your account must be KYC approved.
-- Your account must be fully activated for payments to be settled to your bank account. Know more about [KYC Verification](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#2-submit-kyc-details.md).
+- Your account must be fully activated for payments to be settled to your bank account. Know more about [KYC Verification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#2-submit-kyc-details).
 
 ## Settlement Cycle
 
-We automatically settle captured payments to the bank account you submitted to us during your [KYC verification](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#2-submit-kyc-details.md) following our settlement cycle. The settlement cycle is subject to bank approval and can vary based on your business vertical, risk factors and so on.
+We automatically settle captured payments to the bank account you submitted to us during your [KYC verification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#2-submit-kyc-details) following our settlement cycle. The settlement cycle is subject to bank approval and can vary based on your business vertical, risk factors and so on.
 
-![Checkout screen with details of Settlement Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-settlement_cycle.jpg.md)
+![Checkout screen with details of Settlement Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settlement_cycle.jpg.md)
 
 > **INFO**
 >
@@ -69,11 +69,11 @@ This ensures that your settlements are timely and regular and you can maintain s
 
 You can perform the following actions from the Razorpay Dashboard:
 
-- [View settlement details](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/settlements/dashboard/#view-settlements-using-dashboard.md)
-- [Check settlements break-up](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/settlements/dashboard/#settlements-break-up-description.md)
-- [Enable settlements on hold](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/settlements/dashboard/#enable-settlements-placed-on-hold.md)
-- [View reports related to settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/settlements/dashboard/#reports.md)
+- [View settlement details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/settlements/dashboard.md#view-settlements-using-dashboard)
+- [Check settlements break-up](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/settlements/dashboard.md#settlements-break-up-description)
+- [Enable settlements on hold](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/settlements/dashboard.md#enable-settlements-placed-on-hold)
+- [View reports related to settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/settlements/dashboard.md#reports)
 
 ### Related Information
 
-- [Settlement FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/settlements/faqs.md)
+- [Settlement FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/settlements/faqs.md)

@@ -45,10 +45,10 @@ Use this endpoint to fetch the details of all Customer Identifiers.
 : `integer` The amount paid by the customer into the Customer Identifier.
 
 `notes`
-: `json object` Any custom notes you might want to add to the Customer Identifier can be entered here. Check the [Notes section](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) to know more.
+: `json object` Any custom notes you might want to add to the Customer Identifier can be entered here. Check the [Notes section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) to know more.
 
 `customer_id`
-: `string` Unique identifier of the customer the Customer Identifier is linked with. Check the [Customer API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md) section to know more.
+: `string` Unique identifier of the customer the Customer Identifier is linked with. Check the [Customer API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md) section to know more.
 
 `receivers`
 : `json object` Configuration of desired receivers for the Customer Identifier.
@@ -72,10 +72,10 @@ Use this endpoint to fetch the details of all Customer Identifiers.
     : `string` The `merchant billing label` as it appears on the Dashboard. This parameter appears in the response only when `bank_account` is passed as the receiver `type`.
 
     `notes`
-    : `json object` Any custom notes you might want to add to the Customer Identifier can be entered here. Check the [Notes section](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) to know more. This parameter appears in the response only when `bank_account` is passed as the receiver `type`.
+    : `json object` Any custom notes you might want to add to the Customer Identifier can be entered here. Check the [Notes section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) to know more. This parameter appears in the response only when `bank_account` is passed as the receiver `type`.
 
 `allowed_payers`
-: `array` Details of customer bank accounts which will be allowed to make payments to your Customer Identifier. The parent parameter under which the customer bank account details must be passed as child parameters. You can add account details of 10 allowed payers for a Customer Identifier. For more details, refer to the [Third Party Validation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/third-party-validation.md) section.
+: `array` Details of customer bank accounts which will be allowed to make payments to your Customer Identifier. The parent parameter under which the customer bank account details must be passed as child parameters. You can add account details of 10 allowed payers for a Customer Identifier. For more details, refer to the [Third Party Validation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/third-party-validation.md) section.
 
     `type`
     : `string` The type of account through which the customer will make the payment. Possible value is `bank_account`.

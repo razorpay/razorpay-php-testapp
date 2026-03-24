@@ -56,20 +56,20 @@ After the integration is complete, follow the steps given below:
          1. Log in to [Shopify store](https://accounts.shopify.com/lookup?rid=f19e1541-cd24-4856-a398-156d2ed5d56f).
          2. Navigate to **Settings** → **Payments**. 
          3. Click **Manage** on the Razorpay - Cash on Delivery app on the **Supported payment methods** section.
-            ![Shopify go live v2](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cod-go-live-v2.jpg.md)
+            ![Shopify go live v2](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cod-go-live-v2.jpg.md)
          4. Select **Enable test mode** and click **Save**.
-             ![Shopify go live v2 save test](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cod-go-live-test.jpg.md)
+             ![Shopify go live v2 save test](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cod-go-live-test.jpg.md)
         
 
     
 ### 2.2 Make a Test Payment
 
          1. Click **Buy it now**.
-             ![Shopify checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/buy-now-shopify-cod.jpg.md)
+             ![Shopify checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/buy-now-shopify-cod.jpg.md)
          2. Fill in your **Contact** and **Delivery** details.
-             ![Shopify contact details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-shipping-contact-details.jpg.md)
+             ![Shopify contact details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-shipping-contact-details.jpg.md)
              Select **Cash on Delivery** as Payment method and select **Billing address**.
-             ![Shopify contact details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cod-shipping-contact-details1.jpg.md)
+             ![Shopify contact details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cod-shipping-contact-details1.jpg.md)
          3. Click **Pay now** and the order is placed.
         
 
@@ -98,9 +98,9 @@ Follow these steps before taking the integration live:
          1. Log in to your [Shopify store](https://accounts.shopify.com/lookup?rid=f19e1541-cd24-4856-a398-156d2ed5d56f).
          2. Navigate to **Settings** → **Payments**. 
          3. On the **Supported payment methods** section, click **Manage** on the **Razorpay - Cash on Delivery** app.
-            ![Shopify go live v2](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cod-go-live-v2.jpg.md)
+            ![Shopify go live v2](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cod-go-live-v2.jpg.md)
          4. Clear **Enable test mode** and click **Save**.
-            ![Shopify go live v2 save](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cod-go-live-test.jpg.md)
+            ![Shopify go live v2 save](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cod-go-live-test.jpg.md)
          You can now start accepting actual payments on your Shopify store.
         
 
@@ -110,4 +110,4 @@ Queries: If you have queries, raise a ticket on the [Razorpay Support Portal](ht
 
 ### Related Information
 
-[Shopify - 1 Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify.md)
+[Shopify - 1 Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify.md)

@@ -9,7 +9,7 @@ The Razorpay Web Custom SDK lets you integrate the supported payment methods on 
 
 ## Fetch Payment Methods
 
-Use the [Fetch Payment Methods API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/build-integration/#14-fetch-payment-methods.md) to fetch the payment methods available for your account.
+Use the [Fetch Payment Methods API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/build-integration.md#14-fetch-payment-methods) to fetch the payment methods available for your account.
 
 Below are the sample payloads for each payment method.
 
@@ -26,12 +26,12 @@ This payment method allows you to display your Customer Identifier details on th
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
 
-There are no specific request parameters to be passed. Instead, you must pass the `fetchVirtualAccount` method for your Customer Identifier to get created and the details to appear on the checkout. Know more about [integrating bank transfer with Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/bank-transfer/custom-integration.md).
+There are no specific request parameters to be passed. Instead, you must pass the `fetchVirtualAccount` method for your Customer Identifier to get created and the details to appear on the checkout. Know more about [integrating bank transfer with Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bank-transfer/custom-integration.md).
 
 ## Debit and Credit Card
 
@@ -58,7 +58,7 @@ razorpay.createPayment({
 });
 ```
 
-If you want to securely store the customer's card details as network tokens, know about [Saved Cards feature](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards.md).
+If you want to securely store the customer's card details as network tokens, know about [Saved Cards feature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards.md).
 
 ## EMI on Credit and Debit Cards
 
@@ -168,7 +168,7 @@ Cardless EMI is a checkout payment method that allows customers to convert their
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -211,7 +211,7 @@ razorpay.createPayment({
 })
 ```
 
-You can list the available banks using a drop-down for customers. You can obtain a list of banks using the [Fetch Supported Methods API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration#12-fetch-payment-methods.md).
+You can list the available banks using a drop-down for customers. You can obtain a list of banks using the [Fetch Supported Methods API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md#12-fetch-payment-methods).
 
 ## Wallet
 
@@ -237,12 +237,12 @@ Possible values for `wallet`:
 - `jiomoney` (requires [approval](https://razorpay.com/support/#request))
 - `amazonpay` (requires [approval](https://razorpay.com/support/#request))
 - `bajajpay`   (requires [approval](https://razorpay.com/support#request))
-- `paypal` (requires [approval](https://razorpay.com/support/#request) and [onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/wallets/paypal.md))
+- `paypal` (requires [approval](https://razorpay.com/support/#request) and [onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets/paypal.md))
 - `phonepeswitch` (requires [approval](https://razorpay.com/support/#request))
 
 #### PhonePe Switch
 
-You can accept in-app payments from your customers transacting in PhonePe Switch. Know more about [PhonePe Switch Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch.md).
+You can accept in-app payments from your customers transacting in PhonePe Switch. Know more about [PhonePe Switch Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch.md).
 
 ## UPI
 
@@ -250,13 +250,13 @@ You can accept in-app payments from your customers transacting in PhonePe Switch
 
 #### Intent Flow
 
-You can avail the UPI Intent flow by integrating with the [Google Pay SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/google-pay/custom-integration.md).
+You can avail the UPI Intent flow by integrating with the [Google Pay SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/google-pay/custom-integration.md).
 
 #### Intent Flow for Mobile Web
 
 Using Razorpay, you can let your customers make UPI Intent payments on your mobile website. Customers can then proceed with the payment without navigating away from your mobile website. This leads to a faster checkout experience with higher success rates.
 
-Know how to integrate with [UPI Intent on Mobile Web](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods/upi-intent-mweb.md).
+Know how to integrate with [UPI Intent on Mobile Web](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods/upi-intent-mweb.md).
 
 > **INFO**
 >
@@ -326,7 +326,7 @@ You will need to collect the Virtual Payment Address (VPA) from the user. This s
         ```
     
 
-You can accept UPI payments using the collect flow. Know more about [Validate VPA](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/validate-vpa.md) and [Saved VPA](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-vpa.md).
+You can accept UPI payments using the collect flow. Know more about [Validate VPA](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/validate-vpa.md) and [Saved VPA](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-vpa.md).
 
 #### UPI QR Code
 
@@ -450,7 +450,7 @@ With this flow, customers are redirected to Razorpay's payment page where the QR
 > **Sample QR Code on Checkout**
 > 
 > Ensure that you invoke/activate the QR Code only after a user clicks **Show QR Code**.
-> ![UPI QR code on Razorpay Payment Gateway custom web integration.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi-qr-custom-web.jpg.md)
+> ![UPI QR code on Razorpay Payment Gateway custom web integration.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-qr-custom-web.jpg.md)
 > 
 
 Pass the `qr` parameter in the `upi` array as shown below:
@@ -521,7 +521,7 @@ razorpay.createPayment({
 
 ## Emandate
 
-You can accept recurring payments from your customers using `emandate`, `card` or `upi` as the method. For more information about authorisation and subsequent payments, refer to the [Recurring Payments documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments.md).
+You can accept recurring payments from your customers using `emandate`, `card` or `upi` as the method. For more information about authorisation and subsequent payments, refer to the [Recurring Payments documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments.md).
 
 > **INFO**
 >
@@ -532,14 +532,14 @@ You can accept recurring payments from your customers using `emandate`, `card` o
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
 
 #### Workflow
 
-1. [Create a customer](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers/#create-a-customer.md).
+1. [Create a customer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md#create-a-customer).
 2. Create an Order with method as `emandate`, `nach` or `upi`.
 3. Collect authorisation transaction.
     - Using custom checkout.
@@ -547,7 +547,7 @@ You can accept recurring payments from your customers using `emandate`, `card` o
 4. Verify Tokens.
 5. Charge subsequent payments.
 
-Know more about [Recurring Payments APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom.md).
+Know more about [Recurring Payments APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom.md).
 
 #### Collect Authorisation Transaction
 

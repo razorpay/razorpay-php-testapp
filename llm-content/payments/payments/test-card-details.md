@@ -15,7 +15,7 @@ You can test the payment flow using our test cards.
 > **Watch Out!**
 > 
 > - You can use these test cards to make payments in **test** mode only.
-> - Test mode may include OTP verification for certain payment methods to replicate the live payment experience.
+> - Test mode features a mock bank page with **Success** and **Failure** buttons to replicate the live payment experience.
 > - No real money is deducted due to the usage of test API keys. This is a simulated transaction.
 > - If you use these test cards for **live** mode payments, either of the following error message will be displayed: `card issuer is invalid` or `invalid card input`.
 > 
@@ -41,7 +41,7 @@ Use the following cards for testing. You can use any random CVV and any future d
 
 ## Test Cards for Indian Payments
 
-Use the following test cards to test various payment scenarios for Indian payments. You can save any of the test cards below. The saved card flow allows customers to store their card details for future transactions. When a customer selects the option to save their card, Razorpay handles the tokenization process internally. Know more about [Saved Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/features/saved-cards.md).
+Use the following test cards to test various payment scenarios for Indian payments. You can save any of the test cards below. The saved card flow allows customers to store their card details for future transactions. When a customer selects the option to save their card, Razorpay handles the tokenization process internally. Know more about [Saved Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/features/saved-cards.md).
 
 Network | Card Number | CVV & Expiry Date
 ---
@@ -57,7 +57,7 @@ Amex | 3402 560004 01007 |
 
 ### Error Scenarios
 
-Use these test cards to simulate and test various error conditions for the following networks. Once you initiate the payment, in success/failure screen, you must select failure to get the right error. Know more about [Cards Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/payments/cards.md).
+Use these test cards to simulate and test various error conditions for the following networks. Once you initiate the payment, in success/failure screen, you must select failure to get the right error. Know more about [Cards Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/payments/cards.md).
 
    
 ### BAD_REQUEST_ERROR

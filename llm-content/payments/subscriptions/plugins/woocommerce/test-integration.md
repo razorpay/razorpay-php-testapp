@@ -8,7 +8,7 @@ description: Run test payments to make sure that your integration works.
 
 After the integration is complete, Razorpay will appear as a payment option on your web page/app. You need to click the button and make a test transaction to ensure that the integration is working as expected. You can start accepting actual payments from your customers once the test is successful.
 
-![WooCommerce subscriptions plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/woocommerce-subscriptions-plugin.jpg.md)
+![WooCommerce subscriptions plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/woocommerce-subscriptions-plugin.jpg.md)
 
 You can make test payments using one of the payment methods configured at the Checkout.
 - No money is deducted from the customer's account as this is a simulated transaction.
@@ -42,4 +42,4 @@ International | Mastercard | Debit Card | 5104 0600 0000 0008 |
 
 ### Next Steps
 
-[Step 3: Go Live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/woocommerce/go-live-checklist.md)
+[Step 3: Go Live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/woocommerce/go-live-checklist.md)

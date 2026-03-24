@@ -10,7 +10,7 @@ description: Accept payments in international currencies, through international 
 
   - **International Payments**: Watch this video to know what Razorpay offers for International Payments.
 
-You can accept payments from your customers in more than 160+ foreign currencies using our Payment Gateway and other products such as Payment Pages, Payment Button, Payment Links and Invoices. Razorpay supports [3D Secure 2.0](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/features/3ds2.0.md) for international cards.
+You can accept payments from your customers in more than 160+ foreign currencies using our Payment Gateway and other products such as Payment Pages, Payment Button, Payment Links and Invoices. Razorpay supports [3D Secure 2.0](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/features/3ds2.0.md) for international cards.
 
 - **List of Purpose Codes**: Download the list of transaction purpose codes.
 
@@ -20,7 +20,7 @@ You can accept payments from your customers in more than 160+ foreign currencies
 
 ## Get Started
 
-Check these steps to accept international payments from [Indian Businesses](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#indian-businesses.md) and [International Businesses](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#international-businesses.md).
+Check these steps to accept international payments from [Indian Businesses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#indian-businesses) and [International Businesses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#international-businesses).
 
 ### Indian Businesses
 
@@ -32,7 +32,7 @@ Indian businesses can easily activate international payment methods to expand th
      If you are a new user, you will need to complete the following steps displayed on the onboarding screens to activate international payment methods.
      1. Sign up for an [account](https://accounts.razorpay.com/auth/).
      2. On the onboarding screen, select **Outside India (International)** and click **Start Onboarding**.
-        ![International Payments Onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ip-onboarding.jpg.md)
+        ![International Payments Onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ip-onboarding.jpg.md)
      3. Fill up the following details to complete the onboarding:
         - Basic Details:
           - Name (Business or Individual).
@@ -52,7 +52,7 @@ Indian businesses can easily activate international payment methods to expand th
           - Requires Aadhaar and PAN card.
           - Live video verification with Razorpay agent.
           - Takes approximately 3-4 minutes.
-        ![Onboarding flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ip-onborading-flow.jpg.md)
+        ![Onboarding flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ip-onborading-flow.jpg.md)
      4. Follow the on-screen instructions to provide any additional details or documentation required for activation.
     
 
@@ -64,31 +64,31 @@ Indian businesses can easily activate international payment methods to expand th
      1. Log in to the Dashboard.
      2. Navigate to **Account & Settings** → **International payments** (under Payment methods).
      3. Select the payment method you wish to activate, such as **International Cards** or **International Bank Transfers** and click **Activate** button corresponding to the payment method.
-         ![International cards and Bank transfer activate](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ic-ibt-activate.jpg.md)
+         ![International cards and Bank transfer activate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ic-ibt-activate.jpg.md)
      4. Follow the on-screen instructions to provide any additional details or documentation required for activation.
     
 
 Indian businesses can use **International Bank Transfer** to open **SWIFT accounts** and **Local bank accounts** to accept international payments.
 
   
-    **International Bank Transfer** (MoneySaver Export Account) enables the [Local Currency Bank Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-bank-transfer.md) method and [Swift Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-bank-transfer.md) method to accept payments from buyers outside India without additional paperwork. The final settlement is done in the bank accounts of Indian businesses in INR. 
+    **International Bank Transfer** (MoneySaver Export Account) enables the [Local Currency Bank Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer.md) method and [Swift Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer.md) method to accept payments from buyers outside India without additional paperwork. The final settlement is done in the bank accounts of Indian businesses in INR. 
 
     **Local Currency Bank Transfer**: Accept payments from buyers outside India without additional paperwork. The final settlement is done in the bank accounts of Indian businesses in INR. This significantly improves the customer experience by allowing international buyers to make local bank account transfer to Indian businesses.
 
     **Swift Transfers**: Accept payments from buyers outside India without additional paperwork. The final settlement is done in the bank accounts of Indian businesses in INR. This significantly improves the customer experience by allowing international buyers globally to make SWIFT Transfer to Indian businesses.
   
   
-   [Local Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/local-payment-methods.md) allows you to accept international payments from customers specific geographies in the form of online local payment method using the Razorpay Checkout form. 
+   [Local Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/local-payment-methods.md) allows you to accept international payments from customers specific geographies in the form of online local payment method using the Razorpay Checkout form. 
 
-   - [Giropay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/giropay.md) for German customers.
-   - [Sofort](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/sofort.md) for European customers.
-   - [Trustly](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/trustly.md) for UK and European customers.
-   - [POLi](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/poli.md) for Australian customers.
+   - [Giropay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/giropay.md) for German customers.
+   - [Sofort](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/sofort.md) for European customers.
+   - [Trustly](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/trustly.md) for UK and European customers.
+   - [POLi](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/poli.md) for Australian customers.
   
 
 ### International Businesses
 
-Non-Indian businesses looking to accept payments from Indian customers via Razorpay and get their settlement in a foreign bank account. Check the list of supported purpose codes and [ currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+Non-Indian businesses looking to accept payments from Indian customers via Razorpay and get their settlement in a foreign bank account. Check the list of supported purpose codes and [ currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 Razorpay allows foreign (non-Indian) businesses to accept payments from Indian customers without any additional paperwork or registration. Your Indian customers can make payments via local payment methods such as credit cards, debit cards, UPI and netbanking. The funds are settled in your overseas bank account.
 
@@ -118,13 +118,13 @@ Select the payment method based on your business type:
   
     If you are an eligible registered business with a valid website, you can accept international payments made using:
      
-    - [Cards issued by domestic banks or foreign banks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-debit-credit-cards.md)
+    - [Cards issued by domestic banks or foreign banks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-debit-credit-cards.md)
 
-    - [International Bank Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-bank-transfer.md)
+    - [International Bank Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer.md)
 
-    - [PayPal](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/wallets/paypal.md)
+    - [PayPal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets/paypal.md)
 
-    - [Local Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/local-payment-methods.md)
+    - [Local Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/local-payment-methods.md)
 
     
   
@@ -452,7 +452,7 @@ Select the payment method based on your business type:
 
      Forex Holiday Calendar 2026 highlights days when forex trading is impacted due to holidays in India and the United States.
 
-     [Download Forex Holiday Calendar 2026](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/forex-2026-holiday-calendar.pdf.md)
+     [Download Forex Holiday Calendar 2026](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/forex-2026-holiday-calendar.pdf.md)
 
       
 > **INFO**
@@ -469,37 +469,37 @@ Select the payment method based on your business type:
 
      
       
-        ![Forex Holiday Calendar Jan 2026](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/forex-holiday-calendar-jan-2026.jpg.md)
+        ![Forex Holiday Calendar Jan 2026](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/forex-holiday-calendar-jan-2026.jpg.md)
       
       
-        ![Forex Holiday Calendar Feb 2026](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/forex-holiday-calendar-feb-2026.jpg.md)
+        ![Forex Holiday Calendar Feb 2026](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/forex-holiday-calendar-feb-2026.jpg.md)
       
       
-        ![Forex Holiday Calendar Mar 2026](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/forex-holiday-calendar-mar-2026.jpg.md)
+        ![Forex Holiday Calendar Mar 2026](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/forex-holiday-calendar-mar-2026.jpg.md)
       
       
-        ![Forex Holiday Calendar Apr 2026](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/forex-holiday-calendar-apr-2026.jpg.md)
+        ![Forex Holiday Calendar Apr 2026](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/forex-holiday-calendar-apr-2026.jpg.md)
       
       
-        ![Forex Holiday Calendar May 2026](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/forex-holiday-calendar-may-2026.jpg.md)
+        ![Forex Holiday Calendar May 2026](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/forex-holiday-calendar-may-2026.jpg.md)
       
       
-        ![Forex Holiday Calendar Jun 2026](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/forex-holiday-calendar-jun-2026.jpg.md)
+        ![Forex Holiday Calendar Jun 2026](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/forex-holiday-calendar-jun-2026.jpg.md)
       
       
-        ![Forex Holiday Calendar Jul 2026](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/forex-holiday-calendar-jul-2026.jpg.md)
+        ![Forex Holiday Calendar Jul 2026](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/forex-holiday-calendar-jul-2026.jpg.md)
       
       
-        ![Forex Holiday Calendar Aug 2026](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/forex-holiday-calendar-aug-2026.jpg.md)
+        ![Forex Holiday Calendar Aug 2026](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/forex-holiday-calendar-aug-2026.jpg.md)
       
       
-        ![Forex Holiday Calendar Sep 2026](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/forex-holiday-calendar-sep-2026.jpg.md)
+        ![Forex Holiday Calendar Sep 2026](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/forex-holiday-calendar-sep-2026.jpg.md)
       
       
-        ![Forex Holiday Calendar Oct 2026](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/forex-holiday-calendar-oct-2026.jpg.md)
+        ![Forex Holiday Calendar Oct 2026](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/forex-holiday-calendar-oct-2026.jpg.md)
       
       
-        ![Forex Holiday Calendar Nov 2026](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/forex-holiday-calendar-nov-2026.jpg.md)
+        ![Forex Holiday Calendar Nov 2026](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/forex-holiday-calendar-nov-2026.jpg.md)
       
       
-        ![Forex Holiday Calendar Dec 2026](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/forex-holiday-calendar-dec-2026.jpg.md)
+        ![Forex Holiday Calendar Dec 2026](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/forex-holiday-calendar-dec-2026.jpg.md)

@@ -41,7 +41,7 @@ You can list these wallets on any of the following platforms:
 
 ## Web Application
 
-To list external wallet on your web application, you need to first integrate our [checkout form](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps#checkout-options.md). After you integrate, follow the steps given below:
+To list external wallet on your web application, you need to first integrate our [checkout form](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#checkout-options). After you integrate, follow the steps given below:
 
 1. Add a key `external` to `checkout.js` options.
 
@@ -71,7 +71,7 @@ If the customer selects external wallet and clicks **Submit**, our `checkout.js`
 
 ## Android
 
-To list external wallets on your Android app, you need to first integrate our [Android checkout SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard.md). After you integrate our Android checkout, follow the steps given below:
+To list external wallets on your Android app, you need to first integrate our [Android checkout SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard.md). After you integrate our Android checkout, follow the steps given below:
 
 1. Implement `ExternalWalletListener` in your activity.
 
@@ -104,7 +104,7 @@ The external wallet sent in options will be shown in the wallets section. If the
 
 ## iOS
 
-To list external wallet on your iOS app, you need to first set up your framework. Know more about[ Razorpay iOS Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard.md). Perform the following steps:
+To list external wallet on your iOS app, you need to first set up your framework. Know more about[ Razorpay iOS Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard.md). Perform the following steps:
 
 1. Implement `ExternalWalletSelectionProtocol` in your view controller.
 

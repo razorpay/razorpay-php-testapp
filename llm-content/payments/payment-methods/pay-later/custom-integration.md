@@ -25,9 +25,9 @@ Based on the concept, *Buy now, Pay Later*, the customers get a running line of 
 
 ## Prerequisites
 
-- The [Razorpay Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md) should be integrated on your website or app.
+- The [Razorpay Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md) should be integrated on your website or app.
 - Keep the API keys (a combination of `Key_Id` and `Key_Secret`) handy for integration. 
-- [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
+- [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
 - Customers should be registered account holders of the Pay Later service providers.
 
 ## Integration Steps

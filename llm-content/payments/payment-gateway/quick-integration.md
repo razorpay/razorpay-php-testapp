@@ -17,7 +17,7 @@ Quick integration is the fastest way to integrate Razorpay Checkout on your webs
 > 
 > **Handy Tips**
 > 
-> The Quick Integration (previously known as Automatic integration method) is simple and fast. However, in case you would like more control over your integration and checkout, we recommend the [Standard Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+> The Quick Integration (previously known as Automatic integration method) is simple and fast. However, in case you would like more control over your integration and checkout, we recommend the [Standard Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
 > 
 
 Given below is a comparison between the Standard and Quick integrations:
@@ -34,8 +34,8 @@ Particulars | Quick Integration | Standard Integration
 
 - Create a [Razorpay Account](https://dashboard.razorpay.com/signup)
 
-- Generate [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
-- Know about the [Razorpay Payment Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md).
+- Generate [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Know about the [Razorpay Payment Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md).
 
 Follow these integration steps:
 
@@ -50,11 +50,11 @@ Follow these integration steps:
 > 
 > **Other Solutions**
 > 
-> Looking to integrate Razorpay with your mobile app or at a server-level? Check the list of [integration types](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/#integration-types.md).
+> Looking to integrate Razorpay with your mobile app or at a server-level? Check the list of [integration types](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md#integration-types).
 > 
 
 ### Related Information
 
 @include integration-steps/related-info
-- [Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md)
-- [Troubleshooting and FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/quick-integration/troubleshooting-faqs.md)
+- [Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md)
+- [Troubleshooting and FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/quick-integration/troubleshooting-faqs.md)

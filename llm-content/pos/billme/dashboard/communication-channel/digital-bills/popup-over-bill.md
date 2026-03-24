@@ -19,7 +19,7 @@ To create a new Popup Over Bill Campaign:
     - You can also add any coupons on the ad.
 4. Select an image for more options such as adding redirect url, survey url or custom url. Click **Next Step**.
     The **Popup Settings** page appears.
-    ![Configure Popup Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/popup-settings-popup-over-bill.jpg.md)
+    ![Configure Popup Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/popup-settings-popup-over-bill.jpg.md)
 5. On the **Popup Settings** page, you can:
     - configure when to show the popup - immediately or after 'n' seconds.
     - configure when to show the close popup button.

@@ -5,11 +5,11 @@ description: Configure Webhooks to receive alerts about the status of tokens and
 
 # Webhooks
 
-You can use Razorpay [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) to receive notifications of all events related to payment states and the token in the recurring payments workflow.
+You can use Razorpay [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) to receive notifications of all events related to payment states and the token in the recurring payments workflow.
 
 ## Check Payment Status Using Webhooks
 
-You can [set up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/webhooks/#setup-webhooks.md) to get notifications about the following:
+You can [set up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#setup-webhooks) to get notifications about the following:
 - [Authorisation payment states](#authorisation-payment-states)
 - [Registration link states for recurring payments](#registration-link-states)
 - [Token states](#token-states)
@@ -28,11 +28,11 @@ You can [set up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/api/pa
 
 ## Sample Payloads
 
-Know more about the [Webhook payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/webhooks/#sample-payloads.md).
+Know more about the [Webhook payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#sample-payloads).
 
 ### Related Information
 
-- [Emandate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/integrate.md)
-- [Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/cards/integrate.md)
-- [Paper NACH](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/paper-nach/integrate.md)
-- [UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upi/integrate.md)
+- [Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/integrate.md)
+- [Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/cards/integrate.md)
+- [Paper NACH](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/paper-nach/integrate.md)
+- [UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upi/integrate.md)

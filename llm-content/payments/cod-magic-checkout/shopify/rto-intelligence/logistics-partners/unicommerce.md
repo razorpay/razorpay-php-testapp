@@ -25,6 +25,6 @@ Follow these steps on the Razorpay Dashboard:
 3. Navigate to **RTO Settings** → **Delivery Tracking** and click **Connect** next to **Unicommerce**.
 4. Enter the same **Username** and **Password** as your Unicommerce admin account login credentials.
 5. Enter **Tenant** from the Unicommerce domain URL. For example, if the Unicommerce Dashboard URL after you log in is `acmecorp.unicommerce.com`, **acmecorp** is the tenant.
-    ![Paste the API Keys on the Razorpay Dashboard and connect](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-logistics-unicommerce-creds.jpg.md)
+    ![Paste the API Keys on the Razorpay Dashboard and connect](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-logistics-unicommerce-creds.jpg.md)
 
 You have successfully integrated COD & Magic Checkout with Unicommerce. In case you want to disconnect Unicommerce, click **Disconnect**.

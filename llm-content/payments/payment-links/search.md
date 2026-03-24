@@ -5,7 +5,7 @@ description: Search for a Payment Link using the various search filters.
 
 # Search a Payment Link
 
-You can search for Payment Links on the Dashboard by specifying various filters. Know more about [Payment Link states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/states.md).
+You can search for Payment Links on the Dashboard by specifying various filters. Know more about [Payment Link states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/states.md).
 
 ## Search a Payment Link From Dashboard
 
@@ -15,7 +15,7 @@ To search a Payment Link:
 2. Go to the **PAYMENT PRODUCTS** section and click **Payment Links**.
 3. In the list of Payment Links that appears, search for the link by specifying filters.
 
-![Search for a payment link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-search-pl.jpg.md)
+![Search for a payment link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-search-pl.jpg.md)
 
 Filter | Description
 ---
@@ -39,6 +39,6 @@ Duration | The time range within which the Payment Link was created.
 
 #### Related Information
 
-- [Payment Links States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/states.md)
-- [Create a Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/create.md)
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/faqs.md)
+- [Payment Links States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/states.md)
+- [Create a Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/create.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/faqs.md)

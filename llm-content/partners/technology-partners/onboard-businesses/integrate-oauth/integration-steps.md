@@ -45,20 +45,20 @@ Particulars | Development Client | Production Client
 ### To create an application:
 
       1. Log in to the Dashboard and navigate to **Applications** under **Partners**.
-         ![Create Application](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-create-application.jpg.md)
+         ![Create Application](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-create-application.jpg.md)
       2. Click **Create Application** under **Created Applications**.
       3. Provide the following details and click **Save**.
           - **Name**: The application name provided here is displayed on the Razorpay authorisation interface.
           - **Website**: Enter the URL of the application's website.
           - **Logo**: Upload a square image for application logo. If logo is absent, a default logo is used.
-          ![Add Application Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-oauth-create-application-details.jpg.md)
+          ![Add Application Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-oauth-create-application-details.jpg.md)
 
           The following fields are displayed after the application is created, for development and production clients. These are read-only:
           - **Client ID**: Publicly exposed identifier of the client which is generated uniquely. It helps identify your application on Razorpay.
           - **Client Secret**: Privately shared string between the application and Razorpay. It helps to authenticate the identity of the application on server-to-server API calls. Do not expose the client secret publicly.
           - **Redirect URIs**: A whitelisted set of URIs defined during creation. Production clients can only use secure HTTPS URIs to prevent man-in-the-middle attacks. You can define multiple redirect URIs.
 
-          ![View Production and Development Credentials for Application](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-unmask-client-id.gif.md)
+          ![View Production and Development Credentials for Application](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-unmask-client-id.gif.md)
       4. Edit the Redirect URIs for your clients if needed.
       5. Click **Save**.
     
@@ -143,7 +143,7 @@ message=The merchant account is not compliant for payments processing
 
 #### Authorisation Response
 
-After completion, the sub-merchant's browser is redirected to URI specified in the `redirect_uri` parameter. Once the [sub-merchant authorises](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps/sub-merchants.md), you can proceed with the steps ahead.
+After completion, the sub-merchant's browser is redirected to URI specified in the `redirect_uri` parameter. Once the [sub-merchant authorises](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps/sub-merchants.md), you can proceed with the steps ahead.
 
 ### 2.2 Get Access Token
 
@@ -220,7 +220,7 @@ curl -X POST https://auth.razorpay.com/token
   
 ### Response Parameters
 
-     Once the sub-merchant authorises, the following tokens become available to both you and the sub-merchant. You can use these tokens later to create API requests on behalf of the sub-merchant. Know more [about tokens](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps/sub-merchants/#about-tokens.md).
+     Once the sub-merchant authorises, the following tokens become available to both you and the sub-merchant. You can use these tokens later to create API requests on behalf of the sub-merchant. Know more [about tokens](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps/sub-merchants.md#about-tokens).
 
       `token_type`
       : `string` Defines the type of access token. Possible value is `Bearer`.
@@ -408,7 +408,7 @@ For using RazorpayX as a resource, check [Access Resources using Access Token](#
 
 ### Error Response Parameters
 
-Refer to our [errors](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/errors#revoke-token-api.md) page for the list of errors and solutions.
+Refer to our [errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/errors.md#revoke-token-api) page for the list of errors and solutions.
 
 ## 3. Access Resources using Access Token
 
@@ -417,9 +417,9 @@ After you obtain an access token, you can use it to access the sub-merchant's da
   
 ### For Payments
 
-     Provide the access token in the `Bearer` authorisation header while requesting [Razorpay APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api.md).
+     Provide the access token in the `Bearer` authorisation header while requesting [Razorpay APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md).
 
-     Given below is a sample code for the [Fetch all Payments API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md). 
+     Given below is a sample code for the [Fetch all Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments). 
 
      
 
@@ -512,7 +512,7 @@ After you obtain an access token, you can use it to access the sub-merchant's da
   
 ### For RazorpayX
 
-     [Subscribing to webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/subscribe-to-webhooks.md) is a mandatory step if you want to access the user's RazorpayX data. Once you [generate the `access_token`](#22-get-access-token), the user's RazorpayX `account_id` will be sent to the webhook URL specified while creating your application.
+     [Subscribing to webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/subscribe-to-webhooks.md) is a mandatory step if you want to access the user's RazorpayX data. Once you [generate the `access_token`](#22-get-access-token), the user's RazorpayX `account_id` will be sent to the webhook URL specified while creating your application.
 
      Below is a sample payload.
 
@@ -554,7 +554,7 @@ Sub-merchants can revoke access to your application from the Dashboard at any ti
 
 We recommend subscribing to the `account.app.authorization_revoked` webhook event. This ensures that you receive real-time notifications whenever a sub-merchant revokes access to your connected application. 
 
-Follow these steps to [subscribe to webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/subscribe-to-webhooks.md).
+Follow these steps to [subscribe to webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/subscribe-to-webhooks.md).
 
 Given below is the sample payload:
 
@@ -562,10 +562,10 @@ Given below is the sample payload:
 
 ## Next Step
 
-[2. Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/test-integration.md)
+[2. Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/test-integration.md)
 
 ### Related Information
 
-- [Revoke Access to Application](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/revoke-access.md)
-- [Standard Web Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md)
-- [Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/errors.md)
+- [Revoke Access to Application](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/revoke-access.md)
+- [Standard Web Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md)
+- [Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/errors.md)

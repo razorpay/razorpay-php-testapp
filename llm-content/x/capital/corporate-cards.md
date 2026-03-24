@@ -89,13 +89,13 @@ Unsecured Cards are applicable for businesses that meet the unsecured criteria (
 >     Premature closure of the lien-marked FD is not permitted while the card is active, though partial withdrawals may be allowed subject to the credit limit, as per the norms by the partner bank.
 >     
 
-Know more about the eligibility criteria and onboarding process of [RBL Bank](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/corporate-cards/rbl-onboarding.md) and [Yes Bank](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/corporate-cards/ybl-onboarding.md).
+Know more about the eligibility criteria and onboarding process of [RBL Bank](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/corporate-cards/rbl-onboarding.md) and [Yes Bank](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/corporate-cards/ybl-onboarding.md).
 
 ## Get Started
 1. Log in to your [RazorpayX Dashboard](https://x.razorpay.com/auth). 
 2. Click **Corporate Cards** on the left navigation to go to the Corporate Cards home page.
 3. Click **Sign up Today**.
-    ![Corporate Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/corpcards1.jpg.md)
+    ![Corporate Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/corpcards1.jpg.md)
 
 4. You will be redirected to a [request form](https://razorpay.com/x/corporate-cards/signup/) where you are required to fill in the relevant information.
 5. Click **Submit**. Our support team will get in touch with you soon.
@@ -175,9 +175,9 @@ Viewer | View all cards of the organisation.
 
 ## Related Information
 
-- [About RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md)
-- [About RazorpayX Corporate Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/corporate-cards.md)
+- [About RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md)
+- [About RazorpayX Corporate Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/corporate-cards.md)
 - [Sign up for RazorpayX Corporate Cards](https://razorpay.com/x/corporate-cards/) 
-- [Docs Required for Corporate Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/corporate-cards/docs-required.md)
-- [RBL Onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/corporate-cards/rbl-onboarding.md)
-- [Yes Bank Onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/corporate-cards/ybl-onboarding.md)
+- [Docs Required for Corporate Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/corporate-cards/docs-required.md)
+- [RBL Onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/corporate-cards/rbl-onboarding.md)
+- [Yes Bank Onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/corporate-cards/ybl-onboarding.md)

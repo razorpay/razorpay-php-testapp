@@ -7,7 +7,7 @@ description: Use the Android UPI Intent SDK to accept UPI payments from your And
 
 Use the Android SDK to support UPI Intent payments when a payment is processed through Razorpay in a WebView inside an app.
 
-![UPI Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi-checkout-header-changes.jpg.md)
+![UPI Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-checkout-header-changes.jpg.md)
 
 ## Installation
 

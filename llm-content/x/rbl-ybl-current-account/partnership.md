@@ -41,13 +41,13 @@ Sl. No. | Forms
 
 Sl. No. | Documents
 ---
-1 | [KYC documents](@/Applications/MAMP/htdocs/new-docs/llm-content/x/rbl-ybl-current-account/cif.md) in the name of all authorised signatories/partners.
+1 | [KYC documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/rbl-ybl-current-account/cif.md) in the name of all authorised signatories/partners.
 ---
 2 | Partnership declaration signed by all the partners.
 ---
 3 | Partnership PAN card.
 ---
-4 | Valid address proof in the name of the entity. [List of acceptable documents ](@/Applications/MAMP/htdocs/new-docs/llm-content/x/rbl-ybl-current-account/partnership/kyc.md)(any one).
+4 | Valid address proof in the name of the entity. [List of acceptable documents ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/rbl-ybl-current-account/partnership/kyc.md)(any one).
 ---
 5 | Mode of operation letter signed by all Partners.
 ---
@@ -64,7 +64,7 @@ Sl. No. | Documents
 ---
 10 | Internet Banking Letter.
 
-[Download all forms and documents](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x_ca_docs-partnership-updated190422.zip.md)
+[Download all forms and documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x_ca_docs-partnership-updated190422.zip.md)
 
 ### Related Information
 

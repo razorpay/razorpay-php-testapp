@@ -15,12 +15,12 @@ Virtual accounts are similar to bank accounts wherein customers can transfer pay
 > 
 > **Handy Tips**
 > 
-> Consider these [prerequisites](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/#prerequisites.md) before getting started with Smart Collect.
+> Consider these [prerequisites](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect.md#prerequisites) before getting started with Smart Collect.
 > 
 
 ## Create a Virtual Account API
 
-Given below is the sample code for the Create a Virtual Account API. Pass the `account_id` of the sub-merchant using `X-Razorpay-Account` in the header. Refer to the [Smart Collect API documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect.md).
+Given below is the sample code for the Create a Virtual Account API. Pass the `account_id` of the sub-merchant using `X-Razorpay-Account` in the header. Refer to the [Smart Collect API documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect.md).
 
 /virtual_accounts
 
@@ -180,16 +180,16 @@ body, err := client.VirtualAccount.Create(data, extraHeaders)
       : `string` You can provide a custom descriptor for the UPI ID. This is a unique identifier provided by you to identify the customer. For example, `gaurikumari` and `akashkumar` are the descriptors in the usernames `rpy.payto00000gaurikumari` and `rpy.payto00000akashkumar` respectively. The combination of merchant prefix and descriptor must be 20 characters. The length of the merchant prefix can vary between 4-10 characters, and the length of descriptor from 10-16 characters.
 
     `qr_code` _optional_
-    : `json object` Descriptor details for the QR code. This is to be passed only when `qr_code` is passed as the receiver `types`. [Know about the request parameters to be passed to create a QR code](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes.md).
+    : `json object` Descriptor details for the QR code. This is to be passed only when `qr_code` is passed as the receiver `types`. [Know about the request parameters to be passed to create a QR code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes.md).
 
 `description` _optional_
 : `string` A brief description of the virtual account.
 
 `customer_id` _optional_
-: `string` Unique identifier of the customer to whom the virtual account must be tagged. Refer to the [Customer API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md) documentation to learn how to create a customer.
+: `string` Unique identifier of the customer to whom the virtual account must be tagged. Refer to the [Customer API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md) documentation to learn how to create a customer.
 
 `notes` _optional_
-: `json object` Any custom notes you might want to add to the virtual account can be entered here. Refer to the [Notes section of the API Reference Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) to know more.
+: `json object` Any custom notes you might want to add to the virtual account can be entered here. Refer to the [Notes section of the API Reference Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) to know more.
 
 `close_by` _optional_
 : `integer` UNIX timestamp at which the virtual account is scheduled to be automatically closed. The time must be at least 15 minutes after current time. The date range can be set till `2147483647` in UNIX timestamp format (equivalent to Tuesday, January 19, 2038 8:44:07 AM GMT+05:30).
@@ -327,4 +327,4 @@ body, err := client.VirtualAccount.All(nil, extraHeaders)
 
 ### Related Information
 
-- [Smart Collect API documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect.md).
+- [Smart Collect API documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect.md).

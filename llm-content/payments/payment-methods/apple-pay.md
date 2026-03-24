@@ -70,13 +70,13 @@ Follow the steps given below:
 >        - File hosting is required on websites where Razorpay Checkout loads as an overlay/iframe. This includes:
 >          - WooCommerce, Magento and other ecommerce platforms where Razorpay appears as an overlay. Any website where `checkout.razorpay.com` iframe is embedded.
 >        - No file hosting required on:
->          - Shopify, Mobile SDKs (Flutter, Native iOS, React Native) and Razorpay no-code solutions, such as [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links.md), [Payment Pages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages.md), [Payment Handles (razorpay.me)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app/accept-payments/razorpay-me.md) and [Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices.md).
+>          - Shopify, Mobile SDKs (Flutter, Native iOS, React Native) and Razorpay no-code solutions, such as [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links.md), [Payment Pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages.md), [Payment Handles (razorpay.me)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app/accept-payments/razorpay-me.md) and [Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md).
 >        - File hosting is required if you use both hosted checkouts and overlay iframe integration (a non-Shopify website where an iframe loads as an overlay and Payment Buttons) on your business id. Please do not activate Apple Pay if you have both these kinds of checkouts unless you have hosted the file at the exact path.
 >        
 
        #### Domain Verification Process:
 
-       1. Download the [verification file](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/apple-developer-merchantid-domain-association.zip.md).
+       1. Download the [verification file](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/apple-developer-merchantid-domain-association.zip.md).
 
        2. Host the file on your server.
           - Upload the file to this exact path on your website:
@@ -109,7 +109,7 @@ Follow the steps given below:
        4. 
           Dashboard Configuration and Verification
           - Log in to the Dashboard and navigate to **Account & Settings** → **International payments** (under Payment methods). Click [**Apple Pay**](https://dashboard.razorpay.com/app/payment-methods/apple-pay).
-            ![Click Apple Pay on the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/click-apple-pay.jpg.md)
+            ![Click Apple Pay on the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/click-apple-pay.jpg.md)
             
 > **WARN**
 >
@@ -149,10 +149,10 @@ Follow the steps given below:
 Given below is the payment flow for Apple Pay at Razorpay Checkout:
 
 1. The customer selects **Apple Pay** at checkout.
-    ![Apply Pay on Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/apple-pay.jpg.md)
+    ![Apply Pay on Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/apple-pay.jpg.md)
 2. Apple Pay displays their default card, billing address and the payment amount.
 3. They authenticate using Face ID, Touch ID or double-click the side button following the on-screen prompt **Double Click to Pay**.
-    ![Double click to Pay](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/apple-pay-double-click-pay.jpg.md)
+    ![Double click to Pay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/apple-pay-double-click-pay.jpg.md)
 4. Upon successful authentication, the payment processes instantly and the customer is returned to your website or app with a confirmation.
 
 ## Frequently Asked Questions
@@ -239,7 +239,7 @@ Given below is the payment flow for Apple Pay at Razorpay Checkout:
     Check if the file is hosted correctly at your domain by visiting:
     `https://www.yourstorename.com/.well-known/apple-developer-merchantid-domain-association`.
     
-    Follow the [Apple Pay documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/apple-pay.md) and ensure the file is publicly accessible.
+    Follow the [Apple Pay documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/apple-pay.md) and ensure the file is publicly accessible.
     
 
   
@@ -278,5 +278,5 @@ Given below is the payment flow for Apple Pay at Razorpay Checkout:
 
 ### Related Information
 
-- [Apple Pay S2S Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/apple-pay/s2s-integration.md)
-- [Apple Pay Custom Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/apple-pay/custom-integration.md)
+- [Apple Pay S2S Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/apple-pay/s2s-integration.md)
+- [Apple Pay Custom Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/apple-pay/custom-integration.md)

@@ -53,7 +53,7 @@ On the Payroll Dashboard, you can:
             1. Navigate to [**Tax Deductions**](https://payroll.razorpay.com/taxDeductions) from the left menu.
             1. On the **Tax Deductions FY** page, click **SWITCH REGIME** to change your tax regime. 
 
-                ![Payroll Dashboard select or change regime](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-select-regime.jpg.md)
+                ![Payroll Dashboard select or change regime](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-select-regime.jpg.md)
 
                 For your consideration, Payroll also suggests which regime you can choose based on your income and declarations. 
             1. Click **CONFIRM SELECTION** to finalise your tax regime. 
@@ -84,7 +84,7 @@ To make income tax declarations:
 
 1. Log in to the Payroll Dashboard.
 1. Navigate to [**Tax Deductions**](https://payroll.razorpay.com/taxDeductions) from the left menu.
-    ![Tax Deductions option on left menu in Razorpay Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-tax-deductions.jpg.md)
+    ![Tax Deductions option on left menu in Razorpay Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-tax-deductions.jpg.md)
 1. Check your tax liability based on each tax regime and preview your upcoming payslip in the right pane. Click **EDIT** against the respective sections to: 
     - Declare [investments](#investments) when the window is open. 
     - Upload the relevant proofs when the window is open.
@@ -110,7 +110,7 @@ You can declare the following investments on the Payroll Dashboard. Contact your
             1. Go to **Current home rent (as on date)** and click **EDIT**.
             1. On the **Paying home rent?** page, click **+ADD ANOTHER HOUSE RENT**.
             1. Enter the **Monthly Rent Amount**, **From** and **To Month**, **Landlord Name**, **Landlord PAN**, **Landlord Address**. Select the check box in **Metro** if you live in a Metro city.
-                ![Payroll Dashboard HRA for Employees upload proofs](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-itd-hra.jpg.md)
+                ![Payroll Dashboard HRA for Employees upload proofs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-itd-hra.jpg.md)
             1. Click **Upload proofs** when the proof upload window is open. In the **Upload proofs** pop-up modal, click **Choose file(s)** and upload the rent receipts. 
 
                 
@@ -144,7 +144,7 @@ You can declare the following investments on the Payroll Dashboard. Contact your
             1. Click **CONTINUE**.
             This successfully uploads proofs for the respective investments.
 
-            ![Upload section 80 investments on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-itd-80us.jpg.md) 
+            ![Upload section 80 investments on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-itd-80us.jpg.md) 
         
 
     
@@ -157,7 +157,7 @@ You can declare the following investments on the Payroll Dashboard. Contact your
             1. Click **CONTINUE**.
             This successfully declares/uploads your proofs. 
 
-            ![Upload house property receipts on Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-itd-house-prop.jpg.md)
+            ![Upload house property receipts on Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-itd-house-prop.jpg.md)
         
 
     
@@ -184,7 +184,7 @@ You can declare the following investments on the Payroll Dashboard. Contact your
             To add leave and travel declaration when the window is open: 
             1. Enter the exemptions you already claimed for the current block in the text box. 
             1. If you already claimed exemptions, choose if you have claimed any exemption in the current financial year. Select **Yes** or **No** from the drop-down menu.
-                ![Payroll Dashboard enter LTA details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-LTA.jpg.md)
+                ![Payroll Dashboard enter LTA details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-LTA.jpg.md)
 
                 - If you selected **Yes**, you cannot claim exemptions for the current financial year. 
                 - If you selected **No**: 
@@ -199,7 +199,7 @@ You can declare the following investments on the Payroll Dashboard. Contact your
     
 ### Flexible Benefits
 
-            See how to [declare flexible benefits and add proofs](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations/flexible-benefits.md).
+            See how to [declare flexible benefits and add proofs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations/flexible-benefits.md).
         
 
 ## Manage Investments

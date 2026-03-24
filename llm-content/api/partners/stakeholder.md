@@ -7,15 +7,15 @@ description: Use the Stakeholder APIs to add stakeholders for an account.
 
 You can use the Stakeholder APIs to add a stakeholder for an account. Each stakeholder will have their KYC. A stakeholder can be a signatory or an owner of the business.
 
-Fork the Razorpay Postman Public Workspace and try the Stakeholder APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/#api-authentication.md).
+Fork the Razorpay Postman Public Workspace and try the Stakeholder APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api.md#api-authentication/).
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-d1f55eac-11ca-49b6-92cc-2fb96ceb0f5e)
 
 ### Related Guides
 
-[Sub-merchant Onboarding APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api.md)
-[Set Up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/webhooks.md)
-[Webhook Payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners.md)
+[Sub-merchant Onboarding APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api.md)
+[Set Up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/webhooks.md)
+[Webhook Payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners.md)
 
 ### Endpoints
 

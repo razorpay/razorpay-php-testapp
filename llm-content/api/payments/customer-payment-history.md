@@ -10,7 +10,7 @@ You can retrieve the history of all payments made by a customer using Razorpay A
 ## Prerequisites
 
 1. To fetch payments made by a customer, you must create and associate a customer with every payment.
-  Create a new customer using the [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md) and store the customer ID at your end. This customer ID must be passed when the payment is made by the customer.
+  Create a new customer using the [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md) and store the customer ID at your end. This customer ID must be passed when the payment is made by the customer.
 
 2. Generate the API keys from the Dashboard for authenticating the API requests with Razorpay.
 Watch [this](https://i.imgur.com/ylwYzbC.gif) animation to learn how to generate the API keys in the Dashboard.
@@ -25,7 +25,7 @@ Watch [this](https://i.imgur.com/ylwYzbC.gif) animation to learn how to generate
 
 ## Associate a Payment with a Customer
 
-To associate the payment details to a specific customer, pass the created `customer_id` to the [ Razorpay Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps#12-integrate-with-checkout-on-client-side.md) at the time of payment.
+To associate the payment details to a specific customer, pass the created `customer_id` to the [ Razorpay Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#12-integrate-with-checkout-on-client-side) at the time of payment.
 
 ```html: HTML
 

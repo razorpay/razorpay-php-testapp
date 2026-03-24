@@ -9,7 +9,7 @@ description: Manage multiple business branches/locations and track the respectiv
 Multi Branch management enables you to set up multiple branches of your business under one RazorpayX account so that you can seamlessly manage:
 
 - [Initiation of POs, GRNs and invoices for various branches](#auto-fill-branch-details-on-invoice-or-po).
-- [Payment of invoices issued to respective branches](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/#invoices-and-advances.md).
+- [Payment of invoices issued to respective branches](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md#invoices-and-advances).
 - [Syncing respective branch related GST details to your accounting tool](#sync-gst-data-to-your-tally-ledgers).
 
 > **INFO**
@@ -29,7 +29,7 @@ You can create multiple branches and manage them from your RazorpayX account. To
 2. Navigate to the profile icon → **My Accounts & Settings** → **Branches**.
 3. Click **+ New Branch**.
 4. Enter the details and click **Save**.
-    ![Create new branch](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-create-branch.jpg.md)
+    ![Create new branch](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-create-branch.jpg.md)
     - You can mark any one of your branches as the primary branch, if a majority of your invoices and POs are billed to that branch. This will automatically add the billing address on your POs and invoices. You can change your primary branch anytime by marking any other branch as the primary branch, if required.
 
 ## Edit Branch
@@ -39,7 +39,7 @@ To edit a branch:
 1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
 2. Navigate to the profile icon → **My Accounts & Settings** → **Branches**.
 3. Hover over the branch you want to edit, click ⋮ and **Edit**.
-    ![Edit branch](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-edit-branch.jpg.md)
+    ![Edit branch](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-edit-branch.jpg.md)
 4. Edit the **Business Nickname**, **Name** or **Address**. You cannot edit the GSTIN. Click **Save**.
 5. Click **Save Changes** on the pop-up window.
 
@@ -53,7 +53,7 @@ You can deactivate a branch if it is no longer required. This action is irrevers
 2. Navigate to the profile icon → **My Accounts & Settings** → **Branches**.
 3. Hover over the branch you want to deactivate, click ⋮ and **Mark as Inactive**.
 4. Click **Mark as Inactive**.
-    ![Delete branch](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-mark-branch-inactive.jpg.md)
+    ![Delete branch](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-mark-branch-inactive.jpg.md)
 
 You cannot reuse an inactive branch. Create a new branch if required.
 
@@ -61,7 +61,7 @@ You cannot reuse an inactive branch. Create a new branch if required.
 
 You can select branches for your Invoices and POs on the **Invoice Details** tab and **PO Details** tab respectively, through the **Bill to** field. By default, the invoice/PO is auto-filled with the details of your primary branch. Click **Change** to update the **Bill to** field for your invoice/PO from your list of branches.
 
-![Select Branch for PO](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-branches-PO-details.jpg.md)
+![Select Branch for PO](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-branches-PO-details.jpg.md)
 
 > **INFO**
 >
@@ -83,4 +83,4 @@ You can sync your respective GST data from RazorpayX to your Tally ledgers at br
 5. **Select Ledger** for all required GST types that you want to configure and select the ledger that you want to map.
 6. Click **Save changes**.
 
-Know more about [accounting integrations](@/Applications/MAMP/htdocs/new-docs/llm-content/x/accounting.md).
+Know more about [accounting integrations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/accounting.md).

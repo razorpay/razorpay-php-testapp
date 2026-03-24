@@ -25,16 +25,16 @@ If you have a significant amount of payment traffic coming from the Mobile Site,
   Show the UPI PSP apps in the order of their success rate.
 4. **Mobile site**  
 
-  If you have higher traffic via mobile site, then make sure you provide the option of UPI intent payment to your users using our [m-site integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/google-pay/custom-integration.md). This will help you achieve better success rates.
+  If you have higher traffic via mobile site, then make sure you provide the option of UPI intent payment to your users using our [m-site integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/google-pay/custom-integration.md). This will help you achieve better success rates.
 5. **Gpay SDK** 
 
-  If your UPI transaction volumes are high, you can also explore integrating [Gpay SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/google-pay/#android-integration-using-google-pay-sdk.md). This provides a better user experience and about a 3-5% improvement in success rate.
+  If your UPI transaction volumes are high, you can also explore integrating [Gpay SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/google-pay.md#android-integration-using-google-pay-sdk). This provides a better user experience and about a 3-5% improvement in success rate.
 
 ## Prerequisites
 
 - Reach out to our [Support Team](https://razorpay.com/support/#raise-a-request) to get this feature enabled for your account.
 - Keep the API keys (`Key_Id` and `Key_Secret`) handy for integration. 
-- [Generate API Keys from the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) if you have not done already.
+- [Generate API Keys from the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) if you have not done already.
 
 ## Integration Steps
 
@@ -163,7 +163,7 @@ The parameters needed for constructing the API request are described below:
 
 `notes` _optional_
 : `json object` A key-value pair that can hold additional information about the payment. 
- Refer the [Notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) section of the API Reference Guide.
+ Refer the [Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) section of the API Reference Guide.
 
 `upi` _mandatory_
 : `object` Details of the UPI payment.
@@ -188,19 +188,19 @@ activity.startActivityForResult(i,2561); //unique activity code to get the callb
 > 
 > **Handy Tips**
 > 
-> For the package name, you can check the [list of supported UPI apps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/supported-apps.md).
+> For the package name, you can check the [list of supported UPI apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/supported-apps.md).
 > 
 
 ### Step 3: Verify the Payment Status
 
 You can verify the status of the payments using any of the following methods:
 
-- Poll Razorpay servers periodically for the payments made for the order using our [Fetch Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/fetch-payments.md).
+- Poll Razorpay servers periodically for the payments made for the order using our [Fetch Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/fetch-payments.md).
 
-- [Subscribe to the Webhook events](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md) created in our system for each of the following entities:
+- [Subscribe to the Webhook events](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md) created in our system for each of the following entities:
 
-  - [payments](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments.md)
-  - [orders](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/orders.md)
+  - [payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md)
+  - [orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/orders.md)
 
 #### Payment failure and re-initiating payment
 
@@ -208,4 +208,4 @@ If the Order is not marked `paid` within 2-3 minutes, then you can re-initiate p
 
 ### Related Information
 
-[Error reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/#list-of-error-reasons-for-payments.md)
+[Error reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md#list-of-error-reasons-for-payments)

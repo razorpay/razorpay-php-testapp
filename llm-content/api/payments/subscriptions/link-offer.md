@@ -7,7 +7,7 @@ description: Link an Offer to a Subscription using the Razorpay API.
 
 ## Link an Offer to a Subscription
 
-Use this endpoint to link an existing [Offer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers.md) by creating a new Subscription link. Pass the `offer_id: ` parameter in the request when creating a Subscription.
+Use this endpoint to link an existing [Offer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers.md) by creating a new Subscription link. Pass the `offer_id: ` parameter in the request when creating a Subscription.
 
 ### Request
 

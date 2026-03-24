@@ -30,11 +30,11 @@ To download reports:
 > 
 >     **Handy Tips**
 >     
->     If your Linked Account is created with the same email as your Partner account, log in to your Partner account and **Switch Merchant**. If the email is different, log in to the Linked Account [set up earlier](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/control-of-funds/set-up-accounts.md).
+>     If your Linked Account is created with the same email as your Partner account, log in to your Partner account and **Switch Merchant**. If the email is different, log in to the Linked Account [set up earlier](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/control-of-funds/set-up-accounts.md).
 >     
 
 2. In the left menu, navigate to **Reports**.
-    ![Partners Dashboard Reports](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/reports-partners-dashboard.jpg.md)
+    ![Partners Dashboard Reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/reports-partners-dashboard.jpg.md)
 3. Select the report type, period and format.
 4. Click **Generate Report**.
 5. It can take a few minutes to a couple of hours to generate a report depending on the data size. Once the report is ready, you can download it from the **Recent Reports** tab. 

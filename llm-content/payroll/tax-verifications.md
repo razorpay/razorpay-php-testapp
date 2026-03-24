@@ -32,9 +32,9 @@ To accept proof of investments for the investments declared by your employees, t
                  To check the verification status:
                     1. Log in to the  [Payroll Dashboard](https://payroll.razorpay.com/dashboard).
                     1. Navigate to **ADMIN OPTIONS** → **Reports** → **Tax Deductions**.
-                        ![Tax Verifications Reports](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-tax-verifications.jpg.md)
+                        ![Tax Verifications Reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-tax-verifications.jpg.md)
                     1. In the **Proof Verification Status** column, you can check if the employees' proofs are verified. 
-                        ![Proof Verification Status on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-tax-verifications-proofs.jpg.md)
+                        ![Proof Verification Status on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-tax-verifications-proofs.jpg.md)
                 
 
             
@@ -44,16 +44,16 @@ To accept proof of investments for the investments declared by your employees, t
 
                     1. Log in to the  [Payroll Dashboard](https://payroll.razorpay.com/dashboard).
                     1. Navigate to **ADMIN OPTIONS** → **Reports** → **Tax Deductions**.
-                        ![Tax Verifications Reports](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-tax-verifications.jpg.md)
+                        ![Tax Verifications Reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-tax-verifications.jpg.md)
                     1. In the **Proof Verification Status** column, you can check if the employees' proofs are verified. 
-                        ![Proof Verification Status on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-tax-verifications-proofs.jpg.md)
+                        ![Proof Verification Status on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-tax-verifications-proofs.jpg.md)
                     1. To verify the employee's pending proofs, click on **PENDING**.
 
                  This opens the investment pages where the proofs are yet to be verified. To verify the proofs: 
                     1. Click **Manage proofs**.
                     1. Check the attachments in the **Proof Document** column. Click to view them in a new tab.
                     1. Review the amount and comments. Click **Accept proof** or **Reject proof**.
-                        ![Approve investment proofs Razorpay Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-tax-proofs-verify.jpg.md)
+                        ![Approve investment proofs Razorpay Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-tax-proofs-verify.jpg.md)
                     1. In the pop-up modal, modify the amount as approved according to the proof submitted. Provide comments, if any.
                         
                         
@@ -72,7 +72,7 @@ To accept proof of investments for the investments declared by your employees, t
                 - After you verify the HRA proofs and click **Continue**, Payroll automatically moves to the next pending proof. For example, after HRA, you verify the Section 80 deductions.
                 - As there are many Section 80 deductions, clicking **Continue** moves you to the next pending proof within Section 80 deductions until the last proof is verified.
                 - You can also click **Next Deduction** to skip verifying the current proof. 
-                    ![Next Deduction to skip current page proof verification Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-investment-proofs-next.jpg.md)
+                    ![Next Deduction to skip current page proof verification Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-investment-proofs-next.jpg.md)
                 - The **Proof Verification Status** remains in the `PENDING` status until you verify all the proofs the employee has uploaded. The status moves to **COMPLETED** when you verfiy all the proofs. 
                 
 
@@ -88,14 +88,14 @@ To accept proof of investments for the investments declared by your employees, t
                  To check the verification status:
                     1. Log in to the  [Payroll Dashboard](https://payroll.razorpay.com/dashboard).
                     1. Navigate to **ADMIN OPTIONS** → **Reports** → **Tax Deductions**.
-                        ![Tax Verifications Reports](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-tax-verifications.jpg.md)
+                        ![Tax Verifications Reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-tax-verifications.jpg.md)
                     1. In the **Proof Verification Status** column, you can check if the employees' proofs are verified. 
-                        ![Proof Verification Status on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-tax-verifications-proofs.jpg.md)
+                        ![Proof Verification Status on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-tax-verifications-proofs.jpg.md)
                 
 
         
 
-        After we verify the proofs, we update the [Calculate Tax on Basis Of](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tax-deductions-setup/#calculate-tax-on-basis-of.md) to **Declaration with verified proofs** to complete the proof verification activity.
+        After we verify the proofs, we update the [Calculate Tax on Basis Of](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tax-deductions-setup.md#calculate-tax-on-basis-of) to **Declaration with verified proofs** to complete the proof verification activity.
     
 
 > **INFO**
@@ -129,7 +129,7 @@ To re-start verifying investment proofs:
 1. Log in to the  [Payroll Dashboard](https://payroll.razorpay.com/dashboard).
 1. Navigate to **Settings** → **Tax Deductions Setup**.
 1. Select **Let Payroll Verify** in **Opt for Verification**.
-1. [Contact Support](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/plans/#contact-support.md) and request to start verification.
+1. [Contact Support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/plans.md#contact-support) and request to start verification.
 
 Note that we do this on a best efforts basis, and we do not guarantee it.
 
@@ -137,9 +137,9 @@ Note that we do this on a best efforts basis, and we do not guarantee it.
 
 After verifying the investment proofs, you can disable the **Allow employees to update their tax deductions** to disallow any investments and proof-related changes. 
 
-If you chose **Let Payroll Verify**, we update the [Calculate Tax on Basis Of](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tax-deductions-setup/#calculate-tax-on-basis-of.md) to **Declaration with verified proofs** to complete the proof verification activity.
+If you chose **Let Payroll Verify**, we update the [Calculate Tax on Basis Of](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tax-deductions-setup.md#calculate-tax-on-basis-of) to **Declaration with verified proofs** to complete the proof verification activity.
 
 ### Related Information 
 
-- [Statutory Compliance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md)
-- [Enable Compliance in Account Setup](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator#welcome-mail-from-xpayroll.md)
+- [Statutory Compliance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md)
+- [Enable Compliance in Account Setup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#welcome-mail-from-xpayroll)

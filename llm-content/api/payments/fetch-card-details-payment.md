@@ -92,7 +92,7 @@ Use this endpoint to retrieve the details of the card used to make a payment.
     - `business`
 
     
-    Know how to accept payments made by customers using [corporate cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/corporate-cards.md).
+    Know how to accept payments made by customers using [corporate cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/corporate-cards.md).
 
 ### Errors
 

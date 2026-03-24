@@ -14,8 +14,8 @@ description: Check the prerequisites before you integrate your Gravity Forms web
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup).
 - Download and install the base Gravity Forms Plugin.
-- Understand the [payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md) process.
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Understand the [payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md) process.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
   - **Video Tutorial**: Watch the video before you start integrating the Gravity Forms plugin with Payment Gateway.
 
@@ -36,4 +36,4 @@ Payment Gateway | Route | Subscriptions
 
 ### Related Information
 
-[Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md)
+[Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md)

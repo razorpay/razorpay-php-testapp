@@ -16,16 +16,16 @@ If you had 100 transactions in a week and 93 were successful, your success rate 
 You can use the SR Analytics Dashboard to:
 - Perform a detailed analysis of your recent transactions.
 - View the details of each payment method by clicking on the respective method options such as Cards, UPI and Netbanking.
-     ![Optimizer Success rate view on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-dashboard-overview.jpg.md)
+     ![Optimizer Success rate view on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-dashboard-overview.jpg.md)
 - View the payment volume distribution with the help of a pie diagram and understand the top reasons behind the payment failures. Know more about [failure reasons](#payment-failure-reasons).
-     ![Optimizer Success rate view on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-dashboard-overview-two.jpg.md)
+     ![Optimizer Success rate view on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-dashboard-overview-two.jpg.md)
 
 ## View Analytics Dashboard
 
 To view the Analytics Dashboard:
 1. Log in to your Dashboard.
 2. Click **Transactions** → **Success Rate**.
-![Navigation to success rate on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-dashboard-navigate.jpg.md)
+![Navigation to success rate on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-dashboard-navigate.jpg.md)
 
 ## Filter Options for Success Rates (SR)
 You can use the following filtering options to view success rates for transactions:
@@ -34,7 +34,7 @@ You can use the following filtering options to view success rates for transactio
 ### Date Range
 
          Select the date and time for which you want to perform a success rate analysis. You can use a predefined range or go for a custom range.
-         ![success rate graph](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-date-range.jpg.md)
+         ![success rate graph](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-date-range.jpg.md)
 
             
 > **INFO**
@@ -61,7 +61,7 @@ You can use the following filtering options to view success rates for transactio
             Monthly | Monthly data for graphical representation is available only if the selected date range is more than 2 months.
             
 
-            ![success rate graph time frame](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-date-range-new.jpg.md)
+            ![success rate graph time frame](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-date-range-new.jpg.md)
         
 
     
@@ -71,9 +71,9 @@ You can use the following filtering options to view success rates for transactio
           
           **Usage**
             - View the success rate at the **payment method** level (UPI, Cards and Netbanking).
-                 ![Optimizer Success rate view on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-dashboard-all-methods.jpg.md)
+                 ![Optimizer Success rate view on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-dashboard-all-methods.jpg.md)
             - The line graph shows the success rate distribution on an hourly, daily, weekly and monthly basis as per your date range selection.
-                 ![SR Graph](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-graphical.jpg.md)
+                 ![SR Graph](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-graphical.jpg.md)
 
                     
 > **WARN**
@@ -86,9 +86,9 @@ You can use the following filtering options to view success rates for transactio
 
             - View the payment volume distribution at the method level with the pie chart.
                  ![Optimizer SR Pie 
-                 diagram](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-pie-diagram.jpg.md)
+                 diagram](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-pie-diagram.jpg.md)
             - View the top failure reasons along with the breakdown. Know more about [failure reasons](#payment-failure-reasons).
-                 ![Optimizer SR Pie diagram](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-failure-reasons.jpg.md)
+                 ![Optimizer SR Pie diagram](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-failure-reasons.jpg.md)
         
 
      
@@ -98,11 +98,11 @@ You can use the following filtering options to view success rates for transactio
 
          **Usage**
             - View the success rate of all the payment providers for UPI transactions.
-                 ![Optimizer SR UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-upi-sr.jpg.md)
+                 ![Optimizer SR UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-upi-sr.jpg.md)
             - Filter the transactions to view UPI payments received via **Intent and Collect**, **Intent Only** or **Collect Only** as per your requirement.
-                 ![Optimizer SR UPI Filters](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-upi-filters.jpg.md)
+                 ![Optimizer SR UPI Filters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-upi-filters.jpg.md)
             - In the Success Rate Line Chart, select different payment providers to compare the rate at the provider level.
-                 ![Optimizer SR Graph UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-graphical-upi.jpg.md)
+                 ![Optimizer SR Graph UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-graphical-upi.jpg.md)
 
                  
 > **WARN**
@@ -114,9 +114,9 @@ You can use the following filtering options to view success rates for transactio
 >                  
 
             - View the payment volume distribution of all payment providers with the pie chart.
-                 ![Optimizer SR Pie diagram UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-pie-diagram-upi.jpg.md)
+                 ![Optimizer SR Pie diagram UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-pie-diagram-upi.jpg.md)
             - View the top failure reasons along with the breakdown. Know more about [failure reasons](#payment-failure-reasons).
-                 ![Optimizer SR Pie diagram](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-failure-reasons.jpg.md)
+                 ![Optimizer SR Pie diagram](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-failure-reasons.jpg.md)
         
 
      
@@ -126,11 +126,11 @@ You can use the following filtering options to view success rates for transactio
 
          **Usage**
             - View the success rate of all the payment providers for Card transactions.
-                 ![Optimizer SR Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-cards-sr.jpg.md)
+                 ![Optimizer SR Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-cards-sr.jpg.md)
             - Filter the transactions to view Cards payments received via **Card Type**, **Card Networks**, or **Banks** as per your requirement.
-                 ![Optimizer SR Filters Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-filter-cards.jpg.md)
+                 ![Optimizer SR Filters Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-filter-cards.jpg.md)
             - In the Success Rate Line Chart, select different payment providers to compare rate at the provider level.
-                 ![Optimizer SR Graph Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-graphical-cards.jpg.md)
+                 ![Optimizer SR Graph Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-graphical-cards.jpg.md)
 
                  
 > **WARN**
@@ -142,9 +142,9 @@ You can use the following filtering options to view success rates for transactio
 >                  
 
             - View the payment volume distribution of all payment providers with the pie chart.
-                 ![Optimizer SR Pie diagram Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-pie-diagram-cards.jpg.md)
+                 ![Optimizer SR Pie diagram Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-pie-diagram-cards.jpg.md)
             - View the top failure reasons along with the breakdown. Know more about [failure reasons](#payment-failure-reasons).
-                 ![Optimizer SR Pie diagram](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-failure-reasons.jpg.md)
+                 ![Optimizer SR Pie diagram](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-failure-reasons.jpg.md)
 
             **Filters**
 
@@ -175,11 +175,11 @@ You can use the following filtering options to view success rates for transactio
 
          **Usage**
             - View the success rate of all the payment providers for Netbanking transactions.
-                 ![SR Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-netbanking-sr.jpg.md)
+                 ![SR Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-netbanking-sr.jpg.md)
             - Filter the transactions to view Netbanking payments received via **All Banks**, or any of the top transacting banks available as per your requirement.
-                 ![SR Netbanking Filters](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-netbanking-filters.jpg.md)
+                 ![SR Netbanking Filters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-netbanking-filters.jpg.md)
             - In the Success Rate Line Chart, select different payment providers to compare rate at the provider level.
-                 ![SR Graph Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-graphical-netbanking.jpg.md)
+                 ![SR Graph Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-graphical-netbanking.jpg.md)
 
                  
 > **WARN**
@@ -191,9 +191,9 @@ You can use the following filtering options to view success rates for transactio
 >                  
 
             - View the payment volume distribution of all payment providers with the pie chart.
-                 ![SR Pie diagram Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-pie-diagram-netbanking.jpg.md)
+                 ![SR Pie diagram Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-pie-diagram-netbanking.jpg.md)
             - View the top failure reasons along with the breakdown. Know more about [failure reasons](#payment-failure-reasons).
-                 ![Optimizer SR Pie diagram](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-sr-failure-reasons.jpg.md)
+                 ![Optimizer SR Pie diagram](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-sr-failure-reasons.jpg.md)
         
 
 ## Payment Failure Reasons
@@ -210,8 +210,8 @@ Others | Other failures include errors due to fraud detection or internal provid
 
 ### Related Information
 
-- [Add Payment Providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/add-payment-providers.md)
-- [Single Reconciliation View](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/reconciliation.md)
-- [Roles and Permissions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/roles-and-permissions.md)
-- [Tokenisation for Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/tokenisation.md)
-- [Supported Gateways and Aggregators](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md)
+- [Add Payment Providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/add-payment-providers.md)
+- [Single Reconciliation View](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/reconciliation.md)
+- [Roles and Permissions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/roles-and-permissions.md)
+- [Tokenisation for Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/tokenisation.md)
+- [Supported Gateways and Aggregators](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md)

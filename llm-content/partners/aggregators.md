@@ -19,22 +19,22 @@ Once the account for *Gekko* is activated, *Acme Corp* can use its account crede
 
 ## Become an Aggregator
 
-After onboarding as a Razorpay Partner, you need to request a Partner type switch to [become an Aggregator](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/become-aggregator.md).
+After onboarding as a Razorpay Partner, you need to request a Partner type switch to [become an Aggregator](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/become-aggregator.md).
 
 ## Add Sub-merchants
 
-You can add your affiliate partners/sub-merchants directly using the Dashboard. Know more about [adding sub-merchants](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/add-submerchants.md).
+You can add your affiliate partners/sub-merchants directly using the Dashboard. Know more about [adding sub-merchants](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/add-submerchants.md).
 
 ### Sub-merchant Account Activation
 
 You or the sub-merchant can activate the sub-merchant account.
 
 The newly added sub-merchants will appear on the Partner Dashboard merchant list with a default **Activation Status** as **Not Submitted**.
-![partner 2](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partn_2.jpg.md)
+![partner 2](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partn_2.jpg.md)
 
 The activation will follow the standard process according to which the **Activation Status** will move from **Under Review** to **Activated**.
 
-![partner 4](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partn_4.jpg.md)
+![partner 4](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partn_4.jpg.md)
 
 > **INFO**
 >
@@ -62,14 +62,14 @@ After a sub-merchant is added, you can anytime switch to the sub-merchant Dashbo
 > **Switch between Dashboards Quickly**
 > 
 > You can also quickly switch between Dashboards from the **Switch Merchant** drop-down list. The drop-down list displays the list of all your sub-merchants.
-> ![partner 8](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partn_8.jpg.md)
+> ![partner 8](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partn_8.jpg.md)
 > 
 
 ## User Access
 
 As an Aggregator Partner, you will have **owner** access to the sub-merchant's Dashboard.
 
-Know more about [user roles](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team/#standard-user-roles.md).
+Know more about [user roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md#standard-user-roles).
 
 ## Settings
 
@@ -85,17 +85,17 @@ Under the **Settings** option, you have **Partner Credentials** and **Webhooks**
 > 
 > 
 
-![partner 7](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partn_ag_7.jpg.md)
+![partner 7](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partn_ag_7.jpg.md)
 
 ### Partner Credentials
 
 You can use partner credentials to make API requests to Razorpay on behalf of the sub-merchant account. The Partner credentials will have a different format from the regular account.
 
-![partner 8](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partn_ag_8.jpg.md)
+![partner 8](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partn_ag_8.jpg.md)
 
 Two sets of credentials are provided, one for **Test** and **Live** mode.
 
-Know more about [using the Partner credentials](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/partner-auth.md).
+Know more about [using the Partner credentials](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/partner-auth.md).
 
 > **INFO**
 >
@@ -107,18 +107,18 @@ Know more about [using the Partner credentials](@/Applications/MAMP/htdocs/new-d
 
 ### Webhooks
 
-You can also set up webhooks for specific events on the sub-merchant account. Know more about [webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
+You can also set up webhooks for specific events on the sub-merchant account. Know more about [webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
 
 1. Log in to your Dashboard.
 2. Click **Partner** on the Dashboard.
-    ![partner ag](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-partn_ag_0000.jpg.md)
+    ![partner ag](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-partn_ag_0000.jpg.md)
 3. Under the **Affiliated Accounts** tab, click **Settings**.
-    ![partner 2](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-aggregators-partners-2.jpg.md)
+    ![partner 2](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-aggregators-partners-2.jpg.md)
 4. In the Webhooks section, you can set up webhooks from your Dashboard for live mode and test mode. 
 5. Enter the **Webhook URL** where you will receive the webhook payload when the event is triggered.
 6. Enter **Secret**. This field is optional.
 7. Select appropriate events from the list of **Active Events** you would like to activate.
-    ![webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-aggregators-webhook.jpg.md)
+    ![webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-aggregators-webhook.jpg.md)
 8. Click **Save** to enable the webhook.
 
 ## Reports
@@ -143,5 +143,5 @@ Refunds| This report provides details of refunds initiated in the selected perio
 
 ### Related Information
 
-- [Aggregators - Add Sub-merchants](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/add-submerchants.md)
-- [Partners](@/Applications/MAMP/htdocs/new-docs/llm-content/partners.md)
+- [Aggregators - Add Sub-merchants](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/add-submerchants.md)
+- [Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners.md)

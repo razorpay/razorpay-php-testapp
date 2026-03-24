@@ -6,17 +6,17 @@ description: Create, update, delete, cancel, fetch and send Payment Links using 
 
 # Payment Links
 
-[Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links.md) are URLs that you can send to your customers through SMS and email to collect payments from them. Customers can click on the URL, which opens the payment request page, and complete the payment using any of the available payment methods. You can create, fetch, edit or cancel Payment Links using APIs or from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/#dashboard-actions.md).
+[Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links.md) are URLs that you can send to your customers through SMS and email to collect payments from them. Customers can click on the URL, which opens the payment request page, and complete the payment using any of the available payment methods. You can create, fetch, edit or cancel Payment Links using APIs or from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md#dashboard-actions).
 
-Fork the Razorpay Postman Public Workspace and try the Payment Links APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+Fork the Razorpay Postman Public Workspace and try the Payment Links APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-a731e460-9f2d-4fa8-b149-3fc7df7983f5?ctx=documentation)
 
 ### Related Guides
 
-[ About Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links.md)
-[Set Up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md)
-[Webhook Payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payment-links.md)
+[ About Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links.md)
+[Set Up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)
+[Webhook Payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payment-links.md)
 
 ### Endpoints
 

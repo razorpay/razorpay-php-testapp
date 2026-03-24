@@ -5,7 +5,7 @@ description: RazorpayX Contacts Error Codes. Understand why they occur and the s
 
 # Contact Error Codes
 
-When firing [Contact APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts.md), you might run into errors for various reasons. These error codes are returned in an error body, which you can use to understand the reason for the error and the steps to resolve it.
+When firing [Contact APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts.md), you might run into errors for various reasons. These error codes are returned in an error body, which you can use to understand the reason for the error and the steps to resolve it.
 
 ## Error Sample Code and Description 
 
@@ -44,9 +44,9 @@ Here is an example of how an error code appears when any Contact API fails.
 : `Null Value` Not applicable for API Error Codes. The value displayed to maintain consistency of the error object.
 
 `field`
-: The Contact details in the [Contact entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/#contact-entity.md) such as `name`, `email`, `type` and so on.
+: The Contact details in the [Contact entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts.md#contact-entity) such as `name`, `email`, `type` and so on.
 
 ### Related Information
 
-- [Contact APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts.md)
-- [Payout Status Details](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md)
+- [Contact APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts.md)
+- [Payout Status Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md)

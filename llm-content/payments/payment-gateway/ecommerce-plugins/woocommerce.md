@@ -15,22 +15,22 @@ Razorpay WooCommerce integration allows you to accept payments on your WordPress
 **Before you proceed:**
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup).
-- Understand the [payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md) process.
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Understand the [payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md) process.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 - Before installing the Razorpay WooCommerce subscription plugin, it is essential to have WooCommerce for subscriptions already installed.
 
 .
-- Understand the [payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md) process.
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Understand the [payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md) process.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
 > **INFO**
 >
 > 
 > **Handy Tips**
 > 
-> - If you are not using WooCommerce, you can use our [native plugin for WordPress](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/wordpress.md).
+> - If you are not using WooCommerce, you can use our [native plugin for WordPress](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/wordpress.md).
 > - Razorpay WooCommerce subscription plugin is available only in the paid versions of WooCommerce.
-> - For Subscriptions on a WooCommerce-based website, you can use our [Subscriptions plugin for WooCommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/woocommerce.md).
+> - For Subscriptions on a WooCommerce-based website, you can use our [Subscriptions plugin for WooCommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/woocommerce.md).
 > 
 > 
 
@@ -59,7 +59,7 @@ Razorpay WooCommerce integration allows you to accept payments on your WordPress
 
 Razorpay WooCommerce Plugin is only supported on Web Standard Checkout and the following products: 
 
-Payment Gateway | Route | Subscriptions | [Razorpay Trusted Business](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/widgets/trusted-business/rtb-widget-woocommerce.md)
+Payment Gateway | Route | Subscriptions | [Razorpay Trusted Business](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/widgets/trusted-business/rtb-widget-woocommerce.md)
 ---
 ✓ | ✓ | ✓ | ✓
 
@@ -70,4 +70,4 @@ Payment Gateway | Route | Subscriptions | [Razorpay Trusted Business](@/Applicat
 
 ### Related Information
 
-[Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md)
+[Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md)

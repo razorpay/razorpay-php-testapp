@@ -9,7 +9,7 @@ All payments made using Smart Collect will show up on your Dashboard as well as 
 
 ## Webhooks
 
-Payments made using Smart Collect will also trigger webhooks much like regular payments. To use webhooks, refer our [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) documentation.
+Payments made using Smart Collect will also trigger webhooks much like regular payments. To use webhooks, refer our [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) documentation.
 
 ### Event - Virtual Account Created
 

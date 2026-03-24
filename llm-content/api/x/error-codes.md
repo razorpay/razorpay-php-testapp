@@ -77,5 +77,5 @@ Reason | Explanation | Next Step
 
 ### Related Information
 
-- [About Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x.md)
-- [Payout Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md)
+- [About Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x.md)
+- [Payout Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md)

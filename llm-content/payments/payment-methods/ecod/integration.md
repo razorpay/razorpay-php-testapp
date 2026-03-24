@@ -30,7 +30,7 @@ The overall payment flow is explained below:
 
 ### Create an Invoice (Server Side)
 
-Step 4 described above involves creating an Invoice using Razorpay’s API. For creating an Invoice, you require the amount and the contact number of the customer. Know more about the [Invoice APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/invoices.md).
+Step 4 described above involves creating an Invoice using Razorpay’s API. For creating an Invoice, you require the amount and the contact number of the customer. Know more about the [Invoice APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/invoices.md).
 
 > **INFO**
 >

@@ -17,7 +17,7 @@ Netbanking | ₹5,00,000
 ---
 Cards | ₹5,00,000 
 ---
-UPI | ₹1,00,000 Know more about the [UPI transaction limits prescribed by different entities](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/transaction-limits/upi.md).
+UPI | ₹1,00,000 Know more about the [UPI transaction limits prescribed by different entities](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/transaction-limits/upi.md).
 ---
 Wallets | - For non-KYC Merchants: ₹10,000
 - For KYC Merchants: ₹1,00,000

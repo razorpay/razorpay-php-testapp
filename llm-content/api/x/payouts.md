@@ -6,28 +6,28 @@ description: Create, fetch and cancel Payouts using APIs. Set up webhooks for no
 
 # Payouts
 
-A [payout](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md) is a transfer of funds from your business account to a Contact's Fund Account(s). You can create and process payouts both on the RazorpayX Dashboard and via the Payouts API. Ensure to [create a contact](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/create.md) and add a [fund account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/fund-accounts.md). 
+A [payout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md) is a transfer of funds from your business account to a Contact's Fund Account(s). You can create and process payouts both on the RazorpayX Dashboard and via the Payouts API. Ensure to [create a contact](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts/create.md) and add a [fund account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/fund-accounts.md). 
 
 > **SUCCESS**
 >
 > 
 >     **What's New**
 > 
->     [Idempotency Key](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payout-idempotency.md) is mandatory for all payout requests starting March 15, 2025.
+>     [Idempotency Key](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payout-idempotency.md) is mandatory for all payout requests starting March 15, 2025.
 > 
 
-To make payouts, you must [allowlist IPs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/allowlist-ip.md) and pass the [idempotency key](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payout-idempotency.md).
+To make payouts, you must [allowlist IPs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/allowlist-ip.md) and pass the [idempotency key](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payout-idempotency.md).
 
-Making payouts from [RazorpayX Lite](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/razorpayx-lite.md) account to RazorpayX Lite Customer Identifiers or Razorpay [Customer identifiers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect.md) is not supported.
+Making payouts from [RazorpayX Lite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/razorpayx-lite.md) account to RazorpayX Lite Customer Identifiers or Razorpay [Customer identifiers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect.md) is not supported.
 
-Fork the Razorpay Postman Public Workspace and try the Payouts APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/api-keys.md).
+Fork the Razorpay Postman Public Workspace and try the Payouts APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/api-keys.md).
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-117c93d1-1a79-4958-9067-eb97a3459f08)
 
 ### Related Guides
 
-[About Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md)
-[Set up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payouts.md)
-[Webhooks Payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md)
+[About Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md)
+[Set up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payouts.md)
+[Webhooks Payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md)
 
 ### Endpoints
 

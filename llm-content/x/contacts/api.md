@@ -14,17 +14,17 @@ The table below lists the various Contacts APIs and gives a brief description of
 
 API | Description
 ---
-[Create a Contact](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/create.md) | Creates a new Contact.
+[Create a Contact](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts/create.md) | Creates a new Contact.
 ---
-[Update a Contact](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/update.md) | Updates an existing Contact.
+[Update a Contact](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts/update.md) | Updates an existing Contact.
 ---
-[Activate or Deactivate a Contact](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/activate-or-deactivate.md) | Activates or deactivates an existing contact.
+[Activate or Deactivate a Contact](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts/activate-or-deactivate.md) | Activates or deactivates an existing contact.
 ---
-[Fetch all Contacts](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/fetch-all.md) | Retrieves all the Contacts.
+[Fetch all Contacts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts/fetch-all.md) | Retrieves all the Contacts.
 ---
-[Fetch a Contact with ID](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/fetch-with-id.md) | Retrieves a single Contact with ID.
+[Fetch a Contact with ID](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts/fetch-with-id.md) | Retrieves a single Contact with ID.
 
 ### Related Information
 
-- [Contacts and Fund Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts.md)
-- [Subscribe to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/x/apis/subscribe.md)
+- [Contacts and Fund Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md)
+- [Subscribe to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/apis/subscribe.md)

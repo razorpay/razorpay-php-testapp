@@ -17,8 +17,8 @@ Integrate UPI Intent on your mobile app. UPI Intent works for UPI PSP apps and i
 
 ## Prerequisites
 - [Sign up](https://dashboard.razorpay.com/#/access/signup) for a Razorpay account.
-- [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
-- Integrate with [Razorpay Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
+- [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
+- Integrate with [Razorpay Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
 
 ## Integration Steps
 
@@ -38,7 +38,7 @@ Follow the steps given below to show the available UPI intent apps to your custo
     
     ```
 
-2. Instantiate Razorpay with your Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md). Skip this step if you have already completed it.
+2. Instantiate Razorpay with your Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys). Skip this step if you have already completed it.
 
     ```js: JavaScript
     var razorpay = new Razorpay({  key: '' });

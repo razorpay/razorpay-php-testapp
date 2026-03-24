@@ -13,21 +13,21 @@ You can now offer Cash on Delivery (COD) as a payment method on the Razorpay Che
 > 
 > **Handy Tips**
 > 
-> [Razorpay Magic Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout.md) supports Cash on Delivery (COD) by default. For a simplified experience without the address section, use this flow that directly opens the payment page. Both flows support COD as a payment method.
+> [Razorpay Magic Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout.md) supports Cash on Delivery (COD) by default. For a simplified experience without the address section, use this flow that directly opens the payment page. Both flows support COD as a payment method.
 > 
 
 ## Prerequisites
 
 - [Create a Razorpay account](https://dashboard.razorpay.com/).
-- Generate [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Generate [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 - Integrate with Razorpay Magic Checkout:
-    - [Native (Web)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/web.md)
-    - [Android](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/android-integration.md)
-    - [iOS](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/ios-integration.md)
-    - [React Native: Android](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/react-native-android-integration.md)
-    - [React Native: iOS](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/react-native-ios-integration.md)
-    - [Flutter](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/flutter-integration.md)
-    - [Capacitor](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/capacitor-integration.md)
+    - [Native (Web)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/web.md)
+    - [Android](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/android-integration.md)
+    - [iOS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/ios-integration.md)
+    - [React Native: Android](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/react-native-android-integration.md)
+    - [React Native: iOS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/react-native-ios-integration.md)
+    - [Flutter](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/flutter-integration.md)
+    - [Capacitor](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/capacitor-integration.md)
 
 > **WARN**
 >
@@ -71,8 +71,8 @@ Follow the integration steps given below:
 
 The flow below displays how customers can view and select **Cash on Delivery** during Checkout:
 
-![COD on checkout - customer experience](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-methods-cod.gif.md)
+![COD on checkout - customer experience](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-methods-cod.gif.md)
 
 ### Related Information
 
-[Payment Configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-configuration/#configure-payment-options.md)
+[Payment Configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-configuration.md#configure-payment-options)

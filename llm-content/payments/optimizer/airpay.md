@@ -36,9 +36,9 @@ Follow the steps below to onboard Airpay as a payment provider.
 
         1. Log in to your Dashboard and select **Optimizer**.
         2. Click **Payment Provider** → **Add Provider**.
-        3. Navigate to **Card, Netbanking, and UPI** → **Airpay**. ![Add Airpay payment provider in Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-airpay-add-provider.jpg.md)
-        4. Enter your **Provider Details**. ![Add Airpay payment provider in Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-airpay-add-provider-details.jpg.md)
-        5. Add your **Airpay Production API Details** and click **Submit**. ![Add Airpay production API details in Razorpay Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-airpay-provider-api-prod-details.jpg.md) 
+        3. Navigate to **Card, Netbanking, and UPI** → **Airpay**. ![Add Airpay payment provider in Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-airpay-add-provider.jpg.md)
+        4. Enter your **Provider Details**. ![Add Airpay payment provider in Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-airpay-add-provider-details.jpg.md)
+        5. Add your **Airpay Production API Details** and click **Submit**. ![Add Airpay production API details in Razorpay Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-airpay-provider-api-prod-details.jpg.md) 
 
         
 > **WARN**
@@ -61,15 +61,15 @@ Follow the steps below to onboard Airpay as a payment provider.
          
             1. Log in to your Dashboard and click **Optimizer**.
             2. Click **+ Add New Rule**.
-                ![Add new rule in Razorpay Optimizer for Airpay](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-simpl-rule.jpg.md)
+                ![Add new rule in Razorpay Optimizer for Airpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-simpl-rule.jpg.md)
             3. Enter the **Rule Name** and **Rule Description**. Click **Next**.
-                ![Enter rule name and description for Airpay in Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-add-rule-name-desc.jpg.md)
+                ![Enter rule name and description for Airpay in Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-add-rule-name-desc.jpg.md)
             4. Select the rule conditions and click **Next**, for example:
                 - **When** - `Payment Method`.
                 - **is** - `One Of`.
                 - `Netbanking, Card, UPI Intent`.
-                ![Configure rule conditions for Airpay payment routing](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-airpay-rule-conditions.jpg.md) 
-            5. In the **Route** field, enter **100**, and select **Airpay** in the **payment via** field. Click **Next**. ![Add Airpay Route](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-airpay-priority-route.jpg.md) 
+                ![Configure rule conditions for Airpay payment routing](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-airpay-rule-conditions.jpg.md) 
+            5. In the **Route** field, enter **100**, and select **Airpay** in the **payment via** field. Click **Next**. ![Add Airpay Route](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-airpay-priority-route.jpg.md) 
             6. Click **Publish Rule**.
 
             Following this example rule, transactions originating from **iOS devices** and using **Card, Netbanking or UPI payment methods** will be routed through **Airpay**.
@@ -104,7 +104,7 @@ Airpay integration currently **does not support "UPI Collect"** requests.
             * **is** - `Equal to`
             * `UPI Collect`
         5.  In the **Route** field, enter **100** and select your **[Alternative Gateway Provider]** in the **payment via** field. Click **Next**.
-        6.  Click **Publish Rule**. ![Configure rule to exclude Airpay for UPI Collect payments in Razorpay Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-airpay-upi-collect-limitation-rule.jpg.md)
+        6.  Click **Publish Rule**. ![Configure rule to exclude Airpay for UPI Collect payments in Razorpay Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-airpay-upi-collect-limitation-rule.jpg.md)
     
 
 ### 2. Handling Card Transactions
@@ -130,7 +130,7 @@ Airpay integration **does not support Tokenised Card** payments.
                 * `True`
         5. Click **Next**.
         6. In the **Route** field, enter **100** and select your **[Alternative Gateway Provider]** in the **payment via** field. Click **Next**.
-        7. Click **Publish Rule**. ![Configure rule to exclude Airpay for tokenised card payments in Razorpay Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-airpay-tokenised-cards-limitation-rule.jpg.md)
+        7. Click **Publish Rule**. ![Configure rule to exclude Airpay for tokenised card payments in Razorpay Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-airpay-tokenised-cards-limitation-rule.jpg.md)
     
 
 ## Best Practices

@@ -12,7 +12,7 @@ You can refund the amount to your customer almost instantly using Instant Refund
 > 
 > **Handy Tips**
 > 
-> Instant Refunds feature is enabled by default for your account. You should set the refund speed to `optimum` when creating a refund request to ensure refunds are processed instantly. We will consider the default speed if you do not specify the same during the refund request. Know more about [setting the default speed](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/refund-speed.md) from the Dashboard.
+> Instant Refunds feature is enabled by default for your account. You should set the refund speed to `optimum` when creating a refund request to ensure refunds are processed instantly. We will consider the default speed if you do not specify the same during the refund request. Know more about [setting the default speed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/refund-speed.md) from the Dashboard.
 > 
 
 Refunds will be processed at an optimal speed based on Razorpay's internal fund transfer logic:
@@ -25,7 +25,7 @@ Refunds will be processed at an optimal speed based on Razorpay's internal fund 
 > 
 > **Customer Looking for Refund**
 > 
-> If you are a customer looking for a refund, know more about [customer refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers/customer-refunds.md).
+> If you are a customer looking for a refund, know more about [customer refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers/customer-refunds.md).
 > 
 
 ## How Instant Refunds Work
@@ -36,14 +36,14 @@ Instant Refunds is a value-added service provided by Razorpay; if and when you o
 
 Following is a typical flow for instant refunds:
 
-![Instant Refund Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/instant-refund-flow.jpg.md)
+![Instant Refund Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/instant-refund-flow.jpg.md)
 
 ### Payment Methods
 
 We support the following payment methods for Instant refunds. The list of banks that support Instant refunds differs according to payment methods.
 
-- [List of supported banks for Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/supported-payment-methods/#netbanking.md)
-- [List of supported banks for UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/supported-payment-methods/#upi.md)
+- [List of supported banks for Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/supported-payment-methods.md#netbanking)
+- [List of supported banks for UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/supported-payment-methods.md#upi)
 
 Refunds are sent back to the original payment method used in making the payment. For example, if netbanking was used to make the payment, the refund amount was pushed to the same netbanking details.
 
@@ -74,13 +74,13 @@ Razorpay charges a small transaction fee to process Instant Refunds. The fees is
 ## Dashboard and API Actions
 
 You can perform the following actions:
-- [Issue Instant refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/issue.md)
-- [Handle refund errors](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/errors.md)
+- [Issue Instant refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/issue.md)
+- [Handle refund errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/errors.md)
 
 ### Related Information
 
-- [Payment Methods for Instant Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/supported-payment-methods.md)
-- [Batch Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/batch.md)
-- [Refunds API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/apis.md)
-- [Subscribe to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/subscribe-to-webhooks.md)
-- [Refunds FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/faqs.md)
+- [Payment Methods for Instant Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/supported-payment-methods.md)
+- [Batch Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/batch.md)
+- [Refunds API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/apis.md)
+- [Subscribe to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/subscribe-to-webhooks.md)
+- [Refunds FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/faqs.md)

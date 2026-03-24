@@ -9,7 +9,7 @@ The Smart Collect APIs enable you to create Customer Identifiers, fetch details 
 
 ## Prerequisite
 
-Ensure you have read the [product document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr.md) before you proceed with the API integration.
+Ensure you have read the [product document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr.md) before you proceed with the API integration.
 
 ### API Authentication
 
@@ -77,7 +77,7 @@ Follow these steps to generate API keys:
 > 
 > **Watch Out!**
 > 
-> - After generating the keys from the Dashboard, download and save them securely. You can use only one set of API keys. If you do not remember your API keys, you must [regenerate them](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#regenerate-api-keys.md) from the Dashboard and update them wherever the previous keys were used for payment gateway integrations. 
+> - After generating the keys from the Dashboard, download and save them securely. You can use only one set of API keys. If you do not remember your API keys, you must [regenerate them](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#regenerate-api-keys) from the Dashboard and update them wherever the previous keys were used for payment gateway integrations. 
 > - API Keys are universal; that is, they are applicable to all websites and apps that you have whitelisted for your Merchant ID.
 > - **Do not share your API Key secret** with anyone or on any public platforms. **This can pose security threats to your Razorpay account**.
 > - Once you generate the API Keys, only the **Key Id** is visible on the Dashboard, **not the Key secret**, as it can pose security threats to your Razorpay account.
@@ -87,9 +87,9 @@ Follow these steps to generate API keys:
 ## Customer Identifiers Workflow
 
 To start accepting payments using Customer Identifiers, you must:
-- [Create a customer](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md) (optional)
-- [Create a Customer Identifier](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/api/create.md)
+- [Create a customer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md) (optional)
+- [Create a Customer Identifier](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/api/create.md)
 - Share Customer Identifier details with customer
-- [Setup webhooks to receive payment notifications](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/notification.md) (optional)
+- [Setup webhooks to receive payment notifications](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/notification.md) (optional)
 
 @include smart-collect-qr/api/entity

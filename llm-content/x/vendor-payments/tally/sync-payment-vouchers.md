@@ -6,7 +6,7 @@ description: Set up the mechanism to send and sync Payment Vouchers uploaded in 
 
 # Sync Payment Vouchers
 
-After you [set up and configure](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally/set-up.md) the integration, you can send your [Payment Vouchers](#send-and-sync-payment-vouchers-to-razorpayx) to RazorpayX and sync them for reconciliation. 
+After you [set up and configure](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally/set-up.md) the integration, you can send your [Payment Vouchers](#send-and-sync-payment-vouchers-to-razorpayx) to RazorpayX and sync them for reconciliation. 
 
 ## How it Works
 
@@ -39,7 +39,7 @@ Check the process to send and sync payment vouchers to RazorpayX.
 To send Purchase Vouchers to RazorpayX, you must change the settings in Tally.
 1. Open your Tally application to show the **Gateway of Tally** page. 
 1. Click **R:RazorpayX Settings** from the right menu.
-   ![Click R:RazorpayX Settings from the right menu in the Tally application](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-int-razorpayx-settings.jpg.md)
+   ![Click R:RazorpayX Settings from the right menu in the Tally application](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-int-razorpayx-settings.jpg.md)
    The **RazorpayX Configuration (in Developer Mode)** page appears. 
 1. On this page: 
    - Enter **Yes** against **Invoice Sync Settings**. 
@@ -56,7 +56,7 @@ To send Purchase Vouchers to RazorpayX, you must change the settings in Tally.
 
    Set the payment voucher setting to **Yes**.
 
-   ![Change the setting to yes against payment vouchers only](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-sync-payment-vouchers1.jpg.md)
+   ![Change the setting to yes against payment vouchers only](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-sync-payment-vouchers1.jpg.md)
 1. After selecting, enter the OTP sent to your registered email. Check your spam folder if you do not find the OTP in your primary inbox. 
 1. Save your changes.
 
@@ -75,14 +75,14 @@ You have successully configured the settings to send Payment Vouchers to Razorpa
 To create a payment voucher in Tally and sync it in RazorpayX: 
 
 1. Go to **Gateway of Tally** → **TRANSACTIONS** → **Vouchers**.
-   ![Click Vouchers under Transactions heading in Tally](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-int-sync-puchase-vouchers1.jpg.md)
+   ![Click Vouchers under Transactions heading in Tally](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-int-sync-puchase-vouchers1.jpg.md)
    The **Accounting Voucher Creation (In Developer Mode)** page appears.
 1. Select **F5:Payments**. Enter the invoice details to create a Payment Voucher and add a Purchase Voucher or an older bill as a reference.
-   ![Create a payment voucher](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-int-sync-payment-vouchers2.jpg.md)
+   ![Create a payment voucher](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-int-sync-payment-vouchers2.jpg.md)
 1. Create the payment voucher and add the bank account from which the payment must be debited. 
 1. Select the invoice against which payment has to be made. Enter the details and click **Yes** when prompted.
 1. Go to the **Gateway of Tally**. Click **RazorpayX** → **Ready for Bank**.
-   ![Steps to open the Payment Instructions page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-int-sync-payment-vouchers3.jpg.md)
+   ![Steps to open the Payment Instructions page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-int-sync-payment-vouchers3.jpg.md)
    
    The **RXEPayment (In Developer Mode)** appears. Tally displays particulars about payments with the number of payment invoices that are:
       - **Ready for sending to RazorpayX**
@@ -90,26 +90,26 @@ To create a payment voucher in Tally and sync it in RazorpayX:
       - **Fully paid in RazorpayX & Reconciled transactions**
 
    Here is a sample screenshot of payments as seen on Tally. Click on each of the rows for more information. You can also filter the results based on the displayed fields.
-      ![Tally Payments View](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-ready-for-bank.jpg.md)
+      ![Tally Payments View](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-ready-for-bank.jpg.md)
 1. Select **Ready for sending to RazorpayX** and press Enter. 
 1. Sync all of these entries by clicking on **A:Sync All Bills** in the right menu as shown below.
-   ![Sync All Bills](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-sync-all-bills.jpg.md)
+   ![Sync All Bills](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-sync-all-bills.jpg.md)
 
 After syncing, return to **Ready for Bank** page. Here, you can find that the number of bills in **Ready for sending to RazorpayX** has reduced, and the bills in **Sent to RazorpayX (unpaid & partially paid)** have increased. 
 
-Go to RazorpayX and pay your invoices as per the standard [vendor payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md).
+Go to RazorpayX and pay your invoices as per the standard [vendor payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md).
 
 ## Pay Invoices
 
 After you send and sync the vouchers in RazorpayX, you can pay the invoices in the following ways:
-- [Pay your vendor immediately](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md).
-- [Pay vendor partially](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/partial-payouts.md).
-- [Schedule the vendor payment](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/scheduled-payouts.md).
-- [Make vendor payouts in bulk](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/bulk.md).
+- [Pay your vendor immediately](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md).
+- [Pay vendor partially](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/partial-payouts.md).
+- [Schedule the vendor payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/scheduled-payouts.md).
+- [Make vendor payouts in bulk](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/bulk.md).
 
-All the payments made can be brought back to Tally. Know more about [bringing bills to Tally](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally/bring-bills.md) from RazorpayX.
+All the payments made can be brought back to Tally. Know more about [bringing bills to Tally](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally/bring-bills.md) from RazorpayX.
 
 ### Related Information 
 
-- [Bring Bills to Tally](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally/bring-bills.md) 
+- [Bring Bills to Tally](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally/bring-bills.md) 
 - Keyboard shortcuts in [Tally Prime](https://help.tallysolutions.com/tally-prime/keyboard-shortcuts/keyboard-shortcuts-tally-prime/)

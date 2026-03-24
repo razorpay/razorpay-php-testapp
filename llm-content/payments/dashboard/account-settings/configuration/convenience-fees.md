@@ -7,7 +7,7 @@ description: Collect convenience fees from your customers for using your technol
 
 For every payment done using Razorpay, we levy a nominal platform fees. You can choose to charge a Convenience Fee to your customers for the use of technology infrastructure. Convenience Fees are seamlessly added at Razorpay Checkout without disrupting the checkout experience for your customers. In case a refund is initiated, your customers receive the Convenience Fees along with the actual payment amount.
 
-![Fees breakup](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-settings-fee-bearer-fee-breakup-v2.jpg.md)
+![Fees breakup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settings-fee-bearer-fee-breakup-v2.jpg.md)
 
 > **WARN**
 >
@@ -38,17 +38,17 @@ Given below is the workflow:
 1. Log in to the Dashboard.
 2. You select the **Convenience Fee Model** option on the **Settings** → **Fee Bearer** section of the Dashboard.
     
-    ![Customer pays the fee](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-settings-fee-bearer-customer-fee-bearer.jpg.md)
+    ![Customer pays the fee](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settings-fee-bearer-customer-fee-bearer.jpg.md)
     
 3. The customer selects an item on your website/Payment Link/Payment Page and clicks the pay button.
     
-    ![Customer clicks pay button](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-settings-fee-bearer-payment-page.jpg.md)
+    ![Customer clicks pay button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settings-fee-bearer-payment-page.jpg.md)
     
 4. The checkout pop-up page is displayed.
 5. The customer selects the payment mode and clicks the **Pay** button.
 6. The **Fees Breakup** page containing the Convenience Fee appears, and the customer clicks **Continue and pay**.
     
-    ![Fees breakup](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-settings-fee-bearer-fee-breakup-v2.jpg.md)
+    ![Fees breakup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settings-fee-bearer-fee-breakup-v2.jpg.md)
     
 7. The customer is redirected to the bank page with the total amount, including the Convenience Fee.
 

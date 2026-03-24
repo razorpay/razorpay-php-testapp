@@ -217,14 +217,14 @@ razorpay.getPaymentMethods(new PaymentMethodsCallback() {
         })
 ```
 
-Check the [additional support for payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/react-native-integration/custom/additional-features.md) available with the Razorpay React Native Custom SDK.
+Check the [additional support for payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/react-native-integration/custom/additional-features.md) available with the Razorpay React Native Custom SDK.
 
 > **INFO**
 >
 > 
 > **Handy Tips**
 > 
-> If you are using Subscriptions, you can pass the `subscription_id` in the options, which fetches subscription related details along with the payment method. This saves you a network call to get amount for that `subscription_id`. Know more about [Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md).
+> If you are using Subscriptions, you can pass the `subscription_id` in the options, which fetches subscription related details along with the payment method. This saves you a network call to get amount for that `subscription_id`. Know more about [Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md).
 > 
 
 ## 1.5 Import Razorpay Module
@@ -264,7 +264,7 @@ Call the `Razorpay.open` method with the payment options. The method returns a J
 }}>
 ```
 
-Know more about [passing callback URL](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/callback-url.md).
+Know more about [passing callback URL](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/callback-url.md).
 
 #### Checkout Parameters
 
@@ -284,7 +284,7 @@ Know more about [passing callback URL](@/Applications/MAMP/htdocs/new-docs/llm-c
 >    
 
 `currency` _mandatory_
-: `string` The currency in which the payment should be made by the customer. See the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` The currency in which the payment should be made by the customer. See the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
    
 > **INFO**
@@ -292,7 +292,7 @@ Know more about [passing callback URL](@/Applications/MAMP/htdocs/new-docs/llm-c
 > 
 >    **Handy Tips**
 > 
->    Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>    Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
 >    
 
 `description` _optional_
@@ -302,7 +302,7 @@ Know more about [passing callback URL](@/Applications/MAMP/htdocs/new-docs/llm-c
 : `string` Link to an image (usually your business logo) shown in the Checkout form. Can also be a **base64** string, if loading the image from a network is not desirable.
 
 `order_id` _mandatory_
-: `string` Order ID generated via the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+: `string` Order ID generated via the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 `notes` _optional_
 : `object` Set of key-value pairs that can be used to store additional information about the payment. It can hold a maximum of 15 key-value pairs, each 256 characters long (maximum).
@@ -365,7 +365,7 @@ Possible values:
     : `string` Name associated with the bank account used to initiate the payment.
 
 `bank` _mandatory if method=netbanking_
-: `string` Bank code. List of available banks enabled for your account can be fetched via [**methods**](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods/#fetch-supported-methods.md).
+: `string` Bank code. List of available banks enabled for your account can be fetched via [**methods**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods.md#fetch-supported-methods).
 
 `wallet` _mandatory if method=wallet_
 : `string` Wallet code for the wallet used for the payment. Possible values:
@@ -404,7 +404,7 @@ Possible values:
 > 
 >   **Deprecation Notice**
 > 
->   UPI Collect is deprecated effective 28 February 2026. This tab is applicable only for exempted businesses. If you are not covered by the exemptions, refer to the [ migration documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/announcements/upi-collect-migration/custom-integration.md) to switch to UPI Intent.
+>   UPI Collect is deprecated effective 28 February 2026. This tab is applicable only for exempted businesses. If you are not covered by the exemptions, refer to the [ migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/custom-integration.md) to switch to UPI Intent.
 >   
 
 `callback_url` _optional_
@@ -447,4 +447,4 @@ end
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/react-native-integration/custom/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/react-native-integration/custom/test-integration.md)

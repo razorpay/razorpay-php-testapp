@@ -100,8 +100,8 @@ The following sample response code can be used as a reference:
     
 
 ### Related Information
-- [Razorpay Smart Collect](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect.md)
-- [How Smart Collect Works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/how-it-works.md)
-- [Customer Identifier States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/states.md)
-- [Smart Collect APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect.md)
-- [Subscribe to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/subscribe-to-webhooks.md)
+- [Razorpay Smart Collect](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect.md)
+- [How Smart Collect Works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/how-it-works.md)
+- [Customer Identifier States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/states.md)
+- [Smart Collect APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect.md)
+- [Subscribe to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/subscribe-to-webhooks.md)

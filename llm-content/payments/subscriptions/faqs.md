@@ -50,8 +50,8 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 ### 5. The order status remains "Pending Payment", even after a successful Razorpay payment. Why is WooCommerce not updating my subscription payments?
 
      Follow the links given below to integrate with WooCommerce Subscription plugin:
-     - [Subscriptions plugin for WooCommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/woocommerce.md)
-     - [Subscriptions plugin for WooCommerce Build Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/woocommerce/build-integration.md)
+     - [Subscriptions plugin for WooCommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/woocommerce.md)
+     - [Subscriptions plugin for WooCommerce Build Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/woocommerce/build-integration.md)
 
      If you have already followed the integration steps in the above links and the problem still persists, Reach out to our [Support team](https://razorpay.com/support/) with the versions of both Razorpay and WooCommerce plugin that you are currently using.
     
@@ -59,7 +59,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
   
 ### 6. Is WooCommerce Subscriptions plugin dependent on the Razorpay WooCommerce plugin? What are the compatible versions?
 
-     Yes, the WooCommerce Subscriptions plugin depends on the Razorpay WooCommerce plugin. The WooCommerce Subscriptions plugin is fully compatible with Razorpay WooCommerce plugin equal to or greater than v2.4, including the latest v3.0 release. Know more about [plugin dependencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/woocommerce/#plugin-dependencies.md).
+     Yes, the WooCommerce Subscriptions plugin depends on the Razorpay WooCommerce plugin. The WooCommerce Subscriptions plugin is fully compatible with Razorpay WooCommerce plugin equal to or greater than v2.4, including the latest v3.0 release. Know more about [plugin dependencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/woocommerce.md#plugin-dependencies).
     
 
   
@@ -79,7 +79,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
      1. Log in to the Dashboard and click **Subscriptions** under **PAYMENT PRODUCTS** in the left menu.
      2. Go to **Plans** and click on the required **Plan Id**.
      3. Click the **Duplicate Plan** icon in the top-right corner of the pop-up, as shown in the screenshot below.
-        ![Plan duplicate option on Subscription plan duplicate page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/subscription_plan_duplicate.jpg.md)
+        ![Plan duplicate option on Subscription plan duplicate page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/subscription_plan_duplicate.jpg.md)
      4. Edit the plan details as required and click **Create Plan**.
     
 
@@ -112,7 +112,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
   
 ### 1. Can I update the plan amount or duration of Subscription when it is live?
 
-     Yes. You can update details such as the plan amount, duration and quantity of a Subscription, even if it is live. Refer to the [Update Subscription section](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/update.md) for more details.
+     Yes. You can update details such as the plan amount, duration and quantity of a Subscription, even if it is live. Refer to the [Update Subscription section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/update.md) for more details.
 
      
 > **WARN**
@@ -128,7 +128,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
   
 ### 2. When can I update a Subscription?
 
-     You can only update a Subscription when it is in `authenticated` and `active` states. There is no state change when you update a Subscription. Know about [Updating a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/update.md).
+     You can only update a Subscription when it is in `authenticated` and `active` states. There is no state change when you update a Subscription. Know about [Updating a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/update.md).
 
      
      
@@ -177,15 +177,15 @@ description: Find answers to frequently asked questions about Razorpay Subscript
   
 ### 2. Can all Subscriptions be paused?
 
-     Subscriptions in the `active` state can be paused. You cannot pause a Subscription in any other state. Refer to the [life cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/states.md) section for more details.
+     Subscriptions in the `active` state can be paused. You cannot pause a Subscription in any other state. Refer to the [life cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/states.md) section for more details.
     
 
   
 ### 3. How can I pause a Subscription?
 
      You can pause a Subscription:
-     - [From the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/pause-resume-cancel/#pause-subscription-via-the-dashboard.md).
-     - [Using APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/#pause-a-subscription.md).
+     - [From the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/pause-resume-cancel.md#pause-subscription-via-the-dashboard).
+     - [Using APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions.md#pause-a-subscription).
     
 
   
@@ -230,8 +230,8 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 ### 2. How can I resume a Subscription?
 
      You can resume a Subscription:
-     - [From the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/pause-resume-cancel/#resume-subscription-via-the-dashboard.md).
-     - [Using APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/#resume-a-subscription.md).
+     - [From the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/pause-resume-cancel.md#resume-subscription-via-the-dashboard).
+     - [Using APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions.md#resume-a-subscription).
     
 
   
@@ -252,8 +252,8 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 ### 1. Can I cancel a Subscription?
 
      Yes. You can cancel a Subscription:
-     - [From the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/pause-resume-cancel.md).
-     - [Using APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/#cancel-a-subscription.md).
+     - [From the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/pause-resume-cancel.md).
+     - [Using APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions.md#cancel-a-subscription).
     
 
   
@@ -265,7 +265,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
   
 ### 3. How can I know when my customer cancels a Subscription?
 
-     You can set up the [subscription.cancelled](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/subscriptions/#subscription-cancelled.md) webhook event to get a notification when your customer cancels their Subscription. Know more about [subscribing to a webhook event](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/subscribe-to-webhooks.md).
+     You can set up the [subscription.cancelled](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/subscriptions.md#subscription-cancelled) webhook event to get a notification when your customer cancels their Subscription. Know more about [subscribing to a webhook event](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/subscribe-to-webhooks.md).
     
 
 ## Payment Methods
@@ -364,7 +364,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 
      **Supported Banks** 
 
-     Refer to the [list of banks that support UPI Autopay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upi/supported-banks/#supported-banks.md).
+     Refer to the [list of banks that support UPI Autopay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upi/supported-banks.md#supported-banks).
     
 
   
@@ -432,7 +432,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 >      **Watch Out!**
 > 
 >      - You should contact our [Support team](https://razorpay.com/support/#request) to enable UPI Intent on standard checkout. Watch this video on how to get it enabled.
->      ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+>      ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 >      - UPI Intent is not supported for @okaxis handle.
 >      
 
@@ -457,7 +457,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 
      Businesses like yours can onboard customers and process recurring payments through debit, credit and prepaid cards of the following banks from October 1, 2021. Customers can now sign up for Subscription plans using their card details easily.
 
-     Refer to the [list of banks that support cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/supported-banks-apps/#cards.md).
+     Refer to the [list of banks that support cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/supported-banks-apps.md#cards).
 
      
 > **WARN**
@@ -484,7 +484,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 
      If a customer tries to enter card details of banks that are not live, an error message saying `Card does not support recurring payments` will be displayed, as shown below.
 
-     ![Error message when card does not support recurring payments](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-mandatehq-error-sub.jpg.md)
+     ![Error message when card does not support recurring payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-mandatehq-error-sub.jpg.md)
     
 
   
@@ -518,7 +518,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
      1. Cancel all card-based Subscriptions, and the status will be moved to the `cancelled` state.
      2. Notify your customers about the cancelled Subscriptions and send new subscription links, and request them to register afresh using UPI or the cards of banks that are live.
 
-     Refer to the [Subscriptions document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md) for more information.
+     Refer to the [Subscriptions document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md) for more information.
     
 
   
@@ -526,7 +526,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 
      Starting October 1, 2021, we will initiate the debit on every Subscription 24 hours in advance. The respective banks will send a pre-debit notification to the customer’s registered mobile number or email ID. If the customer does not pause or cancel the Subscription, then the debit will be processed, and you will get the notification through a webhook or in the Dashboard. A sample pre-debit notification is given below for your reference:
 
-     ![Sample pre-debit notification](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-mandatehq-pre-debit.jpg.md)
+     ![Sample pre-debit notification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-mandatehq-pre-debit.jpg.md)
     
 
   
@@ -565,14 +565,14 @@ description: Find answers to frequently asked questions about Razorpay Subscript
      2. Bank will send a pre-debit notification SMS to the customer immediately.
      3. The amount will be debited 36 hours after the notification provided the customer does not pause or cancel the Subscription.
 
-     To process debits of amounts above ₹15,000 (upto ₹1,00,000 for [certain merchant categories](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/supported-banks-apps/#supported-mccs.md)):
+     To process debits of amounts above ₹15,000 (upto ₹1,00,000 for [certain merchant categories](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/supported-banks-apps.md#supported-mccs)):
      1. Razorpay will initiate the debit 36 hours before the actual debit date.
      2. Bank will send a notification with a link for Additional Factor Authentication (AFA) to the customer immediately. The AFA link will be active for 72 hours.
      3. The amount will be debited once the customer provides AFA.
 
      The short animation below shows the customer side flow of giving consent through the AFA link.
 
-     ![Customer flow for consent through AFA link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-mandatehq.gif.md)
+     ![Customer flow for consent through AFA link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-mandatehq.gif.md)
     
 
   
@@ -678,9 +678,9 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 
      1. Log in to the Dashboard and click **Account & Settings** in the left menu.
      2. Click **Mandate summary page** under **Checkout settings**.
-        ![Mandate summary page option under Checkout settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/mandate_settings.jpg.md)
+        ![Mandate summary page option under Checkout settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/mandate_settings.jpg.md)
      3. Enable the **Show Mandate Summary Page for Cards** option.
-        ![Enable show Mandate Summary Page for cards option](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/show_mandate_cards_rp.jpg.md)
+        ![Enable show Mandate Summary Page for cards option](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/show_mandate_cards_rp.jpg.md)
     
 
   
@@ -700,7 +700,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
   
 ### 23. What banks support recurring payments via RuPay cards?
 
-     RuPay SI requires payment processors/aggregators and banks to work with NPCI to enable the support. NPCI is continuously working with more banks to support recurring payments on RuPay cards. Refer to the [Supported Banks and Apps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/supported-banks-apps/#cards.md) document for the list of supported banks.
+     RuPay SI requires payment processors/aggregators and banks to work with NPCI to enable the support. NPCI is continuously working with more banks to support recurring payments on RuPay cards. Refer to the [Supported Banks and Apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/supported-banks-apps.md#cards) document for the list of supported banks.
     
 
   
@@ -795,7 +795,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 
      **Supported Banks** 
 
-     Refer to the [list of banks that support UPI Autopay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upi/supported-banks/#supported-banks.md).
+     Refer to the [list of banks that support UPI Autopay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upi/supported-banks.md#supported-banks).
     
 
   
@@ -861,7 +861,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 >      **Watch Out!**
 > 
 >      - You should contact our [Support team](https://razorpay.com/support/#request) to enable UPI Intent on standard checkout. Watch this video on how to get it enabled.
->         ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+>         ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 >      - UPI Intent is not supported for @okaxis handle.
 >      
 
@@ -901,7 +901,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
      UPI | Subsequent Charge | All UPI Autopay auto-debits are processed and completed by 9:00 PM IST on the scheduled debit date. *****
      
 
-     ***** Due to [payment retries](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/payment-retries/#retry-model-for-upi.md), this may extend to T+1.
+     ***** Due to [payment retries](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/payment-retries.md#retry-model-for-upi), this may extend to T+1.
     
 
   
@@ -981,7 +981,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 > 
 >      **Handy Tips**
 > 
->      For certain MCCs, the maximum amount limit for one transaction is ₹1,00,000. Refer to the [the list of supported MCCs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/supported-banks-apps/#supported-mccs.md), issuing banks and PSP applications.
+>      For certain MCCs, the maximum amount limit for one transaction is ₹1,00,000. Refer to the [the list of supported MCCs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/supported-banks-apps.md#supported-mccs), issuing banks and PSP applications.
 >      
 
     
@@ -1015,7 +1015,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
   
 ### 20. Is QR Code supported for UPI Autopay?
 
-     Yes, [QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/qr-codes.md) is supported on Standard Checkout to collect Subscription payments. The customers can scan the QR using any PSP app and make the payment.
+     Yes, [QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/qr-codes.md) is supported on Standard Checkout to collect Subscription payments. The customers can scan the QR using any PSP app and make the payment.
     
 
   
@@ -1035,7 +1035,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 
      Yes, you can restrict your customers from pausing and cancelling the mandate by enabling OC125 functionality. After enabling, the **Pause** and **Cancel** mandate buttons are not available on PSP apps as shown in the image below.
 
-     ![Checkout with OC125 Enabled](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi_oc125.jpg.md)
+     ![Checkout with OC125 Enabled](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi_oc125.jpg.md)
 
      This functionality is supported only for lending businesses. Please contact our [Support team](https://razorpay.com/support/#request) for more information.
     
@@ -1103,7 +1103,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 >      **Watch Out!**
 > 
 >      - You should contact our [Support team](https://razorpay.com/support/#request) to enable PSP apps other than PhonePe and Paytm on Standard Checkout for UPI TPV. Watch this video on how to get it enabled.
->       ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+>       ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 >      - UPI Intent TPV is not supported for @okaxis handle.
 >      
 
@@ -1132,7 +1132,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
   
 ### 4. Which banks have enabled Subscription through Emandate?
 
-     Currently, Subscription through Emandate is available for a few banks. Refer to the [Supported Banks and Apps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/supported-banks-apps.md) page for more information.
+     Currently, Subscription through Emandate is available for a few banks. Refer to the [Supported Banks and Apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/supported-banks-apps.md) page for more information.
     
 
   
@@ -1210,7 +1210,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
   
 ### 11. Which authentication type is supported for the Aadhaar based authentication?
 
-     Razorpay supports eSign as an [authentication type](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/supported-banks-apps/#emandate.md) for the Aadhaar authentication.
+     Razorpay supports eSign as an [authentication type](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/supported-banks-apps.md#emandate) for the Aadhaar authentication.
     
 
 ## Offers
@@ -1220,7 +1220,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 
      You can link an offer to a Subscription when creating the Subscription of after it has gone live.
 
-     know more about [Subscription Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers.md).
+     know more about [Subscription Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers.md).
     
 
   
@@ -1234,7 +1234,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 
      You can link an offer to a Subscription either using our APIs or from the Dashboard.
 
-     Know more about [Subscription Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers.md).
+     Know more about [Subscription Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers.md).
     
 
   
@@ -1242,7 +1242,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 
      You can link an offer to a Subscription either using our APIs or from the Dashboard.
 
-     Know more about [Subscription Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers.md).
+     Know more about [Subscription Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers.md).
     
 
   
@@ -1250,13 +1250,13 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 
      You can link an offer to a Subscription either using our APIs or from the Dashboard.
 
-     Know more about [Subscription Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers.md).
+     Know more about [Subscription Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers.md).
     
 
   
 ### 6. Can I link an offer to a Subscription after it has gone live?
 
-     Yes. You can [link an offer to a Subscription after it has gone live](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers/link/#link-offer-to-an-existing-subscription.md).
+     Yes. You can [link an offer to a Subscription after it has gone live](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers/link.md#link-offer-to-an-existing-subscription).
     
 
   
@@ -1292,7 +1292,7 @@ description: Find answers to frequently asked questions about Razorpay Subscript
   
 ### 1. Can I accept Subscription payments in currencies other than INR?
 
-     Yes. You can accept Subscription payments in any of the [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+     Yes. You can accept Subscription payments in any of the [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
      
 > **INFO**
@@ -1310,4 +1310,4 @@ description: Find answers to frequently asked questions about Razorpay Subscript
 
      Settlements are always made in `INR`. The payment is converted using the exchange rate at the time of payment creation.
 
-     Refer to our [International Payments page](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments.md) for more details.
+     Refer to our [International Payments page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md) for more details.

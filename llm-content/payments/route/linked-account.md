@@ -27,9 +27,9 @@ Linked Accounts are dedicated entities within your Route setup that receive a po
         - **Complete Visibility**: Track all fund movements, transfers and operations.
     
     
-        - [Process individual and bulk refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/initiate-refund.md).
-        - [View reversals and settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/reversals-settlements.md).
-        - [Manage profile and team members](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/manage-profile.md).
+        - [Process individual and bulk refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/initiate-refund.md).
+        - [View reversals and settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/reversals-settlements.md).
+        - [Manage profile and team members](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/manage-profile.md).
     
 
 ## Add Linked Accounts
@@ -68,7 +68,7 @@ Linked Accounts are dedicated entities within your Route setup that receive a po
 
     
     
-        Create Linked Accounts programmatically using the [Route APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md) for automated onboarding and bulk operations.
+        Create Linked Accounts programmatically using the [Route APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md) for automated onboarding and bulk operations.
     
 
 ### Required Information
@@ -98,7 +98,7 @@ Provide these details when creating a Linked Account:
 
 To avoid settlement failure, we will penny test Linked Accounts when added. Razorpay will transfer a nominal amount to the bank account details submitted to verify them. Transfers are allowed only on successful validation. This will be performed on the newly created Linked Accounts and the existing accounts when the bank account details are updated via the Dashboard.
 
-Know more about [penny testing](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/faqs/#penny-testing.md).
+Know more about [penny testing](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/faqs.md#penny-testing).
 
 ## Manage Linked Account Access
 
@@ -109,7 +109,7 @@ Know more about [penny testing](@/Applications/MAMP/htdocs/new-docs/llm-content/
             1. Log in to the Dashboard.
             2. Select **Route** and navigate to the **Accounts**.
             3. Find the relevant Linked Account and enable **Dashboard Access**.
-                 ![Grant Dashboard access to linked accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/allow-dashboard-access-la.jpg.md)
+                 ![Grant Dashboard access to linked accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/allow-dashboard-access-la.jpg.md)
 
             The Linked Account user receives login credentials via email and can access their dedicated dashboard.
 
@@ -120,7 +120,7 @@ Know more about [penny testing](@/Applications/MAMP/htdocs/new-docs/llm-content/
 >             **Access Requirements**
 > 
 >             - While you can create a Linked Account without adding their email, you cannot grant them Dashboard access. The access can be granted or provided only after you add the email address of the Linked Account.
->                ![Grant Dashboard access to linked accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-la-email.jpg.md)
+>                ![Grant Dashboard access to linked accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-la-email.jpg.md)
 >             - As a Linked Account user, you cannot access the Linked Account Dashboard unless the primary account owner adds you as a team member from their Linked Account Dashboard.
 >             
 
@@ -135,7 +135,7 @@ Know more about [penny testing](@/Applications/MAMP/htdocs/new-docs/llm-content/
 
          1. Navigate to the **Accounts** tab.
          2. Turn on the **Allow Refunds** toggle against the relevant account.
-            ![Grant refund access to linked accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/permit-refund-la.jpg.md)
+            ![Grant refund access to linked accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/permit-refund-la.jpg.md)
         
 
     
@@ -156,8 +156,8 @@ Download complete account information in CSV format:
 
 ## Related Information
 
-- [Route Overview](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route.md)
-- [Processing Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/initiate-refund.md)
-- [Settlements and Reversals](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/reversals-settlements.md)
-- [Profile Management](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/manage-profile.md)
-- [Route APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md)
+- [Route Overview](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route.md)
+- [Processing Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/initiate-refund.md)
+- [Settlements and Reversals](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/reversals-settlements.md)
+- [Profile Management](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/manage-profile.md)
+- [Route APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md)

@@ -31,7 +31,7 @@ description: Troubleshoot common error scenarios and find answers to frequently 
     
 ### 3. Does Razorpay support Xamarin for SDK integration?
 
-         No, we do not support Xamarin. However, since Xamarin is essentially a wrapper around Android and iOS, you can create your own Xamarin wrapper using our [Android](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard.md) and [iOS](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard.md) SDKs.  
+         No, we do not support Xamarin. However, since Xamarin is essentially a wrapper around Android and iOS, you can create your own Xamarin wrapper using our [Android](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard.md) and [iOS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard.md) SDKs.  
 
          You can refer to Xamarin for integrating native [Android](https://docs.microsoft.com/en-us/xamarin/android/platform/binding-java-library/) and [iOS](https://docs.microsoft.com/en-us/xamarin/ios/platform/binding-objective-c/) libraries. Alternatively, you can use web integration to open the checkout form in a web view.
         
@@ -127,10 +127,10 @@ description: Troubleshoot common error scenarios and find answers to frequently 
     
 ### 7. Can I enable UPI Intent on my Android or iOS app?
 
-         Yes, you can enable UPI Intent on your [Android](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-android.md) or [iOS](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-ios.md) app. 
+         Yes, you can enable UPI Intent on your [Android](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-android.md) or [iOS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-ios.md) app. 
         
 
     
 ### 8. How can I accept payments on my Android or iOS apps without integrating with the native SDKs?
 
-         If you want to accept payments on your Android or iOS apps without integrating with our native SDKs, you can reuse your Standard Integration code. This approach opens the checkout form in a WebView within your mobile app. Know more about [Webview for Mobile Apps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/webview.md).
+         If you want to accept payments on your Android or iOS apps without integrating with our native SDKs, you can reuse your Standard Integration code. This approach opens the checkout form in a WebView within your mobile app. Know more about [Webview for Mobile Apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/webview.md).

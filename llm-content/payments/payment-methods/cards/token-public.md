@@ -80,7 +80,7 @@ https://api.razorpay.com/v1/customers/cust_EdxDIpddQC9o1F/tokens/public \
 #### Path Parameter
 
 `customer-id` _mandatory_
-: `string` Unique identifier of the customer. You can create a customer using [API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md) or via the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers/#create-a-customer.md).
+: `string` Unique identifier of the customer. You can create a customer using [API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md) or via the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md#create-a-customer).
 
 #### Request Parameters
 
@@ -102,4 +102,4 @@ https://api.razorpay.com/v1/customers/cust_EdxDIpddQC9o1F/tokens/public \
     `expiry_year` _mandatory_
     : `string` The expiry year of the card in `YY` format.
 
-All server-side requests must be [ authenticated](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#authentication.md) with `Basic Auth` using the [KEY_ID] as username. You can generate your API keys on the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+All server-side requests must be [ authenticated](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#authentication) with `Basic Auth` using the [KEY_ID] as username. You can generate your API keys on the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).

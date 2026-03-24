@@ -72,7 +72,7 @@ description: Find answers to frequently asked questions about axio.
 ### 11. What would be the flow of partial or full refunds?
 
           
-         The standard process of claiming [refund and partial refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds.md) at Razorpay is followed.
+         The standard process of claiming [refund and partial refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md) at Razorpay is followed.
         
 
      

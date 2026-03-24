@@ -49,7 +49,7 @@ Business failures are payment failures that occur due to the non-activation of p
 Reason | Explanation | Next Steps
 ---
 `input_validation_failed` | Payment failed due to wrong request or input sent in the payment request. This is also seen while creating a payment with incorrect parameter values on the Dashboard. | Rectify the validation issues and try again. Check the error description and field parameters for more information about the error. 
-Check your integration/payment request or reach out to Razorpay. Refer to the [API Reference Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api.md).
+Check your integration/payment request or reach out to Razorpay. Refer to the [API Reference Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md).
 ---
 `international_transaction_not_allowed` | International transactions are not enabled for your account or for a specific product. Refer to the error `description` parameter for more details.| Contact our [Support Team](https://razorpay.com/support) to get international transactions enabled for the product or account.
 ---

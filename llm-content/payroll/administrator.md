@@ -56,7 +56,7 @@ Payroll ensures efficiency in your people management processes and streamlines h
          1. Click **EDIT** against **Basic Information**. 
          1. Under **Type of Employee**, change the classification. 
 
-            ![Changing employee type in Payroll.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-change-emp-type.gif.md)
+            ![Changing employee type in Payroll.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-change-emp-type.gif.md)
         
 
     
@@ -107,11 +107,11 @@ Payroll ensures efficiency in your people management processes and streamlines h
 
 ## Onboarding
 
-When you someone to your organisation's payroll as an employee or a contractor, Payroll sends them a [welcome email](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/#employee-onboarding.md). This allows the employees to access the Employee Dashboard on Payroll. 
+When you someone to your organisation's payroll as an employee or a contractor, Payroll sends them a [welcome email](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md#employee-onboarding). This allows the employees to access the Employee Dashboard on Payroll. 
 
 ### Two-Factor Authentication
 
-On the Payroll Dashboard, 2FA is enabled by default for all [user roles](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/user-roles-workflows.md) except employees. You can enable two-factor authentication (2FA) for your employees and enhance access security. 
+On the Payroll Dashboard, 2FA is enabled by default for all [user roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/user-roles-workflows.md) except employees. You can enable two-factor authentication (2FA) for your employees and enhance access security. 
 
     
 ### What is Two-Factor Authentication (2FA)?
@@ -131,7 +131,7 @@ To enable 2FA for employees:
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard).
 1. Navigate to **ADMIN OPTIONS** → **Settings**. Click **EDIT** against **Two Factor Authentication** at the bottom.
 1. Select the check box for **Enable Two Factor Authentication for employees**. 
-    ![2FA on Razorpay Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-2fa.jpg.md)
+    ![2FA on Razorpay Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-2fa.jpg.md)
 1. Click **CONTINUE**.
 
 This enables 2FA for all employees. To disable 2FA, clear the check box for **Enable Two Factor Authentication for employees**. 
@@ -151,7 +151,7 @@ You can perform the following actions to resolve employees' login issues, if any
     
 ### Mail not Received
 
-         If your employees report [not receiving any email](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/#unable-to-find-email.md) from Payroll, the following could be the reasons: 
+         If your employees report [not receiving any email](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md#unable-to-find-email) from Payroll, the following could be the reasons: 
 
             - **Typos in the email address entered/provided**: 
 
@@ -188,11 +188,11 @@ You can perform the following actions to resolve employees' login issues, if any
          1. Navigate to **People** in the left menu. 
          1. Select and open the employee's profile. Click **EDIT** against **Basic Information**.
 
-            ![Change employee email Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-change-employee-email.jpg.md)
+            ![Change employee email Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-change-employee-email.jpg.md)
          1. On the **Edit** page, change your employee's email id in the **Email** text box.
          1. Click **CONTINUE**.
 
-         This resends the onboarding email to the employee post which they can log in to the Payroll Dashboard. [Contact Support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support/#razorpayx-payroll.md) if you face further issues. 
+         This resends the onboarding email to the employee post which they can log in to the Payroll Dashboard. [Contact Support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#razorpayx-payroll) if you face further issues. 
         
 
     
@@ -222,7 +222,7 @@ You can download documents such as payslips, reimbursement proofs, investment su
 
     For example, Tax Deductions report is available to download CSV file. Click Export at the top-right corner and select format and mode in the **Download Tax Deductions Report** pop-up modal.
 
-    ![Payroll Dashboard download reports](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-reports-export-download.jpg.md)
+    ![Payroll Dashboard download reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-reports-export-download.jpg.md)
      
 
 > **WARN**
@@ -235,7 +235,7 @@ You can download documents such as payslips, reimbursement proofs, investment su
 
 ### Related Information
 
-- [Employees](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees.md)
-- [Leaves](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/leaves.md)
-- [Attendance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/attendance.md)
-- [Payroll Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts.md)
+- [Employees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md)
+- [Leaves](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/leaves.md)
+- [Attendance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/attendance.md)
+- [Payroll Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md)

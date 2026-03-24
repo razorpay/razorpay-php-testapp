@@ -10,7 +10,7 @@ QuickBuy is a one-click payment solution that streamlines checkout for returning
 
 This results in a faster, more efficient checkout experience that boosts conversion rates and enhances satisfaction for both customers and businesses.
 
-![QuickBuy on Magic Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/quickbuy-magic.jpg.md)
+![QuickBuy on Magic Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/quickbuy-magic.jpg.md)
 
 > **INFO**
 >

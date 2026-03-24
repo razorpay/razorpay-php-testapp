@@ -16,13 +16,13 @@ Watch this video to know how to track and view payment details using Razorpay Pa
 Follow these steps to track payments:
 
 1. Log in with your Dashboard credentials.
-   ![Log in to Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-mobile-app-login.jpg.md)
+   ![Log in to Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-mobile-app-login.jpg.md)
 2. Navigate to **Transactions** → **Payments**.
 3. A list of payments appears. You can also filter the payments by:
     - Date
-        ![Filter by Date](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-mobile-app-date.jpg.md)
+        ![Filter by Date](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-mobile-app-date.jpg.md)
     - Status
-        ![Filter by Status](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-mobile-app-status.jpg.md)
+        ![Filter by Status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-mobile-app-status.jpg.md)
 4. Tap on a payment to view details such as:
     - Payment state, ID, creation date, payment method, notes and fees breakup.
     - Refund initiated for a specific payment, if any.
@@ -66,5 +66,5 @@ Failed | Any unsuccessful transaction is marked as failed. The customer will hav
 
 ### Related Information
 
-- [Razorpay Mobile App](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app.md)
-- [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links.md)
+- [Razorpay Mobile App](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app.md)
+- [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links.md)

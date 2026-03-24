@@ -33,13 +33,13 @@ Following are some specific cases whose integration is handled on a case-by-case
   
 ### WebView
 
-     If your website is likely to be accessed mostly in the Facebook browser or via other mobile applications in a WebView, it might face certain issues. Refer to our [Callback URL documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/callback-url.md) for more details on how to handle this.
+     If your website is likely to be accessed mostly in the Facebook browser or via other mobile applications in a WebView, it might face certain issues. Refer to our [Callback URL documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/callback-url.md) for more details on how to handle this.
     
 
   
 ### Network Connectivity Issues
 
-     If the customer has an issue with the network connectivity, you will not know of the payment completion from your website. In such cases, you can use our [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) to get notified of all authorized payments and then you can mark them as successful at your end.
+     If the customer has an issue with the network connectivity, you will not know of the payment completion from your website. In such cases, you can use our [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) to get notified of all authorized payments and then you can mark them as successful at your end.
     
 
 ## Build Integration
@@ -65,7 +65,7 @@ A to-do-list for integration is given below:
   
 ### 3. Display the Checkout Form on Your Website to Your Customer.
 
-     You can display the [Standard Checkout form](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md) on your website to collect payments from customers. Ensure that the `order_id` option is passed along with the other checkout options mentioned below.
+     You can display the [Standard Checkout form](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md) on your website to collect payments from customers. Ensure that the `order_id` option is passed along with the other checkout options mentioned below.
 
      @include checkout-parameters/standard
     

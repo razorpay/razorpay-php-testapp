@@ -12,7 +12,7 @@ Following are the 2 life cycles in Vendor Payments:
 
 Below is the life cycle of an invoice.
 
-![vendor payment life cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-vendor-payments-vendor_payments_life_cycle.jpg.md)
+![vendor payment life cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-vendor-payments-vendor_payments_life_cycle.jpg.md)
 
 ## Invoice Life Cycle
 
@@ -94,7 +94,7 @@ A payout for the full amount is made against the invoice to your vendor. Possibl
 
 Once an invoice is paid, your vendor receives an email informing them about the payment. Shown below is a sample email that is sent to your vendor.
 
-![Invoice paid email example confirming successful transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-vendor-payments-invoice_paid_email.jpg.md)
+![Invoice paid email example confirming successful transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-vendor-payments-invoice_paid_email.jpg.md)
 
 You can perform the following actions on invoices in the `paid` state:
 - Edit Details
@@ -109,10 +109,10 @@ You have manually cancelled the payout against the invoice from the Dashboard.
 
 ## Payout Life Cycle
 
-After you pay an invoice, a payout is created. The payout created follows the same life cycle as a normal payout. Know more about [payout life cycle and states](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle.md).
+After you pay an invoice, a payout is created. The payout created follows the same life cycle as a normal payout. Know more about [payout life cycle and states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md).
 
 ### Related Information
 
-- [About Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md)
-- [Bulk Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/bulk-invoices.md)
-- [Vendor Payments Report](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/reports.md)
+- [About Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md)
+- [Bulk Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/bulk-invoices.md)
+- [Vendor Payments Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/reports.md)

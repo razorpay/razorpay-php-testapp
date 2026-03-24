@@ -90,11 +90,11 @@ Set up easy login into your website with single sign-on for your customers acros
 1. Log in to the Dashboard navigate to **Magic Checkout** → **Setup & Settings**. 
 2. Navigate to **Login with Razorpay Setup**.
 3. Turn on **Enable Login with Razorpay**.
-     ![Enable Login with Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-sso-enable.jpg.md)
+     ![Enable Login with Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-sso-enable.jpg.md)
 4. You will be able to view the following options for the SSO widget: 
     - [Settings](#settings)
     - [Customise](#customise)
-![Settings and customisation options on SSO](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-sso-settings.jpg.md)
+![Settings and customisation options on SSO](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-sso-settings.jpg.md)
 
 > **WARN**
 >
@@ -133,7 +133,7 @@ You can configure the following:
          - **When a customer adds their very first item to the cart**: Prompt login after the customer adds their first item to the cart. Select the checkbox and schedule when the login widget should show up (in seconds). 
          - **When a customer begins the checkout process**: Display the login screen when they proceed to checkout, just before payment. Select the checkbox.
              - **Make Login mandatory pre-Checkout**: Ensure that users cannot proceed to checkout without logging in. Select the checkbox to enforce mandatory login.
-             ![Display login screen](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-sso-display-login.jpg.md)
+             ![Display login screen](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-sso-display-login.jpg.md)
         
 
     
@@ -144,7 +144,7 @@ You can configure the following:
          - **Single selector for Email, WhatsApp, and SMS**: Use one unified checkbox to capture consent for all three channels together.
          - **Separate selectors for Email, WhatsApp, and SMS**: Use separate checkboxes to capture consent for each channel individually.
          - **Do not ask for consent**: No explicit consent prompt is displayed for marketing communications.
-             ![Ask consent from customer for marketing communication](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-sso-ask-consent.jpg.md)
+             ![Ask consent from customer for marketing communication](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-sso-ask-consent.jpg.md)
         
 
     
@@ -153,7 +153,7 @@ You can configure the following:
          You can choose to collect missing emails during the login.
          - **Email-Less Customers**: Allow users to log in without providing an email address.
          - **Collect Missing Emails (recommended)**: Prompt users to enter their email during login if it is not already available.
-             ![Collect missing emails](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-sso-collect-emails.jpg.md)
+             ![Collect missing emails](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-sso-collect-emails.jpg.md)
         
 
 After completing the configuration, click **Save Changes** to apply the updates.
@@ -174,23 +174,23 @@ Customise the widget to suit your brand. The default configuration flows from th
      
          
              Enter the widget heading as per your preference.
-             ![Edit widget heading](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-sso-widget-heading.gif.md)
+             ![Edit widget heading](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-sso-widget-heading.gif.md)
          
          
              Hover over the emoji you want to change and click the edit icon. Press `Command + Control + Space` to open the emoji picker and select your preferred emoji.
-             ![change emojis](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-sso-emoji.gif.md)
+             ![change emojis](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-sso-emoji.gif.md)
          
          
              Click **Change Background Colour** and choose a colour of your choice.
-             ![Customise background colour](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-sso-background-colour.gif.md)
+             ![Customise background colour](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-sso-background-colour.gif.md)
          
          
              Click **Change Button Colour** and choose a colour of your choice.
-             ![Customise button colour](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-sso-button-colour.gif.md)
+             ![Customise button colour](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-sso-button-colour.gif.md)
          
          
              Click **Change Font** and choose a font of your choice from the drop-down list.
-             ![Change Font](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-sso-font.gif.md)
+             ![Change Font](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-sso-font.gif.md)
          
      
 2. Click **Save**.
@@ -202,7 +202,7 @@ Customise the widget to suit your brand. The default configuration flows from th
 > 
 > - You can switch between mobile and desktop views to preview changes.
 > - You can also preview how the widget will appear on **Live Mode**.
-> ![Mobile/Desktop view and Live Mode](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-sso-view-mode.jpg.md)
+> ![Mobile/Desktop view and Live Mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-sso-view-mode.jpg.md)
 > 
 
 ## Login Rewards
@@ -214,7 +214,7 @@ You can offer discounts or coupons to encourage customers to log in to your webs
 > 
 > **Handy Tips**
 > 
-> This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account. Ensure your coupon is created on the [Coupon Engine](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#coupons.md) and include the following details in your request: 
+> This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account. Ensure your coupon is created on the [Coupon Engine](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#coupons) and include the following details in your request: 
 > - Coupon code
 > - A brief description
 > - Any additional message you want to display 
@@ -222,5 +222,5 @@ You can offer discounts or coupons to encourage customers to log in to your webs
 
 ### Related Information
 
-- [Automatic Customer Tagging for Retargeting](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/login-with-razorpay/automation-tags.md)
-- [Customer Analytics](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/login-with-razorpay/customer-analytics.md)
+- [Automatic Customer Tagging for Retargeting](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/login-with-razorpay/automation-tags.md)
+- [Customer Analytics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/login-with-razorpay/customer-analytics.md)

@@ -27,16 +27,16 @@ You need to add the bank account details on the Razorpay Dashboard. You can add 
 To add bank account details:
 1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/).
 2. Click **+ Add balance**.
-    ![RazorpayX Dashboard. '+ Add balance' is available at the top-middle edge of the screen.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-rzpx-activated-account.jpg.md)
+    ![RazorpayX Dashboard. '+ Add balance' is available at the top-middle edge of the screen.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-rzpx-activated-account.jpg.md)
 3. Click **+Add Account**.
-   ![A pop-up screen from RazorpayX Dashboard after intiating '+ Add balance'. Click '+ Add Account' and then add funds as your account balance.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-add-account.jpg.md)
+   ![A pop-up screen from RazorpayX Dashboard after intiating '+ Add balance'. Click '+ Add Account' and then add funds as your account balance.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-add-account.jpg.md)
 4. Enter the bank account details:
     1. **Account number**: Account from which you want to add funds. Enter the number again in the field given below.
     2. **IFSC**: The IFSC for the bank account branch.
     3. **Account holder**: Name of the bank account holder.
     4. **Type of account**: Add the account type. For example, `director account` or `own account`.
     5. **Upload Documents**: Upload supporting documents for the account. You can upload either a copy of a cancelled cheque or the account statement.
-      ![Account details screen asking for Bank Account details like Account Number, IFSC, Account holder, Type of Account and Upload documents.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-account-details.jpg.md)
+      ![Account details screen asking for Bank Account details like Account Number, IFSC, Account holder, Type of Account and Upload documents.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-account-details.jpg.md)
 5. Click **Submit**.
 
 ### Step 2: Razorpay Validates Account Details
@@ -52,4 +52,4 @@ Here you will find all the bank accounts that you have validated, and or require
 
 After the account details are validated, you can start adding funds to your RazorpayX Lite.
 
-Know more about [adding funds to RazorpayX Lite](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/razorpayx-lite#add-funds.md).
+Know more about [adding funds to RazorpayX Lite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/razorpayx-lite.md#add-funds).

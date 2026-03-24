@@ -7,7 +7,7 @@ description: Implement Customer Fee Bearer (CFB) model for recurring card paymen
 
 The Customer Fee Bearer (CFB) model for recurring card payments allows businesses to pass payment gateway fees to the end customer, improving cost transparency and regulatory compliance. With this enhancement, you can implement transparent fee structures where customers bear the payment processing costs.
 
-If you have already integrated with [Recurring Payments Cards APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/cards/authorization-transaction.md), you must implement an additional API integration step that calculates fees before creating recurring payments.
+If you have already integrated with [Recurring Payments Cards APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/cards/authorization-transaction.md), you must implement an additional API integration step that calculates fees before creating recurring payments.
 
 > **INFO**
 >
@@ -18,7 +18,7 @@ If you have already integrated with [Recurring Payments Cards APIs](@/Applicatio
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -165,9 +165,9 @@ In your payment creation request to Razorpay, use the values from the fee calcul
 - The final payment entity reflects the business and customer share as required by policy.
 - Proper fee breakup is maintained for compliance.
 
-Refer to the [Create a Subsequent Card Payment API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/cards/create-subsequent-payments/#32-create-a-recurring-payment.md) to proceed.
+Refer to the [Create a Subsequent Card Payment API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/cards/create-subsequent-payments.md#32-create-a-recurring-payment) to proceed.
 
 ## Related Information
 
-- [Recurring Payments Documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments.md)
-- [Recurring Payments APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments.md)
+- [Recurring Payments Documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments.md)
+- [Recurring Payments APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments.md)

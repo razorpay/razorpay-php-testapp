@@ -30,7 +30,7 @@ To update your per domestic transaction limit:
     2. **Why do you want to increase limit?**: Enter the reason you want to increase the per domestic transaction limit. You should enter a minimum of 100 words.
     3. **Upload invoice**: Upload a sample invoice. The accepted file formats are PNG, JPG and PDF.
     4. Click **Submit Details**.
-        ![Provide invoice to update the limit per domestic transaction](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-myaccount-profile-transaction-limit-submit.jpg.md)
+        ![Provide invoice to update the limit per domestic transaction](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-myaccount-profile-transaction-limit-submit.jpg.md)
 
 After the details are provided, our team will review the request. We will update the details on the Dashboard.
 

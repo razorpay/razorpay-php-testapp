@@ -25,10 +25,10 @@ States | Description
 
 The following state diagram depicts the flow of money through the payment states:
 
-![Auto-capture All Payments process flows](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-capture-payment-states.jpg.md)
+![Auto-capture All Payments process flows](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-capture-payment-states.jpg.md)
 
 1. By default, once your customer completes a payment, it is automatically moved to the `captured` state. However, in case of delayed authorisation, the payment can remain in the `authorized` state.
-2. External factors such as network issues or problems with the payment provider can cause delays in Optimizer receiving payment status. In such cases, Optimizer polls the APIs intermittently for 3 days to check the status. If the payment status is successfully received during this time, the payment is moved to the `authorized` state. Know more about [ late authorisation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/late-authorisation.md).
+2. External factors such as network issues or problems with the payment provider can cause delays in Optimizer receiving payment status. In such cases, Optimizer polls the APIs intermittently for 3 days to check the status. If the payment status is successfully received during this time, the payment is moved to the `authorized` state. Know more about [ late authorisation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/late-authorisation.md).
 3. The system ensures that all payments in the `authorized` state are moved to the `captured` state within 3 days of their creation. This is mandatory because payments that are not captured within this time period will be refunded automatically to customers.
 
 You can configure **Payment Capture settings** on the Dashboard. You can choose to:
@@ -63,11 +63,11 @@ Capture all `authorized` payments automatically. This eliminates the time and ef
 > 
 > 
 
-![ Auto-capture all payments process flow.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-capture-auto-capture-all-payments.jpg.md)
+![ Auto-capture all payments process flow.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-capture-auto-capture-all-payments.jpg.md)
 
 Watch this video to see how to set up the **Automatic Capture** option for all payments.
 
-![ Auto-capture all payments process flow.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/auto-capture-all-payments-optimizer.gif.md)
+![ Auto-capture all payments process flow.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/auto-capture-all-payments-optimizer.gif.md)
 
   
 ### To auto-capture all `authorized` payments:
@@ -106,11 +106,11 @@ Payments auto-refunded | If payments are `authorized` after 3 days.
 > If the payments are not captured within the selected time frame, they are automatically refunded.
 > 
 
-![Auto Capture Timeout process flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-capture-auto-capture-timeout.jpg.md)
+![Auto Capture Timeout process flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-capture-auto-capture-timeout.jpg.md)
 
 Watch this video to see how to set up the **Automatic Capture with Timeout** option.
 
-![ Auto-capture all payments process flow.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/auto-capture-custom-payments.gif.md)
+![ Auto-capture all payments process flow.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/auto-capture-custom-payments.gif.md)
 
   
 ### To auto-capture all `authorized` payments with timeout:
@@ -131,7 +131,7 @@ Watch this video to see how to set up the **Automatic Capture with Timeout** opt
 > 
 > **Watch Out!**
 > 
-> - [Manual Capture](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings/api.md) settings only apply to payments processed via Razorpay.
+> - [Manual Capture](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings/api.md) settings only apply to payments processed via Razorpay.
 > - Optimizer will auto capture the payment if the payment is authorised within a certain time period.
 > - Any payment authorised after that time period (auto capture time period) will be auto refunded.
 > - Any manual capture time period set on the Dashboard will not apply to payments processed through payment providers other than Razorpay. Such payments will be automatically captured by default.
@@ -145,8 +145,8 @@ Ensuring that you reflect the correct information is crucial because downstream 
 
 ### Related Information
 
-- [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md)
-- [Payment States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/#payment-life-cycle.md)
-- [Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds.md)
-- [Manually capture payments using Capture API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#capture-a-payment.md)
-- [Manually capture payments from the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/dashboard/#manually-capture-payments.md)
+- [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md)
+- [Payment States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments.md#payment-life-cycle)
+- [Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md)
+- [Manually capture payments using Capture API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment)
+- [Manually capture payments from the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/dashboard.md#manually-capture-payments)

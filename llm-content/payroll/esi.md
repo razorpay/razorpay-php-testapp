@@ -36,6 +36,6 @@ If you use a custom salary structure that includes an allowance called **Conveya
 
 ### Related Information 
 
-- [TDS](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tds.md)
-- [Statutory Compliance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md)
-- [HR Operations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator.md)
+- [TDS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tds.md)
+- [Statutory Compliance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md)
+- [HR Operations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md)

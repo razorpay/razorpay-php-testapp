@@ -33,14 +33,14 @@ If you have not received the products or services or are dissatisfied with the p
   
 ### If you have made the payment on the business website or app, you can find the support details on their contact us/support page.
 
-      ![Refund Id tracking - Sample Contact Us Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/customer-refunds-contact-us-website.jpg.md)
+      ![Refund Id tracking - Sample Contact Us Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/customer-refunds-contact-us-website.jpg.md)
     
 
   
 ### If you have made payments using a Payment Link or a Payment Page, you can view the support details on the same page.
 
      
-      ![Refund Id tracking - Sample Support Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/customer-refunds-payment-page-contact-us.jpg.md)
+      ![Refund Id tracking - Sample Support Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/customer-refunds-payment-page-contact-us.jpg.md)
     
 
 ### Refund Communication
@@ -54,7 +54,7 @@ As a customer, you will be notified of the specific payment to be refunded in 7-
 
      After the business processes the refund, Razorpay sends you an email with the refund id and a unique reference number provided by the bank (ARN, RRN or UTR). This mail also contains the [Razorpay link for refund tracker](#track-your-refund-using-refund-tracker).
 
-     ![Refund Mailer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/Normal_refund_mailer_customer.jpg.md)
+     ![Refund Mailer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/Normal_refund_mailer_customer.jpg.md)
     
 
   
@@ -62,7 +62,7 @@ As a customer, you will be notified of the specific payment to be refunded in 7-
 
      If you want a refund for a credit card payment, the banking partner will send an ARN to Razorpay. Razorpay sends you an email with this ARN number. You can use this ARN number to trace your transaction with your card issuer.
 
-     ![ARN Update Mailer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/normal_arn_mailer_customer.jpg.md)
+     ![ARN Update Mailer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/normal_arn_mailer_customer.jpg.md)
     
 
 > **INFO**
@@ -85,16 +85,16 @@ You can use our tracking tool to check the status of the refund. Watch this vide
 ### To track your refund:
 
      1. Visit [Razorpay Refund Tracker](https://razorpay.com/support/#refund) and click **Customer**.
-         ![Refund Tracker](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/refund-tracker.jpg.md)
+         ![Refund Tracker](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/refund-tracker.jpg.md)
      2. In the **Track Payments** form on the right, enter one of the following IDs:
         - Payment ID
         - Refund ID
         - Order ID
         - Booking ID
         You can find the relevant ID in the payment confirmation email or booking history.
-         ![Refund Id tracking - Track Payments form](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/customer-refund.jpg.md)
+         ![Refund Id tracking - Track Payments form](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/customer-refund.jpg.md)
       3. Perform the CAPTCHA step and click **Check Status**. The refund details are displayed as shown below:
-         ![Refund Id tracking - Sample Refund Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/tracking-status.jpg.md)
+         ![Refund Id tracking - Sample Refund Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/tracking-status.jpg.md)
     
 
 ## 3. Raise a Dispute (Chargeback)

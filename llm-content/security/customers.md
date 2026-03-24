@@ -13,7 +13,7 @@ Razorpay is [PCI-DSS Level 1](https://seal.panaceainfosec.com/index.php?certid=C
 
 Razorpay does not save sensitive card details. We only save the tokens. Your payment information will never reach the business’s servers unless they are PCI DSS certified.
 
-You can manage and delete your card details stored as tokens. Know how to [Manage Saved Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/features/saved-cards.md).
+You can manage and delete your card details stored as tokens. Know how to [Manage Saved Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/features/saved-cards.md).
 
 ## Fraud and Risk
 
@@ -37,4 +37,4 @@ Follow the best practices listed below to avoid fraud and other risks. 
 
 ### Related Information
 
-[Razorpay Security](@/Applications/MAMP/htdocs/new-docs/llm-content/security.md)
+[Razorpay Security](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security.md)

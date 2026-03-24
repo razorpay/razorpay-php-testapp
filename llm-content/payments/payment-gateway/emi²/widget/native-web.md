@@ -67,7 +67,7 @@ Follow the integration steps given below to integrate the widget:
 	
 
 `key` _mandatory_
-: `string` API Key ID generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md). For example, `rzp_test_XXXX00000XXXX`.
+: `string` API Key ID generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys). For example, `rzp_test_XXXX00000XXXX`.
 
 `amount` _mandatory_
 : `integer` The amount to be paid by the customer in paise. For example, if the amount is ₹4000, enter `400000`.
@@ -81,11 +81,11 @@ Follow the integration steps given below to integrate the widget:
 > 
 
 You can now preview the widget on your product description page in test mode. Here is a glimpse of the default widget.
-![Preview the widget in test mode](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-native-test-v2.jpg.md)
+![Preview the widget in test mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-native-test-v2.jpg.md)
 
 #### Switch to Live Mode
 
-After you preview the widget, switch to live mode and replace the test API keys in the sample code with the live ones to take the integration live. Know more about [live API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md).
+After you preview the widget, switch to live mode and replace the test API keys in the sample code with the live ones to take the integration live. Know more about [live API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys).
 
 ### Step 2: Enable the Widget
 
@@ -95,7 +95,7 @@ Once you preview the widget on your product description page, you have to enable
 
 Here is a glimpse of the default widget with offers and payment method options enabled.
 
-![Glimpse of the default widget](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/default-widget1-v2.jpg.md)
+![Glimpse of the default widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/default-widget1-v2.jpg.md)
 
 > **INFO**
 >
@@ -103,9 +103,9 @@ Here is a glimpse of the default widget with offers and payment method options e
 > **Minimum Order Limit**
 > 
 > All the payment method options that are enabled and that satisfy the minimum order limit appear on the widget. Know more about the minimum order limit for:
-> - [EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#1-what-are-the-standard-credit-card-interest.md) 
-> - [Cardless EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs#cardless-emi.md)  
-> - [Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs#2-what-are-the-standard-interest-rates-charged.md)
+> - [EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#1-what-are-the-standard-credit-card-interest) 
+> - [Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#cardless-emi)  
+> - [Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#2-what-are-the-standard-interest-rates-charged)
 > 
 
 > **INFO**
@@ -118,7 +118,7 @@ Here is a glimpse of the default widget with offers and payment method options e
 
 ## Next Steps 
 
-After you successfully integrate the widget on your website, you can choose to [customise the widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise.md) based on your requirement.
+After you successfully integrate the widget on your website, you can choose to [customise the widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise.md) based on your requirement.
 
 > **INFO**
 >
@@ -131,7 +131,7 @@ After you successfully integrate the widget on your website, you can choose to [
 
 ### Related Information
 
-- [Affordability Widget FAQs for Native website](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/faqs/#native-website.md)
-- [ Integrate Affordability Widget on WooCommerce website](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce.md)
-- [Integrate Affordability Widget on your Shopify store](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/shopify.md) 
-- [Integrate Affordability Widget on your Android app](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/android.md)
+- [Affordability Widget FAQs for Native website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/faqs.md#native-website)
+- [ Integrate Affordability Widget on WooCommerce website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce.md)
+- [Integrate Affordability Widget on your Shopify store](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/shopify.md) 
+- [Integrate Affordability Widget on your Android app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/android.md)

@@ -37,6 +37,6 @@ Flag (Short) | Description
 
 ## Related Information
 
-- [Use Cases](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/use-cases.md)
-- [Tools Reference](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/tools-reference.md)
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/faqs.md)
+- [Use Cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/use-cases.md)
+- [Tools Reference](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/tools-reference.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/faqs.md)

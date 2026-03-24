@@ -28,7 +28,7 @@ You can use Razorpay Standard SDK to integrate the Razorpay Payment Gateway with
 > 
 > - According to the PCI regulations, payment processing is not allowed on TLS v1. Hence, if the device does not have TLS v1.1 or v1.2, the SDK will throw an error in the `onPaymentError` method. Check the [TLS versions](https://developer.android.com/reference/javax/net/ssl/SSLSocket#default-configuration-for-different-android-versions).
 > 
-> - If you are using SDK version below 1.6.15, you need to make [changes to your Android `Manifest.xml` file](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/troubleshooting-faqs.md).
+> - If you are using SDK version below 1.6.15, you need to make [changes to your Android `Manifest.xml` file](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/troubleshooting-faqs.md).
 > 
 
 > **SUCCESS**
@@ -36,7 +36,7 @@ You can use Razorpay Standard SDK to integrate the Razorpay Payment Gateway with
 > 
 > **Update SDK**
 > 
-> Check your [current SDK version](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/troubleshooting-faqs/#5-how-can-i-check-the-razorpay-android.md). If it is outdated, please [update the SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/troubleshooting-faqs/#6-how-can-i-update-the-razorpay-android.md) manually to ensure uninterrupted settlements of your funds. 
+> Check your [current SDK version](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/troubleshooting-faqs.md#5-how-can-i-check-the-razorpay-android). If it is outdated, please [update the SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/troubleshooting-faqs.md#6-how-can-i-update-the-razorpay-android) manually to ensure uninterrupted settlements of your funds. 
 > 
 > From version 1.6.40 onwards, the latest version is automatically updated, eliminating the need for manual updates.
 > 
@@ -48,7 +48,7 @@ You can use Razorpay Standard SDK to integrate the Razorpay Payment Gateway with
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup). 
 
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
 Follow these integration steps:
 
@@ -62,4 +62,4 @@ Follow these integration steps:
 
 ### Related Information
 
-[Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md)
+[Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md)

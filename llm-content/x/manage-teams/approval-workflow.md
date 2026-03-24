@@ -13,7 +13,7 @@ You can create custom workflows for creation and approval, that allows you to ha
 - There are no pre-set workflows that you need to follow.
 - You can set up the Approval Workflow rules so that a payout created by a role can be approved by up to two different roles before it is sent for processing.
 
-Approval Workflow can be applied to all payouts created on RazorpayX, whether they are created individually from the [RazorpayX Dashboard](https://x.razorpay.com/), using [API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts.md) or using the [Bulk Payout](@/Applications/MAMP/htdocs/new-docs/llm-content/x/bulk-payouts/#payouts.md) feature.
+Approval Workflow can be applied to all payouts created on RazorpayX, whether they are created individually from the [RazorpayX Dashboard](https://x.razorpay.com/), using [API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts.md) or using the [Bulk Payout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/bulk-payouts.md#payouts) feature.
 
 > **WARN**
 >
@@ -31,23 +31,23 @@ To create an Approval Workflow:
 1. Log in to your [RazorpayX Dashboard](https://x.razorpay.com/).
 1. Navigate to **My Account & Settings** → **Workflow** → **Payouts**.
 1. Click **Get Started**. You will be prompted with a sample template to create the workflow. Click **Awesome, got it** to continue.
-    ![Getting Started with Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-workflow-approval-get-started.gif.md)
+    ![Getting Started with Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-workflow-approval-get-started.gif.md)
 1. You can start editing the template by entering the range and number of approvers required.
     - For example, for a range from ₹ 0 to ₹ 1,000 - No approval required.
     - ₹ 1,000 & 5,000 - Approval at Step 1.
     - ₹ 5,000 & Above - Approval at Step 1 and Step 2, and so on.
 1. To add a range, click **+RANGE** between two ranges and to remove a range, click **-** along the listed range.
-    ![Adding range](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-workflow-approval-enter-range.gif.md)
+    ![Adding range](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-workflow-approval-enter-range.gif.md)
 1. You can use the **+Approvers** to add an approval step.
 1. Once you have clicked on **+Approvers**, you can add approvers in the step by selecting a desired role from the drop-down.
-    ![Adding another layer of approvers](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-workflow-approval-add-approver.gif.md)
+    ![Adding another layer of approvers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-workflow-approval-add-approver.gif.md)
 1. You can add multiple roles as approvers in a step by the `OR` or `AND` conditions.
     - For example, for a range - ₹ 1,000 & 5,000
         - If Step 1 approvers are Finance OR Admin, the payout in that range will be processed or move to the next step of approval on either Finance or Admin approval.
         - If Step 1 approvers are Finance AND Admin, the payout in that range will be processed or move to the next step of approval on both Finance and Admin approval.
-        ![Adding condition for approval](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-workflow-approval-add-condition.gif.md)
+        ![Adding condition for approval](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-workflow-approval-add-condition.gif.md)
 1. Once you are done with all the changes, click **Save Workflow**.
-1. Confirm saving workflow and [2FA](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/2fa.md) to create workflow successfully.
+1. Confirm saving workflow and [2FA](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/2fa.md) to create workflow successfully.
 
 > **INFO**
 >
@@ -64,7 +64,7 @@ To edit an Approval Workflow:
 1. Log in to your [RazorpayX Dashboard](https://x.razorpay.com/).
 1. Navigate to **My Account & Settings** → **Workflow** → **Payouts**.
 1. Click on the Edit Workflow icon as shown below.
-    ![Edit workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-workflow-approval-edit.jpg.md)
+    ![Edit workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-workflow-approval-edit.jpg.md)
 1. If you don’t have any pending Payouts or Payout Links:
     - You will proceed directly to the workflow builder. Here you can add, edit or remove approval ranges, approvers and approval steps.
     - Once you are done with all the changes, click **Save Changes**.
@@ -73,12 +73,12 @@ To edit an Approval Workflow:
     - You are notified of the pending Payouts or Payout Links.
     - If you wish to review the Pending Payouts, you can do so by clicking **REVIEW**.
     - You can approve or reject these Pending Payouts before saving changes to workflow.
-        ![Review pending payouts before saving new workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-workflow-approval-pending-payouts.jpg.md)
+        ![Review pending payouts before saving new workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-workflow-approval-pending-payouts.jpg.md)
     - Click on **Got it, Proceed** to proceed to the workflow builder.
     - On the workflow builder, you can add, edit or remove approval ranges, approvers and approval steps.
     - Once you are done with the changes, click **Save Changes**.
     - An OTP is sent to your registered mobile number to confirm rejection of Pending Payouts or Payout Links and saving changes to the workflow.
-        ![Reject pending payouts and confirm to save new workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-workflow-approval-reject-and-save.jpg.md)
+        ![Reject pending payouts and confirm to save new workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-workflow-approval-reject-and-save.jpg.md)
 
 ### What happens once Approval Workflow is set up?
 
@@ -119,7 +119,7 @@ To disable Approval Workflows for payouts created using APIs from the RazorpayX 
 
 1. Log in to your [RazorpayX Dashboard](https://x.razorpay.com/).
 2. Navigate to **My Account & Settings** → **Workflow** → **Payouts** and use the toggle button to disable the **Workflow on payouts created via API**
-![Toggle button to disable approval workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-workflow-approval-disable-workflow.gif.md)
+![Toggle button to disable approval workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-workflow-approval-disable-workflow.gif.md)
 
 ## Removing Approval Workflow
 
@@ -130,14 +130,14 @@ To remove or disable the approval workflow:
 1. Log in to your [RazorpayX Dashboard](https://x.razorpay.com/).
 2. Navigate to **My Account & Settings** → **Workflow** → **Payouts**.
 3. Click on the delete icon and click **Yes, Proceed**.
-     ![Removing Payouts Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-removing-approval-workflow.jpg.md)
+     ![Removing Payouts Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-removing-approval-workflow.jpg.md)
 4. Enter the OTP sent to your registered email id and mobile number and click **Confirm**.
 
 Your Approval Workflow is removed.
 
 ## Webhook Events
 
-In addition to the [webhook events available for payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md), the Approval Workflow has the following events.
+In addition to the [webhook events available for payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md), the Approval Workflow has the following events.
 
 Event Name | Description
 ---
@@ -147,6 +147,6 @@ Event Name | Description
 
 ### Related Information
 
-- [Manage Teams](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams.md)
-- [Chartered Accountant Portal](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/ca-portal.md)
-- [Invoices - Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/approvals-on-invoices.md)
+- [Manage Teams](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams.md)
+- [Chartered Accountant Portal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/ca-portal.md)
+- [Invoices - Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/approvals-on-invoices.md)

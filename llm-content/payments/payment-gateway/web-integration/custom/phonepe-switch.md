@@ -18,7 +18,7 @@ PhonePe enables various businesses to integrate their web apps or mobile sites w
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -37,9 +37,9 @@ The user's journey through this entire flow is outlined below:
 Before integrating with the Checkout, run through this checklist:
 
 - Check if your webapp is integrated with PhonePe Switch.
--  Understand the [payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md).
+-  Understand the [payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md).
 -  Sign up for a Razorpay Account.
-- Generate the API keys from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/#api-keys.md). Use the test API Keys to test out the integration.
+- Generate the API keys from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings.md#api-keys). Use the test API Keys to test out the integration.
 
 Watch the video to see how to generate API key in Test Mode.
 
@@ -57,13 +57,13 @@ Watch the video to see how to generate API key in Test Mode.
 
 Steps to integrate Custom Checkout in your site:
 
-1. [Create an Order from your Server](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch/#step-1-create-an-order-from-your-server.md).
-1. [Invoke Checkout and Pass Order Id and Other Options to it](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch/#step-2-invoke-checkout-and-pass-order-id.md)
-  1. [Include the JavaScript code in your Webpage](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch/#step-21-include-the-javascript-code-in-your.md).
-  1. [Instantiate Razorpay Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch/#step-22-instantiate-razorpay-custom-checkout.md).
-  1. [Submit Payment Details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch/#step-23-submit-payment-details.md).
-1. [Store Fields in Your Server](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch/#step-3-store-fields-in-your-server.md).
-1. [Verify the Signature](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch/#step-4-verify-the-signature.md).
+1. [Create an Order from your Server](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch.md#step-1-create-an-order-from-your-server).
+1. [Invoke Checkout and Pass Order Id and Other Options to it](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch.md#step-2-invoke-checkout-and-pass-order-id)
+  1. [Include the JavaScript code in your Webpage](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch.md#step-21-include-the-javascript-code-in-your).
+  1. [Instantiate Razorpay Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch.md#step-22-instantiate-razorpay-custom-checkout).
+  1. [Submit Payment Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch.md#step-23-submit-payment-details).
+1. [Store Fields in Your Server](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch.md#step-3-store-fields-in-your-server).
+1. [Verify the Signature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch.md#step-4-verify-the-signature).
 
 ### Step 1: Create an Order in your Server
 

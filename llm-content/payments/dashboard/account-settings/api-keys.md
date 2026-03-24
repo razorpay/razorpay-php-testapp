@@ -58,7 +58,7 @@ Follow these steps to generate API keys:
 > 
 > **Watch Out!**
 > 
-> - After generating the keys from the Dashboard, download and save them securely. You can use only one set of API keys. If you do not remember your API keys, you must [regenerate them](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#regenerate-api-keys.md) from the Dashboard and update them wherever the previous keys were used for payment gateway integrations. 
+> - After generating the keys from the Dashboard, download and save them securely. You can use only one set of API keys. If you do not remember your API keys, you must [regenerate them](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#regenerate-api-keys) from the Dashboard and update them wherever the previous keys were used for payment gateway integrations. 
 > - API Keys are universal; that is, they are applicable to all websites and apps that you have whitelisted for your Merchant ID.
 > - **Do not share your API Key secret** with anyone or on any public platforms. **This can pose security threats to your Razorpay account**.
 > - Once you generate the API Keys, only the **Key Id** is visible on the Dashboard, **not the Key secret**, as it can pose security threats to your Razorpay account.
@@ -85,7 +85,7 @@ To regenerate API key:
 1. Select the mode from the menu ribbon for which you want to generate the API key.
 1. Navigate to **Account & Settings** → **API Keys** (under **Website and app settings**) → **Generate new key** to generate key for the selected mode.
 
-![Live mode API keys generated on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/settings-4.jpg.md)
+![Live mode API keys generated on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/settings-4.jpg.md)
 
 This allows you to deactivate the old key immediately or within 24 hours.
 
@@ -132,7 +132,7 @@ This allows you to deactivate the old key immediately or within 24 hours.
     
 ### 7. Who has access to the API Keys?
 
-         Only users with the **Owner** or **Admin** role have access to the API keys. Know more about [standard user roles & permissions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team/#standard-user-roles.md).
+         Only users with the **Owner** or **Admin** role have access to the API keys. Know more about [standard user roles & permissions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md#standard-user-roles).
         
 
     

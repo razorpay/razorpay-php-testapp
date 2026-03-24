@@ -19,7 +19,7 @@ Integrate the Razorpay Payment Gateway with your iOS app and start accepting pay
 > 
 > **Watch Out!**
 > 
-> You cannot use an external payment gateway to accept payments by selling digital products or content. You must use Apple’s In-App Purchase to avoid app rejection. Know more about the [list of restricted payment modes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard/troubleshooting-faqs/#list-of-restricted-payment-modes.md).
+> You cannot use an external payment gateway to accept payments by selling digital products or content. You must use Apple’s In-App Purchase to avoid app rejection. Know more about the [list of restricted payment modes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard/troubleshooting-faqs.md#list-of-restricted-payment-modes).
 > 
 
 > **SUCCESS**
@@ -27,7 +27,7 @@ Integrate the Razorpay Payment Gateway with your iOS app and start accepting pay
 > 
 > **Update SDK**
 > 
-> Check your [current SDK version](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard/troubleshooting-faqs/#9-how-can-i-check-the-razorpay-ios.md). If it is outdated, please [update the SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard/troubleshooting-faqs/#10-how-can-i-update-the-razorpay-ios.md) to ensure uninterrupted settlements of your funds.
+> Check your [current SDK version](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard/troubleshooting-faqs.md#9-how-can-i-check-the-razorpay-ios). If it is outdated, please [update the SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard/troubleshooting-faqs.md#10-how-can-i-update-the-razorpay-ios) to ensure uninterrupted settlements of your funds.
 > 
 
 ## Integration Steps
@@ -37,7 +37,7 @@ Integrate the Razorpay Payment Gateway with your iOS app and start accepting pay
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup). 
 
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
 Follow these integration steps:
 
@@ -51,4 +51,4 @@ Follow these integration steps:
 
 ### Related Information
 
-[Troubleshooting and FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard/troubleshooting-faqs.md)
+[Troubleshooting and FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard/troubleshooting-faqs.md)

@@ -162,7 +162,7 @@ The configuration options are given below:
 
 ## Related Information
 
-- [Magic Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout.md)
-- [Magic Checkout Use Cases](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/use-cases.md)
-- [Features](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/features.md)
-- [Logistics Partners](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners.md)
+- [Magic Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout.md)
+- [Magic Checkout Use Cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/use-cases.md)
+- [Features](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/features.md)
+- [Logistics Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners.md)

@@ -19,8 +19,8 @@ Using the Native OTP feature, you can:
 
 Before implementing the Native OTP feature, check the following prerequisites:
 
-1. Log in to the Dashboard and generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys.md).
-2. Integrate with the [Razorpay Android Custom SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom.md).
+1. Log in to the Dashboard and generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md).
+2. Integrate with the [Razorpay Android Custom SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom.md).
 
 ## Integration Steps
 
@@ -28,7 +28,7 @@ Before implementing the Native OTP feature, check the following prerequisites:
 
 **1.2** [Implement `CardsFlowCallback` interface in the `getCardsFlow` function](#12-implement-cardsflowcallback-interface-in-getcardsflow-function). 
 
-**1.3** [Call `razorpay.getCardOtpData(CardsFlowCallback)` Function.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/native-otp-integration/#13-call-razorpaygetcardotpdata-cardsflowcallback-function.md) 
+**1.3** [Call `razorpay.getCardOtpData(CardsFlowCallback)` Function.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/native-otp-integration.md#13-call-razorpaygetcardotpdata-cardsflowcallback-function) 
 
 **1.4** [Handle Success and Error Events](#14-handle-success-and-error-events). 
 
@@ -194,7 +194,7 @@ try {
 > 
 > **Handy Tips**
 > 
-> To reuse the Razorpay Checkout web integration inside a web view on Android or iOS, pass a [callback_url](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/callback-url.md) along with other checkout options to process the desired payment.
+> To reuse the Razorpay Checkout web integration inside a web view on Android or iOS, pass a [callback_url](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/callback-url.md) along with other checkout options to process the desired payment.
 > 
 
 #### Use `PaymentResultWithDataListener`

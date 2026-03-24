@@ -16,11 +16,11 @@ Watch this video to see how to create a duplicate of an invoice.
 To duplicate an invoice:
 1. Log in to the Dashboard.
 1. Click on **Invoices**.
-1. Search for the invoice for which you want to create a duplicate copy using the [search criteria](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/search.md).
+1. Search for the invoice for which you want to create a duplicate copy using the [search criteria](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/search.md).
 1. Click on the **Invoice ID**.
 1. On the right-hand side panel, click the **Duplicate Invoice** button.
 
-![Duplicate Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/duplicate_invoice.jpg.md)
+![Duplicate Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/duplicate_invoice.jpg.md)
 
 This duplicates the invoice.
 

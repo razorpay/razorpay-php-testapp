@@ -16,8 +16,8 @@ To subscribe to webhook events:
 
 @include refunds/refund-available-events
 
-Know more about [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) and check the [sample payloads.](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/refunds.md)
+Know more about [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) and check the [sample payloads.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/refunds.md)
 
 ### Related Information
-- [About Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds.md)
-- [Refunds APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/apis.md)
+- [About Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md)
+- [Refunds APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/apis.md)

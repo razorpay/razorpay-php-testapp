@@ -11,7 +11,7 @@ Use this endpoint to manage reminders for Payment Links.
 
 - While reminders are enabled globally from Dashboard Settings, you can disable them for specific Payment Links. A valid use case for this might be when the customer has paid the money to you offline. In this case, you would not want reminders to be sent to them.
 
-- You can disable reminders during creation of Payment Link or by updating the link. To disable reminders for a Payment Link, pass `reminder_enable` as `false`, during [Payment Link creation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/#create-payment-link.md).
+- You can disable reminders during creation of Payment Link or by updating the link. To disable reminders for a Payment Link, pass `reminder_enable` as `false`, during [Payment Link creation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links.md#create-payment-link).
 
 ### Request
 
@@ -198,7 +198,7 @@ PaymentLink paymentlink = client.PaymentLink.Create(paymentLinkRequest);
 : `integer` Amount to be paid using the Payment Link. Must be in the smallest unit of the currency. For example, if you want to receive a payment of , you must enter the value `30000`.
 
 `currency` _optional_
-: `string` A three-letter ISO code for the currency in which you want to accept the payment. For example, INR. Refer to the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` A three-letter ISO code for the currency in which you want to accept the payment. For example, INR. Refer to the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 .
 
@@ -233,7 +233,7 @@ PaymentLink paymentlink = client.PaymentLink.Create(paymentLinkRequest);
     - `false`: You handle the notification.
 
 `reminder_enable` _optional_
-: `boolean` Used to send [reminders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/reminders.md) for the Payment Link. Possible values:
+: `boolean` Used to send [reminders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/reminders.md) for the Payment Link. Possible values:
     - `true`: To send reminders.
     - `false`: To disable reminders.
 

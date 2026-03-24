@@ -89,17 +89,17 @@ After the payment is made, the vendor receives an email with an advice which dis
 
 - Below is a sample image of tax advice sent over email.
 
-![Tax Advice](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-vendor-balances-4.jpg.md)
+![Tax Advice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-vendor-balances-4.jpg.md)
 
 - Below is a sample image of the `.pdf` attached to the email.
 
-![Invoice attachment](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-vendor-balances-5.jpg.md)
+![Invoice attachment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-vendor-balances-5.jpg.md)
 
 ### Related Information
 
-- [Partial Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/partial-payouts.md)
-- [Scheduled Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/scheduled-payouts.md)
-- [Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/invoices.md)
-- [Invoice Life Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/life-cycle.md)
-- [Advances](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/advances.md)
-- [Purchase Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/purchase-order.md)
+- [Partial Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/partial-payouts.md)
+- [Scheduled Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/scheduled-payouts.md)
+- [Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/invoices.md)
+- [Invoice Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/life-cycle.md)
+- [Advances](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/advances.md)
+- [Purchase Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/purchase-order.md)

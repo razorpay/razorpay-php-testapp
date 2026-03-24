@@ -11,7 +11,7 @@ Follow these steps to integrate the Razorpay Magic Checkout on your website.
 #### Prerequisites
 
 - [Create a Razorpay account](https://dashboard.razorpay.com/).
-- Generate [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Generate [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
 ## Integration Steps
 
@@ -48,18 +48,18 @@ Follow the steps given below:
      
      1. Log in to the Dashboard and navigate to **Magic Checkout**.  
      2. In the **Platform Setup**, select **Custom E-Commerce Platform** from the drop-down list and click **Next**.
-         ![Choose custom platform](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-custom-platform.jpg.md)
+         ![Choose custom platform](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-custom-platform.jpg.md)
      3. In the **Setup & Settings** section, click **Checkout Settings**. 
      4. In the **Coupon Settings** section, enter the following:
         1. **URL for get promotions**: The API URL should return a list of promotions applicable to the specified order_id and customer. Magic Checkout uses this endpoint to fetch these promotions from your server and display them to your customers in the checkout modal.
         2. **URL for apply promotions**: The API URL validates the promotion code applied by the customer and should return the discount amount. Magic Checkout uses this endpoint to apply promotions via your server.
      5. Click **Save settings**.
-        ![Add promotion URLs](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-web-promo-url.jpg.md)
+        ![Add promotion URLs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-web-promo-url.jpg.md)
      6. Navigate to **Shipping Setup**.
      7. Select **API** as the Shipping Service type from the drop-down list.
      8. Enter the **URL for shipping info**. The API URL should return shipping serviceability, COD serviceability, shipping fees and COD fees for a given list of customer addresses. Magic Checkout uses this endpoint to retrieve shipping information from your server. 
      9. Click **Save Settings**.
-        ![Add shipping URL](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-web-shipping-url.jpg.md)
+        ![Add shipping URL](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-web-shipping-url.jpg.md)
     
 
   
@@ -390,7 +390,7 @@ Follow the steps given below:
 > 
 >      **Handy Tips**
 > 
->      If your website is running on WooCommerce or Shopify, please integrate with the Razorpay [WooCommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce.md) or [Shopify](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify.md) plugin based on your requirement.
+>      If your website is running on WooCommerce or Shopify, please integrate with the Razorpay [WooCommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md) or [Shopify](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify.md) plugin based on your requirement.
 >      
 
      
@@ -417,7 +417,7 @@ Follow the steps given below:
                 - `value`: ₹49.
              3. Customer views the discount applied in the checkout and pays ₹450.
 
-             ![View pre-discount on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-web-pre-discount-checkout.jpg.md)
+             ![View pre-discount on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-web-pre-discount-checkout.jpg.md)
 
              ```javascript
              "prefill": {
@@ -486,7 +486,7 @@ Follow the steps given below:
 
              Below is an example of a promotional tag:
 
-             ![Checkout promotion tag](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-web-promotion-tag1.jpg.md)
+             ![Checkout promotion tag](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-web-promotion-tag1.jpg.md)
             
 
          
@@ -596,7 +596,7 @@ Follow the steps given below:
 
      @include integration-steps/verify-signature
 
-     Here are the links to our [SDKs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/#github-and-documentation-links-for-sdks.md) for the supported platforms.
+     Here are the links to our [SDKs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md#github-and-documentation-links-for-sdks) for the supported platforms.
     
 
   
@@ -605,7 +605,7 @@ Follow the steps given below:
      Verify the payment status using the APIs and webhooks.
      
        
-         You can fetch the payment details using the [Fetch Payments API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/fetch-with-id.md).
+         You can fetch the payment details using the [Fetch Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/fetch-with-id.md).
 
           The different payment states are given below:
 
@@ -626,7 +626,7 @@ Follow the steps given below:
           
        
        
-         You should [set up webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md) on the Razorpay Dashboard to receive notifications when certain events occur.
+         You should [set up webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md) on the Razorpay Dashboard to receive notifications when certain events occur.
 
          #### Orders Events
 
@@ -812,4 +812,4 @@ Before going live, make sure to check the following:
 - If you have multiple Razorpay accounts, ensure you use the Live key from the correct account you intend to go live with.
 
 ### Related Information
-[Troubleshoot and FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/troubleshooting-faqs/#web.md)
+[Troubleshoot and FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/troubleshooting-faqs.md#web)

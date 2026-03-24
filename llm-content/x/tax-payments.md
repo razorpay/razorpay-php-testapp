@@ -25,23 +25,23 @@ You can use [RazorpayX Tax Payments](https://x.razorpay.com/tax-payments) to aut
 
 With RazorpayX Tax Payment App, you can make tax payments of the following categories:
 - [**Tax Deducted at Source (TDS)**](#types-of-tds-payments): As per the Income Tax Act, any company or person making a payment is required to deduct tax at the source if the payment exceeds certain threshold limits.
-- [**Advance Tax**](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/advance.md): Advance tax is the amount of income tax that is paid much in advance rather than a lump-sum payment at the year-end.
-- [**Goods and Service Tax (GST)**](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/gst.md): Is an indirect tax that merchants must pay to the Government. Firms can arrive at the amount to be paid using a conventional formula, and RazorpayX can scan and calculate that for you. 
+- [**Advance Tax**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/advance.md): Advance tax is the amount of income tax that is paid much in advance rather than a lump-sum payment at the year-end.
+- [**Goods and Service Tax (GST)**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/gst.md): Is an indirect tax that merchants must pay to the Government. Firms can arrive at the amount to be paid using a conventional formula, and RazorpayX can scan and calculate that for you. 
 
 ### Automatic TDS Payments
 
-When you upload an invoice to [RazorpayX Vendor Payments app](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md), the TDS component is auto-calculated according to the TDS rate selected for the vendor. 
+When you upload an invoice to [RazorpayX Vendor Payments app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md), the TDS component is auto-calculated according to the TDS rate selected for the vendor. 
 
 This TDS amount is automatically deducted from your account balance and deposited with the government every month. You can download the challan and file the TDS. 
 
-Know more about [automatic TDS payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/automatic-tds.md).
+Know more about [automatic TDS payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/automatic-tds.md).
 
 ## Manage Teams
 
-You can add your team members to access the Tax Payments app to create and make payments as necessary, or allow them to only access the reports. With [Tax Payments - Standard User Roles](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams#tax-payments.md), you can create and set limitations for the RazorpayX Dashboard as per your business requirements.
+You can add your team members to access the Tax Payments app to create and make payments as necessary, or allow them to only access the reports. With [Tax Payments - Standard User Roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams.md#tax-payments), you can create and set limitations for the RazorpayX Dashboard as per your business requirements.
 
 ### Related Information
 
-- [Automatic TDS payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/automatic-tds.md)
-- [Tax Payments - Standard User Roles](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/#tax-payments.md)
-- [Tax Payment Life Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/life-cycle.md)
+- [Automatic TDS payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/automatic-tds.md)
+- [Tax Payments - Standard User Roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams.md#tax-payments)
+- [Tax Payment Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/life-cycle.md)

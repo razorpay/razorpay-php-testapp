@@ -9,19 +9,19 @@ description: Find answers to frequently asked questions about BigCommerce plugin
 ### 1. How can I verify if the plugin is installed successfully?
 
      On your BigCommerce Dashboard, navigate to **Channel Manager** → **Storefronts** section.
-      ![specific and meaningful image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bigcommerce-verify-installation.jpg.md)
+      ![specific and meaningful image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bigcommerce-verify-installation.jpg.md)
 
      There are two ways to verify the installation: 
 
      ### Web Pages
       1. Click **Web pages**.
       2. Ensure the **Razorpay Order Confirmation** page appears.
-        ![Verify installation through web pages](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bigcommerce-web-page.jpg.md)
+        ![Verify installation through web pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bigcommerce-web-page.jpg.md)
 
      ### Scripts
       1. Click **Scripts**.
       2. Ensure the Razorpay **Header** and **Footer** scripts appear.
-        ![Verify installation through scripts](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bigcommerce-script.jpg.md)
+        ![Verify installation through scripts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bigcommerce-script.jpg.md)
     
 
   
@@ -30,7 +30,7 @@ description: Find answers to frequently asked questions about BigCommerce plugin
      To verify if webhooks are enabled:
      1. Log in to the Razorpay Dashboard and navigate to **Account & Settings**.
      2. In the **Website and app settings** section, click **Webhooks**.
-        ![Navigate to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
+        ![Navigate to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
      3. Select the relevant webhook **URL**.
      4. On the right panel, check if the status for `order.paid` and `refund.processed` is enabled.
     

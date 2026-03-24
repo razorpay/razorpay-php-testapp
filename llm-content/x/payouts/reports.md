@@ -15,7 +15,7 @@ To generate the report:
 1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
 2. Click **Payouts**.
 3. Click **Export** button.
-    ![Download Payouts Report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payouts-export.jpg.md)
+    ![Download Payouts Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payouts-export.jpg.md)
 4. Select a period from the drop-down, or select custom dates for which you require the report.
 5. Choose the format of your report- `xlsx` or `csv`.
 6. You can **DOWNLOAD** as well as **EMAIL** the report. You can enter any email address you wish to share the report with as well as select the team members you want to share it with. The downloaded reports will be available in the default downloads folder of your system.

@@ -17,7 +17,7 @@ You can use Razorpay Standard SDK to integrate the Razorpay Payment Gateway with
 > 
 > **Update SDK**
 > 
-> Check your current [Cordova](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/cordova-integration/troubleshooting-faqs/#7-how-can-i-check-the-razorpay-cordova.md) or [Iconic](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/cordova-integration/troubleshooting-faqs/#8-how-can-i-check-the-razorpay-ionic.md) Standard SDK version. If it is outdated, please [update the SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/cordova-integration/troubleshooting-faqs/#9-how-can-i-update-the-razorpay-cordova.md) to ensure uninterrupted settlements of your funds.
+> Check your current [Cordova](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/cordova-integration/troubleshooting-faqs.md#7-how-can-i-check-the-razorpay-cordova) or [Iconic](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/cordova-integration/troubleshooting-faqs.md#8-how-can-i-check-the-razorpay-ionic) Standard SDK version. If it is outdated, please [update the SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/cordova-integration/troubleshooting-faqs.md#9-how-can-i-update-the-razorpay-cordova) to ensure uninterrupted settlements of your funds.
 > 
 
 ## Guidelines
@@ -38,7 +38,7 @@ You can use Razorpay Standard SDK to integrate the Razorpay Payment Gateway with
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup). 
 
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
 Follow these integration steps:
 
@@ -52,4 +52,4 @@ Follow these integration steps:
 
 ### Related Information
 
-[Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md)
+[Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md)

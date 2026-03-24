@@ -9,7 +9,7 @@ description: Fetch All Payouts using API.
 
 Use this endpoint to retrieve the details of all the available payouts in the system.
 
-To understand the status of the payouts, refer to [Payout Status Details](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md).
+To understand the status of the payouts, refer to [Payout Status Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md).
 
 > **WARN**
 >
@@ -17,7 +17,7 @@ To understand the status of the payouts, refer to [Payout Status Details](@/Appl
 > 
 > **Watch Out!**
 > 
-> We do not recommend using the Fetch Payout API to check the status of the payouts. Instead, we recommend that you subscribe to our [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/x/apis/subscribe.md) to get instant notifications. Whenever the status of your payouts change, you will be notified via these webhooks. 
+> We do not recommend using the Fetch Payout API to check the status of the payouts. Instead, we recommend that you subscribe to our [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/apis/subscribe.md) to get instant notifications. Whenever the status of your payouts change, you will be notified via these webhooks. 
 > 
 
 @include rzpx/payouts/fetch-all-code

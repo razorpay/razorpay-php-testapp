@@ -15,7 +15,7 @@ Payroll automates the salary advance process. We settle the advance amount again
 
          In a salary advance, the organisation pays a portion of the employee's salary as an advance. The advance paid is recovered in installments from the employee and is usually interest-free.
 
-         [Employee loans](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/loans.md) are a loan facility employers provide to their employees at a lower interest rate than the market rate. The EMIs are deducted from the employee's salary and on Payroll, you can modify the employee's EMI or skip the EMI when necessary.
+         [Employee loans](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/loans.md) are a loan facility employers provide to their employees at a lower interest rate than the market rate. The EMIs are deducted from the employee's salary and on Payroll, you can modify the employee's EMI or skip the EMI when necessary.
         
 
 ## Enable Advance Salary Requests
@@ -39,7 +39,7 @@ To create an advance salary request on your employee's behalf:
     1. Provide the **EMI** amount to deduct from the monthly net pay. Enter 0 in the EMI field if you do not wish to recover advance salary via EMI/recover the amount lumpsum. 
     1. Provide any **Remarks**, if any. You can also provide a reason.  
 
-    ![Provide Advance Salary details on RazorpayX Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-new-advance-salary.jpg.md)
+    ![Provide Advance Salary details on RazorpayX Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-new-advance-salary.jpg.md)
 1. Click **ADD TO PENDING PAYMENTS**.
     
 This creates an advance salary request on your employee's behalf.
@@ -81,7 +81,7 @@ If you have paid advance salary outside of Payroll, you must record it on your P
 1. Click **EDIT** against **Compensation & Perquisites**.
 1. Enter the advance salary amount in the **Current Advance Salary** field. You can add the EMI amount, if any. 
 
-    ![Edit Current Advance Salary on Razorpay Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-advance-salary-record-ex-pay.jpg.md)
+    ![Edit Current Advance Salary on Razorpay Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-advance-salary-record-ex-pay.jpg.md)
 
 ## Check Ledger Reports 
 
@@ -92,9 +92,9 @@ To check the history of advance salaries your organisation has paid or to view t
     - Navigate to **Pay Employees** → **Salary Advance** → **Ledger** in the right pane.
     - Go to **ADMIN OPTIONS** → **Reports** → **Ledger**.
 1. In the Ledger report, select **Advance Salary** in filter **Type**. 
-    ![Check Advance Salary transactions in payroll ledger](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-advance-salary-ledger.jpg.md)
+    ![Check Advance Salary transactions in payroll ledger](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-advance-salary-ledger.jpg.md)
 
 ### Related Information
 
-- [Payroll Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts.md) 
-- [Salary](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary.md)
+- [Payroll Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md) 
+- [Salary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md)

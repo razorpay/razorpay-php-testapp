@@ -244,6 +244,6 @@ Discover how businesses use the Razorpay n8n Community Node to automate payment 
 
 ### Related Documentation
 
-- [Get Started with Installation](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/installation.md)
-- [Explore Available Operations](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/operations-reference.md)
-- [Troubleshooting & FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/troubleshooting-faqs.md)
+- [Get Started with Installation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/installation.md)
+- [Explore Available Operations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/operations-reference.md)
+- [Troubleshooting & FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/troubleshooting-faqs.md)

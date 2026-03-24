@@ -44,7 +44,7 @@ Follow the steps given below:
 > 
 >          **Capture Payments Automatically**
 > 
->          You can capture payments automatically with the one-time [Payment Capture setting configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md) on the Dashboard.
+>          You can capture payments automatically with the one-time [Payment Capture setting configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md) on the Dashboard.
 >          
 
          @include integration-steps/order-creation-v2
@@ -164,7 +164,7 @@ Follow the steps given below:
 > 
 >                  **Handy Tips**
 > 
->                  Test your integration using these [test cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps/#2-test-integration.md).
+>                  Test your integration using these [test cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#2-test-integration).
 >                  
 
                 
@@ -207,7 +207,7 @@ Follow the steps given below:
 
                  Multiple payment methods are available on the Razorpay Web Standard Checkout.
                  - The payment methods are **fixed** and cannot be changed.
-                 - You can configure the order or make certain payment methods prominent. Know more about [configuring payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods.md).
+                 - You can configure the order or make certain payment methods prominent. Know more about [configuring payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods.md).
                  
 
             
@@ -234,7 +234,7 @@ Follow the steps given below:
 
                  #### On Payment Failure
 
-                 The customer is notified about payment failure and asked to retry the payment. Know about the [error parameters.](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/#response-parameters.md)
+                 The customer is notified about payment failure and asked to retry the payment. Know about the [error parameters.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md#response-parameters)
                      ```js: Failure Handling Code
                      rzp1.on('payment.failed', function (response){
                          alert(response.error.code);
@@ -279,7 +279,7 @@ Follow the steps given below:
 
          
 
-         Here are the links to our [SDKs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/#client-libraries.md) for the supported platforms.
+         Here are the links to our [SDKs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md#client-libraries) for the supported platforms.
          
         
 

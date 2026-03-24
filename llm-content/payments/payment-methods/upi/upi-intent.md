@@ -18,7 +18,7 @@ Enjoy the benefits such as higher conversion rates, decrease in abandoned carts 
 
 The payment flow for UPI Intent payments is given below.
 
-![Payment Flow for UPI Intent Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-flow-upi_intent.jpg.md)
+![Payment Flow for UPI Intent Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-flow-upi_intent.jpg.md)
 
 1. In the UPI Intent flow, the customer selects UPI as the payment method on your website or app. A list of UPI apps supporting the intent flow is displayed.
     
@@ -44,9 +44,9 @@ The payment flow for UPI Intent payments is given below.
      
      Platform | Procedure
      ---
-     **mWeb** | Customers are redirected to their preferred UPI app to complete the payment. For the complete integration guide, refer to [UPI Intent on Mobile Web](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods/upi-intent-mweb.md).
+     **mWeb** | Customers are redirected to their preferred UPI app to complete the payment. For the complete integration guide, refer to [UPI Intent on Mobile Web](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods/upi-intent-mweb.md).
      ---
-     **Mobile App (WebView)** | UPI Intent requires deep link handling in your Android or iOS app to launch UPI apps from the WebView. For the complete integration guide, refer to [UPI Intent in WebView: Android](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/webview/upi-intent-android.md) and [UPI Intent in WebView: iOS](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/webview/upi-intent-ios.md).
+     **Mobile App (WebView)** | UPI Intent requires deep link handling in your Android or iOS app to launch UPI apps from the WebView. For the complete integration guide, refer to [UPI Intent in WebView: Android](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/webview/upi-intent-android.md) and [UPI Intent in WebView: iOS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/webview/upi-intent-ios.md).
      ---
      **Desktop Web** | UPI Intent is not supported. A QR code is automatically displayed for customers to scan with their preferred UPI app. No additional code changes are required.
      
@@ -57,7 +57,7 @@ The payment flow for UPI Intent payments is given below.
     
         Use the Android SDK to support UPI Intent payments when a payment is processed through Razorpay in a WebView inside an app.
         
-        ![UPI Checkout with Intent Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pay-pm-upi-intent-android.gif.md)
+        ![UPI Checkout with Intent Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pay-pm-upi-intent-android.gif.md)
         
         #### Installation
 
@@ -98,25 +98,25 @@ The payment flow for UPI Intent payments is given below.
         }
         ```
 
-        Refer to the [list of supported UPI intent apps for Android SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/supported-apps.md).
+        Refer to the [list of supported UPI intent apps for Android SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/supported-apps.md).
 
     
     
         Use the iOS Standard SDK to support UPI Intent payments on your iOS apps.
         
-        ![Payment Process on iOS Apps](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi-intent-ios.gif.md)
+        ![Payment Process on iOS Apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-intent-ios.gif.md)
         
         #### Prerequisites
         
         - Sign up for a Razorpay account.
-        - [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard.
+        - [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard.
         
         
         #### iOS Standard Checkout
 
         To enable UPI Intent on your iOS app's Standard Checkout:
 
-        1. Ensure that the [latest version of the iOS Standard SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard/#list-of-razorpay-ios-standard-sdk-versions-last.md) is integrated with your app.
+        1. Ensure that the [latest version of the iOS Standard SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard.md#list-of-razorpay-ios-standard-sdk-versions-last) is integrated with your app.
 
         2. Your iOS app must seek permission from the device to open the UPI PSP app that the customer selects on Checkout. For this, you must make the following changes in your iOS app's info.plist file.
 
@@ -216,12 +216,12 @@ The payment flow for UPI Intent payments is given below.
 
         #### Prerequisites
         - .
-        - [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys.md) from the Dashboard.
-        - Integrate Razorpay Standard Checkout on your [Website](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+        - [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md) from the Dashboard.
+        - Integrate Razorpay Standard Checkout on your [Website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
 
         #### Standard Checkout
 
-        UPI Intent for mobile websites works automatically if the intent flow is enabled on your account. You can enable UPI Intent in WebView on your [Android app ](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-android.md)or [iOS app](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-ios.md).
+        UPI Intent for mobile websites works automatically if the intent flow is enabled on your account. You can enable UPI Intent in WebView on your [Android app ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-android.md)or [iOS app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-ios.md).
 
         ### List of Supported UPI Intent Apps
 
@@ -280,5 +280,5 @@ You must show the list of UPI apps in 2 sections:
 
 ### Related Information
 
-- [UPI Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md)
-- [UPI Transaction Limits](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/transaction-limits/upi.md)
+- [UPI Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md)
+- [UPI Transaction Limits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/transaction-limits/upi.md)

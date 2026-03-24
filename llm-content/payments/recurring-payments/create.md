@@ -14,7 +14,7 @@ description: Know how to create a recurring payments using the Razorpay Dashboar
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -50,7 +50,7 @@ The registration link is sent to the customer. Once a customer successfully make
 > 
 > **Create Registration Links via APIs**
 > 
-> You can create registration links using APIs. Refer to the [API section](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments.md) for more details.
+> You can create registration links using APIs. Refer to the [API section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments.md) for more details.
 > 
 
 ### Registration Link Fields
@@ -280,5 +280,5 @@ To delete a token:
 1. Click **Delete Token**.
 
 ### Related Information
-- [Paper NACH Form](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upload-paper-nach-form.md)
-- [Batch Operations](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/batch-operations.md)
+- [Paper NACH Form](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upload-paper-nach-form.md)
+- [Batch Operations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/batch-operations.md)

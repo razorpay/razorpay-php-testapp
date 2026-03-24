@@ -7,7 +7,7 @@ description: Check the various payment methods you can configure at the checkout
 
 You can accept payments through several payment methods such as netbanking, debit cards, credit cards, wallets and UPI. However, you can configure payment methods of your choice for collecting payments from your customers.
 
-Check the [payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/methods-api.md) activated for your account.
+Check the [payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/methods-api.md) activated for your account.
 
 ### Check the API Endpoint
 
@@ -433,7 +433,7 @@ body, err := client.Payment.CreatePaymentJson(para_attr, nil)
 
 #### Supported Banks
 
-Fetch the supported bank codes using the [Methods API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/methods-api.md).
+Fetch the supported bank codes using the [Methods API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/methods-api.md).
 
 ## EMI
 
@@ -706,8 +706,8 @@ client.payment.createPaymentJson(data)
 
 ### EMI Plans 
 
-- Fetch the available EMI plans (for each supported bank) by invoking the [Methods API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/methods-api.md). Extract the EMI plans from the response to be shown to your customers while making the payment.
-- Know more about EMI plans offered by [OneCard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/emi/one-card.md) and [HSBC](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/emi/hsbc.md).
+- Fetch the available EMI plans (for each supported bank) by invoking the [Methods API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/methods-api.md). Extract the EMI plans from the response to be shown to your customers while making the payment.
+- Know more about EMI plans offered by [OneCard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/emi/one-card.md) and [HSBC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/emi/hsbc.md).
 
 ## Cardless EMI
 
@@ -1026,7 +1026,7 @@ body, err := client.Payment.CreatePaymentJson(para_attr, nil)
 > 
 > **Handy Tips**
 > 
-> [Integrate your PayPal account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/paypal#integration-steps.md) with Razorpay Checkout to accept payments in international currencies.
+> [Integrate your PayPal account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/paypal.md#integration-steps) with Razorpay Checkout to accept payments in international currencies.
 > 
 > You can accept payments based on the transaction limit of your PayPal account.
 > 
@@ -1034,7 +1034,7 @@ body, err := client.Payment.CreatePaymentJson(para_attr, nil)
 
 ## UPI
 
-Know about [UPI Intent](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/intent.md) and [UPI Collect](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi.md).
+Know about [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/intent.md) and [UPI Collect](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi.md).
 
 @include payment-methods/upi-collect-deprecated/s2s
 
@@ -1200,7 +1200,7 @@ Your customers can pay via a combination of CRED Coins and Credit Cards saved on
 
 ## Emandate
 
-You can accept recurring payments from your customers using `emandate`, `card` or `upi` as the method. Know more about [Recurring Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments.md).
+You can accept recurring payments from your customers using `emandate`, `card` or `upi` as the method. Know more about [Recurring Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments.md).
 
 > **INFO**
 >
@@ -1211,14 +1211,14 @@ You can accept recurring payments from your customers using `emandate`, `card` o
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
 
 ### Workflow
 
-1. [Create a customer.](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers/#create-a-customer.md)
+1. [Create a customer.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md#create-a-customer)
 2. Create an Order with method as `emandate`, `nach` or `upi`.
 3. Collect authorisation transaction.
    - Using custom checkout
@@ -1226,7 +1226,7 @@ You can accept recurring payments from your customers using `emandate`, `card` o
 4. Verify Tokens.
 5. Charge subsequent payments.
 
-Know more about steps 2,3,4 and 5 in [Recurring Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments.md).
+Know more about steps 2,3,4 and 5 in [Recurring Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments.md).
 
 #### Sample Checkout Code to Collect Authorisation Transaction
 
@@ -1361,7 +1361,7 @@ You can upload the signed NACH forms that you have collected from your customers
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -1374,7 +1374,7 @@ Follow these steps to register a NACH mandate via S2S Image Transfer:
 4. Fetch Token
 5. Create Subsequent Payments
 
-Know more about steps 2,3,4 and 5 in [Recurring Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments.md).
+Know more about steps 2,3,4 and 5 in [Recurring Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments.md).
 
 #### Sample Server Request and Responses
 
@@ -1411,7 +1411,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 
 ### Workflow
 
-1. [Create a customer.](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers/#create-a-customer.md)
+1. [Create a customer.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md#create-a-customer)
 2. Create an Order with method as `emandate`, `nach` or `upi`.
 3. Collect authorisation transaction.
    - Using custom checkout
@@ -1419,7 +1419,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 4. Verify Tokens.
 5. Charge subsequent payments.
 
-Know more about steps 2,3,4 and 5 in [Recurring Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments.md).
+Know more about steps 2,3,4 and 5 in [Recurring Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments.md).
 
 #### Sample Checkout Code to Collect Authorisation Transaction
 
@@ -1554,7 +1554,7 @@ You can upload the signed NACH forms that you have collected from your customers
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -1567,7 +1567,7 @@ Follow these steps to register a NACH mandate via S2S Image Transfer:
 4. Fetch Token
 5. Create Subsequent Payments
 
-Know more about steps 2,3,4 and 5 in [Recurring Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments.md).
+Know more about steps 2,3,4 and 5 in [Recurring Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments.md).
 
 #### Sample Server Request and Responses
 
@@ -1611,4 +1611,4 @@ The acceptable image formats and sizes are:
 
 #### Error Reasons
 
-Know about [errors under Recurring Payments FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/paper-nach/faqs/#14-what-are-the-errors-i-get-while.md).
+Know about [errors under Recurring Payments FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/paper-nach/faqs.md#14-what-are-the-errors-i-get-while).

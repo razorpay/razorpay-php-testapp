@@ -15,18 +15,18 @@ With Razorpay Android Custom SDK, you can customise the Razorpay Checkout UI.
 > 
 > **Handy Tips**
 > 
-> It is recommended to integrate with the [Razorpay Android Standard SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard.md) as it supports all payment methods by default. If you integrate with Custom Checkout SDK, you will need to integrate these manually.
+> It is recommended to integrate with the [Razorpay Android Standard SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard.md) as it supports all payment methods by default. If you integrate with Custom Checkout SDK, you will need to integrate these manually.
 > 
 
 ## List of Razorpay Android Custom SDK Versions (Last 5 versions)
 
 Version No. | Release Date | Changes
 ---
-3.9.22 | 07 Aug 2024 | **Feature**: Implemented Gradle bill-of-materials for Razorpay Plugins such as [OTP-Assist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/otp-assist.md). 
+3.9.22 | 07 Aug 2024 | **Feature**: Implemented Gradle bill-of-materials for Razorpay Plugins such as [OTP-Assist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/otp-assist.md). 
 ---
 3.9.21 | 12 Apr 2024 |  **Bug Fix**: `Application not responding` crash fix for UPI Intent payments
 ---
-3.9.20 | 13 Dec 2023 |  **Feature**: Added auto-read and auto-submit features for card and native OTP payments in the [OTP-Assist SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/otp-assist.md)
+3.9.20 | 13 Dec 2023 |  **Feature**: Added auto-read and auto-submit features for card and native OTP payments in the [OTP-Assist SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/otp-assist.md)
 ---
 3.9.19 | 07 Nov 2023 | Changed the encryption mode
 ---
@@ -39,7 +39,7 @@ Version No. | Release Date | Changes
 > 
 > **Update SDK**
 > 
-> Check your [current SDK version](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/troubleshooting-faqs/#6-how-can-i-check-the-razorpay-android.md). If it is outdated, please [update the SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/troubleshooting-faqs/#7-how-can-i-update-the-razorpay-android.md) to ensure uninterrupted settlements of your funds. 
+> Check your [current SDK version](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/troubleshooting-faqs.md#6-how-can-i-check-the-razorpay-android). If it is outdated, please [update the SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/troubleshooting-faqs.md#7-how-can-i-update-the-razorpay-android) to ensure uninterrupted settlements of your funds. 
 > 
 > From version 3.9.22 onwards, the latest version is automatically updated, eliminating the need for manual updates.
 > 
@@ -54,7 +54,7 @@ Check the sample code on [GitHub](https://github.com/razorpay/razorpay-android-c
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup). 
 
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
 - According to the PCI regulations, payment processing is not allowed on TLS v1. Hence, if the device does not have TLS v1.1 or v1.2, the SDK will throw an error in the onPaymentError method. Check the [TLS versions](https://developer.android.com/reference/javax/net/ssl/SSLSocket#default-configuration-for-different-android-versions).
 
@@ -62,11 +62,11 @@ Check the sample code on [GitHub](https://github.com/razorpay/razorpay-android-c
 
 Follow these integration steps:
 
-1. [Build Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/build-integration.md)
-2. [Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/test-integration.md)
-3. [Go Live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/go-live-checklist.md)
+1. [Build Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/build-integration.md)
+2. [Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/test-integration.md)
+3. [Go Live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/go-live-checklist.md)
 
 ### Related Information
 
-- [Troubleshooting and FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/troubleshooting-faqs.md)
-- [Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md)
+- [Troubleshooting and FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/troubleshooting-faqs.md)
+- [Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md)

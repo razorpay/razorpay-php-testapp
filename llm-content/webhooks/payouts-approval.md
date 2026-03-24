@@ -5,7 +5,7 @@ description: List of Payouts Approval webhook events along with sample payloads.
 
 # Payouts Approval Webhook Events
 
-Assign user roles to create and approve payouts using the [Payouts Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts-approval.md).
+Assign user roles to create and approve payouts using the [Payouts Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts-approval.md).
 
 ## List of Payouts Approval Webhook Events
 

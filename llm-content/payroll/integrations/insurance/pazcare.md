@@ -15,7 +15,7 @@ The Payroll - Pazcare integration provides the following benefits:
 
          - **Automated Data Syncing**: 
 
-            After you integrate with Pazcare, all your existing employees' details are available on the Pazcare Dashboard. New employees' onboarding and offboarding with [FNF settlement](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#terminate-and-run-last-payroll.md) easy with this integration.
+            After you integrate with Pazcare, all your existing employees' details are available on the Pazcare Dashboard. New employees' onboarding and offboarding with [FNF settlement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#terminate-and-run-last-payroll) easy with this integration.
 
          - **Dedicated Relationship Manager**: 
 
@@ -40,7 +40,7 @@ To integrate with Pazcare:
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
 1. Navigate to **Integrations** in the left menu under **ADMIN OPTIONS**. 
 1. Check for the Pazcare integration and click **Explore**. 
-    ![Explore Pazcare Integration on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-pazcare-integration.jpg.md)
+    ![Explore Pazcare Integration on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-pazcare-integration.jpg.md)
 1. On the integration page, click **CONNECT NOW**.
 1. Click **Generate Now** to generate the API key and copy the key. You can refresh the key by clicking **Refresh Key**. 
 1. Go to the [Pazcare Dashboard](https://app.pazcare.com/dashboard/integrations). 
@@ -66,5 +66,5 @@ You have successfully added a Rule and updated the insurance benefits for all em
 
 ### Related Information
 
-- [Plum Insurance Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/insurance/plum.md)
-- [About Integrations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations.md)
+- [Plum Insurance Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/insurance/plum.md)
+- [About Integrations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations.md)

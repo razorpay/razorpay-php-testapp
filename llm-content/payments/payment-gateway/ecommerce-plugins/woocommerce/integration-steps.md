@@ -54,7 +54,7 @@ Follow the steps given below:
 >           **Handy Tips**
 > 
 >           If you cannot see the Razorpay payment option during WooCommerce checkout, update the plugin to the [latest](https://github.com/razorpay/razorpay-woocommerce/releases/latest) version.
->           ![Payments option error](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/Woocommerce-payment-error.jpg.md)
+>           ![Payments option error](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/Woocommerce-payment-error.jpg.md)
 > 
 >           
 
@@ -69,7 +69,7 @@ Follow the steps given below:
 > 
 > **Configure Webhooks**
 > 
-> Webhook is [auto-configured](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs/#1-how-are-webhooks-aut-configured.md) when you enter and save the API key ID and secret on the plugin settings page. You need to verify if webhooks are enabled on your Razorpay [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs/#3-how-can-i-verify-if-webhooks-are.md). However, for versions lower than 3.5.0, you need to [configure webhooks manually](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs/#2-my-webhooks-are-not-auto-configured-since-i.md).
+> Webhook is [auto-configured](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs.md#1-how-are-webhooks-aut-configured) when you enter and save the API key ID and secret on the plugin settings page. You need to verify if webhooks are enabled on your Razorpay [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs.md#3-how-can-i-verify-if-webhooks-are). However, for versions lower than 3.5.0, you need to [configure webhooks manually](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs.md#2-my-webhooks-are-not-auto-configured-since-i).
 > 
 
 ## 2. Test Integration
@@ -98,7 +98,7 @@ You can make test payments using one of the payment methods configured at the Ch
                     ![](/docs/assets/images/testpayment.jpg)
             
             
-                  [Poll Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md) to check the payment status.
+                  [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments) to check the payment status.
             
         
         

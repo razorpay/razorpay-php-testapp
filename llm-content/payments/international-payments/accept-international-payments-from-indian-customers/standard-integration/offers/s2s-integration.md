@@ -22,7 +22,7 @@ Log in to the Dashboard to generate the API keys, if you have not done earlier. 
 
 ### Step 1: Create Offers
 
-[Create an offer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/create.md) from the Dashboard.
+[Create an offer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/create.md) from the Dashboard.
 
 ![](/docs/assets/images/offers-offers-description.jpg)
 
@@ -187,11 +187,11 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 : `integer` Payment amount in the smallest currency sub-unit. For example, if the amount to be charged is , then pass `29900` in this field.
 
 `currency` _mandatory_
-: `string` Currency code for the currency in which you want to accept the payment. For example, `INR`. Refer to the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be of 3 characters.
+: `string` Currency code for the currency in which you want to accept the payment. For example, `INR`. Refer to the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be of 3 characters.
 
 `order_id` _mandatory_
 : `string` Unique identifier of the Order.
- Know more about [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+ Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 `offer_id` 
 : `string` Unique identifier of the offer.
@@ -305,7 +305,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 : `string` Wallet code for the wallet used for the payment. Required if the method is `wallet`.
 
 `notes` _optional_
-: `object` Key-value object used for passing tracking info. Refer to [Notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand/#notes.md) for more details.
+: `object` Key-value object used for passing tracking info. Refer to [Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) for more details.
 
 `callback_url` _optional_
 : `string` URL endpoint where Razorpay will submit the final payment status.
@@ -324,7 +324,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 `400 Bad Request`
 : This can happen when erroneous parameters are passed in the request. For example, when the limit set in Offers is exceeded:
 
-Know more about the [error codes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#error-codes.md).
+Know more about the [error codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#error-codes).
 
 The HTML form returned in the response should be opened in the customer's browser. The customer completes the payment on the displayed page.
 
@@ -337,11 +337,11 @@ Once the customer completes the payment, a `POST` request is sent to the `callba
 After the customer has availed the offers and made the payment on the Checkout, you can track the status of the payments:
 
 - From the Dashboard.
-- By [configuring webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
-- By polling our [payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#fetch-payments-based-on-orders.md).
+- By [configuring webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
+- By polling our [payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#fetch-payments-based-on-orders).
 
 ### Related Information
 
-- [About Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers.md)
-- [Create Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/create.md)
-- [Tutorial - How to Create Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/tutorial.md)
+- [About Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers.md)
+- [Create Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/create.md)
+- [Tutorial - How to Create Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/tutorial.md)

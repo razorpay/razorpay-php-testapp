@@ -8,9 +8,9 @@ description: Choose between RazorpayX Lite, a digital account with instant KYC o
 
 To make payouts and use other banking features, you must have a bank account linked to your RazorpayX account. There are two types of accounts available to you:
 
-- [RazorpayX Lite](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/razorpayx-lite.md): A digital account created in RazorpayX  with simple and quick KYC verification process for businesses to start accepting payments within a short span of time.
+- [RazorpayX Lite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/razorpayx-lite.md): A digital account created in RazorpayX  with simple and quick KYC verification process for businesses to start accepting payments within a short span of time.
 
-- [Current Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/current-account.md): A traditional banking account that offers all standard banking features like cheque book, debit card and account statements. Current Account is offered in partnership with Partner Banks.
+- [Current Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/current-account.md): A traditional banking account that offers all standard banking features like cheque book, debit card and account statements. Current Account is offered in partnership with Partner Banks.
 
 > **INFO**
 >
@@ -18,7 +18,7 @@ To make payouts and use other banking features, you must have a bank account lin
 > 
 > **Handy Tips**
 > 
-> The Partner Banks for Current Account are [RBL](@/Applications/MAMP/htdocs/new-docs/llm-content/x/rbl-ybl-current-account/company.md), [Yes Bank](@/Applications/MAMP/htdocs/new-docs/llm-content/x/rbl-ybl-current-account/company.md), [IDFC First](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/kyc.md) and [Axis Bank](@/Applications/MAMP/htdocs/new-docs/llm-content/x/axis-current-account/#current-account-opening-required-documents.md)) presently. [Contact Support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md) to open a Current Account with the bank of your choice (subject to individual approval).
+> The Partner Banks for Current Account are [RBL](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/rbl-ybl-current-account/company.md), [Yes Bank](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/rbl-ybl-current-account/company.md), [IDFC First](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/kyc.md) and [Axis Bank](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/axis-current-account.md#current-account-opening-required-documents)) presently. [Contact Support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md) to open a Current Account with the bank of your choice (subject to individual approval).
 > 
 > 
 
@@ -77,7 +77,7 @@ You can select how often you want the email alerts to be sent to you. The defaul
 
 ### Related Information
 
-- [Set up your RazorpayX account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/set-up.md)
+- [Set up your RazorpayX account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/set-up.md)
 - [Open a Current Account](https://razorpay.com/x/current-accounts/)
-- [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/api-keys.md)
-- [Test Mode](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/test-mode.md)
+- [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/api-keys.md)
+- [Test Mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/test-mode.md)

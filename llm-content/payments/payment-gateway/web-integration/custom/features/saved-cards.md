@@ -16,7 +16,7 @@ You can save sensitive card information entered by the customer as `tokens`. On 
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -27,10 +27,10 @@ According to [RBI Guidelines](https://www.rbi.org.in/scripts/FS_Notification.asp
 
 ## Card Tokenisation Use Cases
 
-- [Business Seeks Customer Consent, Saves Card Details with Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-1.md).
-- [Razorpay Seeks Customer Consent on Behalf of Business](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-2.md).
-- [Business Seeks Consent from Some Customers Only](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-3.md).
+- [Business Seeks Customer Consent, Saves Card Details with Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-1.md).
+- [Razorpay Seeks Customer Consent on Behalf of Business](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-2.md).
+- [Business Seeks Consent from Some Customers Only](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-3.md).
 
 ### Related Information 
 
-[Razorpay TokenHQ APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor/apis.md)
+[Razorpay TokenHQ APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor/apis.md)

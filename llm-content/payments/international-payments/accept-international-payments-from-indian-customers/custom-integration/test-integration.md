@@ -9,4 +9,4 @@ description: Steps to test if the integration was successful and what features a
 
 ## Next Steps
 
-[Step 3: Go Live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/custom-integration/go-live-checklist.md)
+[Step 3: Go Live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/custom-integration/go-live-checklist.md)

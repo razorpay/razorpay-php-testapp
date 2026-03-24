@@ -43,7 +43,7 @@ Following are the payment flow steps:
 >     If you have multiple VPAs, you need to verify all of them individually on the Google Merchant Console.
 >     
 
-1. [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
+1. [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
 
 ## Integration Steps
 
@@ -118,11 +118,11 @@ Once the order is created and the customer's payment details are obtained, the i
 
 You can do this by invoking the `createPayment` method.
 
-The checkout parameters are listed [here](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/google-pay/spot-platform-integration/checkout-parameters.md).
+The checkout parameters are listed [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/google-pay/spot-platform-integration/checkout-parameters.md).
 
 #### Apply Offers
 
-During checkout, if there is a co-branded offer run by GooglePay, you should apply the discount, and pass on the offer details to Google. Use [these offers parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/google-pay/spot-platform-integration/checkout-parameters/#offers-parameters.md) to pass the offer details.
+During checkout, if there is a co-branded offer run by GooglePay, you should apply the discount, and pass on the offer details to Google. Use [these offers parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/google-pay/spot-platform-integration/checkout-parameters.md#offers-parameters) to pass the offer details.
 
 The `razorpay.js` file receives this data and appends this to the existing data being shared with Google.
 
@@ -302,13 +302,13 @@ You can track the payment status from the Dashboard or subscribe to the Webhook 
 
 You can subscribe to a Webhook event that is generated when a specific event happens in our server. When one of those events is triggered, Razorpay sends the Webhook payload to the configured URL.
 
-Know more about how to [set up Webhooks.](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md)
+Know more about how to [set up Webhooks.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md)
 
 When the customer makes a successful payment on the Checkout, the `payment.authorized` event is created in Razorpay.
 
 #### Poll APIs
 
-You can retrieve the status of the payments by polling our [Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md).
+You can retrieve the status of the payments by polling our [Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments).
 
 ### Related Information
 

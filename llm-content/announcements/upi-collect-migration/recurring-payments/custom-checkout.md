@@ -30,7 +30,7 @@ UPI Collect will continue to be supported for:
 
 Remove the UPI Collect option from your checkout by 28 February 2026 and continue to support Intent-based UPI payments. This applies to payments made via all desktop browsers and Android devices (mWeb and mobile app). Failure to comply with the deadline will result in a disruption to your payments experience.
 
-- If you are a new Razorpay user, use [UPI Intent](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/upi-intent.md).
+- If you are a new Razorpay user, use [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/upi-intent.md).
 - If you are an existing Razorpay user not covered by exemptions, you must migrate to UPI Intent to continue accepting UPI payments if:      
     - You currently accept UPI payments via Collect flow.
     - You use Razorpay Custom Checkout on Web, mWeb or WebView to accept Recurring Payments from customers.
@@ -66,7 +66,7 @@ Contact [Razorpay support](https://razorpay.com/support/) to enable UPI Intent f
                     //}
                 });
                 ```
-         2. Integrate with UPI QR code. Refer to the [UPI QR code Redirect Flow documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods/#redirect-flow.md) to complete the integration.
+         2. Integrate with UPI QR code. Refer to the [UPI QR code Redirect Flow documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods.md#redirect-flow) to complete the integration.
         
 
     
@@ -94,7 +94,7 @@ Contact [Razorpay support](https://razorpay.com/support/) to enable UPI Intent f
                     //}
                 };
                 ```
-         2. Integrate UPI Intent on mWeb. Refer to the [UPI Intent mWeb Integration Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods/upi-intent-mweb.md).
+         2. Integrate UPI Intent on mWeb. Refer to the [UPI Intent mWeb Integration Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods/upi-intent-mweb.md).
         
 
     
@@ -122,10 +122,10 @@ Contact [Razorpay support](https://razorpay.com/support/) to enable UPI Intent f
                     //}
                 };
                 ```
-         2. Integrate UPI Intent by following the UPI Webview Integration guide for [Android](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/webview/upi-intent-android.md) and [iOS](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/webview/upi-intent-ios.md). Implement deep link handling in your Android/iOS app to launch UPI apps from WebView.
+         2. Integrate UPI Intent by following the UPI Webview Integration guide for [Android](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/webview/upi-intent-android.md) and [iOS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/webview/upi-intent-ios.md). Implement deep link handling in your Android/iOS app to launch UPI apps from WebView.
         
 
 ## Related Information
 
-- [UPI Payment Method](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi.md)
-- [Recurring Payments - UPI Autopay Custom Checkout Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/upi/create-authorization-transaction.md)
+- [UPI Payment Method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi.md)
+- [Recurring Payments - UPI Autopay Custom Checkout Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/upi/create-authorization-transaction.md)

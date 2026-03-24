@@ -5,7 +5,7 @@ description: Display general or order specific No Cost EMI Offers on Standard Ch
 
 # Integrate No Cost EMI Offers with Standard Checkout
 
-After creating [ No Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/no-cost-emi/create.md) from the Dashboard, you must integrate them with the Razorpay Standard Checkout so your customers can avail of them while making payments.
+After creating [ No Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/no-cost-emi/create.md) from the Dashboard, you must integrate them with the Razorpay Standard Checkout so your customers can avail of them while making payments.
 
 > **WARN**
 >
@@ -30,7 +30,7 @@ Only those No Cost EMI offers that pass the following validations are displayed 
 
 Criteria | Description
 ---
-**Amount Match** | Order amount should be more than or equal to the [Minimum Order Amount](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/no-cost-emi/create.md) set in an offer.
+**Amount Match** | Order amount should be more than or equal to the [Minimum Order Amount](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/no-cost-emi/create.md) set in an offer.
 ---
 **Validity** | Offer should be in the active or enabled state.
 ---
@@ -49,9 +49,9 @@ There are two ways in which you can display No Cost EMI offers at the Razorpay C
 
 ### Method 1: Display No Cost EMI Offers by Default
 
-This is the easiest way to display No Cost EMI offers at the Checkout. While [creating the  No Cost EMI offer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/no-cost-emi/create.md) from the Dashboard, enable the **Show Offer on Checkout** option.
+This is the easiest way to display No Cost EMI offers at the Checkout. While [creating the  No Cost EMI offer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/no-cost-emi/create.md) from the Dashboard, enable the **Show Offer on Checkout** option.
 
-![Enable the Show Offer on Checkout option](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-no-cost-emi-offer-validity.jpg.md)
+![Enable the Show Offer on Checkout option](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-no-cost-emi-offer-validity.jpg.md)
 
 ### Method 2: Display Limited No Cost EMI offers
 
@@ -68,7 +68,7 @@ To display offers:
 
 ### Step 1: Create an Offer from the Dashboard
 
-You can [create  No Cost EMI offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create#create-offers.md) from the Dashboard.
+You can [create  No Cost EMI offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md#create-offers) from the Dashboard.
 
 Let us say you have created a No Cost EMI offer `offer_ANZoaxsOww2X53`, such that a discount of ₹200 is applicable on all transactions done through AXIS netbanking only.
 
@@ -223,19 +223,19 @@ document.getElementById('rzp-button1').onclick = function(e){
 
 ```
 
-Know more about [Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+Know more about [Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
 
 ## Next Steps
 
 After the customer has availed the offers and made the payment at the Checkout, you can  track the status of the payments:
 
 - From the Dashboard.
-- By [configuring webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
-- By polling our [payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments.md).
+- By [configuring webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
+- By polling our [payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md).
 
 ### Related Information
-- [About No Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/no-cost-emi.md)
-- [Create No Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/no-cost-emi/create.md)
-- [Tutorial - How to Create No Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/no-cost-emi/tutorial.md)
-- [No Cost EMI FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/low-cost-emi/faqs.md)
-- [Disable Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/no-cost-emi/create/#disabling-no-cost-emi-offers.md)
+- [About No Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/no-cost-emi.md)
+- [Create No Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/no-cost-emi/create.md)
+- [Tutorial - How to Create No Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/no-cost-emi/tutorial.md)
+- [No Cost EMI FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/low-cost-emi/faqs.md)
+- [Disable Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/no-cost-emi/create.md#disabling-no-cost-emi-offers)

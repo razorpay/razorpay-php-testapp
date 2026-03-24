@@ -6,10 +6,10 @@ description: Offer instant international bank transfer as a payment method to cu
 # Instant International Bank Transfer
 
 Razorpay supports the following instant international bank transfer instruments to accept payments across different geographies and varied currencies.
-- [Giropay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/giropay.md) for German customers
-- [Sofort](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/sofort.md) for European customers
-- [Trustly](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/trustly.md) for UK and European customers
-- [POLi](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/poli.md) for Australian customers
+- [Giropay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/giropay.md) for German customers
+- [Sofort](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/sofort.md) for European customers
+- [Trustly](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/trustly.md) for UK and European customers
+- [POLi](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/poli.md) for Australian customers
 
 You can accept international payments from customers in the form of online instant international bank transfers using the Razorpay Checkout form.
 

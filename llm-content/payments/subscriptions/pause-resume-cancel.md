@@ -5,7 +5,7 @@ description: Pause, resume or cancel a Razorpay Subscription from the Razorpay D
 
 # Pause, Resume and Cancel a Subscription
 
-You can [pause](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/pause-resume-cancel/#pause-a-subscription-using-dashboard.md), [resume](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/pause-resume-cancel/#resume-a-subscription-using-dashboard.md) and [cancel](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/pause-resume-cancel/#cancel-a-subscription-using-dashboard.md) a subscription from the Dashboard.
+You can [pause](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/pause-resume-cancel.md#pause-a-subscription-using-dashboard), [resume](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/pause-resume-cancel.md#resume-a-subscription-using-dashboard) and [cancel](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/pause-resume-cancel.md#cancel-a-subscription-using-dashboard) a subscription from the Dashboard.
 
 ## Pause a Subscription Using Dashboard
 
@@ -50,7 +50,7 @@ To cancel a subscription from your Dashboard:
 
 ### Related Information
 
-- [Create and View Plans](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-plans.md)
-- [Create Subscriptions via Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-subscription-links.md)
-- [Charge a Card Manually](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/manually-charge-card.md)
-- [Subscriptions Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/settings.md)
+- [Create and View Plans](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-plans.md)
+- [Create Subscriptions via Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-subscription-links.md)
+- [Charge a Card Manually](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/manually-charge-card.md)
+- [Subscriptions Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/settings.md)

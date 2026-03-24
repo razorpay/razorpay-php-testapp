@@ -13,14 +13,14 @@ description: Check the Razorpay Wallet APIs.
 > We have discontinued support for this product, effective April 2023. As a result, we will not be onboarding new users for this product anymore.
 > 
 
-Refer to the [API Reference](@/Applications/MAMP/htdocs/new-docs/llm-content/api.md) guide to understand the basic concepts of API.
+Refer to the [API Reference](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md) guide to understand the basic concepts of API.
 
 > **INFO**
 >
 > 
 > **Handy Tips**
 > 
-> Before creating a wallet, you must create a [customer](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers/#create-a-customer.md).
+> Before creating a wallet, you must create a [customer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md#create-a-customer).
 > 
 
 ## Transfer a Payment
@@ -360,7 +360,7 @@ Following are the parameters to be sent in the request body:
   - `true` (recommended): Automatically capture the payment.
   - `false` (default/not recommended): You have to manually capture payments.
   
-Know more about [payment capture settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md).
+Know more about [payment capture settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md).
 
 `notes` _optional_
 : `object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
@@ -417,7 +417,7 @@ Use the below endpoint to create a payment for a wallet.
 > 
 > **Customer Wallet Balance**
 > 
-> If the customer's wallet has an insufficient balance for the requested payment, the API returns an error. The customer must [load sufficient amount in the wallet](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/wallet/wallet-operations/#load-a-wallet.md) to complete the transaction.
+> If the customer's wallet has an insufficient balance for the requested payment, the API returns an error. The customer must [load sufficient amount in the wallet](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/wallet/wallet-operations.md#load-a-wallet) to complete the transaction.
 > 
 
 ```curl: Request
@@ -917,7 +917,7 @@ curl -u : \
 : `string` The reason for the payout. For example, `refund`.
 
 `utr`
-: `string` A unique transaction reference (UTR) number generated for all transactions. You can obtain UTR from the [`payout.updated` webhook payload](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
+: `string` A unique transaction reference (UTR) number generated for all transactions. You can obtain UTR from the [`payout.updated` webhook payload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
 
 `reference_id`
 : `string` Maximum length is 40 characters. A user-generated reference given to the payout. For example, `Acme Transaction ID 12345`. You can use this field to store your own transaction ID, if any.

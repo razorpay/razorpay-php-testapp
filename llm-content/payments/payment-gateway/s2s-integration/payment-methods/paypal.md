@@ -7,7 +7,7 @@ description: Integrate PayPal with Razorpay to accept International Payments.
 
 PayPal is a payment method that you can integrate with Razorpay to accept payments in international currencies.
 
-You can accept payments based on the transaction limit of your PayPal account. Know more about the other [payment methods and the transaction limits](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/transaction-limits.md).
+You can accept payments based on the transaction limit of your PayPal account. Know more about the other [payment methods and the transaction limits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/transaction-limits.md).
 
 ### Advantages
 
@@ -23,7 +23,7 @@ Integrating PayPal as a payment method offers you the following advantages:
 > 
 > **Watch Out!**
 > 
-> You can accept payments from the provided [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/paypal/supported-currencies.md).
+> You can accept payments from the provided [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/paypal/supported-currencies.md).
 > 
 
 ## Onboarding Process to Enable PayPal
@@ -70,7 +70,7 @@ Watch this video to see the onboarding process to enable PayPal on your checkout
 
 ## Integration Steps
 
-If you are using Razorpay Server-to-Server integration, first you need to raise a request with our [Support team](https://razorpay.com/support/) to enable PayPal and complete the [onboarding procedure](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/paypal/#to-enable-paypal.md).
+If you are using Razorpay Server-to-Server integration, first you need to raise a request with our [Support team](https://razorpay.com/support/) to enable PayPal and complete the [onboarding procedure](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/paypal.md#to-enable-paypal).
 
 Follow the steps given below to integrate S2S JSON API and accept payments using PayPal.
 
@@ -93,7 +93,7 @@ To process a payment, create a Razorpay Order to correspond with the order in yo
 Order is an important step in the payment process.
 
 - An order should be created for every payment.
-- You can create an order using the [Orders API](#api-sample-code). It is a server-side API call.  Know how to [authenticate](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) Orders API.  
+- You can create an order using the [Orders API](#api-sample-code). It is a server-side API call.  Know how to [authenticate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) Orders API.  
 - The `order_id` received in the response should be passed to the checkout. This ties the order with the payment and secures the request from being tampered.
 
 You can create an order:
@@ -263,7 +263,7 @@ body, err := client.Order.Create(data, nil)
 : `integer` The transaction amount, expressed in the currency subunit. For example, for an actual amount of , the value of this field should be `29935`.
 
 `currency` _mandatory_
-: `string` The currency in which the transaction should be made. Refer to the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/paypal/supported-currencies.md). Length must be of 3 characters.
+: `string` The currency in which the transaction should be made. Refer to the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/paypal/supported-currencies.md). Length must be of 3 characters.
 
 `receipt` _optional_
 : `string` Your receipt id for this order should be passed here. Maximum length is 40 characters.
@@ -283,13 +283,13 @@ body, err := client.Order.Create(data, nil)
   
 ### Response Parameters
 
-     Descriptions for the response parameters are present in the [Orders Entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/entity.md) parameters table.
+     Descriptions for the response parameters are present in the [Orders Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/entity.md) parameters table.
     
 
   
 ### Error Response Parameters
 
-     The error response parameters are available in the [API Reference Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md).
+     The error response parameters are available in the [API Reference Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md).
     
 
 ## 1.2 Create a Payment
@@ -320,7 +320,7 @@ If the payment made by the customer is successful, the following fields are sent
 
 ### Failure Callback
 
-If the payment has failed, the callback will contain details of the error. Refer to [Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#errors.md) for details.
+If the payment has failed, the callback will contain details of the error. Refer to [Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#errors) for details.
 
 ## 1.4 Verify Payment Signature
 
@@ -350,6 +350,6 @@ if (generated_signature == razorpay_signature) {
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/test-integration.md)
 
 @include payment-methods/paypal-settlements-refunds

@@ -64,15 +64,15 @@ description: Create an authorisation transaction for cards using Razorpay APIs.
          @include recurring-payments/auth-card-payment-api-additional-fields
         
 
-After this step, you can proceed to integrate with the [Fetch Token API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/cards/tokens.md).
+After this step, you can proceed to integrate with the [Fetch Token API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/cards/tokens.md).
 
 ## 1.2. Using a Registration Link
 
-Registration Link is an alternate way of creating an authorisation transaction. You can create a registration link using the API or [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create/#1-create-a-registration-link.md).
+Registration Link is an alternate way of creating an authorisation transaction. You can create a registration link using the API or [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#1-create-a-registration-link).
 
 - You do not have to create a customer if you choose the registration link method for creating an authorisation transaction.
 
-- When you create a registration link, an [invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices.md) is automatically issued to the customer. They can use this invoice to make the authorisation payment.
+- When you create a registration link, an [invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md) is automatically issued to the customer. They can use this invoice to make the authorisation payment.
 - A registration link should always have an order amount (in subunits) the customer will be charged when making the authorisation payment. For cards, the amount should be  in the case of cards.
 
 > **INFO**
@@ -81,7 +81,7 @@ Registration Link is an alternate way of creating an authorisation transaction. 
 > 
 > **Handy Tips**
 > 
-> You can [use Webhooks to get notifications about successful payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/webhooks/#check-authorization-link-status-using-webhooks.md) against a registration link.
+> You can [use Webhooks to get notifications about successful payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#check-authorization-link-status-using-webhooks) against a registration link.
 > 
 > 
 
@@ -140,4 +140,4 @@ Registration Link is an alternate way of creating an authorisation transaction. 
          @include recurring-payments/auth-link-res
         
 
-After this step, you can proceed to integrate with the [Fetch Token API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/cards/tokens.md).
+After this step, you can proceed to integrate with the [Fetch Token API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/cards/tokens.md).

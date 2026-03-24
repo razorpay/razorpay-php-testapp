@@ -5,7 +5,7 @@ description: Subscribe to UPI Reserve Pay webhook events to track token and mand
 
 # Webhooks
 
-Subscribe to the following webhook events to receive real-time notifications about token and mandate status changes. For general webhook setup instructions, see [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
+Subscribe to the following webhook events to receive real-time notifications about token and mandate status changes. For general webhook setup instructions, see [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
 
 ## token.confirmed
 

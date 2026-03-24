@@ -5,7 +5,7 @@ description: Provide No Cost EMI Offers to customers at the Razorpay Checkout.
 
 # About No Cost EMI Offers
 
-No Cost EMI is an offer by which your customer pays the EMI provider only the product price, which is equally divided over the repayment timeline. Know more about [No Cost EMIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/no-cost-emi.md) as a Razorpay payment method. 
+No Cost EMI is an offer by which your customer pays the EMI provider only the product price, which is equally divided over the repayment timeline. Know more about [No Cost EMIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/no-cost-emi.md) as a Razorpay payment method. 
 
 > **WARN**
 >
@@ -85,8 +85,8 @@ We will replace this value in the above equation to calculate the value of P.
 
 ### Related Information
 
-- [Create No Cost EMI Offers from the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/no-cost-emi/create.md)
-- [Integrate No Cost EMI Offers with Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/no-cost-emi/standard-integration.md)
-- [Tutorial on How to Create No Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/no-cost-emi/tutorial.md)
-- [No Cost EMI FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/low-cost-emi/faqs.md)
-- [EMI²](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi².md)
+- [Create No Cost EMI Offers from the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/no-cost-emi/create.md)
+- [Integrate No Cost EMI Offers with Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/no-cost-emi/standard-integration.md)
+- [Tutorial on How to Create No Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/no-cost-emi/tutorial.md)
+- [No Cost EMI FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/low-cost-emi/faqs.md)
+- [EMI²](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi².md)

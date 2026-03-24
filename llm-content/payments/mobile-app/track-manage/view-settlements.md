@@ -36,5 +36,5 @@ Some reasons for failure are: -  Your bank account is inactive or frozen.
 
 ### Related Information
 
-- [Payments Mobile App](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app.md)
-- [Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements.md)
+- [Payments Mobile App](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app.md)
+- [Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md)

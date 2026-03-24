@@ -151,7 +151,7 @@ Follow the integration steps given below:
 
 ## Step 2: Restart Application
 
-Restart your AI assistant application after configuration. You should see [Razorpay MCP tools](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/tools-reference.md) become available. Test the connection by asking: **Show me available Razorpay tools**.
+Restart your AI assistant application after configuration. You should see [Razorpay MCP tools](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/tools-reference.md) become available. Test the connection by asking: **Show me available Razorpay tools**.
 
 If successful, you should see the complete list of Razorpay MCP tools, including tools that are restricted in the Remote MCP Server.
 
@@ -160,5 +160,5 @@ If successful, you should see the complete list of Razorpay MCP tools, including
 Once your Local MCP Server is running:
 
 1. **Explore Advanced Features**: Access all tools including refunds and settlements.
-2. **Configure Advanced Options**: See [Configuration Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/configuration.md) for detailed settings.
-3. **Review Use Cases**: Check [practical examples](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/use-cases.md) that leverage local-only tools.
+2. **Configure Advanced Options**: See [Configuration Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/configuration.md) for detailed settings.
+3. **Review Use Cases**: Check [practical examples](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/use-cases.md) that leverage local-only tools.

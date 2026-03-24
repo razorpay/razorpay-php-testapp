@@ -5,7 +5,7 @@ description: Create and fetch a Fund account for a Customer.
 
 # Customer Fund Account APIs
 
-Using Razorpay APIs, you can create a fund account for a customer. Know more about [customers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers.md).
+Using Razorpay APIs, you can create a fund account for a customer. Know more about [customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md).
 
 ## Create a Fund Account
 

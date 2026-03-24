@@ -26,16 +26,16 @@ You can use the Risk Analytics Dashboard to perform a detailed analysis of your 
 1. Log in to your Dashboard.
 2. Navigate to **Risk and Fraud**.
 3. View the details of the **Fraud-to-sales** ratio, **Disputes-to-sales** ratio, and **Risk decline rate** on the Dashboard.
-   ![Risk Analytics on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/risk-analytics-dashboard.jpg.md)
+   ![Risk Analytics on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/risk-analytics-dashboard.jpg.md)
 
 ### Fraud-to-Sales Ratio
 
-The fraud-to-sales ratio is a metric used to measure the extent of fraudulent activity in total sales or transactions. It helps assess the proportion of fraudulent transactions or activities occurring within the sales volume. Know more about the [fraud-to-sales ratio](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/risk-visibility-dashboard/fraud-sales-ratio.md).
+The fraud-to-sales ratio is a metric used to measure the extent of fraudulent activity in total sales or transactions. It helps assess the proportion of fraudulent transactions or activities occurring within the sales volume. Know more about the [fraud-to-sales ratio](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/risk-visibility-dashboard/fraud-sales-ratio.md).
 
 ### Dispute-to-Sales Ratio
 
-The dispute-to-sales ratio is a metric used in financial analysis to measure the proportion of disputed transactions about total sales or transactions processed by a business within a specific period. It helps understand the frequency and magnitude of disputes relative to the overall sales volume. Know more about the [dispute-to-sales ratio](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/risk-visibility-dashboard/dispute-sales-ratio.md).
+The dispute-to-sales ratio is a metric used in financial analysis to measure the proportion of disputed transactions about total sales or transactions processed by a business within a specific period. It helps understand the frequency and magnitude of disputes relative to the overall sales volume. Know more about the [dispute-to-sales ratio](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/risk-visibility-dashboard/dispute-sales-ratio.md).
 
 ### Risk Decline Rate
 
-The risk decline ratio is a metric used to measure the proportion of transactions declined by a system or a payment processor due to perceived risk factors against the total number of transactions processed or received. Know more about the [risk decline rate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/risk-visibility-dashboard/risk-decline-rate.md).
+The risk decline ratio is a metric used to measure the proportion of transactions declined by a system or a payment processor due to perceived risk factors against the total number of transactions processed or received. Know more about the [risk decline rate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/risk-visibility-dashboard/risk-decline-rate.md).

@@ -28,7 +28,7 @@ Payment Methods such as netbanking, credit and debit cards, wallets, UPI and Pay
 > We do not support EMI, Offers and UPI intent on Hosted Checkout.
 > 
 
-Know how to [enable](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-methods/#enable-payment-methods.md) and [disable](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-methods/#disable-payment-methods.md) Payment Methods from the Dashboard.
+Know how to [enable](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-methods.md#enable-payment-methods) and [disable](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-methods.md#disable-payment-methods) Payment Methods from the Dashboard.
 
 ## Integration Steps
 
@@ -36,15 +36,15 @@ Know how to [enable](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/da
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup). 
 
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
 Follow these integration steps:
 
-- [Build Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/hosted/integration-steps/#1-build-integration.md)
-- [Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/hosted/integration-steps/#2-test-integration.md)
-- [Go-live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/hosted/integration-steps/#3-go-live-checklist.md)
+- [Build Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/hosted/integration-steps.md#1-build-integration)
+- [Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/hosted/integration-steps.md#2-test-integration)
+- [Go-live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/hosted/integration-steps.md#3-go-live-checklist)
 
 ### Related Information
 
-- [Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/hosted/best-practices.md)
-- [Troubleshooting and FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/hosted/troubleshooting-faqs.md)
+- [Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/hosted/best-practices.md)
+- [Troubleshooting and FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/hosted/troubleshooting-faqs.md)

@@ -8,19 +8,19 @@ description: Explore how to log in to the Payroll Dashboard and complete the onb
 
 As an employee, you can use the [Payroll Dashboard](https://payroll.razorpay.com/dashboard) to:
 
-- [View your payslips](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/payslips-form16.md).
-- [Apply for leaves](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/attendance-leaves.md).
-- [Apply for reimbursements](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/reimbursements.md).
-- [Manage Income Tax declarations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations.md).
-- [Declare and submit Flexible Benefits proofs](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations/flexible-benefits.md).
-- [Apply for resignation](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/resignation.md).
+- [View your payslips](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/payslips-form16.md).
+- [Apply for leaves](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/attendance-leaves.md).
+- [Apply for reimbursements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/reimbursements.md).
+- [Manage Income Tax declarations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations.md).
+- [Declare and submit Flexible Benefits proofs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations/flexible-benefits.md).
+- [Apply for resignation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/resignation.md).
 
 > **SUCCESS**
 >
 > 
 > **Available Now!**
 > 
-> Explore the [video tutorials](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/video-tutorials.md) for employee-facing features.
+> Explore the [video tutorials](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/video-tutorials.md) for employee-facing features.
 > 
 
 ## Create Account
@@ -35,7 +35,7 @@ We automatically create an account for you when your organisation adds you to Pa
 
             1. Log in to the email inbox that your organisation's administrator has used to create your Payroll account. This email could be your personal or work email id.
             1. Search and open the email with subject: **[Organisation Name]** **Welcome to RazorpayX Payroll**. Click **GET STARTED**. 
-                ![Payroll sign in to Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-get-started.jpg.md)
+                ![Payroll sign in to Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-get-started.jpg.md)
             1. Create a secure password of 8 characters, including special characters, numbers and upper case letters.
 
         
@@ -75,14 +75,14 @@ If you are unable to log in to the Dashboard, refer to the troubleshooting steps
 > 
 > **Available Now!**
 > 
-> Watch the video on to how to complete the [employee onboarding process](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/video-tutorials/#employee-login-and-onboarding.md).
+> Watch the video on to how to complete the [employee onboarding process](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/video-tutorials.md#employee-login-and-onboarding).
 > 
 
 To complete the onboarding process:
 
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
 1. Navigate to **Reminders** → **profile**.
-    ![Payroll update bank info](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-onboarding.jpg.md)
+    ![Payroll update bank info](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-onboarding.jpg.md)
 
 This opens the Employee Onboarding page. Complete the following three steps:
 
@@ -104,7 +104,7 @@ This opens the Employee Onboarding page. Complete the following three steps:
             1. Select the **Payment Mode** from the drop-down menu. This is mode via which you receive your salary payment.
             1. Click **CONTINUE**.
 
-            ![Razorpay Payroll enter bank information](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-payment-info.jpg.md) 
+            ![Razorpay Payroll enter bank information](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-payment-info.jpg.md) 
         
 
     
@@ -138,21 +138,21 @@ After you log in, you can view the Dashboard home page. Here you can:
 - View recent notifications such as reimbursement updates, approvals and more. 
 - Access your **User Profile**. 
 
-![RazorpayX Payroll View Dashboard Home page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-dashboard-homepage.jpg.md)
+![RazorpayX Payroll View Dashboard Home page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-dashboard-homepage.jpg.md)
 
 > **INFO**
 >
 > 
 > **Handy Tips**
 > 
-> You can access other Dashboard pages if you are authorised as a collaborator or are permitted to view the pages via [User Roles](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/user-roles-workflows.md). 
+> You can access other Dashboard pages if you are authorised as a collaborator or are permitted to view the pages via [User Roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/user-roles-workflows.md). 
 > 
 
 ## Next Steps 
 
-Complete your [User Profile Setup](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/my-profile.md).
+Complete your [User Profile Setup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/my-profile.md).
 
 ### Related Information
 
-- [Integrations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations.md) 
-- [IT Declarations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations.md)
+- [Integrations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations.md) 
+- [IT Declarations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations.md)

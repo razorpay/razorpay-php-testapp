@@ -15,7 +15,7 @@ With Magic Checkout, you can urge customers who chose cash on delivery while pla
 > **Dependencies**
 > 
 > - This is an on-demand feature. Write to us at [magic-checkout-support@razorpay.com](mailto:magic-checkout-support@razorpay.com) to get this feature enabled for your account.
-> - This feature is available only if you use [Shopify](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify.md) or [WooCommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce.md) (v4.3.5 and above) plugin.
+> - This feature is available only if you use [Shopify](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify.md) or [WooCommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md) (v4.3.5 and above) plugin.
 > 
 
     
@@ -45,7 +45,7 @@ Follow the steps given below:
 1. Log in to the Dashboard and navigate to **Magic Checkout** → **Setup & Settings**.
 2. Navigate to **COD Setup** → **Convert COD to Prepaid**.
 3. Click **Convert COD to Prepaid**.
-    ![Navigate to convert COD to prepaid on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-prepay-cod.jpg.md)
+    ![Navigate to convert COD to prepaid on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-prepay-cod.jpg.md)
 
     
 > **INFO**
@@ -53,8 +53,8 @@ Follow the steps given below:
 > 
 >     **Manually Review COD Orders**
 > 
->     The **Enable conversion for** field will appear if you enable the [Manually review COD orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders.md) feature. The COD conversion will be based on the type of RTO risk.
->         ![Enable conversion field for manual review](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-prepay-cod-manual-review.jpg.md)
+>     The **Enable conversion for** field will appear if you enable the [Manually review COD orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders.md) feature. The COD conversion will be based on the type of RTO risk.
+>         ![Enable conversion field for manual review](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-prepay-cod-manual-review.jpg.md)
 >     
 
 4. Enable **Discount** to add a flat or percentage discount to the total COD order amount. Adding a discount increases the probability of conversion by up to 30%. Select the type of discount you want to apply: 
@@ -73,14 +73,14 @@ Follow the steps given below:
             In this type, a fixed amount is deducted from the original amount.
             - **Discount value**: Enter an amount by which the original price should be reduced. For example, if ₹150 is the flat discount applied, ₹150 is deducted from the original price.
             - **Minimum order value**: Enter the minimum bill amount for which the discount can be applied. For example, if you enter ₹800, the discount is applied to orders whose bill amount is ₹800 or above.
-            ![offer flat discount](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-prepay-flat.jpg.md)  
+            ![offer flat discount](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-prepay-flat.jpg.md)  
         
         
             In this type, the offer is calculated in percentage.
             - **Discount percentage**: The percentage by which the original price should be reduced. For example, if 10 is the percentage discount to be applied, on an order amount of ₹900, ₹90 will be deducted.
             - **Maximum discount**: The maximum amount that can be deducted from the bill amount. For example, you can ensure that the customer cannot avail of a discount higher than ₹500, irrespective of the order amount.
             - **Minimum order value**: Enter the minimum bill amount for which the offer can be applied. For example, if you enter ₹800, the discount is applied to orders whose bill amount is ₹800 or above.
-            ![offer percentage discount](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-prepay-percentage.jpg.md)
+            ![offer percentage discount](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-prepay-percentage.jpg.md)
         
     
 5. Select the **Order conversion validity** based on your requirement. Customers will not be able to convert COD orders to prepaid post validity. For example, if you set the order conversion validity to 15 minutes, customers cannot convert COD orders to prepaid 15 minutes after sending the conversion link. 
@@ -104,8 +104,8 @@ Follow the steps given below:
 > 
 >     **WooCommerce API Credentials**
 >     
->     If you are a WooCommerce user and have not opted for the [Manually review COD orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders.md) feature, you must provide your **WooCommerce API credentials** to enable us to send the conversion links to your customers.
->         ![Submit API keys to enable conversion links](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-submit-keys.jpg.md)
+>     If you are a WooCommerce user and have not opted for the [Manually review COD orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders.md) feature, you must provide your **WooCommerce API credentials** to enable us to send the conversion links to your customers.
+>         ![Submit API keys to enable conversion links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-submit-keys.jpg.md)
 >     
 
 > **WARN**
@@ -122,7 +122,7 @@ Follow the steps given below:
 
 After you send the conversion link to your customers, you can filter the search by Order Id and track the conversion status on the Dashboard. Navigate to **Magic Checkout** → **COD Order Conversion**. 
 
-![View order Id and conversion status on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-prepay-status.jpg.md)
+![View order Id and conversion status on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-prepay-status.jpg.md)
 
     
 ### List of Conversion States
@@ -152,7 +152,7 @@ After you send the conversion link to your customers, you can filter the search 
 >          When the link is in the **Conversion Link Sent** state, you can choose to expire the link manually. Follow the steps given below:
 >              1. In the **COD Order Conversion** tab, select the **Order Id** for which you want to expire the conversion link. 
 >              2. Under **Actions**, click the clock icon.
->                  ![Manually expire the conversion link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-prepay-expire.jpg.md)
+>                  ![Manually expire the conversion link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-prepay-expire.jpg.md)
 >              3. Click **Expire Link** to confirm your action.
 >          
 
@@ -161,7 +161,7 @@ After you send the conversion link to your customers, you can filter the search 
 ## Customer Experience
 
 Customers view the conversion link on WhatsApp sent via Razorpay's WhatsApp handle and can choose to prepay for the order.
-![View Conversion link on WhatsApp](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-prepay-link.jpg.md)
+![View Conversion link on WhatsApp](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-prepay-link.jpg.md)
 
 ### Edit Display Name *(Optional)*
 
@@ -172,6 +172,6 @@ You can change the business name displayed on the WhatsApp message to a name tha
 
          1. Log in to the Dashboard and navigate to **Account & Settings**.
          2. In the **Business settings** section, select **Account details**.
-             ![Edit Account details on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-settings.jpg.md)
+             ![Edit Account details on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-settings.jpg.md)
          3. Click **Edit** and modify the name. 
-             ![Edit Display name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-setting-edit-display-name.jpg.md)
+             ![Edit Display name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-setting-edit-display-name.jpg.md)

@@ -171,7 +171,7 @@ Refer to the guidelines below to understand the proofs to submit for the respect
 ### Medical Slabs Information
 
              
-                                 ![Payroll medical slabs](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-medical-info-slabs.jpg.md)
+                                 ![Payroll medical slabs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-medical-info-slabs.jpg.md)
                             
 
                     
@@ -255,7 +255,7 @@ Refer to the guidelines below to understand the proofs to submit for the respect
             
                 Any donations to trusts, funds, political parties and others are exempt under 80G to a certain limit. 
 
-                Uploading 80G proofs is only possible if you allow employees' [80G contributions](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tax-deductions-setup/#disable-80g.md).
+                Uploading 80G proofs is only possible if you allow employees' [80G contributions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tax-deductions-setup.md#disable-80g).
 
                 Proof of payment and receipt must be submitted. 
             

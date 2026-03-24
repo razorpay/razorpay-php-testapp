@@ -5,21 +5,21 @@ description: List of Fund Accounts APIs to create, retrieve and activate Fund Ac
 
 # Fund Accounts
 
-Every Contact has an associated Fund Account. When you [make payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md) to a Contact, they receive the amount in their Fund Account. Fund Accounts can be of [four types](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts/#fund-account-types.md), and a Contact can have multiple Fund Accounts.  
+Every Contact has an associated Fund Account. When you [make payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md) to a Contact, they receive the amount in their Fund Account. Fund Accounts can be of [four types](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts.md#fund-account-types), and a Contact can have multiple Fund Accounts.  
  
 
-You must [create a Contact](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/create.md) to create a Fund Account. We recommend you to create Contacts and Fund Accounts beforehand to improve the [payout processing time](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/status-details.md). When making payouts, ensure to [allowlist IPs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/allowlist-ip.md), else the request will fail. 
+You must [create a Contact](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts/create.md) to create a Fund Account. We recommend you to create Contacts and Fund Accounts beforehand to improve the [payout processing time](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/status-details.md). When making payouts, ensure to [allowlist IPs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/allowlist-ip.md), else the request will fail. 
  
 
-Fork the Razorpay Postman Public Workspace and try the Fund Accounts APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/api-keys.md).
+Fork the Razorpay Postman Public Workspace and try the Fund Accounts APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/api-keys.md).
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-47aa8c0b-d897-48d2-aa5a-5d5c10c5c2b1)
 
 ### Related Guides
 
-[About Fund Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts.md)
-[Set Up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payouts.md)
-[Webhook Payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/account-validation.md)
+[About Fund Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts.md)
+[Set Up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payouts.md)
+[Webhook Payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/account-validation.md)
 
 ### Endpoints
 

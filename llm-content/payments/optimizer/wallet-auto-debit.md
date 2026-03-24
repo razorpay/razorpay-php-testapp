@@ -7,7 +7,7 @@ description: Pay instantly using wallet auto-debit with a single click.
 
 Wallet Auto-Debit streamlines the payment process and significantly boosts success rates, delivering an exceptional payment experience to your customers. The customers can complete wallet transactions with unparalleled speed and simplicity.
 
-![select Paytm one click pay final](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-one-click-sufficient-balance.jpg.md)
+![select Paytm one click pay final](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-one-click-sufficient-balance.jpg.md)
 
 > **WARN**
 >
@@ -36,27 +36,27 @@ Wallet Auto-Debit streamlines the payment process and significantly boosts succe
 2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
 3. In the top-right section, click **Add Provider**.
 4. Select **PayTm** in the list of gateways available and click **Next**.
-    ![Add Paytm one click pay](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-one-click-paytm-add.jpg.md)
+    ![Add Paytm one click pay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-one-click-paytm-add.jpg.md)
 5. Select **Server-to-Server** and click **Next**.
-    ![Select Paytm server-to-server](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-paytm-select-s2s.jpg.md)
+    ![Select Paytm server-to-server](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-paytm-select-s2s.jpg.md)
 6. Enter the provider name and description and click **Next**.
-    ![Add Paytm provider details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-paytm-add-provider.jpg.md)
+    ![Add Paytm provider details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-paytm-add-provider.jpg.md)
 7. Enter your **INDUSTRY_TYPE_ID**, **KEY**, **MID** (merchant ID) and **WEBSITE** details.
 8. Enable the **Wallet auto-debit** button, enter your **Client Key and Secret** and click **Submit**.
-    ![Add Paytm one click pay final](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-one-click-paytm-add-final.jpg.md)
+    ![Add Paytm one click pay final](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-one-click-paytm-add-final.jpg.md)
 
 ## Razorpay Wallet Auto-Debit (Customer Flow)
 Below is a complete end-to-end flow about how Razorpay Wallet Auto-Debit works:
 
 1. The customer clicks Pay Now on your website and is redirected to the Razorpay Standard Checkout.
-     ![pay now standard checkout screen](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-one-click-paytm-pay-now.jpg.md)
+     ![pay now standard checkout screen](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-one-click-paytm-pay-now.jpg.md)
 
 2. The customer selects **Wallet** and **Paytm**.
-     ![select Paytm one click pay final](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-one-click-paytm-wallet.jpg.md)
+     ![select Paytm one click pay final](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-one-click-paytm-wallet.jpg.md)
 
     - If the customer is a first-time user, they will be asked to enter the mobile number and the OTP to link their wallet and complete the payment.
-         ![select Paytm one click pay final](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-one-click-first-user.jpg.md)
+         ![select Paytm one click pay final](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-one-click-first-user.jpg.md)
     - If the customer has sufficient balance in their wallet, they can pay directly with a single click.
-         ![select Paytm one click pay final](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-one-click-sufficient-balance.jpg.md)
+         ![select Paytm one click pay final](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-one-click-sufficient-balance.jpg.md)
     - If the customer does not have sufficient balance in their wallet, they will be redirected to a Paytm page where they can add money to their balance and complete the payment.
-         ![select Paytm one click pay final](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-one-click-insufficient-balance.gif.md)
+         ![select Paytm one click pay final](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-one-click-insufficient-balance.gif.md)

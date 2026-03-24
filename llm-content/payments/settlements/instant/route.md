@@ -6,7 +6,7 @@ description: Explore how instant settlements on Razorpay Route's Linked Accounts
 
 # Instant Settlements on Route
 
-[Instant settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/instant.md) on Route enable you to settle payments instantly to your Linked Accounts for a small fee. You can choose which Linked Account to enable instant settlements on, and all subsequent transfers to that account will be processed instantly.
+[Instant settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/instant.md) on Route enable you to settle payments instantly to your Linked Accounts for a small fee. You can choose which Linked Account to enable instant settlements on, and all subsequent transfers to that account will be processed instantly.
 
 Transactions settled instantly are credited to your Linked Accounts' bank accounts within 10 minutes. Instant settlements on Route are available 24/7, including on banking holidays.
 
@@ -19,7 +19,7 @@ Transactions settled instantly are credited to your Linked Accounts' bank accoun
          
             Your lending partners may wish to receive loan repayments instantly when the payment is captured instead of on a T+2 basis (T being the payment date), which enables them to disburse loans faster for other applicants.
             
-            With instant settlements, you can [create a Linked Account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/#add-and-manage-linked-accounts.md) on Route, initiate a transfer and settle the payments to them instantly.
+            With instant settlements, you can [create a Linked Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md#add-and-manage-linked-accounts) on Route, initiate a transfer and settle the payments to them instantly.
 
          - **Logistics** 
 
@@ -40,7 +40,7 @@ Transactions settled instantly are credited to your Linked Accounts' bank accoun
 ## Prerequisites
 
 To enable instant settlements on Route, ensure the following: 
-- You have an [existing/created Linked Account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/#add-and-manage-linked-accounts.md) on Route.
+- You have an [existing/created Linked Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md#add-and-manage-linked-accounts) on Route.
 - You have [disabled refunds from Linked Accounts](#how-to-disable-refunds-for-a-linked-account).
 
 > **WARN**
@@ -49,7 +49,7 @@ To enable instant settlements on Route, ensure the following:
 > **Watch Out!**
 > 
 > Instant Settlements on Route fail when: 
-> - The [transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/faqs/#1-how-can-i-transfer-money-to-customers.md) amount exceeds 5 lakhs.
+> - The [transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/faqs.md#1-how-can-i-transfer-money-to-customers) amount exceeds 5 lakhs.
 > 
 >     For example, if you choose to transfer ₹17 lakhs, you must create 3 transfers of 5 lakhs each and another transfer of ₹2 lakhs.
 > - You have not disabled refunds on Linked Accounts. 
@@ -63,7 +63,7 @@ To use instant settlements on Route:
 1. Contact support to enable instant settlements on Route for the Linked Accounts.
 1. Initiate transfers to your Linked Account.
 1. The Linked Account/Vendor receives the transferred amount instantly.
-    ![Instant settlements on Route How it Works](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/settlements-instant-route-v2.jpg.md)
+    ![Instant settlements on Route How it Works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/settlements-instant-route-v2.jpg.md)
 
 ### 1. Enable Feature
 
@@ -93,7 +93,7 @@ There are two steps to enable instant settlements on Route:
                 1. Go to **Route** in the left menu.
                 1. Navigate to the **Accounts** tab.
                 1. View the relevant Linked Accounts and click the **Allow Refunds** toggle to disable it.
-                    ![Disable refunds on Razorpay Dashboard for Route](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-is-route-disable-refunds.jpg.md)
+                    ![Disable refunds on Razorpay Dashboard for Route](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-is-route-disable-refunds.jpg.md)
                 1. In the **Disable Allow Refunds** pop-up modal, click **Disable**.
 
                 You have successfully disabled refunds from this Linked Account.
@@ -108,10 +108,10 @@ This successfully enables instant settlements on Route for your account.
 After we enable the feature, you must initiate a transfer via Orders or Payments to the Linked Accounts. The initiated transfers are settled instantly, within minutes. You can also use the APIs to initiate transfers.
 
 Know how to initiate a transfer via: 
-- [Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-funds-to-linked-accounts/#transfer-via-orders.md).
-- [Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-funds-to-linked-accounts/#transfers-via-payments.md).
-- [Create Transfers from Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/create-transfers-orders.md).
-- [Create Transfers from Payments API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/create-transfers-payments.md).
+- [Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md#transfer-via-orders).
+- [Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md#transfers-via-payments).
+- [Create Transfers from Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/create-transfers-orders.md).
+- [Create Transfers from Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/create-transfers-payments.md).
 
 > **WARN**
 >

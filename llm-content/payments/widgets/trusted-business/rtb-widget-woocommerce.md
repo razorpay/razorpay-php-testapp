@@ -49,15 +49,15 @@ Follow the below steps to install the plugin:
      1. [Sign up](https://dashboard.razorpay.com/signup?) for a Razorpay account.
      2. Complete your KYC process. To confirm your successful activation or clarify any KYC queries, we will contact you via WhatsApp, SMS and email.
      3. From the Wordpress Plugins list, [install](https://wordpress.org/plugins/woo-razorpay/) the latest Razorpay for WooCommerce plugin with RTB widget.
-     4. After you install the plugin, go to the plugin settings and enter the Razorpay [API Key](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) ID and secret. Click **save** to check eligibility for the RTB.
-          ![Enter API key id and secret](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/woocommerce-enter-keyid-secret.jpg.md)
-     If you are eligible, the option to enable the RTB widget will appear. Select the checkbox against **Enable RTB Widget?** and click **Save changes**. If you are not eligible, refer to our [eligibility requirements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/features/trusted-business/#eligibility-requirements-for-razorpay-trusted-business-badge.md).
-          ![Enable RTB widget](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/enable-rtb-widget.jpg.md)
+     4. After you install the plugin, go to the plugin settings and enter the Razorpay [API Key](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) ID and secret. Click **save** to check eligibility for the RTB.
+          ![Enter API key id and secret](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/woocommerce-enter-keyid-secret.jpg.md)
+     If you are eligible, the option to enable the RTB widget will appear. Select the checkbox against **Enable RTB Widget?** and click **Save changes**. If you are not eligible, refer to our [eligibility requirements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/features/trusted-business.md#eligibility-requirements-for-razorpay-trusted-business-badge).
+          ![Enable RTB widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/enable-rtb-widget.jpg.md)
 
      This completes your integration.
 
      To verify the integration, visit your WooCommerce website and access any of your product pages. Preview the page to check how the RTB widget appears to your buyers.
-     ![RTB widget demo page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rtb-widget-demo-page.jpg.md)
+     ![RTB widget demo page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rtb-widget-demo-page.jpg.md)
     
 
 ### 2. Test Integration
@@ -71,7 +71,7 @@ You can now preview and test the widget on the page where you integrated it. Fol
 
 ### 3. Go-live Checklist
 
-After previewing and testing the widget on your Wordpress Dashboard, you must replace the test mode API keys with the live mode API keys. You can generate the [live mode API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) from the Dashboard.
+After previewing and testing the widget on your Wordpress Dashboard, you must replace the test mode API keys with the live mode API keys. You can generate the [live mode API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) from the Dashboard.
 
 Your customers can view the widget on your website. After they click the widget, it redirects them to the RTB website to access more information. 
 
@@ -80,13 +80,13 @@ Your customers can view the widget on your website. After they click the widget,
         
 ### On Web
 
-            ![View the RTB widget on desktop](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rtb-widget-desktop.jpg.md)
+            ![View the RTB widget on desktop](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rtb-widget-desktop.jpg.md)
             
 
         
 ### On Mobile
 
-            ![View the RTB widget on mobile](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rtb-widget-mobile.jpg.md)
+            ![View the RTB widget on mobile](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rtb-widget-mobile.jpg.md)
             
 
     
@@ -97,13 +97,13 @@ Your customers can view the widget on your website. After they click the widget,
         
 ### On Web
 
-            ![Desktop view of the RTB website for more information](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rtb-widget-website-desktop.jpg.md)
+            ![Desktop view of the RTB website for more information](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rtb-widget-website-desktop.jpg.md)
             
 
         
 ### On Mobile
 
-            ![Mobile view of the RTB website for more information](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rtb-widget-website-mobile.jpg.md)
+            ![Mobile view of the RTB website for more information](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rtb-widget-website-mobile.jpg.md)
             
 
     

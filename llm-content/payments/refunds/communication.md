@@ -15,7 +15,7 @@ As a customer, you will be notified of the specific payment to be refunded in 7-
 > 
 > **Customer Looking for Refund**
 > 
-> If you are a customer looking for a refund, know more about [customer refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers/customer-refunds.md).
+> If you are a customer looking for a refund, know more about [customer refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers/customer-refunds.md).
 > 
 
 ## Refund Mailers
@@ -25,13 +25,13 @@ Razorpay sends you the following email communications for refunds:
 - Refund Mailer
  After you process the refund, Razorpay sends you an email with the refund id and unique reference number (ARN, RRN or UTR) provided by the bank.
 
-![Refund Mailer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/normal_refund_mailer1.jpg.md)
+![Refund Mailer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/normal_refund_mailer1.jpg.md)
 
 - RRN/ARN Update Mailer
  When you refund a credit card payment, the banking partner will share an ARN with Razorpay. Razorpay sends you an email with this ARN number.
 
  
-![RRN/ARN Update Mailer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/normal_arn_mailer.jpg.md)
+![RRN/ARN Update Mailer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/normal_arn_mailer.jpg.md)
 
 > **INFO**
 >
@@ -43,5 +43,5 @@ Razorpay sends you the following email communications for refunds:
 
 ### Related Information
 
-- [Customer Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers/customer-refunds.md)
-- [Refunds APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/apis.md)
+- [Customer Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers/customer-refunds.md)
+- [Refunds APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/apis.md)

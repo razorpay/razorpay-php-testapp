@@ -176,7 +176,7 @@ Item payment = client.Item.Fetch(itemId).Edit(itemRequest);
 : `integer` The price of the item in the lowest unit of currency.
 
 `currency` _optional_
-: `string` The currency in which the amount should be charged. Check the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` The currency in which the amount should be charged. Check the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 `active` _optional_
 : `boolean` Indicates the status of the item. Possible values:
@@ -206,7 +206,7 @@ Item payment = client.Item.Fetch(itemId).Edit(itemRequest);
 : `integer` The per unit billing amount for each individual unit.
 
 `currency`
-: `string` The currency in which the amount should be charged. Check the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` The currency in which the amount should be charged. Check the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 `type`
 : `string` Here, it must be `invoice`.

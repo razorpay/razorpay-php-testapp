@@ -9,23 +9,23 @@ description: Use Route to create APIs for Linked Accounts, Stakeholders, Product
 You should create a linked account to integrate Route and start transferring payments to vendors.
 
  
- Below are the steps to integrate Route. You can also refer to our comprehensive [Route Integration guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/integration-guide.md).
+ Below are the steps to integrate Route. You can also refer to our comprehensive [Route Integration guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/integration-guide.md).
 
- 1. [Create a Linked Account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/create-linked-account.md)
- 2. [Create a Stakeholder](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/create-stakeholder.md)
- 3. [Request a Product Configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/request-product-config.md)
- 4. [Update a Product Configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/update-product-config.md)
- 5. Transfer funds to Linked Accounts using [Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/create-transfers-orders.md), [Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/create-transfers-payments.md) or [Direct Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/direct-transfers.md) methods.
+ 1. [Create a Linked Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/create-linked-account.md)
+ 2. [Create a Stakeholder](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/create-stakeholder.md)
+ 3. [Request a Product Configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/request-product-config.md)
+ 4. [Update a Product Configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/update-product-config.md)
+ 5. Transfer funds to Linked Accounts using [Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/create-transfers-orders.md), [Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/create-transfers-payments.md) or [Direct Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/direct-transfers.md) methods.
 
- Fork the Razorpay Postman Public Workspace and try the Linked Account APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+ Fork the Razorpay Postman Public Workspace and try the Linked Account APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
  [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-ee29e3a3-f06a-464c-b9f2-03a20e875591)
 
 ### Related Guides
 
-[About Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account.md)
-[About Route](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route.md)
-[Integrate With Route](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/integration-guide.md)
+[About Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md)
+[About Route](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route.md)
+[Integrate With Route](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/integration-guide.md)
 
 ### Endpoints
 

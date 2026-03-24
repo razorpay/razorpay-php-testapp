@@ -40,7 +40,7 @@ This document immediately becomes visible to all your employees and on their Das
 > 
 > **Watch Out!**
 > 
-> Only administrators and user roles who have been specifically granted this permission can upload common documents. Know more about [Payment Pages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages.md) user permissions in Payroll. 
+> Only administrators and user roles who have been specifically granted this permission can upload common documents. Know more about [Payment Pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages.md) user permissions in Payroll. 
 > 
 
 ## Manage Templates
@@ -150,5 +150,5 @@ If not to add templates, you can use the **Generate Letter** menu to generate fr
 
 ### Related Information
 
-- [Admin Role - HR Operations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator.md)
-- [Payroll Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts.md)
+- [Admin Role - HR Operations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md)
+- [Payroll Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md)

@@ -61,7 +61,7 @@ Notes | Additional Notes.
 
 Navigate to **Account Statement** → **Automate Accounting** on the Dashboard and **Select** the software of your choice. 
 
-![Accounting Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-account-statement-integrate-softwares.jpg.md)
+![Accounting Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-account-statement-integrate-softwares.jpg.md)
 
 [Video: https://www.youtube.com/embed/k_2wm9SiFQ8]
 
@@ -77,5 +77,5 @@ To keep your opening balance up-to-date:
 1. Log in to your Zoho Books Account and navigate to **Settings**.
 2. Select **Opening Balances** and **click Edit**.
 3. Scroll to the **Bank** section and update your opening balance.
-    ![image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-zoho-account-statement-1.jpg.md)
+    ![image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-zoho-account-statement-1.jpg.md)
 4. Enter and click **Continue** to save the update.

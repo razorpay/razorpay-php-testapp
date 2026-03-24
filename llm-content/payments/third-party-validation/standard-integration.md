@@ -5,17 +5,17 @@ description: Know how to integrate TPV on Razorpay Standard Integration.
 
 # Third Party Validation (TPV) on Razorpay Standard Integration
 
-[Third-Party Validation (TPV)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation.md) of bank accounts is a mandatory requirement for merchants in the BFSI (Banking, Financial Services and Insurance) sector dealing with Securities, Broking and Mutual Funds. As per Securities and Exchange Board of India (SEBI) guidelines, transactions must be made by the customers **only** from those bank accounts, which are provided when they registered with your business. 
+[Third-Party Validation (TPV)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation.md) of bank accounts is a mandatory requirement for merchants in the BFSI (Banking, Financial Services and Insurance) sector dealing with Securities, Broking and Mutual Funds. As per Securities and Exchange Board of India (SEBI) guidelines, transactions must be made by the customers **only** from those bank accounts, which are provided when they registered with your business. 
 
     
 ### Prerequisites
 
          Before you integrate TPV on Razorpay Standard integration, you should fulfill the following requirements:
          
-         1. Set up your [Razorpay account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up.md), if you have not done already.
+         1. Set up your [Razorpay account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md), if you have not done already.
          2. Contact your dedicated support POC to enable the TPV feature for your account.
-         3. [Generate API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) required to authenticate API requests sent to Razorpay servers.
-         4. Check the [best practices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/best-practices.md).
+         3. [Generate API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) required to authenticate API requests sent to Razorpay servers.
+         4. Check the [best practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation/best-practices.md).
         
 
 ## 1. Build Integration
@@ -140,7 +140,7 @@ In the TPV integration flow, Razorpay maps the customers' bank accounts to ensur
          
          ```
 
-         Know more about the[ Checkout Form Fields](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps#checkout-options.md).
+         Know more about the[ Checkout Form Fields](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#checkout-options).
 
          
 > **INFO**
@@ -189,7 +189,7 @@ In the TPV integration flow, Razorpay maps the customers' bank accounts to ensur
                  }
                  ```
 
-                 Know more about[ the error parameters.](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/#response-parameters.md)
+                 Know more about[ the error parameters.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md#response-parameters)
              
          
 
@@ -233,8 +233,8 @@ You can make test payments using netbanking, card or UPI payment methods configu
 > **Watch Out!**
 > 
 > This is a mock payment page that uses your test API keys, test card and payment details. 
-> - Ensure you have entered only your [Test Mode API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) in the Checkout code. 
-> - Test mode may include OTP verification for certain payment methods to replicate the live payment experience.
+> - Ensure you have entered only your [Test Mode API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) in the Checkout code. 
+> - Test mode features a mock bank page with **Success** and **Failure** buttons to replicate the live payment experience.
 > - No real money is deducted due to the usage of test API keys. This is a simulated transaction.
 > 
 
@@ -277,30 +277,30 @@ To generate API Keys in Live Mode on your Razorpay Dashboard:
 >          **Watch Out**
 > 
 >          - You should deliver the products or services to your customers only after the payment is captured. Razorpay automatically refunds all the uncaptured payments.
->          - You can track the payment status using our [Fetch a Payment API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments#fetch-a-payment.md) or webhooks.
+>          - You can track the payment status using our [Fetch a Payment API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-a-payment) or webhooks.
 >          
 
          #### How to Capture Payments
 
          - **Auto-capture payments (recommended)**
          
-Authorised payments can be automatically captured. You can auto-capture all payments [using global settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings/#auto-capture-all-payments.md) on the Dashboard.
+Authorised payments can be automatically captured. You can auto-capture all payments [using global settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md#auto-capture-all-payments) on the Dashboard.
          
 > **WARN**
 >
 > 
 >          **Watch Out!**
 > 
->          Payment capture settings work only if you have integrated with Orders API on your server side. Know more about the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/#create-an-order.md).
+>          Payment capture settings work only if you have integrated with Orders API on your server side. Know more about the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md#create-an-order).
 >          
 
          - **Manually capture payments**
          
 Each authorised payment can also be captured individually. You can manually capture payments using:
-             - [Payment Capture API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#capture-a-payment.md)
-             - [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/dashboard/#manually-capture-payments.md)
+             - [Payment Capture API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment)
+             - [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/dashboard.md#manually-capture-payments)
 
-         Know more about [Capture Settings for payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md).
+         Know more about [Capture Settings for payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md).
         
 
          Dashboard:

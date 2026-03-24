@@ -5,19 +5,19 @@ description: Use the Document APIs to upload files and complete the mandatory KY
 
 # Document APIs
 
-Use the Document APIs to upload and fetch documents for the KYC verification process. Check the [product activation status and updates permitted](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/#product-activation-status-and-updates-permitted.md) for Document APIs.
+Use the Document APIs to upload and fetch documents for the KYC verification process. Check the [product activation status and updates permitted](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api.md#product-activation-status-and-updates-permitted) for Document APIs.
 
 The maximum supported file size for a JPG/PNG is 4MB. The maximum supported file size for a PDF is 2MB. Do not pass file URLs instead of uploading documents. If you have uploaded the document but mandatory field-level parameters are not passed in the API, you need to re-execute the Documents API with the same document and pass the fields.
 
-Fork the Razorpay Postman Public Workspace and try the Document APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/#api-authentication.md).
+Fork the Razorpay Postman Public Workspace and try the Document APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api.md#api-authentication/).
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-91288595-d910-4f84-822d-808de103aeba)
 
 ### Related Guides
 
-[Sub-merchant Onboarding APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api.md)
-[Set Up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/webhooks.md)
-[Webhook Payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners.md)
+[Sub-merchant Onboarding APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api.md)
+[Set Up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/webhooks.md)
+[Webhook Payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners.md)
 
 ### Endpoints
 

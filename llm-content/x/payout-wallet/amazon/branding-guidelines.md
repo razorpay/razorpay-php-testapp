@@ -18,15 +18,15 @@ The logos and graphics shown may not be altered in any way. They must be used in
 
 You can download the logos using the button below. The link has the gift card images and Amazon Company Logos for approved usage. Only use the logos downloaded using the below button.
 
-[Download Amazon Company Logos](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/Amazon-Pay-Logos.zip.md)
+[Download Amazon Company Logos](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/Amazon-Pay-Logos.zip.md)
 
-![Four variations of the Amazon Pay Gift Card Logo approved for use.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-1.jpg.md)
+![Four variations of the Amazon Pay Gift Card Logo approved for use.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-1.jpg.md)
 
 ### 2. Proper Product Name
 
 **Amazon Pay Gift Card** is the product name. The 4-word product name should always be capitalized and should not be broken up. It is **not** a *gift certificate* or *e-gift card*. If you are describing the gift card value, display the rupee amount first. For example, **₹100 Amazon Pay Gift Card**.
 
-![Amazon Pay Gift Card example comparing between proper and improper branding of the gift card.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-2.jpg.md) 
+![Amazon Pay Gift Card example comparing between proper and improper branding of the gift card.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-2.jpg.md) 
 
 ### 3. Display Disclaimer
 
@@ -36,19 +36,19 @@ Always display the disclaimer when showing the Amazon logo or product name. Belo
 
 Disclaimer: *Amazon.in is not a sponsor of this promotion. Amazon Pay Gift Cards (GCs) are issued by QwikCilver Solutions Private Limited (QwikCilver). GCs may be used only for the purchase of eligible products/services on Amazon.in or other partner sites. Gift Card balances must be used within 1 year of the date of purchase/activation and any unspent balance shall expire in 1 year from the date of purchase. GCs cannot be transferred for value or redeemed for cash. QwikCilver, Amazon Seller Services Private Limited (Amazon) or their affiliates are not responsible if a Gift Card is lost, stolen, destroyed or used without permission. To redeem your Gift Card, visit [www.amazon.in/addgiftcard](https://www.amazon.in/giftcardtnc). For complete terms and conditions, see [www.amazon.in/giftcardtnc](https://www.amazon.in/giftcardtnc). All Amazon ®, ™ and © are IP of Amazon or its affiliates. For detailed Amazon Pay Gift Card terms and conditions refer, to [www.amazon.in/addgiftcard](https://www.amazon.in/giftcardtnc).
 
-![Comparing two creatives that show and do not show disclaimer. Always show Amazon Pay Gift Card Disclaimer.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-3.jpg.md) 
+![Comparing two creatives that show and do not show disclaimer. Always show Amazon Pay Gift Card Disclaimer.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-3.jpg.md) 
 
 ### 4. Amazon is not a Sponsor
 
 Your use of the Amazon brand should not imply partnership, endorsement or sponsorship. You agree that you will not misrepresent or embellish the relationship between Amazon and your business.
 
-![Two example creatives following and not following no-sponsorship guidelines.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-4.jpg.md)
+![Two example creatives following and not following no-sponsorship guidelines.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-4.jpg.md)
 
 ### 5. Nothing is Free
 
 No statements can refer to the gift card as **free**.
 
-![Comparing a proper Amazon creative with an improper one that uses the word 'Free'. Do not say 'Free'.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-5.jpg.md)
+![Comparing a proper Amazon creative with an improper one that uses the word 'Free'. Do not say 'Free'.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-5.jpg.md)
 
 ## General Brand Guidelines
 
@@ -136,21 +136,21 @@ Shown below are a few examples of the most common creative templates that follow
 
 In centre-aligned text, the template for Email shows the following in that specific order: 
 
-![Amazon Pay Gift Card B2C Email Template showing above-mentioned details.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-email.jpg.md) 
+![Amazon Pay Gift Card B2C Email Template showing above-mentioned details.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-email.jpg.md) 
 
 #### SMS Template
 
 In centre-aligned text, the template for SMS shows the following in that specific order: 
 
-![Amazon Pay Gift Card B2C SMS Template showing above-mentioned details.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-sms.jpg.md) 
+![Amazon Pay Gift Card B2C SMS Template showing above-mentioned details.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-sms.jpg.md) 
 
 #### Onsite Template
 
 In centre-aligned text, the template for on the site shows the following in that specific order: 
 
-![Amazon Pay Gift Card B2C Onsite Template showing above-mentioned details.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-onsite.jpg.md) 
+![Amazon Pay Gift Card B2C Onsite Template showing above-mentioned details.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-amazon-pay-branding-guidelines-onsite.jpg.md) 
 
 ### Related Information
 
-- [About Amazon Payout Wallet](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-wallet/amazon.md)
-- [Amazon Payout APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payout-wallet.md)
+- [About Amazon Payout Wallet](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-wallet/amazon.md)
+- [Amazon Payout APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payout-wallet.md)

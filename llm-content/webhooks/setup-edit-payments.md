@@ -30,7 +30,7 @@ You can [set up](#set-up-webhooks), [edit](#edit-a-webhook), [enable/disable](#e
 > 
 > **Handy Tips**
 > 
-> You should validate and test your webhooks before you go live. Know more about [validating and testing your webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test.md).
+> You should validate and test your webhooks before you go live. Know more about [validating and testing your webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md).
 > 
 
 ## Deactivation
@@ -47,8 +47,8 @@ You can [set up](#set-up-webhooks), [edit](#edit-a-webhook), [enable/disable](#e
 
 ### Related Information
 
-- [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md)
+- [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md)
 
- - [Set Up and Edit Payout Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payouts.md)
+ - [Set Up and Edit Payout Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payouts.md)
  
-- [Validate and Test Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test.md)
+- [Validate and Test Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md)

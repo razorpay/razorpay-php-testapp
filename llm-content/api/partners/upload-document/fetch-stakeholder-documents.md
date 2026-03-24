@@ -8,7 +8,7 @@ description: Fetch the documents uploaded for a Stakeholder using Razorpay APIs.
 
 ## Fetch Stakeholder Documents
 
-Use this endpoint to fetch the files uploaded for a stakeholder. Know about the [various error responses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md) for this API.
+Use this endpoint to fetch the files uploaded for a stakeholder. Know about the [various error responses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md) for this API.
 
 ### Request
 

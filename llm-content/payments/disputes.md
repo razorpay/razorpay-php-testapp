@@ -35,7 +35,7 @@ Phase | Description
 
 A dispute can have any of the following statuses (in the Razorpay system).
 
-![Dispute States](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dispute-status.jpg.md)
+![Dispute States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dispute-status.jpg.md)
 
 Status | Description
 ---
@@ -57,9 +57,9 @@ Following is the process flow for disputes:
     1. **Initiated by the issuing bank**: The issuing bank suspects a fraudulent transaction and asks for your justification.
     1. **Initiated by the customer**: The customer claims that the transaction was unauthorised and raises it with the issuing bank.
 
-2. You will be [notified about the dispute.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/#notifications.md)
+2. You will be [notified about the dispute.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes.md#notifications)
     - **Accept** the dispute.  The customer is refunded. In the case of fraud, you must refund the amount. In other cases, Razorpay will auto-refund the amount.
-    - [ Contest the dispute by submitting evidence](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/submit-evidence.md) to prove that the transaction was fair.
+    - [ Contest the dispute by submitting evidence](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes/submit-evidence.md) to prove that the transaction was fair.
         - If you contest, the documents are sent to the customer’s bank. The bank reviews the case and provides a verdict.
         - If you lose the dispute, the amount would be deducted from your account and is sent to the customer.
 
@@ -69,21 +69,21 @@ Notifications are sent when disputes are created. These notifications are in the
 - **Emails**
 You will receive an email notification when a dispute is created. The email contains details of the transaction, amount and cause of dispute.
 - **Webhooks**
-You can [subscribe to Webhook events](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/dashboard/#subscribe-to-webhook-events.md) to receive alerts whenever a dispute is created or there is a change in status.
+You can [subscribe to Webhook events](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes/dashboard.md#subscribe-to-webhook-events) to receive alerts whenever a dispute is created or there is a change in status.
 
 ## Dashboard Actions
 
 You can perform the following actions using the Dashboard:
-- [View disputes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/dashboard/#view-disputes-using-dashboard.md)
-- [Accept disputes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/dashboard/#accept-disputes-using-dashboard.md)
-- [Contest disputes and submit evidence](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/dashboard/#contest-disputes-using-dashboard.md)
-- [ Subscribe to Webhook Events related to disputes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/dashboard/#subscribe-to-webhook-events.md)
+- [View disputes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes/dashboard.md#view-disputes-using-dashboard)
+- [Accept disputes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes/dashboard.md#accept-disputes-using-dashboard)
+- [Contest disputes and submit evidence](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes/dashboard.md#contest-disputes-using-dashboard)
+- [ Subscribe to Webhook Events related to disputes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes/dashboard.md#subscribe-to-webhook-events)
 
 ### Related Information
 
-- [Submit Evidence](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/submit-evidence.md)
-- [View Disputes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/dashboard/#view-disputes-using-dashboard.md)
-- [Disputes - Dashboard Actions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/dashboard.md)
-- [Dispute FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/faqs.md)
-- [Dispute APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/apis.md)
+- [Submit Evidence](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes/submit-evidence.md)
+- [View Disputes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes/dashboard.md#view-disputes-using-dashboard)
+- [Disputes - Dashboard Actions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes/dashboard.md)
+- [Dispute FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes/faqs.md)
+- [Dispute APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes/apis.md)
 - [Contact Support](https://razorpay.com/support/#request) for additional help with disputes.

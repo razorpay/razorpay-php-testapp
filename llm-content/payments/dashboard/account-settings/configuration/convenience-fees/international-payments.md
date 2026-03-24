@@ -24,13 +24,13 @@ Given below is the workflow:
 2. Select the **Convenience Fee Model** option on the **Settings → Fee Bearer** section of the Dashboard.
 3. The customer selects an item on your website/Payment Link/Payment Page and clicks **Pay** button.
 4. The checkout pop-up page is displayed. The customer enters the **Phone number and Email**.
-    ![customer details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cfb-dcc-phone-no-details.jpg.md)
+    ![customer details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cfb-dcc-phone-no-details.jpg.md)
 
 5. The customer selects the payment method on the checkout page and tries to make the payment.
-    ![card details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cfb-dcc-card-details.jpg.md)
+    ![card details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cfb-dcc-card-details.jpg.md)
 
 6. The customers also get the option to change the currency as per their choice. Based on the selected currency, the **Fees Breakup** page containing the **Convenience Fee** appears, and the customer clicks **Continue**.
-    ![Fees breakup](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cfb-dcc-charges-breakup.jpg.md)
+    ![Fees breakup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cfb-dcc-charges-breakup.jpg.md)
 
 7. The customer is redirected to the bank page with the total amount, including the Convenience Fee.
 
@@ -51,7 +51,7 @@ For every payment done using Razorpay, we levy a nominal platform fee. You can c
 Convenience Fees are seamlessly added on the Razorpay Checkout without disrupting the checkout experience for the customers.
 
 #### 3. Which all currencies are supported?
-Refer to the [list of currencies ](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments#supported-currencies.md) that support the Convenience Fee model.
+Refer to the [list of currencies ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies) that support the Convenience Fee model.
 
 #### 4. How to enable this feature?
 Follow these steps to enable the feature:
@@ -77,5 +77,5 @@ Currently, this feature is available on Standard Checkout only.
 
 ### Related Information
 
-- [Convenience Fee Model](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/configuration/convenience-fees.md)
+- [Convenience Fee Model](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/configuration/convenience-fees.md)
 - International Payment Support

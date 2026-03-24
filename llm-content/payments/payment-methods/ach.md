@@ -47,9 +47,9 @@ Given below is the payment flow for ACH Direct Debit at Razorpay checkout:
 
 1. The customer enters their contact details and clicks **Continue**.
 2. They select **Bank Transfer**, enter personal details and address, and click **Continue**.
-   ![specific and meaningful image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ach-bank-transfer.jpg.md)
+   ![specific and meaningful image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ach-bank-transfer.jpg.md)
 3. The customer enters bank details, selects either **Business account** or **Personal account**, and clicks **Pay Now**.
-   ![specific and meaningful image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ach-paynow.jpg.md)
+   ![specific and meaningful image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ach-paynow.jpg.md)
 
 Upon successful submission, the customer receives an email confirmation with the payment id.
 
@@ -60,7 +60,7 @@ Upon successful submission, the customer receives an email confirmation with the
 > 
 > Unlike card payments, ACH Direct Debit transactions are not processed in real-time. The payment settles in 3-5 business days, with funds available to businesses on T+5 (5 business days after transaction). Most returns occur within the first 5 days if there are issues with the bank account.
 > 
-> ![ACH Settlement flow diagram](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ach-settlement-flow.jpg.md)
+> ![ACH Settlement flow diagram](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ach-settlement-flow.jpg.md)
 > 
 
 ## Understanding ACH Direct Debit Payment States

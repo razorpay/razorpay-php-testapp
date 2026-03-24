@@ -25,8 +25,8 @@ To create batches:
 #### Actions Using Batches
 
 You can perform the following actions using batch upload:
-- [Create Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/batch-upload/#create-linked-accounts-via-batch-upload.md)
-- [Create Transfers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/batch-upload/#create-transfers-via-batch-upload.md)
+- [Create Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/batch-upload.md#create-linked-accounts-via-batch-upload)
+- [Create Transfers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/batch-upload.md#create-transfers-via-batch-upload)
 
 ### Batch Upload Statuses
 
@@ -67,7 +67,7 @@ Watch this video to see how to create Linked Accounts in bulk using a batch file
 1. Click **Batch Upload**.
 1. Hover on **Upload New Batch** and click **Linked Accounts**. The **Batch Upload** pop-up page appears.
 1. Click **download sample file** to download the sample file.
-1. Update and save the file with the following details. Refer to the [Linked Accounts Batch Fields](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/batch-upload/#linked-account-batch-fields.md) section for more information.
+1. Update and save the file with the following details. Refer to the [Linked Accounts Batch Fields](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/batch-upload.md#linked-account-batch-fields) section for more information.
     - `account_name`
     - `account_email`
     - `dashboard_access`
@@ -130,7 +130,7 @@ Download the sample input file of the Linked Account creation for reference.
 
 Once a batch file is processed, you can view and download the processed file from the Dashboard. Click the **Batch Id** to view the details and click **Download** to download the file. Information such as the uploaded rows, successfully processed and failed rows are displayed in the file.
 
-![Route processed batch file after processing](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-processed_batch_file.jpg.md)
+![Route processed batch file after processing](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-processed_batch_file.jpg.md)
 
 The downloaded file has the following additional fields that provide information about the created linked accounts or the reason for failure.
 
@@ -244,7 +244,7 @@ You can create transfers to Linked Accounts in bulk by uploading a batch file wi
 
 Once a batch file is processed, you can view and download the processed file from the Dashboard. Click the **Batch Id** to view the details and click **Download** to download the file. Information such as the uploaded rows, successfully processed and failed rows are displayed in the file.
 
-![Route transfers Batch Upload report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-transfers_Bu_report.jpg.md)
+![Route transfers Batch Upload report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-transfers_Bu_report.jpg.md)
 
 The downloaded file has the following additional fields that provide information about the created transfers or the reason for failure.
 
@@ -383,4 +383,4 @@ You can choose to process the batch upload immediately or schedule it for later.
 
 ### Related Information
 
-[Route FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/faqs.md)
+[Route FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/faqs.md)

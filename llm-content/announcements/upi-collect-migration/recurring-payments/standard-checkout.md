@@ -30,7 +30,7 @@ UPI Collect will continue to be supported for:
 
 Remove the UPI Collect option from your checkout by 28 February 2026 and continue to support Intent-based UPI payments. This applies to payments made via all desktop browsers and Android devices (mWeb and mobile app). Failure to comply with the deadline will result in a disruption to your payments experience.
 
-- If you are a new Razorpay user, use [UPI Intent](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/upi-intent.md).
+- If you are a new Razorpay user, use [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/upi-intent.md).
 - If you are an existing Razorpay user not covered by exemptions, you must migrate to UPI Intent to continue accepting UPI payments if:
     - You currently accept UPI payments via Collect flow on Standard Checkout.
     - Your checkout displays a "Pay with UPI ID/Number" input field.
@@ -75,12 +75,12 @@ Contact [Razorpay support](https://razorpay.com/support/) to enable UPI Intent f
                   
          **Change Needed:**
 
-         1. Additional integration steps are needed for UPI Intent to work on WebView for [Android](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-android.md) and [iOS](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-ios.md).
+         1. Additional integration steps are needed for UPI Intent to work on WebView for [Android](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-android.md) and [iOS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-ios.md).
 
          2. Contact [Razorpay support](https://razorpay.com/support/) to get UPI QR code feature enabled on your Razorpay account.
         
 
 ## Related Information
 
-- [UPI Payment Method](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi.md)
-- [Recurring Payments - UPI Autopay Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upi.md)
+- [UPI Payment Method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi.md)
+- [Recurring Payments - UPI Autopay Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upi.md)

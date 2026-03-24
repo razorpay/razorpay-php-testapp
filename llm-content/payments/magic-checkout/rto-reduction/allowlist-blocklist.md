@@ -32,9 +32,9 @@ The customers mentioned in the blocklist based on the order phone number, email 
          2. Select the platform of your e-commerce website, enter the relevant details and click **Next**.
          3. Navigate to **RTO Reduction Setup** → **RTO Reduction**.  
          4. Toggle on **COD Intelligence** and click **Enable COD Intelligence** in the confirmation pop-up modal.
-             ![Enable COD Intelligence](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-enable-cod.jpg.md)
+             ![Enable COD Intelligence](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-enable-cod.jpg.md)
          5. Navigate to the **Block List** tab and click **Add New Blocklist**. 
-             ![Add Blocklist to block COD for customers](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-new-blocklist.jpg.md)
+             ![Add Blocklist to block COD for customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-new-blocklist.jpg.md)
          6. You can either upload a list or enter it manually. 
              - **To upload a list**:
                  1. Download the **sample file**.
@@ -57,7 +57,7 @@ The customers mentioned in the blocklist based on the order phone number, email 
 >              
 
          7. Click **Confirm**.
-             ![Confirm settings on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/blocklist-confirm.jpg.md)
+             ![Confirm settings on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/blocklist-confirm.jpg.md)
          8. A pop-up page appears with the list of items added. Review the list and click **Add To Blocklist**.
         
 
@@ -83,9 +83,9 @@ You can create an allowlist in case of trusted customers who are loyal to your b
          2. Select the platform of your e-commerce website, enter the relevant details and click **Next**.
          3. Navigate to **RTO Reduction Setup** → **RTO Reduction**.  
          4. Toggle on **COD Intelligence** and click **Enable COD Intelligence** in the confirmation pop-up modal.
-             ![Enable COD Intelligence](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-enable-cod.jpg.md)
+             ![Enable COD Intelligence](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-enable-cod.jpg.md)
          5. Navigate to the **Allow List** tab and click **Add New Allowlist**.
-            ![Add Allowlist to allow COD for customers](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-new-allowlist.jpg.md)
+            ![Add Allowlist to allow COD for customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-new-allowlist.jpg.md)
          6. You can either upload a list or enter it manually. 
              - **To upload a list**:
                  1. Download the **sample file**.
@@ -105,7 +105,7 @@ You can create an allowlist in case of trusted customers who are loyal to your b
 >              
 
          7. Click **Confirm**.
-             ![Confirm settings on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/allowlist-confirm.jpg.md)
+             ![Confirm settings on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/allowlist-confirm.jpg.md)
          8. A pop-up page appears with the list of items added. Review the list and click **Add To Allowlist**.
         
 
@@ -116,5 +116,5 @@ You can create an allowlist in case of trusted customers who are loyal to your b
 > 
 > Once added, you cannot edit the items in the list. You can only delete each item in the list. 
 
-> ![Delete each item in the list](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/delete-item.jpg.md)
+> ![Delete each item in the list](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/delete-item.jpg.md)
 >

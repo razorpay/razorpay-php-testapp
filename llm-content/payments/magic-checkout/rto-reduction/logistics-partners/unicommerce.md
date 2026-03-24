@@ -24,9 +24,9 @@ Follow these steps on the Razorpay Dashboard:
 2. Select the platform of your e-commerce website, enter the relevant details and click **Next**.
 3. In the **RTO Reduction Setup** section, navigate to the → **Delivery Tracking** tab. 
 4. Click **Connect** next to **Unicommerce**.
-    ![Connect Magic Checkout with Unicommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-logistics-connect.jpg.md)
+    ![Connect Magic Checkout with Unicommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-logistics-connect.jpg.md)
 5. Enter the same **Username** and **Password** as your Unicommerce admin account login credentials.
 6. Enter **Tenant** from the Unicommerce domain URL. For example, if the Unicommerce Dashboard URL after you log in is `acmecorp.unicommerce.com`, **acmecorp** is the tenant.
-    ![Paste the API Keys on the Razorpay Dashboard and connect](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-logistics-unicommerce-creds.jpg.md)
+    ![Paste the API Keys on the Razorpay Dashboard and connect](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-logistics-unicommerce-creds.jpg.md)
 
 You have successfully integrated Magic Checkout with Unicommerce. In case you want to disconnect Unicommerce, click **Disconnect**.

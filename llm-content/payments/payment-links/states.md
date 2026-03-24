@@ -17,19 +17,19 @@ The table below lists the various states and their descriptions in the Payment L
 
 After you create a UPI Payment Link, you can track its status on your Dashboard on the **Payment Links** page. The diagram given below illustrates the life cycle of a UPI Payment Link.
 
-![life cycle - upi payment links](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-upi-link-cycle.jpg.md)
+![life cycle - upi payment links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-upi-link-cycle.jpg.md)
 
 The table below lists the various states and their descriptions in the UPI Payment Link life cycle:
 
 Status | Description | Next Steps
 ---
-Created | Indicates that the Payment Link has been created. Know more about [creating a UPI Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/create/#create-a-standard-payment-link-from-dashboard.md). | Start accepting payments by sending the Payment Link to the customers.
+Created | Indicates that the Payment Link has been created. Know more about [creating a UPI Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/create.md#create-a-standard-payment-link-from-dashboard). | Start accepting payments by sending the Payment Link to the customers.
 ---
 Paid | Indicates that the Payment Link has been paid in full. | NA
 ---
-Cancelled | Indicates that you have cancelled the Payment Link. Know more about [ cancelling Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/cancel.md). | Customers can no longer pay using this Payment Link. Create a new Payment Link to start accepting payments (If required).
+Cancelled | Indicates that you have cancelled the Payment Link. Know more about [ cancelling Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/cancel.md). | Customers can no longer pay using this Payment Link. Create a new Payment Link to start accepting payments (If required).
 ---
-Expired | The payment link has expired. You can set the expiry date and time while creating the payment link. Know more about [creating a UPI Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/create/#create-a-upi-payment-link.md).| This link is no longer accessible to the customers. Create a new Payment Link to start accepting payments (if required).
+Expired | The payment link has expired. You can set the expiry date and time while creating the payment link. Know more about [creating a UPI Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/create.md#create-a-upi-payment-link).| This link is no longer accessible to the customers. Create a new Payment Link to start accepting payments (if required).
 
 > **INFO**
 >
@@ -42,8 +42,8 @@ Expired | The payment link has expired. You can set the expiry date and time whi
 
 #### Related Information
 
-- [How Payment Links Work](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/how-it-works.md)
+- [How Payment Links Work](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/how-it-works.md)
 
-- [Create a Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/create.md)
+- [Create a Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/create.md)
 
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/faqs.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/faqs.md)

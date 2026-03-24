@@ -50,7 +50,7 @@ Sl. No. | Documents
 ---
 8 | Cheque in the name of the Trust.
 
-[Download all forms and documents](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x_ca_docs-trust-society-documents-rbl-updated23092022.zip.md)
+[Download all forms and documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x_ca_docs-trust-society-documents-rbl-updated23092022.zip.md)
 
 ## Related Information
 

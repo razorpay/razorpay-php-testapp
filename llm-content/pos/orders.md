@@ -37,10 +37,10 @@ Following are the various states of an order:
 
 Following is a pictorial representation of how order and payment flows are closely related:
 
-![Pictorial representation of Order and Payment Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/orders-payment-flow.jpg.md)
+![Pictorial representation of Order and Payment Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/orders-payment-flow.jpg.md)
 
 ## Dashboard Actions
 
 Perform the following actions using the Dashboard:
-- [View orders](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/orders/dashboard/#view-order-details.md)
-- [View reports related to orders](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/orders/dashboard/#reports.md)
+- [View orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/orders/dashboard.md#view-order-details)
+- [View reports related to orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/orders/dashboard.md#reports)

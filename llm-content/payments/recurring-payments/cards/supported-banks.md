@@ -2818,5 +2818,5 @@ curl -u [YOUR_KEY_ID] \
 ```
 
 ### Related Information
-- [Integrate Recurring Payments Using Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/cards/integrate.md)
-- [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/cards/apis.md)
+- [Integrate Recurring Payments Using Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/cards/integrate.md)
+- [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/cards/apis.md)

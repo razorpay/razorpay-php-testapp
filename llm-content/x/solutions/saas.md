@@ -15,7 +15,7 @@ SaaS companies can use RazorpayX for invoices and customer payouts. The platform
   
 ### Tax Payments
 
-      - Embrace [Automated Tax Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/automatic-tds.md) for efficient compliance.
+      - Embrace [Automated Tax Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/automatic-tds.md) for efficient compliance.
       - Automatic calculation and deduction to minimize errors and non-compliance risk.
       - Save time, avoid penalties, and enhance business efficiency through streamlined tax processes.
     
@@ -23,14 +23,14 @@ SaaS companies can use RazorpayX for invoices and customer payouts. The platform
   
 ### Generate Invoices
 
-     - Generate [invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/invoices.md) for transparent customer transactions.
+     - Generate [invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/invoices.md) for transparent customer transactions.
      - Invoices track services, costs and payments, building trust.
-     - Manage revenue, cash flow, and taxes with automated [Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md), utilizing OCR for existing invoices.
+     - Manage revenue, cash flow, and taxes with automated [Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md), utilizing OCR for existing invoices.
     
 
   
 ### Detailed Financial Reports
 
-     - Utilize [Reports](@/Applications/MAMP/htdocs/new-docs/llm-content/x/reports.md) for in-depth financial insights.
+     - Utilize [Reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/reports.md) for in-depth financial insights.
      - Guide strategic decisions with revenue sources, expenses, and profitability data.
      - Enhance resource allocation, compliance, and investor confidence with detailed financial information.

@@ -6,7 +6,7 @@ description: Know how new and existing merchants can generate Test Mode and Live
 
 # Generate API Keys
 
-After you [set up your RazorpayX account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/set-up.md), you can generate API keys in both Test mode and Live mode. 
+After you [set up your RazorpayX account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/set-up.md), you can generate API keys in both Test mode and Live mode. 
 
 > **WARN**
 >
@@ -84,9 +84,9 @@ This allows you to deactivate the old key immediately or within 24 hours.
 
 ### Next Steps
 
-- [Allowlist IPs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/allowlist-ip.md)
+- [Allowlist IPs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/allowlist-ip.md)
 
 ### Related Information
 
-- [About RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md)
-- [Payout APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/apis.md)
+- [About RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md)
+- [Payout APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/apis.md)

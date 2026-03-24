@@ -105,7 +105,7 @@ Settlement settlement = client.Settlement.Fetch(settlementId);
 : `integer` The amount to be settled (in the smallest unit of currency). For example,  will be `50000`.
 
 `status`
-: `string` Indicates the [settlement states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/#settlement-states.md). Possible values:
+: `string` Indicates the [settlement states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md#settlement-states). Possible values:
   - `created`
   - `processed`
   - `failed`

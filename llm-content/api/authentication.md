@@ -58,7 +58,7 @@ You can generate API Keys from the Dashboard.
 > 
 > **Watch Out!**
 > 
-> - After generating the keys from the Dashboard, download and save them securely. You can use only one set of API keys. If you do not remember your API keys, you must [regenerate them](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#regenerate-api-keys.md) from the Dashboard and update them wherever the previous keys were used for payment gateway integrations. 
+> - After generating the keys from the Dashboard, download and save them securely. You can use only one set of API keys. If you do not remember your API keys, you must [regenerate them](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#regenerate-api-keys) from the Dashboard and update them wherever the previous keys were used for payment gateway integrations. 
 > - API Keys are universal; that is, they are applicable to all websites and apps that you have whitelisted for your Merchant ID.
 > - **Do not share your API Key secret** with anyone or on any public platforms. **This can pose security threats to your Razorpay account**.
 > - Once you generate the API Keys, only the **Key Id** is visible on the Dashboard, **not the Key secret**, as it can pose security threats to your Razorpay account.
@@ -125,7 +125,7 @@ You can generate API Keys from the Dashboard.
 > 
 > **Watch Out!**
 > 
-> - After generating the keys from the Dashboard, download and save them securely. You can use only one set of API keys. If you do not remember your API keys, you must [regenerate them](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#regenerate-api-keys.md) from the Dashboard and update them wherever the previous keys were used for payment gateway integrations. 
+> - After generating the keys from the Dashboard, download and save them securely. You can use only one set of API keys. If you do not remember your API keys, you must [regenerate them](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#regenerate-api-keys) from the Dashboard and update them wherever the previous keys were used for payment gateway integrations. 
 > - API Keys are universal; that is, they are applicable to all websites and apps that you have whitelisted for your Merchant ID.
 > - **Do not share your API Key secret** with anyone or on any public platforms. **This can pose security threats to your Razorpay account**.
 > - Once you generate the API Keys, only the **Key Id** is visible on the Dashboard, **not the Key secret**, as it can pose security threats to your Razorpay account.
@@ -137,15 +137,15 @@ You can generate API Keys from the Dashboard.
 You can roll the Live and Test mode API keys if you have lost them or exposed them. You can choose to regenerate the API keys by deactivating them immediately or after 24 hours.
 
     
-      Know how to [regenerate Razorpay API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#regenerate-api-keys.md).
+      Know how to [regenerate Razorpay API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#regenerate-api-keys).
     
     
-      Know how to [regenerate RazorpayX API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/api-keys/#regenerate-api-keys.md).
+      Know how to [regenerate RazorpayX API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/api-keys.md#regenerate-api-keys).
     
 
 ### Related Information
 
-- [Understand Razorpay APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand.md)
-- [Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md)
-- [Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/api/best-practices.md)
-- [Glossary](@/Applications/MAMP/htdocs/new-docs/llm-content/api/glossary.md)
+- [Understand Razorpay APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md)
+- [Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md)
+- [Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/best-practices.md)
+- [Glossary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/glossary.md)

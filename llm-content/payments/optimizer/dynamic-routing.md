@@ -12,7 +12,7 @@ Dynamic Routing simplifies payments for businesses by routing them to the most s
 **For example**, if you have integrated with payment providers A, B, and C, businesses can configure a rule to route a certain percentage of card transactions through each gateway, such as 50% through A, 30% through B, and 20% through C.
 
 ## Standard/Default Routing
-You may not have specific routing requirements for all your payments. A simple routing rule could be to set the priority of the gateway, which would apply to all payments. This can be done using the [default rule](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/update-default-rule.md).
+You may not have specific routing requirements for all your payments. A simple routing rule could be to set the priority of the gateway, which would apply to all payments. This can be done using the [default rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/update-default-rule.md).
 
 With Standard Routing you can:
 - Prioritise the gateways for all your transactions.
@@ -21,7 +21,7 @@ With Standard Routing you can:
 ## Rule-based Routing
 Standard routing may not always work for all your transactions. Your business might have specific requirements based on various parameters such as payment method, bank, card networks, and more, which can be used to determine the most relevant payment gateway to handle a specific transaction.
 
-[Custom rules](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/create-custom-rule.md) provide you with the capability and flexibility to define your business rules using various payment parameters.
+[Custom rules](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/create-custom-rule.md) provide you with the capability and flexibility to define your business rules using various payment parameters.
 
     
 ### Example 1
@@ -30,7 +30,7 @@ Standard routing may not always work for all your transactions. Your business mi
 
          Watch this video to see how to perform **channel-based routing**.
 
-         ![Reorder Rule Priority](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-dynamic-routing1.gif.md)
+         ![Reorder Rule Priority](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-dynamic-routing1.gif.md)
         
 
     
@@ -40,7 +40,7 @@ Standard routing may not always work for all your transactions. Your business mi
 
          Watch this video to see how to perform **method-based routing**.
 
-         ![Reorder Rule Priority](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-dynamic-routing2.gif.md)
+         ![Reorder Rule Priority](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-dynamic-routing2.gif.md)
         
 
 ### Supported Payments Parameters
@@ -68,7 +68,7 @@ The table below lists various payments parameters which can be used to determine
     
 
 ## Custom Identifiers
-Apart from regular payment parameters, you might need to route payments to a particular gateway based on some business logic defined at your end, such as customer or product information. You can use [custom identifiers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/create-custom-rule#custom-identifiers.md) for such requirements to pass the value to us while creating the order and use it to [create a custom rule](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/create-custom-rule.md).
+Apart from regular payment parameters, you might need to route payments to a particular gateway based on some business logic defined at your end, such as customer or product information. You can use [custom identifiers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/create-custom-rule.md#custom-identifiers) for such requirements to pass the value to us while creating the order and use it to [create a custom rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/create-custom-rule.md).
 
     
 ### Example
@@ -77,7 +77,7 @@ Apart from regular payment parameters, you might need to route payments to a par
 
          Watch this video to see how to create a custom rule using **Custom Identifiers**.
 
-         ![Reorder Rule Priority](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-custom-identifiers.gif.md)
+         ![Reorder Rule Priority](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-custom-identifiers.gif.md)
         
 
 ## Priority-based Routing
@@ -104,7 +104,7 @@ When the success rate of the gateway assigned to a higher priority level retains
 
          Watch this video to see how to perform **priority-based routing**.
 
-         ![Reorder Rule Priority](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-priority-routing.gif.md)
+         ![Reorder Rule Priority](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-priority-routing.gif.md)
         
 
 ## Smart Routing 
@@ -120,6 +120,6 @@ When the success rate of the gateway assigned to a higher priority level retains
 
 ### Related Information
 
-- [Create Custom Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/create-custom-rule.md)
-- [Set Rule Priority](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/set-rule-priority.md)
-- [Update Default Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/update-default-rule.md)
+- [Create Custom Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/create-custom-rule.md)
+- [Set Rule Priority](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/set-rule-priority.md)
+- [Update Default Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/update-default-rule.md)

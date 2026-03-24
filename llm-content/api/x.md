@@ -33,7 +33,7 @@ Watch the below video to know how to create Payouts using our APIs.
 > 
 > **Handy Tips**
 > 
-> It is assumed that you have already added funds to your business account. This action **cannot** be performed via APIs and has to be done before you can make a payout. Refer to the business account section to know [ how to add funds to your business account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/#add-funds.md).
+> It is assumed that you have already added funds to your business account. This action **cannot** be performed via APIs and has to be done before you can make a payout. Refer to the business account section to know [ how to add funds to your business account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types.md#add-funds).
 > 
 
 ## Payout APIs
@@ -42,7 +42,7 @@ You can try the Payout APIs on the Razorpay Postman Public Workspace.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-fcd32a4a-0c53-41a7-a879-d771de7e2804)
 
-Know more about [API parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/x/apis.md).
+Know more about [API parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/apis.md).
 
 ## Test Mode
 
@@ -54,7 +54,7 @@ Contacts, fund accounts and payouts created in the test mode do not appear in th
 
 For example, a contact created in the test mode does not carry over to the live mode and vice versa. Payouts made to a fund account in the test mode uses funds from the test account balance, which is not real money.
 
-Know more about [Test Mode](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/test-mode.md).
+Know more about [Test Mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/test-mode.md).
 
 ## API Gateway URL
 
@@ -123,10 +123,10 @@ While integrating with APIs, watch for `HTTP status code 429` and build the retr
 To make the best use of the limits, it is recommended to use an Exponential backoff/stepped backoff strategy to reduce request volume and stay within the limit. It is also recommended to have some randomization within the backoff schedule to avoid the [thundering herd effect](https://en.wikipedia.org/wiki/Thundering_herd_problem).
 
 ## Webhooks
-[Set up Payout Webhooks ](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payouts.md)to configure and receive notifications when a [specific event occurs](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/#available-events.md). When one of these events is triggered, we send an HTTP POST [payload](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) in JSON to the webhook's configured URL.
+[Set up Payout Webhooks ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payouts.md)to configure and receive notifications when a [specific event occurs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md#available-events). When one of these events is triggered, we send an HTTP POST [payload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) in JSON to the webhook's configured URL.
 
 ### Related Information
 
-- [Set up your RazorpayX account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/set-up.md)
-- [RazorpayX Account Types](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types.md)
-- [Test Mode](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/test-mode.md)
+- [Set up your RazorpayX account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/set-up.md)
+- [RazorpayX Account Types](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types.md)
+- [Test Mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/test-mode.md)

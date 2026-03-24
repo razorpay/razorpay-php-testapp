@@ -40,7 +40,7 @@ Below are the top error codes associated with card payments, along with their re
                  - **Description**: There was a downtime on the customer's bank due to which the payment has failed.
                  - **Next Steps**: In the case of Standard Checkout, please guide your customers on interpreting downtime information during the checkout process. Encourage them to consider using a different bank to complete the transaction successfully.
 
-                 In the case of Custom/S2S checkout, if you have not done so already, integrate the [Downtime API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/downtime.md) into your checkout system. This will allow you to showcase downtime information directly on your checkout interface.
+                 In the case of Custom/S2S checkout, if you have not done so already, integrate the [Downtime API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/downtime.md) into your checkout system. This will allow you to showcase downtime information directly on your checkout interface.
                 
 
          
@@ -75,7 +75,7 @@ Below are the top error codes associated with card payments, along with their re
         - **Description**: There was a downtime on the customer's bank due to which the payment has failed.
         - **Next Steps**: In the case of Standard Checkout, please guide your customers on interpreting downtime information during the checkout process. Encourage them to consider using a different bank to complete the transaction successfully.
 
-        In the case of Custom/S2S checkout, if you have not done so already, integrate the [Downtime API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/downtime.md) into your checkout system. This will allow you to showcase downtime information directly on your checkout interface.
+        In the case of Custom/S2S checkout, if you have not done so already, integrate the [Downtime API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/downtime.md) into your checkout system. This will allow you to showcase downtime information directly on your checkout interface.
         
 
     
@@ -89,7 +89,7 @@ Below are the top error codes associated with card payments, along with their re
 ### authentication_failed
 
         - **Description**: The payment did not go through as the customer entered incorrect OTP/verification details or accidentally closed the browser/pressed the back button during the authentication stage of the transaction.
-        - **Next Steps**: Please ensure customers correctly enter the OTP during transactions and avoid closing the browser during authentication. If the card supports [Native OTP](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/native-otp.md), encourage its use to prevent errors.
+        - **Next Steps**: Please ensure customers correctly enter the OTP during transactions and avoid closing the browser during authentication. If the card supports [Native OTP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/native-otp.md), encourage its use to prevent errors.
         
 
     
@@ -114,7 +114,7 @@ Below are the top error codes associated with card payments, along with their re
 ### incorrect_cvv
 
         - **Description**: The payment was unsuccessful as the customer entered an incorrect CVV during the payment process.
-        - **Next Steps**: Additionally, you can promote the convenience of saving their card details at checkout, which can enable a [CVV-less flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/features/cvv-less-flow.md) and simplify the payment process for future transactions.
+        - **Next Steps**: Additionally, you can promote the convenience of saving their card details at checkout, which can enable a [CVV-less flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/features/cvv-less-flow.md) and simplify the payment process for future transactions.
         
 
     

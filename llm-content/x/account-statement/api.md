@@ -13,11 +13,11 @@ The table below lists the various Transaction APIs and gives a brief description
 
 API | Description
 ---
-[Fetch all Transactions](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/transactions/fetch-all.md) | API to retrieve details of all the transactions.
+[Fetch all Transactions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/transactions/fetch-all.md) | API to retrieve details of all the transactions.
 ---
-[Fetch Transaction with ID](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/transactions/fetch-with-id.md)| API to retrieve details of one transaction using its ID.
+[Fetch Transaction with ID](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/transactions/fetch-with-id.md)| API to retrieve details of one transaction using its ID.
 
 ### Related Information
 
-- [Account Statement](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-statement.md)
-- [Subscribe to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/x/apis/subscribe.md)
+- [Account Statement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-statement.md)
+- [Subscribe to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/apis/subscribe.md)

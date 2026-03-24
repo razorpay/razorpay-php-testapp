@@ -24,10 +24,10 @@ To create custom user roles in RazorpayX, you must:
 3. Click **+ Create New Role**. You can click on the templates to view the preset permissions. You can either: 
 
     1. Duplicate a standard role/existing custom role from the templates available. 
-    ![Creating a custom role in Roles & Permissions on RazorpayX Dashboard.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-manage-teams-cac-1.jpg.md)
+    ![Creating a custom role in Roles & Permissions on RazorpayX Dashboard.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-manage-teams-cac-1.jpg.md)
     
     2. Click **+ Create Blank Role**, as shown.
-    ![image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-manage-teams-cac-2.jpg.md)
+    ![image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-manage-teams-cac-2.jpg.md)
 
     
 > **WARN**
@@ -53,11 +53,11 @@ Users can click on any existing role and modify the permissions to update the ro
 
 3. Hover over the user you want to edit, click the pencil icon and make the changes. 
 
-    ![Pen icon highlighted against the Assistant role to make changes to custom role.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-manage-team-cac-edit-2.jpg.md)
+    ![Pen icon highlighted against the Assistant role to make changes to custom role.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-manage-team-cac-edit-2.jpg.md)
 
 4. Click **Save Role**.
 
-    ![A blue SAVE ROLE button highlighted to save changes made to custom role.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-manage-team-cac-edit-1.jpg.md)
+    ![A blue SAVE ROLE button highlighted to save changes made to custom role.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-manage-team-cac-edit-1.jpg.md)
 
 5. On the pop-up, click **Save Changes**.
 
@@ -71,4 +71,4 @@ Users can click on any existing role and modify the permissions to update the ro
 
 ### Related Information
 
-- [Manage Teams](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams.md)
+- [Manage Teams](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams.md)

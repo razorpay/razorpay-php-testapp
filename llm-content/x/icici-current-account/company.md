@@ -30,7 +30,7 @@ SL. No. | Documents
 ---
 3 | Articles of Association (AoA) and Memorandum of Association (MoA)
 ---
-4 | Communication address proof (if different from what is mentioned in CoI). Refer [here ](@/Applications/MAMP/htdocs/new-docs/llm-content/x/icici-current-account/entity-address-proof.md)for list of acceptable entity address proof.
+4 | Communication address proof (if different from what is mentioned in CoI). Refer [here ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/icici-current-account/entity-address-proof.md)for list of acceptable entity address proof.
 
 ### KYC Documents
 
@@ -66,9 +66,9 @@ Apart from the above mentioned documents and declarations, the customer has to s
 - Account Opening Form
 - Account opening cheque from existing Current Account
 
-[Download all forms and documents](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x_ca_icici_documents-public-limited2112.zip.md).
+[Download all forms and documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x_ca_icici_documents-public-limited2112.zip.md).
 
 ### Related Information
 
-- [RazorpayX Documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md)
+- [RazorpayX Documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md)
 - [Open a Current Account](https://razorpay.com/x/current-accounts/)

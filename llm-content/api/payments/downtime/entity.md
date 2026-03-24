@@ -214,4 +214,4 @@ The Downtime entity has the following parameters:
     - `intent` 
     - `in_app` Only applicable for Turbo UPI payments. 
 
-Know more about [the possible values](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi.md).
+Know more about [the possible values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi.md).

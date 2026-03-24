@@ -12,7 +12,7 @@ After setting up the platform and third-party accounts, you can deduct your plat
 
 You can transfer platform and third-party fees when creating an order using the Orders API. Pass the `transfers` parameters as a part of the Order API request body.
 
-Use the `access_token` generated in the [build integration](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps/#22-get-access-token.md) step to authenticate using `Bearer Auth`.
+Use the `access_token` generated in the [build integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps.md#22-get-access-token) step to authenticate using `Bearer Auth`.
 
 The following endpoint lets you transfer the funds while creating an order.
 
@@ -185,11 +185,11 @@ Pass the Linked Account id of the receiver of the transfer in the `account` para
 - To transfer the platform fees, add the Linked Account id of your platform.
 - To transfer the third-party fees, add the Linked Account id of the corresponding third party.
 
-The parameter descriptions and errors are present in the [Create Transfers from Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md) documentation.
+The parameter descriptions and errors are present in the [Create Transfers from Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md) documentation.
 
 ## Set Up Webhooks
 
-To receive notifications on when a transfer is processed, set up the [`transfer.processed` webhook event](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md). Check the [sample payload for Transfer Processed](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/route/#transfer-processed.md).
+To receive notifications on when a transfer is processed, set up the [`transfer.processed` webhook event](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md). Check the [sample payload for Transfer Processed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/route.md#transfer-processed).
 
 > **WARN**
 >
@@ -203,5 +203,5 @@ To receive notifications on when a transfer is processed, set up the [`transfer.
 
 ## Related Information 
 
-- [Set up Platform and Third-Party Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/control-of-funds/set-up-accounts.md)
-- [Refunds and Reversals](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/control-of-funds/refunds-and-reversals.md)
+- [Set up Platform and Third-Party Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/control-of-funds/set-up-accounts.md)
+- [Refunds and Reversals](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/control-of-funds/refunds-and-reversals.md)

@@ -13,7 +13,7 @@ You can view the business details of the Linked Account under the **Profile** ta
 
 To view and manage profile:
 1. Log in to the Linked Account Dashboard and click **Account Settings**. The **Profile** section appears as shown below:
-   ![Profile section under account settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/la-profile.jpg.md)
+   ![Profile section under account settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/la-profile.jpg.md)
 2. You can perform the following actions: Change **Password** and Change **Display Name**
 
 ## Manage Team
@@ -28,7 +28,7 @@ To invite team members:
 An email is sent to the member. They should accept the invitation from their **Profile** section.
 
 ### Related Information
-- [Route](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route.md)
-- [Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account.md)
-- [Initiate Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/initiate-refund.md)
-- [Reversals and Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/reversals-settlements.md)
+- [Route](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route.md)
+- [Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md)
+- [Initiate Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/initiate-refund.md)
+- [Reversals and Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/reversals-settlements.md)

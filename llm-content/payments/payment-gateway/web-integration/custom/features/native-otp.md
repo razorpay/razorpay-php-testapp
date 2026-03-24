@@ -18,8 +18,8 @@ Native OTP helps generate and verify OTP on the customers’ browser without red
 
 - Verify that you are PCI compliant to accept and process customers' card details. Know more about [PCI compliance](https://www.pcicomplianceguide.org/faq/#1). The compliance certificate should be updated as per the yearly renewal cycle.
 - Raise a request with our [Support](https://razorpay.com/support/#request) team to enable this feature on your Checkout page.
-- Know about the [Razorpay Payment Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md).
-- Integrate with [Razorpay Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md).
+- Know about the [Razorpay Payment Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md).
+- Integrate with [Razorpay Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md).
 
 ## Integration Steps 
 Follow the integration steps given below: 
@@ -41,7 +41,7 @@ Follow the integration steps given below:
 Order is an important step in the payment process.
 
 - An order should be created for every payment.
-- You can create an order using the [Orders API](#api-sample-code). It is a server-side API call.  Know how to [authenticate](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) Orders API.  
+- You can create an order using the [Orders API](#api-sample-code). It is a server-side API call.  Know how to [authenticate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) Orders API.  
 - The order_id received in the response should be passed to the checkout. This ties the Order with the payment and secures the request from being tampered.
 
 > **WARN**
@@ -97,7 +97,7 @@ client.order.create(data=DATA)
 $order  = $client->order->create([
   'receipt'         => 'order_rcptid_11',
   'amount'          => 50000, // amount in the smallest currency unit
-  'currency'        => 'INR'// [See the list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).)
+  'currency'        => 'INR'// [See the list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).)
 ]);
 ```csharp: .NET
 Dictionary options = new Dictionary();
@@ -150,7 +150,7 @@ Here is the list of parameters and their description for creating an order:
 >   
 
 `currency` _mandatory_
-: `string` The currency in which the transaction should be made. See the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be 3 characters.
+: `string` The currency in which the transaction should be made. See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be 3 characters.
 
   
   
@@ -160,7 +160,7 @@ Here is the list of parameters and their description for creating an order:
 > 
 >   **Handy Tips**
 > 
->   Razorpay has added support for zero decimal currencies, such as JPY and three decimal currencies, such as KWD, BHD and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>   Razorpay has added support for zero decimal currencies, such as JPY and three decimal currencies, such as KWD, BHD and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
 >   
 
   
@@ -179,15 +179,15 @@ Here is the list of parameters and their description for creating an order:
 `id` _mandatory_
 : `string` Unique identifier of the customer. For example, `cust_1Aa00000000004`.
 
-Know more about [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 #### Response Parameters
 
-Descriptions for the response parameters are present in the [Orders Entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/entity.md) table.
+Descriptions for the response parameters are present in the [Orders Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/entity.md) table.
 
 #### Error Response Parameters
 
-The error response parameters are available in the [API Reference Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md). 
+The error response parameters are available in the [API Reference Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md). 
 
 ### 1.2 Integrate the getCardFlows Method
 

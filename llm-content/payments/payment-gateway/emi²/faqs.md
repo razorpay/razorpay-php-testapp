@@ -14,11 +14,11 @@ description: Find answers to frequently asked questions about Razorpay EMI² Sui
          
          Method | Partners
          ---
-         Credit Card EMI | 12+ leading issuers including, Amex, HDFC, ICICI and SBI. Find the complete list of [banks supporting Credit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#credit-card-emi.md).
+         Credit Card EMI | 12+ leading issuers including, Amex, HDFC, ICICI and SBI. Find the complete list of [banks supporting Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#credit-card-emi).
          ---
          Debit Card EMI | HDFC, IndusInd, and ICICI Bank.
          ---
-         Cardless EMI | ZestMoney, axio, InstaCred, HDFC Bank, Fibe and more. Find the complete list of [banks supporting Cardless EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#cardless-emi.md).
+         Cardless EMI | ZestMoney, axio, InstaCred, HDFC Bank, Fibe and more. Find the complete list of [banks supporting Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#cardless-emi).
          ---
          Pay Later | LazyPay and PayPal.
          
@@ -29,10 +29,10 @@ description: Find answers to frequently asked questions about Razorpay EMI² Sui
 
          
             
-                [Cardless EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi.md) is a digital EMI option that allows your customer to pay in installments without access to a credit or debit card. Usually, customers prefer this method for making high-value payments.
+                [Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi.md) is a digital EMI option that allows your customer to pay in installments without access to a credit or debit card. Usually, customers prefer this method for making high-value payments.
             
             
-                [Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later.md) is a virtual credit card that lets your customer shop now and pay later. It provides zero-interest digital credit for 14-45 days (varies by provider). Our partners for Pay Later are - FlexiPay by HDFC Bank, ICICI Pay Later, Simpl and LazyPay.
+                [Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md) is a virtual credit card that lets your customer shop now and pay later. It provides zero-interest digital credit for 14-45 days (varies by provider). Our partners for Pay Later are - FlexiPay by HDFC Bank, ICICI Pay Later, Simpl and LazyPay.
             
          
         
@@ -90,7 +90,7 @@ description: Find answers to frequently asked questions about Razorpay EMI² Sui
     
 ### 1. Can my customers avail Offers for EMI payments at Checkout?
 
-         Yes, they can avail offers for EMI payments at checkout. Know more about [ creating EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers.md).
+         Yes, they can avail offers for EMI payments at checkout. Know more about [ creating EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers.md).
         
 
     
@@ -150,13 +150,13 @@ description: Find answers to frequently asked questions about Razorpay EMI² Sui
     
 ### 5. What are the reasons for ineligibility?
 
-         You can view the [list of reasons for ineligibility](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/eligibility-check/standard/#reasons-for-ineligibility.md) and their descriptions.
+         You can view the [list of reasons for ineligibility](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/eligibility-check/standard.md#reasons-for-ineligibility) and their descriptions.
         
 
     
 ### 6. Where can I find the minimum and maximum order amount eligible for a specific payment method/instrument?
 
-         You can view the minimum and maximum order amount for the following payment methods. However, ensure you [check the providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/eligibility-check/standard#list-of-payment-methods.md) on which eligibility check is performed.
+         You can view the minimum and maximum order amount for the following payment methods. However, ensure you [check the providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/eligibility-check/standard.md#list-of-payment-methods) on which eligibility check is performed.
          - [Debit Card EMI](#5-can-you-provide-a-list-of-the)
          - [Cardless EMI](#1-what-are-the-standard-interest-rates-charged)
          - [Pay Later](#2-what-are-the-standard-interest-rates-charged)

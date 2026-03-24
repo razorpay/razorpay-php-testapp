@@ -20,9 +20,9 @@ You can perform KYC for sub-merchants by following the steps given below:
 2. Click **Partner** and navigate to **Affiliate Accounts**.
 3. Click the **Account Name** of the sub-merchant for whom your want to perform KYC.
 4. In the tab that opens, click **Perform KYC**.
-    ![Perform sub-merchant KYC from Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/platform-performkyc.jpg.md)
+    ![Perform sub-merchant KYC from Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/platform-performkyc.jpg.md)
 5. Fill in the KYC details on the form and upload the necessary files.
-    ![Perform sub-merchant KYC - fill KYC form](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-partnerships-enter-kyc-details.jpg.md)
+    ![Perform sub-merchant KYC - fill KYC form](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-partnerships-enter-kyc-details.jpg.md)
 
 You can view the activation status on the Partner Dashboard.
 ![](/docs/assets/images/partners-submerchant-kyc-activation-status.jpg)
@@ -31,6 +31,6 @@ You can request to switch off KYC updates communications to sub-merchants.
 
 ### Related Information
 
-- [About Embedded Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners.md)
-- [Add sub-merchants from Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/add-on-features/add-submerchants-from-dashboard.md)
-- [Get switch access to submerchant Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/add-on-features/switch-dashboard.md)
+- [About Embedded Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners.md)
+- [Add sub-merchants from Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/add-on-features/add-submerchants-from-dashboard.md)
+- [Get switch access to submerchant Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/add-on-features/switch-dashboard.md)

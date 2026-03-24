@@ -13,9 +13,9 @@ The Products API is based on the Orders API and uses the same endpoint. Along wi
 
 API Endpoint | Description
 ---
-[Create an Order with Product Details](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/products/create-with-details.md) | Creates an Order with the transaction details and the domain-specific product details.
+[Create an Order with Product Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/products/create-with-details.md) | Creates an Order with the transaction details and the domain-specific product details.
 ---
-[Create a Payment Link with Product Details](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/products/create-pl-with-details.md) | Create a Payment Link to store additional information about the products purchased by customers while accepting payments using Payment Links Third-Party Validation.
+[Create a Payment Link with Product Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/products/create-pl-with-details.md) | Create a Payment Link to store additional information about the products purchased by customers while accepting payments using Payment Links Third-Party Validation.
 
 ## Product Entity
 
@@ -101,7 +101,7 @@ For example, `LT`, `BP`.
  Can have a maximum length of 7 characters.
 
 `mf_amc_code` _mandatory for RTA_
-: `string` The AMC code for the mutual fund. Can have a maximum length of 5 characters. [List of possible values](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/products/appendix.md).
+: `string` The AMC code for the mutual fund. Can have a maximum length of 5 characters. [List of possible values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/products/appendix.md).
 
 ```json: Sample Entity 
 {

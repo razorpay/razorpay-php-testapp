@@ -7,10 +7,10 @@ description: Additional configurations available for Razorpay iOS Custom SDK.
 
 This section explains the additional configurations available for Razorpay iOS Custom SDK.
 
-- [Change API Key](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/configurations/#change-api-key.md)
-- [Card Utilities](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/configurations/#card-utilities.md)
-- [Save Card Details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/configurations/#save-card-details.md)
-- [Fetch Logo](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/configurations/#fetch-logos.md)
+- [Change API Key](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/configurations.md#change-api-key)
+- [Card Utilities](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/configurations.md#card-utilities)
+- [Save Card Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/configurations.md#save-card-details)
+- [Fetch Logo](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/configurations.md#fetch-logos)
 
 ## Change API Key
 
@@ -71,7 +71,7 @@ To implement the `save cards` feature in your app:
 
 #### Step 1: Create a Customer 
 
-Create a customer, whose card details should be saved, from the Dashboard or [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md).
+Create a customer, whose card details should be saved, from the Dashboard or [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md).
 
 /customers
 

@@ -51,7 +51,7 @@ You can use Optimizer with Razorpay as Token Requestor and process payments on R
     
 ### First-time Card Payment Flow
 
-         ![Tokenisation flow first time](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/tokenisation_entity.jpg.md)
+         ![Tokenisation flow first time](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/tokenisation_entity.jpg.md)
 
             Given below is the first-time payment tokenisation flow:
             1. The customer initiates a payment.
@@ -64,7 +64,7 @@ You can use Optimizer with Razorpay as Token Requestor and process payments on R
     
 ### Saved Card Payment Flow
 
-         ![Saved card payment Tokenisation flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-tokenisation-saved-payment2.jpg.md)
+         ![Saved card payment Tokenisation flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-tokenisation-saved-payment2.jpg.md)
 
             Given below is the saved card payment tokenisation flow:
             1. The customer initiates a payment using a saved card.
@@ -78,7 +78,7 @@ If the `token` is requested by the merchant or any other external gateway, the p
 
 #### Flow
 
-![External Tokenisation flow first time](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/external-cards-tokenisation3.jpg.md)
+![External Tokenisation flow first time](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/external-cards-tokenisation3.jpg.md)
 
 Given below is the tokenisation flow when the merchant or external PA/PG is the Token Requestor:
 1. The customer initiates a payment using a saved card.
@@ -106,7 +106,7 @@ Below is the list of supported payment gateways and card networks that support t
 > - Watch this video to know how to raise a feature enablement request on the Razorpay Dashboard.
 > 
 > 
->     ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md) 
+>     ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md) 
 > - Ensure that tokenization flags are enabled for all networks at the downstream gateway.
 > 
 
@@ -153,6 +153,6 @@ Below is the list of supported payment gateways and card networks that support t
 
 ### Related Information
 
-- [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor-with-network-tokens/apis.md)
-- [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor-with-network-tokens/webhooks.md)
-- [Tokenisation FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq.md)
+- [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor-with-network-tokens/apis.md)
+- [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor-with-network-tokens/webhooks.md)
+- [Tokenisation FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq.md)

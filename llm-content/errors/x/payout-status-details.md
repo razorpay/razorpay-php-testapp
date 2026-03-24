@@ -17,7 +17,7 @@ Payout Status details are returned when a payout is created and moves to another
 
 ## About Status Details
 
-Status details are sent as part of the fetch payout API response and webhook payloads. You can also check the status details on the [dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/status-details.md). It provides additional details about each payout status including intermediate status like `pending`, `processing`, `queued` and terminal states like `reversed` and `failed`. The details will include payout clearance SLA and why payout is in `processing` state. A payout update webhook is fired every time an attribute in status details changes.
+Status details are sent as part of the fetch payout API response and webhook payloads. You can also check the status details on the [dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/status-details.md). It provides additional details about each payout status including intermediate status like `pending`, `processing`, `queued` and terminal states like `reversed` and `failed`. The details will include payout clearance SLA and why payout is in `processing` state. A payout update webhook is fired every time an attribute in status details changes.
 
 You can check status details of a payout to know why it is in the `processing` state. It maybe due to:
 
@@ -35,7 +35,7 @@ You can use this information to keep your beneficiaries informed.
 > **Handy Tips**
 > 
 > - The status details object in the payouts' API response gives details about the exact reason for a payout state and the next steps to be taken. Please share this information with your developers.
-> - You can subscribe to daily reports to receive a detailed document on the status, reason for status and SLA for the payouts in `processing state`. [Raise a support ticket](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md) from the Dashboard, with a list of recipient email IDs. We will enable the function for you in 3 working days.
+> - You can subscribe to daily reports to receive a detailed document on the status, reason for status and SLA for the payouts in `processing state`. [Raise a support ticket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md) from the Dashboard, with a list of recipient email IDs. We will enable the function for you in 3 working days.
 > 
 
 ## Status Details API Response
@@ -418,6 +418,6 @@ All the reasons for any payout state appear at the [source parameter](#sample-co
 
 ### Related Information
 
-- [About Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md)
-- [Payout Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/best-practices.md)
-- [Status Details via Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/status-details.md)
+- [About Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md)
+- [Payout Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/best-practices.md)
+- [Status Details via Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/status-details.md)

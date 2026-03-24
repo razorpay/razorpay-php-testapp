@@ -13,7 +13,7 @@ Payroll partners with leading organisations in the HR/Technology space that spec
 > 
 > **Watch Out!**
 > 
-> These partnerships are available at an extra cost. Know more about [Payroll plans](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/plans.md). 
+> These partnerships are available at an extra cost. Know more about [Payroll plans](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/plans.md). 
 > 
 
 Some of the popular Integrations that Payroll offers are:
@@ -29,22 +29,22 @@ HRMS | - Darwinbox
 - Zoho People
  Contact your sales POC for more HRMS integration options. 
 ---
-Attendance | - [Jibble Attendance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/jibble.md)
-- [CAMS Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/attendance.md)
+Attendance | - [Jibble Attendance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/jibble.md)
+- [CAMS Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/attendance.md)
 
 ---
-[Flexible Benefits](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary#avail-flexible-benefits.md) & Expense Management | - Zaggle
-- [WhatsApp](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/whatsapp.md)
-- [Slack](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/slack.md)
+[Flexible Benefits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md#avail-flexible-benefits) & Expense Management | - Zaggle
+- [WhatsApp](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/whatsapp.md)
+- [Slack](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/slack.md)
 
 ---
 Background Verification | SpringVerify
 ---
-Employee Insurance | - [Pazcare](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/insurance/pazcare.md)
-- [Plum](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/insurance/plum.md)
+Employee Insurance | - [Pazcare](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/insurance/pazcare.md)
+- [Plum](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/insurance/plum.md)
 
-You can also integrate with [RazorpayX - Current Account](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/current-account.md) and simplify [Payroll Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts.md). 
+You can also integrate with [RazorpayX - Current Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/current-account.md) and simplify [Payroll Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md). 
 
 ### Related Information
 
-- [Biometric Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/attendance#integrate-and-configure-biometric-device.md)
+- [Biometric Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/attendance.md#integrate-and-configure-biometric-device)

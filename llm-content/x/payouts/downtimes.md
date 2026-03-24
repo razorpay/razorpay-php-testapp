@@ -6,7 +6,7 @@ description: Get notified for partner and beneficiary bank downtimes via email &
 
 # Downtime Alerts
 
-When banks experience downtimes, payouts you initiate on the RazorpayX Dashboard may fail, that is, the payouts move to the `failed` or `deemed_duccess` state. Know more about [Payout States](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle.md). 
+When banks experience downtimes, payouts you initiate on the RazorpayX Dashboard may fail, that is, the payouts move to the `failed` or `deemed_duccess` state. Know more about [Payout States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md). 
 
 You can enable downtime alerts for partner banks (ICICI/Yes Bank/Axis) and for beneficiary banks (where the recipient receives the amount in their Fund account). 
 - [For partner banks](#enable-partner-bank-downtime-alerts), we send alerts about downtimes via SMS and email. 
@@ -14,7 +14,7 @@ You can enable downtime alerts for partner banks (ICICI/Yes Bank/Axis) and for b
 
 ## Partner Bank Downtime Alerts 
 
-To receive alerts for partner bank downtime via email and SMS, [contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support/#razorpayx-users.md). We shall enable the feature for you in 2 days. 
+To receive alerts for partner bank downtime via email and SMS, [contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#razorpayx-users). We shall enable the feature for you in 2 days. 
 - Downtime notifications are sent for RazorpayX powered Current, Escrow and Lite accounts. 
 - We notify you of the partner bank downtimes in near real-time. This is usually within 15 minutes from when the downtime started. 
 
@@ -22,9 +22,9 @@ To receive alerts for partner bank downtime via email and SMS, [contact support]
 
 When you make payouts, it is possible that the recipient's bank/beneficiary bank is experiencing downtime. In such cases, your payouts can fail. To make a successful payout, you must retry the payout after the bank restores normalcy.
 
-You can get notified about the beneficiary bank downtimes via [Payout Webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/x/apis/subscribe.md) events. To enable downtime webhooks: 
+You can get notified about the beneficiary bank downtimes via [Payout Webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/apis/subscribe.md) events. To enable downtime webhooks: 
 
-1. Follow the steps to [set up Payout Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payouts/#set-up-and-edit-webhooks.md).
+1. Follow the steps to [set up Payout Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payouts.md#set-up-and-edit-webhooks).
 
     
         
@@ -33,7 +33,7 @@ You can get notified about the beneficiary bank downtimes via [Payout Webhook](@
                 1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/). 
                 1. Go to the user profile icon → **My Account & Settings** → **Developer Controls** in the left menu.
                 1. Click **+ ADD WEBHOOK** if you are setting up webhooks for the first time. Otherwise, hover over the already added webhook and click **EDIT WEBHOOK**.
-                    ![RazorpayX Dashboard enable webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-dev-controls-webhooks.jpg.md)
+                    ![RazorpayX Dashboard enable webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-dev-controls-webhooks.jpg.md)
             
 
     
@@ -42,7 +42,7 @@ You can get notified about the beneficiary bank downtimes via [Payout Webhook](@
     - payout.downtime.started
     - payout.downtime.resolved
 
-    ![RazorpayX Dashboard enable payout downtime webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-payouts-downtime-webhooks.jpg.md)
+    ![RazorpayX Dashboard enable payout downtime webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-payouts-downtime-webhooks.jpg.md)
 1. Click **SAVE**.
 
 You have successfully enabled the downtime webhooks for beneficiary banks. Whenever your beneficiary banks experience downtimes, we notify you at the webhook URL you selected during [webhook setup](#enable-partner-bank-downtime-alerts).
@@ -50,8 +50,8 @@ You have successfully enabled the downtime webhooks for beneficiary banks. Whene
 ### Downtime Webhooks 
 
 There are two downtime webhooks. Refer to the respective webhooks for the sample payloads and format. 
-- [payout.downtime.started](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/#payout-downtime-started.md): Triggered when the beneficiary bank downtime begins. 
-- [payout.downtime.resolved](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/#payout-downtime-resolved.md): Triggered when the beneficiary bank has resolved the downtime. 
+- [payout.downtime.started](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md#payout-downtime-started): Triggered when the beneficiary bank downtime begins. 
+- [payout.downtime.resolved](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md#payout-downtime-resolved): Triggered when the beneficiary bank has resolved the downtime. 
 
     
 ### Webhook Response Parameters
@@ -60,7 +60,7 @@ There are two downtime webhooks. Refer to the respective webhooks for the sample
          : The unique reference id created for each downtime alert. For example, `poutdown_F1Zppa6lcVheSE`.
          
          `method` 
-         : Contains the list of [payout modes/methods](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/#payout-modes-and-tat.md) impacted. For example, `IMPS`, `UPI` and more. 
+         : Contains the list of [payout modes/methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#payout-modes-and-tat) impacted. For example, `IMPS`, `UPI` and more. 
 
          `begin` 
          : Timestamp in Unix when the beneficiary bank downtime started. 
@@ -90,11 +90,11 @@ There are two downtime webhooks. Refer to the respective webhooks for the sample
 ## Alternate Payout Options 
 
 In case of downtimes, you can opt for Payouts Pro. You can either: 
-- Customise and route your payouts via other bank accounts using [Multi-bank Routing](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/multi-bank-routing.md). 
-- Let RazorpayX automatically queue and process your payouts via [Intelligent payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/intelligent-payouts.md). 
+- Customise and route your payouts via other bank accounts using [Multi-bank Routing](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/multi-bank-routing.md). 
+- Let RazorpayX automatically queue and process your payouts via [Intelligent payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/intelligent-payouts.md). 
 
 ### Related Information 
 
-- [About Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md)
-- [Payout Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/best-practices.md)
-- [Check Payout Status Details](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/status-details.md)
+- [About Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md)
+- [Payout Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/best-practices.md)
+- [Check Payout Status Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/status-details.md)

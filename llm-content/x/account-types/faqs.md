@@ -8,19 +8,19 @@ description: Find answers to frequently asked questions about RazorpayX Account 
 
 ### 1. What is a Business Account?
 
-         Your [RazorpayX Lite](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/razorpayx-lite.md) is referred to as a business account. This account has an account number and an IFSC. You can transfer funds to and from this account, store them and make payouts from it, as and when you wish. 
+         Your [RazorpayX Lite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/razorpayx-lite.md) is referred to as a business account. This account has an account number and an IFSC. You can transfer funds to and from this account, store them and make payouts from it, as and when you wish. 
         
 
     
 ### 2. How do I get my Business account?
 
-         Your business account is created when you [set up your RazorpayX account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/set-up.md). You can start transacting after account activation. 
+         Your business account is created when you [set up your RazorpayX account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/set-up.md). You can start transacting after account activation. 
         
 
     
 ### 3. Can I have more than one Business account?
 
-         No, in the current version of the RazorpayX platform, you can only have one business account (RazorpayX Lite) per Merchant ID. However you can open [RazorpayX powered Current Account(s)](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/current-account.md) which will be added as additional business account(s). 
+         No, in the current version of the RazorpayX platform, you can only have one business account (RazorpayX Lite) per Merchant ID. However you can open [RazorpayX powered Current Account(s)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/current-account.md) which will be added as additional business account(s). 
         
 
     
@@ -32,7 +32,7 @@ description: Find answers to frequently asked questions about RazorpayX Account 
     
 ### 5. How can I view all transactions against my business account?
 
-         You can view all transactions made against your business account via your RazorpayX Dashboard under [Account Statement](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-statement.md). You can also fetch all your transactions using [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/transactions/fetch-all.md).
+         You can view all transactions made against your business account via your RazorpayX Dashboard under [Account Statement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-statement.md). You can also fetch all your transactions using [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/transactions/fetch-all.md).
         
 
     
@@ -44,4 +44,4 @@ description: Find answers to frequently asked questions about RazorpayX Account 
     
 ### 7. Will I have access to all my merchant accounts on the RazorpayX platform?
 
-         Yes. Just like on your Razorpay Dashboard, you can [switch between different accounts on your RazorpayX Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard.md), provided you have been added as a team member on your other RazorpayX accounts.
+         Yes. Just like on your Razorpay Dashboard, you can [switch between different accounts on your RazorpayX Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard.md), provided you have been added as a team member on your other RazorpayX accounts.

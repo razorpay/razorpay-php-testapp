@@ -235,19 +235,19 @@ For the customers to avail No Cost EMIs on the Razorpay Standard Checkout, follo
 The customers can complete the payment as follows:
 
 1. On the Razorpay Checkout, customers enter the required details and select **EMI** as the payment method.
-    ![Standard checkout with bajaj finserv.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bajaj-finserv-emi-new-amount.jpg.md)
+    ![Standard checkout with bajaj finserv.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bajaj-finserv-emi-new-amount.jpg.md)
 
 2. They can select **Cardless and Others**.
-    ![Bajaj FinServ displayed in Cardless and Others section](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bajaj-finserv-new-select-new.jpg.md)
+    ![Bajaj FinServ displayed in Cardless and Others section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bajaj-finserv-new-select-new.jpg.md)
 
 3. Customers select the EMI tenure and click **Continue**.
-    ![Select an EMI Plan and Select Plan.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bajaj-finserv-new-plan-select.jpg.md)
+    ![Select an EMI Plan and Select Plan.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bajaj-finserv-new-plan-select.jpg.md)
 
 4. They enter the details of Bajaj Finserv-issued card and click **Continue**.
-    ![details of Bajaj Finserv-issued card.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bajaj-finserv-new-card-details.jpg.md)
+    ![details of Bajaj Finserv-issued card.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bajaj-finserv-new-card-details.jpg.md)
 
 After the successful payment, Razorpay redirects customers to your application or website. Customers' monthly statements will reflect the EMI amount with interest charged by the bank. You can check the status of the payment from the Dashboard.
 
 ### FAQs
 
-See: [No Cost EMI FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs#no-cost-emi.md).
+See: [No Cost EMI FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#no-cost-emi).

@@ -42,7 +42,7 @@ Customise your checkout experience on the Dashboard by  setting a default langua
 > 
 > **Handy Tips**
 > 
-> - All the below changes will reflect on [Checkout page](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway.md),  [Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices.md), [Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button.md),   [Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore.md),  [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links.md) and [Payment Pages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages.md).
+> - All the below changes will reflect on [Checkout page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md),  [Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md), [Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button.md),   [Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore.md),  [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links.md) and [Payment Pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages.md).
 > - You can switch between mobile and desktop views to preview changes.
 > 
 
@@ -57,7 +57,7 @@ The customers can view the Checkout page in their preferred language. If the cus
        2. Navigate to **Accounts & Settings** → **Checkout Features** in the **Checkout settings** section.
        3. Select the default language from the drop-down list. For example, **English**.
        4. Click **Save all changes**.
-          ![select default language](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-default-language.gif.md)
+          ![select default language](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-default-language.gif.md)
       
 
 ## Collect Email Address From Customers
@@ -74,7 +74,7 @@ By default, the email address field is hidden on checkout. You can choose to con
           - **Optional (Default)**: Customers can either enter their email address or choose to skip it.
           - **Mandatory**: Customers have to enter their email address to proceed.
        5. Click **Save all changes**.
-          ![Configure email address field](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-collect-email.jpg.md)
+          ![Configure email address field](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-collect-email.jpg.md)
       
 
 ## Flash Checkout
@@ -91,7 +91,7 @@ Use Flash Checkout to let your customers securely save their credit and/or debit
        2. Navigate to **Accounts & Settings** → **Checkout Features** in the **Checkout settings** section.
        3. Toggle on the **Flash checkout** field.
        4. Click **Save all changes**.
-          ![Enable flash checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-flash-checkout.jpg.md)
+          ![Enable flash checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-flash-checkout.jpg.md)
       
 
 ## Message Banner
@@ -107,7 +107,7 @@ Show a custom message to your customers on checkout to highlight promotional off
        4. Enter your custom message.
        5. Click **Edit** to select the banner color as preferred.
        6. Click **Save all changes**.
-          ![Show a message banner](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-message-banner.gif.md)
+          ![Show a message banner](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-message-banner.gif.md)
       
 
 ## Mandate Summary Page
@@ -121,7 +121,7 @@ You can display the mandate summary screen for credit and debit card payments to
        2. Navigate to **Accounts & Settings** → **Checkout Features** in the **Checkout settings** section.
        3. Toggle on the **Mandate summary page** field. 
        4. Click **Save all changes**.
-          ![Show mandate summary page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-summary-page.jpg.md)
+          ![Show mandate summary page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-summary-page.jpg.md)
       
 
 ## Order Banner
@@ -137,7 +137,7 @@ For example, if your store has processed 10,000+ successful orders, the badge sh
        2. Navigate to **Accounts & Settings** → **Checkout Features** in the **Checkout settings** section.
        3. Toggle on the **Order banner** field. 
        4. Click **Save all changes**.
-          ![Display order banner](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/order-banner.jpg.md)
+          ![Display order banner](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/order-banner.jpg.md)
       
 
    
@@ -146,10 +146,10 @@ For example, if your store has processed 10,000+ successful orders, the badge sh
 > 
 >    **Watch Out!**
 > 
->    - This feature is automatically enabled and currently available only for businesses with [RTB](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/widgets/trusted-business.md) enabled.
+>    - This feature is automatically enabled and currently available only for businesses with [RTB](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/widgets/trusted-business.md) enabled.
 >    - If a [message banner](#message-banner) exists on the checkout page, the badge information seamlessly integrates within the same section using vertical scrolling.
 >    
 
 ### Related Information
 
-[FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/faqs/#checkout-settings.md)
+[FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/faqs.md#checkout-settings)

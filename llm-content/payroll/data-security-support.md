@@ -15,7 +15,7 @@ Payroll offers the following data security measures.
     
 ### User Access & Controls
 
-         Payroll enables user-based access. This means we offer department, location, and custom attribute-based controls. This ensures that a user can only access data relevant only to their team. Know more about [user roles](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/user-roles-workflows.md).
+         Payroll enables user-based access. This means we offer department, location, and custom attribute-based controls. This ensures that a user can only access data relevant only to their team. Know more about [user roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/user-roles-workflows.md).
 
          For example, an HRBP will only be able to access salary data of employees under their purview.
         
@@ -31,7 +31,7 @@ Payroll offers the following data security measures.
 
          To ensure security beyond passwords, Payroll incorporates Two-Factor Authentication (2FA). This additional layer of authentication ensures that unauthorised individuals are barred from accessing your accounts.
 
-         Know more about [Two-Factor Authentication](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator/#two-factor-authentication.md).
+         Know more about [Two-Factor Authentication](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#two-factor-authentication).
         
 
     
@@ -55,4 +55,4 @@ We provide a prompt and personalised assistance throughout an organisation’s p
 ### Related Information
 
 - [Payroll Dashboard](https://payroll.razorpay.com/login)
-- [Payroll Plans](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/plans.md)
+- [Payroll Plans](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/plans.md)

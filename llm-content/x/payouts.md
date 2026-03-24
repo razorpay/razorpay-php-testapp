@@ -8,14 +8,14 @@ description: Create and process payouts on the RazorpayX Dashboard. Understand t
 
 Payouts are transactions made to contacts. For every payout, you need to specify the amount, the contact, and the payout purpose. You become eligible to make payouts after you sign up, complete the account activation and KYC verification.
 
-A payout transaction is made to a [Fund account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts.md) associated with a [Contact](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts.md). Contact is the beneficiary (person or institution) and Fund account is the account used for payment transactions.
+A payout transaction is made to a [Fund account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts.md) associated with a [Contact](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md). Contact is the beneficiary (person or institution) and Fund account is the account used for payment transactions.
 
 > **SUCCESS**
 >
 > 
 > **What's New**
 > 
-> You can now initiate payouts directly to mobile numbers using the [Payout Composite API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payout-composite/create/phone-number.md). This feature is currently not available on dashboard.
+> You can now initiate payouts directly to mobile numbers using the [Payout Composite API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payout-composite/create/phone-number.md). This feature is currently not available on dashboard.
 > 
 
     
@@ -26,11 +26,11 @@ A payout transaction is made to a [Fund account](@/Applications/MAMP/htdocs/new-
                 - [Create Payout Purpose](#create-payout-purpose) as a narration to the payment to give context. You can create new or/and use the existing ones.
                 - [Create and view Payout summary](#actions) as created.
                 - [Use the various supported payout modes](#payout-modes) to process payouts from RazorpayX Lite and Current Account.
-                - [Make payouts in Test Mode](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/test-mode/#payouts.md) to understand the payout process and life cycle.
+                - [Make payouts in Test Mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/test-mode.md#payouts) to understand the payout process and life cycle.
 
-            If a payout fails at any stage, [a reversal is created](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle#reversal-transaction.md), which ends with the debited balance being credited back to your RazorpayX account.
+            If a payout fails at any stage, [a reversal is created](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md#reversal-transaction), which ends with the debited balance being credited back to your RazorpayX account.
 
-            The payout amount, fees and tax are deducted from your RazorpayX account balance. These appear as a debit against your RazorpayX account. Know more about [Billing in RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/billing.md).
+            The payout amount, fees and tax are deducted from your RazorpayX account balance. These appear as a debit against your RazorpayX account. Know more about [Billing in RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/billing.md).
         
 
 > **WARN**
@@ -38,7 +38,7 @@ A payout transaction is made to a [Fund account](@/Applications/MAMP/htdocs/new-
 > 
 > **Watch Out!**
 > 
-> - Making payouts from [RazorpayX Lite](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/razorpayx-lite.md) account to RazorpayX Lite Customer Identifiers or Razorpay [Customer identifiers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect.md) is not supported.
+> - Making payouts from [RazorpayX Lite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/razorpayx-lite.md) account to RazorpayX Lite Customer Identifiers or Razorpay [Customer identifiers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect.md) is not supported.
 > - The payout modes are case-sensitive. When creating payouts using APIs, ensure payout modes are entered in upper case.
 > 
 > 
@@ -48,10 +48,10 @@ A payout transaction is made to a [Fund account](@/Applications/MAMP/htdocs/new-
 You can make payouts in 3 simple steps:
 
 1. Add funds to your business account.
-2. Create a Contact and a Fund account. This is similar to adding a beneficiary on your netbanking portal. Know more about adding [ Contacts and Fund accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts.md).
+2. Create a Contact and a Fund account. This is similar to adding a beneficiary on your netbanking portal. Know more about adding [ Contacts and Fund accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md).
 3. Make a payout.
 
-![Create Payout by adding funds → create Contact and Fund Account → create Payout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-create-payout.jpg.md)
+![Create Payout by adding funds → create Contact and Fund Account → create Payout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-create-payout.jpg.md)
 
 > **INFO**
 >
@@ -61,7 +61,7 @@ You can make payouts in 3 simple steps:
 > 
 > [Check out the RazorpayX Payouts Demo](https://x.razorpay.com/demo?utm_source=docs&utm_medium=fold&utm_id=demo) to understand how to create and make payouts in 4 simple steps. Experience making payouts in a jiffy, without having to sign up!
 > 
-> ![Demo of RazorpayX, showing how to make a payout in Live mode.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-payouts-demo.gif.md)
+> ![Demo of RazorpayX, showing how to make a payout in Live mode.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-payouts-demo.gif.md)
 > 
 > 
 
@@ -78,8 +78,8 @@ To make a Payout:
     - Click **+ Payouts** on the top-right side of the Dashboard or
     - Hover over Payouts on the left navigation and click **+**.
     - You can also click Payouts on the left navigation and then click **+ Payouts** on the left side.
-3. Select an existing contact or [create a new one](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts#create-a-contact.md).
-4. Hover over the fund account to which you want to make the payout and click **NEXT** or [**+ FUND ACCOUNT**](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts#update-a-contact-and-fund-account.md) as per requirement.
+3. Select an existing contact or [create a new one](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md#create-a-contact).
+4. Hover over the fund account to which you want to make the payout and click **NEXT** or [**+ FUND ACCOUNT**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts.md#update-a-contact-and-fund-account) as per requirement.
 5. Enter the total amount to be paid and click **Next**.
 6. Select the Payout Details:
     - Payout Purpose (_mandatory_)
@@ -98,9 +98,9 @@ To make a Payout:
 > 
 > You can check status details of a payout to know why it is in the `processing` state.
 > 
-> 1. [Status Details via API](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md)
-> 2. [Status Details via Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/status-details.md)
-> 3. You can subscribe to daily reports to receive a detailed document on the status, reason for status and SLA for the payouts in `processing state`. [Raise a support ticket](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md) from the Dashboard, with a list of recipient email IDs. We will enable the function for you in 3 working days.
+> 1. [Status Details via API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md)
+> 2. [Status Details via Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/status-details.md)
+> 3. You can subscribe to daily reports to receive a detailed document on the status, reason for status and SLA for the payouts in `processing state`. [Raise a support ticket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md) from the Dashboard, with a list of recipient email IDs. We will enable the function for you in 3 working days.
 > 
 
 > **WARN**
@@ -110,7 +110,7 @@ To make a Payout:
 > 
 > If you get the below response while trying to complete a payout, it is recommended to wait for sometime and retry the payout if required, after the status is updated on the Dashboard.
 > 
->  ![Payout in progress](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/5xx.jpg.md)
+>  ![Payout in progress](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/5xx.jpg.md)
 > 
 > 
 > 
@@ -127,16 +127,16 @@ You can add a payout purpose as a narration to the payout as it leads to easier 
         1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
         2. Navigate to **Payouts** on the left navigation and click the more options (**⋮**) menu.
         3. Click **Create New Purpose**.
-            ![Create New Payout Purpose](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-create-new-purpose.jpg.md)
+            ![Create New Payout Purpose](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-create-new-purpose.jpg.md)
         4. Enter name for the purpose.
         5. Click **CREATE PAYOUT PURPOSE**.
-            ![Create Payout Purpose](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-create-payout-purpose-final.jpg.md)
+            ![Create Payout Purpose](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-create-payout-purpose-final.jpg.md)
 
             The payout purpose is created. 
 
         Alternately, you can also assign a payout purpose while creating a payout. Select purpose from the Payout Purpose drop-down menu or click **+ ADD PAYOUT PURPOSE** to create a new one.
 
-    ![Select Payout Purpose](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/choose-payout-purpose.jpg.md)
+    ![Select Payout Purpose](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/choose-payout-purpose.jpg.md)
         
 
 > **WARN**
@@ -161,7 +161,7 @@ You can add a payout purpose as a narration to the payout as it leads to easier 
     
             The image below shows how to add an attachment during the payout creation process. You can also add [after creating payouts](#upload-attachments-after-payout-creation).
 
-            ![Payout Details asking (compulsory) Payout Purpose, Debit Account, Transfer Type and (non-compulsory) Attachment.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-payouts-add-attachments.jpg.md)
+            ![Payout Details asking (compulsory) Payout Purpose, Debit Account, Transfer Type and (non-compulsory) Attachment.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-payouts-add-attachments.jpg.md)
         3. Add other details in **+ ADDITIONAL DETAILS** if required and click **NEXT**. Enter the OTP and proceed to pay.
         
 
@@ -173,13 +173,13 @@ You can add a payout purpose as a narration to the payout as it leads to easier 
             1. Navigate to **Attachment** in pop-up page that appears to the right. 
             1. Click **Upload** and upload the attachment file. The supported file type remain [as mentioned above](#upload-attachments-during-payout-creation).
 
-        ![Payout summary pop-up showing Payout details and highlighting Attachment and Upload](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-payouts-add-attachment-2.jpg.md)
+        ![Payout summary pop-up showing Payout details and highlighting Attachment and Upload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-payouts-add-attachment-2.jpg.md)
 
         
 
 ## Cancel Payouts
 
-You can cancel the payouts in a [`queued`](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle#queued.md), [`pending`](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle#pending.md) or [`scheduled`](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle#scheduled.md) state only.
+You can cancel the payouts in a [`queued`](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md#queued), [`pending`](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md#pending) or [`scheduled`](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md#scheduled) state only.
 
     
 ### Cancel Payout
@@ -190,13 +190,13 @@ You can cancel the payouts in a [`queued`](@/Applications/MAMP/htdocs/new-docs/l
 
         2. Navigate to **Payouts**.
         3. Hover over the payout you want to cancel and click **CANCEL**. Your payout is cancelled.
-            ![Cancel Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-cancel-payouts.jpg.md)
+            ![Cancel Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-cancel-payouts.jpg.md)
 
         Or you can also:
 
         2. Select the payout you want to cancel.
         3. Click **CANCEL PAYOUT** on the right pane. Your payout is cancelled.
-            ![Cancel Payouts from RazorpayX Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-cancel-payouts-2.jpg.md)
+            ![Cancel Payouts from RazorpayX Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-cancel-payouts-2.jpg.md)
         
 
 ### Actions
@@ -207,7 +207,7 @@ Create a Payout | ✓ | ✓ | ✓ | ✓
 ---
 View payout details | ✓ | ✓ | ✓ | x
 
-Know more about creating [payouts using APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts.md) and [payouts in bulk](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts/bulk-uploads.md).
+Know more about creating [payouts using APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts.md) and [payouts in bulk](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts/bulk-uploads.md).
 
 ## Payout Modes and TAT
 
@@ -216,7 +216,7 @@ You can make payouts using any one of the following payout modes (IMPS/RTGS/NEFT
     
 ### RazorpayX Lite
 
-         The transaction limits and operating hours for different payout modes for [RazorpayX Lite](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/#virtual-account.md) are as below:
+         The transaction limits and operating hours for different payout modes for [RazorpayX Lite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types.md#virtual-account) are as below:
          
 
          
@@ -261,7 +261,7 @@ The gift card is sent to the fund account immediately.
     
 ### Current Account
 
-         The transaction limits and operating hours for different payout modes for [Current account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/#current-account.md):
+         The transaction limits and operating hours for different payout modes for [Current account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types.md#current-account):
             
 
          
@@ -280,7 +280,7 @@ The transaction is processed to the fund account immediately on all days, 24x7.
 The transaction is processed to the fund account within 2 hours if initiated on working days between:-  2:00 am and 6:00 pm ( from **IDFC First Bank** or **RBL** Accounts)
 -  1:00 am and 6:45 pm (from **ICICI Bank** or **Yes Bank** Accounts) 
 
-[Contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md) for enabling **NEFT 24 * 7** in RBL and Yes Bank accounts.
+[Contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md) for enabling **NEFT 24 * 7** in RBL and Yes Bank accounts.
             
                 
                     IDFC First Bank Holiday List
@@ -368,6 +368,6 @@ The transaction is processed to the fund account immediately on all days, 24x7.
 
 ### Related Information
 
-- [Payout Life Cycle and States](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle.md)
-- [Payout Status](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/status-details.md)
-- [Payout Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/best-practices.md)
+- [Payout Life Cycle and States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md)
+- [Payout Status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/status-details.md)
+- [Payout Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/best-practices.md)

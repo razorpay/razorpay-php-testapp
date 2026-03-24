@@ -70,4 +70,4 @@ By using Razorpay Payment Gateway, you can integrate your server using the below
 
   
 
-Know more about [how server integration works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md). After you integrate successfully, you can accept payments using any of the supported [Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods.md).
+Know more about [how server integration works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md). After you integrate successfully, you can accept payments using any of the supported [Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md).

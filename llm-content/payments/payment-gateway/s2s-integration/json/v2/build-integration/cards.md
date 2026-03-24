@@ -12,7 +12,7 @@ You can integrate with Razorpay APIs to start accepting card payments. Razorpay 
 > 
 > **Handy Tips**
 > 
-> If you are an existing Razorpay user, that is, you integrated with our S2S APIs before October 15, 2022, you need to make certain integration changes to [migrate to the 3DS2 flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards/migrate-3ds2.0.md).
+> If you are an existing Razorpay user, that is, you integrated with our S2S APIs before October 15, 2022, you need to make certain integration changes to [migrate to the 3DS2 flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards/migrate-3ds2.0.md).
 > 
 
 > **WARN**
@@ -27,7 +27,7 @@ You can integrate with Razorpay APIs to start accepting card payments. Razorpay 
 
 3DS2 is an authentication protocol, the successor of 3DS1, that enables businesses and payment providers to send additional information (such as customer device or browser data) to verify the transaction's authenticity. Razorpay integration is compliant with the 3DS2 protocol. 
 
-**Know more**: Razorpay supports [3DS2 transactions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/cards/3ds2.0.md).
+**Know more**: Razorpay supports [3DS2 transactions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/cards/3ds2.0.md).
 
 > **INFO**
 >
@@ -68,7 +68,7 @@ Follow the steps below to integrate S2S JSON API with browser flow and accept pa
 
 ### 1.2 Create a Payment
 
-After the order is created, your next step is to create a payment. The following API will create a payment with `card` as the payment method. The [`browser` parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards#:~:text=the%20authentication%20channel.-,browser,-mandatory.md) capture the customer's browser details, which are sent to the banks to aid their risk analysis.
+After the order is created, your next step is to create a payment. The following API will create a payment with `card` as the payment method. The [`browser` parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards.md#:~:text=the%20authentication%20channel.-,browser,-mandatory) capture the customer's browser details, which are sent to the banks to aid their risk analysis.
 
 #### Sample Code 
 
@@ -390,7 +390,7 @@ client.payment.createPaymentJson(data)
 > 
 >   **Handy Tips**
 > 
->   Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>   Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
 >   
 
 . Refer to the list of supported currencies. The length must be 3 characters.
@@ -480,7 +480,7 @@ client.payment.createPaymentJson(data)
     : `string` Obtained from the payer's browser using the `navigator.language` HTML DOM property. Maximum limit of 8 characters.
 
 `notes` _optional_
-: `object` Key-value object used for passing tracking info. Refer to [Notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) for more details.
+: `object` Key-value object used for passing tracking info. Refer to [Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) for more details.
 
 `callback_url` _optional_
 : `string` URL endpoint where Razorpay will submit the final payment status.
@@ -534,7 +534,7 @@ If the payment made by the customer is successful, the following fields are sent
 
 #### Failure Callback
 
-If the payment has failed, the callback will contain details of the error. Refer to [Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md) for details.
+If the payment has failed, the callback will contain details of the error. Refer to [Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md) for details.
 
 ### 1.4 Verify Payment Signature
 Signature verification is a mandatory step to ensure that the callback is sent by Razorpay. The `razorpay_signature` contained in the callback can be regenerated by your system and verified as follows.
@@ -579,11 +579,11 @@ Amex | 3402 560004 01007 |
 
 #### Error Scenarios
 
-Use these test cards to simulate payment errors. See the [complete list](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details/#error-scenario-test-cards.md) of error test cards with detailed scenarios.
+Use these test cards to simulate payment errors. See the [complete list](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md#error-scenario-test-cards) of error test cards with detailed scenarios.
 Check the following lists: 
-- [Supported Card Networks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards.md).
-- [Cards Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/payments/cards.md).
+- [Supported Card Networks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards.md).
+- [Cards Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/payments/cards.md).
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/test-integration.md)

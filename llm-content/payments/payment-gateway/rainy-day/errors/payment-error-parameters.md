@@ -38,6 +38,6 @@ There are certain error codes specific for each payment method supported by Razo
 
 ### Related Information
 
-To understand the error codes, refer to the [Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md) section.
+To understand the error codes, refer to the [Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md) section.
 
-For the list of reasons, refer to the [Error Reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md) section.
+For the list of reasons, refer to the [Error Reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md) section.

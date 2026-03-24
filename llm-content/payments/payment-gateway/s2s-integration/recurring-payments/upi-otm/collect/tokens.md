@@ -153,7 +153,7 @@ Payment payment = client.Payment.Fetch(paymentid);
 > 
 > **Handy Tips**
 > 
-> You can also retrieve the `token_id` via the [payment.failed webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/webhooks/#payment-failed.md).
+> You can also retrieve the `token_id` via the [payment.failed webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#payment-failed).
 > 
 
   

@@ -19,7 +19,7 @@ Go live with your PayU Payment Gateway account instantly using the **Instant** i
 ### Prerequisites
 
          - You need an active PayU account with the necessary payment methods activated. Please get in touch with your PayU account manager to enable the missing payment methods if required.
-         - [Configure the required webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/payu-instant/#to-configure-a-webhook.md).
+         - [Configure the required webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/payu-instant.md#to-configure-a-webhook).
          - Generate **Merchant Key** and **Salt** on the [PayU Dashboard](https://onboarding.payu.in/app/account).
              1. Log in to the [PayU Dashboard](https://onboarding.payu.in/app/account).
              2. Select Payment Gateway under Collect Payments from the menu on the left navigation.
@@ -44,9 +44,9 @@ Before you go live with PayU Instant (beta) on Optimizer, configure the webhooks
 
          1. Log in to the [PayU Dashboard](https://onboarding.payu.in/app/account).
          2. Navigate to Settings → Webhook. 
-                ![optimizer payu instant webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-payu-instant-webhook.jpg.md)
+                ![optimizer payu instant webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-payu-instant-webhook.jpg.md)
          3. Click **Create Webhook** on the top-right corner of the Create Webhooks page.
-                ![optimizer payu instant webhook create](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-payu-instant-webhook-create.jpg.md)
+                ![optimizer payu instant webhook create](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-payu-instant-webhook-create.jpg.md)
          4. Select the webhook type (Payments or Payouts) and Event type.
          5. Enter the webhook URL in the Webhook URL field and click **Create**.
 
@@ -71,14 +71,14 @@ Before you go live with PayU Instant (beta) on Optimizer, configure the webhooks
             1. Log in to your Razorpay Dashboard. 
             2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
             3. In the top-right section, click **Add Provider**.
-                 ![Add provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-provider.jpg.md)
+                 ![Add provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-provider.jpg.md)
             4. Select **PayU** and **Instant (beta)** in the list of gateways available and click **Next**.
-                 ![Add PayU](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-payu.jpg.md)
+                 ![Add PayU](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-payu.jpg.md)
             5. Enter the provider name and description and click **Next**.
-                 ![Add Provider Name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/provider-name.jpg.md)
+                 ![Add Provider Name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/provider-name.jpg.md)
             6. Enter your PayU key and Salt key.
             7. Select the payment methods you want to enable for PayU and click **Submit**. 
-                 ![Add Salt Key payu instant](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-key-salt-payu.jpg.md)
+                 ![Add Salt Key payu instant](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-key-salt-payu.jpg.md)
                 
 
             You have successfully added **PayU Instant (beta)** as a payment provider on Optimizer.
@@ -104,10 +104,10 @@ Refunds | Live
 ---
 Emandate | Coming Soon
 ---
-[Sodexo](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/sodexo.md) | Coming Soon
+[Sodexo](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/sodexo.md) | Coming Soon
 
 ## Send Receipt/Order ID to External Gateway
-You might be generating a unique Order ID or Receipt for every order which can be passed to PayU via[ Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders#orders-api.md). 
+You might be generating a unique Order ID or Receipt for every order which can be passed to PayU via[ Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md#orders-api). 
 
 To make your order id to be visible on the PayU Dashboard:
 1. In Razorpay's Orders API, use the `receipt` parameter to send your unique Order ID or Receipt.
@@ -143,11 +143,11 @@ Before routing all traffic or some traffic to a new gateway via Optimizer, the f
             - In **Parameter** field, select **Amount (In Rupees)**.
             - In **Select Connection** field, select **Less Than**.
             - In **Enter Amount** field, enter the value 2 and click **Next**.
-            ![Add Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-rule.jpg.md)
+            ![Add Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-rule.jpg.md)
         5. Enter the value 100 in the **Route field**, select **PayU** in the **Payment Via** field, and click **Next**.
-             ![target Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/target-provider.jpg.md)
+             ![target Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/target-provider.jpg.md)
         6. Click **Publish Rule**.
-             ![Publish Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/publish-rule.jpg.md)
+             ![Publish Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/publish-rule.jpg.md)
        
    
 

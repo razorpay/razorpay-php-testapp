@@ -85,4 +85,4 @@ Razorpay offers a POS device for every use case. Check out our device suite to f
 
 ### Next Step
 
-[Get started](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/quickstart.md) with Razorpay POS, buy the POS devices.
+[Get started](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/quickstart.md) with Razorpay POS, buy the POS devices.

@@ -11,7 +11,7 @@ Understand in detail the onboarding process and eligibility criteria for Razorpa
 
 1. [Contact Razorpay Support](https://razorpay.com/x/corporate-cards/signup/) to raise a request for Corporate Cards.
 2. Razorpay checks eligibility based on policies.
-3. Submit [required documents](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/corporate-cards/docs-required.md) for KYC verification by Razorpay and RBL.
+3. Submit [required documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/corporate-cards/docs-required.md) for KYC verification by Razorpay and RBL.
 4. Assessment of credit card limit by RBL.
 5. Sanction letter issued by RBL.
 6. Post-sanction documentation like signed agreements on stamp paper, original documents verification, and so on.
@@ -64,7 +64,7 @@ Business Vintage | 1+ years | 3+ years
 
 ## Related Information
 
-- [About RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md)
-- [About RazorpayX Corporate Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/corporate-cards.md)
+- [About RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md)
+- [About RazorpayX Corporate Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/corporate-cards.md)
 - [Sign up for RazorpayX Corporate Cards](https://razorpay.com/x/corporate-cards/) 
-- [Yes Bank Onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/corporate-cards/ybl-onboarding.md)
+- [Yes Bank Onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/corporate-cards/ybl-onboarding.md)

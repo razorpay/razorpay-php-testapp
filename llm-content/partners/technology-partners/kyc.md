@@ -18,7 +18,7 @@ After becoming a Technology Partner, you need to submit KYC details. The commiss
 > - Review the details provided during the sign-up process. You can edit the fields and make necessary changes if required. 
 > 
 
-![Complete KYC Verification](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/easy-kyc.jpg.md)
+![Complete KYC Verification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/easy-kyc.jpg.md)
 
 ## Activate Your Account
 
@@ -34,8 +34,8 @@ Follow the steps given below to activate your account:
 
 1. **Bank Details**: Fill in your bank account details such as **Account Number** and **IFSC Code**. This is the account to which Razorpay will settle your funds.
 . Click **Done**.
-    ![Business Details - Enter Bank Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/easy-account.jpg.md)
-2. **GST Details**: This will be auto-filled if your [PAN verification](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/business-types-kyc-documents.md) is successful. If not, add your GST details for taxation and compliance. Select the check box if you do not have a GSTIN. Click **Done**.
+    ![Business Details - Enter Bank Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/easy-account.jpg.md)
+2. **GST Details**: This will be auto-filled if your [PAN verification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/business-types-kyc-documents.md) is successful. If not, add your GST details for taxation and compliance. Select the check box if you do not have a GSTIN. Click **Done**.
     
 > **WARN**
 >
@@ -45,7 +45,7 @@ Follow the steps given below to activate your account:
 >     You cannot claim GST input credit if GSTIN is not shared.
 >     
 
-    ![Business Details - Enter CIN and GSTIN](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/easy-gst.jpg.md) 
+    ![Business Details - Enter CIN and GSTIN](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/easy-gst.jpg.md) 
 
     
 > **INFO**
@@ -61,8 +61,8 @@ Follow the steps given below to activate your account:
 
 3. **Identity Proof** or **Address Proof**: You can scan and upload your **Aadhaar**, **Passport** or **Voter ID** as proof of identity or address.
 
-4. **Business Documents**: Upload the relevant [business documents](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/business-types-kyc-documents.md) based on your business type.
-    ![Add business documents](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/easy-documents.jpg.md)
+4. **Business Documents**: Upload the relevant [business documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/business-types-kyc-documents.md) based on your business type.
+    ![Add business documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/easy-documents.jpg.md)
 5. **Business Address**: Add your business address. Select the check box if your **Operational address is same as your Business address**. This will be verified against your business documents.
     
 > **INFO**
@@ -73,10 +73,10 @@ Follow the steps given below to activate your account:
 >     Operational Address is the current address from where you are operating your business. On the other hand, a Business Address is the address you register while starting your business.
 >     
 
-    ![Add your registered business address](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/easy-address.jpg.md)
+    ![Add your registered business address](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/easy-address.jpg.md)
 6. Click **Done**.
 7. Click **Submit KYC** after providing all the required verification details.
-    ![Business Details - Submit KYC Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/easy-submit.jpg.md)
+    ![Business Details - Submit KYC Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/easy-submit.jpg.md)
 
 Our team will review the information submitted by you. It takes approximately 3-4 working days to complete the review process.
 
@@ -86,5 +86,5 @@ During the review process, we may reach out to you for clarifications. You can a
 
 ### Related Information
 
-- [About Embedded Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners.md)
-- [KYC Documents](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/business-types-kyc-documents.md)
+- [About Embedded Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners.md)
+- [KYC Documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/business-types-kyc-documents.md)

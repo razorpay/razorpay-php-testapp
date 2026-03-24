@@ -13,19 +13,19 @@ You can create Customer Identifiers using the **Smart Collect** APIs to accept l
 > 
 > **Handy Tips**
 > 
->   If you are a new customer, explore [Smart Collect 2.0 ](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect-2.md) . It uses the same APIs as **Smart Collect**, while also offering additional endpoints—such as creating a Customer Identifier with a VPA and bank account, fetching UPI payments, and adding a VPA Receiver to an existing Customer Identifier.
+>   If you are a new customer, explore [Smart Collect 2.0 ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect-2.md) . It uses the same APIs as **Smart Collect**, while also offering additional endpoints—such as creating a Customer Identifier with a VPA and bank account, fetching UPI payments, and adding a VPA Receiver to an existing Customer Identifier.
 >   
 > 
 
-Fork the Razorpay Postman Public Workspace and try the Smart Collect with TPV APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+Fork the Razorpay Postman Public Workspace and try the Smart Collect with TPV APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-3ea069ae-e9fc-4778-b70b-193e0693e476)
 
 ### Related Guides
 
-[ About Smart Collect](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect.md)
-[Set Up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md)
-[Webhook Payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/smart-collect.md)
+[ About Smart Collect](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect.md)
+[Set Up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)
+[Webhook Payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/smart-collect.md)
 
 ### Endpoints
 

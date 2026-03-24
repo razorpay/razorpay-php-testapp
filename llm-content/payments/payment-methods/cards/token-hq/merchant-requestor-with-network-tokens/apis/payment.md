@@ -14,7 +14,7 @@ Use this API to directly process payments with tokens saved on another PA/PG.
 > 
 > **Handy Tips**
 > 
-> The payment processing flow is the same as mentioned [here](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2.md). However, you need to make the following changes:
+> The payment processing flow is the same as mentioned [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2.md). However, you need to make the following changes:
 > - Pass the token number and token expiry values instead of the card number and card expiry values.
 > - Pass the cryptogram (TAVV) in the `cryptogram_value` field.
 > 
@@ -95,7 +95,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
 : `string` The 3-character ISO code of the currency. Here, it is `INR`.
 
 `order_id` _mandatory_
-: `string` The unique identifier of the order created for this payment. Create an order using the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+: `string` The unique identifier of the order created for this payment. Create an order using the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 `email` _mandatory_
 : `string` The customer's email address.
@@ -173,7 +173,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
 > 
 > **Handy Tips**
 > 
-> The payment processing flow is the same as mentioned [here](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/#emi.md). However, you need to make the following changes:
+> The payment processing flow is the same as mentioned [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods.md#emi). However, you need to make the following changes:
 > - Pass the token number and token expiry values instead of the card number and card expiry values.
 > - Pass the cryptogram (TAVV) in the `cryptogram_value` field.
 > - Additionally, provide the actual card's last 4 digits along with tokens for EMI payments.
@@ -257,7 +257,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
 : `string` The 3-character ISO code of the currency. Here, it is `INR`.
 
 `order_id` _mandatory_
-: `string` The unique identifier of the order created for this payment. Create an order using the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+: `string` The unique identifier of the order created for this payment. Create an order using the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 `email` _mandatory_
 : `string` The customer's email address.

@@ -15,7 +15,7 @@ A bonus is a one-time payment to an employee given outside of an employee's tota
             
                 - Bonus is a non-recurring payment. 
                 - It is not included in the employee's CTC. 
-                - It can have a clawback. Suppose an employee leaves the organisation before a certain period. In that case, the employee pays the bonus amount back to the organisation during the [FNFS](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/resignation/#process-full-final-settlement.md) process. 
+                - It can have a clawback. Suppose an employee leaves the organisation before a certain period. In that case, the employee pays the bonus amount back to the organisation during the [FNFS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/resignation.md#process-full-final-settlement) process. 
 
                 Examples include festive, joining, retention, milestone bonuses and more.
             
@@ -36,12 +36,12 @@ For example, when your business cycle is seasonal, you may provide festive bonus
 To configure bonus set up: 
 1. Log in to the Payroll Dashboard.
 1. Navigate to **ADMIN OPTIONS** → **Settings** → **Bonus Types**. Click **Edit**.
-    ![Settings Payroll Setup Bonus Types Edit on Razorpay Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-bonus-settings.jpg.md)
+    ![Settings Payroll Setup Bonus Types Edit on Razorpay Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-bonus-settings.jpg.md)
 1. On the Bonus Types page, select the relevant bonuses as applicable.
     
     You can also create a custom bonus type. Enter the name of the bonus in the text box and click **Add**.
 
-    ![Razorpay Payroll Bonus Setup Enter custom bonus name Add](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-bonus-configure.jpg.md)
+    ![Razorpay Payroll Bonus Setup Enter custom bonus name Add](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-bonus-configure.jpg.md)
 1. Click **Save**.
 
 You have successfully enabled the bonus types for your organisation. You can now create bonuses for your employees.
@@ -57,11 +57,11 @@ There are two steps to create a bonus for an employee:
              1. Log in to the Payroll Dashboard.
              1. Go to **ADMIN OPTIONS** → **People** → specific employee's profile. 
              1. Navigate to **Compensation & Perquisites** in the employee's profile view and click **Create Bonus**.  
-                 ![Create bonus for employee on RazorpayX Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employee-bonus-create.jpg.md)
+                 ![Create bonus for employee on RazorpayX Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employee-bonus-create.jpg.md)
                 
                  The **Bonuses for Employee** page opens. Here you can create and manage bonuses for your employees.
              1. Click **Create a new bonus**. 
-                ![Bonus for Employees page on RazorpayX Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-create-bonus-for-employee.jpg.md)
+                ![Bonus for Employees page on RazorpayX Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-create-bonus-for-employee.jpg.md)
              1. 1. On the **Create New Bonus** page:
                 1. Select a **Bonus Type** from the drop-down list. Click the link under the drop-down box to modify the [bonus setup](#prerequisites) of your organisation. 
                 1. Enter the bonus amount awarded to the employee in the **Bonus Amount** text box. 
@@ -72,7 +72,7 @@ There are two steps to create a bonus for an employee:
                 1. Choose whether the **TDS Deduction** happens instantly or on a prorated basis. 
                 1. Add remarks as applicable. 
 
-                    ![Add bonus details to create bonus on Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-bonus-create-process.jpg.md)
+                    ![Add bonus details to create bonus on Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-bonus-create-process.jpg.md)
              1. Click **Next →**. 
              
              This opens the **Add Clawback Rules** page. You can add a clawback rule, if applicable to the bonus (such as joining bonus).
@@ -85,7 +85,7 @@ There are two steps to create a bonus for an employee:
         
 ### 2. Add Clawback Rule
 
-             Suppose an employee leaves the organisation before a certain period during which the bonus is applicable. In that case, the employee pays back the bonus amount to the organisation during the [FNFS](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#full-and-final-settlement.md) process.
+             Suppose an employee leaves the organisation before a certain period during which the bonus is applicable. In that case, the employee pays back the bonus amount to the organisation during the [FNFS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#full-and-final-settlement) process.
 
              To add the clawback rule: 
              1. Click **Next →** to go to the **Add Clawback Rules** page and select from the following options: 
@@ -96,9 +96,9 @@ There are two steps to create a bonus for an employee:
                 1. If the clawback rule is applicable, select **Yes, I have a clawback rule**. 
                 1. Add the clawback duration in the **Number of Months** text box. 
                     
-                    If the employee leaves within these months, the clawback is applicable and is settled during the [FNFS](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#full-and-final-settlement.md) process.
+                    If the employee leaves within these months, the clawback is applicable and is settled during the [FNFS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#full-and-final-settlement) process.
 
-                    ![Add clawback rule for bonus in RazorpayX Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-bonus-clawback.jpg.md)
+                    ![Add clawback rule for bonus in RazorpayX Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-bonus-clawback.jpg.md)
 
                 1. Click **Create Bonus**. 
             
@@ -120,7 +120,7 @@ To manage bonuses provided to an employee:
 1. Navigate to **ADMIN OPTIONS** → **People** → click specific employee's profile. 
 1. Go to **Compensation & Perquisites** → **Manage Bonus**. You can also view the number of bonuses provided to the employee here. 
 
-    ![Manage bonus for employee on Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-bonus-manage.jpg.md)
+    ![Manage bonus for employee on Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-bonus-manage.jpg.md)
 
 You can [create additional new bonuses](#create-bonus), [edit](#edit-bonus), [delete](#delete-bonus) unpaid bonuses and manage [bonus settlement on dismissal](#settle-bonus-on-dismissal). 
 
@@ -133,7 +133,7 @@ You can [create additional new bonuses](#create-bonus), [edit](#edit-bonus), [de
             1. Go to the **Bonuses for Employee** page as shown in [manage bonus](#manage-bonus). 
             1. Click on the bonus to edit the details.
             1. Change the required details on the **Manage Bonus** page and click **Next →**.
-                ![Edit bonus details in RazorpayX Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-bonus-edit.jpg.md)
+                ![Edit bonus details in RazorpayX Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-bonus-edit.jpg.md)
             1. Edit the clawback rule as applicable. 
             1. Click **Save Changes**. 
 
@@ -158,7 +158,7 @@ You can [create additional new bonuses](#create-bonus), [edit](#edit-bonus), [de
             1. Log in to the Payroll Dashboard.
             1. Go to the **Bonuses for Employee** page as shown in [manage bonus](#manage-bonus).
             1. Click on the bin icon on a specific bonus to delete that bonus.
-                ![Delete bonus in Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-bonus-edit-delete.jpg.md)
+                ![Delete bonus in Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-bonus-edit-delete.jpg.md)
             1. Click **Delete now** in the **Delete Bonus** pop-up window.
 
             You have successfully deleted a bonus. The number of bonuses for that employee decreases in their profile view.
@@ -167,10 +167,10 @@ You can [create additional new bonuses](#create-bonus), [edit](#edit-bonus), [de
     
 ### Settle Bonus on Dismissal
 
-         When you [dismiss an employee](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#terminate-and-run-last-payroll.md) on Payroll, we automatically calculate the bonus (when clawback is applicable) and settle it. 
+         When you [dismiss an employee](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#terminate-and-run-last-payroll) on Payroll, we automatically calculate the bonus (when clawback is applicable) and settle it. 
 
             It reflects on the **Full & Final Settlement** form as a deduction with Bonus Recovery as the **Label**. You can edit the recovery amount here.
-                ![Full & Final Settlement bonus deduction](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-bonus-fnf-edit.jpg.md)
+                ![Full & Final Settlement bonus deduction](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-bonus-fnf-edit.jpg.md)
 
             To check how the deduction reflects on the employee's payslip: 
 
@@ -182,5 +182,5 @@ You can [create additional new bonuses](#create-bonus), [edit](#edit-bonus), [de
 
 ### Related Information
 
-- [Execute Payroll Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/execute-payroll.md)
-- [Salary](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary.md)
+- [Execute Payroll Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/execute-payroll.md)
+- [Salary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md)

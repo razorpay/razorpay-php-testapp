@@ -73,8 +73,8 @@ Compare BharatQR and QR Code API parameters.
         
 
         **API Reference Links**
-        - BharatQR: [Create a virtual account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/bharatqr/api/#create.md)
-        - QR Code: [Create a QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes/#create-a-qr-code.md)
+        - BharatQR: [Create a virtual account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bharatqr/api.md#create)
+        - QR Code: [Create a QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes.md#create-a-qr-code)
 
     
     
@@ -87,8 +87,8 @@ Compare BharatQR and QR Code API parameters.
         
 
         **API Reference Links**
-        - BharatQR: [Close a virtual account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/bharatqr/api/#close.md)
-        - QR Code: [Close a QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes/close.md)
+        - BharatQR: [Close a virtual account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bharatqr/api.md#close)
+        - QR Code: [Close a QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes/close.md)
     
     
         The fetch query parameters remain the same across the APIs as given below:
@@ -106,8 +106,8 @@ Compare BharatQR and QR Code API parameters.
         
 
         **API Reference Links**
-        - BharatQR: [Fetch all virtual accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/bharatqr/api/#fetch-all-payments.md)
-        - QR Code: [Fetch all QR Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes/fetch-all.md)
+        - BharatQR: [Fetch all virtual accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bharatqr/api.md#fetch-all-payments)
+        - QR Code: [Fetch all QR Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes/fetch-all.md)
     
     
         
@@ -120,8 +120,8 @@ Compare BharatQR and QR Code API parameters.
         
 
         **API Reference Links**
-        - BharatQR: [Fetch a virtual account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/bharatqr/api/#fetch-a-payment.md)
-        - QR Code: [Fetch a QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes/fetch-with-id.md)
+        - BharatQR: [Fetch a virtual account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bharatqr/api.md#fetch-a-payment)
+        - QR Code: [Fetch a QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes/fetch-with-id.md)
     
     
         For this action, only one path parameter needs to be passed, the QR Code identifier.
@@ -133,8 +133,8 @@ Compare BharatQR and QR Code API parameters.
         
 
         **API Reference Links**
-        - BharatQR: [Fetch payments by id](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/bharatqr/api/#fetch-a-payment.md)
-        - QR Code: [Fetch payments made to a QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes/fetch-payments.md)
+        - BharatQR: [Fetch payments by id](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bharatqr/api.md#fetch-a-payment)
+        - QR Code: [Fetch payments made to a QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes/fetch-payments.md)
     
 
         
@@ -146,8 +146,8 @@ Given below is a comparison of BharatQR and QR Codes webhook events:
 
 Webhook Events | BharatQR | QR Codes
 ---
-QR Code created | [virtual_account.created](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/smart-collect/#virtual-account-created.md) | [qr_code.created](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/subscribe-to-webhooks/#qr-code-created.md)
+QR Code created | [virtual_account.created](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/smart-collect.md#virtual-account-created) | [qr_code.created](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/subscribe-to-webhooks.md#qr-code-created)
 ---
-QR Code credited | [virtual_account.credited](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/bharatqr/notification/#webhooks.md) | [qr_code.credited](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/subscribe-to-webhooks/#qr-code-credited.md)
+QR Code credited | [virtual_account.credited](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bharatqr/notification.md#webhooks) | [qr_code.credited](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/subscribe-to-webhooks.md#qr-code-credited)
 ---
-QR Code closed | [virtual_account.closed](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/smart-collect/#virtual-account-closed.md) | [qr_code.closed](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/subscribe-to-webhooks/#qr-code-closed.md)
+QR Code closed | [virtual_account.closed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/smart-collect.md#virtual-account-closed) | [qr_code.closed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/subscribe-to-webhooks.md#qr-code-closed)

@@ -47,7 +47,7 @@ Use Razorpay Subscriptions to set up and manage recurring payments.
       - Manual control over when to charge each payment
       - On-demand or variable payment amounts
 
-      See [Recurring Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments.md) for flexible, usage-based billing.
+      See [Recurring Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments.md) for flexible, usage-based billing.
     
 
 ## Supported Payment Methods
@@ -64,14 +64,14 @@ Use Razorpay Subscriptions to set up and manage recurring payments.
 
    
 
-See [Supported Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/supported-payment-methods.md) for complete details on limits and supported banks.
+See [Supported Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/supported-payment-methods.md) for complete details on limits and supported banks.
 
 ## Prerequisites
 
   
 ### 1. Sign up for Account
 
-     Ensure you have a [Razorpay account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up.md).
+     Ensure you have a [Razorpay account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md).
     
 
    
@@ -80,7 +80,7 @@ See [Supported Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/
       1. Log in to the Dashboard.
       2. Navigate to **Account & Settings → Checkout Features** and enable **Flash checkout**.
      
-        ![Enable Flash Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/flash_checkout_settings.jpg.md)
+        ![Enable Flash Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/flash_checkout_settings.jpg.md)
      
 
    
@@ -88,36 +88,36 @@ See [Supported Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/
 
      For card-based subscriptions, customer card details are securely tokenised with explicit consent during authorisation.
      
-      ![Card tokenization flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/subscriptions-tokenisation.gif.md)
+      ![Card tokenization flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/subscriptions-tokenisation.gif.md)
     
 
 ## Get Started
 
 1. Log in to the Dashboard and navigate to **Subscriptions** under **PAYMENT PRODUCTS**.
-2. [Create a Plan](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create/#plan.md) to define your product, pricing and billing frequency.
-3. [Create a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create/#subscription.md) to link a customer to a plan using Dashboard or APIs.
-4. Verify your subscription flow in [test mode](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/test.md).
+2. [Create a Plan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md#plan) to define your product, pricing and billing frequency.
+3. [Create a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md#subscription) to link a customer to a plan using Dashboard or APIs.
+4. Verify your subscription flow in [test mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/test.md).
 
 ## Integrate With Your Systems
 
 You can integrate Razorpay Subscriptions with your existing systems:
 
    
-      Create [Plans](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-plans.md) and [Subscription Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-subscription-links.md) and share via email/SMS - no coding required.
+      Create [Plans](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-plans.md) and [Subscription Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-subscription-links.md) and share via email/SMS - no coding required.
    
    
-     Integrate Subscriptions with your website or app using [Subscriptions APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions.md).
+     Integrate Subscriptions with your website or app using [Subscriptions APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions.md).
    
    
-     Set up [webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/subscribe-to-webhooks.md) to receive real-time notifications for subscription events.
+     Set up [webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/subscribe-to-webhooks.md) to receive real-time notifications for subscription events.
    
 
 #### Related Information
 
-- [How Subscriptions Work](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/workflow.md)
-- [Subscription Use Cases](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/use-cases.md)
-- [Subscription States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/states.md)
-- [Create Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create.md)
-- [Integration Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/integration-guide.md)
-* [Subscriptions APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/apis.md)
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/faqs.md)
+- [How Subscriptions Work](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/workflow.md)
+- [Subscription Use Cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/use-cases.md)
+- [Subscription States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/states.md)
+- [Create Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md)
+- [Integration Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/integration-guide.md)
+* [Subscriptions APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/apis.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/faqs.md)

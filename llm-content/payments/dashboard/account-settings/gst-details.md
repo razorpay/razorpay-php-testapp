@@ -37,12 +37,12 @@ To add or update GST details:
 2. Click **Account & Settings** in the left navigation.
 3. Click **GST details** under **Business settings** section.
     - To add your GST details, click **Add GST details**.
-    ![Add GST details on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-profile-add-gst-details.jpg.md)
+    ![Add GST details on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-profile-add-gst-details.jpg.md)
     - To update your GST details, click **Update GST details**.
 4. In the **Add GST details** pop-up page:
     - Enter the GSTIN. This will appear on the invoices sent by Razorpay.
     - Upload a copy of the GSTIN Certificate and click **Submit**.
-    ![Submit GST details on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-profile-add-gst.jpg.md)
+    ![Submit GST details on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-profile-add-gst.jpg.md)
 
 After you provide the details, our team will review the request. During the verification process, we may reach out to you for clarifications.
 

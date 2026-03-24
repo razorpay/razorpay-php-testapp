@@ -13,9 +13,9 @@ You can integrate your custom applications or Android Apps with Google Omnichann
 1. [Contact our Support Team](https://razorpay.com/support/#request) and have them whitelist your UPI ID/VPA.
 1. Verify your UPI ID/VPA details on the [ Google Merchant Console](https://support.google.com/pay/business/answer/7684398?hl=en&ref_topic=7684388). Google deposits a small amount into the bank account linked to your VPA (UPI ID).
 1. You should have already integrated the Razorpay Checkout with your application using one of the following:
-    - [Razorpay Web Integration - Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md)
-    - [Razorpay Android Integration - Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom.md)
-1. [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
+    - [Razorpay Web Integration - Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md)
+    - [Razorpay Android Integration - Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom.md)
+1. [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
 
 ## Web Integration
 

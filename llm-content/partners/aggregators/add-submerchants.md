@@ -17,27 +17,27 @@ After *Gekko* account is activated, *Acme Corp* can use its account credentials 
 
 ## Add a Sub-merchant
 
-You can add a sub-merchant from the Dashboard or using our [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api.md).
+You can add a sub-merchant from the Dashboard or using our [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api.md).
 
 To add a sub-merchant from the Dashboard:
 
 1. Log in to your Dashboard.
 1. Click **Partner Dashboard**.
-    ![partner ag](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-partn_ag_0000.jpg.md)
+    ![partner ag](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-partn_ag_0000.jpg.md)
 1. Under the **Affiliate Accounts** tab, click **+ Add New Clients**.
-    ![partner 2](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-partners-2.jpg.md)
+    ![partner 2](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-partners-2.jpg.md)
 1. In the input-form, enter the:
     1. **Merchant Name** or the name of the business.
     1. **Merchant Email** address registered in your application. Razorpay will send a sign-up link to the specified email.
-    ![partner 2_2](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partn_2_2.jpg.md)
+    ![partner 2_2](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partn_2_2.jpg.md)
 
 The newly added sub-merchants will appear on the Partner Dashboard merchant list.
 
-![partner_2](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partn_2.jpg.md)
+![partner_2](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partn_2.jpg.md)
 
 ### Related Information
 
-- [About Aggregators](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators.md)
-- [Testing Operations](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/testing.md)
-- [Know Your Commission](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/commissions.md)
-- [Partners](@/Applications/MAMP/htdocs/new-docs/llm-content/partners.md)
+- [About Aggregators](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators.md)
+- [Testing Operations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/testing.md)
+- [Know Your Commission](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/commissions.md)
+- [Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners.md)

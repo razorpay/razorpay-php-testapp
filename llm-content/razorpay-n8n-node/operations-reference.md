@@ -16,7 +16,7 @@ The n8n node provides **12 core operations** organised across the following cate
 > 
 > **Extended Operations via MCP Server**
 > 
-> The node can access an additional **28 operations** through the [Razorpay MCP Server](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server.md) integration, bringing the total to 40 operations.
+> The node can access an additional **28 operations** through the [Razorpay MCP Server](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server.md) integration, bringing the total to 40 operations.
 > 
 
 ## Complete Operations List
@@ -25,49 +25,49 @@ The n8n node provides **12 core operations** organised across the following cate
 
 Operation | Description | Required Parameters | Optional Parameters | API Documentation
 ---
-Fetch All Orders | Retrieve a list of all orders with optional filtering | - | from, to, count, skip, authorized, receipt | [API Docs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/fetch-all.md)
+Fetch All Orders | Retrieve a list of all orders with optional filtering | - | from, to, count, skip, authorized, receipt | [API Docs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/fetch-all.md)
 
 ### Payment Links
 
 Operation | Description | Required Parameters | Optional Parameters | API Documentation
 ---
-Create Payment Link | Generate a Payment Link for customers | amount (paise), currency | description, customer details, notify, callback_url, callback_method | [API Docs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/create-standard.md)
+Create Payment Link | Generate a Payment Link for customers | amount (paise), currency | description, customer details, notify, callback_url, callback_method | [API Docs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links/create-standard.md)
 ---
-Fetch Payment Link | Retrieve details of a specific Payment Link | payment_link_id | - | [API Docs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/fetch-id-standard.md)
+Fetch Payment Link | Retrieve details of a specific Payment Link | payment_link_id | - | [API Docs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links/fetch-id-standard.md)
 
 ### Payments
 
 Operation | Description | Required Parameters | Optional Parameters | API Documentation
 ---
-Fetch Payment by id | Get detailed information about a specific payment | payment_id | expand[] | [API Docs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/fetch-with-id.md)
+Fetch Payment by id | Get detailed information about a specific payment | payment_id | expand[] | [API Docs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/fetch-with-id.md)
 ---
-Fetch All Payments | Retrieve all payments with filtering options | - | from, to, count, skip, expand[] | [API Docs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/fetch-all-payments.md)
+Fetch All Payments | Retrieve all payments with filtering options | - | from, to, count, skip, expand[] | [API Docs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/fetch-all-payments.md)
 
 ### Refunds
 
 Operation | Description | Required Parameters | Optional Parameters | API Documentation
 ---
-Fetch All Refunds | Retrieve all refunds with filtering | - | from, to, count, skip, payment_id | [API Docs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds/fetch-all.md)
+Fetch All Refunds | Retrieve all refunds with filtering | - | from, to, count, skip, payment_id | [API Docs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds/fetch-all.md)
 
 ### Settlements
 
 Operation | Description | Required Parameters | Optional Parameters | API Documentation
 ---
-Fetch Settlement by id | Get details of a specific settlement | settlement_id | expand[] | [API Docs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/settlements/fetch-with-id.md)
+Fetch Settlement by id | Get details of a specific settlement | settlement_id | expand[] | [API Docs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/settlements/fetch-with-id.md)
 ---
-Fetch All Settlements | Retrieve all settlements with filtering | - | from, to, count, skip | [API Docs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/settlements/fetch-all.md)
+Fetch All Settlements | Retrieve all settlements with filtering | - | from, to, count, skip | [API Docs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/settlements/fetch-all.md)
 
 ### Invoices
 
 Operation | Description | Required Parameters | Optional Parameters | API Documentation
 ---
-Fetch Invoices for Subscription | Get all invoices for a specific subscription | subscription_id | - | [API Docs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/fetch-invoices.md)
+Fetch Invoices for Subscription | Get all invoices for a specific subscription | subscription_id | - | [API Docs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/fetch-invoices.md)
 
 ### Disputes
 
 Operation | Description | Required Parameters | Optional Parameters | API Documentation
 ---
-Fetch All Disputes | Retrieve all customer disputes | - | from, to, count, skip, payment_id | [API Docs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/disputes/fetch-all.md)
+Fetch All Disputes | Retrieve all customer disputes | - | from, to, count, skip, payment_id | [API Docs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/disputes/fetch-all.md)
 
 ## Best Practices
 
@@ -89,5 +89,5 @@ Fetch All Disputes | Retrieve all customer disputes | - | from, to, count, skip,
 
 ## Next Steps
 
-- [View Use Cases & Examples](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/use-cases.md)
-- [Troubleshooting & FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/troubleshooting-faqs.md)
+- [View Use Cases & Examples](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/use-cases.md)
+- [Troubleshooting & FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/troubleshooting-faqs.md)

@@ -14,13 +14,13 @@ RazorpayX powered Current Account integration is available for all eligible cust
 
 ## Prerequisites
 
-- You must have a [RazorpayX - Current Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/current-account.md).
+- You must have a [RazorpayX - Current Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/current-account.md).
 - Share your Razorpay MID when you request for the integration. You can find this on the [RazorpayX Dashboard](https://x.razorpay.com/auth) on the top-right corner under **Profile**.
-    ![RazorpayX Dashboard- Profile](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-payroll-ca-int-profile-dashboard.jpg.md)
+    ![RazorpayX Dashboard- Profile](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-payroll-ca-int-profile-dashboard.jpg.md)
 
 - There should not be any `Pending` transactions in the ledger for your organization (**Reports** → **Ledger**). You cannot integrate if there are pending transactions. 
 - There should be no balance in your Payroll account before integration. 
-    - If there is any balance, add the Current Account as a [Contractor](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator#differences-between-employee-and-contractor.md) and [transfer funds](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts#transfer-funds.md) to this account. 
+    - If there is any balance, add the Current Account as a [Contractor](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#differences-between-employee-and-contractor) and [transfer funds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md#transfer-funds) to this account. 
     - Select **Reimbursement** / **No TDS** for the transfer.
 
  
@@ -32,13 +32,13 @@ The integration process is easy and does not require much effort. However, there
 
 Approval Workflows or maker-checkers in RazorpayX provide different permissions to the team members. As such, you might have **Transactions Pending for Approval** on the Payroll Dashboard.
 
-- If you have [approval workflows (maker-checker)](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) enabled on your RazorpayX account, the same is applicable to all transactions originating from Payroll by default.
+- If you have [approval workflows (maker-checker)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) enabled on your RazorpayX account, the same is applicable to all transactions originating from Payroll by default.
 - The transactions made in Payroll (salary, contractor payments, reimbursements, advance salaries, and compliance payments) follow the Approval Workflow (in terms of both amount and approvers) that you have set up on RazorpayX. 
 - These transactions are not executed until they are approved from the [RazorpayX Dashboard](https://x.razorpay.com/auth). 
 
 Watch this video to know more about the approval process on RazorpayX.
 
-![X Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-payroll-approval-workflow.gif.md)
+![X Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-payroll-approval-workflow.gif.md)
 
 [Contact support](mailto:Payroll@razorpay.com) if you wish to remove the approval workflow functionality for payouts happening via Payroll.
 
@@ -53,7 +53,7 @@ With the integration, all your transactions will happen via your RazorpayX accou
 Once your RazorpayX powered Current Account is integrated with Payroll:
 
 - Your RBL Current Account balance replaces the Payroll Account on the Payroll Dashboard, as shown.  
-    ![Payroll Account Balance](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-payroll-ca-int-acc-balance.jpg.md)
+    ![Payroll Account Balance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-payroll-ca-int-acc-balance.jpg.md)
 
     You will see the balance of the current account.
 
@@ -87,6 +87,6 @@ You can choose to remove the integration between Payroll and RazorpayX powered C
 
 ### Related Information
 
-- [RazorpayX - Current Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/current-account.md)
-- [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) 
-- [Integrations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations.md)
+- [RazorpayX - Current Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/current-account.md)
+- [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) 
+- [Integrations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations.md)

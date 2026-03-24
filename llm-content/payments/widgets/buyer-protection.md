@@ -50,8 +50,8 @@ Razorpay | The platform through which buyers can initiate claims.
     A secure purchasing experience builds customer trust and loyalty over time. Satisfied customers are more likely to return for future transactions, increasing repeat purchases and improving retention.
 
 ### Integration
-You can integrate the widget on your [Shopify Store](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/widgets/buyer-protection/shopify.md).
+You can integrate the widget on your [Shopify Store](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/widgets/buyer-protection/shopify.md).
 
 ### Related Information
-- [Money Back Promise](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/widgets/buyer-protection/money-back-promise.md)
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/widgets/buyer-protection/faqs.md)
+- [Money Back Promise](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/widgets/buyer-protection/money-back-promise.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/widgets/buyer-protection/faqs.md)

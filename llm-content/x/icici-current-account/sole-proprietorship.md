@@ -28,7 +28,7 @@ Sl. No. | Document Type | Documents/Forms required
 - Photo 
 - PAN Card
 ---
-2 | Entity Documents | 2 proofs to be submitted. Know which [documents](@/Applications/MAMP/htdocs/new-docs/llm-content/x/icici-current-account/entity-address-proof.md) are acceptable as proof.
+2 | Entity Documents | 2 proofs to be submitted. Know which [documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/icici-current-account/entity-address-proof.md) are acceptable as proof.
 ---
 3 | Declarations | 
 - Proprietorship Letter 
@@ -46,7 +46,7 @@ Refer to the table given below for acceptable documents for KYC:
 
 ![](/docs/assets/images/RZPX-rzpx-id-address-proof-icici.jpg)
 
-[Download all forms and documents](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x_ca_icici_documents-sole-proprietorship2112.zip.md).
+[Download all forms and documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x_ca_icici_documents-sole-proprietorship2112.zip.md).
 
 ## Related Information
 

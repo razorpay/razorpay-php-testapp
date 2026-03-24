@@ -24,7 +24,7 @@ UPI Autopay operates through a three-phase process that ensures regulatory compl
 
          Using this authorisation transaction, we can authenticate the customer's UPI and ensure that we can charge them recurring payments. This authorisation transaction can be created using Razorpay Standard Checkout or Registration Link.
 
-         [Mandate Registration →](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upi/integrate/#1-mandate-registration.md)
+         [Mandate Registration →](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upi/integrate.md#1-mandate-registration)
         
 
     
@@ -35,7 +35,7 @@ UPI Autopay operates through a three-phase process that ensures regulatory compl
          A token represents a mandate registration and is generated after the authorisation transaction is successfully captured. A token contains customer's payment details stored by Razorpay and is used to create a recurring payment.
 
          
-         [Token Fetch →](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upi/integrate/#2-fetch-mandate-registration-details.md)
+         [Token Fetch →](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upi/integrate.md#2-fetch-mandate-registration-details)
         
 
     
@@ -52,17 +52,17 @@ UPI Autopay operates through a three-phase process that ensures regulatory compl
 
      Funds are transferred and credited to your account following the existing UPI settlement process.
 
-     [Charge Subsequent Payments →](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upi/integrate/#3-charge-customers.md)
+     [Charge Subsequent Payments →](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upi/integrate.md#3-charge-customers)
     
 
-![UPI Autopay Process Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/autopay-flow.jpg.md)
+![UPI Autopay Process Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/autopay-flow.jpg.md)
 
 ## Get Started
 
 Given below are the steps to proceed with UPI Autopay.
 
     
-        If you are new to Razorpay, [set up your account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up.md) to start accepting payments using UPI Autopay.
+        If you are new to Razorpay, [set up your account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md) to start accepting payments using UPI Autopay.
     
     
         UPI Autopay is already enabled for existing Razorpay users. To verify activation:
@@ -88,13 +88,13 @@ Feature | Subscriptions | Recurring Payments
 **Best For** | Predictable, fixed-amount recurring billing | Variable or usage-based charging
 
 **Recommendations:**
-- Use **Subscriptions** for predictable, fixed-amount recurring billing. Know more about [Razorpay Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md).
+- Use **Subscriptions** for predictable, fixed-amount recurring billing. Know more about [Razorpay Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md).
 - Use **Recurring Payments (CAW)** for variable or usage-based charging. Given below are the various variants and integration methods available.
 
     
 ### Switch from Razorpay Subscriptions to Razorpay Recurring Payments
 
-         [Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md) allow you to automatically charge your customers at regular intervals. The system handles the scheduling and execution of payments based on predefined plans, reducing manual intervention and ensuring consistent revenue collection.
+         [Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md) allow you to automatically charge your customers at regular intervals. The system handles the scheduling and execution of payments based on predefined plans, reducing manual intervention and ensuring consistent revenue collection.
 
          As a Razorpay Subscriptions user you can switch to Recurring Payments. Similarly, an existing Recurring Payments user can switch to Subscriptions.
          - **From Subscriptions to CAW:** Reach out to support for guidance on transitioning your existing customer base
@@ -120,12 +120,12 @@ The section below elaborates on each variant type and lists the available integr
          
          Integrations | Docs Link
          ---
-         Standard Checkout | [Link to Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/upi/create-authorization-transaction.md)
+         Standard Checkout | [Link to Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/upi/create-authorization-transaction.md)
          ---
-         Custom Checkout | [Link to Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/upi/create-authorization-transaction.md)
+         Custom Checkout | [Link to Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/upi/create-authorization-transaction.md)
          ---
-         S2S APIs | - [Link to S2S Collect Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi/authorization-transaction.md)
-- [Link to S2S Intent Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-intent/authorization-transaction.md)
+         S2S APIs | - [Link to S2S Collect Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi/authorization-transaction.md)
+- [Link to S2S Intent Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-intent/authorization-transaction.md)
 
          
         
@@ -140,11 +140,11 @@ The section below elaborates on each variant type and lists the available integr
          
          Integrations | Docs Link
          ---
-         Standard Checkout | [Link to Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/upi-tpv/create-authorization-transaction.md)
+         Standard Checkout | [Link to Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/upi-tpv/create-authorization-transaction.md)
          ---
-         Custom Checkout | [Link to Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/upi-tpv/create-authorization-transaction.md)
+         Custom Checkout | [Link to Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/upi-tpv/create-authorization-transaction.md)
          ---
-         S2S APIs | [Link to Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-tpv/authorization-transaction.md)
+         S2S APIs | [Link to Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-tpv/authorization-transaction.md)
          
         
 
@@ -162,12 +162,12 @@ The section below elaborates on each variant type and lists the available integr
          
          Integrations | Docs Link
          ---
-         Standard Checkout | [Link to Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/upi-otm/authorization-transaction.md)
+         Standard Checkout | [Link to Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/upi-otm/authorization-transaction.md)
          ---
          Custom Checkout | Not Applicable
          ---
-         S2S APIs | - [Link to S2S Collect Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-otm/collect/authorization-transaction.md)
-- [Link to S2S Intent Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-otm/intent/authorization-transaction.md)
+         S2S APIs | - [Link to S2S Collect Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-otm/collect/authorization-transaction.md)
+- [Link to S2S Intent Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-otm/intent/authorization-transaction.md)
 
          
         

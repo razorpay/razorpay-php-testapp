@@ -81,7 +81,7 @@ You can set a particular item quantity for a product.
             [Test Embed Code](https://cdn.razorpay.com/static/widget/test-payment-button.html)
 
             The following screenshot shows the preselected quantity:
-            ![Prefill Quantity of an Item](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-prefill-prefilled-quantity.jpg.md)
+            ![Prefill Quantity of an Item](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-prefill-prefilled-quantity.jpg.md)
 
             
         
@@ -165,7 +165,7 @@ You can add a fixed amount field which gets added during checkout when the user 
             [Test Embed Code](https://cdn.razorpay.com/static/widget/test-payment-button.html)
 
             The following screenshot shows the preselected fixed amount field:
-            ![Prefill Fixed Amount Field](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-prefill-prefilled-fixed-amount.jpg.md)
+            ![Prefill Fixed Amount Field](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-prefill-prefilled-fixed-amount.jpg.md)
 
             
         
@@ -255,7 +255,7 @@ You can add a field with a pre-filled amount value which the customer can also e
             [Test Embed Code](https://cdn.razorpay.com/static/widget/test-payment-button.html)
 
             The following screenshot shows the prefilled editable amount field:
-            ![Prefill Fixed Amount Field](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-prefill-prefilled-donations-amount.jpg.md)
+            ![Prefill Fixed Amount Field](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-prefill-prefilled-donations-amount.jpg.md)
 
         
 
@@ -264,12 +264,12 @@ You can add a field with a pre-filled amount value which the customer can also e
 
 ### Related Information
 
-- [Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button.md)
-- [How Payment Button Works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/how-it-works.md)
-- [Payment Button States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/states.md)
-- [Quick Pay Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/quick-pay.md)
-- [Buy Now Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/buy-now.md)
-- [Donations Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/donations.md)
-- [Custom Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/custom.md)
-- [Manage Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/manage.md)
-- [Search for a Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/search.md)
+- [Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button.md)
+- [How Payment Button Works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/how-it-works.md)
+- [Payment Button States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/states.md)
+- [Quick Pay Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/quick-pay.md)
+- [Buy Now Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/buy-now.md)
+- [Donations Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/donations.md)
+- [Custom Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/custom.md)
+- [Manage Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/manage.md)
+- [Search for a Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/search.md)

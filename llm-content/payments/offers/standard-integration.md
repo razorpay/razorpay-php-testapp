@@ -5,7 +5,7 @@ description: Display general or order-specific Offers on Standard Checkout.
 
 # Integrate Offers with Standard Checkout
 
-After creating [offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create.md) from the Dashboard, you have to integrate them on Razorpay Standard Checkout so that your customers can avail them while making payments.
+After creating [offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md) from the Dashboard, you have to integrate them on Razorpay Standard Checkout so that your customers can avail them while making payments.
 
 > **WARN**
 >
@@ -38,7 +38,7 @@ Only those offers that pass the following validations are be displayed at the Ch
 
 Criteria | Description
 ---
-**Amount Match** | Order amount should be more than or equal to the [Minimum Order Amount](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create/#instant.md) set in an offer.
+**Amount Match** | Order amount should be more than or equal to the [Minimum Order Amount](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md#instant) set in an offer.
 ---
 **Validity** | Offer should be in the active or enabled state.
 ---
@@ -59,7 +59,7 @@ There are two ways in which you can display offers at Razorpay Checkout:
 
 This is the easiest way to display offers at the Checkout. While creating the offer from the Dashboard, enable the **Show Offer on Checkout** option.  The offer automatically appears at the Checkout.
 
-![Enable the Show Offer on Checkout option](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-no-cost-emi-offer-validity.jpg.md)
+![Enable the Show Offer on Checkout option](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-no-cost-emi-offer-validity.jpg.md)
 
 ### Method 2: Display Limited Offers 
 
@@ -88,15 +88,15 @@ To display offers:
 
 ### Step 1: Create an Offer from the Dashboard
 
-You can [create offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create#create-offers.md) from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create.md).
+You can [create offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md#create-offers) from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md).
 
-![Create offers from the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-offer-dashboard.jpg.md)
+![Create offers from the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-offer-dashboard.jpg.md)
 
 Let us say you have created an offer `offer_ANZoaxsOww2X53`, such that a discount of  is applicable on all transactions done through AXIS netbanking only.
 
 ### Step 2: Pass the Offer in Orders API
 
-Create an order and pass the offer in the `offers` array as a request parameter in the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+Create an order and pass the offer in the `offers` array as a request parameter in the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 > **INFO**
 >
@@ -251,20 +251,20 @@ document.getElementById('rzp-button1').onclick = function(e){
 
 ```
 
-Know more about [Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+Know more about [Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
 
 ## Next Steps
 
 After the customer has availed the offers and made the payment at the Checkout, you can  track the status of the payments:
 
 - From the Dashboard.
-- By [configuring webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md).
-- By polling our [payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/fetch-with-id.md).
+- By [configuring webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md).
+- By polling our [payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/fetch-with-id.md).
 
 ### Related Information
 
-- [About Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers.md)
-- [Create Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create.md)
-- [Tutorial - How to Create Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/tutorial.md)
-- [Disable Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create/#disabling-offers.md)
-- [Offers FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/faqs.md)
+- [About Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers.md)
+- [Create Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md)
+- [Tutorial - How to Create Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/tutorial.md)
+- [Disable Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md#disabling-offers)
+- [Offers FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/faqs.md)

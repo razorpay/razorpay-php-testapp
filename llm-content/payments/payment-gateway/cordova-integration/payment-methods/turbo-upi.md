@@ -9,14 +9,14 @@ description: Steps to integrate Razorpay Turbo UPI with your app.
 
 With Razorpay Turbo UPI, businesses experience faster and simpler payments. It condenses the payment process from 5 steps to just 1, eliminating app redirections. Enjoy a seamless in-app payment experience, reduce dependencies on third-party UPI apps, and gain complete visibility of the payment journey.
 
-You can seamlessly integrate Turbo UPI with Razorpay Cordova Standard SDK. Explore the full potential of [Razorpay Turbo UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/turbo-upi.md) and know how it works.
+You can seamlessly integrate Turbo UPI with Razorpay Cordova Standard SDK. Explore the full potential of [Razorpay Turbo UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/turbo-upi.md) and know how it works.
 
-![Turbo UPI Standard Checkout Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-flow.jpg.md)
+![Turbo UPI Standard Checkout Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-flow.jpg.md)
 
     
 ### Prerequisites
 
-         1. Integrate with [Razorpay Cordova Standard SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/cordova-integration.md).
+         1. Integrate with [Razorpay Cordova Standard SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/cordova-integration.md).
 
          2. Import the following frameworks:
              - Razorpay Cordova Standard SDK
@@ -42,7 +42,7 @@ You can seamlessly integrate Turbo UPI with Razorpay Cordova Standard SDK. Explo
 
 ## Onboarding Flow
 
-Ensure your customers [onboard with Razorpay Turbo UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/turbo-upi/#onboarding-flow.md) to get started.
+Ensure your customers [onboard with Razorpay Turbo UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/turbo-upi.md#onboarding-flow) to get started.
 
 ## Turbo UPI SDK Integration
 
@@ -167,7 +167,7 @@ Follow these steps to integrate with Razorpay Turbo UPI:
 
 Razorpay provides a single exposed function that allows you to manage linked UPI accounts and access all non-transactional flows seamlessly. 
 
-![View the non-transactional flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-non-transactional.jpg.md)
+![View the non-transactional flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-non-transactional.jpg.md)
 
     
 ### Manage UPI Accounts
@@ -236,7 +236,7 @@ The SDKs given below provide access to exposed models for seamless integration.
 
          
 
-         [Refer to the list of possible error reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/cordova-integration/payment-methods/turbo-upi/error-codes.md).
+         [Refer to the list of possible error reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/cordova-integration/payment-methods/turbo-upi/error-codes.md).
          
         
 

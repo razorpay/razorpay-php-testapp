@@ -7,7 +7,7 @@ description: Accept payments by enabling various UPI apps at Razorpay Checkout. 
 # About UPI
 
 UPI checkout is a smooth payment experience for users as compared to other payment modes, thus provides higher transaction success rates for your business. 
- Razorpay supports multiple [third-party apps](https://www.npci.org.in/what-we-do/upi/3rd-party-apps) and has direct integration with [Google Pay.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/google-pay.md) 
+ Razorpay supports multiple [third-party apps](https://www.npci.org.in/what-we-do/upi/3rd-party-apps) and has direct integration with [Google Pay.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/google-pay.md) 
 
 Check the UPI payment flow and the various UPI integrations available with Razorpay.
 
@@ -256,7 +256,7 @@ Follow the steps to successfully create your new UPI id.
 
 Given below is the payment flow for UPI:
 
-![Payment Flow for UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-flow-upi_collect.jpg.md)
+![Payment Flow for UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-flow-upi_collect.jpg.md)
 
 @include payment-methods/supported-upi-apps
 
@@ -265,10 +265,10 @@ Given below is the payment flow for UPI:
 > 
 > **Third Party Validation**
 > 
-> If your business model requires the customers to make transactions **only** from the bank account that was submitted to your business at the time of registration then know more about [Third-Party Validation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation.md). Check the [list of banks that support TPV](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/bank-list.md).
+> If your business model requires the customers to make transactions **only** from the bank account that was submitted to your business at the time of registration then know more about [Third-Party Validation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation.md). Check the [list of banks that support TPV](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation/bank-list.md).
 > 
 
 ### Related Information
 
-- [UPI Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/payments/upi.md)
-- [UPI Transaction Limits](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/transaction-limits/upi.md)
+- [UPI Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/payments/upi.md)
+- [UPI Transaction Limits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/transaction-limits/upi.md)

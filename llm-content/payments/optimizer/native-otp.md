@@ -7,7 +7,7 @@ description: Use Razorpay's Native OTP feature to help you confirm online paymen
 
 Razorpay's Native OTP feature allows direct usage of one-time passwords (OTPs) within the Checkout form, eliminating redirection to issuing banks' ACS (Access Control Server) pages. This provides a seamless OTP flow, reducing payment failures due to slow internet speeds and avoiding losses from redirects to external bank pages. Use this feature to enhance the user experience, saving time and reducing payment failures caused by poor internet connectivity. Shown below is a sample OTP input screen:
 
-![native otp screen](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rzp-acs_page.jpg.md)
+![native otp screen](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rzp-acs_page.jpg.md)
 
 Razorpay's Native OTP offers the following additional features:
 - [Auto Read + Auto Fill](#auto-read-auto-fill)
@@ -24,7 +24,7 @@ Razorpay's Native OTP offers the following additional features:
 ## Auto Read + Auto Fill
 Check how **Auto Read + Auto Fill** works:
 
-![auto read fill otp](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-auto-submit-otp-new1.gif.md)
+![auto read fill otp](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-auto-submit-otp-new1.gif.md)
 
 1. Razorpay requests user permission to read SMS messages.
 2. By obtaining permission to read SMS messages, Razorpay can:
@@ -41,7 +41,7 @@ Check how **Auto Read + Auto Fill** works:
 ## Auto Submit
 Customers no longer need to manually enter one-time passwords (OTPs) for card payments. 
 
-![auto submit otp](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-auto-submit-otp-new1.gif.md)
+![auto submit otp](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-auto-submit-otp-new1.gif.md)
 
 Razorpay handles the entire process seamlessly by obtaining permission to read SMS messages to:
     - Automatically read the OTP.

@@ -23,7 +23,7 @@ Log in to the Dashboard to generate the API keys, if you have not done earlier. 
 
 ## Step 1: Create a Low Cost EMI Offer
 
-[Create a Low Cost EMI offer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create.md) from the Dashboard.
+[Create a Low Cost EMI offer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md) from the Dashboard.
 
 > **WARN**
 >
@@ -192,11 +192,11 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 : `integer` Payment amount in the smallest currency sub-unit. For example, if the amount to be charged is , then pass `29900` in this field.
 
 `currency` _mandatory_
-: `string` Currency code for the currency in which you want to accept the payment. For example, `INR`. Refer to the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be of 3 characters.
+: `string` Currency code for the currency in which you want to accept the payment. For example, `INR`. Refer to the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be of 3 characters.
 
 `order_id` _mandatory_
 : `string` Unique identifier of the Order.
- Know more about [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+ Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 `ip` _mandatory_
 : `string` Customer's IP address.
@@ -244,7 +244,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 : `string` The EMI duration in months. Required if the method is `emi`.
 
 `notes` _optional_
-: `object` Key-value object used for passing tracking info. Refer to [Notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) for more details.
+: `object` Key-value object used for passing tracking info. Refer to [Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) for more details.
 
 `callback_url` _optional_
 : `string` URL endpoint where Razorpay will submit the final payment status.
@@ -277,9 +277,9 @@ If the payment request is valid, the response contains the following fields.
 
 You need to show the availability of Low Cost EMI Offers on checkout. Customers should be able to clearly view the discount on interest being given to them and how much interest they need to bear. 
 
-For example, you can view the image below to see how Low Cost EMI offers appear on [Razorpay Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/low-cost-emi.md).
+For example, you can view the image below to see how Low Cost EMI offers appear on [Razorpay Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/low-cost-emi.md).
 
-![Low Cost EMI on Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/low-cost-emi-standard.jpg.md)
+![Low Cost EMI on Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/low-cost-emi-standard.jpg.md)
 
 ## Step 5: Verify the Payment
 
@@ -290,10 +290,10 @@ Once the customer completes the payment, a `POST` request is sent to the `callba
 After the customer has availed the offers and made the payment on the Checkout, you can track the status of the payments:
 
 - From the Dashboard.
-- By [configuring webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
-- By polling our [payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#fetch-payments-based-on-orders.md).
+- By [configuring webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
+- By polling our [payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#fetch-payments-based-on-orders).
 
 ### Related Information
-- [About Low Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/low-cost-emi.md)
-- [Create Low Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/low-cost-emi/create.md)
-- [Tutorial - How to Create Low Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/low-cost-emi/tutorial.md)
+- [About Low Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/low-cost-emi.md)
+- [Create Low Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/low-cost-emi/create.md)
+- [Tutorial - How to Create Low Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/low-cost-emi/tutorial.md)

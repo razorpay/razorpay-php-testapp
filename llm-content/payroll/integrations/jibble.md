@@ -6,7 +6,7 @@ description: Integrate RazorpayX Payroll with Jibble to manage employees' attend
 
 # Integrate with Jibble
 
-Integrate your RazorpayX Payroll account with Jibble and enhance time and attendance management for your employees. Jibble syncs your employees' leaves and shifts data with Payroll and automatically calculates [Loss of Pay](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/leaves/#loss-of-pay-for-unpaid-excessive-leave-work.md) when executing payroll. 
+Integrate your RazorpayX Payroll account with Jibble and enhance time and attendance management for your employees. Jibble syncs your employees' leaves and shifts data with Payroll and automatically calculates [Loss of Pay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/leaves.md#loss-of-pay-for-unpaid-excessive-leave-work) when executing payroll. 
 
 The RazorpayX Payroll - Jibble integration offers the following benefits: 
 
@@ -35,12 +35,12 @@ To integrate with Jibble:
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
 1. Navigate to **Integrations** in the left menu under **ADMIN OPTIONS**. 
 1. Look for **Jibble** and click **Explore**.
-    ![Jibble Integration option on the Razorpay Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-jibble-explore.jpg.md)
+    ![Jibble Integration option on the Razorpay Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-jibble-explore.jpg.md)
 1. Click **START INTEGRATION** on the Jibble Integration page. 
 1. You can choose to either create a new Jibble account or use an existing one. Select **Yes, we have a Jibble account for our organisation**. 
 1. Click **Proceed With Integration**.
 
-    ![Proceed with Jibble Integration on Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-jibble-create-account.jpg.md)
+    ![Proceed with Jibble Integration on Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-jibble-create-account.jpg.md)
 
 After you create a Jibble account, you can set up the integration with Jibble. 
 
@@ -51,9 +51,9 @@ After you create a Jibble account, you can set up the integration with Jibble.
 
     Payroll automatically creates Jibble accounts for your employees, post which your employees can authenticate and avail the [benefits](#advantages-of-integration). 
 
-You have successfully integrated Payroll with Jibble. Set up your organisation's [leave and attendance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/leaves.md) policy on Jibble. Know how Payroll [retrieves the Loss of Pay data](#verify-lop-in-payroll) to calculate the monthly payroll.
+You have successfully integrated Payroll with Jibble. Set up your organisation's [leave and attendance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/leaves.md) policy on Jibble. Know how Payroll [retrieves the Loss of Pay data](#verify-lop-in-payroll) to calculate the monthly payroll.
 
-![Jibble integration success page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-jibble-active.jpg.md)
+![Jibble integration success page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-jibble-active.jpg.md)
 
 ### Manage Integration 
 
@@ -67,15 +67,15 @@ Once you complete the integration, you can manage the integration from **ADMIN O
 
 ## Verify LOP in Payroll
 
-Once your employees mark their attendance on Jibble, you can sync the loss of pay details from Jibble before you [execute payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll.md). To verify the loss of pay data:
+Once your employees mark their attendance on Jibble, you can sync the loss of pay details from Jibble before you [execute payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md). To verify the loss of pay data:
 
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
 1. Go to **ADMIN OPTIONS** in the left menu → **Pay Employees** → **Run Payroll**. 
 1. Select the payroll month from the drop-down list in the right pane.
 1. Click **Get loss of pay report now >**. This opens the Loss of Pay report for the selected month. 
-    ![Sync Jibble to get automated loss of pay report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-lop.jpg.md)
+    ![Sync Jibble to get automated loss of pay report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-lop.jpg.md)
 1. Modify the date range upto 31 days and click **Sync Loss of Pay Report**. Payroll retrieves the employees' leaves and shifts data from Jibble for the updated range. 
-    ![xpayroll-Jibble loss of pay employee view](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-jibble-lop-report.jpg.md)
+    ![xpayroll-Jibble loss of pay employee view](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-jibble-lop-report.jpg.md)
 1. Verify the data report and the deduction amount. 
     - Click the edit icon against the employee's name in the **EDIT LOP DAYS** column to change the Loss of Pay days as required. Click **Save**.
     - Select and clear check boxes against the employees' names to skip deducting the loss of pay amount for that month.  
@@ -87,10 +87,10 @@ You have successfully added your employees' Loss of Pay amount as a deduction to
 1. Go to the Loss of Pay report page. 
 1. Check the **DEDUCTION ADDED TO PAYROLL?** column. 
 
-You can edit the loss of pay days and deductions until you execute payroll. Know more about the [execute payroll checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/execute-payroll.md).
+You can edit the loss of pay days and deductions until you execute payroll. Know more about the [execute payroll checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/execute-payroll.md).
 
 ### Related Information 
 
-- [About Integrations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations.md) 
-- [Leaves and Attendance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/leaves.md)
-- [Whatsapp Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/whatsapp.md)
+- [About Integrations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations.md) 
+- [Leaves and Attendance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/leaves.md)
+- [Whatsapp Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/whatsapp.md)

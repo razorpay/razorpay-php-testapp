@@ -7,12 +7,12 @@ description: Discover Razorpay App Store integrations with popular platforms lik
 
 Razorpay App Store is a platform that houses multiple applications that you can use. The App Store provides an ecosystem where you can discover partner and non-partner platforms. This helps businesses grow while extending Razorpay capabilities.
 
-![Razorpay App Store dashboard showing available app integrations](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/app-store.jpg.md)
+![Razorpay App Store dashboard showing available app integrations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/app-store.jpg.md)
 
 ## Integrations Available
 
 You can integrate Razorpay with the below apps:
 
-- [Integromat](@/Applications/MAMP/htdocs/new-docs/llm-content/app-store/integromat.md)
-- [Slack](@/Applications/MAMP/htdocs/new-docs/llm-content/app-store/slack.md)
-- [Zapier](@/Applications/MAMP/htdocs/new-docs/llm-content/app-store/zapier.md)
+- [Integromat](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/app-store/integromat.md)
+- [Slack](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/app-store/slack.md)
+- [Zapier](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/app-store/zapier.md)

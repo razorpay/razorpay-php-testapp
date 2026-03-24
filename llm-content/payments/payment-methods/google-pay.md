@@ -119,9 +119,9 @@ Supported networks are automatically configured based on your business account s
 Given below is the payment flow for Google Pay at Razorpay Checkout:
 
 1. The customer selects **Google Pay** at checkout.
-   ![Google Pay on Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/google-pay-recommended.jpg.md)
+   ![Google Pay on Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/google-pay-recommended.jpg.md)
 2. If eligible for Dynamic Currency Conversion (DCC), the customer sees a currency selection screen. Select preferred currency (for example, INR or USD) and click **Pay with Google Pay** to proceed.
-   ![Google Pay DCC](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/google-pay-conversion.jpg.md)
+   ![Google Pay DCC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/google-pay-conversion.jpg.md)
 2. Google Pay displays the payment sheet with all the card options available.
 3. Customer selects a card and completes the payment instantly.
 4. Payment processes and the customer is returned to the website with a confirmation.

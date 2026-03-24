@@ -27,11 +27,11 @@ To download an invoice as a PDF file or print it:
 > 
 
 ### Related Information
-- [Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices.md)
-- [How Invoices Work](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/how-it-works.md)
-- [Invoices States ](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/states.md)
-- [Create an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/create.md)
-- [Search an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/search.md)
-- [Update an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/update.md)
-- [Duplicate an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/duplicate.md)
-- [Delete an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/delete.md)
+- [Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md)
+- [How Invoices Work](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/how-it-works.md)
+- [Invoices States ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/states.md)
+- [Create an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/create.md)
+- [Search an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/search.md)
+- [Update an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/update.md)
+- [Duplicate an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/duplicate.md)
+- [Delete an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/delete.md)

@@ -23,7 +23,7 @@ Given below are the sample payloads for Payouts webhook events.
 
 @include rzpx/payouts/payouts-webhooks/payout-pending
 
-Know about the [Payouts Approval Payload](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts-approval#webhooks.md).
+Know about the [Payouts Approval Payload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts-approval.md#webhooks).
 
 ### Payout Rejected
 

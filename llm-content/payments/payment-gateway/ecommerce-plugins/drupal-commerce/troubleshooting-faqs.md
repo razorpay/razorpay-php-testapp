@@ -11,7 +11,7 @@ description: Find answers to frequently asked questions about Drupal Commerce pl
          To verify if webhooks are enabled:
             1. Log in to the Razorpay Dashboard and navigate to **Account & Settings**.
             2. In the **Website and app settings** section, click **Webhooks**.
-                ![Navigate to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
+                ![Navigate to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
             3. Select the relevant webhook **URL**.
             4. On the right panel, check if the status for `payment.authorized`, `payment.failed` and `refund.created` is enabled.
         
@@ -41,7 +41,7 @@ description: Find answers to frequently asked questions about Drupal Commerce pl
             2. Navigate to **Extend** → **Uninstall**.
             3. Search for **Razorpay** in the **Filter** section.
             4. Select the check box and click **Uninstall**.
-                ![Uninstall Drupal plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-uninstall.jpg.md)
+                ![Uninstall Drupal plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-uninstall.jpg.md)
         
 
     

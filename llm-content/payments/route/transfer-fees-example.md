@@ -97,7 +97,7 @@ Transfer Amount * Pricing Plan * GST
 The transfer happens **only if** you have an account balance equal to or greater than ₹26.56.
 
 ### Related Information
-- [Transfer Funds to Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md)
-- [Schedule Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/schedule-settlement.md)
-- [Payment Reversals](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/reversal.md)
-- [Refund to Customers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/refund.md)
+- [Transfer Funds to Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md)
+- [Schedule Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/schedule-settlement.md)
+- [Payment Reversals](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/reversal.md)
+- [Refund to Customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/refund.md)

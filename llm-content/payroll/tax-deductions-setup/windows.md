@@ -16,7 +16,7 @@ After you enable tax deductions for your organisation, you can set up the follow
 
 ## Declaration Window 
 
-After you [enable the declaration settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tax-deductions-setup/#enable-set-up.md), you can choose the declaration window period for the year your employees can declare their investments. This usually happens at the beginning of the year. 
+After you [enable the declaration settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tax-deductions-setup.md#enable-set-up), you can choose the declaration window period for the year your employees can declare their investments. This usually happens at the beginning of the year. 
 
     
 ### Set Up Investments Declaration Window
@@ -30,7 +30,7 @@ After you [enable the declaration settings](@/Applications/MAMP/htdocs/new-docs/
                 - **Every month for a certain period**: The declaration window regularly opens for a certain period every month. To choose the date range, select the **Month start date** and **Month end date**. 
                 - **Custom range**: The declaration window opens as defined by the date and month ranges specified in the **Start date** and **End date** drop-down menu. You can also click **+ Add new range** to add more than one declaration window. 
 
-                ![RazorpayX Payroll Tax Declaration Window](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-tax-declaration-window.jpg.md)
+                ![RazorpayX Payroll Tax Declaration Window](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-tax-declaration-window.jpg.md)
             1. Click **Save & Confirm** to save the declaration settings. 
         
 
@@ -60,7 +60,7 @@ The proof upload window opens towards the end of the year when employees upload 
                 - **Always open**: The proof upload window remains open throughout the year for employees to upload their investment proofs at any time. 
                 - **Custom range**: The proof upload window opens as defined by the date and month ranges specified in the **Start date** and **End date** drop-down menu. You can also click **+ Add new range** to add more than one proof upload window. 
 
-                ![RazorpayX Payroll Proof Upload Window settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-tax-declaration-proof-upload-window.jpg.md)
+                ![RazorpayX Payroll Proof Upload Window settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-tax-declaration-proof-upload-window.jpg.md)
             1. Click **Save & Confirm** to save the declaration settings. 
         
 
@@ -84,7 +84,7 @@ If your employees are unable to declare/submit proofs within the window duration
                 1. Add the employees' email ids in the **Add employee(s) email IDs** text box. This enables the specific declaration/proof upload window for the chosen employees. 
                 1. Click **Create window**.
 
-                ![RazorpayX Payroll Create Custom Window for Employees](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-tax-declaration-custom-window.jpg.md)
+                ![RazorpayX Payroll Create Custom Window for Employees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-tax-declaration-custom-window.jpg.md)
             1. Click **Save & Confirm**. 
         
 
@@ -95,5 +95,5 @@ You have successfully created a custom window for particular employees. You can 
 
 ### Related Information 
 
-- [About Tax Deductions Setup](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tax-deductions-setup.md)
-- [Verify Tax Proofs](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tax-verifications.md)
+- [About Tax Deductions Setup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tax-deductions-setup.md)
+- [Verify Tax Proofs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tax-verifications.md)

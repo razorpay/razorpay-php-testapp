@@ -8,7 +8,7 @@ description: Check the different Subscription statuses mapped between OpenCart a
 
 ## OpenCart Subscriptions Status And Razorpay Subscription Status Mapping
 
-The subscription status names used by Razorpay and OpenCart are different. The table below shows the mapping between the subscription statuses names used by Razorpay and OpenCart. Know more about the [Razorpay Subscriptions states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/states.md).
+The subscription status names used by Razorpay and OpenCart are different. The table below shows the mapping between the subscription statuses names used by Razorpay and OpenCart. Know more about the [Razorpay Subscriptions states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/states.md).
 
 OpenCart Subscription Status | Razorpay Subscription Status | Description
 ---

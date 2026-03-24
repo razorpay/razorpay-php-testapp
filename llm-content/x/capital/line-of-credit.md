@@ -52,7 +52,7 @@ A Line of Credit is beneficial for your business's short-term monetary needs. On
             Pay EMIs on one fixed due date, no matter when in the month you have withdrawn. This induces better financial planning as you need not check if you have sufficient balance in your account for every different due date. 
         - **Automated Collection** 
 
-            The EMI amount is auto-debited from your account balance on the 5th of every month via automated NACH. You need to ensure there are enough funds to make the repayments. You can also make [manual repayments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/line-of-credit/dashboard#manual-emi-payments.md) as you wish. RazorpayX reminds you as you approach the due date via email. 
+            The EMI amount is auto-debited from your account balance on the 5th of every month via automated NACH. You need to ensure there are enough funds to make the repayments. You can also make [manual repayments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/line-of-credit/dashboard.md#manual-emi-payments) as you wish. RazorpayX reminds you as you approach the due date via email. 
         - **Flexible Withdrawal and Repayment** 
 
             Withdraw the necessary amount on any day of the month. Repay in monthly instalments as per your business needs.
@@ -67,20 +67,20 @@ To apply for Line of Credit:
 
 1. Visit the [Line of Credit](https://razorpay.com/x/line-of-credit/) page. 
     1. Enter your mobile number and complete the OTP verification process. 
-        ![Apply for Line of Credit](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-loc-apply.jpg.md)
+        ![Apply for Line of Credit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-loc-apply.jpg.md)
     1. Enter your name to create an account with Razorpay. You are then redirected to the LOC application form. 
 1. Enter the necessary details required to complete the Line of Credit application.  
     1. Provide business and personal details applicable as per your business type. 
     1. Authorise Razorpay as a representative to conduct a credit check from CIBIL/Experian. 
     1. Submit the form. 
-        ![Submit the LOC form after filling your details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-loc-apply-1.jpg.md)
+        ![Submit the LOC form after filling your details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-loc-apply-1.jpg.md)
 1. After we receive your details, we perform a credit verification and eligibility check. 
     1. At this stage, you must either:
         - Manually upload your bank account statement. 
         - Upload bank account statement through netbanking via Perfios.
     1. We process and review your details, and ask you to confirm your email.  
 1. Based on your eligibility, we evaluate an offer for you and show the sanctioned credit limit.
-    ![Line of Credit offer page with limit of Rs. 5 Lakhs](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-loc-offer.jpg.md)
+    ![Line of Credit offer page with limit of Rs. 5 Lakhs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-loc-offer.jpg.md)
 1. After you have accepted the offer, submit your KYC details and sign the relevant agreement documents.
     
 > **WARN**
@@ -92,9 +92,9 @@ To apply for Line of Credit:
 >     
 
 You can now log in to your [RazorpayX Dashboard](https://x.razorpay.com/auth) and: 
-- [Withdraw funds](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/line-of-credit/dashboard#make-withdrawals.md) from your line, 24/7. 
+- [Withdraw funds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/line-of-credit/dashboard.md#make-withdrawals) from your line, 24/7. 
 - Choose the tenure within which you want to repay the withdrawn amount, including the interest accumulated. 
-- [Repay your withdrawals](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/line-of-credit/dashboard#make-repayments.md) in two different ways, or pre-close withdrawal.
+- [Repay your withdrawals](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/line-of-credit/dashboard.md#make-repayments) in two different ways, or pre-close withdrawal.
 
 ## Withdrawal Workflow
 
@@ -110,18 +110,18 @@ Status | Description
 ---
 `disbursed` | When the funds requested are available in your account, the withdrawal reaches this status. 
 ---
-`partially repaid` | If you repay less than total due amount when [repaying a withdrawal](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/line-of-credit/dashboard#make-repayments.md), this is the status.
+`partially repaid` | If you repay less than total due amount when [repaying a withdrawal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/line-of-credit/dashboard.md#make-repayments), this is the status.
 ---
 `repaid` | If you have completely repaid the withdrawn amount in full, the withdrawal status is `repaid`. 
 ---
 `overdue` | This is the status if you have not paid the EMI amount after the due date. You can only make further withdrawals when you pay the overdue EMI.
 ---
-`failed` | If your EMI repayment had failed, this is the status. This usually happens due to unavoidable server downtimes. Retry making the EMI payment. [Contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support/#razorpayx-capital.md) from the Dashboard for any queries. 
+`failed` | If your EMI repayment had failed, this is the status. This usually happens due to unavoidable server downtimes. Retry making the EMI payment. [Contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#razorpayx-capital) from the Dashboard for any queries. 
 ---
 
 You can always filter your EMIs basis their status using the **Quick Filters** menu, as shown.
 
-![Quickfilters menu on the RazorpayX Line of Credit Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-loc-quickfilters.jpg.md)
+![Quickfilters menu on the RazorpayX Line of Credit Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-loc-quickfilters.jpg.md)
 
 ### Calculations and Charges
 
@@ -129,8 +129,8 @@ There are NO hidden charges when you withdraw from the Line of Credit.
 
 - However, **overdue charges are applicable** when you do not pay the EMIs on the due date. 
  
- The interest accrued is shown on the right pane of the [withdrawal summary](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/line-of-credit/dashboard.md) with ⓘ and is inclusive of the overdue charges when you view it after the due date.
-    ![tooltip icon that shows overdue charges when hovered over](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-loc-charges-tooltip.jpg.md)
+ The interest accrued is shown on the right pane of the [withdrawal summary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/line-of-credit/dashboard.md) with ⓘ and is inclusive of the overdue charges when you view it after the due date.
+    ![tooltip icon that shows overdue charges when hovered over](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-loc-charges-tooltip.jpg.md)
 
 - Delayed interest is an overdue charge applicable if you do not pay your EMI on the due date. This interest is charged on a daily basis on the outstanding EMI amount. 
 - These calculations are specific to the credit line sanctioned and can be found in the Key Facts Statement and other loan agreement documents.
@@ -139,6 +139,6 @@ All interests (broken period, delayed interest, EMI interest) and EMIs are round
 
 ### Related Information 
 
-- [Razorpay Capital Use Cases](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/line-of-credit/#use-cases.md)
+- [Razorpay Capital Use Cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/line-of-credit.md#use-cases)
 - [Top 10 Advantages of a Business Line of Credit](https://razorpay.com/learn/business-banking/why-is-line-of-credit-necessary-for-businesses/)
-- [Line of Credit FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/line-of-credit/faqs.md)
+- [Line of Credit FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/line-of-credit/faqs.md)

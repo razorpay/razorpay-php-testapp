@@ -58,11 +58,11 @@ To manually capture payments:
 
 ## Issue a Refund
 
-You can issue refunds to your customers from the Dashboard. Know more about [issuing refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/issue.md).
+You can issue refunds to your customers from the Dashboard. Know more about [issuing refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/issue.md).
 
 ## Subscribe to Webhook Events
 
-You can subscribe to webhook events from the Dashboard. Know more about [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
+You can subscribe to webhook events from the Dashboard. Know more about [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
 
 To subscribe to webhook events:
 1. Log in to the Dashboard.
@@ -70,9 +70,9 @@ To subscribe to webhook events:
 
 @include payments/payments-available-events
 
-Know more about [webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) and check the [sample payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments.md).
+Know more about [webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) and check the [sample payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md).
 
 ### Related Information 
 
-- [About Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments.md)
-- [Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/apis.md)
+- [About Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments.md)
+- [Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/apis.md)

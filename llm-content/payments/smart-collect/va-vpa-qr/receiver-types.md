@@ -17,7 +17,7 @@ For example, if the `receiver_types` field of the original request contained `ba
 > 
 > **Note**
 > 
-> The request format for virtual account creation recently underwent a change, and the updated format can be found [here](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/api.md). The request format given below will eventually be deprecated.
+> The request format for virtual account creation recently underwent a change, and the updated format can be found [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/api.md). The request format given below will eventually be deprecated.
 > 
 > For new integrations, we strongly recommend you use the updated request format, as it allows a host of new features, most particularly the support for completely-numeric account numbers by default.
 > 
@@ -55,7 +55,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 }
 ```
 
-With the exception of the `Create` API, the request format for all other API endpoints remains the same, and can be checked [here](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/api.md).
+With the exception of the `Create` API, the request format for all other API endpoints remains the same, and can be checked [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/api.md).
 
 ## Migration
 

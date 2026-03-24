@@ -15,9 +15,9 @@ Certifications | Seal
 ---
 PCI-DSS Level 1 | View Certificate
 ---
-ISO 27001:2022 IEC | ![ISO Seal](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/iso-seal.jpg.md)
+ISO 27001:2022 IEC | ![ISO Seal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/iso-seal.jpg.md)
 ---
-System and Organization Controls (SOC) 2 Type 2 | ![SOC Seal](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/soc-seal.jpg.md)
+System and Organization Controls (SOC) 2 Type 2 | ![SOC Seal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/soc-seal.jpg.md)
 
 We can provide you with copies of our certifications. Please reach out to us via your Key Account Manager.
 
@@ -27,7 +27,7 @@ At Razorpay, we employ the best encryption practices on our website and possess 
 
 - All Razorpay services are served over HTTPS using TLS and configured with industry-standard cyphers.
 
-- You can download a copy of our [TLS certificate](@/Applications/MAMP/htdocs/new-docs/llm-content/security/whitelists/#ssl-certificates.md).
+- You can download a copy of our [TLS certificate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/whitelists.md#ssl-certificates).
 
 - We follow industry-standard AES-128-bit encryption for all user data.
 
@@ -36,7 +36,7 @@ At Razorpay, we employ the best encryption practices on our website and possess 
 ## Authentication
 
 Requests to Razorpay APIs are authenticated using Basic Authentication. 
-Know more about [API authentication](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication.md).
+Know more about [API authentication](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md).
 
 Please ensure the security of your Dashboard credentials and API keys.
 
@@ -47,14 +47,14 @@ We are constantly building new processes to minimise the risk of online payment 
 - We check and flag hotlisted cards for every payment. (Hotlisting means that the card has been blocked temporarily or permanently for use.)
 - We also use geographical and pattern-based transaction monitoring to identify fraudulent transactions.
 
-Know more about [fraud protection for customers](@/Applications/MAMP/htdocs/new-docs/llm-content/security/customers/#fraud-and-risk.md).
+Know more about [fraud protection for customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/customers.md#fraud-and-risk).
 
 ## Firewall
 
 If you want to limit or authenticate ingress/egress to Razorpay, we provide a list of IP addresses for APIs and Webhooks.
 
-- Razorpay API requests are resolved to these [IP addresses](@/Applications/MAMP/htdocs/new-docs/llm-content/security/whitelists/#api-ips.md).
-- Razorpay webhooks use these [IP addresses](@/Applications/MAMP/htdocs/new-docs/llm-content/security/whitelists/#webhook-ips.md).
+- Razorpay API requests are resolved to these [IP addresses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/whitelists.md#api-ips).
+- Razorpay webhooks use these [IP addresses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/whitelists.md#webhook-ips).
 
 ## Vulnerability Disclosure Policy
 
@@ -66,6 +66,6 @@ For more details on our bug bounty programme and to submit reports, visit our [H
 
 ### Related Information
 
-- [Business Security Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/security/checklist.md)
-- [Shared Responsibility Model](@/Applications/MAMP/htdocs/new-docs/llm-content/security/shared-responsibility-model.md)
-- [Security For Customers](@/Applications/MAMP/htdocs/new-docs/llm-content/security/customers.md)
+- [Business Security Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/checklist.md)
+- [Shared Responsibility Model](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/shared-responsibility-model.md)
+- [Security For Customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/customers.md)

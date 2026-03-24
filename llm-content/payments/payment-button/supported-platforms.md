@@ -97,7 +97,7 @@ If you own a WordPress site, you can use the Razorpay Payment Button Plugin for 
 > 
 > **Handy Tips**
 > 
-> [Create a WordPress site](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/supported-platforms/wordpress.md) from scratch.
+> [Create a WordPress site](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/supported-platforms/wordpress.md) from scratch.
 > 
 
 Watch this short video on how to add Payment Button on Wordpress and Elementor:
@@ -115,5 +115,5 @@ To embed a Payment Button on your Drupal Website:
 
 ### Related Information
 
-- [Payment Buttons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button.md)
-- [Payment Button Reports](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/view-reports.md)
+- [Payment Buttons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button.md)
+- [Payment Button Reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/view-reports.md)

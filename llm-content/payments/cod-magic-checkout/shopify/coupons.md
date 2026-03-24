@@ -36,7 +36,7 @@ To create coupons:
 >         
 >             Watch the GIF below:
 >             
->             ![publish the coupons synced from Shopify](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-publish-sync-shopify.gif.md)
+>             ![publish the coupons synced from Shopify](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-publish-sync-shopify.gif.md)
 >             
 >         
 >     
@@ -61,7 +61,7 @@ To create coupons:
 >              
 >                  Preview Coupon Summary
 >                  
->                   ![Preview Coupon Summary](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-preview-coupon.jpg.md)
+>                   ![Preview Coupon Summary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-preview-coupon.jpg.md)
 >                  
 >              
 >          
@@ -73,7 +73,7 @@ To create coupons:
 7. Select the **Display this coupon at checkout** check box to display the coupon at checkout for your customers. 
     1. After selecting the above check box, the **Enable coupon as an unavailable coupon** check box appears.
     2. Select this check box if you want to display the coupon as unavailable (in a disabled state) when users do not meet the cart or eligibility conditions. Once the conditions are met, the coupon is automatically enabled.
-    ![Enter the coupon code and description](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magicx-shopify-coupon-code.jpg.md)
+    ![Enter the coupon code and description](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magicx-shopify-coupon-code.jpg.md)
 
 ### Coupon Type
 
@@ -100,28 +100,28 @@ Select a coupon type from the following:
                      In this type, a fixed amount is deducted from the original amount. 
 
                      **Discount amount**: Enter an amount by which the original price should be reduced. For example, if ₹150 is the flat discount applied, ₹150 is deducted from the original price.
-                     ![Configure the fixed discount details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-discount.jpg.md)
+                     ![Configure the fixed discount details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-discount.jpg.md)
                  
                  
                      This type deducts a set percentage of the amount from the original amount. 
                          - **Discount percentage**: The percentage by which the original price should be reduced. For example, if 10% discount is applied, on an order amount of ₹900, ₹90 will be deducted.
                          - **Upto (Max Discount)**: The maximum amount that can be deducted from the bill amount. For example, if the max discount is ₹300, and the order amount is ₹800, you can ensure that the customer cannot avail of a discount higher than ₹300.
-                     ![Configure the percentage discount details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-discount-percentage.jpg.md)
+                     ![Configure the percentage discount details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-discount-percentage.jpg.md)
                  
              
          2. Select the **Purchase requirements** based on your preference to set eligibility criteria for the customers to use the coupon.
              
                  
                      By default, the coupon is visible to all the customers irrespective of the quantity or amount.
-                     ![Configure purchase requirements](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-pur-req.jpg.md)
+                     ![Configure purchase requirements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-pur-req.jpg.md)
                  
                  
                      You can set a minimum quantity for customers to access the coupon. For example, if you set the minimum quantity as 2, the customers can use the coupon only if there are 2 or more items in their cart.
-                     ![Configure minimum quantity requirements](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-min-qt.jpg.md)
+                     ![Configure minimum quantity requirements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-min-qt.jpg.md)
                  
                  
                      You can set a minimum amount for customers to use the coupon. For example, if you set the minimum amount requirements as ₹300, the customers can use the coupon only if the cart value is ₹300 or above.
-                     ![Configure minimum amount requirements](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-min-amt.jpg.md)
+                     ![Configure minimum amount requirements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-min-amt.jpg.md)
                  
              
          3. **Coupon validity**: Set the duration for the coupon.
@@ -139,10 +139,10 @@ Select a coupon type from the following:
 >                  
 
                 
-             ![Configure the coupon validity](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-validity.jpg.md)
+             ![Configure the coupon validity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-validity.jpg.md)
          4. **Coupon eligibility**: Create the coupon for **All customers** or **Specific customers**. If you want to create coupons for specific customers: 
              1. Click **+ Add Customers**.
-                 ![Configure the coupon eligibility](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-eligibility.jpg.md)
+                 ![Configure the coupon eligibility](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-eligibility.jpg.md)
              1. You can upload a list of **Mobile Number** or **Email ID** based on your requirement.
             
                  
@@ -175,11 +175,11 @@ Select a coupon type from the following:
          5. **Usage restriction**: Set the maximum limit to which a coupon is redeemed in total and per customer.
              1. Select the **Number of times discount can be used in total** check box and set the number. For example, 100.
              1. Select the **Number of times the coupon can be used per customer** check box and set the number. For example, 2. Select **By mobile no.** or **By email id** via which the customer can use the coupon.
-             ![configure coupon restriction](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-restriction.jpg.md)
+             ![configure coupon restriction](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-restriction.jpg.md)
          6. **Coupon combinations** *(optional)*: You can combine this coupon with various other coupons as follows:  
              - **Amount off product coupons**: Combine this coupon with a coupon created in the **Amount discounted on products** category to offer a discount on the total order amount and specific products or collections of products.
              - **Other Amount off order coupons**: Combine this coupon with other coupons created in the same category to offer multiple discounts on the total order amount.
-             ![Combine coupons created with other categories](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magicx-shopify-coupon-order-combine.jpg.md)
+             ![Combine coupons created with other categories](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magicx-shopify-coupon-order-combine.jpg.md)
             
              
 > **WARN**
@@ -238,32 +238,32 @@ Select a coupon type from the following:
                      In this type, a fixed amount is deducted from the original amount.
 
                      **Discount amount**: Enter an amount by which the original price should be reduced. For example, if ₹150 is the flat discount applied, ₹150 is deducted from the original price.
-                     ![Configure the fixed discount details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-discount.jpg.md)
+                     ![Configure the fixed discount details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-discount.jpg.md)
                  
                  
                      This type deducts a set percentage of the amount from the original amount. 
                          - **Discount percentage**: The percentage by which the original price should be reduced. For example, if 10% discount is applied, on an order amount of ₹900, ₹90 will be deducted.
                          - **Upto (Max Discount)**: The maximum amount that can be deducted from the bill amount. For example, if the max discount is ₹300, and the order amount is ₹800, you can ensure that the customer cannot avail of a discount higher than ₹300.
-                     ![Configure the percentage discount details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-discount-percentage.jpg.md)
+                     ![Configure the percentage discount details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-discount-percentage.jpg.md)
                  
              
          2. Select **Products** or **Collections** to limit the discount to specific products or collections. Click **+ Add Products** or **+ Add Collections** respectively. Select the products or collections based on your requirement and click **Confirm**. You can add multiple products or collections.
 
-             ![configure the discount details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-discount-det.jpg.md)
+             ![configure the discount details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-discount-det.jpg.md)
             
          3. Select the **Purchase requirements** based on your preference to set eligibility criteria for the customers to use the coupon.
              
                  
                      By default, the coupon is visible to all the customers irrespective of the quantity or amount.
-                     ![Configure purchase requirements](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-pur-req.jpg.md)
+                     ![Configure purchase requirements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-pur-req.jpg.md)
                  
                  
                      You can set a minimum quantity for customers to access the coupon. For example, if you set the minimum quantity as 2, the customers can use the coupon only if there are 2 or more items in their cart.
-                     ![Configure minimum quantity requirements](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-min-qt.jpg.md)
+                     ![Configure minimum quantity requirements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-min-qt.jpg.md)
                  
                  
                      You can set a minimum amount for customers to use the coupon. For example, if you set the minimum amount requirements as ₹300, the customers can use the coupon only if the cart value is ₹300 or above.
-                     ![Configure minimum amount requirements](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-min-amt.jpg.md)
+                     ![Configure minimum amount requirements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-min-amt.jpg.md)
                  
              
          4. **Coupon validity**: Set the duration for the coupon.
@@ -280,10 +280,10 @@ Select a coupon type from the following:
 >                  The coupon will never expire if you do not set an end date or a total maximum budget.
 >                  
 
-             ![Configure the coupon validity](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-validity.jpg.md)
+             ![Configure the coupon validity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-validity.jpg.md)
          5. **Coupon eligibility**: Create the coupon for **All customers** or **Specific customers**. If you want to create coupons for specific customers: 
              1. Click **+ Add Customers**.
-                 ![Configure the coupon eligibility](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-eligibility.jpg.md)
+                 ![Configure the coupon eligibility](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-eligibility.jpg.md)
              1. You can upload a list of **Mobile Number** or **Email ID** based on your requirement.
             
                  
@@ -315,11 +315,11 @@ Select a coupon type from the following:
          6. **Usage restriction**: Set the maximum limit to which a coupon is redeemed in total and per customer.
              1. Select the **Number of times discount can be used in total** check box and set the number. For example, 100.
              1. Select the **Number of times the coupon can be used per customer** check box and set the number. For example, 2. Select **By mobile no.** or **By email id** via which the customer can use the coupon.
-             ![configure coupon restriction](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-restriction.jpg.md)
+             ![configure coupon restriction](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-restriction.jpg.md)
          7. **Coupon combinations** *(optional)*: You can combine this coupon with various other coupons as follows:  
              - **Amount off order coupons**: Combine this coupon with a coupon created in the **Amount discounted on order** category to offer a discount on the total order amount and specific products or collections of products.
              - **Other Amount off product coupons**: Combine this coupon with other coupons created in the same category to offer multiple discounts on specific products or collections of products.
-             ![Combine coupons created with other categories](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magicx-shopify-coupon-prod-combine.jpg.md)
+             ![Combine coupons created with other categories](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magicx-shopify-coupon-prod-combine.jpg.md)
             
              
 > **WARN**
@@ -376,34 +376,34 @@ Select a coupon type from the following:
              
                  
                      You can set a minimum quantity for customers. For example, if you set the minimum quantity as 3, the customers can use the coupon only if there are 3 or more items in their cart.
-                     ![Configure minimum quantity requirements](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-min-qt-buy.jpg.md)
+                     ![Configure minimum quantity requirements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-min-qt-buy.jpg.md)
                  
                  
                      You can set a minimum purchase amount for customers. For example, if you set the minimum purchase amount as ₹300, the customers can use the coupon only if the cart value is ₹300 and above. 
-                     ![Configure minimum amount requirements](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-min-amt-buy.jpg.md)
+                     ![Configure minimum amount requirements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-min-amt-buy.jpg.md)
                  
              
 
          2. Select **Products** or **Collections** to limit the discount to specific products or collections. Click **+ Add Products** or **+ Add Collections** respectively. Select the products or collections based on your requirement and click **Confirm**. You can add multiple products or collections.
 
-             ![Configure coupon products purchased](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-product-config.jpg.md)
+             ![Configure coupon products purchased](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-product-config.jpg.md)
 
          3. Configure the **Additional products offered** for Y products based on your preference. For example, if you set the purchase requirement as 3 and additional products offered quantity as 2, the customers can buy 3 products and get a discount on 2 additional products. 
          4. Select **Products** or **Collections** for Y products as well. Refer to step 2.
-             ![Configure coupon discount](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-discount-offered.jpg.md)
+             ![Configure coupon discount](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-discount-offered.jpg.md)
          5. **Discount type**: Select the **Discount type** applicable on Y products.
              
                  
                      - **Fixed Discount**: In this type, a fixed amount is deducted from the original amount of the Y product.
                          - **Discount amount**: Enter an amount by which the original price should be reduced. For example, if ₹150 is the flat discount applied, ₹150 is deducted from the original price.
-                         ![configure fixed discount](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-fixed-dis.jpg.md)
+                         ![configure fixed discount](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-fixed-dis.jpg.md)
                      - **Percentage discount**: In this type, a set percentage of the amount is deducted from the original amount of the Y product. 
                          - **Discount percentage**: The percentage by which the original price should be reduced. For example, if 10% discount is applied, on an order amount of ₹900, ₹90 will be deducted.
-                         ![configure percentage discount](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-percentage-dis.jpg.md)
+                         ![configure percentage discount](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-percentage-dis.jpg.md)
                  
                  
                      In this type, customers can get the Y product for free.
-                     ![configure free discount](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-free-discount.jpg.md)
+                     ![configure free discount](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-free-discount.jpg.md)
                  
              
          6. **Usage Limit**: Specify the maximum number of Y products that qualify for a discount. For instance, if the customer adds 2 Y products to the cart and you set the usage limit at 1, the discount applies to only 1 of the Y products.
@@ -421,10 +421,10 @@ Select a coupon type from the following:
 >                  The coupon will never expire if you do not set an end date or a total maximum budget.
 >                  
 
-             ![Configure the coupon validity](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-validity.jpg.md)
+             ![Configure the coupon validity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-validity.jpg.md)
          8. **Coupon eligibility**: Create the coupon for **All customers** or **Specific customers**. If you want to create coupons for specific customers: 
              1. Click **+ Add Customers**.
-                 ![Configure the coupon eligibility](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-eligibility.jpg.md)
+                 ![Configure the coupon eligibility](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-eligibility.jpg.md)
              1. You can upload a list of **Mobile Number** or **Email ID** based on your requirement.
             
                  
@@ -474,17 +474,17 @@ Select a coupon type from the following:
              
                  
                      You can set a minimum quantity for customers. For example, if you set the minimum quantity as 3, the customers can use the coupon only if there are 3 or more items in their cart.
-                     ![Configure minimum quantity requirements](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-min-qt-buy.jpg.md)
+                     ![Configure minimum quantity requirements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-min-qt-buy.jpg.md)
                  
                  
                      You can set a minimum purchase amount for customers. For example, if you set the minimum purchase amount as ₹300, the customers can use the coupon only if the cart value is ₹300 and above. 
-                     ![Configure minimum amount requirements](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-min-amt-buy.jpg.md)
+                     ![Configure minimum amount requirements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-min-amt-buy.jpg.md)
                  
              
 
          2. Select **Products** or **Collections** to limit the discount to specific products or collections. Click **+ Add Products** or **+ Add Collections** respectively. Select the products or collections based on your requirement and click **Confirm**. You can add multiple products or collections.
 
-             ![Configure coupon products purchased](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-product-config.jpg.md)
+             ![Configure coupon products purchased](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-product-config.jpg.md)
 
          3. **Discount Offered**: Select one product variant to offer as a free gift when the purchase requirements are met:
              
@@ -499,7 +499,7 @@ Select a coupon type from the following:
 
              
              1. Click **+Add Products**.
-                 ![Select a product to offer free item discount](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-freebie-discount.jpg.md)
+                 ![Select a product to offer free item discount](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-freebie-discount.jpg.md)
              1. Select the product of your choice and click **Confirm**.
          4. **Usage Limit**: Select the **Maximum uses per order** check box and specify the maximum number of products that qualify for a discount. For instance, if the customer adds 2 products to the cart and you set the usage limit at 1, the discount applies to only 1 of the products.
          5. **Coupon validity**: Set the duration for the coupon.
@@ -516,10 +516,10 @@ Select a coupon type from the following:
 >                  - The coupon will never expire if you do not set an end date or a total maximum budget.
 >                  
 
-             ![Configure the coupon validity](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-validity.jpg.md)
+             ![Configure the coupon validity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-validity.jpg.md)
          6. **Coupon eligibility**: Create the coupon for **All customers** or **Specific customers**. If you want to create coupons for specific customers: 
              1. Click **+ Add Customers**.
-                 ![Configure the coupon eligibility](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-eligibility.jpg.md)
+                 ![Configure the coupon eligibility](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-eligibility.jpg.md)
              1. You can upload a list of **Mobile Number** or **Email ID** based on your requirement.
             
                  

@@ -34,11 +34,11 @@ Follow these steps to add and share the buyer's address of all the payments coll
 2. Navigate to the **Transactions** tab.
 3. Click the **Invoices** tab.
 4. Under the **Actions** tab, click **+Add Buyer Address**. Add the buyer's address for all the payments to capture the transactions.
-    ![Dashboard Add Buyer's Address](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-add-buyers-address.jpg.md)
+    ![Dashboard Add Buyer's Address](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-add-buyers-address.jpg.md)
 5. Fill in the following details per your invoice copy. Click **Close**.
-    ![Dashboard Buyer's Address Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-buyers-address-details.jpg.md)
+    ![Dashboard Buyer's Address Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-buyers-address-details.jpg.md)
 
 ### Related Information
 
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-bank-transfer/#frequently-asked-questions-faqs.md)
-- [International Bank Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-bank-transfer.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer.md#frequently-asked-questions-faqs)
+- [International Bank Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer.md)

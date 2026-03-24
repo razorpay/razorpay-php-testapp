@@ -33,17 +33,17 @@ Customers select the products on your website or app and proceed to Checkout. On
 
 1. Enter their **Phone Number** and click **Proceed**.
 2. Select **EMI** as the payment method and click **Continue**.
-    ![Payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-continue.jpg.md)
+    ![Payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-continue.jpg.md)
 3. Select **Instant EMI** and click **Continue**.
-    ![Instant cardless emi](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/instant-emi-continue.jpg.md)
+    ![Instant cardless emi](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/instant-emi-continue.jpg.md)
 4. On the **Instant EMI** page, click **Get started**. An OTP is sent to their registered mobile number to authenticate the customer account. They enter the OTP and click **Submit OTP**.
-    ![Instant EMI Submit OTP](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/instant-emi-submit-otp2.jpg.md)
+    ![Instant EMI Submit OTP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/instant-emi-submit-otp2.jpg.md)
 5. To complete the KYC verification, they enter their PAN details and click **Submit PAN**. Verify PAN and personal information and click **Explore EMI Offers**.
-    ![Instant EMI PAN and DOB details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/instant-emi-enter-otp.jpg.md)
+    ![Instant EMI PAN and DOB details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/instant-emi-enter-otp.jpg.md)
 6. The EMI options are displayed to the customers. They can select the tenure and click **Continue**. Depending on the customer's status, additional steps such as KYC, E-Mandate, and E-Sign of loan agreements may be necessary.
-    ![Flash select EMI plan](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/instant-emi-offers1.jpg.md)
+    ![Flash select EMI plan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/instant-emi-offers1.jpg.md)
 7. Once the setup is complete, customers authorise the loan/credit drawdown via OTP confirmation. They can also view the Key Fact Statement for their reference.
 
-You receive settlements for the entire transaction amount as per your [settlement cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements#settlement-cycle.md). Customers repay the total order amount and any applicable interest as EMIs to you.
+You receive settlements for the entire transaction amount as per your [settlement cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md#settlement-cycle). Customers repay the total order amount and any applicable interest as EMIs to you.
 
-Know more about the various [schemes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi/instant-emi/faqs/#4-what-are-the-different-schemes-supported-under.md) supported under Instant EMI. For more information on No cost EMI schemes, please contact instantemi@razorpay.com.
+Know more about the various [schemes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi/instant-emi/faqs.md#4-what-are-the-different-schemes-supported-under) supported under Instant EMI. For more information on No cost EMI schemes, please contact instantemi@razorpay.com.

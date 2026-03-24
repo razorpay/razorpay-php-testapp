@@ -8,7 +8,7 @@ description: Automatically trigger promotions and campaigns based on customer ac
 
 The Auto Engagement feature, also known as Journey Builder, allows brands to build powerful, personalised post-purchase marketing journeys that enhance customer loyalty, drive repeat purchases and increase overall revenue.
 
-![Auto Engagement Campaigns List](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/auto-engagement-page.jpg.md)
+![Auto Engagement Campaigns List](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/auto-engagement-page.jpg.md)
 
 ## Overview
 

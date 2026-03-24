@@ -55,7 +55,7 @@ description: Create an authorisation transaction for cards using Razorpay APIs.
          @include recurring-payments/card-upi-cust-additional-fields
         
 
-After this step, you can proceed to integrate with the [Fetch Token API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/cards/tokens.md).
+After this step, you can proceed to integrate with the [Fetch Token API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/cards/tokens.md).
 
 ## 1.2. Using a Registration Link
 
@@ -116,4 +116,4 @@ A registration link must always have the amount (in Paise) that the customer wil
          @include recurring-payments/auth-link-res
         
 
-After this step, you can proceed to integrate with the [Fetch Token API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/cards/tokens.md).
+After this step, you can proceed to integrate with the [Fetch Token API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/cards/tokens.md).

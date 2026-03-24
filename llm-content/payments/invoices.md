@@ -39,18 +39,18 @@ The invoicing solution can be seamlessly integrated with existing billing and or
 Let your customers download a copy of the invoices for quick and easy references.
 - Access control
   
-You can create roles/teams for different levels of actions on invoices (create, view, edit and so on). Know more about [roles and actions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team.md).
+You can create roles/teams for different levels of actions on invoices (create, view, edit and so on). Know more about [roles and actions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md).
 
-You can perform all the actions on invoices from the Dashboard - create, issue, cancel, duplicate, search, update or delete. You can also subscribe to Webhook events for immediate notifications. You can perform most of these actions using [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/apis.md).
+You can perform all the actions on invoices from the Dashboard - create, issue, cancel, duplicate, search, update or delete. You can also subscribe to Webhook events for immediate notifications. You can perform most of these actions using [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/apis.md).
 
 ## List of Supported Payment Methods
 - Online Payment
   
-Customers can make online payments using [Card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards.md), [Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/netbanking.md), [UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi.md), [Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later.md), and **wallets**.
+Customers can make online payments using [Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards.md), [Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/netbanking.md), [UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi.md), [Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md), and **wallets**.
 
 ## International Currency Support
 
-You can create non-GST invoices in any of the [supported international currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md) using the Dashboard or APIs.
+You can create non-GST invoices in any of the [supported international currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies) using the Dashboard or APIs.
 
 > **WARN**
 >
@@ -81,7 +81,7 @@ Razorpay Invoices is supported on the following platforms:
 
 ## Address Verification System
 
-If you are accepting international payments, you can use Razorpay's Address Verification System (AVS). AVS verifies if a customer's billing address (postal code and the billing street address) matches the billing address on file with the card issuer. Based on the response from the issuer, Razorpay will accept or cancel the transaction. This helps in the prevention of fraud in international payments. Know more about [Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md).
+If you are accepting international payments, you can use Razorpay's Address Verification System (AVS). AVS verifies if a customer's billing address (postal code and the billing street address) matches the billing address on file with the card issuer. Based on the response from the issuer, Razorpay will accept or cancel the transaction. This helps in the prevention of fraud in international payments. Know more about [Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md).
 
 ## Get Started
 Log in to the Dashboard and click **Invoices**.
@@ -90,18 +90,18 @@ Log in to the Dashboard and click **Invoices**.
 You can easily integrate Razorpay Invoices with your existing order management and billing solution. You can integrate using the Dashboard or using APIs. With API integration, an invoice can be created as soon as an order is created on your order management system.
 
 ### What Next
-Understand [how you can use Razorpay Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/how-it-works.md) and the various [Invoice states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/states.md).
+Understand [how you can use Razorpay Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/how-it-works.md) and the various [Invoice states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/states.md).
 
 ### Related Information
-- [How Invoices Work](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/how-it-works.md)
-- [Invoices States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/states.md)
-- [Create an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/create.md)
-- [Issue an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/issue.md)
-- [Search an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/search.md)
-- [Update an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/update.md)
-- [Duplicate an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/duplicate.md)
-- [Delete an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/delete.md)
-- [Cancel an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/cancel.md)
-- [Download and Print an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/download-print.md)
-- [Subscribe to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/subscribe-to-webhooks.md)
-- [Invoice APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/apis.md)
+- [How Invoices Work](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/how-it-works.md)
+- [Invoices States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/states.md)
+- [Create an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/create.md)
+- [Issue an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/issue.md)
+- [Search an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/search.md)
+- [Update an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/update.md)
+- [Duplicate an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/duplicate.md)
+- [Delete an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/delete.md)
+- [Cancel an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/cancel.md)
+- [Download and Print an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/download-print.md)
+- [Subscribe to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/subscribe-to-webhooks.md)
+- [Invoice APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/apis.md)

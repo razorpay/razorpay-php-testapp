@@ -35,7 +35,7 @@ These partners are essential for order fulfilment, processing a high volume of o
 ## Prerequisites
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup).
-- Generate the [API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) from the Dashboard. You can use the **Test Mode** keys for testing and later switch to **Live Mode**, generate the [Live API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) and replace it with the test keys.
+- Generate the [API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard. You can use the **Test Mode** keys for testing and later switch to **Live Mode**, generate the [Live API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) and replace it with the test keys.
 
 ## Integration Steps
 
@@ -828,7 +828,7 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
 : `integer` The transaction amount expressed in the currency subunit, such as paise (in case of INR). For example, for an actual amount of ₹299.35, the value of this field should be `29935`.
 
 `currency` _mandatory_
-: `string` The currency in which the customer makes the transaction. See the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). The default is `INR`, and the length must be 3 characters.
+: `string` The currency in which the customer makes the transaction. See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). The default is `INR`, and the length must be 3 characters.
 
 `receipt` _mandatory_
 : `string` Your receipt id for this order should be passed here. Maximum length of 40 characters.
@@ -1051,7 +1051,7 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
 : `string` The Unix timestamp when the order was created.
 
 `currency` 
-: `string` A 3 letter ISO code for the currency you want to accept the payment. For example, INR. Refer to the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` A 3 letter ISO code for the currency you want to accept the payment. For example, INR. Refer to the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 `customer_details` 
 : `object` Details of the customer. 
@@ -1323,7 +1323,7 @@ You can use the `order_id` obtained in the [previous step](#step-1-create-an-ord
   - `low`
 
 `rto_reasons` 
-: `array` Top 5 reasons for risky orders in descending order of importance. [Refer to the list of possible reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-intelligence/appendix.md) for risky orders.
+: `array` Top 5 reasons for risky orders in descending order of importance. [Refer to the list of possible reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-intelligence/appendix.md) for risky orders.
 
     `reason` 
     : `string` Id of the Offer. 
@@ -1397,7 +1397,7 @@ Use the code below to update the Fulfilment details of the order and payment met
 > 
 > **Watch Out!**
 > 
-> You must update the payment method details if you are not a [Razorpay Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway.md) user.
+> You must update the payment method details if you are not a [Razorpay Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md) user.
 > 
 
 /orders/:order_id/fulfillment

@@ -129,4 +129,4 @@ To update purpose codes if you are an existing user and have already enabled int
        
 4. Review and click **Confirm**. The Razorpay Activation/Operations team verifies the selected **Purpose Code**.
 
-As consumers or buyers, you get the option to make payments through the [Razorpay payment gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway.md). On selecting Razorpay, various payment methods will be displayed at the Razorpay checkout to complete the payment.
+As consumers or buyers, you get the option to make payments through the [Razorpay payment gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md). On selecting Razorpay, various payment methods will be displayed at the Razorpay checkout to complete the payment.

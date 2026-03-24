@@ -32,7 +32,7 @@ Embedded Payments is best suited for businesses with a multi-party business mode
         Examples: Conversational platforms like WhatsApp, intermediary content platforms like Medium, and other sub-stacks. WhatsApp Business allows businesses to sell on its platform. WhatsApp can onboard businesses, accept customer payments, and control the flow of funds from their platform.
     
 
-![Money movement flow on Embedded Payments for Platforms & Marketplaces](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rzp-marketplaces-money-movement-flow.jpg.md)
+![Money movement flow on Embedded Payments for Platforms & Marketplaces](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rzp-marketplaces-money-movement-flow.jpg.md)
 
 ## Why Embedded Payments
 
@@ -45,16 +45,16 @@ Embedded Payments enables you to control all components of payment processing wi
         - Works on all web and mobile applications like iOS, Android, React, and so on.
         - Go to market quicker with lightweight integration.
         
-        Know more about [onboarding businesses](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses.md).
+        Know more about [onboarding businesses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses.md).
     
     
         - Enable businesses on your platform to accept payments through multiple payment methods and channels.
         - Provide a smooth payment experience across different devices and channels, supporting over 100 payment methods.
         - Offer a robust checkout experience with features like saved cards, native OTP, custom sub-merchant branding, and more.
         - Achieve industry-leading success rate with dynamic routing across acquirers.
-        - Expand your sub-merchant's customer base with our [EMI² Suite](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi².md). Offer Cardless EMI and Pay Later payment methods.
+        - Expand your sub-merchant's customer base with our [EMI² Suite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi².md). Offer Cardless EMI and Pay Later payment methods.
 
-        Know more about [processing payments](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/process-payments.md).
+        Know more about [processing payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/process-payments.md).
     
     
         - Control settlements to sub-merchants based on the delivery of goods or services.
@@ -62,7 +62,7 @@ Embedded Payments enables you to control all components of payment processing wi
         - Leverage pre-built workflows and APIs to manage Refunds, Disputes and Chargebacks.
         - Track Settlements via APIs, Dashboard and scheduled reports using UTR (Unique Transaction Reference).
 
-        Know more about [controlling the flow of funds](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/control-of-funds.md).
+        Know more about [controlling the flow of funds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/control-of-funds.md).
     
     
         - APIs and custom reports for the platform to reconcile Payments, Refunds, and Settlements across all stakeholders.
@@ -70,13 +70,13 @@ Embedded Payments enables you to control all components of payment processing wi
         - Dashboard for third-parties to view and manage their fees and commissions.
         - sub-merchant and third-parties can receive scheduled reports in their inboxes.
 
-        Know more about [reports and reconciliation](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/reports-and-reconciliation/partner.md).
+        Know more about [reports and reconciliation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/reports-and-reconciliation/partner.md).
     
  
 
 ### Related Information
 
-- [Onboarding Businesses](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses.md)
-- [Process Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/process-payments.md)
-- [Control the Flow of Funds](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/control-of-funds.md)
-- [Reports and Reconciliation](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/reports-and-reconciliation/partner.md)
+- [Onboarding Businesses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses.md)
+- [Process Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/process-payments.md)
+- [Control the Flow of Funds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/control-of-funds.md)
+- [Reports and Reconciliation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/reports-and-reconciliation/partner.md)

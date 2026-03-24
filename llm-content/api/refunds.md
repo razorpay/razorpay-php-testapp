@@ -6,17 +6,17 @@ description: Initiate normal and instant refunds to your customers using Razorpa
 
 # Refunds
 
-Make full or partial refunds to customers. You can initiate refunds only on those payments that are in `captured` state. A payment in `authorized` state is auto-refunded if not `captured` within 3 days of creation. You can create and manage refunds using APIs or from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/#dashboard-actions.md).
+Make full or partial refunds to customers. You can initiate refunds only on those payments that are in `captured` state. A payment in `authorized` state is auto-refunded if not `captured` within 3 days of creation. You can create and manage refunds using APIs or from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md#dashboard-actions).
 
-Fork the Razorpay Postman Public Workspace and try the Refunds APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+Fork the Razorpay Postman Public Workspace and try the Refunds APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-49fdb1f6-7e7d-426c-b7b4-3dd468d8565e)
 
 ### Related Guides
 
-[About Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds.md)
-[Set Up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md)
-[Sample Payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/refunds.md)
+[About Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md)
+[Set Up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)
+[Sample Payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/refunds.md)
 
 ### Endpoints
 

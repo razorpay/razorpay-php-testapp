@@ -10,12 +10,12 @@ Generate TPV QR codes for your securities business using UPI intent deep links. 
 ## Prerequisites
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup).
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
-- Ensure the [Third-Party Validation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation.md) feature is activated on your account.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Ensure the [Third-Party Validation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation.md) feature is activated on your account.
 
 ## Sample Code
 
-After creating an order using the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md), use the following API call to generate a UPI intent deep link and convert the returned link into a QR code:
+After creating an order using the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md), use the following API call to generate a UPI intent deep link and convert the returned link into a QR code:
 
 ```curl: Request
 curl -X POST https://api.razorpay.com/v1/payments/create/upi \
@@ -56,7 +56,7 @@ curl -X POST https://api.razorpay.com/v1/payments/create/upi \
 : `string` The currency in which the payment should be made by the customer. For TPV QR codes, this should be `INR`.
 
 `order_id` _mandatory_
-: `string` Order ID generated via [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md).
+: `string` Order ID generated via [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md).
 
 `email` _mandatory_
 : `string` Email address of the customer.
@@ -107,7 +107,7 @@ Follow these steps to implement TPV QR code payments:
 2. Extract the `link` from the response.
 3. Use any QR code generation library to [convert this link into a QR code](#convert-upi-intent-deep-link-to-qr-code).
 4. Display the QR code to your customers.
-5. [Poll Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/fetch-with-id.md) to check the payment status.
+5. [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/fetch-with-id.md) to check the payment status.
 
 > **WARN**
 >

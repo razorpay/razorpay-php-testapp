@@ -13,29 +13,29 @@ List of events if sub-merchant is onboarded using APIs:
 
 Status | Event
 ---
-Activated | - [Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/activated/#product-payment-gateway-activated.md)
-- [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/activated/#product-payment-link-activated.md)
-- [Account](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/activated/#account-activated.md)
+Activated | - [Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/activated.md#product-payment-gateway-activated)
+- [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/activated.md#product-payment-link-activated)
+- [Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/activated.md#account-activated)
 
 ---
-Needs Clarification | - [Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/needs-clarification/#product-payment-gateway-needs-clarification.md)
-- [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/needs-clarification/#product-payment-link-needs-clarification.md)
-- [Account](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/needs-clarification/#account-needs-clarification.md)
+Needs Clarification | - [Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/needs-clarification.md#product-payment-gateway-needs-clarification)
+- [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/needs-clarification.md#product-payment-link-needs-clarification)
+- [Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/needs-clarification.md#account-needs-clarification)
 
 ---
-Under Review | - [Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/under-review/#product-payment-gateway-under-review.md)
-- [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/under-review/#product-payment-link-under-review.md)
-- [Account](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/under-review/#account-under-review.md)
+Under Review | - [Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/under-review.md#product-payment-gateway-under-review)
+- [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/under-review.md#product-payment-link-under-review)
+- [Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/under-review.md#account-under-review)
 
 ---
-Rejected | - [Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/rejected/#product-payment-gateway-rejected.md)
-- [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/rejected/#product-payment-link-rejected.md)
-- [Account](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/rejected/#account-rejected.md)
+Rejected | - [Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/rejected.md#product-payment-gateway-rejected)
+- [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/rejected.md#product-payment-link-rejected)
+- [Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/rejected.md#account-rejected)
 
 ---
-Activated KYC Pending | - [Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/activated-kyc-pending/#product-payment-gateway-activated-kyc-pending.md)
-- [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/activated-kyc-pending/#product-payment-link-activated-kyc-pending.md)
-- [Account](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/activated-kyc-pending/#account-activated-kyc-pending.md)
+Activated KYC Pending | - [Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/activated-kyc-pending.md#product-payment-gateway-activated-kyc-pending)
+- [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/activated-kyc-pending.md#product-payment-link-activated-kyc-pending)
+- [Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/activated-kyc-pending.md#account-activated-kyc-pending)
 
 ## Onboarded Using Dashboard
 
@@ -43,16 +43,16 @@ List of events if sub-merchant is onboarded using the Dashboard:
 
 Status | Event
 ---
-Instantly Activated | [Account](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/instantly-activated/#account-instantly-activated.md)
+Instantly Activated | [Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/instantly-activated.md#account-instantly-activated)
 ---
-Payment Enabled | [Account](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/payment-enabled/#account-payment-enabled.md)
+Payment Enabled | [Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/payment-enabled.md#account-payment-enabled)
 ---
-Funds On Hold | [Account](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/funds-onhold.md)
+Funds On Hold | [Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/funds-onhold.md)
 ---
-Under Review | [Account](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/under-review/#account-under-review.md)
+Under Review | [Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/under-review.md#account-under-review)
 ---
-Needs Clarification | [Account](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/needs-clarification/#account-needs-clarification.md)
+Needs Clarification | [Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/needs-clarification.md#account-needs-clarification)
 ---
-Activated | [Account](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/activated/#account-activated.md)
+Activated | [Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/activated.md#account-activated)
 ---
-Suspended | [Account](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/suspended/#account-suspended.md)
+Suspended | [Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners/suspended.md#account-suspended)

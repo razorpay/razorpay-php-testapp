@@ -49,7 +49,7 @@ To set up Advance Tax:
 When using the Advance Tax feature for the first time, you must setup advance tax by confirming your PAN details and business address, both of which are automatically populated using your KYC details. 
 
 This is a one-time process only. Here is a sample **Setup Advance Tax** screen:
-   ![Setup Advance Tax after providing necessary details.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-tax-payments-setup-adv-tax1.jpg.md)
+   ![Setup Advance Tax after providing necessary details.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-tax-payments-setup-adv-tax1.jpg.md)
 
 ### Create Advance Tax Payout
 
@@ -57,13 +57,13 @@ To create a payout for Advance Tax:
 
 1. In the Advance Tax Payment window, click **+ Advance Tax**.
 2. Confirm details for tax filing in the Adding Filing Details window as shown below:
-   ![Create Advance Tax Payment pop-up screen.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-tax-payments-create-adv-tax.jpg.md)
+   ![Create Advance Tax Payment pop-up screen.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-tax-payments-create-adv-tax.jpg.md)
 3. Click **Next**.
 4. Add tax amount to be paid. You can enter break-up of the tax amount by using the **Show all fields** drop-down menu.
 5. Click **Save Payment** to save the payment, or click **Pay Now** to proceed to make the payment.
-   ![Add Tax Payment Details window.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-tax-payments-add-tax-details.jpg.md)
+   ![Add Tax Payment Details window.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-tax-payments-add-tax-details.jpg.md)
 6. If you select **Save Payment** then, enter OTP to verify and click **CREATE PAYOUT** to save the payout. The payout is created and is listed in the Advance Tax screen as shown below:
-   ![Advance Tax Listing](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-tax-payments-adv-tax-listing.jpg.md)
+   ![Advance Tax Listing](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-tax-payments-adv-tax-listing.jpg.md)
 7. If you select **Pay Now**, then enter OTP to verify and confirm the payment in case of making the payment.
 
 ## Tax Schedule
@@ -82,6 +82,6 @@ Tax Installment | Due Date | Amount of Tax Payable
 
 ### Related Information
 
-- [Automatic TDS payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/automatic-tds.md)
-- [Tax Payment Life Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/life-cycle.md)
-- [Goods and Services Tax (GST)](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/gst.md)
+- [Automatic TDS payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/automatic-tds.md)
+- [Tax Payment Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/life-cycle.md)
+- [Goods and Services Tax (GST)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/gst.md)

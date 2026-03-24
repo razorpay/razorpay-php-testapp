@@ -17,7 +17,7 @@ description: Find answers to frequently asked questions about Razorpay Buyer Pro
     
 ### 2. How does Razorpay Buyer Protection benefit my business?
 
-            Razorpay Buyer Protection enhances customer trust, leading to higher conversion rates and more prepaid orders. It also promotes repeat business, boosting customer loyalty and improving your return on investment. Know how Razorpay Buyer Protection [benefits your business](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/widgets/buyer-protection/#advantages-for-sellers.md).
+            Razorpay Buyer Protection enhances customer trust, leading to higher conversion rates and more prepaid orders. It also promotes repeat business, boosting customer loyalty and improving your return on investment. Know how Razorpay Buyer Protection [benefits your business](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/widgets/buyer-protection.md#advantages-for-sellers).
         
 
     
@@ -56,7 +56,7 @@ description: Find answers to frequently asked questions about Razorpay Buyer Pro
              - You initiate a claim with Razorpay, where eligibility is assessed and the seller's perspective is considered.
              - Razorpay reviews your claim.
              - If your claim is approved, Razorpay initiates and completes the refund.
-            Know more about the [Buyer Protection claim process and timelines](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/widgets/buyer-protection/money-back-promise/#how-it-works.md).
+            Know more about the [Buyer Protection claim process and timelines](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/widgets/buyer-protection/money-back-promise.md#how-it-works).
         
 
     

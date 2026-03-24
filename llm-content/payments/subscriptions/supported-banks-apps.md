@@ -2419,7 +2419,7 @@ The below table gives information about the frequently used intent-supported PSP
 > **Watch Out!**
 > 
 > - You should contact our [Support team](https://razorpay.com/support/#request) to enable PSP apps other than PhonePe and Paytm on Standard Checkout for UPI TPV. Watch this video on how to get it enabled.
->   ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+>   ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > - UPI Intent TPV is not supported for @okaxis handle.
 > 
 
@@ -2478,13 +2478,13 @@ The below table gives information about the frequently used intent-supported PSP
 > **Watch Out!**
 > 
 > - You should contact our [Support team](https://razorpay.com/support/#request) to enable UPI Intent on Standard Checkout. Watch this video on how to get it enabled.
->   ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+>   ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > - UPI Intent is not supported for @okaxis handle.
 > 
 
 ## List of Supported Banks - UPI Autopay
 
-Refer to the [list of banks that support UPI Autopay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upi/supported-banks/#supported-banks.md).
+Refer to the [list of banks that support UPI Autopay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upi/supported-banks.md#supported-banks).
 
 ## Fetch Supported Card Networks and Banks
 
@@ -2761,9 +2761,9 @@ curl -u [YOUR_KEY_ID] \
 
 ### Related Information
 
-- [About Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md)
-- [Subscription Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/workflow.md)
-- [Subscription States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/states.md)
-- [Create Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create.md)
-- [Test Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/test.md)
-- [Subscriptions APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/apis.md)
+- [About Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md)
+- [Subscription Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/workflow.md)
+- [Subscription States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/states.md)
+- [Create Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md)
+- [Test Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/test.md)
+- [Subscriptions APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/apis.md)

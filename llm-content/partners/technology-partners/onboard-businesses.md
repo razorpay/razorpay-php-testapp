@@ -22,13 +22,13 @@ You can integrate with:
 > This feature is enabled on demand. Raise a request with our [Partnerships team](mailto:partners@razorpay.com) or your Razorpay point-of-contact to get this feature activated.
 > 
 
-![Custom onboarding experiences - Embedded Payments for Platforms & Marketplaces](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/platforms-and-market-places-custom-onboarding-exp.jpg.md)
+![Custom onboarding experiences - Embedded Payments for Platforms & Marketplaces](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/platforms-and-market-places-custom-onboarding-exp.jpg.md)
 
 ## Prerequisites
 
-- [Sign up as Partner](https://razorpay.com/partners/) and complete KYC to activate your account. Request for a partner type [switch to Technology Partner](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/become-technology-partner.md).
+- [Sign up as Partner](https://razorpay.com/partners/) and complete KYC to activate your account. Request for a partner type [switch to Technology Partner](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/become-technology-partner.md).
 - Get the Co-branded UI capability enabled for your account by contacting our [Partnerships team](mailto:partners@razorpay.com).
-- [Register your application](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps#1-create-an-application.md) on Razorpay.
+- [Register your application](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps.md#1-create-an-application) on Razorpay.
 - Embed a button redirecting the user to the Razorpay OAuth page on the front-end interface for your app. 
 - Keep a redirect URL ready. Razorpay will redirect users to this URL after they complete the onboarding process.
 
@@ -59,7 +59,7 @@ Watch the video below to see how the co-branded onboarding journey looks for you
 6. The client gives authorisation, which allows Razorpay to connect their client account to your Partner account.
 7. On successful authorisation, Razorpay redirects the user back to the URL configured by you in your application settings. Razorpay shares an authentication code while redirecting. You need to use this Auth code in the token API request to generate an Auth token.
 
-![Sample Authorisation Interface](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/oauth-authorize.jpg.md)
+![Sample Authorisation Interface](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/oauth-authorize.jpg.md)
 
 This completes the connection setup. Use this token to start accepting payments on behalf of the client.
         
@@ -68,8 +68,8 @@ This completes the connection setup. Use this token to start accepting payments 
 
 To integrate with Standard Co-branded UI:
 
-1. [Integrate with Razorpay OAuth](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth.md)
-2. [Customise client Onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/settings.md)
+1. [Integrate with Razorpay OAuth](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth.md)
+2. [Customise client Onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/settings.md)
 
 ## Custom Onboarding SDK
 
@@ -89,8 +89,8 @@ All the KYC details and documents except the Terms and Conditions can be pre-fil
 
 #### Integration Steps
 
-[Integrate with Custom Onboarding SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/onboarding-sdk.md) to create a customer account using APIs and pre-fill KYC details.
+[Integrate with Custom Onboarding SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/onboarding-sdk.md) to create a customer account using APIs and pre-fill KYC details.
 
 ### Related Information 
 
-- [Track Onboarding Status](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/status.md)
+- [Track Onboarding Status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/status.md)

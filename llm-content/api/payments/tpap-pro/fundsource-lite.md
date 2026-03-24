@@ -7,20 +7,20 @@ description: Know how to activate, top-up, pay, deregister, and manage UPI Lite 
 
 Razorpay TPAP Pro UPI Lite APIs let you create and manage UPI Lite accounts for low-value transactions. You can register, top up, make payments, deregister, and fetch details for UPI Lite accounts via APIs.
 
-Below are the steps to integrate and manage complaints with TPAP Pro. You can also refer to our comprehensive [TPAP Pro integration guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/tpap-pro/integration-guide.md).
+Below are the steps to integrate and manage complaints with TPAP Pro. You can also refer to our comprehensive [TPAP Pro integration guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/tpap-pro/integration-guide.md).
 
-1. [Customer Onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/customer-onboarding.md)  
-2. [Manage Funds and Account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/funds-account-management.md)  
-3. [Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/payments-flow.md)  
-4. [Mandates](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/mandate-flow.md)  
-5. [Complaints](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/complaints-flow.md)
-6. [UPI Numbers](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/upi-number.md)  
+1. [Customer Onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/customer-onboarding.md)  
+2. [Manage Funds and Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/funds-account-management.md)  
+3. [Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/payments-flow.md)  
+4. [Mandates](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/mandate-flow.md)  
+5. [Complaints](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/complaints-flow.md)
+6. [UPI Numbers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/upi-number.md)  
 7. UPI Lite
 
 ### Related Guides
 
-[About TPAP Pro](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/tpap-pro.md)
-[Integrate With TPAP Pro](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/tpap-pro/integration-guide.md)
+[About TPAP Pro](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/tpap-pro.md)
+[Integrate With TPAP Pro](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/tpap-pro/integration-guide.md)
 
 ### Endpoints
 

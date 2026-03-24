@@ -8,7 +8,7 @@ description: Add and save detailed descriptions, pricing and specifications for 
 
 Items serve as a detailed description of products or services that are bought or sold. They enable buyers to verify that they are receiving what they ordered and at the agreed-upon prices, and they provide sellers with a clear record of what was delivered and the corresponding revenue.
 
-[Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/invoices.md) and [purchase orders](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/purchase-order.md) often feature multiple items, making them records of a business transactions. The effective use of items streamlines the process of procurement, sales and financial management, contributing to more efficient and accurate business operations.
+[Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/invoices.md) and [purchase orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/purchase-order.md) often feature multiple items, making them records of a business transactions. The effective use of items streamlines the process of procurement, sales and financial management, contributing to more efficient and accurate business operations.
 
     
 ### Item Fields
@@ -67,8 +67,8 @@ To create an item:
 1. Log in to the [RazorpayX Dashboard](http://x.razorpay.com/auth).
 2. Navigate to **Vendor Payments** → **Items**.
 3. Click **+ Item**.
-    ![Create item](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-item-create.jpg.md)
-4. Enter the fields mentioned [above](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/items/#item-fields.md).
+    ![Create item](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-item-create.jpg.md)
+4. Enter the fields mentioned [above](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/items.md#item-fields).
 5. Click **Save**.
 
 You can use these items while creating invoices or purchase orders. To view the item details, you can select the item from the list. 
@@ -81,7 +81,7 @@ To edit an item:
 2. Navigate to **Vendor Payments** → **Items**.
 3. Select the item you want to edit.
 4. Go to **Options** → **Edit Item**.
-    ![Edit item](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-items-edit.jpg.md)
+    ![Edit item](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-items-edit.jpg.md)
 5. Add or modify the fields and click **Save**.
 
 Your modified item is saved.
@@ -99,6 +99,6 @@ Your item is inactive.
 
 ### Related Information
 
-- [Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md)
-- [Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/invoices.md)
-- [Purchase Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/purchase-order.md)
+- [Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md)
+- [Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/invoices.md)
+- [Purchase Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/purchase-order.md)

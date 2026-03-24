@@ -13,9 +13,9 @@ Settlement is the process in which the money received from your customers is set
 
 ## Settlement Cycle
 
-We automatically settle captured payments to the bank account you submitted to us during your [KYC verification](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#2-submit-kyc-details.md) following our settlement cycle. The settlement cycle is subject to bank approval and can vary based on your business vertical, risk factors and so on.
+We automatically settle captured payments to the bank account you submitted to us during your [KYC verification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#2-submit-kyc-details) following our settlement cycle. The settlement cycle is subject to bank approval and can vary based on your business vertical, risk factors and so on.
 
-![Checkout screen with details of Settlement Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-settlement_cycle.jpg.md)
+![Checkout screen with details of Settlement Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settlement_cycle.jpg.md)
 
 > **INFO**
 >
@@ -41,7 +41,7 @@ The default settlement cycle for international payments is as per applicable law
 
 Settlements for all payments is done in INR (Indian Rupees), irrespective of the currency in which the payment was made. The payment is converted using the exchange rate at the time of payment creation.
 
-Razorpay allows you to accept payments in any of the [supported international currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+Razorpay allows you to accept payments in any of the [supported international currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
     
 ### Example
@@ -51,7 +51,7 @@ Razorpay allows you to accept payments in any of the [supported international cu
 
 ## Instant Settlements
 
-Using Instant Settlements, you can access your funds as and when you want. Normally, you would receive settlements according to your settlement cycle. Razorpay Instant Settlements helps you reduce your settlement period from **T+2** days (default settlement cycle) to a few minutes (from the time of the transaction), thus enabling your business to avoid cash-flow challenges and prepare better for working capital requirements. Know more about [Instant Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/instant.md).
+Using Instant Settlements, you can access your funds as and when you want. Normally, you would receive settlements according to your settlement cycle. Razorpay Instant Settlements helps you reduce your settlement period from **T+2** days (default settlement cycle) to a few minutes (from the time of the transaction), thus enabling your business to avoid cash-flow challenges and prepare better for working capital requirements. Know more about [Instant Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/instant.md).
 
 > **INFO**
 >
@@ -62,7 +62,7 @@ Using Instant Settlements, you can access your funds as and when you want. Norma
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -110,12 +110,12 @@ This ensures that your settlements are timely and regular and you can maintain s
 
 You can perform the following actions from the Razorpay Dashboard:
 
-- [View settlement details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/dashboard/#view-settlements-using-dashboard.md)
-- [Check settlements break-up](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/dashboard/#settlements-break-up-description.md)
-- [Enable settlements on hold](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/dashboard/#enable-settlements-placed-on-hold.md)
-- [View reports related to settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/dashboard/#reports.md)
+- [View settlement details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/dashboard.md#view-settlements-using-dashboard)
+- [Check settlements break-up](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/dashboard.md#settlements-break-up-description)
+- [Enable settlements on hold](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/dashboard.md#enable-settlements-placed-on-hold)
+- [View reports related to settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/dashboard.md#reports)
 
 ### Related Information
 
-- [Settlements APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/apis.md)
-- [ Settlement FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/faqs.md)
+- [Settlements APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/apis.md)
+- [ Settlement FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/faqs.md)

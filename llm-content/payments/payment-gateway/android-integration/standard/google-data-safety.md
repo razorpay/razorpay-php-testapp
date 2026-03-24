@@ -110,7 +110,7 @@ App activity | App interactions | **Yes**, Razorpay SDK collects app interaction
 ---
 App activity | In-app search history | **No**, Razorpay does not collect this data.
 ---
-App activity | Installed apps | **Yes**, only detection of installed UPI apps is done to enable [UPI intent](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/upi-intent.md) functionality.
+App activity | Installed apps | **Yes**, only detection of installed UPI apps is done to enable [UPI intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/upi-intent.md) functionality.
 ---
 App activity | Other user-generated content | **Yes**, if you have configured to transmit this data to Razorpay.
 ---

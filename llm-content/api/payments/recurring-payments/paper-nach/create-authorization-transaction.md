@@ -106,7 +106,7 @@ To create an authorisation payment:
 
 ## 1.2. Using a Registration Link
 
-Registration Link is an alternate way of creating an authorisation transaction. You can create a registration link using the [API](#121-create-a-registration-link) or [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create/#1-create-a-registration-link.md).
+Registration Link is an alternate way of creating an authorisation transaction. You can create a registration link using the [API](#121-create-a-registration-link) or [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#1-create-a-registration-link).
 
 > **INFO**
 >
@@ -116,7 +116,7 @@ Registration Link is an alternate way of creating an authorisation transaction. 
 > You do not have to create a customer if you choose the registration link method for creating an authorisation transaction.
 > 
 
-- When you create a registration link, an [invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices.md) is automatically issued to the customer. They can use this invoice to make the authorisation payment.
+- When you create a registration link, an [invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md) is automatically issued to the customer. They can use this invoice to make the authorisation payment.
 - A registration link should always have an order amount (in paise) the customer will be charged when making the authorisation payment. This amount should be `0` in the case of Paper NACH.
 
 > **INFO**
@@ -124,7 +124,7 @@ Registration Link is an alternate way of creating an authorisation transaction. 
 > 
 > **Handy Tips**
 > 
-> You can [use Webhooks to get notifications about successful payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/webhooks/#check-authorization-link-status-using-webhooks.md) against a registration link.
+> You can [use Webhooks to get notifications about successful payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#check-authorization-link-status-using-webhooks) against a registration link.
 > 
 
 ### 1.2.1. Create a Registration Link

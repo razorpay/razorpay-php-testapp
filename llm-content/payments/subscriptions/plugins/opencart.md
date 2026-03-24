@@ -34,14 +34,14 @@ PHP | 7.3 and 7.4
 - Create a [Razorpay Account](https://dashboard.razorpay.com/signup).
 
 - Log in to the Dashboard and click **Subscriptions** in the left menu.
-- Razorpay Subscriptions is based on the existing Razorpay [payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md) process. If you are new to Razorpay, we recommend you to understand this flow before you read further.
+- Razorpay Subscriptions is based on the existing Razorpay [payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md) process. If you are new to Razorpay, we recommend you to understand this flow before you read further.
 - Generate the API keys from the Dashboard by navigating to **Account & Settings** → **API Keys**. You can use the Test mode keys for testing and later switch to Live mode keys when going live with the integration.
 
 ## Integration Steps
 
-1. [Build Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/opencart/build-integration.md)
-2. [Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/opencart/test-integration.md) 
-3. [Go Live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/opencart/go-live-checklist.md)
+1. [Build Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/opencart/build-integration.md)
+2. [Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/opencart/test-integration.md) 
+3. [Go Live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/opencart/go-live-checklist.md)
 
 ## Support
 
@@ -51,4 +51,4 @@ PHP | 7.3 and 7.4
 
 ### Related Information
 
-- [Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md)
+- [Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md)

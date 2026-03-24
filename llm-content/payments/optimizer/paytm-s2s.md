@@ -45,14 +45,14 @@ Follow the steps below to onboard Paytm Server-to-Server as a payment provider.
             2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
             3. In the top-right section, click **Add Provider**.
             4. Select **PayTm** in the list of gateways available and click **Next**.
-                 ![Add Paytm](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-paytm-add.jpg.md)
+                 ![Add Paytm](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-paytm-add.jpg.md)
             5. Select **Server-to-Server** and click **Next**.
-                 ![Select Paytm server-to-server](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-paytm-select-s2s.jpg.md)
+                 ![Select Paytm server-to-server](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-paytm-select-s2s.jpg.md)
             6. Enter the provider name and description and click **Next**.
-                 ![Add Paytm provider details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-paytm-add-provider.jpg.md)
+                 ![Add Paytm provider details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-paytm-add-provider.jpg.md)
             7. Enter your **INDUSTRY_TYPE_ID**, **KEY**, **MID** (merchant id) and **WEBSITE** details.
             8. Select the **Payment Methods** you want to enable for Paytm and click **Submit**.
-                 ![Add Paytm final details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-paytm-final-new.jpg.md)
+                 ![Add Paytm final details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-paytm-final-new.jpg.md)
             You have successfully added **Paytm Server-to-Server** as a payment provider on Optimizer.
         
 
@@ -118,7 +118,7 @@ Refunds | Live
         
 
 ## Send Receipt/Order ID to External Gateway
-You might be generating a unique Order ID or Receipt for every order which can be passed to Paytm via [ Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders#orders-api.md). 
+You might be generating a unique Order ID or Receipt for every order which can be passed to Paytm via [ Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md#orders-api). 
 
 To male your order id visible on the Paytm Dashboard:
 1. In Razorpay's Orders API, use the `receipt` parameter to send your unique Order ID or Receipt.
@@ -153,11 +153,11 @@ Before routing any traffic to a new gateway via Optimizer, the following best pr
             - In **Parameter** field, select **Amount (In Rupees)**.
             - In **Select Connection** field, select **Less Than**.
             - In **Enter Amount** field, enter the value 2 and click **Next**.
-            ![Add Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-rule.jpg.md)
+            ![Add Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-rule.jpg.md)
         5. Enter the value 100 in the **Route field**, select **Paytm** in the **Payment Via** field, and click **Next**.
-            ![Paytm target Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-paytm-rule-add.jpg.md)
+            ![Paytm target Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-paytm-rule-add.jpg.md)
         6. Click **Publish Rule**.
-            ![Paytm Publish Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-paytm-publish-rule.jpg.md)
+            ![Paytm Publish Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-paytm-publish-rule.jpg.md)
         
 
 ## Go Live

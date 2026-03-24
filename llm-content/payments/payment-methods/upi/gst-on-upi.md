@@ -30,7 +30,7 @@ We enable eligible businesses to comply with this regulation by making some simp
 
 ### Step 1: Make Changes in Orders API Integration
 
-To comply with the change, you should use the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md) in your integration flow, along with the following additional parameters request parameters:
+To comply with the change, you should use the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md) in your integration flow, along with the following additional parameters request parameters:
 
 #### Additional Request Parameters
 

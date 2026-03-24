@@ -71,7 +71,7 @@ Follow the integration steps based on how you want to transfer funds to the Link
                 - `settlement.processed`
                 - `transfer.failed`
 
-            [Enable Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments#set-up-webhooks.md) to receive notifications for these events.
+            [Enable Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md#set-up-webhooks) to receive notifications for these events.
             
 
             
@@ -147,8 +147,8 @@ Follow the integration steps based on how you want to transfer funds to the Link
                 To verify the payment status:
 
                 1. Log in to the **WordPress Admin Dashboard** and navigate to **Razorpay Route woocommerce** → **Payments**.
-                2. Check if a **Payment Id** has been generated and note the status. In case of a successful payment, the status is marked as **Captured**. Know more about various [payment states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments#payment-life-cycle.md).
-                    ![Check if the payment id is generated and the status is captured](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/woocommerce-route-payment-status.jpg.md)
+                2. Check if a **Payment Id** has been generated and note the status. In case of a successful payment, the status is marked as **Captured**. Know more about various [payment states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments.md#payment-life-cycle).
+                    ![Check if the payment id is generated and the status is captured](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/woocommerce-route-payment-status.jpg.md)
 
             
 
@@ -208,7 +208,7 @@ Follow the integration steps based on how you want to transfer funds to the Link
          - `settlement.processed`
          - `transfer.failed`
 
-         [Enable Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments#set-up-webhooks.md) to receive notifications for these events.
+         [Enable Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md#set-up-webhooks) to receive notifications for these events.
         
 
         
@@ -228,7 +228,7 @@ After completing the integration, you can simulate a test payment transfer. Afte
 > 
 > You can make test payments using one of the payment methods configured at the Checkout.
 > - No money is deducted from the customer's account as this is a simulated transaction.
-> - Ensure you have entered [Test Mode API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) in the Checkout code.
+> - Ensure you have entered [Test Mode API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) in the Checkout code.
 > 
 
     
@@ -318,4 +318,4 @@ You can perform an end-to-end simulation of funds flow in the Test Mode. Once yo
 
             
 
-            You have successfully generated your API keys in Live Mode. Use this pair of `Key_ID` and `Key_Secret` to accept payments from your customers and route them to the involved third parties using [Route](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route.md).
+            You have successfully generated your API keys in Live Mode. Use this pair of `Key_ID` and `Key_Secret` to accept payments from your customers and route them to the involved third parties using [Route](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route.md).

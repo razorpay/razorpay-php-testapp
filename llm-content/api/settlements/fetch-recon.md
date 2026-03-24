@@ -298,7 +298,7 @@ List settlement = client.Settlement.Reports(settlementRequest);
 : `string` Order id linked to the payment made by the customer that has been settled. For example, `order_DEXrnRiR3SNDHA`.
 
 `order_receipt`
-: `string` Receipt number entered while [creating the Order](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/#create-an-order.md).
+: `string` Receipt number entered while [creating the Order](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md#create-an-order).
 
 `method`
 : `string` The payment method used to complete the payment. Possible values:

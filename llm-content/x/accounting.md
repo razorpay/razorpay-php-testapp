@@ -22,7 +22,7 @@ Below listed are some of the advantages of accounting integration:
 
 ## Accounting Integrations
 
-With the RazorpayX Accounting feature, you can sync your [Account Statement](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-statement.md), [Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md) and [Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md) with the accounting software of your choice. You can integrate RazorpayX with:
+With the RazorpayX Accounting feature, you can sync your [Account Statement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-statement.md), [Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md) and [Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md) with the accounting software of your choice. You can integrate RazorpayX with:
 
-1. [Zoho Books](@/Applications/MAMP/htdocs/new-docs/llm-content/x/accounting/zohobooks.md)
-2. [Tally](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally.md)
+1. [Zoho Books](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/accounting/zohobooks.md)
+2. [Tally](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally.md)

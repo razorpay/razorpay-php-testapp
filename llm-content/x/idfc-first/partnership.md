@@ -26,10 +26,10 @@ List of Documents for a Partnership Firm
 - **PAN** of the firm.
 - **Registered office address proof** (in the name of the entity).
 - **Communication address proof**, if different from registered address.
-- [KYC of all the partners and authorised signatories](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/kyc.md) (if different from the partners).
+- [KYC of all the partners and authorised signatories](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/kyc.md) (if different from the partners).
 - List of partners with name, date of birth, and address.
 
-[Download Forms](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/IDFC.zip.md)
+[Download Forms](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/IDFC.zip.md)
 
 > **INFO**
 >

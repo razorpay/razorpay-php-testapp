@@ -179,7 +179,7 @@ List order = client.Order.Fetch(orderId).Payments();
     - `failed`
 
 `order_id`
-: `string` Order id, if provided. Know more about [Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders.md).
+: `string` Order id, if provided. Know more about [Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders.md).
 
 `description`
 : `string` Description of the payment, if any.

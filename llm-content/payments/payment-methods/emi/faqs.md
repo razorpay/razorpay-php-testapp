@@ -24,7 +24,7 @@ description: Find answers to frequently asked questions about EMI as a payment m
     
 ### 3. Can my customers avail Offers for EMI payments at Checkout?
 
-         Yes, they can avail offer on debit and credit card EMIs. Know more about [creating EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers.md). 
+         Yes, they can avail offer on debit and credit card EMIs. Know more about [creating EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers.md). 
         
 
     

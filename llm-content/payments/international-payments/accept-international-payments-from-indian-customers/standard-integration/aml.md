@@ -20,7 +20,7 @@ Razorpay offers an Anti-Money Laundering (AML) solution, such as Basic AML, desi
 
 Basic AML enables you to proactively provide additional customer information with every order, thereby reducing the likelihood that it will be flagged for AML review.
 
-You need to pass a few additional parameters related to AML in the Orders API. There is no other change in the rest of the [Standard Checkout integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/build-integration.md).
+You need to pass a few additional parameters related to AML in the Orders API. There is no other change in the rest of the [Standard Checkout integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/build-integration.md).
 
     
 ### Sample Code
@@ -252,9 +252,9 @@ When a transaction is flagged as high-risk, customers will see an additional scr
   1. Customer proceeds to payment. If flagged, **Submit PAN details** screen appears.
   2. Enter **PAN** and **Date of birth** details.
      - Mobile
-       ![Submit PAN details screen](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/submit-pan-details.jpg.md)
+       ![Submit PAN details screen](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/submit-pan-details.jpg.md)
      - Web
-       ![Submit PAN details screen web](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/submit-pan-details-web.jpg.md)
+       ![Submit PAN details screen web](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/submit-pan-details-web.jpg.md)
   3. Click **Continue** to proceed with payment.
 
   

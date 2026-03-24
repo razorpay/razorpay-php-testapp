@@ -38,7 +38,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 > 
 >       **Deprecation Notice**
 > 
->       UPI Collect is deprecated effective 28 February 2026. This tab is applicable only for exempted businesses. If you are not covered by the exemptions, refer to the [ migration documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/announcements/upi-collect-migration/standard-integration.md) to switch to UPI Intent.
+>       UPI Collect is deprecated effective 28 February 2026. This tab is applicable only for exempted businesses. If you are not covered by the exemptions, refer to the [ migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/standard-integration.md) to switch to UPI Intent.
 >       
 
   

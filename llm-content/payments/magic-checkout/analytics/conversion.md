@@ -31,7 +31,7 @@ Follow the steps given below to view insights about the various conversion activ
 
 You can now view the **Conversion Analytics** on the Dashboard with conversion metrics.
 
-![View conversion analytics on dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-analytics-conversion.jpg.md)
+![View conversion analytics on dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-analytics-conversion.jpg.md)
 
 > **INFO**
 >
@@ -56,7 +56,7 @@ You can compare your current data against previous periods to track performance 
     - **Descriptive text** explains the changes. For example: `Conversion rate increased from 21.26% to 27.78%`.
     - **Charts display overlapping lines** for visual comparison between the selected time periods, with date labels at the bottom showing which line represents which period.
 
-![Compare analytics data](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-analytics-conversion-comparison.jpg.md)
+![Compare analytics data](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-analytics-conversion-comparison.jpg.md)
 
 ## Conversion Metrics
 
@@ -77,17 +77,17 @@ Address pre-fill rate | Percentage of logged-in users who see their addresses pr
 The **Detailed view** section displays charts that allow you to analyse trends and patterns in your conversion data:
 
 - **Checkout conversion funnel**: Bar chart showing user progression through each checkout step from initiation to order completion.
-    ![View checkout conversion funnel](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-analytics-conversion-funnel.jpg.md)
+    ![View checkout conversion funnel](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-analytics-conversion-funnel.jpg.md)
 - **Logged out conversion funnel**: Step-by-step funnel analysis for users who started as guests and logged in during checkout.
 - **Logged in conversion funnel**: Performance breakdown for users who were already logged in when they started checkout.
-    ![View logged-in & logged-out conversion funnel](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-analytics-conversion-logged-in-out.jpg.md)
+    ![View logged-in & logged-out conversion funnel](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-analytics-conversion-logged-in-out.jpg.md)
 - **Checkout conversion rate over time**: Line chart tracking overall conversion rate trends across your selected time period.
-    ![View checkout conversion rate](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-analytics-conversion-rate.jpg.md)
+    ![View checkout conversion rate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-analytics-conversion-rate.jpg.md)
 - **Logged out conversion rate**: Line chart showing conversion trends for guest users over time.
 - **Logged in conversion rate**: Line chart displaying conversion patterns for pre-logged users over time.
-    ![View logged-in & logged-out conversion funnel](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-analytics-conversion-logged-in-out-rate.jpg.md)
+    ![View logged-in & logged-out conversion funnel](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-analytics-conversion-logged-in-out-rate.jpg.md)
 - **Sales attribution**: Checkout performance segmented by UTM source, medium and campaign data showing how different traffic sources contribute to orders and revenue.
-    ![View sales attribution](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-analytics-conversion-sales-attribution.jpg.md)
+    ![View sales attribution](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-analytics-conversion-sales-attribution.jpg.md)
 
 ## Bar Chart Terms
 

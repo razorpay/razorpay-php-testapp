@@ -29,7 +29,7 @@ On the Payroll Dashboard, you can easily add new loans and manage them. You can 
 
          Employee loans are a loan facility employers provide to their employees at a lower interest rate than the market rate. The EMIs are deducted from the employee's salary and on Payroll, you can modify the employee's EMI or skip the EMI when necessary.
 
-         In an [Advance Salary](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/advance-salary.md), the organisation pays a portion of the employee's salary as an advance. The advance paid is recovered in installments from the employee and is usually interest-free.
+         In an [Advance Salary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/advance-salary.md), the organisation pays a portion of the employee's salary as an advance. The advance paid is recovered in installments from the employee and is usually interest-free.
         
 
 ## Create and Manage Loans
@@ -48,7 +48,7 @@ To create a loan as per your loan policy:
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
 1. Navigate to **ADMIN OPTIONS** → **Pay Employees** → **Loans** in the left menu. 
 1. Click **+ ADD NEW LOAN**.
-    ![Create Loan on Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-create-loan.jpg.md)
+    ![Create Loan on Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-create-loan.jpg.md)
 1. On the **Create Loan** page: 
     1. Enter employee details. 
         1. Search and enter the employee's name. 
@@ -108,9 +108,9 @@ To disburse the loan to the employee:
 1. Go to **PENDING LOANS** on the Loans page. 
 1. Review the loan details. You can delete a loan entry if it is no longer required for the employee. 
 1. Click **DISBURSE LOAN ()**. This creates the loan payout to your employees. 
-    ![Disburse loan to employees on Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-disburse-pending-loan.jpg.md)
+    ![Disburse loan to employees on Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-disburse-pending-loan.jpg.md)
 
-    [Add funds to your Payroll account](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts/#transfer-funds.md) in case the **DISBURSE LOAN ()** option is not available.
+    [Add funds to your Payroll account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md#transfer-funds) in case the **DISBURSE LOAN ()** option is not available.
 1. Enter the OTP you you receive at your registered email address/authenticator app and authorise the loan disbursal.
 
 > **INFO**
@@ -118,7 +118,7 @@ To disburse the loan to the employee:
 > 
 > **Handy Tips**
 > 
-> In the [employees' profile](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/#set-up-profile.md) view, you can either set a limit on the total perquisite amount allowed (only in [custom salary structure](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary#setup-salary-structure.md)) or let Payroll calculate the amount allowed automatically. This is beneficial in cases of employee's [salary revision](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#revise-salary.md). 
+> In the [employees' profile](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md#set-up-profile) view, you can either set a limit on the total perquisite amount allowed (only in [custom salary structure](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md#setup-salary-structure)) or let Payroll calculate the amount allowed automatically. This is beneficial in cases of employee's [salary revision](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#revise-salary). 
 > 
 
 Once you disburse the loan, you can view the details and summary on the [Manage Loans](#manage-loans) page.
@@ -129,7 +129,7 @@ To manage a particular loan:
 
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
 1. Navigate to **ADMIN OPTIONS** → **Pay Employees** → **Loans**. 
-    ![Manage employee loans on Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-manage-loans.jpg.md)
+    ![Manage employee loans on Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-manage-loans.jpg.md)
 1. Click **Manage** against the particular loan. 
 
 You can filter active and closed loans using the drop-down list on this page. A loan is closed after the loan amount and interest is [recovered](#recover-loan). Click **PENDING LOANS** to view the loans you have created but are yet to disburse. 
@@ -141,7 +141,7 @@ Sometimes an employee may request to skip a month's EMI. To skip the upcoming mo
 1. Navigate to the [Loan Details](#manage-loans) page. 
 1. Click **Skip EMI** in right pane. 
 1. Choose how to adjust the EMI repayment. You can either increase the EMI amount proportionally for the loan tenure or the total number of EMIs payable. You can preview the updated calculation in the table displayed below. 
-    ![Adjust Employee Loan EMI on Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-skip-loan-emi.jpg.md)
+    ![Adjust Employee Loan EMI on Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-skip-loan-emi.jpg.md)
 1. Click **CONFIRM**. 
 
 You have successfully skipped a month's EMI for the employee. 
@@ -164,7 +164,7 @@ In some cases, employees may be interested in foreclosing the loan. In such case
 1. Navigate to the [Loan Details](#manage-loans) page. 
 1. Click **Loan Recovery** in the right pane.
 1. Choose between a Full or Partial Recovery of the loan. In case of a partial recovery, enter the amount you have recovered. 
-    ![Record external loan recover on Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-recover-loan-external.jpg.md)
+    ![Record external loan recover on Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-recover-loan-external.jpg.md)
 1. Click **Next**. 
 1. Review the updated loan tenure, EMI amount and the repayment status for the payroll months in the **Verify & Confirm** page and click **Confirm**.
 1. In the **Confirm changes** pop-up modal, click **CONFIRM CHANGES**. 
@@ -192,9 +192,9 @@ To view the loan reports:
 Once the employee receives the loan amount: 
 
 - Payroll deducts the EMI from their salary every month. Employees can view the deduction breakdown on their payslips.  
-- Employees can view their loan infomation from their [profile](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/#set-up-profile.md). 
+- Employees can view their loan infomation from their [profile](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md#set-up-profile). 
 
 ### Related Information
 
-- [About Salary](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary.md)
-- [Run Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll.md)
+- [About Salary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md)
+- [Run Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md)

@@ -10,10 +10,10 @@ Follow these steps to integrate the Razorpay Magic Checkout on your Android appl
 
 ## Prerequisites
 
-- Ensure you enable [Magic Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/troubleshooting-faqs/#3-how-do-i-check-if-magic-checkout.md) on your account.
-- Integrate [Magic Checkout With Shopify Store](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify.md).
-- Integrate with [Android Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/android-integration.md).
-- Generate [Live API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/#api-keys.md) from the Dashboard.
+- Ensure you enable [Magic Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/troubleshooting-faqs.md#3-how-do-i-check-if-magic-checkout) on your account.
+- Integrate [Magic Checkout With Shopify Store](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify.md).
+- Integrate with [Android Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/android-integration.md).
+- Generate [Live API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings.md#api-keys) from the Dashboard.
 
   - **1. Build Integration**:  Integrate with Android App for Shopify.
 
@@ -285,7 +285,7 @@ Follow the steps given below:
   
 ### 1.4 Initialise Razorpay Android Standard SDK
 
-     Use the `setKeyId()` method of the Checkout class to dynamically add your API key id. You can generate your API keys from the [Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md).
+     Use the `setKeyId()` method of the Checkout class to dynamically add your API key id. You can generate your API keys from the [Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys).
 
      To ensure the Checkout form loads quickly, call the `preload()` method early in your payment flow. The time taken to load resources may vary based on your network bandwidth.
      
@@ -368,7 +368,7 @@ Follow the steps given below:
   
 ### 1.6 Initiate Payment and Display Checkout Form
 
-     Create an instance of the `Checkout` and pass the payment details and options as a `JSONObject`. Ensure that you add the `order_id` generated in [Step 5](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/android-integration/#15-create-an-order.md).
+     Create an instance of the `Checkout` and pass the payment details and options as a `JSONObject`. Ensure that you add the `order_id` generated in [Step 5](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/android-integration.md#15-create-an-order).
 
      ```java: Java
      public void startPayment() {

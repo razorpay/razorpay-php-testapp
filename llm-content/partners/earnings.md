@@ -57,7 +57,7 @@ Once the customer completes the payment, the amount is received by Razorpay.
 Follow these steps to complete the earnings settlement process:
 1. On the first day of the next month, calculate and create an invoice for the earnings amount receivable for the month. For example, on 1st September, you must create an invoice for the earnings receivable for the month of August. You can obtain these details from the Earnings reports.
 2. Raise a Support Request from the Dashboard and share the invoice copy with it. Here is a short animation to raise a request from your Dashboard.
-   ![Raise a support request](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/support_dashboard.gif.md)
+   ![Raise a support request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/support_dashboard.gif.md)
 3. Once we receive the invoice, we will process it and settle the amount within 1-2 Weeks to your bank account.
 
 > **INFO**
@@ -76,12 +76,12 @@ You can view detailed commission reports on the Dashboard. There are two reports
 ### Daily Earnings
 This report provides details of your daily earnings from referred accounts. Base earnings indicate the amount you earn from the platform fee, while Add-on earnings show any additional platform charge that may be added on your accounts.
 
-![partner daily earnings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partner-daily-earnings.jpg.md)
+![partner daily earnings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partner-daily-earnings.jpg.md)
 
 ### Per Transaction Earnings Report
 This report provides details of your earnings from each transaction on your referred accounts.
 
-![partner transactions](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partner-transactions.jpg.md)
+![partner transactions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partner-transactions.jpg.md)
 
 > **INFO**
 >

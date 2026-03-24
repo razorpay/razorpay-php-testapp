@@ -11,7 +11,7 @@ Given below are the steps to integrate Razorpay Custom Checkout in your site:
 
 Creating a customer generates a unique `customer_id` by collecting basic details such as name, email, and contact details. This `customer_id` must be included when creating a payment request to link the payment to the customer. Use the following API to create a customer.
 
-You can try out our APIs on the Razorpay Postman Public Workspace. Fork the workspace and test the APIs with your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+You can try out our APIs on the Razorpay Postman Public Workspace. Fork the workspace and test the APIs with your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 /customers
 
@@ -231,7 +231,7 @@ instance.customers.create({
        ---
        The API `` provided is invalid. | The API credentials passed in the API call differ from the ones generated on the Dashboard. Possible reasons: - Different keys for test mode and live modes.
 - Expired API key.
- | The API keys must be active and entered correctly with no whitespace before or after the keys. Know how to [Generate API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+ | The API keys must be active and entered correctly with no whitespace before or after the keys. Know how to [Generate API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
        ---
        Contact number should be at least 8 digits, including country code. | The contact number is less than 8 digits. | Enter contact number that meets the validation criteria. It should have at least 8 digits, including the country code. For example, "+919123456780".
        
@@ -239,7 +239,7 @@ instance.customers.create({
 
 ## 1.2 Create an Order in Server
 
-After a customer is created, an order needs to be generated using the Orders API. This order contains details such as the payment amount, currency, customer details, tax-related information and other custom notes. After the order is created, an `order_id` is generated, for example, `order_NGrgEcmYJsfUyl`. You must pass this `order_id` in the checkout code to associate this order with the payment. Learn more about [Order and Payment states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders/#order-states.md).
+After a customer is created, an order needs to be generated using the Orders API. This order contains details such as the payment amount, currency, customer details, tax-related information and other custom notes. After the order is created, an `order_id` is generated, for example, `order_NGrgEcmYJsfUyl`. You must pass this `order_id` in the checkout code to associate this order with the payment. Learn more about [Order and Payment states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders.md#order-states).
 
 /orders 
 
@@ -586,7 +586,7 @@ razorpay.once('ready', function(response) {
 }
 ```
 
-Know more about the various [payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods.md) offered by Razorpay.
+Know more about the various [payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md) offered by Razorpay.
 
 ## 1.4 Invoke Checkout and Pass Order Id and Other Options
 
@@ -638,7 +638,7 @@ new Razorpay({}); // will inherit key and image from above.
       While building a custom UI for accepting payments from your customers, you should be familiar with the fields supported in the `razorpay.js` script.
 
       `key` _mandatory_
-      : `string` API Key ID generated from **Dashboard** → **Account & Settings** → [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+      : `string` API Key ID generated from **Dashboard** → **Account & Settings** → [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
       `image` _optional_
       : `string` Link to an image (usually your business logo) shown in the Checkout form. Can also be a **base64** string, if loading the image from a network is not desirable.
@@ -651,7 +651,7 @@ new Razorpay({}); // will inherit key and image from above.
 
 After creating an order and obtaining the customer's payment details, send the information to Razorpay to complete the payment. You can do this by invoking `createPayment` method. The data that needs to be submitted depends on the customer's payment method.
 
-Know more about [sample codes for various payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods.md) and [supported payment methods](#supported-payment-methods).
+Know more about [sample codes for various payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods.md) and [supported payment methods](#supported-payment-methods).
 
 ```js: createPayment with handler function
 var data = {
@@ -733,7 +733,7 @@ btn.addEventListener('click', function(){
       - Netbanking
       - UPI
       - Cards
-      - [Recurring](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/custom-integration/recurring-payments.md) 
+      - [Recurring](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/custom-integration/recurring-payments.md) 
 
       For recurring payments, additional integration is needed. Cards, UPI, and UPI with TPV are supported as a payment methods.
     
@@ -780,4 +780,4 @@ You can use Handler Function or Callback URL to send the payment details to us. 
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/custom-integration/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/custom-integration/test-integration.md)

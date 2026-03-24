@@ -10,7 +10,7 @@ description: Find answers to frequently asked questions about RazorpayX Fund Acc
 
 ### 1. What are Fund Accounts?
 
-To make a payout to a Contact, you must [create a Fund Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts/#create-a-contact-with-fund-account.md) associated with that Contact. Payouts made to the Contact are credited to that Fund Account. Thus, its necessary to create a Fund Account to start transacting with the contact. 
+To make a payout to a Contact, you must [create a Fund Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts.md#create-a-contact-with-fund-account) associated with that Contact. Payouts made to the Contact are credited to that Fund Account. Thus, its necessary to create a Fund Account to start transacting with the contact. 
 
 There are multiple types of Fund Accounts and RazorpayX supports two types of them.
 - Bank account 
@@ -20,7 +20,7 @@ They are necessary to process bank transfers of UPI/VPA payments.
 
 ### 2. How do I add bank account for a Contact?
 
-You can add a bank account for a contact by [creating a Fund Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts/#create-a-contact-with-fund-account.md) for that Contact. 
+You can add a bank account for a contact by [creating a Fund Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts.md#create-a-contact-with-fund-account) for that Contact. 
          
 1. Select the contact to which you want to add bank account details. 
 1. Specify the bank account number, IFSC, bank name and the contact’s full name (as given in their bank records) while creating a Fund Account of the type bank account.
@@ -37,7 +37,7 @@ Yes. You can add as many bank accounts and VPA addresses against a Contact as yo
 
 VPA stands for Virtual Payment Address. This is required to make UPI based payouts to a person or an entity. 
          
-You must provide the Contact’s VPA while [creating a Fund Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts/#create-a-contact-with-fund-account.md) of type VPA.
+You must provide the Contact’s VPA while [creating a Fund Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts.md#create-a-contact-with-fund-account) of type VPA.
 
 ## Fund Account Validation
 
@@ -49,7 +49,7 @@ There are high chances that users might misuse this feature and make multiple va
 
 ### 2. What are the possible ways to do FAV?
 
-Currently, it can be done via the [Fund Account Validation API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/composite-account-validation.md) only. We do not support validation of Fund Accounts through the Dashboard.
+Currently, it can be done via the [Fund Account Validation API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/composite-account-validation.md) only. We do not support validation of Fund Accounts through the Dashboard.
 
 ### 3. Can the Current Account be used for FAV?
 
@@ -65,7 +65,7 @@ Yes. The NPCI confirms the validity of the primary account associated with the c
 
 The VPA might be active. Since there is no bank account linked to the VPA address, the completed status of a Fund Account Validation Request and the account status will be invalid and the registered name appears as null. 
 
-If this is not the case, please raise [a support query](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support/#razorpayx-users.md).
+If this is not the case, please raise [a support query](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#razorpayx-users).
 
 ### 6. What fields are returned after a Fund Account validation?
 
@@ -84,7 +84,7 @@ The details of the primary bank account associated with the VPA address are retu
 - Yes, there is a verification charge for every validation.
 - In case the validation moves to a failed state, the charges will be reversed to your account.
 
-For more information on fund account validation charges, please raise [a support query](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support/#razorpayx-users.md).
+For more information on fund account validation charges, please raise [a support query](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#razorpayx-users).
 
 ### 9. What is the time taken for Fund Account Validation to move to a `completed` state?
 
@@ -92,7 +92,7 @@ Most of the Fund Account Validation status moves to `completed` instantaneously.
 
 ### 10. Is FAV supported in test mode?
 
-No, it is not supported in [test mode](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/test-mode.md).
+No, it is not supported in [test mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/test-mode.md).
 
 ### 11. Why is the status `created`, while registered_name and account_status fields are null?
 
@@ -105,7 +105,7 @@ The status of Fund account Validation requests is always `created`. To fetch the
 - Make a GET call and get the status.
 - Subscribe to webhooks and consume the payload for status update.
 
-Know more about [Fund Account Validation statuses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/account-validation.md).
+Know more about [Fund Account Validation statuses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/account-validation.md).
 
 ### 12. How to delete a Fund Account?
 

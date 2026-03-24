@@ -41,7 +41,7 @@ Follow these steps to integrate your Flutter application with the Razorpay Payme
 > - Replace Test API keys with Live API keys
 > - Integrate with other APIs
 
-> Refer to the [post-integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/custom/test-integration.md).
+> Refer to the [post-integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/custom/test-integration.md).
 > 
 
 > **WARN**
@@ -217,4 +217,4 @@ end
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/custom/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/custom/test-integration.md)

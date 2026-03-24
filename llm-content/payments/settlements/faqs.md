@@ -11,7 +11,7 @@ description: Find answers to frequently asked questions about Razorpay Payment S
     
 ### 1. What are settlements?
 
-         Settlement is the process in which the money received from your customers is settled to your bank account. Settlements for all payments will be done in INR (Indian Rupees), irrespective of the currency in which the payment was made by the customer. Settlement cycle is subject to bank approval and can vary based on your business vertical, risk factor, and so on. Each settlement generated has a unique settlement id attached to it along with the amount settled. Know more about [Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements.md).
+         Settlement is the process in which the money received from your customers is settled to your bank account. Settlements for all payments will be done in INR (Indian Rupees), irrespective of the currency in which the payment was made by the customer. Settlement cycle is subject to bank approval and can vary based on your business vertical, risk factor, and so on. Each settlement generated has a unique settlement id attached to it along with the amount settled. Know more about [Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md).
         
 
     
@@ -34,7 +34,7 @@ description: Find answers to frequently asked questions about Razorpay Payment S
 ### 3. How do I check settlements in my bank account?
 
          Each settlement has a Unique Transaction Reference (UTR) number, which is provided by our banking partners. You can see this number in the settlement section when you click on a particular settlement id. You can also download **Settlement Reports** from the **Reports** section to view UTR. This is a unique reference number available across banks, which can be used to track a specific settlement in your bank account.
-         ![UTR](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/settlements-utr.jpg.md)
+         ![UTR](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/settlements-utr.jpg.md)
         
 
     
@@ -46,7 +46,7 @@ description: Find answers to frequently asked questions about Razorpay Payment S
     
 ### 5. How to reconcile settlements along with the transactions made?
 
-         You can [download a daily or a monthly report](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/reports/#generate-reports.md) for the **Settlement Reconciliation Report** from the **Reports** section on the Dashboard. The report contains transactions and the corresponding settlement ids.
+         You can [download a daily or a monthly report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/reports.md#generate-reports) for the **Settlement Reconciliation Report** from the **Reports** section on the Dashboard. The report contains transactions and the corresponding settlement ids.
 
         
 
@@ -206,7 +206,7 @@ description: Find answers to frequently asked questions about Razorpay Payment S
          This separation ensures proper fund isolation for different payment method types.
         
 
-, irrespective of the currency in which the payment was made by the customer. Settlement cycle is subject to bank approval and can vary based on your business vertical, risk factor, and so on. Each settlement generated has a unique settlement id attached to it along with the amount settled. Know more about [Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements.md).
+, irrespective of the currency in which the payment was made by the customer. Settlement cycle is subject to bank approval and can vary based on your business vertical, risk factor, and so on. Each settlement generated has a unique settlement id attached to it along with the amount settled. Know more about [Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md).
         
     
     
@@ -224,7 +224,7 @@ description: Find answers to frequently asked questions about Razorpay Payment S
     
 ### 4. How to reconcile settlements along with the transactions made?
 
-         You can [download a daily or a monthly report](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/reports/#generate-reports.md) for the **Settlement Reconciliation Report** from the **Reports** section on the Razorpay  Dashboard. The report contains transactions and the corresponding settlement ids.
+         You can [download a daily or a monthly report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/reports.md#generate-reports) for the **Settlement Reconciliation Report** from the **Reports** section on the Razorpay  Dashboard. The report contains transactions and the corresponding settlement ids.
         
 
 ## Instant Settlements
@@ -281,7 +281,7 @@ description: Find answers to frequently asked questions about Razorpay Payment S
     
 ### 8. How do I enable instant settlements?
 
-         Instant settlements is an on-demand feature. [Raise a request](https://razorpay.com/support/#request) with our support team to get this feature activated on your account. Know more about [initiating instant settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/instant/#initiate-instant-settlements.md).
+         Instant settlements is an on-demand feature. [Raise a request](https://razorpay.com/support/#request) with our support team to get this feature activated on your account. Know more about [initiating instant settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/instant.md#initiate-instant-settlements).
         
 
 ## Smart Settlements
@@ -289,7 +289,7 @@ description: Find answers to frequently asked questions about Razorpay Payment S
     
 ### 1. What are Smart Settlements?
 
-         [Smart Settlement](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/instant/#initiate-smart-settlements.md) is an extended form of [Instant Settlement](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/instant/#initiate-instant-settlements.md) that allows you to settle amounts above ₹ 5 L in one shot using the RTGS channel. A settlement done via Smart Settlements reflects as a single entry in your bank statement making reconciliation much easier.
+         [Smart Settlement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/instant.md#initiate-smart-settlements) is an extended form of [Instant Settlement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/instant.md#initiate-instant-settlements) that allows you to settle amounts above ₹ 5 L in one shot using the RTGS channel. A settlement done via Smart Settlements reflects as a single entry in your bank statement making reconciliation much easier.
         
 
     
@@ -303,7 +303,7 @@ description: Find answers to frequently asked questions about Razorpay Payment S
 
          No, Smart Settlement is a recommended option for amounts > 5 L and  5 Cr are settled through Smart Settlements only. Instant Settlement option is automatically disabled for amounts > 5Cr.**
 
-         Find out more about [Instant Vs Smart Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/instant/#instant-vs-smart-settlements.md)
+         Find out more about [Instant Vs Smart Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/instant.md#instant-vs-smart-settlements)
         
 
     

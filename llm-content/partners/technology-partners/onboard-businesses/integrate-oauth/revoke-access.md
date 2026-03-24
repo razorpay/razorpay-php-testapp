@@ -13,6 +13,6 @@ To revoke access to a connected application, the sub-merchant should follow thes
 
 1. Log in to the Dashboard.
 2. Navigate to **Applications** and click **Revoke** beside the application.
-    ![Revoke Access](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-oauth-revoke-access.jpg.md)
+    ![Revoke Access](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-oauth-revoke-access.jpg.md)
 3. Confirm the action by clicking **Revoke Access**.
-    ![Click Revoke](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/oauth_test_6.jpg.md)
+    ![Click Revoke](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/oauth_test_6.jpg.md)

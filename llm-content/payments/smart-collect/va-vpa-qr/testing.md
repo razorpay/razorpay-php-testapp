@@ -20,4 +20,4 @@ To generate Test Keys for API:
 
 Test payments can be initiated towards any virtual account created in test mode, via the `Make Test Payment` option on your Dashboard. This option will trigger the webhook notifications similar to the live payment made via NEFT/IMPS/RTGS.
 
-Follow these steps to [Make a Test Payment from the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/dashboard/test-payments.md).
+Follow these steps to [Make a Test Payment from the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/dashboard/test-payments.md).

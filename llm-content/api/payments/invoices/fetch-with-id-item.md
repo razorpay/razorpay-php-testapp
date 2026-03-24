@@ -131,7 +131,7 @@ Item item = client.Item.Fetch(itemId);
 : `integer` The per unit billing amount for each individual unit.
 
 `currency`
-: `string` The currency in which the amount should be charged. Check the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` The currency in which the amount should be charged. Check the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 `type`
 : `string` Here, it must be `invoice`.

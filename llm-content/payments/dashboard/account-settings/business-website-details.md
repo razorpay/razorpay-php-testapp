@@ -22,8 +22,8 @@ You must provide your live website or mobile app details during account activati
         1. Log in to the Dashboard.
         2. Click **Account & Settings** in the left navigation.
         3. Click **Business website detail** under **Website and app settings** section.
-        4. Click **Edit** next to the website/app that you want to edit. ![add website/app](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-edit-business-website-details.jpg.md)
-        5. Click **Proceed to update website/app**. ![add website/app](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-proceed-edit-business-website-details.jpg.md) 
+        4. Click **Edit** next to the website/app that you want to edit. ![add website/app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-edit-business-website-details.jpg.md)
+        5. Click **Proceed to update website/app**. ![add website/app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-proceed-edit-business-website-details.jpg.md) 
         6. Select **Website** or **App**, based on what you want to update.
            
             
@@ -35,7 +35,7 @@ You must provide your live website or mobile app details during account activati
                  4. Upload a sample invoice. The accepted file formats are PNG, JPG and PDF.
                  5. Provide your website's **Test Account credentials** if required or select **No** for **Does your website require login from user to complete payment?** if logging in is not required.
                  6. Click **Submit website for review**.
-                    ![Enter Website URL](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/update-website.jpg.md)
+                    ![Enter Website URL](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/update-website.jpg.md)
 
                  After the details are provided, our team will review the request. We will update the details on the Dashboard.
                 
@@ -47,7 +47,7 @@ You must provide your live website or mobile app details during account activati
                  2. Enter the **App URL**. 
                  3. Provide your website's **Test Account credentials** if required or select **No** for **Does your app require login from user to complete payment?** if logging in is not required.
                  4. Click **Submit app for review**.
-                    ![Enter App URL](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/update-app.jpg.md)
+                    ![Enter App URL](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/update-app.jpg.md)
 
                  After the details are provided, our team will review the request. We will update the details on the Dashboard.
                 
@@ -92,7 +92,7 @@ You must provide your live website or mobile app details during account activati
         1. Click **Business website detail** under **Website and app settings** section.
         1. Click **Add additional website/app details**.
         1. Click **Proceed to update website/app**.
-            ![add website/app](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/proceed-update-biz-website-details.jpg.md)
+            ![add website/app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/proceed-update-biz-website-details.jpg.md)
         1. Provide the website or app details:
             
                 
@@ -111,7 +111,7 @@ You must provide your live website or mobile app details during account activati
                      - Provide your website's **Test Account credentials** if required or select **No** for **Does your website require login from user to complete payment?** if logging in is not required.
 
                      - Click **Submit website for review**.
- ![add website/app](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-additional-website-details.jpg.md) 
+ ![add website/app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-additional-website-details.jpg.md) 
                     
 
                 
@@ -123,7 +123,7 @@ You must provide your live website or mobile app details during account activati
                     4. Provide your website's **Test Account credentials** if required or select **No** for **Does your app require login from user to complete payment?** if logging in is not required. 
                     5. Click **Submit app for review**. 
                     
-                    ![add website/app](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-additional-app-details.jpg.md) 
+                    ![add website/app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-additional-app-details.jpg.md) 
 
                     After you provide the details, our team will review the request. We will update the details on the Dashboard.
                     
@@ -136,6 +136,6 @@ You must provide your live website or mobile app details during account activati
 
 - If you add or update your **primary website**, instant checks are run to validate your website, policy pages and business industry. In case the website requirements are not met, you can re-check and enter the valid URLs as prompted or create policy pages with Razorpay.
 
-![Update website checks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/website-dashboard-checks.jpg.md)
+![Update website checks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/website-dashboard-checks.jpg.md)
 
 - If you add or update **additional websites**, our team will review manually and notify you.

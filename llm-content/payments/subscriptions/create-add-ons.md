@@ -13,7 +13,7 @@ Consider, Acme Corp. is providing DTH services. A customer wants to add the spor
 Before the next billing cycle, Acme Corp. can add  to the customer's current bill amount as an add-on.
 
 Add-ons can be created:
-- [Using APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/#create-an-add-on.md).
+- [Using APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions.md#create-an-add-on).
 - [Using the Dashboard](#create-add-ons-from-dashboard).
 
 > **WARN**
@@ -44,12 +44,12 @@ To create an add-on:
 1. Click **Include**. The add-on amount is added to the Subscription amount and the total is updated.
 
 ## Create Add-on Using APIs
-You can create add-ons for the Subscriptions using [Create an Add-on](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/#create-an-add-on.md) API.
+You can create add-ons for the Subscriptions using [Create an Add-on](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions.md#create-an-add-on) API.
 
 ### Related Information
 
-- [Create and view Plans](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-plans.md)
-- [Create Subscriptions via Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-subscription-links.md)
-- [Charge a Card Manually](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/manually-charge-card.md)
-- [Update a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/update.md)
-- [Subscriptions Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/settings.md)
+- [Create and view Plans](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-plans.md)
+- [Create Subscriptions via Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-subscription-links.md)
+- [Charge a Card Manually](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/manually-charge-card.md)
+- [Update a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/update.md)
+- [Subscriptions Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/settings.md)

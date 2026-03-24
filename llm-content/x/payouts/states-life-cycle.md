@@ -6,13 +6,13 @@ description: Explore the various states of processing a payout. Know more about 
 
 # Payout States and Life Cycle
 
-[Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md) are made to [Contacts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts.md). A payout has various states in its life cycle.
+[Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md) are made to [Contacts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md). A payout has various states in its life cycle.
 
 ## Payout Life Cycle
 
 The following flow illustrates the various states in the payout life cycle:
 
-![Payouts Life Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rzpx-payouts-life-cycle-modified.jpg.md)
+![Payouts Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rzpx-payouts-life-cycle-modified.jpg.md)
 
 ## Payout States
 
@@ -33,15 +33,15 @@ Following are the various payout states:
 > 
 > **Handy Tips**
 > 
-> For more information on the complete Payout States and the Status Response Code, refer [Payout Status Details.](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md)
+> For more information on the complete Payout States and the Status Response Code, refer [Payout Status Details.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md)
 > 
-> Get automatic notifcations about the payout states using [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md). [Set up and configure webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/x/apis/subscribe.md) to improve process efficiency, and stay updated on the status of the payout.
+> Get automatic notifcations about the payout states using [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md). [Set up and configure webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/apis/subscribe.md) to improve process efficiency, and stay updated on the status of the payout.
 > 
 > 
 
 ### Pending
 
-If you have the [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) feature enabled on your account, the payout moves to the `pending` state if the payout requires approval as per the Approval Workflow. 
+If you have the [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) feature enabled on your account, the payout moves to the `pending` state if the payout requires approval as per the Approval Workflow. 
 
 At this stage, the payout details are stored in the system, but no processing is done either by Razorpay or the Contact's bank.
 
@@ -51,7 +51,7 @@ At this stage, the payout details are stored in the system, but no processing is
 > **Handy Tips**
 > 
 > - The payout needs to be approved/rejected by the required user(s). Any payout in `pending` state for more than 3 months will automatically be `rejected`.
-> - The `Pending` and `Rejected` states are available only if you have [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) enabled on your account.
+> - The `Pending` and `Rejected` states are available only if you have [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) enabled on your account.
 > 
 > 
 
@@ -71,7 +71,7 @@ From the `pending` state, payouts can either move to the:
 > 
 > **Handy Tips**
 > 
-> The `scheduled` state does not apply to Queued Payouts. Know more about [Queued Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/queued.md).
+> The `scheduled` state does not apply to Queued Payouts. Know more about [Queued Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/queued.md).
 > 
 
 ### Scheduled
@@ -88,7 +88,7 @@ From the `scheduled` state, payouts can either move to the:
 > 
 > **Handy Tips**
 > 
-> The `queued` state does not apply to Scheduled Payouts. Know more about [Scheduled Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/scheduled.md).
+> The `queued` state does not apply to Scheduled Payouts. Know more about [Scheduled Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/scheduled.md).
 > 
 
 ### Processing
@@ -115,9 +115,9 @@ At this stage, either Razorpay or the Contact's bank process the payout. No furt
 >     - Other bank or server issues
 > You can use this information to keep your beneficiaries informed.
 > 
-> 1. [Status Details via API](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md)
-> 2. [Status Details via Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/status-details.md)
-> 3. You can subscribe to daily reports to receive a detailed document on the status, reason for status and SLA for the payouts in `processing state`. [Raise a support ticket](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md) from the Dashboard, with a list of recipient email IDs. We will enable the function for you in 3 working days.
+> 1. [Status Details via API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md)
+> 2. [Status Details via Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/status-details.md)
+> 3. You can subscribe to daily reports to receive a detailed document on the status, reason for status and SLA for the payouts in `processing state`. [Raise a support ticket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md) from the Dashboard, with a list of recipient email IDs. We will enable the function for you in 3 working days.
 > 
 > 
 
@@ -131,7 +131,7 @@ IMPS and UPI Payouts can be in the processing state for up to T+3 working days. 
 
 Below is how a payout is processed from when you authorise it to when you receive the terminal payout state (`processed`/`failed`/`reversed`).
 
-![payout transaction flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-payout-npci.jpg.md)
+![payout transaction flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-payout-npci.jpg.md)
 
 - If NPCI is successfully able to credit money to your beneficiary account, it returns a success status to the partner bank who in turn returns it to us and we mark the payout as `processed`.
 - If NPCI is not able to credit money to your beneficiary account, it returns a failed status to the partner bank, who passes the status to us and we mark the payout as `reversed`.
@@ -177,14 +177,14 @@ No further action is possible on a payout at this state.
 > 
 > **Handy Tips**
 > 
-> The `Pending` and `Rejected` states are available only if you have [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) enabled on your account.
+> The `Pending` and `Rejected` states are available only if you have [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) enabled on your account.
 > 
 
 ### Cancelled
 
 A payout moves to the `cancelled` state when you manually cancel a payout in the:
 
-- `queued` state. You can cancel a payout in the `queued` state either from the [Dashboard](https://x.razorpay.com/) or using our [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts/cancel.md).
+- `queued` state. You can cancel a payout in the `queued` state either from the [Dashboard](https://x.razorpay.com/) or using our [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts/cancel.md).
 - `scheduled` state. You can cancel a payout in the `scheduled` state from the [Dashboard](https://x.razorpay.com/).
 
 A payout that is cancelled acquires the `cancelled` state. No further action is possible on a payout at this state.
@@ -212,9 +212,9 @@ You can view a list of reversed transactions from the [RazorpayX Dashboard](http
 
 ### Related Information
 
-- [Queued Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/queued.md)
-- [Scheduled Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/scheduled.md)
-- [Intelligent Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/intelligent-payouts.md)
-- [Payouts to Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/cards.md)
-- [Payout Status Details](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md)
-- [Payout Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/best-practices.md)
+- [Queued Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/queued.md)
+- [Scheduled Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/scheduled.md)
+- [Intelligent Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/intelligent-payouts.md)
+- [Payouts to Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/cards.md)
+- [Payout Status Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md)
+- [Payout Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/best-practices.md)

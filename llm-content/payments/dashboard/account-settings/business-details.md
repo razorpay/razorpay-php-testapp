@@ -19,4 +19,4 @@ To view business details:
     - **Registration Date**
     - **Registered By**
 
-![Razorpay Dashboard - Account & Settings - Business Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-dashboard-business-details.jpg.md)
+![Razorpay Dashboard - Account & Settings - Business Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-dashboard-business-details.jpg.md)

@@ -36,13 +36,13 @@ The Partner Playbook is available to all Partners. To access the Razorpay Partne
 
 1. Log in to the Dashboard.
 2. Navigate to **Partner** → **Partner Playbook**.
-    ![Partner Playbook on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partner-playbook-dashboard.jpg.md)
+    ![Partner Playbook on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partner-playbook-dashboard.jpg.md)
 
 All the available resources are listed. You can view or download the required file or video. You can also use the search bar to find specific items.
-    ![Download or view Partner Playbook resources](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/download-partner-playbook-item.jpg.md)
+    ![Download or view Partner Playbook resources](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/download-partner-playbook-item.jpg.md)
 
 ### Related Information
 
-- [Razorpay Partner Program](@/Applications/MAMP/htdocs/new-docs/llm-content/partners.md)
-- [Service Partners](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/service-partners.md)
-- [Perform Sub-merchant KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/service-partners/perform-kyc.md)
+- [Razorpay Partner Program](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners.md)
+- [Service Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/service-partners.md)
+- [Perform Sub-merchant KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/service-partners/perform-kyc.md)

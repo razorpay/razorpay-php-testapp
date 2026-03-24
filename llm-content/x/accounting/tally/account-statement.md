@@ -65,31 +65,31 @@ description: Integrate and sync your RazorpayX account statements with Tally wit
 
             Navigate to **Account Statement** → **Automate Accounting** on the Dashboard and **Select** the software of your choice. 
 
-            ![Accounting Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-account-statement-integrate-softwares.jpg.md)
+            ![Accounting Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-account-statement-integrate-softwares.jpg.md)
         
 
 Integrate your RazorpayX Account Statement with your Tally application to sync payment information and reconcile. 
 
 Once the integration is successful, all the transaction data on the RazorpayX bank statement will automatically flow into Tally, saving you time and effort. It works with both your RazorpayX Lite and Current Accounts.
 
-The [smart bank statement sync](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally/bank-statement-sync.md) feature is available as part of the [Tally Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally.md). With this integration, you can understand your transactions in a business perspective, rather than just a banking perspective.
+The [smart bank statement sync](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally/bank-statement-sync.md) feature is available as part of the [Tally Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally.md). With this integration, you can understand your transactions in a business perspective, rather than just a banking perspective.
 
 The account statements is synced every day at **6:00 am** and **8:00 pm**.
 
 ## Prerequisites
 
-See [RazorpayX-Tally Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally/set-up.md). 
+See [RazorpayX-Tally Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally/set-up.md). 
 
 ## Sync RazorpayX Account Statement with Tally
 
 1. Open Tally on your system.
 2. Click **F1** → **TDLs & Add-ons** → **Manage Local TDS**.
-    ![image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-integration-1.png.md)
+    ![image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-integration-1.png.md)
 3. Go to file name, click **Specify Path** and paste the file path.
 4. Select TCP file and type **YES** under **Load TDL** to enable it. Press enter.
 5. Go back to the Gateway of Tally home screen. On your right, you will see 2 more options, **RazorpayX Settings** and **RazorpayX Sync**.
 6. Click **RazorpayX Settings** and Enable RazorpayX Integration by entering **YES**. Under authentication settings, enter your MID (log in to Dashboard and click on profile to find yours) and enter your registered email ID.
-    ![image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-integration-2.png.md)
+    ![image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-integration-2.png.md)
 
     
 > **WARN**
@@ -109,7 +109,7 @@ This completes the integration. To select a ledger for the flow of transaction, 
 1. Upon successful integration, a pop-up saying **Map RazorpayX Bank Account to Bank Ledger** will appear on the screen which displays details of all the RazorpayX Accounts you have.  
 2. Under the Creation Method, you can either choose **Create New** or **Map to Existing** Ledgers and then under the Tally Bank Ledger, you can either select the existing Tally Bank Ledger or **Create New**. All your transaction details will flow into whichever ledger you select.
 
-    ![image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-integration-3.png.md)
+    ![image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-integration-3.png.md)
 3. Press Enter.
 
 ## Test feature

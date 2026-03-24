@@ -9,9 +9,9 @@ Once you capture a payment, Razorpay Checkout returns a `razorpay_payment_id`. Y
 
 You can retrieve the `token_id` in the following ways:
 - API
-- [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create/#3-search-for-the-token.md)
+- [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#3-search-for-the-token)
 
-Know more about [Tokens](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upi/integrate#fetch-emandate-registration-details.md).
+Know more about [Tokens](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upi/integrate.md#fetch-emandate-registration-details).
 
 ## 2.1. Fetch Token by Payment id
 The following endpoint retrieves the `token_id` using a `payment_id`.

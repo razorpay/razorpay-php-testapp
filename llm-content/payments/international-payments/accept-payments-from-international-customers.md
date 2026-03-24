@@ -26,13 +26,13 @@ Razorpay provides Indian businesses with a comprehensive suite of payment soluti
             
 ### Prerequisites
 
-                    To accept international payments, you need to meet the eligibility criteria established by our banking partners. Know more about the [prerequisites](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-debit-credit-cards/#eligibility-and-prerequisites.md).
+                    To accept international payments, you need to meet the eligibility criteria established by our banking partners. Know more about the [prerequisites](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-debit-credit-cards.md#eligibility-and-prerequisites).
                 
 
             
 ### Onboarding Flow
 
-                    For detailed steps on the application process, refer to the [onboarding flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-debit-credit-cards/#application-process.md).
+                    For detailed steps on the application process, refer to the [onboarding flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-debit-credit-cards.md#application-process).
                 
 
             
@@ -81,7 +81,7 @@ Razorpay provides Indian businesses with a comprehensive suite of payment soluti
             
 ### Onboarding Flow
 
-                    You can accept payments from international customers in the form of online instant international bank transfers using the Razorpay Checkout form, refer to the [onboarding flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/local-payment-methods/#request-local-payment-method.md).
+                    You can accept payments from international customers in the form of online instant international bank transfers using the Razorpay Checkout form, refer to the [onboarding flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/local-payment-methods.md#request-local-payment-method).
                 
 
             
@@ -121,14 +121,14 @@ Razorpay provides Indian businesses with a comprehensive suite of payment soluti
 ### Prerequisites
 
                     You must meet the following prerequisites set to accept payments from your international customers. 
-                    - Know more about the [ Local Currency Bank Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-bank-transfer/#prerequisites.md) prerequisites. 
-                    - Know more about the [ SWIFT Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-bank-transfer/#prerequisites.md) prerequisites.
+                    - Know more about the [ Local Currency Bank Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer.md#prerequisites) prerequisites. 
+                    - Know more about the [ SWIFT Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer.md#prerequisites) prerequisites.
                 
 
             
 ### Onboarding Flow
 
-                    For detailed steps on the activation process, refer to the [Local Currency Bank Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-bank-transfer/#prerequisites.md) and [SWIFT Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-bank-transfer/#prerequisites.md) activation steps.
+                    For detailed steps on the activation process, refer to the [Local Currency Bank Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer.md#prerequisites) and [SWIFT Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer.md#prerequisites) activation steps.
                 
 
             
@@ -158,7 +158,7 @@ Razorpay provides Indian businesses with a comprehensive suite of payment soluti
             
 ### Prerequisites
 
-                    To accept international payments, you need to meet the eligibility criteria established by our banking partners. Know more about the [prerequisites](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-debit-credit-cards/#eligibility-and-prerequisites.md).
+                    To accept international payments, you need to meet the eligibility criteria established by our banking partners. Know more about the [prerequisites](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-debit-credit-cards.md#eligibility-and-prerequisites).
                 
 
             
@@ -182,6 +182,6 @@ Razorpay provides Indian businesses with a comprehensive suite of payment soluti
 
 ### Related Information
 
-- [Purpose Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/purpose-codes.md)
-- [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/currency-conversion.md)
-- [FIRS Automated Process](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/firs-automated-process.md)
+- [Purpose Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/purpose-codes.md)
+- [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md)
+- [FIRS Automated Process](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/firs-automated-process.md)

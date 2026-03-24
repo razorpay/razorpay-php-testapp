@@ -8,7 +8,7 @@ description: Set up platform and third-party accounts and collect fees from cust
 
 To transfer funds to various third parties, sub-merchants, bank accounts or vendors, you need to add them as Linked Accounts.
 
-You can create Linked Accounts using [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account#add-and-manage-linked-accounts.md) and [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md).
+You can create Linked Accounts using [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md#add-and-manage-linked-accounts) and [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md).
 
 When you add a Linked Account, you gain complete visibility and control of all the fund movements such as transfers, reversals and refunds for each of your Linked Accounts.
 
@@ -26,7 +26,7 @@ Every Linked Account has a unique `account_id` which should be stored in your da
 
 To avoid settlement failure, we will penny test Linked Accounts when added. Razorpay will transfer a nominal amount to the bank account details submitted to verify them. Transfers are allowed only on successful validation. This will be performed on the newly created Linked Accounts and the existing accounts when the bank account details are updated via the Dashboard.
 
-Know more about [penny testing](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/faqs/#penny-testing.md).
+Know more about [penny testing](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/faqs.md#penny-testing).
 
 ## Required Details
 
@@ -107,5 +107,5 @@ Refund Credits help the Linked Account to process customer refunds from a dedica
 
 ## Related Information
 
-- [Process Platform and Third-Party Fees](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/control-of-funds/process-fees.md)
-- [Refunds and Reversals](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/control-of-funds/refunds-and-reversals.md)
+- [Process Platform and Third-Party Fees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/control-of-funds/process-fees.md)
+- [Refunds and Reversals](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/control-of-funds/refunds-and-reversals.md)

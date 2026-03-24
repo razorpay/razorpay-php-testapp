@@ -8,7 +8,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 
 ### 1. Why are my customer payments being automatically refunded?
 
-         Payments made without an `order_id` cannot be captured and are automatically refunded. Create an order using the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps/#11-create-an-order-in-server.md) before initiating payments.
+         Payments made without an `order_id` cannot be captured and are automatically refunded. Create an order using the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#11-create-an-order-in-server) before initiating payments.
          ```
         
 
@@ -68,7 +68,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
          Particulars | Webhooks | Callback URL
          ---
          About | Webhooks allow you to build or set up integrations that subscribe to certain events on Razorpay APIs. When one of those events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL. 
- Know more about [webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md). | A callback URL is an address that a server provides, and any computer in the Internet/private network can POST data to it. For Razorpay integrations, callback URL is the address at which Razorpay should send the transaction response. You can pass the URL in the `https://` format in the `callback_url` request parameter. Know more about [callback URL](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/callback-url.md).
+ Know more about [webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md). | A callback URL is an address that a server provides, and any computer in the Internet/private network can POST data to it. For Razorpay integrations, callback URL is the address at which Razorpay should send the transaction response. You can pass the URL in the `https://` format in the `callback_url` request parameter. Know more about [callback URL](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/callback-url.md).
          ---
          When to use | Use webhooks to receive real-time notifications when specific events occur. For example, receive notifications upon payment failure.| Use callback URL to redirect your customers to a particular page. For example: 
  - You can send customers to a payment success page after successful payment. This page will receive payment details such as the payment id.
@@ -110,13 +110,13 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 11. Can I accept payments through my Instagram page even if I do not have a website?
 
-         Yes, you can accept payments without a website using Razorpay's no-code products such as [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links.md), [Payment Pages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages.md) or [Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button.md), as Razorpay does not offer a direct Instagram integration.
+         Yes, you can accept payments without a website using Razorpay's no-code products such as [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links.md), [Payment Pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages.md) or [Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button.md), as Razorpay does not offer a direct Instagram integration.
         
 
     
 ### 12. Are language-based SDKs available?
 
-         Yes, language-based SDKs are available [here](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/server-integration.md).
+         Yes, language-based SDKs are available [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/server-integration.md).
         
 
     
@@ -146,15 +146,15 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 14. Which payment methods appear on Instagram/Facebook browsers?
 
-         Payment methods like [UPI Intent](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/upi-intent.md) and [Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards.md) will appear on Instagram/Facebook browsers. These browsers do not support any other payment method that opens on a pop-up page.
+         Payment methods like [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/upi-intent.md) and [Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards.md) will appear on Instagram/Facebook browsers. These browsers do not support any other payment method that opens on a pop-up page.
         
 
     
 ### 15. Can I enable UPI Intent in WebView on my app?
 
          Yes, you can enable UPI Intent in WebView on your:
-         - [Android app](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-android.md)  
-         - [iOS app](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-ios.md)
+         - [Android app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-android.md)  
+         - [iOS app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-ios.md)
         
 
     
@@ -166,25 +166,25 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 17. How can I accept payments on my Android or iOS apps without integrating with the native SDKs?
 
-         If you want to accept payments on your Android or iOS apps without integrating with our native SDKs, you can reuse your Standard Integration code. This approach opens the checkout form in a WebView within your mobile app. Know more about [Webview for Mobile Apps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/webview.md).
+         If you want to accept payments on your Android or iOS apps without integrating with our native SDKs, you can reuse your Standard Integration code. This approach opens the checkout form in a WebView within your mobile app. Know more about [Webview for Mobile Apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/webview.md).
         
 
     
 ### 18. How do I accept international payments on checkout?
 
-         You need to enable the international payments feature on your Razorpay account. Refer to [international payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments.md).
+         You need to enable the international payments feature on your Razorpay account. Refer to [international payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md).
         
 
     
 ### 19. What languages are supported on Razorpay checkout?
 
-         Razorpay checkout fields support multiple languages, with English as the default. Customers can also choose Hindi, Marathi, Gujarati, Telugu, Tamil, Bengali and Kannada. Know more about [checkout in local languages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/features.md).
+         Razorpay checkout fields support multiple languages, with English as the default. Customers can also choose Hindi, Marathi, Gujarati, Telugu, Tamil, Bengali and Kannada. Know more about [checkout in local languages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/features.md).
         
 
     
 ### 20. Can I switch between Standard Integration and Quick Integration?
 
-         Yes, it is possible to easily switch from one integration method to another. If you were earlier using Standard Integration, you can switch to using [Quick Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/quick-integration.md).
+         Yes, it is possible to easily switch from one integration method to another. If you were earlier using Standard Integration, you can switch to using [Quick Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/quick-integration.md).
 
          - This is possible because the Standard Integration searches for the `data-key` field inside the `` tag, that when found, switches to automatic mode. 
          - It also creates a button alongside the `` tag and attaches its 'onclick event handler' (created internally) to the `.open` method of the Razorpay object.

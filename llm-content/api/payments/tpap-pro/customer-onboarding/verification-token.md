@@ -59,7 +59,7 @@ curl -X POST 'api.rzp..com/v1/upi/tpap/mobile/verification' \
 ### Parameters
 
 `customer_reference` _mandatory_
-: `string` The unique identifier the merchant has created for the customer. This should be passed as a header. Know more about [headers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/tpap-pro/integration-guide/#header-information.md).
+: `string` The unique identifier the merchant has created for the customer. This should be passed as a header. Know more about [headers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/tpap-pro/integration-guide.md#header-information).
 
 `device` _mandatory_
 : `object` The device details.

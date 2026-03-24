@@ -13,21 +13,21 @@ Statutory compliance regulations are government mandated legal arrangements that
 > 
 > **Watch Out!**
 > 
-> Automated Professional Tax (PT) payments for employees in Karnataka are temporarily unavailable on Payroll. Know more about the [PT rule change](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/faqs/#professional-tax.md).
+> Automated Professional Tax (PT) payments for employees in Karnataka are temporarily unavailable on Payroll. Know more about the [PT rule change](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/faqs.md#professional-tax).
 > 
 
-On Payroll, you can automate registering your employees for compliances and payments (except  [Provident Fund (PF)](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/faqs/#pf-payments.md)). We do not handle registrations for organisations. Talk to [these CA partners](#initiate-initial-registration-for-organisations) to start the initial registration.
+On Payroll, you can automate registering your employees for compliances and payments (except  [Provident Fund (PF)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/faqs.md#pf-payments)). We do not handle registrations for organisations. Talk to [these CA partners](#initiate-initial-registration-for-organisations) to start the initial registration.
 
     
 ### Compliance Payments Features that Payroll Handles
 
          Payroll helps you automate all the operational parts of compliances. With Payroll, you get access to:
-            - [PF UAN registration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/provident-fund.md), register management, monthly payments and filings.
-            - [ESI IP registration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/esi.md), register management, monthly payments and filings.
-            - [TDS payment](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tds.md) and Quarterly filings (24Q).
-            - One-Time [Tax Documentation Verification](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tax-deductions-setup.md) in January along with TDS Payments and Quarterly Filings (24Q).
-            - [Form 16](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary/#employee-s-form-16.md) generation at the end of the year.
-            - [26Q filings](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tds#file-tds-return.md), if enabled, and all contractors payments made via the platform.
+            - [PF UAN registration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/provident-fund.md), register management, monthly payments and filings.
+            - [ESI IP registration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/esi.md), register management, monthly payments and filings.
+            - [TDS payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tds.md) and Quarterly filings (24Q).
+            - One-Time [Tax Documentation Verification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tax-deductions-setup.md) in January along with TDS Payments and Quarterly Filings (24Q).
+            - [Form 16](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md#employee-s-form-16) generation at the end of the year.
+            - [26Q filings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tds.md#file-tds-return), if enabled, and all contractors payments made via the platform.
         
 
     
@@ -68,15 +68,15 @@ On Payroll, you can automate registering your employees for compliances and paym
             ---
             
 
-            You can add your CA partner as a [Contractor](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/quickstart#add-all-employees.md) who has [special access](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator#special-access-and-permissions.md) to your Payroll account. 
+            You can add your CA partner as a [Contractor](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/quickstart.md#add-all-employees) who has [special access](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#special-access-and-permissions) to your Payroll account. 
 
-            Your partners then receive a [welcome email](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator#welcome-mail-from-xpayroll.md) and will be able to login and access relevant sections of the platform as you choose.
+            Your partners then receive a [welcome email](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#welcome-mail-from-xpayroll) and will be able to login and access relevant sections of the platform as you choose.
         
 
 ## Prerequisites
 
 To ensure timely compliance payments, ensure you update all the required credentials under
-**Company Details** ➔ **External Credentials** [during account set up](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/quickstart.md). Ensure you have updated your credentials post TIN implementation.
+**Company Details** ➔ **External Credentials** [during account set up](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/quickstart.md). Ensure you have updated your credentials post TIN implementation.
 
 ## Compliance Payments 
 
@@ -85,19 +85,19 @@ Payroll automates the following compliance payments:
     
 ### Tax Deducted at Source (TDS)
 
-         Tax Deducted at Source, or simply TDS, is deducted from salary and one-time payments as applicable. Know more about [filing TDS](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tds.md) with RazorpayX Payroll.
+         Tax Deducted at Source, or simply TDS, is deducted from salary and one-time payments as applicable. Know more about [filing TDS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tds.md) with RazorpayX Payroll.
         
 
     
 ### Provident Fund (PF)
 
-         Payroll handles all the monthly payments, filings, and employee registration after the initial registration is complete. However, it does not offer initial registration for [Provident Fund](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/provident-fund.md).
+         Payroll handles all the monthly payments, filings, and employee registration after the initial registration is complete. However, it does not offer initial registration for [Provident Fund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/provident-fund.md).
         
 
     
 ### Employees State Insurance (ESI)
 
-         Employees State Insurance (ESI) is a government-mandated health insurance for employees. We handle the register management, monthly payments and filings. Know more about [ESI](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/esi.md). 
+         Employees State Insurance (ESI) is a government-mandated health insurance for employees. We handle the register management, monthly payments and filings. Know more about [ESI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/esi.md). 
         
 
     
@@ -105,7 +105,7 @@ Payroll automates the following compliance payments:
 
          Payroll only handles the tax payments and filing monthly returns, and does not handle the initial registration. Individual state governments have website portals to manage Professional Tax (PT) and you have to register accordingly. 
 
-         Know how to set up and handle [Professional Tax in Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/professional-tax.md). 
+         Know how to set up and handle [Professional Tax in Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/professional-tax.md). 
         
 
     
@@ -125,9 +125,9 @@ Payroll automates the following compliance payments:
                     1. Log in to the Payroll Dashboard.
                     1. Navigate to **ADMIN OPTIONS** → **Company Details**.
                     1. Click **Edit** against **Provident Fund / ESIC / Professional Tax / LWF**.
-                        ![specific and meaningful image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-lwf-org-enable.jpg.md)
+                        ![specific and meaningful image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-lwf-org-enable.jpg.md)
                     1. Go to the **LWF Status** section and select **Enable** from the drop-down menu. 
-                        ![Razorpay Payroll enable LWF for org](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-lwf-enable.jpg.md)
+                        ![Razorpay Payroll enable LWF for org](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-lwf-enable.jpg.md)
                     1. Click **Continue**.
 
                     This successfully enables LWF for your organisation. You can also choose to include employer's LWF contribution in the employee when setting up/modifying employee's CTC. 
@@ -135,10 +135,10 @@ Payroll automates the following compliance payments:
                     1. On the Payroll Dashboard, navigate to **ADMIN OPTIONS** → **Settings**.
                     1. Click **Edit** against **Payroll and Compliance Setup**. 
                     1. In the **LWF Settings** section, select the **Include employer contribution to LWF in employee CTC** check box.
-                        ![Select check box to include employer contribution on Razorpay Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-lwf-employer-contri.jpg.md)
+                        ![Select check box to include employer contribution on Razorpay Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-lwf-employer-contri.jpg.md)
                     1. Click **Continue**.
 
-                    This successfully makes employer's LWF contribution a part of the employee's CTC. Ensure you set up [employee's salary structure](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary/#setup-salary-structure.md) accordingly. 
+                    This successfully makes employer's LWF contribution a part of the employee's CTC. Ensure you set up [employee's salary structure](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md#setup-salary-structure) accordingly. 
                 
 
             
@@ -149,12 +149,12 @@ Payroll automates the following compliance payments:
                     1. Log in to the Payroll Dashboard.
                     1. Navigate to **People** in the left menu and go to the particular employee's profile.
                     1. Go to **Provident Fund, Professional Tax, ESI, LWF & NPS** and click **Edit**.
-                        ![Razorpay Payroll employee compliance LWF Edit](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-lwf-employee-enable.jpg.md)
+                        ![Razorpay Payroll employee compliance LWF Edit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-lwf-employee-enable.jpg.md)
                     1. Go to the **LWF Settings** section and select the following from the drop-down menu: 
                         1. **LWF Status** as **Enabled/Disabled**.
                         1. **LWF Location** as **Use Company Default** or the specific state.
 
-                            ![Razorpay Payroll LWF Employee enable](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-lwf-employee-enable-location.jpg.md)
+                            ![Razorpay Payroll LWF Employee enable](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-lwf-employee-enable-location.jpg.md)
                     1. Click **Continue**.
 
                     This successfully saves your employee-level LWF settings.
@@ -181,7 +181,7 @@ PT** | 15th - 31st of the following month
 * For March specifically, the due date is April 30 of the following month.
 
 ** **For PT Payments**: 
-- Automated Professional Tax (PT) payments for employees in Karnataka are [temporarily unavailable](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/faqs/#professional-tax.md). 
+- Automated Professional Tax (PT) payments for employees in Karnataka are [temporarily unavailable](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/faqs.md#professional-tax). 
 - For Professional Tax payments, due dates depend on the respective Indian state's due dates for PT. Some states require annual/half-yearly/quarterly filing. We defer PT payments until the due date in such cases.
 
 > **INFO**
@@ -224,7 +224,7 @@ In the Ledger Report section, Payroll displays all compliance payments individua
 ### Related Information
 
 - [ESI: Full form, Registration Process, and Eligibility](https://razorpay.com/payroll/learn/esi-full-form-registration/)
-- [Enable Compliance during Account Setup](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator#welcome-mail-from-xpayroll.md)
-- [Provident Fund](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/provident-fund.md)
-- [TDS](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tds.md)
+- [Enable Compliance during Account Setup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#welcome-mail-from-xpayroll)
+- [Provident Fund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/provident-fund.md)
+- [TDS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tds.md)
 - [ESI Meaning, Eligibility and Registration](https://razorpay.com/payroll/learn/esi-full-form-registration/)

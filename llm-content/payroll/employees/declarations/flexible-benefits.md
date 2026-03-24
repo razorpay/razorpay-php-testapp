@@ -53,7 +53,7 @@ Most flexible benefits are non-taxable, which employees can utilise to reduce ta
 > 
 > **Available Now!**
 > 
-> Watch the video on to how to [declare flexible benefits and upload proofs](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/video-tutorials/#declare-flexible-benefits-and-upload-proofs.md).
+> Watch the video on to how to [declare flexible benefits and upload proofs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/video-tutorials.md#declare-flexible-benefits-and-upload-proofs).
 > 
 
 ## Declare Benefits 
@@ -63,7 +63,7 @@ Ensure the Flexi-benefit plan (FBP) declaration window is open. Contact your HR/
 To declare benefits: 
 1. Log in to the Payroll Dashboard.
 1. Navigate to **Reminders** on the home page and click **Declare now** against FBP.
-    ![Click FBP Declare now on Razorpay Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-fbp-declare.jpg.md)
+    ![Click FBP Declare now on Razorpay Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-fbp-declare.jpg.md)
 1. On the **Flexible benefit plan declaration** page, click **Edit Declaration**.
 1. Select the check boxes for the components listed to choose the flexible benefits to declare. 
     
@@ -77,7 +77,7 @@ To declare benefits:
 >     
 
 1. Click **Submit declaration**. You can also click **View how much tax you'll save** to check your tax savings. 
-    ![Declare FBP amount on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-declare-fbp-amount.jpg.md)
+    ![Declare FBP amount on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-declare-fbp-amount.jpg.md)
 1. Click **Continue** in the **Save declarations** pop-up modal. 
 
 You have succesfully saved your declarations. 
@@ -90,7 +90,7 @@ To upload flexible benefits proofs:
 
 1. Log in to the Payroll Dashboard.
 1. Navigate to **Reminders** on the home page and click **Upload proofs** against FBP.
-    ![Click FBP Upload proofs on Razorpay Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-fbp-proofs.jpg.md)
+    ![Click FBP Upload proofs on Razorpay Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-fbp-proofs.jpg.md)
 1. On the **Flexible Benefits** FY page, select the **Flexible Benefit** from the drop-down menu. Only those benefits you declared are available for proof upload.
 1. Enter the amount for reimbursing as part of FBP. For example, if you declared ₹2000 for Fuel Allowance, check your bills and enter the total amount spent on fuel bills.
 
@@ -123,7 +123,7 @@ To upload flexible benefits proofs:
 
 1. Click **ADD REQUEST** to submit proofs. 
 
-    ![Upload flexible benefits proofs on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-fbp-upload.jpg.md)
+    ![Upload flexible benefits proofs on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-fbp-upload.jpg.md)
 
 You have successfully submitted proofs for the flexible benefits you declared. 
 
@@ -131,5 +131,5 @@ After you submit the proofs, you can view the FBP request in the **Past Requests
 
 ### Related Information
 
-- [IT Investments Declarations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations.md)
-- [Other benefits](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll.md)
+- [IT Investments Declarations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations.md)
+- [Other benefits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll.md)

@@ -5,7 +5,7 @@ description: Subscribe to various webhook events related to Subscriptions to rec
 
 # Subscribe to Webhooks
 
-You can use Razorpay [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) to receive notifications of all events related to Subscriptions.
+You can use Razorpay [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) to receive notifications of all events related to Subscriptions.
 
 To subscribe to webhook events:
 
@@ -36,7 +36,7 @@ Webhook Event | Description
 ---
 `subscription.resumed`| Sent when a subscription is resumed and moved to the `resumed` state.
 
-Know more about [ Webhooks ](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) and check the [sample payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/subscriptions.md).
+Know more about [ Webhooks ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) and check the [sample payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/subscriptions.md).
 
 ### Related Information
-[Subscriptions APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/apis.md)
+[Subscriptions APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/apis.md)

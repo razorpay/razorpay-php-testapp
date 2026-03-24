@@ -14,10 +14,10 @@ Insurance companies can leverage RazorpayX payout and payroll features to enable
   
 ### Seamless Claim Settlements
 
-     - Settle claims instantly using [RazorpayX Payout Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links.md).
-     - Choose between multiple [Current Accounts or RazorpayX Lite ](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up.md) for claim settlements.
-     - Create [Sub Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/sub-accounts.md) for better payment segregation.
-     - Overcome delays due bank downtimes and experience hassle free claim settlements using RazorpayX's [Multi-bank Routing feature](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/multi-bank-routing.md).
+     - Settle claims instantly using [RazorpayX Payout Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links.md).
+     - Choose between multiple [Current Accounts or RazorpayX Lite ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md) for claim settlements.
+     - Create [Sub Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/sub-accounts.md) for better payment segregation.
+     - Overcome delays due bank downtimes and experience hassle free claim settlements using RazorpayX's [Multi-bank Routing feature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/multi-bank-routing.md).
      - Set up approval workflows on RazorpayX Dashboard for channeling payouts for different levels of approvals.
   
     
@@ -25,15 +25,15 @@ Insurance companies can leverage RazorpayX payout and payroll features to enable
   
 ### Bulk Payouts to Advisors
 
-      - Execute payouts in bulk to insurance agents/advisors using [Bulk Payouts Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/bulk.md). 
+      - Execute payouts in bulk to insurance agents/advisors using [Bulk Payouts Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/bulk.md). 
       - Schedule payouts in advance for future disbursements.
     
 
   
 ### Employees and Vendor Portals
 
-     - Set roles and permissions for different categories of users using  [Create User Roles](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/create-user-role.md) and enable controlled access.
-     - Use [RazorpayX Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll.md) for managing employee onboarding, attendance, salaries, payment to contract employees, TDS and more.
+     - Set roles and permissions for different categories of users using  [Create User Roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/create-user-role.md) and enable controlled access.
+     - Use [RazorpayX Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll.md) for managing employee onboarding, attendance, salaries, payment to contract employees, TDS and more.
     
 
 ### NBFCs and Lending services
@@ -42,18 +42,18 @@ RazorpayX's lending tech stack can be used to credit instant loans to customers 
   
 ### Quick and Simple Loan Disbursals
 
-     - Offer instant loan credits by using [RazorpayX Payout Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links.md) through multiple [Current Accounts or RazorpayX Lite ](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up.md).
+     - Offer instant loan credits by using [RazorpayX Payout Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links.md) through multiple [Current Accounts or RazorpayX Lite ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md).
      - Leverage RazorpayX's tech stack to ensure financial, regulatory and legal compliance in lending.
-     - Use [Sub Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/sub-accounts.md) for better payment segregation.
-     - Utilize RazorpayX's [Multi-bank Routing feature](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/multi-bank-routing.md) to overcome bank downtimes and experience hassle free loan payouts.
-     - Route payouts for different levels of approvals by setting up [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) on RazorpayX Dashboard.
+     - Use [Sub Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/sub-accounts.md) for better payment segregation.
+     - Utilize RazorpayX's [Multi-bank Routing feature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/multi-bank-routing.md) to overcome bank downtimes and experience hassle free loan payouts.
+     - Route payouts for different levels of approvals by setting up [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) on RazorpayX Dashboard.
   
     
 
   
 ### Bulk Payments to Agents
 
-      - Enable bulk payouts to agents/advisors using [Bulk Payouts Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/bulk.md).
+      - Enable bulk payouts to agents/advisors using [Bulk Payouts Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/bulk.md).
       - Manage and reconcile transactions across multiple accounts through a single Dashboard.
       - Create individual or bulk payouts to process hundreds of transactions at once.
       - Make payouts to bank accounts, debit cards, credit cards, or prepaid cards.
@@ -62,8 +62,8 @@ RazorpayX's lending tech stack can be used to credit instant loans to customers 
   
 ### Employees and Contractor Portal
 
-     - Set up user roles and permissions for different categories of users using  [Create User Roles](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/create-user-role.md) and enable controlled access.
-     - Manage employee onboarding, attendance, salaries, payment to contract employees, TDS and more using [RazorpayX Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll.md).
+     - Set up user roles and permissions for different categories of users using  [Create User Roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/create-user-role.md) and enable controlled access.
+     - Manage employee onboarding, attendance, salaries, payment to contract employees, TDS and more using [RazorpayX Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll.md).
      - Accurately calculate and disburse salaries automatically.
      - Directly deposit into employees' bank accounts without manual intervention.
      - Calculate and deposit taxes and file returns.
@@ -76,6 +76,6 @@ Customer withdrawals can be completely automated using RazorpayX Payout APIs.
   
 ### Automate Customer Withdrawals
 
-    - Use [Payout APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/api.md) to automate customer withdrawals.
-    - Approve or reject payouts using [Payout Approval APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/api/#payout-approval-api.md).
-    - Enable fund tracking and ensure more clarity in payment management by using [Sub Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/sub-accounts.md).
+    - Use [Payout APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/api.md) to automate customer withdrawals.
+    - Approve or reject payouts using [Payout Approval APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/api.md#payout-approval-api).
+    - Enable fund tracking and ensure more clarity in payment management by using [Sub Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/sub-accounts.md).

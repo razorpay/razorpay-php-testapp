@@ -16,9 +16,9 @@ You can test the full Razorpay OAuth flow by creating a sample application to ob
 To create the test application:
 
 1. On your Dashboard, click **Partner**.
-    ![Select Partner](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-oauth-select_partner.jpg.md)
+    ![Select Partner](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-oauth-select_partner.jpg.md)
 2. Click **Applications** to open the Applications tab. This tab displays a list of created applications.
-    ![Click Applications](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-oauth-select_applications.jpg.md)
+    ![Click Applications](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-oauth-select_applications.jpg.md)
 3. Click **Create Application** and provide these details:
     1. Enter the **Name** of your application. For example, "Acme Corp". This would appear on Razorpay's authorisation page.
     2. Enter the **Website** URL of the application.
@@ -33,10 +33,10 @@ To create the test application:
 >         
 
     4. Click **Save**.
-		![Click Applications](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-oauth-create-application-details.jpg.md)
+		![Click Applications](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-oauth-create-application-details.jpg.md)
         - Razorpay creates an application that appears on the list of created applications. The **Edit Application** page shows the application settings for both **Development** and **Production** clients.
         - **Client ID** and **Client Secret** are predefined for both Development and Production clients. Use them to make request calls to Razorpay servers.
-    ![Application created](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-oauth-create-application-prod-dev-credentials.jpg.md)
+    ![Application created](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-oauth-create-application-prod-dev-credentials.jpg.md)
 4. Enter the Redirect URIs in comma-separated format.
     
 > **INFO**
@@ -67,7 +67,7 @@ Follow these steps:
 
 2. Click **Authorize**. Razorpay redirects you to the `redirect_uri` sent in the request URL, along with the auth code.
 
-3. Copy the auth `code` from the URL and use it to obtain the new [access token](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps#22-get-access-token.md).
+3. Copy the auth `code` from the URL and use it to obtain the new [access token](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps.md#22-get-access-token).
 
     
 > **INFO**
@@ -91,4 +91,4 @@ Your test application appears on the **Created Applications** list on the sub-me
 
 ## Next Step
 
-[3. Go-live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/go-live-checklist.md)
+[3. Go-live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/go-live-checklist.md)

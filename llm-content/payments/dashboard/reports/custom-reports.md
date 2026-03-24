@@ -44,4 +44,4 @@ Here are a few use cases of Custom Reports.
         - Create audit trails with detailed transaction histories
         
 
-Here is a [**sample use case for using Custom Reports**](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/reports/custom-reports/create-custom-reports/#sample-use-case.md).
+Here is a [**sample use case for using Custom Reports**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/reports/custom-reports/create-custom-reports.md#sample-use-case).

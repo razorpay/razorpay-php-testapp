@@ -49,10 +49,10 @@ Use this endpoint to update your Customer Identifier. You cannot update the expi
 : `integer` The amount paid by the customer into the Customer Identifier.
 
 `notes`
-: `json object` Any custom notes you might want to add to the Customer Identifier can be entered here. Know more about [notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md).
+: `json object` Any custom notes you might want to add to the Customer Identifier can be entered here. Know more about [notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes).
 
 `customer_id`
-: `string` Unique identifier of the customer the Customer Identifier is linked with. Know more about [Customer API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md).
+: `string` Unique identifier of the customer the Customer Identifier is linked with. Know more about [Customer API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md).
 
 `receivers`
 : `json object` Configuration of desired receivers for the Customer Identifier.
@@ -80,7 +80,7 @@ Use this endpoint to update your Customer Identifier. You cannot update the expi
     : `string` The `merchant billing label` as it appears on the Dashboard. This parameter appears in the response only when `bank_account` is passed as the receiver `type`.
 
     `notes`
-    : `json object` Any custom notes you might want to add to the virtual bank account can be entered here. Know more about [notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md). This parameter appears in the response only when `bank_account` is passed as the receiver `type`.
+    : `json object` Any custom notes you might want to add to the virtual bank account can be entered here. Know more about [notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes). This parameter appears in the response only when `bank_account` is passed as the receiver `type`.
 
 `close_by`
 : `integer` UNIX timestamp at which the Customer Identifier is scheduled to be automatically closed. The time must be at least 15 minutes after current time. The date range can be set till `2147483647` in UNIX timestamp format (equivalent to Tuesday, January 19, 2038 8:44:07 AM GMT+05:30).

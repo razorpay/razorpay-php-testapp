@@ -21,7 +21,7 @@ Watch this video to see how to generate the Linked Account Transfers Report.
 To download reports:
 1. Log in to the Dashboard.
 2. In the left menu, navigate to **Reports**.
-    ![Partners Dashboard Reports](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/reports-partners-dashboard.jpg.md)
+    ![Partners Dashboard Reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/reports-partners-dashboard.jpg.md)
 3. Select the report type, period and format.
 4. Click **Generate Report**.
 5. It can take a few minutes to a couple of hours to generate a report depending on the data size. Once the report is ready, you can download it from the **Recent Reports** tab. 

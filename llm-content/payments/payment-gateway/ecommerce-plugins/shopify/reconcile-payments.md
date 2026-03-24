@@ -31,17 +31,17 @@ Reconciling payments made on your Shopify store with the data available on your 
          1. Log in to the [Shopify Dashboard](https://accounts.shopify.com/) and open the **Orders** tab.
          2. Select the required orders or time period. 
          3. Click **Export** to export the data. The **Payment References** column in the file contains the payment ids.
-            ![Export Shopify order data](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-select-orders.jpg.md)
+            ![Export Shopify order data](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-select-orders.jpg.md)
          4. Log in to the Dashboard and navigate to **Reports**. 
          5. Select **Shopify Payments Report** in the **Select Report Type** drop-down. 
          6. Select the period and format. 
          7. Click **Generate Report**.
-            ![Download the Shopify Payments Report from Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-payments-report.jpg.md)
+            ![Download the Shopify Payments Report from Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-payments-report.jpg.md)
          8. Once the report is generated, click **Download**. The **Order ID** column in the file contains the payment ids.
          9. Match the **Payment References** column in the Shopify export with the **Order ID** column in the **Shopify Payments Report** to map the payments.
         
 
 ### Related Information
 
-- [Integrate with Shopify Plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify.md)
-- [Shopify FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify/faqs.md)
+- [Integrate with Shopify Plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify.md)
+- [Shopify FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify/faqs.md)

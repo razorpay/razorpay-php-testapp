@@ -8,7 +8,7 @@ description: Create a webhook using Razorpay APIs to receive event notifications
 
 ## Create a Webhook
 
-Use this API endpoint to create a webhook. Know about the [various error responses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md) for this API.
+Use this API endpoint to create a webhook. Know about the [various error responses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md) for this API.
 
 > **INFO**
 >

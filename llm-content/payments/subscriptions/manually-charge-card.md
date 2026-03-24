@@ -5,7 +5,7 @@ description: Manually charge a card for Razorpay Subscriptions from the Razorpay
 
 # Charge a Card Manually
 
-If one or more auto-charge attempts fail, you will receive a webhook notification. Know more about [webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/subscriptions.md). In such scenarios, you can manually charge the card linked to the Subscription from the Dashboard. Until a successful charge is made, the invoice will be in the `issued` state.
+If one or more auto-charge attempts fail, you will receive a webhook notification. Know more about [webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/subscriptions.md). In such scenarios, you can manually charge the card linked to the Subscription from the Dashboard. Until a successful charge is made, the invoice will be in the `issued` state.
 
 > **WARN**
 >
@@ -25,7 +25,7 @@ To manually charge a card:
 
 ### Related Information
 
-- [Create and View Plans](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-plans.md)
-- [Create Subscriptions via Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-subscription-links.md)
-- [Update a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/update.md)
-- [Subscriptions Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/settings.md)
+- [Create and View Plans](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-plans.md)
+- [Create Subscriptions via Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-subscription-links.md)
+- [Update a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/update.md)
+- [Subscriptions Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/settings.md)

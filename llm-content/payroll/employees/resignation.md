@@ -13,7 +13,7 @@ You can submit your resignation to your organisation on the Payroll Dashboard. A
 > 
 > **Available Now!**
 > 
-> Watch the video on to how to [submit resignation](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/video-tutorials/#submit-resignation.md).
+> Watch the video on to how to [submit resignation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/video-tutorials.md#submit-resignation).
 > 
 
 > **WARN**
@@ -58,12 +58,12 @@ You can submit your resignation to your organisation on the Payroll Dashboard. A
         
     1. Click **SUBMIT RESIGNATION**.
 
-    ![Payroll Dashboard Employee submit resignation](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-resignation.jpg.md)
+    ![Payroll Dashboard Employee submit resignation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-resignation.jpg.md)
 
 You have successfully submitted a resignation request to your manager. We notify you about your resignation status via email. You can also check your status in the **My Profile** → **Resignation Status** section.
 
 ### Related Information
 
-- [Employee Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees.md)
-- [IT Declarations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations.md)
-- [WhatsApp Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/whatsapp.md)
+- [Employee Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md)
+- [IT Declarations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations.md)
+- [WhatsApp Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/whatsapp.md)

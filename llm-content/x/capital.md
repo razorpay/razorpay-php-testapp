@@ -26,12 +26,12 @@ You can choose any of the following lending products to acquire capital via Razo
 
 ### Instant Settlements
 
-Reduce settlement period from T+2 days to T+0, that is same day settlements. You can have all your payments settled to your bank account at specific hours during the day or have your money settled early on key business days. Know more about the benefits of [Instant Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/instant.md) and how you can initiate them after getting the feature enabled.
+Reduce settlement period from T+2 days to T+0, that is same day settlements. You can have all your payments settled to your bank account at specific hours during the day or have your money settled early on key business days. Know more about the benefits of [Instant Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/instant.md) and how you can initiate them after getting the feature enabled.
 
 ### RazorpayX Corporate Cards
 
-Simplify your company expenses. Pay for your marketing, SaaS or travel needs with 50-day interest-free credit and automatic repayments for hassle-free expense management. You can also avail [Add-on Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md) for your team members.
+Simplify your company expenses. Pay for your marketing, SaaS or travel needs with 50-day interest-free credit and automatic repayments for hassle-free expense management. You can also avail [Add-on Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md) for your team members.
 
 ### Related Information
 
-- [Corporate Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md)
+- [Corporate Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md)

@@ -32,14 +32,14 @@ Attract customers and improve sales by providing discounts or cashback on your w
 
 Customers have the opportunity to see the offers that you configure on checkout. They can assess and decide which offer best suits their needs and provides the most advantages or benefits. Additionally, Razorpay will automatically apply the most suitable offer to the chosen payment method, ensuring a seamless and optimised experience for the customer.
 
-![Display offers on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-apply-checkout.gif.md)
+![Display offers on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-apply-checkout.gif.md)
 
-Know more about the [flow of the payments in Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments.md).
+Know more about the [flow of the payments in Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments.md).
 
 ### Related Information
 
-- [Create Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create.md)
-- [Tutorial On - How to Create Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/tutorial.md)
-- [Offers FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/faqs.md)
+- [Create Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md)
+- [Tutorial On - How to Create Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/tutorial.md)
+- [Offers FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/faqs.md)
 
-- [EMI² Suite](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi².md)
+- [EMI² Suite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi².md)

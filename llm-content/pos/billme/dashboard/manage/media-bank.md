@@ -8,7 +8,7 @@ description: Store and manage your marketing assets like banners, images and vid
 
 The **Media Bank** lets you upload, store and manage images, banners, videos and logos in one central place. These media files can be used across **Billme Dashboard** for creating or designing user journeys, surveys, digital bills, campaigns and so on.
 
-![Media Bank](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/media-bank-manage.jpg.md)
+![Media Bank](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/media-bank-manage.jpg.md)
 
 ## Key Features
 
@@ -22,7 +22,7 @@ The **Media Bank** lets you upload, store and manage images, banners, videos and
 To upload a new media file:
 
 1. Under **Manage** section, click **Media Bank**. The **Media Bank** page appears.
-    ![Media Bank Features](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/media-bank-options.jpg.md)
+    ![Media Bank Features](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/media-bank-options.jpg.md)
 2. Click **+ Upload Media**. The **Upload New Data** page appears.
 3. Upload your file and enter a file name and description.
 4. Click **Import Data**. The new media file is uploaded and stored in the **Media Bank**.

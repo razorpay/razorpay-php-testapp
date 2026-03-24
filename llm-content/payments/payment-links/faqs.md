@@ -20,7 +20,7 @@ description: Find answers to frequently asked questions about Razorpay Payment L
   
 ### 2. Can I create a Payment Link using which customers can pay an amount of their choice?
 
-     No. You can create Payment Links with fixed amounts only. Customers cannot enter an amount of their choice. Use [Payment Pages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages.md) if you want to allow customers to enter an amount of their choice.
+     No. You can create Payment Links with fixed amounts only. Customers cannot enter an amount of their choice. Use [Payment Pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages.md) if you want to allow customers to enter an amount of their choice.
     
 
   
@@ -78,19 +78,19 @@ description: Find answers to frequently asked questions about Razorpay Payment L
   
 ### 10. Can I automatically send an invoice to customers after they complete payment via a Payment Link using Razorpay Invoices?
 
-     No, you cannot send an invoice automatically. [Razorpay's Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices.md) is designed to initiate payments, not for post-payment invoicing. You need to handle invoice generation on your end after receiving payment confirmation.
+     No, you cannot send an invoice automatically. [Razorpay's Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md) is designed to initiate payments, not for post-payment invoicing. You need to handle invoice generation on your end after receiving payment confirmation.
     
 
   
 ### 11. Can I accept international payments using Payment Links?
 
-     Yes, you can accept international payments using Payment Links. Know more about [international payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments.md).
+     Yes, you can accept international payments using Payment Links. Know more about [international payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md).
     
 
   
 ### 12. Can I use a Payment Link to accept payments from multiple customers?
 
-     No, you can only accept payments from a single customer using a Payment Link. Use [Payment Pages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages.md) if you want to use one link to accept payments from multiple customers.
+     No, you can only accept payments from a single customer using a Payment Link. Use [Payment Pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages.md) if you want to use one link to accept payments from multiple customers.
     
 
   
@@ -112,12 +112,12 @@ description: Find answers to frequently asked questions about Razorpay Payment L
       2. Navigate to **Account & Settings** → **Webhooks**. 
       3. Subscribe to events such as `payment_link.paid`, `payment_link.cancelled`, `payment_link.expired` and `payment_link.partially_paid`. 
     
-     These events will notify you whenever a Payment Link status changes and include details like Payment Link id, amount, status and customer information. This allows you to track Payment Link transactions separately from regular payment or order events. For detailed implementation steps and payload structure, refer to the [Payment Link Webhooks documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/subscribe-to-webhooks.md).
+     These events will notify you whenever a Payment Link status changes and include details like Payment Link id, amount, status and customer information. This allows you to track Payment Link transactions separately from regular payment or order events. For detailed implementation steps and payload structure, refer to the [Payment Link Webhooks documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/subscribe-to-webhooks.md).
     
 
 ### 16. Can I automate Payment Link generation from Salesforce and send them via WhatsApp?
 
-     Yes, you can automate Payment Link generation using the [Payment Links API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/create-standard.md). Integrate the API into your Salesforce workflow to programmatically create links based on your business logic.
+     Yes, you can automate Payment Link generation using the [Payment Links API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links/create-standard.md). Integrate the API into your Salesforce workflow to programmatically create links based on your business logic.
 
      Razorpay does not provide direct WhatsApp integration, but you can use the built-in SMS and email notification system by setting the `notify` parameters in the API request.
     
@@ -141,14 +141,14 @@ description: Find answers to frequently asked questions about Razorpay Payment L
      Follow these steps:
      1. Click the Payment Link and open the hosted page.
      2. Click **Report Payment Link**.
-       ![report payment link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-report-a-link.jpg.md)
+       ![report payment link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-report-a-link.jpg.md)
 
      **Using an Email Notification You Received** 
 
      Follow these steps:
      1. Open the email received from the business.
      2. Click **Report Email**.
-       ![Email Report Payment ink](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-email-report.jpg.md)
+       ![Email Report Payment ink](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-email-report.jpg.md)
 
      **On Clicking Report Option** 
 
@@ -159,10 +159,10 @@ description: Find answers to frequently asked questions about Razorpay Payment L
      4. **Name** (optional): Enter your name.
      5. Complete the captcha step and click **SUBMIT REPORT**.
      
-        ![report payment link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-report-payment-link.jpg.md)
+        ![report payment link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-report-payment-link.jpg.md)
 
      **Additional Steps** 
 
      If you have already completed the payment, you can choose to:
      - Request a refund by contacting the business' support team. The support details are available on the Payment Link hosted page.
-     - File a dispute against the business. Know more about [Disputes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes.md).
+     - File a dispute against the business. Know more about [Disputes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes.md).

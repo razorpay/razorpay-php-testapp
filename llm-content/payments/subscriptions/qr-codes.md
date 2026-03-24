@@ -26,14 +26,14 @@ Below is the customer journey with a QR Code on Standard Checkout:
 
 1. The QR Code is available on the desktop Standard Checkout for UPI Autopay.
 2. Customers scan the QR Code using any PSP app and approve the payment.
-![Subscription QR Intent](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr_sub.gif.md)
+![Subscription QR Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr_sub.gif.md)
 
 ## FAQs
 
     
 ### 1. Can I use the QR code to accept international payments?
 
-         Yes. You can use the QR Code to accept Subscriptions payments in any of our [supported international currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+         Yes. You can use the QR Code to accept Subscriptions payments in any of our [supported international currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
         
 
     
@@ -44,5 +44,5 @@ Below is the customer journey with a QR Code on Standard Checkout:
 
 ### Related Information
 
-- [About Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md)
-- [Supported Banks and Apps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/supported-banks-apps.md)
+- [About Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md)
+- [Supported Banks and Apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/supported-banks-apps.md)

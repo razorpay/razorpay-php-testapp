@@ -16,7 +16,7 @@ We have a Postman collection to make the integration quicker and easier. Click t
 ## Instructions for Using Postman Collection
 
 - All Razorpay APIs are authenticated using Basic Authentication.
-  - [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
+  - [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
   - Add your API Keys in Postman. Selected the required API → Auth → Type = Basic Auth → Username = [Your_Key_ID]; Password = [Your_Key_secret]
   ![](/docs/assets/images/api-postman_basic_auth.gif)
 - Some APIs in the collection require data specific to your account either in the request body or as path or query parameters.
@@ -351,7 +351,7 @@ You can set up transfer of funds right at the time of order creation using the O
 
 ## Create Transfers from Payments
 
-You can create and capture payments in the regular payments flow, using [Razorpay Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md) and [Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#capture-a-payment.md).
+You can create and capture payments in the regular payments flow, using [Razorpay Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md) and [Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment).
 
 To disburse payments using Razorpay Route, there is an additional step in the payment flow called transfers which is described below:
 

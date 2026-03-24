@@ -25,13 +25,13 @@ Follow the steps given below:
 
          1. Log in to your [Wix website](https://users.wix.com/signin).
          2. Navigate to **Settings** → **Accept payments**.
-            ![Settings and Accept Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/wix-settings-accept.jpg.md)
+            ![Settings and Accept Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/wix-settings-accept.jpg.md)
          4. Click **Connect** beside **Razorpay**.
-            ![add razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/wix-rzp-connect.jpg.md)
+            ![add razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/wix-rzp-connect.jpg.md)
          5. Enter your **API Key Id**, **Key Secret** and **Site URL**. Click **Connect**.
-            ![account activation](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/wix-api.jpg.md)
+            ![account activation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/wix-api.jpg.md)
          6. You have successfully connected your Wix website with Razorpay.
-            ![dialog box](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/wix-final.jpg.md)
+            ![dialog box](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/wix-final.jpg.md)
         
 
 ## 2. Test Integration
@@ -62,7 +62,7 @@ You can make test payments using one of the payment methods configured at the Ch
                     ![](/docs/assets/images/testpayment.jpg)
             
             
-                  [Poll Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md) to check the payment status.
+                  [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments) to check the payment status.
             
         
         

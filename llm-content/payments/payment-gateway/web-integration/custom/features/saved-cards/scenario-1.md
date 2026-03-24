@@ -22,7 +22,7 @@ You should modify your user interface to explicitly receive customer consent for
 
 ### 2.1 Create a Customer
 
-You can create customers using the [Create a Customer API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md). The `customer_id` received in the response should be passed in the Create Payment request.
+You can create customers using the [Create a Customer API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md). The `customer_id` received in the response should be passed in the Create Payment request.
 
 ### 2.2 Create Payment
 
@@ -269,7 +269,7 @@ body, err := client.Token.All("", nil, nil)
   - `suspended`: The token attains this state if: 
 - The token is not activated for any one of the token service providers. 
 - The token is suspended for at least one of the token service providers.
-  - `deactivated`: The token attains this state if the token is not active/suspended for any one of the token service providers and is deactivated for at least one token service provider. Know about the complete list of [token states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/token-lifecycle.md).
+  - `deactivated`: The token attains this state if the token is not active/suspended for any one of the token service providers and is deactivated for at least one token service provider. Know about the complete list of [token states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/token-lifecycle.md).
 
 ### 2.4 Fetch Card Properties of an Existing Token
 
@@ -420,7 +420,7 @@ body, err := client.Token.Fetch("", "", nil, nil)
   - `suspended`: The token attains this state if: 
 - The token is not activated for any one of the token service providers. 
 - The token is suspended for at least one of the token service providers.
-  - `deactivated`: The token attains this state if the token is not active/suspended for any one of the token service providers and is deactivated for at least one token service provider. Know about the complete list of [token states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/token-lifecycle.md).
+  - `deactivated`: The token attains this state if the token is not active/suspended for any one of the token service providers and is deactivated for at least one token service provider. Know about the complete list of [token states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/token-lifecycle.md).
 
 ### 2.5 Create Payments Using Saved Card
 

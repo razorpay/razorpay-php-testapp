@@ -91,7 +91,7 @@ On the checkout form or when using APIs for Razorpay products such as Orders, Pa
          ```
 
         `currency` _mandatory_
-        : `string` Currency in which you want to accept the payment. For example, `GBP`. Check the [supported international currencies.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-products-and-currencies.md)
+        : `string` Currency in which you want to accept the payment. For example, `GBP`. Check the [supported international currencies.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-products-and-currencies)
 
         `amount` _mandatory_
         : `integer` The amount to be charged in the specified currency subunit.
@@ -107,7 +107,7 @@ On the checkout form or when using APIs for Razorpay products such as Orders, Pa
     
 ### Payment Entity
 
-         The [Payment entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#payment-entity.md) will contain additional fields when the currency is not INR to provide visibility into the conversion rate.
+         The [Payment entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#payment-entity) will contain additional fields when the currency is not INR to provide visibility into the conversion rate.
 
          **Example**
 
@@ -155,7 +155,7 @@ When using products such as Payment Links or Subscription Links, ensure you sele
 
 Watch this video to see how to select the international currency from the Dashboard.
 
-![Select the international currency from the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/select-international-currency-dashboard.gif.md)
+![Select the international currency from the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/select-international-currency-dashboard.gif.md)
 
 ## Settlements
 

@@ -28,7 +28,7 @@ You can add the following to your Payment Pages:
 >             Defining heading levels in your description makes the information look more structured and neat.
 >          
 
-         ![Add Heading to a Payment Page.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-addheading.jpg.md)
+         ![Add Heading to a Payment Page.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-addheading.jpg.md)
 
         
 
@@ -46,7 +46,7 @@ You can add the following to your Payment Pages:
 
         
 
-        ![Add Lists to a Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-add-lists.jpg.md)
+        ![Add Lists to a Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-add-lists.jpg.md)
 There are 10 font colors from which you can choose to choose. There are three font styles that you can apply to the text: Boldface, Italics and Underline.
 
         
@@ -65,7 +65,7 @@ There are 10 font colors from which you can choose to choose. There are three fo
 
         Click the video icon and **Enter Video URL**. This will embed the hosted video into your page.
 
-        ![Add Videos to a Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-add-video.jpg.md)
+        ![Add Videos to a Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-add-video.jpg.md)
 
         
 
@@ -98,5 +98,5 @@ There are 10 font colors from which you can choose to choose. There are three fo
         
 
 ### Related Information
-- [Create a Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/create.md)
-- [Customise Payment Pages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/customise.md)
+- [Create a Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/create.md)
+- [Customise Payment Pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/customise.md)

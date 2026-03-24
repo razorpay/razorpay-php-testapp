@@ -24,32 +24,32 @@ On TallyPrime (a Tally product), you can directly create payout instructions in 
 
 To process payouts using Tally e-Payments:
 
-1. Open TallyPrime and [Create a RazorpayX Ledger.](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tally-epayments/set-up.md)
+1. Open TallyPrime and [Create a RazorpayX Ledger.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tally-epayments/set-up.md)
    
 > **INFO**
 >
 > 
 >    **Handy Tips**
 > 
->    If you are an existing Current Account user with a RazorpayX/RBL Bank account ledger in TallyPrime, [create a new ledger](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tally-epayments/set-up#create-a-ledger.md) for RazorpayX Bank. 
+>    If you are an existing Current Account user with a RazorpayX/RBL Bank account ledger in TallyPrime, [create a new ledger](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tally-epayments/set-up.md#create-a-ledger) for RazorpayX Bank. 
 > 
 >    All the existing unpaid bills that you wish to pay through RazorpayX using this integration is credited to the new RazorpayX ledger account.
 >    
 
 2. Credit all payable bills to the RazorpayX Bank Account Ledger.
-   1. Download the [e-Payments' payout instructions](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tally-epayments/export-approve-payouts/#export-data-from-tallyprime-to-razorpayx.md) as a CSV file to export it to RazorpayX. 
-   1. [Upload the payouts instructions file to RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tally-epayments/export-approve-payouts/#upload-payout-data.md) in the Tally Payouts section. 
-   1. [Review the payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tally-epayments/export-approve-payouts/#view-payouts-and-download-reports.md) as created after uploading the file. Approve them as applicable. 
-   1. [View the payouts processed](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tally-epayments/export-approve-payouts/#view-payouts-and-download-reports.md) and download the error report for the unprocessed payouts.
-3. [Download and export the MIS file](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tally-epayments/reconcile-payouts.md) from RazorpayX to TallyPrime for automatic reconciliation of accounts.
+   1. Download the [e-Payments' payout instructions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tally-epayments/export-approve-payouts.md#export-data-from-tallyprime-to-razorpayx) as a CSV file to export it to RazorpayX. 
+   1. [Upload the payouts instructions file to RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tally-epayments/export-approve-payouts.md#upload-payout-data) in the Tally Payouts section. 
+   1. [Review the payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tally-epayments/export-approve-payouts.md#view-payouts-and-download-reports) as created after uploading the file. Approve them as applicable. 
+   1. [View the payouts processed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tally-epayments/export-approve-payouts.md#view-payouts-and-download-reports) and download the error report for the unprocessed payouts.
+3. [Download and export the MIS file](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tally-epayments/reconcile-payouts.md) from RazorpayX to TallyPrime for automatic reconciliation of accounts.
 
 ### Next Steps
 
-- [Create RazorpayX Ledger in TallyPrime](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tally-epayments/set-up.md)
-- [Export and Approve Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tally-epayments/export-approve-payouts.md)
-- [Reconcile Payouts in TallyPrime](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tally-epayments/reconcile-payouts.md)
+- [Create RazorpayX Ledger in TallyPrime](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tally-epayments/set-up.md)
+- [Export and Approve Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tally-epayments/export-approve-payouts.md)
+- [Reconcile Payouts in TallyPrime](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tally-epayments/reconcile-payouts.md)
 
 ### Related Information
 
-- [Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md)
-- [Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md)
+- [Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md)
+- [Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md)

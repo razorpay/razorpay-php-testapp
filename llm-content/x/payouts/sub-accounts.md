@@ -25,7 +25,7 @@ In compliance with the [digital lending guidelines](https://rbidocs.rbi.org.in/r
 > 
 > **Handy Tips**
 > 
-> You can [download reports](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard#reports.md) for your sub-accounts and see the real-time limit assigned to them.
+> You can [download reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard.md#reports) for your sub-accounts and see the real-time limit assigned to them.
 > 
 
 ## How it Works
@@ -36,8 +36,8 @@ Different features are enabled for the **Master Account** and **Sub-Account** re
 
 To create a master account:
 
-1. [Sign Up](@/Applications/MAMP/htdocs/new-docs/llm-content/x/set-up#new-users.md) on the RazorpayX Dashboard.
-2. Open a [Current Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/current-account#current-account.md) using RazorpayX.
+1. [Sign Up](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/set-up.md#new-users) on the RazorpayX Dashboard.
+2. Open a [Current Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/current-account.md#current-account) using RazorpayX.
 
 The master account functions like any other RazorpayX account. In addition to that, you can view all the linked sub-accounts on your RazorpayX Dashboard home screen.
 
@@ -47,11 +47,11 @@ Use the master account to add limit to the sub-account via the Dashboard. To add
 
 1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
 2. Hover over the sub-account for which you want to increase the limit and click on the pencil icon.
-	![Edit the sub-account limit](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-sub-accounts-modify-limit.jpg.md)
+	![Edit the sub-account limit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-sub-accounts-modify-limit.jpg.md)
 3. Enter the amount you want to add to the limit and click **Save**.
-	![Save Limit](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-sub-accounts-modify-limit-save.jpg.md)
+	![Save Limit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-sub-accounts-modify-limit-save.jpg.md)
 4. Enter the OTP sent to your registered number and email. Click **Submit**.
-	![Enter OTP](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-sub-accounts-submit-otp.jpg.md)
+	![Enter OTP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-sub-accounts-submit-otp.jpg.md)
 
 #### View Past Limit of Sub-Accounts
 
@@ -60,7 +60,7 @@ To view the past limits assigned to the different sub-accounts:
 1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
 2. Click **Sub-Account Limits** on the left navigation.
 3. You can filter the sub-account for which you want to view the limits and choose the appropriate dates if required.
-	![Sub-Accounts Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-sub-accounts.jpg.md)
+	![Sub-Accounts Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-sub-accounts.jpg.md)
 4. You can also export the data as `.csv` or `.xlsx`.
 
 ### Sub-Account
@@ -70,7 +70,7 @@ To view the past limits assigned to the different sub-accounts:
 > 
 > **Watch Out!**
 > 
-> Sub-account holders can only make [Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts#how-to-make-payouts.md). 
+> Sub-account holders can only make [Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#how-to-make-payouts). 
 > 
 
 The following functions are **not** available for sub-accounts:
@@ -98,7 +98,7 @@ The sub-account Name, Customer Identifier, Merchant ID and Live balance of the s
 
 To create a sub-account:
 
-1. [Sign Up](@/Applications/MAMP/htdocs/new-docs/llm-content/x/set-up#new-users.md) to the RazorpayX Dashboard.
+1. [Sign Up](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/set-up.md#new-users) to the RazorpayX Dashboard.
 2. Send an email to [x.support@razorpay.com](mailto:x.support@razorpay.com) and the owner of the master account to link your account with theirs.
 3. Once the owner of the Master Account has approved and confirmed the debit account details for your account on the same mail, we will link the accounts.
 
@@ -117,6 +117,6 @@ The NBFC ***Acme Crop.*** (master account holder) funds FinTech ***Bertie Botts*
 
 ### Related Information
 
-- [Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md)
-- [Current Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/current-account.md)
-- [Support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md)
+- [Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md)
+- [Current Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/current-account.md)
+- [Support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md)

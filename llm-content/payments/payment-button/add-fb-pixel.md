@@ -35,5 +35,5 @@ Every time a customer successfully completes a payment, they will be directed to
 
 ### Related Information
 
-- [Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button.md)
-- [How Payment Button Works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/how-it-works.md)
+- [Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button.md)
+- [How Payment Button Works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/how-it-works.md)

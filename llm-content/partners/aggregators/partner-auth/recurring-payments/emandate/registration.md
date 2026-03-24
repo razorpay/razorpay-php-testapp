@@ -16,7 +16,7 @@ Using this authorisation transaction, we can authenticate the customer's Emandat
 ### 1.1.1. Create a Customer
 Razorpay links recurring tokens to customers via a unique identifier. You can generate this identifier using the Customer API.
 
-You can create [customers](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md) with basic information such as email and contact and use them for various Razorpay offerings. The following endpoint creates a customer.
+You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md) with basic information such as email and contact and use them for various Razorpay offerings. The following endpoint creates a customer.
 
 /customers
 
@@ -373,7 +373,7 @@ curl -X POST https://api.razorpay.com/v1/orders \
         - `aadhaar`
 
     `max_amount` _optional_
-    : `integer` The maximum amount in paise a customer can be charged in a transaction. Know about the [maximum and default values](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/faqs/#2-what-is-the-maximum-amount-which-can.md).
+    : `integer` The maximum amount in paise a customer can be charged in a transaction. Know about the [maximum and default values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/faqs.md#2-what-is-the-maximum-amount-which-can).
 
     `expire_at` _optional_
     : `integer` The Unix timestamp to indicate till when you can use the token (authorization on the payment method) to charge the customer subsequent payments. The default value is 10 years for emandate. This value can range from the current date to 31-12-2099 (4102444799).
@@ -440,7 +440,7 @@ curl -X POST https://api.razorpay.com/v1/orders \
         - `aadhaar`
 
     `max_amount`
-    : `integer` The maximum amount in paise a customer can be charged in a transaction. Know about the [maximum and default values](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/faqs/#2-what-is-the-maximum-amount-which-can.md).
+    : `integer` The maximum amount in paise a customer can be charged in a transaction. Know about the [maximum and default values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/faqs.md#2-what-is-the-maximum-amount-which-can).
 
     `expire_at`
     : `integer` The Unix timestamp to indicate till when you can use the token (authorization on the payment method) to charge the customer subsequent payments. The default value is 10 years for emandate. This value can range from the current date to 31-12-2099 (4102444799).
@@ -470,7 +470,7 @@ curl -X POST https://api.razorpay.com/v1/orders \
 > 
 > **Handy Tips**
 > 
-> You can register a customer's mandate and charge them the first recurring payment as part of the same transaction. Know more about how to [charge first payment automatically after emandate registration](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/emandate/auto-debit.md).
+> You can register a customer's mandate and charge them the first recurring payment as part of the same transaction. Know more about how to [charge first payment automatically after emandate registration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/emandate/auto-debit.md).
 > 
 
 ### 1.1.3. Create an Authorisation Payment
@@ -564,7 +564,7 @@ Registration Link is an alternate way of creating an authorisation transaction. 
 > You do not have to create a customer if you choose the registration link method for creating an authorisation transaction.
 > 
 
-When you create a registration link, an [invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices.md) is automatically issued to the customer. They can use this invoice to make the authorisation payment.
+When you create a registration link, an [invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md) is automatically issued to the customer. They can use this invoice to make the authorisation payment.
 
 A registration link should always have an order amount (in paise) the customer will be charged when making the authorisation payment. This amount should be 0 in the case of emandate.
 
@@ -895,7 +895,7 @@ curl -X POST https://api.razorpay.com/v1/subscription_registration/auth_links \
       - `aadhaar`
 
   `max_amount` _optional_
-  : `integer` The maximum amount, in paise, a customer can be charged in a transaction. Know about [maximum and default values](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/faqs/#2-what-is-the-maximum-amount-which-can.md).
+  : `integer` The maximum amount, in paise, a customer can be charged in a transaction. Know about [maximum and default values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/faqs.md#2-what-is-the-maximum-amount-which-can).
 
   `expire_at` _optional_
   : `integer` The Unix timestamp indicates till when you can use the token (authorization on the payment method) to charge the customer their subsequent payments. The default value is 10 years for emandate. This value can range from the current date to 31-12-2099 (4101580799).

@@ -14,7 +14,7 @@ The feature is available by default for all the Custom Checkout integrations.
 > 
 > **Watch Out!**
 > 
-> Dynamic Currency Conversion (DCC) is not available for [Razorpay Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer.md).
+> Dynamic Currency Conversion (DCC) is not available for [Razorpay Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer.md).
 > 
 
 ## Video Tutorial
@@ -36,10 +36,10 @@ Watch this video to integrate Custom Checkout using the Dynamic Currency Convers
 > 
 > **Handy Tips**
 > 
-> DCC Custom Checkout payment flow is similar to the [S2S payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion/s2s-integration.md).
+> DCC Custom Checkout payment flow is similar to the [S2S payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion/s2s-integration.md).
 > 
 
 ### Related Information
 
-- [DCC S2S Payment Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion/s2s-integration.md)
-- [International Payment Support](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments.md)
+- [DCC S2S Payment Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion/s2s-integration.md)
+- [International Payment Support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md)

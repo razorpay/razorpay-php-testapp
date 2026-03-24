@@ -27,15 +27,15 @@ Given below is the list of methods commonly adopted by Razorpay APIs:
 
 Verb | Description | Example
 ---
-GET | Requests a representation of the specified resource. Requests using GET should only retrieve data. | [Fetch all payments received by you](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md)
+GET | Requests a representation of the specified resource. Requests using GET should only retrieve data. | [Fetch all payments received by you](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments)
 ---
-POST | Submits an entity to the specified resource, often causing a change in state or side effects on the server. | [Create a Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/#create-payment-link.md)
+POST | Submits an entity to the specified resource, often causing a change in state or side effects on the server. | [Create a Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links.md#create-payment-link)
 ---
-PUT | Replaces all current representations of the target resource with the request payload. | [Edit customer details](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers/#edit-customer-details.md)
+PUT | Replaces all current representations of the target resource with the request payload. | [Edit customer details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md#edit-customer-details)
 ---
-DELETE | Deletes the specified resource. | [Delete an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/invoices/#delete-an-invoice.md)
+DELETE | Deletes the specified resource. | [Delete an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/invoices.md#delete-an-invoice)
 ---
-PATCH | Applies partial modifications to a resource. | [Update Order](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders#update-order.md)
+PATCH | Applies partial modifications to a resource. | [Update Order](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md#update-order)
 
   
 ### Example
@@ -138,7 +138,7 @@ Refer to [Mozilla docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
       ---
       **404 Not Found** | The server can not find the requested resource. In the browser, this means the URL is not recognised. In an API, this can also mean that the endpoint is valid, but the resource itself does not exist. Servers may also send this response instead of 403 Forbidden to hide the existence of a resource from an unauthorised client. This response code is probably the most well known due to its frequent occurrence on the web.
       ---
-      **429 Throttling Error** | The server is processing too many requests at once and is unable to process your request. Retry the request after some time. Know more about [Rate Limiting](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#rate-limits.md).
+      **429 Throttling Error** | The server is processing too many requests at once and is unable to process your request. Retry the request after some time. Know more about [Rate Limiting](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#rate-limits).
       ---
       **500 Internal Server Error** | The server has encountered a situation it does not know how to handle.
       ---
@@ -166,9 +166,9 @@ Response | Parameters returned in the API response, providing information about 
 
 The following images highlight the different types of API parameters.
 
-![API Path and Query Parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/api-path-query-parameters.jpg.md)
+![API Path and Query Parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/api-path-query-parameters.jpg.md)
 
-![API Path and Request Parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/api-path-request-parameters.jpg.md)
+![API Path and Request Parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/api-path-request-parameters.jpg.md)
 
 ## Data Types
 
@@ -237,7 +237,7 @@ Razorpay attributes are uniquely identified by their identifier which is mostly 
 
 When you make a request to the Razorpay API, the server responds with a JSON object containing relevant data. The response body structure varies depending on the API endpoint and the type of request.
 
-![API Response Parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/api-conventions-response-parameters.jpg.md)
+![API Response Parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/api-conventions-response-parameters.jpg.md)
 
 ## Versioning
 
@@ -275,7 +275,7 @@ Usually, when you make calls to the Razorpay APIs, there will be a large volume 
 
 ### Related Information
 
-- [Authentication](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication.md)
-- [Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md)
-- [Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/api/best-practices.md)
-- [Glossary](@/Applications/MAMP/htdocs/new-docs/llm-content/api/glossary.md)
+- [Authentication](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md)
+- [Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md)
+- [Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/best-practices.md)
+- [Glossary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/glossary.md)

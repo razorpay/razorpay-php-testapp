@@ -79,7 +79,7 @@ description: Find answers to frequently asked questions about Recurring Payments
 >      **Watch Out!**
 > 
 >      - You should contact our [Support team](https://razorpay.com/support/#request) to enable UPI Intent on standard checkout. Watch this video on how to get it enabled.
->         ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+>         ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 >      - UPI Intent is not supported for @okaxis handle.
 >      
 
@@ -148,7 +148,7 @@ description: Find answers to frequently asked questions about Recurring Payments
 >      **Watch Out!**
 > 
 >      - You should contact our [Support team](https://razorpay.com/support/#request) to enable PSP apps other than PhonePe and Paytm on Standard Checkout for UPI TPV. Watch this video on how to get it enabled.
->       ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+>       ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 >      - UPI Intent TPV is not supported for @okaxis handle.
 >      
 
@@ -270,7 +270,7 @@ description: Find answers to frequently asked questions about Recurring Payments
   
 ### 18. Is QR Code supported for UPI Autopay?
 
-     Yes, [QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upi/qr-codes.md) is supported on Standard Checkout to collect Recurring Paymennts. The customers can scan the QR using any PSP app and make the payment.
+     Yes, [QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upi/qr-codes.md) is supported on Standard Checkout to collect Recurring Paymennts. The customers can scan the QR using any PSP app and make the payment.
     
 
   
@@ -278,6 +278,6 @@ description: Find answers to frequently asked questions about Recurring Payments
 
      Yes, you can restrict your customers from pausing and cancelling the mandate by enabling OC125 functionality. After enabling, the **Pause** and **Cancel** mandate buttons are not available on PSP apps as shown in the image below.
 
-     ![Checkout with OC125 Enabled](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi_oc125.jpg.md)
+     ![Checkout with OC125 Enabled](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi_oc125.jpg.md)
 
      This functionality is supported only for lending businesses. Please contact our [Support team](https://razorpay.com/support/#request) for more information.

@@ -25,7 +25,7 @@ Before | Now
 - The invitees/contacts should complete the onboarding process with Razorpay by verifying mobile number. The accounts will be added as your sub-merchant after this verification.
 
 ---
-![Service Partners - add sub-merchants - create password link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/resellers-add-subm-create-password.jpg.md) | ![Service Partners - add sub-merchants - create account link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/resellers-add-subm-create-account.jpg.md)
+![Service Partners - add sub-merchants - create password link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/resellers-add-subm-create-password.jpg.md) | ![Service Partners - add sub-merchants - create account link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/resellers-add-subm-create-account.jpg.md)
 
 ## Invite Link via SMS
 
@@ -40,4 +40,4 @@ Before | Now
 The **Affiliate Accounts** section contained a list of all sub-merchants added with the activation state. | The **Affiliate Accounts** section is split into 2: - **All Invites**: Contains a list of all contacts invited. It does not show the activation status.
 - **Accepted Invites**: Contains a list of all contacts that have accepted your invite and created a Razorpay account. You can view the activation status and take KYC related actions.
 
-![Service Partners - Accepted invites](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/resellers-accepted-invites.jpg.md)
+![Service Partners - Accepted invites](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/resellers-accepted-invites.jpg.md)

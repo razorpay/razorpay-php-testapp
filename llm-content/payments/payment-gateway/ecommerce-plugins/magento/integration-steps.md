@@ -131,7 +131,7 @@ Follow the steps given below to integrate Razorpay Payment Gateway with your Mag
 
                      **Upgrade Magento Extension**
 
-                     If you are an existing extension user, you can [upgrade](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/magento/#upgrade-magento-extension.md) to the latest version using the composer.
+                     If you are an existing extension user, you can [upgrade](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/magento.md#upgrade-magento-extension) to the latest version using the composer.
                      
                   
                   
@@ -190,7 +190,7 @@ Follow the steps given below to integrate Razorpay Payment Gateway with your Mag
                     ![](/docs/assets/images/plugins-magento-magento-2.x-2.jpg)
                  4. In the **Payment Methods** page, navigate to Razorpay.
                     ![](/docs/assets/images/plugins-magento-magento-2.x-1.jpg)
-                 5. Enter your test mode [KEY_ID] and [KEY_SECRET]. These can be [generated from the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+                 5. Enter your test mode [KEY_ID] and [KEY_SECRET]. These can be [generated from the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
                  6. Select **Yes** for the option **Enabled**.
                  7. Click **Save Config**. This activates your account in the test mode. You can use this account to make a few test payments and ensure a successful workflow.
                  
@@ -219,7 +219,7 @@ Follow the steps given below to integrate Razorpay Payment Gateway with your Mag
 >                  **Handy Tips**
 > 
 >                  - If you are using Magento plugin version 3.4.1, ensure the webhook delay is set to a minimum of 300 seconds.
->                  - Webhook is auto-configured on Magento plugin version 3.8.1-beta and above. For versions lower than 3.8.1-beta, you should [configure webhooks manually](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/magento/integration-steps/#step-3-set-up-webhooks.md).
+>                  - Webhook is auto-configured on Magento plugin version 3.8.1-beta and above. For versions lower than 3.8.1-beta, you should [configure webhooks manually](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/magento/integration-steps.md#step-3-set-up-webhooks).
 > 
 >                  
 
@@ -235,15 +235,15 @@ Follow the steps given below to integrate Razorpay Payment Gateway with your Mag
 > 
 >                         **Handy Tips**
 >                 
->                         Webhooks can only be delivered to public URLs. If you attempt to save a localhost endpoint as part of a webhook set-up, you will notice an error. Please refer to the [test webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test.md) section for alternatives to localhost.
+>                         Webhooks can only be delivered to public URLs. If you attempt to save a localhost endpoint as part of a webhook set-up, you will notice an error. Please refer to the [test webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md) section for alternatives to localhost.
 >                         
 
-                    - Enter the Secret you had provided on the Magento site. The secret is used to validate that the webhook is from Razorpay. Do not expose the secret publicly. Know more about [webhooks validation](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test#validate-webhooks.md).
+                    - Enter the Secret you had provided on the Magento site. The secret is used to validate that the webhook is from Razorpay. Do not expose the secret publicly. Know more about [webhooks validation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md#validate-webhooks).
                     - In the **Alert Email field**, enter the email address to which notifications must be sent in case of webhook failure.
                     - Select only the `order.paid` event from the list of **Active Events**. 
                  5. Click **Create Webhook**. 
 
-                 Know more about [webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
+                 Know more about [webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
 
                  
 > **INFO**
@@ -309,7 +309,7 @@ You can make test payments using one of the payment methods configured at the Ch
                     ![](/docs/assets/images/testpayment.jpg)
             
             
-                  [Poll Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md) to check the payment status.
+                  [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments) to check the payment status.
             
         
         

@@ -13,8 +13,8 @@ Razorpay POS offers advanced security features, real-time reporting, and the con
 ## How it Works 
 
 1. Sign up or log in to your Dashboard.
-    - [New to Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/new-to-razorpay.md)
-    - [Existing Razorpay Merchant](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/existing-merchant#become-a-razorpay-partner.md)
+    - [New to Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/new-to-razorpay.md)
+    - [Existing Razorpay Merchant](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/existing-merchant.md#become-a-razorpay-partner)
 2. Refer leads for POS using [Email](#refer-clients-using-email), [Referral links](#refer-clients-using-referral-link) or [Dashboard bulk upload](#refer-clients-using-bulk-upload). 
 
 ## Partner Eligibility 
@@ -28,9 +28,9 @@ You can manage POS onboarding yourself or add agents to your account to assist y
 To add agents:
 1. Log in to the Dashboard.
 2. Click **+ Add POS Agent** under **Refer clients to Razorpay POS!**.
-    ![Add POS agent from Partner Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-pos-agent.jpg.md)
+    ![Add POS agent from Partner Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-pos-agent.jpg.md)
 3. Enter the email id of the agent and select the **Role** as **POS Partner Agent**.
-    ![Enter POS Agent Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-pos-agent-details.jpg.md)
+    ![Enter POS Agent Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-pos-agent-details.jpg.md)
 4. Click **Send Invitation**.
 
 ## Refer Product to Clients 
@@ -50,17 +50,17 @@ Refer and invite your customers to apply for Razorpay POS. This option is suitab
             1. Log in to the Dashboard.
             2. In the **Partner** section, navigate to **Affiliate Accounts**.
             3. Click **Share Referral Link**.
-                 ![POS Partners - share referral link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-share-referral-link.jpg.md)
+                 ![POS Partners - share referral link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-share-referral-link.jpg.md)
             4. Select **Razorpay POS**.
             5. If you want to perform KYC for your client, select **Yes, I will assist my client with their KYC**.
-                 ![POS - share referral link with KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos-referral-link-with-kyc.jpg.md)
+                 ![POS - share referral link with KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos-referral-link-with-kyc.jpg.md)
             6. You can share the link using:
                 - Copy button: This copies the referral link. You can copy-paste this link and send it via email or instant messaging apps such as WhatsApp.
                 - Facebook: Click the Facebook icon to share the referral link as a post on your Facebook account.
                 - X(Formerly Twitter): Click the X/Twitter icon to send a tweet with the referral link.
                 - WhatsApp: Click the WhatsApp icon to send a message with the referral link.
             7. If you do not want to perform KYC for your clients, select **No, my client will perform KYC on their own**. A **different** referral link will be displayed. You can share this link usinsg the above options.
-                ![POS Partners - share referral link without KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos-referral-link-without-kyc.jpg.md)
+                ![POS Partners - share referral link without KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos-referral-link-without-kyc.jpg.md)
 
                 
 > **INFO**
@@ -69,7 +69,7 @@ Refer and invite your customers to apply for Razorpay POS. This option is suitab
 >                 **Handy Tips**
 >                 
 >                 We recommended you to perform KYC for your clients as it decreases onboarding time by 50% and acts as a value-added service. During onboarding, your client will see a consent screen to allow you access to perform KYC. They need to approve it for you to submit the KYC form on their behalf.
->                    ![KYC consent form during client onboarding.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-consent-screen.jpg.md)
+>                    ![KYC consent form during client onboarding.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-consent-screen.jpg.md)
 >                 
 
             
@@ -86,11 +86,11 @@ You can invite clients for Razorpay POS using their email id to sign up and regi
             1. Log in to the Dashboard.
             2. Click **Partner** and navigate to **Affiliate Accounts**.
             3. Go to the **POS** tab and click **+ Add New Clients**.
-                 ![POS Partners - add new clients](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-pos-add-client.jpg.md)
+                 ![POS Partners - add new clients](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-pos-add-client.jpg.md)
             4. Under the **Using Email** tab, enter the **Client Name**, **Email ID** and **Contact number** _(optional)_ to which the invite link must be sent. Click **Next**.
-                 ![POS Partners - enter client details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos-partners-add-client.jpg.md)
+                 ![POS Partners - enter client details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos-partners-add-client.jpg.md)
             5. If you want to perform KYC for your client, select **Yes, I will assist my client with their KYC**. If not, select **No, my client will perform KYC on their own**. Click **Send Invite**. 
-                 ![POS Partners - perform client KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos-partners-add-sumb-do-kyc.jpg.md)
+                 ![POS Partners - perform client KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos-partners-add-sumb-do-kyc.jpg.md)
 
                 
 > **INFO**
@@ -99,7 +99,7 @@ You can invite clients for Razorpay POS using their email id to sign up and regi
 >                     **Handy Tips**
 >                     
 >                     We recommended you to perform KYC for your clients as it decreases onboarding time by 50% and acts as a value-added service. During onboarding, your client will see a consent screen to allow you access to perform KYC. They need to approve it for you to submit the KYC form on their behalf.
->                          ![KYC consent form during client onboarding.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-consent-screen.jpg.md)
+>                          ![KYC consent form during client onboarding.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-consent-screen.jpg.md)
 >                 
 
         
@@ -111,7 +111,7 @@ You can send invites to multiple users using the **Bulk Upload** option. Upload 
     
 ### Bulk Upload Template
 
-         To view and understand the file format requirements, download the [sample template](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/sample_invite_submerchant_batch.xlsx.md). The account creation template contains the following headers.
+         To view and understand the file format requirements, download the [sample template](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/sample_invite_submerchant_batch.xlsx.md). The account creation template contains the following headers.
 
             `name` _mandatory_
             : Name of the client's account.
@@ -142,14 +142,14 @@ You can send invites to multiple users using the **Bulk Upload** option. Upload 
             1. Log in to the Dashboard.
             2. Click **Partner** and navigate to **Affiliate Accounts**.
             3. Go to the **POS** tab and click **+ Add New Clients**.
-                 ![POS Partners - add new clients](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-pos-add-client.jpg.md)
+                 ![POS Partners - add new clients](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-pos-add-client.jpg.md)
             4. Go to the **Bulk Upload** tab.
             5. Upload the file. You can drag and drop or **click to upload**. 
-                 ![POS Partners - Refer add multiple clients](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos-partners-add-bulk.jpg.md)
+                 ![POS Partners - Refer add multiple clients](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos-partners-add-bulk.jpg.md)
             6. The file is validated for any associated errors and uploaded to the Razorpay server. Click **Next**.
-                 ![POS partners - bulk upload clients](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos-partners-send-invite-bulk.jpg.md)
+                 ![POS partners - bulk upload clients](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos-partners-send-invite-bulk.jpg.md)
             7. If you want to perform KYC for your client, select **Yes, I will assist my client with their KYC**. If not, select **No, my client will perform KYC on their own**. Click **Send Invites** to send invites to your clients via email.
-                 ![POS Partners - perform client KYC in bulk upload](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos-partners-add-sumb-do-kyc-bulk.jpg.md)
+                 ![POS Partners - perform client KYC in bulk upload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos-partners-add-sumb-do-kyc-bulk.jpg.md)
 
                 
 > **INFO**
@@ -158,7 +158,7 @@ You can send invites to multiple users using the **Bulk Upload** option. Upload 
 >                 **Handy Tips**
 >                 
 >                 We recommended you to perform KYC for your client as it decreases onboarding time by 50% and acts as a value-added service. During onboarding, your client will see a consent screen to allow you access to perform KYC. They need to approve it for you to submit the KYC form on their behalf.
->                    ![KYC consent form during client onboarding.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-consent-screen.jpg.md)
+>                    ![KYC consent form during client onboarding.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-consent-screen.jpg.md)
 >                 
 
             Some leads may be missing from the Dashboard due to failures. Please check for Razorpay's status email in your inbox. This mail contains the details of the failed leads.
@@ -191,4 +191,4 @@ For queries or assistance in any of the steps mentioned above, reach out to your
 ### Related Information 
 
 - [Razorpay POS](https://razorpay.com/pos/)
-- [About Partners](@/Applications/MAMP/htdocs/new-docs/llm-content/partners.md)
+- [About Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners.md)

@@ -19,7 +19,7 @@ var options = {
 
 The script that `callback_url` points to should to handle incoming `POST` requests. 
 
-For a successful payment, the callback URL will have **razorpay_payment_id**. In addition, **razorpay_order_id** and **razorpay_signature** will be returned in the request body, provided your server-side has been integrated with Orders API. Know more about [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+For a successful payment, the callback URL will have **razorpay_payment_id**. In addition, **razorpay_order_id** and **razorpay_signature** will be returned in the request body, provided your server-side has been integrated with Orders API. Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 > **INFO**
 >
@@ -72,7 +72,7 @@ The JavaScript code loaded into WebView calls the native methods of **PaymentInt
 
 ## Enable Cookies
 
-You should enable cookies on your app to access features such as **saved cards**. Know more about [saved cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/checkout-features/#flash-checkout.md). 
+You should enable cookies on your app to access features such as **saved cards**. Know more about [saved cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-features.md#flash-checkout). 
 
 ## Code to Enable Cookies
 

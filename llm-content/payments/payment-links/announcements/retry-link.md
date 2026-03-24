@@ -12,11 +12,11 @@ Presenting **Retry Links**, a new feature to help convert customers who dropped 
 ## How does it Work?
 
 - When a payment fails on your website, your customers will receive the following notification on the payment gateway. 
-    ![Payment Failed](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pl-payment-retry-notification.jpg.md)
+    ![Payment Failed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pl-payment-retry-notification.jpg.md)
 - They will also receive an SMS with a link to retry the payment.
-     ![Payment Failed](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pl-payment-retry-message.jpg.md)
+     ![Payment Failed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pl-payment-retry-message.jpg.md)
 - The link will take them to the checkout page where they can complete their order.
-    ![Payment Failed](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pl-retry-link.jpg.md)
+    ![Payment Failed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pl-retry-link.jpg.md)
 
 This feature will be made available for your account on **9th February 2022**. 
 More details and reports will be available under the report section of the Dashboard.

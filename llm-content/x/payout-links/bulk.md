@@ -10,20 +10,20 @@ Create Payout Links in bulk using the **Bulk Payout Links** feature. You can cre
 - Recipients whose contact details you do not know. 
 - Recipients whose contact details you know. 
 
-You need your recipients' contact details to send the link. Once they receive the Payout Link, they can enter their account details. RazorpayX then creates a [Contact](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts.md) and the respective [Fund Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts.md). 
+You need your recipients' contact details to send the link. Once they receive the Payout Link, they can enter their account details. RazorpayX then creates a [Contact](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md) and the respective [Fund Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts.md). 
 
 To create Bulk Payout Links from the RazorpayX Dashboard:
 1. Download the [sample template](#sample-template).
 1. Add data to the template as per the [required fields](#requested-fields-in-template).
 1. Upload the template on the [Dashboard](https://x.razorpay.com/).
 
-![Create Bulk Payout Links Process from uploaded → created → processed](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-bulk-upload.jpg.md)
+![Create Bulk Payout Links Process from uploaded → created → processed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-bulk-upload.jpg.md)
 
 ## Sample Template
 
 Download the sample template in `.csv` format. Check the fields you must populate to create corresponding Payout Links.
 
-[Download .csv](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/sample_batch_payout_links.csv.md)
+[Download .csv](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/sample_batch_payout_links.csv.md)
 
 ### Requested Fields in Template
 
@@ -94,10 +94,10 @@ Additional classifications can be created from the Dashboard if required.
 : `string` You can enter custom notes for your reference. Enter the note description in this column. Description is not visible to the contact. For example, `Evening Batch`.
 
 `Expiry Date` _optional_
-: `string` After you [enable expiry](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/set-expiry/#enable-expiry.md), you can set the expiry date for the payout link. For example, `22/07/2021`. 
+: `string` After you [enable expiry](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/set-expiry.md#enable-expiry), you can set the expiry date for the payout link. For example, `22/07/2021`. 
 
 `Expiry Time` _optional_
-: `string` After you [enable expiry](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/set-expiry/#enable-expiry.md), you can enter the expiry time for the payout link. Input should be in the 24-hour format. For example, `14:52`.
+: `string` After you [enable expiry](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/set-expiry.md#enable-expiry), you can enter the expiry time for the payout link. Input should be in the 24-hour format. For example, `14:52`.
 
 ## Process Bulk Payout Links
 
@@ -105,7 +105,7 @@ To upload and process a bulk file using the RazorpayX Dashboard:
 
 1. Log in to your [RazorpayX Dashboard](https://x.razorpay.com/).
 1. Navigate to **Payout Links** → **Bulk Payout Links** → **+ BULK PAYOUT LINK**.
-   ![Navigating to uploading bulk Payout Links file on the X Dashboard.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-upload-payoutlink-bulkfile.jpg.md)
+   ![Navigating to uploading bulk Payout Links file on the X Dashboard.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-upload-payoutlink-bulkfile.jpg.md)
 1. Download or upload the file. 
    - You can download the [.csv file sample template](#sample-template) from the Dashboard. 
    - Or if your template is ready, use **Click to Upload** and upload the file.
@@ -122,7 +122,7 @@ To upload and process a bulk file using the RazorpayX Dashboard:
 > 
 > **Handy Tips**
 > 
-> You can also [set expiry on Payout Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/set-expiry.md).
+> You can also [set expiry on Payout Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/set-expiry.md).
 > 
 
 ## Bulk Upload Status
@@ -134,10 +134,10 @@ After you upload the Payout Links Bulk Upload file, it moves through the followi
 > 
 > **Watch Out!**
 > 
-> The processed state means the bulk file was fully processed. To check the status of the individual Payout Links, download the [Bulk Payout Links Report](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/report-and-errors.md).
+> The processed state means the bulk file was fully processed. To check the status of the individual Payout Links, download the [Bulk Payout Links Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/report-and-errors.md).
 > 
 
-![Bulk Payout Links Statuses](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-bulk-upload.jpg.md)
+![Bulk Payout Links Statuses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-bulk-upload.jpg.md)
 
 - `created`: 
 
@@ -155,12 +155,12 @@ A Payout Link created using the bulk upload feature can have the following statu
 - `processed`
 - `cancelled`
 - `expired`
-![Payout Links States and Life Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-payout_links_states.jpg.md)
+![Payout Links States and Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-payout_links_states.jpg.md)
 
-Know more about [Payout Links Statuses](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/life-cycle.md) and [Payout Statuses](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle/#payout-states.md).
+Know more about [Payout Links Statuses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/life-cycle.md) and [Payout Statuses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md#payout-states).
 
 ### Related Information
 
-- [About Payout Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links.md)
-- [Set Expiry for Payout Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/set-expiry.md)  
-- [Shopify Payout Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/shopify.md)
+- [About Payout Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links.md)
+- [Set Expiry for Payout Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/set-expiry.md)  
+- [Shopify Payout Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/shopify.md)

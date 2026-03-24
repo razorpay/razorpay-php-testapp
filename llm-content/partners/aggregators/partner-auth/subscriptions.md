@@ -23,7 +23,7 @@ Given below is the sample code for the Create a Subscription API. Pass the `acco
 > **Handy Tips**
 > 
 > 
-> You should [create a plan](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/create-plan.md) before creating a subscription.
+> You should [create a plan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/create-plan.md) before creating a subscription.
 > 
 > 
 
@@ -307,4 +307,4 @@ body, err := client.Subscription.All(options, extraHeaders)
 
 ### Related Information
 
-- [Subscriptions API documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions.md).
+- [Subscriptions API documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions.md).

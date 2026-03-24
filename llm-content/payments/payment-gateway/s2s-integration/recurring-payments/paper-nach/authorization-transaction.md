@@ -53,7 +53,7 @@ The acceptable image formats and size are:
 
 #### Error Reasons
 
-To learn about errors, refer to the FAQ [Upload the NACH File](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/paper-nach/faqs.md) section.
+To learn about errors, refer to the FAQ [Upload the NACH File](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/paper-nach/faqs.md) section.
 
 ## 1.2. Using a Registration Link
 

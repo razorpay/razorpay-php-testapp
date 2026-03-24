@@ -29,10 +29,10 @@ To use RTO intelligence:
 >     To activate Magic Checkout:
 >     
 >      1. Click **Activate** under **Enable RTO Intelligence**.
->          ![Activate Magic Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-cod-activate-magic.jpg.md)
+>          ![Activate Magic Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-cod-activate-magic.jpg.md)
 >      1. On the **Checkout Settings** page, turn on **Enable Magic Checkout**.
 >      1. Click **Save Settings**.
->        ![Enable Magic Checkout to activate RTO Intelligence](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-checkout-cod-enable-magic.jpg.md)
+>        ![Enable Magic Checkout to activate RTO Intelligence](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-checkout-cod-enable-magic.jpg.md)
 >     
 >   
 > 
@@ -40,4 +40,4 @@ To use RTO intelligence:
 
 ## Next Steps
 
-Integrate with [Logistics Partners](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence/logistics-partners.md) like Shiprocket, Delhivery, iThink Logistics, Unicommerce and ClickPost to easily fetch order status.
+Integrate with [Logistics Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence/logistics-partners.md) like Shiprocket, Delhivery, iThink Logistics, Unicommerce and ClickPost to easily fetch order status.

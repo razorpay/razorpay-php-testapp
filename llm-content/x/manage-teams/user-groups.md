@@ -13,7 +13,7 @@ You can create separate group types for users based on your organisations' need.
 - **Regions** like South Bangalore, East Bangalore.
 - **Locations** like MG Road, Koramangala, Whitefield and so on.
 
-[Raise a support ticket](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support/#raise-a-new-request.md) to set up a group type based on your requirement for your MiD. Once the group types have been created, you can navigate to **Accounts & Settings** → **Team Management** → **User Groups** → to view group types, groups, members and perform Dashboard actions. You can add groups under the group types and invite users.
+[Raise a support ticket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#raise-a-new-request) to set up a group type based on your requirement for your MiD. Once the group types have been created, you can navigate to **Accounts & Settings** → **Team Management** → **User Groups** → to view group types, groups, members and perform Dashboard actions. You can add groups under the group types and invite users.
 
     
 ### Advantages
@@ -24,34 +24,34 @@ You can create separate group types for users based on your organisations' need.
          - **End-to-end data in one place**: You get full financial control with the availability of data and download reports for easy tracking and verification. You can also download data based on group type. For example, data for a particular team or department.
         
 
-To understand the Dashboard actions, assume that an organisation, Acme Corp., has [asked RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support/#raise-a-new-request.md) to create two user group types for them:
+To understand the Dashboard actions, assume that an organisation, Acme Corp., has [asked RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#raise-a-new-request) to create two user group types for them:
 - Teams
 - Departments
 
-![Teams and departments](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-ug-1-ss.jpg.md)
+![Teams and departments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-ug-1-ss.jpg.md)
 
 ## Add a Group 
 
-You can add groups one by one or [request RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support/#raise-a-new-request.md) to create the groups.
+You can add groups one by one or [request RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#raise-a-new-request) to create the groups.
 
 To add a group, in this case, a department, you must: 
 1. Log in to your [RazorpayX Dashboard](https://x.razorpay.com/).
 2. Navigate to **My Account and Settings** → **Team Management** → **User Groups**.
 3. Select the group type, that is, Departments and click **+ Department**.
 4. Enter the name and description of the department and select **Head of Department** from list of Team Members.
-    ![Enter user details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-ug-add-department.jpg.md)
+    ![Enter user details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-ug-add-department.jpg.md)
 5. Click **Create**. A new group 'Department' is added successfully.
 
 ## Add a User to a Group
 
-If you require multiple roles, you can [create multiple user roles](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/create-user-role.md) based on your requirements and invite the users. You can also [raise a request](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support/#raise-a-new-request.md) with us to create user groups in bulk, once you have created all the required roles.
+If you require multiple roles, you can [create multiple user roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/create-user-role.md) based on your requirements and invite the users. You can also [raise a request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#raise-a-new-request) with us to create user groups in bulk, once you have created all the required roles.
 
 To add a user to a group, in this case, a department, you must: 
 1. Log in to your [RazorpayX Dashboard](https://x.razorpay.com/).
 2. Navigate to **My Account and Settings** → **Team Management** → **Team Members** and click **+ Team Member**.
 3. Enter the team member details and select a department and **Reporting Manager** from the drop-down.
-    ![Team member details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-ug-add-team-member.jpg.md)
-4. Select the role to be assigned to the user or [**+ Create New Role**](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/create-user-role.md). Review the permissions and click **Send Invite**.
+    ![Team member details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-ug-add-team-member.jpg.md)
+4. Select the role to be assigned to the user or [**+ Create New Role**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/create-user-role.md). Review the permissions and click **Send Invite**.
 5. Enter the OTP sent to your registered mobile number and click **Verify & Invite**.
 
 You have successfully sent an email invite to your team member. They can **Accept Invite** via their email.
@@ -63,7 +63,7 @@ To resend an invite, you must:
 2. Navigate to **My Account and Settings** → **Team Management** → **Team Members**.
 3. Hover over the user to who you want to resend the invite. Click on the Vertical Ellipsis **⋮** → **Resend Invite**.
 
-![Remove or resend invite](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-ug-invite.jpg.md)
+![Remove or resend invite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-ug-invite.jpg.md)
 
 You have successfully sent an email invite to your team member. They can **Accept Invite** via their email.
 
@@ -91,7 +91,7 @@ You have successfully updated the details of the user.
 > 
 > **Handy Tips**
 > 
-> You can navigate to **My Account and Settings** → **Team Management** → **Roles & Permissions** to [edit the permissions](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/create-user-role/#edit-custom-user-roles.md) for different roles.
+> You can navigate to **My Account and Settings** → **Team Management** → **Roles & Permissions** to [edit the permissions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/create-user-role.md#edit-custom-user-roles) for different roles.
 > 
 
 ## Remove a User
@@ -120,4 +120,4 @@ Two types of workflows are available:
 - Workflow based on group types.
 - Workflow based on amount based on roles.
 
-You can [contact us](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support/#raise-a-new-request.md) to set up, modify or remove workflow/s based on your requirements for POs, Invoices or Payouts.
+You can [contact us](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#raise-a-new-request) to set up, modify or remove workflow/s based on your requirements for POs, Invoices or Payouts.

@@ -18,33 +18,33 @@ Following are the various ecommerce plugins and supported platforms:
         
         Plugins | Payment Gateway | Route | Subscriptions
         ---
-        [Arastta](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/arastta.md) | ✓ | x | x 
+        [Arastta](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/arastta.md) | ✓ | x | x 
         ---
-        [BigCommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/bigcommerce.md) | ✓ | x | x 
+        [BigCommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/bigcommerce.md) | ✓ | x | x 
         ---
-        [CS-Cart](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/cs-cart.md) | ✓ | x | x 
+        [CS-Cart](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/cs-cart.md) | ✓ | x | x 
         ---
-        [Drupal Commerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/drupal-commerce.md) | ✓ | x | x 
+        [Drupal Commerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/drupal-commerce.md) | ✓ | x | x 
         ---
-        [Easy Digital Downloads](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/easy-digital-downloads.md) | ✓ | x | x 
+        [Easy Digital Downloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/easy-digital-downloads.md) | ✓ | x | x 
         ---
-        [Gravity Forms](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/gravity-forms.md) | ✓ | x | x 
+        [Gravity Forms](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/gravity-forms.md) | ✓ | x | x 
         ---
-        [ Magento](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/magento.md) | ✓ | x | ✓ 
+        [ Magento](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/magento.md) | ✓ | x | ✓ 
         ---
-        [OpenCart](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/open-cart.md) | ✓ | x | ✓ 
+        [OpenCart](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/open-cart.md) | ✓ | x | ✓ 
         ---
-        [PrestaShop](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/prestashop.md) | ✓ | x | x 
+        [PrestaShop](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/prestashop.md) | ✓ | x | x 
         ---
-        [Shopify](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify.md) | ✓ | x | x 
+        [Shopify](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify.md) | ✓ | x | x 
         ---
-        [WHMCS](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/whmcs.md) | ✓ | x | x 
+        [WHMCS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/whmcs.md) | ✓ | x | x 
         ---
-        [Wix](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/wix.md) | ✓ | x | x 
+        [Wix](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/wix.md) | ✓ | x | x 
         ---
-        [WooCommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce.md) | ✓ | ✓ | ✓ 
+        [WooCommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce.md) | ✓ | ✓ | ✓ 
         ---
-        [WordPress](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/wordpress.md) | ✓ | x | x 
+        [WordPress](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/wordpress.md) | ✓ | x | x 
         
     
     
@@ -52,13 +52,13 @@ Following are the various ecommerce plugins and supported platforms:
         
         Plugins | Payment Gateway | Route | Subscriptions
         ---
-        [Razorpay Direct - Credit Card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/razorpay-direct-credit-card.md) | x | x | x 
+        [Razorpay Direct - Credit Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/razorpay-direct-credit-card.md) | x | x | x 
         ---
-        [Shopify - Appmaker](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/shopify-appmaker.md) | x | x | x 
+        [Shopify - Appmaker](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/shopify-appmaker.md) | x | x | x 
         
     
 
-You can [build your own plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/build-your-own.md) in case the plugin you are looking for is not listed above.
+You can [build your own plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/build-your-own.md) in case the plugin you are looking for is not listed above.
 
 ### Frequently Asked Questions
 
@@ -88,7 +88,7 @@ You can [build your own plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/
     
 ### 2. I am using a platform not listed in Razorpay's plugin directory. How do I integrate Razorpay?
 
-         For platforms without an official Razorpay plugin, you have two options: contact your platform's support team to check if they offer Razorpay integration support, or use Razorpay's APIs to [build a custom integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/build-your-own.md).
+         For platforms without an official Razorpay plugin, you have two options: contact your platform's support team to check if they offer Razorpay integration support, or use Razorpay's APIs to [build a custom integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/build-your-own.md).
         
 
     
@@ -105,6 +105,6 @@ You can [build your own plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/
 
 ### Related Information
 
-- [How Payment Gateway Works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md)
-- [Features](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/features.md)
-- [Supported Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods#supported-payment-methods.md)
+- [How Payment Gateway Works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md)
+- [Features](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/features.md)
+- [Supported Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md#supported-payment-methods)

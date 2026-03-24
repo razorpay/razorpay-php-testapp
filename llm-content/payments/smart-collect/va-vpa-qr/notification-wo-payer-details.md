@@ -8,7 +8,7 @@ description: Receive notifications for your Razorpay virtual account for payment
 All payments made using Smart Collect will show up on your Dashboard as well as in the usual payment response APIs, as payments made with method `bank_transfer`.
 
 ## Webhooks
-Payments made using this method will also trigger webhooks much like regular payments. To use webhooks, refer our [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) documentation.
+Payments made using this method will also trigger webhooks much like regular payments. To use webhooks, refer our [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) documentation.
 
 ### Virtual Account Credited Event
 

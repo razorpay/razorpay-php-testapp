@@ -16,7 +16,7 @@ GoPay is part of the GoJek super app ecosystem, which is widely-used e-wallet in
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -27,7 +27,7 @@ GoPay is part of the GoJek super app ecosystem, which is widely-used e-wallet in
 > **Handy Tips**
 > 
 > - List of [supported region and currency](#supported-region-and-currency).
-> - Razorpay's [pay in native currency](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion.md) feature will ensure that your customer is shown the right currency.
+> - Razorpay's [pay in native currency](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion.md) feature will ensure that your customer is shown the right currency.
 > 
 
 ## Advantages
@@ -46,13 +46,13 @@ GoPay is part of the GoJek super app ecosystem, which is widely-used e-wallet in
 
 Payments follow standard refund and settlement timelines.
 
-- You can refund customer payments made using GoPay by following the usual [refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds.md) process.  
+- You can refund customer payments made using GoPay by following the usual [refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md) process.  
  
 - GoPay payments take T+22 days to get settled to your Razorpay account.
 
 ### Supported Integrations
 
-Secure [S2S integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/gopay/s2s-integration.md) for seamless payment processing.
+Secure [S2S integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/gopay/s2s-integration.md) for seamless payment processing.
 
 ### Supported Region and Currency
 

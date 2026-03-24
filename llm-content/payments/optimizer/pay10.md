@@ -38,10 +38,10 @@ Follow the steps below to onboard Pay10 as a payment provider.
             2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
             3. In the top-right section, click **Add Provider**.
             4. Select **Pay10** in the list of gateways available and enter the provider name and description. Click **Next**.
-                ![Add Provider Name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/paytenprovider-name.jpg.md)
+                ![Add Provider Name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/paytenprovider-name.jpg.md)
             6. Enter your **Pay Id**, **Key** and **Salt key**.
             7. Select the payment methods you want to enable for Pay10 and click **Submit**. 
-                ![Add Salt Key payten](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-key-salt-payten.jpg.md)
+                ![Add Salt Key payten](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-key-salt-payten.jpg.md)
             You have successfully added **Pay10** as a payment provider on Optimizer.
         
 
@@ -60,7 +60,7 @@ UPI | Live
 > 
 > **Handy Tips**
 > 
-> Pay10 supports [Third-Party Validation (TPV)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/third-party-validation/#supported-bank-gateways-payment-gateways-and-payment-methods.md).
+> Pay10 supports [Third-Party Validation (TPV)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/third-party-validation.md#supported-bank-gateways-payment-gateways-and-payment-methods).
 > 
 
 ## Best Practices
@@ -92,11 +92,11 @@ Before routing all traffic or some traffic to a new gateway via Optimizer, the f
             - In the **Parameter** field, select **Amount (In Rupees)**.
             - In the **Select Connection** field, select **Less Than**.
             - In the **Enter Amount** field, enter the value 2 and click **Next**.
-            ![Add Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-rule.jpg.md)
+            ![Add Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-rule.jpg.md)
         5. Enter the value 100 in the **Route field**, select **Pay10** in the **Payment Via** field, and click **Next**.
-            ![target Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/target-provider.jpg.md)
+            ![target Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/target-provider.jpg.md)
         6. Click **Publish Rule**.
-            ![Publish Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/publish-rule.jpg.md)
+            ![Publish Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/publish-rule.jpg.md)
         
 
 ## Go Live

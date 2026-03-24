@@ -8,17 +8,17 @@ description: Create, view and manage digital bills in real-time. Track transacti
 
 You can view and manage all the bills that you have sent to your customers in the **Bills** page. It provides complete visibility into each transaction along with options to manage, search and export billing data.
 
-![Billme Dashboard Bills Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bill-me-bills-page.jpg.md)
+![Billme Dashboard Bills Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bill-me-bills-page.jpg.md)
 
 ### Store Data
 Under this tab, you can view storewise billing data with options to filter, view, export and manage the transactions.
 
-![Bills Page Store Data](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/store-data-bills.jpg.md)
+![Bills Page Store Data](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/store-data-bills.jpg.md)
 
 ### Graphs
 Under this tab, you can see a graphical representation of your businesses performance over a period of time. You can analyse the sales trend graphs with real-time sales data, leading to improved business strategy.
 
-![Bills Page Graphs](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/graphs-page-bills.jpg.md)
+![Bills Page Graphs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/graphs-page-bills.jpg.md)
 
 ### Select Stores and Groups
 
@@ -26,10 +26,10 @@ You can view and manage bills pertaining to specific stores and store groups.
 
 To select stores and store groups:
 
-1. On the top right corner of the bills page, click **Select Stores & Groups**. ![Select Stores and Groups](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/billme-select-stores.jpg.md)
+1. On the top right corner of the bills page, click **Select Stores & Groups**. ![Select Stores and Groups](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/billme-select-stores.jpg.md)
     The **Select Stores & Groups** page appears.
 
-2. Click on the checkboxes against the stores you want to select. You can **Search by Store Name** on the search box. You can sort the stores based on States, Cities, Companies, Brands and Store Status.![Select Stores and Groups Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/select-billme-stores.jpg.md)
+2. Click on the checkboxes against the stores you want to select. You can **Search by Store Name** on the search box. You can sort the stores based on States, Cities, Companies, Brands and Store Status.![Select Stores and Groups Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/select-billme-stores.jpg.md)
 
 3. Click **Load Stores**.
     The list of selected stores appears.
@@ -42,7 +42,7 @@ You can also search for specific bills by specifying search parameters such as i
 
 To search for a specific bill:
 
-1. Select the search parameter.![Search Stores](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bills-search-function.jpg.md)
+1. Select the search parameter.![Search Stores](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bills-search-function.jpg.md)
 
 2. Enter the parameter value in the **Search by Parameter** box and click the search icon.
 The requested bill appears.
@@ -53,10 +53,10 @@ The filter option allows you to narrow down the list of bills quickly based on r
 
 To filter bills:
 
-1. Click the filter icon on the bills page.![Bills List Filter Button](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bills-filter-icon.jpg.md)
+1. Click the filter icon on the bills page.![Bills List Filter Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bills-filter-icon.jpg.md)
     The filter options popup page appears.
 
-2. Click on the date section to select a date range. You can click on the checkboxes before the filter parameters to make it active.![Bills Filter Options Popup Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bills-filter-options.jpg.md)
+2. Click on the date section to select a date range. You can click on the checkboxes before the filter parameters to make it active.![Bills Filter Options Popup Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bills-filter-options.jpg.md)
 
 3. Click **Save**.
     The filtered list of bills is displayed.

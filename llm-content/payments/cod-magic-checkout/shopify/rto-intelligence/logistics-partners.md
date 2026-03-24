@@ -22,8 +22,8 @@ Your logistics partner is responsible for delivering orders to your customers. Y
 
 You can integrate with the following logistics partners:
 
-- [Shiprocket](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence/logistics-partners/shiprocket.md)
-- [Delhivery](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence/logistics-partners/delhivery.md)
-- [iThink Logistics](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence/logistics-partners/ithink-logistics.md)
-- [Unicommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence/logistics-partners/unicommerce.md)
-- [ClickPost](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence/logistics-partners/clickpost.md)
+- [Shiprocket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence/logistics-partners/shiprocket.md)
+- [Delhivery](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence/logistics-partners/delhivery.md)
+- [iThink Logistics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence/logistics-partners/ithink-logistics.md)
+- [Unicommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence/logistics-partners/unicommerce.md)
+- [ClickPost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence/logistics-partners/clickpost.md)

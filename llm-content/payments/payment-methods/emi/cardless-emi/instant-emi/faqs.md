@@ -13,7 +13,7 @@ description: Find answers to frequently asked questions about Instant EMI.
     
 ### 2. What checkout types does Instant EMI support?
 
-         Currently, Instant EMI is available on [Razorpay Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+         Currently, Instant EMI is available on [Razorpay Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
         
 
     

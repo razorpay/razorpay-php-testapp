@@ -42,6 +42,6 @@ Reverse Penny Drop is ideal for situations where ownership verification matters,
 
 ### Related Information
 
-- [Fund Account Validation](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-account-validation.md)
-- [Reverse Penny Drop FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts/faqs/#reverse-penny-drop.md)
-- [Fund Account APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts/api.md)
+- [Fund Account Validation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-account-validation.md)
+- [Reverse Penny Drop FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts/faqs.md#reverse-penny-drop)
+- [Fund Account APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts/api.md)

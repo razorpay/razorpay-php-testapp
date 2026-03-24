@@ -42,7 +42,7 @@ You need to generate Razorpay API keys before using the node.
     - Prefix: `rzp_test_`
     - No real money transactions
     - Free to use
-    - Use [test cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details.md)
+    - Use [test cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md)
     
     Always start with test keys for safe development.
   
@@ -122,7 +122,7 @@ After installation, you can proceed with the following:
 - Create a new workflow or open an existing one.
 - Add the **Razorpay** node by searching and dragging it from the node panel.
 - Set up your Razorpay API credentials.
-- Choose the [operation](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/operations-reference.md) you want to perform (Create Order, Fetch Payment and so on.)
+- Choose the [operation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/operations-reference.md) you want to perform (Create Order, Fetch Payment and so on.)
 - Configure the required parameters for your selected operation.
 - Test your workflow to ensure everything works correctly.
 
@@ -132,14 +132,14 @@ After installation, you can proceed with the following:
 > **Handy Tips**
 > 
 > - Start with Test Mode: Always use test credentials when setting up and testing your workflows.
-> - Check API Documentation: Refer to [Razorpay API documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/api.md) for detailed parameter information.
-> - Use Webhooks: Consider setting up [Razorpay webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) for real-time payment updates in your workflows.
+> - Check API Documentation: Refer to [Razorpay API documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md) for detailed parameter information.
+> - Use Webhooks: Consider setting up [Razorpay webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) for real-time payment updates in your workflows.
 > 
 > 
 
 ### Related Documentation
 
-- [Explore Use Cases & Examples](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/use-cases.md)
-- [View Available Operations](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/operations-reference.md)
-- [Frequently Asked Questions](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/troubleshooting-faqs.md)
-- [Set up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md)
+- [Explore Use Cases & Examples](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/use-cases.md)
+- [View Available Operations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/operations-reference.md)
+- [Frequently Asked Questions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/troubleshooting-faqs.md)
+- [Set up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md)

@@ -65,7 +65,7 @@ If you are collecting customer consent, ensure that you pass the following param
 > 
 > **Handy Tips**
 > 
-> You can convert a token BIN received in response to an **actual BIN** using [token APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor/apis.md).
+> You can convert a token BIN received in response to an **actual BIN** using [token APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor/apis.md).
 > 
 
 #### Business Not Collecting Customer Consent
@@ -115,5 +115,5 @@ If you are not collecting customer consent, ensure that you pass the following p
 > 
 > **Handy Tips**
 > 
-> You can convert a token BIN received in response to an **actual BIN** using [token APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor/apis.md).
+> You can convert a token BIN received in response to an **actual BIN** using [token APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor/apis.md).
 >

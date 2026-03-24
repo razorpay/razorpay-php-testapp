@@ -47,7 +47,7 @@ If you are using Razorpay's Standard Checkout, you do not need to make any chang
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -71,14 +71,14 @@ If you are using Razorpay's Standard Checkout, you do not need to make any chang
      1. [Sign up](https://support.google.com/pay/business/answer/7684271?hl=en&ref_topic=7684388) for a business account with Google Pay.
      1.  and have them **whitelist your UPI ID/VPA**.
      1. Verify your UPI ID/VPA details on the [Google Merchant Console](https://support.google.com/pay/business/answer/7684398?hl=en&ref_topic=7684388). Google deposits a small amount into the bank account linked to your VPA (UPI ID).
-     1. You should have already integrated [Razorpay Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
-     1. [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard.
+     1. You should have already integrated [Razorpay Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+     1. [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard.
 
      @include payment-methods/google-pay-sdk-integration
     
     
 
-     This is same as [UPI Collect Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/#collect-flow.md).
+     This is same as [UPI Collect Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods.md#collect-flow).
 
      The customers enter their UPI handle in the **Enter your UPI ID** section at Checkout and click **Pay**. Collect the customer's UPI handle and pass it in the payment request with method as `upi`.
 
@@ -87,7 +87,7 @@ If you are using Razorpay's Standard Checkout, you do not need to make any chang
      
      **NPCI Restrictions for UPI Collect Flow**
 
-     - UPI Collect Flow is not available for these MCCs. You can use [UPI Intent Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/upi-intent.md) as an alternative.
+     - UPI Collect Flow is not available for these MCCs. You can use [UPI Intent Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/upi-intent.md) as an alternative.
         - 5816
         - 6540
         - 4812
@@ -108,4 +108,4 @@ To enable Google Pay on your custom checkout:
 1. Show Google Pay as a separate Option.
 1. Trigger payment when a user clicks Google Pay on your checkout.
 
-Know more about [Google Pay Custom Checkout Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/google-pay/custom-integration.md).
+Know more about [Google Pay Custom Checkout Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/google-pay/custom-integration.md).

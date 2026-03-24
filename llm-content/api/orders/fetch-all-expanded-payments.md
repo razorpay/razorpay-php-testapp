@@ -151,7 +151,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
 : `integer` The amount pending against the order.
 
 `currency` _mandatory_
-: `string` ISO code for the currency in which you want to accept the payment. The default length is 3 characters. Refer to the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).  
+: `string` ISO code for the currency in which you want to accept the payment. The default length is 3 characters. Refer to the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).  
 
 `receipt`
 : `string` Receipt number that corresponds to this order. Can have a maximum length of 40 characters and has to be unique.
@@ -212,7 +212,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
     
 
     `order_id`
-    : `string` Order id, if provided. Know more about [Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders.md).
+    : `string` Order id, if provided. Know more about [Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders.md).
 
     `description`
     : `string` Description of the payment, if any.

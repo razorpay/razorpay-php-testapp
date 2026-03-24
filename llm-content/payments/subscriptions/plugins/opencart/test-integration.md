@@ -63,4 +63,4 @@ Visa | International | 4012 8888 8888 1881
 
 ### Next Steps
 
-[Step 3: Go Live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/opencart/go-live-checklist.md)
+[Step 3: Go Live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/opencart/go-live-checklist.md)

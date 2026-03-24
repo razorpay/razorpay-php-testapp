@@ -10,7 +10,7 @@ description: Offer Pay Later (Buy Now, Pay Later) payment method at Razorpay Che
 
 Accept payments from your customers using the **Pay Later** service offered by various third-party providers. 
 
-- Know about [how to enable/disable Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-methods/#request-for-payment-methods-and-support.md) as a payment method for your account. 
+- Know about [how to enable/disable Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-methods.md#request-for-payment-methods-and-support) as a payment method for your account. 
 - No additional integration is required to show Pay Later on your Standard Checkout integration.
 
 > **WARN**
@@ -47,6 +47,6 @@ PayPal | `paypal`
 > 
 > **Handy Tips**
 > 
-> - PayPal now supports the Pay Later feature. You should enable both [PayPal](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/wallets/paypal/#to-enable-paypal.md) and the Pay Later options under Account & Settings → Pay Later (under Payment methods) on the Dashboard to enable the Pay Later feature.
-> - Check the standard interest rates charged by [Pay Later providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#2-what-are-the-standard-interest-rates-charged.md).
+> - PayPal now supports the Pay Later feature. You should enable both [PayPal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets/paypal.md#to-enable-paypal) and the Pay Later options under Account & Settings → Pay Later (under Payment methods) on the Dashboard to enable the Pay Later feature.
+> - Check the standard interest rates charged by [Pay Later providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#2-what-are-the-standard-interest-rates-charged).
 >

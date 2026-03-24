@@ -34,10 +34,10 @@ Razorpay uses Idempotency Key for payout API requests, so that the requests can 
       
         
 
-      To use the Payout Idempotency API, you must [create a Contact](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/create.md) and create a Fund Account (using [bank account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/fund-accounts/create/bank-account.md) details or [VPA](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/fund-accounts/create/vpa.md)). Ensure to [allowlist the IPs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/allowlist-ip.md) that you use while making payouts via APIs or the request will fail. 
+      To use the Payout Idempotency API, you must [create a Contact](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts/create.md) and create a Fund Account (using [bank account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/fund-accounts/create/bank-account.md) details or [VPA](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/fund-accounts/create/vpa.md)). Ensure to [allowlist the IPs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/allowlist-ip.md) that you use while making payouts via APIs or the request will fail. 
         
 
-      Fork the Razorpay Postman Public Workspace and try the Payout Idempotency API using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/api-keys.md).
+      Fork the Razorpay Postman Public Workspace and try the Payout Idempotency API using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/api-keys.md).
 
       [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/request/12492020-122ae23d-c682-44b1-904f-a56871286f94)
     
@@ -45,9 +45,9 @@ Razorpay uses Idempotency Key for payout API requests, so that the requests can 
     
 ### Related Guides
  
-      [About Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md)
-      [Set Up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payouts.md)
-      [Payouts APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts.md)
+      [About Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md)
+      [Set Up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payouts.md)
+      [Payouts APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts.md)
     
 
     

@@ -22,7 +22,7 @@ Given below is a list of frequently asked questions.
   For example, if the customer has 100 points on IndusInd and 200 points on Intermiles, then they can use either Intermiles **or** IndusInd for that given transaction. The balance amount can be paid using cards, netbanking, UPI, or other available payment modes on `Pay with Reward Points` after selecting the points. Once the customer redeems the reward points and pays the balance (using one of the other methods), they will earn more reward points from the same point partner as per earning logic of the point partner.
 
 #### 5. How will refunds work?
-  Refunds will be returned to the source. For example, if the customer had used Intermiles points to make the payment, the refund will be processed to their Intermiles account. In case of partial refunds, the amount paid by cards, netbanking, UPI or wallet will be refunded first, and then the points balance will be refunded. Know more about [refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds.md).
+  Refunds will be returned to the source. For example, if the customer had used Intermiles points to make the payment, the refund will be processed to their Intermiles account. In case of partial refunds, the amount paid by cards, netbanking, UPI or wallet will be refunded first, and then the points balance will be refunded. Know more about [refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds.md).
 
 #### 6. Can I configure other offers on Twid from the Dashboard?
   No, you cannot configure other offers on Twid from the Dashboard.

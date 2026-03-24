@@ -371,6 +371,6 @@ body, err := client.Payment.FetchMethods(nil, nil)
 
 ### Next Steps
 
-Now that you know the available payment methods, you can start creating payment requests using the [sample payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods.md) for the payment methods of your choice.
+Now that you know the available payment methods, you can start creating payment requests using the [sample payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods.md) for the payment methods of your choice.
 
 To get additional payment methods enabled for your account, contact our [Support team](https://razorpay.com/support/#request).

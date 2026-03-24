@@ -19,7 +19,7 @@ You can integrate your Payment Page with Magic Checkout using the following step
 
 1. Log in to the Dashboard and navigate to Payment Pages.
 2. Click the **+ Create Payment Page** button.
-    ![Create](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-magic-create.jpg.md)
+    ![Create](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-magic-create.jpg.md)
 3. Select a template from the list or click **Create your Own**.
     ![](/docs/assets/images/payment-pages-v3-create-your-own.jpg)
 4. Click **Magic Checkout Settings**.
@@ -39,7 +39,7 @@ You can integrate your Payment Page with Magic Checkout using the following step
     - State
     - Pincode
     ![](/docs/assets/images/pp-magic-fields.jpg)
-8. Continue with the creation of your Payment Page. Know more about how to [Create a Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/create/#step-2-add-page-details.md).
+8. Continue with the creation of your Payment Page. Know more about how to [Create a Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/create.md#step-2-add-page-details/).
 
 ## Edit Payment Page
 
@@ -48,7 +48,7 @@ To edit a Payment Page:
 2. In the list of **Payment Pages** that appears, click on the link of the page that you want to edit.
 3. In the top right corner of the page, click the **Edit** button.
     ![](/docs/assets/images/payment-pages-v3-edit-pp.jpg)
-4. The page appears in edit mode. You can now edit any of the fields from [step 4](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/plugins-add-ons/magic-checkout/#integration-steps:~:text=Click%20Magic%20Checkout%20Settings..md) onwards.
+4. The page appears in edit mode. You can now edit any of the fields from [step 4](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/plugins-add-ons/magic-checkout.md#integration-steps:~:text=Click%20Magic%20Checkout%20Settings.) onwards.
 
 ## Customer Experience 
 
@@ -72,14 +72,14 @@ When a customer clicks the Pay button, they should complete these steps on the M
 
 Navigate to **Transactions** and select the relevant **Order Id** to view the shipping and customer details.
 
-![Payment details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-magic-payment-details.jpg.md)
+![Payment details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-magic-payment-details.jpg.md)
 
 > **INFO**
 >
 > 
 > **Handy Tips**
 > 
-> After you integrate Payment Pages with Magic Checkout, you can also integrate with [Shiprocket](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/plugins-add-ons/shiprocket.md) if required.
+> After you integrate Payment Pages with Magic Checkout, you can also integrate with [Shiprocket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/plugins-add-ons/shiprocket.md) if required.
 > 
 
 > **WARN**

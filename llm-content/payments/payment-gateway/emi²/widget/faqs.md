@@ -26,7 +26,7 @@ Find answers to the commonly asked questions about the Affordability Widget.
 
          The widget includes:
          - All the offers that you have set up on Razorpay (along with an expandable view to read the details about each offer).
-         - All EMI, Cardless EMI, and Pay Later options enabled by you which satisfies the minimum order limit. Know more about the minimum order limit for [EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#2-what-are-the-standard-credit-card-interest.md), [Cardless EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs#cardless-emi.md) and [Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs#pay-later.md).
+         - All EMI, Cardless EMI, and Pay Later options enabled by you which satisfies the minimum order limit. Know more about the minimum order limit for [EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#2-what-are-the-standard-credit-card-interest), [Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#cardless-emi) and [Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#pay-later).
         
 
     
@@ -38,9 +38,9 @@ Find answers to the commonly asked questions about the Affordability Widget.
          2. Follow the integration steps specific to your integration. It is that simple!
 
          You can integrate the Affordability Widget with: 
-         - [Native website](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/native-web.md). 
-         - [WooCommerce website](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce.md).
-         - [Shopify store](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/shopify.md).
+         - [Native website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/native-web.md). 
+         - [WooCommerce website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce.md).
+         - [Shopify store](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/shopify.md).
         
 
     
@@ -52,13 +52,13 @@ Find answers to the commonly asked questions about the Affordability Widget.
     
 ### 5. Is the widget available on Android and iOS SDKs?
 
-         The widget is available on [Android](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/android.md) but **not** on iOS SDK.
+         The widget is available on [Android](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/android.md) but **not** on iOS SDK.
         
 
     
 ### 6. Is it possible to integrate the widget on my website using plugins?
 
-         Yes, it is possible to integrate the widget on your website using [WooCommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce.md) and [Shopify](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/shopify.md).
+         Yes, it is possible to integrate the widget on your website using [WooCommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce.md) and [Shopify](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/shopify.md).
         
 
     
@@ -76,9 +76,9 @@ Find answers to the commonly asked questions about the Affordability Widget.
 ### 8. What are the various features of the Affordability Widget that will help increase customer conversion?
 
          Following are the features of the Affordability Widget:
-         - [Discount Whisperer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/features/#discount-whisperer.md).
-         - [Eligibility Check](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/features/#eligibility-check.md).
-         - [Checkout from Widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/features/#checkout-from-widget.md).
+         - [Discount Whisperer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/features.md#discount-whisperer).
+         - [Eligibility Check](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/features.md#eligibility-check).
+         - [Checkout from Widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/features.md#checkout-from-widget).
         
 
     
@@ -100,7 +100,7 @@ Find answers to the commonly asked questions about the Affordability Widget.
          - Payment Methods
          - Theme
 
-         Know more about the [customisation options](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise.md).
+         Know more about the [customisation options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise.md).
         
 
     
@@ -108,9 +108,9 @@ Find answers to the commonly asked questions about the Affordability Widget.
 
          Yes, you can disable offers and your customers will not be able to view them on the widget. This will not impact the checkout; customers will be able to view the offers on the checkout.
 
-         Know more about how to [disable offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise/#14-disable-the-offers.md).
+         Know more about how to [disable offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise.md#14-disable-the-offers).
 
-         You can also disable [EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise/#212-disable-emi-options.md), [Cardless EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise/#222-disable-cardless-emi-options.md) and [Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise/#232-disable-pay-later-options.md) options on the widget.
+         You can also disable [EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise.md#212-disable-emi-options), [Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise.md#222-disable-cardless-emi-options) and [Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise.md#232-disable-pay-later-options) options on the widget.
         
 
     
@@ -124,13 +124,13 @@ Find answers to the commonly asked questions about the Affordability Widget.
          - Change link colour and font size.
          - Change footer colour, font size and logo variants.
 
-         Know more about [themes and colours](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise/#3-themes-and-colours.md).
+         Know more about [themes and colours](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise.md#3-themes-and-colours).
         
 
     
 ### 4. What is Checkout from Affordability Widget and how does it benefit my business?
 
-          [Checkout from Affordability Widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/standard-integration.md) is a feature that allows customers browsing EMI plans via the Affordability Widget on your website to directly checkout from the Widget itself. This enables a frictionless checkout journey for customers. 
+          [Checkout from Affordability Widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/standard-integration.md) is a feature that allows customers browsing EMI plans via the Affordability Widget on your website to directly checkout from the Widget itself. This enables a frictionless checkout journey for customers. 
           
           This feature is projected to increase the conversion rate from Widget to Checkout from 2.7% to 5-10%, thereby benefiting your business by improving customer experience and increasing sales.
         
@@ -143,21 +143,21 @@ Find answers to the commonly asked questions about the Affordability Widget.
           
          2. They are redirected to your checkout page, where they enter their contact and shipping details and proceed to checkout. 
 
-         3. They are then redirected to the Razorpay checkout if you have integrated the widget with our [Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/standard-integration.md). If not, they are redirected to your custom-built checkout. 
+         3. They are then redirected to the Razorpay checkout if you have integrated the widget with our [Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/standard-integration.md). If not, they are redirected to your custom-built checkout. 
          
          4. Once redirected to our Standard Checkout, the payment option or offer the customer selects on the widget appears pre-selected on checkout. 
          
          5. They enter the relevant details and complete the payment. 
-         ![Checkout from widget](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-widget.gif.md)
+         ![Checkout from widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-widget.gif.md)
         
 
     
 ### 6. What are the prerequisites to enable the Checkout from Affordability Widget feature?
 
           - Create a [Razorpay account](https://dashboard.razorpay.com/signup).
-          - Integrate with the [Razorpay Affordability Widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/native-web.md). This feature is only supported on Native Website.
-          - Integrate with [Razorpay Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
-          - Integrate Checkout from Widget using [Standard Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/standard-integration.md).
+          - Integrate with the [Razorpay Affordability Widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/native-web.md). This feature is only supported on Native Website.
+          - Integrate with [Razorpay Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+          - Integrate Checkout from Widget using [Standard Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/standard-integration.md).
 
              
 > **INFO**
@@ -165,7 +165,7 @@ Find answers to the commonly asked questions about the Affordability Widget.
 > 
 >              **Handy Tips**
 >             
->              If you have a [custom-built checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md), integrate with Checkout from Widget using [Custom Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/custom-integration.md).
+>              If you have a [custom-built checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md), integrate with Checkout from Widget using [Custom Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/custom-integration.md).
 >              
 
             
@@ -194,13 +194,13 @@ Find answers to the commonly asked questions about the Affordability Widget.
          Follow the steps given below if you are integrating with our plugin for the first time:
 
          1. Log in to the [WordPress account](https://wordpress.com/log-in), navigate to **WooCommerce** → **Settings** and click the **Payments** tab.
-            ![WooCommerce settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/woocommerce-settings.jpg.md)
+            ![WooCommerce settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/woocommerce-settings.jpg.md)
          2. In the **Payments** tab, scroll down to **Razorpay** and click **Manage** to edit the settings.
-            ![edit](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-razorpay-edit.jpg.md)
+            ![edit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-razorpay-edit.jpg.md)
          3. In the **Plugin Settings**, enter the **Key ID** and **Key Secret** generated from the Dashboard. Click **Save Changes**. 
-            ![API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-woocommerce-keys.jpg.md)
+            ![API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-woocommerce-keys.jpg.md)
 
-         You can now follow the [integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce#integration-steps.md).
+         You can now follow the [integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce.md#integration-steps).
         
 
     
@@ -208,7 +208,7 @@ Find answers to the commonly asked questions about the Affordability Widget.
 
          You can integrate with the Affordability Widget in a few simple steps:
          1. Install the WooCommerce plugin version **4.3.4** directly from the [WordPress Plugin Directory](https://wordpress.org/plugins/woo-razorpay/).
-         2. Create a [Razorpay account](https://dashboard.razorpay.com/signup) and follow the [integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce#integration-steps.md).
+         2. Create a [Razorpay account](https://dashboard.razorpay.com/signup) and follow the [integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce.md#integration-steps).
          3. You can enable the widget from the Dashboard. 
         
 
@@ -217,9 +217,9 @@ Find answers to the commonly asked questions about the Affordability Widget.
 
          Follow the steps given below to test the widget:
          1. On the WordPress Dashboard hover over **Razorpay WordPress** and click **Visit Store**.
-            ![Test widget](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-woocommerce-test.jpg.md)
+            ![Test widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-woocommerce-test.jpg.md)
          2. Click on a product to view the widget.
-            ![Preview](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-woocommerce-preview.jpg.md) 
+            ![Preview](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-woocommerce-preview.jpg.md) 
         
 
     
@@ -231,7 +231,7 @@ Find answers to the commonly asked questions about the Affordability Widget.
          - Payment Methods
          - Theme
 
-         Know more about the [customisation options](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce/customise.md). 
+         Know more about the [customisation options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce/customise.md). 
         
 
     
@@ -245,12 +245,12 @@ Find answers to the commonly asked questions about the Affordability Widget.
          2. Navigate to the WP Rocket plugin's settings page. 
          3. Add `/widgets/affordability/affordability.js` to the following sections in your settings:
             1. Navigate to **ADVANCE RULES** in the left menu → **Never Cache URL(s)**
-                ![Add URL to Never Cache URL(s) section](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/affordability-add-url-1.jpg.md)
+                ![Add URL to Never Cache URL(s) section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/affordability-add-url-1.jpg.md)
             1. Navigate to **CDN** in the left menu → **Exclude files from CDN**
-                ![Add the URL to Exclude files from CDN](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/affordability-add-url-2.jpg.md)
+                ![Add the URL to Exclude files from CDN](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/affordability-add-url-2.jpg.md)
          4. Navigate to **File Optimization** in the left nav and enable **Minify Javascript files** and 
          5. Add `/widgets/emi²/affordability.js` within the **Excluded Javascript Files** section.
-            ![Configure file optimization section](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/aff-wooc-file-optimization.jpg.md)
+            ![Configure file optimization section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/aff-wooc-file-optimization.jpg.md)
          6. Click **SAVE CHANGES**. The Affordability widget will appear again on your product page. 
         
 
@@ -264,7 +264,7 @@ Find answers to the commonly asked questions about the Affordability Widget.
          You can integrate with the Affordability Widget on your Shopify Store in a few simple steps:
 
          1. Enable the widget directly from your [Shopify app](https://accounts.shopify.com/store-login). 
-         1. Create a [Razorpay account](https://dashboard.razorpay.com/signup) and perform the [EMI² integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/shopify#integration-steps.md) steps on your Shopify store.
+         1. Create a [Razorpay account](https://dashboard.razorpay.com/signup) and perform the [EMI² integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/shopify.md#integration-steps) steps on your Shopify store.
         
 
     
@@ -309,7 +309,7 @@ Find answers to the commonly asked questions about the Affordability Widget.
 
          - Theme 
 
-         Know more about the [customisation options](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/shopify/customise.md).
+         Know more about the [customisation options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/shopify/customise.md).
         
 
     
@@ -321,12 +321,12 @@ Find answers to the commonly asked questions about the Affordability Widget.
     
 ### 8. What themes are compatible with the Razorpay Affordability Widget on the Shopify store?
 
-         To see the list of themes that are compatible with the Razorpay Affordability Widget on the Shopify store, refer to [Compatible Themes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/shopify/#compatible-themes.md).
+         To see the list of themes that are compatible with the Razorpay Affordability Widget on the Shopify store, refer to [Compatible Themes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/shopify.md#compatible-themes).
         
 
  
 
 ### Related Information
 
-- [EMI² Suite FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs.md)
-- [About Affordability Widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget.md)
+- [EMI² Suite FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md)
+- [About Affordability Widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget.md)

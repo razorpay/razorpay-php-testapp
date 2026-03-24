@@ -46,7 +46,7 @@ In addition to the account-level schedule explained above, you can also define t
 @include route/api/settlement-status
 
 ### Related Information
-- [Transfer Funds to Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md)
-- [Transfers and Related Fees](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-fees-example.md)
-- [Payment Reversals](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/reversal.md)
-- [Refund to Customers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/refund.md)
+- [Transfer Funds to Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md)
+- [Transfers and Related Fees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-fees-example.md)
+- [Payment Reversals](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/reversal.md)
+- [Refund to Customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/refund.md)

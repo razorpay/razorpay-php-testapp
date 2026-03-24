@@ -6,7 +6,7 @@ description: Create, Update and View Fund Accounts on the RazorpayX Dashboard.
 
 # About Fund Accounts
 
-Fund accounts are accounts associated with a [Contact](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts.md) (similar to a *beneficiary* in your netbanking portal).
+Fund accounts are accounts associated with a [Contact](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md) (similar to a *beneficiary* in your netbanking portal).
 - To make a payout to a Contact, you must add a Fund Account to the Contact. 
 - There is no limitation to the number of Fund accounts a Contact can have.
 
@@ -16,12 +16,12 @@ Fund accounts are associated with a Contact. Payouts are made to the Fund accoun
 
 - **Bank account**: Make payouts to a beneficiary's bank account via bank transfer using one of the available such as NEFT or IMPS.
 - **UPI ID (VPA)**: Make payouts to a beneficiary's UPI ID via a UPI transfer.
-- **Cards**: Know more about [Payouts to Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts-cards.md).
+- **Cards**: Know more about [Payouts to Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts-cards.md).
     - **Credit Card**: Make payouts directly to a beneficiary's credit card by bank transfer using NEFT or IMPS.
     - **Debit Card or Prepaid Card**: Make payouts directly to a beneficiary's debit card or prepaid card using the 'card' mode.
-- **Wallet**: Make payouts to your beneficiary's wallet. You can make payouts to a beneficiary via an Amazon Pay gift card. Know more about [Payouts to Amazon Pay Wallet](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payout-wallet.md).
+- **Wallet**: Make payouts to your beneficiary's wallet. You can make payouts to a beneficiary via an Amazon Pay gift card. Know more about [Payouts to Amazon Pay Wallet](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payout-wallet.md).
 
-Know about the [payout modes available for each Fund account type](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts#payout-modes-and-tat.md) and the [ list of banks/cards supported](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/cards/#banks.md).
+Know about the [payout modes available for each Fund account type](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#payout-modes-and-tat) and the [ list of banks/cards supported](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/cards.md#banks).
 
 ## Fund Account Actions
 
@@ -35,7 +35,7 @@ View fund account details | ✓ | ✓ | ✓
 ---
 Mark as inactive | ✓ | ✓ | x
 
-You can create Fund accounts using APIs either with [bank account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/fund-accounts/create/bank-account.md) details or [VPA](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/fund-accounts/create/vpa.md), or [create contacts in bulk](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts/bulk-uploads.md).
+You can create Fund accounts using APIs either with [bank account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/fund-accounts/create/bank-account.md) details or [VPA](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/fund-accounts/create/vpa.md), or [create contacts in bulk](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts/bulk-uploads.md).
 
 ## Dashboard Actions
 
@@ -63,14 +63,14 @@ To add a new Fund Account to an existing Contact from the Dashboard:
 5. Add the Fund Account details.
 6. Click **SAVE AND CLOSE**.
 
-You can also [create and update Fund Account using APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/fund-accounts/#list-of-endpoints.md). 
+You can also [create and update Fund Account using APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/fund-accounts.md#list-of-endpoints). 
 
 ### Next Steps
 
-- [Fund Account Validation](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-account-validation.md)
+- [Fund Account Validation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-account-validation.md)
 
 ### Related Information
 
-- [Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md)
-- [Contacts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts.md)
-- [Fund Account APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts/api.md)
+- [Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md)
+- [Contacts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md)
+- [Fund Account APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts/api.md)

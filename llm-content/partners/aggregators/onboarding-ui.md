@@ -27,15 +27,15 @@ Given below is the workflow:
 5. After the merchant authorises to connect your platform/account, we add the merchant as a sub-merchant under your Razorpay Partner account.
 6. You can start managing the merchant account and payments on their behalf after the account is activated.   
 
-![Onboarding flow for Aggregators](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/platforms-and-marketplaces-how-onboarding-works.gif.md)
+![Onboarding flow for Aggregators](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/platforms-and-marketplaces-how-onboarding-works.gif.md)
 
 ## Integration Steps
 
 Follow these steps to complete the integration:
 
-1. [Build Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-ui/build-integration.md): Perform the steps on your website/app and the Razorpay Dashboard.
-2. [Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-ui/test-integration.md): Test the integration before going live with the integration.
+1. [Build Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-ui/build-integration.md): Perform the steps on your website/app and the Razorpay Dashboard.
+2. [Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-ui/test-integration.md): Test the integration before going live with the integration.
 
 ### Related Information
 
-- [Fetch Merchant Account Onboarding Status](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-ui/status.md)
+- [Fetch Merchant Account Onboarding Status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-ui/status.md)

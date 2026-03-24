@@ -43,9 +43,9 @@ To integrate Zapier with your Payment Page:
 
 2. Name your Zap.
 3. Search for the Razorpay option in the list of triggers.
-    ![Razorpay Zapier Trigger](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/zapier-name-zap.jpg.md)
+    ![Razorpay Zapier Trigger](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/zapier-name-zap.jpg.md)
 4. Select the **Payment Page Paid** event and click **Continue**. 
-    ![Razorpay Payment Page Event](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/zapier-pp-paid.jpg.md)
+    ![Razorpay Payment Page Event](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/zapier-pp-paid.jpg.md)
 6. Click the **Sign in to Razorpay** button to connect to your Razorpay account through OAuth.
 7. You will see this screen if you are logged in, or else you will be prompted to log in.
 8. Once authorised, you will be redirected back to the Zapier page. You are now linked to your account. 
@@ -63,8 +63,8 @@ To integrate Zapier with your Payment Page:
 >     Test trigger is a sample payment that Zapier will pull from your account so that you can continue with the rest of your workflow.
 >     
 
-    ![Razorpay Test Trigger](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/zapier-test-trigger.jpg.md)
+    ![Razorpay Test Trigger](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/zapier-test-trigger.jpg.md)
 
 10. To get a test trigger, you need to have at least one success captured payment from the recent 1000 payments. You can repeat the process by choosing from a range of various apps. 
 
- ![Zapier App  Options](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/zapier-select-app.jpg.md)
+ ![Zapier App  Options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/zapier-select-app.jpg.md)

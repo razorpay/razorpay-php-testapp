@@ -31,5 +31,5 @@ _Bank portal is powered by Razorpay for Razorpay exclusive banks._
 
 ## Related Information
 
-- [Integration Steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/push-tokenisation/integration.md)
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/push-tokenisation/faqs.md)
+- [Integration Steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/push-tokenisation/integration.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/push-tokenisation/faqs.md)

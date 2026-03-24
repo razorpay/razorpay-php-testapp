@@ -18,7 +18,7 @@ You can generate both GST-compliant and non-GST invoices from the Dashboard.
 > 
 > If GSTIN is not provided before creating an invoice, the option to display **Tax Rate** on the invoice as per the **HSN/SAC code** of each item is not available. However, you can create GST-compliant invoices at any time by clicking the **GST Details** button on the main menu.
 > 
-![Add GSTIN](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/invoices-gstin-add.gif.md)
+![Add GSTIN](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/invoices-gstin-add.gif.md)
 > 
 
 ### International Currency Support
@@ -31,7 +31,7 @@ If the invoice is created using any of the supported international currencies, i
 
 While creating an invoice, click **Change Currency** to select from the supported international currencies. On selecting the required currency, the rate of all the line items in the current invoice will be reset to 0.
 
-Know more about [List of supported international currencies.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md)
+Know more about [List of supported international currencies.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies/)
 
 ## Create an Invoice From Dashboard
 
@@ -79,9 +79,9 @@ This field is displayed for GST-compliant invoices. This is a mandatory field as
 1. Select **Enable Partial Payments** to accept multiple payments for the invoice.
 1. Click **Save Invoice** to save the invoice as `draft`. You can also click **Finalize and Issue** to save the invoice and `issue` it to the selected customer.
 
-![Create invoice from Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/inv_cus_5.jpg.md)
+![Create invoice from Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/inv_cus_5.jpg.md)
 
-Click **All Invoices** on the top ribbon to view the newly created invoice in the list of all the invoices. Know more about [invoice states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/states.md).
+Click **All Invoices** on the top ribbon to view the newly created invoice in the list of all the invoices. Know more about [invoice states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/states.md).
 
 > **INFO**
 >
@@ -102,7 +102,7 @@ You can also create a customer while creating an invoice. Click **+Create New Cu
 
 The details of the newly created customer are auto-populated on the invoice draft. You can also click **Edit Customer** to make changes to the customer details. This customer will now be available to you for creating more invoices for this customer in future. This customer name is also displayed under the **Customers** menu.
 
-**Read More**: Know more about [customers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers.md).
+**Read More**: Know more about [customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md).
 
 ![](/docs/assets/images/invoices-inv_gst_1.jpg)
 
@@ -130,24 +130,24 @@ For GST-compliant invoices, specify additional details:
 ## Create an Invoice Using API
 
 You can create an invoice for the items ordered on your website or app by a customer using
-[this](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/invoices/#create-an-invoice.md) API.
+[this](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/invoices.md#create-an-invoice/) API.
 However, you can create only non-GST invoices using this API.
 
 ## What Next
-If you have saved the invoice as `draft`, you should next [issue it](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/issue.md) to the selected customer to receive payments. You can also choose to do any one of the following actions:
+If you have saved the invoice as `draft`, you should next [issue it](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/issue.md) to the selected customer to receive payments. You can also choose to do any one of the following actions:
 
-- [Update invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/update.md)
-- [Duplicate invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/duplicate.md)
-- [Delete invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/delete.md)
+- [Update invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/update.md)
+- [Duplicate invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/duplicate.md)
+- [Delete invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/delete.md)
 
 ### Related information
-- [Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices.md)
-- [Invoice States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/states.md)
-- [How Invoices Work](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/how-it-works.md)
-- [Download or Print an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/download-print.md)
-- [Update an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/update.md)
-- [Issue an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/issue.md)
-- [Search an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/search.md)
-- [Duplicate an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/duplicate.md)
-- [Cancel an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/cancel.md)
-- [Delete an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/delete.md)
+- [Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md)
+- [Invoice States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/states.md)
+- [How Invoices Work](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/how-it-works.md)
+- [Download or Print an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/download-print.md)
+- [Update an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/update.md)
+- [Issue an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/issue.md)
+- [Search an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/search.md)
+- [Duplicate an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/duplicate.md)
+- [Cancel an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/cancel.md)
+- [Delete an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/delete.md)

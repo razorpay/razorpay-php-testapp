@@ -6,7 +6,7 @@ description: Verify KYC and activate your RazorpayX Payroll account. Refer to th
 
 # KYC Verification
 
-After you sign up with [Payroll](https://payroll.razorpay.com/dashboard), start the KYC verification process to use all the Payroll [features](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll.md). 
+After you sign up with [Payroll](https://payroll.razorpay.com/dashboard), start the KYC verification process to use all the Payroll [features](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll.md). 
 
 ## How it Works 
 
@@ -16,7 +16,7 @@ There are two steps to verify KYC:
     1. [Authorised signatory](https://razorpay.com/docs/payments/glossary/#:~:text=days%20of%20creation.-,Authorised%20Signatory,-A%20person%20who). 
     1. Company's details using [applicable documents](#kyc-documents).
 
-![KYC onboarding page on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-kyc-setup.jpg.md)
+![KYC onboarding page on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-kyc-setup.jpg.md)
 
 ## Best Practices
 
@@ -29,8 +29,8 @@ There are two steps to verify KYC:
 - Proof of identity (PAN) and [authorised signatory's](https://razorpay.com/docs/payments/glossary/#:~:text=days%20of%20creation.-,Authorised%20Signatory,-A%20person%20who) address proof (Aadhar Card and Passport) should belong to the same person.
 - Do not close the window when verification is in progress. 
 - When providing company details: 
-    - If you are an existing [Razorpay PG](@/Applications/MAMP/htdocs/new-docs/llm-content/payments.md) merchant, the KYC fields are auto-filled and verified. 
-    - If you are an existing [RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md) user or you are using Razorpay products for the first time, follow the [below steps](#get-started) to verify your KYC.
+    - If you are an existing [Razorpay PG](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md) merchant, the KYC fields are auto-filled and verified. 
+    - If you are an existing [RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md) user or you are using Razorpay products for the first time, follow the [below steps](#get-started) to verify your KYC.
 
 ## Verify KYC 
 
@@ -38,7 +38,7 @@ To initiate KYC and activate your Payroll account:
 
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
 1. Click **Start** in the Organisation Setup widget on the Home Page. 
-    ![KYC onboarding page on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-kyc-setup.jpg.md)
+    ![KYC onboarding page on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-kyc-setup.jpg.md)
 1. Upload your bank details like account number and IFSC. You can wait for the details to be automatically verified by the system or complete the KYC verification process manually. 
 1. Click **Verify**. You can proceed to provide KYC documents for company details. 
 1. Provide the following details: 
@@ -48,7 +48,7 @@ To initiate KYC and activate your Payroll account:
     1. **Identity Proof**: Upload your PAN card copy for identity proof verification. The authorised signatory's address proof and the personal PAN card must match. 
     1. **Business Documents**: Upload the relevant [business documents](#kyc-documents) based on your business type. 
 
-        ![Upload relevant documents for Payroll KYC Verification](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-kyc-upload-docs.jpg.md)
+        ![Upload relevant documents for Payroll KYC Verification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-kyc-upload-docs.jpg.md)
 1. Click **Verify** after uploading all the documents. The KYC verification process takes 1-2 working days.
 
 ## KYC Documents 
@@ -144,5 +144,5 @@ Refer to the documents required for KYC verification per your business type.
 
 ### Related Information 
 
-- [Account Setup](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/quickstart.md)
-- [KYC Glossary](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/account-activation-support.md)
+- [Account Setup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/quickstart.md)
+- [KYC Glossary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/account-activation-support.md)

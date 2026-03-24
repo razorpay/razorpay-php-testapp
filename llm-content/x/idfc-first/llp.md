@@ -29,9 +29,9 @@ List of documents for LLP
 - **PAN** of the entity.
 - **Registered Office address proof** in the name of the entity.
 - **Communication address proof**, if different from registered address.
-- [**KYC of all the Partners/Authorised Signatories and Beneficial Owners**](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/kyc.md)
+- [**KYC of all the Partners/Authorised Signatories and Beneficial Owners**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/kyc.md)
 
-[Download Forms](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/IDFC.zip.md)
+[Download Forms](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/IDFC.zip.md)
 
 > **INFO**
 >

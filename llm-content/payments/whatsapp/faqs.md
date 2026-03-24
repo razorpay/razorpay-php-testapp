@@ -17,14 +17,14 @@ description: Find answers to common questions about Razorpay Payments on WhatsAp
 
          **Step 1: Integrate with WhatsApp Business API** 
 
-         You must first [integrate with WhatsApp Business API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/whatsapp/integrate.md) through a Business Solution Provider (BSP). If you have not done this yet, you can fill out [Razorpay's BSP inquiry form](https://form.typeform.com/to/ZpLyqJnU) or check [Meta's Partner Directory](https://betasite.razorpay.com/docs/razorpay/IN/ISS-1476065-integration-support-faqs/payments/whatsapp/integrate/#:~:text=Meta%20Partner%20directory) to find a suitable BSP.
+         You must first [integrate with WhatsApp Business API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/whatsapp/integrate.md) through a Business Solution Provider (BSP). If you have not done this yet, you can fill out [Razorpay's BSP inquiry form](https://form.typeform.com/to/ZpLyqJnU) or check [Meta's Partner Directory](https://betasite.razorpay.com/docs/razorpay/IN/ISS-1476065-integration-support-faqs/payments/whatsapp/integrate/#:~:text=Meta%20Partner%20directory) to find a suitable BSP.
 
          **Step 2: Link Razorpay Account with WhatsApp** 
 
          The linking process depends on your WhatsApp Business Account (WABA) ownership:
 
-         - [Self-Owned WABA](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/whatsapp/integrate/#self-owned-waba.md)
-         - [BSP-Owned WABA](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/whatsapp/integrate/#bsp-owned-waba-obo-model.md)
+         - [Self-Owned WABA](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/whatsapp/integrate.md#self-owned-waba)
+         - [BSP-Owned WABA](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/whatsapp/integrate.md#bsp-owned-waba-obo-model)
         
 
     

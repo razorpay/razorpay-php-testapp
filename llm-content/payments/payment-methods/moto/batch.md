@@ -16,7 +16,7 @@ You can use the MOTO (Mail-Order-Telephone-Order) payment method to charge a cus
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -57,7 +57,7 @@ A sample data row is shown below:
 > 
 > **Feature Request**
 > 
-> MOTO payments can also be processed using Razorpay token id if you are using tokenisation or a [saved card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/features/saved-cards.md) feature.
+> MOTO payments can also be processed using Razorpay token id if you are using tokenisation or a [saved card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/features/saved-cards.md) feature.
 > This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > 
 
@@ -92,7 +92,7 @@ A sample data row is shown below:
 
             `currency` _mandatory_
             : `string` The currency in which the payment is to be charged. For example, `INR`.
-You can select any one of the [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments.md).
+You can select any one of the [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md).
 
             `receipt` _optional_
             : `string` Unique reference entered by you the payment. For example, `#566`.

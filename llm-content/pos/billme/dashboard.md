@@ -10,7 +10,7 @@ The **Razorpay Billme** Dashboard provides seamless access to digital bills, dat
 
 The **Billme** Dashboard's homepage is your business summary page, providing real-time overview of all activities across Billme. It presents essential insights into billing, transactions, store performance, customer feedback and recent complaints.
 
-![Razorpay Billme Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/billme-live-dashboard.jpg.md)
+![Razorpay Billme Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/billme-live-dashboard.jpg.md)
 
 ## Overview
 
@@ -74,10 +74,10 @@ The Feedback & Complaints section displays a list of recent customer feedback en
 
 Hover over to the left side of the page to see the dynamic **Billme** dashboard menu.
 
-![Razorpay Billme Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/billme-dashboard-menu.jpg.md)
+![Razorpay Billme Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/billme-dashboard-menu.jpg.md)
 
 ### Related Information
 
-- [About Billme](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/billme.md)
-- [Bills](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/billme/dashboard/bills.md)
-- [Communication Channel](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/billme/dashboard/communication-channel.md)
+- [About Billme](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/billme.md)
+- [Bills](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/billme/dashboard/bills.md)
+- [Communication Channel](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/billme/dashboard/communication-channel.md)

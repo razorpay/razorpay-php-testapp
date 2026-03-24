@@ -40,5 +40,5 @@ Current Accounts per month | Incentive per account
 > 
 
 ### Related Information
-- [Commission for Payment Products](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/commissions.md)
-- [Commission Settlement Process](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/commissions/settlement-process.md)
+- [Commission for Payment Products](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/commissions.md)
+- [Commission Settlement Process](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/commissions/settlement-process.md)

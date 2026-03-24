@@ -34,7 +34,7 @@ In-Person | POS terminal transactions | All POS/offline transactions | POS devic
 ---
 Alternate Payment Method (International) | Balance from international payment methods such as PayPal, Stripe and other cross-border payment methods | International bank transfers, cross-border payments via supported APM providers | Settled separately from domestic balances. Subject to forex conversion and international settlement timelines.
 
-![razorpay settlements details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-settlements-details-segg-bal.jpg.md)
+![razorpay settlements details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-settlements-details-segg-bal.jpg.md)
 
 Each channel type has its own settlement schedule and settlement history.
 
@@ -71,7 +71,7 @@ On the Dashboard home page, you will see separate settlement cards for each acti
 
 ### View Settlements Using API
 
-You can view settlement details using the [Settlements API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/settlements.md).
+You can view settlement details using the [Settlements API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/settlements.md).
 
 ### Settlements Break-Up Description
 
@@ -88,7 +88,7 @@ To view the settlement timeline:
 3. Click on the **details** of the settlement id for which you want to view the timeline.
 4. You will be able to see the settlement timeline for that particular settlement id.
 
-    ![Razorpay Dashboard - View settlement timeline](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/settlements-details-timeline.jpg.md)
+    ![Razorpay Dashboard - View settlement timeline](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/settlements-details-timeline.jpg.md)
 
 5. Upon expanding the settlement timeline, you will be able to see the settlement schedule for that particular payment.
     
@@ -99,7 +99,7 @@ To view the settlement timeline:
 
 ## Reports
 
-Detailed insights can be gained using reports and real-time data on the Dashboard. These reports can then be used for accounting and reconciliation purposes. Know more about [ reports.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/reports.md)
+Detailed insights can be gained using reports and real-time data on the Dashboard. These reports can then be used for accounting and reconciliation purposes. Know more about [ reports.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/reports.md)
 
 ### Channel-Wise Settlement Reports
 
@@ -112,6 +112,6 @@ You can filter reports by channel type to reconcile settlements for each balance
 
 ### Related Information
 
-- [About Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements.md)
-- [Settlements API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/apis.md)
-- [ Settlement FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/faqs.md)
+- [About Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md)
+- [Settlements API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/apis.md)
+- [ Settlement FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/faqs.md)

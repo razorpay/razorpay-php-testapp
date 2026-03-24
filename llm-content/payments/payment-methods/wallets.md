@@ -11,7 +11,7 @@ With Razorpay, you can offer your customers Wallets as a payment method. A digit
 
 You can view the wallets enabled for your Razorpay account from the **Account & Settings** → **Payment methods** tab.
 
-![Enable Wallet - Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pay-pm-wallets.jpg.md)
+![Enable Wallet - Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pay-pm-wallets.jpg.md)
 
 > **INFO**
 >
@@ -19,7 +19,7 @@ You can view the wallets enabled for your Razorpay account from the **Account & 
 > 
 > **Additional Payment Methods**
 > 
-> You can raise requests for [additional payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-methods/#request-for-payment-methods.md). Know more about [Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-methods/#request-for-payment-methods.md).
+> You can raise requests for [additional payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-methods.md#request-for-payment-methods). Know more about [Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-methods.md#request-for-payment-methods).
 > 
 
 ## Supported Wallets
@@ -28,4 +28,4 @@ You can view the wallets enabled for your Razorpay account from the **Account & 
 
 ## Related Information
 
-[Payment Methods and Transaction Limit](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/transaction-limits/#payment-methods-and-transaction-limits.md)
+[Payment Methods and Transaction Limit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/transaction-limits.md#payment-methods-and-transaction-limits)

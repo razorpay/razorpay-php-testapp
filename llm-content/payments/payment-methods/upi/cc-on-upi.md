@@ -52,7 +52,7 @@ Customer Fee Bearer (CFB) on Credit Card on UPI is a payment feature that allows
 ### Prerequisites
 
 - This feature is available on the Axis Switch gateway only.
-- Integrate with [Razorpay Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/#integrate-payment-gateway-web-mobile-ecommerce-plugins.md).
+- Integrate with [Razorpay Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md#integrate-payment-gateway-web-mobile-ecommerce-plugins).
 - This feature is **not** available on UPI Collect method (NPCI restriction).
 - Certain business categories are restricted as per NPCI guidelines. The following MCC codes cannot accept credit card payments on UPI:
 
@@ -125,13 +125,13 @@ Customer Fee Bearer (CFB) on Credit Card on UPI is a payment feature that allows
 
          You can retrieve the details of the account type (bank account or credit card) used for UPI payments through the Payment Webhook, Fetch Payment API, and the Dashboard.
 
-         1. **Payment Webhook**: The payment entity will now include the payer account type details. Refer to the [Payment Authorized Payload](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments/#payment-authorized.md).
-         2. **Fetch Payment API**: The payment entity will now include the payer account type details. Refer to the [Fetch API sample code](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments#expanded-upi.md). 
+         1. **Payment Webhook**: The payment entity will now include the payer account type details. Refer to the [Payment Authorized Payload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md#payment-authorized).
+         2. **Fetch Payment API**: The payment entity will now include the payer account type details. Refer to the [Fetch API sample code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#expanded-upi). 
             1. Click on a UPI payment to look at the details of the payment.
             2. The payment drawer will display the following information for Credit Card payments on UPI:
                 1. Payment Method: UPI
                 2. Payer Account Type: Credit card
-                ![Image shows Credit Card payment via UPI on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cc-upi-dashboard.jpg.md)
+                ![Image shows Credit Card payment via UPI on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cc-upi-dashboard.jpg.md)
         
 
     

@@ -5,20 +5,20 @@ description: List of Dispute APIs available to perform various actions.
 
 # Disputes
 
-A [dispute](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes.md) arises when your customer or the issuing bank questions the validity of a payment. You can manage disputes using APIs or from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/#dashboard-actions.md) to ensure a seamless dispute management experience.
+A [dispute](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes.md) arises when your customer or the issuing bank questions the validity of a payment. You can manage disputes using APIs or from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes.md#dashboard-actions) to ensure a seamless dispute management experience.
 
  
 
- Fork the Razorpay Postman Public Workspace and try the Disputes APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+ Fork the Razorpay Postman Public Workspace and try the Disputes APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
  [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-0803d1d0-dbdf-4312-bd7b-b4817cea2840)
  
 
 ### Related Guides
 
-[About Disputes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes.md)
-[Set Up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md)
-[Webhook Payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/disputes.md)
+[About Disputes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes.md)
+[Set Up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)
+[Webhook Payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/disputes.md)
 
 ### Endpoints
 

@@ -7,7 +7,7 @@ description: Create, update and view Contacts on the RazorpayX Dashboard.
 # About Contacts
 
 A Contact can be a vendor or a customer to whom you need to send payouts (similar to a *beneficiary* in your netbanking portal).
-- You can add a Contact's name, email id, phone and [Fund Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts.md) details (bank account, UPI or both) while creating a Contact. 
+- You can add a Contact's name, email id, phone and [Fund Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts.md) details (bank account, UPI or both) while creating a Contact. 
 - You can start sending payouts once the Contact has been created.
 - There is no limit to the number of Contacts you can add.
 
@@ -16,7 +16,7 @@ A Contact can be a vendor or a customer to whom you need to send payouts (simila
 > 
 > **Contact Support**
 > 
-> This page is not meant for contacting Razorpay Support. Visit our [contact support page](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md) to contact our support team.
+> This page is not meant for contacting Razorpay Support. Visit our [contact support page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md) to contact our support team.
 > 
 
 ## Contact Types
@@ -38,9 +38,9 @@ You are not restricted to use only these `types`. You can create custom `types` 
          1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/).
          2. Navigate to **Contacts** on the left navigation and click **︙**.
          3. Click **Create Contact Type**.
-             ![Create Contact Type](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-contact-type-1.jpg.md)
+             ![Create Contact Type](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-contact-type-1.jpg.md)
          4. Enter the **Type Name** and click **CREATE CONTACT TYPE**.
-             ![Enter Contact Type name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-contact-type-2.jpg.md)
+             ![Enter Contact Type name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-contact-type-2.jpg.md)
 
          Or, first view the existing Contact Types and decide whether you want to create a new type.
 
@@ -49,7 +49,7 @@ You are not restricted to use only these `types`. You can create custom `types` 
          3. Click **View Contact Types**.
          4. Scroll to view all the available types or use search.
          5. Click **+ CREATE NEW CONTACT TYPE**.
-             ![View and create new Contact Type](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-contact-type-3.jpg.md)
+             ![View and create new Contact Type](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-contact-type-3.jpg.md)
          6. Enter the **Type Name** and click **CREATE CONTACT TYPE**.
         
 
@@ -67,7 +67,7 @@ View Contact details | ✓ | ✓ | x
 ---
 Mark as inactive | ✓ | ✓ | x
 
-You can [create Contacts using APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/create.md) or [create Contacts in bulk](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts/bulk-uploads.md).
+You can [create Contacts using APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts/create.md) or [create Contacts in bulk](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts/bulk-uploads.md).
 
 ## Create a Contact
 
@@ -77,12 +77,12 @@ You can [create Contacts using APIs](@/Applications/MAMP/htdocs/new-docs/llm-con
          1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/).
          2. You can create a Contact in two ways:
             - Navigate to the drop-down menu next to **+ Payouts** and click **Add Contact**.
-                 ![Create new Contact](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-create-contact.jpg.md)
+                 ![Create new Contact](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-create-contact.jpg.md)
             - Hover over **Contacts** on the left navigation and click **+**.
             - Press C on your keyboard.
             - Navigate to **Contacts** on the left navigation and click **+ CONTACT**.
          3. Enter contact details.
-                 ![Contact Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-contact-details.jpg.md)
+                 ![Contact Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-contact-details.jpg.md)
          4. Click **SAVE AND CLOSE**.
         
 
@@ -99,7 +99,7 @@ You can [create Contacts using APIs](@/Applications/MAMP/htdocs/new-docs/llm-con
          6. Click **SAVE AND CLOSE**.
         
 
-You can also [create](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/create.md) and [update](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/update.md) contacts using APIs. 
+You can also [create](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts/create.md) and [update](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts/update.md) contacts using APIs. 
 
 ## Mark Contact Inactive
 
@@ -112,14 +112,14 @@ Mark Contacts inactive instead of deleting them when you do not require them. Yo
          2. Navigate to **Contacts**.
          3. Select the Contact you want to mark inactive. A right-pane opens up.
          4. Click **Options** → **Mark as Inactive**.
-             ![Mark Contact Inactive](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-mark-contact-inactive.jpg.md)
+             ![Mark Contact Inactive](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-mark-contact-inactive.jpg.md)
         
 
 ## Next Steps
 
-Add [Fund Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts.md).
+Add [Fund Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts.md).
 
 ### Related Information
 
-- [Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md)
-- [Fund Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts/faqs.md)
+- [Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md)
+- [Fund Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts/faqs.md)

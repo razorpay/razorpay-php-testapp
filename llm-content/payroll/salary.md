@@ -6,26 +6,26 @@ description: Explore all the salary features in RazorpayX Payroll. Optimise your
 
 # Salary Setup
 
-On Payroll, you can automate paying your employees accurately and effortlessly. All payments are made directly to the employees' bank accounts and are systematically recorded in the [Salary Register](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/quickstart/#confirm-salary-components.md). 
+On Payroll, you can automate paying your employees accurately and effortlessly. All payments are made directly to the employees' bank accounts and are systematically recorded in the [Salary Register](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/quickstart.md#confirm-salary-components). 
 
 ## Payroll Salary Actions 
 
 With Payroll, salary disbursals are timely, precise and efficient. It can pay your employees in the folllowing ways:
-- Execute monthly payroll using [Run Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll.md). 
-- Make [one-time payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/one-time-payments.md), as necessary.
-- Approve and pay [Reimbursements](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/reimbursements.md).
+- Execute monthly payroll using [Run Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md). 
+- Make [one-time payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/one-time-payments.md), as necessary.
+- Approve and pay [Reimbursements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/reimbursements.md).
 - Approve and pay Advance Salary.
-- Create [bonuses](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/bonus.md) and add clawbacks.
-- Grant [employee loans](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/loans.md) at the time of need. 
+- Create [bonuses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/bonus.md) and add clawbacks.
+- Grant [employee loans](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/loans.md) at the time of need. 
 - Provide [flexible benefits](#avail-flexible-benefits) to employees.
 
 All of these options are available in the **Pay Employees** drop-down menu on your Payroll Dashboard.
 
-![Pay Employees drop-down higlighting: Run Payroll, One-time Payments, Advance Salary and Reimbursements.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-salary-pay-emp-tab.jpg.md)
+![Pay Employees drop-down higlighting: Run Payroll, One-time Payments, Advance Salary and Reimbursements.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-salary-pay-emp-tab.jpg.md)
 
 ## Setup Salary Structure 
 
-To pay salaries to your employees, you must first set up your salary structure for your organisation and configure flexible benefits for your employees. Know more about setting up a [default salary structure](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/quickstart#setup-default-salary-structure.md).
+To pay salaries to your employees, you must first set up your salary structure for your organisation and configure flexible benefits for your employees. Know more about setting up a [default salary structure](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/quickstart.md#setup-default-salary-structure).
 
 ### Custom Salary Structure 
 
@@ -51,9 +51,9 @@ You can change the salary strcuture for your organisation at large. To change th
 1. Log in to your [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
 1. Navigate to **Admin Options** → **Settings**.
 1. Go to **Payroll Setup** → **Default Salary Structure** and click **EDIT**. 
-    ![EDIT otpion highlighted against the Default Salary Structure option.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-edit-deflt-sal-structure.jpg.md)
+    ![EDIT otpion highlighted against the Default Salary Structure option.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-edit-deflt-sal-structure.jpg.md)
 2. Uncheck the option to **Use XPayroll's default salary structure** and define your salary structure.
-    ![Checked default salary structure checkbox in Payroll. Uncheck it to disable](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-change-default-salary-structure.jpg.md)
+    ![Checked default salary structure checkbox in Payroll. Uncheck it to disable](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-change-default-salary-structure.jpg.md)
 
 This structure will automatically apply to your current and new employees if they are not using an [employee-customised salary structure](#employee-level-custom-salary-structure), as explained below.
 
@@ -67,7 +67,7 @@ To set a salary structure for an employee:
 1. Click the employee's name.  
 1. Navigate to **Compensation & Perquisites** → **EDIT** and edit the employee's salary structure.
 
-![Changing salary strcuture in Compensation and Perquisites.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-changing-employee-salary-structure.jpg.md)
+![Changing salary strcuture in Compensation and Perquisites.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-changing-employee-salary-structure.jpg.md)
 
 Here you can review the salary figure and change the employees' annual salary, any advance salary due, perquisites, and others.
 
@@ -87,9 +87,9 @@ By making this a flexible benefit, your employees can upload proof of the expens
 
 To use flexible benefits, you must set up a [custom salary structure](#flexi-benefits-in-custom-salary-structure) for your employees and choose **flexi** under the **Taxable column**.
 
-![ Taxable column showing Yes/No/Flexi in Payroll.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-taxable-column.jpg.md)
+![ Taxable column showing Yes/No/Flexi in Payroll.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-taxable-column.jpg.md)
 
-Your employees can upload proof of expenses by going to **Reimbursements** → **Reimburse Flexible Benefits**. After they have uploaded their proofs, you can view the [pending reimbursements](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/reimbursements#view-pending-reimbursements.md).
+Your employees can upload proof of expenses by going to **Reimbursements** → **Reimburse Flexible Benefits**. After they have uploaded their proofs, you can view the [pending reimbursements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/reimbursements.md#view-pending-reimbursements).
 
 > **WARN**
 >
@@ -107,6 +107,6 @@ But the employees can upload any proof of expenses and make some part of their s
 
 ### Related Information
 
-- [Reimbursements](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/reimbursements.md)
-- [Attendance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/attendance.md)
+- [Reimbursements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/reimbursements.md)
+- [Attendance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/attendance.md)
 - [Conveyance Allowance](https://razorpay.com/payroll/learn/conveyance-allowance/)

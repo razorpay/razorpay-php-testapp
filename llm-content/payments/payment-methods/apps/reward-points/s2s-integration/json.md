@@ -16,7 +16,7 @@ You can enable your customers to pay using a combination of reward points and a 
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -24,9 +24,9 @@ You can enable your customers to pay using a combination of reward points and a 
 ## Prerequisites
 
 - Sign up for a Razorpay account.
-- Generate [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) on the Dashboard.
-- Configure [payment capture settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/#dashboard-actions.md) on the Dashboard.
-- Follow the [Razorpay S2S Integration documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration.md).
+- Generate [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) on the Dashboard.
+- Configure [payment capture settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments.md#dashboard-actions) on the Dashboard.
+- Follow the [Razorpay S2S Integration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration.md).
 - Customers should have earned reward points. In the absence of reward points, customers will get an error and will not be able to proceed with `Pay with Reward Points`.
 
 ## Integration Steps
@@ -103,7 +103,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 : `integer` The amount to be paid by the customer in currency subunits. For example, if the amount is ₹100, enter `10000`.
 
 `currency` _mandatory_
-: `string` The currency in which the payment should be made by the customer. See the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` The currency in which the payment should be made by the customer. See the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 `order_id` _mandatory_
 : `string` Order ID generated in the previous step.
@@ -174,14 +174,14 @@ If the payment made by the customer is successful, the following fields are sent
 
 #### Failure Callback
 
-If the payment has failed, the callback will contain details of the error. Know more about [errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md).
+If the payment has failed, the callback will contain details of the error. Know more about [errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md).
 
 ### Step 5: Fetch Payment Status
 
 Upon payment completion, you can fetch the status of the payment using:
-- [Fetch Payments API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md)
-- [Payments Webhooks (Recommended)](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments/#payments.md)
+- [Fetch Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments)
+- [Payments Webhooks (Recommended)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md#payments)
 
 ### Related Information
 
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/apps/reward-points/faqs.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/apps/reward-points/faqs.md)

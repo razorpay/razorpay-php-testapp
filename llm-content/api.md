@@ -13,8 +13,8 @@ Razorpay APIs are completely RESTful, and all our responses are returned in JSON
 > 
 > **Integrations**
 > 
-> - Looking to integrate your website, ecommerce store or mobile app with Razorpay Payment Gateway? Find the [right integration method](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/#integration-types.md).
-> - Accept payments [**without** a website or app](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/#accept-payments.md) using other Razorpay products, such as Payment Links, Payment Pages, Subscription Links, Invoices and Smart Collect.
+> - Looking to integrate your website, ecommerce store or mobile app with Razorpay Payment Gateway? Find the [right integration method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md#integration-types).
+> - Accept payments [**without** a website or app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md#accept-payments) using other Razorpay products, such as Payment Links, Payment Pages, Subscription Links, Invoices and Smart Collect.
 > - For S2S integration, contact the [Support team](https://razorpay.com/support/#request) with your requirements.
 > 
 
@@ -26,7 +26,7 @@ Razorpay APIs are completely RESTful, and all our responses are returned in JSON
   
    Test Razorpay APIs using Postman. Watch the video to know how to get started. 
    
-   All Razorpay APIs are authenticated using Basic Authentication. You must [generate test API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication.md) on the Dashboard before trying the APIs.
+   All Razorpay APIs are authenticated using Basic Authentication. You must [generate test API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md) on the Dashboard before trying the APIs.
    
 
 ## API Gateway URL
@@ -49,9 +49,9 @@ For most of the Razorpay APIs, the Gateway URL is `https://api.razorpay.com/v1`.
 
 ### Related Information
 
-- [Understand Razorpay APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand.md)
-- [API Authentication](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication.md)
-- [Sandbox Setup](@/Applications/MAMP/htdocs/new-docs/llm-content/api/sandbox-setup.md)
-- [Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md)
-- [API Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/api/best-practices.md)
-- [API Glossary](@/Applications/MAMP/htdocs/new-docs/llm-content/api/glossary.md)
+- [Understand Razorpay APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md)
+- [API Authentication](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md)
+- [Sandbox Setup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/sandbox-setup.md)
+- [Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md)
+- [API Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/best-practices.md)
+- [API Glossary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/glossary.md)

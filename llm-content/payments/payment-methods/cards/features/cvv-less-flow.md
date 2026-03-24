@@ -9,7 +9,7 @@ You can offer CVV-less payments for saved cards and let your customers complete 
 
 We encourage the businesses to remove the CVV box on the checkout page. If you are live on Razorpay Standard Checkout, the UI changes reflect automatically. The customer can choose their saved cards as their preferred payment option and experience a faster transaction.
 
-![CVV Less Card Payment Flow GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pm-cvv-otp-less.gif.md)
+![CVV Less Card Payment Flow GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pm-cvv-otp-less.gif.md)
 
 > **INFO**
 >

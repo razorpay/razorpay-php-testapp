@@ -9,7 +9,7 @@ When using Razorpay Standard Checkout Integration, you do not require any extra 
 
 Google pay is shown under the **UPI** section on the checkout form.
 
-![Google Pay Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi-checkout-header-changes.jpg.md)
+![Google Pay Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-checkout-header-changes.jpg.md)
 
 ## Web Integration
 
@@ -38,7 +38,7 @@ Customers can make intent-based payments using Google Pay on mobile-web applicat
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -62,12 +62,12 @@ This offers the advantage of letting you open Google Pay within your application
 1. [Sign up](https://support.google.com/pay/business/answer/7684271?hl=en&ref_topic=7684388) for a business account with Google Pay.
 1. [Contact our Support Team](https://razorpay.com/support/#request) and have them **whitelist your UPI ID/VPA**.
 1. Verify your UPI ID/VPA details on the [Google Merchant Console](https://support.google.com/pay/business/answer/7684398?hl=en&ref_topic=7684388). Here, Google deposits a small amount into the bank account linked to your VPA (UPI ID).
-1. You should have already integrated [Razorpay Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
-1. [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) from the Dashboard.
+1. You should have already integrated [Razorpay Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+1. [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
 
 ### Collect-Based Integration
 
-This is same as [UPI Collect Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/#collect-flow.md).
+This is same as [UPI Collect Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods.md#collect-flow).
 
 The customers enter their UPI handle in the **Enter your UPI ID** section on the Checkout form and click **Pay**. Collect the customer's UPI handle and pass it in the payment request with method as `upi`.
 

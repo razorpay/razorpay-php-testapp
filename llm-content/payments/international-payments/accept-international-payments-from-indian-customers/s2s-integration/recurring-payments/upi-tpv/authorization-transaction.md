@@ -25,7 +25,7 @@ Given below are the steps to create an authorisation transaction using the Razor
 
 ## 1.2 Create an Order 
 
-Use the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md) to create a unique Razorpay `order_id` that is associated with the authorisation transaction. The following endpoint creates an order.
+Use the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md) to create a unique Razorpay `order_id` that is associated with the authorisation transaction. The following endpoint creates an order.
 
 /orders
 
@@ -552,4 +552,4 @@ For example, **Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Geck
 : `string` UPI Intent deeplink that can be used to trigger UPI apps or displayed as a QR code.
     
 
-If the payment request is valid, the response contains the following fields. Refer to the [UPI Collect Flow document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/collect/#step-4-initiate-a-payment.md) for more details.
+If the payment request is valid, the response contains the following fields. Refer to the [UPI Collect Flow document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/collect.md#step-4-initiate-a-payment) for more details.

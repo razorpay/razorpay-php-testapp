@@ -25,7 +25,7 @@ SL. No. | Document Type | Document List
 - PAN of Entity 
 - LLP Agreement 
 - Certificate of Registration issued by Registrar of Limited Liability Partnership (LLP) 
-- Communication Address Proof (if different from what is mentioned in Certificate of Registration). Click [here ](@/Applications/MAMP/htdocs/new-docs/llm-content/x/icici-current-account/entity-address-proof.md)for a list of acceptable documents
+- Communication Address Proof (if different from what is mentioned in Certificate of Registration). Click [here ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/icici-current-account/entity-address-proof.md)for a list of acceptable documents
 ---
 2 | KYC Documents for all Authorized Signatories and Beneficial Owners | 
 - Photo 
@@ -53,7 +53,7 @@ Refer to the table given below for acceptable documents for KYC:
 > Beneficial Owners are those holding more than 15% stake in the company.
 > 
 
-[Download all forms and documents](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x_ca_icici_documents-limited-liability-2112.zip.md).
+[Download all forms and documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x_ca_icici_documents-limited-liability-2112.zip.md).
 
 ## Related Information
 

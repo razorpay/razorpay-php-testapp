@@ -26,14 +26,14 @@ To create a Payment Page:
 
 1. Log in to the Dashboard and navigate to Payment Pages.
 2. Select **Batch Payment Pages** and click **+ Create Payment Pages**.
-3. Add Business Details to your Payment Page. Know more about how to add [Business Details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/create#add-business-details.md) to your Payment Page.
+3. Add Business Details to your Payment Page. Know more about how to add [Business Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/create.md#add-business-details) to your Payment Page.
 4. Add payment details to your Payment Page:
     1. Primary Reference Id and Secondary Reference Id are input fields that your customers will use to validate themselves on the page link shared.
     2. Modify the label of these fields as per your requirement.
     2. The Primary Reference Id and Secondary Reference Id input fields are mandatory and cannot be deleted from the page.
-        ![Shows the option to select an input field as a secondary reference Id.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-batch-secondary-reference-id.jpg.md)
+        ![Shows the option to select an input field as a secondary reference Id.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-batch-secondary-reference-id.jpg.md)
 5. Click **Save and Proceed to next Step**. You can download the sample file from here or do it later from the Dashboard.
-    ![Shows the interim step before publishing a Payment Page.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-batch-step-2.jpg.md)
+    ![Shows the interim step before publishing a Payment Page.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-batch-step-2.jpg.md)
 6. Click **Create and Publish Page** to create the Payment Page.
 
 ### 2. Download the Custom Sample Batch File and add details to the Batch File
@@ -41,7 +41,7 @@ To create a Payment Page:
 1. Navigate to **Batch Payment Pages** and select the Payment Page you have created.  
 2. Click **View Batch Details** and download the sample file by clicking **Download Sample File**. 
 
-    ![Shows the Download Sample File button on the Razorpay Dashboard.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-batch-download-sample.jpg.md)
+    ![Shows the Download Sample File button on the Razorpay Dashboard.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-batch-download-sample.jpg.md)
 
     
     
@@ -55,7 +55,7 @@ To create a Payment Page:
 
 1. Select **Click here to Upload** to upload the batch file.
 2. On the pop-up page, drag and drop the file over the highlighted area. Alternatively, select the **click to upload** option to select your file from your system.
-    ![Pop-up that indicates where to upload Batch Upload](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-batch-uploadhere.jpg.md)
+    ![Pop-up that indicates where to upload Batch Upload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-batch-uploadhere.jpg.md)
 
 The file is validated and uploaded to the Razorpay server. After the file is successfully uploaded, a snippet view of the file is displayed in the **Batch Upload** pop-up page.
 
@@ -66,13 +66,13 @@ To add details to Batch upload:
 2. Follow these steps to determine whether the links should be sent immediately or later. Also, select the medium of link sharing:
     - If you want to send links immediately, select **via SMS** and/or **via Email** next to the **NOTIFY** check box options and click **Create**.
     - If you want to send them later, do not select any medium and click **Create**.
-    ![Adding Batch details to a Batch File.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-batch-details.jpg.md)
+    ![Adding Batch details to a Batch File.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-batch-details.jpg.md)
 
 ### 4. Perform Post-batch Creation Actions
 
 After the batch is created, you can see a **Batch Created Successfully** pop-up page. Click **Close** and reload the page. The newly created batch file will appear in the list of **Batch Uploads**. The **Batch Uploads** screen displays the following fields:
 
-![Shows the Batch file in processed state.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-batch-fields.jpg.md)
+![Shows the Batch file in processed state.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-batch-fields.jpg.md)
 
 Field | Descriptions
 ---
@@ -104,6 +104,6 @@ If there are any errors, they are mentioned in the batch file. Check the batch f
 
 ### Related Information
 
-- [Create a Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/create.md)
-- [Search for a Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/search.md)
-- [Manage Payment Pages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/manage.md)
+- [Create a Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/create.md)
+- [Search for a Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/search.md)
+- [Manage Payment Pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/manage.md)

@@ -21,7 +21,7 @@ A token goes through various states in its lifecycle.
 
 Given below is a diagram representing the token lifecycle:
 
-![Token Lifecycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-token-hq-token-lifecycle.jpg.md)
+![Token Lifecycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-token-hq-token-lifecycle.jpg.md)
 
 ## Overall Token States
 

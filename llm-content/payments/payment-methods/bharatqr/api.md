@@ -5,7 +5,7 @@ description: Razorpay APIs lets you create, fetch, fetch all payments made from 
 
 # API Reference
 
-Learn how to create a BQR payment and perform other operations using Razorpay APIs. To understand the basic concepts of our API usage, refer our [API Documentation.](@/Applications/MAMP/htdocs/new-docs/llm-content/api.md)
+Learn how to create a BQR payment and perform other operations using Razorpay APIs. To understand the basic concepts of our API usage, refer our [API Documentation.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md)
 
 ## Get Postman Collection
 
@@ -74,10 +74,10 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 : `string` A brief description of the payment.
 
 `customer_id` _optional_
-: `string` Unique identifier of customer for whom BharatQR is being created. Refer [Customer API.](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md)
+: `string` Unique identifier of customer for whom BharatQR is being created. Refer [Customer API.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md)
 
 `notes` _optional_
-: `object` consisting of key value pairs as notes. Refer [here](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) for more details.
+: `object` consisting of key value pairs as notes. Refer [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) for more details.
 
 `amount_expected` _optional_
 : `integer` The maximum amount you expect to receive in this virtual account. Pass `69999` for ₹699.99.

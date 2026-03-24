@@ -6,7 +6,7 @@ description: Transfer funds and make payroll payouts in RazorpayX Payroll.
 
 # Fund Transfer & Payroll Payouts
 
-After you log in to your [Payroll Dashboard](https://payroll.razorpay.com/dashboard) as an admin, add balance to your account to start making payroll payouts. You can also create and assign [user roles](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/user-roles-workflows.md) and [create Approval Workflows](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/approval-workflow.md) to permit or restrict access.
+After you log in to your [Payroll Dashboard](https://payroll.razorpay.com/dashboard) as an admin, add balance to your account to start making payroll payouts. You can also create and assign [user roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/user-roles-workflows.md) and [create Approval Workflows](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/approval-workflow.md) to permit or restrict access.
 
 ## Transfer Funds
 
@@ -35,7 +35,7 @@ To transfer funds to your Payroll account:
 > 
 > **Handy Tips**
 > 
-> Explore the RazorpayX - Current Account [integration with Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/current-account.md) to simplify money transfer and fund management. 
+> Explore the RazorpayX - Current Account [integration with Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/current-account.md) to simplify money transfer and fund management. 
 > 
 
     
@@ -49,10 +49,10 @@ To transfer funds to your Payroll account:
 
             Whitelisting your bank account via Source Account Validation (SAV) is critical to ensure secure and successful fund transfers. 
             
-            [Contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/plans/#contact-support.md) to initiate SAV for your organisation.
+            [Contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/plans.md#contact-support) to initiate SAV for your organisation.
          - You transfer funds via IMPS. 
 
-            IMPS is a reliable payment mode that is available 24/7 on all non-working days and bank holidays. Know more about the [default payment mode](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts/#modify-default-payout-mode.md).
+            IMPS is a reliable payment mode that is available 24/7 on all non-working days and bank holidays. Know more about the [default payment mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md#modify-default-payout-mode).
         
 
     
@@ -62,7 +62,7 @@ To transfer funds to your Payroll account:
             - Funds are transferred using NEFT/RTGS during non-banking or bank holidays.
             - There is an error in the beneficiary details in the bank account number/IFSC.
 
-            If you have transferred funds to Payroll and your balance does not reflect the amount, raise a [support ticket](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/plans.md). Include the funds transfer's receipt that shows the following details:
+            If you have transferred funds to Payroll and your balance does not reflect the amount, raise a [support ticket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/plans.md). Include the funds transfer's receipt that shows the following details:
             - Beneficiary account details.
             - Date/Time of transfer.
             - Amount transferred.
@@ -85,11 +85,11 @@ To transfer funds to your Payroll account:
          However, ensure you [transfer funds](#transfer-funds) to the new Axis Bank account. You can find your account details on the **Money Transfer** page.
         
 
-If you have any queries, raise a [support request](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support#razorpayx-payroll.md).
+If you have any queries, raise a [support request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#razorpayx-payroll).
 
 ## Make Payroll Payouts 
 
-Payroll payouts happen after you [execute payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#execute-payroll.md). Following are some options and best practices available to you when making payroll payouts. 
+Payroll payouts happen after you [execute payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#execute-payroll). Following are some options and best practices available to you when making payroll payouts. 
 
     
 ### Modify Default Payout Mode
@@ -99,7 +99,7 @@ Payroll payouts happen after you [execute payroll](@/Applications/MAMP/htdocs/ne
             However, the payment mode switches to NEFT automatically in the following cases:
             - If the payment amount is more than ₹2,00,000.
             - If the organisation has overridden the default settings.
-            - If your employee has chosen NEFT transfers under their [Payments Information](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees.md) setup.
+            - If your employee has chosen NEFT transfers under their [Payments Information](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md) setup.
 
             If a money transfer has been made using NEFT when NEFT is unavailable, the transfer remains in the **Pending** status until NEFT is available again. 
         
@@ -111,7 +111,7 @@ Payroll payouts happen after you [execute payroll](@/Applications/MAMP/htdocs/ne
 
             To improve your payment narration, switch your payment method to NEFT by navigating to **Settings** → **Payments & Compliance**. This improves the narration issues with some beneficiary banks.
 
-            You can also sign up for a [Current Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/current-account.md) powered by RazorpayX and [integrate it with Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/current-account.md). When you transfer money using your Current Account, the salary and contractor payments are routed through an existing account under your company's name.
+            You can also sign up for a [Current Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/current-account.md) powered by RazorpayX and [integrate it with Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/current-account.md). When you transfer money using your Current Account, the salary and contractor payments are routed through an existing account under your company's name.
         
 
     
@@ -124,7 +124,7 @@ Payroll payouts happen after you [execute payroll](@/Applications/MAMP/htdocs/ne
 
             Here you can find an entry for the salary/contractor payment you have made through Payroll.
 
-                ![Role of an Administrator - Reports](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-role-of-administrator.jpg.md)
+                ![Role of an Administrator - Reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-role-of-administrator.jpg.md)
 
             You can identify a failed payment in the following ways:
             - The entry is not in the Ledger. This means that no payment was made through Payroll.
@@ -147,7 +147,7 @@ Payroll payouts happen after you [execute payroll](@/Applications/MAMP/htdocs/ne
 
                 
 
-            Whenever a [payment fails](#payment-failure-reasons), Payroll automatically sends an email to all the administrators of that organisation and the affected [employee/contractor](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator#differences-between-employee-and-contractor.md) with the required information. 
+            Whenever a [payment fails](#payment-failure-reasons), Payroll automatically sends an email to all the administrators of that organisation and the affected [employee/contractor](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#differences-between-employee-and-contractor) with the required information. 
         
 
     
@@ -227,7 +227,7 @@ All the invoices are hyperlinked sent to the admin's email. Check your spam fold
 
 ## Contractor Payments 
 
-When you pay [contractors](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator#differences-between-employee-and-contractor.md) on the Payroll Dashboard, charges for the payments are not immediately deducted. You instead receive a consolidated monthly invoice for all the payments. 
+When you pay [contractors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#differences-between-employee-and-contractor/) on the Payroll Dashboard, charges for the payments are not immediately deducted. You instead receive a consolidated monthly invoice for all the payments. 
 
 Payroll customers are charged for each contractor payment made. You must authorise the contractor payment using the OTP received at your registered email address/authenticator app.
 
@@ -241,5 +241,5 @@ Payroll customers are charged for each contractor payment made. You must authori
 
 ### Related Information
 
-- [Account Setup Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/quickstart.md)
-- [Statutory Compliance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md)
+- [Account Setup Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/quickstart.md)
+- [Statutory Compliance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md)

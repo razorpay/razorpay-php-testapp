@@ -25,7 +25,7 @@ You onboard a sub-merchant that wants to sell clothes on your platform - **_Acme
 
 After _Acme_ authorises you to access their account, a `code` is generated. You must use this code to generate `access_token` which you can use to trigger APIs on _Acme_'s behalf.
 
-![oauth token process](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/oauth-process.jpg.md)
+![oauth token process](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/oauth-process.jpg.md)
 
 ## Prerequisites
 
@@ -39,11 +39,11 @@ Watch this video to know how to integrate Razorpay OAuth as a Technology Partner
 
 ## Next Steps
 
-1. [Build Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps.md)
-2. [Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/test-integration.md)
-3. [Go-live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/go-live-checklist.md)
+1. [Build Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps.md)
+2. [Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/test-integration.md)
+3. [Go-live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/go-live-checklist.md)
 
 ### Related Information
 
-- [Revoke Access to Application](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/revoke-access.md)
-- [Track Onboarding Status](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/status.md)
+- [Revoke Access to Application](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/revoke-access.md)
+- [Track Onboarding Status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/status.md)

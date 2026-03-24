@@ -16,7 +16,7 @@ When the sub-merchant tries to connect their Razorpay account with yours:
 > 
 > **Watch Out!**
 > 
-> Only the person with [Owner](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team/#owner.md) credentials of the sub-merchant account can authorise the access.
+> Only the person with [Owner](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md#owner) credentials of the sub-merchant account can authorise the access.
 > 
 
 ## Workflow
@@ -24,7 +24,7 @@ When the sub-merchant tries to connect their Razorpay account with yours:
 Given below is the overall flow:
 1. The sub-merchant logs in to the application.
 1. The sub-merchant clicks **Connect with Razorpay** and is shown the authorisation page. The sub-merchant clicks **Authorize** to proceed.
-    ![Sample Authorisation Interface](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/oauth-authorize.jpg.md)
+    ![Sample Authorisation Interface](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/oauth-authorize.jpg.md)
 2. The application redirects to the Razorpay authorisation URL. This URL requests the sub-merchant's approval for granting access to the requested resource on Razorpay.
 3. The user is shown the approval page where they can accept or reject the grant of this access.
 4. After the user approves or rejects the request, Razorpay redirects to the `redirect_url` specified.

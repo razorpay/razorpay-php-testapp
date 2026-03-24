@@ -5,7 +5,7 @@ description: View Subscription details on the Razorpay Dashboard.
 
 # View Subscription Details
 
-You can view details of a Subscription from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/view/#view-subscription-details-from-dashboard.md) or using [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/view/#view-subscription-details-using-apis.md).
+You can view details of a Subscription from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/view.md#view-subscription-details-from-dashboard) or using [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/view.md#view-subscription-details-using-apis).
 
 ## View Subscription Details From Dashboard
 
@@ -27,12 +27,12 @@ To view details of a Subscription:
 > 
 
 ## View Subscription Details Using APIs
-- [Fetch All Subscriptions API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/fetch-subscriptions.md)
-- [Fetch a Subscription With ID API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/fetch-subscription-id.md)
+- [Fetch All Subscriptions API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/fetch-subscriptions.md)
+- [Fetch a Subscription With ID API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/fetch-subscription-id.md)
 
 ### Related Information
 
-- [Create and View Plans](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-plans.md)
-- [Charge a Card Manually](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/manually-charge-card.md)
-- [Update a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/update.md)
-- [Subscriptions Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/settings.md)
+- [Create and View Plans](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-plans.md)
+- [Charge a Card Manually](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/manually-charge-card.md)
+- [Update a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/update.md)
+- [Subscriptions Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/settings.md)

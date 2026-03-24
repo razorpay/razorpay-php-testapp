@@ -32,7 +32,7 @@ With Razorpay, you can save the VPAs (UPI ids) of a customer at the Checkout its
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -52,7 +52,7 @@ The customers should authenticate once (be logged in) through the saved card flo
 
 Watch the GIF to understand Saved VPA flow:
 
-![Saved VPA Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/saved-vpa2.gif.md)
+![Saved VPA Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/saved-vpa2.gif.md)
 
 On the Checkout page, the customers:
 

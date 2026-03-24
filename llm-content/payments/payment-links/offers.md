@@ -28,5 +28,5 @@ Watch this video to see how offers appear for Payment Links when customers want 
 
 #### Related Information
 
-- [About Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers.md)
-- [Create Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create.md)
+- [About Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers.md)
+- [Create Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md)

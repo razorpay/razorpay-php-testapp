@@ -17,7 +17,7 @@ You can use Razorpay Standard SDK to integrate the Razorpay Payment Gateway with
 > 
 > **Update SDK**
 > 
-> Check your [current SDK version](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/capacitor-integration/troubleshooting-faqs/#6-how-can-i-check-the-razorpay-capacitor.md). If it is outdated, please [update the SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/capacitor-integration/troubleshooting-faqs/#7-how-can-i-update-the-razorpay-capacitor.md) to ensure uninterrupted settlements of your funds.
+> Check your [current SDK version](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/capacitor-integration/troubleshooting-faqs.md#6-how-can-i-check-the-razorpay-capacitor). If it is outdated, please [update the SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/capacitor-integration/troubleshooting-faqs.md#7-how-can-i-update-the-razorpay-capacitor) to ensure uninterrupted settlements of your funds.
 > 
 
 ## Integration Steps
@@ -27,7 +27,7 @@ You can use Razorpay Standard SDK to integrate the Razorpay Payment Gateway with
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup). 
 
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
 Follow these integration steps:
 
@@ -41,4 +41,4 @@ Follow these integration steps:
 
 ### Related Information
 
-[Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md)
+[Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md)

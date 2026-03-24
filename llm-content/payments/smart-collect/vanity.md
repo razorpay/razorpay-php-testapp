@@ -10,7 +10,7 @@ description: Enable Vanity Accounts for your Customer Identifiers.
 > 
 > **Enable Vanity Account Numbers**
 > 
-> To enable Vanity Accounts for your account, contact our [support](https://razorpay.com/support/), with the desired merchant [handle](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/vanity#handle.md).
+> To enable Vanity Accounts for your account, contact our [support](https://razorpay.com/support/), with the desired merchant [handle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/vanity.md#handle).
 > 
 
 By default, any Customer Identifier created by you will have a randomly generated numeric bank account number.

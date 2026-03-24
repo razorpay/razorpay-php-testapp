@@ -183,5 +183,5 @@ This event is triggered when a virtual account either expires on a date set or i
 
 ### Related Information
 
-- [Set up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md)
-- [Validate Signature](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/#validation.md)
+- [Set up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md)
+- [Validate Signature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md#validation)

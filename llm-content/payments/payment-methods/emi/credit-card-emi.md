@@ -67,7 +67,7 @@ Following is the list of supported Payment Partners for Credit Card EMI and the 
   
 
   
-   Check the standard [credit card interest rates charged by major banks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#1-what-are-the-standard-credit-card-interest.md).
+   Check the standard [credit card interest rates charged by major banks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#1-what-are-the-standard-credit-card-interest).
    
 
 ### Fetch EMI Plans
@@ -81,7 +81,7 @@ Use the below endpoint to fetch a list of EMI plans offered by banks:
 > 
 > **[YOUR_KEY_ID] Required**
 > 
-> To fire this API, you must provide your [KEY_ID] for authorization. Your [KEY_SECRET] is not required and should not be passed. Know how to generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+> To fire this API, you must provide your [KEY_ID] for authorization. Your [KEY_SECRET] is not required and should not be passed. Know how to generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 > 
 
 ```curl: Request
@@ -1315,15 +1315,15 @@ Customers select the products on your website or app and proceed to Checkout. On
 1. Enter the **Phone Number** and click **Continue**.
 2. Select **EMI** as the payment method.
     
-    ![Select emi payment option on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-options-card.jpg.md)
+    ![Select emi payment option on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-options-card.jpg.md)
     
 3. Select **Credit Card**.
     
-    ![Select credit card payment option on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-credit-card.jpg.md)
+    ![Select credit card payment option on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-credit-card.jpg.md)
     
 4. Choose a bank from the list and select the EMI tenure. Click **Continue**.
     
-    ![EMI tenure and click Select Plan](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-credit-tenure1.jpg.md)
+    ![EMI tenure and click Select Plan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-credit-tenure1.jpg.md)
     
 5. Enter the relevant details. The eligibility depends on the customer's card's BIN (first 6 digits). If the card is not eligible, the customers can pay the full amount.
 6. Choose if they want to **Save this card as per RBI guidelines** or pay without saving the card.
@@ -1334,4 +1334,4 @@ When the customers complete the payment on the Checkout, the entire transaction 
 
 ## FAQs
 
-[Credit Card EMI FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#credit-card-emi.md).
+[Credit Card EMI FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#credit-card-emi).

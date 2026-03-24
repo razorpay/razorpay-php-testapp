@@ -22,7 +22,7 @@ A token represents a customer's card details stored in Razorpay servers. We use 
 #### Request Parameters
 
 `customer_id`
-: The unique customer ID. To create a customer, refer the [Customer API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md) section.
+: The unique customer ID. To create a customer, refer the [Customer API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md) section.
 
 `method`
 : The payment method selected by the customer on checkout.
@@ -39,7 +39,7 @@ A token represents a customer's card details stored in Razorpay servers. We use 
 `card[expiry_year]`
 : The expiry year of the card.
 
-All server-side requests must be authenticated with Basic Auth using the **key-id** as username and **key-secret** as password. You can acces your keys on your Dashboard. Know more about [API authentication](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#authentication.md) to get started with Razorpay APIs.
+All server-side requests must be authenticated with Basic Auth using the **key-id** as username and **key-secret** as password. You can acces your keys on your Dashboard. Know more about [API authentication](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#authentication) to get started with Razorpay APIs.
 
 ```curl: Example Request
 curl -X POST \

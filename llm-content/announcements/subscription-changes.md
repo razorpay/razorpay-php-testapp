@@ -17,15 +17,15 @@ The following use cases are deprecated for Subscriptions activated using domesti
 
 **Manually Charge a Card From Dashboard**
 
-You cannot manually charge a card from [dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/manually-charge-card/#manually-charge-a-card-from-dashboard.md) for recurring debits. The **Atempt Charge** option is removed from the Dashboard.
+You cannot manually charge a card from [dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/manually-charge-card.md#manually-charge-a-card-from-dashboard) for recurring debits. The **Atempt Charge** option is removed from the Dashboard.
 
-![subscription manual charge removal](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/subscription-manual-charge-removal.jpg.md)
+![subscription manual charge removal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/subscription-manual-charge-removal.jpg.md)
 
-You can ask customers to update the [payment method](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/payment-retries/#change-the-card-linked-to-the-subscription.md) or [create a new Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create/#subscription.md).
+You can ask customers to update the [payment method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/payment-retries.md#change-the-card-linked-to-the-subscription) or [create a new Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md#subscription).
 
 **Update a Subscription**
 
-You can [update](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/update.md) only the offer and not the following information of an active Subscription:
+You can [update](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/update.md) only the offer and not the following information of an active Subscription:
 - Plan change
 - Quantity change
 - Start date change
@@ -33,7 +33,7 @@ You can [update](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscr
 
 The options to update the above mentioned fields are disabled in the Dashboard.
 
-![Domestic Card Update Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/subscription-update-card.jpg.md)
+![Domestic Card Update Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/subscription-update-card.jpg.md)
 
 You get the following error if you try to update the Subscription using API.
 
@@ -49,11 +49,11 @@ You get the following error if you try to update the Subscription using API.
 
 **Create Add-ons**
 
-You cannot create add-ons to the same Subscription. The customers can [create a new Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create/#subscription.md) or bill it as a separate payment.
+You cannot create add-ons to the same Subscription. The customers can [create a new Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md#subscription) or bill it as a separate payment.
 
 The option to create an add-on under **Upcoming Invoice** in the Dashboard is removed.
 
-![Domestic Cards Create Add-ons](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/create-add-ons.jpg.md)
+![Domestic Cards Create Add-ons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/create-add-ons.jpg.md)
 
 You get the following error if you try to create an add-on to the same Subscription using API.
 
@@ -72,4 +72,4 @@ The following use case is deprecated for Subscriptions activated using UPI autop
 
 **Manually Charge a UPI Handle From Dashboard**
 
-An option to manually retry recurring debits is disabled. You can ask customers to update the payment method or [create a new Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create/#subscription.md).
+An option to manually retry recurring debits is disabled. You can ask customers to update the payment method or [create a new Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md#subscription).

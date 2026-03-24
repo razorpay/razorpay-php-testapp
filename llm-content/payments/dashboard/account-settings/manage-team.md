@@ -521,9 +521,9 @@ There are some predefined user roles that you can assign to your team members. Y
 > **Handy Tips**
 > 
 > - A team member should be assigned a role as the role is tied to an email address. A user can have multiple roles if they have different email ids.
-> - Use the [Dispute Manager](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team/#dispute-manager.md) role for team members who only need to handle chargebacks without access to refunds or bank details.
-> - Use the [Pseudo Owner](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team/#pseudo-owner.md) role sparingly for trusted individuals who need to manage the account when the Owner is unavailable.
-> - Use the [View-Only](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team/#view-only-auditor.md) role for auditors and stakeholders who need visibility without operational access.
+> - Use the [Dispute Manager](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md#dispute-manager) role for team members who only need to handle chargebacks without access to refunds or bank details.
+> - Use the [Pseudo Owner](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md#pseudo-owner) role sparingly for trusted individuals who need to manage the account when the Owner is unavailable.
+> - Use the [View-Only](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md#view-only-auditor) role for auditors and stakeholders who need visibility without operational access.
 > 
 
     
@@ -549,7 +549,7 @@ There are some predefined user roles that you can assign to your team members. Y
 
          
 
-         ![Accept invite to be team member (for an existing Razorpay user)](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-accept-invitation.jpg.md)
+         ![Accept invite to be team member (for an existing Razorpay user)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-accept-invitation.jpg.md)
 
          
 
@@ -581,7 +581,7 @@ There are some predefined user roles that you can assign to your team members. Y
 
          
 
-         ![Send invite to new member (for a new Razorpay user)](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-invite-new-user.jpg.md)
+         ![Send invite to new member (for a new Razorpay user)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-invite-new-user.jpg.md)
 
          
         

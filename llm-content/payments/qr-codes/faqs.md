@@ -14,7 +14,7 @@ description: Find answers to frequently asked questions about Razorpay QR Codes.
     
 ### 2. I want to set a date by which the customer must make the payment. How do I do that?
 
-         You can set a Close By Date for the QR Code. The customer should make a payment using the QR Code within this Close By Date. The customer cannot make payments for a closed QR Code. Know more about [ setting Close By Date for QR Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/create/#create-a-qr-code-from-dashboard.md).
+         You can set a Close By Date for the QR Code. The customer should make a payment using the QR Code within this Close By Date. The customer cannot make payments for a closed QR Code. Know more about [ setting Close By Date for QR Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/create.md#create-a-qr-code-from-dashboard/).
         
 
     
@@ -34,7 +34,7 @@ description: Find answers to frequently asked questions about Razorpay QR Codes.
     
 ### 5. Where do I track the QR Code and their states?
 
-         You get instant notifications about the QR Code. You can also subscribe to webhook events and generate reports. Know more about [tracking QR Code and viewing reports](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/how-it-works/#step-4-track-qr-code-and-reports.md).
+         You get instant notifications about the QR Code. You can also subscribe to webhook events and generate reports. Know more about [tracking QR Code and viewing reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/how-it-works.md#step-4-track-qr-code-and-reports/).
         
 
     
@@ -67,6 +67,6 @@ description: Find answers to frequently asked questions about Razorpay QR Codes.
          4. Complete the setup and generate the QR Code.
 
          **Via API:**
-         Use the [Create QR Code API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes/create.md) and set the `usage` parameter to `multiple_use`.
+         Use the [Create QR Code API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes/create.md) and set the `usage` parameter to `multiple_use`.
 
-         Know more about [Create a QR Codes from Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/create.md) or [Create a QR Code using API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes/create.md).
+         Know more about [Create a QR Codes from Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/create.md) or [Create a QR Code using API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes/create.md).

@@ -19,12 +19,12 @@ Integrating web checkout within webviews can result in several critical issues i
 
 ## Recommended Approach  
 
-We strongly recommend migrating to our [SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md) instead of using webviews to ensure full compatibility and a smoother experience.
+We strongly recommend migrating to our [SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md) instead of using webviews to ensure full compatibility and a smoother experience.
 
 If you still decide to proceed with webview-based checkout, please consider the below adjustments to minimise issues, including but not limited to.
 
 ## Webview Integration Guide (For Users Proceeding Anyway)  
 
-- **Implement Callback URL Handling**: Ensure your integration correctly handles [callback URLs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/callback-url.md) to receive payment status updates reliably.
-- **Configure UPI Intent**: Follow additional steps to ensure [UPI intent](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods/upi-intent-mweb.md) payments function correctly on [Android](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/webview/upi-intent-android.md) or [iOS](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/webview/upi-intent-ios.md).
+- **Implement Callback URL Handling**: Ensure your integration correctly handles [callback URLs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/callback-url.md) to receive payment status updates reliably.
+- **Configure UPI Intent**: Follow additional steps to ensure [UPI intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods/upi-intent-mweb.md) payments function correctly on [Android](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/webview/upi-intent-android.md) or [iOS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/webview/upi-intent-ios.md).
 - **Handle Download Restrictions**: Implement solutions for payment methods that require file downloads. For now, you will need to manage downloads on your end.

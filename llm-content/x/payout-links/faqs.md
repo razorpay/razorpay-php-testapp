@@ -11,16 +11,16 @@ description: Find answers to frequently asked questions about RazorpayX Payout L
     
 ### 1. Is the Payout Link supported in test mode?
 
-         No, currently it is not supported in [Test mode](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/test-mode.md). You can only make requests or designate links in Live mode.
+         No, currently it is not supported in [Test mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/test-mode.md). You can only make requests or designate links in Live mode.
         
 
     
 ### 2. What are the supported modes for creating Payout Links?
 
          You can create Payout Links via:
-            - [Payout Link APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payout-links.md).
+            - [Payout Link APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payout-links.md).
             - [RazorpayX Dashboard](https://x.razorpay.com/).
-            - [Bulk upload feature](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/bulk.md).
+            - [Bulk upload feature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/bulk.md).
         
 
     
@@ -34,7 +34,7 @@ description: Find answers to frequently asked questions about RazorpayX Payout L
     
 ### 4. Is the maker-checker applicable for Payout Links?
 
-         Yes, if the [maker-checker](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) is enabled on the account, then it will be applicable. 
+         Yes, if the [maker-checker](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) is enabled on the account, then it will be applicable. 
         
 
     
@@ -54,15 +54,15 @@ description: Find answers to frequently asked questions about RazorpayX Payout L
 
          No, if the link is sent to an old contact, the previously used fund account details will be displayed. The customers can then choose the old fund account or add a new one.
 
-         You can manually [resend the Payout Link](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/create#create-a-payout-link.md) from the Payout Link summary pop-up page. 
+         You can manually [resend the Payout Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/create.md#create-a-payout-link) from the Payout Link summary pop-up page. 
         
 
     
 ### 8. Can a Payout link be cancelled?
 
-         If the Fund Account details are incorrect or the Payout Link is no longer relevant, you can cancel the Payout Link via the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/create#other-actions.md) or by using the [Cancel a Payout Link API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payout-links/cancel.md).
+         If the Fund Account details are incorrect or the Payout Link is no longer relevant, you can cancel the Payout Link via the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/create.md#other-actions) or by using the [Cancel a Payout Link API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payout-links/cancel.md).
 
-         Only Payout Links in the `issued` state can be cancelled. Know more about [Payout Link Statuses](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/life-cycle.md). If [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) is enabled, [cancel the Payout](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts#cancel-payouts.md) first and then the Payout Link. 
+         Only Payout Links in the `issued` state can be cancelled. Know more about [Payout Link Statuses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/life-cycle.md). If [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) is enabled, [cancel the Payout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#cancel-payouts) first and then the Payout Link. 
         
 
     
@@ -80,7 +80,7 @@ description: Find answers to frequently asked questions about RazorpayX Payout L
     
 ### 11. Does the Payout Link support an expiry time?
 
-         Yes, you can [set expiry](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/set-expiry#set-expiry.md) date and time on the Payout Link.
+         Yes, you can [set expiry](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/set-expiry.md#set-expiry) date and time on the Payout Link.
         
 
     
@@ -107,7 +107,7 @@ description: Find answers to frequently asked questions about RazorpayX Payout L
     
 ### 14. Is IP Allowlisting mandatory for creating Payout Links?
 
-        [Allowlisting your IP](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/allowlist-ip.md) addresses is mandatory for creating Payout Links through APIs. However, it is not mandatory for creating Payout Links through the Dashboard.
+        [Allowlisting your IP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/allowlist-ip.md) addresses is mandatory for creating Payout Links through APIs. However, it is not mandatory for creating Payout Links through the Dashboard.
         
 
 ## Bulk Payout Links
@@ -121,4 +121,4 @@ description: Find answers to frequently asked questions about RazorpayX Payout L
     
 ### 2. How can I set expiry for Bulk Payout Links?
 
-         To set expiry for Bulk Payout Links, you must [enable expiry](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/set-expiry/#enable-expiry.md) on the RazorpayX Dashboard. You can then [set expiry](/x/payout-links/bulk#how-it-works) for bulk Payout Links in the sample template.
+         To set expiry for Bulk Payout Links, you must [enable expiry](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/set-expiry.md#enable-expiry) on the RazorpayX Dashboard. You can then [set expiry](/x/payout-links/bulk#how-it-works) for bulk Payout Links in the sample template.

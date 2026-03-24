@@ -51,6 +51,6 @@ Shift + L | View Payout Links
 
 ### Related Information
 
-- [Global Search](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/global-search.md)
-- [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/api-keys.md)
-- [Test Mode](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/test-mode.md)
+- [Global Search](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/global-search.md)
+- [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/api-keys.md)
+- [Test Mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/test-mode.md)

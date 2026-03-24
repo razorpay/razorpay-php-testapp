@@ -5,7 +5,7 @@ description: Add Paytm Instant (beta) as a payment provider on Optimizer.
 
 # Paytm Instant (beta)
 
-Go live with your Paytm Payment Gateway account instantly using the **Instant** integration mode. This is a beta release and supports limited [payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/paytm-instant/#supported-payment-methods.md). Follow the steps below to onboard Paytm Instant (beta) as a payment provider.
+Go live with your Paytm Payment Gateway account instantly using the **Instant** integration mode. This is a beta release and supports limited [payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/paytm-instant.md#supported-payment-methods). Follow the steps below to onboard Paytm Instant (beta) as a payment provider.
 
     
 ### Prerequisites
@@ -15,7 +15,7 @@ Go live with your Paytm Payment Gateway account instantly using the **Instant** 
          - Generate API keys on the [Paytm Dashboard](https://dashboard.paytm.com/login/).
             1. Log in to the Paytm Dashboard.
             2. Navigate to **Developers Settings** → **API Keys** and generate live API keys.
-             ![Paytm test API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-paytm-test-api-keys.jpg.md)
+             ![Paytm test API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-paytm-test-api-keys.jpg.md)
         
 
 ## Add Paytm as a Payment Provider
@@ -27,14 +27,14 @@ Go live with your Paytm Payment Gateway account instantly using the **Instant** 
          2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
          3. In the top-right section, click **Add Provider**.
          4. Select **PayTm** in the list of gateways available and click **Next**.
-             ![Add Paytm](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-paytm-add.jpg.md)
+             ![Add Paytm](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-paytm-add.jpg.md)
          5. Select **Instant (beta)** and click **Next**.
-             ![Select Paytm Insant (beta)](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-paytm-select-instant.jpg.md)
+             ![Select Paytm Insant (beta)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-paytm-select-instant.jpg.md)
          6. Enter the provider name and description and click **Next**.
-             ![Add Paytm provider details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-paytm-add-provider.jpg.md)
+             ![Add Paytm provider details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-paytm-add-provider.jpg.md)
          7. Enter your **INDUSTRY_TYPE_ID**, **KEY**, **MID** (merchant id) and **WEBSITE** details.
          8. Select the payment methods you want to enable for Paytm and click **Submit**.
-             ![Add Paytm final details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-paytm-final-new.jpg.md)
+             ![Add Paytm final details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-paytm-final-new.jpg.md)
                 
          You have successfully added **Paytm Instant (beta)** as a payment provider on Optimizer.
         
@@ -62,7 +62,7 @@ Refunds | Live
 > 
 > **Handy Tips**
 > 
-> If you want to offer all payment methods and support refunds from the Dashboard, please use the [S2S integration mode](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/paytm-s2s.md).
+> If you want to offer all payment methods and support refunds from the Dashboard, please use the [S2S integration mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/paytm-s2s.md).
 > 
 
 ## Email Format for Paytm Instant (beta)
@@ -80,7 +80,7 @@ Please enable refunds via API for our Paytm PG account with MID `Paytm MID`
 Regards, 
 
 ## Send Receipt/Order ID to External Gateway
-You might be generating a unique Order id or Receipt for every order which can be passed to Paytm via [ Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders#orders-api.md). 
+You might be generating a unique Order id or Receipt for every order which can be passed to Paytm via [ Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md#orders-api). 
 
 To make your order id visible on the Paytm Dashboard:
 1. In Razorpay's Orders API, use the `receipt` parameter to send your unique Order id or Receipt.
@@ -115,11 +115,11 @@ Before routing any traffic to a new gateway via Optimizer, the following best pr
                 - In **Parameter** field, select **Amount (In Rupees)**.
                 - In **Select Connection** field, select **Less Than**.
                 - In **Enter Amount** field, enter the value 2 and click **Next**.
-                ![Add Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-rule.jpg.md)
+                ![Add Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-rule.jpg.md)
             5. Enter the value 100 in the **Route field**, select **Paytm** in the **payment via** field, and click **Next**.
-                ![Paytm target Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-paytm-rule-add.jpg.md)
+                ![Paytm target Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-paytm-rule-add.jpg.md)
             6. Click **Publish Rule**.
-                ![Paytm Publish Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-paytm-publish-rule.jpg.md)
+                ![Paytm Publish Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-paytm-publish-rule.jpg.md)
 
         
 

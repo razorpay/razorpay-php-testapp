@@ -21,7 +21,7 @@ There are two types of tokens - service provider token and overall token.
 
 Given below is a diagram representing the token lifecycle:
 
-![Token Lifecycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-token-hq-token-lifecycle.jpg.md)
+![Token Lifecycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-token-hq-token-lifecycle.jpg.md)
 
 ## Token States for Service Provider Token
 

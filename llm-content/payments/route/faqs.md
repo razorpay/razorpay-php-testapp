@@ -16,7 +16,7 @@ description: Find answers to frequently asked questions about Razorpay Route.
          2. Find a payment on the Transactions panel (left column). Click on the Payment id to view its details on the right panel. Create a transfer from the payment.
          3. Alternatively, find a payment under the Payments tab on the Route panel. Click on the Payment id to view its details, and create a transfer.
 
-         You can also use [Route Transfers APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md) to transfer money.
+         You can also use [Route Transfers APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md) to transfer money.
         
 
     
@@ -24,7 +24,7 @@ description: Find answers to frequently asked questions about Razorpay Route.
 
          When a transfer is created from the Dashboard or using the Route APIs, you are notified if the transfer creation was successful or not. 
 
-         The transfer is processed asynchronously and on success, `transfer.processed` webhook is sent (if enabled). Know more about [setting up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/subscribe-to-webhooks.md).
+         The transfer is processed asynchronously and on success, `transfer.processed` webhook is sent (if enabled). Know more about [setting up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/subscribe-to-webhooks.md).
         
 
     
@@ -32,7 +32,7 @@ description: Find answers to frequently asked questions about Razorpay Route.
 
          The `transfer.processed` webhook is sent for every successful transfer. The webhook indicates that the requested transfer is processed, funds are debited from the merchant and credited to the linked account. 
 
-         Know more about [setting up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/subscribe-to-webhooks.md).
+         Know more about [setting up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/subscribe-to-webhooks.md).
         
 
     
@@ -44,8 +44,8 @@ description: Find answers to frequently asked questions about Razorpay Route.
 
          4. Log in to the Dashboard.
          5. Go to **Route** → **Transfers**. Click on a **Transfer id** to view the details. Click on the **Create Reversal** button to reverse the transfer.
-                - You can also use the [Reverse Transfers from all Linked Accounts API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/reverse-a-transfer.md) to reverse money transfer.
-                - You can also [refund payment and simultaneously reverse ](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/refund-payments-and-reverse-transfer.md) all the transfers made on that payment.
+                - You can also use the [Reverse Transfers from all Linked Accounts API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/reverse-a-transfer.md) to reverse money transfer.
+                - You can also [refund payment and simultaneously reverse ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/refund-payments-and-reverse-transfer.md) all the transfers made on that payment.
         
 
     
@@ -82,7 +82,7 @@ You should initiate Direct Transfers when fund transfers to a linked account is 
     
 ### 10. How do I create linked accounts using bulk upload?
 
-         You can create linked accounts using bulk upload from the Dashboard. Know more about [Batch Upload](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/batch-upload.md).
+         You can create linked accounts using bulk upload from the Dashboard. Know more about [Batch Upload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/batch-upload.md).
         
 
     
@@ -146,7 +146,7 @@ You should initiate Direct Transfers when fund transfers to a linked account is 
         2.  **API:** Use the **Create Transfers from Payments API**, where you specify the Payment id to be split among your Linked Accounts.
         3.  **Automatic:** If you set up an automatic split before the payment link is generated, the funds will be split instantly upon successful payment.
         
-        Know more about the [Create Transfers from Payments API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/create-transfers-payments.md).
+        Know more about the [Create Transfers from Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/create-transfers-payments.md).
 
         
 
@@ -160,7 +160,7 @@ You should initiate Direct Transfers when fund transfers to a linked account is 
         
         Both fees are calculated based on your agreed-upon pricing plan and are subject to GST (or local equivalent tax, where applicable). Your final commission or retained amount is the remaining balance after both fees and the transfer amount have been deducted.
         
-        For detailed calculation examples, refer to our [Transfers and Related Fees Examples](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-fees-example.md) page.
+        For detailed calculation examples, refer to our [Transfers and Related Fees Examples](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-fees-example.md) page.
 
         
 
@@ -187,19 +187,19 @@ You should initiate Direct Transfers when fund transfers to a linked account is 
 
          **Verification Failed**
 
-         ![Route - Linked Account Verification Failed](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route_la_pt_vf.jpg.md)
+         ![Route - Linked Account Verification Failed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route_la_pt_vf.jpg.md)
 
          **Activated**
 
-         ![Route - Linked Account Activated](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route_la_pt_act.jpg.md)
+         ![Route - Linked Account Activated](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route_la_pt_act.jpg.md)
 
          **Verification Pending**
 
-         ![Route - Linked Account Verification Pending](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route_la_pt_vp.jpg.md)
+         ![Route - Linked Account Verification Pending](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route_la_pt_vp.jpg.md)
 
          **Not Activated**
 
-         ![Route - Linked Account Not Activated](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route_la_pt_na.jpg.md)
+         ![Route - Linked Account Not Activated](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route_la_pt_na.jpg.md)
         
 
     
@@ -252,7 +252,7 @@ You should initiate Direct Transfers when fund transfers to a linked account is 
     
 ### 9. How many Linked Accounts can I create in bulk for Penny Testing?
 
-         You can upload 50,000 rows in one go with 11 MB as the max file size using the [Bulk Upload](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/batch-upload/#create-linked-accounts-via-batch-upload.md) feature. Below is the expected TAT:
+         You can upload 50,000 rows in one go with 11 MB as the max file size using the [Bulk Upload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/batch-upload.md#create-linked-accounts-via-batch-upload) feature. Below is the expected TAT:
 
          
 
@@ -338,7 +338,7 @@ You should initiate Direct Transfers when fund transfers to a linked account is 
     
 ### 9. How many Linked Accounts can I create in bulk for Penny Testing?
 
-         You can upload 50,000 rows in one go with 11 MB as the max file size using the [Bulk Upload](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/batch-upload/#create-linked-accounts-via-batch-upload.md) feature. Below is the expected TAT:
+         You can upload 50,000 rows in one go with 11 MB as the max file size using the [Bulk Upload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/batch-upload.md#create-linked-accounts-via-batch-upload) feature. Below is the expected TAT:
 
          
 

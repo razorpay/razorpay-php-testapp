@@ -5,7 +5,7 @@ description: Test the Razorpay Native OTP feature with iOS Custom Checkout.
 
 # 2. Test Native OTP Integration
 
-Integrate the [Razorpay Native OTP](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/native-otp.md) feature with iOS custom checkout to avoid customer payment issues such as payment failures due to low internet speeds and bank page redirects.
+Integrate the [Razorpay Native OTP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/native-otp.md) feature with iOS custom checkout to avoid customer payment issues such as payment failures due to low internet speeds and bank page redirects.
 After the integration is complete, you need to test the integration to ensure that it is working as expected. You can make a test transaction using the test cards, verify the payment status from the Dashboard, APIs or subscribe to related Webhook events to take appropriate actions at your end. After testing the integration in test mode, you can start accepting actual payments from your customers.
 
 ## Test Payments
@@ -29,10 +29,10 @@ Visa | 4386 2894 0766 0153 | No
 
 You can track the status of the payment from the Dashboard by subscribing to webhooks or polling our APIs.
 
-Know [how to verify payment status](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/build-integration#110-verify-payment-status.md).
+Know [how to verify payment status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/build-integration.md#110-verify-payment-status).
 
 ## Accept Live Payments
 
 After testing the flow of funds end-to-end in test mode and confident that the integration is working as expected, switch to the Live Mode and start accepting payments from customers. 
 
-Know more about how to [Accept Live Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/go-live-checklist/#accept-live-payments.md).
+Know more about how to [Accept Live Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/go-live-checklist.md#accept-live-payments).

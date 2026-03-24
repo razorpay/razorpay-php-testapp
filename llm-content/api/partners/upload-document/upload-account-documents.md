@@ -8,9 +8,9 @@ description: Upload signatory documents for an Account using Razorpay APIs.
 
 ## Upload Account Documents
 
-Use this endpoint to upload business documents for a sub-merchant's account. Know about the [various error responses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md) for this API.
+Use this endpoint to upload business documents for a sub-merchant's account. Know about the [various error responses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md) for this API.
 
-The information you can update using the Upload Account Documents API differs based on the [product activation status](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/#product-activation-status-and-updates-permitted.md). 
+The information you can update using the Upload Account Documents API differs based on the [product activation status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api.md#product-activation-status-and-updates-permitted). 
 
 ### Request
 
@@ -124,10 +124,10 @@ Razorpay::Account.upload_account_doc(account_id,{
 ### Parameters
 
 `business_proof_of_identification`
-: `array` The business proof document. For more details, refer the [Appendix](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix.md).
+: `array` The business proof document. For more details, refer the [Appendix](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md).
 
     `type`
-    : `string` The type of document uploaded. Check the list of [Document Types](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#document-type.md).
+    : `string` The type of document uploaded. Check the list of [Document Types](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#document-type).
     
     `document_id`
     : `string` The id generated once the business proof document is uploaded.

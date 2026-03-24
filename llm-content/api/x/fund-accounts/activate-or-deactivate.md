@@ -28,5 +28,5 @@ Use this endpoint to activate or deactivate a fund account. This helps you block
 `` is not a valid id.
 * code: 4xx
 * description: The fund account ID entered is invalid.
-* solution: Re-check or find the Fund Account ID: - In the response body of [create a Fund Account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/fund-accounts.md) API.
-- On the [Contacts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts.md) Dashboard.
+* solution: Re-check or find the Fund Account ID: - In the response body of [create a Fund Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/fund-accounts.md) API.
+- On the [Contacts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md) Dashboard.

@@ -17,7 +17,7 @@ Following are the flows available on our TPAP stack:
    
 ### Customer Onboarding
 
-		 Customer onboarding is a process of binding and registering the customer device by validating the mobile number. The customer's payment sources are linked to ensure seamless and hassle-free transactions. Additionally, You must create a fingerprint that acts as a unique identifier generated based on various attributes of the device. Know more about [customer onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/customer-onboarding.md).
+		 Customer onboarding is a process of binding and registering the customer device by validating the mobile number. The customer's payment sources are linked to ensure seamless and hassle-free transactions. Additionally, You must create a fingerprint that acts as a unique identifier generated based on various attributes of the device. Know more about [customer onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/customer-onboarding.md).
 
          
             
@@ -60,7 +60,7 @@ Following are the flows available on our TPAP stack:
             
 ### Device Binding Status
 
-                The following table lists the different device binding status and their description. Know more about [device binding](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/customer-onboarding/bind-device.md).
+                The following table lists the different device binding status and their description. Know more about [device binding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/customer-onboarding/bind-device.md).
                 
                 Status | Step | Description
                 ---
@@ -84,14 +84,14 @@ Following are the flows available on our TPAP stack:
    
 ### Funds and Accounts Management
 
-		 Funds and accounts management helps you manage payment sources and providers. The Razorpay APIs let you add more accounts, delete existing accounts and change PINs for accounts for hassle-free transactions. Know more about [managing funds and accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/funds-account-management.md).
+		 Funds and accounts management helps you manage payment sources and providers. The Razorpay APIs let you add more accounts, delete existing accounts and change PINs for accounts for hassle-free transactions. Know more about [managing funds and accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/funds-account-management.md).
 		
 
    
 ### Payments
 
        The Payment module enables you to make various transactions using payment APIs. Below are the supported transaction types:
-       - [Make Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/payments-flow/make-payments.md): Facilitate P2P (peer-to-peer) or P2M (peer-to-merchant) payments. The supported payment transfer types are:
+       - [Make Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/payments-flow/make-payments.md): Facilitate P2P (peer-to-peer) or P2M (peer-to-merchant) payments. The supported payment transfer types are:
          - Pay from a VPA to VPA.
          - Pay from a VPA to a payment source.
          - Pay from a payment source to a VPA.
@@ -103,15 +103,15 @@ Following are the flows available on our TPAP stack:
          - **Payment to a PSP merchant:** Customers can make a payment using the merchant VPA.
          - **P2P Pay (VPA and Account+IFSC):** A person can pay to another person using a TPAP.
          - **Self Pay:** Customers can make transactions between their own accounts.
-       - [Collect Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/payments-flow/collect-payments.md): This API lets you collect payments from others.
-       - [Approve Collect Requests](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/payments-flow/approve-collect-requests.md): This API lets you approve payment collect requests.
-       - [Reject Collect Requests](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/payments-flow/reject-collect-requests.md): This API lets you reject payment collect requests.
+       - [Collect Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/payments-flow/collect-payments.md): This API lets you collect payments from others.
+       - [Approve Collect Requests](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/payments-flow/approve-collect-requests.md): This API lets you approve payment collect requests.
+       - [Reject Collect Requests](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/payments-flow/reject-collect-requests.md): This API lets you reject payment collect requests.
 		
 
    
 ### Mandates
 
-       You can create and manage mandates using the Razorpay APIs. Know more about [managing mandates](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/tpap-pro/mandate-flow.md).
+       You can create and manage mandates using the Razorpay APIs. Know more about [managing mandates](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/tpap-pro/mandate-flow.md).
 		
 
    
@@ -168,21 +168,21 @@ Following are the flows available on our TPAP stack:
             Activation of Lite Service
             
              The user enables UPI Lite through their UPI app, and the request is processed via PSP, NPCI, and the bank, ensuring activation.
-             ![TPAP Pro UPI Lite Activation Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/tpap-upilite-activation.jpg.md)
+             ![TPAP Pro UPI Lite Activation Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/tpap-upilite-activation.jpg.md)
             
 
          
 ### Payment via UPI Lite
 
              The user makes a low-value transaction using UPI Lite, where the amount is deducted instantly from their Lite balance without requiring bank authentication.
-             ![Payment VIA UPI Lite](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-via-upilite.jpg.md)
+             ![Payment VIA UPI Lite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-via-upilite.jpg.md)
             
 
          
 ### Disabling UPI Lite Service with Non-Zero Balance
 
              If the user disables UPI Lite with a remaining balance, the amount is credited back to their linked bank account before deactivation.
-             ![Disabling UPI Lite Service with Non-Zero Balance](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/disabling-upilite-services.jpg.md)
+             ![Disabling UPI Lite Service with Non-Zero Balance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/disabling-upilite-services.jpg.md)
             
 
        
@@ -213,7 +213,7 @@ Consider the following steps before taking your integration live.
 	
 ### Subscribe to Webhooks
 
-	 [Set up Razorpay Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md) to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL.
+	 [Set up Razorpay Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md) to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL.
 	
 
 ## Header Information

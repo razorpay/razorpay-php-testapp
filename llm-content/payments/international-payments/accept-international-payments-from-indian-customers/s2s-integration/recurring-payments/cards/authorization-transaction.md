@@ -371,7 +371,7 @@ curl -u : \
 : `object` The attributes associated with a card.
 
     `number` _mandatory_
-    : `integer` Unformatted card number. This field is required if value of `method` is `card`. Use one of our [test cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details.md) to try out the payment flow.
+    : `integer` Unformatted card number. This field is required if value of `method` is `card`. Use one of our [test cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md) to try out the payment flow.
     
     `cvv` _mandatory_
     : `integer` CVV printed on the back of the card.
@@ -410,7 +410,7 @@ curl -u : \
     
 ### Response Parameters
 
-If the payment request is valid, the response contains the following fields. Refer to the [S2S Json V2 integration document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/#step-2-create-a-payment.md) for more details.
+If the payment request is valid, the response contains the following fields. Refer to the [S2S Json V2 integration document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2.md#step-2-create-a-payment) for more details.
 
 `razorpay_payment_id`
 : `string` Unique identifier of the payment. Present for all responses.

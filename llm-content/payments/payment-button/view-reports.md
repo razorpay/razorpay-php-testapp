@@ -13,10 +13,10 @@ You can view details about the payments received for a specific Payment Button a
 To view the payments made on a particular Payment Button:
 1. Log in to the Dashboard and navigate to **Payment Button**.
 2. Click the required payment button. 
-    ![Button Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-view-reportpb.jpg.md)
+    ![Button Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-view-reportpb.jpg.md)
 3. Scroll down to the transaction details section. Here the list of all payments made using the button is displayed.
 4. Click a Payment Id to view details of the payment.
-    ![Payment Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-view-paymentpb.jpg.md)
+    ![Payment Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-view-paymentpb.jpg.md)
 
 ### Download Report
 
@@ -29,7 +29,7 @@ To download a report:
 4. Hover the mouse pointer on **Download Report**, and choose a format.
 
     
-    ![Download Report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-view-reportpb.jpg.md) 
+    ![Download Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-view-reportpb.jpg.md) 
     
     
 
@@ -56,5 +56,5 @@ To download a report:
 
 ### Related Information
 
-- [Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button.md)
-- [How Payment Button Works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/how-it-works.md)
+- [Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button.md)
+- [How Payment Button Works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/how-it-works.md)

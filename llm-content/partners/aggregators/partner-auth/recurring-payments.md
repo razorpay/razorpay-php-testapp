@@ -48,7 +48,7 @@ Through this combination of API security via Partner Auth headers and card netwo
 
 ## API Authentication Using Partner Auth
 
-Use the Partner credentials as described in the [Dashboard Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/#partner-credentials.md) as Basic Auth.
+Use the Partner credentials as described in the [Dashboard Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators.md#partner-credentials) as Basic Auth.
 
 In the API request:
 - The authorisation information is expressed using the `Authorization` header with Basic auth scheme.
@@ -67,7 +67,7 @@ curl -X GET 'https://api.razorpay.com/v1/payments/pay_KjtVtO37KdpfjG' \
     
 ### Using Razorpay S2S APIs (Cards Only)
 
-         Following is the integration flow to [collect recurring card payments using Razorpay payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/cards/payment-api.md):
+         Following is the integration flow to [collect recurring card payments using Razorpay payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/cards/payment-api.md):
             1. Create a Customer for your sub-merchant. This returns a `customer_id`.
             2. Create a registration payment using card details with our Composite Orders and Payments API. This API returns a URL where customers can complete registration by submitting the OTP. At the end of this registration, the recurring token is generated.
             3. Fetch the recurring token:
@@ -105,9 +105,9 @@ curl -X GET 'https://api.razorpay.com/v1/payments/pay_KjtVtO37KdpfjG' \
          You can create registration links from the Dashboard or using APIs.
          Following is the integration flow to collect recurring payments using a registration link:
             1. Create a registration link and send it to your customer. The customer completes the authorisation payment, which generates a token. This payment can be authorised using one of the following instruments:
-                - [Emandate](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/emandate/registration.md)
-                - [Card](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/cards/registration-links/create-authorisation-transaction.md)
-                - [UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/upi/create-authorisation-transaction.md)
+                - [Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/emandate/registration.md)
+                - [Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/cards/registration-links/create-authorisation-transaction.md)
+                - [UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/upi/create-authorisation-transaction.md)
 
                 
 > **INFO**
@@ -127,7 +127,7 @@ curl -X GET 'https://api.razorpay.com/v1/payments/pay_KjtVtO37KdpfjG' \
  
 #### Related Information
 
-- [Emandate](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/emandate/registration.md)
-- [Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/cards/payment-api.md)
-- [UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/upi/create-authorisation-transaction.md)
-- [UPI with TPV](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/upi-tpv/create-authorisation-transaction.md)
+- [Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/emandate/registration.md)
+- [Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/cards/payment-api.md)
+- [UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/upi/create-authorisation-transaction.md)
+- [UPI with TPV](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/partner-auth/recurring-payments/upi-tpv/create-authorisation-transaction.md)

@@ -71,12 +71,12 @@ Before you go live with PayU on Optimizer, disable the retry option.
             5. Click **Add Another Condition** and enter the following rule:
                 - **Select Parameter**: Select **EMI Duration**.
                 - **Select Connection**: Select **Equal to**.
-                - **Select Comparing Value**: Select **the EMI Duration** as per your requirement, and click **Next**. Know more about [EMI durations](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/supported-gateways-aggregators#emi.md) for PayU EMI.
-                 ![Rule for EMI PayU](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-payu-route.jpg.md)
+                - **Select Comparing Value**: Select **the EMI Duration** as per your requirement, and click **Next**. Know more about [EMI durations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md#emi) for PayU EMI.
+                 ![Rule for EMI PayU](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-payu-route.jpg.md)
             6. Enter the value **100** in the **Route** field, select **payu** in the **payment via** field, and click Next.
-                 ![Add provider EMi PayU](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-payu-provider.jpg.md)
+                 ![Add provider EMi PayU](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-payu-provider.jpg.md)
             7. Click **Publish Rule**.
-                 ![EMI PayU Publish Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-payu-publish-rule.jpg.md)
+                 ![EMI PayU Publish Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-payu-publish-rule.jpg.md)
         
 
 ## Add PayU as Payment Provider
@@ -89,12 +89,12 @@ Before you go live with PayU on Optimizer, disable the retry option.
             2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
             3. In the top-right section, click **Add Provider**.
             4. Select **PayU** in the list of gateways available and click **Next**.
-                ![Add PayU](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-payu.jpg.md)
+                ![Add PayU](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-payu.jpg.md)
             5. Enter the provider name and description and click **Next**.
-                ![Add Provider Name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/provider-name.jpg.md)
+                ![Add Provider Name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/provider-name.jpg.md)
             6. Enter your PayU key and Salt key.
             7. Select the payment methods you want to enable for PayU and click **Submit**. 
-                ![Add Salt Key sodexo](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-key-salt-payu.jpg.md)
+                ![Add Salt Key sodexo](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-key-salt-payu.jpg.md)
             You have successfully added **PayU** as a payment provider on Optimizer.
         
 
@@ -121,16 +121,16 @@ Given below is the list of card networks and payment gateways that support the C
         ---
         8 | Emandate | Live
         ---
-        9 | [Sodexo](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/sodexo.md) | Live
+        9 | [Sodexo](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/sodexo.md) | Live
         
     
     
         
         S No. | Payment Methods | Availability
         ---
-        1 | [Emandate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/integrate.md) | Live
+        1 | [Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/integrate.md) | Live
         ---
-        2 | [Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/cards/integrate.md) | Live
+        2 | [Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/cards/integrate.md) | Live
         ---
         3 | UPI Autopay | Live
         
@@ -141,7 +141,7 @@ Given below is the list of card networks and payment gateways that support the C
 > 
 > **Handy Tips**
 > 
-> PayU supports [Third-Party Validation (TPV)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/third-party-validation/#supported-bank-gateways-payment-gateways-and-payment-methods.md).
+> PayU supports [Third-Party Validation (TPV)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/third-party-validation.md#supported-bank-gateways-payment-gateways-and-payment-methods).
 > 
 
 ## Email Format
@@ -181,7 +181,7 @@ Given below is the list of card networks and payment gateways that support the C
         
 
 ## Send Receipt/Order ID to External Gateway
-You might be generating a unique Order ID or Receipt for every order which can be passed to PayU via [ Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders#orders-api.md). Follow the steps given below for your order id to be visible on the PayU Dashboard:
+You might be generating a unique Order ID or Receipt for every order which can be passed to PayU via [ Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md#orders-api). Follow the steps given below for your order id to be visible on the PayU Dashboard:
 
 1. In Razorpay's Orders API, use the `receipt` parameter to send your unique Order ID or Receipt.
 2. Razorpay passes this value to PayU in the `udf1` parameter.
@@ -216,11 +216,11 @@ Before routing all traffic or some traffic to a new gateway via Optimizer, the f
             - In **Parameter** field, select **Amount (In Rupees)**.
             - In **Select Connection** field, select **Less Than**.
             - In **Enter Amount** field, enter the value 2 and click **Next**.
-            ![Add Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-rule.jpg.md)
+            ![Add Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-rule.jpg.md)
         5. Enter the value 100 in the **Route field**, select **PayU** in the **Payment Via** field, and click **Next**.
-            ![target Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/target-provider.jpg.md)
+            ![target Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/target-provider.jpg.md)
         6. Click **Publish Rule**.
-            ![Publish Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/publish-rule.jpg.md)
+            ![Publish Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/publish-rule.jpg.md)
         
 
 ## Go Live

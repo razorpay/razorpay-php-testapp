@@ -5,7 +5,7 @@ description: Create and fetch Plans and Subscriptions. Create and delete Add-ons
 
 # Subscriptions
 
-You can create, fetch, query or cancel plans, subscriptions and addons using the Subscriptions API. These operations can also be performed on the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md).
+You can create, fetch, query or cancel plans, subscriptions and addons using the Subscriptions API. These operations can also be performed on the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md).
 
 ## Postman Collection
 
@@ -16,7 +16,7 @@ We have a Postman collection to make the integration quicker and easier. Click t
 ### Instructions to Use Postman Collection
 
 - All Razorpay APIs are authenticated using Basic Authentication.
-  - [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
+  - [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
   - Add your API Keys in Postman. Select the required API → Auth → Type = Basic Auth → Username = [Your_Key_ID]; Password = [Your_Key_secret]
   ![](/docs/assets/images/api-postman_basic_auth.gif)
 - Some APIs in the collection require data specific to your account such as `plan_id`, `sub_id` and `ao_id` either in the request body or as a query parameter.

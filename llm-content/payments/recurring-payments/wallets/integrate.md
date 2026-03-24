@@ -30,15 +30,15 @@ Mandate registration creates an **authorisation transaction** where customers pr
 >         Standard Checkout authorisation can only be created using Razorpay Curlec APIs.
 >         
 
-        **Step 1:** [**Create a Customer**](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/wallets/create-authorization-transaction/#111-create-a-customer.md)
+        **Step 1:** [**Create a Customer**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/wallets/create-authorization-transaction.md#111-create-a-customer)
         
         Create a customer record in Razorpay Curlec to associate the mandate with. This returns a `customer_id` to be used in subsequent steps.
 
-        **Step 2:** [**Create an Order**](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/wallets/create-authorization-transaction/#112-create-an-order.md)
+        **Step 2:** [**Create an Order**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/wallets/create-authorization-transaction.md#112-create-an-order)
         
         Create an order for the authorisation amount. You can set this to RM 1 for minimal authorisation or the actual first payment amount. Pass the token parameters including `max_amount` and `expire_at` to set mandate limits.
 
-        **Step 3:** [**Create Authorisation Payment**](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/wallets/create-authorization-transaction/#113-create-an-authorization-payment.md)
+        **Step 3:** [**Create Authorisation Payment**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/wallets/create-authorization-transaction.md#113-create-an-authorization-payment)
         
         Initialise Razorpay Curlec Checkout with the `order_id`, `customer_id` and recurring-specific parameters. Specify `wallet` as the payment method. The customer completes the authorisation on Touch'n Go interface. Once the authorisation is successful, you receive a `token_id` in the payment response. This token represents the customer's wallet mandate.
 
@@ -47,11 +47,11 @@ Mandate registration creates an **authorisation transaction** where customers pr
 
         ### Registration Link Flow
 
-        ![Recurring Payments Using Registration Link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/recurring-payments-recurring_payments_registration_link.jpg.md)
+        ![Recurring Payments Using Registration Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/recurring-payments-recurring_payments_registration_link.jpg.md)
 
         **Create a Registration Link** using:
-        - [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/wallets/create-authorization-transaction/#121-create-a-registration-link.md)
-        - [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create/#1-create-a-registration-link.md)
+        - [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/wallets/create-authorization-transaction.md#121-create-a-registration-link)
+        - [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#1-create-a-registration-link)
 
         Specify the authorisation amount, customer details, wallet type (Touch'n Go) and token parameters (max_amount and expire_at). The link can be sent to your customer via email or SMS.
 
@@ -83,16 +83,16 @@ After the authorisation transaction is complete, a **token** is generated. The t
 
 You can retrieve token information using:
 
-- [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/wallets/tokens.md)
-- [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create/#3-search-for-the-token.md)
-- [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/subscribe-to-webhooks/#token-states.md)
+- [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/wallets/tokens.md)
+- [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#3-search-for-the-token)
+- [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/subscribe-to-webhooks.md#token-states)
 
     
 ### Token Lifecycle
 
          Tokens move through different states from creation to expiry:
 
-         ![Token life cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rec-pmnts-2_1_1_1.jpg.md)
+         ![Token life cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rec-pmnts-2_1_1_1.jpg.md)
 
          @include recurring-payments/token-states
         
@@ -114,11 +114,11 @@ Once the token is in **confirmed** state, you can create recurring payments with
 
     
 
-        **Step 1:** [**Find the Token**](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create/#3-search-for-the-token.md)
+        **Step 1:** [**Find the Token**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#3-search-for-the-token)
         
         Use the Dashboard search to locate the customer's token. Verify the token status is **confirmed**.
 
-        **Step 2:** [**Create a Charge**](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create/#4-charge-the-token.md)
+        **Step 2:** [**Create a Charge**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#4-charge-the-token)
         
         Click **Charge Token** and enter the payment amount. Razorpay Curlec automatically creates an order and processes the payment.
 
@@ -134,11 +134,11 @@ Once the token is in **confirmed** state, you can create recurring payments with
     
     
         
-        **Step 1:** [**Create an Order**](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/wallets/create-subsequent-payments/#31-create-an-order-to-charge-the-customer.md)
+        **Step 1:** [**Create an Order**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/wallets/create-subsequent-payments.md#31-create-an-order-to-charge-the-customer)
         
         Each subsequent payment must be associated with a unique order. This allows you to track payments and handle retries. Specify the charge amount, currency (MYR) and optional notes for tracking.
 
-        **Step 2:** [**Create a Recurring Payment**](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/wallets/create-subsequent-payments/#32-create-a-recurring-payment.md)
+        **Step 2:** [**Create a Recurring Payment**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/wallets/create-subsequent-payments.md#32-create-a-recurring-payment)
         
         Use the `token_id` to create a payment for the order. No customer action required. The payment is processed automatically against the customer's Touch'n Go wallet balance.
 
@@ -154,4 +154,4 @@ Once the token is in **confirmed** state, you can create recurring payments with
     
 
 ### Related Information
-[List of Wallets APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/wallets/apis.md)
+[List of Wallets APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/wallets/apis.md)

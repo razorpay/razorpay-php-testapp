@@ -12,16 +12,16 @@ In the Checkout form designed to meet your business needs and branding, you can 
 > 
 > **New to Custom Checkout Integration?**
 > 
-> If yes, know more about the [custom integration flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
+> If yes, know more about the [custom integration flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
 > 
 
 ## Prerequisites
 
 Before integrating offers for your custom Checkout, run through this checklist:
 
-1. Understand the [payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments#payment-life-cycle.md).
+1. Understand the [payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments.md#payment-life-cycle).
 
-2. Generate the API keys from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/#api-keys.md).
+2. Generate the API keys from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings.md#api-keys).
 
 > **WARN**
 >
@@ -33,7 +33,7 @@ Before integrating offers for your custom Checkout, run through this checklist:
 
 ## Steps to Integrate
 
-The procedure for integrating Custom Checkout on your website is explained in the [Custom Integration document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md). However, the procedure varies while passing the offers in the payment details.
+The procedure for integrating Custom Checkout on your website is explained in the [Custom Integration document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md). However, the procedure varies while passing the offers in the payment details.
 
 1. [Create Offers on Dashboard](#step-1-create-offers-on-dashboard)
 2. [Create Orders to include the Offers in the payment request](#step-2-create-orders-and-pass-offer_id)
@@ -41,7 +41,7 @@ The procedure for integrating Custom Checkout on your website is explained in th
 
 ### Step 1: Create Offers on Dashboard
 
-You can create offers from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create.md).
+You can create offers from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md).
 
 ### Step 2: Create Orders and Pass Offer_id
 
@@ -163,7 +163,7 @@ Using the following attributes, send an order request using the Orders API.
 > 
 >   **Handy Tips**
 > 
->   This is mandatory only in cases where you want to associate an offer or offers with the Order or you had not selected the [Show Offer on Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create/#offer-validity.md) while creating the offer from the Dashboard.
+>   This is mandatory only in cases where you want to associate an offer or offers with the Order or you had not selected the [Show Offer on Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md#offer-validity) while creating the offer from the Dashboard.
 >   
 
 ### Step 3: Submit Payment Details
@@ -201,18 +201,18 @@ $btn.on('click', function(){
 })
 ```
 
-Know more about [Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
+Know more about [Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
 
 ## Next Steps
 
 After the customer has availed the offers and made the payment at the Checkout, you can track the status of the payments:
 
 - From the Dashboard.
-- By [configuring webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
-- By polling our [payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#fetch-payments-based-on-orders.md).
+- By [configuring webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
+- By polling our [payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#fetch-payments-based-on-orders).
 
 ### Related Information
 
-- [About Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers.md)
-- [Create Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create.md)
-- [Tutorial - How to Create Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/tutorial.md)
+- [About Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers.md)
+- [Create Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md)
+- [Tutorial - How to Create Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/tutorial.md)

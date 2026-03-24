@@ -52,7 +52,7 @@ Follow these steps to generate API keys:
 > 
 > **Watch Out!**
 > 
-> - After generating the keys from the Dashboard, download and save them securely. You can use only one set of API keys. If you do not remember your API keys, you must [regenerate them](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#regenerate-api-keys.md) from the Dashboard and update them wherever the previous keys were used for payment gateway integrations. 
+> - After generating the keys from the Dashboard, download and save them securely. You can use only one set of API keys. If you do not remember your API keys, you must [regenerate them](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#regenerate-api-keys) from the Dashboard and update them wherever the previous keys were used for payment gateway integrations. 
 > - API Keys are universal; that is, they are applicable to all websites and apps that you have whitelisted for your Merchant ID.
 > - **Do not share your API Key secret** with anyone or on any public platforms. **This can pose security threats to your Razorpay account**.
 > - Once you generate the API Keys, only the **Key Id** is visible on the Dashboard, **not the Key secret**, as it can pose security threats to your Razorpay account.
@@ -74,7 +74,7 @@ Once generated, you will be able to see the Key id, the date the key was created
 Order is an important step in the payment process.
 
 - An order should be created for every payment.
-- You can create an order using the [Orders API](#api-sample-code). It is a server-side API call.  Know how to [authenticate](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) Orders API.  
+- You can create an order using the [Orders API](#api-sample-code). It is a server-side API call.  Know how to [authenticate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) Orders API.  
 - The order_id received in the response should be passed to the checkout. This ties the Order with the payment and secures the request from being tampered.
 
 > **WARN**
@@ -209,7 +209,7 @@ curl -X POST https://api.razorpay.com/v1/orders
 >       
 
      `currency` _mandatory_
-     : `string` The currency in which the transaction should be made. View the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). The length must be 3 characters.
+     : `string` The currency in which the transaction should be made. View the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). The length must be 3 characters.
 
       
 > **INFO**
@@ -218,7 +218,7 @@ curl -X POST https://api.razorpay.com/v1/orders
 > 
 >       **Handy Tips**
 > 
->       Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>       Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
 >       
 
      `receipt` _optional_
@@ -448,7 +448,7 @@ curl -X POST https://api.razorpay.com/v1/orders
      : `integer` The UNIX timestamp at which the order is created.
 
      `currency` _mandatory_
-     : `string` The currency in which the transaction should be made. View the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be of 3 characters.
+     : `string` The currency in which the transaction should be made. View the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be of 3 characters.
 
      `entity`
      : `string` Name of the entity. Here, it is `order`.
@@ -475,7 +475,7 @@ curl -X POST https://api.razorpay.com/v1/orders
   
 ### Error Response Parameters
 
-     The error response parameters are available in the [API Reference Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md).
+     The error response parameters are available in the [API Reference Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md).
     
 
 ## 1.3 Integrate with Checkout on Client-Side
@@ -589,7 +589,7 @@ document.getElementById('rzp-button1').onclick = function(e){
 >        
 
      `currency` _mandatory_
-     : `string` The currency in which the payment should be made by the customer. See the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+     : `string` The currency in which the payment should be made by the customer. See the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
        
 > **INFO**
@@ -598,7 +598,7 @@ document.getElementById('rzp-button1').onclick = function(e){
 > 
 >        **Handy Tips**
 > 
->        Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>        Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
 >        
 
      `name` _mandatory_
@@ -611,7 +611,7 @@ document.getElementById('rzp-button1').onclick = function(e){
      : `string` Link to an image (usually your business logo) shown on the Checkout form. Can also be a **base64** string if you are not loading the image from a network.
 
      `order_id` _mandatory_
-     : `string` Order ID generated via [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+     : `string` Order ID generated via [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
      `prefill`
      : `object` You can prefill the following details at Checkout.
@@ -698,15 +698,15 @@ If 9977665544 is entered, `+91` is added to it as +919977665544.
            - `false`: Animation does not appear.
 
      `subscription_id` _optional_
-     : `string` If you are accepting recurring payments using Razorpay Checkout, you should pass the relevant `subscription_id` to the Checkout. Know more about [Subscriptions on Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/#checkout-integration.md).
+     : `string` If you are accepting recurring payments using Razorpay Checkout, you should pass the relevant `subscription_id` to the Checkout. Know more about [Subscriptions on Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions.md#checkout-integration).
 
      `subscription_card_change` _optional_
-     : `boolean` Permit or restrict customer from changing the card linked to the subscription. You can also do this from the [hosted page](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/payment-retries/#update-the-payment-method-via-our-hosted-page.md). Possible values:
+     : `boolean` Permit or restrict customer from changing the card linked to the subscription. You can also do this from the [hosted page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/payment-retries.md#update-the-payment-method-via-our-hosted-page). Possible values:
        - `true`: Allow the customer to change the card from Checkout.
        - `false` (default): Do not allow the customer to change the card from Checkout.
 
      `recurring` _optional_
-     : `boolean` Determines if you are accepting [recurring (charge-at-will) payments on Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments.md) via instruments such as emandate, paper NACH and so on. Possible values:
+     : `boolean` Determines if you are accepting [recurring (charge-at-will) payments on Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments.md) via instruments such as emandate, paper NACH and so on. Possible values:
        - `true`: You are accepting recurring payments.
        - `false` (default): You are not accepting recurring payments.
 
@@ -720,11 +720,11 @@ If 9977665544 is entered, `+91` is added to it as +919977665544.
 
      `customer_id` _optional_
      : `string` Unique identifier of customer. Used for:
-       - [Local saved cards feature](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/features/saved-cards/#manage-saved-cards.md).
-       - Static bank account details on Checkout in case of [Bank Transfer payment method](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/bank-transfer.md).
+       - [Local saved cards feature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/features/saved-cards.md#manage-saved-cards).
+       - Static bank account details on Checkout in case of [Bank Transfer payment method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bank-transfer.md).
 
      `remember_customer` _optional_
-     : `boolean` Determines whether to allow saving of cards. Can also be configured via the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/checkout-features/#flash-checkout.md). Possible values:
+     : `boolean` Determines whether to allow saving of cards. Can also be configured via the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-features.md#flash-checkout). Possible values:
        - `true`: Enables card saving feature.
        - `false` (default): Disables card saving feature.
 
@@ -841,7 +841,7 @@ Blocked by CORS policy. | Occurs when the server-to-server request is hit from t
 
 Multiple payment methods are available on the Razorpay Web Standard Checkout.
 - The payment methods are **fixed** and cannot be changed.
-- You can configure the order or make certain payment methods prominent. Know more about [configuring payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods.md).
+- You can configure the order or make certain payment methods prominent. Know more about [configuring payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods.md).
 
 ## 1.4 Handle Payment Success and Failure
 
@@ -857,7 +857,7 @@ If you used the sample code with the handler function:
 
  
 
-   The customer is notified about payment failure and asked to retry the payment. Know about the [error parameters.](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/#response-parameters.md)
+   The customer is notified about payment failure and asked to retry the payment. Know about the [error parameters.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md#response-parameters)
 
     ```js: Failure Handling Code
     rzp1.on('payment.failed', function (response){
@@ -894,7 +894,7 @@ If you used the sample code with the callback URL:
 
 @include integration-steps/verify-signature
 
-Here are the links to our [SDKs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#client-libraries.md) for the supported platforms.
+Here are the links to our [SDKs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#client-libraries) for the supported platforms.
 
 ## 1.7 Verify Payment Status
 
@@ -902,4 +902,4 @@ Here are the links to our [SDKs](@/Applications/MAMP/htdocs/new-docs/llm-content
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/chargeback/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/chargeback/test-integration.md)

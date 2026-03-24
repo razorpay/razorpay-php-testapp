@@ -7,10 +7,10 @@ description: Use the Bulk Upload feature on the RazorpayX Dashboard to make payo
 # About Bulk Payouts
 
 As a business owner, you may come across situations wherein you have to make payouts to multiple vendors or multiple payouts to vendor(s). You can use the Bulk Payouts feature to create multiple payouts in such cases. Apart from processing payouts, you can perform the following tasks:
-- Make a payout to an existing [fund account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts.md). 
-- Create a new [contact and fund account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts#create-a-contact-with-fund-account.md) to make a payout.
+- Make a payout to an existing [fund account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts.md). 
+- Create a new [contact and fund account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts.md#create-a-contact-with-fund-account) to make a payout.
 
-Alternatively, you can also [create contacts and fund accounts in bulk](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts/bulk-uploads.md). 
+Alternatively, you can also [create contacts and fund accounts in bulk](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts/bulk-uploads.md). 
 
 ## Create Bulk Payout
 
@@ -68,7 +68,7 @@ To create bulk payouts:
 7. Once the file is successfully uploaded, click **Next**.
 8. Select the **Payout Purpose** and the account you want to **Debit From**.
 9. You can edit the **Batch Name** if required.
-10. Click **Next** to make the payouts or [schedule the payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/scheduled.md).
+10. Click **Next** to make the payouts or [schedule the payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/scheduled.md).
 11. Enter the OTP sent to the registered mobile number and email id to confirm the payout and create the batch. If Approval Workflow is enabled, click **Send for Approval** in the final step.
 
 > **INFO**
@@ -80,7 +80,7 @@ To create bulk payouts:
 > 
 
 You have successfully created a bulk payout batch. Your file then moves to the `processing` status. Hover over the file name to **View Payouts** and their status or click on the respective file name to find details on the right pane.
-    ![Bulk Payouts process complete](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-bulk-payouts-complete.jpg.md)
+    ![Bulk Payouts process complete](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-bulk-payouts-complete.jpg.md)
 
     
 ### Bulk Payouts batch processing vs Payouts Processing
@@ -125,7 +125,7 @@ Number of Rows in the sheet | - Min: 1
 ---
 Number of sheets in the file | Only 1 sheet is permitted.
 ---
-Incorrect format of the file | Download and fill from the [templates](@/Applications/MAMP/htdocs/new-docs/llm-content/x/bulk-payouts/#bulk-payouts-templates.md) provided.
+Incorrect format of the file | Download and fill from the [templates](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/bulk-payouts.md#bulk-payouts-templates) provided.
 ---
 
 #### Payouts Requirement
@@ -140,14 +140,14 @@ Payout Amount | The amount should be:- =//= ₹2L for payout via RTGS
 - =/ **INFO**
 >
 > **Example**
-If you have chosen `Razorpay Fund Account ID` details along with `UPI` as the payout method, the [Fund Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts.md) ID provided by Razorpay for the respective contact must be linked to a UPI account.
+If you have chosen `Razorpay Fund Account ID` details along with `UPI` as the payout method, the [Fund Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts.md) ID provided by Razorpay for the respective contact must be linked to a UPI account.
 
 ---
 Bene UPI ID | Valid UPI ID.
 ---
 Bene phone no. linked with amazonpay | Between 10-13 digits.
 
-You can select the template based on the payment method and the beneficiary to whom you want to credit the amount. Know more about the [payout modes, processing time and amount limit](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/#payout-modes-and-tat.md).
+You can select the template based on the payment method and the beneficiary to whom you want to credit the amount. Know more about the [payout modes, processing time and amount limit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#payout-modes-and-tat).
 
 ### Resolve Errors
 
@@ -201,5 +201,5 @@ The template throws errors in case the in-sheet validation fails. Ensure you fol
 
 ### Related Information
 
-- [Bulk Upload Status](@/Applications/MAMP/htdocs/new-docs/llm-content/x/bulk-payouts/uploads.md)
-- [Bulk Payouts Life Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/x/bulk-payouts/life-cycle.md)
+- [Bulk Upload Status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/bulk-payouts/uploads.md)
+- [Bulk Payouts Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/bulk-payouts/life-cycle.md)

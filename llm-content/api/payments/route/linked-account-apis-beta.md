@@ -5,7 +5,7 @@ description: Create accounts directly from your website/ app using Razorpay Acco
 
 # Account APIs [beta]
 
-Account APIs lets you dynamically create accounts with Razorpay directly from your site/app to quickly set a fully-functional payment ecosystem up and running. Our APIs use basic auth as authentication. Refer the [API Documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#authentication.md) section to know more.
+Account APIs lets you dynamically create accounts with Razorpay directly from your site/app to quickly set a fully-functional payment ecosystem up and running. Our APIs use basic auth as authentication. Refer the [API Documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#authentication) section to know more.
 
 You can perform the following operations with the Account APIs:
 
@@ -157,7 +157,7 @@ The account entity has the following fields.
 : `string` Name on the promoter's PAN Card.
 
 `notes`
-: `object` A key-value store present with every Razorpay entity like Account, Payment, Refund, etc. You can use this for storing additional data relating to the entity in a structured format. Refer [Notes section of API documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) to learn more.
+: `object` A key-value store present with every Razorpay entity like Account, Payment, Refund, etc. You can use this for storing additional data relating to the entity in a structured format. Refer [Notes section of API documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) to learn more.
 
 `destination` 
 : `string` The Id of the bank account entity created. For example, ba_gHQwerty123ggd

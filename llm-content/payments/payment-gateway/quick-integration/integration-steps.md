@@ -90,7 +90,7 @@ Follow the steps given below:
 
          @include integration-steps/verify-signature
 
-         Here are the links to our [SDKs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/#github-and-documentation-links-for-sdks.md) for the supported platforms.
+         Here are the links to our [SDKs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md#github-and-documentation-links-for-sdks) for the supported platforms.
         
 
     

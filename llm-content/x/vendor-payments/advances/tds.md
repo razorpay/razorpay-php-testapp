@@ -21,7 +21,7 @@ When you knock off the advance payment against an invoice, the invoice payable a
 To deduct TDS with advance payments: 
 
 1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
-1. Navigate to **Vendor Payments** → **Advances** in the left menu and click **+ Advance**. Follow the steps to [create an advance payment](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/advances/#create-vendor-advance.md) using the applicable POs and vendor details.
+1. Navigate to **Vendor Payments** → **Advances** in the left menu and click **+ Advance**. Follow the steps to [create an advance payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/advances.md#create-vendor-advance) using the applicable POs and vendor details.
 1. On the **New Advance** page: 
     1. Select the PO applicable. 
     1. Enter the **Advance Amount** details.
@@ -36,15 +36,15 @@ To deduct TDS with advance payments:
         This automatically calculates the **Total Payable** amount. The total payable amount is the difference of the Advance amount and the TDS amount. 
     1. Add up to five reference files/attachments and notes, if necessary.
 
-    ![TDS on Advance Payments RazorpayX Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tds-advance-payments.jpg.md) 
+    ![TDS on Advance Payments RazorpayX Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tds-advance-payments.jpg.md) 
 1. Click **Next**.  
-1. [Create a payout](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/#create-a-payout.md) after selecting the [Payout purpose](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/#payout-purpose.md), debit account, mode of payment and more. You can also add attachments and additional details, and [schedule the payout](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/scheduled/#individual-payout.md). 
-1. Authorise the payout with OTP. If [approval workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/approvals-on-invoices.md) is applicable, the payout is sent to the approver. 
+1. [Create a payout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#create-a-payout) after selecting the [Payout purpose](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#payout-purpose), debit account, mode of payment and more. You can also add attachments and additional details, and [schedule the payout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/scheduled.md#individual-payout). 
+1. Authorise the payout with OTP. If [approval workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/approvals-on-invoices.md) is applicable, the payout is sent to the approver. 
 
 This successfully creates an advance payment to the vendor. The advance payment details are available on the **Advances** tab. Here you can:
 - View when you created the advance payment, the **UTR** number, **Advance IDs**, **Payout IDs**, the TDS deducted, and the TDS category details. 
 - View all TDS payment adjustments in the right pane of the selected advance payment.
-    ![TDS adjustments RazorpayX Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tds-advances-adjustments.jpg.md)
+    ![TDS adjustments RazorpayX Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tds-advances-adjustments.jpg.md)
 
 > **WARN**
 >
@@ -64,17 +64,17 @@ To adjust an advance against an invoice, initiate an invoice payment.
 
 1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
 1. Go to **Vendor Payments** and select the invoice to pay. You can view the vendor, invoice, and advance details in the right pane. Click **Apply them →** to review the advance payments detected against the vendor and knock off the advance payments.
-    ![RazorpayX knock off advance payments with invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tds-advance-payments-apply.jpg.md)
+    ![RazorpayX knock off advance payments with invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tds-advance-payments-apply.jpg.md)
 1. On the **Edit Invoice** page, review and select the advances matched with the vendor and invoice. 
 
     Click **Apply advance →** If no advance is applicable, click **Don't apply**.
 
-    ![Choose advance payments applicable and knock off invoice RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tds-advance-payments-choose.jpg.md)
+    ![Choose advance payments applicable and knock off invoice RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tds-advance-payments-choose.jpg.md)
 1. Authorise the payout with OTP to pay the invoice fully or partially, or you can schedule the payout.
 
 You have successfully paid the vendor's invoice after knocking the advance already paid. The TDS is automatically adjusted.
 
 ## Related Information 
 
-- [About Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md)
-- [About Vendor Portal](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/portal/business.md)
+- [About Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md)
+- [About Vendor Portal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/portal/business.md)

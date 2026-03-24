@@ -19,17 +19,17 @@ To resend a Payment Link:
 1. Select the Payment Link which you wish to resend. The details appear on the right-side pane.
 1. Click the resend icon.
     
-    ![resend icon](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-resend-icon.jpg.md)
+    ![resend icon](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-resend-icon.jpg.md)
     
 1. Select the modes (Email or SMS or both) in which you want to resend the Payment Link.
     
-    ![resend mode](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-resend-mode.jpg.md)
+    ![resend mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-resend-mode.jpg.md)
     
 1. Click **Send Link**.
 
 #### Related Information
 
-- [Payment Links States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/states.md)
-- [Create a Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/create.md)
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/faqs.md)
-- [Subscribe to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/subscribe-to-webhooks.md)
+- [Payment Links States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/states.md)
+- [Create a Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/create.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/faqs.md)
+- [Subscribe to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/subscribe-to-webhooks.md)

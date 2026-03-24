@@ -12,7 +12,7 @@ Integrate with Razorpay APIs to start accepting card payments. Our APIs support 
 > 
 > **Handy Tips**
 > 
-> If you are an existing Razorpay user, that is, you integrated with our S2S APIs before October 15, 2022, you need to make certain integration changes to [migrate to the 3DS2 flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards/migrate-3ds2.0.md).
+> If you are an existing Razorpay user, that is, you integrated with our S2S APIs before October 15, 2022, you need to make certain integration changes to [migrate to the 3DS2 flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards/migrate-3ds2.0.md).
 > 
 
 > **WARN**
@@ -28,7 +28,7 @@ Integrate with Razorpay APIs to start accepting card payments. Our APIs support 
 
 3DS2 is an authentication protocol, the successor of 3DS1, that enables businesses and payment providers to send additional information (such as customer device or browser data) to verify the transaction's authenticity. Razorpay integration is compliant with the 3DS2 protocol. 
 
-**Know more**: Razorpay supports [3DS2 transactions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/cards/3ds2.0.md).
+**Know more**: Razorpay supports [3DS2 transactions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/cards/3ds2.0.md).
 
 > **INFO**
 >
@@ -373,7 +373,7 @@ body, err := client.Payment.CreatePaymentJson(para_attr, nil)
 >   
 
 `currency` _mandatory_
-: `string` Currency code for the currency in which you want to accept the payment. For example, INR. Refer to the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be of 3 characters.
+: `string` Currency code for the currency in which you want to accept the payment. For example, INR. Refer to the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be of 3 characters.
 
   
 > **INFO**
@@ -382,7 +382,7 @@ body, err := client.Payment.CreatePaymentJson(para_attr, nil)
 > 
 >   **Handy Tips**
 > 
->   Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>   Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
 >   
 
 `order_id` _mandatory_
@@ -470,7 +470,7 @@ body, err := client.Payment.CreatePaymentJson(para_attr, nil)
     : `string` Obtained from payer's browser using the `navigator.language` HTML DOM property. Maximum limit of 8 characters.
 
 `notes` _optional_
-: `object` Key-value object used for passing tracking info. Refer to [Notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) for more details.
+: `object` Key-value object used for passing tracking info. Refer to [Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) for more details.
 
 `callback_url` _optional_
 : `string` URL endpoint where Razorpay will submit the final payment status.
@@ -499,7 +499,7 @@ A basic integration must look out for one type of `next` action:
 
 ### Implementing Native OTP flows
 
-If you are using this endpoint to implement [native OTP](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/authentication/native-otp.md) on your website, you can pass the following additional request parameters.
+If you are using this endpoint to implement [native OTP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/authentication/native-otp.md) on your website, you can pass the following additional request parameters.
 
 `auth_type`
 : `string` Can be set to `otp` for Native OTP or `3ds` for regular ACS payments. This will force the payment to use this authentication type.
@@ -523,7 +523,7 @@ Next Action | Description
 > 
 > **Watch Out!**
 > 
-> The OTP Submit and Resend APIs return a response in a particular [format](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/authentication/native-otp/#4-otp-authentication.md). A payment that is successfully authenticated in this manner need not be verified.
+> The OTP Submit and Resend APIs return a response in a particular [format](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/authentication/native-otp.md#4-otp-authentication). A payment that is successfully authenticated in this manner need not be verified.
 > 
 
 #### Examples
@@ -832,7 +832,7 @@ If the payment made by the customer is successful, the following fields are sent
 
 #### Failure Callback
 
-If the payment has failed, the callback will contain details of the error. Refer to [errors](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#errors.md) for details.
+If the payment has failed, the callback will contain details of the error. Refer to [errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#errors) for details.
 
 ### 1.4 Verify Payment Signature
 
@@ -860,11 +860,11 @@ Amex | 3402 560004 01007 |
 
 #### Error Scenarios
 
-Use these test cards to simulate payment errors. See the [complete list](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details/#error-scenario-test-cards.md) of error test cards with detailed scenarios.
+Use these test cards to simulate payment errors. See the [complete list](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md#error-scenario-test-cards) of error test cards with detailed scenarios.
 Check the following lists: 
-- [Supported Card Networks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards.md).
-- [Cards Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/payments/cards.md).
+- [Supported Card Networks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards.md).
+- [Cards Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/payments/cards.md).
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v1/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v1/test-integration.md)

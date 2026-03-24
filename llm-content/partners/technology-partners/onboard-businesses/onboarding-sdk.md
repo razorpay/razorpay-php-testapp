@@ -49,20 +49,20 @@ Particulars | Development Client | Production Client
 ### To create an application:
 
       1. Log in to the Dashboard and navigate to **Applications** under **Partners**.
-         ![Create Application](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-create-application.jpg.md)
+         ![Create Application](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-create-application.jpg.md)
       2. Click **Create Application** under **Created Applications**.
       3. Provide the following details and click **Save**.
           - **Name**: The application name provided here is displayed on the Razorpay authorisation interface.
           - **Website**: Enter the URL of the application's website.
           - **Logo**: Upload a square image for application logo. If logo is absent, a default logo is used.
-          ![Add Application Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-oauth-create-application-details.jpg.md)
+          ![Add Application Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-oauth-create-application-details.jpg.md)
 
           The following fields are displayed after the application is created, for development and production clients. These are read-only:
           - **Client ID**: Publicly exposed identifier of the client which is generated uniquely. It helps identify your application on Razorpay.
           - **Client Secret**: Privately shared string between the application and Razorpay. It helps to authenticate the identity of the application on server-to-server API calls. Do not expose the client secret publicly.
           - **Redirect URIs**: A whitelisted set of URIs defined during creation. Production clients can only use secure HTTPS URIs to prevent man-in-the-middle attacks. You can define multiple redirect URIs.
 
-          ![View Production and Development Credentials for Application](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-unmask-client-id.gif.md)
+          ![View Production and Development Credentials for Application](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-unmask-client-id.gif.md)
       4. Edit the Redirect URIs for your clients if needed.
       5. Click **Save**.
     
@@ -189,15 +189,15 @@ Below are the APIs available to onboard clients.
 
 API | Action
 ---
-[Account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/account-onboarding/create.md) | Create and update a client account. Add basic details like name, phone number, email ID and KYC details like business name, type and business PAN details. Check the [Account API Entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/account-onboarding/entity.md) for the complete list of fields.
+[Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/account-onboarding/create.md) | Create and update a client account. Add basic details like name, phone number, email ID and KYC details like business name, type and business PAN details. Check the [Account API Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/account-onboarding/entity.md) for the complete list of fields.
 ---
-[Product Configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration/request.md) | Configure products for an account. Update payment methods, settlement details and refund settings. Check the [Product Configuration API Entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration/entity.md) for the complete list of fields.
+[Product Configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration/request.md) | Configure products for an account. Update payment methods, settlement details and refund settings. Check the [Product Configuration API Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration/entity.md) for the complete list of fields.
 ---
-[Stakeholder](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/stakeholder/create.md) | Add the KYC details of the authorised signatory or the owner of the business. Check the [Stakeholder API Entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/stakeholder/entity.md) for the list of fields.
+[Stakeholder](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/stakeholder/create.md) | Add the KYC details of the authorised signatory or the owner of the business. Check the [Stakeholder API Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/stakeholder/entity.md) for the list of fields.
 ---
-[Document](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/upload-document/upload-account-documents.md) | Upload KYC documents for accounts and stakeholders. Know more about [Document APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/upload-document.md).
+[Document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/upload-document/upload-account-documents.md) | Upload KYC documents for accounts and stakeholders. Know more about [Document APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/upload-document.md).
 
-[List of required KYC documents as per business type.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/business-types-kyc-documents/#kyc-documents.md)
+[List of required KYC documents as per business type.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/business-types-kyc-documents.md#kyc-documents)
 
 ## 4. Generate Onboarding URL
 
@@ -367,7 +367,7 @@ phone number unverified | - You are using an expired `onboarding_signature`.
 - `onboarding_signature` is not provided or is invalid.
  | Use a valid `onboarding_signature`. An onboarding signature is valid for 24 hours. You can regenerate it using the same code.
 
-Refer to our [errors](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/errors#initiating-authorisation-using-url.md) page for the complete list of errors and solutions.
+Refer to our [errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/errors.md#initiating-authorisation-using-url) page for the complete list of errors and solutions.
         
 
 ### Redirect Users to Onboarding
@@ -639,7 +639,7 @@ The server responds with the following parameters:
     
 ### Error Response Parameters
 
-         Refer to our [errors](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/errors#token-apis.md) page for the list of errors and solutions.
+         Refer to our [errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/errors.md#token-apis) page for the list of errors and solutions.
         
 
 Store the `access_token` received above on your server. Using this token, you can access the sub-merchant's data, create payments and refunds using Razorpay APIs.
@@ -747,9 +747,9 @@ refreshToken();
 
 After you obtain an access token, you can use it to access the sub-merchant's data on Razorpay APIs. The access is controlled based on the scope requested for and granted by the user during the authorisation process.
 
-Provide the access token in the `Bearer` authorisation header while requesting [Razorpay APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api.md).
+Provide the access token in the `Bearer` authorisation header while requesting [Razorpay APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md).
 
-Given below is a sample code for the [Fetch all Payments API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md). 
+Given below is a sample code for the [Fetch all Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments). 
 
 ```Curl: Curl
 curl -X GET https://api.razorpay.com/v1/payments
@@ -870,11 +870,11 @@ As a Technology Partner, you can allow sub-merchants to accept payments through 
 
 ## 8. Subscribe to Onboarding Webhooks
 
-Subscribe to webhook events to receive real time notifications on the onboarding status of your clients. Check the available [Partner Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/status.md).
+Subscribe to webhook events to receive real time notifications on the onboarding status of your clients. Check the available [Partner Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/status.md).
 
 With this, your integration is complete. Test the integration before going live.
 
 ### Related Information
 
-- [Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md)
-- [Razorpay Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md)
+- [Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md)
+- [Razorpay Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md)

@@ -86,5 +86,5 @@ By default, the email address field is hidden on checkout. You can choose to con
           - **As an optional field**: Customers can either enter their email address or choose to skip it.
           - **As a mandatory field**: Customers have to enter their email address to proceed.
         
-            ![Email-less checkout configuration on dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-emailess-checkout.jpg.md)
+            ![Email-less checkout configuration on dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-emailess-checkout.jpg.md)
        5. Click **Save**.

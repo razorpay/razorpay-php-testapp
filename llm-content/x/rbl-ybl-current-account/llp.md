@@ -39,13 +39,13 @@ SL. No. | Document List
 
 SL. No. | Documents
 ---
-1 | [KYC documents](@/Applications/MAMP/htdocs/new-docs/llm-content/x/rbl-ybl-current-account/cif.md) in the name of all authorised signatories/partners.
+1 | [KYC documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/rbl-ybl-current-account/cif.md) in the name of all authorised signatories/partners.
 ---
 2 | LLP declaration signed by all the partners.
 ---
 3 | LLP PAN copy.
 ---
-4 | Valid address proof in the name of the entity. [List of acceptable documents](@/Applications/MAMP/htdocs/new-docs/llm-content/x/rbl-ybl-current-account/llp/kyc.md) (any one).
+4 | Valid address proof in the name of the entity. [List of acceptable documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/rbl-ybl-current-account/llp/kyc.md) (any one).
 ---
 5 | LLP Agreement. Where the banking clause is not mentioned in the LLP agreement, all the partners must sign the Resolution / LLP Declaration certifying the banking clause and mode of operation for the account. Mode of operation letter signed by all partners.
 ---
@@ -63,7 +63,7 @@ SL. No. | Documents
 ---
 12 | Internet Banking Letter.
 
-[Download all forms and documents](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x_ca_docs-LLP-updated190422.zip.md)
+[Download all forms and documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x_ca_docs-LLP-updated190422.zip.md)
 
 ## Related Information
 

@@ -48,5 +48,5 @@ Here is an example of how an error code appears when a fund account creation fai
 
 ### Related Information
 
-- [Fund Account APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/fund-accounts.md)
-- [Payout Status Details](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md)
+- [Fund Account APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/fund-accounts.md)
+- [Payout Status Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md)

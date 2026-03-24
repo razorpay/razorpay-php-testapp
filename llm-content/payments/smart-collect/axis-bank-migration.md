@@ -106,7 +106,7 @@ To verify the new Axis Customer Identifier, look for the IFSC Code `UTIB000RAZP`
 
 After the migration, you can view the previous and updated Customer Identifier details by selecting the Customer Identifier. While the new identifier maintains the same account number, its IFSC code has been changed to `UTIB000RAZP`.
 
-![Customer Identifier Dasboard view post migration.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/sc-migration-axis.jpg.md)
+![Customer Identifier Dasboard view post migration.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/sc-migration-axis.jpg.md)
 
 ## Frequently Asked Questions
 

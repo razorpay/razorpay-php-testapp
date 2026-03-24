@@ -16,8 +16,8 @@ To subscribe to webhook events:
 
 @include disputes/disputes-available-events
 
-Know more about [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) and check the [sample payloads.](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/disputes.md)
+Know more about [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) and check the [sample payloads.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/disputes.md)
 
 ### Related Information
-- [About Disputes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes.md)
-- [Disputes APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/apis.md)
+- [About Disputes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes.md)
+- [Disputes APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes/apis.md)

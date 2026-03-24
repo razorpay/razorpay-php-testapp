@@ -23,10 +23,10 @@ description: Check how to fetch GST challans from the GSTIN Portal and make paym
 
 You can copy and paste the CPIN and GSTIN from the [RazorpayX Dashboard](https://x.razorpay.com/vendor-payments) and use it to download the challan as shown here:
 
-![All paid GST Payments in GST Payments overview page.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-view-challan.jpg.md)
+![All paid GST Payments in GST Payments overview page.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-view-challan.jpg.md)
 
 ### Related Information
 
-- [Tax Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments.md)
-- [Automatic TDS payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/automatic-tds.md)
-- [Tax Payment Life Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/life-cycle.md)
+- [Tax Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments.md)
+- [Automatic TDS payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/automatic-tds.md)
+- [Tax Payment Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/life-cycle.md)

@@ -26,11 +26,11 @@ Follow the steps given below:
      To upload the plugin:
       1. [Download](https://github.com/razorpay/drupal_commerce_razorpay/releases) the `drupal_commerce_razorpay.zip`.
       2. Log in to your [Drupal Commerce account](https://drupal.plugin.razorpay.in/) and navigate to **Extend**.
-          ![Navigate to Extend on Drupal](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-extend.jpg.md)
+          ![Navigate to Extend on Drupal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-extend.jpg.md)
       3. Click **+ Add new module**.
       4. Add the module from **URL** or click **Choose file** and select the .zip file downloaded previously.
       5. Click **Continue**.
-      ![Add/upload drupal .zip file/URL](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-drupal-plugin1.gif.md)
+      ![Add/upload drupal .zip file/URL](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-drupal-plugin1.gif.md)
 
       You have successfully uploaded the plugin.
 
@@ -54,7 +54,7 @@ Follow the steps given below:
       1. On your Drupal Commerce Dashboard, navigate to **Extend**.
       2. Search for **Razorpay** in the **Filter** section.
       3. Select **Commerce Razorpay** and click **Install**.
-        ![Install drupal plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-install-plugin.jpg.md)
+        ![Install drupal plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-install-plugin.jpg.md)
     
 
    
@@ -64,13 +64,13 @@ Follow the steps given below:
 
     1. On your Drupal Commerce Dashboard, navigate to **Commerce**.
     2. Click **Configuration**.
-        ![Navigate to commerce to configure the plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-commerce-config.jpg.md)
+        ![Navigate to commerce to configure the plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-commerce-config.jpg.md)
     3. In the **Payment** section, select **Payment gateways**.
-        ![Configure the payment gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-config-pg.jpg.md)
+        ![Configure the payment gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-config-pg.jpg.md)
     4. Click **+ Add payment gateway**. 
-        ![Add the payment gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-config-add-pg.jpg.md)
+        ![Add the payment gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-config-add-pg.jpg.md)
     5. In the **Name** section, enter **Razorpay** and select **Razorpay** as the **Plugin**. 
-    6. Select **Test** Mode to test the integration and enter the test **Key ID** and **Secret** generated from the Razorpay [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md).
+    6. Select **Test** Mode to test the integration and enter the test **Key ID** and **Secret** generated from the Razorpay [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
         
 > **INFO**
@@ -80,15 +80,15 @@ Follow the steps given below:
 > 
 >         To go live with the integration and start accepting real payments: 
 >         - Select **Live** Mode. 
->         - Generate [Live Mode API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) and replace the test keys with the live keys in the integration. Click **Save**.
->         ![Switch to live mode](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-live-mode.jpg.md)
+>         - Generate [Live Mode API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) and replace the test keys with the live keys in the integration. Click **Save**.
+>         ![Switch to live mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-live-mode.jpg.md)
 >         
  
 
     7. Select the **Payment Action** based on your requirement. Set the Payment Action to **Authorize and Capture** to auto-capture payments. If you want to capture payments manually, set the Payment Method to **Authorize**.
     8. Select **Enabled** in the **Status** section.
     9. Click **Save**.
-        ![Configure the Razorpay payment gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-config.gif.md)
+        ![Configure the Razorpay payment gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-config.gif.md)
 
     
 > **INFO**
@@ -126,12 +126,12 @@ After the integration is complete, a payment button will appear on your web page
 > **Watch Out!**
 > 
 > This is a mock payment page that uses your test API keys, test card and payment details. 
-> - Ensure you have entered only your [Test Mode API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) in the **Configuration** section of the Drupal Commerce Dashboard.
-> - Test mode may include OTP verification for certain payment methods to replicate the live payment experience.
+> - Ensure you have entered only your [Test Mode API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) in the **Configuration** section of the Drupal Commerce Dashboard.
+> - Test mode features a mock bank page with **Success** and **Failure** buttons to replicate the live payment experience.
 > - No real money is deducted due to the usage of test API keys. This is a simulated transaction.
 > 
 
-![Test the integration on your webpage/app](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/drupal-test2.gif.md)
+![Test the integration on your webpage/app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/drupal-test2.gif.md)
 
     
 ### Supported Payment Methods
@@ -151,7 +151,7 @@ After the integration is complete, a payment button will appear on your web page
                     ![](/docs/assets/images/testpayment.jpg)
             
             
-                  [Poll Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md) to check the payment status.
+                  [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments) to check the payment status.
             
         
         
@@ -182,14 +182,14 @@ Follow these steps before taking the integration live:
             3. Download the keys and save them securely.
             4. On your [Drupal Commerce Dashboard](https://drupal.plugin.razorpay.in/), navigate to **Commerce**.
             5. Click **Configuration**.
-                ![Navigate to commerce to configure the plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-commerce-config.jpg.md)
+                ![Navigate to commerce to configure the plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-commerce-config.jpg.md)
             6. In the **Payment** section, select **Payment gateways**.
-                ![Configure the payment gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-config-pg.jpg.md)
+                ![Configure the payment gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-config-pg.jpg.md)
             7. Click **Edit**.
-                ![Edit the payment gateway configurations](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-edit-config.jpg.md)
+                ![Edit the payment gateway configurations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-edit-config.jpg.md)
             8. In the **Mode** section, select **Live**.
             9. Replace the Test Key ID and Secret with the Live Keys and accept actual payments.
-            ![Replace test keys with live ones](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-live-keys.jpg.md)
+            ![Replace test keys with live ones](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-live-keys.jpg.md)
         
 
     
@@ -201,21 +201,21 @@ Follow these steps before taking the integration live:
 
             1. On the [Drupal Commerce Dashboard](https://drupal.plugin.razorpay.in/), navigate to **Commerce**.
             2. Click **Configuration**.
-                ![Navigate to commerce to configure the plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-commerce-config.jpg.md)
+                ![Navigate to commerce to configure the plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-commerce-config.jpg.md)
             3. In the **Payment** section, select **Payment gateways**.
-                ![Configure the payment gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-config-pg.jpg.md)
+                ![Configure the payment gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-config-pg.jpg.md)
             4. Click **Edit**.
-                ![Edit the payment gateway configurations](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-edit-config.jpg.md)
+                ![Edit the payment gateway configurations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-edit-config.jpg.md)
             5. In the **Payment Action** section, you can choose to:
-                ![Edit the payment capture settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-payment-capture.jpg.md)
+                ![Edit the payment capture settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-payment-capture.jpg.md)
                 1. **Authorize and Capture**: This setting captures all authorized payments automatically. This eliminates the time and effort spent manually capturing payments.
                 2. **Authorize**: Each authorized payment can also be captured individually. 
                     1. Once a payment is completed, navigate to **Commerce** → **Orders**. 
                     2. Identify the order you want to capture the payment and click **View**.
-                        ![Identify the order](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-order.jpg.md)
+                        ![Identify the order](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-order.jpg.md)
                     3. Navigate to **Payments**.
                     4. In the **Operations** section, click **Capture**.
-                        ![Manually capture the payment](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-manual-capture.jpg.md) 
+                        ![Manually capture the payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-manual-capture.jpg.md) 
         
 
 #### Refunds
@@ -225,10 +225,10 @@ To initiate refunds using the Drupal Commerce Dashboard:
 1. Log in to the [Drupal Commerce Dashboard](https://drupal.plugin.razorpay.in/).
 2. After a payment is completed, navigate to **Commerce** → **Orders**. 
 3. Identify the order you want to initiate a refund and click **View**.
-    ![Identify the order](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-order.jpg.md)
+    ![Identify the order](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-order.jpg.md)
 4. Navigate to **Payments**.
 5. In the **Operations** section, click **Refund**.
-    ![Issue a Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/drupal-refund.jpg.md)
+    ![Issue a Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/drupal-refund.jpg.md)
 6. You can either issue a full refund or a partial refund.
     - For a **full refund**, enter the entire payment amount.
     - For a **partial refund**, enter a value lesser than the payment amount.

@@ -25,7 +25,7 @@ As an owner, you can enforce 2FA for all users (team members) linked to your acc
 1. Log in to your [RazorpayX Dashboard](https://x.razorpay.com/).
 2. Navigate to **My Account & Settings** → **Manage Team**.
 3. In the **Team Members** tab, enable the **Two-Factor Authentication for the team** option by toggling it to **ENABLED**.
-    ![Enable 2FA for your team](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/enable-2fa-for-your-team.jpg.md)
+    ![Enable 2FA for your team](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/enable-2fa-for-your-team.jpg.md)
 4. Enter the OTP sent to your registered mobile device.
 5. Enter your account password and confirm.
 
@@ -38,7 +38,7 @@ You can enable 2FA for your account only. To enable 2FA for your account only:
 1. Log in to your [RazorpayX Dashboard](https://x.razorpay.com/).
 2. Navigate to **My Account & Settings** → **User Profile**.
 3. Enable the **Two-Factor Authentication** option in the section under **User Role**.
-    ![Enable 2FA for your account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/enable-2fa-for-your-account.jpg.md)
+    ![Enable 2FA for your account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/enable-2fa-for-your-account.jpg.md)
 4. Enter the OTP sent to your registered mobile device.
 5. Enter your account password and confirm.
 
@@ -48,6 +48,6 @@ If your users are locked out of their accounts, the Owner/person with Owner priv
 
 ### Related Information
 
-- [Manage Teams](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams.md)
-- [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md)
-- [Chartered Accountant Portal](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/ca-portal.md)
+- [Manage Teams](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams.md)
+- [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md)
+- [Chartered Accountant Portal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/ca-portal.md)

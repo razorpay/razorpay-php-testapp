@@ -32,9 +32,9 @@ Follow the steps below to onboard Snapmint as a payment provider.
 
         1. Log in to your Dashboard and select **Optimizer**.
         2. In the **Payment Provider** section, click **Add Provider**.
-        3. Navigate to the **Cardless EMI only** section and click **Snapmint**. ![Add Snapmint payment provider in Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-snapmint-add-provider.jpg.md)
-        4. Enter your **Provider Details**. ![Add Snapmint payment provider in Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-snapmint-add-provider-details.jpg.md)
-        5. Add your **Snapmint Production API Details** and click **Submit**. ![Add snapmint](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-snapmint-provider-api-prod-details.jpg.md) 
+        3. Navigate to the **Cardless EMI only** section and click **Snapmint**. ![Add Snapmint payment provider in Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-snapmint-add-provider.jpg.md)
+        4. Enter your **Provider Details**. ![Add Snapmint payment provider in Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-snapmint-add-provider-details.jpg.md)
+        5. Add your **Snapmint Production API Details** and click **Submit**. ![Add snapmint](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-snapmint-provider-api-prod-details.jpg.md) 
 
         You have successfully added Snapmint as a payment provider to Optimizer.
 
@@ -48,15 +48,15 @@ Follow the steps below to onboard Snapmint as a payment provider.
          
             1. Log in to your Dashboard and click **Optimizer**.
             2. Click **+ Add New Rule**.
-                ![Add snapmint rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-simpl-rule.jpg.md)
+                ![Add snapmint rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-simpl-rule.jpg.md)
             3. Enter the **Rule Name** and **Rule Description**. Click **Next**.
-                ![Add snapmint](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-add-rule-name-desc.jpg.md)
+                ![Add snapmint](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-add-rule-name-desc.jpg.md)
             4. Select the rule conditions as follows and click **Next**:
                 - **When** - `Cardless EMI Provider`.
                 - **is** - `Equal to`.
                 - `Snapmint`.
-                ![Add snapmint](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-snapmint-rule-conditions.jpg.md) 
-            5. In the **Route** section, enter **100**, and select **snapmint** in the **payment via** section. Click **Next**. ![Add snapmint](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-snapmint-priority-route.jpg.md) 
+                ![Add snapmint](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-snapmint-rule-conditions.jpg.md) 
+            5. In the **Route** section, enter **100**, and select **snapmint** in the **payment via** section. Click **Next**. ![Add snapmint](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-snapmint-priority-route.jpg.md) 
             6. Click **Publish Rule**.
 
             All transactions will now be routed via Snapmint.

@@ -232,7 +232,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
     }
     ```
 
-Know more about [error codes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#error-codes.md) for more details.
+Know more about [error codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#error-codes) for more details.
 
 The HTML form returned in the response should be opened in the customer's browser. The customer completes the payment on the displayed page.
 
@@ -240,4 +240,4 @@ The HTML form returned in the response should be opened in the customer's browse
 
 Once the payment is completed by the customer, a `POST` request is sent to the `callback_url` provided in the [payment create request](#step-3-create-a-payment). The data contained in the `POST` request depends on the **success** or **failure** of the payment made by the customer.
 
-You can be notified of the payment status if you have configured the Webhook notifications or fetching the payment status by polling our [Payments API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#fetch-payments-based-on-orders.md). Know more about [configuring webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
+You can be notified of the payment status if you have configured the Webhook notifications or fetching the payment status by polling our [Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#fetch-payments-based-on-orders). Know more about [configuring webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).

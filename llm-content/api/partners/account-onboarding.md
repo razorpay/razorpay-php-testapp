@@ -6,17 +6,17 @@ description: Use the Account APIs to onboard sub-merchants.
 
 # Account
 
-You can use the Account APIs to create a sub-merchant account. After an account gets created, an `account_id` is assigned. Check the [account activation flow and states](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/#account-activation.md).
+You can use the Account APIs to create a sub-merchant account. After an account gets created, an `account_id` is assigned. Check the [account activation flow and states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api.md#account-activation).
 
-Fork the Razorpay Postman Public Workspace and try the Account APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+Fork the Razorpay Postman Public Workspace and try the Account APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-51a4958d-ae00-4717-9ec4-64cb7c1bf7fb)
 
 ### Related Guides
 
-[Sub-merchant Onboarding APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api.md)
-[Set Up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/webhooks.md)
-[Webhook Payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners.md)
+[Sub-merchant Onboarding APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api.md)
+[Set Up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/webhooks.md)
+[Webhook Payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners.md)
 
 ### Endpoints
 

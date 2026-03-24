@@ -43,20 +43,20 @@ PHP-cURL | N/A
 > 
 > **Watch Out!**
 > 
-> Subscriptions plugin v2.3.6 for WooCommerce relies on [Razorpay WooCommerce Plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce.md) v4.5.4.
+> Subscriptions plugin v2.3.6 for WooCommerce relies on [Razorpay WooCommerce Plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce.md) v4.5.4.
 > 
 
 ## Prerequisites
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup)
-- Understand the [payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md) process.
-- Generate the API keys from the Dashboard. You can use the [Test mode keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys#test-mode-api-keys.md) for testing and later switch to [Live mode keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys#live-mode-api-keys.md) when going live with the integration.
+- Understand the [payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md) process.
+- Generate the API keys from the Dashboard. You can use the [Test mode keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#test-mode-api-keys) for testing and later switch to [Live mode keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#live-mode-api-keys) when going live with the integration.
 
 ## Integration Steps
 
-1. [Build Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/woocommerce/build-integration.md)
-2. [Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/woocommerce/test-integration.md) 
-3. [Go Live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/woocommerce/go-live-checklist.md)
+1. [Build Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/woocommerce/build-integration.md)
+2. [Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/woocommerce/test-integration.md) 
+3. [Go Live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/woocommerce/go-live-checklist.md)
 
 ## Support
 
@@ -65,4 +65,4 @@ PHP-cURL | N/A
 
 ### Related Information
 
-[Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md)
+[Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md)

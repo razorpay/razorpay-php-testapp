@@ -6,7 +6,7 @@ description: Automate invoice sourcing and bookkeeping process in Tally and impr
 
 # Bring Invoices to Tally
 
-With the accounting assistant, the [RazorpayX-Tally Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally.md), you can: 
+With the accounting assistant, the [RazorpayX-Tally Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally.md), you can: 
 - Source invoices from the Vendor Payments App to Tally. 
 - Automate the bookkeeping process, that is, creating the bill → the payment → reconciliation of the bill. 
 - Map the bills generated to the tax and Vendor Expenses ledgers in Tally.
@@ -20,12 +20,12 @@ Watch the video below to understand the advantages and the process of automating
 You can also watch the [Bring Bills from RazorpayX to Tally video in Hindi](https://www.youtube.com/watch?v=56rUlfPlUbM). 
 
 1. Source the bills received and paid through your RazorpayX Vendor Payments App to Tally. 
-2. The bills received from the below-mentioned modes are auto-read by the RazorpayX AI OCR reader. You can create bills in RazorpayX via: - [Vendor Portal](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/portal/business.md)
-- [Bulk drag and drop](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/bulk-invoices.md)
-- [Email Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/invoices/#add-invoices-through-email.md)
- You can pay bills in RazorpayX via: - [Bulk Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/bulk.md)
-- [Partial Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/partial-payouts.md)
-- [Scheduled Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/scheduled-payouts.md)
+2. The bills received from the below-mentioned modes are auto-read by the RazorpayX AI OCR reader. You can create bills in RazorpayX via: - [Vendor Portal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/portal/business.md)
+- [Bulk drag and drop](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/bulk-invoices.md)
+- [Email Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/invoices.md#add-invoices-through-email)
+ You can pay bills in RazorpayX via: - [Bulk Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/bulk.md)
+- [Partial Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/partial-payouts.md)
+- [Scheduled Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/scheduled-payouts.md)
 
 3. Review the invoices and sync them to Tally, which automatically creates the journal entries. Tally then maps the entries to the ledgers. 
 4. Verify the journal entries and map them to the respective ledgers, if necessary. 
@@ -54,7 +54,7 @@ To bring the bills from RazorpayX to Tally:
 
 1. Open your Tally application to show the **Gateway of Tally** page. 
 1. Click **R:RazorpayX Settings** from the right menu.
-    ![Click R:Razorpay Settings from the right menu in the Tally application](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-int-razorpayx-settings.jpg.md)
+    ![Click R:Razorpay Settings from the right menu in the Tally application](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-int-razorpayx-settings.jpg.md)
 1. Enter **Yes** against the following settings to enable the feature: 
     
    Settings | Value
@@ -64,14 +64,14 @@ To bring the bills from RazorpayX to Tally:
    **Sync on Receipt** | Yes
    ---
    
-   ![Change the settings against bringing invoices and syncing receipts on Tally](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-int-bring-bills1.jpg.md)
+   ![Change the settings against bringing invoices and syncing receipts on Tally](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-int-bring-bills1.jpg.md)
 1. Enter the OTP you receive at your email address and save the settings. 
 
 You have successfully enabled the feature to bring bills from RazorpayX to Tally. 
 
 ## Ledger and Mapping 
 
-When you [generate an invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md) in Vendor Payments, you can automate bringing that bill to Tally. 
+When you [generate an invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md) in Vendor Payments, you can automate bringing that bill to Tally. 
 
 You can also choose to automate mapping those bills to the ledgers present in Tally as per the conditions matched. This is a one-time setting only. 
 
@@ -137,11 +137,11 @@ To set up your Vendor Expense ledger:
 1. In **RazorpayX Cashflow**, click **Settings**. 
 1. Here, click **Vendor Expense Mapping**. 
 
-    ![Process showing the vendor expense mapping mechanism](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-bring-bills-ve.gif.md)
+    ![Process showing the vendor expense mapping mechanism](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-bring-bills-ve.gif.md)
 
 In the **Vendor Expense Mapping** window, you can map your Vendors and sundry creditors to the expense ledger on a one-to-one basis. This is a one-time process.
 
-![Example of a Vendor Expense Ledger](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-int-bring-bills.jpg.md)
+![Example of a Vendor Expense Ledger](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-int-bring-bills.jpg.md)
 
 > **INFO**
 >
@@ -161,11 +161,11 @@ You can map your TDS Credit and GST Debit settings to the Tax ledgers in Tally a
 1. In **RazorpayX Cashflow**, click **Settings**. 
 1. Here, go to **Tax Ledger Mapping**. 
 
-![Workflow to setup tax ledger and mapping](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-bring-bills-tl.gif.md)
+![Workflow to setup tax ledger and mapping](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-bring-bills-tl.gif.md)
 
 In the **Tax Ledger Mapping** page, map the **GST - Debit** and **TDS - Credit** to the respective Tally ledgers as per the tax categories applicable. 
 
-![Example of a Tax Ledger](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-int-bring-bills-tl-example.jpg.md)
+![Example of a Tax Ledger](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-int-bring-bills-tl-example.jpg.md)
 
 ## Bring Bills to Tally
 
@@ -176,11 +176,11 @@ After you enable the settings in your Tally application, you can test the automa
 
 ## Sync Bills  
 
-After you [create an invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md) in Vendor Payments, sync the bill in Tally. To do so: 
+After you [create an invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md) in Vendor Payments, sync the bill in Tally. To do so: 
 
 1. In your Tally application, go to **UTILITIES** → **RazorpayX**. 
 1. In the **RazorpayX** menu, click **RazorpayX Cashflow** → **Sync Entries from RX**.
-    ![Enable the sync entries from RX setting](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-bring-bills-sync.jpg.md)
+    ![Enable the sync entries from RX setting](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-bring-bills-sync.jpg.md)
 1. Click **Yes** and confirm your action to finish sync. 
 
 The bills you have created in RazorpayX are now synced in Tally. Check the journal entries, get your CA's approval, and post them in Tally.
@@ -197,7 +197,7 @@ You/CA can review the bill by following these steps:
 1. In your Tally application, go to **UTILITIES** → **RazorpayX**.
 1. In the **RazorpayX** menu, click **RazorpayX Cashflow**.
 1. In **RazorpayX Cashflow**, go to **Not Posted**. 
-    ![Open the bills created but not posted to Tally](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-int-bring-bills-3.jpg.md)
+    ![Open the bills created but not posted to Tally](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-int-bring-bills-3.jpg.md)
     The **Bills to RazorpayX** page appears. 
 1. Review the bill you have created. 
 
@@ -217,5 +217,5 @@ Suppose you pay the invoice after creating it. You can [sync the bills in Tally]
 
 ### Related Information
 
-- [Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md)
+- [Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md)
 - Keyboard shortcuts in [Tally Prime](https://help.tallysolutions.com/tally-prime/keyboard-shortcuts/keyboard-shortcuts-tally-prime/)

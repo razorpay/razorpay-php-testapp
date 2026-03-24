@@ -29,7 +29,7 @@ description: Troubleshoot common error scenarios and find answers to frequently 
 ### 3. What is order id and how to generate it?
 
      Order creation is the primary step of the Razorpay payment flow. When a customer clicks the pay button on your app, an Order is created and a corresponding order_id is generated in the response. This order_id must be passed to the Razorpay Checkout options added in your Capacitor app.
-     Know more about [Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+     Know more about [Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
     
 
   

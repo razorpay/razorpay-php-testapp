@@ -18,7 +18,7 @@ Since a new virtual bank account, UPI ID or QR code can be created for each cust
 > 
 > **Note**
 > 
-> Payments made using Smart Collect largely follow existing Razorpay [payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md). If you are new to Razorpay, it is recommended to understand this flow before you proceed to read the document.
+> Payments made using Smart Collect largely follow existing Razorpay [payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md). If you are new to Razorpay, it is recommended to understand this flow before you proceed to read the document.
 > 
 
 ## Advantages
@@ -82,7 +82,7 @@ Here are some examples of how Smart Collect enables you to accept payments.
 > 
 > **Payment Confirmation**
 > 
-> You can consider a payment to be successful only when you receive the notification from Razorpay. You can check the [payment status on the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/dashboard/create/#view-payments.md). Also, you can choose to configure [webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/notification.md) and subscribe to the `virtual_account.credited` event to receive notifications when customers make payments.
+> You can consider a payment to be successful only when you receive the notification from Razorpay. You can check the [payment status on the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/dashboard/create.md#view-payments). Also, you can choose to configure [webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/notification.md) and subscribe to the `virtual_account.credited` event to receive notifications when customers make payments.
 > 
 
 ![](/docs/assets/images/smart-collect-sc_workflow1.jpg)
@@ -147,14 +147,14 @@ There are two possible statuses for a Virtual Accounts: `active` and `closed`.
 
 ## Active
 
-When first created via [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/dashboard/create.md) or [API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/api/create.md), a Virtual Accounts is said to be in the `active` status. That is, it is ready to accept payments.
+When first created via [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/dashboard/create.md) or [API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/api/create.md), a Virtual Accounts is said to be in the `active` status. That is, it is ready to accept payments.
 
 ## Closed
 
 A Virtual Accounts can be closed in two ways:
-- Automatically, by using the `close_by` option at the time of Virtual Accounts creation, via [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/dashboard/create.md) or [API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/api/create.md).
-- Manually, from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/dashboard/close.md) or using the [API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/api/close.md).
+- Automatically, by using the `close_by` option at the time of Virtual Accounts creation, via [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/dashboard/create.md) or [API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/api/create.md).
+- Manually, from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/dashboard/close.md) or using the [API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/api/close.md).
 
 Once the account is in `closed` state, customers cannot make payments to that account.
 
- See [API Endpoints](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/api.md) for more details.
+ See [API Endpoints](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/api.md) for more details.

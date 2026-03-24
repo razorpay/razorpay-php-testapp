@@ -11,7 +11,7 @@ You can track a Subscription through its various stages from creation to complet
 
 During its life cycle, a Subscription can go through the following states:
 
-![subscription life cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/subscriptions-subscription-lifecycle.jpg.md)
+![subscription life cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/subscriptions-subscription-lifecycle.jpg.md)
 
   
 ### Created
@@ -100,7 +100,7 @@ During its life cycle, a Subscription can go through the following states:
 ### Cancelled
 
   - When you cancel a Subscription, it moves to the `cancelled` state. Once cancelled, a Subscription cannot be restarted.
-  - A Subscription can be cancelled using the [Cancel API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/#cancel-a-subscription.md) or from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/pause-resume-cancel/#cancel-a-subscription-via-the-dashboard.md).
+  - A Subscription can be cancelled using the [Cancel API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions.md#cancel-a-subscription) or from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/pause-resume-cancel.md#cancel-a-subscription-via-the-dashboard).
   
 
   
@@ -108,8 +108,8 @@ During its life cycle, a Subscription can go through the following states:
 
    - Only Subscriptions in the `active` state can be paused.
    - You can pause a Subscription.
-   - From the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/pause-resume-cancel/#pause-a-subscription-via-the-dashboard.md).
-   - Using [API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/#pause-a-subscription.md).
+   - From the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/pause-resume-cancel.md#pause-a-subscription-via-the-dashboard).
+   - Using [API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions.md#pause-a-subscription).
 
     
 > **WARN**
@@ -137,8 +137,8 @@ During its life cycle, a Subscription can go through the following states:
 
 ### Related Information
 
-- [Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md)
-- [Subscription Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/workflow.md)
-- [Create Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create.md)
-- [Test Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/test.md)
-- [Subscriptions APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/apis.md)
+- [Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md)
+- [Subscription Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/workflow.md)
+- [Create Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md)
+- [Test Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/test.md)
+- [Subscriptions APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/apis.md)

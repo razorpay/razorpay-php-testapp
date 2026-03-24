@@ -23,10 +23,10 @@ Apple Pay integration works seamlessly with your existing international card pay
 
 Before you begin the integration, ensure you have:
 
-- [**Existing Razorpay Custom Checkout Integration**](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md): Active Custom Checkout integration with Razorpay.
+- [**Existing Razorpay Custom Checkout Integration**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md): Active Custom Checkout integration with Razorpay.
 - **International Payments Enabled**: Must be activated on your Razorpay account.
 - **HTTPS Protocol**: Your website must be served over HTTPS for security compliance.
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
 ## Integration Steps
 
@@ -37,7 +37,7 @@ Follow the steps given below to integrate Custom Checkout in your site:
 Order is an important step in the payment process.
 
 - An order should be created for every payment.
-- You can create an order using the [Orders API](#api-sample-code). It is a server-side API call. Know how to [authenticate](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) Orders API.
+- You can create an order using the [Orders API](#api-sample-code). It is a server-side API call. Know how to [authenticate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) Orders API.
 - The order_id received in the response should be passed to the checkout. This ties the Order with the payment and secures the request from being tampered.
 
 > **WARN**
@@ -188,7 +188,7 @@ The following is a sample API request and response for creating an order:
 >       
 
      `currency` _mandatory_
-     : `string` The currency in which the transaction should be made. View the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). The length must be 3 characters.
+     : `string` The currency in which the transaction should be made. View the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). The length must be 3 characters.
 
       
 > **INFO**
@@ -197,7 +197,7 @@ The following is a sample API request and response for creating an order:
 > 
 >       **Handy Tips**
 > 
->       Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>       Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
 >       
 
      `receipt` _optional_
@@ -378,15 +378,15 @@ The following is a sample API request and response for creating an order:
           : `string` The United Nations Standard Products and Services Code (UNSPSC) is a taxonomy of products and services used in eCommerce. It is a four-level hierarchy coded as an eight-digit number, with an optional fifth level adding two more digits.
      
      `payment_config` _optional_
-     : `array` Payment capture settings for the payment. The options sent here override the [account level auto-capture settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md) configured using the Dashboard.
+     : `array` Payment capture settings for the payment. The options sent here override the [account level auto-capture settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md) configured using the Dashboard.
 
       `capture` _mandatory_
       : `string` Option to automatically capture payment. Possible values:
         - `automatic`: Payments are auto-captured according to the configurations specified in the `capture_options` array.
-        - `manual`: You have to manually capture payments using our [Capture API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/capture.md) or from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/dashboard/#manually-capture-payments.md).
+        - `manual`: You have to manually capture payments using our [Capture API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/capture.md) or from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/dashboard.md#manually-capture-payments).
 
       `capture_options` _optional_
-      : `array` Use this array to determine the expiry period for automatic and [manual capture](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings/api.md) of payments and the refund speed in the case of non-capture.
+      : `array` Use this array to determine the expiry period for automatic and [manual capture](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings/api.md) of payments and the refund speed in the case of non-capture.
 
         `automatic_expiry_period` _mandatory if capture = automatic_
         : `integer` Time in minutes till when payments in the `authorized` state should be auto-captured.
@@ -401,10 +401,10 @@ The following is a sample API request and response for creating an order:
 
         `refund_speed` _mandatory_
         : `string` Refund speed for payments that were not captured (automatically or manually). Possible values:
-          - `optimum`: We try to process the refund instantly. We charge a small fee for this. If it is not possible to process an instant refund, we will process a normal refund in 5-7 working days. [Learn more about instant refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/#how-instant-refunds-work.md).
+          - `optimum`: We try to process the refund instantly. We charge a small fee for this. If it is not possible to process an instant refund, we will process a normal refund in 5-7 working days. [Learn more about instant refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md#how-instant-refunds-work).
           - `normal`: The refund is processed in 5-7 working days.
 
-If no value is passed, the refund is processed using the [default speed set on the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/#setting-the-default-speed-of-refunds.md).
+If no value is passed, the refund is processed using the [default speed set on the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md#setting-the-default-speed-of-refunds).
 
      `refund_allowed` _optional_
      : `string` Denotes if the cart items are refundable or not. Possible values: 
@@ -456,7 +456,7 @@ If no value is passed, the refund is processed using the [default speed set on t
      : `integer` The UNIX timestamp at which the order is created.
 
      `currency` _mandatory_
-     : `string` The currency in which the transaction should be made. View the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be of 3 characters.
+     : `string` The currency in which the transaction should be made. View the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be of 3 characters.
 
      `entity`
      : `string` Name of the entity. Here, it is `order`.
@@ -483,7 +483,7 @@ If no value is passed, the refund is processed using the [default speed set on t
   
 ### Error Response Parameters
 
-     The error response parameters are available in the [API Reference Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md).
+     The error response parameters are available in the [API Reference Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md).
     
 
 ## 1.2 Fetch Payment Methods
@@ -573,7 +573,7 @@ razorpay.once('ready', function(response) {
 }
 ```
 
-Know more about [the various payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods.md) offered by Razorpay.
+Know more about [the various payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md) offered by Razorpay.
 
 ## 1.3 Invoke Checkout and Pass Order Id and Other Options to it
 
@@ -613,7 +613,7 @@ Add the Apple Pay button to your checkout page to provide customers with the pay
 
    - Follow official [Apple Pay guidelines](https://developer.apple.com/apple-pay/marketing/) for button usage and placement.
    - Use Apple Pay button designs provided by Razorpay (see design below).
-       ![Apple Pay Button design](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/apple-pay-button.jpg.md)
+       ![Apple Pay Button design](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/apple-pay-button.jpg.md)
    - Maintain consistent sizing with other payment options.
    - Position prominently in your payment methods section.
   
@@ -710,7 +710,7 @@ While building a custom UI for accepting payments from your customers, you shoul
      
 
      `currency` _mandatory_
-     : `string` The currency in which the payment should be made by the customer. For example, `INR`. See the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+     : `string` The currency in which the payment should be made by the customer. For example, `INR`. See the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
        
 > **INFO**
@@ -719,7 +719,7 @@ While building a custom UI for accepting payments from your customers, you shoul
 > 
 >        **Handy Tips**
 > 
->        Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/currency-conversion.md) (April 2023).
+>        Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (April 2023).
 >        
 
      
@@ -739,7 +739,7 @@ While building a custom UI for accepting payments from your customers, you shoul
      : `string` Link to an image (usually your business logo) shown in the Checkout form. Can also be a **base64** string, if loading the image from a network is not desirable.
 
      `order_id` _mandatory_
-     : `string` Order ID generated via the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+     : `string` Order ID generated via the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
      `notes` _optional_
      : `object` Set of key-value pairs that can be used to store additional information about the payment. It can hold a maximum of 15 key-value pairs, each 256 characters long (maximum).
@@ -831,7 +831,7 @@ Possible values:
          : `string` Name associated with the bank account used to initiate the payment.
 
      `bank` _mandatory if method=netbanking_
-     : `string` Bank code. List of available banks enabled for your account can be fetched via [**methods**](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods/#fetch-supported-methods.md).
+     : `string` Bank code. List of available banks enabled for your account can be fetched via [**methods**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods.md#fetch-supported-methods).
 
      
 
@@ -876,7 +876,7 @@ Possible values:
 > 
 >         **Deprecation Notice**
 > 
->         UPI Collect is deprecated effective 28 February 2026. This tab is applicable only for exempted businesses. If you are not covered by the exemptions, refer to the [ migration documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/announcements/upi-collect-migration/custom-integration.md) to switch to UPI Intent.
+>         UPI Collect is deprecated effective 28 February 2026. This tab is applicable only for exempted businesses. If you are not covered by the exemptions, refer to the [ migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/custom-integration.md) to switch to UPI Intent.
 >         
 
      
@@ -998,4 +998,4 @@ When you use a callback URL, Razorpay makes a post call to the callback URL, wit
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/test-integration.md)

@@ -16,7 +16,7 @@ You can transfer funds to your Linked Accounts using the following methods:
 #### Prerequisites
 
 1. Create Linked Accounts. **Linked Accounts have a cooling period of 24 hours after which you can initiate transfers.**
-2. Provide [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account.md) access to the Linked Account to ensure transparency between the two parties, such as:
+2. Provide [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md) access to the Linked Account to ensure transparency between the two parties, such as:
     - Linked Account holders can also download reports for further processing and reconciliation.
     - Linked Account holders can view all transactions reflected on one single dashboard.
 3. Ensure the Direct Transfer feature is enabled for your account. Contact our [support team](https://razorpay.com/support/#request) for more information.
@@ -25,7 +25,7 @@ You can transfer funds to your Linked Accounts using the following methods:
 
 The transfers can be set up at the time of order creation. After the payment is captured and the order is paid, the transfer is automatically created and settled to the respective Linked Accounts.
 
-This eliminates the extra step of triggering the [Direct Transfers](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/direct-transfers.md) or [Transfers via Payments API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/create-transfers-payments.md).
+This eliminates the extra step of triggering the [Direct Transfers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/direct-transfers.md) or [Transfers via Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/create-transfers-payments.md).
 
 > **WARN**
 >
@@ -36,9 +36,9 @@ This eliminates the extra step of triggering the [Direct Transfers](@/Applicatio
 > 
 
 To initiate transfers while creating orders:
-1. Create an Order using the [Transfer via Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/create-transfers-orders.md).
-2. [Capture the Payment](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works/#capture-payments.md).
-3. Set up the [ webhook event `transfer.processed`](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md).
+1. Create an Order using the [Transfer via Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/create-transfers-orders.md).
+2. [Capture the Payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md#capture-payments).
+3. Set up the [ webhook event `transfer.processed`](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md).
 
 > **WARN**
 >
@@ -52,7 +52,7 @@ To initiate transfers while creating orders:
 
 ## Transfers Funds to Linked Accounts via Payments
 
-You can initiate a transfer from a payment received from a customer. This can be done from the Dashboard or using the [Create Transfers from Payments API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/create-transfers-payments.md).
+You can initiate a transfer from a payment received from a customer. This can be done from the Dashboard or using the [Create Transfers from Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/create-transfers-payments.md).
 
 ### Transfers Funds to Linked Accounts via Payments Using Dashboard
 
@@ -91,11 +91,11 @@ Watch this video to see how to transfer funds to a Linked Account from the payme
 4. Add internal notes relevant to the transfer if any. You can choose to share the note with your Linked Account.
 5. Click **Create Transfer**.
 
-![Create Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-make-transfer.jpg.md)
+![Create Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-make-transfer.jpg.md)
 
 ## Transfer Funds to Linked Accounts Via Direct Transfers
 
-You can transfer funds to your Linked Accounts directly from your account balance using Direct Transfers. You can make direct transfers from the Dashboard or using the [Direct Transfer API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/direct-transfers.md).
+You can transfer funds to your Linked Accounts directly from your account balance using Direct Transfers. You can make direct transfers from the Dashboard or using the [Direct Transfer API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/direct-transfers.md).
 
 > **INFO**
 >
@@ -115,7 +115,7 @@ Watch this video to see how to direct transfer funds to a Linked Account.
 
 1. Log in to the Dashboard and click **Route** under **PAYMENT PRODUCTS**.
 2. Under the **Transfers** tab, click **+Create Direct Transfer**.
-    ![View Direct Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-create-direct-transfer.jpg.md)
+    ![View Direct Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-create-direct-transfer.jpg.md)
 3. On the **Create Direct Transfer** pop-up page, provide the following details:
     1. **Account**: Select the Linked Account to whom the amount should be transferred.
     2. **Billing Amount**: Enter the amount to be transferred.
@@ -125,14 +125,14 @@ Watch this video to see how to direct transfer funds to a Linked Account.
         3. **Put on hold**: Put the settlement on hold indefinitely.
     4. **Notes**: You can add any additional information regarding the transfer.
 4. Click **Create Transfer**.
-    ![View Direct Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-add-transfer-details.jpg.md)
+    ![View Direct Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-add-transfer-details.jpg.md)
 
 ## Transfer Status
 
 @include route/api/transfer-status
 
 ### Related Information
-- [Transfers and Related Fees](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-fees-example.md)
-- [Schedule Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/schedule-settlement.md)
-- [Payment Reversals](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/reversal.md)
-- [Refund to Customers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/refund.md)
+- [Transfers and Related Fees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-fees-example.md)
+- [Schedule Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/schedule-settlement.md)
+- [Payment Reversals](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/reversal.md)
+- [Refund to Customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/refund.md)

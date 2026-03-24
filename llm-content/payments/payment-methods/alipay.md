@@ -16,7 +16,7 @@ Alipay's payment platform offers seamless and secure transactions. It enables bu
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -27,7 +27,7 @@ Alipay's payment platform offers seamless and secure transactions. It enables bu
 > **Handy Tips**
 > 
 > - List of [supported region and currencies](#supported-region-and-currencies).
-> - Razorpay's [pay in native currency](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion.md) feature will ensure that your customer is shown the right currency.
+> - Razorpay's [pay in native currency](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion.md) feature will ensure that your customer is shown the right currency.
 > 
 
     
@@ -48,7 +48,7 @@ Alipay's payment platform offers seamless and secure transactions. It enables bu
 
 Payments follow standard refund and settlement timelines.
 
-- You can refund customer payments made using Alipay by following the usual [refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds.md) process.  
+- You can refund customer payments made using Alipay by following the usual [refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md) process.  
  
 - Alipay payments take T+16 days to get settled to your Razorpay account.
 
@@ -56,9 +56,9 @@ Payments follow standard refund and settlement timelines.
 
 Secure Server-to-Server (S2S) integration that enables seamless and reliable processing and a smooth payment experience for your customers.
 
-- [Travel S2S Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/alipay/travel-s2s-integration.md)
-- [Hotel S2S Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/alipay/hotel-s2s-integration.md)
-- [Ecommerce S2S Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/alipay/ecommerce-s2s-integration.md)
+- [Travel S2S Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/alipay/travel-s2s-integration.md)
+- [Hotel S2S Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/alipay/hotel-s2s-integration.md)
+- [Ecommerce S2S Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/alipay/ecommerce-s2s-integration.md)
 
 ### Supported Region and Currencies
 

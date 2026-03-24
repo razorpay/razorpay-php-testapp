@@ -16,7 +16,7 @@ Accept international payments from Australian customers using POLi, a popular pa
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -59,9 +59,9 @@ POLi payments are charged at 3.0%.
 
 ### Supported Integrations
 
-For [Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md) no additional integration is needed.
-- [Custom Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/poli/custom-integration.md)
-- [S2S Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/poli/s2s-integration.md)  
+For [Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md) no additional integration is needed.
+- [Custom Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/poli/custom-integration.md)
+- [S2S Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/poli/s2s-integration.md)  
 
 ### FAQ
 

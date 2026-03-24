@@ -8,12 +8,12 @@ description: Add company logo and disable Checkout on full screen using the Razo
 
 You can customise the Checkout form to suit your business needs. You can perform the following customisations:
 
-- [Add Company Logo](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/customisation/#add-company-logo.md).
-- [Disable Checkout in Full Screen](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/customisation/#disable-checkout-in-full-screen.md).
+- [Add Company Logo](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/customisation.md#add-company-logo).
+- [Disable Checkout in Full Screen](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/customisation.md#disable-checkout-in-full-screen).
 
 ## Add Company Logo
 
-By default, the Checkout form uses the logo specified in the **Account & Settings** section of the Dashboard. You can also set a custom logo in the Checkout form. Call the following method _before_ you call the [ `open` method](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps/#14-initiate-payment-and-display-checkout-form.md).
+By default, the Checkout form uses the logo specified in the **Account & Settings** section of the Dashboard. You can also set a custom logo in the Checkout form. Call the following method _before_ you call the [ `open` method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps.md#14-initiate-payment-and-display-checkout-form).
 
 ```java: Add Custom Company Logo
 int image = R.drawable.logo; // Can be any drawable
@@ -42,4 +42,4 @@ checkout.setFullScreenDisable(true)
 
 ### Related Information
 
-[Integrate Payment Gateway using the Android Standard SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard.md)
+[Integrate Payment Gateway using the Android Standard SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard.md)

@@ -8,10 +8,10 @@ description: Learn how to fetch Customer Identifiers and payments made to specif
 You can retrieve details of Customer Identifiers and payments made to Customer Identifiers using these APIs.
 
 APIs are available to:
-- [Fetch Customer Identifier by ID](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/api/fetch/#fetch-virtual-account-by-id.md)
-- [Fetch All Customer Identifiers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/api/fetch/#fetch-all-virtual-accounts.md)
-- [Fetch Payments made to a Customer Identifier](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/api/fetch/#fetch-payments-made-to-a-virtual-account.md)
-- [Fetch Payment Details using ID and Transfer Method](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/api/fetch/#fetch-payment-details-using-id-and-transfer-method.md)
+- [Fetch Customer Identifier by ID](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/api/fetch.md#fetch-virtual-account-by-id)
+- [Fetch All Customer Identifiers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/api/fetch.md#fetch-all-virtual-accounts)
+- [Fetch Payments made to a Customer Identifier](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/api/fetch.md#fetch-payments-made-to-a-virtual-account)
+- [Fetch Payment Details using ID and Transfer Method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/api/fetch.md#fetch-payment-details-using-id-and-transfer-method)
 
 ## Fetch Customer Identifier by ID
 

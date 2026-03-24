@@ -94,7 +94,7 @@ Use this endpoint to create a QR Code.
 : `object` Key-value pair that can be used to store additional information about the QR Code. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
 
 `customer_id`
-: `string` The unique identifier of the customer the QR Code is linked with. Know more about the [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md).
+: `string` The unique identifier of the customer the QR Code is linked with. Know more about the [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md).
 
 `close_by`
 : `integer` Unix timestamp at which the QR Code is scheduled to be automatically closed. The time must be at least 2 minutes after the current time.

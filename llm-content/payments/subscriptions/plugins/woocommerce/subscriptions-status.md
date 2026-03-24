@@ -8,7 +8,7 @@ description: Check the different Subscription statuses mapped between WooCommerc
 
 ## WooCommerce and Razorpay Subscription Status Mapping
 
-The subscription status names used by Razorpay and WooCommerce are different. The table below shows the mapping between the subscription statuses names used by Razorpay and WooCommerce. Know more about the [Razorpay Subscriptions states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/states.md).
+The subscription status names used by Razorpay and WooCommerce are different. The table below shows the mapping between the subscription statuses names used by Razorpay and WooCommerce. Know more about the [Razorpay Subscriptions states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/states.md).
 
 WooCommerce Subscription status | Razorpay Subscription Status | Description
 ---

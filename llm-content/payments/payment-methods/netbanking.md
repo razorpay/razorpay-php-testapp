@@ -11,7 +11,7 @@ You can accept payments from your customers using Netbanking. The customers ente
 
 The diagram given below represents the payment flow for netbanking:
 
-![Payment Flow for Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-flow-netbanking.jpg.md)
+![Payment Flow for Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-flow-netbanking.jpg.md)
 
 To pay using the Netbanking payment method, customers:
 
@@ -20,7 +20,7 @@ To pay using the Netbanking payment method, customers:
 3. Enter their **Netbanking credentials (User ID and Password)** to authenticate.
 4. Review the payment details and authorise the transaction.
 
-  ![Payment Flow for Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/NB_Payment_Flow.gif.md)
+  ![Payment Flow for Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/NB_Payment_Flow.gif.md)
 
 After successful payment, customers are redirected back to your website or app with the payment confirmation.
 
@@ -311,5 +311,5 @@ curl -u [YOUR_KEY_ID] \
 
 Use Third-Party Validation if your business model requires customers to register a bank account and use the registered account to make payments.
 
-- [Third-Party Validation document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation.md)
-- [List of banks that support TPV](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/bank-list.md)
+- [Third-Party Validation document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation.md)
+- [List of banks that support TPV](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation/bank-list.md)

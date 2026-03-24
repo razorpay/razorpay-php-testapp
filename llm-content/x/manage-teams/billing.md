@@ -21,7 +21,7 @@ Fees and taxes are applicable to payouts made through RazorpayX Lite as well as 
 
 ### Payouts from RazorpayX Lite
 
-When you make a payout using [RazorpayX Lite](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/razorpayx-lite.md), the fees and taxes are charged as a part of the payout in real-time.
+When you make a payout using [RazorpayX Lite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/razorpayx-lite.md), the fees and taxes are charged as a part of the payout in real-time.
 
 #### Example
 For a payout of ₹10,000, the fees applicable is ₹5 and the tax on this is ₹0.90. 
@@ -32,11 +32,11 @@ When you make a payout ₹10,000 from RazorpayX Lite:
 - ₹5 (fees) is credited to Razorpay.
 - ₹0.90 (tax) collected by the government.
 
-In case of a [payout reversal](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle#reversal-transaction.md), the fees and tax are also reversed.
+In case of a [payout reversal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md#reversal-transaction), the fees and tax are also reversed.
 
 ### Payouts from Current Account
 
-When you make a payout from your [Current Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/current-account.md), you are charged a fee. The fees and taxes are collected once everyday and **appear as a payout** in your account statement. This is an automated process and does not require any action from you.
+When you make a payout from your [Current Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/current-account.md), you are charged a fee. The fees and taxes are collected once everyday and **appear as a payout** in your account statement. This is an automated process and does not require any action from you.
 
 The invoice for Payout Fees deduction is generated on the 1st of every month. You can download the same from the RazorpayX Dashboard under **My Accounts & Settings** → **Billing**. Scroll down to the **Monthly Invoice** section and click **Download Invoice & Report** for the required month.
 
@@ -102,5 +102,5 @@ To download the Monthly Tax Invoice:
 
 ### Related Information
 
-- [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md)
-- [Chartered Accountant Portal](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/ca-portal.md)
+- [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md)
+- [Chartered Accountant Portal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/ca-portal.md)

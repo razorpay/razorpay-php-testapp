@@ -9,8 +9,8 @@ description: Check the prerequisites before you integrate your BigCommerce websi
 - **Troubleshooting & FAQs**: Troubleshoot common error scenarios and find answers to frequently asked questions about the Razorpay BigCommerce plugin.
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup).
-- Understand the [payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md) process.
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Understand the [payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md) process.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
   - **Video Tutorial**: Watch the video before you start integrating the BigCommerce plugin with Payment Gateway.
 

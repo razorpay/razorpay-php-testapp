@@ -16,7 +16,7 @@ Using Razorpay, you can let your customers use Cardless EMI as a payment method 
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -56,8 +56,8 @@ You will receive the entire transaction amount from the Cardless EMI service pro
 ## Prerequisites
 
 - Keep the API keys (a combination of `Key_Id` and `Key_Secret`) handy for integration.
-- [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
-- Integrate with [Razorpay APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2.md) to accept payments on your website or app.
+- [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
+- Integrate with [Razorpay APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2.md) to accept payments on your website or app.
 
 ## Integration Step
 
@@ -91,7 +91,7 @@ curl -u : \
 ```
 
 #### Request Parameters
-The payment request for each of the supported payment methods will slightly vary. Know more about the [relevant payment request fields](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods.md).
+The payment request for each of the supported payment methods will slightly vary. Know more about the [relevant payment request fields](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods.md).
 
 #### Response Parameters
 

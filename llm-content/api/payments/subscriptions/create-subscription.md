@@ -30,7 +30,7 @@ Use this endpoint to create a Subscription.
 The requested URL was not found on the server.
 * code: 400
 * description: This error occurs when the Subscriptions feature is not enabled.
-* solution: Ensure that the [Subscriptions feature](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/#flash-checkout.md) is enabled both in the test and live modes before creating a Subscription.
+* solution: Ensure that the [Subscriptions feature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md#flash-checkout) is enabled both in the test and live modes before creating a Subscription.
  
 The id provided does not exist
 * code: 400

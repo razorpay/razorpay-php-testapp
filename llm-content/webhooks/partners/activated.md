@@ -60,7 +60,7 @@ description: List of webhook events and associated payloads when the account is 
 > 
 > **Watch Out!**
 > 
-> Refer to the [Appendix](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#business-type.md) for `business_type` parameter values.
+> Refer to the [Appendix](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#business-type) for `business_type` parameter values.
 > 
 
 ```json: Account Activated

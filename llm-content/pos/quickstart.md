@@ -21,11 +21,11 @@ To create a Razorpay account:
 
 1. Enter your 10-digit **Mobile Number**. Click **Continue**.
 2. Enter the **OTP** sent to your mobile number. Select the check box below to receive updates on WhatsApp. Click **Verify**. If you did not receive the OTP, click **Resend OTP**.
-     ![Enter phone number to receive updates on WhatsApp](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/easy-mobile-POS.jpg.md)
+     ![Enter phone number to receive updates on WhatsApp](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/easy-mobile-POS.jpg.md)
 3. Enter your **Name** and click **Continue**.
 4. Select where you want to accept payments from the given options. You can also select multiple options if relevant.
-     ![Select business type](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos-signup-select-business-type.jpg.md)
-5. Select your business type from the list. Know more about [different business types](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#2-submit-kyc-details.md).
+     ![Select business type](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos-signup-select-business-type.jpg.md)
+5. Select your business type from the list. Know more about [different business types](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#2-submit-kyc-details).
      
 > **WARN**
 >
@@ -40,7 +40,7 @@ To create a Razorpay account:
 8. Enter the name associated with the PAN and click **Continue**.
 9. Enter your **Brand Name**. This should be the name of your business that your customers recognise. Click **Continue**.
 10. Select the relevant **Business Category** from the list. 
-     ![Platform Details - Enter Brand Name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/easy-brand-name.jpg.md)
+     ![Platform Details - Enter Brand Name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/easy-brand-name.jpg.md)
 11. Choose a **Subcategory** from the list. For example, if you selected **Education**, specify the category under it from the list.
 12. . Depending on the category and sub-category, choose the additional details as required.
 
@@ -48,7 +48,7 @@ To create a Razorpay account:
 
 Provide the following information to complete KYC.
 
-    ![Complete KYC Verification](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/easy-kyc.jpg.md)
+    ![Complete KYC Verification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/easy-kyc.jpg.md)
 
     
 > **WARN**
@@ -70,9 +70,9 @@ Provide the following information to complete KYC.
 >      
 
       
-      ![Add your registered business address](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/easy-address.jpg.md)
+      ![Add your registered business address](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/easy-address.jpg.md)
 
- 2. **Business Documents**: Upload the relevant [business documents](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/business-types-kyc-documents.md) based on your business type. Click **Continue**.
+ 2. **Business Documents**: Upload the relevant [business documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/business-types-kyc-documents.md) based on your business type. Click **Continue**.
  3. **Bank Details**: Fill in your bank account details such as **Account Number** and **IFSC Code**. This will be the account to which Razorpay settles your funds. Click **Done**.
  4. **Identity Proof**: You can upload your Aadhar Card, Passport or Voter ID. Upload the required documents and click **Continue**.
 
@@ -109,7 +109,7 @@ Provide the following information to complete KYC.
   
 
  6. Once you provide all the required details for verification, click **Submit KYC**. 
-     ![Business Details - Submit KYC Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/easy-submit.jpg.md)
+     ![Business Details - Submit KYC Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/easy-submit.jpg.md)
 
 ## 3. Add Shop Images
 
@@ -117,7 +117,7 @@ Upload two images of your workplace:
 - An image of your shop from the front.
 - An image of the interior of your shop.
 
- ![Add shop pictures for KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos-add-shop-pictures.jpg.md)
+ ![Add shop pictures for KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos-add-shop-pictures.jpg.md)
 
 > **WARN**
 >
@@ -136,12 +136,12 @@ To buy a Razorpay POS device:
 
 1. Log in to the Dashboard.
 2. Navigate to **POS** from the left navigation.
-3. Explore the [POS device options](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/#explore-pos-device-suite.md), select one and click **Add to cart**.
-    ![Select the pos device](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-pos-device.jpg.md)
+3. Explore the [POS device options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos.md#explore-pos-device-suite), select one and click **Add to cart**.
+    ![Select the pos device](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-pos-device.jpg.md)
 4. You can click **+** to add a combination of devices you want to order.
 5. Click **Proceed to Order**. Review your order. You can **Edit** your order and **+ Add New Address** if required.
 6. Click **Confirm Address & Pay**.
-    ![Order razorpay pos](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/buy-pos.jpg.md)
+    ![Order razorpay pos](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/buy-pos.jpg.md)
 7. Select your preferred payment method and click **Pay Now**.
 
 Once the order is placed, you can find it in the **POS** → **Orders** tab.

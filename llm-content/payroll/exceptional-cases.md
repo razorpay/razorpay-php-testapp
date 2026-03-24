@@ -108,10 +108,10 @@ You **cannot** make or request modifications after clicking **Request Execution*
 
 You can execute payroll for past months for which TDS returns have already been filed. 
 
-However, we **cannot change the TDS returns**. This can lead to inaccurate data for the employees whose payroll is executed later. Especially if TDS is deducted, the employee(s) will not see it in their [Form 16](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tds/#form-16-16a.md). In such a case, you need to get a correction filed externally in such a case. 
+However, we **cannot change the TDS returns**. This can lead to inaccurate data for the employees whose payroll is executed later. Especially if TDS is deducted, the employee(s) will not see it in their [Form 16](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tds.md#form-16-16a). In such a case, you need to get a correction filed externally in such a case. 
 
 ### Related Information
 
-- [Salary](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary.md)
-- [Run Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll.md)
-- [One-time Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/one-time-payments.md)
+- [Salary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md)
+- [Run Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md)
+- [One-time Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/one-time-payments.md)

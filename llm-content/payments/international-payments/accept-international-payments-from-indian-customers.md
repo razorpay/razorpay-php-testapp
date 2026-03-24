@@ -329,9 +329,9 @@ Follow the steps given below to onboard and accept payments from Indian customer
 2. Navigate to **Account & Settings**.
 3. You must provide the Purpose Code information when applying for international payments.
     1. Click **International Payment Codes** under **International payment settings**.
-        ![International payment codes](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/firs-purpose-code-update-new.jpg.md)
+        ![International payment codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/firs-purpose-code-update-new.jpg.md)
     2. Update your purpose code under the **International Payment Codes** section. 
-        ![Purpose code update](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/firs-purpose-code-update2-new.jpg.md)
+        ![Purpose code update](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/firs-purpose-code-update2-new.jpg.md)
     3. Select the appropriate **Purpose Code**.
 
     Based on your business requirements, you also need to provide your **HS Code** or **IEC Code**.
@@ -355,7 +355,7 @@ Follow the steps given below to onboard and accept payments from Indian customer
             2. Update your **IEC Code** under the **International Payment Codes** section. 
             3. Select the appropriate **Purpose Code**.
             4. Enter the 10-digit Importer/Exporter Code (IEC) and click **Next**.
-                ![Import Export Code](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/import-export-code.jpg.md)
+                ![Import Export Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/import-export-code.jpg.md)
                 
 > **WARN**
 >

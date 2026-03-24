@@ -38,19 +38,19 @@ Following are the various states of an order:
 
 Following is a pictorial representation of how order and payment flows are closely related:
 
-![Pictorial representation of Order and Payment Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/orders-payment-flow.jpg.md)
+![Pictorial representation of Order and Payment Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/orders-payment-flow.jpg.md)
 
 ## Create Orders
 
-You can [create an order using this API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/#create-an-order.md).
+You can [create an order using this API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md#create-an-order).
 
 ## Dashboard Actions
 
 Perform the following actions using the Dashboard:
-- [View orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders/dashboard/#view-order-details.md)
-- [Subscribe to Webhook Events related to orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders/dashboard/#subscribe-to-webhook-events.md)
-- [View reports related to orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders/dashboard/#reports.md)
+- [View orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders/dashboard.md#view-order-details)
+- [Subscribe to Webhook Events related to orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders/dashboard.md#subscribe-to-webhook-events)
+- [View reports related to orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders/dashboard.md#reports)
 
 ### Related Information
 
-[Orders APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders/apis.md)
+[Orders APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders/apis.md)

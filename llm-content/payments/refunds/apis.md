@@ -13,36 +13,36 @@ The table below lists the various Refunds APIs and gives a brief description of 
 
  API | Description
  ---
- [Create a Normal refund ](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds/create-normal.md) | API to create a Normal refund
+ [Create a Normal refund ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds/create-normal.md) | API to create a Normal refund
  ---
- [Create an Instant refund](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds/#create-an-instant-refund.md) | API to create an Instant refund
+ [Create an Instant refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds.md#create-an-instant-refund) | API to create an Instant refund
  ---
- [View multiple refunds for a payment](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds/fetch-multiple-refund-payment.md) | API to retrieve multiple refunds for a payment
+ [View multiple refunds for a payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds/fetch-multiple-refund-payment.md) | API to retrieve multiple refunds for a payment
  ---
- [Create an Instant Refund (Idempotent Request)](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds/instant-refunds-idempotent.md) | API to create an Instant refund (idempotent request)
+ [Create an Instant Refund (Idempotent Request)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds/instant-refunds-idempotent.md) | API to create an Instant refund (idempotent request)
  ---
- [Create a Normal Refund (Idempotent Request)](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds/normal-refunds-idempotent.md) | API to create a Normal refund (idempotent request)
+ [Create a Normal Refund (Idempotent Request)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds/normal-refunds-idempotent.md) | API to create a Normal refund (idempotent request)
  ---
- [View refund for a specific refund](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds/fetch-specific-refund-payment.md) | API to retrieve details of a specific refund made for a payment
+ [View refund for a specific refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds/fetch-specific-refund-payment.md) | API to retrieve details of a specific refund made for a payment
  ---
- [View all refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds/fetch-all.md) | API to view details of all refunds
+ [View all refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds/fetch-all.md) | API to view details of all refunds
  ---
- [View refund details by refund id ](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds/fetch-with-id.md) | API to retrieve refund details using the refund id
+ [View refund details by refund id ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds/fetch-with-id.md) | API to retrieve refund details using the refund id
  ---
- [Update refund](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds/update.md) | API to update the 'Notes' field of an existing refund
+ [Update refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds/update.md) | API to update the 'Notes' field of an existing refund
 
 ### Related Information
 
-- [About Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds.md)
+- [About Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md)
 
-- [Normal Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/normal.md)
+- [Normal Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/normal.md)
 
-- [Instant Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/instant.md)
+- [Instant Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/instant.md)
 
-- [Batch Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/batch.md)
+- [Batch Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/batch.md)
 
-- [Issue Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/issue.md)
+- [Issue Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/issue.md)
 
-- [Subscribe to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/subscribe-to-webhooks.md)
+- [Subscribe to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/subscribe-to-webhooks.md)
 
-- [Refunds FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/faqs.md)
+- [Refunds FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/faqs.md)

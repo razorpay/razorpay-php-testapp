@@ -40,7 +40,7 @@ A Purchase Order (PO) is a crucial document in the world of business and commerc
          `Closed` | After the transaction is complete and goods/services are received, click **MARK AS CLOSED**.
          
     
-         ![Purchase Order life cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-po-lifecycle.jpg.md)
+         ![Purchase Order life cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-po-lifecycle.jpg.md)
         
 
 ### How it Works
@@ -62,7 +62,7 @@ To add a Purchase Order:
 
 ### Create Purchase Order
 
-Before creating your first Purchase Order, set your **Billing Address** via [Branches](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/multi-branch-management.md) that will appear on the header of the Purchase Order. You can add only 1 billing address.
+Before creating your first Purchase Order, set your **Billing Address** via [Branches](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/multi-branch-management.md) that will appear on the header of the Purchase Order. You can add only 1 billing address.
 
 **Shipping Address** is the same as billing address by default. De-select the **Same as billing address** check box if you want to add a different shipping address. Enter the required details and click **Save**.
 
@@ -72,9 +72,9 @@ Once the addresses are saved click **Done**.
 2. Select or deselect the **GST applicable vendor**, as required. Enter the GSTIN. 
 3. Review the address, you can **Edit** or click **Next**.
 4. Enter the **PO Details** as given below. Select the relevant **Cost Center** and click **Next**.
-    ![Purchase order details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-purchase-orders-details.jpg.md)
+    ![Purchase order details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-purchase-orders-details.jpg.md)
 5. Enter and verify the **Amount details** and click **Next**.
-    ![PO Amount details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-po-amount-details.jpg.md)
+    ![PO Amount details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-po-amount-details.jpg.md)
 6. Review the Purchase Order. You can **Edit details**, **Save & close** or **Save & Send** the Purchase Order.
 
 If you choose to **Save & Send** the PO, enter or verify the **Vendor Email** and add other email ids for carbon copy (**CC**) if required. Click **Send PO** to `Issue` the PO to the vendor.
@@ -103,7 +103,7 @@ If you choose to **Save & close** the Purchase Order and decide to share it thro
 2. Navigate to **Vendor Payments** → **Purchase Orders**.
 3. Select the Purchase Order that you want to issue. In the right pane, click **MARK AS ISSUED**.
 
-![PO Issued](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-po-mark-issued.jpg.md)
+![PO Issued](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-po-mark-issued.jpg.md)
 
 ## Mark as Closed
 
@@ -129,7 +129,7 @@ The Purchase Order is cancelled.
 
 ## Purchase Order Approval Workflow
 
-This approval workflow is based on the [cost center](@/Applications/MAMP/htdocs/new-docs/llm-content/x/cost-centers.md) that you have linked to your PO. You can [contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md) to setup this approval workflow and assign it to relevant team members.
+This approval workflow is based on the [cost center](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/cost-centers.md) that you have linked to your PO. You can [contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md) to setup this approval workflow and assign it to relevant team members.
 
     
 ### Approving a Purchase Order
@@ -149,7 +149,7 @@ This approval workflow is based on the [cost center](@/Applications/MAMP/htdocs/
          2. Navigate to **Vendor Payments** → **Purchase Orders**.
          3. Hover over the required Purchase Order `In Approval` and click **APPROVE** or **REJECT** or select it to view more details and click **APPROVE** or **REJECT** on the right-pane.
             1. If you click **APPROVE**, the following screen is displayed. Enter comments and click **Approve**.
-                ![Approve purchase order](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-vp-po-approve.jpg.md)
+                ![Approve purchase order](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-vp-po-approve.jpg.md)
             2. If you click **REJECT**, enter the reason for rejection and click **Reject**.
         
 
@@ -161,4 +161,4 @@ To view the approval workflow after it is setup:
 2. Navigate to the profile icon → **My Accounts & Settings** → **Workflow** → **Purchase Orders**.
 3. Click **View Workflows** and select the cost center for which you want to view the workflow.
 
-![View Purchase Order workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/view-PO-workflows.jpg.md)
+![View Purchase Order workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/view-PO-workflows.jpg.md)

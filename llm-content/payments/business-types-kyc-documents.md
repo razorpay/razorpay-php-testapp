@@ -51,7 +51,7 @@ Below are the business types supported by Razorpay and the KYC documents require
          ---
          Sole Proprietorship | This business entity is owned, controlled and operated by a single individual who is the sole beneficiary of all profits or losses and responsible for all risks. | Small businesses such as a local grocery store, a local clothes store, an artist, freelance writer, IT consultant, freelance graphic designer and so on.
          ---
-         Trust | A trust is a [fiduciary relationship](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/glossary/#fiduciary-relationship.md) in which a [trustor](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/glossary/#trustor.md) gives the [trustee](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/glossary/#trustee.md) the right to hold title to property or assets for the benefit of a third party, the [beneficiary](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/glossary/#beneficiary.md). Trusts are established to provide legal protection for the trustor’s assets. | A beneficiary may transfer property to a trustee and grant them the right to manage it.
+         Trust | A trust is a [fiduciary relationship](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/glossary.md#fiduciary-relationship) in which a [trustor](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/glossary.md#trustor) gives the [trustee](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/glossary.md#trustee) the right to hold title to property or assets for the benefit of a third party, the [beneficiary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/glossary.md#beneficiary). Trusts are established to provide legal protection for the trustor’s assets. | A beneficiary may transfer property to a trustee and grant them the right to manage it.
          ---
          HUF | HUF stands for Hindu Undivided Family, which consists of all persons directly descended from a common ancestor, including their wives and unmarried daughters. A HUF cannot be created under a contract, it is created automatically in a Hindu Family.|  Haldiram's Private Limited.
          ---
@@ -79,7 +79,7 @@ You need to upload scanned photocopies (soft copies) of these documents.
 > 
 > **Handy Tips**
 > 
-> The PAN Card details and [authorised signatory](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/glossary/#authorised-signatory.md) address proof, that is, Aadhar Card and Passport should be of the same person.
+> The PAN Card details and [authorised signatory](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/glossary.md#authorised-signatory) address proof, that is, Aadhar Card and Passport should be of the same person.
 > 
 
     
@@ -146,7 +146,7 @@ You need to upload scanned photocopies (soft copies) of these documents.
  If bank verification fails, a video of a cancelled cheque must be provided.
          ---
          Proof of Identity of Business Owners and Authorised Signatory | **For Authorised Signatory**: - Authorised signatory PAN Card details
-- Government-approved [authorised signatory](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/glossary/#authorised-signatory.md) address proof (like Aadhar Card/Voter id/Passport) 
+- Government-approved [authorised signatory](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/glossary.md#authorised-signatory) address proof (like Aadhar Card/Voter id/Passport) 
 - `Mandatory` Board Resolution (BR) or Power of Attorney (POA)
  **For Business Owners (Self-Declaration)**: - `Mandatory` Ultimate Beneficial Owner (UBO) Declaration (Each UBO's PAN, Aadhar and Ownership % declaration)
 - `Mandatory` Declare all natural persons with **>10%** shareholding
@@ -171,7 +171,7 @@ You need to upload scanned photocopies (soft copies) of these documents.
  If bank verification fails, a video of a cancelled cheque must be provided.
          ---
          Proof of Identity of Business Owners and Authorised Signatory | **For Authorised Signatory**: - Authorised signatory PAN Card details
-- Government-approved [authorised signatory](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/glossary/#authorised-signatory.md) address proof (like Aadhar Card/Voter id/Passport) 
+- Government-approved [authorised signatory](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/glossary.md#authorised-signatory) address proof (like Aadhar Card/Voter id/Passport) 
 - `Mandatory` Power of Attorney (POA)
  **For Business Owners (Self-Declaration)**: - `Mandatory` Ultimate Beneficial Owner (UBO) Declaration (Each UBO's PAN and Aadhar)
 - `Mandatory` Declare all natural persons with **>10%** shareholding
@@ -196,7 +196,7 @@ You need to upload scanned photocopies (soft copies) of these documents.
  If bank verification fails, a video of a cancelled cheque must be provided.
          ---
          Proof of Identity of Business Owners and Authorised Signatory | **For Authorised Signatory**: - Authorised signatory PAN Card details
-- Government-approved [authorised signatory](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/glossary/#authorised-signatory.md) address proof (like Aadhar Card/Voter id/Passport) 
+- Government-approved [authorised signatory](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/glossary.md#authorised-signatory) address proof (like Aadhar Card/Voter id/Passport) 
 - `Mandatory` Power of Attorney (POA)
  **For Business Owners (Self-Declaration)**: - `Mandatory` Ultimate Beneficial Owner (UBO) Declaration (Each UBO's PAN, Aadhar and Ownership % declaration)
 - `Mandatory` Declare all natural persons with **>10%** shareholding
@@ -220,7 +220,7 @@ You need to upload scanned photocopies (soft copies) of these documents.
 - `Mandatory` IFSC Code
  If bank verification fails, a video of a cancelled cheque must be provided.
          ---
-         Proof of Identity of Business Owners and Authorised Signatory | - Government-approved [authorised signatory](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/glossary/#authorised-signatory.md) identity proof (like Aadhar Card/Voter id/Passport)
+         Proof of Identity of Business Owners and Authorised Signatory | - Government-approved [authorised signatory](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/glossary.md#authorised-signatory) identity proof (like Aadhar Card/Voter id/Passport)
 - Authorised signatory PAN Card details
 
          
@@ -243,7 +243,7 @@ You need to upload scanned photocopies (soft copies) of these documents.
  If bank verification fails, a video of a cancelled cheque must be provided.
          ---
          Proof of Identity of Business Owners and Authorised Signatory | **For Authorised Signatory**: - Authorised signatory PAN Card details
-- Government-approved [authorised signatory](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/glossary/#authorised-signatory.md) address proof (like Aadhar Card/Voter id/Passport) 
+- Government-approved [authorised signatory](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/glossary.md#authorised-signatory) address proof (like Aadhar Card/Voter id/Passport) 
 - `Mandatory` Power of Attorney (POA)
  **For Business Owners (Self-Declaration)**: - `Mandatory` Ultimate Beneficial Owner (UBO) Declaration (Each UBO's PAN and Aadhar)
 - `Mandatory` Declare all natural persons with **>10%** shareholding
@@ -267,7 +267,7 @@ You need to upload scanned photocopies (soft copies) of these documents.
 - `Mandatory` IFSC Code
  If bank verification fails, a video of a cancelled cheque must be provided.
          ---
-         Proof of Identity of Business Owners and Authorised Signatory | - Government-approved [authorised signatory](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/glossary/#authorised-signatory.md) identity proof (like Aadhar Card/Voter id/Passport)
+         Proof of Identity of Business Owners and Authorised Signatory | - Government-approved [authorised signatory](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/glossary.md#authorised-signatory) identity proof (like Aadhar Card/Voter id/Passport)
 - Authorised signatory PAN Card details
 
          
@@ -289,7 +289,7 @@ You need to upload scanned photocopies (soft copies) of these documents.
 - `Mandatory` IFSC Code
  If bank verification fails, a video of a cancelled cheque must be provided.
          ---
-         Proof of Identity of Business Owners and Authorised Signatory | - Government-approved [authorised signatory](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/glossary/#authorised-signatory.md) identity proof (like Aadhar Card/Voter id/Passport)
+         Proof of Identity of Business Owners and Authorised Signatory | - Government-approved [authorised signatory](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/glossary.md#authorised-signatory) identity proof (like Aadhar Card/Voter id/Passport)
 - Authorised signatory PAN Card details
 
          
@@ -311,7 +311,7 @@ You need to upload scanned photocopies (soft copies) of these documents.
 - `Mandatory` IFSC Code
  If bank verification fails, a video of a cancelled cheque must be provided.
          ---
-         Proof of Identity of Business Owners and Authorised Signatory | - Government-approved [authorised signatory](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/glossary/#authorised-signatory.md) identity proof (like Aadhar Card/Voter id/Passport)
+         Proof of Identity of Business Owners and Authorised Signatory | - Government-approved [authorised signatory](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/glossary.md#authorised-signatory) identity proof (like Aadhar Card/Voter id/Passport)
 - Authorised signatory PAN Card details
 
          
@@ -336,7 +336,7 @@ You need to upload scanned photocopies (soft copies) of these documents.
  If bank verification fails, a video of a cancelled cheque must be provided.
          ---
          Proof of Identity of Business Owners and Authorised Signatory | **For Authorised Signatory**: - Authorised signatory PAN Card details
-- Government-approved [authorised signatory](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/glossary/#authorised-signatory.md) address proof (like Aadhar Card/Voter id/Passport) 
+- Government-approved [authorised signatory](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/glossary.md#authorised-signatory) address proof (like Aadhar Card/Voter id/Passport) 
 - `Mandatory` Board Resolution (BR) or Power of Attorney (POA)
  **For Business Owners (Self-Declaration)**: - `Mandatory` Ultimate Beneficial Owner (UBO) Declaration (Each UBO's PAN, Aadhar and Ownership % declaration)
 - `Mandatory` Declare all natural persons with **>10%** shareholding
@@ -360,7 +360,7 @@ You need to upload scanned photocopies (soft copies) of these documents.
  If bank verification fails, a video of a cancelled cheque must be provided.
          ---
          Proof of Identity of Business Owners and Authorised Signatory | **For Authorised Signatory**: - Authorised signatory PAN Card details
-- Government-approved [authorised signatory](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/glossary/#authorised-signatory.md) address proof (like Aadhar Card/Voter id/Passport) 
+- Government-approved [authorised signatory](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/glossary.md#authorised-signatory) address proof (like Aadhar Card/Voter id/Passport) 
 - `Mandatory` Power of Attorney (POA)
  **For Business Owners (Self-Declaration)**: - `Mandatory` Ultimate Beneficial Owner (UBO) Declaration (Each UBO's PAN, Aadhar and Ownership % declaration)
 - `Mandatory` Declare all natural persons with **>15%** shareholding
@@ -454,5 +454,5 @@ Depending on the line of business, we may also ask for additional certifications
 
 ### Related Information
 
-- [Submit KYC details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#2-submit-kyc-details.md)
-- [Frequently Asked Questions (FAQs)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/faqs.md)
+- [Submit KYC details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#2-submit-kyc-details)
+- [Frequently Asked Questions (FAQs)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/faqs.md)

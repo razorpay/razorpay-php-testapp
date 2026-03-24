@@ -12,7 +12,7 @@ We have a Postman collection to make the integration quicker and easier. Click t
 ## Instructions to Use Postman Collection
 
 - All Razorpay APIs are authenticated using Basic Authentication.
-  - [Generate API Keys from the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+  - [Generate API Keys from the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 - Add your API Keys in Postman. Selected the required API → Auth → Type = Basic Auth → Username = [Your_Key_ID]; Password = [Your_Key_secret]
   ![](/docs/assets/images/api-postman_basic_auth.gif)
 - Some APIs in the collection require data specific to your account either in the request body or as path parameters.

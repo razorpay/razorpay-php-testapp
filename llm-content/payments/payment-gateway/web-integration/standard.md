@@ -10,7 +10,7 @@ description: Check the prerequisites before you integrate with Razorpay Web Stan
 
 You can start accepting payments from customers on your website using the Razorpay Web Standard Checkout. Razorpay has developed the Standard Checkout method and manages it. You can configure payment methods, orders, company logo and also select custom colour based on your convenience. 
 
-![Razorpay Payment Gateway Demo](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/demo.gif.md)
+![Razorpay Payment Gateway Demo](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/demo.gif.md)
 
 > **WARN**
 >
@@ -100,7 +100,7 @@ The client SDK libraries are available on GitHub. You can use the API keys gener
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup). 
 
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
 Follow these integration steps:
 
@@ -115,16 +115,16 @@ Follow these integration steps:
 > 
 > **Other Solutions**
 > 
-> - If you use  WordPress, Magento, WooCommerce, Shopify and other **ecommerce platforms** for your platform, use our [ecommerce plugins](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins.md).
+> - If you use  WordPress, Magento, WooCommerce, Shopify and other **ecommerce platforms** for your platform, use our [ecommerce plugins](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins.md).
 > 
-> - You can use [Razorpay Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md) to gain control over the checkout experience. Custom Checkout integration is more complex than Standard Checkout integration and you will require a development team on your end to complete the integration. 
+> - You can use [Razorpay Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md) to gain control over the checkout experience. Custom Checkout integration is more complex than Standard Checkout integration and you will require a development team on your end to complete the integration. 
 > 
 > 
-> - Need a **Pay** button without doing any integration? Use [Razorpay Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button.md).
+> - Need a **Pay** button without doing any integration? Use [Razorpay Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button.md).
 > 
 > 
 
 ### Related Information
 
-- [Troubleshooting and FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/troubleshooting-faqs.md)
-- [Bank Downtime](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/downtime-updates.md)
+- [Troubleshooting and FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/troubleshooting-faqs.md)
+- [Bank Downtime](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/downtime-updates.md)

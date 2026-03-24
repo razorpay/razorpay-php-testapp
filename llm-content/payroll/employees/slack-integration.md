@@ -13,7 +13,7 @@ You can use your official Slack account to apply for leaves, reimbursements, che
 > 
 > **Watch Out!**
 > 
-> This is possible only if your organisation has integrated with Slack using the [Slack Integration Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/slack.md).
+> This is possible only if your organisation has integrated with Slack using the [Slack Integration Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/slack.md).
 > 
 
 ## Connect to Payroll
@@ -58,5 +58,5 @@ Command | Description
 
 ### Related Information 
 
-- [Employee Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees.md)
-- [Leaves and Attendance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/attendance-leaves.md)
+- [Employee Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md)
+- [Leaves and Attendance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/attendance-leaves.md)

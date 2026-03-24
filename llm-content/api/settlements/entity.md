@@ -34,7 +34,7 @@ The Settlements entity has the following parameters:
 : `integer` The amount to be settled (in the smallest unit of currency). For example,  will be `50000`.
 
 `status`
-: `string` Indicates the [state of the settlement](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/#settlement-states.md). Possible values:
+: `string` Indicates the [state of the settlement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md#settlement-states). Possible values:
   - `created`
   - `processed`
   - `failed`

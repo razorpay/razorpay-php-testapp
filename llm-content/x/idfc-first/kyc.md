@@ -6,7 +6,7 @@ description: Find the details of KYC documents of operators (based on residentia
 
 # KYC for Current Account Operators
 
-Below are the list of KYC documents required to be submitted by the operators/beneficial owners/partners/directors/proprietors of a business entity to open a current account with RazorpayX in partnership with IDFC First Bank. You can find the list of acceptable documents for [Indian Residents](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/kyc/#indian-residents.md), [NRIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/kyc/#non-resident-of-india.md), [Foreign Nationals](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/kyc/#foreign-nationals-residing-in-india.md), [Hindu Undivided Families](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/kyc/#hindu-undivided-family-huf.md) and [Business Entities](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/kyc/#kyc-documents-for-the-business-entity.md).
+Below are the list of KYC documents required to be submitted by the operators/beneficial owners/partners/directors/proprietors of a business entity to open a current account with RazorpayX in partnership with IDFC First Bank. You can find the list of acceptable documents for [Indian Residents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/kyc.md#indian-residents), [NRIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/kyc.md#non-resident-of-india), [Foreign Nationals](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/kyc.md#foreign-nationals-residing-in-india), [Hindu Undivided Families](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/kyc.md#hindu-undivided-family-huf) and [Business Entities](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/kyc.md#kyc-documents-for-the-business-entity).
 
 > **WARN**
 >
@@ -100,19 +100,19 @@ Below are the list of KYC documents required to be submitted by the operators/be
 
 You can find the detailed list of documents required in the name of the business entity in the links below, based on the constitution of the entity.
 
-    - [Private / Public Limited Company / OPC](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/pvt-ltd-co.md)
-    - [Limited Liability Partnership (LLP)](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/llp.md)
-    - [Partnership](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/partnership.md)
-    - [Sole Proprietorship](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/sole-proprietorship.md)
+    - [Private / Public Limited Company / OPC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/pvt-ltd-co.md)
+    - [Limited Liability Partnership (LLP)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/llp.md)
+    - [Partnership](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/partnership.md)
+    - [Sole Proprietorship](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/sole-proprietorship.md)
 
 ### Escrow Accounts
 
-Below are the **additional documents** required in case of [Escrow Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/escrow.md)
-    - **Escrow Board Resolution** ([Click](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/idfc-escrow.docx.md) to download the format )
+Below are the **additional documents** required in case of [Escrow Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/escrow.md)
+    - **Escrow Board Resolution** ([Click](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/idfc-escrow.docx.md) to download the format )
     - **Escrow Agreement** (finalised and signed) 
     - **Trustee Board Resolution**
 
-[Download Forms](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/IDFC.zip.md)
+[Download Forms](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/IDFC.zip.md)
 
 ### Related Information
 

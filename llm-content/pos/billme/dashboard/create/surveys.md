@@ -86,7 +86,7 @@ To create a new survey:
 
 1. Under **Create** section on the **Billme** Dashboard, click **Surveys**. The **Surveys** page appears.
 2. Click **+ New Survey**. The **New Campaign** page appears.
-    ![Create New Survey](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/new-campaign-details.jpg.md)
+    ![Create New Survey](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/new-campaign-details.jpg.md)
 3. Enter the **Campaign Details** such as Campaign name and description and Click **Next Step**. The **Survey Builder** page appears.
     - Select if your survey is a **Single Page Survey** or a **Multi Page Survey**
     - Add a header image for your survey.
@@ -94,12 +94,12 @@ To create a new survey:
     - Add the survey question and description.
     - Select your question type from the dropdown.
     - You can also add more questions, text fields and background colours.
-    ![Survey Builder for New Campaign](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/survey-builder-new-campaign.jpg.md)
+    ![Survey Builder for New Campaign](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/survey-builder-new-campaign.jpg.md)
 4. Preview your survey and click **Next Step**. The **Survey Additional Settings** page appears.
     - Add a welcome image and an exit image.
     - Customise your survey font and button.
-    ![Survey Additional Settings for New Campaign](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/survey-additional-settings.jpg.md)
+    ![Survey Additional Settings for New Campaign](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/survey-additional-settings.jpg.md)
 5. On the **Preview & Publish** page, preview the final look of your survey and click **Publish**.
-    ![Survey Publish for New Campaign](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/survey-preview-publish.jpg.md)
+    ![Survey Publish for New Campaign](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/survey-preview-publish.jpg.md)
 
 Your new survey is created and appears on the list of recent surveys on the **Survey** page.

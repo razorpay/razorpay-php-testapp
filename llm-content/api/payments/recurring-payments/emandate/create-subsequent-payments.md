@@ -51,5 +51,5 @@ Once you have generated an `order_id`, use it with the `token_id` to create a pa
 > 
 > **Watch Out!**
 > 
-> You will receive `razorpay_payment_id`, `razorpay_order_id` and `razorpay_signature` as a response when you create a Recurring Payment in [Test mode](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication.md).
+> You will receive `razorpay_payment_id`, `razorpay_order_id` and `razorpay_signature` as a response when you create a Recurring Payment in [Test mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md).
 >

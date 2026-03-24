@@ -12,7 +12,7 @@ Use GooglePay Omnichannel API to initiate a UPI payment request that can be sent
 1. [Sign up ](https://support.google.com/pay/business/answer/7684271?hl=en&ref_topic=7684388)for a business account with Google Pay.
 1. [Contact our Support Team](https://razorpay.com/support/#request) and have them whitelist your UPI ID/VPA.
 1. Verify your UPI ID/VPA details on the [Google Merchant Console](https://support.google.com/pay/business/answer/7684398?hl=en&ref_topic=7684388). Google deposits a small amount into the bank account linked to your VPA (UPI ID).
-1. [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
+1. [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
 
 ## Integration Steps
 
@@ -147,7 +147,7 @@ To initiate a UPI payment request, invoke an API call with the following attribu
 : `string` `order_id` as returned in the response of the [Create Order step](#step-1-create-an-order).
 
 `notes` _optional_
-: `json object` Object consisting of key value pairs as [notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md).
+: `json object` Object consisting of key value pairs as [notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes).
 
 `method` _mandatory_
 : `string` Payment method used to make the payment. In this case, it is `upi`.
@@ -205,7 +205,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 
 If you have configured `callback_url` parameter in the original payment request, a POST request is sent along with the `razorpay_payment_id` to the configured URL on your server.
 
-You can subscribe to the payment-related (`payment.authorized`, `payment.captured`) and order-related (`order.paid`) Webhooks to get notified once the customer completes the UPI payment. Know more about subscribing to [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
+You can subscribe to the payment-related (`payment.authorized`, `payment.captured`) and order-related (`order.paid`) Webhooks to get notified once the customer completes the UPI payment. Know more about subscribing to [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
 
 #### Payment failure and re-initiating payment
 

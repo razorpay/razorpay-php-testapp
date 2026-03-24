@@ -8,10 +8,10 @@ description: Sample codes to help you integrate the payment methods of your choi
 If you want to list all the payment methods offered by `Axis` bank, allow card payments for `ICICI` bank only and hide `upi` payment method from the Checkout, you can do so as follows:
 
   
-    ![payment gateway customised checkout on mobile](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-methods-customise-checkout-mweb.jpg.md)
+    ![payment gateway customised checkout on mobile](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-methods-customise-checkout-mweb.jpg.md)
   
   
-    ![payment gateway customised checkout on desktop](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-methods-customised-checkout.gif.md)
+    ![payment gateway customised checkout on desktop](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-methods-customised-checkout.gif.md)
   
 
 ```html: Checkout Code
@@ -106,5 +106,5 @@ If you want to list all the payment methods offered by `Axis` bank, allow card p
 @include payment-methods/configurability/sample-code
 
 ### Related Information
-- [Supported Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md)
-- [Configurability of Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods.md)
+- [Supported Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md)
+- [Configurability of Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods.md)

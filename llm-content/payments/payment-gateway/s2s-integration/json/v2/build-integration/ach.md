@@ -109,7 +109,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 
 `order_id` _mandatory_
 : `string` Unique identifier of the Order.
- Know more about [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+ Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 `email` _mandatory_
 : `string` Email address of the customer. Maximum length supported is 40 characters. 
@@ -160,7 +160,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
   `postal_code` _optional_
   : `string` Postal code of the state. For example, `33514`.
 
-The payment request for each of the supported payment methods will slightly vary. Know more about the [relevant payment request fields](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods.md).
+The payment request for each of the supported payment methods will slightly vary. Know more about the [relevant payment request fields](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods.md).
         
 
     
@@ -224,7 +224,7 @@ ACH payments progress through the following states:
 > - Settlement occurs on T+5 (5 business days after transaction).
 > - Most returns occur within the first 5 days if there are account issues.
 > 
-> ![ACH Settlement flow diagram](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ach-settlement-flow.jpg.md)
+> ![ACH Settlement flow diagram](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ach-settlement-flow.jpg.md)
 > 
 
 ### 1.4 Handle Payment Success and Error Events
@@ -249,7 +249,7 @@ If the payment made by the customer is successful, the following fields are sent
 
 #### Failure Callback
 
-If the payment has failed, the callback will contain details of the error. Refer to [Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#errors.md) for details.
+If the payment has failed, the callback will contain details of the error. Refer to [Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#errors) for details.
 
 ### 1.5 Integrate Payments Rainy Day Kit
 
@@ -314,4 +314,4 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/test-integration.md)

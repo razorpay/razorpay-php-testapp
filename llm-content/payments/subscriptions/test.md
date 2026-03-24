@@ -9,7 +9,7 @@ Check the Prerequisites and steps to test the Subscriptions and the various flow
 
 ## Prerequisites
 
-- Use your test [KEY_ID] and [KEY_SECRET] while testing. This can be generated from the Dashboard by [generating API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys.md) in the test mode.
+- Use your test [KEY_ID] and [KEY_SECRET] while testing. This can be generated from the Dashboard by [generating API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md) in the test mode.
 - Ensure you are using your Dashboard in the test mode. Some options mentioned in this article are available only in the test mode.
 
 ## Steps to Test Subscriptions
@@ -19,15 +19,15 @@ To test Subscriptions:
   
 ### 1. Configure a Webhook
 
-     Before you create Subscriptions, [configure a test webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md) to receive notifications regarding Subscriptions.
+     Before you create Subscriptions, [configure a test webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md) to receive notifications regarding Subscriptions.
     
 
   
 ### 2. Create a Plan
 
-     Create a Plan from your [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-plans/#create-a-plan.md) and use them in your code while creating Subscriptions. You can also create Plans using [Razorpay Subscriptions APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/create-plan.md).
+     Create a Plan from your [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-plans.md#create-a-plan) and use them in your code while creating Subscriptions. You can also create Plans using [Razorpay Subscriptions APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/create-plan.md).
 
-     ![Create a test plan](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/subscriptions-test-1.jpg.md)
+     ![Create a test plan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/subscriptions-test-1.jpg.md)
 
      
 
@@ -94,13 +94,13 @@ To test Subscriptions:
      - Create **Subscription A**: A Subscription for the Plan created above, to be charged a total of 6 times and due to be started immediately.
      - Create **Subscription B**: A second Subscription for the same Plan, to be charged a total of 6 times, due to start on 1st January 2026.
 
-     If you create a Subscription using the Dashboard, it can only be created as a [Subscription Link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-subscription-links.md).
+     If you create a Subscription using the Dashboard, it can only be created as a [Subscription Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-subscription-links.md).
 
      
 
      
 
-     You can also create Subscriptions using [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/create-subscription.md). A sample request and response for the creation of **Subscription A** and **Subscription B** is given below.
+     You can also create Subscriptions using [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/create-subscription.md). A sample request and response for the creation of **Subscription A** and **Subscription B** is given below.
 
      
       
@@ -216,18 +216,18 @@ To test Subscriptions:
       
       ```
 
-      The above code only contains the minimum required options that need to be sent to initiate a payment, that is, only `key` and `subscription_id` are mandatory. Check the [checkout fields](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps/#123-checkout-options.md) for a complete list of options that can be passed.
+      The above code only contains the minimum required options that need to be sent to initiate a payment, that is, only `key` and `subscription_id` are mandatory. Check the [checkout fields](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#123-checkout-options) for a complete list of options that can be passed.
 
       
         
           Authenticate a Subscription Using a Link
           
            1. Log in to your Dashboard, click **Subscriptions** under **PAYMENT PRODUCTS** and then click **Subscription Id** to be authenticated → **Start Subscription**.
-              ![Start Subscription to authenticate a subscription via link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/subscriptions-test-4.jpg.md)
+              ![Start Subscription to authenticate a subscription via link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/subscriptions-test-4.jpg.md)
            2. Click **PAY BY CARD**, enter a **CVV** and click **PAY**.
-              ![Click Pay by Card and enter the details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/subscriptions-test-5.jpg.md)
+              ![Click Pay by Card and enter the details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/subscriptions-test-5.jpg.md)
            3. Click **Success** to authenticate the payment.
-              ![Payment Confirmation popup](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/subscriptions-test-6.jpg.md)
+              ![Payment Confirmation popup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/subscriptions-test-6.jpg.md)
           
 
         
@@ -261,7 +261,7 @@ International | Mastercard | Debit Card | 5104 0600 0000 0008 |
           - For **Subscription A**, that is, to start immediately upon completion of this payment, the charge amount will be , that is the amount we used while creating the Plan.
           - For **Subscription B**, this payment acts only as an authentication step, as the Subscription is not due to start until January 2026. So for **Subscription B**, the charge amount is , a token amount that is immediately refunded.
 
-          To make a successful payment, the payment response contains a few fields carrying information about the Subscription that has been authenticated. Check the [payment verification section](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/integration-guide/#payment-verification.md) to know more about how this payment response can be authenticated.
+          To make a successful payment, the payment response contains a few fields carrying information about the Subscription that has been authenticated. Check the [payment verification section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/integration-guide.md#payment-verification) to know more about how this payment response can be authenticated.
           
 
           
@@ -290,7 +290,7 @@ International | Mastercard | Debit Card | 5104 0600 0000 0008 |
 
      In test mode, you can simulate these charges from the Dashboard using the Charge this now button. This allows you to trigger all the events associated with a due subscription, enabling testing without having to wait until the actual due date (for example, January 2026 for Subscription B).
 
-     ![Charge this now button on subsequent charges](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/subscriptions-test-7.jpg.md)
+     ![Charge this now button on subsequent charges](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/subscriptions-test-7.jpg.md)
 
      
 > **WARN**
@@ -379,7 +379,7 @@ Following are the steps to handle charge failures, halted Subscriptions, manuall
         
       
 
-      If there are any incomplete charges, you have to manually attempt to charge the card again from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/manually-charge-card.md).
+      If there are any incomplete charges, you have to manually attempt to charge the card again from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/manually-charge-card.md).
     
   
   
@@ -387,7 +387,7 @@ Following are the steps to handle charge failures, halted Subscriptions, manuall
 
      Once a Subscription has reached `halted` state, Razorpay no automatic charge attempts are triggered on the saved card. However, invoices continue to be issued in accordance with the original plan.
 
-     ![Issue Invoice button for Halted Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/subscriptions-test-9.jpg.md)
+     ![Issue Invoice button for Halted Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/subscriptions-test-9.jpg.md)
 
      In test mode, the **Charge This Now** button available on Dashboard is replaced with an **Issue Invoice** button for `halted` subscriptions. Using this option, a new invoice is issued, but no charge is attempted on the saved card.
     
@@ -400,9 +400,9 @@ Following are the steps to handle charge failures, halted Subscriptions, manuall
      - The Subscription is moved to the `halted` state.
      - The Subscription moves on to the next recurring payment, that is, the next invoice.
 
-     However, the invoice that was skipped is still chargeable, after the customer has fixed the issue either by correcting the issue with their card or changing the card associated with a Subscription. This can be done via the **Attempt Charge** option available for each invoice on [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/manually-charge-card.md).
+     However, the invoice that was skipped is still chargeable, after the customer has fixed the issue either by correcting the issue with their card or changing the card associated with a Subscription. This can be done via the **Attempt Charge** option available for each invoice on [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/manually-charge-card.md).
 
-     ![Attempt Charge option for each invoice on Dashboard to charge manually](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/subscriptions-test-10.jpg.md)
+     ![Attempt Charge option for each invoice on Dashboard to charge manually](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/subscriptions-test-10.jpg.md)
 
      Using this option, a new charge attempt is triggered on the issued invoice, and does not increase the number of retries remaining for a Subscription.
 
@@ -425,12 +425,12 @@ Following are the steps to handle charge failures, halted Subscriptions, manuall
      A Subscription can be moved to any of the terminal states in the following ways:
 
      - Charging a Subscription repeatedly in test mode, until all the invoices for a Subscription have been issued.
-     - Cancelling a Subscription using [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/pause-resume-cancel/#cancel-a-subscription-via-the-dashboard.md) or [API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/#cancel-a-subscription.md).
+     - Cancelling a Subscription using [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/pause-resume-cancel.md#cancel-a-subscription-via-the-dashboard) or [API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions.md#cancel-a-subscription).
     
 
 ### Related Information
 
-- [Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md)
-- [Subscription Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/workflow.md)
-- [Subscription States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/states.md)
-- [Create Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create.md)
+- [Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md)
+- [Subscription Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/workflow.md)
+- [Subscription States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/states.md)
+- [Create Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md)

@@ -100,7 +100,7 @@ description: Troubleshoot common error scenarios and find answers to frequently 
   
 ### 3. Can I integrate Razorpay Checkout with React.js?
 
-     Yes, you can integrate the Razorpay Payment Gateway with React.js. Follow the [Node.js integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/server-integration/nodejs/integration-steps.md) and to add a pay button use the React.js sample code given below:
+     Yes, you can integrate the Razorpay Payment Gateway with React.js. Follow the [Node.js integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/server-integration/nodejs/integration-steps.md) and to add a pay button use the React.js sample code given below:
     
 
      ```js: React.js

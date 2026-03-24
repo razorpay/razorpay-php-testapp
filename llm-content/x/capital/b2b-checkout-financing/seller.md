@@ -6,7 +6,7 @@ description: Check how to use Razorpay B2B Checkout Financing as an Seller.
 
 # Use Razorpay B2B Checkout Financing (Sellers)
 
-Razorpay B2B Checkout Financing is a [Buy Now, Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later.md) (BNPL) facility with which sellers receive payments from their [buyers](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md) immediately. B2B Checkout Financing provides a seamless Checkout experience that sellers can use to improve business relationships with their buyers. 
+Razorpay B2B Checkout Financing is a [Buy Now, Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md) (BNPL) facility with which sellers receive payments from their [buyers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md) immediately. B2B Checkout Financing provides a seamless Checkout experience that sellers can use to improve business relationships with their buyers. 
 
     
 ### Who is a Seller?
@@ -18,7 +18,7 @@ Razorpay B2B Checkout Financing is a [Buy Now, Pay Later](@/Applications/MAMP/ht
 ### Advantages of Razorpay B2B Checkout Financing for Sellers
 
          - Razorpay B2B Checkout Financing outsources credit cycles so buyers can enjoy a frictionless and quick payment experience. This also facilitates quicker payment cycles for sellers.  
-         - B2B Checkout Financing is [Digital Lending Guidelines (DLG)](@/Applications/MAMP/htdocs/new-docs/llm-content/x/glossary/#razorpayx-capital.md)-compliant. 
+         - B2B Checkout Financing is [Digital Lending Guidelines (DLG)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/glossary.md#razorpayx-capital)-compliant. 
          - No specialised integration or product development is necessary.
          - Enhances conversion rates of sellers as the buyers can spread out their payments flexibly. 
          - Convenient credit payment experience on Checkout and all other payment methods boost customer retention.
@@ -39,7 +39,7 @@ As a seller, you can onboard and set up B2B Checkout Financing on Razorpay Check
 
 ### 1. Onboarding 
 
-Contact the Razorpay Capital [support team](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support/#raise-a-new-request.md) and convey your interest in enabling Razorpay B2B Checkout Financing for your buyers. 
+Contact the Razorpay Capital [support team](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#raise-a-new-request) and convey your interest in enabling Razorpay B2B Checkout Financing for your buyers. 
 
 ### 2. Integration
 
@@ -47,18 +47,18 @@ You can display B2B Checkout Financing on either the Standard Checkout or Custom
 
 Checkout Type | Steps
 ---
-[Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md) | No integration steps. Enable B2B Checkout Financing to display on Checkout. 
- You can also perform an [eligibility check](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/eligibility-check/standard.md) to display the most relevant payment methods to buyers. 
+[Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md) | No integration steps. Enable B2B Checkout Financing to display on Checkout. 
+ You can also perform an [eligibility check](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/eligibility-check/standard.md) to display the most relevant payment methods to buyers. 
 ---
-[Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration/#12-fetch-payment-methods.md) | - [Enable Pay Later](#1-onboarding) as a payment method via onboarding. 
-- Follow the steps to [create an order](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration/#11-create-an-order-in-server.md) for the buyer. B2B Checkout Financing appears when you fetch the payment methods.
+[Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md#12-fetch-payment-methods) | - [Enable Pay Later](#1-onboarding) as a payment method via onboarding. 
+- Follow the steps to [create an order](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md#11-create-an-order-in-server) for the buyer. B2B Checkout Financing appears when you fetch the payment methods.
 
 > **INFO**
 >
 > 
 > **Handy Tips**
 > 
-> You can [try out the Pay Later flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/#try-emi-flow-on-checkout.md) on the Demo after enabling B2B Checkout Financing.  
+> You can [try out the Pay Later flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi².md#try-emi-flow-on-checkout) on the Demo after enabling B2B Checkout Financing.  
 > 
 
 You have successfully enabled B2B Checkout Financing as a payment method for your buyers on the Checkout.  
@@ -73,12 +73,12 @@ To use B2B Checkout Financing:
     The Lender pays the seller on the buyer’s behalf and we settle the amount to the you as per the schedule finalised [in the agreement](#1-onboarding). 
 
 You have successfully billed and collected the payment from your buyers. The payment method is populated with **Pay Later** on the Razorpay Dashboard when buyers use Razorpay B2B Checkout Financing.  
-    ![Razorpay B2B Checkout Financing narration after payment](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-capital-postpaid-txn-overview.jpg.md)
+    ![Razorpay B2B Checkout Financing narration after payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-capital-postpaid-txn-overview.jpg.md)
 
 ### 4. Settlement 
 
 After the buyer makes the payment on Checkout: 
-- Razorpay pays you on the buyer's behalf via [direct settlement](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements.md). This means you receive the B2B Checkout Financing payment in your account separately from the regular settlement cycle. 
+- Razorpay pays you on the buyer's behalf via [direct settlement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md). This means you receive the B2B Checkout Financing payment in your account separately from the regular settlement cycle. 
 - Payments are settled on a T+1 basis, where T is the date of payment. 
 
 ### Refunds
@@ -89,14 +89,14 @@ You can initiate a refund from the Dashboard. The buyer receives the amount in t
 1. Navigate to **Transactions** from the left menu. 
 1. Select the transaction to refund using the Payment id/Order id.
 1. Click **Issue Refund** on the right pane.  
-    ![Razorpay B2B Checkout Financing narration after payment](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-capital-postpaid-txn-overview.jpg.md)
+    ![Razorpay B2B Checkout Financing narration after payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-capital-postpaid-txn-overview.jpg.md)
 1. Enter the amount to refund in the text box. You can issue partial refunds as well. 
 
-    The refund amount is deducted from your upcoming [settlement](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements.md).
-    ![Issue Razorpay B2B Checkout Financing refund on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-capital-postpaid-refund.jpg.md)
+    The refund amount is deducted from your upcoming [settlement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md).
+    ![Issue Razorpay B2B Checkout Financing refund on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-capital-postpaid-refund.jpg.md)
 
 ### Related Information 
 
-- [About Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later.md)
-- [Pay Later FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#pay-later.md)
-- [About Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods.md)
+- [About Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md)
+- [Pay Later FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#pay-later)
+- [About Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md)

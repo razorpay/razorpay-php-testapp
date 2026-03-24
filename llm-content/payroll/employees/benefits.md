@@ -73,7 +73,7 @@ The following benefits are available on the Dashboard for employees to avail:
          - To check if your organisation has enabled the integration, contact your HR/Manager. 
          - To check if you have enabled it, go to **My profile** → **Other Information** on the Payroll Dashboard.
 
-         Know more about the [WhatsApp Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/whatsapp-integration.md).
+         Know more about the [WhatsApp Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/whatsapp-integration.md).
         
 
     
@@ -86,15 +86,15 @@ The following benefits are available on the Dashboard for employees to avail:
          - Check payslips
          - Check-in and check out to mark attendance
 
-         Know more about the [Slack integration guide for employees](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/slack-integration.md).
+         Know more about the [Slack integration guide for employees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/slack-integration.md).
         
 
     
 ### Flexible Benefits Via Payroll & Zaggle
 
          Origanisations provide flexible benefits which allows employees to customise their CTC. Your organisation can set up flexible benefits in two ways: 
-         - [Flexible Benefits module](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations/flexible-benefits.md). 
-         - [Via the Zaggle integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations/zaggle.md). 
+         - [Flexible Benefits module](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations/flexible-benefits.md). 
+         - [Via the Zaggle integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations/zaggle.md). 
 
          Contact your HR/Admin to know if flexible benefits are enabled for you and when the declaration and proof upload windows are open. 
         
@@ -109,5 +109,5 @@ The following benefits are available on the Dashboard for employees to avail:
 
 ### Related Information 
 
-- [Employee Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees.md)
-- [Flexible Benefits Plan](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations/flexible-benefits.md)
+- [Employee Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md)
+- [Flexible Benefits Plan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations/flexible-benefits.md)

@@ -21,7 +21,7 @@ To accept payments using Optimizer, follow the steps given below:
 3. [Configure Routing rules](#step-3-configure-routing-rules).
 
 ## Step 1: Integrate With Razorpay Payment Gateway
-You can start accepting payments by integrating your website, app, or ecommerce store with the Razorpay Payment Gateway through any of the [integration methods available](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway.md).
+You can start accepting payments by integrating your website, app, or ecommerce store with the Razorpay Payment Gateway through any of the [integration methods available](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md).
 
   
 ### Payments API
@@ -40,7 +40,7 @@ You can start accepting payments by integrating your website, app, or ecommerce 
           - `ingenico`
           - `billdesk_optimizer`
 
-      Refer to [Payments Entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments#payments-entity.md) for the rest of the parameters.
+      Refer to [Payments Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#payments-entity) for the rest of the parameters.
 
       
 
@@ -137,9 +137,9 @@ You can start accepting payments by integrating your website, app, or ecommerce 
   
 ### Webhooks
 
-     You can use Webhooks to configure and receive notifications when a specific event occurs. When an event is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL. You can [set up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md) from the Dashboard.
+     You can use Webhooks to configure and receive notifications when a specific event occurs. When an event is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL. You can [set up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md) from the Dashboard.
 
-      Given below is the sample payload for webhook events for Optimizer. All the parameters and events will remain the same as shown in the [sample payloads for payment webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments.md) except for one additional parameter, `gateway_provider`.
+      Given below is the sample payload for webhook events for Optimizer. All the parameters and events will remain the same as shown in the [sample payloads for payment webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md) except for one additional parameter, `gateway_provider`.
 
       
       ```json: Webhook Sample Payload
@@ -200,18 +200,18 @@ Watch this video to know how to add payment providers and configure rules using 
 
 [Video: https://www.youtube.com/embed/xmjn0GD-7qM]
 
-The Razorpay Dashboard offers a self-serve flow to [add Payment Providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/add-payment-providers.md) by submitting your details. This process is secure, and the details you add are fully encrypted which is only visible on your Dashboard. Know more about [Razorpay Security](@/Applications/MAMP/htdocs/new-docs/llm-content/security.md).
+The Razorpay Dashboard offers a self-serve flow to [add Payment Providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/add-payment-providers.md) by submitting your details. This process is secure, and the details you add are fully encrypted which is only visible on your Dashboard. Know more about [Razorpay Security](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security.md).
 
 ## Step 3: Configure Routing Rules
-Create your rules on the Razorpay Dashboard to [dynamically route transactions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/dynamic-routing.md) using different parameters like payment method, amount, issuer, and more. You can also add priorities in every rule to ensure transactions are routed to the best-performing gateway.
+Create your rules on the Razorpay Dashboard to [dynamically route transactions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/dynamic-routing.md) using different parameters like payment method, amount, issuer, and more. You can also add priorities in every rule to ensure transactions are routed to the best-performing gateway.
 
 ### Related Information
 
-- [Add a Payment Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/add-payment-providers.md)
-- [Dynamic Routing](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/dynamic-routing.md)
-- [Capture and Refund Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/capture-refund-settings.md)
-- [Supported Gateways and Aggregators](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md)
-- [SR Analytics Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/success-rate.md)
-- [Single Reconciliation View](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/reconciliation.md)
-- [Roles and Permissions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/roles-and-permissions.md)
-- [Tokenisation for Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/tokenisation.md)
+- [Add a Payment Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/add-payment-providers.md)
+- [Dynamic Routing](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/dynamic-routing.md)
+- [Capture and Refund Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/capture-refund-settings.md)
+- [Supported Gateways and Aggregators](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md)
+- [SR Analytics Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/success-rate.md)
+- [Single Reconciliation View](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/reconciliation.md)
+- [Roles and Permissions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/roles-and-permissions.md)
+- [Tokenisation for Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/tokenisation.md)

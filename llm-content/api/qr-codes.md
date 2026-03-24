@@ -6,19 +6,19 @@ description: API Documentation for Razorpay QR Codes. Create, Close and Fetch QR
 
 # QR Codes
 
-You can use Razorpay [QR Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes.md) to create QR Codes and share them with customers to accept digital payments. You can create and manage QR Codes using APIs or from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/create.md).
+You can use Razorpay [QR Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes.md) to create QR Codes and share them with customers to accept digital payments. You can create and manage QR Codes using APIs or from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/create.md).
 
  
-Refer to the [QR Code Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/how-it-works.md) and [Integration Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/apis/#integration-checklist.md) before you begin integrating with the APIs for QR Codes.
+Refer to the [QR Code Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/how-it-works.md) and [Integration Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/apis.md#integration-checklist) before you begin integrating with the APIs for QR Codes.
 
- Fork the Razorpay Postman Public Workspace and try the QR Codes APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md).
+ Fork the Razorpay Postman Public Workspace and try the QR Codes APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys).
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/f960539b-c56c-41e5-810b-63d2a89d447e/folder/12492020-90436eef-f17f-4bc1-9d13-b622a4270125)
  
 
 ### Related Guides
 
-[About QR Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes.md)
+[About QR Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes.md)
 
 ### Endpoints
 

@@ -19,18 +19,18 @@ Given below is the flow:
 
 API Endpoint | Description
 ---
-[Create a QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes/gst/create.md) | Creates a QR Code.
+[Create a QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes/gst/create.md) | Creates a QR Code.
 ---
-[Close a QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes/gst/close.md) | Closes a QR Code.
+[Close a QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes/gst/close.md) | Closes a QR Code.
 ---
-[Fetch all QR Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes/gst/fetch-all.md) | Retrieves details of all QR Codes.
+[Fetch all QR Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes/gst/fetch-all.md) | Retrieves details of all QR Codes.
 ---
-[Fetch a QR Code with Id](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes/gst/fetch-with-id.md) | Retrieves details of a specific QR Code using id.
+[Fetch a QR Code with Id](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes/gst/fetch-with-id.md) | Retrieves details of a specific QR Code using id.
 ---
-[Fetch QR Codes for a Customer ID](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes/gst/fetch-customer-id.md) | Retrieves QR Codes generated for a Customer id.
+[Fetch QR Codes for a Customer ID](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes/gst/fetch-customer-id.md) | Retrieves QR Codes generated for a Customer id.
 ---
-[Fetch QR Codes for a Payment ID](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes/gst/fetch-payment-id.md) | Retrieves QR Codes by Payment id.
+[Fetch QR Codes for a Payment ID](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes/gst/fetch-payment-id.md) | Retrieves QR Codes by Payment id.
 ---
-[Fetch Payments for a QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes/gst/fetch-payments.md) | Retrieves payments made on a QR Code.
+[Fetch Payments for a QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes/gst/fetch-payments.md) | Retrieves payments made on a QR Code.
 ---
-[Refund Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes/gst/refunds.md) | Refunds payments made on a QR Code.
+[Refund Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes/gst/refunds.md) | Refunds payments made on a QR Code.

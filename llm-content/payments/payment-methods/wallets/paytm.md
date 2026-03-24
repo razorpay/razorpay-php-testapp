@@ -7,7 +7,7 @@ description: Accept payments through Paytm wallet at Razorpay Checkout.
 
 Let your customers pay using their Paytm wallet on your website by integrating the wallet at the Razorpay Checkout. Once integrated, Paytm wallet appears under the Wallets section at the Razorpay Checkout:
 
-![Paytm Wallet on Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/paytm-paytm-checkout.jpg.md)
+![Paytm Wallet on Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/paytm-paytm-checkout.jpg.md)
 
 ## Prerequisites
 
@@ -26,10 +26,10 @@ To get the integration details:
 1. Log in to the [Paytm Merchant Dashboard](https://dashboard.paytm.com/).
 2. Navigate to Developers → API Keys on the side menu. 
     
-    ![Developers API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/paytm-paytm-dashboard-api-key.jpg.md)
+    ![Developers API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/paytm-paytm-dashboard-api-key.jpg.md)
 3. On the **API Keys** page, select **Production API Details**. 
     
-    ![Production API Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/paytm-api-details.jpg.md)
+    ![Production API Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/paytm-api-details.jpg.md)
 4. Click **Get integration key**. The following details are displayed:
     
  • Merchant ID
@@ -40,7 +40,7 @@ To get the integration details:
     
  • Industry Type 
     
-    ![Copy the details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/paytm-integration-key.jpg.md)
+    ![Copy the details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/paytm-integration-key.jpg.md)
 5. Copy the Merchant ID, Merchant Key, Website Name and Industry Type details from the **Production API Details** tab.
 
 #### Handle Non-availability of Paytm Production API details
@@ -58,17 +58,17 @@ To raise a request for Paytm as a Payment Method:
 1. Log in to the Razorpay Dashboard.
 2. Navigate to **Account & Settings** → **Payment Methods**.
     
-    ![Go to Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-payment-methods-setting_1.jpg.md)
+    ![Go to Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-payment-methods-setting_1.jpg.md)
 3. Go to **Wallets** → **Paytm**.
     
-    ![Select Paytm](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-settings-paytm-link-paytm-account.jpg.md)
+    ![Select Paytm](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settings-paytm-link-paytm-account.jpg.md)
 4. Click **Link Account**.
 5. On the pop-up page, select **I have a Registered Paytm Business Account** and click **Next**.
     
-    ![Registered Paytm Business Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-settings-paytm-registered-paytm-account.jpg.md)
+    ![Registered Paytm Business Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settings-paytm-registered-paytm-account.jpg.md)
 6. Enter the details copied from the Paytm Dashboard and click **Submit**.
     
-    ![Add Paytm Dashboard Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-settings-paytm-paytm-production-details.jpg.md)
+    ![Add Paytm Dashboard Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settings-paytm-paytm-production-details.jpg.md)
 
 Our team will activate the Razorpay Paytm Wallet within your Checkout flow.
 
@@ -82,7 +82,7 @@ Our team will activate the Razorpay Paytm Wallet within your Checkout flow.
 
 You can now accept payments made by customers using Paytm.
 
-![Paytm Enabled](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-settings-paytm-paytm-enabled.jpg.md)
+![Paytm Enabled](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settings-paytm-paytm-enabled.jpg.md)
 
 ### Settlements
 

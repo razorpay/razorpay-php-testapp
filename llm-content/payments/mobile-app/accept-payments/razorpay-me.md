@@ -41,7 +41,7 @@ Razorpay.me URL can be used by:
 
 ## How Razorpay.me URL Works
 
-1. We create the Razorpay.me URL for you instantly after account activation. For example, if your business name is Acme Co, your URL will be `razorpay.me/acmeco`. Know how to [edit your Razorpay.me URL.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app/accept-payments/razorpay-me/manage.md)
+1. We create the Razorpay.me URL for you instantly after account activation. For example, if your business name is Acme Co, your URL will be `razorpay.me/acmeco`. Know how to [edit your Razorpay.me URL.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app/accept-payments/razorpay-me/manage.md)
     
 2. You either add a specific amount for the customers to pay or directly send the link and they can enter an amount of their choice.
     
@@ -49,9 +49,9 @@ Razorpay.me URL can be used by:
     
 4. Your customers open this URL on their desktop or mobile device, enter the amount if **not** specified, select the payment method and complete the payment.
     
-5. You can [check the payment status on the Razorpay  Mobile App.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app/track-manage.md)
+5. You can [check the payment status on the Razorpay  Mobile App.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app/track-manage.md)
 
 ### Related Information
 
-- [Manage Razorpay.me URL](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app/accept-payments/razorpay-me/manage.md)
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app/faqs/#razorpay-me.md)
+- [Manage Razorpay.me URL](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app/accept-payments/razorpay-me/manage.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app/faqs.md#razorpay-me)

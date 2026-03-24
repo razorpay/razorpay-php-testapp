@@ -22,7 +22,7 @@ If eligible, Razorpay's Buyer Protection Program entitles you to a reimbursement
 
 The following diagram displays the buyer journey and the respective timelines:
 
-![Buyer Protection Claim Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/buyer-protection-claim-flow.jpg.md)
+![Buyer Protection Claim Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/buyer-protection-claim-flow.jpg.md)
 
 ## Initiate a Claim
 
@@ -42,18 +42,18 @@ Follow the steps given below to initiate a claim:
 >     If you are unable to check the status, your mobile number might be incorrect or not verified with us. Ensure your mobile number is correct. To verify your number, contact our [support team](https://razorpay.com/support/).
 >     
 
-    ![Enter phone number to select the order to initiate claim](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/buyer-claim.gif.md)
+    ![Enter phone number to select the order to initiate claim](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/buyer-claim.gif.md)
 
 5. A list of transactions backed by Razorpay Money Back Promise is displayed. Select the order you want to initiate a claim.
 6. Scroll down to the **Covered by Razorpay Money Back Promise** section and click **Initiate Claim**.
-    ![Click initiate claim](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/buyer-initiate-claim.jpg.md)
+    ![Click initiate claim](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/buyer-initiate-claim.jpg.md)
 7. Upload the following documents:
     - **Proof of purchase**
     - **Bank debit slip indicative of purchase of item**
     - **Confirmation from Razorpay about transaction and the amount**
     - **Proof of communication with seller on the dispute**
 8. Click **Submit**.
-    ![Submit proofs to initiate claim](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/buyer-submit-proofs.jpg.md)
+    ![Submit proofs to initiate claim](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/buyer-submit-proofs.jpg.md)
 
 > **INFO**
 >
@@ -67,7 +67,7 @@ Follow the steps given below to initiate a claim:
 
 The following table lists the various states of a claim:
 
-![Money Back Promise Program claim lifecycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-buyer-protect-claim-cycle.jpg.md)
+![Money Back Promise Program claim lifecycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-buyer-protect-claim-cycle.jpg.md)
 
     
 ### Statuses and Descriptions
@@ -98,4 +98,4 @@ The following table lists the various states of a claim:
         
 
 ### Related Information
-[FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/widgets/buyer-protection/faqs.md)
+[FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/widgets/buyer-protection/faqs.md)

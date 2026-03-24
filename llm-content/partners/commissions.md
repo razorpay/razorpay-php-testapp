@@ -64,6 +64,6 @@ Term Fees
 In cases, where there is a refund after the commission has been paid out, it is entered as a negative commission in your account in the corresponding cycle. No commission is paid out for refund cases.
 
 ### Related Information
-- [Commission Settlement Process](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/commissions/settlement-process.md)
-- [Commission Reports and Auto-generated Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/commissions/reports-invoices.md)
-- [Partners](@/Applications/MAMP/htdocs/new-docs/llm-content/partners.md)
+- [Commission Settlement Process](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/commissions/settlement-process.md)
+- [Commission Reports and Auto-generated Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/commissions/reports-invoices.md)
+- [Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners.md)

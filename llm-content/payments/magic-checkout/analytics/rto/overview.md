@@ -10,7 +10,7 @@ The **Overview** tab on the RTO Analytics Dashboard provides an in-depth view to
 
 ## Widgets
 
-The following widgets are available in the **Overview** tab of the [RTO Analytics Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/analytics/rto.md). Check which widgets are applicable when you opt for either: 
+The following widgets are available in the **Overview** tab of the [RTO Analytics Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/analytics/rto.md). Check which widgets are applicable when you opt for either: 
 - COD Intelligence.
 - Manual review of COD Orders.  
 
@@ -48,7 +48,7 @@ You can view the **Overall RTO %**  or filter data for COD and prepaid RTOs. You
 > The default graph is for COD RTO %. This tab only considers data after Magic Checkout Integration.
 > 
 
-![RTO rate with Magic Checkout graph](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rto-rate-with-mc.jpg.md)
+![RTO rate with Magic Checkout graph](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rto-rate-with-mc.jpg.md)
 
 You can filter data to display it on a **Weekly** or **Monthly** basis.
 
@@ -59,10 +59,10 @@ The following widget is commonly available when you opt for either **COD Intelli
 This tab shows the percentage of orders for which you have shared order data. You can share more data with us by:
 
 - Uploading Data Manually: Click **data by uploading** to share the information manually.
-  Know how to [upload data manually](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/delivery-status#monthly-delivery-data.md).
-- Integrating with Logistics Partners: Click **integrate with your delivery partner** to integrate with [Shiprocket](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/shiprocket.md), [Delhivery](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/delhivery.md), [Unicommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/unicommerce.md), [ClickPost](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/clickpost.md) and [iThink Logistics](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/ithink-logistics.md) and share the data automatically.
+  Know how to [upload data manually](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/delivery-status.md#monthly-delivery-data).
+- Integrating with Logistics Partners: Click **integrate with your delivery partner** to integrate with [Shiprocket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/shiprocket.md), [Delhivery](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/delhivery.md), [Unicommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/unicommerce.md), [ClickPost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/clickpost.md) and [iThink Logistics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/ithink-logistics.md) and share the data automatically.
 
-![RTO Analytics delivery data chart](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rto-delivery-data2.jpg.md)
+![RTO Analytics delivery data chart](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rto-delivery-data2.jpg.md)
 
 ## Share of COD
 
@@ -72,7 +72,7 @@ This graph shows the percentage of COD orders in the total number of orders rece
 
 You can filter data to display it on a **Daily**, **Weekly** or **Monthly** basis. Hover over the graph for details and the total number of orders.
 
-![RTO Analytics share of COD chart](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rto-share-of-cod.jpg.md)
+![RTO Analytics share of COD chart](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rto-share-of-cod.jpg.md)
 
 ## COD Order Review Report 
 
@@ -86,17 +86,17 @@ The **COD Order Review Report** provides a break-up of orders received and the a
 
 You can view the data on a **Daily**, **Weekly** or **Monthly** basis for the last 90 days only.
 
-  ![COD Order Review Report on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rto-cod-order-review-report.jpg.md)
+  ![COD Order Review Report on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rto-cod-order-review-report.jpg.md)
 
 > **INFO**
 >
 > 
 > **Handy Tips**
 > 
-> [Automate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders/workflow#how-it-works.md) your manual review process or let COD Intelligence handle your COD Orders. Know more about the [RTO Analytics Dashboard for COD Intelligence](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/analytics/rto.md). 
+> [Automate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders/workflow.md#how-it-works) your manual review process or let COD Intelligence handle your COD Orders. Know more about the [RTO Analytics Dashboard for COD Intelligence](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/analytics/rto.md). 
 > 
 
 ### Related Information 
 
-- [RTO Insights](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/analytics/rto/insights.md) 
-- [Manually Review COD Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders.md)
+- [RTO Insights](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/analytics/rto/insights.md) 
+- [Manually Review COD Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders.md)

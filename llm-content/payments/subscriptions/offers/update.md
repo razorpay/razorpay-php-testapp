@@ -12,7 +12,7 @@ You can link an Offer to a Subscription or update the Offer linked to a Subscrip
 
 ### Related Information
 
-- [About Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers.md)
-- [Create Subscription Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers/create.md)
-- [Link an Offer to a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers/link.md)
-- [Delete an Offer Linked to a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers/delete.md)
+- [About Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers.md)
+- [Create Subscription Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers/create.md)
+- [Link an Offer to a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers/link.md)
+- [Delete an Offer Linked to a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers/delete.md)

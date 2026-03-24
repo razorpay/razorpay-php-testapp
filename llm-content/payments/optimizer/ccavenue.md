@@ -82,16 +82,16 @@ Use the format given below on your company's letterhead to enable IP ignore:
          
             1. Log in to your Dashboard. 
             2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
-                ![optimizer login](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-login.jpg.md)
+                ![optimizer login](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-login.jpg.md)
             3. In the top-right section, click **Add Provider**.
-                ![Add provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-provider.jpg.md)
+                ![Add provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-provider.jpg.md)
             4. Select **CCAvenue** in the list of gateways available and click **Next**.
-                ![Add CCAvenue](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-ccavenue.jpg.md)
+                ![Add CCAvenue](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-ccavenue.jpg.md)
             5. Enter the provider name and description and click **Next**.
-                ![Add Provider Name CCAvenue](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/provider-name-ccavenue.jpg.md)
+                ![Add Provider Name CCAvenue](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/provider-name-ccavenue.jpg.md)
             6. Enter your **Access code**, **MID** and **Working Key**.
             7. Select the payment methods you want to enable for CCAvenue and click **Submit**. 
-                ![Add Key CCAvenue](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-key-ccavenue-new-one.jpg.md)
+                ![Add Key CCAvenue](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-key-ccavenue-new-one.jpg.md)
             You have successfully added **CCAvenue** as a payment provider on Optimizer.
         
 
@@ -136,11 +136,11 @@ Before routing all traffic or some traffic to a new gateway via Optimizer, the f
             - In **Parameter** field, select **Amount (In Rupees)**.
             - In **Select Connection** field, select **Less Than**.
             - In **Enter Amount** field, enter the value 2 and click **Next**.
-            ![Add Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-rule.jpg.md)
+            ![Add Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-rule.jpg.md)
         5. Enter the value 100 in the **Route field**, select **CCAvenue** in the **Payment Via** field, and click **Next**.
-            ![target Provider CCAvenue](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/target-provider-ccavenue.jpg.md)
+            ![target Provider CCAvenue](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/target-provider-ccavenue.jpg.md)
         6. Click **Publish Rule**.
-            ![Publish Rule CCAvenue](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/publish-rule-ccavenue.jpg.md)
+            ![Publish Rule CCAvenue](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/publish-rule-ccavenue.jpg.md)
         
 
 ## Go Live

@@ -76,16 +76,16 @@ You can replace your current email id with another email. For example, if you ea
          1. Log in to the Dashboard.
          1. Click **Account & Settings** and navigate to **Account details** under **Business Settings**.
          1. Click the edit icon next to **Email**.
-             ![Update email id from Razorpay Dashboard profile](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-profile-update-email.jpg.md)
+             ![Update email id from Razorpay Dashboard profile](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-profile-update-email.jpg.md)
          1. Complete the 2-factor authentication process.
          1. On the pop-up page, enter the new email id. Re-enter the email id. Select the check box if you want Razorpay to send all communication details to this email id.
-             ![enter new email id](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-profile-email-id-repeat.jpg.md)
+             ![enter new email id](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-profile-email-id-repeat.jpg.md)
          1. A verification email is sent to your new email id. Open the email and complete the verification process.
-             ![Complete verification process from your email id](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-profile-verification.jpg.md)
-             ![Verification email from Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-profile-verify-email.jpg.md)
+             ![Complete verification process from your email id](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-profile-verification.jpg.md)
+             ![Verification email from Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-profile-verify-email.jpg.md)
 
          The email id has been updated.
-         ![Email updated successfully on Dashboard profile](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-profile-updated-email.jpg.md)
+         ![Email updated successfully on Dashboard profile](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-profile-updated-email.jpg.md)
 
          
 
@@ -112,4 +112,4 @@ You can make another member from your team the Razorpay account owner and add th
          4. Select the team member whose role is to be upgraded and click **Change Owner**.
 
          The email id has been updated.
-         ![user role and email id changed](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-profile-user-role-changed.jpg.md)
+         ![user role and email id changed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-profile-user-role-changed.jpg.md)

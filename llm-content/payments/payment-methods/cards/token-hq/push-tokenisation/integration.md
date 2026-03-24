@@ -21,7 +21,7 @@ Businesses must be onboarded with Razorpay to appear on bank portals for custome
 
 Razorpay provides a fully managed checkout experience with end-to-end control. To enable this feature for Standard Checkout, contact [Razorpay Support](https://razorpay.com/support/#request) for assistance.
 
-For more information, refer [Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md)
+For more information, refer [Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md)
 
 ## Custom Checkout
 
@@ -31,7 +31,7 @@ Existing Custom Checkout users are automatically eligible for Push Tokenisation.
 
 You should continue using the same API. However, ensure that the user's phone number is provided in the same format as specified in the payload. You should pass this token to checkout to show customers the saved card details and help them complete the payment.
 
-Refer to the [Fetch Token API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-private.md) document for more information.
+Refer to the [Fetch Token API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-private.md) document for more information.
 
 > **WARN**
 >
@@ -47,7 +47,7 @@ Refer to the [Fetch Token API](@/Applications/MAMP/htdocs/new-docs/llm-content/p
 
 Current S2S Integration Users can use Push Tokenisation without modifications. Integrate with Razorpay’s webhook to receive and process push tokens. Enable relevant events to efficiently consume and manage these tokens.
 
-For more information, refer to the [S2S Integration - Tokenisation APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/apis.md) documentation.
+For more information, refer to the [S2S Integration - Tokenisation APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/apis.md) documentation.
 
 ## Third Party Solutions
 
@@ -62,7 +62,7 @@ Push Tokenisation uses phone numbers as the unique customer identifier for fetch
   
 ### Step 1 - Fetching Customer Tokens
 
-     To be able to create tokens using Push Tokenisation, you must create a customer using phone number as the primary identifier. For more details, refer [Create a Customer API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers/create.md). 
+     To be able to create tokens using Push Tokenisation, you must create a customer using phone number as the primary identifier. For more details, refer [Create a Customer API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers/create.md). 
      The response will include all tokens the customer has authorised for your business account through their bank portal.
     
 
@@ -81,7 +81,7 @@ If you need to set up a webhook for the first time, follow these steps:
     - Ensure your Razorpay terminal is activated.
     - Ensure tokenisation is activated for the relevant card networks.
 2. Webhook Setup:
-    - Watch this [tutorial video](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md) for detailed steps on setting up the webhook.
+    - Watch this [tutorial video](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md) for detailed steps on setting up the webhook.
     - Set Up Endpoint: Provide the URL of the endpoint where you want to receive webhook payloads. This should be the same endpoint used for storing token details during checkout.
     - Whitelist Razorpay: Ensure your endpoint is configured to accept requests from Razorpay.
 

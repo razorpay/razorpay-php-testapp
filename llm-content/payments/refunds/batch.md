@@ -38,11 +38,11 @@ Follow the steps given below to create refunds in bulk using batch refund.
 To create a batch refund:
 1. Log in to the Dashboard.
 2. Go to **Transactions** and click **View All** on the **Refunds** tab. Select **Batch Refunds** and click **Click here to upload**.
-    ![batch refunds new](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/batch-refunds-new.gif.md)
+    ![batch refunds new](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/batch-refunds-new.gif.md)
 3. Download the sample file.
 4. Add the required data to the sample file. Know more about [Batch File Fields](#batch-file---fields).
 5. Upload the file to the Dashboard, check the preview to ensure details are correct, and click **Submit Batch**.
-  ![Create a Batch Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/refunds-upload-batch-file.jpg.md)
+  ![Create a Batch Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/refunds-upload-batch-file.jpg.md)
 
 ### Batch File - Fields
 
@@ -50,7 +50,7 @@ Download the sample file, add your data and upload it for processing. We support
 
 Shown below is a sample data from a batch file:
 
-![Batch File Sample Data](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/refunds-batch-file.jpg.md)
+![Batch File Sample Data](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/refunds-batch-file.jpg.md)
 
 The below table lists the various headers in the sample batch file and briefly describes each.
 
@@ -63,7 +63,7 @@ The below table lists the various headers in the sample batch file and briefly d
 `speed` _optional_
 : `string` The speed at which the refund should be processed. Possible values: 
     - `normal` : The refund is processed in 5-7 working days.
-    - `optimum` : Instant Refunds. If it is not possible to process the refund instantly, we will process the refund in 5-7 working days. Know more about [Instant Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/instant.md).
+    - `optimum` : Instant Refunds. If it is not possible to process the refund instantly, we will process the refund in 5-7 working days. Know more about [Instant Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/instant.md).
 
 If no value is passed, the refund is processed using the default Refund speed set on the Dashboard.
 
@@ -83,7 +83,7 @@ You can cancel a batch upload from the Dashboard.
 To cancel a batch upload:
 1. Log in to the Dashboard.
 2. Go to **Transactions** and click **View All** on the **Refunds** tab. Select **Batch Refunds**. 
-    ![batch refunds new](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/batch-refunds-new.gif.md)
+    ![batch refunds new](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/batch-refunds-new.gif.md)
 3. Click **Cancel** for the **Batch Id** that you want to cancel.
 
 ## Batch Refund Report
@@ -95,7 +95,7 @@ You can download the Batch Refund report to check the status of each data row.
 To download the Batch Refund report:
 1. Log in to the Dashboard.
 2. Go to **Transactions** and click **View All** on the **Refunds** tab. Select **Batch Refunds**.
-    ![batch refunds new](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/batch-refunds-new.gif.md)
+    ![batch refunds new](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/batch-refunds-new.gif.md)
 3. Click **Download** for the required **Batch Id** to download the Batch Refund Report.
     - If a payment was successfully refunded, the corresponding data row is populated with a `Refund Id`.
     - If a payment was not successfully refunded, the corresponding data row is populated with `Error Code` and `Error Description`.
@@ -104,7 +104,7 @@ To download the Batch Refund report:
 
 Given below is a sample data from a processed batch file:
 
-![Processed Batch File Sample Data](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/refunds-processed-batch-file.jpg.md)
+![Processed Batch File Sample Data](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/refunds-processed-batch-file.jpg.md)
 
 The below table describes each of the headers of the processed batch file:
 
@@ -128,7 +128,7 @@ The below table describes each of the headers of the processed batch file:
 `speed` _optional_
 : `string` The speed at which the refund should be processed. Possible values:
     - `normal` : The refund is processed in 5-7 working days.
-    - `optimum` : Instant Refunds. If it is not possible to process the refund instantly, we will process the refund in 5-7 working days. Know more about [Instant Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/instant.md).
+    - `optimum` : Instant Refunds. If it is not possible to process the refund instantly, we will process the refund in 5-7 working days. Know more about [Instant Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/instant.md).
 
 `Error Code`
 : `string` The error code for the failure. For example, `BAD_REQUEST_ERROR`.
@@ -138,10 +138,10 @@ The below table describes each of the headers of the processed batch file:
 
 ### Related Information
 
-- [About Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds.md)
+- [About Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md)
 
-- [Normal Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/normal.md)
+- [Normal Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/normal.md)
 
-- [Instant Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/instant.md)
+- [Instant Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/instant.md)
 
-- [Refunds FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/faqs.md)
+- [Refunds FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/faqs.md)

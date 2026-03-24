@@ -16,7 +16,7 @@ Amazon Pay is a wallet-based payment method that allows customers with an Amazon
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -66,7 +66,7 @@ This will add the dependencies for the SDK and create an Amazon Pay payment meth
 
 ## iOS Integration
 
-The iOS integration for Amazon Pay is similar to the [Razorpay iOS Custom UI SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom.md) integration.
+The iOS integration for Amazon Pay is similar to the [Razorpay iOS Custom UI SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom.md) integration.
 
 > **INFO**
 >

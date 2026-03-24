@@ -17,14 +17,14 @@ To view order details:
 2. Select **Transactions** from the left menu and go to the **Orders** tab.
 3. A list of all the orders is displayed.
 
-    ![Order details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos-view-orders.jpg.md)
+    ![Order details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos-view-orders.jpg.md)
 
 4. Click an **Order Id** to view the details of the order.
 
 ## Reports
 
-Detailed insights can be gained using reports and real-time data on the Dashboard. These reports can then be used for accounting and recon purposes. Know more about [reports](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/dashboard/reports.md).
+Detailed insights can be gained using reports and real-time data on the Dashboard. These reports can then be used for accounting and recon purposes. Know more about [reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/dashboard/reports.md).
 
 ### Related Information
 
-[About Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/orders.md)
+[About Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/orders.md)

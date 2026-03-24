@@ -7,7 +7,7 @@ description: Learn how to refund payments received on a virtual account.
 
 You can create refunds for the payments received on a virtual account. Refunds are generally processed within 3-5 business days via the same mode used by your customer. The platform fee and GST charged on successful transactions will not be reversed in the case of refunds.
 
-You can initiate refunds from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/dashboard/refund.md) or using [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/va-vpa-qr/api/refunds.md).
+You can initiate refunds from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/dashboard/refund.md) or using [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/api/refunds.md).
 
 ## Refund Failures
 

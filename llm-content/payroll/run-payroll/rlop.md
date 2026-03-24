@@ -17,7 +17,7 @@ To add RLOP arrears:
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
 1. Navigate to **ADMIN OPTIONS** → **Pay Employees** → **Run Payroll**. 
 1. Click the **Edit** icon against the employee's name. 
-    ![Edit Employee Run Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-run-payroll-rlop.jpg.md)
+    ![Edit Employee Run Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-run-payroll-rlop.jpg.md)
 
         
 > **INFO**
@@ -29,7 +29,7 @@ To add RLOP arrears:
 >         
 
 1. Click **Add Reverse LOP**. 
-    ![RazorpayX Payroll add RLOP](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-rlop-add.jpg.md)
+    ![RazorpayX Payroll add RLOP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-rlop-add.jpg.md)
 1. On the **Add Reverse LOP** pop-up window: 
     1. Click **+ For another month**. 
     1. Select the month from the drop-down menu for which you are reversing the LOP deductions. 
@@ -37,7 +37,7 @@ To add RLOP arrears:
 
         Ensure the number of LOP days you enter in the text box is less than the LOP days availed by the employee.
 
-        ![Razorpay Payroll add RLOP days](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-rlop-add-days.jpg.md)
+        ![Razorpay Payroll add RLOP days](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-rlop-add-days.jpg.md)
 
         You can also click **+ For another month** to reverse LOP for more than one month. 
 1. Click **Next** to view the revised salary and the breakdown.
@@ -45,7 +45,7 @@ To add RLOP arrears:
 
 You have successfully reversed LOP to the employee/s. Until you execute payroll, you can edit the RLOP days. To edit RLOP, click **Manage RLOP Arrears**. 
 
-![Manage RLOP on RazorpayX Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-rlop-manage.jpg.md)
+![Manage RLOP on RazorpayX Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-rlop-manage.jpg.md)
 
 ## Pay RLOP Arrears 
 
@@ -53,5 +53,5 @@ After you add the RLOP arrears, execute the monthly payroll. This reverses the L
 
 ### Related Information 
 
-- [Loss of Pay Calculations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#loss-of-pay.md)
-- [Leaves & LOP](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/leaves/#loss-of-pay-for-unpaid-excessive-leave-work.md)
+- [Loss of Pay Calculations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#loss-of-pay)
+- [Leaves & LOP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/leaves.md#loss-of-pay-for-unpaid-excessive-leave-work)

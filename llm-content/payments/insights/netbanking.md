@@ -20,7 +20,7 @@ You can view the following data points for netbanking transactions.
 ### 1. **Netbanking Success Rate Trend**
 
          Indicates the success rate trend from the beginning to the end of the selected time frame.
-            ![UPI Success Rate Trend](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-success-rate-trends.jpg.md)
+            ![UPI Success Rate Trend](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-success-rate-trends.jpg.md)
         
 
     
@@ -28,7 +28,7 @@ You can view the following data points for netbanking transactions.
 
          1. **NB Banks SR (Success Rate)**: Displays the success rate of netbanking transactions across different banks over time.
          2. **NB Banks GMV (Gross Merchandise Value)**: Shows the distribution of total transaction value (GMV) across different banks for netbanking payments.
-            ![Netbanking SR Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/nb-banks-sr-details.jpg.md)
+            ![Netbanking SR Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/nb-banks-sr-details.jpg.md)
         
 
     
@@ -36,20 +36,20 @@ You can view the following data points for netbanking transactions.
 
          1. **NB Gateways SR (Success Rate)**: Displays the success rate of netbanking transactions across different payment gateways over time.
          2. **NB Gateways GMV (Gross Merchandise Value)**: Shows the distribution of total transaction value (GMV) across different payment gateways for netbanking transactions.
-            ![Netbanking Gateways SR Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/nb-gateways-sr-details.jpg.md)
+            ![Netbanking Gateways SR Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/nb-gateways-sr-details.jpg.md)
         
 
     
 ### 4. **Top Failure Reasons**
 
          Lists the primary reasons for netbanking transaction failures, detailing the source of failure, number of failures, GMV impacted, AOV, and percentage of total failures.
-            ![Netbanking Top Failure Reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/nb-top-failure-reasons.jpg.md)
+            ![Netbanking Top Failure Reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/nb-top-failure-reasons.jpg.md)
         
 
 ### Related Information
 
-- [About Insights](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights.md)
-- [UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/upi.md) 
-- [Wallet](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/wallet.md)
-- [Card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/card.md)
-- [Emandate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/emandate.md)
+- [About Insights](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights.md)
+- [UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/upi.md) 
+- [Wallet](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/wallet.md)
+- [Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/card.md)
+- [Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/emandate.md)

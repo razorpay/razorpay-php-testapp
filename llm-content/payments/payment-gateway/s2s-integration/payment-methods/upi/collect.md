@@ -9,7 +9,7 @@ UPI payments enable customers to make payments using a Virtual Payment Address (
 
 Customers enter their VPAs on your UI, open the respective UPI apps and complete the payment after 2-factor authentication (UPI PIN and MPIN) on their mobile devices. Customers are redirected to your website or app after successful payment.
 
-In this flow, customers likely enter invalid VPAs or forget their VPAs, which could lead to higher drop-off rates. To overcome this problem, Razorpay enables you to validate and save the VPAs of a customer. Know more about [Saved VPA](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/saved-vpa.md).
+In this flow, customers likely enter invalid VPAs or forget their VPAs, which could lead to higher drop-off rates. To overcome this problem, Razorpay enables you to validate and save the VPAs of a customer. Know more about [Saved VPA](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/saved-vpa.md).
 
 @include payment-methods/upi-collect-deprecated/s2s
 
@@ -46,15 +46,15 @@ As per NPCI guidelines, the following MCC codes are restricted and cannot accept
 ### Best Practices
 
 Follow these best practices to accept online payments using the UPI collect flow:
-- [Validate the VPA](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/validate-vpa.md) before initiating the payment request.
+- [Validate the VPA](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/validate-vpa.md) before initiating the payment request.
 - Add a custom UPI Collect expiry based on the business requirement to provide enough time for the customer to complete the payment.
-- Use the [Saved VPA](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/saved-vpa.md) feature offered by Razorpay to provide a better customer experience.
+- Use the [Saved VPA](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/saved-vpa.md) feature offered by Razorpay to provide a better customer experience.
 
 ## Prerequisites
 
 - Reach out to our [Support Team](https://razorpay.com/support/#raise-a-request) to enable VPA validation and saved VPA features for your account.
 - Keep the API keys (`Key_Id` and `Key_Secret`) handy for integration. 
-- [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
+- [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
 
 ## User Flow
 
@@ -402,7 +402,7 @@ Payment payment = client.Payment.ValidateUpi(paymentRequest)
 > 
 >   **Deprecation Notice**
 > 
->   UPI Collect is deprecated effective 28 February 2026. This tab is applicable only for exempted businesses. If you are not covered by the exemptions, refer to the [ migration documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/announcements/upi-collect-migration/s2s-integration.md) to switch to UPI Intent.
+>   UPI Collect is deprecated effective 28 February 2026. This tab is applicable only for exempted businesses. If you are not covered by the exemptions, refer to the [ migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/s2s-integration.md) to switch to UPI Intent.
 >   
 
 ### Step 4: Initiate a Payment
@@ -660,7 +660,7 @@ Payment payment = client.Payment.CreateUpi(paymentRequest);
 
 `notes` _optional_
 : `json object` Key-value pairs that can hold additional information about the payment. 
- Refer to the [Notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) section of the API Reference Guide.
+ Refer to the [Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) section of the API Reference Guide.
 
 `description` _optional_
 : `string` Descriptive text of the payment.
@@ -740,7 +740,7 @@ If the payment made by the customer is successful, the following fields are sent
 
 #### Failure Callback
 
-If the payment has failed, the callback will contain details of the error. Refer to [Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/payments/payment-methods-error-parameters#upi.md) for details.
+If the payment has failed, the callback will contain details of the error. Refer to [Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/payments/payment-methods-error-parameters.md#upi) for details.
 
 ## Create Payments using Tokens
 
@@ -877,7 +877,7 @@ body, err := client.Order.Create(data, nil)
 : `integer` The amount for which the order was created, in currency subunits. For example, for an amount of ₹295, enter `29500`. Payment can only be made for this amount against the order.
 
 `currency` _mandatory_
-: `string` ISO code for the currency in which you want to accept the payment. Refer the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` ISO code for the currency in which you want to accept the payment. Refer the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 `receipt` _optional_
 : `string` Receipt number that corresponds to this order, set for your internal reference. Can have a maximum length of 40 characters.
@@ -1045,17 +1045,17 @@ If the payment made by the customer is successful, the following fields are sent
 
 #### Failure Callback
 
-If the payment has failed, the callback will contain details of the error. Refer to [Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/payments/payment-methods-error-parameters#upi.md) for details.
+If the payment has failed, the callback will contain details of the error. Refer to [Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/payments/payment-methods-error-parameters.md#upi) for details.
 
 #### Verify Payment Status
 
 You can verify the status of the payments using any of the following methods:
 
-- Poll Razorpay servers periodically for the [payments made for the order](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/fetch-payments.md) using our Fetch Payment APIs.
+- Poll Razorpay servers periodically for the [payments made for the order](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/fetch-payments.md) using our Fetch Payment APIs.
 - Subscribe to the webhook events created in our system for each of the following entities:
 
-  - [payments](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments.md)
-  - [orders](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/orders.md)
+  - [payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md)
+  - [orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/orders.md)
 
 #### Payment failure and re-initiating payment
 
@@ -1063,5 +1063,5 @@ If the Order is not marked `paid` within 2-3 minutes, then you can re-initiate p
 
 ### Related Information
 
-- [UPI Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/payments/payment-methods-error-parameters#upi.md)
-- [UPI Transaction Limits](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/transaction-limits/upi.md)
+- [UPI Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/payments/payment-methods-error-parameters.md#upi)
+- [UPI Transaction Limits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/transaction-limits/upi.md)

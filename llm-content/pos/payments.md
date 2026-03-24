@@ -18,6 +18,6 @@ Following are the various states of a payment:
 
 You can perform the following actions on payments from the Dashboard:
 
-- [Issue a refund for a payment](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/refunds/issue.md)
-- [View details of a payment](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/payments/dashboard/#view-payment-details.md)
-- [View settlement details of a payment](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/settlements/dashboard/#view-settlements-using-dashboard.md)
+- [Issue a refund for a payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/refunds/issue.md)
+- [View details of a payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/payments/dashboard.md#view-payment-details)
+- [View settlement details of a payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/settlements/dashboard.md#view-settlements-using-dashboard)

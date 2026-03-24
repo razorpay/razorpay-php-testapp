@@ -11,7 +11,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
         To set up webhooks:
          1. Log in to the Razorpay Dashboard and navigate to **Account & Settings**.
          2. In the **Website and app settings** section, click **Webhooks**.
-             ![Navigate to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
+             ![Navigate to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
          3. Click **+ Add New Webhook**.
              ![](/docs/assets/images/webhooks-webhook-creation-1.jpg)
          4. In the **Webhook Setup** pop-up page:
@@ -22,10 +22,10 @@ description: Troubleshoot common errors and find answers to frequently asked que
 > 
 >                 **Handy Tips**
 > 
->                 You can set up to **10 URLs** to receive Webhook notifications. Webhooks can only be delivered to public URLs. If you attempt to save a localhost endpoint as part of a webhook setup, you will notice an error. Know more about [testing webhooks on an application running on localhost](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test/#application-running-on-localhost.md).
+>                 You can set up to **10 URLs** to receive Webhook notifications. Webhooks can only be delivered to public URLs. If you attempt to save a localhost endpoint as part of a webhook setup, you will notice an error. Know more about [testing webhooks on an application running on localhost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md#application-running-on-localhost).
 >                 
 
-             2. Enter a **Secret** for the webhook endpoint. The secret is used to validate that the webhook is from Razorpay. Do not expose the secret publicly. Know more about [how to validate webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test.md).
+             2. Enter a **Secret** for the webhook endpoint. The secret is used to validate that the webhook is from Razorpay. Do not expose the secret publicly. Know more about [how to validate webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md).
                 
 > **INFO**
 >
@@ -50,17 +50,17 @@ description: Troubleshoot common errors and find answers to frequently asked que
          To verify if webhooks are enabled:
             1. Log in to the Razorpay Dashboard and navigate to **Account & Settings**.
             2. In the **Website and app settings**, click **Webhooks**.
-                ![Navigate to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
+                ![Navigate to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
             3. Select the relevant webhook **URL**.
             4. On the right panel, check if the status for `payment.authorized`, `refund.created` and `virtual_account.credited` is enabled.
-                ![List of webhooks created](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)
+                ![List of webhooks created](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)
         
 
     
 ### 3. What troubleshooting procedures should be carried out prior to initiating a support ticket?
 
          Follow the troubleshooting steps given below:
-         1. Reinstall the Razorpay Prestashop plugin and ensure that your system meets all the requirements mentioned [here](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/prestashop/integration-steps/#installation-and-configuration.md).
+         1. Reinstall the Razorpay Prestashop plugin and ensure that your system meets all the requirements mentioned [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/prestashop/integration-steps.md#installation-and-configuration).
          2. We recommend you to keep your Razorpay Prestashop plugin up to date. You can find the latest versions [here](https://github.com/razorpay/razorpay-prestashop/releases).
          3. If the issue persists after following these steps, contact our [Support team](https://razorpay.com/support/). Provide the following information while creating a ticket:
             - Razorpay Prestashop plugin version (PrestaShop 1.7.x, PrestaShop 1.6.x)
@@ -84,7 +84,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
             - Place an order and select **Razorpay** as the payment option.
             - Right-click on the page and choose **Inspect** → **Sources**.
             - Check if **script.js** and **checkout.js** are loading under the loaded modules.
-                ![Prestashop Razorpay pay button inspect](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/prestashop-script-checkout.jpg.md)
+                ![Prestashop Razorpay pay button inspect](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/prestashop-script-checkout.jpg.md)
          2. If the scripts are not loading check hook configuration in Prestashop database:
             - Open the Prestashop database and navigate to the **hook_alias** table.
             - Ensure that the name `displayHeader` has the alias set to `Header`.

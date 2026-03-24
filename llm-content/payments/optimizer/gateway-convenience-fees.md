@@ -9,7 +9,7 @@ You can set a specific fee for each payment gateway used for payments made throu
 
 Convenience fees are smoothly integrated into Razorpay Checkout, ensuring a seamless customer experience. In case of a refund, the customer receives both the convenience fee and the original payment amount.
 
-![Dynamic Convenience Fees](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-dynamic-convenience-fees-v2.jpg.md)
+![Dynamic Convenience Fees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-dynamic-convenience-fees-v2.jpg.md)
 
 > **INFO**
 >
@@ -33,7 +33,7 @@ Given below is the customer payment flow:
 
 1. The customer selects an item on your website/Payment Link/Payment Page and clicks the pay button.
 2. The checkout pop-up page is displayed. The customer selects the payment method and the payment gateway through which they want to make the payment.
-    ![cfb optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cfb-optimizer-gateway.gif.md)
+    ![cfb optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cfb-optimizer-gateway.gif.md)
 3. The **Fee Breakup** page containing the Convenience Fee appears, and the customer clicks **Continue and pay**.
 4. The customer is redirected to the payment success screen.
 
@@ -42,7 +42,7 @@ Given below is the customer payment flow:
 > 
 > **Handy Tips**
 > 
-> All Optimizer gateways support the Customer Fee Bearer feature. Know more about the [gateways supported by Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md).
+> All Optimizer gateways support the Customer Fee Bearer feature. Know more about the [gateways supported by Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md).
 > 
 
 ## Communication
@@ -51,9 +51,9 @@ You should inform customers about the convenience fees, as we do not notify them
 
 ### Related Information
 
-- [Collect Standard Convenience Fee](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/convenience-fees.md)
-- [SR Analytics Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/success-rate.md)
-- [Roles and Permissions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/roles-and-permissions.md)
-- [Tokenisation for Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/tokenisation.md)
-- [Supported Gateways and Aggregators](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md)
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/faqs.md)
+- [Collect Standard Convenience Fee](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/convenience-fees.md)
+- [SR Analytics Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/success-rate.md)
+- [Roles and Permissions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/roles-and-permissions.md)
+- [Tokenisation for Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/tokenisation.md)
+- [Supported Gateways and Aggregators](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/faqs.md)

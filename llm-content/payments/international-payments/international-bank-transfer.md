@@ -316,18 +316,18 @@ The activation process differs based on whether you are a new or existing Razorp
      1. Log in to the Dashboard.
      2. Navigate to **Account & Settings** → **International payments** (under Payment methods).
      3. In the **Local Currency Bank Transfer** section, under the International bank transfers tab, click **Activate**.
-         ![International bank transfer ACH activate](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/intl-ach-request.jpg.md)
+         ![International bank transfer ACH activate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/intl-ach-request.jpg.md)
      4. On the **Purpose code** page, select the correct purpose code from the list and click **Continue**.
-         ![International bank transfer purpose code](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ibt-purpose-code.jpg.md)
+         ![International bank transfer purpose code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ibt-purpose-code.jpg.md)
      5. On the **Importer - Exporter code** page:
          - If you have an IE code, select **Yes**. Enter the 10-digit **IE code** and select **I agree to the Terms and Conditions**. Click **Continue**.
          - If the IE code does not apply to you, select **No, because it is not applicable for me** and click **Continue**.
          - If you do not have an IE code but want to apply, select **No, but I want to apply for it**, and click **Apply now**.
-         ![Import Export Code](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ibt-ie-code.jpg.md)
+         ![Import Export Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ibt-ie-code.jpg.md)
      6. On the Video KYC page, select **Yes, I am Gaurav Kumar**, and click **Start Video KYC** to proceed with the video KYC.
-         ![International bank transfer video kyc](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ibt-video-kyc.jpg.md)
+         ![International bank transfer video kyc](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ibt-video-kyc.jpg.md)
      7. Your request submitted successfully, click **Okay, got it**.
-         ![Request submitted successfully](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/request-submitted.jpg.md)
+         ![Request submitted successfully](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/request-submitted.jpg.md)
     
 
 ## Accessing The Dashboard
@@ -341,7 +341,7 @@ After the International Bank Transfer account is activated, you can access your 
 2. On the left navigation, click **Intl Bank Transfer**.
 3. You will land on the dashboard homepage with all the international payment tools.
 
-![International Bank Transfers homepage](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/intl-bank-transfer-home.jpg.md)
+![International Bank Transfers homepage](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/intl-bank-transfer-home.jpg.md)
 
 ### Dashboard Overview
 
@@ -358,7 +358,7 @@ At the top of your homepage, you will see cards for all your virtual bank accoun
 - SWIFT Account
 - SGD, AED, AUD, CHF, DKK, SEK and CAD Accounts (Coming soon)
 
-![Virtual accounts on homepage](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/international-account-home.jpg.md)
+![Virtual accounts on homepage](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/international-account-home.jpg.md)
 
 #### Accessing Your Account Details
 
@@ -373,13 +373,13 @@ At the top of your homepage, you will see cards for all your virtual bank accoun
             2. Navigate to **Intl Bank Transfer**.
             3. On the homepage, you will see cards for all your virtual accounts.
             4. Click on any account card to view complete details.
-                ![Virtual accounts on homepage](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/international-account-home.jpg.md)
+                ![Virtual accounts on homepage](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/international-account-home.jpg.md)
         
         
             1. From the left navigation menu, click **International Accounts**.
             2. You will see a dedicated page with all your virtual account details.
             3. Click on any account card to view complete details.
-                ![Virtual accounts on International accounts tab](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/international-accounts.jpg.md)
+                ![Virtual accounts on International accounts tab](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/international-accounts.jpg.md)
         
      
     
@@ -395,7 +395,7 @@ There are two ways to share your virtual account details with customers, dependi
 
      1. On your dashboard homepage or International Bank Accounts page, locate the account you want to share.
      2. On account card. Click **Copy**.
-        ![Copy account details manually](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/manual-copy-details.jpg.md)
+        ![Copy account details manually](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/manual-copy-details.jpg.md)
      3. Account details are copied to your clipboard. Paste the details into your email, WhatsApp message or other messaging platforms.
     
 
@@ -406,13 +406,13 @@ There are two ways to share your virtual account details with customers, dependi
 
      1. On your dashboard homepage or International Bank Accounts page, locate the account you want to share.
      2. On account card. Click **Share**.
-        ![Share Account details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/share-account.jpg.md)
+        ![Share Account details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/share-account.jpg.md)
      3. Add Client details:
         - In the **Client name** field, enter your client's full name.
         - In the **Send to** field, enter your client's email address.
         - (Optional) Click **+ Add CC** if you want to copy additional email addresses.
      4. Click **Send Email**.
-        ![Add details and send email](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/send-email.jpg.md)
+        ![Add details and send email](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/send-email.jpg.md)
     
 
       
@@ -427,7 +427,7 @@ There are two ways to share your virtual account details with customers, dependi
          - Payment status (Captured, Authorised, Failed).
          - Amount saved compared to traditional methods.
          - **+ Add Details** button for transactions requiring invoice upload.
-         ![Recent transactions section](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/recent-payments.jpg.md)
+         ![Recent transactions section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/recent-payments.jpg.md)
       
 
    
@@ -471,7 +471,7 @@ The **Savings Calculator** on the dashboard shows how much you can save using Ra
      - **Fintech Platforms**: ₹8,21,599 (₹66,101 less)
      - **Banks**: ₹8,80,642 (₹7,706 less)
 
-     ![Savings calculator](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/savings-calculator.jpg.md)
+     ![Savings calculator](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/savings-calculator.jpg.md)
 
      
 > **INFO**
@@ -547,5 +547,5 @@ In addition to the above categories, International Bank Transfer does not suppor
 
 ### Related Information
 
-- [Connect Platforms](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-bank-transfer/connect-platforms.md)
-- [Transactions and Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-bank-transfer/transactions-invoices.md)
+- [Connect Platforms](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer/connect-platforms.md)
+- [Transactions and Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer/transactions-invoices.md)

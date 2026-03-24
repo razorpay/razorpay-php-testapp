@@ -23,15 +23,15 @@ Razorpay Payment Pages is the easiest way to accept payments with custom-branded
 
 ## List of Supported Payment Methods
 
-Payment Pages support Online Payment Methods. Customers can make online payments using [Card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards.md), [Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/netbanking.md), [UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi.md), [Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later.md) and **wallets**.
+Payment Pages support Online Payment Methods. Customers can make online payments using [Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards.md), [Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/netbanking.md), [UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi.md), [Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md) and **wallets**.
 
 ### International Currency Support
 
-You can receive payments in any of the [supported international currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md) from the Dashboard.
+You can receive payments in any of the [supported international currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies) from the Dashboard.
 
 #### Address Verification System
 
-If you are accepting international payments, you can use Razorpay's [Address Verification System (AVS)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md). AVS verifies if a customer's billing address (postal code and the billing street address) matches the billing address on file with the card issuer. Based on the response from the issuer, Razorpay will accept or cancel the transaction. This helps in the prevention of fraud in international payments. 
+If you are accepting international payments, you can use Razorpay's [Address Verification System (AVS)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md). AVS verifies if a customer's billing address (postal code and the billing street address) matches the billing address on file with the card issuer. Based on the response from the issuer, Razorpay will accept or cancel the transaction. This helps in the prevention of fraud in international payments. 
 
 ## Supported Platforms
 
@@ -58,10 +58,10 @@ Log in to the Dashboard and click **Payment Pages**.
 
 ### What Next
 
-Understand [how you can use Razorpay Payment Pages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/how-it-works.md) and the various [Payment Page states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/states.md).
+Understand [how you can use Razorpay Payment Pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/how-it-works.md) and the various [Payment Page states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/states.md).
 
 ### Related Information
 
-- [Payment Pages Use Cases](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/use-cases.md)
-- [Create a Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/create.md)
-- [Add Images, Videos and Other Details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/add-images-videos.md)
+- [Payment Pages Use Cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/use-cases.md)
+- [Create a Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/create.md)
+- [Add Images, Videos and Other Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/add-images-videos.md)

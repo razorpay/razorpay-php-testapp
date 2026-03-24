@@ -77,7 +77,7 @@ description: Set up webhooks for Recurring Payments, check available webhook eve
 
 ## Check Notification Status using Webhooks
 
-You can use these webhooks to check the status of the pre-debit notification sent to the customer when the payment method is [UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/upi/create-authorization-transaction.md) and [Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/cards/create-authorization-transaction.md). These notification webhooks are available only if you send the notification object while creating an order.
+You can use these webhooks to check the status of the pre-debit notification sent to the customer when the payment method is [UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/upi/create-authorization-transaction.md) and [Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/cards/create-authorization-transaction.md). These notification webhooks are available only if you send the notification object while creating an order.
 
 Webhooks Event | Description
 ---

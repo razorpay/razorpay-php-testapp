@@ -40,18 +40,18 @@ Follow the steps given below:
                1. Login to your Shopify store.
                2. Navigate to **Settings** → **Payments**.
                3. Click **Add payment method** under Additional payment methods.
-                  ![Click Add payment method](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-additional-payment-methods.jpg.md)
+                  ![Click Add payment method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-additional-payment-methods.jpg.md)
                4. Click **Search by provider** and search for "1Razorpay - UPI, Cards, Wallets, NB".
-                  ![Search for 1Razorpay under search by provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-search-by-provider.jpg.md)
+                  ![Search for 1Razorpay under search by provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-search-by-provider.jpg.md)
             
          
 
          **Step 3: Install and Activate the App**.
          1. Click **Install** on the app installation page.
-            ![Shopify Install](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-1-razorpay-install-install.jpg.md)
+            ![Shopify Install](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-1-razorpay-install-install.jpg.md)
 
          2. You will be redirected to a landing page. Click **I am an existing user**.
-            ![Existing Merchant Shopify](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-existing-merchant.jpg.md)
+            ![Existing Merchant Shopify](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-existing-merchant.jpg.md)
          3. Scroll down and click **Login**.
 
             
@@ -64,15 +64,15 @@ Follow the steps given below:
 > 
 >             
 
-            ![Shopify login](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-login-v2.gif.md)
+            ![Shopify login](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-login-v2.gif.md)
 
          4. Click **Activate** on the activation screen on your Shopify Dashboard.
-            ![Shopify Activate](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-1razorpay-activate.jpg.md)
+            ![Shopify Activate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-1razorpay-activate.jpg.md)
          
          1 Razorpay now appears as a Payment Gateway on your Shopify Store checkout.
-         ![Shopify Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-v2-checkout.jpg.md)
+         ![Shopify Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-v2-checkout.jpg.md)
 
-         This completes your integration. For more information, see [Shopify FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify/faqs.md).
+         This completes your integration. For more information, see [Shopify FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify/faqs.md).
         
 
 ## 2. Test Integration
@@ -89,15 +89,15 @@ After the integration of **Shopify - 1 Razorpay** on your Shopify store is compl
          1. Log in to your [Shopify store](https://accounts.shopify.com/lookup?rid=f19e1541-cd24-4856-a398-156d2ed5d56f).
          2. Navigate to **Settings** → **Payments**. 
          3. On the **Supported payment methods** section, click **Manage** on the **1 Razorpay** app.
-            ![Shopify go live v2](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-go-live-v2.jpg.md)
+            ![Shopify go live v2](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-go-live-v2.jpg.md)
          4. At the bottom of the page, tick the **Enable test mode** option and click **Save**.
-            ![Shopify go live v2 save test](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-go-live-test.jpg.md)
+            ![Shopify go live v2 save test](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-go-live-test.jpg.md)
          5. On your Shopify store, add an item to your cart and click **Buy it now**.
-            ![Shopify checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/buy-now-shopify.jpg.md)
+            ![Shopify checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/buy-now-shopify.jpg.md)
          6. Fill in your **contact** and **shipping** details and click **Continue to shipping**.
-            ![Shopify contact details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shipping-contact-details.jpg.md)
+            ![Shopify contact details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shipping-contact-details.jpg.md)
          7. Select **1 Razorpay** and click **Complete order**.
-            ![Shopify complete order](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/complete-order.jpg.md)
+            ![Shopify complete order](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/complete-order.jpg.md)
          8. On the checkout screen, enter your **phone number**, click **PROCEED**, and complete the payment.
 
          You can make test payments using one of the payment methods configured at the Checkout.
@@ -121,7 +121,7 @@ After the integration of **Shopify - 1 Razorpay** on your Shopify store is compl
          1. Log in to your [Shopify store](https://accounts.shopify.com/lookup?rid=f19e1541-cd24-4856-a398-156d2ed5d56f).
          2. Navigate to **Settings** → **Checkout**. 
          3. On the **Customer contact method** section, click **Phone number or email** and click **Save**.
-            ![Shopify Checkout v2](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-checkout-v2.jpg.md)
+            ![Shopify Checkout v2](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-checkout-v2.jpg.md)
 
          
 > **INFO**
@@ -143,10 +143,10 @@ After the integration of **Shopify - 1 Razorpay** on your Shopify store is compl
                 
                 1. Log in to the Razorpay Dashboard and navigate to **Transactions** → **Payments**.
                 2. Check if a `payment_ID` has been generated and note the status. In case of a successful payment, the status is marked as `captured`. 
-                ![Payment status on dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/testpayment.jpg.md)
+                ![Payment status on dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/testpayment.jpg.md)
                 
                 
-                [Poll Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md) to check the payment status.
+                [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments) to check the payment status.
                 
             
         
@@ -162,13 +162,13 @@ Follow these steps before taking the integration live:
 
          Watch this short animation to know how to switch from **Test Mode** to **Live Mode** on your Shopify store.
 
-         ![Shopify Go Live](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-go-live-v2.gif.md)
+         ![Shopify Go Live](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-go-live-v2.gif.md)
 
          To switch from **Test Mode** to **Live Mode**:
          1. Log in to your [Shopify store](https://accounts.shopify.com/lookup?rid=f19e1541-cd24-4856-a398-156d2ed5d56f).
          2. Navigate to **Settings** → **Payments**. 
          3. On the **Supported payment methods** section, click **Manage** on the **1 Razorpay** app.
-            ![Shopify go live v2](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-go-live-v2.jpg.md)
+            ![Shopify go live v2](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-go-live-v2.jpg.md)
          4. At the bottom of the page, select the **Enable test mode** option and click **Save**.
-            ![Shopify go live v2 save](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-go-live-save.jpg.md)
+            ![Shopify go live v2 save](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-go-live-save.jpg.md)
          You can now start accepting actual payments on your Shopify store.

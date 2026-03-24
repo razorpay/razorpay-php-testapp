@@ -74,9 +74,9 @@ Once you successfully set up the integration, the HRMS becomes the single source
 
 With this integration, you can:
 - Choose the entities and employee data from your HRMS software to map to Payroll [during setup](#integration-steps).
-- Map your employee types as `employees` or `contractors`. Know more about [employee types](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator#employee-and-contractor.md) in Payroll.
+- Map your employee types as `employees` or `contractors`. Know more about [employee types](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#employee-and-contractor) in Payroll.
 - View up-to-date employee information on Payroll via daily automated sync. This includes existing employees' data modifications or new employees added to your HRMS. 
-- Sync dismissal dates from HRMS to calculate [Full and Final Settlement](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#full-and-final-settlement.md) in Payroll.
+- Sync dismissal dates from HRMS to calculate [Full and Final Settlement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#full-and-final-settlement/) in Payroll.
 
 > **WARN**
 >
@@ -99,11 +99,11 @@ To integrate your HRMS software with Payroll:
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
 1. Navigate to **ADMIN OPTIONS** → **Integrations**. 
 1. Look for your HRMS software using the **HRMS** filter at the top and click **Explore**.
-    ![HRMS Integration options on RazorpayX Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-explore-hrms.jpg.md)
+    ![HRMS Integration options on RazorpayX Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-explore-hrms.jpg.md)
 1. On the integration page, click **START INTEGRATION**. 
 1. Follow the on-screen instructions to authenticate the tool and map your employees on Payroll. 
     1. Preview the employee information synced by Payroll. You can choose which employee data fields you want to sync to Payroll. Some fields are mandatory. 
-    1. Map your employees as employee or contractor [employee types](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator#employee-and-contractor.md) on Payroll. 
+    1. Map your employees as employee or contractor [employee types](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#employee-and-contractor) on Payroll. 
 1. Review the configuration summary, such as the details synced, the sync duration, and the employee types on the HRMS tool mapped as contractors and employees. 
 1. Type **confirm** in the text box to integrate. 
 
@@ -135,10 +135,10 @@ Here you can:
 - Manually sync data between HRMS and Payroll when necessary. Click **Sync now**.
 - Change employee information such as bank account data, contractor to full-time employee or vice-versa, personal details of the employee, and so on using the **Modify Configuration** option.
     
-    Suppose you must sync the bank account data from the HRMS after the integration, or a full-time employee is now a [contractor](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator#differences-between-employee-and-contractor.md). You can change that information here. 
+    Suppose you must sync the bank account data from the HRMS after the integration, or a full-time employee is now a [contractor](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#differences-between-employee-and-contractor). You can change that information here. 
 - To disable the integration, click **Disable**.
 
-![Manage HRMS Integration on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-hrms-manage.jpg.md)
+![Manage HRMS Integration on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-hrms-manage.jpg.md)
 
 ### Bulk Update
 
@@ -151,5 +151,5 @@ You can bulk update your employee/contractor information on the Payroll Dashboar
 
 ### Related Information 
 
-- [About Integrations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations.md) 
-- [Contact Support](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/plans/#contact-support.md)
+- [About Integrations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations.md) 
+- [Contact Support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/plans.md#contact-support)

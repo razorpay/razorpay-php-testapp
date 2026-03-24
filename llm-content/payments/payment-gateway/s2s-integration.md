@@ -14,8 +14,8 @@ Razorpay supports two flavors of server-to-server integration. Choose the one th
 
      If you want more control over the way the customer is redirected, you can use the JSON API. You can decide where the customer should enter the transaction OTP to complete the payment - on your website or on the bank's page.
 
-     - [S2S JSON V2 (Latest)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2.md)
-     - [S2S JSON V1](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v1.md)
+     - [S2S JSON V2 (Latest)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2.md)
+     - [S2S JSON V1](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v1.md)
        
 > **INFO**
 >
@@ -33,7 +33,7 @@ Razorpay supports two flavors of server-to-server integration. Choose the one th
   
 ### S2S Redirect API
 
-     This is our default [server-to-server integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/redirect.md). The payment creation request returns a variety of responses, which must be rendered on your customer's browser to proceed with the payment. These responses typically result in the browser being redirected to a bank or gateway page to complete payment authentication.
+     This is our default [server-to-server integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/redirect.md). The payment creation request returns a variety of responses, which must be rendered on your customer's browser to proceed with the payment. These responses typically result in the browser being redirected to a bank or gateway page to complete payment authentication.
     
 
 @include payment-methods/upi-collect-deprecated/s2s
@@ -44,4 +44,4 @@ PCI-DSS certification is required for all entities seeking to store, process, an
 
 ### Related Information
 
-- [Integration Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/best-practices.md)
+- [Integration Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/best-practices.md)

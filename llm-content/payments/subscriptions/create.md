@@ -14,7 +14,7 @@ Use the following steps to create Subscriptions for your customers:
 
 A Plan is a foundation on which a Subscription is built. It acts as a reusable template and contains details of the goods or services offered with the amount to be charged and the frequency at which the customer should be charged (billing cycle). Depending upon your business, you can create multiple Plans with different billing cycles and pricing.
 
-You should create a Plan before creating a Subscription. You can create Plans from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-plans/#create-a-plan.md) or using [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/create-plan.md).
+You should create a Plan before creating a Subscription. You can create Plans from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-plans.md#create-a-plan) or using [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/create-plan.md).
 
 > **INFO**
 >
@@ -22,14 +22,14 @@ You should create a Plan before creating a Subscription. You can create Plans fr
 > 
 > **International Currencies**
 > 
-> You can create a Plan using any of the [supported currencies.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md)
+> You can create a Plan using any of the [supported currencies.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies)
 > 
 
 ## 2. Create a Subscription
 
 A Subscription contains details like the Plan, the start date, total number of billing cycles, free trial period (if any) and upfront amount to be collected.
 
-Subscriptions can be created from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-subscription-links/#create-a-subscription-link.md) or using [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/create-subscription.md).
+Subscriptions can be created from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-subscription-links.md#create-a-subscription-link) or using [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/create-subscription.md).
 
 ### Trial Period
 
@@ -51,8 +51,8 @@ To create a trial period for your customers, provide a future start date when cr
 > 
 > **Handy Tips**
 > 
-> - When creating a Subscription link from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-subscription-links/#create-a-subscription-link-from-dashboard.md), you can add a trial period by setting the start date to any future date.
-> - When creating a Subscription or a Subscription link using [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/create-subscription-link.md), you can add a trial period by passing a future start date in the `start-at` parameter.
+> - When creating a Subscription link from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-subscription-links.md#create-a-subscription-link-from-dashboard), you can add a trial period by setting the start date to any future date.
+> - When creating a Subscription or a Subscription link using [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/create-subscription-link.md), you can add a trial period by passing a future start date in the `start-at` parameter.
 > 
 
 ### Upfront Amount
@@ -72,14 +72,14 @@ There might be scenarios where you want to charge the customers an extra amount 
 > 
 > **Handy Tips**
 > 
-> - When creating a Subscription link from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-subscription-links/#create-a-subscription-link-from-dashboard.md), you can add an upfront amount by selecting the **I want to add an upfront amount** check box and following the instructions on screen.
-> - When creating a Subscription or a Subscription link using [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/create-subscription-link.md), you can add an upfront amount by passing an `addons` key in the request.
+> - When creating a Subscription link from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-subscription-links.md#create-a-subscription-link-from-dashboard), you can add an upfront amount by selecting the **I want to add an upfront amount** check box and following the instructions on screen.
+> - When creating a Subscription or a Subscription link using [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/create-subscription-link.md), you can add an upfront amount by passing an `addons` key in the request.
 > 
 
 ### Related Information
 
-- [Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md)
-- [Subscriptions Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/workflow.md)
-- [Subscriptions States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/states.md)
-- [Test Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/test.md)
-- [Subscriptions APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/apis.md)
+- [Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md)
+- [Subscriptions Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/workflow.md)
+- [Subscriptions States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/states.md)
+- [Test Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/test.md)
+- [Subscriptions APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/apis.md)

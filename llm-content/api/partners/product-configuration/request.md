@@ -8,7 +8,7 @@ description: Request a Product Configuration for Payment Gateway using Razorpay 
 
 ## Request a Product Configuration | Payment Gateway
 
-Use this endpoint to request a product configuration for Payment Gateway or Payment Links. You can even accept terms and conditions for the requested product using these APIs. Know about the [various error responses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md) for this API.
+Use this endpoint to request a product configuration for Payment Gateway or Payment Links. You can even accept terms and conditions for the requested product using these APIs. Know about the [various error responses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md) for this API.
 
 ### Request
 
@@ -349,7 +349,7 @@ Product product = client.Product.Create(productRequest);
                 : `string` The type of bank. Possible values are `retail` and `corporate`.
         
                 `bank`
-                : `string` The bank code. Refer to the [list of bank codes](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix#netbanking-bank-codes.md).
+                : `string` The bank code. Refer to the [list of bank codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#netbanking-bank-codes).
 
         `card`
         : `object` The payment method to be enabled.
@@ -475,7 +475,7 @@ Product product = client.Product.Create(productRequest);
   - `payment_links`
 
 `activation_status`
-: `string` The status of the [product activation](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/product-activation.md).
+: `string` The status of the [product activation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/product-activation.md).
   - `requested`
   - `needs_clarification`
   - `under_review`

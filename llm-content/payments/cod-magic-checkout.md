@@ -33,8 +33,8 @@ Razorpay COD & Magic Checkout offers:
     
 ### Enhance add-to-cart rates
 
-         - **RTB**: Integrate the Razorpay Trusted Business (RTB) widget and badge on your checkout page. This enhances customer trust by providing transparent information about your business’s credibility, effectively reducing doubts and minimising cart abandonment. Know more about [RTB](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/widgets/trusted-business.md).
-         - **Affordability Widget**: Promote payment options like EMI, Cardless EMI, and Pay Later to offer customers flexible solutions early in their shopping journey, reducing cart abandonment. The widget lets customers check eligibility and complete purchases directly, with automatic selection of their chosen payment option at checkout. Know more about [Affordability Widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/shopify.md).
+         - **RTB**: Integrate the Razorpay Trusted Business (RTB) widget and badge on your checkout page. This enhances customer trust by providing transparent information about your business’s credibility, effectively reducing doubts and minimising cart abandonment. Know more about [RTB](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/widgets/trusted-business.md).
+         - **Affordability Widget**: Promote payment options like EMI, Cardless EMI, and Pay Later to offer customers flexible solutions early in their shopping journey, reducing cart abandonment. The widget lets customers check eligibility and complete purchases directly, with automatic selection of their chosen payment option at checkout. Know more about [Affordability Widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/shopify.md).
         
 
     
@@ -59,4 +59,4 @@ Razorpay COD & Magic Checkout offers:
 
 ## Next Steps
 
-[Integrate COD & Magic Checkout with your Shopify Store](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/cod-magic-checkout/shopify.md)
+[Integrate COD & Magic Checkout with your Shopify Store](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/cod-magic-checkout/shopify.md)

@@ -11,7 +11,7 @@ You have to submit **hard copies** of the below KYC documents along with the acc
 
 The following documents are required for non-Indians residing in India.
 
-- Non-Resident Indian (NRI) Customer Information Form (CIF). [Download form here](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/razorpayx_current_account_documents-CIF-NRI.pdf.md).
+- Non-Resident Indian (NRI) Customer Information Form (CIF). [Download form here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/razorpayx_current_account_documents-CIF-NRI.pdf.md).
 - Investment Services Account(ISA) form.
 - Valid Passport.
 - Indian Visa.
@@ -43,7 +43,7 @@ These documents vary, depending on your residential status. Check your residenti
 
 The following documents are required for Non-Resident Indians (NRIs).
 
-- Non-Resident Indian (NRI) Customer Information Form (CIF). [Download form here](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/razorpayx_current_account_documents-CIF-NRI.pdf.md).
+- Non-Resident Indian (NRI) Customer Information Form (CIF). [Download form here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/razorpayx_current_account_documents-CIF-NRI.pdf.md).
 - Investment Services Account (ISA).
 - Valid Passport (mandatory).
 - Visa for the country of residence.

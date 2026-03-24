@@ -61,7 +61,7 @@ To generate new coupons:
 
 1. Under **Create** section on the dashboard, click **Coupons**. The **Coupon Code Generator** page appears.
 2. Click **+ New Coupons** and click **Generate Coupon**. The **Generate New Coupon** page appears.
-    ![Generate New Coupons](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/generate-new-coupon.jpg.md)
+    ![Generate New Coupons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/generate-new-coupon.jpg.md)
 3. Enter the name, description, quantity and prefix of the coupons.
 4. Click **Save & Exit**. 
 

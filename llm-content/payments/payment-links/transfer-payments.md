@@ -8,7 +8,7 @@ description: Set up Payment Links to automatically transfer payments to a linked
 
 You can configure your **Payment Links** to automatically transfer payments to a **linked account** once the payment is successfully received. This feature saves you the additional step of making a separate Transfer API call.
 
-Check the [transfer payments received using Payment Links API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/transfer-payments.md).
+Check the [transfer payments received using Payment Links API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links/transfer-payments.md).
 
 ## Workflow
 
@@ -30,4 +30,4 @@ You need to use **Razorpay Route** to create and onboard linked accounts. You ca
 
 ### Step 2: Transfer Payments
 
-Use the [API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/transfer-payments.md) to transfer payments received using Payment Links.
+Use the [API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links/transfer-payments.md) to transfer payments received using Payment Links.

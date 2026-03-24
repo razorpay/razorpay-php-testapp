@@ -24,7 +24,7 @@ Risk Analytics Dashboard provides insights into the security and financial well-
 ## Calculating Fraud-To-Sales Ratio
 
 You can calculate the fraud-to-sales ratio by dividing the number of reported fraudulent transactions by the total number of transactions and multiplying by 100 to express it as a percentage.
-     ![How to calculate FTS](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/calculate-fts.jpg.md)
+     ![How to calculate FTS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/calculate-fts.jpg.md)
 
 Your fraud-to-sales ratio should be below 1%, which can vary by industry. It is important to consider industry standards when figuring out your fraud-to-sales ratio.
 
@@ -43,7 +43,7 @@ In this example, the fraud-to-sales ratio for your e-commerce business is 0.2%, 
 > **Handy Tips**
 > 
 > The fraud-to-sales ratio will be calculated based on your value selection (INR) versus absolute count. Depending on this selection, either the INR value ratio will be taken or the transaction count ratio will be considered.
->     ![Fraud to sales ratio value](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/fts-value-count.jpg.md)
+>     ![Fraud to sales ratio value](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/fts-value-count.jpg.md)
 > 
 > 
 
@@ -56,14 +56,14 @@ It is essential to clarify two key points here:
 ## Dashboard Actions
 
 You can use the Dashboard to perform a detailed analysis of **Total sales value**, **Value of reported fraud**, **Fraud-to-sales** ratio, and **Number of reported frauds** over a selected period of time. 
-     ![FTS graph](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/fts-total-count.jpg.md)
+     ![FTS graph](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/fts-total-count.jpg.md)
 
 Let us explore how the Risk Analytics Dashboard can help you effectively reduce your fraud-to-sales ratio:
 
 **Identifying High-Risk Transaction/Customer Cohorts:** Using the custom charts and analysis tools in the Risk Analytics Dashboard, you can quickly identify transaction or customer cohorts that significantly contribute to fraudulent activities.
 
 For example, you may notice a spike in fraudulent transactions from a particular country or Card BIN associated with specific product categories. By visualising this data through custom charts or analysing the parameters in the [downloadable list of fraudulent transactions](#download-the-list-of-fraudulent-transactions), you can gain valuable insights into potential risk factors contributing to the FTS ratio.
-     ![FTS spike graph](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/fraud-spike-example.jpg.md)
+     ![FTS spike graph](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/fraud-spike-example.jpg.md)
 
 **Identifying Risky Cohorts:** Once you have identified a risky cohort, such as a group of transactions originating from a specific IP address, you can take targeted action to mitigate the risk. For example, suppose you observe many fraudulent transactions linked to a single IP address. In that case, you can raise a request to blocklist transactions from this IP address to decline any future transactions coming from this IP address.
 
@@ -77,9 +77,9 @@ You can download the list of fraudulent transactions with parameters such as IP 
 
     1. Log in to your Dashboard.
     2. Navigate to **Risk and Fraud** and click **Download list**.
-        ![Fraudulent list download](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/fts-download-list.jpg.md)
+        ![Fraudulent list download](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/fts-download-list.jpg.md)
     3. On the **Download fraudulent transaction list** page, select the **duration** of fraudulent transactions and add the **Recipient's Details**. Click **Send Request**.
-        ![Fraudulent list download send request](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/fts-send-request.jpg.md)
+        ![Fraudulent list download send request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/fts-send-request.jpg.md)
     4. After the request is sent, you will receive an email with the file containing the list of fraudulent transactions for the selected duration.
 
 ### Block Highest Fraud Contributors
@@ -94,9 +94,9 @@ You can block the fraud contributors by requesting a blacklist which helps lower
 
     1. Log in to your Dashboard.
     2. Navigate to **Risk and Fraud** and click **Request blacklist**.
-        ![Fraudulent blacklist request](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/fts-request-blacklist.jpg.md)
+        ![Fraudulent blacklist request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/fts-request-blacklist.jpg.md)
     3. On the **Request blacklist** page. 
         - Select **Parameter** and add **Comments** about why you want to blacklist, enter the email id to which you want to get the updates.
         - Upload an **XLS or XLSV** file of the list items. Click **Send request**.
-        ![Send request blacklist](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/fts-blacklist-send-request.jpg.md)
+        ![Send request blacklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/fts-blacklist-send-request.jpg.md)
     4. After the request is sent successfully, Communication and confirmation regarding your request will be conducted through the support ticket. You can track your request on the Dashboard. Navigate to **Account & Settings** → **Support tickets** (under **Business settings**).

@@ -27,7 +27,7 @@ All your pending requests are available on the **Approvals** page. On this Dashb
     - **Initiated by Me**: Approval requests initiated by you if you are the maker of that request.
     - **Completed**: Approval requests you have already taken action on. 
 
-![Approval actions like bulk select and filters on the Razorpay Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-approval-workflow-approva-overview.jpg.md)
+![Approval actions like bulk select and filters on the Razorpay Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-approval-workflow-approva-overview.jpg.md)
 
 You receive only those requests for which you are an approver via the Dashboard and email. 
 
@@ -42,11 +42,11 @@ To review requests:
     
         
             Hover on the row and click APPROVE. 
-                ![Approve requests on the Razorpay Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-approve-requests.jpg.md)
+                ![Approve requests on the Razorpay Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-approve-requests.jpg.md)
         
         
             Open the summary view and click **✓ Approve**.
-                ![Approve requests on the Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-approve-requests-summary.jpg.md)
+                ![Approve requests on the Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-approve-requests-summary.jpg.md)
         
     
 
@@ -56,7 +56,7 @@ To reject requests:
 
 1. Click REJECT when you hover on the request or in the summary view. 
 1. Enter the remarks in the text box modal for the rejection and click **Reject**.
-    ![Reject an approval request on RazorpayX Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-approval-workflow-reject-request.jpg.md)
+    ![Reject an approval request on RazorpayX Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-approval-workflow-reject-request.jpg.md)
 
 You have successfully rejected the request. 
 
@@ -66,7 +66,7 @@ You have successfully rejected the request.
 > **Handy Tips**
 > 
 > You can also bulk approve/reject requests by selecting the check box at the top-left. Select and clear the check boxes against the requests and click the **Approve** or **Reject** button.
->     ![Summary view of approval request on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-approvals-bulk.jpg.md)
+>     ![Summary view of approval request on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-approvals-bulk.jpg.md)
 > 
 
 ### Withdraw Requests 
@@ -86,7 +86,7 @@ To withdraw/revoke a request you have initiated:
 1. Navigate to **ADMIN OPTIONS** → **Approvals** in the left menu. 
 1. Select the Payroll action from the left menu and go to the **Initiated by Me** tab. 
 1. Review the request to withdraw. Hover on the request and click **WITHDRAW** or click **Withdraw Request** in the summary view. 
-    ![Withdraw requests on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-approvals-withdraw.jpg.md)
+    ![Withdraw requests on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-approvals-withdraw.jpg.md)
 
     You can also bulk-select and withdraw multiple requests. 
 
@@ -110,5 +110,5 @@ The above statuses are available in the summary view of the request. You can als
 
 ### Related Information 
 
-- [Approvals Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/approval-workflow/checklist.md)
-- [Salary Actions in Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary.md)
+- [Approvals Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/approval-workflow/checklist.md)
+- [Salary Actions in Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md)

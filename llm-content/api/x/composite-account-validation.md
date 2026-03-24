@@ -6,7 +6,7 @@ description: Composite Account Validation for RazorpayX, APIs and webhook payloa
 
 # Account Validation Composite
 
-Composite Account Validation API allows you to create a Contact [Linked Text](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/create.md), the contact's Fund Account (bank account or UPI) and validate it in a single API call.
+Composite Account Validation API allows you to create a Contact [Linked Text](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts/create.md), the contact's Fund Account (bank account or UPI) and validate it in a single API call.
 
 > **WARN**
 >
@@ -16,13 +16,13 @@ Composite Account Validation API allows you to create a Contact [Linked Text](@/
 > Account Validation is not available in test mode and is possible only for RazorpayX Lite.
 > 
 
-To make an account validation transaction, you must [allowlist your IPs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/allowlist-ip.md), [Create a Contact](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/account-validation/create-contact.md) and Create a Fund Account for the Contact using either [bank account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/account-validation/bank-account/create-fund-account.md) or [VPA details](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/account-validation/vpa/create-fund-account.md). 
+To make an account validation transaction, you must [allowlist your IPs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/allowlist-ip.md), [Create a Contact](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/account-validation/create-contact.md) and Create a Fund Account for the Contact using either [bank account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/account-validation/bank-account/create-fund-account.md) or [VPA details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/account-validation/vpa/create-fund-account.md). 
 
 ### Related Guides
  
-[About Fund Account Validation](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-account-validation.md)
-[Set up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payouts.md)
-[Webhooks Payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/account-validation.md)
+[About Fund Account Validation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-account-validation.md)
+[Set up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payouts.md)
+[Webhooks Payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/account-validation.md)
 
 ### Endpoints
  

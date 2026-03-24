@@ -6,7 +6,7 @@ description: Avoid payout failures and improve payouts success rates with indust
 
 # Multi-bank Routing
 
-RazorpayX **Payouts Pro** is a Multi-bank Routing feature which allows you to set primary, secondary and tertiary accounts and helps avoid payout failures by detecting bank downtimes. While [Intelligent Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/intelligent-payouts.md) prevents the money from being blocked, Multi-bank Routing changes the account of the transaction and prevents payment delays in real-time. 
+RazorpayX **Payouts Pro** is a Multi-bank Routing feature which allows you to set primary, secondary and tertiary accounts and helps avoid payout failures by detecting bank downtimes. While [Intelligent Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/intelligent-payouts.md) prevents the money from being blocked, Multi-bank Routing changes the account of the transaction and prevents payment delays in real-time. 
 
 - **Payouts Pro** instantly detects bank degradations and immediately switches between two or more RazorpayX powered Current Accounts or RazorpayX Lite, thus improving success rates.
 - This process is entirely automated and you will receive the debit account number in the API and webhook responses informing you the account from which the payout was finally done.
@@ -18,7 +18,7 @@ RazorpayX **Payouts Pro** is a Multi-bank Routing feature which allows you to se
 > 
 > **Watch Out!**
 > 
-> Dynamic Multi-bank Routing is applicable only to payouts made via [Payout APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts.md).
+> Dynamic Multi-bank Routing is applicable only to payouts made via [Payout APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts.md).
 > 
 
 ## How It Works
@@ -59,11 +59,11 @@ You can view and set your account priorities.
 2. Go to **Payouts Pro** by clicking **User Icon→Account & Settings→Banking**.
 3. Click **Get Started** to set up your account priorities. 
 
-    ![Get started](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payoutpro-getstarted.jpg.md)
+    ![Get started](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payoutpro-getstarted.jpg.md)
 
 4. You can view your accounts listed under each of IMPS, UPI and NEFT channels. This is the default setting.
 
-    ![Set account preferences](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/marsdefault1.jpg.md)
+    ![Set account preferences](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/marsdefault1.jpg.md)
 
     
 > **INFO**
@@ -100,7 +100,7 @@ You can view and set your account priorities.
                 3. Click **Save changes** to save your preferences or **Cancel** to continue editing.
                 4. To confirm, click **Yes, save changes** in the pop-up modal.
 
-                ![Set account preferences](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payoutpro-edit-pref.jpg.md)
+                ![Set account preferences](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payoutpro-edit-pref.jpg.md)
 
                 All the payouts will now be routed based on the changed account priorities.
 
@@ -119,7 +119,7 @@ You can view and set your account priorities.
                 5. You can select the bank account from the drop-down list.
                 6. If you have registered only one account with RazorpayX, you will not see the **Add bank +** option.
 
-                ![Add bank](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payoutpro-addbank.jpg.md)
+                ![Add bank](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payoutpro-addbank.jpg.md)
 
                 The newly added account will be used for the subsequent payouts as per the priority you have set for it.                
                 
@@ -177,7 +177,7 @@ You can view and set your account priorities.
                 5. Click **Disable Payouts Pro**.
                 6. Click **Disable** in the pop-up modal to confirm or **Don't disable** to cancel your action.
 
-                ![Disable payoutpro](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payoutpro-disable.jpg.md)
+                ![Disable payoutpro](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payoutpro-disable.jpg.md)
 
                 Once you disable **Payouts Pro**, the payouts will no longer use the Multi-bank Routing and will use only the selected account and channel.
 
@@ -191,7 +191,7 @@ You can view and set your account priorities.
 
 For example, the following widget shows data available for two payment modes across the last 30 days: UPI and IMPS. 
 
-![RazorpayX Payouts Pro Widget Success Rate](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-payouts-pro-widget.jpg.md)
+![RazorpayX Payouts Pro Widget Success Rate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-payouts-pro-widget.jpg.md)
 
 You can read the widget data in the following manner: 
 - **7.5% more success rate**, that is, success rates spiked to 97.3% from 88.8% due to Payouts Pro. 
@@ -202,11 +202,11 @@ You can read the widget data in the following manner:
 
 All the transactions made from different accounts, through this feature, are recorded accordingly. You can find the information when you generate reports from:
 
-1. [Account Statements](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-statement.md)
-2. [Reports](@/Applications/MAMP/htdocs/new-docs/llm-content/x/reports.md)
-3. [Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/reports.md)
+1. [Account Statements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-statement.md)
+2. [Reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/reports.md)
+3. [Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/reports.md)
 
 ### Related Information
 
-- [About Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md)
-- [Open a Current Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/current-account.md)
+- [About Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md)
+- [Open a Current Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/current-account.md)

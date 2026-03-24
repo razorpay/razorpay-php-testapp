@@ -9,7 +9,7 @@ description: Reject a payout using API.
 
 This endpoint rejects the payout.
 
-If you face errors during the process, refer to our [Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/#http-errors.md) documentation for HTTP, 5xx and other errors.
+If you face errors during the process, refer to our [Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x.md#http-errors) documentation for HTTP, 5xx and other errors.
 
 @include rzpx/payouts/reject-payouts
 

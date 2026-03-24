@@ -17,7 +17,7 @@ The Address Verification System (AVS) verifies if a customer's billing address (
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -55,15 +55,15 @@ The Address Verification System (AVS) verifies if a customer's billing address (
     
 ### Prerequisites
 
-         - [Integrate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md) with Razorpay Standard Checkout. This feature is available for all types of Standard Checkout, including server language SDKs, e-commerce plugins, and products such as Invoices, Payment Button, Payment Links and Payment Pages.
-         - Enable [international payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments.md) for your Razorpay account.
+         - [Integrate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md) with Razorpay Standard Checkout. This feature is available for all types of Standard Checkout, including server language SDKs, e-commerce plugins, and products such as Invoices, Payment Button, Payment Links and Payment Pages.
+         - Enable [international payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md) for your Razorpay account.
         
 
 ## How it Works
 
 Below is a diagram of the workflow:
 
-![AVS Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/international-payments-address-verification-system-flow.jpg.md)
+![AVS Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/international-payments-address-verification-system-flow.jpg.md)
 
 ## How Customers Add Card and Address Details at Checkout
 
@@ -71,11 +71,11 @@ Your customers can add their card and address details on the checkout pop-up pag
 
 1. The customer selects `card` as the payment method and enters the credit card details.
     
-    ![Address Verification Service - Customer enters credit card details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/international-payments-avs-checkout-card.jpg.md)
+    ![Address Verification Service - Customer enters credit card details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/international-payments-avs-checkout-card.jpg.md)
     
 2. The customer is asked to enter their billing address. This is a one-time activity and Razorpay will save the address securely. Customer will not be asked to provide the address on repeat transactions.
     
-    ![Address Verification Service - Customer enters address details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/international-payments-avs-address-details.jpg.md)
+    ![Address Verification Service - Customer enters address details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/international-payments-avs-address-details.jpg.md)
     
 3. The Address Verification System matches both addresses. There can be three types of matches:
     - **Complete Match**: The address provided by the customer matches exactly with the address available with the card issuer.

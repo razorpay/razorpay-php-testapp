@@ -45,4 +45,4 @@ You must subscribe to the following Payment and Order webhook events:
 
 ### Related Information
 
-[Webhooks FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/faqs.md)
+[Webhooks FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/faqs.md)

@@ -26,12 +26,12 @@ Google Pay has now added support for all Android users to add debit and credit c
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
 
-![Google Pay via Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-google-pay-workflow1.jpg.md)
+![Google Pay via Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-google-pay-workflow1.jpg.md)
 
 ## Features
 
@@ -67,8 +67,8 @@ Follow these steps to sign up for a business account with Google Pay and complet
 3. Reach out to [Razorpay](https://razorpay.com/support/#request) to enable the Cards on Google Pay feature on your account.
 4. Make necessary changes to your existing integration to support Pay with Google Cards:
   - Android Integration
-    - [Standard Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/google-pay/standard-integration.md)
-    - [Custom Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/google-pay/custom-integration.md)
+    - [Standard Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/google-pay/standard-integration.md)
+    - [Custom Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/google-pay/custom-integration.md)
   - S2S Integration
-    - [JSON API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/google-pay/s2s-integration/json.md)
-    - [Redirect API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/google-pay/s2s-integration/redirect.md)
+    - [JSON API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/google-pay/s2s-integration/json.md)
+    - [Redirect API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/google-pay/s2s-integration/redirect.md)

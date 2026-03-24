@@ -45,39 +45,39 @@ A Payment Gateway creates a secure pathway between a customer and the business t
 You should consider integrating with a payment gateway if you have a **website** or a **mobile app**. 
 
   
-   You can still accept payments by using other Razorpay products such as [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links.md) and [Payment Pages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages.md). Check the list of [no-code apps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/#accept-payments.md) and find the product that best suits your business needs.
+   You can still accept payments by using other Razorpay products such as [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links.md) and [Payment Pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages.md). Check the list of [no-code apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md#accept-payments) and find the product that best suits your business needs.
    
 
    
-  If you are unsure about integrating with Razorpay Gateway, you can use [Razorpay Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button.md). Embed a Payment Button on your website by just adding a couple of lines of code.
+  If you are unsure about integrating with Razorpay Gateway, you can use [Razorpay Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button.md). Embed a Payment Button on your website by just adding a couple of lines of code.
    
 
 ## Types of Checkout
 
 Use this flow to decide whether to use Standard or Custom Checkout. You can also explore other available checkout options.
 
-![Decide which payment gateway or products to use based on the requirements](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pg-to-use.jpg.md)
+![Decide which payment gateway or products to use based on the requirements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pg-to-use.jpg.md)
  
 
     
         - Customise the **Pay** button to fit your business needs using JavaScript-based method. 
         - Offers additional functions to automatically open and close the Checkout. 
         
-        Know more about [Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+        Know more about [Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
     
     
         - Ideal if you want to fully customise your checkout UI. 
         - Design the entire payment flow the way you want.
         
-        Know more about [Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
+        Know more about [Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
     
     
        - Quickly integrate Razorpay Payment Gateway using automatic checkout method (Quick Integration). 
        - **Pay** button is auto-generated and cannot be customised. 
        An HTML-based form with no support for JavaScript customisations. 
-       - For more control on your integration, use [Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+       - For more control on your integration, use [Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
         
-       Know more about [Quick Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/quick-integration.md).
+       Know more about [Quick Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/quick-integration.md).
     
     
       - Use Server-to-Server (S2S) integration to communicate directly with the Razorpay servers and seamlessly integrate the service in your web application. 
@@ -86,7 +86,7 @@ Use this flow to decide whether to use Standard or Custom Checkout. You can also
       - For S2S integration, contact the [Support team](https://razorpay.com/support/).
     
 
-If you prefer not to use a Payment Gateway, explore other [Razorpay Products](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/#accept-payments.md) that align with your business needs.
+If you prefer not to use a Payment Gateway, explore other [Razorpay Products](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md#accept-payments) that align with your business needs.
 
 ## Integrate Payment Gateway - Web, Mobile, Ecommerce Plugins
 
@@ -123,7 +123,7 @@ Razorpay Payment Gateway is supported on the following platforms:
 > Razorpay Checkout is not supported on Internet Explorer or in Internet Explorer mode in Edge.
 > 
 
-You can also view the **supported platforms** for the [other Razorpay products](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/#product-suite.md).
+You can also view the **supported platforms** for the [other Razorpay products](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md#product-suite).
 
 @include payments/platform/my
 
@@ -131,8 +131,8 @@ You can also view the **supported platforms** for the [other Razorpay products](
 
 ### Related Information
 
-- [How Payment Gateway works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md)
-- [Features](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/features.md)
+- [How Payment Gateway works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md)
+- [Features](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/features.md)
 
-- [Set up your Razorpay account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#1-sign-up.md)
-- [List of required KYC documents](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/business-types-kyc-documents.md)
+- [Set up your Razorpay account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#1-sign-up)
+- [List of required KYC documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/business-types-kyc-documents.md)

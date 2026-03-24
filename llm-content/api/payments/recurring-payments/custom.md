@@ -93,7 +93,7 @@ Follow these steps to generate API keys:
 > 
 > **Watch Out!**
 > 
-> - After generating the keys from the Dashboard, download and save them securely. You can use only one set of API keys. If you do not remember your API keys, you must [regenerate them](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#regenerate-api-keys.md) from the Dashboard and update them wherever the previous keys were used for payment gateway integrations. 
+> - After generating the keys from the Dashboard, download and save them securely. You can use only one set of API keys. If you do not remember your API keys, you must [regenerate them](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#regenerate-api-keys) from the Dashboard and update them wherever the previous keys were used for payment gateway integrations. 
 > - API Keys are universal; that is, they are applicable to all websites and apps that you have whitelisted for your Merchant ID.
 > - **Do not share your API Key secret** with anyone or on any public platforms. **This can pose security threats to your Razorpay account**.
 > - Once you generate the API Keys, only the **Key Id** is visible on the Dashboard, **not the Key secret**, as it can pose security threats to your Razorpay account.
@@ -110,11 +110,11 @@ Follow these steps to generate API keys:
       ---
       [Create Authorisation Transaction using Razorpay APIs](/api/payments/recurring-payments/custom/emandate/create-authorization-transaction/#11-using-razorpay-apis) | API to create an authorisation transaction using Razorpay APIs.
       ---
-      [Create Authorisation Transaction using Registration Link](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/emandate/create-authorization-transaction/#12-using-a-registration-link.md) | API to create an authorisation transaction using Registration Link.
+      [Create Authorisation Transaction using Registration Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/emandate/create-authorization-transaction.md#12-using-a-registration-link) | API to create an authorisation transaction using Registration Link.
       ---
-      [Fetch Tokens](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/emandate/tokens.md) | API to fetch tokens.
+      [Fetch Tokens](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/emandate/tokens.md) | API to fetch tokens.
       ---
-      [Create Subsequent Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/emandate/create-subsequent-payments.md) | API to create subsequent payments.
+      [Create Subsequent Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/emandate/create-subsequent-payments.md) | API to create subsequent payments.
       
     
 
@@ -128,9 +128,9 @@ Follow these steps to generate API keys:
       ---
       [Create Authorisation Transaction using Registration Link](/api/payments/recurring-payments/custom/cards/create-authorization-transaction/#12-using-a-registration-link) | API to create an authorisation transaction using Registration Link.
       ---
-      [Fetch Tokens](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/cards/tokens.md) | API to fetch tokens.
+      [Fetch Tokens](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/cards/tokens.md) | API to fetch tokens.
       ---
-      [Create Subsequent Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/cards/create-subsequent-payments.md) | API to create subsequent payments.
+      [Create Subsequent Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/cards/create-subsequent-payments.md) | API to create subsequent payments.
       
     
 
@@ -140,13 +140,13 @@ Follow these steps to generate API keys:
       
       API | Description
       ---
-      [Create Authorisation Transaction using Razorpay APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/paper-nach/create-authorization-transaction/#11-using-razorpay-apis.md) | API to create an authorisation transaction using Razorpay APIs.
+      [Create Authorisation Transaction using Razorpay APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/paper-nach/create-authorization-transaction.md#11-using-razorpay-apis) | API to create an authorisation transaction using Razorpay APIs.
       ---
-      [Create Authorisation Transaction using Registration Link](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/paper-nach/create-authorization-transaction/#12-using-a-registration-link.md) | API to create an authorisation transaction using Registration Link.
+      [Create Authorisation Transaction using Registration Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/paper-nach/create-authorization-transaction.md#12-using-a-registration-link) | API to create an authorisation transaction using Registration Link.
       ---
-      [Fetch Tokens](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/paper-nach/tokens.md) | API to fetch tokens.
+      [Fetch Tokens](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/paper-nach/tokens.md) | API to fetch tokens.
       ---
-      [Create Subsequent Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/paper-nach/create-subsequent-payments.md) | API to create subsequent payments.
+      [Create Subsequent Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/paper-nach/create-subsequent-payments.md) | API to create subsequent payments.
       
     
 
@@ -156,13 +156,13 @@ Follow these steps to generate API keys:
       
       API | Description
       ---
-      [Create Authorisation Transaction using Razorpay APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/upi/create-authorization-transaction/#11-using-razorpay-apis.md) | API to create an authorisation transaction using Razorpay APIs.
+      [Create Authorisation Transaction using Razorpay APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/upi/create-authorization-transaction.md#11-using-razorpay-apis) | API to create an authorisation transaction using Razorpay APIs.
       ---
-      [Create Authorisation Transaction using Registration Link](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/upi/create-authorization-transaction/#12-using-a-registration-link.md) | API to create an authorisation transaction using Registration Link.
+      [Create Authorisation Transaction using Registration Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/upi/create-authorization-transaction.md#12-using-a-registration-link) | API to create an authorisation transaction using Registration Link.
       ---
-      [Fetch Tokens](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/upi/tokens.md) | API to fetch tokens.
+      [Fetch Tokens](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/upi/tokens.md) | API to fetch tokens.
       ---
-      [Create Subsequent Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/upi/create-subsequent-payments.md) | API to create subsequent payments.
+      [Create Subsequent Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/upi/create-subsequent-payments.md) | API to create subsequent payments.
       
     
 
@@ -174,8 +174,8 @@ Follow these steps to generate API keys:
       
       API | Description
       ---
-      [Create Authorisation Transaction using Razorpay APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/upi-tpv/create-authorization-transaction/#11-using-razorpay-apis.md) | API to create an authorisation transaction using Razorpay APIs.
+      [Create Authorisation Transaction using Razorpay APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/upi-tpv/create-authorization-transaction.md#11-using-razorpay-apis) | API to create an authorisation transaction using Razorpay APIs.
       ---
-      [Fetch Tokens](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/upi-tpv/tokens.md) | API to fetch tokens.
+      [Fetch Tokens](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/upi-tpv/tokens.md) | API to fetch tokens.
       ---
-      [Subsequent Payment](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/custom/upi-tpv/create-subsequent-payments.md) | API to create subsequent payment.
+      [Subsequent Payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/custom/upi-tpv/create-subsequent-payments.md) | API to create subsequent payment.

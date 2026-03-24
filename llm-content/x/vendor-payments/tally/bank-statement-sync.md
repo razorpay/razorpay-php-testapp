@@ -30,13 +30,13 @@ Following are the advantages of the bank statement sync flow:
 Enable the Smart Bank Statement setting to sync all the transactions made in RazorpayX to Tally.
 
 1. Navigate to **R:RazorpayX Settings** from your **Gateway of Tally** page. 
-    ![Top-right menu highlighting R:RazorpayX Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/sbs-enable.jpg.md)
+    ![Top-right menu highlighting R:RazorpayX Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/sbs-enable.jpg.md)
 1. Select **Yes** against **Sync Entries from RazorpayX**. This is a one-time process.
-    ![Select Yes in Tally to enable sync](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/sbs-select-yes.jpg.md)
+    ![Select Yes in Tally to enable sync](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/sbs-select-yes.jpg.md)
 
 You have successfully enabled the setting to sync all transactions made in RazorpayX to Tally, regardless of the type of transaction.
 
-Whether you [make a payout](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts#how-to-make-payouts.md), or the money is debited as part of a [payout link](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links.md), payroll, tax payments and more, **all transactions** can be synced in Tally. 
+Whether you [make a payout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#how-to-make-payouts), or the money is debited as part of a [payout link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links.md), payroll, tax payments and more, **all transactions** can be synced in Tally. 
 
 ## Sync Transactions 
 
@@ -51,14 +51,14 @@ After you enable the [sync workflow](#setup-workflow) to allow Tally to sync all
 To sync these transactions in Tally:
 1. Open Tally to show the **Gateway of Tally** page.
 1. Go to **UTILITIES** → **RazorpayX**.
-    ![RazorpayX in utilities in Gateway of Tally menu](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tally-menu.jpg.md)
+    ![RazorpayX in utilities in Gateway of Tally menu](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tally-menu.jpg.md)
 1. In the **RazorpayX** menu, click **RazorpayX Bank Statement**. 
-    ![RazorpayX Bank Statement in RazorpayX menu](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/sbs-bank-statement.jpg.md)
+    ![RazorpayX Bank Statement in RazorpayX menu](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/sbs-bank-statement.jpg.md)
 1. Select **RazorpayX Account** when prompted to **Select Ledger**. The **RX_Statement** page appears. 
 
 You have successfully moved all your transactions from RazorpayX to Tally. On this page, you find the list of transactions taken from all of RazorpayX. They appear marked as **NA___** under the **Particulars** column. 
 
-![Transactions after syncing from RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/txn-after-sync.jpg.md)
+![Transactions after syncing from RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/txn-after-sync.jpg.md)
 
 ## Create Journal Entry 
 
@@ -68,10 +68,10 @@ To create the journal entry:
 
 1. Click on the relevant transaction synced to Tally. The **Accounting Voucher Alteration** page appears.
 1. On this page, check the **Narration** to the bottom-left corner. The narration contains the transaction details you can use as a reference when creating a journal entry.  
-    ![Select relevant incomplete journal entry and create entry using narration as reference.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/sbs-create-journal entry.jpg.md)
+    ![Select relevant incomplete journal entry and create entry using narration as reference.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/sbs-create-journal entry.jpg.md)
 1. Create the journal entries by clicking on the **By** and **To** fields. Map the fields to the entities as present in your ledgers. 
 1. Review your journal entry. Once statisfactory, enter **Yes** against **Convert Voucher & Approval**. You have successfully created and updated the particulars and narration of your journal. You have also booked the entry in Tally.
-    ![After the entry is created, you](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/sbs-create-journal entry.jpg.md)
+    ![After the entry is created, you](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/sbs-create-journal entry.jpg.md)
 1. Go to the **RX_Statement** page. 
 1. Click on **F10:Booked**. It shows all the booked entries in journal. The latest entry you have booked will appear in the booked page. 
 
@@ -84,17 +84,17 @@ To reconcile the entries:
 1. Go to **Gateway of Tally**. 
 1. Navigate to **UTILITIES** → **Banking** → **Bank Reconciliation**. 
 1. Here, select the **Name of the Bank Ledger** as **RazorpayX A/c**.
-    ![Select RazorpayX ledger](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/select-ledger.jpg.md)
+    ![Select RazorpayX ledger](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/select-ledger.jpg.md)
 1. Select the duration for which you want to view the entries by clicking **F2:Period**. 
 1. Select **B:Basis of Values** and click **Include Reconciled transactions** from the drop-down list.
-    ![Select option from the list to show reconciled trasactions](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/include-recon-txn.jpg.md)
+    ![Select option from the list to show reconciled trasactions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/include-recon-txn.jpg.md)
 
 Tally registers the journal entry you have created with all the narration details and context. You do not have to worry about the origin and settlement of the transaction, or contact your Vendors and other entities to help in reconciliation process. 
 
 ### Related Information
 
 - Keyboard shortcuts in [Tally Prime](https://help.tallysolutions.com/tally-prime/keyboard-shortcuts/keyboard-shortcuts-tally-prime/)
-- [Bring bills from RazorpayX to Tally](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally/bring-bills.md)
+- [Bring bills from RazorpayX to Tally](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally/bring-bills.md)
 - Sync Vouchers in RazorpayX
-   - [Purchase Vouchers](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally/sync-purchase-vouchers.md)
-   - [Payment Vouchers](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally/sync-payment-vouchers.md)
+   - [Purchase Vouchers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally/sync-purchase-vouchers.md)
+   - [Payment Vouchers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally/sync-payment-vouchers.md)

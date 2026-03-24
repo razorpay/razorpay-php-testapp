@@ -52,7 +52,7 @@ To enable international payments for the first time, place a request from the Da
          1. Log in to the Dashboard.
          2. Navigate to **Account & Settings** → **International payments** (under Payment methods).
          3. Click **Activate** to enable the International cards.
-            ![Request activation for international card payments](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/international-cards-activate.jpg.md)
+            ![Request activation for international card payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/international-cards-activate.jpg.md)
          4. Follow the on-screen instructions to provide any additional details or documentation required for activation.
 
          
@@ -78,4 +78,4 @@ You can disable the **International payments** option on your account from your 
 1. Log in to the Dashboard.
 2. Navigate to **Account & Settings** → **International payments** (under Payment methods).
 3. Use the toggle button to enable or disable international card payments.
-  ![Disable international card payments](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/disable-international-cards.jpg.md)
+  ![Disable international card payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/disable-international-cards.jpg.md)

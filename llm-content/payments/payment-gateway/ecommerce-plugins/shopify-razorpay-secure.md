@@ -14,7 +14,7 @@ Razorpay Shopify integration allows you to accept payments on your Shopify store
 
 - Sign up for a .
 - Sign up for a [Shopify account](https://www.shopify.in).
-- [Ensure that your website](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/faqs/#10-i-am-getting-the-following-error-message.md) is reviewed before initiating integration with Shopify.
+- [Ensure that your website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/faqs.md#10-i-am-getting-the-following-error-message) is reviewed before initiating integration with Shopify.
 - A Razorpay Account with access to the account owner’s credentials. (Only owners can connect Razorpay with Shopify, and API keys are not required for integration.)
 
 > **WARN**
@@ -28,7 +28,7 @@ Razorpay Shopify integration allows you to accept payments on your Shopify store
 
 ## Integration Steps
 
-Check the integration steps to [integrate your Shopify website with the Razorpay Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps.md).
+Check the integration steps to [integrate your Shopify website with the Razorpay Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps.md).
 
 ## Support
 

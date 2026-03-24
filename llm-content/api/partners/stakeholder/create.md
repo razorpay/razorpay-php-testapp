@@ -8,7 +8,7 @@ description: Create a Stakeholder using Razorpay Partners APIs.
 
 ## Create a Stakeholder
 
-Use this API endpoint to create a stakeholder. Know about the [various error responses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md) for this API.
+Use this API endpoint to create a stakeholder. Know about the [various error responses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md) for this API.
 
 ### Request
 
@@ -338,7 +338,7 @@ Stakeholder stakeholder = client.Stakeholder.Create(accountId, StakeRequest);
         : `string` The postal code. The minimum length is 2 and maximum length is 10.
          
         `country` _optional_
-        : `string` The country. The minimum length is 2 and maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#country-list.md).
+        : `string` The country. The minimum length is 2 and maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#country-list).
 
 `kyc` _conditional_
 : `object` The type of document required to establish the stakeholder's identity.
@@ -410,7 +410,7 @@ Stakeholder stakeholder = client.Stakeholder.Create(accountId, StakeRequest);
         : `string` The postal code. The minimum length is 2 and maximum length is 10.
 
         `country`
-        : `string` The country. The minimum length is 2 and maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#country-list.md).
+        : `string` The country. The minimum length is 2 and maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#country-list).
 
 `kyc`
 : `object` The type of document required to establish the stakeholder's identity.

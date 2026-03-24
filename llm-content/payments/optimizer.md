@@ -33,7 +33,7 @@ You can create different rules based on various parameters, like payment methods
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -58,9 +58,9 @@ If you are an existing Razorpay customer, there is no need to worry about any te
 > 
 
 ## Supported Payment Methods
-Razorpay Optimizer supports a variety of payment methods, including cards, UPI, netbanking, Sodexo Meal Cards, and Emandate, through multiple aggregators and banks. Know more more about [supported payment methods, providers and banks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md).
+Razorpay Optimizer supports a variety of payment methods, including cards, UPI, netbanking, Sodexo Meal Cards, and Emandate, through multiple aggregators and banks. Know more more about [supported payment methods, providers and banks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md).
 
-Razorpay also supports international payments on Optimizer. Know more more about [international payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/supported-gateways-aggregators/#international-payments.md).
+Razorpay also supports international payments on Optimizer. Know more more about [international payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md#international-payments).
 
 ## Supported Platforms
 
@@ -83,15 +83,15 @@ Razorpay Optimizer is supported on the following platforms:
 
 ## What Next
 
-Understand how to [get started with Razorpay Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/get-started.md).
+Understand how to [get started with Razorpay Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/get-started.md).
 
 ### Related Information
 
-- [Get Started with Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/get-started.md)
-- [Add a Payment Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/add-payment-providers.md)
-- [Dynamic Routing](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/dynamic-routing.md)
-- [Supported Gateways and Aggregators](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md)
-- [SR Analytics Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/success-rate.md)
-- [Single Reconciliation View](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/reconciliation.md)
-- [Roles and Permissions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/roles-and-permissions.md)
-- [Tokenisation for Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/tokenisation.md)
+- [Get Started with Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/get-started.md)
+- [Add a Payment Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/add-payment-providers.md)
+- [Dynamic Routing](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/dynamic-routing.md)
+- [Supported Gateways and Aggregators](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md)
+- [SR Analytics Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/success-rate.md)
+- [Single Reconciliation View](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/reconciliation.md)
+- [Roles and Permissions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/roles-and-permissions.md)
+- [Tokenisation for Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/tokenisation.md)

@@ -16,7 +16,7 @@ The following guide provides a checklist of prerequisite steps and best practice
 > 
 > **Watch Out!**
 > 
-> Automated Professional Tax (PT) payments for employees in Karnataka are temporarily unavailable on Payroll. Know more about the [PT rule change](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/faqs/#professional-tax.md).
+> Automated Professional Tax (PT) payments for employees in Karnataka are temporarily unavailable on Payroll. Know more about the [PT rule change](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/faqs.md#professional-tax).
 > 
 
     
@@ -28,11 +28,11 @@ The following guide provides a checklist of prerequisite steps and best practice
                 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
                 1. Navigate to **ADMIN OPTIONS** → **People**. 
                 1. Click **Add One** to add an individual employee, or **Add Multiple** to add multiple employees. You can also invite your employees using their email ids using **Invite many**.
-                    ![Add employees on RazorpayX Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-add-emp.jpg.md)
+                    ![Add employees on RazorpayX Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-add-emp.jpg.md)
                 1. Enter the employees' information such as joining date, authorised email id, salary information and more. 
                 1. Click **CONTINUE**. 
 
-            You have successfully added employees/contractors to the Dashboard. Your employees can complete their [onboarding and profile set up](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/#employee-onboarding.md) using the welcome mail they receive at their registered email id. 
+            You have successfully added employees/contractors to the Dashboard. Your employees can complete their [onboarding and profile set up](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md#employee-onboarding) using the welcome mail they receive at their registered email id. 
 
             
 > **WARN**
@@ -40,7 +40,7 @@ The following guide provides a checklist of prerequisite steps and best practice
 > 
 >             **Watch Out!**
 > 
->             Sometimes your employees may not be added to your system due to operational discrepancies like [not receiving the welcome mail](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator/#welcome-mail.md). Re-trigger a welcome mail or invite them to your company and payroll system.
+>             Sometimes your employees may not be added to your system due to operational discrepancies like [not receiving the welcome mail](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#welcome-mail). Re-trigger a welcome mail or invite them to your company and payroll system.
 >             
 
         
@@ -48,7 +48,7 @@ The following guide provides a checklist of prerequisite steps and best practice
     
 ### Enable Compliances
 
-         Update your organisation's compliance details as applicable. We support and automate many monthly [statutory compliance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md) payments. 
+         Update your organisation's compliance details as applicable. We support and automate many monthly [statutory compliance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md) payments. 
 
         To enable compliances applicable:
 
@@ -57,7 +57,7 @@ The following guide provides a checklist of prerequisite steps and best practice
         1. Click **Provident Fund / ESIC / Professional Tax / LWF** → **EDIT** and enable compliances from the respective drop-down menu as applicable.
         1. Click **CONTINUE** to save the changes.
 
-            ![Changing compliance settings like PF and external credentials in Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-payroll-enable-compliances.jpg.md)
+            ![Changing compliance settings like PF and external credentials in Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-payroll-enable-compliances.jpg.md)
 
         If you want us to handle your external compliances, connect your Payroll account to your compliance portals as applicable.
 
@@ -65,7 +65,7 @@ The following guide provides a checklist of prerequisite steps and best practice
         1. Enter the user ids and passwords to authenticate your credentials. 
         1. Click **CONTINUE** to save the changes.
 
-        You have successfully enabled the applicable compliances. Know more about [compliance payments and automation](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md). 
+        You have successfully enabled the applicable compliances. Know more about [compliance payments and automation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md). 
         
 
     
@@ -82,19 +82,19 @@ The following guide provides a checklist of prerequisite steps and best practice
          1. Navigate to **Company Details** → **Name & Address** → **EDIT**. 
          1. Upload the photograph and click **PREVIEW**.
 
-            ![Upload Company Logo under Company Details in Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-upload-logo.jpg.md)
+            ![Upload Company Logo under Company Details in Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-upload-logo.jpg.md)
         
 
     
 ### Setup Default Salary Structure
 
-         See [default salary structure](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary/#setup-salary-structure.md) set up.
+         See [default salary structure](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md#setup-salary-structure) set up.
         
 
     
 ### Check for Missing Information
 
-         Before you [execute payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/execute-payroll.md), ensure you your employees' data is available and up-to-date.
+         Before you [execute payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/execute-payroll.md), ensure you your employees' data is available and up-to-date.
 
          To check for missing information:
 
@@ -105,7 +105,7 @@ The following guide provides a checklist of prerequisite steps and best practice
 
             Your employee/s receive an email at their registered email address to update their missing information. 
 
-            ![Missing Information settings in Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-missing-info.jpg.md)
+            ![Missing Information settings in Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-missing-info.jpg.md)
         
 
     
@@ -119,13 +119,13 @@ The following guide provides a checklist of prerequisite steps and best practice
             1. Navigate to **ADMIN OPTIONS** → **Reports**.
             1. Select **Salary Register** and select the relevant month. You can filter the information, download the payslips for that month and download the data as a .CSV file to process the data better. 
 
-            ![Salary Register in Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-check-salary-register.jpg.md)
+            ![Salary Register in Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-check-salary-register.jpg.md)
         
 
     
 ### Employee Tax Declarations
 
-         You must ask your employees to update their tax deductions and declarations on the [Employee Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations.md). 
+         You must ask your employees to update their tax deductions and declarations on the [Employee Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations.md). 
 
          Employees must navigate to **Tax Deductions** on their Dashboard to update their tax details and minimise their deductible taxes. 
         
@@ -163,7 +163,7 @@ With all of the above done, your account is completely set up to process payroll
 
 ### Related Information
 
-- [Execute Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/execute-payroll.md)
-- [Statutory Compliance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md)
-- [Administrative Role](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator.md)
-- [Salary](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary.md)
+- [Execute Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/execute-payroll.md)
+- [Statutory Compliance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md)
+- [Administrative Role](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md)
+- [Salary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md)

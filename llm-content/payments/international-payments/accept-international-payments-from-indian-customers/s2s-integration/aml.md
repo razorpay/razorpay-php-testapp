@@ -21,7 +21,7 @@ Razorpay offers two Anti-Money Laundering (AML) solutions—Basic AML and Smart 
 
 Basic AML enables you to proactively provide additional customer information with every order, thereby reducing the likelihood that it will be flagged for AML review.
 
-You need to pass a few additional parameters related to AML in the Orders API. There is no other change in the rest of the [S2S integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/s2s-integration/build-integration.md).
+You need to pass a few additional parameters related to AML in the Orders API. There is no other change in the rest of the [S2S integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/s2s-integration/build-integration.md).
 
     
 ### Sample Code
@@ -1034,7 +1034,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
     
 ### Step 4: Create a Payment
 
-Once the order is created, pass the order_id from the Orders API response to the [Create a Payment API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/s2s-integration/build-integration/#13-create-a-payment.md).
+Once the order is created, pass the order_id from the Orders API response to the [Create a Payment API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/s2s-integration/build-integration.md#13-create-a-payment).
         
 
 ### S2S API Integration with Automatic Order Failure
@@ -1065,4 +1065,4 @@ For further assistance, reach out to our [Support team](https://razorpay.com/sup
 
 ### Related Information
 
-[Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/s2s-integration/test-integration.md)
+[Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/s2s-integration/test-integration.md)

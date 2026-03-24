@@ -42,7 +42,7 @@ description: Find answers to frequently asked questions about Razorpay Payments.
     
 ### 2. How can we test our website or mobile app integration with Razorpay Payment Gateway?
 
-         Razorpay offers a sandbox environment where you can test integrations before going live. To test your integration, [generate test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) in test mode and implement them in your code. Test mode may include OTP verification for certain payment methods to replicate the live payment experience. No money is deducted as these are simulated transactions.
+         Razorpay offers a sandbox environment where you can test integrations before going live. To test your integration, [generate test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) in test mode and implement them in your code. Test mode features a mock bank page with **Success** and **Failure** buttons to replicate the live payment experience. No money is deducted as these are simulated transactions.
         
 
     
@@ -55,8 +55,8 @@ description: Find answers to frequently asked questions about Razorpay Payments.
 ### 4. How do I manually capture a payment?
 
          You can manually capture payments:
-         - [From the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings/#manually-capture-payments.md)
-         - [Using APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#capture-a-payment.md)
+         - [From the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md#manually-capture-payments)
+         - [Using APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment)
         
 
     
@@ -87,4 +87,4 @@ description: Find answers to frequently asked questions about Razorpay Payments.
 ### 8. What is Late Authorisation?
 
  
-         Late authorisation is a situation that arises when a payment is interrupted by external factors such as network issues or technical errors at customer's or bank's end. In such cases, funds may or may not get debited from the customer's bank account and Razorpay does not receive a payment status from the bank. Know more about [ Late Authorisation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/late-authorisation.md).
+         Late authorisation is a situation that arises when a payment is interrupted by external factors such as network issues or technical errors at customer's or bank's end. In such cases, funds may or may not get debited from the customer's bank account and Razorpay does not receive a payment status from the bank. Know more about [ Late Authorisation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/late-authorisation.md).

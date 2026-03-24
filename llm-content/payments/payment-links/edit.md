@@ -31,11 +31,11 @@ To disable reminders by editing Payment Link:
 ## Edit a Payment Link Using API
 
 You can edit a Payment Link using:
-- [Update a Standard Payment Link API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/update-standard.md)
-- [Update a UPI Payment Link API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/update-upi.md)
+- [Update a Standard Payment Link API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links/update-standard.md)
+- [Update a UPI Payment Link API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links/update-upi.md)
 
 #### Related Information
 
-- [Create a Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/create.md)
+- [Create a Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/create.md)
 
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/faqs.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/faqs.md)

@@ -12,7 +12,7 @@ description: Find answers to frequently asked questions about Recurring Payments
 
          Following is the registration flow of the NPCI ENACH:
 
-         ![NPCI eNACH registration flow diagram](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/enach-registration.jpg.md)
+         ![NPCI eNACH registration flow diagram](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/enach-registration.jpg.md)
         
 
     
@@ -95,9 +95,9 @@ description: Find answers to frequently asked questions about Recurring Payments
          For all mandates registered under ENACH, NPCI offers a facility to cancel the mandates which are either not in use or are requested by the customers to be cancelled.
 
          You can initiate cancellation and track the status by following these steps:
-          - Delete the mandate token using [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create/#delete-the-token.md) or [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/emandate/tokens/#23-delete-tokens.md). 
+          - Delete the mandate token using [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#delete-the-token) or [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/emandate/tokens.md#23-delete-tokens). 
           - Razorpay will initiate cancellation for the deleted tokens on the next working day.
-          - On acknowledgement from NPCI for cancellation, you will receive a 'Token Cancelled' [webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/webhooks/#token-cancelled.md), which can be taken as a confirmation of mandate cancellation.
+          - On acknowledgement from NPCI for cancellation, you will receive a 'Token Cancelled' [webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#token-cancelled), which can be taken as a confirmation of mandate cancellation.
             
             ![](/docs/assets/images/emandate-faq-5.jpg)
         
@@ -107,7 +107,7 @@ description: Find answers to frequently asked questions about Recurring Payments
 
          Razorpay will take care of your scheduled debits if you use our Subscriptions services.
 
-         Know more about [Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md).
+         Know more about [Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md).
         
 
     
@@ -159,7 +159,7 @@ description: Find answers to frequently asked questions about Recurring Payments
     
 ### 12. Which banks are supported for Emandates?
 
-         You can refer to the [Supported Banks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/supported-banks.md) page for the list of supported banks for Emandates.
+         You can refer to the [Supported Banks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/supported-banks.md) page for the list of supported banks for Emandates.
         
 
     
@@ -321,11 +321,11 @@ description: Find answers to frequently asked questions about Recurring Payments
     
 ### 10. The payment status for debit presentment says `authorized` and I have not received a settlement for this payment yet. Why?
 
-         Payments have to be `captured` for the corresponding settlement to take place. You can manually capture the payment from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings/#manually-capture-payments.md).
+         Payments have to be `captured` for the corresponding settlement to take place. You can manually capture the payment from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md#manually-capture-payments).
 
          Alternatively, to avoid manual dependency, you can enable Auto Capture for all your payments from the Dashboard.
 
-         Know more about [Capture Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings/#auto-capture-all-payments.md).
+         Know more about [Capture Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md#auto-capture-all-payments).
         
 
     

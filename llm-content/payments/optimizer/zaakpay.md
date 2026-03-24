@@ -30,12 +30,12 @@ Follow the steps below to onboard ZaakPay as a payment provider.
             2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
             3. In the top-right section, click **Add Provider**.
             4. Select **ZaakPay** in the list of gateways available.
-                 ![Add Easebuzz](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-zaakpay-add.jpg.md)
+                 ![Add Easebuzz](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-zaakpay-add.jpg.md)
             5. Enter the Provider Name and Description and click **Next**.
-                 ![Add Easebuzz provider details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-zaakpay-add-provider.jpg.md)
+                 ![Add Easebuzz provider details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-zaakpay-add-provider.jpg.md)
             6. Enter your **Encryptionkeyid**, **Key**, **Publiccertkey** and **Salt** details.
             7. Select the **Payment Methods** you want to enable for ZaakPay and click **Submit**.
-                 ![Add Easebuzz final details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-zaakpay-final.jpg.md)
+                 ![Add Easebuzz final details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-zaakpay-final.jpg.md)
             You have successfully added **ZaakPay** as a payment provider on Optimizer.
         
 
@@ -56,7 +56,7 @@ Wallet | Live
 > 
 > **Handy Tips**
 > 
-> ZaakPay supports [Third-Party Validation (TPV)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/third-party-validation/#supported-bank-gateways-payment-gateways-and-payment-methods.md).
+> ZaakPay supports [Third-Party Validation (TPV)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/third-party-validation.md#supported-bank-gateways-payment-gateways-and-payment-methods).
 > 
 
 ## Best Practices
@@ -88,11 +88,11 @@ Before routing all traffic or some traffic to a new gateway via Optimizer, the f
             - In **Parameter** field, select **Amount (In Rupees)**.
             - In **Select Connection** field, select **Less Than**.
             - In **Enter Amount** field, enter the value 2 and click **Next**.
-            ![Add Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-rule.jpg.md)
+            ![Add Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-rule.jpg.md)
         5. Enter the value 100 in the **Route field**, select **ZaakPay** in the **Payment Via** field, and click **Next**.
-            ![target Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/zaakpay-target-provider.jpg.md)
+            ![target Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/zaakpay-target-provider.jpg.md)
         6. Click **Publish Rule**.
-            ![Publish Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/zaakpay-publish-rule.jpg.md)
+            ![Publish Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/zaakpay-publish-rule.jpg.md)
         
 
 ## Go Live

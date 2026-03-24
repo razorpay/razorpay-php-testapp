@@ -10,7 +10,7 @@ description: Learn how to facilitate BharatQR-based payments on your mobile app 
 > 
 > **Watch Out!**
 > 
-> We have discontinued onboarding new users for BharatQR. The service is now limited to existing users only. If you are a new user, we encourage you to check out our alternative offering of [UPI QR Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes#create-a-qr-code.md). 
+> We have discontinued onboarding new users for BharatQR. The service is now limited to existing users only. If you are a new user, we encourage you to check out our alternative offering of [UPI QR Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes.md#create-a-qr-code). 
 > 
 
 With the advent of digital payments, several businesses in India have moved from traditional methods such as NEFT and IMPS to more advanced solutions such as UPIs and wallets due to its scalability, mobile-friendliness, and quicker processing time.
@@ -23,7 +23,7 @@ BharatQR is a secured payment collection method that facilitates merchant-to-per
 
 A QR (Quick Response) code is an information matrix in a machine-readable format containing the required details to accept payments from customers. BharatQR code accommodates information such as your name, contact address, business name, destination bank details and so on. This is how a sample QR code looks like:
 
-![BharatQR Title Image](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bharatqr.jpg.md)
+![BharatQR Title Image](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bharatqr.jpg.md)
 
 ## How it Works
 
@@ -31,7 +31,7 @@ BQR was built from the ground up keeping mobility around virtual account transac
 
 In a BQR-based payment setting, a customer uses a BQR-enabled mobile app to scan a BQR code deployed on the merchant store. Upon a successful scan, customer is redirected to a checkout page where they enter their card details and proceeds with the payment for the charged amount. Once the payment is complete, both merchant and customer are notified of the payment status. Once the payment is successfully authorized and captured it is settled to your bank account as per your settlement schedule.
 
-![BharatQR workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bharatqr-workflow.jpg.md)
+![BharatQR workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bharatqr-workflow.jpg.md)
 
 The supported payment schemes include:
 - UPI

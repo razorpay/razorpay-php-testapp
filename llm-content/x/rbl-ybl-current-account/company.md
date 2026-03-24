@@ -40,7 +40,7 @@ SL. No. | Forms
 
 SL. No. | Documents
 ---
-1 | [KYC documents ](@/Applications/MAMP/htdocs/new-docs/llm-content/x/rbl-ybl-current-account/cif.md) of all Authorised Signatories
+1 | [KYC documents ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/rbl-ybl-current-account/cif.md) of all Authorised Signatories
 ---
 2 | Memorandum of Association (MoA) & Articles of Association (AoA).
 ---
@@ -57,7 +57,7 @@ SL. No. | Documents
 ---
 6 | GST registration certificate in the name of the company.
 ---
-7 | Valid address proof in the name of the entity, **if address is not available or is incomplete in the above documents**. [Proof of Company Address ](@/Applications/MAMP/htdocs/new-docs/llm-content/x/rbl-ybl-current-account/company/kyc/#proof-of-company-address-any-1.md) (any one).
+7 | Valid address proof in the name of the entity, **if address is not available or is incomplete in the above documents**. [Proof of Company Address ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/rbl-ybl-current-account/company/kyc.md#proof-of-company-address-any-1) (any one).
 ---
 8| Latest list of directors / List of directors downloaded from The Ministry of Corporate Affairs (MCA) site dated and signed by the company secretary or managing director or at least 2 directors. If the board resolution of the company gives authority to any director(s), to sign singly on any documents being submitted to the bank, then the said director(s) can sign the latest list of directors.
 ---
@@ -67,7 +67,7 @@ SL. No. | Documents
 ---
 11 | A cheque of minimum ₹20,000 in the entity's name. If there are any transfer or currency conversion charges, the cheque amount should be higher to ensure at least ₹20,000 is credited to the new account after all deductions. For example, if the charges are ₹1,500, write a cheque for ₹21,500.
 
-[ Download all forms and documents](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x_ca_docs-public-limited-updated190422.zip.md)
+[ Download all forms and documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x_ca_docs-public-limited-updated190422.zip.md)
 
 ## Related Information
 

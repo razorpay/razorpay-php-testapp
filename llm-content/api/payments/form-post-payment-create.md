@@ -7,7 +7,7 @@ description: Collect payment details from your customers as Form attributes usin
 
 While accepting payments from your customers, you can collect the payment details as form attributes. The collected payment information can be submitted directly to our Payments API.
 
-If you want to securely store the sensitive data entered by the customers, please use [ Razorpay Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+If you want to securely store the sensitive data entered by the customers, please use [ Razorpay Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
 
 > **WARN**
 >
@@ -49,11 +49,11 @@ A successful payment with `200 OK` status contains the following response:
 
 `razorpay_order_id`
 : `string` Unique identifier of the order.
- Displayed only if you have implemented [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md) at your server-side.
+ Displayed only if you have implemented [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md) at your server-side.
 
 `razorpay_signature`
 : `string` A hexadecimal string that indicates that the callback is sent by Razorpay.
- Validate the `razorpay_signature` at your end as described [here](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps#15-verify-payment-signature.md).
+ Validate the `razorpay_signature` at your end as described [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#15-verify-payment-signature).
 
 ```json: Callback Response
 {
@@ -66,7 +66,7 @@ A successful payment with `200 OK` status contains the following response:
 
 These validation errors are seen when erroneous parameters are passed in the request. For example, invalid currency or wrong card number.
 
-Know more about [error codes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#error-codes.md).
+Know more about [error codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#error-codes).
 
 A sample validation error with `400 Bad Request` contains the following response:
 
@@ -96,7 +96,7 @@ error[code]
 error[description]
 : Payment failed
 
-Know more about [error codes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/#error-codes.md).
+Know more about [error codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md#error-codes).
 
 > **INFO**
 >

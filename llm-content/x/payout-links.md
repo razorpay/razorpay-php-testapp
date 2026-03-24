@@ -8,7 +8,7 @@ description: Explore RazorpayX Payout Links, customise branding and see how you 
 
 RazorpayX Payout Links is an easy way to send funds to anyone, especially when you do not have their bank account details. You just need to enter the recipient's name, phone number or email, and the amount to be paid to create a Payout Link.
 
-RazorpayX then sends them a link where the [Contact](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts.md) can then enter their account details (bank account or UPI ID). Once we get their verified account details, we transfer the amount. 
+RazorpayX then sends them a link where the [Contact](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md) can then enter their account details (bank account or UPI ID). Once we get their verified account details, we transfer the amount. 
 
 Know more about [how Payout Links work](#how-it-works) and their [use cases](#use-cases).
 
@@ -17,7 +17,7 @@ Know more about [how Payout Links work](#how-it-works) and their [use cases](#us
 > 
 > **Watch Out!**
 > 
-> - Allowlisting your IP is mandatory for using the Payout Link APIs. Know how to [allowlist your IP](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/allowlist-ip.md).
+> - Allowlisting your IP is mandatory for using the Payout Link APIs. Know how to [allowlist your IP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/allowlist-ip.md).
 > - Allowlisting is not required for creating Payout Links from the Dashboard.
 > 
 > 
@@ -26,7 +26,7 @@ Know more about [how Payout Links work](#how-it-works) and their [use cases](#us
 
 To make a payout using a Payout Link:
 
-1. [Create a Payout Link](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/create.md) by entering:
+1. [Create a Payout Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/create.md) by entering:
         - Contact details such as name, phone number, email and type
         - Amount
         - Currency
@@ -34,7 +34,7 @@ To make a payout using a Payout Link:
 1. The Contact provides their account details where they want to receive the payout. This creates a Fund account for the Contact.
 1. The Payout amount is transferred to the Fund account created via the details provided by your Contact. The Contact receives the payout amount. 
 
-![Creating Payout Links process, describing the above process](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-payout_links_flow.jpg.md)
+![Creating Payout Links process, describing the above process](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-payout_links_flow.jpg.md)
 
 ## Supported Payout Modes
 
@@ -58,7 +58,7 @@ The end recipients can add any bank account details to receive the funds; there 
 
 You can choose to process Payout Links from your account using only **one particular mode**. For example, you can choose your Payout Links to debit the amount for your account balance using `NEFT` only. 
 
-To do this, [contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md) and request the feature. The configured mode will be used to process all payouts made via links from your account. 
+To do this, [contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md) and request the feature. The configured mode will be used to process all payouts made via links from your account. 
 
 > **WARN**
 >
@@ -91,7 +91,7 @@ For any ecommerce business, Cash on Delivery (CoD) is one of the major modes of 
 
 Whenever a CoD order is returned, businesses typically have to reach out to the customer to get their bank account details to refund the order.
 
-With Payout Links, you just send a Payout Link to your Contact and they can use it to get their refund in their preferred fund account. You can set up the [Shopify Payout Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/shopify.md) integration and simplify refunds for your business. 
+With Payout Links, you just send a Payout Link to your Contact and they can use it to get their refund in their preferred fund account. You can set up the [Shopify Payout Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/shopify.md) integration and simplify refunds for your business. 
 
 ### Security Deposit Refunds for Rental Businesses
 
@@ -128,7 +128,7 @@ You can customise your branding in two ways:
             1. On your Dashboard, go to the More Options menu (⋮) next to **+PAYOUT LINK**. 
             1. Click **User Guide** to open the **Get Started** section at the top.
             1. Select the **Set Up Payout Links** option and click **EDIT BRANDING**. 
-        ![Payout Links Dashboard on RazorpayX to customise branding](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payout-links-customise-process.jpg.md)
+        ![Payout Links Dashboard on RazorpayX to customise branding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payout-links-customise-process.jpg.md)
         It opens the RazorpayX settings page where you can edit your account and organisation's branding, as shown.
     
 
@@ -140,10 +140,10 @@ You can customise your branding in two ways:
 
 Here is how your Payout Link appears after customising.
 
-![Customise the look and feel of the Payout Link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payout-link-customise.jpg.md)
+![Customise the look and feel of the Payout Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payout-link-customise.jpg.md)
 
 ### Related Information
 
-- [Create Payout Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/create.md) 
-- [Payout Links API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payout-links.md)
-- [Payout Link Life Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/life-cycle.md)
+- [Create Payout Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/create.md) 
+- [Payout Links API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payout-links.md)
+- [Payout Link Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/life-cycle.md)

@@ -12,7 +12,7 @@ You can manage default configurations that apply across your Billme account or s
 ## Bill Explicit
 
 You can configure billing notifications from this page. You can also add default or custom messages to be sent with the bill.
-![Bill Explicit Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bill-explicit-settings.jpg.md)
+![Bill Explicit Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bill-explicit-settings.jpg.md)
 
 ## DLT Settings
 
@@ -26,7 +26,7 @@ You can upload, search, view and delete Sender id. You can see following details
 - Sender ID Description
 - Created Date
 
-![DLT Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dlt-settings.jpg.md)
+![DLT Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dlt-settings.jpg.md)
 
 ### Templates
 
@@ -41,10 +41,10 @@ The **Templates** table appears with the following details:
 - Template body
 - Created Date
 
-![Templates Page DLT Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/templates-dlt-settings.jpg.md)
+![Templates Page DLT Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/templates-dlt-settings.jpg.md)
 
 ## Consumer Profiling
 
 You can configure the fields for collection of customer data. You can also specify the number of fields.
 
-![Consumer Profiling Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/consumer-profiling-settings.jpg.md)
+![Consumer Profiling Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/consumer-profiling-settings.jpg.md)

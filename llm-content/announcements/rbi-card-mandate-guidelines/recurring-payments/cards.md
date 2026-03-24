@@ -5,7 +5,7 @@ description: Check the banks that are going live on cards, existing mandates man
 
 # Cards Go Live on Recurring Payments
 
-The [RBI issued a new circular](@/Applications/MAMP/htdocs/new-docs/llm-content/announcements/rbi-card-mandate-guidelines/recurring-payments.md) on March 31, 2021 for banks to authorise mandates and collect recurring payments on credit, debit, and prepaid cards. According to the circular, all issuing banks must comply with the new guidelines. As a result, Cards as a payment method has been at a standstill since April 2021.
+The [RBI issued a new circular](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/rbi-card-mandate-guidelines/recurring-payments.md) on March 31, 2021 for banks to authorise mandates and collect recurring payments on credit, debit, and prepaid cards. According to the circular, all issuing banks must comply with the new guidelines. As a result, Cards as a payment method has been at a standstill since April 2021.
 
 Certain banks have now complied with the new RBI guidelines and can use Cards as a payment method to process recurring payments. The following FAQs provide more information about such banks and our efforts to help businesses process recurring payments without any issues.
 
@@ -15,7 +15,7 @@ Given below are some of the frequently asked questions.
 
 #### 1. Which banks have enabled Recurring Payments through Cards?
 
-Refer to the [list of banks that support cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/cards/supported-banks.md).
+Refer to the [list of banks that support cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/cards/supported-banks.md).
 
 > **WARN**
 >
@@ -63,13 +63,13 @@ We will migrate existing credit card tokens of OneCard bank by September 30, 202
 > All the card tokens of banks that are not live will be in `paused` state from October 1, 2021. You will not be able to debit these mandates. Do reach out to your customers in advance and register new mandates using alternate payment methods such as UPI or Emandate.
 > 
 
-> Refer to the [Recurring Payments document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments.md) for more information on payment methods.
+> Refer to the [Recurring Payments document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments.md) for more information on payment methods.
 > 
 
 > Alternatively, you can also use Payment Links from the Dashboard or mobile application and collect payment from customers on the due date.
 > 
 
-> Refer to the [Payment Link document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links.md) for more information.
+> Refer to the [Payment Link document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links.md) for more information.
 > 
 
 #### 5. How can I get to know the status of tokens?
@@ -92,7 +92,7 @@ Watch the animation below for steps to check token status.
 
 There are no changes in the existing integration flow. However, we have added a few optional token parameters to the **Create Order API**. If these parameters are not passed in the request, then the default values are assumed.
 
-Refer to the [Recurring Payments API document](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/cards/create-authorization-transaction/#112-create-an-order.md) for more information on changes.
+Refer to the [Recurring Payments API document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/cards/create-authorization-transaction.md#112-create-an-order) for more information on changes.
 
 #### 7. Are there any changes in turnaround time (TAT) for registering mandates and for processing debits?
 
@@ -152,7 +152,7 @@ Yes, cardholders can pause, resume and cancel card tokens from the portal provid
 
 #### 14. Can businesses cancel card tokens?
 
-Yes, businesses can cancel card tokens by deleting them. Tokens can be deleted either from the [dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create/#delete-the-token.md) or using [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/cards/tokens/#23-delete-tokens.md).
+Yes, businesses can cancel card tokens by deleting them. Tokens can be deleted either from the [dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#delete-the-token) or using [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/cards/tokens.md#23-delete-tokens).
 
 #### 15. Is it possible to skip the MandateHQ summary screen that appears before the bank page while making a transaction?
 

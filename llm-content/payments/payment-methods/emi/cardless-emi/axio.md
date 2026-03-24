@@ -29,11 +29,11 @@ Customers select the products on your website or app and proceed to Checkout. On
 
 1. Enter their **Phone Number** and click **Continue**.
 1. Select **EMI** as the payment method.
-    ![Select emi payment option on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-options-card.jpg.md)
+    ![Select emi payment option on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-options-card.jpg.md)
 1. Select **Cardless and Others**.
-    ![Select Cardless and Others](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-select-cardless.jpg.md)
+    ![Select Cardless and Others](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-select-cardless.jpg.md)
 1. Select **axio** as the Cardless EMI service provider.
-    ![Select axio payment instrument](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/select-axio-cardless.jpg.md)
+    ![Select axio payment instrument](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/select-axio-cardless.jpg.md)
 1. An OTP is sent on their registered mobile numbers to authenticate the customer account. They enter the OTP and click **Verify**.
 1. To complete the KYC verification, they enter their PAN and date of birth and click **Continue**.
 1. They enter their Aadhaar card number and click **GET OTP**. An OTP is sent to the mobile number and email address registered with their Aadhaar.
@@ -49,14 +49,14 @@ Customers select the products on your website or app and proceed to Checkout. On
 >     
 
 1. The EMI options are displayed to the customers. They can select the tenure and click **Select Plan**.
-    ![EMI options select Plan](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/axio-select-plan.jpg.md)
+    ![EMI options select Plan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/axio-select-plan.jpg.md)
 1. Customers make a down payment using the UPI payment method. A UPI collect request is sent to the customer. They can use their UPI PSP app to complete the payment.
 
 You will receive the entire transaction amount from axio. Depending on the terms and conditions, the customer pays the total order amount with additional interest (if any) as EMIs to axio.
 
 ## Standard Checkout Integration
 
-No additional integration is required to show axio as a Cardless EMI service provider on your Standard Checkout integration. Know [how to integrate axio as a payment method on custom checkout.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi/axio/custom-integration.md)
+No additional integration is required to show axio as a Cardless EMI service provider on your Standard Checkout integration. Know [how to integrate axio as a payment method on custom checkout.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi/axio/custom-integration.md)
 
 ## Grievance Redressal Officer (GRO) Details
 

@@ -17,7 +17,7 @@ You can make online purchases using your online banking details
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -46,7 +46,7 @@ You can make online purchases using your online banking details
     Sofort's automated international refunds encourage customer loyalty, increase in basket size, and more frequent shopping.
 - **Currency Conversion** 
 
-    Customers can initiate payments in their native currency and payments will be settled in your Indian bank account. Razorpay's [pay in native currency](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion.md) feature will ensure that your European customer is shown the right currency.
+    Customers can initiate payments in their native currency and payments will be settled in your Indian bank account. Razorpay's [pay in native currency](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion.md) feature will ensure that your European customer is shown the right currency.
 
 ## How it Works
 
@@ -64,15 +64,15 @@ Sofort payments are charged at 3.0%.
 
 ### Refunds and Settlements
 
-- You can refund customer payments made using Sofort by following the usual [refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds.md) process.  
+- You can refund customer payments made using Sofort by following the usual [refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md) process.  
  
 - Sofort payments take T+14 days to get settled to your Razorpay account.
 
 ### Supported Integrations
 
-For [Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md)  no additional integration is needed.
-- [Custom Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/sofort/custom-integration.md)
-- [S2S Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/sofort/s2s-integration.md) 
+For [Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md)  no additional integration is needed.
+- [Custom Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/sofort/custom-integration.md)
+- [S2S Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/sofort/s2s-integration.md) 
 
 ### Supported Countries 
 

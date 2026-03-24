@@ -13,7 +13,7 @@ You can collect payments using the UPI intent flow that is handled by UPI apps i
 ## Prerequisites
 
 - Sign up for a Razorpay account.
-- [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
+- [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
 
 ## Workflow
 
@@ -175,9 +175,9 @@ Paytm | paytmmp://upi/pay?pa=upi@razorpay&pn=Acme&tr=99fz4Q6LKearD1B&tn=razorpay
 
 ### Step 6: Verify Payment Status
 
-You can subscribe to the `order.paid`, `payment.authorized` and `payment.captured` Webhook events to get notified once the customer completes the UPI payment. Know more about[ Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
+You can subscribe to the `order.paid`, `payment.authorized` and `payment.captured` Webhook events to get notified once the customer completes the UPI payment. Know more about[ Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
 
-You can also poll our APIs at regular intervals to track the status of the [payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-payments-based-on-orders.md) made for an order.
+You can also poll our APIs at regular intervals to track the status of the [payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-payments-based-on-orders) made for an order.
 
 #### Payment Failure and Re-initiating Payments
 

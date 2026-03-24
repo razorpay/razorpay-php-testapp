@@ -15,8 +15,8 @@ Using UPI One Time Mandate, Gaurav Kumar can consent to block the hotel booking 
 
 To create a one time mandate:
 1. [Create an authorisation transaction](#create-an-authorisation-transaction)
-2. [Fetch and manage tokens](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-otm/collect/tokens.md)
-3. [Create a one time mandate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-otm/collect/one-time-payment.md)
+2. [Fetch and manage tokens](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-otm/collect/tokens.md)
+3. [Create a one time mandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-otm/collect/one-time-payment.md)
 
 ## Create an Authorisation Transaction
 
@@ -73,14 +73,14 @@ To create an authorisation transaction using the Razorpay APIs, you need to:
 
 Registration Links are an alternate way of creating an authorisation transaction. If you create a registration link, you need not create a customer or an order.
 
-When you create a registration link, an [invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices.md) is automatically issued to the customer. The customer can use the invoice to make the Authorisation Payment.
+When you create a registration link, an [invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md) is automatically issued to the customer. The customer can use the invoice to make the Authorisation Payment.
 
 > **INFO**
 >
 > 
 > **Handy Tips**
 > 
-> You can use [Token Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/webhooks/#check-authorization-link-status-using-webhooks.md) to get notifications about successful payments against a registration link. Do not use payment webhooks for Authorisation Payments.
+> You can use [Token Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#check-authorization-link-status-using-webhooks) to get notifications about successful payments against a registration link. Do not use payment webhooks for Authorisation Payments.
 > 
 
 ### 1.2.1. Create a Registration Link

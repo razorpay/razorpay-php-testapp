@@ -193,7 +193,7 @@ For example, **Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Geck
 
       `notes` _optional_
       : `json object` Key-value pairs that can hold additional information about the payment. 
- Refer to the [Notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) section of the API Reference Guide.
+ Refer to the [Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) section of the API Reference Guide.
           
 
       
@@ -201,7 +201,7 @@ For example, **Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Geck
       
       **Response Parameters**
 
-      If the payment request is valid, the response contains the following fields. Refer to the [UPI Collect Flow document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/collect/#step-4-initiate-a-payment.md) for more details.
+      If the payment request is valid, the response contains the following fields. Refer to the [UPI Collect Flow document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/collect.md#step-4-initiate-a-payment) for more details.
 
       `razorpay_payment_id`
       : `string` Unique reference for the payment created. For example, `pay_EAm09NKReXi2e0`.

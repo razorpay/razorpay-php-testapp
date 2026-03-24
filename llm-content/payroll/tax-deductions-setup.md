@@ -11,7 +11,7 @@ description: Check how to set up and operate declaration and proof upload window
 With Tax Deductions Setup on the Payroll Dashboard, you can set up:
 
   
-   Setup verification settings for your organisation. Explore the [tax verification process](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tax-verifications.md).
+   Setup verification settings for your organisation. Explore the [tax verification process](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tax-verifications.md).
    
 
    
@@ -51,7 +51,7 @@ To set up the IT Declaration windows:
 1. Navigate to **ADMIN OPTIONS** → **Settings**. 
 1. Go to the **Tax Deductions Setup** section. Click **Edit**. This opens the **General** settings page of **Tax Declaration & Proof Upload Settings**.
 1. Toggle the setting against **Allow employees to update their tax deductions**. We usually enable this by default. 
-    ![RazorpayX Payroll enable Tax Declaration for employees](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-tax-declaration-general.jpg.md)
+    ![RazorpayX Payroll enable Tax Declaration for employees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-tax-declaration-general.jpg.md)
 
 You have now enabled your employees to declare investment proofs. If you turn this setting off, you cannot modify the declaration and window settings. 
 
@@ -68,7 +68,7 @@ You can modify the following verification settings on the [Payroll Dashboard](ht
 
          You can verify the investment proofs your employees submit in two ways. From the drop-down menu, you can select either:
          - **Let XPayroll Verify** to allow Payroll to verify your proofs. 
-         - **Let Organisation Verify** to carry out the [verification by yourself](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tax-verifications.md).
+         - **Let Organisation Verify** to carry out the [verification by yourself](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tax-verifications.md).
         
 
         
@@ -98,7 +98,7 @@ You can modify the following verification settings on the [Payroll Dashboard](ht
           
         
 
-![RazorpayX Payroll Tax Verification Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-tax-declaration-verification-settings.jpg.md)
+![RazorpayX Payroll Tax Verification Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-tax-declaration-verification-settings.jpg.md)
 
 > **WARN**
 >
@@ -146,12 +146,12 @@ You can choose to automatically enable the proof upload window for new joiners o
          In such cases, the employee must individually declare their 80G contributions when they file their taxes in July. 
         
 
-![RazorpayX Payroll Auto-open Windows Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-tax-declaration-auto-open-settings.jpg.md) 
+![RazorpayX Payroll Auto-open Windows Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-tax-declaration-auto-open-settings.jpg.md) 
 
 ## For Employees 
 
-Employees can declare their provisional investments and upload investment proofs via the [IT Declarations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations.md) page. We communicate the window availability to your employees via email. 
+Employees can declare their provisional investments and upload investment proofs via the [IT Declarations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations.md) page. We communicate the window availability to your employees via email. 
 
 ### Related Information
 
-- [About Statutory Compliance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md)
+- [About Statutory Compliance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md)

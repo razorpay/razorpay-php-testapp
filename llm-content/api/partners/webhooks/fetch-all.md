@@ -8,7 +8,7 @@ description: Fetch and view the details of all webhooks using Razorpay APIs.
 
 ## Fetch All Webhooks
 
-Use this endpoint to retrieve all webhooks for a given account. Know about the [various error responses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md) for this API.
+Use this endpoint to retrieve all webhooks for a given account. Know about the [various error responses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md) for this API.
 
 ### Request
 

@@ -33,7 +33,7 @@ To check and enable the WhatsApp integration:
 1. Navigate to **My profile** → **Other Information** → **EDIT**.
 1. Check if the **Connect to WhatsApp** is visible. 
 
-    ![Payroll Dashboard Other Information enter phone number select check box](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-enable-whatsapp.jpg.md)
+    ![Payroll Dashboard Other Information enter phone number select check box](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-enable-whatsapp.jpg.md)
 1. In the Phone Number text box, provide your WhatsApp-enabled phone number.
 1. Select the **Enable WhatsApp for my phone number** check box.
 
@@ -53,7 +53,7 @@ You can use the WhatsApp integration to:
             1. Tap **File Reimbursement**. 
             1. Select the **Reimbursement Type** from the pop-up modal. You can select from the reimbursement types your organisation has configured. 
             1. Type the **Reimbursement Amount** without any special characters. For example, `1500`.
-                ![Select options and enter amount Payroll WhatsApp integration](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-WA-reimbursement.jpg.md)
+                ![Select options and enter amount Payroll WhatsApp integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-WA-reimbursement.jpg.md)
             1. **Enter Remarks**, if applicable. Else, tap **Skip**.
             1. Enter the expense date in a `DD/MM/YYYY` format. For example, `01/09/2024`. 
                 - Ensure you enter the forward slashes `/` in the date entered.
@@ -76,7 +76,7 @@ You can use the WhatsApp integration to:
             1. Tap **View Past Payslips**.
             1. Select the **Number of Months** in the pop-up modal. 
 
-                ![Request and download Payroll payslips via WhatsApp](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employee-WA-payslips.jpg.md)
+                ![Request and download Payroll payslips via WhatsApp](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employee-WA-payslips.jpg.md)
 
             You have successfully requested to view the past payslips. 
             
@@ -85,5 +85,5 @@ You can use the WhatsApp integration to:
 
 ## Related Information 
 
-- [Employee Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees.md)
-- [Request Reimbursements](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/reimbursements.md)
+- [Employee Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md)
+- [Request Reimbursements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/reimbursements.md)

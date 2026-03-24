@@ -23,9 +23,9 @@ WordPress | 3.9.2 or higher
 
 ## Prerequisites
 
-- Integrate your [WooCommerce website](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce.md) with the Razorpay Payment Gateway plugin.
-- Create [Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account#create-linked-accounts.md) to split the received payments.
-- Understand the [payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md) process.
+- Integrate your [WooCommerce website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce.md) with the Razorpay Payment Gateway plugin.
+- Create [Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md#create-linked-accounts) to split the received payments.
+- Understand the [payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md) process.
 
 ## How it Works
 

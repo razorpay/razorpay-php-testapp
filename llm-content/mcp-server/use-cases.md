@@ -15,7 +15,7 @@ Generate Payment Links instantly without dashboards or developer involvement. Pe
 
 Watch this video to know how to generate a Payment Link from Claude Desktop using Razorpay MCP Server.
 
-![Create Payment Link from Claude Desktop using Razorpay MCP Server](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/create-payment-link-mcp-server-claude.gif.md)
+![Create Payment Link from Claude Desktop using Razorpay MCP Server](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/create-payment-link-mcp-server-claude.gif.md)
 
 **Show me settlement details for last week** 
 
@@ -29,7 +29,7 @@ Generate comprehensive failure reports with trends and patterns. Identify system
 
 Watch this video to know how to generate payment failure reports for a specific time period from Claude Desktop using Razorpay MCP Server.
 
-![Payment Failure Trend Analysis from Claude Desktop using Razorpay MCP Server](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-failure-analysis-claude-mcp-server.gif.md)
+![Payment Failure Trend Analysis from Claude Desktop using Razorpay MCP Server](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-failure-analysis-claude-mcp-server.gif.md)
 
 **Why did Gaurav Kumar's payment fail yesterday?** 
 
@@ -37,6 +37,6 @@ Get instant failure analysis with specific reasons and suggested fixes. No more 
 
 ## Related Information
 
-- [Remote MCP Server](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/remote.md) (recommended)
-- [Local MCP Server](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/local.md)
-- [Available tools](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/tools-reference.md)
+- [Remote MCP Server](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/remote.md) (recommended)
+- [Local MCP Server](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/local.md)
+- [Available tools](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/tools-reference.md)

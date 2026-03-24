@@ -45,8 +45,8 @@ For example, in the case of a payment, you should receive webhooks in the follow
 
 ### Related Information
 
-- [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md)
+- [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md)
 
-- [Set Up and Edit Payments Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md)
+- [Set Up and Edit Payments Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)
 
-- [Set Up and Edit Payout Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payouts.md)
+- [Set Up and Edit Payout Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payouts.md)

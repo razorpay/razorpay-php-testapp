@@ -24,13 +24,13 @@ Follow the steps given below:
          Follow these steps to proceed with the integration:
 
          1. After adding AppMaker to your Shopify store, navigate to the AppMaker window. Click **Extensions**.
-             ![Appmaker window extension](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/appmaker-extension.jpg.md)
+             ![Appmaker window extension](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/appmaker-extension.jpg.md)
          2. On the Installed Extensions page, click **Explore Extensions**.
-             ![Explore extension](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/explore-extension.jpg.md)
+             ![Explore extension](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/explore-extension.jpg.md)
          3. Search for Razorpay in the search bar on the All Extensions page. Select **Razorpay-Shopify-Appmaker** and click **Next**.
-             ![All extensions razorpay shopify appmaker](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/razorpay-shopify-appmaker.jpg.md)
+             ![All extensions razorpay shopify appmaker](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/razorpay-shopify-appmaker.jpg.md)
          4. Click **Install & Activate**.
-             ![Install and activate razorpay shopify appmaker](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/install-activate-rsa.jpg.md)
+             ![Install and activate razorpay shopify appmaker](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/install-activate-rsa.jpg.md)
 
          Appmaker extension is successfully installed and activated.
         
@@ -41,7 +41,7 @@ Follow the steps given below:
          Follow this step to proceed with the integration:
          
          You must do the [standard checkout integration](#1-integrate-razorpay-appmaker-extension-with-shopify-for) before proceeding with the Magic checkout integration. After you install the Razorpay Shopify Appmaker extension, navigate to **Settings** and enter the **Config Key**. Click **Save Changes**.
-            ![Razorpay shopify appmaker config key](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rsa-config-key.jpg.md)
+            ![Razorpay shopify appmaker config key](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rsa-config-key.jpg.md)
 
          Once you save the changes, the Appmaker extension will be available with Magic Checkout on the Native SDKs.
         
@@ -52,5 +52,5 @@ If you have queries, raise a ticket on the [Razorpay Support Portal](https://raz
 
 ### Related Information
 
-- [Razorpay Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md)
-- [Razorpay Magic Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify.md)
+- [Razorpay Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md)
+- [Razorpay Magic Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify.md)

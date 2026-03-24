@@ -16,7 +16,7 @@ You can use MOTO (Mail-Order-Telephone-Order) transactions to charge a customer'
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -47,4 +47,4 @@ You must be PCI-compliant to accept and process customer's card details using th
 
 ### Related Information
 
-[Batch MOTO Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/moto/batch.md)
+[Batch MOTO Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/moto/batch.md)

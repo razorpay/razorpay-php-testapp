@@ -8,11 +8,11 @@ description: Check the states of a tax payment and their significance.
 
 Following are the 2 life cycles in tax payments:
 - [Tax Payment Life Cycle](#tax-payment-life-cycle)
-- [Payout Life Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle.md)
+- [Payout Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md)
 
 Following is the tax payment life cycle.
 
-![tax payment life cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-tax-payments-tax-payments-life-cycle.jpg.md)
+![tax payment life cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-tax-payments-tax-payments-life-cycle.jpg.md)
 
 ## Unpaid
 
@@ -53,6 +53,6 @@ You have manually cancelled the TDS payment from the Dashboard.
 
 ### Related Information
 
-- [Tax Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments.md)
-- [Tax Payments - Standard User Roles](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/#tax-payments.md)
-- [Payout Life Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle.md)
+- [Tax Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments.md)
+- [Tax Payments - Standard User Roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams.md#tax-payments)
+- [Payout Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md)

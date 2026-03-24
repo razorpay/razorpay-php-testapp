@@ -16,7 +16,7 @@ description: Check how to withdraw from Razorpay Cash Advance Loan and the repay
 
 Razorpay Cash Advance Loan is a self-serve loan portal offering low-interest, very short-term loans with a tenure between a few days and a few weeks.
 
-Upon withdrawal, you can choose your repayment schedule. We deduct from your [settlement's current balance](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/dashboard/#view-settlements-using-dashboard.md) to repay the loan instalments automatically. You can also make repayments manually. 
+Upon withdrawal, you can choose your repayment schedule. We deduct from your [settlement's current balance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/dashboard.md#view-settlements-using-dashboard) to repay the loan instalments automatically. You can also make repayments manually. 
 
     
 ### Necessary Terminology
@@ -69,7 +69,7 @@ Explore the following:
 To apply for a Cash Advance:
 
 1. Visit the [Line of Credit](https://razorpay.com/x/line-of-credit/) page. You can also apply from the [Razorpay Dashboard](https://dashboard.razorpay.com/app/dashboard)/[RazorpayX Dashboard](https://x.razorpay.com/auth).
-1. Follow these steps to apply for a [Line of Credit](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/line-of-credit/#apply-for-line-of-credit.md). The process is the same. 
+1. Follow these steps to apply for a [Line of Credit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/line-of-credit.md#apply-for-line-of-credit). The process is the same. 
 
 Once the credit limit is approved, you can withdraw the amount from the [RazorpayX Dashboard](https://x.razorpay.com/auth). 
 
@@ -88,11 +88,11 @@ To make a Cash Advance withdrawal:
 1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
 1. Navigate to **Cash Advance** from the left menu. 
 1. Click **Withdraw Funds** on the Cash Advance home page. 
-    ![Withdraw Cash Advance Funds on RazorpayX Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-capital-ca-withdraw1.jpg.md)
+    ![Withdraw Cash Advance Funds on RazorpayX Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-capital-ca-withdraw1.jpg.md)
 1. Enter the amount you want to withdraw from your available withdrawable balance. Click **Proceed**. 
 1. Select the tenure in days. You can view the instalment amount in the modal under your selection. Click **Proceed**.
 1. Review the withdrawal details, such as the repayment schedule, interest rate and repayment method, total amount credited after the processing fee deduction, and more. 
-    ![Review Cash Advance Withdrawal Details on RazorpayX Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-capital-ca-withrawal review.jpg.md)
+    ![Review Cash Advance Withdrawal Details on RazorpayX Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-capital-ca-withrawal review.jpg.md)
 1. Click **Confirm & withdraw** to proceed with the withdrawal. 
 
 You have successfully made a withdrawal from your available Cash Advance limit.
@@ -115,14 +115,14 @@ There are two ways to make repayments:
 
 By default, your repayments are automated via daily deductions. We debit your settlement balance on the due date to repay the Cash Advance loan's instalment. 
 
-This happens on a daily basis and we recommend this for businesses using other [Razorpay products](@/Applications/MAMP/htdocs/new-docs/llm-content/payments.md).
+This happens on a daily basis and we recommend this for businesses using other [Razorpay products](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md).
 
 > **WARN**
 >
 > 
 > **Watch Out!**
 > 
-> We only deduct from your Razorpay [settlement's current balance](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/dashboard/#view-settlements-using-dashboard.md) and not your linked bank account.
+> We only deduct from your Razorpay [settlement's current balance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/dashboard.md#view-settlements-using-dashboard) and not your linked bank account.
 > 
 
     
@@ -151,7 +151,7 @@ To make repayments:
             1. Click **Repay Dues**. 
             1. Select the instalment to pay off in the **Repayment** pop-up modal. 
             1. Click **Confirm Amount**. 
-            1. Select between your Razorpay [settlement's current balance](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/dashboard/#view-settlements-using-dashboard.md) for us to deduct your instalment amount or pay using UPI/Debit Card/Netbanking. 
+            1. Select between your Razorpay [settlement's current balance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/dashboard.md#view-settlements-using-dashboard) for us to deduct your instalment amount or pay using UPI/Debit Card/Netbanking. 
             1. Follow the on-screen checkout instructions to complete the payment.
 
             This is helpful when you prefer to pay off multiple instalments at once.  
@@ -159,7 +159,7 @@ To make repayments:
         
             1. Navigate to and select the specific instalment due yet to pay off.
             1. In the right pane, click **Repay Dues**. 
-                ![specific and meaningful image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-capital-ca-repay-individual.jpg.md)
+                ![specific and meaningful image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-capital-ca-repay-individual.jpg.md)
             1. Repay using UPI/Debit Card/Netbanking or your settlement balance. 
         
     
@@ -173,7 +173,7 @@ You can pre-close a Cash Advance withdrawal on the RazorpayX Dashboard.
 1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
 1. Navigate to **Cash Advance** in the left menu → specific withdrawal to pre-close. 
 1. In the right pane, click **Pre-close Withdrawal**. 
-    ![Razorpay Loan Cash Advance pre-close withdrawal option on RazorpayX Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-capital-ca-close-loan.jpg.md)
+    ![Razorpay Loan Cash Advance pre-close withdrawal option on RazorpayX Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-capital-ca-close-loan.jpg.md)
 1. Review the preclosure details in the Pre-close Withdrawal pop-up modal and click **Pre-close Withdrawal**. 
 1. Pay the remaining amount due using settlement balance or UPI/Debit Card/Netbanking. 
 
@@ -195,7 +195,7 @@ Status | Description
 ---
 `overdue` | This is the status if you have not paid the instalment amount after the due date. [Repay your overdue instalments](#make-repayments) to withdraw from your Razorpay Cash Advance loan limit.
 ---
-`failed` | Sometimes, your disbursal or repayments may fail due to unavoidable server downtimes. Retry the withdrawal/repayment process. You can [contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support/#razorpayx-capital.md) from the RazorpayX Dashboard for any queries. 
+`failed` | Sometimes, your disbursal or repayments may fail due to unavoidable server downtimes. Retry the withdrawal/repayment process. You can [contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#razorpayx-capital) from the RazorpayX Dashboard for any queries. 
 ---
 
 ## FAQs
@@ -263,9 +263,9 @@ Status | Description
     
 ### 9. My question is not answered here.
 
-         [Raise a request](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/support#raise-a-new-ticket.md) from your [RazorpayX Dashboard](https://x.razorpay.com/auth) in case of any queries.
+         [Raise a request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/support.md#raise-a-new-ticket) from your [RazorpayX Dashboard](https://x.razorpay.com/auth) in case of any queries.
         
 
 #### Related Information
 
-- [Razorpay Capital Use Cases](@/Applications/MAMP/htdocs/new-docs/llm-content/x/capital/line-of-credit/#use-cases.md)
+- [Razorpay Capital Use Cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/capital/line-of-credit.md#use-cases)

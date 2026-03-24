@@ -7,7 +7,7 @@ description: Know about the Amount credits, Fee credits and Refund credits avail
 
 There are three types of credits [Amount credits](#amount-credits), [Fee credits](#fee-credits) and [Refund credits](#refund-credits). You can view and add funds to these credits from the Dashboard. Also, you can [configure alerts](#credit-alerts) to receive email notifications when your credits fall below the set threshold.
 
-![Manage Credits on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/credits-overview.jpg.md)
+![Manage Credits on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/credits-overview.jpg.md)
 
 ## Amount Credits
 
@@ -42,7 +42,7 @@ Amount credits are the credits against which you can receive payments without an
             3. Click **Credits** under **Payments and refunds** section.
             4. Click **Past Coupons** under **Amount Credits**.
             
-             ![View amount credits on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-credits-amount-credits.jpg.md)
+             ![View amount credits on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-credits-amount-credits.jpg.md)
 
             A list of Amount credits assigned to the account in the past is displayed.
 
@@ -84,7 +84,7 @@ Fee credits are the credits using which businesses can receive the full settleme
                  2. Click **Account & Settings** in the left navigation.
                  3. Click **Credits** under **Payments and refunds** section.
                  4. Click **Add Fee Credits**.
-                      ![Add Fee Credits](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-fee-credits.jpg.md) 
+                      ![Add Fee Credits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-fee-credits.jpg.md) 
                  5. Select **UPI**.
                  6. Enter the description and amount to be added.
                  7. Click **Add Credits**.
@@ -110,10 +110,10 @@ Fee credits are the credits using which businesses can receive the full settleme
                  2. Click **Account & Settings** in the left navigation.
                  3. Click **Credits** under **Payments and refunds** section.
                  4. Click **Add Fee Credits**.
-                     ![Add fee credits](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-fee-credits.jpg.md)
+                     ![Add fee credits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-fee-credits.jpg.md)
                  5. Select **Bank Transfer**.
                  6. Copy the account number and IFSC code.
-                      ![Copy IFSC and account number](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/copy-ifsc.jpg.md) 
+                      ![Copy IFSC and account number](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/copy-ifsc.jpg.md) 
                  7. Open your netbanking portal, create a beneficiary with these details and transfer the amount.
 
                  
@@ -151,7 +151,7 @@ Fee credits are the credits using which businesses can receive the full settleme
 
          A list of Fee credits previously added by you is displayed.
 
-          ![View fee credit history](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-credits-fee-credit-history.jpg.md) 
+          ![View fee credit history](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-credits-fee-credit-history.jpg.md) 
 
          
 
@@ -194,7 +194,7 @@ Refund credits are the credits you can use to make refunds to customers. This en
                  2. Click **Account & Settings** in the left navigation.
                  3. Click **Credits** under **Payments and refunds** section.
                  4. Click **Add Refund Credits**.
-                     ![Add refund credits from the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-refund-credits.jpg.md)
+                     ![Add refund credits from the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-refund-credits.jpg.md)
                  5. Select **UPI**.
                  6. Enter the description and amount to be added.
                  7. Click **Add Credits**.
@@ -220,10 +220,10 @@ Refund credits are the credits you can use to make refunds to customers. This en
                  2. Click **Account & Settings** in the left navigation.
                  3. Click **Credits** under **Payments and refunds** section.
                  4. Click **Add Refund Credits**.
-                     ![Add refund credits](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-refund-credits.jpg.md)
+                     ![Add refund credits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-refund-credits.jpg.md)
                  5. Select **Bank Transfer**.
                  6. Copy the account number and IFSC code.
-                     ![Copy IFSC and account number](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/copy-ifsc.jpg.md)
+                     ![Copy IFSC and account number](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/copy-ifsc.jpg.md)
                  7. Open your netbanking portal, create a beneficiary with these details and transfer the amount.
 
                  
@@ -258,7 +258,7 @@ Refund credits are the credits you can use to make refunds to customers. This en
 
          A list of Refund credits previously added by you is displayed.
 
-         ![View refund credit history](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-credits-refund-credit-history.jpg.md)
+         ![View refund credit history](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-credits-refund-credit-history.jpg.md)
 
          
 

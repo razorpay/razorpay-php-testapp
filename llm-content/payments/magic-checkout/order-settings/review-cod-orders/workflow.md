@@ -13,7 +13,7 @@ Reviewing and acting upon COD orders manually can be time-consuming. With the au
 > 
 > **Watch Out!**
 > 
-> You can access the **COD Orders Review Workflow** feature only if you opt for [manual review of COD orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders.md). 
+> You can access the **COD Orders Review Workflow** feature only if you opt for [manual review of COD orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders.md). 
 > 
 
 ## How it Works
@@ -34,7 +34,7 @@ Follow the steps given below to configure the COD review workflow:
 >     
 
 4. Select the **Type of RTO risk** and its corresponding action from the drop-down list. 
-    ![Add risk and the corresponding action](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-automate-config.jpg.md)
+    ![Add risk and the corresponding action](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-automate-config.jpg.md)
 
     
 > **WARN**
@@ -64,13 +64,13 @@ Follow the steps given below to configure the COD review workflow:
 > 
 >              **Handy Tips**
 >             
->              This feature is available for your Custom ecommerce platform, [WooCommerce website](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages.md) and [Shopify store](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages.md).
+>              This feature is available for your Custom ecommerce platform, [WooCommerce website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages.md) and [Shopify store](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages.md).
 >              
 
             
          3. Click **COD Review Workflow**.
          4. Click **Edit** to modify the conditions based on your requirement. 
-             ![Edit automation conditions based on your requirement](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-automate-edit.jpg.md)
+             ![Edit automation conditions based on your requirement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-automate-edit.jpg.md)
          5. Click **Save settings**.
         
 
@@ -80,5 +80,5 @@ Follow the steps given below to configure the COD review workflow:
          Follow the steps given below to remove the review workflow conditions:
 
          1. In the **COD Review Workflow** section, click the cancel icon.
-             ![Remove Automation](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-remove-automation.jpg.md)
+             ![Remove Automation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-remove-automation.jpg.md)
          2. Click **Yes, Remove** to remove all the the COD review workflow conditions.

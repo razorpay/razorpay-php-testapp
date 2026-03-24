@@ -15,7 +15,7 @@ You can perform this configuration at the method level.
 
 The modified convenience fee will be visible on the Razorpay Checkout and displayed to the customer ensuring complete transparency and no experience breakage.
 
-![Dynamic Convenience Fees](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-dynamic-convenience-fees-v2.jpg.md)
+![Dynamic Convenience Fees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-dynamic-convenience-fees-v2.jpg.md)
 
 > **INFO**
 >
@@ -44,16 +44,16 @@ Given below are the various use cases for dynamic convenience fees:
 
 - [Create a Razorpay account](https://dashboard.razorpay.com/signup).
 - Contact [Razorpay support](https://razorpay.com/support/#request) to enable this feature for your account.
-- Generate [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) on the Dashboard.
+- Generate [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) on the Dashboard.
 
 ## Workflow
 
 To charge dynamic convenience fees:
 
-1. Create an order in your server using the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dynamic-convenience-fees/api/#orders-api.md) and pass the convenience fee details.
-2. Pass order_id to [Standard checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps#12-integrate-with-checkout-on-client-side.md).
-3. [Store fields](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps/#14-store-fields-in-your-server.md) in server.
-4. [Verify payment signature](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps#15-verify-payment-signature.md).
+1. Create an order in your server using the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dynamic-convenience-fees/api.md#orders-api) and pass the convenience fee details.
+2. Pass order_id to [Standard checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#12-integrate-with-checkout-on-client-side).
+3. [Store fields](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#14-store-fields-in-your-server) in server.
+4. [Verify payment signature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#15-verify-payment-signature).
 
 ## Communication
 
@@ -69,5 +69,5 @@ You should inform the customers about the convenience fees, as we do not notify 
 
 ### Related Information
 
-- [Dynamic Convenience Fees APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dynamic-convenience-fees/api.md)
-- [Dynamic Convenience Fees FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dynamic-convenience-fees/faqs.md)
+- [Dynamic Convenience Fees APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dynamic-convenience-fees/api.md)
+- [Dynamic Convenience Fees FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dynamic-convenience-fees/faqs.md)

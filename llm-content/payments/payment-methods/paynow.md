@@ -24,7 +24,7 @@ Follow the steps to enable PayNow:
 1. Log in to the Dashboard.
 2. Click **Account & Settings** in the left menu.
 3. Go to **Payment methods** and click the enable button next to PayNow.
-4. You can also request for [Additional Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-methods/#request-for-payment-methods.md) from the Dashboard.
+4. You can also request for [Additional Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-methods.md#request-for-payment-methods) from the Dashboard.
 
 ## Payment Flow 
 

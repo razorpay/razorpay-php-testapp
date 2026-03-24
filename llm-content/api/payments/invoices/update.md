@@ -55,7 +55,7 @@ Paid | Only `notes` can be updated.
 : `string` Invoice is created in `draft` state when value is set to `1`.
 
 `customer_id`
-: `string` You can pass the `customer_id` in this field, if you are using the [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md). If not, you can pass the customer object described in the below fields.
+: `string` You can pass the `customer_id` in this field, if you are using the [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md). If not, you can pass the customer object described in the below fields.
 
 `customer`
 : `object` Customer details.
@@ -115,7 +115,7 @@ Paid | Only `notes` can be updated.
 : `object` Details of the line item that is billed in the invoice. Maximum of 50 line items.
 
     `item_id` _conditionally mandatory_
-    : `string` If you are using the [Items API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/invoices/create-item.md), you may use an existing item. You can choose to override details such as name, description by passing these along with `item_id`. While the invoice will show the updated details, the existing item will not be updated. This parameter is mandatory if you are not going to use any other parameter in the array.
+    : `string` If you are using the [Items API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/invoices/create-item.md), you may use an existing item. You can choose to override details such as name, description by passing these along with `item_id`. While the invoice will show the updated details, the existing item will not be updated. This parameter is mandatory if you are not going to use any other parameter in the array.
 
     `name` _conditionally mandatory_
     : `string` The item name. Mandatory if `item_id` is not provided.
@@ -136,7 +136,7 @@ Paid | Only `notes` can be updated.
 >       
 
     `currency` _optional_
-    : `string` The currency associated with the item. Defaults to `INR`. Know about the [list of supported international currencies.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments#supported-currencies.md) This should match invoice currency.
+    : `string` The currency associated with the item. Defaults to `INR`. Know about the [list of supported international currencies.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies) This should match invoice currency.
 
       
 > **INFO**
@@ -145,7 +145,7 @@ Paid | Only `notes` can be updated.
 > 
 >       **Handy Tips**
 > 
->       Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>       Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
 >       
 
     `quantity` _optional_
@@ -170,7 +170,7 @@ Paid | Only `notes` can be updated.
   - `false` (default): The customer cannot make partial payments.
 
 `currency`
-: `string` The currency associated with the invoice. You must mandatorily pass this parameter if accepting international payments. If you have passed `currency` as a sub-parameter in the `line_item` object, you must ensure that the same currency is passed in both places. Know about the [list of supported international currencies.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments#supported-currencies.md)
+: `string` The currency associated with the invoice. You must mandatorily pass this parameter if accepting international payments. If you have passed `currency` as a sub-parameter in the `line_item` object, you must ensure that the same currency is passed in both places. Know about the [list of supported international currencies.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies)
 
   
 > **INFO**
@@ -179,7 +179,7 @@ Paid | Only `notes` can be updated.
 > 
 >   **Handy Tips**
 > 
->   Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>   Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
 >   
 
 ### Parameters

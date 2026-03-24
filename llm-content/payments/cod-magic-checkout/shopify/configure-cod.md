@@ -11,10 +11,10 @@ After successfully onboarding with COD & Magic Checkout, you can configure COD f
 To configure COD:
 1. On the Dashboard, navigate to **Magic Checkout** → **Setup and Settings** → **COD Settings**.
 2. Toggle on **Enable COD as a payment option** to allow customers to choose COD at checkout. Click **Yes, enable** in the confirmation pop-up modal.
-    ![Enable COD as a payment option](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-checkout-cod-enable.jpg.md)
+    ![Enable COD as a payment option](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-checkout-cod-enable.jpg.md)
 3. Turn on **Enable RTO Intelligence** to check customer eligibility for COD based on their purchase history. If a customer is ineligible, the COD option is hidden, displaying only prepaid options at checkout. Click **Enable COD Intelligence** in the confirmation pop-up modal.
 
-    ![Enable RTO Intelligence](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-checkout-cod-rto-intelligence.jpg.md)
+    ![Enable RTO Intelligence](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-checkout-cod-rto-intelligence.jpg.md)
 
     
 > **WARN**
@@ -29,10 +29,10 @@ To configure COD:
 >             To activate Magic Checkout:
 >             
 >              1. Click **Activate** under **Enable RTO Intelligence**.
->                  ![Activate Magic Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-cod-activate-magic.jpg.md)
+>                  ![Activate Magic Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-cod-activate-magic.jpg.md)
 >              1. On the **Checkout Settings** page, turn on **Enable Magic Checkout**.
 >              1. Click **Save Settings**.
->                  ![Enable Magic Checkout to activate RTO Intelligence](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-checkout-cod-enable-magic.jpg.md)
+>                  ![Enable Magic Checkout to activate RTO Intelligence](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-checkout-cod-enable-magic.jpg.md)
 >             
 >         
 >     
@@ -44,7 +44,7 @@ To configure COD:
 
 ## Basic
 
-Configure COD for the shipping methods synced from your Shopify store. These methods are based on the profiles you have set up on Shopify to manage shipping locations and costs at checkout. Know more about [shipping options on Shopify](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/cod-magic-checkout/shopify/shipping-options.md).
+Configure COD for the shipping methods synced from your Shopify store. These methods are based on the profiles you have set up on Shopify to manage shipping locations and costs at checkout. Know more about [shipping options on Shopify](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/cod-magic-checkout/shopify/shipping-options.md).
 
     
 ### Follow the steps given below:
@@ -61,7 +61,7 @@ Configure COD for the shipping methods synced from your Shopify store. These met
 >              
 
              
-             ![Configure COD for shopify shipping methods](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-config-cod.jpg.md)
+             ![Configure COD for shopify shipping methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-config-cod.jpg.md)
              
              
 > **WARN**
@@ -69,7 +69,7 @@ Configure COD for the shipping methods synced from your Shopify store. These met
 > 
 >              **Watch Out!**
 >              
->              You can configure the shipping method rate only on your Shopify store. Know more about how to create [shipping options on Shopify](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/cod-magic-checkout/shopify/shipping-options.md).
+>              You can configure the shipping method rate only on your Shopify store. Know more about how to create [shipping options on Shopify](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/cod-magic-checkout/shopify/shipping-options.md).
 >              
 
              
@@ -88,7 +88,7 @@ Configure COD for the shipping methods synced from your Shopify store. These met
 
              - **Prepaid**: Select the **Prepaid** check box to allow only prepaid options for that shipping method.
          3. Click **Submit** to save your settings.
-         ![Configure COD for shopify shipping methods](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-config-cod-edit.jpg.md)
+         ![Configure COD for shopify shipping methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-config-cod-edit.jpg.md)
         
 
 ## Advanced *(Recommended)*
@@ -110,7 +110,7 @@ Depending on these conditions, you can choose to show or hide specific shipping 
 >          1. Log in to your [Shopify Dashboard](https://www.shopify.com/in/login?ui_locales=en-IN).
 >          2. Navigate to **Apps** → **Razorpay COD & Magic Checkout**.
 >          3. Click **Update**.
->          ![Update Razorpay COD & Magic Checkout app](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-update-app.jpg.md)
+>          ![Update Razorpay COD & Magic Checkout app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-update-app.jpg.md)
 >         
 >     
 > 
@@ -122,7 +122,7 @@ Follow the steps given below to set up Shipping and Payment Rules:
 ### Shipping Rule
 
          Customise shipping methods you want to display on checkout. For example, if the cart total is less than ₹1000, you can choose to hide free shipping.
-         ![Shipping methods on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-shipping-methods.jpg.md)
+         ![Shipping methods on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-shipping-methods.jpg.md)
 
          1. Select **Shipping Rule**.
          2. Enter the **Rule Name** and **Description**.
@@ -134,7 +134,7 @@ Follow the steps given below to set up Shipping and Payment Rules:
                      Define **When** and **Then** conditions to automate actions. 
 
                      For example, when the **Quantity is less than 20 units**, then **Hide Free Shipping Methods*.
-                     ![define when then conditions](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-when-then-condition.jpg.md)
+                     ![define when then conditions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-when-then-condition.jpg.md)
                      
 
                  
@@ -146,13 +146,13 @@ Follow the steps given below to set up Shipping and Payment Rules:
                             Combine multiple **When** conditions to trigger actions **only if all** conditions are true. Click **+Add another block** and select **AND** to add another **When** condition. 
 
                             For example, when the **Quantity is less than 20 units** and the **Weight is less than 500 grams**, then **Hide Free Shipping Methods*.
-                            ![combine when and when-then condition](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-when-when-then-condition.jpg.md)
+                            ![combine when and when-then condition](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-when-when-then-condition.jpg.md)
                         
                         
                             Use **When** conditions to trigger actions **if any** of the conditions are true. Click **+Add another block** and select **OR** to add another **When** condition. 
                      
                             For example, when the **Quantity is less than 20 units** or the **Weight is less than 500 grams**, then **Hide Free Shipping Methods*.
-                            ![combine when or when-then condition](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-when-or-when-then-condition.jpg.md)
+                            ![combine when or when-then condition](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-when-or-when-then-condition.jpg.md)
                         
                      
                     
@@ -166,7 +166,7 @@ Follow the steps given below to set up Shipping and Payment Rules:
                             Combine **When OR** conditions to handle more complex scenarios. Click **+Add another condition** and select **AND** to define a **When OR** condition. 
                              
                             For example, when the **Quantity is less than 20 units** or the **Cart Total is less than or equal to ₹3000** and the **Weight is less than 500 grams**, then **Hide Free Shipping Methods*.
-                            ![combine when or condition](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-combine-when-or-condition.jpg.md)
+                            ![combine when or condition](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-combine-when-or-condition.jpg.md)
 
                              
                             
@@ -185,7 +185,7 @@ Follow the steps given below to set up Shipping and Payment Rules:
                             Combine **When AND** conditions to handle more complex scenarios. Click **+Add another condition** and select **AND** to define a **When AND** condition. 
                              
                             For example, when the **Quantity is less than 20 units** and the **Cart Total is less than or equal to ₹3000** or the **Weight is less than 500 grams**, then **Hide Free Shipping Methods*.
-                            ![combine when and condition](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-combine-when-and-condition.jpg.md)
+                            ![combine when and condition](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-combine-when-and-condition.jpg.md)
 
                             
 > **INFO**
@@ -212,7 +212,7 @@ Follow the steps given below to set up Shipping and Payment Rules:
 
          Customise payment methods you want to display on checkout. For example, if the cart total is less than ₹1000, you can choose to show specific payment methods based on your preference. 
 
-         ![Payment methods on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-payment-methods.jpg.md)
+         ![Payment methods on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-payment-methods.jpg.md)
 
          1. Select **Payment Rule**.
          2. Enter the **Rule Name** and **Description**.
@@ -224,7 +224,7 @@ Follow the steps given below to set up Shipping and Payment Rules:
                      Define **When** and **Then** conditions to automate actions. 
 
                      For example, when the **Cart Total is less than ₹2000**, then **Hide COD Methods*.
-                     ![define when then conditions](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-when-then-payment-condition.jpg.md)
+                     ![define when then conditions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-when-then-payment-condition.jpg.md)
                      
 
                  
@@ -236,13 +236,13 @@ Follow the steps given below to set up Shipping and Payment Rules:
                             Combine multiple **When** conditions to trigger actions **only if all** conditions are true. Click **+Add another block** and select **AND** to add another **When** condition. 
 
                             For example, when the **Cart Total is less than ₹2000** and **Quantity is less than or equal to 10 units**, then **Hide COD Methods*.
-                            ![combine when and when-then condition](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-when-when-then-payment-condition.jpg.md)
+                            ![combine when and when-then condition](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-when-when-then-payment-condition.jpg.md)
                         
                         
                             Use **When** conditions to trigger actions **if any** of the conditions are true. Click **+Add another block** and select **OR** to add another **When** condition. 
                      
                             For example, when the **Cart Total is less than ₹2000** or **Quantity is less than or equal to 10 units**, then **Hide COD Methods*.
-                            ![combine when or when-then condition](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-when-or-when-then-payment-condition.jpg.md)
+                            ![combine when or when-then condition](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-when-or-when-then-payment-condition.jpg.md)
                         
                      
                     
@@ -256,7 +256,7 @@ Follow the steps given below to set up Shipping and Payment Rules:
                             Combine **When OR** conditions to handle more complex scenarios. Click **+Add another condition** and select **AND** to define a **When OR** condition. 
                              
                             For example, when the **Cart Total is less than ₹2000** or the **Weight is less than 500 grams** and **Quantity is less than or equal to 10 units**, then **Hide COD Methods*.
-                            ![combine when or condition](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-combine-when-or-payment-condition.jpg.md)
+                            ![combine when or condition](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-combine-when-or-payment-condition.jpg.md)
 
                              
                             
@@ -275,7 +275,7 @@ Follow the steps given below to set up Shipping and Payment Rules:
                             Combine **When AND** conditions to handle more complex scenarios. Click **+Add another condition** and select **AND** to define a **When AND** condition. 
                              
                             For example, when the **Cart Total is less than ₹2000** and the **Weight is less than 500 grams** or **Quantity is less than or equal to 10 units**, then **Hide COD Methods*.
-                            ![combine when and condition](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-combine-when-and-payment-condition.jpg.md)
+                            ![combine when and condition](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-combine-when-and-payment-condition.jpg.md)
 
                             
 > **INFO**

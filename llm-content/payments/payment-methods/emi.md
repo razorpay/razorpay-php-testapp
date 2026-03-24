@@ -23,15 +23,15 @@ With Razorpay, you can offer your customers EMI as a payment method to buy vario
 
 EMI Types | Availability
 ---
-[Credit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/credit-card-emi.md) | ✓ (SBI Credit Card requires [Approval](https://razorpay.com/support))
+[Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/credit-card-emi.md) | ✓ (SBI Credit Card requires [Approval](https://razorpay.com/support))
 ---
-[Debit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md) | ✓
+[Debit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md) | ✓
 ---
-[No Cost EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/no-cost-emi.md) | ✓ (Debit and Credit card EMIs)
+[No Cost EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/no-cost-emi.md) | ✓ (Debit and Credit card EMIs)
 ---
-[Low Cost EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/low-cost-emi.md) | ✓ (Debit and Credit card EMIs)
+[Low Cost EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/low-cost-emi.md) | ✓ (Debit and Credit card EMIs)
 ---
-[Cardless EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi.md) | Requires [Approval](https://razorpay.com/support)
+[Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi.md) | Requires [Approval](https://razorpay.com/support)
 
 ## Payment Flow on Standard Checkout
 
@@ -42,14 +42,14 @@ On your website or app, customers select the products and proceed to Checkout.
 
          1. Enter the **Phone Number** and click **Continue**
          2. Select **EMI**, **No Cost EMI** or **Low Cost EMI** as the payment method as highlighted below.
-             ![Select EMI or No Cost EMI option.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-no-low-cost-emi.jpg.md)
-         3. Select a preferred EMI type, [Credit](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/credit-card-emi.md), [Debit](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md) or [Cardless](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi.md). 
+             ![Select EMI or No Cost EMI option.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-no-low-cost-emi.jpg.md)
+         3. Select a preferred EMI type, [Credit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/credit-card-emi.md), [Debit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md) or [Cardless](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi.md). 
          4. Choose a bank from the list and select the EMI tenure. This flow is for Credit Card EMI. Click **Continue**.
-             ![EMI tenure and click Select Plan](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-tenure-new.jpg.md)
+             ![EMI tenure and click Select Plan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-tenure-new.jpg.md)
          5. Enter the required details and choose if they want to **Save this card as per RBI guidelines** or pay without saving the card. 
          6. Click **Continue**. 
 
-         After the successful payment, Razorpay redirects customers to your application or website. Customers' monthly statements will reflect the EMI amount with interest charged by the bank. You receive the full amount in your bank account as per your [settlement cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements#settlement-cycle.md).
+         After the successful payment, Razorpay redirects customers to your application or website. Customers' monthly statements will reflect the EMI amount with interest charged by the bank. You receive the full amount in your bank account as per your [settlement cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md#settlement-cycle).
         
 
  
@@ -70,4 +70,4 @@ You can try the EMI flow by clicking the **Pay with Razorpay** button. This init
 [Pay with Razorpay](https://razorpay.com/emidemo/)
 
 ## Test Card
-You can use the test cards to test domestic payments, international payments and subscriptions. Know more about [Test Card details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details/#test-card-for-emi-payments.md).
+You can use the test cards to test domestic payments, international payments and subscriptions. Know more about [Test Card details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md#test-card-for-emi-payments).

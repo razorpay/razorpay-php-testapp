@@ -59,7 +59,7 @@ Given on the right is a sample entity.
 : `string` The name of the entity. Here, it is `token`.
 
 `customer_id`
-: `string` This is the Razorpay customer id. You can create token for a specific customer using their customer id. Use the [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers.md) to create customer id. This is an optional parameter.
+: `string` This is the Razorpay customer id. You can create token for a specific customer using their customer id. Use the [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md) to create customer id. This is an optional parameter.
 
 `method`
 : `string` The type of object that was tokenised. Currently, it only supports `card`.
@@ -121,7 +121,7 @@ Given on the right is a sample entity.
   - `suspended` - The token attains this state if: 
 - The token is not activated for any one of the token service providers. 
 - The token is suspended for at least one of the token service providers.
-  - `deactivated`- The token attains this state if the token is not active/suspended for any one of the token service providers and is deactivated for at least one token service provider. Know about the complete list of [token states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/token-lifecycle.md).
+  - `deactivated`- The token attains this state if the token is not active/suspended for any one of the token service providers and is deactivated for at least one token service provider. Know about the complete list of [token states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/token-lifecycle.md).
   
 `status_reason`
 : `string` When the token reaches the deactivated state, this field will provide the reason for deactivation. Possible values:
@@ -305,7 +305,7 @@ instance.tokens.create({
 #### Request Parameters
 
 `customer_id` _optional_
-: `string` The unique identifier of the customer created using [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers.md).
+: `string` The unique identifier of the customer created using [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md).
 
 `method` _mandatory_
 : `string` The type of object that needs to be tokenised. Currently, `card` is the only supported value.
@@ -539,7 +539,7 @@ Use this API to make the payment when a customer initiates a subsequent payment 
 : `string` The 3-character ISO code of the currency. Here, it is `INR`.
 
 `order_id` _mandatory_
-: `string` The unique identifier of the order created for this payment. Create an order using the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+: `string` The unique identifier of the order created for this payment. Create an order using the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 `email` _mandatory_
 : `string` The customer's email address.
@@ -665,7 +665,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
 : `string` The 3-character ISO code of the currency. Here, it is `INR`.
 
 `order_id` _mandatory_
-: `string` The unique identifier of the order created for this payment. Create an order using the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+: `string` The unique identifier of the order created for this payment. Create an order using the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 `email` _mandatory_
 : `string` The customer's email address.

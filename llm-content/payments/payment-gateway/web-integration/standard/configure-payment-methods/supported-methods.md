@@ -56,5 +56,5 @@ All the supported payment methods and instruments are listed below:
 @include payment-methods/configurability/supported-apps
 
 ### Related Information 
-- [Understand the Configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/understand-configuration.md)
-- [Sample Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/sample-code.md)
+- [Understand the Configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/understand-configuration.md)
+- [Sample Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/sample-code.md)

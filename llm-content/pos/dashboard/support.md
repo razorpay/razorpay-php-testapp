@@ -12,7 +12,7 @@ description: If you are a business using Razorpay products or exploring Razorpay
 > 
 > **Customer Looking for Refunds**
 > 
-> If you are a customer who has used one of the Razorpay products to make payments and looking for a refund, read about [Customer Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers/customer-refunds.md).
+> If you are a customer who has used one of the Razorpay products to make payments and looking for a refund, read about [Customer Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers/customer-refunds.md).
 > 
 
 If you are a registered Razorpay user and need help, connect with the [Razorpay Support team](https://razorpay.com/support/). Refer to [Razorpay Docs](https://razorpay.com/docs) to know more about our products.
@@ -36,12 +36,12 @@ If you are a registered Razorpay user and need help, connect with the [Razorpay 
 
          1. Log in to the Dashboard.
          2. Click **Help & Support**.
-             ![Raise a Ticket - Help and Support pop-up - Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-support.jpg.md)
+             ![Raise a Ticket - Help and Support pop-up - Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-support.jpg.md)
 
          3. Check the FAQs for common concerns. If the FAQs can not resolve your concern, click **Contact Us**. 
          4. You have the following options in the **Contact Us** section:
              - [Create ticket](#create-support-ticket): Check existing queries or raise a new support ticket.
-            ![Raise a Ticket - Help and Support pop-up - Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-support-options-new.jpg.md)
+            ![Raise a Ticket - Help and Support pop-up - Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-support-options-new.jpg.md)
         
 
 ## Create Support Ticket

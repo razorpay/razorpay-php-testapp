@@ -8,7 +8,7 @@ description: Create Contacts and Fund Accounts in bulk from your RazorpayX Dashb
 
 You can use the bulk upload feature to create Contacts and Fund accounts in bulk from the Dashboard. You can also use this feature to add Fund account details to existing Contacts. Export the existing Contacts and add the beneficiary details.
 
-![Export Contacts](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-bulk-contact-upload-export-contacts.jpg.md)
+![Export Contacts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-bulk-contact-upload-export-contacts.jpg.md)
 
 > **WARN**
 >
@@ -31,7 +31,7 @@ To create Contacts and Fund accounts in bulk:
 
 ### Sample Template
 
-[Download .csv file Sample Template](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/batch_contacts_sample.csv.md)
+[Download .csv file Sample Template](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/batch_contacts_sample.csv.md)
 
 ### Requested Fields in Template
 
@@ -118,14 +118,14 @@ Possible values:
 
      1. Log in to your [RazorpayX Dashboard](https://x.razorpay.com/).
      2. Navigate to **Contacts** → **Import Contacts**. Here, click **+ IMPORT**.
-         ![Contacts Import Page on RazorpayX Dashboard shows a list of old, newly sorted batches of contacts uploaded. '+ Import' is to the top-right edge of the screen.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-cfa-bulk-create-1.jpg.md)
+         ![Contacts Import Page on RazorpayX Dashboard shows a list of old, newly sorted batches of contacts uploaded. '+ Import' is to the top-right edge of the screen.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-cfa-bulk-create-1.jpg.md)
      3. Click [**DOWNLOAD SAMPLE FILE**](#sample-template).
      4. Add the required data to the sample template file. Ensure the data is formatted correctly and save the file.
      5. Select **Click to Upload** and choose the file you want to import.
-         ![Import Contacts window, asks you to drop your .csv file in the window, or upload it. Maximum size: 10MB. File must follow given template.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-cfa-bulk-create-2.jpg.md)
+         ![Import Contacts window, asks you to drop your .csv file in the window, or upload it. Maximum size: 10MB. File must follow given template.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-cfa-bulk-create-2.jpg.md)
      6. Click **NEXT** and preview the uploaded contacts.
      7. Name the batch of contacts and click **CREATE**.
-         !['Preview & Close' screen shows top 3 rows from uploaded file. Batch Name is editble; click 'Create' at bottom-right corner.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-cfa-bulk-create-3.jpg.md)
+         !['Preview & Close' screen shows top 3 rows from uploaded file. Batch Name is editble; click 'Create' at bottom-right corner.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-cfa-bulk-create-3.jpg.md)
     
 
 ## Bulk Upload Report
@@ -143,6 +143,6 @@ After a bulk upload is processed, you can download the processed bulk report fro
 
 ### Related Information
 
-- [Contacts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts.md)
-- [Fund Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts.md)
-- [Bulk Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/bulk-payouts.md)
+- [Contacts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md)
+- [Fund Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts.md)
+- [Bulk Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/bulk-payouts.md)

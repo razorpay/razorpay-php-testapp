@@ -60,7 +60,7 @@ description: Find answers to frequently asked questions about Razorpay Partners.
     
 ### 8. How should we go ahead with the new integrations change?
 
-         The API docs for the integrations are linked [here](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/onboarding-sdk.md).
+         The API docs for the integrations are linked [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/onboarding-sdk.md).
         
 
 ## Service Partners
@@ -74,7 +74,7 @@ description: Find answers to frequently asked questions about Razorpay Partners.
     
 ### 2. How do I become a Razorpay Service Partner and refer a Client?
 
-         Once the sign up is complete, you will get access to the Partner Dashboard from where you can start referring it to merchants. Know more about [becoming a Razorpay Partner](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/new-to-razorpay.md).
+         Once the sign up is complete, you will get access to the Partner Dashboard from where you can start referring it to merchants. Know more about [becoming a Razorpay Partner](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/new-to-razorpay.md).
         
 
     
@@ -102,7 +102,7 @@ description: Find answers to frequently asked questions about Razorpay Partners.
     
 ### 2. How do I become a Razorpay Technology Partner and refer a Client?
 
-         Visit our website and complete the [Partner Signup](https://razorpay.com/partners/). Once the signup is complete, you are onboarded as a Service Partner by default.[Request a switch](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/become-technology-partner/#request-a-switch.md) to become a Technology Partner. Know more about [becoming a Razorpay Partner](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/new-to-razorpay.md).
+         Visit our website and complete the [Partner Signup](https://razorpay.com/partners/). Once the signup is complete, you are onboarded as a Service Partner by default.[Request a switch](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/become-technology-partner.md#request-a-switch) to become a Technology Partner. Know more about [becoming a Razorpay Partner](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/new-to-razorpay.md).
         
 
     

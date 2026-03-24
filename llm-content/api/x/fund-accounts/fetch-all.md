@@ -24,5 +24,5 @@ Use this endpoint to retrieve all fund accounts.
 `` is not a valid id.
 * code: 4xx
 * description: The fund account ID entered is invalid.
-* solution: Re-check or find the Fund Account ID: - In the response body of [create a Fund Account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/fund-accounts.md) API.
+* solution: Re-check or find the Fund Account ID: - In the response body of [create a Fund Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/fund-accounts.md) API.
 - On the [RazorpayX Dashboard](https://x.razorpay.com/auth).

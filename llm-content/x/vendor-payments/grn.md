@@ -46,21 +46,21 @@ To create a new GRN:
 3. Click **GRN**.
 4. Click **+ New GRN**. The New GRN modal is displayed.
 5. From the list of vendors, select the vendor for whom the GRN has to be created. If it is a new vendor, you can click **+ NEW VENDOR** to create a new vendor.
-    ![Select Vendor](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-grn-select-vendor.jpg.md)
+    ![Select Vendor](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-grn-select-vendor.jpg.md)
 
 6. In the **Link PO** modal, select the Purchase Order to be linked to the GRN. Click **Next**.
-    ![Link Purchase Order](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-grn-link-po.jpg.md)
+    ![Link Purchase Order](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-grn-link-po.jpg.md)
 
 7. Enter the **GRN number** and **GRN date**. The rest of the details such as Shipping location, Cost Center, Requested By, Department, and Team is auto-populated on basis of the linked PO as shown below. Click **Next**.
-    ![GRN Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-grn-details.jpg.md)
+    ![GRN Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-grn-details.jpg.md)
 
 8. Enter the details of the goods received, such as Item name, Description, Received Quantity and Balance Quantity, Rate, Number of Units, and the IGST%. Click **Review** to verify the information entered. The details entered in the GRN are matched with the details from the Purchase Order. Discrepancies, if any, are displayed by the system as shown here.
-    ![Review GRN Line Items](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-grn-line-items.jpg.md)
+    ![Review GRN Line Items](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-grn-line-items.jpg.md)
 
 9. Rectify the errors and click **Send for Approval**. For cases where approvals are not configured, you can proceed with creating the GRN directly.  
 
 ## Related information
 
-- [Purchase Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/purchase-order.md)
-- [Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/invoices.md)
-- [Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md)
+- [Purchase Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/purchase-order.md)
+- [Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/invoices.md)
+- [Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md)

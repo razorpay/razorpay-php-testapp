@@ -8,9 +8,9 @@ description: Request Payment Methods during product configuration using Razorpay
 
 ## Request Payment Methods
 
-Use this endpoint to update a product's configuration and request payment methods like UPI, netbanking and card. Know about the [various error responses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md) for this API. 
+Use this endpoint to update a product's configuration and request payment methods like UPI, netbanking and card. Know about the [various error responses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md) for this API. 
 
-Check the [use cases](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/#use-cases-to-update-settlement-account-details.md) and [updates permitted for different product activation statuses](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/#product-activation-status-and-updates-permitted.md) before using this API.
+Check the [use cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api.md#use-cases-to-update-settlement-account-details) and [updates permitted for different product activation statuses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api.md#product-activation-status-and-updates-permitted) before using this API.
 
 > **WARN**
 >
@@ -18,9 +18,9 @@ Check the [use cases](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/a
 > **Watch Out!**
 > 
 > Currently, we do not support making concurrent requests to the following Onboarding APIs including their combination on the same `account_id`:
-> - [Update Account API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/account-onboarding/update.md)
-> - [Update Stakeholder API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/stakeholder/update.md)
-> - [Update Product Configuration API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration/update-settlement-account-details.md)
+> - [Update Account API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/account-onboarding/update.md)
+> - [Update Stakeholder API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/stakeholder/update.md)
+> - [Update Product Configuration API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration/update-settlement-account-details.md)
 > 
 > Please wait for the response of these APIs before making subsequent requests.
 > 
@@ -227,7 +227,7 @@ $products->edit($productId, array(
             - `corporate`.
           
             `bank`
-            : `string` The bank code. Refer to the [list of bank codes](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix#netbanking-bank-codes.md).
+            : `string` The bank code. Refer to the [list of bank codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#netbanking-bank-codes).
 
     `card`
     : `object` The payment method to be enabled.
@@ -347,7 +347,7 @@ $products->edit($productId, array(
     : `integer` The Unix timestamp at which the terms and conditions were accepted by the user for the requested product.
 
 `activation_status`
-: `string` The status of the [product activation](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/product-activation.md).
+: `string` The status of the [product activation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/product-activation.md).
   - `requested`
   - `needs_clarification`
   - `under_review`
@@ -386,7 +386,7 @@ $products->edit($productId, array(
                     - Corporate 
 
                 `bank`
-                : `array` The list of netbanking banks requested or enabled. Refer the [Appendix](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#netbanking-bank-codes.md) page for netbanking bank codes.
+                : `array` The list of netbanking banks requested or enabled. Refer the [Appendix](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#netbanking-bank-codes) page for netbanking bank codes.
 
         `wallet`
         : `object` The Wallet type payment method.

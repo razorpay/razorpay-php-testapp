@@ -14,7 +14,7 @@ To view payment methods enabled for you:
 1. Log in to the Dashboard.
 2. Click **Account & Settings** in the left menu.
 3. Go to **Payment methods** to view the payment methods enabled for your Razorpay account.
-    ![Dashboard - Payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-method-enable.jpg.md)
+    ![Dashboard - Payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-method-enable.jpg.md)
 
 ## Supported Payment Methods
 
@@ -36,13 +36,13 @@ Pay Later | `paylater` | ✓
 ---
 EMI by Razorpay Catalog (Brand EMI) | `brand` | ✓
 
-Know more about [supported banks for EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/payment-methods/emi/emi-by-razorpay.md).
+Know more about [supported banks for EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/payment-methods/emi/emi-by-razorpay.md).
 
 ## Transaction Limits
 
-- [Transaction Limits for Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/transaction-limits.md)
-- [UPI Transaction Limits](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/transaction-limits/upi.md)
+- [Transaction Limits for Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/transaction-limits.md)
+- [UPI Transaction Limits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/transaction-limits/upi.md)
 
 ## Payment Method Error Codes
 
-There are certain error codes specific to each payment method supported by Razorpay. Know more about the [Payment Method Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/payments/payment-methods-error-parameters.md).
+There are certain error codes specific to each payment method supported by Razorpay. Know more about the [Payment Method Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/payments/payment-methods-error-parameters.md).

@@ -8,7 +8,7 @@ description: Find answers to frequently asked questions about building a custom 
 ### 1. How do I sign up for a test account?
 
          You can sign up for a Razorpay account from the Dashboard sign up page. You don't need to submit any documents to access test mode. All to need to do is verify your email address.
-         Refer to the [Set up your Razorpay Account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up.md) page for more details.
+         Refer to the [Set up your Razorpay Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md) page for more details.
         
 
     
@@ -28,7 +28,7 @@ description: Find answers to frequently asked questions about building a custom 
 
          The email and password is only used to log in to the Dashboard.
          To authenticate APIs, you will need to generate a `Key_ID` and `Key_Secret`. You can generate these from the **Settings** section of your Dashboard.
-         [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.  
+         [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.  
         
 
     

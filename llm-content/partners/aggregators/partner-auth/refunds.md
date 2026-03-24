@@ -7,7 +7,7 @@ description: Integrate with Refunds API using partner auth.
 # Refunds
 
 You can make full or partial refunds to customers. 
-Know more about [Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds.md).
+Know more about [Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md).
 
 > **INFO**
 >
@@ -19,7 +19,7 @@ Know more about [Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/paymen
 
 ## Create a Refund API
 
-Given below are the sample codes to create a full refund. You should send the `account_id` of the sub-merchant using `X-Razorpay-Account` in the header. Refer to the [Refunds API documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds.md).
+Given below are the sample codes to create a full refund. You should send the `account_id` of the sub-merchant using `X-Razorpay-Account` in the header. Refer to the [Refunds API documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds.md).
 
 /payments/:id/refund
 
@@ -189,7 +189,7 @@ Razorpay::Payment.fetch(paymentId).refund(para_attr)
  For example, if the refund value is  it will be `3000`.
 
 `currency`
-: `string` The currency of payment amount for which the refund is initiated. Check the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` The currency of payment amount for which the refund is initiated. Check the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 `payment_id`
 : `string` The unique identifier of the payment for which a refund is initiated. For example, `pay_FgR9UMzgmKDJRi`.
@@ -236,7 +236,7 @@ Possible values:
 
 ## Fetch All Refunds API
 
-Given below is the sample code for Fetch all Refunds API. Pass the `account_id` of the sub-merchant using `X-Razorpay-Account` in the header. Know more about [Fetch all Refunds API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds/fetch-all.md).
+Given below is the sample code for Fetch all Refunds API. Pass the `account_id` of the sub-merchant using `X-Razorpay-Account` in the header. Know more about [Fetch all Refunds API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds/fetch-all.md).
 
 By default, only the last 10 refunds are returned. You can use count and skip query parameters to change that behaviour.
 
@@ -381,7 +381,7 @@ Razorpay::Refund.all(options)
  For example, if the refund value is  it will be `3000`.
 
 `currency`
-: `string` The currency of payment amount for which the refund is initiated. Check the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` The currency of payment amount for which the refund is initiated. Check the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 `payment_id`
 : `string` The unique identifier of the payment for which a refund is initiated. For example, `pay_FgR9UMzgmKDJRi`.
@@ -428,4 +428,4 @@ Possible values:
 
 ### Related Information
 
-- [Refunds API documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds.md)
+- [Refunds API documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds.md)

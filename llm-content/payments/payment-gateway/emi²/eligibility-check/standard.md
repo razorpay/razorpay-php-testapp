@@ -14,7 +14,7 @@ Razorpay offers a pre-eligibility check on Debit Card EMI, Cardless EMI, and Pay
 > **Handy Tips**
 > 
 > - This feature is available by default. 
-> - The eligibility check is performed only for [ Debit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md), [Cardless EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/credit-card-emi.md), and [Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later.md). 
+> - The eligibility check is performed only for [ Debit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md), [Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/credit-card-emi.md), and [Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md). 
 > - Eligibility check is not applicable for Credit Card EMI as it is a pre-eligible form of credit.
 > 
 
@@ -30,18 +30,18 @@ Increase the success rate of transactions with EMI² instruments by displaying o
 
 A customer selects the products on your website or app and proceeds to Checkout. After choosing EMI or Pay Later as the payment method, the customer can differentiate between the eligible and ineligible payment options. They can opt for an eligible payment option to complete the payment.
 
-![View eligible payment options](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/eligible-payment-options.jpg.md)
+![View eligible payment options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/eligible-payment-options.jpg.md)
 
 - **Eligible**: The customer selects an eligible payment instrument and completes the payment successfully.
 
 - **Ineligible**: The customer can view the reason for ineligibility as highlighted below.
-    ![Highlight ineligible payment instruments](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ineligibility-highlight.jpg.md)
+    ![Highlight ineligible payment instruments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ineligibility-highlight.jpg.md)
     
     To proceed with the payment in case of ineligibility, the customer can choose to:
     - Use a different mobile number for the chosen payment method and try again. 
     - Opt for a different payment instrument/method. 
 
-    ![Demo for ineligible flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-ineligibility.gif.md)
+    ![Demo for ineligible flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-ineligibility.gif.md)
 
 ## Reasons for Ineligibility
 
@@ -86,5 +86,5 @@ View the list of payment methods/instruments and providers on which eligibility 
 
 ### Related Information 
 
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs#eligibility-check.md)
-- [EMI² Suite](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi².md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#eligibility-check)
+- [EMI² Suite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi².md)

@@ -11,7 +11,7 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
   
 ### 1. How do I change the login/registered email ID of my account?
 
-     You can change your login/registered email ID from **Account & Settings** on the Dashboard. Know more about [Updating Login Email](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/account-details/#update-login-email.md).
+     You can change your login/registered email ID from **Account & Settings** on the Dashboard. Know more about [Updating Login Email](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/account-details.md#update-login-email).
     
 
   
@@ -27,11 +27,11 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
      1. Log in to the Dashboard.
      2. Navigate to **Account & Settings**.
      3. Click the edit icon next to the **Phone number** field.
-        ![Edit contact number on Razorpay Dashboard.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-settings-edit-phone-number.jpg.md)
+        ![Edit contact number on Razorpay Dashboard.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settings-edit-phone-number.jpg.md)
      4. Enter the OTP sent to your registered email address and click **Confirm**.
-        ![Enter the otp received on email](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-settings-enter-email-otp.jpg.md)
+        ![Enter the otp received on email](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settings-enter-email-otp.jpg.md)
      5. Enter the new phone number and click **Update**.
-        ![Enter the new phone number](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-settings-enter-new-phone-number.jpg.md)
+        ![Enter the new phone number](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settings-enter-new-phone-number.jpg.md)
     
 
   
@@ -41,7 +41,7 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
      1. Log in to the Dashboard.
      2. Navigate to **Account & Settings**.
      3. Click **Email** under the **Notification settings** section.
-        ![Update email notifications](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-email-notifications.jpg.md)
+        ![Update email notifications](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-email-notifications.jpg.md)
      4. Add the email ID in the **Email Notifications**.
      5. Click **Save Changes**.
     
@@ -51,19 +51,19 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
   
 ### 1. How do I change the account details displayed on the Dashboard?
 
-     You change your account details such as display name, your name, email and phone number from the [Account Details section](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/account-details.md) on **Account & Settings** on the Dashboard.
+     You change your account details such as display name, your name, email and phone number from the [Account Details section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/account-details.md) on **Account & Settings** on the Dashboard.
     
 
   
 ### 2. How do I change my business Website URL?
 
-     To change your business website URL, navigate to  **Account & Settings** → **Business website details** and click the edit icon in the **Business Website/App details field**. Know more about how to [edit your business website/app URL](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/business-website-details.md).
+     To change your business website URL, navigate to  **Account & Settings** → **Business website details** and click the edit icon in the **Business Website/App details field**. Know more about how to [edit your business website/app URL](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/business-website-details.md).
     
 
   
 ### 3. How can I update my bank account information?
 
-     You can request a change in bank account details from the Dashboard. Watch the video explaining [how to change bank account details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/bank-account-details.md).
+     You can request a change in bank account details from the Dashboard. Watch the video explaining [how to change bank account details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/bank-account-details.md).
      1. Log in to the Dashboard.
      2. Navigate to **Account & Settings**.
      3. Click **Bank account details** details under the **Bank accounts and settlements** section.
@@ -88,13 +88,13 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
 >      The billing label must match your registered business name or the domain name.
 >      
 
-     - If you are a registered business or individual business, you can use the [brand name and logo](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/checkout-styling/#brand-name-and-logo.md) feature on the Dashboard to update the business name.
+     - If you are a registered business or individual business, you can use the [brand name and logo](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-styling.md#brand-name-and-logo) feature on the Dashboard to update the business name.
     
 
   
 ### 5. How can I change my GSTIN?
 
-     You can use the [Add or Update GST details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/gst-details.md) feature on the Dashboard to update the GST details.
+     You can use the [Add or Update GST details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/gst-details.md) feature on the Dashboard to update the GST details.
     
 
   
@@ -165,7 +165,7 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
   
 ### 3. How can I update my bank account information?
 
-     You can request a change in bank account details from the Dashboard. Watch the video explaining [how to change bank account details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/#change-bank-account-details.md).
+     You can request a change in bank account details from the Dashboard. Watch the video explaining [how to change bank account details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings.md#change-bank-account-details).
      1. Log in to the Dashboard and navigate to **Account & Settings**.
      2. Go to **Bank account details**.
      3. Click **Change bank account**.
@@ -197,7 +197,7 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
   
 ### 5. How can I change my GSTIN?
 
-     You can use the [Add or Update GST details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/#add-or-update-gst-details.md) feature on the Dashboard to update the GST details.
+     You can use the [Add or Update GST details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings.md#add-or-update-gst-details) feature on the Dashboard to update the GST details.
     
 
   
@@ -248,13 +248,13 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
   
 ### 4. How do I integrate Razorpay?
 
-     You can integrate Razorpay with your website or app using SDKs and plugins. Refer to our [list of integrations](https://razorpay.com/integrations/). You can also accept payments without integrations using our range of [products](@/Applications/MAMP/htdocs/new-docs/llm-content/payments.md).
+     You can integrate Razorpay with your website or app using SDKs and plugins. Refer to our [list of integrations](https://razorpay.com/integrations/). You can also accept payments without integrations using our range of [products](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md).
     
 
   
 ### 5. What is a webhook? How do I use it?
 
-     Webhooks enable a web application to send information to another application in real-time when a specific event happens after integration. Use Razorpay Webhooks to configure and receive notifications when a specific event occurs. Know more about [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
+     Webhooks enable a web application to send information to another application in real-time when a specific event happens after integration. Use Razorpay Webhooks to configure and receive notifications when a specific event occurs. Know more about [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
     
 
   
@@ -266,7 +266,7 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
   
 ### 7. How do I close my Razorpay account?
 
-     Log in to the Dashboard and [raise a support request](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/support/#raise-a-new-ticket.md) to close your Razorpay account.
+     Log in to the Dashboard and [raise a support request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/support.md#raise-a-new-ticket) to close your Razorpay account.
     
 
   
@@ -280,7 +280,7 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
      2. Navigate to **Account & Settings** → **Business website detail**.
      3. Click **Add additional website/app details**. 
 
-     Know more about the complete process, required documentation (for example, policy links, reason for adding) and review time by referring to the [Additional Website/Mobile App documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/business-website-details/#additional-website-mobile-app.md).
+     Know more about the complete process, required documentation (for example, policy links, reason for adding) and review time by referring to the [Additional Website/Mobile App documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/business-website-details.md#additional-website-mobile-app).
     
 
  Dashboard?
@@ -299,13 +299,13 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
   
 ### 3. How do I integrate ?
 
-     You can integrate  with your website or app using SDKs and plugins.  You can also accept payments without integrations using our range of [products](@/Applications/MAMP/htdocs/new-docs/llm-content/payments.md).
+     You can integrate  with your website or app using SDKs and plugins.  You can also accept payments without integrations using our range of [products](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md).
     
 
   
 ### 4. What is a webhook? How do I use it?
 
-     Webhooks enable a web application to send information to another application in real-time when a specific event happens after integration. Use webhooks to configure and receive notifications when a specific event occurs. Know more about [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
+     Webhooks enable a web application to send information to another application in real-time when a specific event happens after integration. Use webhooks to configure and receive notifications when a specific event occurs. Know more about [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
     
 
   
@@ -325,7 +325,7 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
      2. Navigate to **Account & Settings** → **Business website detail**.
      3. Click **Add additional website/app details**. 
 
-     Know more about the complete process, required documentation (for example, policy links, reason for adding) and review time by referring to the [Additional Website/Mobile App documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/business-website-details/#additional-website-mobile-app.md).
+     Know more about the complete process, required documentation (for example, policy links, reason for adding) and review time by referring to the [Additional Website/Mobile App documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/business-website-details.md#additional-website-mobile-app).
     
 
 ## Reports
@@ -371,19 +371,19 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
   
 ### 5. How does Bank Identification Number (BIN) based customisation help?
 
-     BIN based customisation allows you to control payment method eligibility by specifying one or more BINs (first 6-8 digits of a card number). The system validates and saves these BINs, ensuring that only selected cards are allowed for transactions. This helps you restrict or enable specific card types based on your business needs. Know how to [customise the card payment option based on BIN](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-configuration/#customise-payment-methods.md).
+     BIN based customisation allows you to control payment method eligibility by specifying one or more BINs (first 6-8 digits of a card number). The system validates and saves these BINs, ensuring that only selected cards are allowed for transactions. This helps you restrict or enable specific card types based on your business needs. Know how to [customise the card payment option based on BIN](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-configuration.md#customise-payment-methods).
     
 
   
 ### 6. How does displaying UPI QR Code at checkout help?
 
-      On Desktop-web, displaying the UPI QR Code simplifies checkout experience by eliminating manual UPI ID entry. After customers scan the QR code with their mobile UPI app, the system automatically extracts their linked UPI ID using their registered phone number. Know how to [show/hide UPI QR Code on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-configuration/#customise-payment-methods.md).
+      On Desktop-web, displaying the UPI QR Code simplifies checkout experience by eliminating manual UPI ID entry. After customers scan the QR code with their mobile UPI app, the system automatically extracts their linked UPI ID using their registered phone number. Know how to [show/hide UPI QR Code on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-configuration.md#customise-payment-methods).
     
 
   
 ### 7. How does displaying the UPI ID/Number field at checkout help?
 
-     Displaying the UPI ID field improves the checkout experience on both Mobile-web and Desktop-web. Customers can manually enter their UPI ID, offering greater flexibility—especially if they cannot scan a QR code. The system instantly validates the UPI ID, reducing errors and improving transaction success rates. Know how to [show/hide UPI ID/Number field on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-configuration/#customise-payment-methods.md).
+     Displaying the UPI ID field improves the checkout experience on both Mobile-web and Desktop-web. Customers can manually enter their UPI ID, offering greater flexibility—especially if they cannot scan a QR code. The system instantly validates the UPI ID, reducing errors and improving transaction success rates. Know how to [show/hide UPI ID/Number field on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-configuration.md#customise-payment-methods).
     
 
 ## Miscellaneous
@@ -398,7 +398,7 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
 ### 2. My account is activated. How do I switch to live mode?
 
      You can switch between the **Test and Live** modes using the drop-down option at the top of the Dashboard.
-      ![Switch between Test and Live modes](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/test-live-1.jpg.md)
+      ![Switch between Test and Live modes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/test-live-1.jpg.md)
     
 
   
@@ -408,11 +408,11 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
      1. Log in to the Dashboard.
      2. Navigate to **Account & Settings**.
      3. Click **Business website details** under the **Website and app settings** section.
-        ![Account and settings on Razorpay Dashboard.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-profile-profile.jpg.md)
+        ![Account and settings on Razorpay Dashboard.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-profile-profile.jpg.md)
      4. Click the edit icon. 
-        ![Add website/app details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-website-app-details.jpg.md)
+        ![Add website/app details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-website-app-details.jpg.md)
      5. Enter your website URL and click **Add Details**.
-        ![Enter website/app URL on Razorpay Dashboard.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-profile-enter-url.jpg.md)
+        ![Enter website/app URL on Razorpay Dashboard.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-profile-enter-url.jpg.md)
      6. Our team will review your website/app URL details. Post review, your website details are updated, and you should be able to generate API keys in the Live Mode.
     
 
@@ -432,7 +432,7 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
 ### 6. Where can I find my Account ID/Merchant ID on the Dashboard?
 
      You can find your Account ID/Merchant ID at the top-right corner of your Dashboard in alpha-numeric characters.
-      ![image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-mid.jpg.md)
+      ![image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-mid.jpg.md)
     
 
   
@@ -459,7 +459,7 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
   
 ### 10. How can email and SMS notifications be enabled?
 
-     You can configure your email and SMS notifications from your Dashboard. To know more, check [notification settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/email-sms-whatsapp.md).
+     You can configure your email and SMS notifications from your Dashboard. To know more, check [notification settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/email-sms-whatsapp.md).
   
 
  
@@ -507,7 +507,7 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
 ### 6. Where can I find my Account ID/Merchant ID on the Dashboard?
 
      You can find your Account ID/Merchant ID at the top-right corner of your Dashboard in alpha-numeric characters.
-      ![image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-mid.jpg.md)
+      ![image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-mid.jpg.md)
     
 
     
@@ -534,4 +534,4 @@ description: Find answers to frequently asked questions about Razorpay Dashboard
 ### 5. Where can I find my Account ID/Merchant ID on the Dashboard?
 
      You can find your Account ID/Merchant ID at the top-right corner of your Dashboard in alpha-numeric characters.
-      ![image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-mid.jpg.md)
+      ![image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-mid.jpg.md)

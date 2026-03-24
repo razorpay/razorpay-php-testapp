@@ -16,9 +16,9 @@ A UPI ID comprises of the following:
     Static information. Value is `rpy`.
     - Merchant Prefix  
 `payto00000` is the standard merchant prefix. You can opt for a custom, 4-10 character merchant prefix as per your brand requirements. For example, `acmevendor`. To configure this prefix, click the **click here** button.
-        ![VPA Configure Button](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/vpa-configure-button.jpg.md)
+        ![VPA Configure Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/vpa-configure-button.jpg.md)
         - Add the custom prefix and click **Save**.
-            ![Custom VPA](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/vpa-new-custom-name.jpg.md)
+            ![Custom VPA](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/vpa-new-custom-name.jpg.md)
     - Descriptor  
 
     10-16 character unique identifier of your customer provided by you. For example, `gaurikumari`.

@@ -225,11 +225,11 @@ Given below are the supported payment methods and payment providers for [Cards](
         
         Payment Gateways | Availability
         ---
-        [PayU](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/supported-gateways-aggregators/#payu-emi.md) | Live
+        [PayU](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md#payu-emi) | Live
         ---
-        [Billdesk](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/supported-gateways-aggregators/#billdesk-and-ingenico-emi.md) | Live
+        [Billdesk](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md#billdesk-and-ingenico-emi) | Live
         ---
-        [Ingenico](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/supported-gateways-aggregators/#billdesk-and-ingenico-emi.md) | Live
+        [Ingenico](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md#billdesk-and-ingenico-emi) | Live
         
 
         
@@ -286,10 +286,10 @@ Given below are the supported payment methods and payment providers for [Cards](
 ### Billdesk and Ingenico EMI
 
                 Follow the steps given below to enable Billdesk and Ingenico EMI on Optimizer:
-                 1. Add EMI as a payment method on the Dashboard. Know more about [how to request for a payment method](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-methods/#request-for-payment-methods.md).
-                 2. Enable [Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/get-started.md) for your account.
-                 3. [Add Billdesk or Ingenico as a payment method](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/billdesk.md).
-                 4. Route transactions via Billdesk or Ingenico. Know [how to route transactions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/create-custom-rule/#steps.md).
+                 1. Add EMI as a payment method on the Dashboard. Know more about [how to request for a payment method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-methods.md#request-for-payment-methods).
+                 2. Enable [Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/get-started.md) for your account.
+                 3. [Add Billdesk or Ingenico as a payment method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/billdesk.md).
+                 4. Route transactions via Billdesk or Ingenico. Know [how to route transactions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/create-custom-rule.md#steps).
 
                 
 
@@ -304,9 +304,9 @@ Given below are the supported payment methods and payment providers for [Cards](
         
         S No. | Provider
         ---
-        1 | [ShopSe](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi/shopse.md)
+        1 | [ShopSe](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi/shopse.md)
         ---
-        2 | [Snapmint](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi/snapmint.md)
+        2 | [Snapmint](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi/snapmint.md)
         
     
 
@@ -318,7 +318,7 @@ Given below are the supported payment methods and payment providers for [Cards](
         
         S No. | Provider
         ---
-        1 | [Sodexo](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/sodexo.md)
+        1 | [Sodexo](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/sodexo.md)
         
     
 
@@ -330,7 +330,7 @@ Given below are the supported payment methods and payment providers for [Cards](
         
         S No. | Provider
         ---
-        1 | [Simpl](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/simpl.md)
+        1 | [Simpl](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/simpl.md)
         
     
 
@@ -426,12 +426,12 @@ Given below are the supported payment methods and payment providers for [Cards](
             ---
             7 | PhonePe | [Contact Support](https://razorpay.com/support). 
             ---
-            8 | [PhonePe Switch](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch.md) | **For businesses that are registered with PhonePe Switch Only**. 
+            8 | [PhonePe Switch](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch.md) | **For businesses that are registered with PhonePe Switch Only**. 
             ---
-            9 | [PayPal](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/wallets/paypal.md) | **International Payments Only**.
+            9 | [PayPal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets/paypal.md) | **International Payments Only**.
  [Contact Support](https://razorpay.com/support). 
             ---
-            10 | [Amazon Pay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/wallets/amazon-pay.md)| [Contact Support](https://razorpay.com/support).
+            10 | [Amazon Pay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets/amazon-pay.md)| [Contact Support](https://razorpay.com/support).
             
          
    
@@ -474,9 +474,9 @@ S No. | Aggregators | Availability
 
 ### Related Information
 
-- [Add Payment Providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/add-payment-providers.md)
-- [SR Analytics Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/success-rate.md)
-- [Single Reconciliation View](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/reconciliation.md)
-- [Roles and Permissions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/roles-and-permissions.md)
-- [Tokenisation for Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/tokenisation.md)
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/faqs.md)
+- [Add Payment Providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/add-payment-providers.md)
+- [SR Analytics Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/success-rate.md)
+- [Single Reconciliation View](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/reconciliation.md)
+- [Roles and Permissions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/roles-and-permissions.md)
+- [Tokenisation for Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/tokenisation.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/faqs.md)

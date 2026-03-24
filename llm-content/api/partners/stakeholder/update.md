@@ -8,17 +8,17 @@ description: Update a Stakeholder using Razorpay Partners APIs.
 
 ## Update a Stakeholder
 
-Use this endpoint to update the details of a stakeholder. Know about the [various error responses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md) for this API. 
+Use this endpoint to update the details of a stakeholder. Know about the [various error responses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md) for this API. 
 
-The information you can update for a stakeholder using the Update a Stakeholder API differs based on the [product activation status](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/#product-activation-status-and-updates-permitted.md).
+The information you can update for a stakeholder using the Update a Stakeholder API differs based on the [product activation status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api.md#product-activation-status-and-updates-permitted).
 
 > **WARN**
 >
 > 
 > Currently, we do not support making concurrent requests to the following Onboarding APIs including their combination on the same `account_id`:
-> - [Update Account API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/account-onboarding/update.md)
+> - [Update Account API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/account-onboarding/update.md)
 > - Update Stakeholder API
-> - [Update Product Configuration API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration/update-settlement-account-details.md)
+> - [Update Product Configuration API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration/update-settlement-account-details.md)
 > 
 > Please wait for the response of these APIs before making subsequent requests.
 > 
@@ -344,7 +344,7 @@ Stakeholder stakeholder = client.Stakeholder.Fetch(accountId, stakeholderId).Edi
         : `string` The postal code. The minimum length is 2 and maximum length is 10.
          
         `country` _optional_
-        : `string` The country. The minimum length is 2 and maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#country-list.md).
+        : `string` The country. The minimum length is 2 and maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#country-list).
 
 `kyc` _conditional_
 : `object` The type of document required to establish the stakeholder's identity.
@@ -416,7 +416,7 @@ Stakeholder stakeholder = client.Stakeholder.Fetch(accountId, stakeholderId).Edi
         : `string` The postal code. The minimum length is 2 and maximum length is 10.
 
         `country`
-        : `string` The country. The minimum length is 2 and maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#country-list.md).
+        : `string` The country. The minimum length is 2 and maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#country-list).
 
 `kyc`
 : `object` The type of document required to establish the stakeholder's identity.

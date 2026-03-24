@@ -169,7 +169,7 @@ List payment = client.Payment.All(paramRequest);
 : `integer` The payment amount in currency subunits. For example, for an amount of  enter 100.
 
 `currency`
-: `string` The currency in which the payment is made. Refer to the list of [international currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md) that we support.
+: `string` The currency in which the payment is made. Refer to the list of [international currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies) that we support.
 
 `status`
 : `string` The status of the payment. Possible values:
@@ -188,7 +188,7 @@ List payment = client.Payment.All(paramRequest);
   - `upi`
 
 `order_id`
-: `string` Order id, if provided. Know more about [Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders.md).
+: `string` Order id, if provided. Know more about [Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders.md).
 
 `description`
 : `string` Description of the payment, if any.
@@ -303,7 +303,7 @@ List payment = client.Payment.All(paramRequest);
     - `business`
 
     
-    Know how to accept payments made by customers using [corporate cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/corporate-cards.md).
+    Know how to accept payments made by customers using [corporate cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/corporate-cards.md).
 
 `upi`
 : `object` Details of the UPI payment received. Only applicable if `method` is `upi`.

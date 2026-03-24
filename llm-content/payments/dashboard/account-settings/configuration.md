@@ -18,7 +18,7 @@ You can use the **Configuration** tab to perform the following operations:
 - [Manage Email Notifications](#manage-email-notifications)
 - [Manage SMS Notifications](#manage-sms-notifications)
 - [Manage WhatsApp Notifications](#manage-whatsapp-notifications)
-- [Configure Payment Capture Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md)
+- [Configure Payment Capture Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md)
 
 ## Change Color on Checkout Page
 
@@ -52,7 +52,7 @@ If the customer does not specify a language, the default language will be used o
 3. Select the default language. For example, **English**.
 4. Click **Save**.
 
-![customise checkout theme](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-settings-checkout-theme1.jpg.md)
+![customise checkout theme](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settings-checkout-theme1.jpg.md)
 
 ## Configure Email Address
 By default, the email address field is hidden on checkout. You can choose to configure the email address field based on your requirement.
@@ -68,7 +68,7 @@ By default, the email address field is hidden on checkout. You can choose to con
           - **As an optional field**: Customers can either enter their email address or choose to skip it.
           - **As a mandatory field**: Customers have to enter their email address to proceed.
         
-            ![Email-less checkout configuration on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-emailess-checkout.jpg.md)
+            ![Email-less checkout configuration on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-emailess-checkout.jpg.md)
        5. Click **Save**.
       
 
@@ -80,7 +80,7 @@ Watch this video to see how to enable or disable Flash Checkout:
 
 Customers can manage their saved card details stored as tokens using our portal. 
 - [Manage Global Saved Cards](https://razorpay.com/flashcheckout/manage/) by following the on-screen instructions.
-- [Manage Local Saved Tokens](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/features/saved-cards.md).
+- [Manage Local Saved Tokens](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/features/saved-cards.md).
 
 ## Manage Fee Bearer Model
 Razorpay charges nominal platform fee for every payment that passes through the Razorpay Payment Gateway. You can choose to charge a Convenience Fee to your customers for the use of technology infrastructure. Convenience Fees are seamlessly added at the Checkout without disrupting the checkout experience. If a refund is initiated, your customers receive the Convenience Fees along with the actual payment amount.
@@ -100,13 +100,13 @@ Razorpay charges nominal platform fee for every payment that passes through the 
        2. Navigate to **Account & Settings**.
        3. Select the **Convenience Fee Model** option on the **Settings** → **Fee Bearer** section of the Dashboard.
 
-       ![Customer pays the fee](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-settings-fee-bearer-customer-fee-bearer.jpg.md)
-       Know more about the [Convenience Fee Model](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/configuration/convenience-fees.md).
+       ![Customer pays the fee](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settings-fee-bearer-customer-fee-bearer.jpg.md)
+       Know more about the [Convenience Fee Model](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/configuration/convenience-fees.md).
       
 
 ## Enable International Payments
 
-By default, you can accept payments in various [international currencies supported by Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+By default, you can accept payments in various [international currencies supported by Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 If you do not want to accept payments in currencies apart from INR (₹), you can turn it off using the toggle button. Watch this video to see how to enable international payments.
 
@@ -120,7 +120,7 @@ You can configure the email addresses to receive email notifications like paymen
 > 
 > **Handy Tips**
 > 
-> Settlement emails will be sent to the email addresses provided on the Dashboard. Know more about [Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements.md).
+> Settlement emails will be sent to the email addresses provided on the Dashboard. Know more about [Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md).
 > 
 
    
@@ -144,7 +144,7 @@ You can enable **SMS Notifications** to receive SMS notifications for successful
        3. Enable **SMS Notifications**.
 
        
-       ![Manage SMS Notifications](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/manage-sms-notifications.jpg.md)
+       ![Manage SMS Notifications](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/manage-sms-notifications.jpg.md)
        
        After SMS notifications are enabled, you start receiving notifications on the registered phone number. By default, this feature is set to **Enabled**. You can disable it using the toggle button.
       
@@ -158,7 +158,7 @@ You can receive WhatsApp notifications regarding settlements, account configurat
 > 
 > **Handy Tips**
 > 
-> This feature is available only to the owner user role. Know about the various [user roles](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team.md).
+> This feature is available only to the owner user role. Know about the various [user roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md).
 > 
 
    
@@ -168,6 +168,6 @@ You can receive WhatsApp notifications regarding settlements, account configurat
        2. Click **Accounts & Settings** and go to **Notification settings → WhatsApp**.
        3. Enable **WhatsApp Notifications**.
 
-       ![Manage WhatsApp Notifications](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/manage-whatsApp-notifications.jpg.md)
+       ![Manage WhatsApp Notifications](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/manage-whatsApp-notifications.jpg.md)
 
        After WhatsApp notifications are enabled, you start receiving notifications on the registered number. You can disable the WhatsApp notifications from the Dashboard.

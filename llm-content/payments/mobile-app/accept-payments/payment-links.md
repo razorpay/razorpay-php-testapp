@@ -17,7 +17,7 @@ Follow these steps to create a Payment Link:
 
 1. Log in with your Dashboard credentials.
 
-   ![Log in to Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-mobile-app-login.jpg.md)
+   ![Log in to Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-mobile-app-login.jpg.md)
 
 2. Navigate to **Products** → **Payment Link** or tap **Payment Link** under **Accept Payments** section.
 3. Provide the following details:
@@ -30,15 +30,15 @@ Follow these steps to create a Payment Link:
         - Enter **Expiry Date** and **Time**.
         - Provide additional details using **Internal Notes**. For example, Branch: Bangalore.
 
-    ![Payment Link Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-mobile-app-enter-details.jpg.md)
+    ![Payment Link Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-mobile-app-enter-details.jpg.md)
 
 4. Tap **Create**.
 5. Enter the customer's phone and email address to immediately send the Payment Link.
 Alternatively, you can create the link without providing these details and share later.
 6. Tap **Create And Send Payment Link**.
-    ![Create and Send Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-mobile-app-details.jpg.md)
+    ![Create and Send Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-mobile-app-details.jpg.md)
 7. You can either share the link with your customer immediately via Facebook, Instagram, WhatsApp and more, or share it later.
-    ![Share Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-link-mobile-share.jpg.md)
+    ![Share Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-link-mobile-share.jpg.md)
 8. Under the **Accept Payments** section, tap **Payment Link** and scroll down to the **Recent Payment Links** section. The link appears on the list. Tap on the link to view more details. You can also choose to [share the link](#share-payment-links) or [duplicate](#duplicate-payment-links) it.
 
 ## Share Payment Links
@@ -89,5 +89,5 @@ Expired | The Payment Link has expired. The expiry date and time is set while cr
 
 ### Related Information
 
-- [Payments Mobile App](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app.md)
-- [Payment Pages Mobile App](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app/accept-payments/payment-pages.md)
+- [Payments Mobile App](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app.md)
+- [Payment Pages Mobile App](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app/accept-payments/payment-pages.md)

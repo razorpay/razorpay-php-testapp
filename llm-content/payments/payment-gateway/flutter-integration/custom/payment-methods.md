@@ -109,7 +109,7 @@ _razorpay.submit(options);
 > ```
 > 
 
-View the complete list of [UPI supported apps and their package names](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/supported-apps.md).
+View the complete list of [UPI supported apps and their package names](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/supported-apps.md).
 
 #### Collect Flow
 
@@ -201,7 +201,7 @@ _razorpay.submit(options);
 
 ## Pay Later
 
-Given below is the sample code for the payment method `paylater`. Know more about [paylater](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later/custom-integration.md).
+Given below is the sample code for the payment method `paylater`. Know more about [paylater](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later/custom-integration.md).
 
 ```js: Paylater
 var options = {
@@ -220,7 +220,7 @@ _razorpay.submit(options!);
 
 ## Cardless EMI
 
-Given below is the sample code for the payment method `cardless_emi`. Know more about [Cardless EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi/custom-integration.md).
+Given below is the sample code for the payment method `cardless_emi`. Know more about [Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi/custom-integration.md).
 
 ```js: Cardless EMI
 var options = {

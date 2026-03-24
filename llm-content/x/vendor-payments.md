@@ -14,11 +14,11 @@ There are many features you can utilise to make your invoice creation process, r
 
 You can use the [RazorpayX Vendor Payments](https://x.razorpay.com/vendor-payments) to automate the process of making payments to your vendors in three simple steps:
  
-1. [Upload an invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/invoices#add-invoices.md) on the [RazorpayX Dashboard](https://x.razorpay.com/auth).
+1. [Upload an invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/invoices.md#add-invoices) on the [RazorpayX Dashboard](https://x.razorpay.com/auth).
 2. Add the vendor/s details.
 3. Make the payment as per your business requirements.
 
-You can also pay an [advance](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/advances.md) to your vendor via RazorpayX without worrying about reconciliation because we take care of that for you, when you pay for the invoice.
+You can also pay an [advance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/advances.md) to your vendor via RazorpayX without worrying about reconciliation because we take care of that for you, when you pay for the invoice.
  
 ## TDS and GST Details
  
@@ -41,17 +41,17 @@ For example, the invoice amount is ₹100 and the subtotal is ₹80.
  
 ## Input Tax Credit Checker
 
-RazorpayX automatically checks if your vendors have filed their GST, identify discrepancies in the filing and control your vendor payouts to recover previously lost credit dues. Know more about [Input Tax Credit Checker](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/gst-credit-checker.md).
+RazorpayX automatically checks if your vendors have filed their GST, identify discrepancies in the filing and control your vendor payouts to recover previously lost credit dues. Know more about [Input Tax Credit Checker](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/gst-credit-checker.md).
 
 ## Vendor Portal
  
-The RazorpayX Vendor Portal is a platform created for your vendors where they can upload the invoices and receive updates to the payment. Know more about how to [setup a Vendor Portal](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/portal/business.md) and how your Vendors can use the [RazorpayX Vendor Portal](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/portal.md).
+The RazorpayX Vendor Portal is a platform created for your vendors where they can upload the invoices and receive updates to the payment. Know more about how to [setup a Vendor Portal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/portal/business.md) and how your Vendors can use the [RazorpayX Vendor Portal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/portal.md).
  
 ## Manage Teams
  
-You can assign assign users roles to limit their access to the RazorpayX Dashboard as per your business requirements. Know more about [User Roles](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/#vendor-payments.md).
+You can assign assign users roles to limit their access to the RazorpayX Dashboard as per your business requirements. Know more about [User Roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams.md#vendor-payments).
  
 ### Related Information
  
-- [Bulk Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/bulk-invoices.md)
-- [Tally Accrual](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally/sync-purchase-vouchers.md)
+- [Bulk Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/bulk-invoices.md)
+- [Tally Accrual](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally/sync-purchase-vouchers.md)

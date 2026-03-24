@@ -47,7 +47,7 @@ Here is how CardSync works and what your customers experience:
 ### Setting Up (One Time Only)
 
          1. Customer saves their card in CRED and provides consent to share information with Razorpay partners.
-            ![CardSync First Time User Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cardsync-ftu.gif.md)
+            ![CardSync First Time User Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cardsync-ftu.gif.md)
          2. The card is safely stored on their Android device following banking rules.
          3. They are ready to shop anywhere that uses Razorpay.
         
@@ -56,14 +56,14 @@ Here is how CardSync works and what your customers experience:
 ### Easy Shopping
 
          1. At checkout, their saved CRED cards are shown (with their permission).
-            ![Select Your Saved Card](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cardsync-checkout-cardviacred.jpg.md)
+            ![Select Your Saved Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cardsync-checkout-cardviacred.jpg.md)
          2. Card details are automatically displayed, so no typing is required.
          3. Customers tap to select their card and complete payment instantly.
         
 
 Given below is a complete end-to-end flow about how customers can use CardSync: 
 
-![CardSync Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cardsync-video-pm.gif.md)
+![CardSync Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cardsync-video-pm.gif.md)
 
 ### Setup Process
 

@@ -11,7 +11,7 @@ Given below are the steps to integrate with the Import Flow APIs.
 
 Creating a customer generates a unique `customer_id` by collecting basic details such as name, email, and contact details. This `customer_id` must be included when creating a payment request to link the payment to the customer. Use the following API to create a customer.
 
-You can try out our APIs on the Razorpay Postman Public Workspace. Fork the workspace and test the APIs with your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+You can try out our APIs on the Razorpay Postman Public Workspace. Fork the workspace and test the APIs with your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 /customers
 
@@ -231,7 +231,7 @@ instance.customers.create({
        ---
        The API `` provided is invalid. | The API credentials passed in the API call differ from the ones generated on the Dashboard. Possible reasons: - Different keys for test mode and live modes.
 - Expired API key.
- | The API keys must be active and entered correctly with no whitespace before or after the keys.  Know how to [Generate API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+ | The API keys must be active and entered correctly with no whitespace before or after the keys.  Know how to [Generate API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
        ---
        Contact number should be at least 8 digits, including country code. | The contact number is less than 8 digits. | Enter contact number that meets the validation criteria. It should have at least 8 digits, including the country code. For example, "+919123456780".
        
@@ -239,7 +239,7 @@ instance.customers.create({
 
 ## 1.2 Create an Order
 
-After a customer is created, an order needs to be generated using the Orders API. This order contains details such as the payment amount, currency, customer details, tax-related information and other custom notes. After the order is created, an `order_id` is generated, for example, `order_NGrgEcmYJsfUyl`. You must pass this `order_id` in the checkout code to associate this order with the payment. Learn more about [Order and Payment states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders/#order-states.md).
+After a customer is created, an order needs to be generated using the Orders API. This order contains details such as the payment amount, currency, customer details, tax-related information and other custom notes. After the order is created, an `order_id` is generated, for example, `order_NGrgEcmYJsfUyl`. You must pass this `order_id` in the checkout code to associate this order with the payment. Learn more about [Order and Payment states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders.md#order-states).
 
 /orders
 
@@ -681,7 +681,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 
       `order_id` _mandatory_
       : `string` Unique identifier of the Order.
- Know more about [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+ Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
       `ip` _optional_
       : `string` Customer's IP address.
@@ -726,14 +726,14 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 > **Watch Out!**
 > 
 > - The `invoice_number` field is mandatory for all payment methods. Ensure each payment has a unique invoice number.
-> - Refer to the [Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods.md) section for other payment options request parameters.
+> - Refer to the [Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods.md) section for other payment options request parameters.
 > 
 
 Following payment methods are supported under the Import Flow:
 - Netbanking
 - UPI
 - Cards (Debit and Credit)
-- [Recurring](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/s2s-integration/recurring-payments.md) 
+- [Recurring](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/s2s-integration/recurring-payments.md) 
 
 For recurring payments, additional integration is needed. Cards, UPI, and UPI with TPV are supported as a payment methods.
 
@@ -762,7 +762,7 @@ If the payment made by the customer is successful, the following fields are sent
   
 ### Failure Callback
 
-If the payment has failed, the callback will contain details of the error. Refer to [Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md) for details.
+If the payment has failed, the callback will contain details of the error. Refer to [Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md) for details.
     
 
 ## 1.5 Verify Payment Signature
@@ -788,4 +788,4 @@ if (generated_signature == razorpay_signature) {
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/s2s-integration/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/s2s-integration/test-integration.md)

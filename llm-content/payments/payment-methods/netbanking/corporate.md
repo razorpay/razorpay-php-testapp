@@ -15,16 +15,16 @@ To do this:
 1. Log in to the Dashboard.
 2. Navigate to **Settings** → **Payment Methods**.
 3. Click **Netbanking** → **Corporate Netbanking**. This shows the list of banks already active for your account.
-    ![Already Enabled Banks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-methods-netbanking-existing-banks.jpg.md)
+    ![Already Enabled Banks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-methods-netbanking-existing-banks.jpg.md)
     You can activate more banks. To do this:
     1. Click **Add more Banks**
     2. Click **Request** against the bank you want to add.
-       ![Add a Bank](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-methods-netbanking-add-bank.jpg.md)
+       ![Add a Bank](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-methods-netbanking-add-bank.jpg.md)
     3. Click **Confirm**.
 
 Our support team will enable the bank for your account.
 
-Know how to [enable payment methods from the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-methods.md).
+Know how to [enable payment methods from the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-methods.md).
 
 ### List of Banks
 

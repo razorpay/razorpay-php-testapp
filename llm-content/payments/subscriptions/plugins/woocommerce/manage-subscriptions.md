@@ -27,7 +27,7 @@ Razorpay Subscriptions plugin for WooCommerce does not support updating existing
 > The Reactivate button is only displayed when no payment is currently due.
 > 
 
-![Update Subscriptions product](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-16.jpg.md)
+![Update Subscriptions product](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-16.jpg.md)
 
 ## Cancel a Subscription
 
@@ -41,7 +41,7 @@ To cancel a Subscription:
 1. Navigate to **WooCommerce** → **Subscriptions**.
 1. Hover over the subscription you want to put on hold and click **Cancel**.
 
-![Cancel a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-17.jpg.md)
+![Cancel a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-17.jpg.md)
 
 > **WARN**
 >
@@ -51,9 +51,9 @@ To cancel a Subscription:
 > After you cancel an existing Subscription, you cannot restart it.
 > 
 
-![WooCommerce Subscriptions after cancellation](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-18.jpg.md)
+![WooCommerce Subscriptions after cancellation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-18.jpg.md)
 
 ## Refund Subscription Amount
 
-- To refund the subscription amount to a customer, you need to do this manually from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/dashboard/#issue-a-refund.md).
+- To refund the subscription amount to a customer, you need to do this manually from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/dashboard.md#issue-a-refund).
 - You also need to mark the subscription as refunded on [WooCommerce in WordPress Dashboard](https://docs.woocommerce.com/document/woocommerce-refunds/#section-4) by selecting the **Refunded** option from the **Order Status** drop-down list.

@@ -33,7 +33,7 @@ Use Route to improve transaction success rates, reduce payment processing costs 
 
             Here is how Route helps Acme:
 
-            ![EdTech Use Case](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route_use_case_edtech.gif.md)
+            ![EdTech Use Case](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route_use_case_edtech.gif.md)
 
             **Step 1: Tutor Registration and Course Creation**
 
@@ -57,7 +57,7 @@ Use Route to improve transaction success rates, reduce payment processing costs 
 
             Here is how Route helps Acme:
 
-            ![Ecommerce Use Case](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route_use_case-ecom.gif.md)
+            ![Ecommerce Use Case](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route_use_case-ecom.gif.md)
 
             **Step 1: Supplier Registration and Verification**
 
@@ -81,7 +81,7 @@ Use Route to improve transaction success rates, reduce payment processing costs 
 
             Here is how Route helps Acme:
 
-            ![IT and Software Use Case](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route_use_case_itandsoft.gif.md)
+            ![IT and Software Use Case](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route_use_case_itandsoft.gif.md)
 
             **Step 1: Loan Application and Approval**
 
@@ -105,7 +105,7 @@ Use Route to improve transaction success rates, reduce payment processing costs 
 
             Here is how Route helps Acme:
 
-            ![Food Sector Use Case](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route_use_case_food.gif.md)
+            ![Food Sector Use Case](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route_use_case_food.gif.md)
 
             **Step 1: Order Placement and Payment**
 

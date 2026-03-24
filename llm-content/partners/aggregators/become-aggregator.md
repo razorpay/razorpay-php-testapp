@@ -6,7 +6,7 @@ description: Submit a request to become a Razorpay Aggregator to manage your sub
 
 # Become an Aggregator
 
-All Partners are onboarded as Service Partners by default. You can request a switch if you have a use case for the Aggregator Partner type.  Know how to become a [Razorpay Partner](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/new-to-razorpay.md).
+All Partners are onboarded as Service Partners by default. You can request a switch if you have a use case for the Aggregator Partner type.  Know how to become a [Razorpay Partner](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/new-to-razorpay.md).
 
 @include partners/switch
 
@@ -22,4 +22,4 @@ You have successfully submitted a request for a Partner type switch. Our team wi
 
 ## Related Information
 
-- [About Aggregators](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators.md)
+- [About Aggregators](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators.md)

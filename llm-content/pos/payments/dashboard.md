@@ -25,7 +25,7 @@ To view the details of a payment made to your account:
 > Click on the **Charge Slip** file name to view it. Click the download icon next to the **Charge Slip** file name to save it on your system.
 > 
 
-![POS payment details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos-payment-details.jpg.md)
+![POS payment details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos-payment-details.jpg.md)
 
 ## View Settlement Details of a Payment
 
@@ -38,4 +38,4 @@ To view a detailed break-down of a settlement made to your account:
 
 ### Related Information 
 
-- [About Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/payments.md)
+- [About Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/payments.md)

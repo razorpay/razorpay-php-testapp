@@ -70,7 +70,7 @@ Watch the GIF to see how to add Frameworks, Libraries and Embed Content.
 
 To initialise the Razorpay SDK:
 
-- API key. You can generate this from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/#api-keys.md).
+- API key. You can generate this from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings.md#api-keys).
     
 > **WARN**
 >
@@ -169,7 +169,7 @@ class ViewController: UIViewController, RazorpayPaymentCompletionProtocol, WKNav
 
 ## 1.4 Get Payment Methods
 
-You can accept payments through UPI, credit/debit cards, netbanking and wallets, depending on the methods enabled for your account. When you use [Razorpay iOS Standard SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard.md), you do not have to handle the availability of different payment methods. However, when creating a custom checkout form, ensure the display of only the methods activated for your account to the customer.
+You can accept payments through UPI, credit/debit cards, netbanking and wallets, depending on the methods enabled for your account. When you use [Razorpay iOS Standard SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard.md), you do not have to handle the availability of different payment methods. However, when creating a custom checkout form, ensure the display of only the methods activated for your account to the customer.
 
 To get a list of available payment methods, call `getPaymentMethods`. This fetches the list of payment methods asynchronously and returns the results.
 
@@ -365,7 +365,7 @@ Below is a complete list of Checkout form parameters:
 > cache using the following formula:
 > 
 
-![EMI Formula](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ios_customui_emi.jpg.md)
+![EMI Formula](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ios_customui_emi.jpg.md)
 
 ## 1.6 Pass WKNavigationDelegate actions to SDK
 
@@ -555,4 +555,4 @@ Add the above to your `info.plist` file. For more information click [here](https
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/test-integration.md)

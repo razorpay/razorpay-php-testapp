@@ -22,17 +22,17 @@ Following are a few of the best practices to be followed to accept online paymen
   Show the UPI PSP apps in the order of their success rate.
 4. **Mobile site**  
 
-  If you have higher traffic via mobile site, make sure you provide the option of UPI intent payment to your users using [our m-site integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/google-pay/custom-integration.md). This will help you achieve better success rates.
+  If you have higher traffic via mobile site, make sure you provide the option of UPI intent payment to your users using [our m-site integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/google-pay/custom-integration.md). This will help you achieve better success rates.
 5. **Gpay SDK** 
 
-  If your UPI transaction volumes are high, you can also explore integrating [Gpay SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/google-pay/#android-integration-using-google-pay-sdk.md). This provides a better user experience and about a 3-5% improvement in success rate.
+  If your UPI transaction volumes are high, you can also explore integrating [Gpay SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/google-pay.md#android-integration-using-google-pay-sdk). This provides a better user experience and about a 3-5% improvement in success rate.
 
 ## Prerequisites
 
 - Contact our [Support Team](https://razorpay.com/support/#raise-a-request) to get this feature enabled for your account.
 - Keep the API key (combination of `Key_Id` and `Key_Secret`) handy for integration. 
-- [Generate API Keys from the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) if you have not done already.
-- Configure the [payment capture settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md) on the Dashboard.
+- [Generate API Keys from the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) if you have not done already.
+- Configure the [payment capture settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md) on the Dashboard.
 
 ## UPI Intent Flow
 

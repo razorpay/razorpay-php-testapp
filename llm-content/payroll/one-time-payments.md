@@ -47,7 +47,7 @@ To make one-time payments:
         - **Half Yearly Bonus:** Prorated Tax deduction
         - **Incentive:** Instant tax deduction
         -  **Yearly:** Instant tax deduction
-        ![one time payment component](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onetime-p.jpg.md)
+        ![one time payment component](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onetime-p.jpg.md)
          
 > **WARN**
 >
@@ -70,6 +70,6 @@ To make one-time payments:
 
 ### Related Information
 
-- [Salary](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary.md)
-- [Run Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll.md)
-- [Exceptional Pay Cases](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/exceptional-cases.md)
+- [Salary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md)
+- [Run Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md)
+- [Exceptional Pay Cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/exceptional-cases.md)

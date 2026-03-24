@@ -30,14 +30,14 @@ With the **Partial Payments** feature, Acme Corp. issues a Payment Link using wh
 
 Here is how Partial Payments work:
 
-![partial payment workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-partial-payments.jpg.md)
+![partial payment workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-partial-payments.jpg.md)
 
 1. You create a Payment Link of .
 2. The customer chooses to pay an amount of  out of the due amount mentioned in the Payment Link.
 3. Since the customer pays less than the due amount, the Payment Link would show `partially_paid` status until the amount due is zero or until the link gets `expired` or `canceled`.
 4. After the full amount has been paid, the status of the Payment Link changes to `paid`. 
 
-Just like any other payment, each partial payment would have a unique `payment_id`, but will be tied to the same `order_id`, thereby allowing customers to easily make multiple payments for the same order using the same **Payment Link**. This makes it easier to track the status of a particular order. Know more about [Payment Links States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/states.md).
+Just like any other payment, each partial payment would have a unique `payment_id`, but will be tied to the same `order_id`, thereby allowing customers to easily make multiple payments for the same order using the same **Payment Link**. This makes it easier to track the status of a particular order. Know more about [Payment Links States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/states.md).
 
 ## Enable Partial Payments From Dashboard
 
@@ -72,7 +72,7 @@ You can enable partial payments while creating the Payment Link. You can also ed
 
         
 
-        ![enable partial payments](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-partial-payments-once-issued.jpg.md)
+        ![enable partial payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-partial-payments-once-issued.jpg.md)
 
         
 
@@ -81,10 +81,10 @@ You can enable partial payments while creating the Payment Link. You can also ed
 
 #### Related Information
 
-- [How Payment Links Work](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/how-it-works.md)
+- [How Payment Links Work](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/how-it-works.md)
 
-- [Payment Links States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/states.md)
+- [Payment Links States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/states.md)
 
-- [Create a Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/create.md)
+- [Create a Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/create.md)
 
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/faqs.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/faqs.md)

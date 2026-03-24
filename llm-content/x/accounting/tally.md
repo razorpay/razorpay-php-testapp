@@ -58,7 +58,7 @@ You must ensure a few things on your tally software.
 
 Your Tally integration with RazorpayX is successful. The time it takes to sync depends on the number of ledgers you have on tally. It syncs only for the specific company that you choose and not all the companies stored in your tally account. 
 
-The [**Accounting** tab](@/Applications/MAMP/htdocs/new-docs/llm-content/x/accounting.md) appears on your RazorpayX Dashboard left navigation. You can change the existing settings from **Accounting** → [**Rules & Configuration**](#rules--configuration) at any time.
+The [**Accounting** tab](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/accounting.md) appears on your RazorpayX Dashboard left navigation. You can change the existing settings from **Accounting** → [**Rules & Configuration**](#rules--configuration) at any time.
 
 > **INFO**
 >
@@ -77,11 +77,11 @@ Go to Tally and click **RazorpayX Sync**.
 
 After you integrate with Tally, navigate to the Accounting tab from the [RazorpayX Dashboard](https://x.razorpay.com/). You can sync your payouts and vendor payments to Tally here.
 
-![Accounting on RazorpayX Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/accounting-tab.jpg.md)
+![Accounting on RazorpayX Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/accounting-tab.jpg.md)
 
 Payouts are listed under the **Expenses** tab and Vendor Payments are listed under the **Bills** tab. (update image to tally)
 
-![specific and meaningful image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/accounting-zohobooks.jpg.md)
+![specific and meaningful image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/accounting-zohobooks.jpg.md)
 
 ## Rules & Configuration
 
@@ -92,8 +92,8 @@ The following are the available settings for your Tally Integration:
 
        You can choose to disable or enable the following options:
 
-         - Sync and Categorise [Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/accounting/zohobooks/vendor-payments.md) from RazorpayX to Tally
-         - Sync and Categorise [Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/accounting/zohobooks/payouts.md) from RazorpayX to Tally
+         - Sync and Categorise [Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/accounting/zohobooks/vendor-payments.md) from RazorpayX to Tally
+         - Sync and Categorise [Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/accounting/zohobooks/payouts.md) from RazorpayX to Tally
 
        You can also **Refresh** Tally Expense Accounts, Bank Ledgers and Tax Groups.
       
@@ -103,13 +103,13 @@ The following are the available settings for your Tally Integration:
 
        Setting rules will automate categorisation and hence reduce the manual effort drastically. You can set the following rules:
        - Contact Rules
-         - Set contact rules for [categorisation of Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/accounting/zohobooks/vendor-payments/#categorise.md).
+         - Set contact rules for [categorisation of Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/accounting/zohobooks/vendor-payments.md#categorise).
          - Select the drop-down under Tally Expense Account and choose the relevant Account for the particular contact. You can also **Add Contact +** and add a new rule for it.
-         ![Contact rules](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/set-contact-rules.jpg.md)
+         ![Contact rules](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/set-contact-rules.jpg.md)
        - Purpose Rules
-         - Set purpose rules for [categorisation of Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/accounting/zohobooks/payouts/#categorise.md).
+         - Set purpose rules for [categorisation of Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/accounting/zohobooks/payouts.md#categorise).
          - Select the drop-down under Tally Expense Account and choose the relevant Account for the particular RazorpayX Purpose and select the relevant Tax Slab. You can also **Add Purpose +**.
-         ![Purpose rules](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/set-purpose-rules.jpg.md)
+         ![Purpose rules](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/set-purpose-rules.jpg.md)
       
 
    
@@ -117,7 +117,7 @@ The following are the available settings for your Tally Integration:
 
        Select the relevant Tally Vendor from the drop-down menu or **+ Create New Vendor** to map it to the particular RazorpayX Contact to avoid duplication of vendors on Tally.
 
-         ![Contact mapping](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/contact-mapping.jpg.md)
+         ![Contact mapping](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/contact-mapping.jpg.md)
       
 
    
@@ -125,4 +125,4 @@ The following are the available settings for your Tally Integration:
 
        Setup ledgers in Tally for RazorpayX accounts. Select the Tally Expense Account you want to map with the particular RazorpayX Account.
 
-         ![Account mapping](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-mapping.jpg.md)
+         ![Account mapping](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-mapping.jpg.md)

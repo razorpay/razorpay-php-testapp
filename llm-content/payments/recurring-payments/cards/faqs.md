@@ -7,7 +7,7 @@ description: Find answers to frequently asked questions about Recurring Payments
 
 ### 1. Which banks have enabled Recurring Payments through Cards?
 
-       Refer to the [list of banks that support cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/cards/supported-banks.md).
+       Refer to the [list of banks that support cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/cards/supported-banks.md).
        
 > **WARN**
 >
@@ -58,7 +58,7 @@ description: Find answers to frequently asked questions about Recurring Payments
    
 ### 4. Can we continue to process recurring payments through card tokens of banks that are not yet available for Recurring Payments on Cards?
 
-       All the card tokens of the banks that are not yet available for Recurring Payments on cards are put in a `paused` state. You cannot debit these mandates. Please contact your customers and register new mandates using other methods such as UPI or Emandate. Know more about other [Recurring Payments methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments.md). Alternatively, use [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links.md) from the Dashboard or Razorpay [Mobile App](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app.md) and collect payment from customers on the due date.
+       All the card tokens of the banks that are not yet available for Recurring Payments on cards are put in a `paused` state. You cannot debit these mandates. Please contact your customers and register new mandates using other methods such as UPI or Emandate. Know more about other [Recurring Payments methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments.md). Alternatively, use [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links.md) from the Dashboard or Razorpay [Mobile App](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app.md) and collect payment from customers on the due date.
       
 
    
@@ -82,7 +82,7 @@ description: Find answers to frequently asked questions about Recurring Payments
    
 ### 6. Are there any changes in the APIs for processing card-based mandates?
 
-       There are no changes in the existing integration flow. However, we have added a few optional token parameters to the **Create Order API**. If these parameters are not passed in the request, the default values are assumed. Know more about [Recurring Payments APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/cards/create-authorization-transaction/#112-create-an-order.md).
+       There are no changes in the existing integration flow. However, we have added a few optional token parameters to the **Create Order API**. If these parameters are not passed in the request, the default values are assumed. Know more about [Recurring Payments APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/cards/create-authorization-transaction.md#112-create-an-order).
       
 
    
@@ -128,7 +128,7 @@ description: Find answers to frequently asked questions about Recurring Payments
 
        ![](/docs/assets/images/cards-mandatehq-pre-debit.jpg)
 
-       To process subsequent debits above ₹15,000 (upto ₹1,00,000 for [certain merchant categories](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/cards/faqs/#8-is-there-a-maximum-monetary-limit-for.md)):
+       To process subsequent debits above ₹15,000 (upto ₹1,00,000 for [certain merchant categories](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/cards/faqs.md#8-is-there-a-maximum-monetary-limit-for)):
        1. Businesses initiate the debit.
        2. Bank will send a notification with a link for Additional Factor Authentication (AFA) to the customer immediately. The AFA link will be active for 72 hours.
        3. The amount will be debited as soon as the customer provides AFA.
@@ -169,7 +169,7 @@ description: Find answers to frequently asked questions about Recurring Payments
 ### 13. What is the TAT for processing debits of cards mandates?
 
        - For processing debits **below ₹15,000**, the TAT is 24 hours after raising the debit request, subject to the customer not pausing or cancelling the mandate.
-       - For processing debits **above ₹15,000** (upto ₹1,00,000 for [certain merchant categories](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/cards/faqs/#8-is-there-a-maximum-monetary-limit-for.md)), the amount will be debited as soon as the customer provides consent through AFA, which has a validity of 72 hours.
+       - For processing debits **above ₹15,000** (upto ₹1,00,000 for [certain merchant categories](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/cards/faqs.md#8-is-there-a-maximum-monetary-limit-for)), the amount will be debited as soon as the customer provides consent through AFA, which has a validity of 72 hours.
       
 
    
@@ -182,8 +182,8 @@ description: Find answers to frequently asked questions about Recurring Payments
 ### 15. Can I cancel a card mandate?
 
        Yes. You can use the cancel a card mandate by deleting the token. Tokens can be deleted:
-       - [From the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create/#delete-the-token.md)
-       - [Using APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/cards/tokens#23-delete-tokens.md)
+       - [From the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#delete-the-token)
+       - [Using APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/cards/tokens.md#23-delete-tokens)
       
 
    
@@ -231,7 +231,7 @@ description: Find answers to frequently asked questions about Recurring Payments
   
 ### 20. What banks support recurring payments via RuPay cards?
 
-     RuPay SI requires payment processors/aggregators and banks to work with NPCI to enable the support. NPCI is continuously working with more banks to support recurring payments on RuPay cards. Refer to the [Supported Banks and Apps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/supported-banks-apps/#cards.md) document for the list of supported banks.
+     RuPay SI requires payment processors/aggregators and banks to work with NPCI to enable the support. NPCI is continuously working with more banks to support recurring payments on RuPay cards. Refer to the [Supported Banks and Apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/supported-banks-apps.md#cards) document for the list of supported banks.
     
 
   

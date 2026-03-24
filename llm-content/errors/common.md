@@ -42,7 +42,7 @@ View the list of common errors and their solutions below:
 > 
 > **Handy Tips**
 > 
-> If you are using [our SDKs for integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/server-integration.md), the error responses result in exceptions that need to be handled in your integration.
+> If you are using [our SDKs for integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/server-integration.md), the error responses result in exceptions that need to be handled in your integration.
 > 
 
 ## View API Errors
@@ -52,8 +52,8 @@ For API error codes, including their reasons, descriptions, and resolution steps
 **Example**
 
 To view the errors related to the Create an Order API:
-1. Go to the [Create an Order API endpoint page](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md).
+1. Go to the [Create an Order API endpoint page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md).
 2. Click the errors capsule. The list of errors is displayed.
 
 Watch the short animation below on how to view API-related errors.
-![API Errors on respective endpoint page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/api-error.gif.md)
+![API Errors on respective endpoint page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/api-error.gif.md)

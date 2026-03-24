@@ -11,7 +11,7 @@ description: Find answers to frequently asked questions about Razorpay Capital.
     
 ### 1. How can I revoke the consent to pull my bureau report through Razorpay and partner?
 
-         To revoke the consent you gave through Razorpay to pull your credit report, [contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support#razorpayx-users.md) from the RazorpayX Dashboard. 
+         To revoke the consent you gave through Razorpay to pull your credit report, [contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#razorpayx-users) from the RazorpayX Dashboard. 
          1. Navigate to **Need Help?** in the bottom-right corner of the Dashboard.
          1. Click **Write To Us** and choose **Raise a new request**. 
          1. Select **Corporate Cards Related** from the listed categories. 
@@ -20,7 +20,7 @@ description: Find answers to frequently asked questions about Razorpay Capital.
             For example, "I want to revoke the consent provided to Razorpay to pull my credit report when applying for RazorpayX Capital products."
          1. Click **Submit**.
 
-         ![Raise a support request to revoke consent on RazorpayX Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-capital-revoke-consent.jpg.md)
+         ![Raise a support request to revoke consent on RazorpayX Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-capital-revoke-consent.jpg.md)
         
 
 ## Corporate Credit Card 
@@ -79,7 +79,7 @@ description: Find answers to frequently asked questions about Razorpay Capital.
 
          Your credit limit increases or decreases automatically every month (generally in the first or second week) in line with your business performance, card usage and timely repayment behaviour. 
          
-         We send you a confirmation mail to get your consent to increase the limit. You can [contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md) for further query resolution.
+         We send you a confirmation mail to get your consent to increase the limit. You can [contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md) for further query resolution.
         
 
     
@@ -119,7 +119,7 @@ description: Find answers to frequently asked questions about Razorpay Capital.
          - Instant settlements were previously called On-demand Instant Settlements. Razorpay processes these settlements within 10 seconds of capturing the payment. You can choose the amount required to settle instantly for a small fee. 
          - Same-day scheduled settlements are settled with a T+0 cycle at specific hours of the day by Razorpay. 
 
-         Know more about [Instant Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/instant.md).
+         Know more about [Instant Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/instant.md).
         
 
     

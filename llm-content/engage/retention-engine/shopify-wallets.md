@@ -27,9 +27,9 @@ Set up loyalty rewards campaigns, add loyalty points and set rules for earning a
 2. Go to the Payments tab and click **Wallets** under **Loyalty Products**.
 4. Click **+ New Campaign** in the **Campaigns** tab.
 5. Enter the campaign name of your choice. For example, `Freedom Sale`.
-    ![Create Campaign](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/newcampaign.jpg.md)
+    ![Create Campaign](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/newcampaign.jpg.md)
 6. Choose **Trigger Based Campaign**. **Trigger Based Campaign** adds points whenever a particular event is triggered. For example, if you want to credit your customer with points based on the order value and set redemption rules, you can set it up using the **Trigger Based Campaign** feature.
-    ![Campaign Trigger](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/triggerhome.jpg.md)
+    ![Campaign Trigger](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/triggerhome.jpg.md)
 6. Click **Create Campaign** to go to the **Trigger Based** campaign home page and set up the rules for the campaign.
 
 ### Trigger Based Campaign
@@ -76,7 +76,7 @@ Set up loyalty rewards campaigns, add loyalty points and set rules for earning a
                 Follow the steps below to set rules for burning (using) the points acquired by your customer. The unused points/amount accumulated in the customer wallet expire after the validity period you set here. You can also set a minimum order value above which the wallet amount can be used.
                     1. Under **Points expire after**, enter the number of days/months/years in the first field and select one of `Days/Months/Years` from the dropdown list.
                     2. Enter a value of your choice in the **Minimum order value** field (>= ). This ensures that the customer can use the points only for a minimum order value set by you. Click **Next**.
-                    ![Burn Rules](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/burn.jpg.md)
+                    ![Burn Rules](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/burn.jpg.md)
                 
 
             
@@ -91,7 +91,7 @@ Set up loyalty rewards campaigns, add loyalty points and set rules for earning a
                     2. Select the **Start Immediately** checkbox if you want to start the campaign immediately. Selecting this option disables the  **Starts From** and **At** fields. 
                     3. Select a date of your choice in the **Ends On** field, click **Apply**, and select a time from the **At** dropdown list.
                     4. Select the **No End Date** checkbox if you want the campaign to continue throughout. Selecting this option disables the **Ends On** and **At** fields. 
-                    ![Campaign Schedule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/campaignschedule.jpg.md)
+                    ![Campaign Schedule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/campaignschedule.jpg.md)
                     
                     
                     **These limits are applicable for the consolidated amount and actions for all the customer wallets, and not for individual ones.** Once set, these limits apply to the entire campaign. The campaign will pause if one of these limits are breached and no further rewards will be credited. Setting limits helps to keep your wallet budget in check and also put a check on large number of small value transactions customers may do to avail campaign benefits.
@@ -101,7 +101,7 @@ Set up loyalty rewards campaigns, add loyalty points and set rules for earning a
                     8. Click the **Limit no.of actions performed** checkbox if you wish to cap the number of total wallet credit transactions. The **Max actions** and **Applies** fields gets enabled. 
                     9. Enter a figure of your choice in the **Max actions** field, limiting the maximum number of transactions.
                     10. Select one from `Daily/Weekly/Monthly/Yearly/Till Campaign Ends` in the **Applies** dropdown list to set the limit for a period.
-                    ![Campaign Limits](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/campaignlimits.jpg.md)
+                    ![Campaign Limits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/campaignlimits.jpg.md)
                     
                     
                     These limits apply to individual users. When breached, the campaign will stop crediting rewards to that user.
@@ -111,7 +111,7 @@ Set up loyalty rewards campaigns, add loyalty points and set rules for earning a
                     4. Click the **Limit no.of actions per user** checkbox if you wish to cap the number of wallet credits for a customer and put a check on large number of small value transactions customers may do to avail campaign benefits. The **Max actions** and **Applies** fields gets enabled. 
                     5. Enter a figure of your choice in the **Max actions** field, limiting the maximum number of transactions per user.
                     6. Select one from `Daily/Weekly/Monthly/Yearly/Till Campaign Ends` in the **Applies** dropdown list to set this limit per period and Click **Next**.
-                    ![Campaign User Limitse](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/campaignuserlimits.jpg.md)
+                    ![Campaign User Limitse](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/campaignuserlimits.jpg.md)
                     
                     
                 
@@ -145,5 +145,5 @@ Set up loyalty rewards campaigns, add loyalty points and set rules for earning a
 
 ### Related Information
 
-- [Razorpay Engage](@/Applications/MAMP/htdocs/new-docs/llm-content/engage.md)
-- [Engage Retention Engine](@/Applications/MAMP/htdocs/new-docs/llm-content/engage/retention-engine.md)
+- [Razorpay Engage](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/engage.md)
+- [Engage Retention Engine](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/engage/retention-engine.md)

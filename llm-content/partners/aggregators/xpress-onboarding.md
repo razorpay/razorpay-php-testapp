@@ -58,7 +58,7 @@ Razorpay partially activates the account after verifying the KYC submitted.
 
 Given below is a diagram which explains the different states the account moves to during its lifecycle:
 
-![Account States in Xpress Onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-xpress-onboarding-flow.jpg.md)
+![Account States in Xpress Onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-xpress-onboarding-flow.jpg.md)
 
 ### Example 
 
@@ -79,7 +79,7 @@ Watch this video to see how to generate the API keys.
 
 Given below is a diagram that illustrates the various steps in the workflow. The document requirements are visible in the array.
 
-![Xpress Onboarding Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-aggregators-xpress-onboarding-flow.png.md)
+![Xpress Onboarding Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-aggregators-xpress-onboarding-flow.png.md)
 
 > **WARN**
 >
@@ -87,101 +87,101 @@ Given below is a diagram that illustrates the various steps in the workflow. The
 > **Watch Out!**
 > 
 > - Currently, we do not support making concurrent requests to the following Onboarding APIs including their combination on the same `account_id`:
->   - [Update Account API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/account-onboarding/update.md)
->   - [Update Stakeholder API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/stakeholder/update.md)
->   - [Update Product Configuration API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration-xpress-onboarding/#update-a-product-configuration.md)
+>   - [Update Account API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/account-onboarding/update.md)
+>   - [Update Stakeholder API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/stakeholder/update.md)
+>   - [Update Product Configuration API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration-xpress-onboarding.md#update-a-product-configuration)
 > 
 > Please wait for the response of these APIs before making subsequent requests.
 > 
 
 ### 1. Create an Account
 
-Create an account for the sub-merchant using the [Create an Account API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/account-onboarding/create.md) by passing the `no_doc_onboarding=true` parameter. This triggers the Xpress Onboarding flow.
+Create an account for the sub-merchant using the [Create an Account API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/account-onboarding/create.md) by passing the `no_doc_onboarding=true` parameter. This triggers the Xpress Onboarding flow.
 
   
 ### Available Account APIs
 
 API | Description
 ---
-[Create an account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/account-onboarding/create.md) | API to create a sub-merchant account.
+[Create an account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/account-onboarding/create.md) | API to create a sub-merchant account.
 ---
-[Fetch an account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/account-onboarding/fetch.md) | API to view sub-merchant account details.
+[Fetch an account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/account-onboarding/fetch.md) | API to view sub-merchant account details.
 ---
-[Update an account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/account-onboarding/update.md) | API to update the sub-merchant account details.
+[Update an account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/account-onboarding/update.md) | API to update the sub-merchant account details.
 ---
-[Delete an account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/account-onboarding/delete.md) | API to delete a sub-merchant account.
+[Delete an account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/account-onboarding/delete.md) | API to delete a sub-merchant account.
 
     
 
 ### 2. Create a Stakeholder
 
-Use the [Create a Stakeholder API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/stakeholder/create.md) to add a stakeholder for an account. Each stakeholder needs to update the KYC. 
+Use the [Create a Stakeholder API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/stakeholder/create.md) to add a stakeholder for an account. Each stakeholder needs to update the KYC. 
 
   
 ### Available Stakeholder APIs
 
 API | Description
 ---
-[Create a stakeholder](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/stakeholder/create.md) | API to create a stakeholder.
+[Create a stakeholder](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/stakeholder/create.md) | API to create a stakeholder.
 ---
-[Fetch a stakeholder ](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/stakeholder/fetch-with-id.md) | API to retrieve and view the stakeholder account details.
+[Fetch a stakeholder ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/stakeholder/fetch-with-id.md) | API to retrieve and view the stakeholder account details.
 ---
-[Fetch all stakeholders ](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/stakeholder/fetch-all.md) | API to retrieve all stakeholders for a given account.
+[Fetch all stakeholders ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/stakeholder/fetch-all.md) | API to retrieve all stakeholders for a given account.
 ---
-[Update a Stakeholder](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/stakeholder/update.md) | API to update the stakeholder account details.
+[Update a Stakeholder](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/stakeholder/update.md) | API to update the stakeholder account details.
  
     
 
 ### 3. View and Accept Terms and Conditions
 
-Before activating the sub-merchant and requesting for relevant product configurations, the sub-merchant needs to view and accept the Terms and Conditions. You can fetch these Terms and Conditions links using the [Fetch Terms and Conditions API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/terms-conditions/fetch.md) to share them with the sub-merchant.
+Before activating the sub-merchant and requesting for relevant product configurations, the sub-merchant needs to view and accept the Terms and Conditions. You can fetch these Terms and Conditions links using the [Fetch Terms and Conditions API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/terms-conditions/fetch.md) to share them with the sub-merchant.
 
-You can also accept Terms and Conditions for the sub-merchant using the [Request a Product Configuration API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration-xpress-onboarding/#request-a-product-configuration.md). 
+You can also accept Terms and Conditions for the sub-merchant using the [Request a Product Configuration API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration-xpress-onboarding.md#request-a-product-configuration). 
 
   
 ### Available Terms and Conditions APIs
 
 API | Description
 ---
-[Accept Terms and Conditions](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration-xpress-onboarding/#request-a-product-configuration.md) | API to accept terms and conditions.
+[Accept Terms and Conditions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration-xpress-onboarding.md#request-a-product-configuration) | API to accept terms and conditions.
 ---
-[Fetch Terms and Conditions ](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/terms-conditions/fetch.md) | API to retrieve terms and conditions.
+[Fetch Terms and Conditions ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/terms-conditions/fetch.md) | API to retrieve terms and conditions.
 
     
 
 ### 4. Configure Products to Accept Payments
 
-You can use the [Product Configuration APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration-xpress-onboarding.md) to configure and activate Razorpay products for a sub-merchant account according to their requirements.
+You can use the [Product Configuration APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration-xpress-onboarding.md) to configure and activate Razorpay products for a sub-merchant account according to their requirements.
 
   
 ### Available Product Configuration APIs
 
 API | Description
 ---
-[Request a Product Configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration-xpress-onboarding#request-a-product-configuration.md) | API to request a product configuration.   
+[Request a Product Configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration-xpress-onboarding.md#request-a-product-configuration) | API to request a product configuration.   
 ---
-[Update a product configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration-xpress-onboarding#update-a-product-configuration.md) | API to update a configured product.
+[Update a product configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration-xpress-onboarding.md#update-a-product-configuration) | API to update a configured product.
 ---
-[Fetch a Product](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration-xpress-onboarding#fetch-a-product.md) | API to fetch a configured product.
+[Fetch a Product](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration-xpress-onboarding.md#fetch-a-product) | API to fetch a configured product.
 
     
 
 ### 5. Upload Supporting Documents
 
-You can submit the required documents for sub-merchant onboarding using the [Documents APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/upload-document.md) listed in the table below.
+You can submit the required documents for sub-merchant onboarding using the [Documents APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/upload-document.md) listed in the table below.
 
   
 ### Available Documents APIs
 
 API | Description
 ---
-[Upload account documents](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/upload-document/upload-account-documents.md) | API to upload sub-merchant's business documents.
+[Upload account documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/upload-document/upload-account-documents.md) | API to upload sub-merchant's business documents.
 ---
-[Upload stakeholder documents](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/upload-document/upload-stakeholder-documents.md) | API to upload stakeholder's signatory documents.
+[Upload stakeholder documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/upload-document/upload-stakeholder-documents.md) | API to upload stakeholder's signatory documents.
 ---
-[Fetch account documents](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/upload-document/fetch-account-documents.md) | API to fetch account documents.
+[Fetch account documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/upload-document/fetch-account-documents.md) | API to fetch account documents.
 ---
-[Fetch stakeholder documents](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/upload-document/fetch-stakeholder-documents.md) | API to fetch stakeholder documents.
+[Fetch stakeholder documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/upload-document/fetch-stakeholder-documents.md) | API to fetch stakeholder documents.
 
     
 
@@ -191,7 +191,7 @@ Subscribe to relevant webhook events to receive notifications (in the form of a 
 
 There are 2 types of events:
 
-- **Transaction Events**: These are events related to payment transactions performed by the sub-merchants. You can configure these events at a sub-merchant level.  View [webhook events](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/webhooks#transaction-events.md) and [payload details](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
+- **Transaction Events**: These are events related to payment transactions performed by the sub-merchants. You can configure these events at a sub-merchant level.  View [webhook events](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/webhooks.md#transaction-events) and [payload details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
 
 - **Sub-Merchant Onboarding Events**: These events are related to the onboarding status of the sub-merchant. You should configure these at your end. Subscribing to these events will enable you to get the onboarding status of all sub-merchants. 
 
@@ -210,7 +210,7 @@ There are 2 types of events:
   product.payment_link.rejected | Triggered when the status for a Payment Link product is `rejected`.
   
 
-  View [payload details](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners/#onboarded-using-apis.md).
+  View [payload details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners.md#onboarded-using-apis).
     
 
 Watch this video to see how you can subscribe to Partner Webhooks.
@@ -252,19 +252,19 @@ account.no_doc_onboarding_gmv_limit_warning | Triggered when the sub-merchant br
 
 ### Webhooks APIs
 
-You can use the [Webhooks APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/webhooks.md) to receive event notifications or subscribe to events happening in a sub-merchant's account, such as payments, orders, invoices and so on.
+You can use the [Webhooks APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/webhooks.md) to receive event notifications or subscribe to events happening in a sub-merchant's account, such as payments, orders, invoices and so on.
 
   
 ### Available Webhooks APIs
 
 API | Description
 ---
-[Create a Webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/webhooks/create.md) | API to create a webhook.
+[Create a Webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/webhooks/create.md) | API to create a webhook.
 ---
-[Fetch a Webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/webhooks/fetch-with-id.md) | API to retrieve and view the webhook details.
+[Fetch a Webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/webhooks/fetch-with-id.md) | API to retrieve and view the webhook details.
 ---
-[Fetch all Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/webhooks/fetch-all.md) | API to retrieve all webhooks.
+[Fetch all Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/webhooks/fetch-all.md) | API to retrieve all webhooks.
 ---
-[Update a Webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/webhooks/update.md) | API to update the webhook details.
+[Update a Webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/webhooks/update.md) | API to update the webhook details.
 ---
-[Delete a Webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/webhooks/delete.md) | API to delete a webhook.
+[Delete a Webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/webhooks/delete.md) | API to delete a webhook.

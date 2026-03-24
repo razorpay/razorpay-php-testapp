@@ -36,12 +36,12 @@ Follow the steps below to onboard Easebuzz as a payment provider.
             2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
             3. In the top-right section, click **Add Provider**.
             4. Select **Easebuzz** in the list of gateways available and click **Next**.
-                 ![Add Easebuzz](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-easebuzz-add.jpg.md)
+                 ![Add Easebuzz](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-easebuzz-add.jpg.md)
             5. Enter the provider name and description and click **Next**.
-                 ![Add Easebuzz provider details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-easebuzz-add-provider.jpg.md)
+                 ![Add Easebuzz provider details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-easebuzz-add-provider.jpg.md)
             6. Enter your **App ID** and **App Secret Key** details.
             7. Select the **Payment Methods** you want to enable for Easebuzz and click **Submit**.
-                 ![Add Easebuzz final details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-easebuzz-final.jpg.md)
+                 ![Add Easebuzz final details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-easebuzz-final.jpg.md)
             You have successfully added **Easebuzz** as a payment provider on Optimizer.
         
 
@@ -53,7 +53,7 @@ Follow the steps below to onboard Easebuzz as a payment provider.
 > **Handy Tips**
 > 
 > - Easebuzz supports tokenisation for card payments.
-> - Easebuzz supports [Third-Party Validation (TPV)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/third-party-validation/#supported-bank-gateways-payment-gateways-and-payment-methods.md).
+> - Easebuzz supports [Third-Party Validation (TPV)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/third-party-validation.md#supported-bank-gateways-payment-gateways-and-payment-methods).
 > 
 
 Payment Methods | Availability
@@ -118,11 +118,11 @@ Before routing any traffic to a new gateway via Optimizer, the following best pr
             - In **Parameter** field, select **Amount (In Rupees)**.
             - In **Select Connection** field, select **Less Than**.
             - In **Enter Amount** field, enter the value 2 and click **Next**.
-            ![Easebuzz Add Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/easebuzz-add-rule.jpg.md)
+            ![Easebuzz Add Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/easebuzz-add-rule.jpg.md)
         5. Enter the value 100 in the **Route field**, select **Easebuzz** in the **Payment Via** field, and click **Next**.
-            ![Easebuzz target Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-easebuzz-rule-add.jpg.md)
+            ![Easebuzz target Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-easebuzz-rule-add.jpg.md)
         6. Click **Publish Rule**.
-            ![Easebuzz Publish Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-easebuzz-publish-rule.jpg.md)
+            ![Easebuzz Publish Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-easebuzz-publish-rule.jpg.md)
         
 
 ## Go Live

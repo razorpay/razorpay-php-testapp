@@ -9,7 +9,7 @@ description: Create a Payment using Razorpay Payments API.
 
 Use this endpoint to change the payment status from `authorized` to `captured`. Attempting to capture a payment whose status is not `authorized` will produce an error.
 - After the customer's bank authorises the payment, you must verify if the authorised amount deducted from the customer's account is the same as the amount paid by the customer on your website or app.
-- You can [configure automatic capture](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings/#auto-capture-all-payments.md) of payments on the Dashboard.
+- You can [configure automatic capture](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md#auto-capture-all-payments) of payments on the Dashboard.
 
 ### Request
 
@@ -160,7 +160,7 @@ Payment paymentCaptured = payment.Capture(options);
   
 
 `currency` _mandatory_
-: `string` ISO code of the currency in which the payment was made. Refer to the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` ISO code of the currency in which the payment was made. Refer to the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
   
 > **INFO**
@@ -169,7 +169,7 @@ Payment paymentCaptured = payment.Capture(options);
 > 
 >   **Handy Tips**
 > 
->   Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>   Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
 >   
 
 ### Parameters
@@ -184,7 +184,7 @@ Payment paymentCaptured = payment.Capture(options);
 : `integer` The payment amount in currency subunits. For example, for an amount of  enter 100.
 
 `currency`
-: `string` The currency in which the payment is made. Refer to the list of [international currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md) that we support.
+: `string` The currency in which the payment is made. Refer to the list of [international currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies) that we support.
 
 `status`
 : `string` The status of the payment. Possible values:
@@ -203,7 +203,7 @@ Payment paymentCaptured = payment.Capture(options);
   - `upi`
 
 `order_id`
-: `string` Order id, if provided. Know more about [Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders.md).
+: `string` Order id, if provided. Know more about [Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders.md).
 
 `description`
 : `string` Description of the payment, if any.
@@ -309,7 +309,7 @@ Payment paymentCaptured = payment.Capture(options);
     - `business`
 
     
-    Know how to accept payments made by customers using [corporate cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/corporate-cards.md).
+    Know how to accept payments made by customers using [corporate cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/corporate-cards.md).
 
 `upi`
 : `object` Details of the UPI payment received. Only applicable if `method` is `upi`.

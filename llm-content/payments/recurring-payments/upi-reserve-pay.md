@@ -120,7 +120,7 @@ The following standard limits apply to UPI Reserve Pay:
 
 Parameter | Limit | 
 ---
-Maximum block amount | ₹15,000
+Maximum block amount | ₹10,000
 ---
 Token validity | Up to 90 days
 ---
@@ -176,4 +176,4 @@ Debits per token | Multiple (until blocked amount is exhausted or token expires)
 
 - Raise a request with our [Support team](https://razorpay.com/support/#request) to get UPI Reserve Pay activated on your account.
 - Ensure your business category supports UPI mandate features and Single Block Multi Debit (SBMD) functionality.
-- Integrate with [Integrate Razorpay UPI Reserve APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-reserve-pay/integration-steps.md).
+- Integrate with [Integrate Razorpay UPI Reserve APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-reserve-pay/integration-steps.md).

@@ -16,7 +16,7 @@ To create a new Add Survey Button Campaign:
 3. Enter the **Campaign Details**, select company and click **Next Step**. The **Select Survey** page appears.
     - You can search and select a previously created survey.
     - You can create a survey from the **Survey** feature under **Create** section.
-    ![Select Survey for Add Survey Button](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/select-survey-add-survey-button.jpg.md)
+    ![Select Survey for Add Survey Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/select-survey-add-survey-button.jpg.md)
 4. On the **Survey Button Builder** page, choose an image for your survey button. You can also click **Create From Scratch** to upload a new button image. Click **Next Step**.
 5. On the **After Survey** page, select an image or gif which appears right after survey completion. You can upload a new image. You can also add a **Coupon**. Click **Next Step**.
 6. On the **Campaign Settings** page, select your **Brand** and **Stores**. You can also choose to publish the campaign immediately or schedule it. Click **Next Step**.

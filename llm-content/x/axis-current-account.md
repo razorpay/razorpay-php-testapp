@@ -20,7 +20,7 @@ You are eligible for an Axis Bank Current Account powered by RazorpayX if your c
 > This is currently unavailable for Sole Proprietorships and Partnerships.
 > 
 
-Get in touch with your POC from Razorpay or reach out to our [support team](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md) to assist you with Axis Bank Current Account opening, powered by RazorpayX.
+Get in touch with your POC from Razorpay or reach out to our [support team](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md) to assist you with Axis Bank Current Account opening, powered by RazorpayX.
 
     
 ### Current Account Opening Required Documents
@@ -94,7 +94,7 @@ Share the soft copy of company documents and signatory's KYC with us to prepare 
 
 ## Escrow Account with Axis Bank
 
-You can open an Axis Current Account powered by RazorpayX for [Escrow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/escrow.md). All the requirements mentioned above are needed along with:
+You can open an Axis Current Account powered by RazorpayX for [Escrow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/escrow.md). All the requirements mentioned above are needed along with:
 
 - The Escrow Agreement, signed by all 3 parties.
     - The Email Indemnity Clause as an annexure to Escrow Agreement.

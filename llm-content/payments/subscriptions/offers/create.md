@@ -17,7 +17,7 @@ You can create offers only from the Dashboard. You can control the discounts you
 
 ### Related Information
 
-- [About Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers.md)
-- [Link an Offer to a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers/link.md)
-- [Update an Offer Linked to a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers/update.md)
-- [Delete an Offer Linked to a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers/delete.md)
+- [About Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers.md)
+- [Link an Offer to a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers/link.md)
+- [Update an Offer Linked to a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers/update.md)
+- [Delete an Offer Linked to a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers/delete.md)

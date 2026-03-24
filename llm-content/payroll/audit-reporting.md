@@ -10,7 +10,7 @@ In a complex organisation with collaboration between multiple teams, it is impor
 
 ## Audit Readiness 
 
-RazorpayX Payroll enables you to be compliant and audit ready all the time. Know more about setting up [user roles and workflows](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/user-roles-workflows.md).
+RazorpayX Payroll enables you to be compliant and audit ready all the time. Know more about setting up [user roles and workflows](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/user-roles-workflows.md).
 
 ### Approval Workflow
 
@@ -48,4 +48,4 @@ Following are some reporting features available on the RazorpayX Payroll Dashboa
 
 ### Related Information
 
-- [Salary](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary.md)
+- [Salary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md)

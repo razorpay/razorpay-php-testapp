@@ -43,11 +43,11 @@ php-curl | N/A
 To start accepting subscription payments using the plugin:
 
 On Your Magento Site:
-1. [Install the Razorpay Subscriptions for Magento Plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/magento/#install-the-razorpay-subscriptions-for-magento-plugin.md).
-2. [Configure Magento Store](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/magento/#configure-magento-store.md).
-3. [Create a Plan for a Subscription Product](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/magento/#create-a-plan-for-subscription-product.md).
-4. [Enable Subscriptions for your Product](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/magento/#configure-your-product-for-subscriptions.md).
-5. [Test it out - Sign up for a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/magento/test-it-out.md).
+1. [Install the Razorpay Subscriptions for Magento Plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/magento.md#install-the-razorpay-subscriptions-for-magento-plugin).
+2. [Configure Magento Store](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/magento.md#configure-magento-store).
+3. [Create a Plan for a Subscription Product](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/magento.md#create-a-plan-for-subscription-product).
+4. [Enable Subscriptions for your Product](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/magento.md#configure-your-product-for-subscriptions).
+5. [Test it out - Sign up for a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/magento/test-it-out.md).
 
 ### Install the Razorpay Subscriptions for Magento Plugin
 
@@ -164,7 +164,7 @@ You can set up a webhook from the Dashboard and configure separate URLs for live
 > 
 > **Handy Tips**
 > 
-> For details of available events and sample payloads, refer to the [Webhook Events section](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs.md).
+> For details of available events and sample payloads, refer to the [Webhook Events section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs.md).
 > 
 
 ### Setup Webhooks

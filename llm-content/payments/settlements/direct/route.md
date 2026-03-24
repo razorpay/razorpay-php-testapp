@@ -19,7 +19,7 @@ Direct Settlement refers to the settlement of money directly from the gateway to
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -259,5 +259,5 @@ Here is a list of use cases for  :
 
 ### Related Information
 
-- [Setup and Configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/direct/route/setup.md)
-- [Troubleshooting FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/direct/route/troubleshooting-faqs.md)
+- [Setup and Configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/direct/route/setup.md)
+- [Troubleshooting FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/direct/route/troubleshooting-faqs.md)

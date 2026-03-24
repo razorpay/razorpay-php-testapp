@@ -30,7 +30,7 @@ To set the default speed for all the refunds:
     
     **Handy Tips**
 
-    The chosen value is also applied as the default speed in the [Refund API request](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds.md).
+    The chosen value is also applied as the default speed in the [Refund API request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds.md).
     
 
 ## Override Default Refund Speed
@@ -59,13 +59,13 @@ To set the default speed for all the refunds:
     
     **Handy Tips**
 
-    The chosen value is also applied as the default speed in the [Refund API request](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds.md).
+    The chosen value is also applied as the default speed in the [Refund API request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds.md).
     
 
 ### Related Information
-- [About Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds.md)
-- [Normal Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/normal.md)
-- [Batch Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/batch.md)
-- [Issue Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/issue.md)
-- [View Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/view.md)
-- [Refunds FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/faqs.md)
+- [About Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md)
+- [Normal Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/normal.md)
+- [Batch Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/batch.md)
+- [Issue Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/issue.md)
+- [View Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/view.md)
+- [Refunds FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/faqs.md)

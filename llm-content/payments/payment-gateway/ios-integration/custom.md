@@ -15,7 +15,7 @@ Customise the look and feel such as colours and themes of your app's Checkout fo
 > 
 > **Watch Out!**
 > 
-> - [Razorpay iOS Standard SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard.md) supports all payment methods by default. We recommend you integrate with the Razorpay iOS Standard SDK. If you integrate with Custom Checkout SDK, you will need to integrate these manually. 
+> - [Razorpay iOS Standard SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard.md) supports all payment methods by default. We recommend you integrate with the Razorpay iOS Standard SDK. If you integrate with Custom Checkout SDK, you will need to integrate these manually. 
 > - This framework only supports iOS version **10.0 and above**.
 > 
 
@@ -41,15 +41,15 @@ SDK | Framework Compiled With | Release Date | Changes
 > 
 > **Update SDK**
 > 
-> Check your [current SDK version](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/troubleshooting-faqs/#10-how-can-i-check-the-razorpay-ios.md). If it is outdated, please [update the SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/troubleshooting-faqs/#11-how-can-i-update-the-razorpay-ios.md) to ensure uninterrupted settlements of your funds.
+> Check your [current SDK version](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/troubleshooting-faqs.md#10-how-can-i-check-the-razorpay-ios). If it is outdated, please [update the SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/troubleshooting-faqs.md#11-how-can-i-update-the-razorpay-ios) to ensure uninterrupted settlements of your funds.
 > 
 
 ## Integration Steps
 
 Follow these integration steps:
 
-1. [Build Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/build-integration.md)
-2. [Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/test-integration.md)
-3. [Go-Live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/go-live-checklist.md)
+1. [Build Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/build-integration.md)
+2. [Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/test-integration.md)
+3. [Go-Live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/go-live-checklist.md)
 
 ### Related Information

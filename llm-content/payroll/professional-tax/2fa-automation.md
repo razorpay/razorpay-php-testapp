@@ -6,7 +6,7 @@ description: Automate Professional Tax payments for Karnataka employees on the P
 
 # Automate Karnataka Professional Tax Payments
 
-Due to the introduction of [2FA on the PT portal](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/faqs/#professional-tax.md) by Karnataka government, Payroll enables you to automate PT payments (for Karnataka employees) via the Dashboard. Previously, we had paused PT payments via the Dashboard.
+Due to the introduction of [2FA on the PT portal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/faqs.md#professional-tax) by Karnataka government, Payroll enables you to automate PT payments (for Karnataka employees) via the Dashboard. Previously, we had paused PT payments via the Dashboard.
 
 > **WARN**
 >
@@ -48,7 +48,7 @@ Watch the video below or read along to know how to make PT payments for Karnatak
 
         To make Professional Tax payments for your employees based in Karnataka: 
         1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard).
-        1. [Finalise Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#execute-payroll.md) for the month and execute it.
+        1. [Finalise Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#execute-payroll) for the month and execute it.
 
             - Enter the OTP to initiate payroll processing. 
             - If you have enabled approval workflow, ensure the reviewer approves it.
@@ -56,10 +56,10 @@ Watch the video below or read along to know how to make PT payments for Karnatak
         This executes the payroll successfully. You can now make Professional Tax payments for your employees.
         1. Go to **Pay Employees** → **Run Payroll**.
         1. Click the **Pay KA Professional Tax** tab and click **Initiate**.
-            ![Start PT automation on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pt-automation-ka.jpg.md)
+            ![Start PT automation on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pt-automation-ka.jpg.md)
             
             In the right pane, you can view the PT payment details such as the current status, the due date, employee count and more.
-            ![Payroll PT Automation view details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pt-ka-automation-initiate.jpg.md) 
+            ![Payroll PT Automation view details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pt-ka-automation-initiate.jpg.md) 
 
                 
 > **WARN**
@@ -94,7 +94,7 @@ Watch the video below or read along to know how to make PT payments for Karnatak
         1. Navigate to **ADMIN OPTIONS** → **Pay Employees** → **Run Payroll**.
         1. On the **Run Payroll** page, follow the steps to [initiate PT payment](#initiate-pt-payments). 
         1. In the right pane, click **Paid Externally**.
-        ![Payroll PT payments for Karnataka employees mark as paid](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pt-ka-automation-initiate.jpg.md)
+        ![Payroll PT payments for Karnataka employees mark as paid](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pt-ka-automation-initiate.jpg.md)
 
         This marks the PT payments for employees as paid. Once you mark as **Paid Externally**, you cannot reverse it.
     
@@ -121,7 +121,7 @@ Watch the video below or read along to know how to make PT payments for Karnatak
 
 ## Related Information
 
-- [TDS](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tds.md)
-- [Statutory Compliance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md)
-- [Provident Fund](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/provident-fund.md)
-- [Enable Compliance during Account Setup](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator#welcome-mail-from-xpayroll.md)
+- [TDS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tds.md)
+- [Statutory Compliance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md)
+- [Provident Fund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/provident-fund.md)
+- [Enable Compliance during Account Setup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#welcome-mail-from-xpayroll)

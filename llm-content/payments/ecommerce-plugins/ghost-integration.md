@@ -21,7 +21,7 @@ Integrate Razorpay Payment Buttons with Ghost CMS for automated member creation 
 ### How It Works
 
          1. Customer visits the site, enters name, email, phone and completes the payment using Razorpay Payment Button.
-         2. Razorpay detects a `payment.captured` [webhook event](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments.md).
+         2. Razorpay detects a `payment.captured` [webhook event](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md).
          3. Razorpay makes an `HTTP POST` request to the Zapier `Catch Hook` URL. The request body contains payment and customer details.
          4. Zapier receives the webhook data (containing the customer payment and contact details) which triggers the workflow.
          5. Zapier performs a `GET` request to the Ghost Admin API by passing the customer email id and checks if the customer already exists.
@@ -40,11 +40,11 @@ Integrate Razorpay Payment Buttons with Ghost CMS for automated member creation 
 
 ### Integration Steps
 
-1. Set up your [Razorpay Webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md). 
-    - You will need the [Zapier **Catch Hook** URL ](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/ghost-integration/zapier-integration.md)to complete the webhook set up. 
+1. Set up your [Razorpay Webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md). 
+    - You will need the [Zapier **Catch Hook** URL ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/ghost-integration/zapier-integration.md)to complete the webhook set up. 
     -  Ensure to select at least  `payment.captured` (for one-time payments) and `subscription.charged` (if you are using Razorpay Subscriptions) under **Active Events**.
 
-2. Create a [Razorpay Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/ghost-integration/add-payment-button.md).
+2. Create a [Razorpay Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/ghost-integration/add-payment-button.md).
 You will get a Payment Button code as below. Save this code to add the Payment Button to your webpage(s).
 
     
@@ -58,18 +58,18 @@ You will get a Payment Button code as below. Save this code to add the Payment B
     3. Give it a name (for example, Zapier Razorpay Integration).
     4. Ghost will generate an Admin API Key and an Admin API URL. Ensure to save these securely as these are required for Zapier integration.
 
-4. Create a [Zapier Zap](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/ghost-integration/zapier-integration.md).
+4. Create a [Zapier Zap](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/ghost-integration/zapier-integration.md).
 
 ### Best Practices
 
 - **Secure Storage of Credentials**: Store all your API keys (your Razorpay API Key, Ghost Admin API Key) and webhook secrets securely as environment variables. **Never hardcode any of these.**
 - **Mandatory HTTPS Communication**: Use HTTPS for all data transmissions (Razorpay to Zapier or your backend, backend to Ghost, frontend to backend) to ensure data encryption in transit.
 - **IP/Port Allowlisting (Whitelisting)**: For environments requiring high security, it is best to implement IP address allowlisting (also known as whitelisting). Configure your firewall or webhook endpoint to only accept incoming webhook requests from approved Razorpay IP ranges. This limits exposure by preventing malicious parties from sending forged data to your Zapier or backend webhook URL.
-- **Ensure Certificate Verification**: Always configure your application to enable [SSL/TLS certificate verification](@/Applications/MAMP/htdocs/new-docs/llm-content/security/whitelists.md) for all outgoing API calls. This prevents Man-in-the-Middle (MITM) attacks by ensuring you are communicating with the legitimate server.
+- **Ensure Certificate Verification**: Always configure your application to enable [SSL/TLS certificate verification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/whitelists.md) for all outgoing API calls. This prevents Man-in-the-Middle (MITM) attacks by ensuring you are communicating with the legitimate server.
 
 ### Related Information
 
-- [Zapier Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/ghost-integration/zapier-integration.md)
-- [Integrate a Payment Button with Ghost](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/ghost-integration/add-payment-button.md)
-- [Razorpay Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button.md)
-- [Razorpay Webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md)
+- [Zapier Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/ghost-integration/zapier-integration.md)
+- [Integrate a Payment Button with Ghost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/ghost-integration/add-payment-button.md)
+- [Razorpay Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button.md)
+- [Razorpay Webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)

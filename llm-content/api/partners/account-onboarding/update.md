@@ -16,7 +16,7 @@ Activation Status | Update Permitted
 ---
 `requested` | You can update the details for all the fields.
 ---
-`needs_clarification` | The fields you can update depend on the `reason_code` mentioned in the `requirements` object in the [Request a Product Activation API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration/request.md): - **document_missing** or **field_missing**: You can update all the fields.
+`needs_clarification` | The fields you can update depend on the `reason_code` mentioned in the `requirements` object in the [Request a Product Activation API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration/request.md): - **document_missing** or **field_missing**: You can update all the fields.
 - **needs_clarification**: You can update only the specific field for which Razorpay is seeking clarification for.
  
 ---
@@ -31,13 +31,13 @@ Activation Status | Update Permitted
 > 
 > Currently, we do not support making concurrent requests to the following Onboarding APIs including their combination on the same `account_id`:
 > - Update Account API
-> - [Update Stakeholder API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/stakeholder/update.md)
-> - [Update Product Configuration API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration/update-settlement-account-details.md)
+> - [Update Stakeholder API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/stakeholder/update.md)
+> - [Update Product Configuration API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration/update-settlement-account-details.md)
 > 
 > Please wait for the response of these APIs before making subsequent requests.
 > 
 
-Know about the [various error responses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md) for this API.
+Know about the [various error responses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md) for this API.
 
 ### Request
 
@@ -169,7 +169,7 @@ Account account = client.Account.Fetch(accountId).Edit(accountRequest);
 : `string` The sub-merchant billing label as it appears on the Dashboard. The minimum length is 1 character and the maximum length is 255. This parameter might be required to complete the KYC process. However, it is optional for this API.
 
 `business_type`
-: `string` The type of business operated by the sub-merchant. Possible values: [Business Types](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix.md).
+: `string` The type of business operated by the sub-merchant. Possible values: [Business Types](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md).
 
 `reference_id`
 : `string` Partner's external account reference id. The minimum length is 1 character and the maximum length is 512.
@@ -178,10 +178,10 @@ Account account = client.Account.Fetch(accountId).Edit(accountRequest);
 : `object` The business details of the sub-merchant's account.
 
     `category`
-    : `string` The business category of the sub-merchant. Possible values: [Business Category](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#business-category.md)
+    : `string` The business category of the sub-merchant. Possible values: [Business Category](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#business-category)
 
     `subcategory`
-    : `string` The business sub-category of the sub-merchant. Possible values: [Business Sub-Category](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#business-sub-category.md)
+    : `string` The business sub-category of the sub-merchant. Possible values: [Business Sub-Category](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#business-sub-category)
     
     `description` _deprecated_
     : `string` This parameter has been deprecated. Pass the description using the `business_model` parameter.
@@ -212,7 +212,7 @@ Account account = client.Account.Fetch(accountId).Edit(accountRequest);
             : `integer` The postal code. This should be exactly 6 characters.
 
             `country`
-            : `string` The country. The minimum length is 2 and the maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#country-list.md).
+            : `string` The country. The minimum length is 2 and the maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#country-list).
 
         `registered`
         : `object` Details of the sub-merchant's registered address.
@@ -233,7 +233,7 @@ Account account = client.Account.Fetch(accountId).Edit(accountRequest);
             : `integer` The postal code. This should be exactly 6 characters.
 
             `country`
-            : `string` The country. The minimum length is 2 and the maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#country-list.md).
+            : `string` The country. The minimum length is 2 and the maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#country-list).
 
 `legal_info`
 : `object` The legal details about the sub-merchant's business.

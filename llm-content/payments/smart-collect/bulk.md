@@ -46,7 +46,7 @@ For rows that were not processed due to errors, create a new file with data corr
 
 `virtual_account_notes` _string_
 : Notes field to be used while creating the Customer Identifier. Must be a valid JSON string. 
-Refer the [Notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) section for  more information. 
+Refer the [Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) section for  more information. 
 
 Note that if `customer_id` field is being used, i.e. an existing customer is being referred to, then fields 2-4 can be left blank.
 

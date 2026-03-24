@@ -48,31 +48,31 @@ Choose solutions based on your business requirements.
 
          With the Payouts module, you can:
          - Make instant Payouts individually or in bulk for chargebacks or cashbacks.
-         - Use IMPS, NEFT, RTGS, UPI or Bank Transfer to pay. Know more about [ creating a payout](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/#create-a-payout.md).
+         - Use IMPS, NEFT, RTGS, UPI or Bank Transfer to pay. Know more about [ creating a payout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#create-a-payout).
         
 
     
 ### Payout Links
 
-         Send funds to anyone, even when you do not have their bank account details. You just need to enter the recipient's name, phone number or email, and the amount to be paid to create a Payout Link. [Know more about Payout Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links.md).
+         Send funds to anyone, even when you do not have their bank account details. You just need to enter the recipient's name, phone number or email, and the amount to be paid to create a Payout Link. [Know more about Payout Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links.md).
         
 
     
 ### RazorpayX Vendor Payouts
 
-         Manage your vendor payments effortlessly with Vendor Payouts. You can choose to settle the dues against all the invoices raised by the vendor in one go, or make selective payments. [Explore Vendor Payment capabilities on RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md).
+         Manage your vendor payments effortlessly with Vendor Payouts. You can choose to settle the dues against all the invoices raised by the vendor in one go, or make selective payments. [Explore Vendor Payment capabilities on RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md).
         
 
     
 ### RazorpayX Tax Payments
 
-         Use RazorpayX to automate direct tax payments via a user-friendly interface. Know more about [RazorpayX Tax Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments.md).
+         Use RazorpayX to automate direct tax payments via a user-friendly interface. Know more about [RazorpayX Tax Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments.md).
         
 
     
 ### RazorpayX Payroll
 
-         You can manage payroll, attendance, reimbursements and compliances - all in a single Dashboard! RazorpayX Payroll fully automates payroll solutions for you., including tax and filings. Know more about [RazorpayX Payroll.](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll.md).
+         You can manage payroll, attendance, reimbursements and compliances - all in a single Dashboard! RazorpayX Payroll fully automates payroll solutions for you., including tax and filings. Know more about [RazorpayX Payroll.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll.md).
         
 
 ## Step 3: Key Dashboard Actions
@@ -80,7 +80,7 @@ Choose solutions based on your business requirements.
     
 ### Generate API Keys
 
-            If you are using our APIs, follow these steps to [generate API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x.md) for the integration:
+            If you are using our APIs, follow these steps to [generate API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x.md) for the integration:
             1. Log in to Dashboard.
             2. Navigate to the user icon in the top-right corner of the screen and click **My Profile** → **My Accounts & Settings**.
             3. Navigate to **Developer Controls** and click **Generate Key**.
@@ -115,14 +115,14 @@ Choose solutions based on your business requirements.
             5. Add webhook secret for signature verification.
             6. Click **SAVE** to enable the webhook.
 
-            [Webhooks Documentation →](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md)
+            [Webhooks Documentation →](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md)
         
 
 ## Next Steps
 
 Once your account is created:
 
-1. **Complete KYC**: [Submit KYC documents](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#2-submit-kyc-details.md) for live mode activation.
+1. **Complete KYC**: [Submit KYC documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#2-submit-kyc-details) for live mode activation.
 2. **Choose Solution**: Select solutions based on your business needs and technical capabilities.
 3. **Test Thoroughly**: Use test mode before going live.
 4. **Go Live**: Switch to live mode when ready. Use live mode keys with our APIs.

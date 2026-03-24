@@ -10,7 +10,7 @@ description: Find answers to frequently asked questions about Recurring Payments
     
 ### 1. How can I create physical mandates?
 
-         You can generate and submit physical mandates from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create.md) or [using our APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments.md).
+         You can generate and submit physical mandates from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md) or [using our APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments.md).
         
 
     
@@ -61,7 +61,7 @@ description: Find answers to frequently asked questions about Recurring Payments
       
          Below is a sample NACH form.
 
-         ![Nach Form Sample](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/recurring-payments-sample-nach-form.jpg.md)
+         ![Nach Form Sample](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/recurring-payments-sample-nach-form.jpg.md)
         
 
     
@@ -123,7 +123,7 @@ description: Find answers to frequently asked questions about Recurring Payments
     
 ### 12. Can I cancel a physical Mandate?
 
-         Yes. You can use the cancel a physical mandate by deleting the token from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create/#delete-the-token.md) or [using APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/paper-nach/tokens#24-delete-tokens.md).
+         Yes. You can use the cancel a physical mandate by deleting the token from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#delete-the-token) or [using APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/paper-nach/tokens.md#24-delete-tokens).
         
 
     

@@ -19,7 +19,7 @@ If the beneficiary or the partner bank experiences downtime after a payout is ma
 > 
 > **Watch Out!**
 > 
-> Intelligent payouts is available by default for Current Account users. RazorpayX Lite users must consume `payout.failed` [webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/#payout-failed.md) to enable Intelligent payouts.
+> Intelligent payouts is available by default for Current Account users. RazorpayX Lite users must consume `payout.failed` [webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md#payout-failed) to enable Intelligent payouts.
 > 
 
 - You receive a `payout.queued` webhook event to inform you of the `status_details`.
@@ -28,7 +28,7 @@ If the beneficiary or the partner bank experiences downtime after a payout is ma
 - If the issue is not resolved within the defined SLA, the payout is moved to the `failed` state and you receive `payout.failed` webhook event.
 - You can choose to `cancel` payouts in `queued` state from the RazorpayX Dashboard or via API.
 
-Know more about [Payout States and Life Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle.md).
+Know more about [Payout States and Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md).
 
 Entity | Default SLA | Supported Modes | Supported Account Type
 ---
@@ -37,10 +37,10 @@ Beneficiary Bank/ NPCI| 15 minutes | IMPS & NEFT | Current Account & RazorpayX L
 Partner Bank | 60 minutes | IMPS, NEFT, RTGS & UPI | Current Account
 ---
 
-You can customise the SLA by contacting our [Support Team](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support#razorpayx-users.md).
+You can customise the SLA by contacting our [Support Team](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#razorpayx-users).
 
 ### Related Information
 
-- [Queued Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/queued.md)
-- [Payout Status Details](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md)
-- [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payouts.md)
+- [Queued Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/queued.md)
+- [Payout Status Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md)
+- [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payouts.md)

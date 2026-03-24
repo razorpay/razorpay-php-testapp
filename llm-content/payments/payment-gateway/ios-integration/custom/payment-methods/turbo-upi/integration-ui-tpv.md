@@ -5,7 +5,7 @@ description: Know how Razorpay performs Third-Party Validation (TPV) of investor
 
 # Integrate Turbo UPI UI with TPV
 
-Third-party validation (TPV) of bank accounts is mandatory for businesses in the BFSI (Banking, Financial Services and Insurance) sector that deal with Securities, Brokerage and Mutual Funds. You can accept customer payments using the Turbo UPI UI with TPV SDK. Know more about [how TPV works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/#how-it-works.md).
+Third-party validation (TPV) of bank accounts is mandatory for businesses in the BFSI (Banking, Financial Services and Insurance) sector that deal with Securities, Brokerage and Mutual Funds. You can accept customer payments using the Turbo UPI UI with TPV SDK. Know more about [how TPV works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation.md#how-it-works).
 
 > **WARN**
 >
@@ -13,7 +13,7 @@ Third-party validation (TPV) of bank accounts is mandatory for businesses in the
 > 
 > **Watch Out!**
 > 
-> To whitelist the customer account, use our S2S [Customer Add Bank Account API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers/bank-accounts/#1-add-bank-account-of-customer.md). This optional functionality ensures that only pre-approved accounts are displayed to users during the onboarding process, streamlining the experience and enhancing security.
+> To whitelist the customer account, use our S2S [Customer Add Bank Account API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers/bank-accounts.md#1-add-bank-account-of-customer). This optional functionality ensures that only pre-approved accounts are displayed to users during the onboarding process, streamlining the experience and enhancing security.
 > 
 
     
@@ -26,7 +26,7 @@ Third-party validation (TPV) of bank accounts is mandatory for businesses in the
 
          2. In this repository, you will find the UAT frameworks and the sample app source code to help you with the integration. Use branches inside `ui/tpv/` to access sample app and frameworks for Turbo UPI with UI TPV.
 
-         3. Integrate with the [Razorpay iOS Custom SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/build-integration.md).
+         3. Integrate with the [Razorpay iOS Custom SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/build-integration.md).
 
          4. Add the following lines to your Podfile for Turbo pod installation:
 
@@ -51,7 +51,7 @@ Third-party validation (TPV) of bank accounts is mandatory for businesses in the
 >          **Watch Out!**
 > 
 >          - The minimum supported iOS version for using Turbo UPI is currently 12.0.
->          - Use the `rzp_test_8UzRYt0d70Ntgz` API key id for testing on the UAT environment and the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+>          - Use the `rzp_test_8UzRYt0d70Ntgz` API key id for testing on the UAT environment and the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.
 >          
 
         
@@ -911,7 +911,7 @@ The SDKs provide access to exposed models for seamless integration.
 
          
 
-         [Refer to the list of possible error reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/error-codes.md).
+         [Refer to the list of possible error reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/error-codes.md).
         
 
     
@@ -950,4 +950,4 @@ Complete these steps to take your integration live:
 >     Contact our [integrations team](mailto:integrations@razorpay.com) to get your mobile number and app whitelisted.    
 >     
 
-- Replace the UAT credential with the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+- Replace the UAT credential with the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.

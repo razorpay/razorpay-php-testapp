@@ -17,7 +17,7 @@ Third-party validation (TPV) of bank accounts is mandatory for businesses in the
              - `app/libs`: All libraries (Bank, SecureComponent and Turbo) common for headless and UI SDK
              - `app/build.gradle`: All transitive dependencies needed to integrate the Turbo SDK.
 
-         2. Integrate with [Razorpay Android Custom SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/build-integration.md).
+         2. Integrate with [Razorpay Android Custom SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/build-integration.md).
 
          3. Import the following frameworks:
              - Razorpay Turbo Wrapper Plugin SDK (maven)
@@ -37,7 +37,7 @@ Third-party validation (TPV) of bank accounts is mandatory for businesses in the
 >          **Watch Out!**
 > 
 >          - `minSDKversion` for using Turbo UPI is currently 19 and cannot be over written.
->          - Use the `rzp_test_5sHeuuremkiApj` API key id for testing on the UAT environment and the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+>          - Use the `rzp_test_5sHeuuremkiApj` API key id for testing on the UAT environment and the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.
 >          - As a compliance requirement, you need to get approval from Google for **READ_SMS** permission. Refer [to the Google article](https://support.google.com/googleplay/android-developer/answer/10208820?hl=en) for more details.
 >          - If the user changes their mobile number during onboarding, you should store the updated number and pass it to the Turbo SDK.
 >          
@@ -531,13 +531,13 @@ Given below are the steps:
 : Mobile number of the customer.
 
 `customer_id`
-: The unique identifier of the customer. You can create `customer_id` using the [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md).
+: The unique identifier of the customer. You can create `customer_id` using the [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md).
 
 `tpvBankAccount` _conditionally mandatory_
 : The tpvBankAccount parameter represents a bank account configuration used for UPI transactions, containing the account number, IFSC, and bank name.
 
 `order_id`  _conditionally mandatory_
-: Order ID generated via [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/#upi-only.md).
+: Order ID generated via [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation.md#upi-only).
                         
 
                      
@@ -701,7 +701,7 @@ Given below are the steps:
          1. Create a signature in your server using the following attributes:
             - `order_id`: Retrieve the `order_id` from your server. Do not use the `razorpay_order_id` returned by Checkout.
             - `razorpay_payment_id`: Returned by Checkout.
-            - `key_secret`: Available in your server. The `key_secret` that was generated from the  [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md).  
+            - `key_secret`: Available in your server. The `key_secret` that was generated from the  [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).  
 
          2. Use the SHA256 algorithm, the `razorpay_payment_id` and the `order_id` to construct a HMAC hex digest as shown below:
 
@@ -890,7 +890,7 @@ You can directly interact with the exposed methods of the Turbo Framework to per
 > 
 > You can use the following S2S APIs to maintain and fetch a list of all tpv bank accounts for a customer.
 > - Use the [Add Bank Account of Customers API](#step-12-add-customer-s-bank-account) to add bank account of the customers.
-> - Use the [Delete Bank Account of Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers/bank-accounts/#2-delete-bank-account-of-customer.md) to delete bank account of the customers.
+> - Use the [Delete Bank Account of Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers/bank-accounts.md#2-delete-bank-account-of-customer) to delete bank account of the customers.
 > 
 
     
@@ -1118,7 +1118,7 @@ The SDKs given below provide access to exposed models for seamless integration.
 
          
 
-         [Refer to the list of possible error reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/error-codes.md).
+         [Refer to the list of possible error reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/error-codes.md).
         
 
     
@@ -1257,4 +1257,4 @@ Complete these steps to take your integration live:
     - `keep class retrofit2.** { *; }`
     - `keep class okhttp3.** { *; }`
 
-- Replace the UAT credential with the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+- Replace the UAT credential with the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.

@@ -13,12 +13,12 @@ description: Check the prerequisites before you integrate your Magento website w
 **Before you proceed:**
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup).
-- Understand the [payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md) process.
+- Understand the [payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md) process.
 
 We support the following versions of Magento:
 
-- [Magento 1.x extension](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/magento/integration-steps/#integration-steps-for-magento-1x-extension.md)
-- [Magento 2.x extension](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/magento/integration-steps/#integration-steps-for-magento-2x-extension.md)
+- [Magento 1.x extension](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/magento/integration-steps.md#integration-steps-for-magento-1x-extension)
+- [Magento 2.x extension](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/magento/integration-steps.md#integration-steps-for-magento-2x-extension)
 
 Our extensions are supported on all operating systems, such as Windows, Mac OS, and Linux.
 
@@ -70,4 +70,4 @@ Payment Gateway | Route | Subscriptions
 
 ### Related Information
 
-[Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md)
+[Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md)

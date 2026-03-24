@@ -8,7 +8,7 @@ description: Comparison between the states of Razorpay Subscriptions and Magento
 
 ## Understand the Subscription Status
 
-The subscription status names used by Razorpay and Magento are different. The table below shows the mapping between the subscription statuses names used by Razorpay and Magento. Refer to the Razorpay Subscriptions status flow [here](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/states.md).
+The subscription status names used by Razorpay and Magento are different. The table below shows the mapping between the subscription statuses names used by Razorpay and Magento. Refer to the Razorpay Subscriptions status flow [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/states.md).
 
 Magento Subscription Status | Razorpay Subscription Status | Description
 ---

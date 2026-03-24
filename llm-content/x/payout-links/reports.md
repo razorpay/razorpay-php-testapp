@@ -14,7 +14,7 @@ To generate the report:
 
 1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
 2. Click on the download icon.
-    ![Download Payout Links Report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payout-links-export.jpg.md)
+    ![Download Payout Links Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payout-links-export.jpg.md)
 3. Select a period from the drop-down, or select custom dates for which you require the report.
 4. Choose the format of your report- `.xlsx` or `.csv`.
 5. You can **DOWNLOAD** as well as **EMAIL** the report. You can enter any email address you wish to share the report with as well as select the team members you want to share it with.

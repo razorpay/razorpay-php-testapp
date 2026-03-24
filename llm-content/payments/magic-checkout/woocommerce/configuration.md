@@ -28,10 +28,10 @@ You can use this setting to enable COD on your store and configure the rules for
 ### To enable COD settings:
 
          1. Log in to the Razorpay Dashboard and navigate to **Magic Checkout** → **Setup & Settings** → **Platform Settings**.   
-         2. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/#step-1-configure-settings-on-razorpay-dashboard.md) in the **Domain hyperlink** field and click **Next**.
+         2. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md#step-1-configure-settings-on-razorpay-dashboard) in the **Domain hyperlink** field and click **Next**.
          3. Navigate to the **COD Settings** → **COD Setup**.
          4. Enable **COD as a payment option**.
-             ![COD settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-wooc-enable-cod.jpg.md)
+             ![COD settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-wooc-enable-cod.jpg.md)
          5. Select the **Type of setting**.
          
              
@@ -46,14 +46,14 @@ You can use this setting to enable COD on your store and configure the rules for
                           2. Enter the minimum and maximum order value for which the fee should apply.
                           3. Enter the **Delivery price**. For example, if the **Min Order Value** is ₹400, the **Max Order Value** is ₹1000, and the Fee is ₹50, a ₹50 COD fee is applied to any order value in this range.
                           4. Click **Save slabs**. 
-                              ![Create COD eligibility slabs with COD charges](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-wooc-cod-slabs.jpg.md) 
+                              ![Create COD eligibility slabs with COD charges](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-wooc-cod-slabs.jpg.md) 
                           5. Click **+ Add rate slabs** if you want to create more slabs.   
 
                       - **Free COD**: No COD charge will apply within the configured order range. The customer cannot view the COD payment method if an order value does not fall within the configured range.
                           1. Click **+ Add slabs**.
                           2. Enter the minimum and maximum order value for which no COD charge should apply. For example, if the **Min Order Value** is ₹800 and the **Max Order Value** is ₹1200, the COD charge will not apply if the order value falls in this range.
                           3. Click **Save slab**.
-                              ![Create COD eligibility slabs](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-wooc-free-cod.jpg.md)
+                              ![Create COD eligibility slabs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-wooc-free-cod.jpg.md)
                           4. Click **+ Create more slabs** to create more slabs.
 
                       
@@ -68,10 +68,10 @@ You can use this setting to enable COD on your store and configure the rules for
                   2. In the **COD zones** section, click **+ Add zones** to create shipping zones where COD is applicable.
                   3. Enter the **Zone name**.
                   4. Select the country, state, and city where the COD charges configured in the previous step should be applicable. Click **Confirm**.
-                      ![Create COD zones](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-wooc-cod-zone.jpg.md)
+                      ![Create COD zones](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-wooc-cod-zone.jpg.md)
                   5. Click **Save & apply**.
                   6. Navigate to **Manual Zipcode upload** and click **Upload ZIP codes** to offer COD only to specific ZIP codes.
-                     ![Upload ZIP codes to offer COD only to specific ZIP codes](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-wooc-cod-shipping-pincode.jpg.md)
+                     ![Upload ZIP codes to offer COD only to specific ZIP codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-wooc-cod-shipping-pincode.jpg.md)
                      
                      
 > **INFO**
@@ -118,7 +118,7 @@ You can use this setting to enable COD on your store and configure the rules for
 
                     
                   4. Click **Save slab**. 
-                      ![Create advanced COD eligibility slabs](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-advanced-cod-slabs.jpg.md)
+                      ![Create advanced COD eligibility slabs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-advanced-cod-slabs.jpg.md)
                   5. Click **+ Create more slabs** if you want to create more slabs. 
                   6. In the **COD zones** section, click **+ Add zones** to create shipping zones where COD is applicable.
                   7. Enter the **Zone name**.
@@ -126,22 +126,22 @@ You can use this setting to enable COD on your store and configure the rules for
                   9. You can configure COD based on either the zone or product categories.
                       - **Zone Configuration**: Manage applicable COD slabs and rates for different zones.
                           1. Click **+ Set zone configuration**.
-                              ![Set zone configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopif-zone-config.jpg.md)
+                              ![Set zone configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopif-zone-config.jpg.md)
                           2. Select the slabs based on your requirement and click **Save configuration**. It is mandatory to configure all the zones you create. The COD charge applies to each zone based on the slabs you select.
-                              ![Select zone-wise COD slabs](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-zone-cod-slabs.jpg.md)
+                              ![Select zone-wise COD slabs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-zone-cod-slabs.jpg.md)
                           3. Click **Save & apply**.
                       - **Product categories**:  Create **Product categories** to establish custom rates or zone restrictions for different categories.
                           1. Enable the **Product categories** setting. Once you enable this setting, the **Zone configuration** field will not appear.
                           2. Click **+ Add categories**. 
-                              ![Add product categories](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-product-cat.jpg.md)
+                              ![Add product categories](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-product-cat.jpg.md)
                           3. Enter the **Category name**. 
                           4. Select the products of your choice that you want to add to the category and click **Confirm**. You cannot add the same product in different categories.
                           5. Click **+ Create more categories** if you want to add more product categories.
                           6. Click **+ Set category configuration** to configure the zones and slabs for each category.
-                              ![Set category configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-product-cat-config.jpg.md)
+                              ![Set category configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-product-cat-config.jpg.md)
                           7. Select the serviceable zone for the selected category and choose the slabs based on your requirements. For example, if you want to set configurations for the product category, Topwear, select the order range for this category on which COD should apply for each zone.
                           8. Click **Save configuration**. It is mandatory to configure slabs for all the zones you create.
-                              ![Config zone and slabs for each category](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-category-config.jpg.md)
+                              ![Config zone and slabs for each category](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-category-config.jpg.md)
                           9. Click **Save & apply**.
                  
 
@@ -169,7 +169,7 @@ You can use this setting to enable COD on your store and configure the rules for
                   Follow the steps given below:
 
                   1. Log in to the Razorpay Dashboard and navigate to **Magic Checkout** → **Setup & Settings** → **Platform Settings**. 
-                  2. Select **WooCommerce** from the platform drop-down list. Paste the [WordPress Address or Site Address](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/#step-1-configure-settings-on-razorpay-dashboard.md) in the **Domain hyperlink** field and click **Next**.
+                  2. Select **WooCommerce** from the platform drop-down list. Paste the [WordPress Address or Site Address](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md#step-1-configure-settings-on-razorpay-dashboard) in the **Domain hyperlink** field and click **Next**.
                   3. Navigate to **COD Setup** → **Block List**.
                   4. Click **+ Add New Blocklist**. 
                   5. You can either upload a list or enter it manually. 
@@ -194,7 +194,7 @@ You can use this setting to enable COD on your store and configure the rules for
 >                           
 
                   6. Click **Confirm**.
-                      ![Confirm](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-blocklist-confirm.jpg.md)
+                      ![Confirm](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-blocklist-confirm.jpg.md)
                   7. A pop-up page appears with the list of items added. Review the list and click **Add To Blocklist**.
 
                   The orders that fall under this list will not be eligible for COD.
@@ -214,13 +214,13 @@ You can either opt for the automated option by enabling COD intelligence or manu
          Enable **COD Intelligence** to detect incorrect/non-serviceable addresses. This allows Magic Checkout to decide whether to show a particular customer the cash-on-delivery option based on their buying history, thus increasing the delivery percentage and reducing RTO rates. To enable COD intelligence: 
 
          1. Log in to the Razorpay Dashboard and navigate to **Magic Checkout** → **Setup & Settings** → **Platform Settings**. 
-         2. Select **WooCommerce** from the platform drop-down list. Paste the [WordPress Address or Site Address](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/#step-1-configure-settings-on-razorpay-dashboard.md) in the **Domain hyperlink** field and click **Next**.
+         2. Select **WooCommerce** from the platform drop-down list. Paste the [WordPress Address or Site Address](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md#step-1-configure-settings-on-razorpay-dashboard) in the **Domain hyperlink** field and click **Next**.
          3. Navigate to **RTO Reduction Setup** → **RTO Reduction**.  
          4. Toggle on **COD Intelligence** and click **Enable COD Intelligence** in the confirmation pop-up modal. 
 
-         ![Enable COD intelligence](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-cod-enable-shopify.jpg.md)
+         ![Enable COD intelligence](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-cod-enable-shopify.jpg.md)
          
-         You can disable **COD Intelligence** if required. This will enable the COD option for all the customers, including those considered risky by Magic Checkout. Once you enable COD intelligence, the **RTO Analytics** tab will appear. Know more about [RTO Analytics](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/analytics/rto.md).
+         You can disable **COD Intelligence** if required. This will enable the COD option for all the customers, including those considered risky by Magic Checkout. Once you enable COD intelligence, the **RTO Analytics** tab will appear. Know more about [RTO Analytics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/analytics/rto.md).
 
              
 > **INFO**
@@ -240,28 +240,28 @@ You can either opt for the automated option by enabling COD intelligence or manu
          You can manually review COD orders to filter out potential RTO orders and, based on our insights, decide whether to offer customers the COD option.
 
          1. Log in to the Razorpay Dashboard and navigate to **Magic Checkout** → **Setup & Settings** → **Platform Settings**.   
-         2. Select **WooCommerce** from the platform drop-down list. Paste the [WordPress Address or Site Address](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/#step-1-configure-settings-on-razorpay-dashboard.md) in the **Domain hyperlink** field and click **Next**.
+         2. Select **WooCommerce** from the platform drop-down list. Paste the [WordPress Address or Site Address](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md#step-1-configure-settings-on-razorpay-dashboard) in the **Domain hyperlink** field and click **Next**.
          3. Navigate to **RTO Reduction Setup** → **RTO Reduction**.  
          4. Toggle on **Manually review COD orders**.
-             ![Enable manual Review](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-enable-manual-review.jpg.md)
+             ![Enable manual Review](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-enable-manual-review.jpg.md)
          5. Enter the **Consumer Key** and **Secret**. Follow the steps given below to generate API keys:
              1. Log in to the [WordPress account](https://wordpress.com/log-in) and navigate to  **WooCommerce** → **Settings**.
              1. Navigate to **Advanced** → **REST API**.
-                 ![REST APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-rest-apis.jpg.md)
+                 ![REST APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-rest-apis.jpg.md)
              1. Click **Add Key**.
              1. Enter the required details and click **Generate API key**.
              1. Copy the API keys and paste them onto the Razorpay Dashboard. Click **Submit**.
-                 ![Submit keys](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-submit-keys.jpg.md)
+                 ![Submit keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-submit-keys.jpg.md)
          6. Click **Enable manual review**.
 
-         Once you enable manual review, you can review the COD orders and take necessary actions. Refer to the [COD Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders/#cod-orders.md) section for more information.
+         Once you enable manual review, you can review the COD orders and take necessary actions. Refer to the [COD Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders.md#cod-orders) section for more information.
         
 
 ## Convert COD Orders to Prepaid
 
 With Magic Checkout, you can urge customers who chose cash on delivery while placing an order to convert COD orders to prepaid by offering discounts or incentives post-order placement. 
 
-Converting orders to prepaid can help you increase order commitment, reduce RTO, streamline operations and enhance customer trust. Know how to [convert COD orders to prepaid](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/order-settings/prepay-cod.md).
+Converting orders to prepaid can help you increase order commitment, reduce RTO, streamline operations and enhance customer trust. Know how to [convert COD orders to prepaid](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/order-settings/prepay-cod.md).
 
 > **INFO**
 >
@@ -291,16 +291,16 @@ Following are the configuration options available under shipping:
 
          To configure the shipping options based on your requirement:
          1. Log in to the Razorpay Dashboard and navigate to **Magic Checkout** → **Setup & Settings** → **Platform Settings**.   
-         2. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/#step-1-configure-settings-on-razorpay-dashboard.md) in the **Domain hyperlink** field and click **Next**.
+         2. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md#step-1-configure-settings-on-razorpay-dashboard) in the **Domain hyperlink** field and click **Next**.
          3. Navigate to **Shipping Setup**. You can either select **Magic Shipping** or **WooCommerce** as the **Shipping Type**.
          4. Click **Add Profile** in the **Custom Shipping Profile** section.
-             ![Navigate to Shipping settings on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shipping-settings.jpg.md)
+             ![Navigate to Shipping settings on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shipping-settings.jpg.md)
          5. Click **+ Add category** in the **Product categories** section.
-             ![Add product categories to configure shipping](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-wooc-shipping-category.jpg.md)
+             ![Add product categories to configure shipping](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-wooc-shipping-category.jpg.md)
          6. Enter the **Category name** and select the products of your choice. You cannot add the same product in other categories. Click **Confirm**. 
          7. Click **+ Add zones** in the **Shipping zone** section to create zones where shipping is applicable.
          8. Enter the **Zone name** and select the country, state, and city of your choice. 
-             ![Add shipping zones to determine the shipping charges for each zone](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/wooc-add-shipping-zone.jpg.md)
+             ![Add shipping zones to determine the shipping charges for each zone](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/wooc-add-shipping-zone.jpg.md)
          9. Click **+ Upload ZIP codes** to offer shipping only to specific ZIP codes. You can either upload the ZIP codes in this profile or in the default shipping profile.
          
              
@@ -328,14 +328,14 @@ Following are the configuration options available under shipping:
 >              
 
          11. Click **+ Add shipping method** and configure the **Shipping method & rate** for all the shipping zones added in the previous step.
-             ![Configure the shipping rates for each zone](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/wooc-shipping-method.jpg.md)
+             ![Configure the shipping rates for each zone](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/wooc-shipping-method.jpg.md)
          12. Enter the **Delivery Name** and **Description** of your choice which will appear to your customers on Magic Checkout.
          13. Enter the **Rate** for the delivery and enable the **COD availability** if you want to show the cash on delivery payment option on checkout at the shipping method level. 
          14. Configure the Shipping slab based on the **Amount** and **Weight** of the product and enter the minimum and maximum values respectively. For example, enter the minimum-maximum value as ₹500-₹900. If the amount of the product falls in that range, a shipping rate is applicable on the product. 
-             ![Configure the shipping method](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/wooc-configure-shipping-method.jpg.md)
+             ![Configure the shipping method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/wooc-configure-shipping-method.jpg.md)
          15. Enter the delivery estimated timeline for the customers which appears on checkout.
          16. Click **Confirm**.
-             ![Configure the shipping method](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/wooc-configure-shipping-delivery.jpg.md)
+             ![Configure the shipping method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/wooc-configure-shipping-delivery.jpg.md)
          17. Once you configure all the shipping zones, click **Go Back**.
          18. Click **+ Set Default profile** in the **Default Shipping Profile (Mandatory)** section. Follow all the steps from 7 to 15 to configure the profile.
             
@@ -358,12 +358,12 @@ Following are the configuration options available under shipping:
 >              **Watch Out!**
 >             
 >              - Once you enable **Magic Shipping**, it surpasses all shipping configurations from any plugins or your ecommerce platform and prioritise our configurations.
->                  ![Enable Shipping settings on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/wooc-magic-enable-shipping-settings.jpg.md)
->              - You will get a pop-up if you have not opted for [COD Engine](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/configuration/#cash-on-delivery.md) and [COD order to prepaid](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/configuration/#convert-cod-orders-to-prepaid.md). Enter the **Consumer Key** and **Secret**. Follow the steps given below to generate API keys:
+>                  ![Enable Shipping settings on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/wooc-magic-enable-shipping-settings.jpg.md)
+>              - You will get a pop-up if you have not opted for [COD Engine](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce/configuration.md#cash-on-delivery) and [COD order to prepaid](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce/configuration.md#convert-cod-orders-to-prepaid). Enter the **Consumer Key** and **Secret**. Follow the steps given below to generate API keys:
 >                  1. Log in to the [WordPress account](https://wordpress.com/log-in) and navigate to  **WooCommerce** → **Settings**.
 >                  1. Navigate to **Advanced** → **REST API** and click **Add Key**.
 >                  1. Enter the required details and click **Generate API key**. Copy the API keys and paste them onto the Razorpay Dashboard. Click **Submit**.
->                      ![Submit keys](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-submit-keys.jpg.md)
+>                      ![Submit keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-submit-keys.jpg.md)
 >              
 
         
@@ -375,7 +375,7 @@ Following are the configuration options available under shipping:
          
          1. Log in to your [WordPress account](https://wordpress.com/log-in).
          2. Navigate to **WooCommerce** → **Settings** and click the **Shipping** tab.
-             ![Shipping settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-navigate.jpg.md)
+             ![Shipping settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-navigate.jpg.md)
          3. Add the appropriate **Shipping Zones** and the respective **Shipping Method**.
              
 > **INFO**
@@ -395,12 +395,12 @@ Following are the configuration options available under shipping:
 >              Magic Checkout does not support multiple shipping methods for a region. For example, if you have enabled free shipping and flat rate shipping methods for a particular region, then Magic Checkout will only consider free shipping as the shipping method.
 >              
 
-             ![Shipping Zone and methods](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-shipping-zone.jpg.md) 
+             ![Shipping Zone and methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-shipping-zone.jpg.md) 
          4. Enable COD for the shipping methods, if required. Navigate to **WooCommerce** → **Settings** and click the **Payments** tab.
-             ![Shipping Zone](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-woocommerce-payments.jpg.md)
+             ![Shipping Zone](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-woocommerce-payments.jpg.md)
          5. Scroll down to **Cash on Delivery** and select the **Enable cash on delivery** check box. 
 Add the same shipping methods in the **Enable for shipping methods** field to enable COD for shipping methods and click **Save changes**.
-             ![Shipping method COD](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-shipping-method-cod.jpg.md) 
+             ![Shipping method COD](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-shipping-method-cod.jpg.md) 
 
          
          ### Shipping Charges
@@ -411,14 +411,14 @@ Add the same shipping methods in the **Enable for shipping methods** field to en
     
 ### Logistics Partners
 
-         You can integrate Magic Checkout with following logistics partners to easily fetch delivery status details. This is a mandatory step if you have opted for [RTO protection](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/configuration#rto.md):
-         - [Shiprocket](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/shiprocket.md) 
-         - [Delhivery](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/delhivery.md)  
-         - [iThink Logistics](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/ithink-logistics.md) 
-         - [Unicommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/unicommerce.md) 
-         - [ClickPost](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/clickpost.md)
+         You can integrate Magic Checkout with following logistics partners to easily fetch delivery status details. This is a mandatory step if you have opted for [RTO protection](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce/configuration.md#rto):
+         - [Shiprocket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/shiprocket.md) 
+         - [Delhivery](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/delhivery.md)  
+         - [iThink Logistics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/ithink-logistics.md) 
+         - [Unicommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/unicommerce.md) 
+         - [ClickPost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/clickpost.md)
 
-         ![Logistics partners](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-logistics-connect.jpg.md)
+         ![Logistics partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-logistics-connect.jpg.md)
         
 
 ## International Shipping 
@@ -430,9 +430,9 @@ You can allow customers to enter an international zipcode for delivery.
 
          1. Log in to
  the Razorpay Dashboard and navigate to **Magic Checkout** → **Setup & Settings** → **Platform Settings**.   
-         2. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/#step-1-enable-features-on-razorpay-dashboard.md) in the **Domain hyperlink** field and click **Next**.
+         2. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md#step-1-enable-features-on-razorpay-dashboard) in the **Domain hyperlink** field and click **Next**.
          3. Navigate to **Shipping Setup** and enable **International Shipping**.
-             ![enable international shipping for customers](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-int-shipping.jpg.md)
+             ![enable international shipping for customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-int-shipping.jpg.md)
         
 
 ## Coupons
@@ -457,9 +457,9 @@ You can offer discounts to your customers by adding coupons.
 
              ![](/docs/assets/images/magic-checkout-coupon.jpg)
          5. In the Razorpay Dashboard, navigate to **Magic Checkout** → **Setup & Settings** → **Platform Settings**. 
-         6. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/#step-1-enable-features-on-razorpay-dashboard.md) in the **Domain hyperlink** field and click **Next**.
+         6. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md#step-1-enable-features-on-razorpay-dashboard) in the **Domain hyperlink** field and click **Next**.
          7. In the **Checkout Setup** tab, the **Coupon Settings** fields are auto-filled. If you want to show all the available coupons directly on Magic Checkout, enable **Auto fetch coupon**.
-             ![Enable Auto Fetch coupons to show all the available coupons on Magic Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-auto-fetch-coupons.jpg.md)
+             ![Enable Auto Fetch coupons to show all the available coupons on Magic Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-auto-fetch-coupons.jpg.md)
          8. Click **Save settings**.
 
          
@@ -482,9 +482,9 @@ You can collect the customer's **Billing Address** separately from the **Shippin
 
          1. Log in to
  the Razorpay Dashboard and navigate to **Magic Checkout** → **Setup & Settings** → **Platform Settings**.   
-         2. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/#step-1-configure-settings-on-razorpay-dashboard.md) in the **Domain hyperlink** field and click **Next**.
+         2. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md#step-1-configure-settings-on-razorpay-dashboard) in the **Domain hyperlink** field and click **Next**.
          3. Navigate to **Checkout Setup**, enable **Capture billing address** and click **Save settings**.
-             ![enable separate billing address capture for customers](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-billing-add.jpg.md)
+             ![enable separate billing address capture for customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-billing-add.jpg.md)
         
 
 ## Capture and Validate GSTIN
@@ -496,9 +496,9 @@ You can capture and validate your customer's GST details from the Dashboard.
 
          1. Log in to
  the Razorpay Dashboard and navigate to **Magic Checkout** → **Setup & Settings** → **Platform Settings**.   
-         2. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/#step-1-enable-features-on-razorpay-dashboard.md) in the **Domain hyperlink** field and click **Next**.
+         2. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md#step-1-enable-features-on-razorpay-dashboard) in the **Domain hyperlink** field and click **Next**.
          3. Navigate to **Checkout Setup**, enable **Capture GSTIN?** and click **Save settings**.
-             ![Capture customers GST details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-wooc-gstin.jpg.md)
+             ![Capture customers GST details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-wooc-gstin.jpg.md)
          4. To validate the GSTIN entered by your customers at checkout, contact our [Support team](https://razorpay.com/support/#request) to enable GSTIN validation for your account.
          5. After the customers place an order, you can view the GST details on WooCommerce and the Razorpay Dashboard. 
              - **WooCommerce Dashboard**: On the WooCommerce Dashboard, navigate to **WooCommerce** → **Orders**. Select the required order number and view the details on right-hand side. 
@@ -515,7 +515,7 @@ You can capture and validate your customer's GST details from the Dashboard.
          3. The customer enters their GSTIN and clicks **Verify**.
              - If the GSTIN is invalid, an error message is displayed asking the customer to enter a valid GSTIN number.
              - If the GSTIN is valid, the GST-registered address is automatically set as the billing address.
-         ![GSTIN on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-config-gstin.jpg.md)
+         ![GSTIN on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-config-gstin.jpg.md)
         
 
 ## Capture Order Instructions 
@@ -527,9 +527,9 @@ You can enable your customers to enter order instructions if any at the checkout
 
          1. Log in to
  the Razorpay Dashboard and navigate to **Magic Checkout** → **Setup & Settings** → **Platform Settings**.   
-         2. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/#step-1-enable-features-on-razorpay-dashboard.md) in the **Domain hyperlink** field and click **Next**.
+         2. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md#step-1-enable-features-on-razorpay-dashboard) in the **Domain hyperlink** field and click **Next**.
          3. Navigate to **Checkout Setup**, enable **Capture order instructions?** and click **Save settings**.
-             ![Capture customer order instructions if any](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-wooc-order-instructions.jpg.md)
+             ![Capture customer order instructions if any](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-wooc-order-instructions.jpg.md)
          4. After the customers place an order, you can view the GST details on WooCommerce and the Razorpay Dashboard. 
              - **WooCommerce Dashboard**: On the WooCommerce Dashboard, navigate to **WooCommerce** → **Orders**. Select the required order number and view the details on right-hand side. 
              - **Razorpay Dashboard**: On the Razorpay Dashboard, navigate to **Transactions** → **Orders** and select the required **Order Id** to view the details.
@@ -560,14 +560,14 @@ You can enable various gift card options for your customers from the Dashboard.
 
          1. Log in to
  the Razorpay Dashboard and navigate to **Magic Checkout** → **Setup & Settings** → **Platform Settings**.   
-         2. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/#step-1-enable-features-on-razorpay-dashboard.md) in the **Domain hyperlink** field and click **Next**.
+         2. Select **WooCommerce** from the **Platform** drop-down list. Paste the [WordPress Address or Site Address](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md#step-1-enable-features-on-razorpay-dashboard) in the **Domain hyperlink** field and click **Next**.
          3. Navigate to **Checkout Setup** and enable **Pay with gift card**.
          4. Once you enable the gift card settings, you can also enable the following options **if required**:
              - **Pay with multiple gift cards**: Allow your customers to pay with multiple gift cards at once.
              - **Restrict paying with coupon and gift card together**: Restrict your customers from using both coupon and gift card together while making a payment.
              - **Restrict buying gift cards with existing gift cards**: Restrict your customers from purchasing gift cards using existing gift cards.
              - **Restrict customers from clubbing gift cards with COD**: Restrict the usage of gift cards if your customers avail of the cash on delivery option.
-             ![Configure the gift card options if required](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-wooc-gift-config.jpg.md)
+             ![Configure the gift card options if required](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-wooc-gift-config.jpg.md)
          5. Click **Save Settings**.
         
 
@@ -582,10 +582,10 @@ Activate Google and Facebook Analytics based on your requirement to track orders
          2. Click **Payments**.
          3. In the Payments tab, scroll down to **Razorpay** and click **Manage** to edit the settings.
          4. Scroll towards the end and activate Google and Facebook analytics based on your requirement.
-             ![enable google and facebook analytics](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-other-settings3.jpg.md)
+             ![enable google and facebook analytics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-other-settings3.jpg.md)
          5. Click **Save changes**.
         
 
 ### Related Information
 
-[Troubleshooting and FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/troubleshooting-faqs/#woocommerce.md)
+[Troubleshooting and FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/troubleshooting-faqs.md#woocommerce)

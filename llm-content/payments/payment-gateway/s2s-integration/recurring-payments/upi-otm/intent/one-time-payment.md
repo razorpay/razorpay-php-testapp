@@ -19,7 +19,7 @@ description: Create and charge a one time payment using Razorpay APIs.
 
 ## 3.2. Create a One Time Payment
 
-Once you have generated an `order_id`, use it with the `token_id` to create a one-time payment. After the payment is complete (authorised or failed), the respective token will move to the `cancelled` state, and you can no longer use the token. You will get the [token.cancelled](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/webhooks/#token-cancelled.md) webhook notification for the same.
+Once you have generated an `order_id`, use it with the `token_id` to create a one-time payment. After the payment is complete (authorised or failed), the respective token will move to the `cancelled` state, and you can no longer use the token. You will get the [token.cancelled](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#token-cancelled) webhook notification for the same.
 
 The following endpoint creates a one time payment to charge the customer. 
 

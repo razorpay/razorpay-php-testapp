@@ -28,8 +28,8 @@ Webhooks |  Webhooks are a means by which applications automatically communicate
 
 ### Related Information
 
-- [Understand Razorpay APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand.md)
-- [API Authentication](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication.md)
-- [Sandbox Setup](@/Applications/MAMP/htdocs/new-docs/llm-content/api/sandbox-setup.md)
-- [Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md)
-- [Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/api/best-practices.md)
+- [Understand Razorpay APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md)
+- [API Authentication](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md)
+- [Sandbox Setup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/sandbox-setup.md)
+- [Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md)
+- [Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/best-practices.md)

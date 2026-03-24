@@ -27,14 +27,14 @@ Fill in the [form](https://razorpay.typeform.com/to/peQh9Pwx#name=xxxxx) and sha
 - Email address
 - Mobile number 
 - Razorpay MID: You can find your MID on the top-right corner of the Dashboard.
-- Razorpay API keys: Generate the [API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) from the Dashboard by navigating to **Account & Settings** → **Website and app settings** → **API keys**. 
+- Razorpay API keys: Generate the [API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard by navigating to **Account & Settings** → **Website and app settings** → **API keys**. 
 - If you are a Shopify Native user
 - If you offer COD
 - 4 digit-Shopify collaborator code:
     1. Log in to the [Shopify Store](https://accounts.shopify.com/store-login) using your admin credentials.
     2. Navigate to **Settings** → **User and permissions**.
     3. Scroll down to the **Collaborators** section and copy the **Collaborator Request Code**.
-        ![Copy the collaborator request code](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-collab-code.gif.md)
+        ![Copy the collaborator request code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-collab-code.gif.md)
 - Test Shopify theme name: Magic Checkout will be enabled on this test theme; you can then publish this on your live theme post-integration.
 
 > **INFO**
@@ -54,11 +54,11 @@ Follow the steps given below:
 
          1. Log in to the [Shopify Store](https://accounts.shopify.com/store-login) and navigate to **Products**.
          2. Select all the products and click **Include in sales channels**.
-             ![Include products in sales channel](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-sales-channel.jpg.md)
+             ![Include products in sales channel](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-sales-channel.jpg.md)
          3. Select the **Magic Checkout** check box and click **Include products**.
          4. Navigate to **Settings** → **Taxes and duties**.
          5. Scroll down to the **Global settings** section and select the **Include sales tax in product price and shipping rate** check box. Click **Save**.
-             ![Include sales tax GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-sales-tax1.gif.md)
+             ![Include sales tax GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-sales-tax1.gif.md)
          6. In the **Settings** section, navigate to **Checkout**.
          7. Scroll down to the **Order status page additional scripts** section and add the following code in the **Additional scripts** section:
          ```js
@@ -98,20 +98,20 @@ Follow the steps given below:
 ## Next Steps
 
 After successfully integrating your Shopify website with Magic Checkout, you can perform the following configurations on the Razorpay Dashboard to suit your business needs:
-- [Cash on Delivery](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#cash-on-delivery.md): Enable COD and configure rules for specific locations, products, and order amounts, catering to customer preferences and logistical needs to increase sales.
-- [Partial Cash on Delivery](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#partial-cash-on-delivery.md): Enable customers to pay a partial order amount online and use cash on delivery for the remaining balance to reduce order cancellation risk.
-- [RTO](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#rto.md): Use automated COD intelligence or manual review to decide whether to offer COD based on customer buying history, thus reducing RTO rates.
-- [Convert COD Orders to Prepaid](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#convert-cod-orders-to-prepaid.md): Encourage COD customers to switch to prepaid by offering discounts or incentives, reducing cash handling risks.
-- [Shipping Options](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#shipping-options.md): Set up shipping rates at the product, zone and method levels to optimise costs and improve delivery efficiency.
-- [International Shipping](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#international-shipping.md): Allow customers to enter international PIN codes, expanding your market reach globally.
-- [Coupons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#coupons.md): Provide discounts via coupons to enhance engagement and reduce cart abandonment.
-- [Login with Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#login-with-razorpay.md): Razorpay Magic SSO (Single Sign-On) offers a seamless login experience, helping you enhance conversions and gain valuable insights into user behaviour.
-- [Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#offers.md): Create prepaid offers that appear on the Magic Checkout payment page, boosting conversions and average order value.
-- [Google Analytics](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#google-analytics.md): Integrate Google Analytics for insights into customer behaviour and optimised marketing strategies.
-- [Google Ads](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#google-ads.md): Integrate Google Ads to attract more visitors and increase sales.
-- [Facebook Ads](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#facebook-ads.md): Integrate Facebook Ads to expand your reach and drive traffic to your store.
-- [Gift Card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#gift-card-settings.md): Enable gift card settings to allow multiple gift cards or restrict their combination with coupons or COD, boosting sales through gift purchases.
-- [Abandoned Cart Webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/abandoned-cart.md): Track when a customer drops off during the checkout journey and retarget them using their contact information, recovering potentially lost sales.
+- [Cash on Delivery](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#cash-on-delivery): Enable COD and configure rules for specific locations, products, and order amounts, catering to customer preferences and logistical needs to increase sales.
+- [Partial Cash on Delivery](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#partial-cash-on-delivery): Enable customers to pay a partial order amount online and use cash on delivery for the remaining balance to reduce order cancellation risk.
+- [RTO](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#rto): Use automated COD intelligence or manual review to decide whether to offer COD based on customer buying history, thus reducing RTO rates.
+- [Convert COD Orders to Prepaid](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#convert-cod-orders-to-prepaid): Encourage COD customers to switch to prepaid by offering discounts or incentives, reducing cash handling risks.
+- [Shipping Options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#shipping-options): Set up shipping rates at the product, zone and method levels to optimise costs and improve delivery efficiency.
+- [International Shipping](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#international-shipping): Allow customers to enter international PIN codes, expanding your market reach globally.
+- [Coupons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#coupons): Provide discounts via coupons to enhance engagement and reduce cart abandonment.
+- [Login with Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#login-with-razorpay): Razorpay Magic SSO (Single Sign-On) offers a seamless login experience, helping you enhance conversions and gain valuable insights into user behaviour.
+- [Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#offers): Create prepaid offers that appear on the Magic Checkout payment page, boosting conversions and average order value.
+- [Google Analytics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#google-analytics): Integrate Google Analytics for insights into customer behaviour and optimised marketing strategies.
+- [Google Ads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#google-ads): Integrate Google Ads to attract more visitors and increase sales.
+- [Facebook Ads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#facebook-ads): Integrate Facebook Ads to expand your reach and drive traffic to your store.
+- [Gift Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#gift-card-settings): Enable gift card settings to allow multiple gift cards or restrict their combination with coupons or COD, boosting sales through gift purchases.
+- [Abandoned Cart Webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/abandoned-cart.md): Track when a customer drops off during the checkout journey and retarget them using their contact information, recovering potentially lost sales.
 
 > **WARN**
 >
@@ -119,7 +119,7 @@ After successfully integrating your Shopify website with Magic Checkout, you can
 > **Watch Out!**
 > 
 > Once the integration is successful:
-> - Updates regarding conversions will only be visible in the [Order Analytics](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/order-analytics.md) tab on the Razorpay Dashboard and not in Shopify Analytics.
+> - Updates regarding conversions will only be visible in the [Order Analytics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/order-analytics.md) tab on the Razorpay Dashboard and not in Shopify Analytics.
 > - You can edit order details like size, colour, and more on the Razorpay Dashboard using the **Action** tab.
 > 
 
@@ -132,4 +132,4 @@ After successfully integrating your Shopify website with Magic Checkout, you can
 > 
 
 ### Related Information
-[Troubleshooting and FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/troubleshooting-faqs/#shopify.md)
+[Troubleshooting and FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/troubleshooting-faqs.md#shopify)

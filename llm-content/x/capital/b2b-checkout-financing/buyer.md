@@ -6,7 +6,7 @@ description: Check how to use Razorpay B2B Checkout Financing as a Buyer.
 
 # Use Razorpay B2B Checkout Financing (Buyers)
 
-Razorpay B2B Checkout Financing is a [Buy Now, Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later.md) (BNPL) facility buyers can use to pay for purchases made from [sellers](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md). B2B Checkout Financing provides a seamless Checkout experience that not only improves the buyer and seller's business relationships but also provides payment flexibility to buyers. 
+Razorpay B2B Checkout Financing is a [Buy Now, Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md) (BNPL) facility buyers can use to pay for purchases made from [sellers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md). B2B Checkout Financing provides a seamless Checkout experience that not only improves the buyer and seller's business relationships but also provides payment flexibility to buyers. 
 
     
 ### Who is a Buyer?
@@ -41,7 +41,7 @@ To complete your B2B Checkout Financing application:
 
 1. Enter your phone number and verify using OTP. 
 1. Provide your business details such as the business type, email id, business PAN and more. 
-    ![Razorpay B2B Checkout Financing KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-capital-postpaid-onboarding-buyer.jpg.md)
+    ![Razorpay B2B Checkout Financing KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-capital-postpaid-onboarding-buyer.jpg.md)
 1. Provide OTP to consent for a credit verification.
 1. Share your bank statement for the previous 6 months using Netbanking or manual upload option to check eligibility. 
 1. Verify your business details again and proceed to the view and accept the offer. 
@@ -55,9 +55,9 @@ To use B2B Checkout Financing:
 
 1. Initiate the payment for the invoice shared by the seller via Razorpay Checkout.
 1. Go to the **Pay Later** option under **All Payment Methods** and select **Razorpay B2B Checkout Financing** as the payment method. Click **Continue**.
-    ![Razorpay B2B Checkout Financing choose payment method](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-capital-postpaid-pay.jpg.md)
+    ![Razorpay B2B Checkout Financing choose payment method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-capital-postpaid-pay.jpg.md)
 1. Select the available tenure on the Pay Later options page. 
-    ![Razorpay B2B Checkout Financing select tenure](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-capital-postpaid-pay-tenure.jpg.md)
+    ![Razorpay B2B Checkout Financing select tenure](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-capital-postpaid-pay-tenure.jpg.md)
 1. Enter the OTP sent to your registered mobile number. 
 
 You have successfully paid the seller using Razorpay B2B Checkout Financing. We email you the tenure and the due date. 
@@ -70,12 +70,12 @@ To repay upcoming dues manually:
 1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
 1. Navigate to **B2B Checkout Financing** from the left menu. 
 1. On the B2B Checkout Financing home page, click **Repay Dues**. You can view the total amount due as well. 
-    ![Razorpay B2B Checkout Financing repay manually](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-capital-postpaid-manually-repay.jpg.md)
+    ![Razorpay B2B Checkout Financing repay manually](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-capital-postpaid-manually-repay.jpg.md)
 1. Follow the on-screen instructions to make payment via Razorpay Checkout. 
 
 You have successfully repaid the upcoming due manually.
 
 ### Related Information 
 
-- [About Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later.md)
-- [Pay Later FAQs - Interest Rates and Tenures](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#pay-later.md)
+- [About Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md)
+- [Pay Later FAQs - Interest Rates and Tenures](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#pay-later)

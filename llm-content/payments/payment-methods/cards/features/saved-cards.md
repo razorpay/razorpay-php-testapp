@@ -7,7 +7,7 @@ description: Store customer's card details securely as tokens to repeat transact
 
 Save your customers' card details with Razorpay using tokens. The next time the customer makes any transaction, they only need to enter the CVV of the previously saved card. This saves the customer the hassle of entering the card details multiple times for each transaction.
 
-Know [ how to integrate saved cards at Standard Checkout.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/features/integrate-saved-cards.md)
+Know [ how to integrate saved cards at Standard Checkout.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/features/integrate-saved-cards.md)
 
 As per the RBI guidelines, we save the cards in a tokenised form. Razorpay does not save sensitive card details and only saves the tokens.
 
@@ -22,7 +22,7 @@ As per the RBI guidelines, we save the cards in a tokenised form. Razorpay does 
 >             - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 >             - It takes approximately 5-7 working days to enable tokenisation for Visa, MasterCard and other networks.
 >             - Watch this video to know how to raise a feature enablement request on the Dashboard.
->             ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+>             ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 >          
 
         
@@ -51,14 +51,14 @@ To save card details, the customer:
     - Save their card details.
     - Not save their card details.
 
-    ![Saved cards checkout flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pm-saved-cards.gif.md)
+    ![Saved cards checkout flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pm-saved-cards.gif.md)
 
 ## Make Payments Using Saved Cards
 
 To make payment using saved cards:
 1. The customers log in to the Razorpay Checkout.
 2. They select **Card** as the payment method.
-3. They enter the OTP sent to their phone or use their fingerprint if [Biometric Authentication](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/features.md) biometric authentication is set up, then click **Verify**.
+3. They enter the OTP sent to their phone or use their fingerprint if [Biometric Authentication](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/features.md) biometric authentication is set up, then click **Verify**.
 4. They select the saved card, enter the CVV and click **Pay**.
 5. We recommend that customers log out of Checkout after they complete the transaction. To do this, they must:
    1. Open Razorpay Checkout.
@@ -78,14 +78,14 @@ To manage saved cards:
 2. Enter the **OTP** sent to their mobile number for verification and click **Verify**.
 3. They can choose to select a card and delete the website/app on that particular card, or they can also select a website/app and delete the card on that particular website/app.
 
-   ![Delete/Edit a card on a particular website/app.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/delete-saved-card-choose.jpg.md)
+   ![Delete/Edit a card on a particular website/app.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/delete-saved-card-choose.jpg.md)
 
    
        
 ### To delete website/app on a particular card:
 
            1. Select **Cards**. View a list of saved cards.
-                ![View list of Saved cards](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/delete-saved-card-choose-card.jpg.md)
+                ![View list of Saved cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/delete-saved-card-choose-card.jpg.md)
            2. Select a card. For example, a customer selects a card from Paytm Payments Bank. They can now view a list of websites/apps they saved the card on earlier.
            3. Either click **Select All** or select the relevant **check box** against each website/app.
                 
@@ -104,11 +104,11 @@ To manage saved cards:
 ### To delete card on a particular Website/App:
 
            1. Select **Websites/Apps**. They view a list of websites/apps they have saved their cards on earlier.
-                ![View list of saved Websites/Apps](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/delete-saved-card-website.jpg.md)
+                ![View list of saved Websites/Apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/delete-saved-card-website.jpg.md)
           2. Select a website/app. For example, a customer selects Zomato. They can now view the cards saved on Zomato.
           3. Either click **Select All** or select the relevant **check box** against each card.
           4. Click **Delete**. A pop-up appears to confirm the action, click **Yes, Delete**.
-                ![Delete confirmation.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/delete-saved-card-confirm.jpg.md) 
+                ![Delete confirmation.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/delete-saved-card-confirm.jpg.md) 
            
 
    
@@ -128,7 +128,7 @@ To manage saved cards:
 
          If your customers are using Google Chrome and not able to access saved cards, it may be due to their browser configurations. Go to Chrome **Settings**, select **Privacy and security** → **Cookies and other site data** → **Allow all cookies** and restart the browser. If they still cannot access them, contact our [Support team](https://razorpay.com/support/).
       
-        ![Allow Cookies](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/saved-cards-chrome-settings-3.jpg.md)
+        ![Allow Cookies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/saved-cards-chrome-settings-3.jpg.md)
        
 
    

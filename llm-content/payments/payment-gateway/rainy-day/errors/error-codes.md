@@ -44,6 +44,6 @@ Looking at the `source`, `step` and `reason` provided in the error description, 
 
 ### Related Information
 
-For the list of reasons, refer to the [Error Reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md) section.
+For the list of reasons, refer to the [Error Reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md) section.
 
-To understand error codes specific for each payment method supported by Razorpay, refer to the payment flows described in the [Payment Method Error Parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/payments/payment-methods-error-parameters.md) section.
+To understand error codes specific for each payment method supported by Razorpay, refer to the payment flows described in the [Payment Method Error Parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/payments/payment-methods-error-parameters.md) section.

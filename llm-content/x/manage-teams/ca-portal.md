@@ -42,7 +42,7 @@ Create Payout Links | x
 ---
 View Payout Links | x 
 
-Explore [what other user roles are available in RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/#razorpayx.md). 
+Explore [what other user roles are available in RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams.md#razorpayx). 
 
 Your CA can primarily view and download reports. You can share the reports to your CA in the following 2 ways: 
 - [Generate and share reports with your CA](#generate-reports).
@@ -54,13 +54,13 @@ You can generate reports and send them via email to your CA. To do so:
 
 1. Log in to your [RazorpayX Dashboard](https://x.razorpay.com/).
 2. Navigate to **Menu** → **Reports** as shown below:
-    ![Reports section in the left nav menu on RazorpayX Dashboard.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-ca-portal-reports.jpg.md)
+    ![Reports section in the left nav menu on RazorpayX Dashboard.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-ca-portal-reports.jpg.md)
 3. Select a report type from the drop-down list and period for which report must be generated, and format of the report. Click **DOWNLOAD** to download a copy of the report as shown below:
 
-    ![Selecting report type from the Reports Dashboard on RazorpayX.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-ca-portal-report-types.jpg.md)
+    ![Selecting report type from the Reports Dashboard on RazorpayX.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-ca-portal-report-types.jpg.md)
 4. Enter the email address to which report must be sent, or select email address from the list as shown below: 
 
-    ![Enter email id or select from email ids present.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-ca-portal-email-report.jpg.md)
+    ![Enter email id or select from email ids present.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-ca-portal-email-report.jpg.md)
 5. Click **EMAIL REPORT**.
 
 A copy of the report is emailed to the specified email ids.
@@ -72,17 +72,17 @@ You can enable the Chartered Accountant (CA), finance in-charge, or the Finance 
 To provide access to your CA/Finance team:
 
 1. The owner/founder/admin must click **INVITE CA** in the banner or pop-up page.
-    ![Invite CA pop-up/banner.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-ca-invite.jpg.md)
+    ![Invite CA pop-up/banner.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-ca-invite.jpg.md)
 2. Enter the email address, choose role, and click **SEND INVITE**.
-    ![Send Invite to CA after entering the email id.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-ca-send-invite.jpg.md)
+    ![Send Invite to CA after entering the email id.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-ca-send-invite.jpg.md)
 
 The CA/Finance team has to do the following:
 
 1. Click **ACCEPT INVITE** in the email invitation as shown below.
-    ![Accept Invite email](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-ca-accept-invite.jpg.md)
+    ![Accept Invite email](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-ca-accept-invite.jpg.md)
 2. Enter email address, and create a password. Click **ACCEPT INVITE**.
 3. Enter name, and firm name and click **GET STARTED** as shown below.
-    ![Get Started with CA Portal after entering Your Name and Your Firm.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-ca-get-started.jpg.md)
+    ![Get Started with CA Portal after entering Your Name and Your Firm.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-ca-get-started.jpg.md)
 
 The CA/Finance team will now have access to the CA Portal.
 
@@ -92,6 +92,6 @@ If multiple RazorpayX users have invited CA to the Portal, the CA can switch mer
 
 ### Related Information
 
-- [Manage Teams](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams.md)
-- [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md)
-- [RazorpayX Fees and Taxes Information](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/billing.md)
+- [Manage Teams](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams.md)
+- [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md)
+- [RazorpayX Fees and Taxes Information](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/billing.md)

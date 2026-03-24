@@ -67,17 +67,17 @@ Follow the steps below to onboard BillDesk as a payment provider.
 
          1. Log in to your Dashboard.
          2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
-             ![optimizer login](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-login.jpg.md)
+             ![optimizer login](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-login.jpg.md)
          3. In the top right section, click **+ Add provider**.
-             ![Add provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-provider.jpg.md)
+             ![Add provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-provider.jpg.md)
          4. Select **BillDesk** in the list of gateways available and click **Next**.
-             ![Add BillDesk](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-billdesk2.jpg.md)
+             ![Add BillDesk](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-billdesk2.jpg.md)
          5. Enter the provider name and description and click **Next**.
-             ![Add BillDesk Provider Name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/billdesk-provider-name-description.jpg.md)
+             ![Add BillDesk Provider Name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/billdesk-provider-name-description.jpg.md)
          6. Enter your Client ID and Merchant ID.
          7. Select the payment methods you want to enable for BillDesk and click **Submit**. 
 
-             ![Add Security ID BillDesk](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-security-id2.jpg.md)
+             ![Add Security ID BillDesk](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-security-id2.jpg.md)
          You have successfully added **BillDesk** as a payment provider on Optimizer.
         
 
@@ -98,14 +98,14 @@ Wallet | Live
 > 
 > **Handy Tips**
 > 
-> Billdesk supports [Third-Party Validation (TPV)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/third-party-validation/#supported-bank-gateways-payment-gateways-and-payment-methods.md).
+> Billdesk supports [Third-Party Validation (TPV)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/third-party-validation.md#supported-bank-gateways-payment-gateways-and-payment-methods).
 > 
 
 ## Send Receipt/Order ID to External Gateway
-You might be generating a unique Order ID or Receipt for every order which can be passed to BillDesk via [ Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders#orders-api.md). 
+You might be generating a unique Order ID or Receipt for every order which can be passed to BillDesk via [ Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md#orders-api). 
 
 Follow the steps given below for your order id to be visible on the BillDesk Dashboard:
-1. In Razorpay's [ Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders#orders-api.md), use the `receipt` parameter to send your unique Order ID or Receipt.
+1. In Razorpay's [ Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md#orders-api), use the `receipt` parameter to send your unique Order ID or Receipt.
 2. Razorpay passes this value to BillDesk in the `additional_info1` parameter.
 3. Write to your BillDesk Relationship Manager to show the parameter `additional_info1` in the Dashboard and reports as per your use case.
 
@@ -138,11 +138,11 @@ Before routing all traffic or some traffic to a new gateway via Optimizer, the f
              - In **Parameter** field, select **Amount (In Rupees)**
              - In **Select Connection** field, select **Less Than**
              - In **Enter Amount** field, enter the value 2 and click **Next**.
-                 ![Add Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-rule.jpg.md)
+                 ![Add Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-rule.jpg.md)
          5. Enter the value 100 in the **Route field**, select **billdesk_optimizer** in the **payment via** field, and click **Next**.
-             ![BillDesk target Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/billdesk-target-provider.jpg.md)
+             ![BillDesk target Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/billdesk-target-provider.jpg.md)
          6. Click **Publish Rule**.
-             ![Publish Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/billdesk-publish-rule.jpg.md)
+             ![Publish Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/billdesk-publish-rule.jpg.md)
         
     
 

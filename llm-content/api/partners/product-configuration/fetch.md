@@ -8,7 +8,7 @@ description: Fetch a Product Configuration using Razorpay Partners APIs.
 
 ## Fetch a Product Configuration
 
-Use this endpoint to retrieve the details of a product for a given sub-merchant's account. Know about the [various error responses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md) for this API.
+Use this endpoint to retrieve the details of a product for a given sub-merchant's account. Know about the [various error responses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md) for this API.
 
 ### Request
 
@@ -381,7 +381,7 @@ Product product = client.Product.Fetch(accountId, productId)
     : `integer` The Unix timestamp at which the terms and conditions were accepted by the user for the requested product.
 
 `activation_status`
-: `string` The status of the [product activation](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/product-activation.md).
+: `string` The status of the [product activation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/product-activation.md).
   - `requested`
   - `needs_clarification`
   - `under_review`
@@ -420,7 +420,7 @@ Product product = client.Product.Fetch(accountId, productId)
                     - Corporate 
 
                 `bank`
-                : `array` The list of netbanking banks requested or enabled. Refer the [Appendix](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#netbanking-bank-codes.md) page for netbanking bank codes.
+                : `array` The list of netbanking banks requested or enabled. Refer the [Appendix](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#netbanking-bank-codes) page for netbanking bank codes.
 
         `wallet`
         : `object` The Wallet type payment method.

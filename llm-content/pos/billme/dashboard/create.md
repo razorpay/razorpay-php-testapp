@@ -17,14 +17,14 @@ You can create - Auto Engagement Journeys, Surveys and Coupons.
 ### Auto Engagement
 Automate personalised, multi-channel communication flows based on customer behaviour. These journeys are designed to boost loyalty, drive repeat purchases and enhance brand recall across SMS, Email, WhatsApp and more.
 
-![Auto Engagement Sample Journey](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/auto-eng-journey-overview.jpg.md)
+![Auto Engagement Sample Journey](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/auto-eng-journey-overview.jpg.md)
 
 ### Surveys
 Build and deploy tailored survey campaigns to collect valuable, actionable insights directly from your customers. Distribute these surveys across various channels, including digital bills, to understand preferences and satisfaction.
 
-![Auto Engagement Sample Survey](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/auto-eng-sample-survey.jpg.md)
+![Auto Engagement Sample Survey](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/auto-eng-sample-survey.jpg.md)
 
 ### Coupons
 Generate and manage custom discount codes or upload your existing coupons. Integrate these promotional offers into your campaigns to incentivise purchases and reward customer loyalty efficiently.
 
-![Auto Engagement Sample Coupon](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/auto-eng-sample-coupon.jpg.md)
+![Auto Engagement Sample Coupon](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/auto-eng-sample-coupon.jpg.md)

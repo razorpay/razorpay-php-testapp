@@ -15,14 +15,14 @@ Payroll seamlessly handles professional tax deductions for your employees based 
 > 
 > **Watch Out!**
 > 
-> Automated Professional Tax (PT) payments for employees in Karnataka are temporarily unavailable on Payroll. Know more about the [PT rule change](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/faqs/#professional-tax.md).
+> Automated Professional Tax (PT) payments for employees in Karnataka are temporarily unavailable on Payroll. Know more about the [PT rule change](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/faqs.md#professional-tax).
 > 
 >    You must make Professional Tax payments [via the e-Prerana portal](#pt-payments-via-pt-portal) for Karnataka employees after processing the monthly payroll.
 > 
 
 ## Set Up PT
 
-Payroll only handles Professional Tax (PT) payments and filings, not the initial registration. Know more about the people and resources available for [initial registration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance/#initial-registration.md).
+Payroll only handles Professional Tax (PT) payments and filings, not the initial registration. Know more about the people and resources available for [initial registration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md#initial-registration).
 
     
 ### Set up Professional Tax (PT) Payments and Filings
@@ -33,15 +33,15 @@ Payroll only handles Professional Tax (PT) payments and filings, not the initial
             1. Navigate to **ADMIN OPTIONS** → **Company Details**. Here:
                 1. Go to **Provident Fund / ESIC / Professional Tax / LWF** → **Edit**. 
                 1. Select **Enabled** from the **PT Status** drop-down menu and click **Continue**.
-                    ![PT Setup on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pt-setup.jpg.md)
+                    ![PT Setup on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pt-setup.jpg.md)
                 1. On the **Company Details** page, go to **External Credentials** → **Edit**.
                 1. Go to the **PT** section and update the credentials to the PT portal of your registered state.
             1. Go to **Settings** → **Payments & Compliance Setup** and enable PT Payments and Filings.
-                ![Payroll professional tax filings setup](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pt-setup-filings.jpg.md)
+                ![Payroll professional tax filings setup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pt-setup-filings.jpg.md)
         
 
 You have successfully set up PT for your organisation. 
-- Know more about [enabling compliances](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/quickstart#enable-compliances.md).
+- Know more about [enabling compliances](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/quickstart.md#enable-compliances).
 - If PT is disabled under **Company Details** → **Provident Fund** / **ESIC** / **Professional Tax**, it is not deducted for any employee.
 
 ## Manage PT
@@ -114,7 +114,7 @@ There are three steps to make PT payments:
          1. Click **Salary Register**.
          1. Use the **PT Location** filter to list the employees whose PT payments you must make. 
          1. Scroll horizontally against the employees' names to view the PT amounts.
-            ![Payroll Dashboard PT payments](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-professional-tax-update.jpg.md)
+            ![Payroll Dashboard PT payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-professional-tax-update.jpg.md)
          
             The amount mentioned in the **PT** column is the PT amount payable to the government. 
          1. Click **Download CSV**.
@@ -129,14 +129,14 @@ There are three steps to make PT payments:
          1. Log in to the Karnataka PT e-Prerana portal.
          1. Enter the OTP and authenticate your access to the portal. 
          1. Click **File Return**.
-                ![e-Prerana portal RazorpayX Payroll File Return](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pt-update-prerana-portal.jpg.md)
+                ![e-Prerana portal RazorpayX Payroll File Return](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pt-update-prerana-portal.jpg.md)
          1. Select the **Return Entry** details from the respective drop-down menus. This includes: 
             - **Return Period Type:** Annual/Monthly.
             - **Month:**
             - **Year:**
             - **Return Type:** Original/Revised
 
-                ![Payroll PT Return details enter](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pt-update-file-return-details.jpg.md)
+                ![Payroll PT Return details enter](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pt-update-file-return-details.jpg.md)
          1. Click **NEXT**.
          1. In the new table displayed on-screen, enter the number of employees with pending PT payments in the **No. of Employees** column. For example, `10`. 
          
@@ -154,7 +154,7 @@ There are three steps to make PT payments:
          After filing the PT e-Return, you must make the E-Payment.
 
          1. On the PT e-Prerana home page, click **Make E-Payment**. 
-             ![e-Prerana portal RazorpayX Payroll File Return](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pt-update-prerana-portal.jpg.md)
+             ![e-Prerana portal RazorpayX Payroll File Return](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pt-update-prerana-portal.jpg.md)
          1. On the **Make E-Payment** page, you can view the returns filed in step 2. Click **Pay**.
          1. Review the **PT-Demand Details** as populated from the returns you filed. Click **Make e-Payment**.
          1. This redirects you to the Khajane II portal. Here: 
@@ -173,7 +173,7 @@ There are three steps to make PT payments:
          After successfully making the E-Payments, you must submit the returns for which you made the PT payment. This is a mandatory reconciliation practice. 
 
          1. Click **Home** to go to the e-Prerana portal home page. Here, click **Submit Return**.
-             ![e-Prerana portal RazorpayX Payroll File Return](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pt-update-prerana-portal.jpg.md)
+             ![e-Prerana portal RazorpayX Payroll File Return](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pt-update-prerana-portal.jpg.md)
          1. Review the return details and click **Submit**. This opens the **Verify and Submit Return** page.
          1. Click **Add CTD reference number** to link the auto-generated CTD number with your submit return request. 
          
@@ -187,7 +187,7 @@ You have successfully made the PT payments. You can view the details on the home
 
 Click **Verify/Print** on the e-Prerana portal home page to download the Returns receipt. 
 
-![e-Prerana portal RazorpayX Payroll download Return](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pt-update-verify-print.jpg.md)
+![e-Prerana portal RazorpayX Payroll download Return](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pt-update-verify-print.jpg.md)
 
 ### Troubleshooting Steps 
 
@@ -199,7 +199,7 @@ When you submit Returns in step 4, you may not find the necessary details on the
             1. Navigate to e-Prerana portal home page and click **Verify failed payments**. 
             1. Copy the CTD Reference number. 
             1. Click **Verify** against the respective payments.
-            ![Click verify against respective payments PT portal](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pt-upadte-verify-failed-payments.jpg.md)
+            ![Click verify against respective payments PT portal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pt-upadte-verify-failed-payments.jpg.md)
 
             This can verify your payments post which, you can submit the returns.
         
@@ -212,7 +212,7 @@ When you submit Returns in step 4, you may not find the necessary details on the
             1. Go to the [E-Khajane II Portal](https://k2.karnataka.gov.in/K2/index_en.html).
             1. Click **Verify Challan Payment Status**.
 
-                ![Click Verify Challan Payment Status on Khajane portal Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-pt-update-khajane-.jpg.md)
+                ![Click Verify Challan Payment Status on Khajane portal Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-pt-update-khajane-.jpg.md)
             1. Enter the CTD number you previously copied and the captcha on-screen.
             1. Ensure the transaction status is successful.
 
@@ -221,7 +221,7 @@ When you submit Returns in step 4, you may not find the necessary details on the
 
 ### Related Information 
 
-- [TDS](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tds.md)
-- [Statutory Compliance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md)
-- [Provident Fund](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/provident-fund.md)
-- [Enable Compliance during Account Setup](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator#welcome-mail-from-xpayroll.md)
+- [TDS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tds.md)
+- [Statutory Compliance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md)
+- [Provident Fund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/provident-fund.md)
+- [Enable Compliance during Account Setup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#welcome-mail-from-xpayroll)

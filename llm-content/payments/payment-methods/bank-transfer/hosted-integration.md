@@ -26,7 +26,7 @@ These virtual bank accounts are linked to the bank account you have registered w
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -42,7 +42,7 @@ This creates a new virtual bank account every time a customer selects bank trans
 
 ### Integration
 
-The bank transfer payment method will appear for the [payment gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/hosted.md) and products such as Payment Links, Payment Pages and Subscriptions.
+The bank transfer payment method will appear for the [payment gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/hosted.md) and products such as Payment Links, Payment Pages and Subscriptions.
 
 | Approval | Integration
 ---
@@ -92,7 +92,7 @@ Update your integration with the `method` and `order` parameters as shown below.
 
 ### Step 3: Subscribe to Webhook Event
 
-You must subscribe to the `virtual_account.credited` webhook event on the Dashboard to receive notifications whenever customers make payments using bank transfers. Know how to [set up webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/#set-up-webhooks.md).
+You must subscribe to the `virtual_account.credited` webhook event on the Dashboard to receive notifications whenever customers make payments using bank transfers. Know how to [set up webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md#set-up-webhooks).
 
 #### Sample Payload
 
@@ -196,7 +196,7 @@ This ensures that each customer will be allocated a unique virtual bank account,
 
 ### Integration
 
-The bank transfer payment method will appear for the [payment gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/hosted.md) and products such as Payment Links, Invoices and Subscriptions.
+The bank transfer payment method will appear for the [payment gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/hosted.md) and products such as Payment Links, Invoices and Subscriptions.
 
 | Approval | Integration
 ---
@@ -268,11 +268,11 @@ You must pass the `customer_id` and `order_id` generated in the previous steps t
 `order_id` _mandatory_
 : `string` Unique identifier of the order. [Generated in Step 2](#step-2-create-an-order).
 
-**Read More**: [List of parameters for Hosted Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/hosted/integration-steps/#1-build-integration.md).
+**Read More**: [List of parameters for Hosted Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/hosted/integration-steps.md#1-build-integration).
 
 #### Subscribe to Webhook Event
 
-You must subscribe to the `virtual_account.credited` webhook event on the Dashboard to receive notifications whenever customers make payments using bank transfers. Know how to [set up webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/#set-up-webhooks.md).
+You must subscribe to the `virtual_account.credited` webhook event on the Dashboard to receive notifications whenever customers make payments using bank transfers. Know how to [set up webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md#set-up-webhooks).
 
 #### Sample Payload
 

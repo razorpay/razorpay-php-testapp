@@ -26,8 +26,8 @@ Use this endpoint to create a fund account with bank account details.- A new fun
 The contact id provided does not exist.
 * code: 4xx
 * description: The contact ID provided is incorrect.
-* solution: Enter the correct Contact ID. Check if this contact already exists in your RazorpayX account using [Fetch Contact id API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/fetch-with-id.md) or use the [search option](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/global-search.md) on the Dashboard. Or find the Contact ID: - In the response body of [create a Contact](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/create.md) API.
-- On the [Contacts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts.md) Dashboard.
+* solution: Enter the correct Contact ID. Check if this contact already exists in your RazorpayX account using [Fetch Contact id API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts/fetch-with-id.md) or use the [search option](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/global-search.md) on the Dashboard. Or find the Contact ID: - In the response body of [create a Contact](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts/create.md) API.
+- On the [Contacts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md) Dashboard.
 
 The IFSC must be 11 characters.
 * code: 4xx

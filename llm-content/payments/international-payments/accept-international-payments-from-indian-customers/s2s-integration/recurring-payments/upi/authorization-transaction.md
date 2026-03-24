@@ -424,7 +424,7 @@ For example, **Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Geck
   
 ### Response Parameters
 
-If the payment request is valid, the response contains the following fields. Refer to the [UPI Intent Flow document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/intent/#step-2-initiate-a-payment.md) for more details.
+If the payment request is valid, the response contains the following fields. Refer to the [UPI Intent Flow document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/intent.md#step-2-initiate-a-payment) for more details.
 
 `razorpay_payment_id`
 : `string` Unique reference for the payment created. For example, `pay_EAm09NKReXi2e0`.

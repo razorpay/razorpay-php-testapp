@@ -17,7 +17,7 @@ With a Corporate Card, you get the benefit of short-term funds. You can also:
 - Enforce spending controls for teams and members.
 - Avail lucrative rewards on spending. 
 
-Know more about the [features of RazorpayX Corporate Card](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md). 
+Know more about the [features of RazorpayX Corporate Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md). 
 
 Following are some industry-wise examples of how you can use the RazorpayX Corporate Card:
 
@@ -87,4 +87,4 @@ Following are some industry-wise examples of how you can use the RazorpayX Corpo
 
 ### Related Information 
 
-- [About Corporate Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md)
+- [About Corporate Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md)

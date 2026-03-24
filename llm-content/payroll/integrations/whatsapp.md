@@ -15,17 +15,17 @@ Click **CONNECT WHATSAPP** on the Dashboard banner or from the **My Payslips** a
     
         The prompt to connect Payroll with WhatsApp is available on your Payroll Dashboard. 
 
-        ![Connect WhatsApp with Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-whatsapp-1.jpg.md)
+        ![Connect WhatsApp with Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-whatsapp-1.jpg.md)
     
     
         Go to **My Pay Slips** to explore the integration.
 
-        ![Connect WhatsApp with Payslips](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-whatsapp-2.jpg.md)
+        ![Connect WhatsApp with Payslips](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-whatsapp-2.jpg.md)
     
     
         You can connect WhatsApp with Payroll from the **Reimbursements** tab as well.
 
-        ![Connect WhatsApp with reimbursements](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-whatsapp-3.jpg.md)
+        ![Connect WhatsApp with reimbursements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-whatsapp-3.jpg.md)
     
 
 ## Method 2
@@ -34,18 +34,18 @@ If the dashboard banner is not available, follow the steps given below to integr
 
 1. Navigate to **My Profile**.
 
-    ![Payroll- My Profile](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-whatsapp-4.jpg.md)
+    ![Payroll- My Profile](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-whatsapp-4.jpg.md)
 
 2. Click **Edit** next to Other Information.
 
-    ![Payroll- My Profile- Edit](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-whatsapp-5.jpg.md)
+    ![Payroll- My Profile- Edit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-whatsapp-5.jpg.md)
 
 3. Select the checkbox under Connect to WhatsApp.
 
-    ![Connect WhatsApp with Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-whatsapp-6.jpg.md)
+    ![Connect WhatsApp with Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-whatsapp-6.jpg.md)
 
 To disconnect WhatsApp, deselect the same checkbox under **Connect to WhatsApp**.
 
 ### Related Information
 
-- [Integrations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations.md)
+- [Integrations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations.md)

@@ -27,13 +27,13 @@ If you are a registered Razorpay user and need help, connect with [Razorpay Supp
 
          1. Log in to the Dashboard.
          2. Click **Help** for **Quick actions** or to **Get in touch**.
-             ![Raise a Ticket - Help and Support pop-up - Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-support.jpg.md)
+             ![Raise a Ticket - Help and Support pop-up - Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-support.jpg.md)
 
          3. You have the following options in the **Get in touch** section:
              - [Create support ticket](#create-support-ticket): Check existing queries or raise a new support ticket 
              - [Contact Us](#contact-us): Start a live chat with us or request a callback for quicker resolution (selected users only)
     
-         ![Raise a Ticket - Help and Support pop-up - Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-support-options-new.jpg.md)
+         ![Raise a Ticket - Help and Support pop-up - Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-support-options-new.jpg.md)
 
           You can also scroll further down and click **Documentation** to know about the various Razorpay offerings, integrations and APIs.
         
@@ -57,7 +57,7 @@ You can check existing queries or raise a new support ticket through the Dashboa
 
 ### Track Status of Existing Tickets
 
-Know how to [track your support tickets](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/support-tickets.md) on the Dashboard.
+Know how to [track your support tickets](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/support-tickets.md) on the Dashboard.
 
 > **INFO**
 >
@@ -72,7 +72,7 @@ Know how to [track your support tickets](@/Applications/MAMP/htdocs/new-docs/llm
 
 This feature is available for selected users only. If it is visible for your account, you can chat with a member of the Support Team between 10 a.m. and 10 p.m. on all working days for instant communication.
 
-![Contact Razorpay Support](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-support-contact-us.jpg.md)
+![Contact Razorpay Support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-support-contact-us.jpg.md)
 
     
 ### To start a live chat with us:
@@ -91,7 +91,7 @@ This feature is available for selected users only. If it is visible for your acc
 > 
 > **Customer Looking for Refunds**
 > 
-> If you are a customer who has used one of the Razorpay products to make payments and looking for a refund, read about [Customer Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers/customer-refunds.md).
+> If you are a customer who has used one of the Razorpay products to make payments and looking for a refund, read about [Customer Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers/customer-refunds.md).
 > 
 
 ## Escalate a Support Ticket
@@ -102,10 +102,10 @@ The **Escalate Now** button appears on your support ticket within the Dashboard 
 
 To escalate a support ticket:
 
-1. Locate the **Escalate Now** button on the Dashboard. ![Dashboard - Escalate Ticket](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/escalation-tool-escalate-now.jpg.md)
+1. Locate the **Escalate Now** button on the Dashboard. ![Dashboard - Escalate Ticket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/escalation-tool-escalate-now.jpg.md)
 
-    - You can find this button in the help chat as shown below: ![Dashboard - Escalate Ticket on Help Chat](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/escalation-tool-help-chat.jpg.md)
+    - You can find this button in the help chat as shown below: ![Dashboard - Escalate Ticket on Help Chat](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/escalation-tool-help-chat.jpg.md)
         
-    - This button will also show up on the **Account & Settings > Support Tickets** page: ![Dashboard - Escalate Now on Support Tickets](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/escalation-tool-support-tickets.jpg.md)
+    - This button will also show up on the **Account & Settings > Support Tickets** page: ![Dashboard - Escalate Now on Support Tickets](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/escalation-tool-support-tickets.jpg.md)
 
-2. Click **Escalate Now**. The ticket is now escalated and is moved to a priority resolution queue. ![Dashboard - Escalated Ticket](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/escalation-tool-escalated-ticket.jpg.md)
+2. Click **Escalate Now**. The ticket is now escalated and is moved to a priority resolution queue. ![Dashboard - Escalated Ticket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/escalation-tool-escalated-ticket.jpg.md)

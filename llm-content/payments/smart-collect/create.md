@@ -26,20 +26,20 @@ You can create a Customer Identifier from the Dashboard:
 2. Click **+ Create Customer Identifier**.
 3. Select the type of receiver in **Methods to accept payments in this customer identifier**. Only Bank Transfer (NEFT, RTGS, IMPS) is live, and enabled by default.
     
-    ![Create Customer Identifier](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/create-ci-smart-collect.jpg.md) 
+    ![Create Customer Identifier](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/create-ci-smart-collect.jpg.md) 
 4. Select **Customer** from the drop-down list. You can also create a new customer instantly. You may skip this step and proceed with creation, if you do not wish to tag it to a specific customer. However, you cannot modify the Customer Identifier and tag it to the customer later.
 5. Click **View Advance Options**.
 6. Add an **Account Description** for your internal reference.
 7. You can set a closure date for the Customer Identifier using the **Close By** option. Click **Disable Auto Close** option and select the date and time at which the account must be automatically closed. Ensure that the time specified is at least 15 minutes after the creation time.
-    ![Set a Close-by date for your Virtual Account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/smart-collect-close-by-date.jpg.md)
+    ![Set a Close-by date for your Virtual Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/smart-collect-close-by-date.jpg.md)
 8. Click **Add Internal Note** to enter any notes for internal reference.
 9. Click **Create Customer Identifier**.
 
-![Customer Identifier Created](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/smart-collect-va_list.jpg.md)
+![Customer Identifier Created](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/smart-collect-va_list.jpg.md)
 
 After the Customer Identifier is created, copy the details and share them with your customer. The Customer Identifier appears in the list as shown below:
 
-![Created CI list](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/smart-collect-va-created-list.jpg.md)
+![Created CI list](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/smart-collect-va-created-list.jpg.md)
 
 > **WARN**
 >
@@ -65,21 +65,21 @@ To view payments made to Customer Identifiers:
         2. Click **View Advance Options**.
         3. Complete these steps to add account details for the **Third Party Validation**:
 
-            1. Select the **Bank Transfers (NEFT, RTGS, IMPS)** checkbox to create Customer Identifier details with TPV for bank transfers. Know more about [Third Party Validation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/third-party-validation.md).
+            1. Select the **Bank Transfers (NEFT, RTGS, IMPS)** checkbox to create Customer Identifier details with TPV for bank transfers. Know more about [Third Party Validation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/third-party-validation.md).
             2. Click **Configure** to add details of **Authorised Accounts**.
-                ![Smart Collect TPV](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/smart-collect-tpv.jpg.md)
+                ![Smart Collect TPV](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/smart-collect-tpv.jpg.md)
             3. Enter **IFSC Code** and **Account Number**.
-                ![TPV - Add Bank Account no and IFSC](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/smart-collect-authorised_accounts.jpg.md)
+                ![TPV - Add Bank Account no and IFSC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/smart-collect-authorised_accounts.jpg.md)
             4. Click **+ Add Another Account** to add accounts. You can add up to 10 **Authorised Accounts**.
             5. Click **Save**.
 
 Complete the other steps mentioned on screen and click **Create Customer Identifier**. After a Identifier is created, copy the details and share them with your customer.
 
-![Customer Identifier Created](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/smart-collect-va_list.jpg.md)
+![Customer Identifier Created](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/smart-collect-va_list.jpg.md)
 
 The Customer Identifier appears in the list as shown below:
 
-![Created CI list](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/smart-collect-va-created-list.jpg.md)
+![Created CI list](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/smart-collect-va-created-list.jpg.md)
 
 > **INFO**
 >
@@ -100,11 +100,11 @@ You can create Customer Identifiers via the Dashboard or using the APIs:
                 
                     1. Log in to the [ Dashboard](https://dashboard.razorpay.com/#/access/signin).
                     1. Navigate to **Smart Collect** in the left menu → click **+ Create Customer Identifier**.
-                        ![ Dashboard create SC 2.0 Customer Identifier](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-sc2-create-ci.jpg.md)
+                        ![ Dashboard create SC 2.0 Customer Identifier](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-sc2-create-ci.jpg.md)
                     1. Select the type of receiver in **Methods to accept payments in this customer identifier**. Both **Bank Transfers (NEFT, RTGS, IMPS)** and **UPI Transfer** are enabled by default. You can choose to disable either as needed.
                         - Enable **Bank Transfer (NEFT, RTGS, IMPS)** to create a Customer Identifier.
                         - Enable **UPI Transfer** to create a virtual UPI ID.
-                        ![Create Customer Identifier](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/smart-collect-create_ci.jpg.md)
+                        ![Create Customer Identifier](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/smart-collect-create_ci.jpg.md)
                     1. Select **Customer** from the drop-down list. You can also create a new customer instantly. This is an optional step. Select the **Add Billing Address** check box if necessary.
                     
                         
@@ -125,21 +125,21 @@ You can create Customer Identifiers via the Dashboard or using the APIs:
                             - Clear the **Disable Auto Close** option to close the Customer Identifier on a certain future date.  
                             - Select **Disable Auto Close** option and choose the date and time when the Identifier must automatically close. Ensure that the time specified is at least 15 minutes after the creation time.
                                         
-                            ![Set a Close-by date for your Virtual Account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/smart-collect-close-by-date.jpg.md)
+                            ![Set a Close-by date for your Virtual Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/smart-collect-close-by-date.jpg.md)
                         - Click **Add Internal Note** to enter any notes for internal reference.
                                 
                     1. Click **Create Customer Identifier**.
 
                     This successfully creates a Customer Identifier. Click **Copy Customer Identifier Details** and share it with your merchants/customers.
 
-                    ![Smart Collect 2 Customer Identifier success](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-sc2-ci-create-success.jpg.md)
+                    ![Smart Collect 2 Customer Identifier success](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-sc2-ci-create-success.jpg.md)
                 
                 
                     Use any of the following APIs to create Customer Identifiers as necessary: 
 
-                        - [Create Customer Identifier With Bank Account Receiver](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect/create-cust-id-bank-account.md)
-                        - [Create a Customer Identifier With VPA Receiver](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect-2/create-cust-id-vpa.md)
-                        - [Create a Customer Identifier With VPA and Bank Account Receivers](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect-2/create-cust-id-bank-account-vpa.md)
+                        - [Create Customer Identifier With Bank Account Receiver](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect/create-cust-id-bank-account.md)
+                        - [Create a Customer Identifier With VPA Receiver](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect-2/create-cust-id-vpa.md)
+                        - [Create a Customer Identifier With VPA and Bank Account Receivers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect-2/create-cust-id-bank-account-vpa.md)
                 
             
             
@@ -149,27 +149,27 @@ You can create Customer Identifiers via the Dashboard or using the APIs:
 
             
                                         
-                    1. Follow the steps to [create Smart Collect 2.0 Customer Identifiers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/create/#to-create-smart-collect-20-customer-identifiers.md).
+                    1. Follow the steps to [create Smart Collect 2.0 Customer Identifiers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/create.md#to-create-smart-collect-20-customer-identifiers).
                     1. Click **View Advance Options**. 
                     1. Click **Configure** for **Third Party Validation**. 
                     1. In the **Authorised Accounts** pop-up modal, **IFSC Code** and **Account Number**. You can add up to 10 accounts. 
 
                         For RBL banks, ensure the fifth character in the IFSC is number `0` and not the letter O.
                     1. Click **Save**. 
-                        ![SC 2.0 Customer Identifier with TPV](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-sc2-ci-tpv.jpg.md)
+                        ![SC 2.0 Customer Identifier with TPV](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-sc2-ci-tpv.jpg.md)
                     1. Add other Advance Options as necessary.
                     1. Click **Create Customer Identifier**.
 
-                    This successfully creates a [Customer Identifiers with TPV](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/create-tpv.md).
+                    This successfully creates a [Customer Identifiers with TPV](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/create-tpv.md).
 
                 
                 
                     Use any of the following APIs to create Customer Identifiers as necessary:
 
-                    - [Create Customer Identifier](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect-tpv/create.md)
-                    - [Add an Allowed Payer Account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect-tpv/add-allowed-payer.md)
-                    - [Add VPA Receiver to an Existing Customer Identifier](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect-2/add-receiver-vpa.md)
-                    - [Add Bank Account Receiver to an Existing Customer Identifier](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect-2/add-receiver-bank-transfer.md)
+                    - [Create Customer Identifier](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect-tpv/create.md)
+                    - [Add an Allowed Payer Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect-tpv/add-allowed-payer.md)
+                    - [Add VPA Receiver to an Existing Customer Identifier](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect-2/add-receiver-vpa.md)
+                    - [Add Bank Account Receiver to an Existing Customer Identifier](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect-2/add-receiver-bank-transfer.md)
                 
             
             
@@ -181,15 +181,15 @@ You can create Customer Identifiers via the Dashboard or using the APIs:
 > 
 > **Handy Tips**
 > 
-> - After you create a Customer Identifier, it moves to `active` status. Know more about the [states of Customer Identifiers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/states.md).
-> - You can disable/[close a Customer Identifier using APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect/close.md) if you no longer need it to accept payments. 
+> - After you create a Customer Identifier, it moves to `active` status. Know more about the [states of Customer Identifiers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/states.md).
+> - You can disable/[close a Customer Identifier using APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect/close.md) if you no longer need it to accept payments. 
 > - You can create as many Customer Identifiers as required for your business. Share the Customer Identifiers with your beneficiaries to receive payments.
 > 
 
  
 
 ### Related Information
-- [Close Customer Identifiers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/close.md)
-- [Refund Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/refund.md)
-- [Make Test Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/test-payments.md)
-- [Search for a Customer Identifier](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/search.md)
+- [Close Customer Identifiers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/close.md)
+- [Refund Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/refund.md)
+- [Make Test Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/test-payments.md)
+- [Search for a Customer Identifier](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/search.md)

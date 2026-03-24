@@ -6,15 +6,15 @@ description: Create, edit, and fetch Customer details using Razorpay APIs.
 
 # Customers
 
-Add or create [Customers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers.md) with basic details such as name, email and contact details. You can then offer various Razorpay solutions to your customers. Edit customer details as needed. You can create and manage customers using APIs or from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers.md).
+Add or create [Customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md) with basic details such as name, email and contact details. You can then offer various Razorpay solutions to your customers. Edit customer details as needed. You can create and manage customers using APIs or from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md).
 
-Fork the Razorpay Postman Public Workspace and try the Customers APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+Fork the Razorpay Postman Public Workspace and try the Customers APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-d53fbf12-1684-44ab-9c20-47d7b3d1f2ae)
 
 ### Related Guides
 
-[About Customers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers.md)
+[About Customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md)
 
 ### Endpoints
 

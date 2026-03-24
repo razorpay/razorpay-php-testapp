@@ -22,7 +22,7 @@ Every organisation uses an attendance cycle to record the employees' attendance 
             Using an attendance cycle, organisations calculate the payroll for that employee in a specific month. 
         
 
-You can use an attendance cycle to freeze the employees' attendance for that month and finalise the payroll before [execution](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#execute-payroll.md).
+You can use an attendance cycle to freeze the employees' attendance for that month and finalise the payroll before [execution](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#execute-payroll).
 
 ### How it Works 
 
@@ -51,13 +51,13 @@ On the **Payroll Setup** page, you can modify the following settings:
 
 To allow RazorpayX Payroll to execute your monthly payroll: 
 1. Toggle the setting against **Let RazorpayX Payroll do the payments**. 
-    ![Payroll set up payroll and attendance cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-custom-cycle-let-payments.jpg.md)
+    ![Payroll set up payroll and attendance cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-custom-cycle-let-payments.jpg.md)
 1. Navigate to **Payroll Date** section and select the payroll execution date from the drop-down menu. 
-    ![Payroll enable payroll autopilot](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-custom-cycle-effective-date.jpg.md)
+    ![Payroll enable payroll autopilot](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-custom-cycle-effective-date.jpg.md)
 
 This enables RazorpayX Payroll to pay salaries when you request execution on the **Run Payroll** page. If you deselect this setting, you must manually pay salaries to your employees. [Payroll autopilot](#set-up-payroll-autopilot) is also not available. 
 
-Know more about [payroll execution](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/execute-payroll.md). 
+Know more about [payroll execution](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/execute-payroll.md). 
 
 ### 2. Modify Payroll/Attendance Cycle
 
@@ -67,7 +67,7 @@ To set up or modify the payroll/attendance cycle:
 
     To change the cycle, click on **+ Create custom cycle** tab and select the start date. We automatically add the end date with a 30-day gap.
 
-    ![Payroll set up custom payroll and attendance cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-custom-cycle-setup.jpg.md)
+    ![Payroll set up custom payroll and attendance cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-custom-cycle-setup.jpg.md)
 
 1. Toggle against the **Attendance Cycle** to follow the selected payroll cycle duration. Or you can set up a custom cycle.
 
@@ -83,11 +83,11 @@ To set up or modify the payroll/attendance cycle:
 >     
 
 1. [Choose the **Payroll Date**](#automate-payroll-payments) from the drop-down menu, if not already done.
-1. Select the **New cycle effective month** from the drop-down menu. You can only select an [unfinalised payroll month](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#execute-payroll.md) for the updated payroll and attendance cycle to take effect.
+1. Select the **New cycle effective month** from the drop-down menu. You can only select an [unfinalised payroll month](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#execute-payroll) for the updated payroll and attendance cycle to take effect.
 
     The Payroll Setup section on the **Payroll Settings** page shows the old cycle until the effective month.
 
-    ![Payroll Setup Summary on RazorpayX Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-custom-cycle-sum.jpg.md)
+    ![Payroll Setup Summary on RazorpayX Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-custom-cycle-sum.jpg.md)
 
 You have successfully set up/modified the payroll or attendance cycle. 
 
@@ -95,9 +95,9 @@ You have successfully set up/modified the payroll or attendance cycle.
 
 You can allow Payroll to automatically make payments on the selected payroll date. On the **Payroll Setup** page: 
 1. Toggle the setting against **Payroll Autopilot**. This means that the Payroll automatically makes payroll payouts on the **Payroll Date**. 
-    When disabled, you must manually [request execution](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/execute-payroll.md).
+    When disabled, you must manually [request execution](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/execute-payroll.md).
 
-    ![Payroll enable payroll autopilot](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-custom-cycle-autopilot.jpg.md)
+    ![Payroll enable payroll autopilot](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-custom-cycle-autopilot.jpg.md)
 1. Click **Save Changes**.
 
 You have successfully changed the payroll and/or attendance cycle. 
@@ -113,5 +113,5 @@ This cancels the future effective cycle.
 
 ### Related Information 
 
-- [About Account Setup](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/quickstart.md)
-- [About Execute Payroll Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/execute-payroll.md)
+- [About Account Setup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/quickstart.md)
+- [About Execute Payroll Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/execute-payroll.md)

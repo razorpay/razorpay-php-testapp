@@ -20,11 +20,11 @@ Magic Checkout on mobile offers different experiences based on customer login st
             
                 QuickBuy is a one-click payment solution that streamlines checkout for returning customers. With a compact half-page interface, it intelligently displays preferred payment methods based on past transactions and automatically applies the best available offers, reducing friction and decision-making.
 
-                This results in a faster, more efficient checkout experience that boosts conversion rates and enhances satisfaction for both customers and businesses. Know more about [Quickbuy](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/features/quickbuy.md).
+                This results in a faster, more efficient checkout experience that boosts conversion rates and enhances satisfaction for both customers and businesses. Know more about [Quickbuy](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/features/quickbuy.md).
 
                 QuickBuy is ideal for returning customers who are logged into Razorpay Checkout and making repeat purchases. 
 
-                ![QuickBuy on Magic Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/quickbuy-magic.jpg.md)
+                ![QuickBuy on Magic Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/quickbuy-magic.jpg.md)
 
                 The workflow includes:
 
@@ -45,7 +45,7 @@ Magic Checkout on mobile offers different experiences based on customer login st
 
                 Customers select the products on your website or app and proceed to Checkout.
                 
-                ![Magic Checkout Flow on Mobile: Logged in customers](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-flow-mobile-logged-in.gif.md)
+                ![Magic Checkout Flow on Mobile: Logged in customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-flow-mobile-logged-in.gif.md)
 
                 On the Checkout page, logged-in customers:
 
@@ -64,7 +64,7 @@ Magic Checkout on mobile offers different experiences based on customer login st
 
          Customers select the products on your website or app and proceed to Checkout.
                 
-         ![Magic Checkout Flow on Mobile: Logged out customers](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-flow-logged-out.gif.md)
+         ![Magic Checkout Flow on Mobile: Logged out customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-flow-logged-out.gif.md)
 
          On the Checkout page, logged-out customers:
 
@@ -83,7 +83,7 @@ Magic Checkout on mobile offers different experiences based on customer login st
 
          Customers select the products on your website or app and proceed to Checkout.
 
-         ![Magic Checkout Flow on Mobile: New customers](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-flow-mobile-new-user.gif.md)
+         ![Magic Checkout Flow on Mobile: New customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-flow-mobile-new-user.gif.md)
 
          On the Checkout page, new customers:
          1. Enter their mobile number. 
@@ -105,7 +105,7 @@ Magic Checkout on desktop provides a checkout interface optimised for larger scr
 
          Customers select the products on your website or app and proceed to Checkout.
 
-         ![Magic Checkout Flow on Desktop: Logged in customers](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-flow-desktop.gif.md)
+         ![Magic Checkout Flow on Desktop: Logged in customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-flow-desktop.gif.md)
 
          On the Checkout page, logged-in customers:
          1. Verify the order in the **Order Summary** tab on the left.
@@ -121,7 +121,7 @@ Magic Checkout on desktop provides a checkout interface optimised for larger scr
 
          Customers select the products on your website or app and proceed to Checkout.
 
-         ![Magic Checkout Flow on Desktop: Logged out customers](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-flow-desktop-logged-out.gif.md)
+         ![Magic Checkout Flow on Desktop: Logged out customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-flow-desktop-logged-out.gif.md)
 
          On the Checkout page, logged-out customers:
          1. Enter their mobile number and click **Continue**.
@@ -139,7 +139,7 @@ Magic Checkout on desktop provides a checkout interface optimised for larger scr
 
          Customers select the products on your website or app and proceed to Checkout.
 
-         ![Magic Checkout Flow on Desktop: New customers](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-flow-desktop-new-user.gif.md)
+         ![Magic Checkout Flow on Desktop: New customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-flow-desktop-new-user.gif.md)
 
          On the Checkout page, new customers:
          1. Enter their mobile number and click **Continue**.

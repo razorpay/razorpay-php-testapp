@@ -22,7 +22,7 @@ The user profile provides a detailed view of your employment, attendance payment
 > 
 > **Available Now!**
 > 
-> Watch the video on to how to [set up employee profile](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/video-tutorials/#set-up-my-profile.md).
+> Watch the video on to how to [set up employee profile](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/video-tutorials.md#set-up-my-profile).
 > 
 
 To set up your user profile:
@@ -30,7 +30,7 @@ To set up your user profile:
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard).
 1. Go to the user profile icon at the top-right corner of the page and click **My profile**. This opens your user profile. 
     
-    ![Navigating to setting up profile on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-employee-get-started1.jpg.md)
+    ![Navigating to setting up profile on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-employee-get-started1.jpg.md)
 
 You can view and edit your personal, payment and employment details in **User Profile** such as the following:
 
@@ -50,7 +50,7 @@ You can view and edit your personal, payment and employment details in **User Pr
 
          Click **EDIT** and change your name as necessary. Click **CONTINUE** to save your changes.
 
-         ![RazorpayX Payroll view basic information](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-user-profile.jpg.md)
+         ![RazorpayX Payroll view basic information](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-user-profile.jpg.md)
         
 
     
@@ -227,11 +227,11 @@ As directed by your HR/Manager, you can upload the relevant documents on the Pay
 1. Select the relevant documents to upload. Refresh the page to cancel the upload.
 1. Click **UPLOAD DOCUMENT(S)**.
 
-    ![Click Documents on Razorpay Payroll Dashboard and Upload](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-upload-documents.jpg.md)
+    ![Click Documents on Razorpay Payroll Dashboard and Upload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-upload-documents.jpg.md)
 
 You have successfully uploaded your documents to Payroll.
 
 ### Related Information 
 
-- [IT Declarations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations.md)
-- [Employee Onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/#onboarding.md)
+- [IT Declarations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations.md)
+- [Employee Onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md#onboarding)

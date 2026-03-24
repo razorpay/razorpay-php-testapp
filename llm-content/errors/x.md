@@ -10,9 +10,9 @@ RazorpayX aims to make all transactions successful for its customers. Even then,
 In RazorpayX, you can identify error codes at the `source` of the response, along with the `reason` for such errors. This will help in minimising the errors reducing the losses.
 
 - [API Error Codes](#api-error-codes)*: These are returned to you when the API does not fire as expected.
-- [**Contact Error Codes**](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/contacts.md): These are returned when an error occurs during contact creation.
-- [**Fund Account Error Codes**](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/fund-account.md): These are returned when Fund Account creation fails.
-- [**Payout Status Details**](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md): These provide the reason for a payouts' state and the next steps to be taken. These are returned in the API response and webhook payloads and are available on the Dashboard.
+- [**Contact Error Codes**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/contacts.md): These are returned when an error occurs during contact creation.
+- [**Fund Account Error Codes**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/fund-account.md): These are returned when Fund Account creation fails.
+- [**Payout Status Details**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md): These provide the reason for a payouts' state and the next steps to be taken. These are returned in the API response and webhook payloads and are available on the Dashboard.
 
   
 ### Advantages of Error Codes
@@ -119,13 +119,13 @@ The below tables lists the API error reasons and the steps to fix them.
 
 Error Description | Next Steps
 ---
-The requested URL was not found on the server. | Occurs when wrong URL or HTTPS method is passed. Enter the correct URL as per the respective API request. Know more about [API gateway URLs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x#api-gateway-url.md). If the issue persists, [contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md).
+The requested URL was not found on the server. | Occurs when wrong URL or HTTPS method is passed. Enter the correct URL as per the respective API request. Know more about [API gateway URLs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x.md#api-gateway-url). If the issue persists, [contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md).
 ---
-Transactions from this IP are not allowed. Contact support for help. | Occurs when the API call is sent from an IP whose server/node is not allowlisted. Always [allowlist IPs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/allowlist-ip.md).
+Transactions from this IP are not allowed. Contact support for help. | Occurs when the API call is sent from an IP whose server/node is not allowlisted. Always [allowlist IPs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/allowlist-ip.md).
 ---
-Different request body sent for the same Idempotency Header. | Occurs when the system receives a different payout request body for an existing idempotent header. Ensure that every payout body has a [unique idempotency header](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payout-idempotency/make-request.md).
+Different request body sent for the same Idempotency Header. | Occurs when the system receives a different payout request body for an existing idempotent header. Ensure that every payout body has a [unique idempotency header](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payout-idempotency/make-request.md).
 ---
-We are facing some trouble completing your request at the moment. Please try again shortly. | Occurs in exceptional cases when there is a server issue at Razorpay's end. Retry safely using an [idempotency request](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payout-idempotency/make-request.md) or [contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md).
+We are facing some trouble completing your request at the moment. Please try again shortly. | Occurs in exceptional cases when there is a server issue at Razorpay's end. Retry safely using an [idempotency request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payout-idempotency/make-request.md) or [contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md).
 ---
 
 ## HTTP Errors
@@ -177,11 +177,11 @@ Given below is a list of HTTP error codes, reasons and next steps to fix them.
 
 ### Handling 5XX Errors
 
-5xx errors occur when servers fail to connect causing network issues during an ongoing payout process. The [idempotency feature](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payout-idempotency/make-request.md) is specifically built to handle such network issues. In case of any network issue like timeouts/5xx, you can safely fire the same request again using the same idempotency key and the request body as the original timed out request within 7 calendar days. Razorpay will ensure that the request does not get processed again if it has already been processed on our end.
+5xx errors occur when servers fail to connect causing network issues during an ongoing payout process. The [idempotency feature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payout-idempotency/make-request.md) is specifically built to handle such network issues. In case of any network issue like timeouts/5xx, you can safely fire the same request again using the same idempotency key and the request body as the original timed out request within 7 calendar days. Razorpay will ensure that the request does not get processed again if it has already been processed on our end.
 
 ### Reducing 5XX Errors
 
-If the payout was created in the first request to the RazorpayX system using the same idempotency key, you get the created payout details along with the current [status](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle#payout-states.md) in the response to the new request.
+If the payout was created in the first request to the RazorpayX system using the same idempotency key, you get the created payout details along with the current [status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md#payout-states) in the response to the new request.
 
 > **WARN**
 >
@@ -191,7 +191,7 @@ If the payout was created in the first request to the RazorpayX system using the
 > The current status of the payout can be returned as `pending` `processing` or `failed`.
 > 
 
-- When retrying a request, the [request body](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payout-idempotency/make-request.md) must be the same as the first request for idempotency to work. A different payload will be rejected as a `BAD_REQUEST`.
+- When retrying a request, the [request body](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payout-idempotency/make-request.md) must be the same as the first request for idempotency to work. A different payload will be rejected as a `BAD_REQUEST`.
 - If the payout gets created in the new request, you will receive the payout details with the current status in response to the new request.
 - If the retry request times out, you can again retry using the same idempotency key. We recommend doing 3 retries at an interval of 1, 2 and 5 mins for each retry.
 
@@ -199,7 +199,7 @@ If the payout was created in the first request to the RazorpayX system using the
 
 If 5XX error is received on the request or retried request:
 
-1. Check the status of payout using `reference_id` (the same `reference_id` you passed as part of the request) after 5 minutes using [Fetch all payouts API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts/fetch-all.md) up to 1 hour from payout creation time, in case you do not receive webhook within 5 minutes.
+1. Check the status of payout using `reference_id` (the same `reference_id` you passed as part of the request) after 5 minutes using [Fetch all payouts API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts/fetch-all.md) up to 1 hour from payout creation time, in case you do not receive webhook within 5 minutes.
 2. If you do not receive any status for the payouts using Fetch Payout API for the reference ID provided after 1 hour, then `fail` the payout after 1 hour.
 
 > **INFO**
@@ -214,12 +214,12 @@ If 5XX error is received on the request or retried request:
 
 We recommend you to enable webhooks so that you are alerted of the status updates in any process. By enabling alerts for errors, you can reduce the delay in troubleshooting. 
 
-- You can [Set Up Payout Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payouts.md) to configure and receive instant notifications. 
-- They are sent whenever a specific [event](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) occurs. 
-- When the configured events are triggered, we send an HTTP POST [payload](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payouts.md) in JSON to the webhook's configured URL.
+- You can [Set Up Payout Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payouts.md) to configure and receive instant notifications. 
+- They are sent whenever a specific [event](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) occurs. 
+- When the configured events are triggered, we send an HTTP POST [payload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payouts.md) in JSON to the webhook's configured URL.
 
 ### Related Information
 
-- [Contact Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/contacts.md)
-- [Fund Account Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/fund-account.md)
-- [Payout Status Details](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md)
+- [Contact Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/contacts.md)
+- [Fund Account Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/fund-account.md)
+- [Payout Status Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md)

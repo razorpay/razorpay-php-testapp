@@ -55,7 +55,7 @@ Customers can click this button to:
 
 ## View Subscription Details
 
-You can [View Subscriptions and One-time Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/subscription-buttons/download-reports.md). To download reports, refer to the [Download Report](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/subscription-buttons/download-reports.md) section.
+You can [View Subscriptions and One-time Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/subscription-buttons/download-reports.md). To download reports, refer to the [Download Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/subscription-buttons/download-reports.md) section.
 
 ### Settlement
 
@@ -63,6 +63,6 @@ You will receive the payments in your bank account as per the settlement cycle a
 
 ### Related Information
 
-- [Manage Subscription Buttons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/subscription-buttons/manage.md)
-- [View Notifications using Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/subscription-buttons/subscribe-to-webhooks.md)
-- [Subscription Button FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/subscription-buttons/faqs.md)
+- [Manage Subscription Buttons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/subscription-buttons/manage.md)
+- [View Notifications using Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/subscription-buttons/subscribe-to-webhooks.md)
+- [Subscription Button FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/subscription-buttons/faqs.md)

@@ -67,17 +67,17 @@ Once the onboarding process with each network is complete, using **TokenHQ** API
 
 #### 17. We were relying on Razorpay APIs for card transactions and are worried that these flows will break. What changes must I expect?
 Several APIs are impacted due to the guidelines. Based on your integration with Razorpay, the following APIs are altered to return dummy values instead of sensitive card information.
-1. [Fetch All Saved Cards for A Customer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-1/#33-fetch-all-tokens-of-customer.md).
-2. [Fetch A Specific Saved Card for a Customer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-1/#34-fetch-card-properties-of-an-existing-token.md).
-3. [Fetch Card Properties of Individual Token](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-1/#34-fetch-card-properties-of-an-existing-token.md).
-4. [Fetch all tokens of a customer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-1/#33-fetch-all-tokens-of-customer.md).
-5. [Individual Token API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-1/#34-fetch-card-properties-of-an-existing-token.md).
-6. [Fetch expanded card details of a payment](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-1/#34-fetch-card-properties-of-an-existing-token.md).
-7. [Fetch card details of a payment](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-card-details-of-a-payment.md).
+1. [Fetch All Saved Cards for A Customer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-1.md#33-fetch-all-tokens-of-customer).
+2. [Fetch A Specific Saved Card for a Customer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-1.md#34-fetch-card-properties-of-an-existing-token).
+3. [Fetch Card Properties of Individual Token](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-1.md#34-fetch-card-properties-of-an-existing-token).
+4. [Fetch all tokens of a customer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-1.md#33-fetch-all-tokens-of-customer).
+5. [Individual Token API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-1.md#34-fetch-card-properties-of-an-existing-token).
+6. [Fetch expanded card details of a payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards/scenario-1.md#34-fetch-card-properties-of-an-existing-token).
+7. [Fetch card details of a payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-card-details-of-a-payment).
 
 #### 18. Why am I unable to do Instant Refunds for the majority of cards?
 - Since aggregators  like  ourselves  are  only  allowed  to  store  card data  up  to  a  maximum  of  T+4  days,  Instant Refunds  for  guest checkout transactions will be possible up to a maximum of 4 days from the date of transaction.
-- Instant  Refunds  for  payments  with  tokenized  cards  will  be possible  for  VISA  Debit  Cards  only. Refunds  for  all  other  card payments will be made via Razorpay’s [normal refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/normal.md).
+- Instant  Refunds  for  payments  with  tokenized  cards  will  be possible  for  VISA  Debit  Cards  only. Refunds  for  all  other  card payments will be made via Razorpay’s [normal refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/normal.md).
 
 #### 19. What would be the refund timeline post tokenisation? Normal refunds have no restrictions on the timeline.
 As per the RBI circular, Razorpay can have the card data upto T+4 or settlement date (whichever is earlier). By this logic, Instant Refunds will be possible up to a maximum of 4 days from the date of transaction.
@@ -85,10 +85,10 @@ For tokenised cards, Instant Refunds will be available only for VISA debit cards
 
 #### 20. In some cases, I am unable to access Instant Refunds after 4 days. Why?
 Since aggregators like ourselves are only allowed to store card data up to a maximum of T+4 days, Instant Refunds will be possible up to a maximum of 4 days from the date of transaction.
-You can still provide refunds to your customers using [normal refunds.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/normal.md)
+You can still provide refunds to your customers using [normal refunds.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/normal.md)
 
 #### 21. What changes must I expect in my reports?
-For all the [standard reports](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/reports.md) downloaded from the Dashboard, and the custom reports configured by your support POC, the changes will be as follows. These will be applicable for both older reports as well as newer reports getting generated.
+For all the [standard reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/reports.md) downloaded from the Dashboard, and the custom reports configured by your support POC, the changes will be as follows. These will be applicable for both older reports as well as newer reports getting generated.
 - Cardholder name will be returned as the blank string "".
 - Instead of the entire card number, only the last four digits will be shared.
 - For international cards, reports will continue to show the complete cardholder name and card number.

@@ -7,7 +7,7 @@ description: Refer other businesses to Razorpay by participating in our Referral
 
 The Razorpay Referral Program is a quick and easy way for you to become a Razorpay brand advocate. Join this program and invite businesses in your circle to use Razorpay products and earn up to ₹5,00,000 worth of amount credits! Refer to the [Program Rewards](#program-rewards) section for more information.
 
-![Razorpay Merchant Referral Program](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-merchant-referral-program.jpg.md)
+![Razorpay Merchant Referral Program](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-merchant-referral-program.jpg.md)
 
 ## Program Rewards
 
@@ -16,7 +16,7 @@ Given below are the program rewards for you (the brand advocate) and your friend
   
 ### For You
 
-      - You will get free amount credits of ₹1,00,000 for each of your referred businesses that signs up and becomes a successful referral. This means collections of up to ₹5,00,000 will be absolutely free. Know more about [credits](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/credits/#amount-credits.md).
+      - You will get free amount credits of ₹1,00,000 for each of your referred businesses that signs up and becomes a successful referral. This means collections of up to ₹5,00,000 will be absolutely free. Know more about [credits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/credits.md#amount-credits).
 
      - You can refer as many businesses as you want, but you will be rewarded ₹1,00,000 free credits each only for the first 5 successful referrals. 
 
@@ -57,23 +57,23 @@ You can participate in this program only if:
      To refer a business to Razorpay through the Dashboard:
      1. Log in to your Dashboard.
      2. In the **Home** page, click **Refer Now**.
-    ![Razorpay Merchant Referral Program](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-merchant-referral-program-refer-desktop.jpg.md)
+    ![Razorpay Merchant Referral Program](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-merchant-referral-program-refer-desktop.jpg.md)
      3. You can choose to:
          - Copy the referral link and share it with other businesses via a channel of your choice.
          - Enter your friend's email address and click **Send**.
          - Share as a social media post using your business handles.
 
-     ![Razorpay Merchant Referral Program](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-merchant-referral-program.jpg.md)
+     ![Razorpay Merchant Referral Program](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-merchant-referral-program.jpg.md)
 
      The following success message is displayed after the referred business signs up for a Razorpay account and completes transactions of minimum ₹2,000.
 
-     ![Razorpay Referral Program Desktop Success](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-referral-program-desktop-success.jpg.md)
+     ![Razorpay Referral Program Desktop Success](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-referral-program-desktop-success.jpg.md)
     
 
   
 ### Through Mobile App
 
-     Watch this video to know how to refer a business from the [Razorpay Mobile App](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app.md).
+     Watch this video to know how to refer a business from the [Razorpay Mobile App](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app.md).
 
      
 [Video content]
@@ -81,17 +81,17 @@ You can participate in this program only if:
      To refer a business to Razorpay via the Mobile App:
      1. Open the Razorpay Payments Mobile App and sign in.
      2. In the **Home** page, open the menu and tap **Refer and Earn**.
-         ![Razorpay Referral Program App](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-referral-program-app-menu.jpg.md)
+         ![Razorpay Referral Program App](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-referral-program-app-menu.jpg.md)
      3. Copy the referral link and tap **Refer Now** to share it with other businesses.
-     ![Razorpay Referral Program](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-referral-program-app-refer-now.jpg.md)
+     ![Razorpay Referral Program](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-referral-program-app-refer-now.jpg.md)
 
      You can share it via a channel of your choice.
 
-     ![Razorpay Referral Program Mobile App Share](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-referral-program-app-share.jpg.md)
+     ![Razorpay Referral Program Mobile App Share](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-referral-program-app-share.jpg.md)
 
      The following success message is displayed after the referred business signs up for a Razorpay account and completes transactions of minimum ₹2,000.
 
-     ![Razorpay Referral Program Mobile App Success](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-referral-program-app-success.jpg.md)
+     ![Razorpay Referral Program Mobile App Success](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-referral-program-app-success.jpg.md)
     
 
 ## FAQs

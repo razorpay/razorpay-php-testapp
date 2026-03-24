@@ -25,9 +25,9 @@ Follow these steps to create a Razorpay account:
 5. A verification code is sent to your **mobile number** or **email id**. Enter the code to verify the mobile number or email id.
 6. **Business Overview**: Enter your business details, billing label and provide your website/app URL. If you do not have one, select the relevant option. Tap **Save & Next**.
 7. **Business Details**: Enter details such as business PAN and name, authorised signatory's PAN and name and the business address. Tap **Save & Next**.
-8. **Contact Details**: Enter your name and contact details. Enable the **Get account updates on WhatsApp** option to receive WhatsApp notifications. You can [disable WhatsApp notifications](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/email-sms-whatsapp.md) from the Dashboard. Tap **Submit**.
-9.  Your account is activated. We create the Razorpay.me URL for you instantly after account activation. You can accept payments from your customers using [Razorpay.me URL](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app/accept-payments/razorpay-me.md). 
-    ![Account activated on the Razorpay payments mobile app](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-mobile-app-activate.jpg.md)
+8. **Contact Details**: Enter your name and contact details. Enable the **Get account updates on WhatsApp** option to receive WhatsApp notifications. You can [disable WhatsApp notifications](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/email-sms-whatsapp.md) from the Dashboard. Tap **Submit**.
+9.  Your account is activated. We create the Razorpay.me URL for you instantly after account activation. You can accept payments from your customers using [Razorpay.me URL](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app/accept-payments/razorpay-me.md). 
+    ![Account activated on the Razorpay payments mobile app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-mobile-app-activate.jpg.md)
 Live mode is enabled once you complete the activation process.
 
     
@@ -35,7 +35,7 @@ Live mode is enabled once you complete the activation process.
 
          Submit KYC details for a Razorpay account on the mobile app. Tap **Complete KYC** to initiate the account activation process. 
          
-         ![Complete KYC for Razorpay account on the payments mobile app](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-mobile-app-kyc.jpg.md)
+         ![Complete KYC for Razorpay account on the payments mobile app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-mobile-app-kyc.jpg.md)
          
 
          Enter the following details:    
@@ -55,7 +55,7 @@ Live mode is enabled once you complete the activation process.
                  5. Once the verification is complete, Razorpay automatically receives the Aadhar details.
              2. **All Other Registered Business Types** 
 
-                 [Upload documents as per your business type](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#2-submit-kyc-details.md). You can capture images using the app or upload existing files. Given below are upload guidelines:
+                 [Upload documents as per your business type](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#2-submit-kyc-details/). You can capture images using the app or upload existing files. Given below are upload guidelines:
                  - Supported file types: JPG, PNG or PDF files. 
                  - Supported file size: Maximum size supported is 2 MB. 
 
@@ -69,16 +69,16 @@ Live mode is enabled once you complete the activation process.
 
          #### Business Verification Process 
 
-         - [ Individuals](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/mobileapp-l1-unregistered.mp4.md)
-         - [Registered Business](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/L1-reg.mp4.md)
+         - [ Individuals](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/mobileapp-l1-unregistered.mp4.md)
+         - [Registered Business](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/L1-reg.mp4.md)
 
          #### Document Verification Process 
 
-         - [Individuals](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/mobileapp-l2-unregistered.mp4.md)
-         - [Public Ltd and Private Ltd](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/L2-reg.mp4.md)
-         - [Proprietorship](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/L2-prope.mp4.md)
-         - [Partnership](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/mobileapp-l2-partnerships.mp4.md)
-         - [NGOs, Trusts and Societies](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/mobileapp-l2-ngo-trust-society.mp4.md)
+         - [Individuals](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/mobileapp-l2-unregistered.mp4.md)
+         - [Public Ltd and Private Ltd](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/L2-reg.mp4.md)
+         - [Proprietorship](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/L2-prope.mp4.md)
+         - [Partnership](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/mobileapp-l2-partnerships.mp4.md)
+         - [NGOs, Trusts and Societies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/mobileapp-l2-ngo-trust-society.mp4.md)
 
          ### Provide Clarification
 
@@ -104,16 +104,16 @@ Live mode is enabled once you complete the activation process.
 
          #### Business Verification Process 
 
-         - [ Individuals](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/mobileapp-l1-unregistered.mp4.md)
-         - [Registered Business](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/L1-reg.mp4.md)
+         - [ Individuals](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/mobileapp-l1-unregistered.mp4.md)
+         - [Registered Business](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/L1-reg.mp4.md)
 
          #### Document Verification Process 
 
-         - [Individuals](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/mobileapp-l2-unregistered.mp4.md)
-         - [Public Ltd and Private Ltd](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/L2-reg.mp4.md)
-         - [Proprietorship](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/L2-prope.mp4.md)
-         - [Partnership](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/mobileapp-l2-partnerships.mp4.md)
-         - [NGOs, Trusts and Societies](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/mobileapp-l2-ngo-trust-society.mp4.md)
+         - [Individuals](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/mobileapp-l2-unregistered.mp4.md)
+         - [Public Ltd and Private Ltd](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/L2-reg.mp4.md)
+         - [Proprietorship](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/L2-prope.mp4.md)
+         - [Partnership](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/mobileapp-l2-partnerships.mp4.md)
+         - [NGOs, Trusts and Societies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/mobileapp-l2-ngo-trust-society.mp4.md)
 
          ### Provide Clarification
 
@@ -140,7 +140,7 @@ Follow these steps to sign in with your existing Dashboard credentials.
 
 ### Related Information
 
-- [Razorpay Mobile App](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app.md)
-- [Accept payments using Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app/accept-payments/payment-links.md)
-- [Track payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app/track-manage.md)
-- [Issue refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app/track-manage/issue-refunds.md)
+- [Razorpay Mobile App](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app.md)
+- [Accept payments using Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app/accept-payments/payment-links.md)
+- [Track payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app/track-manage.md)
+- [Issue refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app/track-manage/issue-refunds.md)

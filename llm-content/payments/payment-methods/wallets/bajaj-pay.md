@@ -15,7 +15,7 @@ Enable Bajaj Pay payment method on the Dashboard if not already enabled:
 2. Navigate to **Account & Settings** → **Payment Methods**. 
 3. Select **Wallet**.
 4. Click **Request** beside **Bajaj Pay Wallet**. 
-    ![Dashboard image of bank transfer request](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bajaj-pay-wallet-request.jpg.md)
+    ![Dashboard image of bank transfer request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bajaj-pay-wallet-request.jpg.md)
 5. A request form appears. Select the payment instrument to be enabled on your Checkout. Click **Save & Next**.
 6. Fill in the required details and click **Save & Next**.
 
@@ -42,11 +42,11 @@ On your website or app, customers select the products and proceed to Checkout. O
 
 1. Enter the **Phone Number** and click **Continue**.
 2. Select **Wallet** as the payment method.
-    ![Select Wallets](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pay-pm-wallets-checkout.jpg.md)
+    ![Select Wallets](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pay-pm-wallets-checkout.jpg.md)
 3. Select **Bajaj Pay** and click **Continue**.
-    ![Select Bajaj Wallet](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pay-pm-wallet-bajaj.jpg.md)
+    ![Select Bajaj Wallet](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pay-pm-wallet-bajaj.jpg.md)
 4. Enter the **OTP** sent to their mobile number. In case of insufficient balance, click **Add Funds**.
-    ![Bajaj Wallet - OTP Screen](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pay-pm-wallet-bajaj-otp.jpg.md)
+    ![Bajaj Wallet - OTP Screen](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pay-pm-wallet-bajaj-otp.jpg.md)
 5. The payment is completed if they have sufficient balance in the wallet.
 
 After the successful payment, customers are directed to your application or website. You receive the amount in your wallet as per your settlement cycle.

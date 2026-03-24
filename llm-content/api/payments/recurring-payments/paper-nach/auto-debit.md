@@ -63,7 +63,7 @@ You can register a customer's mandate and charge them the first recurring paymen
       - `nro` (SB-NRO)
 
   `max_amount` _optional_
-  : `integer` Use to set the maximum amount per debit request. Know about [maximum and default values](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/paper-nach/faqs/#3-is-there-a-limit-on-the-debit.md).
+  : `integer` Use to set the maximum amount per debit request. Know about [maximum and default values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/paper-nach/faqs.md#3-is-there-a-limit-on-the-debit).
 
   `expire_at` _optional_
   : `integer` The Unix timestamp that specifies when the registration link should expire. The value can range from the current date to 01-19-2038 (`2147483647`).
@@ -126,7 +126,7 @@ You can upload the signed NACH forms that are collected from your customers usin
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -159,7 +159,7 @@ Reason | Explanation | Next Steps
 
 ### 1.2. Using a Registration Link
 
-Registration Link is an alternate way of creating an authorisation transaction. You can create a registration link using the [API](#121-create-a-registration-link) or [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create/#1-create-a-registration-link.md).
+Registration Link is an alternate way of creating an authorisation transaction. You can create a registration link using the [API](#121-create-a-registration-link) or [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#1-create-a-registration-link).
 
 > **INFO**
 >
@@ -169,7 +169,7 @@ Registration Link is an alternate way of creating an authorisation transaction. 
 > You do not have to create a customer if you choose the registration link method for creating an authorisation transaction.
 > 
 
-- When you create a registration link, an [invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices.md) is automatically issued to the customer. They can use this invoice to make the authorisation payment.
+- When you create a registration link, an [invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md) is automatically issued to the customer. They can use this invoice to make the authorisation payment.
 - A registration link should always have an order amount (in paise) the customer will be charged when making the authorisation payment. This amount should be `0` in the case of Paper NACH.
 
 > **INFO**
@@ -177,7 +177,7 @@ Registration Link is an alternate way of creating an authorisation transaction. 
 > 
 > **Handy Tips**
 > 
-> You can [use Webhooks to get notifications about successful payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/webhooks/#check-authorization-link-status-using-webhooks.md) against a registration link.
+> You can [use Webhooks to get notifications about successful payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#check-authorization-link-status-using-webhooks) against a registration link.
 > 
 
 ### 1.2.1. Create a Registration Link
@@ -229,7 +229,7 @@ Registration Link is an alternate way of creating an authorisation transaction. 
 
 @include recurring-payments/fetch-token-api
 
-Know more about [Tokens](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/paper-nach/integrate/#fetch-nach-mandate-registration-details.md).
+Know more about [Tokens](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/paper-nach/integrate.md#fetch-nach-mandate-registration-details).
 
 ### 2.1. Fetch Token by Payment ID
 

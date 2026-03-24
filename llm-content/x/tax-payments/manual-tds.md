@@ -6,7 +6,7 @@ description: Check how manual TDS payments work, how to make them and the variou
 
 # Manual TDS
 
-Tax Deducted at Source (TDS) is mandated by the government. You can upload TDS data to [RazorpayX Tax Payments](https://x.razorpay.com/tax-payments) and make payments. You can set up an automated method to pay taxes. Know more about [Automatic TDS payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/automatic-tds.md).
+Tax Deducted at Source (TDS) is mandated by the government. You can upload TDS data to [RazorpayX Tax Payments](https://x.razorpay.com/tax-payments) and make payments. You can set up an automated method to pay taxes. Know more about [Automatic TDS payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/automatic-tds.md).
 
 However, you can also choose to make manual payments before the due date. Take a look at the [advantages of using RazorpayX Tax Payments](#advantages) to make manual TDS payments.  
 
@@ -41,7 +41,7 @@ Following are the advantages of using RazorpayX Tax Payments to pay your taxes m
 1. You can either:
     - Save the payment and pay it at a later time.
     - Make the payment immediately.
-1. After you make the payment, it follows the [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) set on your RazorpayX account.
+1. After you make the payment, it follows the [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) set on your RazorpayX account.
 1. Once the TDS is successfully paid, you can download the challan from the [income tax portal](https://www.incometax.gov.in/iec/foportal/).
 1. You can download the challan and file the TDS as per your convenience.
 
@@ -124,6 +124,6 @@ Total Amount | Total amount to be paid to the government with late fees and pena
 
 ### Related Information
 
-- [Tax Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments.md)
-- [Advance Tax Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/advance.md)
-- [Goods and Services Tax (GST)](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/gst.md)
+- [Tax Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments.md)
+- [Advance Tax Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/advance.md)
+- [Goods and Services Tax (GST)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/gst.md)

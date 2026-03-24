@@ -44,36 +44,36 @@ Sign up for a [Razorpay account](https://razorpay.com/signup) and complete the K
 
 ## Step 2: Select Product
 
-[Choose Razorpay products](@/Applications/MAMP/htdocs/new-docs/llm-content/payments.md) based on your business requirements.
+[Choose Razorpay products](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md) based on your business requirements.
 
     
 ### Online Payments vs. Offline Payments
 
-         Choose between digital payment processing for ecommerce and websites using [Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway.md), [Magic Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout.md) and [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links.md) or physical payment solutions for retail stores and face-to-face transactions with [Razorpay POS](@/Applications/MAMP/htdocs/new-docs/llm-content/pos.md). Know more about [online and offline payment options](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/#accept-payments.md).
+         Choose between digital payment processing for ecommerce and websites using [Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md), [Magic Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout.md) and [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links.md) or physical payment solutions for retail stores and face-to-face transactions with [Razorpay POS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos.md). Know more about [online and offline payment options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md#accept-payments).
         
 
     
 ### One-time Payments vs. Recurring Payments
 
-         Select single transaction processing for individual purchases using [Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway.md), [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links.md) and [Payment Pages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages.md) or automated recurring billing for subscriptions and regular services with [Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md). Know more about [one-time and recurring payment solutions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/#accept-payments.md).
+         Select single transaction processing for individual purchases using [Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md), [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links.md) and [Payment Pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages.md) or automated recurring billing for subscriptions and regular services with [Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md). Know more about [one-time and recurring payment solutions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md#accept-payments).
         
 
     
 ### No-code Products vs. Products with Coding Requirements
 
-         Pick ready-to-use payment solutions with simple setup like [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links.md), [Payment Pages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages.md), [Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices.md) or refer to our [Payment Gateway SDKs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/#integrate-payment-gateway-web-mobile-ecommerce-plugins.md) for advanced integration needs. Explore [no-code and developer-friendly options](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/#accept-payments.md).
+         Pick ready-to-use payment solutions with simple setup like [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links.md), [Payment Pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages.md), [Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md) or refer to our [Payment Gateway SDKs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md#integrate-payment-gateway-web-mobile-ecommerce-plugins) for advanced integration needs. Explore [no-code and developer-friendly options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md#accept-payments).
         
 
     
 ### Solutions by Industry
 
-         Find tailored payment solutions designed for your industry: [Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway.md) for ecommerce, [Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md) for SaaS, [Route](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route.md) for marketplaces or [Razorpay POS](@/Applications/MAMP/htdocs/new-docs/llm-content/pos.md) for traditional retail businesses. View [industry-specific payment solutions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/#solutions-by-industry.md).
+         Find tailored payment solutions designed for your industry: [Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md) for ecommerce, [Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md) for SaaS, [Route](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route.md) for marketplaces or [Razorpay POS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos.md) for traditional retail businesses. View [industry-specific payment solutions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md#solutions-by-industry).
         
 
     
 ### Solutions by Platform
 
-         Integrate payments seamlessly with popular ecommerce platforms like Shopify, WooCommerce, Magento using [Payment Gateway ecommerce plugins](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/#integrate-payment-gateway-web-mobile-ecommerce-plugins.md) or build custom solutions using our [Checkout SDKs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/#integrate-payment-gateway-web-mobile-ecommerce-plugins.md) for Go, PHP, Python, Node.js and [mobile platforms](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/#integrate-payment-gateway-web-mobile-ecommerce-plugins.md) (Android, iOS, React Native, Flutter, Cordova, Capacitor). Browse [platform-specific integration guides](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/#solutions-by-platform.md).
+         Integrate payments seamlessly with popular ecommerce platforms like Shopify, WooCommerce, Magento using [Payment Gateway ecommerce plugins](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md#integrate-payment-gateway-web-mobile-ecommerce-plugins) or build custom solutions using our [Checkout SDKs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md#integrate-payment-gateway-web-mobile-ecommerce-plugins) for Go, PHP, Python, Node.js and [mobile platforms](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md#integrate-payment-gateway-web-mobile-ecommerce-plugins) (Android, iOS, React Native, Flutter, Cordova, Capacitor). Browse [platform-specific integration guides](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md#solutions-by-platform).
         
 
 ## Step 3: Key Dashboard Actions
@@ -92,7 +92,7 @@ Sign up for a [Razorpay account](https://razorpay.com/signup) and complete the K
             - Generate separate keys for Test and Live modes.
             - Key Secret is only visible at generation time.
 
-            [API Keys Documentation →](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys.md)
+            [API Keys Documentation →](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md)
         
 
     
@@ -105,7 +105,7 @@ Sign up for a [Razorpay account](https://razorpay.com/signup) and complete the K
             4. Enter their email address and select role from the dropdown.
             4. Click **Send Invitation**.
 
-            [Team Management Guide →](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team.md)
+            [Team Management Guide →](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md)
         
 
     
@@ -120,7 +120,7 @@ Sign up for a [Razorpay account](https://razorpay.com/signup) and complete the K
             5. Add webhook secret for signature verification.
             6. Save and activate.
 
-            [Webhooks Documentation →](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md)
+            [Webhooks Documentation →](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md)
         
 
     
@@ -147,14 +147,14 @@ The minimum value is 12 minutes.- The maximum value (default) is 3 days.
             
             
 
-            [Payment Capture Guide →](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md)
+            [Payment Capture Guide →](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md)
         
 
 ## Next Steps
 
 Once your account is created:
 
-1. **Complete KYC**: [Submit KYC documents](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#2-submit-kyc-details.md) for live mode activation.
+1. **Complete KYC**: [Submit KYC documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#2-submit-kyc-details) for live mode activation.
 2. **Choose Product/Integration Method**: Select based on your business needs and technical capabilities.
 3. **Test Thoroughly**: Use test mode before going live.
 4. **Go Live**: Switch to live mode when ready. Use live mode keys if integrating with our APIs/SDKs/plugins.

@@ -23,7 +23,7 @@ You can integrate Affordability Widget with your WooCommerce website to influenc
 > 
 > **Watch Out!**
 > 
-> Refer to [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/faqs#1-i-am-integrating-with-razorpay-plugin-for.md) if you are integrating with our plugin for the first time.
+> Refer to [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/faqs.md#1-i-am-integrating-with-razorpay-plugin-for) if you are integrating with our plugin for the first time.
 > 
 
     
@@ -107,9 +107,9 @@ Follow the steps given below:
 1. Log in to the [WordPress account](https://wordpress.com/log-in).
 2. Follow the steps given below to preview the widget in admin mode:
     1. Hover over **Razorpay Wordpress** and click **Visit Store**.
-        ![Click visit store to test the widget](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-woocommerce-test.jpg.md)
+        ![Click visit store to test the widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-woocommerce-test.jpg.md)
     2. Click on a product to view the widget.
-        ![Preview the widget before publishing](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/widget-woocommerce-preview.jpg.md)
+        ![Preview the widget before publishing](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/widget-woocommerce-preview.jpg.md)
 
 > **WARN**
 >
@@ -123,7 +123,7 @@ Follow the steps given below:
 
 Here is a glimpse of the default widget with offers and payment method options enabled.
 
-![Glimpse of the default widget](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/default-widget.jpg.md)
+![Glimpse of the default widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/default-widget.jpg.md)
 
 > **INFO**
 >
@@ -131,14 +131,14 @@ Here is a glimpse of the default widget with offers and payment method options e
 > **Minimum Order Limit**
 > 
 > All the payment method options that are enabled and that satisfy the minimum order limit appear on the widget. Know more about the minimum order limit for:
-> - [EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#1-what-are-the-standard-credit-card-interest.md) 
-> - [Cardless EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs#cardless-emi.md)  
-> - [Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs#2-what-are-the-standard-interest-rates-charged.md)
+> - [EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#1-what-are-the-standard-credit-card-interest) 
+> - [Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#cardless-emi)  
+> - [Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#2-what-are-the-standard-interest-rates-charged)
 > 
 
 ## Next Steps 
 
-After you successfully integrate the widget on your WooCommerce website, you can choose to [customise the widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce/customise.md) based on your requirement.
+After you successfully integrate the widget on your WooCommerce website, you can choose to [customise the widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce/customise.md) based on your requirement.
 
 > **INFO**
 >
@@ -151,4 +151,4 @@ After you successfully integrate the widget on your WooCommerce website, you can
 
 ### Related Information
 
-[Affordability Widget FAQs for WooCommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/faqs#woocommerce.md)
+[Affordability Widget FAQs for WooCommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/faqs.md#woocommerce)

@@ -7,12 +7,12 @@ description: Additional support features available for card, netbanking, wallets
 
 Use the Razorpay Android Custom SDK to integrate supported payment methods on the Checkout form of your Android app as per your business requirements. Here are some **additional methods** provided by the SDK for the integration and usage of payment methods:
 
-- [Card Utilities](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/additional-features/#card-utilities.md)
-- [Validate VPA](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/additional-features/#validate-vpa.md)
-- [Fetch Logo](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/additional-features/#logo.md)
-- [Validate Data](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/additional-features/#data-validation.md)
-- [Custom `WebViewClient` and `WebChromeClient`](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/additional-features/#custom-webviewclient-and-webchromeclient.md)
-- [Save Customer Data](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/additional-features/#save-customer-data.md)
+- [Card Utilities](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/additional-features.md#card-utilities)
+- [Validate VPA](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/additional-features.md#validate-vpa)
+- [Fetch Logo](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/additional-features.md#logo)
+- [Validate Data](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/additional-features.md#data-validation)
+- [Custom `WebViewClient` and `WebChromeClient`](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/additional-features.md#custom-webviewclient-and-webchromeclient)
+- [Save Customer Data](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/additional-features.md#save-customer-data)
 
 ## Card Utilities
 
@@ -201,7 +201,7 @@ razorpay.setWebChromeClient(new RazorpayWebChromeClient() {
 
 ## Save Customer Data
 
-You can associate card details with a saved customer or create payments using tokens for saved cards. To use this functionality, you must use [customer APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md) at server side.
+You can associate card details with a saved customer or create payments using tokens for saved cards. To use this functionality, you must use [customer APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md) at server side.
 
 #### Create a Payment With New Card
 

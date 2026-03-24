@@ -32,7 +32,7 @@ There are 2 types of events:
 1. **Transaction Events**: These are events related to payment transactions performed by the sub-merchants. The partner at a sub-merchant level can configure these events.
 2. **Sub-Merchant Onboarding Events**: These events are related to the onboarding status of the sub-merchant. This is subscribed at the partner level and not configurable at the sub-merchant level. Subscribing to this event will enable the partner to get the onboarding status of all sub-merchants.
 
-Know more about [Aggregators Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners.md).
+Know more about [Aggregators Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners.md).
 
 #### Transaction Events
 
@@ -84,16 +84,16 @@ Payment_link Events | payment_link.expired | Triggered when a Payment Link expir
 ---
 Payment_link Events | payment_link.cancelled | Triggered when a Payment Link is cancelled by you.
 
-Check the [sample payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) for the above-mentioned webhook events. 
+Check the [sample payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) for the above-mentioned webhook events. 
 
 #### Sub-Merchant Onboarding Events
 
 @include partners/partners-available-events
 
-You can check the events and sample payloads of [Sub-Merchant Onboarding Events](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/partners.md). Know more about [Webhook APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/webhooks.md). 
+You can check the events and sample payloads of [Sub-Merchant Onboarding Events](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners.md). Know more about [Webhook APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/webhooks.md). 
 
 ### Related Information
-- [Sub-Merchant Onboarding APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api.md)
-- [Sub-Merchant Onboarding APIs Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/workflow.md)
-- [List of Partner APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api.md)
-- [Appendix](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix.md)
+- [Sub-Merchant Onboarding APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api.md)
+- [Sub-Merchant Onboarding APIs Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/workflow.md)
+- [List of Partner APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api.md)
+- [Appendix](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md)

@@ -6,15 +6,15 @@ description: Explore the merits of setting up automatic TDS payments in Razorpay
 
 # Automatic TDS
 
-Tax Deducted at Source (TDS) is a deduction mandated by the government. When you upload an invoice to [RazorpayX Vendor Payment Portal](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments#vendor-portal.md), you have the option to calculate and deduct tax at source. 
+Tax Deducted at Source (TDS) is a deduction mandated by the government. When you upload an invoice to [RazorpayX Vendor Payment Portal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md#vendor-portal), you have the option to calculate and deduct tax at source. 
 
-TDS is calculated for all invoices uploaded to RazorpayX Vendor Payments, irrespective of how you have made the payment. This means, TDS is calculated even for invoices that are in `Mark as Paid` state. Explore [when an invoice is marked as paid](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments#mark-invoice-as-paid.md).
+TDS is calculated for all invoices uploaded to RazorpayX Vendor Payments, irrespective of how you have made the payment. This means, TDS is calculated even for invoices that are in `Mark as Paid` state. Explore [when an invoice is marked as paid](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md#mark-invoice-as-paid).
 
 ## Advantages
 
 Following are the advantages of using RazorpayX Tax Payments to pay your taxes automatically:
 
-- RazorpayX automatically calculates the TDS when you upload an invoice on [RazorpayX Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md).
+- RazorpayX automatically calculates the TDS when you upload an invoice on [RazorpayX Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md).
 - It also automatically enters the TDS data on the Tax Payments application.
 - The TDS payments are automatically made before the due date. No need to worry about late fees and penalties.
 - You can avoid data entry errors.
@@ -107,18 +107,18 @@ To setup the TDS deduction date:
 1. Log in to your [RazorpayX Dashboard](https://x.razorpay.com/vendor-payments).
 1. Navigate to **Menu** → **My Account & Settings** → **Business Profile**.
 1. Next to **Setup TDS deduction date**, click **CHANGE** under **TAX DETAILS**.
-   ![Set the TDS deduction date](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/set-tds-deduction-date.png.md)
+   ![Set the TDS deduction date](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/set-tds-deduction-date.png.md)
 1. Select the TDS deduction date as per your requirement. We recommend you to select [**Deduct TDS on Invoice Date**](#deduct-tds-on-invoice-date).
-   ![Select TDS deduction date](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/select-tds-deduction-date.png.md)
+   ![Select TDS deduction date](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/select-tds-deduction-date.png.md)
 1. Click **Save**.
 
 You can also change the TDS deduction date from payment date to invoice date for vendors individually. 
 
 1. Select the vendor you want to make the change in TDS deduction setting.
 1. In the right side panel, click **Change**.
-   ![Change TDS deduction setting for a Vendor](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tax-payments-TDS-deduction-change.png.md)
+   ![Change TDS deduction setting for a Vendor](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tax-payments-TDS-deduction-change.png.md)
 1. Click **Yes**.
-   ![Change TDS deduction setting for a Vendor from payment date to invoice date](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-tax-payments-change-TDS-deduction-payment-to-invoice.png.md)
+   ![Change TDS deduction setting for a Vendor from payment date to invoice date](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-tax-payments-change-TDS-deduction-payment-to-invoice.png.md)
 
 ### Disable Automatic Tax Payments
 
@@ -147,7 +147,7 @@ Sometimes payments do not go through automatically. It could be because:
 
 Hence, the amount must be paid manually and updated on the Dashboard. To mark a payment as paid, select the check box against the relevant payment and click **MARK AS PAID** on the top right.
 
-![Mark Tax Payment as Paid](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/mark-as-paid.jpg.md)
+![Mark Tax Payment as Paid](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/mark-as-paid.jpg.md)
 
 ## TDS Categories
 
@@ -185,6 +185,6 @@ If the invoice is dated 15th December, 2022 and paid on 15th January, 2023; the 
 
 ### Related Information
 
-- [Tax Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments.md)
-- [Tax Payment Life Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/life-cycle.md)
-- [Goods and Services Tax (GST)](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments/gst.md)
+- [Tax Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments.md)
+- [Tax Payment Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/life-cycle.md)
+- [Goods and Services Tax (GST)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments/gst.md)

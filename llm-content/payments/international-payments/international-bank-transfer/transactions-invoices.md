@@ -27,9 +27,9 @@ There are two ways to add invoice and buyer details for your payments:
    2. On the homepage, scroll to the **Recent transactions** section. You will see the list of your most recent transactions.
    3. Look for payments with a CTA - **+ Add Details**. These payments require invoice details.
    4. On the right side, click **+ Add Details**.
-      ![Recent transactions section](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-details.jpg.md)
+      ![Recent transactions section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-details.jpg.md)
    5. On the dialog box, you can drag and drop or click **Upload**.
-      ![Upload Invoice dialog box](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upload-invoice-box.jpg.md)
+      ![Upload Invoice dialog box](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upload-invoice-box.jpg.md)
    6. Enter **Business/buyer name** and other required details.
    7. Click **Submit**.
 
@@ -44,9 +44,9 @@ There are two ways to add invoice and buyer details for your payments:
       - **Pending Actions**: Shows only transactions that requires invoices.
    3. Look for payments with a CTA - **+ Add Details** and settlement status **Not Initiated**. These payments require invoice details.
    4. On the right side, click **+ Add Details**.
-      ![Recent transactions section](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/transactions-add-details.jpg.md)
+      ![Recent transactions section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/transactions-add-details.jpg.md)
    5. On the dialog box, you can drag and drop or click **Upload**.
-      ![Upload Invoice dialog box](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upload-invoice-box.jpg.md)
+      ![Upload Invoice dialog box](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upload-invoice-box.jpg.md)
    6. Enter **Business/buyer name** and other required details.
    7. Click **Submit**.
    
@@ -55,4 +55,4 @@ There are two ways to add invoice and buyer details for your payments:
 
 ### Related Information
 
-[International Bank Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-bank-transfer.md)
+[International Bank Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer.md)

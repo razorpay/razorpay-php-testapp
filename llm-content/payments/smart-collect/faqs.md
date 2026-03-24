@@ -131,7 +131,7 @@ description: Find answers to frequently asked questions about Razorpay Smart Col
    
 ### 3. How do I know the allowed payers list?
 
-       You can fetch the `allowed_payers` list using [Webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/smart-collect.md) or API response.
+       You can fetch the `allowed_payers` list using [Webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/smart-collect.md) or API response.
       
 
    
@@ -173,13 +173,13 @@ description: Find answers to frequently asked questions about Razorpay Smart Col
     
 ### 4. With which banks can I open a Current/Escrow Account?
 
-         You can open a [Current account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/current-account.md)/[Escrow account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/escrow.md) with Yes Bank or Axis Bank. 
+         You can open a [Current account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/current-account.md)/[Escrow account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/escrow.md) with Yes Bank or Axis Bank. 
         
 
     
 ### 5. How do I make payouts from the Escrow/Current account?
 
-         You can make payouts using the [Payouts APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/api.md).
+         You can make payouts using the [Payouts APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/api.md).
         
 
     
@@ -197,4 +197,4 @@ description: Find answers to frequently asked questions about Razorpay Smart Col
     
 ### 8. How is the fee for Smart Collect 2.0 collected?
 
-         We collect the Smart Collect 2.0 usage fee from your [Fee Credits](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/credits#fee-credits.md). If your Fee Credits are low, we charge it from your [settlement](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/#settlement-cycle.md).
+         We collect the Smart Collect 2.0 usage fee from your [Fee Credits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/credits.md#fee-credits). If your Fee Credits are low, we charge it from your [settlement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md#settlement-cycle).

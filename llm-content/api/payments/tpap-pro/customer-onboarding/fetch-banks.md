@@ -7,7 +7,7 @@ description: Fetch banks using the Razorpay TPAP Pro API.
 
 ## Fetch Banks
 
-NPCI will maintain the list of all fund source providers connected via a unified interface. A fund source provider is a Bank, Payment Bank, PPI, or any other RBI-regulated entity that is allowed to provide payment (credit/debit) services to individuals and entities. Use this endpoint to fetch banks or fundsource providers. Know more about the [Header information](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/tpap-pro/integration-guide/#header-information.md).
+NPCI will maintain the list of all fund source providers connected via a unified interface. A fund source provider is a Bank, Payment Bank, PPI, or any other RBI-regulated entity that is allowed to provide payment (credit/debit) services to individuals and entities. Use this endpoint to fetch banks or fundsource providers. Know more about the [Header information](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/tpap-pro/integration-guide.md#header-information).
 
 ### Request
 

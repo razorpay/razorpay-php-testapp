@@ -17,7 +17,7 @@ To edit content:
 1. Navigate to **Payment Pages** on the Dashboard and select **Razorpay Webstore**.
 2. From the list, select the Webstore you want to modify.
 3. In the top right corner, click the **Edit Page** button.
-    ![Edit Button - Manage Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-update_stock.jpg.md)
+    ![Edit Button - Manage Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-update_stock.jpg.md)
 The Webstore appears in edit mode. You can now edit any of the fields to update the details, including the price fields.
 
 ## Update Stock
@@ -26,13 +26,13 @@ You can update the stock quantity of a price field, for example `Individuals Ent
 
 To update stock:
 1. Navigate to **Payment Pages** on the Dashboard and select **Razorpay Webstore**.
-    ![Dashboard Page type selection](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-pp-page-selection.jpg.md)
+    ![Dashboard Page type selection](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-pp-page-selection.jpg.md)
 2. Select the Webstore you want to modify.
 3. In the top right corner, the different price fields are displayed. Click **Update Stock** against the relevant price item.
 4. You can either make the stock quantity unlimited, using **No Limit**, or enter an amount in the box given below.
 5. Click **Save**.
 
-![Save Button - Update Stock - Manage Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-update_stock.jpg.md)
+![Save Button - Update Stock - Manage Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-update_stock.jpg.md)
 
 ## Edit Webstore Settings
 
@@ -50,7 +50,7 @@ Configure **Expires on** | Enables you to set an expiry date and time for the We
 ---
 **Add New** notes on the Webstore | You can add up to 5 custom notes on the Webstore.
 
-![Modify Settings - Manage Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-edit_pp_2.jpg.md)
+![Modify Settings - Manage Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-edit_pp_2.jpg.md)
 
 > **INFO**
 >
@@ -83,7 +83,7 @@ To deactivate manually:
 3. In the Webstore details screen, go to **Page Status** field and click **Deactivate**.
 4. In the dialog box that appears, confirm the action by clicking the **Yes, deactivate** button.
 
-![Deactivate Button - Manage Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-edit_pp.jpg.md)
+![Deactivate Button - Manage Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-edit_pp.jpg.md)
 
 ### Deactivation Using Expiry Date
 You can also automate Webstore deactivation by setting an expiry date. You can set expiry date:
@@ -91,7 +91,7 @@ You can also automate Webstore deactivation by setting an expiry date. You can s
 - After Creation
 
 #### At the Time of Creation
-Know how to [set the Webstore's expiry date](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/create/#step-3-configure-store-settings.md) at the time of creation.
+Know how to [set the Webstore's expiry date](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/create.md#step-3-configure-store-settings) at the time of creation.
 
 #### After Creation
 To set the expiry mode:
@@ -102,7 +102,7 @@ To set the expiry mode:
 4. The field now shows a **No Expiry** checkbox selected. Unselect the box for the calendar to appear.
 5. In the calendar, set the date and time of expiry and click **Save**.
 
-![Save Button - Expiry Date - Manage Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-edit_pp_2.jpg.md)
+![Save Button - Expiry Date - Manage Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-edit_pp_2.jpg.md)
 
 > **INFO**
 >
@@ -114,5 +114,5 @@ To set the expiry mode:
 
 ### Related Information
 
-- [Create a Razorpay Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/create.md)
-- [Search for Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/search.md)
+- [Create a Razorpay Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/create.md)
+- [Search for Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/search.md)

@@ -33,7 +33,7 @@ To view a detailed break-down of a settlement made to your account:
 
 ### Related Information
 
-- [Normal Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/normal.md)
-- [Batch Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/batch.md)
-- [Issue Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/issue.md)
-- [Refunds FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/faqs.md)
+- [Normal Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/normal.md)
+- [Batch Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/batch.md)
+- [Issue Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/issue.md)
+- [Refunds FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/faqs.md)

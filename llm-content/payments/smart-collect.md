@@ -25,8 +25,8 @@ Virtual UPI id is an extension of Customer Identifier. It is a customisable UPI 
 > 
 > **Handy Tips**
 > 
-> - Understand the Razorpay [payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md) that Smart Collect follows to collect payments.
-> - Smart Collect also supports [Third-Party Validation (TPV)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/third-party-validation.md).
+> - Understand the Razorpay [payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md) that Smart Collect follows to collect payments.
+> - Smart Collect also supports [Third-Party Validation (TPV)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/third-party-validation.md).
 > 
 > 
 
@@ -91,20 +91,20 @@ Virtual UPI id is an extension of Customer Identifier. It is a customisable UPI 
     
 ### Smart Collect Use Cases
 
-        Explore the [Smart Collect Use Cases](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/use-cases.md) to gain deeper insights into the capabilities and practical applications of Smart Collect and Smart Collect 2.0.
+        Explore the [Smart Collect Use Cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/use-cases.md) to gain deeper insights into the capabilities and practical applications of Smart Collect and Smart Collect 2.0.
         
 
 ## Prerequisites
 
     
         1. Ensure that you do not fall under the `Individuals` merchant category as Smart Collect is not available for this Merchant Category Code (MCC).
-        2. Read and understand the [pricing model](https://razorpay.com/smart-collect/#pricing) and have the [API documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect.md) for Smart Collect handy. 
+        2. Read and understand the [pricing model](https://razorpay.com/smart-collect/#pricing) and have the [API documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect.md) for Smart Collect handy. 
         3. Ensure that the business use case is well charted. Smart Collect supports **many customers - one account** and **many customers - many accounts** models.
         4. Raise a request through a Point of Contact (POC) or the Dashboard to enable Smart Collect and Smart Collect TPV for your account.
-        5. Do check the [list of banks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/bank-list/#list-of-banks-supporting-tpv-for-smart-collect.md) which support Smart Collect with TPV.
+        5. Do check the [list of banks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation/bank-list.md#list-of-banks-supporting-tpv-for-smart-collect) which support Smart Collect with TPV.
     
     
-        1. You must open a [Current account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/current-account.md)/[Escrow account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/escrow.md). We enable you in this process. 
+        1. You must open a [Current account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/current-account.md)/[Escrow account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/escrow.md). We enable you in this process. 
         2. All the prerequisites for Smart Collect are also applicable for Smart Collect 2.0.
     
 
@@ -129,8 +129,8 @@ Razorpay Smart Collect is supported on the following platforms:
 
 ### Related Information
 
-- [How Smart Collect Works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/how-it-works.md) 
-- [Customer Identifier States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/states.md)
-- [Auto Third Party Validation (TPV) on Smart Collect](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/third-party-validation.md)
-- [Smart Collect APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect.md)
-- [Subscribe to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/subscribe-to-webhooks.md)
+- [How Smart Collect Works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/how-it-works.md) 
+- [Customer Identifier States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/states.md)
+- [Auto Third Party Validation (TPV) on Smart Collect](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/third-party-validation.md)
+- [Smart Collect APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect.md)
+- [Subscribe to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/subscribe-to-webhooks.md)

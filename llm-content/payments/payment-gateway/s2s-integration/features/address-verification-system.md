@@ -16,7 +16,7 @@ The Address Verification System (AVS) verifies if a customer's billing address (
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -54,15 +54,15 @@ The advantages of using the Address Verification System are:
 
 ## Prerequisites
 
-- [Integrate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration.md) with Razorpay S2S APIs.
+- [Integrate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration.md) with Razorpay S2S APIs.
 
-- Enable [international payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments.md) for your Razorpay account.
+- Enable [international payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md) for your Razorpay account.
 
 ## How it Works
 
 Given below is a diagram of the workflow:
 
-![AVS Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/international-payments-address-verification-system-flow.jpg.md)
+![AVS Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/international-payments-address-verification-system-flow.jpg.md)
 
 Watch this video to see how your customers can add their card and address details on the checkout page for address verification.
 

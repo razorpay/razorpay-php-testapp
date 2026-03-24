@@ -8,7 +8,7 @@ description: Delete an Account using Razorpay Partners APIs.
 
 ## Delete an Account
 
-Use this endpoint to delete a sub-merchant account. Know about the [various error responses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md) for this API.
+Use this endpoint to delete a sub-merchant account. Know about the [various error responses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md) for this API.
 
 ### Request
 
@@ -172,7 +172,7 @@ Account account = client.Account.Fetch(accountId).Delete();
 : `string` The sub-merchant billing label as it appears on the Dashboard. The minimum length is 1 character and the maximum length is 255. This parameter might be required to complete the KYC process. However, it is optional for this API.
 
 `business_type`
-: `string` The type of business operated by the sub-merchant. Possible values: [Business Types](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix.md).
+: `string` The type of business operated by the sub-merchant. Possible values: [Business Types](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md).
 
 `suspended_at`
 : `integer` Timestamp, in Unix format, at which the account will be suspended.
@@ -184,10 +184,10 @@ Account account = client.Account.Fetch(accountId).Delete();
 : `object` The business details of the sub-merchant's account.
 
     `category`
-    : `string` The business category of the sub-merchant. Possible values: [Business Category](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#business-category.md)
+    : `string` The business category of the sub-merchant. Possible values: [Business Category](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#business-category)
 
     `subcategory`
-    : `string` The business sub-category of the sub-merchant. Possible values: [Business Sub-Category](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#business-sub-category.md)
+    : `string` The business sub-category of the sub-merchant. Possible values: [Business Sub-Category](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#business-sub-category)
     
     `description` _deprecated_
     : `string` This parameter has been deprecated. Pass the description using the `business_model` parameter.
@@ -218,7 +218,7 @@ Account account = client.Account.Fetch(accountId).Delete();
             : `integer` The postal code. This should be exactly 6 characters.
 
             `country`
-            : `string` The country. The minimum length is 2 and the maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#country-list.md).
+            : `string` The country. The minimum length is 2 and the maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#country-list).
 
         `registered`
         : `object` Details of the sub-merchant's registered address.
@@ -239,7 +239,7 @@ Account account = client.Account.Fetch(accountId).Delete();
             : `integer` The postal code. This should be exactly 6 characters.
 
             `country`
-            : `string` The country. The minimum length is 2 and the maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-api/appendix/#country-list.md).
+            : `string` The country. The minimum length is 2 and the maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. [List of supported Countries](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-api/appendix.md#country-list).
 
 `legal_info`
 : `object` The legal details about the sub-merchant's business.

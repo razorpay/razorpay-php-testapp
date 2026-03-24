@@ -13,7 +13,7 @@ Integrate Checkout from Affordability Widget using Standard Integration and prov
 > 
 > **Handy Tips**
 > 
-> If you have a [custom-built checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md), integrate with checkout from widget using [Custom Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/custom-integration.md).
+> If you have a [custom-built checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md), integrate with checkout from widget using [Custom Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/custom-integration.md).
 > 
 
 > **WARN**
@@ -22,7 +22,7 @@ Integrate Checkout from Affordability Widget using Standard Integration and prov
 > **Watch Out!**
 > 
 > - This is an on-demand feature. Write to us at [ affordability-widget@razorpay.com](mailto:affordability-widget@razorpay.com) to get this feature enabled on your account.
-> - This feature is only supported on [Native Website](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/native-web.md) integration.
+> - This feature is only supported on [Native Website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/native-web.md) integration.
 > 
 
     
@@ -100,7 +100,7 @@ Follow the integration steps given below on your website:
      : `integer` The amount to be paid by the customer in currency subunits. For example, if the amount is , enter `50000`.
 
      `currency` _mandatory_
-     : `string` The currency in which the customer should make the payment. Check the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+     : `string` The currency in which the customer should make the payment. Check the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
      `checkout_callback` _mandatory_ 
      : `function` The callback function is called when the user clicks the Buy button on the widget. This function receives `affordabilityWidgetPrefill` as an argument. 

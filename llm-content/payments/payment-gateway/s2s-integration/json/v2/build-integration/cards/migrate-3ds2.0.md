@@ -20,7 +20,7 @@ If you integrated with our S2S APIs before October 15, 2022, you must make the f
 
 3DS2 is an authentication protocol, the successor of 3DS1, that enables businesses and payment providers to send additional information (such as customer device or browser data) to verify the transaction's authenticity. Razorpay integration is compliant with the 3DS2 protocol. 
 
-**Know more**: Razorpay supports [3DS2 transactions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/cards/3ds2.0.md).
+**Know more**: Razorpay supports [3DS2 transactions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/cards/3ds2.0.md).
 
 The customer's bank evaluates the transaction for risk and decides on the payment flow.
 
@@ -42,7 +42,7 @@ Currently, this would not be applicable in India for domestic payments as RBI ma
 
 Given below is a diagram that explains the 3DS2 flow:
 
-![Cards 3DS2 Protocol](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-3ds-flowchart.jpg.md)
+![Cards 3DS2 Protocol](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-3ds-flowchart.jpg.md)
 
 ## Choose Payment Processing Method
 
@@ -50,10 +50,10 @@ There are two methods to process the payments:
 
 1. **Process all payments as browser payments**: 
 
-This process does not require additional integration of the EVM 3DS 2 SDK. You can pass additional browser parameters in your [existing API integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards/browser.md). There will not be any changes in the payments flow and the API responses.
+This process does not require additional integration of the EVM 3DS 2 SDK. You can pass additional browser parameters in your [existing API integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards/browser.md). There will not be any changes in the payments flow and the API responses.
 
 2. **Process all payments as browser and app payments**: 
 
-You can process web-initiated payments as browser payments and app-initiated payments as native app payments. You need to make the changes as mentioned [here to make browser payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards/evm-sdk.md). For payments originating from your app, you need to make the following changes:
+You can process web-initiated payments as browser payments and app-initiated payments as native app payments. You need to make the changes as mentioned [here to make browser payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards/evm-sdk.md). For payments originating from your app, you need to make the following changes:
     - Integrate EMV 3DS 2 SDK for both Android and iOS apps.
     - API Integration.

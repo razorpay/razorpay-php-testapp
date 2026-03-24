@@ -12,7 +12,7 @@ description: Common questions and solutions for the Razorpay n8n Community Node.
 
       The Razorpay n8n Community Node connects Razorpay APIs with the n8n workflow automation platform. It enables you to automate payment operations, build no-code workflows and connect payments with 400+ other services. The node is officially maintained by Razorpay and is open-source.
       
-      View [Getting Started Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node.md).
+      View [Getting Started Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node.md).
     
 
   
@@ -32,7 +32,7 @@ description: Common questions and solutions for the Razorpay n8n Community Node.
   
 ### 3. What operations are available in the node?
 
-      View [Complete Operations Reference](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/operations-reference.md) to know about the available operations.
+      View [Complete Operations Reference](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/operations-reference.md) to know about the available operations.
     
 
   
@@ -97,7 +97,7 @@ description: Common questions and solutions for the Razorpay n8n Community Node.
       
       1. **Use Test Mode**:
          - Create a credential with test keys (`rzp_test_*`).
-         - Use [test cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details.md).
+         - Use [test cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md).
          - No real money involved.
       2. **Test in n8n**:
          - Click **Execute Workflow**.
@@ -173,7 +173,7 @@ description: Common questions and solutions for the Razorpay n8n Community Node.
       2. Verify required parameters:
          - **Create Payment Link**: amount (paise), currency required.
          - Amount must be an integer in paise: ₹100 = 10000.
-      3. Check [Operations Reference](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/operations-reference.md) for required fields.
+      3. Check [Operations Reference](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/operations-reference.md) for required fields.
       
       **Example**: For ₹1,500 Payment Link, use `amount: 150000`, not `1500`.
     
@@ -272,6 +272,6 @@ description: Common questions and solutions for the Razorpay n8n Community Node.
 
 ### Related Documentation
 
-- [Install the Node](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/installation.md)
-- [Explore Use Cases](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/use-cases.md)
-- [View Operations](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/operations-reference.md)
+- [Install the Node](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/installation.md)
+- [Explore Use Cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/use-cases.md)
+- [View Operations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/operations-reference.md)

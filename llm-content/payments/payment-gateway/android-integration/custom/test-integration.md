@@ -9,4 +9,4 @@ description: Steps to test if the custom android integration was successful.
 
 ## Next Steps
 
-[Step 3: Go-live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/go-live-checklist.md)
+[Step 3: Go-live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/go-live-checklist.md)

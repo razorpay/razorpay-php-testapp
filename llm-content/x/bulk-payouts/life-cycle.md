@@ -17,9 +17,9 @@ A payout created using the Bulk Upload feature can have the following statuses d
 - `rejected`
 - `failed`
 
-![bulk payout life cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-scheduled_payout_life_cycle.jpg.md)
+![bulk payout life cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-scheduled_payout_life_cycle.jpg.md)
 
-Know more about [payout life cycle and statuses](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle.md).
+Know more about [payout life cycle and statuses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md).
 
 > **INFO**
 >
@@ -28,11 +28,11 @@ Know more about [payout life cycle and statuses](@/Applications/MAMP/htdocs/new-
 > **Handy Tips**
 > 
 > - Payouts created using the Bulk Upload feature are not queued. In case of insufficient balance, the payouts will fail.
-> - The `pending` and `rejected` statuses are available only if you have [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) enabled on your account.
+> - The `pending` and `rejected` statuses are available only if you have [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) enabled on your account.
 > 
 
 ### Related Information
 
-- [About Bulk Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/bulk-payouts.md)
-- [Bulk Upload Status](@/Applications/MAMP/htdocs/new-docs/llm-content/x/bulk-payouts/uploads.md)
-- [Bulk Upload Report](@/Applications/MAMP/htdocs/new-docs/llm-content/x/bulk-payouts/report.md)
+- [About Bulk Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/bulk-payouts.md)
+- [Bulk Upload Status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/bulk-payouts/uploads.md)
+- [Bulk Upload Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/bulk-payouts/report.md)

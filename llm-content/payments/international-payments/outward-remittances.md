@@ -61,13 +61,13 @@ Given below is the payment flow on Razorpay Standard Checkout:
 >             
   
 2. They enter their contact details and click Proceed.
-    ![LRS contact details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pay-lrs-contact-details-new.jpg.md)
+    ![LRS contact details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pay-lrs-contact-details-new.jpg.md)
 3. They provide relevant information and click **Proceed**:
     - For Education-related Payment, the customer must provide:
         1. Payer information (PAN) and select the purpose of payment.
-            ![LRS Student Information](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pay-lrs-student-details-new.jpg.md)           
+            ![LRS Student Information](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pay-lrs-student-details-new.jpg.md)           
         2. Scanned copies of Passport (front and back), Admission Letter and Loan Sanction Letter.
-            ![LRS Documents](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pay-lrs-document-upload-new.jpg.md)
+            ![LRS Documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pay-lrs-document-upload-new.jpg.md)
 4. Customer selects the preferred payment method and completes the payment.
 
 > **WARN**
@@ -131,4 +131,4 @@ Given below is the payment flow on Razorpay Standard Checkout:
 
 ## Next Steps
 
-- [Integrate Outward Remittances - Education and Travel](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/outward-remittances/education.md).
+- [Integrate Outward Remittances - Education and Travel](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/outward-remittances/education.md).

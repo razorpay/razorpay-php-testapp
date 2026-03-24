@@ -12,7 +12,7 @@ Razorpay - Payments on WhatsApp enables a seamless and secure payment experience
 
 - **Powerful Razorpay Checkout** 
 
-    Accept payments using over 100 [payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods.md) including UPI, domestic and international cards, netbanking  paylater,     and EMI. Enjoy industry-leading conversion rates with our saved cards, direct checkout with UPI apps and native OTP features.
+    Accept payments using over 100 [payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md) including UPI, domestic and international cards, netbanking  paylater,     and EMI. Enjoy industry-leading conversion rates with our saved cards, direct checkout with UPI apps and native OTP features.
 - **Fully immersive payment experience to boost conversions** 
  
     Our swift checkout experience blends with the conversation to offer a smooth flow, thereby improving conversion rates and reducing drop-offs. 
@@ -22,4 +22,4 @@ Razorpay - Payments on WhatsApp enables a seamless and secure payment experience
 
 ## Get Started
 
-To get started, [integrate Razorpay with your WhatsApp Business Account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/whatsapp/integrate.md).
+To get started, [integrate Razorpay with your WhatsApp Business Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/whatsapp/integrate.md).

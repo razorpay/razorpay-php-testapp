@@ -7,7 +7,7 @@ description: Know how Razorpay performs Third-Party Validation (TPV) of your inv
 
 Third-Party Validation (TPV) of bank accounts is a mandatory requirement for merchants in the BFSI (Banking, Financial Services and Insurance) sector dealing with Securities, Broking and Mutual Funds. As per Securities and Exchange Board of India (SEBI) guidelines, transactions must be made by the investors **only** from those bank accounts provided when they registered with your business.
 
-With Razorpay, you can comply with the SEBI guidelines for online payment collections by offering TPV integrations with [major banks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/custom-integration/bank-list.md) at Checkout. Investors can make payments using netbanking, debit card or UPI. UPI supports both collect and intent flows at Razorpay Custom Integration checkout.
+With Razorpay, you can comply with the SEBI guidelines for online payment collections by offering TPV integrations with [major banks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation/custom-integration/bank-list.md) at Checkout. Investors can make payments using netbanking, debit card or UPI. UPI supports both collect and intent flows at Razorpay Custom Integration checkout.
  
  to get this feature activated on your Razorpay account.
 
@@ -16,8 +16,8 @@ With Razorpay, you can comply with the SEBI guidelines for online payment collec
 
      - Contact our [Support Team](https://razorpay.com/support/#raise-a-request) to get this feature enabled for your account.
      - Keep the API key (combination of `Key_Id` and `Key_Secret`) handy for integration. 
-     - [Generate API Keys from the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) if not done already.
-     - Configure the [payment capture settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md) on the Dashboard.
+     - [Generate API Keys from the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) if not done already.
+     - Configure the [payment capture settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md) on the Dashboard.
     
 
 ## 1. Integration Flow
@@ -551,7 +551,7 @@ In TPV integration flow, Razorpay maps the investors' bank accounts to ensure th
      }
      ```
 
-     Know more about the various [ payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods.md).
+     Know more about the various [ payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md).
     
 
   

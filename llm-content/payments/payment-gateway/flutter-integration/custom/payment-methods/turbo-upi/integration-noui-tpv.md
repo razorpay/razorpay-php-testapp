@@ -29,7 +29,7 @@ Third-party validation (TPV) of bank accounts is mandatory for businesses in the
              - `app/libs`: All libraries (Bank, SecureComponent and Turbo) common for headless SDK.
              - `app/build.gradle`: All transitive dependencies needed to integrate the Turbo SDK.
 
-         2. Integrate with [Razorpay Flutter Custom Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/custom/build-integration.md).
+         2. Integrate with [Razorpay Flutter Custom Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/custom/build-integration.md).
 
          3. Import the following frameworks:
              - Razorpay Turbo Wrapper Plugin SDK (maven)
@@ -51,7 +51,7 @@ Third-party validation (TPV) of bank accounts is mandatory for businesses in the
 >          - `minSDKversion` for using Turbo UPI is currently 19 and cannot be overwritten.
 >          - API Key Usage for Different Environments:
 >             - Use the `rzp_test_0wFRWIZnH65uny` API key id for testing on the UAT environment.
->             - Use the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+>             - Use the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.
 >          - As a compliance requirement, you need to get approval from Google for **READ_SMS** permission. Refer [to the Google article](https://support.google.com/googleplay/android-developer/answer/10208820?hl=en) for more details.
 >          
 
@@ -855,7 +855,7 @@ The SDKs given below provide access to exposed models for seamless integration.
 
          
 
-         [Refer to the list of possible error reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/custom/payment-methods/turbo-upi/error-codes.md).
+         [Refer to the list of possible error reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/custom/payment-methods/turbo-upi/error-codes.md).
         
 
     
@@ -981,4 +981,4 @@ Complete these steps to take your integration live:
     - `keep class retrofit2.** { *; }`
     - `keep class okhttp3.** { *; }`
 
-- Replace the UAT credential with the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+- Replace the UAT credential with the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.

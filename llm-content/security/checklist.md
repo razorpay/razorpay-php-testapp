@@ -13,7 +13,7 @@ The security of your business's online transactions and data is a shared respons
 
 Following are the general security best practices:
 
-- Implement [Two-Factor Authentication (2FA)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team#2-step-verification-team-level.md) across your team for additional security.
+- Implement [Two-Factor Authentication (2FA)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md#2-step-verification-team-level) across your team for additional security.
 - Use TLS and HTTPS, as they significantly decrease the risk of a man-in-the-middle attack on you or your customers.
 - Use a password manager and set strong passwords.
 - Maintain a checklist for timely onboarding and off-boarding of users.
@@ -37,20 +37,20 @@ While integrating Razorpay APIs with your application, ensure that:
 
 To secure your mobile application when integrating with Razorpay APIs, ensure that:
 
-- The [Razorpay API secret](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) is not included in the final Android or iOS build.
+- The [Razorpay API secret](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) is not included in the final Android or iOS build.
 - The final build is scanned for security defects using a mobile application security scanner, such as [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF).
 
 ### Payments API
 
-While integrating with our [Payments API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments.md), ensure that you:
-- Use the [Capture a Payment API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#capture-a-payment.md) to assert the payment status.
+While integrating with our [Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md), ensure that you:
+- Use the [Capture a Payment API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment) to assert the payment status.
 - Fetch the amounts of captured payments only from the backend or a trusted source.
 
 ### Orders API
 
-While integrating with our [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md), ensure that:
+While integrating with our [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md), ensure that:
 
-- [Payments are auto-captured](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings#auto-capture-all-payments.md) from the Dashboard.
+- [Payments are auto-captured](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md#auto-capture-all-payments) from the Dashboard.
 - Signatures are validated in the callback request when using the Orders API to confirm payment status.
 - Order ids are retrieved only from a trusted source, such as your database for the HMAC generation.
 
@@ -60,18 +60,18 @@ To use our webhooks securely, ensure that:
 
 - All webhook requests are validated using Hash-based Message Authentication Code (HMAC).
 
-- [Razorpay IPs](@/Applications/MAMP/htdocs/new-docs/llm-content/security/whitelists/#webhook-ips.md) are added to all the whitelisted webhook requests.
+- [Razorpay IPs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/whitelists.md#webhook-ips) are added to all the whitelisted webhook requests.
 
 ## Accounts and Dashboard
 
 Following are the best practices for Dashboard usage:
 
 - Grant access to the Dashboard only for necessary users.
-- Define [user roles](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team#standard-user-roles.md) for team members based on their usage of the Dashboard.
-- Implement [Two-Factor Authentication (2FA)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team#2-step-verification-team-level.md) on all your Razorpay accounts.
+- Define [user roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md#standard-user-roles) for team members based on their usage of the Dashboard.
+- Implement [Two-Factor Authentication (2FA)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md#2-step-verification-team-level) on all your Razorpay accounts.
 - Never share Razorpay Two-Factor Authentication OTPs among employees.
 
 ### Related Information
 
-- [ Razorpay Security](@/Applications/MAMP/htdocs/new-docs/llm-content/security.md)
-- [Shared Responsibility Model](@/Applications/MAMP/htdocs/new-docs/llm-content/security/shared-responsibility-model.md)
+- [ Razorpay Security](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security.md)
+- [Shared Responsibility Model](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/shared-responsibility-model.md)

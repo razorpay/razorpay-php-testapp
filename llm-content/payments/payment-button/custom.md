@@ -17,9 +17,9 @@ Maximum Number of Participants | Registration Fee (in ₹)
 
 ## Prerequisites
 
-- [Set up](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#sign-up.md) your Razorpay account.
+- [Set up](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#sign-up) your Razorpay account.
 - Log in to the Dashboard.
-- The Dashboard has [test and live modes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/test-live-modes.md). Payment Buttons created in the test mode do not appear in the live environment. **You must create a new Payment Button in live mode**.
+- The Dashboard has [test and live modes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/test-live-modes.md). Payment Buttons created in the test mode do not appear in the live environment. **You must create a new Payment Button in live mode**.
 
 ## Create a Custom Payment Button
 
@@ -36,12 +36,12 @@ Below are the steps to create a Custom Payment Button:
 1.1 Log in to the Dashboard.
 
 1.2 Go to the **PAYMENT PRODUCTS** section and click **Payment Button**.
-    ![Dashboard - Payment Products](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-payment-button-dashboard.jpg.md)
+    ![Dashboard - Payment Products](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-payment-button-dashboard.jpg.md)
 
 1.3 Click **+ Create Payment Button**.
 
 1.4 On the **Button Creation Wizard**, select the **Create Your Own** button type.
-    ![Pick a Button Type](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-custom-select-template.jpg.md)
+    ![Pick a Button Type](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-custom-select-template.jpg.md)
 
 1.5 Click **Use this template**.
 
@@ -64,7 +64,7 @@ Configure these sections to create the Payment Button:
 
         
 
-        ![Button Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-custom-button-details.jpg.md)
+        ![Button Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-custom-button-details.jpg.md)
 
         
 
@@ -86,19 +86,19 @@ Configure these sections to create the Payment Button:
 
             To create the **Registration Fee** amount field:
             1. Click **+Add Amount Field**.
-                ![Amount Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-custom-amount-details-2.jpg.md)
+                ![Amount Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-custom-amount-details-2.jpg.md)
             2. From the drop-down list, select **Fixed Amount** as the field type.
             3. On the pop-up:
                 1. Enter the label of the product as `Registration Fee`.
                 2. Click **+ Add Description** and enter details if required.
                 3. Enter the amount as `500`.
-                    ![Amount Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-custom-amount-field.jpg.md)
+                    ![Amount Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-custom-amount-field.jpg.md)
                 4. Click the more icon to view **Advanced Options**. Select **Item has Limited Stock** and enter the value as `50`.
-                    ![Amount Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-custom-amount-field-2.jpg.md)
+                    ![Amount Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-custom-amount-field-2.jpg.md)
                 5. Click **Save**.
             4. **Save** the field and click **Next**.
 
-            ![Amount Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-custom-amount-fields-complete.jpg.md)
+            ![Amount Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-custom-amount-fields-complete.jpg.md)
 
             
 
@@ -115,7 +115,7 @@ Configure these sections to create the Payment Button:
 
             
 
-            ![Customer Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-custom-customer-details.jpg.md)
+            ![Customer Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-custom-customer-details.jpg.md)
 
             
 
@@ -135,7 +135,7 @@ Configure these sections to create the Payment Button:
 
             
 
-            ![Customer Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-custom-customer-details-added.jpg.md)
+            ![Customer Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-custom-customer-details-added.jpg.md)
 
             
 
@@ -156,7 +156,7 @@ Configure these sections to create the Payment Button:
 
              
 
-             ![Review Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-custom-review-button.jpg.md)
+             ![Review Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-custom-review-button.jpg.md)
 
              
 
@@ -164,7 +164,7 @@ Configure these sections to create the Payment Button:
 
              
 
-             ![Review Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-pb-success.jpg.md)
+             ![Review Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-pb-success.jpg.md)
 
              
         
@@ -194,7 +194,7 @@ You can embed this code on any webpage, be it a custom HTML site or one built on
 
             
 
-            ![Embed Payment Button Code GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-embed-min.gif.md)
+            ![Embed Payment Button Code GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-embed-min.gif.md)
             
         
 
@@ -204,29 +204,29 @@ Follow these steps to make a test payment using a payment button:
 
 1. Select the payment button you wish to test from the Dashboard and click **Get Code**.
 2. Click **Copy Code** to copy the code to your clipboard.
-    ![Payment Button Code Selection](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pb-button-code-select.jpg.md)
+    ![Payment Button Code Selection](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pb-button-code-select.jpg.md)
 3. Test the Payment Button by adding the code to the [Payment Button Test Widget](https://cdn.razorpay.com/static/widget/test-payment-button.html).
 4. Paste the code in the text box and click **Run Code**.
 5. Click on the Payment Button that appears in the preview section.
-    ![Payment Button Test Preview](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pb-run-test-preview.jpg.md)
+    ![Payment Button Test Preview](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pb-run-test-preview.jpg.md)
 6. Enter the required details and click **PROCEED TO PAY**.
 7. Select the payment method of your choice to proceed with the payment. 
 
     
         
-            You can use these [test card details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details#test-cards.md).
+            You can use these [test card details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md#test-cards).
         
         
-            You can use these [test UPI details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details#test-upi-id.md).
+            You can use these [test UPI details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md#test-upi-id).
         
         
             You can select any bank for your test payment. Select **Success** or **Failure**, depending on which flow you wish to test.
-             ![Test Payment Success or Failure Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pl-test-payment-success.jpg.md)
+             ![Test Payment Success or Failure Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pl-test-payment-success.jpg.md)
         
     
      
 8. You should see a confirmation message depending on the flow you have selected.
-    ![Payment Success](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pb-payment-success.jpg.md)
+    ![Payment Success](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pb-payment-success.jpg.md)
 
 ### Customer Interaction
 
@@ -237,7 +237,7 @@ Let us make a test transaction to check how the customer will interact with the 
 3. Select a payment method, for example, card, and complete the payment.
 4. The payment success screen is displayed and a confirmation email is sent to you.
 
-![Customer Interaction GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-customerpayment.gif.md)
+![Customer Interaction GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-customerpayment.gif.md)
 
 ## Post Payment Actions
 
@@ -261,9 +261,9 @@ After the customer has successfully completed the payment, you can:
 
 ## View Transaction Details on Dashboard
 
-You can view the payments as and when they are made in the [Transactions Details View](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/view-reports.md) of the page.
+You can view the payments as and when they are made in the [Transactions Details View](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/view-reports.md) of the page.
 
-![Transaction details on Dasboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-button-custom-transaction-detail.jpg.md)
+![Transaction details on Dasboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-custom-transaction-detail.jpg.md)
 
 ## Export Report
 
@@ -280,13 +280,13 @@ A .csv file is downloaded, where you can find a monthly report of all the paymen
 You will receive the payments in your bank account as per the settlement cycle agreed upon at the time of Razorpay account setup. Usually, this is T+2 days. In case of international payments, the settlement cycle is T+7 days.
 
 ### Related Information
-- [Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button.md)
-- [How Payment Button Works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/how-it-works.md)
-- [Payment Button States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/states.md)
-- [Quick Pay Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/quick-pay.md)
-- [Buy Now Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/buy-now.md)
-- [Donations Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/donations.md)
-- [Manage Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/manage.md)
-- [Prefill Amount Fields](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/manage/prefill-amount-fields.md)
-- [Search for a Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/search.md)
-- [View Reports](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/view-reports.md)
+- [Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button.md)
+- [How Payment Button Works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/how-it-works.md)
+- [Payment Button States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/states.md)
+- [Quick Pay Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/quick-pay.md)
+- [Buy Now Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/buy-now.md)
+- [Donations Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/donations.md)
+- [Manage Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/manage.md)
+- [Prefill Amount Fields](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/manage/prefill-amount-fields.md)
+- [Search for a Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/search.md)
+- [View Reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/view-reports.md)

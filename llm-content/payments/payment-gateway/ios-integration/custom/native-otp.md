@@ -19,8 +19,8 @@ Using the Native OTP feature, you can:
 
 Before implementing the Native OTP feature, check the following prerequisites:
 
-1. Log in to the Dashboard and generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys.md).
-2. Integrate with the [Razorpay iOS Custom SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom.md).
+1. Log in to the Dashboard and generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md).
+2. Integrate with the [Razorpay iOS Custom SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom.md).
 
 ## Integration Steps
 
@@ -181,7 +181,7 @@ func onPaymentError(_ code: Int32, description:String, andData response:[[AnyHas
 > 
 > **Handy Tips**
 > 
-> To reuse the Razorpay Checkout web integration inside a WebView on Android or iOS, pass a [callback_url](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/callback-url.md) along with other checkout options to process the desired payment.
+> To reuse the Razorpay Checkout web integration inside a WebView on Android or iOS, pass a [callback_url](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/callback-url.md) along with other checkout options to process the desired payment.
 > 
 
 ## 1.5 Store the Fields in Server

@@ -29,10 +29,10 @@ List of documents for a Limited Company/OPC
 - **PAN** of the company.
 - **Registered office address proof** in the name of the entity.
 - **Communication address proof**, if different from registered address.
-- [KYC of all the authorised signatories](@/Applications/MAMP/htdocs/new-docs/llm-content/x/idfc-first/kyc.md).
+- [KYC of all the authorised signatories](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/idfc-first/kyc.md).
 - **NPO Declaration** for section 8 company (formerly Section 25) (including Darpan registration certificate/ number for NPO) in case of Non-profit Companies.
 
-[Download Forms](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/IDFC.zip.md)
+[Download Forms](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/IDFC.zip.md)
 
 > **INFO**
 >

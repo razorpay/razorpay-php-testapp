@@ -37,7 +37,7 @@ You can enable **SMS Notifications** to receive SMS notifications for successful
        2. Click **Accounts & Settings** and go to **SMS** under **Notification settings**.
        3. Enable **SMS Notifications**.
 
-       ![Manage SMS Notifications](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/manage-sms-notifications.jpg.md)
+       ![Manage SMS Notifications](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/manage-sms-notifications.jpg.md)
        After SMS notifications are enabled, you start receiving notifications on the registered phone number. By default, this feature is set to **Enabled**. You can disable it using the toggle button.
       
 
@@ -50,7 +50,7 @@ You can receive WhatsApp notifications regarding settlements, account configurat
 > 
 > **Handy Tips**
 > 
-> This feature is available only to the owner user role. Know about the various [user roles](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team.md).
+> This feature is available only to the owner user role. Know about the various [user roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md).
 > 
 
    
@@ -60,6 +60,6 @@ You can receive WhatsApp notifications regarding settlements, account configurat
        2. Click **Accounts & Settings** and go to **WhatsApp** under **Notification settings**.
        3. Enable **WhatsApp Notifications**.
 
-       ![Manage WhatsApp Notifications](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/manage-whatsApp-notifications.jpg.md)
+       ![Manage WhatsApp Notifications](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/manage-whatsApp-notifications.jpg.md)
 
        After WhatsApp notifications are enabled, you start receiving notifications on the registered number. You can disable the WhatsApp notifications from the Dashboard.

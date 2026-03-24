@@ -64,7 +64,7 @@ razorpay.open();
 
 ## Checkout options
 
-Descriptions for the checkout options parameters are present in the [Checkout Options](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps/#123-checkout-options.md) table.
+Descriptions for the checkout options parameters are present in the [Checkout Options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#123-checkout-options) table.
 
 ## Orders API Sample Code
 
@@ -161,17 +161,17 @@ Order order = razorpay.orders.create(orderRequest);
 }
 ```
 
-Know more about [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 #### Request Parameters
 
-Descriptions for the request parameters are present in the [Create an Order Request Parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md) table.
+Descriptions for the request parameters are present in the [Create an Order Request Parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md) table.
 
 #### Response Parameters
 
-Descriptions for the response parameters are present in the [Orders Entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/entity.md) parameters table.
+Descriptions for the response parameters are present in the [Orders Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/entity.md) parameters table.
 
 ### Related Information
 
-- [Supported Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md)
-- [Sample Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/sample-code.md)
+- [Supported Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md)
+- [Sample Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/sample-code.md)

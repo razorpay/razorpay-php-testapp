@@ -14,12 +14,12 @@ Follow these steps to complete the integration:
 
 ### On Your WordPress Site
 
-1. [Install the Razorpay Subscriptions for WooCommerce Plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/woocommerce/build-integration/#step-1-install-razorpay-subscriptions-for-woocommerce-plugin.md).
-1. [Configure WooCommerce Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/woocommerce/build-integration/#step-2-configure-woocommerce-settings.md).
-1. [Create a Subscriptions product using WooCommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/woocommerce/build-integration/#step-3-create-a-subscriptions-products.md).
-1. [Test integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/woocommerce/test-integration.md).
+1. [Install the Razorpay Subscriptions for WooCommerce Plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/woocommerce/build-integration.md#step-1-install-razorpay-subscriptions-for-woocommerce-plugin).
+1. [Configure WooCommerce Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/woocommerce/build-integration.md#step-2-configure-woocommerce-settings).
+1. [Create a Subscriptions product using WooCommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/woocommerce/build-integration.md#step-3-create-a-subscriptions-products).
+1. [Test integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/woocommerce/test-integration.md).
 
-1. [Enable Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/woocommerce/build-integration/#you-can-track-the-payment-status-in-three.md). 
+1. [Enable Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/woocommerce/build-integration.md#you-can-track-the-payment-status-in-three). 
     These 3 webhooks are auto configured for woocommerce subscription plugin:
     - `subscription.cancelled`
     - `subscription.paused`
@@ -36,13 +36,13 @@ There are two methods to install the Razorpay Subscription for WooCommerce plugi
 You can search for the plugin on the WordPress Admin Dashboard and add it.
 1. In the **WordPress Admin Dashboard**, navigate to **Plugins** → **Add New**.
 2. Search for **Razorpay Subscriptions for WooCommerce** and click **Install Now**.
-    ![Install Razorpay Subscription via wordpress plugin directory](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-1.jpg.md)
+    ![Install Razorpay Subscription via wordpress plugin directory](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-1.jpg.md)
 3. Click **Activate**.
 
 #### Manual Installation
 1. [Download a ZIP file](https://github.com/razorpay/razorpay-woocommerce-subscriptions/releases) of the Razorpay WooCommerce Subscriptions Plugin from the repository on Github.
 2. Unzip this file and upload the contents in `wp-content` → Plugins.
-    ![Install Razorpay subscription via manual installation](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-2.jpg.md)
+    ![Install Razorpay subscription via manual installation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-2.jpg.md)
 3. The plugin now appears in your **WordPress Dashboard** → **Plugins** folder.
 4. Click **Activate**.
 
@@ -55,7 +55,7 @@ On your WordPress Dashboard, navigate to **WooCommerce** → **Settings** → **
 1. Under the **Payments** tab, go to **Razorpay** → **Allow customers to securely pay via Razorpay** and click **Manage**.
     
 
-    ![Configure Woocommerce settings on Razorpay Payments page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-3.jpg.md)
+    ![Configure Woocommerce settings on Razorpay Payments page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-3.jpg.md)
 2. On the **Razorpay Payment Gateway** page, fill in the following field details and click **Save**:
 
     
@@ -71,18 +71,18 @@ On your WordPress Dashboard, navigate to **WooCommerce** → **Settings** → **
     ---
     Key Secret | Enter the API Key Secret generated from the Dashboard.
     ---
-    Payment Action | To automatically capture successful payments, select `Authorize and Capture` option in the drop-down. Select `Authorize` if you want to capture payments manually from the [Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/dashboard/#manual-capture-of-payments.md) or using [API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/capture.md).
+    Payment Action | To automatically capture successful payments, select `Authorize and Capture` option in the drop-down. Select `Authorize` if you want to capture payments manually from the [Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/dashboard.md#manual-capture-of-payments) or using [API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/capture.md).
     ---
     Order Completion Message | Enter the message that must be displayed after an order is successfully placed.
     ---
-    Enable Webhook | Ensure that **Enable Razorpay Webhook** option is selected. [Set up webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md) from the Dashboard.
+    Enable Webhook | Ensure that **Enable Razorpay Webhook** option is selected. [Set up webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md) from the Dashboard.
     ---
     Webhook Secret | Enter the webhook secret here. Webhook secret is used for webhook signature verification. This must match with the one added on the Razorpay Dashboard.
     ---
     
     
 
-    ![Enter field details on Razorpay Payment Gateway page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-19.jpg.md)
+    ![Enter field details on Razorpay Payment Gateway page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-19.jpg.md)
 
 #### Settings for Razorpay Subscriptions
 
@@ -101,7 +101,7 @@ On your WordPress Dashboard, navigate to **WooCommerce** → **Settings** → **
     
     
 
-    ![Enter details on Razorpay Subscriptions Payment Gateway page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-20.jpg.md)
+    ![Enter details on Razorpay Subscriptions Payment Gateway page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-20.jpg.md)
 
 #### Step 3: Create a Subscriptions Product
 
@@ -137,11 +137,11 @@ Let us create a Subscriptions product for **GoFlicks PremiumWatch HD**.
         4. **Free trial:** Enter the period up to which the subscriber can use the product for free. The trial period cannot exceed 90 days, 52 weeks, 24 months or 5 years. A sign-up fee will still be charged from the outset of the subscription.
         5. **Sale Price:** Enter the discounted price at which you want to offer the product. For example, you may offer **GoFlicks PremiumWatch HD** at INR 899 per month for a limited period. You can schedule the special price by clicking **Schedule** and selecting the required dates on the calendar.
 
-        ![Create a Subscriptions product for GoFlicks PremiumWatch HD](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-4.jpg.md)
+        ![Create a Subscriptions product for GoFlicks PremiumWatch HD](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rzp-subscriptions-plugin-rzp-subs-plugin-4.jpg.md)
 
 The product is created successfully. Similarly, create another Subscriptions product for **GoFlicks StandardWatch**.
 - Check that the products are visible on the website to the users so that they can add it to their cart.
-- [Make a test transaction](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/woocommerce/test-integration.md) to ensure that the integration is working properly.
+- [Make a test transaction](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/woocommerce/test-integration.md) to ensure that the integration is working properly.
 
 ## Verify Payment Status
 
@@ -149,4 +149,4 @@ The product is created successfully. Similarly, create another Subscriptions pro
 
 ### Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/woocommerce/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/woocommerce/test-integration.md)

@@ -76,7 +76,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 : `string` The 3-character ISO code of the currency. Here, it is `INR`.
 
 `order_id` _mandatory_
-: `string` The unique identifier of the order created for this payment. Create an order using the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+: `string` The unique identifier of the order created for this payment. Create an order using the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 `email` _mandatory_
 : `string` The customer's email address.
@@ -282,7 +282,7 @@ https://api.razorpay.com/v1/payments/create/json \
     : `string` Obtained from the payer's browser using the `navigator.language` HTML DOM property. Maximum limit of 8 characters.
 
 `notes` _optional_
-: `object` Key-value object used for passing tracking info. Refer to [Notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) for more details.
+: `object` Key-value object used for passing tracking info. Refer to [Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) for more details.
 
 `callback_url` _optional_
 : `string` URL endpoint where Razorpay will submit the final payment status.

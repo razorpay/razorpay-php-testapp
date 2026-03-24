@@ -12,7 +12,7 @@ You can add your support details to the transaction emails sent to your customer
 To add support details:
 1. Log in to the Dashboard.
 2. Click **Account & Settings** and navigate to **Customer support details** under **Business settings** section. 
-    ![Add Customer Support Details on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-dashboard-customer-support-details-add.jpg.md)
+    ![Add Customer Support Details on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-dashboard-customer-support-details-add.jpg.md)
 3. Click **Add** and enter:
     - Phone Number
     - Email
@@ -25,5 +25,5 @@ To edit support details:
 1. Log in to the Dashboard.
 2. Click **Account & Settings** and navigate to **Customer support details** under **Business settings** section. 
 3. Navigate to the phone number, email or website/contact us link field and click **Edit**.
-    ![Edit Customer Support Details on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-dashboard-customer-support-details-edit.jpg.md)
+    ![Edit Customer Support Details on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-dashboard-customer-support-details-edit.jpg.md)
 4. Click **Submit**.

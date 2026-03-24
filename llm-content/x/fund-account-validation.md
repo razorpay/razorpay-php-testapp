@@ -8,7 +8,7 @@ description: Validate your customer's fund account to ensure it is the right acc
 
 It is important to validate your customer's fund account to ensure it is the account number where the user wants to receive the amount. Fund account validation is possible only for RazorpayX Lite.
 
-Know more about [Account Validation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/account-validation.md). 
+Know more about [Account Validation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/account-validation.md). 
 
 > **WARN**
 >
@@ -28,7 +28,7 @@ Know more about [Account Validation](@/Applications/MAMP/htdocs/new-docs/llm-con
 
 Below is a high-level diagrammatic overview of how to validate a contact's fund account in RazorpayX.
 
-![Fund Account Validation Transaction Workflow. To do so, refer to the steps below.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-RZPX-account-validation-flow.jpg.md)
+![Fund Account Validation Transaction Workflow. To do so, refer to the steps below.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-RZPX-account-validation-flow.jpg.md)
 
 The process to validate a fund account is similar to making a regular payout.
 
@@ -100,5 +100,5 @@ This state indicates that the account validation transaction has failed due to a
 
 ### Related Information
 
-- [Fund Account Validation FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts/faqs#fund-account-validation.md)
-- [Fund Account Validation APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-account-validation/api.md)
+- [Fund Account Validation FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts/faqs.md#fund-account-validation)
+- [Fund Account Validation APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-account-validation/api.md)

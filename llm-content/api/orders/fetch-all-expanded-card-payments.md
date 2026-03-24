@@ -242,7 +242,7 @@ List order = client.Order.All(orderRequest);
     
 
     `order_id`
-    : `string` Order id, if provided. Know more about [Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders.md).
+    : `string` Order id, if provided. Know more about [Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders.md).
 
     `description`
     : `string` Description of the payment, if any.
@@ -404,7 +404,7 @@ List order = client.Order.All(orderRequest);
            
            
 
-           Know how to accept payments made by customers using [corporate cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/corporate-cards.md).
+           Know how to accept payments made by customers using [corporate cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/corporate-cards.md).
 
 ### Errors
 

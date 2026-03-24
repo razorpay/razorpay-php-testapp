@@ -32,7 +32,7 @@ This is an account-level setting. If enabled, all Payment Links have the same re
      4. Configure reminders for links with and without an expiry date. You can set a maximum of 3 reminders.
      5. Select the channel to send the reminders — SMS, email, or both.
 
-     ![Payment Links Reminders](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-reminders_enabled.jpg.md)
+     ![Payment Links Reminders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-reminders_enabled.jpg.md)
     
 
 > **WARN**
@@ -40,7 +40,7 @@ This is an account-level setting. If enabled, all Payment Links have the same re
 > 
 > **Watch Out!**
 > 
-> Customers will receive the reminder email or SMS only if their contact and email details were provided when the Payment Link was created. Know more about [creating Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/create.md).
+> Customers will receive the reminder email or SMS only if their contact and email details were provided when the Payment Link was created. Know more about [creating Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/create.md).
 > 
 
   
@@ -103,7 +103,7 @@ You can enable or disable reminders for individual Payment Links.
      1. Click **Create Payment Link** to create the Payment Link.
 
      
-     ![Enable or disable reminders when creating a Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-auto-reminders.jpg.md)
+     ![Enable or disable reminders when creating a Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-auto-reminders.jpg.md)
      
 
      
@@ -121,7 +121,7 @@ You can enable or disable reminders for individual Payment Links.
      1. Enable or disable the **Send auto reminders** option.
 
      
-     ![Edit reminders for an issued Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-send-auto-reminders.jpg.md)
+     ![Edit reminders for an issued Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-send-auto-reminders.jpg.md)
      
 
      
@@ -139,21 +139,21 @@ You can set reminders for Payment Links when creating them via bulk upload.
 > By default, reminders are not enabled during batch creation of Payment Links.
 > 
 
-![Reminders for bulk uploads](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-bulk-reminders.jpg.md)
+![Reminders for bulk uploads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-bulk-reminders.jpg.md)
 
-Know more about enabling or disabling reminders when creating [Payment Links using Bulk Upload](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/batch/#:~:text=Send%20auto%20reminders.md).
+Know more about enabling or disabling reminders when creating [Payment Links using Bulk Upload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/batch.md#:~:text=Send%20auto%20reminders).
 
 ## Send Reminders Using API
 
 You can send reminders for Payment Links to customers using the API. Reminders are enabled by default during Payment Link creation.
 
-- `reminder_enable` parameter in [Create a Standard Payment Link API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/create-standard.md)
-- `reminder_enable` parameter in [Create a UPI Payment Link API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/create-upi.md)
+- `reminder_enable` parameter in [Create a Standard Payment Link API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links/create-standard.md)
+- `reminder_enable` parameter in [Create a UPI Payment Link API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links/create-upi.md)
 
 #### Related Information
 
-- [How Payment Links Work](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/how-it-works.md)
-- [Payment Link States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/states.md)
-- [Create a Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/create.md)
-- [Payment Links APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links.md)
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/faqs.md)
+- [How Payment Links Work](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/how-it-works.md)
+- [Payment Link States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/states.md)
+- [Create a Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/create.md)
+- [Payment Links APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/faqs.md)

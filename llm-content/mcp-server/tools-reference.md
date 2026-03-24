@@ -107,6 +107,6 @@ Tool | Description | API Link | Remote Server Support
 
 ## Next Steps
 
-- [Remote MCP Server](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/remote.md) (recommended)
-- [Local MCP Server](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/local.md)
-- [View Use Cases](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/use-cases.md)
+- [Remote MCP Server](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/remote.md) (recommended)
+- [Local MCP Server](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/local.md)
+- [View Use Cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/use-cases.md)

@@ -19,15 +19,15 @@ With Razorpay Direct Settlements, you can:
 
 To facilitate a successful end-to-end Direct Settlement transaction:
 - Create a Razorpay Account.
-- Ensure to have a banking account after successful [KYC verification](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#kyc-verification.md).
+- Ensure to have a banking account after successful [KYC verification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#kyc-verification).
 
 ## Direct Settlement Flow
 
-Unlike [Razorpay Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements.md), the **Direct Settlement** process skips the flow of money into your Razorpay account. It lets the partner payment gateway or an acquiring bank settle funds directly into your account. As this is a merchant-level configuration, it prevents settlement creation for payments received on your Razorpay account.
+Unlike [Razorpay Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md), the **Direct Settlement** process skips the flow of money into your Razorpay account. It lets the partner payment gateway or an acquiring bank settle funds directly into your account. As this is a merchant-level configuration, it prevents settlement creation for payments received on your Razorpay account.
 
 Following is the Direct Settlement flow diagram:
 
-![direct settlement cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-direct-settlement-cycle.jpg.md)
+![direct settlement cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-direct-settlement-cycle.jpg.md)
 
 The credits settled to your account are authorized by Razorpay, regardless of the settlement transaction data available in the Razorpay system.
 

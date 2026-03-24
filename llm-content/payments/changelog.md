@@ -17,178 +17,180 @@ Expand each section to view the changelog since Jan 2024.
          
          Month-Year | Product | Description
          ---
-         Feb 2026 | Payment Methods | [UPI Collect](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/#upi-payment-flow.md) flow is being deprecated effective 28 February 2026. Existing users must migrate to UPI Intent or UPI QR code to continue accepting UPI payments.
+         Mar 2026 | Payment Methods | Change in interest rates for [SBI Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#-11).
          ---
-         Feb 2026 | Magic Checkout | Introduced [Order](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/analytics/order.md) and [Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/analytics/conversion.md) analytics on Razorpay Dashboard.
+         Feb 2026 | Payment Methods | [UPI Collect](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi.md#upi-payment-flow) flow is being deprecated effective 28 February 2026. Existing users must migrate to UPI Intent or UPI QR code to continue accepting UPI payments.
          ---
-         Jan 2026 | Payment Methods | Added new [card numbers and error scenario test cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details.md) to improve payment failure testing.
+         Feb 2026 | Magic Checkout | Introduced [Order](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/analytics/order.md) and [Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/analytics/conversion.md) analytics on Razorpay Dashboard.
          ---
-         Jan 2026 | Dashboard | Introduced new user roles on the Dashboard: [Pseudo Owner](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team/#pseudo-owner.md) for delegated owner access, [View-Only (Auditor)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team/#view-only-auditor.md) for read-only access and [Dispute Manager](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team/#dispute-manager.md) for focused dispute handling.
+         Jan 2026 | Payment Methods | Added new [card numbers and error scenario test cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md) to improve payment failure testing.
          ---
-         Jan 2026 | Payments Onboarding | Introduction of [Central KYC Onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#set-up-a-razorpay-account-and-complete-kyc.md) to enable complete account activation within minutes.
+         Jan 2026 | Dashboard | Introduced new user roles on the Dashboard: [Pseudo Owner](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md#pseudo-owner) for delegated owner access, [View-Only (Auditor)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md#view-only-auditor) for read-only access and [Dispute Manager](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md#dispute-manager) for focused dispute handling.
          ---
-         Jan 2026 | Payment Methods | Change in interest rates for [SBI Credit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#-11.md).
+         Jan 2026 | Payments Onboarding | Introduction of [Central KYC Onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#set-up-a-razorpay-account-and-complete-kyc) to enable complete account activation within minutes.
          ---
-         Dec 2025 | Magic Checkout | Introduced [Orders and Checkout Reports](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/analytics/reports.md) on Magic Checkout.
+         Jan 2026 | Payment Methods | Change in interest rates for [SBI Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#-11).
          ---
-         Nov 2025 | Optimizer | Introduced [Airpay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/airpay.md) payment provider on Optimizer.
+         Dec 2025 | Magic Checkout | Introduced [Orders and Checkout Reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/analytics/reports.md) on Magic Checkout.
          ---
-         Nov 2025 | Payment Method | Introduced [Customer Fee Bearer (CFB) feature on Credit Card on UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/cc-on-upi/#customer-fee-bearer.md) payment method.
+         Nov 2025 | Optimizer | Introduced [Airpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/airpay.md) payment provider on Optimizer.
          ---
-         Oct 2025 | Payment Method | Introduced [UPI Reserve Pay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upi-reserve-pay.md), a new variant under UPI Autopay that enables businesses to block funds in customer accounts upfront and automatically debit exact amounts as products or services are delivered.
+         Nov 2025 | Payment Method | Introduced [Customer Fee Bearer (CFB) feature on Credit Card on UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/cc-on-upi.md#customer-fee-bearer) payment method.
          ---
-         Sep 2025 | Payment Method | Introduced [Apple Pay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/apple-pay.md) payment method that allows international customers to pay using their Apple devices.
+         Oct 2025 | Payment Method | Introduced [UPI Reserve Pay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upi-reserve-pay.md), a new variant under UPI Autopay that enables businesses to block funds in customer accounts upfront and automatically debit exact amounts as products or services are delivered.
          ---
-         Sep 2025 | Payment Methods | Change in interest rates for [SBI Credit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#-11.md) and [IDFB Credit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#-7.md).
+         Sep 2025 | Payment Method | Introduced [Apple Pay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/apple-pay.md) payment method that allows international customers to pay using their Apple devices.
+         ---
+         Sep 2025 | Payment Methods | Change in interest rates for [SBI Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#-11) and [IDFB Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#-7).
          ---
          Sep 2025 | Payment Methods | Freecharge is disabled as a payment provider.
          ---
-         Aug 2025 | Route for Direct Settlements | Introduced [Route for Direct Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/direct/route.md) to help automate payment splits for DS transactions, letting businesses auto-distribute funds to linked accounts.
+         Aug 2025 | Route for Direct Settlements | Introduced [Route for Direct Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/direct/route.md) to help automate payment splits for DS transactions, letting businesses auto-distribute funds to linked accounts.
          ---
          Aug 2025 | Payment Methods | CASHe, KreditBee, TVS Credit and Bank of Baroda has been deprecated as Cardless EMI provider.
          ---
          Aug 2025 | Payment Methods | IndusInd Bank has been deprecated as a Debit Card EMI provider.
          ---
-         Aug 2025 | Custom Reports | Introduced [Custom Reports](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/reports/custom-reports.md) to help businesses gain deeper financial insights.
+         Aug 2025 | Custom Reports | Introduced [Custom Reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/reports/custom-reports.md) to help businesses gain deeper financial insights.
          ---
-         Jul 2025 | Optimizer | Introduced [CAMSPay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/camspay.md) payment provider on Optimizer.
+         Jul 2025 | Optimizer | Introduced [CAMSPay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/camspay.md) payment provider on Optimizer.
          ---
-         Jul 2025 | Payment Methods | Change in interest rates for [SBI Credit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#-11.md) and [IndusInd Debit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#for-1.md).
+         Jul 2025 | Payment Methods | Change in interest rates for [SBI Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#-11) and [IndusInd Debit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#for-1).
          ---
-         Jul 2025 | Optimizer | Introduced [ShopSe](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/shopse.md) and [Snapmint](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/snapmint.md) as Cardless EMI payment providers. 
+         Jul 2025 | Optimizer | Introduced [ShopSe](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/shopse.md) and [Snapmint](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/snapmint.md) as Cardless EMI payment providers. 
          ---
-         Jun 2025 | Payment Methods | [LazyPay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi/#supported-payment-partners.md) is re-enabled as Pay Later provider.
+         Jun 2025 | Payment Methods | [LazyPay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi.md#supported-payment-partners) is re-enabled as Pay Later provider.
          ---
-         Jun 2025 | Payment Metods | Introduced [Cash on Delivery](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cod.md) as a payment method on the checkout page.
+         Jun 2025 | Payment Metods | Introduced [Cash on Delivery](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cod.md) as a payment method on the checkout page.
          ---
-         Jun 2025 | Payment Methods | Introduced [Cash on Delivery](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cod.md) as a payment method on the checkout page.
+         Jun 2025 | Payment Methods | Introduced [Cash on Delivery](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cod.md) as a payment method on the checkout page.
          ---
-         Jun 2025 | Payment Metods | Introduced [Cash on Delivery](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cod.md) as a payment method on the checkout page.
+         Jun 2025 | Payment Metods | Introduced [Cash on Delivery](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cod.md) as a payment method on the checkout page.
          ---
-         Jun 2025 | Magic Checkout | Introduced [Customer Analytics](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/login-with-razorpay/customer-analytics.md) on Shopify to track customer login activity, account creation and checkout behaviour. 
+         Jun 2025 | Magic Checkout | Introduced [Customer Analytics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/login-with-razorpay/customer-analytics.md) on Shopify to track customer login activity, account creation and checkout behaviour. 
          ---
-         May 2025 | Magic Checkout | Introduced [Automatic Customer Tagging for Retargeting](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/login-with-razorpay/automation-tags.md) on Shopify to enable personalised retargeting campaigns.
+         May 2025 | Magic Checkout | Introduced [Automatic Customer Tagging for Retargeting](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/login-with-razorpay/automation-tags.md) on Shopify to enable personalised retargeting campaigns.
          ---
-         May 2025 | Magic Checkout | Introduced [Login with Razorpay (SSO)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/login-with-razorpay.md) on Shopify for a seamless login experience. 
+         May 2025 | Magic Checkout | Introduced [Login with Razorpay (SSO)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/login-with-razorpay.md) on Shopify for a seamless login experience. 
          ---
-         Apr 2025 | Optimizer | [Simpl PayLater (Pay-in-3)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/simpl.md) is now available on Optimizer as a payment provider.
+         Apr 2025 | Optimizer | [Simpl PayLater (Pay-in-3)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/simpl.md) is now available on Optimizer as a payment provider.
          ---
-         Apr 2025 | Magic Checkout | Added [Abandoned Cart Webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/abandoned-cart.md) option to track when a customer drops off during the checkout journey and retarget them.
+         Apr 2025 | Magic Checkout | Added [Abandoned Cart Webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/abandoned-cart.md) option to track when a customer drops off during the checkout journey and retarget them.
          ---
          Apr 2025 | Webstore | Razorpay Storefront Pages is now renamed to Razorpay Webstore.
          ---
          Apr 2025 | Hosted Checkout | Hosted Integration has been deprecated and is no longer supported.
          ---
-         Mar 2025 | Checkout | New [payment configurations](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-configuration.md) available on the Dashboard, offering enhanced control over payment options on checkout.
+         Mar 2025 | Checkout | New [payment configurations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-configuration.md) available on the Dashboard, offering enhanced control over payment options on checkout.
          ---
-         Mar 2025 | Checkout | Introduced [Order Milestones Badge](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/features.md) on Razorpay Checkout.
+         Mar 2025 | Checkout | Introduced [Order Milestones Badge](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/features.md) on Razorpay Checkout.
          ---
-         Mar 2025 | Checkout | Introduced [Biometric Authentication](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/features.md) (fingerprint login to access saved cards) on Razorpay Checkout.
+         Mar 2025 | Checkout | Introduced [Biometric Authentication](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/features.md) (fingerprint login to access saved cards) on Razorpay Checkout.
          ---
-         Mar 2025 | Payment Methods | Change in interest rates for [SBI Credit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#-11.md).
+         Mar 2025 | Payment Methods | Change in interest rates for [SBI Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#-11).
          ---
-         Mar 2025 | Smart Settlements | Introduced [Smart Settlement](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/instant/#initiate-smart-settlements.md), a sub-feature of Instant Settlements, which enables you to settle amounts upto ₹50 Cr instantly, as a single entry, using the RTGS channel.
+         Mar 2025 | Smart Settlements | Introduced [Smart Settlement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/instant.md#initiate-smart-settlements), a sub-feature of Instant Settlements, which enables you to settle amounts upto ₹50 Cr instantly, as a single entry, using the RTGS channel.
          ---
-         Mar 2025 | International Payments | Added support for accepting international payments via [Amazon Marketplace](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-bank-transfer/connect-platforms.md) with Razorpay as an approved PSP.
+         Mar 2025 | International Payments | Added support for accepting international payments via [Amazon Marketplace](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer/connect-platforms.md) with Razorpay as an approved PSP.
          ---
-         Feb 2025 | International Payments | Added the [Forex Holiday Calendar 2025](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#forex-holiday-calendar-2025.md), which highlights days when forex trading is impacted by holidays in India and the United States.
+         Feb 2025 | International Payments | Added the [Forex Holiday Calendar 2025](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#forex-holiday-calendar-2025), which highlights days when forex trading is impacted by holidays in India and the United States.
          ---
-         Feb 2025 | Smart Collect 2.0 | Use the enhanced features of [Smart Collect 2.0](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect.md) to collect your payments in a quicker and smarter way.
+         Feb 2025 | Smart Collect 2.0 | Use the enhanced features of [Smart Collect 2.0](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect.md) to collect your payments in a quicker and smarter way.
          ---
-         Feb 2025 | Buyer Protection | Introducing [Razorpay Buyer Protection on Shopify](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/widgets/buyer-protection/shopify.md).
+         Feb 2025 | Buyer Protection | Introducing [Razorpay Buyer Protection on Shopify](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/widgets/buyer-protection/shopify.md).
          ---
-         Jan 2025 | Buyer Protection | Introducing [Razorpay Buyer Protection Program](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/widgets/buyer-protection.md) designed to safeguard your customers' purchases.
+         Jan 2025 | Buyer Protection | Introducing [Razorpay Buyer Protection Program](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/widgets/buyer-protection.md) designed to safeguard your customers' purchases.
          ---
-         Jan 2025 | Optimizer | [ZaakPay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/zaakpay.md) is now available on Optimizer as a payment provider.
+         Jan 2025 | Optimizer | [ZaakPay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/zaakpay.md) is now available on Optimizer as a payment provider.
          ---
-         Dec 2024 | Checkout | Introduced [festive theme](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/checkout-styling/#festive-theme.md) on Razorpay Checkout.
+         Dec 2024 | Checkout | Introduced [festive theme](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-styling.md#festive-theme) on Razorpay Checkout.
          ---
-         Dec 2024 | Checkout | Improved [autofill capabilities](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/features.md) available on Razorpay Checkout.
+         Dec 2024 | Checkout | Improved [autofill capabilities](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/features.md) available on Razorpay Checkout.
          ---
-         Dec 2024 | TPAP Pro | Introduced [Razorpay TPAP Pro](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/tpap-pro.md), a SaaS offering that empowers businesses to transform into UPI Third Party Application Providers (TPAPs).
+         Dec 2024 | TPAP Pro | Introduced [Razorpay TPAP Pro](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/tpap-pro.md), a SaaS offering that empowers businesses to transform into UPI Third Party Application Providers (TPAPs).
          ---
-         Nov 2024 | EMI² | The Razorpay Affordability Suite is rebranded as [EMI² Suite](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi².md).
+         Nov 2024 | EMI² | The Razorpay Affordability Suite is rebranded as [EMI² Suite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi².md).
          ---
-         Nov 2024 | Account Creation | You can [create multiple new accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#create-multiple-accounts.md) with the same mobile number and email id.
+         Nov 2024 | Account Creation | You can [create multiple new accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#create-multiple-accounts) with the same mobile number and email id.
          ---
-         Oct 2024 | Checkout | New [checkout configurations](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/#checkout-settings.md) available on the Dashboard, offering enhanced control over customisations.
+         Oct 2024 | Checkout | New [checkout configurations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings.md#checkout-settings) available on the Dashboard, offering enhanced control over customisations.
          ---
-         Oct 2024 | Payment Methods | Change in minimum order amount for [ZestMoney Cardless EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi/#supported-payment-partners.md).
+         Oct 2024 | Payment Methods | Change in minimum order amount for [ZestMoney Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi.md#supported-payment-partners).
          ---
-         Oct 2024 | Optimizer | - [PhonePe](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/phonepe.md) is now available on Optimizer as a payment provider.
--  You can now [collect convenience fee specific to a payment gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/gateway-convenience-fees.md) on Optimizer.
+         Oct 2024 | Optimizer | - [PhonePe](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/phonepe.md) is now available on Optimizer as a payment provider.
+-  You can now [collect convenience fee specific to a payment gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/gateway-convenience-fees.md) on Optimizer.
 
          ---
-         Sep 2024 | Optimizer | - [Pay10](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/pay10.md) is now available on Optimizer as a payment provider.
--  [RuPay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/native-otp/#supported-payment-methods-cards-networks-and-payment-gateways.md) is now supported as a card network for Paytm, Cashfree, Easebuzz, PineLabs and PayU for Optimizer Native OTP.
--  [CCAvenue](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/native-otp/#supported-payment-methods-cards-networks-and-payment-gateways.md) is now supported as a payment gateway for Optimizer Native OTP.
-- [Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/easebuzz/#supported-payment-methods.md) is now available on Easebuzz as a payment method.
+         Sep 2024 | Optimizer | - [Pay10](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/pay10.md) is now available on Optimizer as a payment provider.
+-  [RuPay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/native-otp.md#supported-payment-methods-cards-networks-and-payment-gateways) is now supported as a card network for Paytm, Cashfree, Easebuzz, PineLabs and PayU for Optimizer Native OTP.
+-  [CCAvenue](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/native-otp.md#supported-payment-methods-cards-networks-and-payment-gateways) is now supported as a payment gateway for Optimizer Native OTP.
+- [Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/easebuzz.md#supported-payment-methods) is now available on Easebuzz as a payment method.
 
          ---
-         Sep 2024 | Smart Collect 2.0 | Introduced [Smart Collect 2.0](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect.md) to create Customer Identifiers (CIs) on demand and accept direct payments via multiple payment modes in a single account.
+         Sep 2024 | Smart Collect 2.0 | Introduced [Smart Collect 2.0](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect.md) to create Customer Identifiers (CIs) on demand and accept direct payments via multiple payment modes in a single account.
          ---
-         Sep 2024 | Magic Checkout | [Coupon auto-application is now available on Coupon Engine.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#method-1-razorpay-dashboard-2.md)
+         Sep 2024 | Magic Checkout | [Coupon auto-application is now available on Coupon Engine.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#method-1-razorpay-dashboard-2)
          ---
-         Sep 2024 | QuickBuy | Introduced QuickBuy, a 1-click payment experience on [Standard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/features/quickbuy.md) and [Magic Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/features/quickbuy.md).
+         Sep 2024 | QuickBuy | Introduced QuickBuy, a 1-click payment experience on [Standard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/features/quickbuy.md) and [Magic Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/features/quickbuy.md).
          ---
-         Jul 2024 | Optimizer | [Integration Audit](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/integration-audit.md) is now available on Optimizer.
+         Jul 2024 | Optimizer | [Integration Audit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/integration-audit.md) is now available on Optimizer.
          ---
-         Jul 2024 | Payment Methods | Change in interest rates for [Federal bank Credit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#1-what-are-the-standard-credit-card-interest.md).
+         Jul 2024 | Payment Methods | Change in interest rates for [Federal bank Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#1-what-are-the-standard-credit-card-interest).
          ---
-         Jun 2024 | Payment Methods | You can now accept payments from customers using [ICICI Debit Card EMIs.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/debit-card-emi/#supported-banks-for-debit-card-emis.md)
+         Jun 2024 | Payment Methods | You can now accept payments from customers using [ICICI Debit Card EMIs.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md#supported-banks-for-debit-card-emis)
          ---
-         Jun 2024 | Turbo UPI | Added a library dependency to enable Turbo UPI integration for the [Flutter SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/standard/payment-methods/turbo-upi/#library-dependencies.md).
+         Jun 2024 | Turbo UPI | Added a library dependency to enable Turbo UPI integration for the [Flutter SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/standard/payment-methods/turbo-upi.md#library-dependencies).
          ---
-         Jul 2024 | Instant Settlements | Introduced [daily settlement limits](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/instant.md) to make instant settlements more predictable and to enjoy higher success rate.
+         Jul 2024 | Instant Settlements | Introduced [daily settlement limits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/instant.md) to make instant settlements more predictable and to enjoy higher success rate.
          ---
-         May 2024 | International Payments | You can now accept payments in [zero–decimal currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md) such as JPY.
+         May 2024 | International Payments | You can now accept payments in [zero–decimal currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies) such as JPY.
          ---
-         May 2024 | Third Party Validation | Added support for additional banks for [Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/bank-list/#list-of-banks-supporting-tpv-for-netbanking.md) and [UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/bank-list/#list-of-banks-supporting-tpv-for-upi.md) TPV.
+         May 2024 | Third Party Validation | Added support for additional banks for [Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation/bank-list.md#list-of-banks-supporting-tpv-for-netbanking) and [UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation/bank-list.md#list-of-banks-supporting-tpv-for-upi) TPV.
          ---
-         May 2024 | Optimizer | You can now [collect convenience fee](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/convenience-fees.md) from your customers.
+         May 2024 | Optimizer | You can now [collect convenience fee](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/convenience-fees.md) from your customers.
          ---
-         Apr 2024 | Subscriptions | [RuPay cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md) from all major banks are supported for Subscriptions.
+         Apr 2024 | Subscriptions | [RuPay cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md) from all major banks are supported for Subscriptions.
          ---
-         Apr 2024 | Magic Checkout | - Zipcode shipping option is added on [WooCommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/configuration/#shipping-options.md) and [Shopify](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#shipping-options.md).
--  [Convert COD orders to prepaid is now available on WooCommerce.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/configuration/#convert-cod-orders-to-prepaid.md)
--  [Additional conversion options to convert COD orders to prepaid on Shopify.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/order-settings/prepay-cod.md)
-- [ClickPost](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/clickpost.md) is added as another logistics provider.
+         Apr 2024 | Magic Checkout | - Zipcode shipping option is added on [WooCommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce/configuration.md#shipping-options) and [Shopify](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#shipping-options).
+-  [Convert COD orders to prepaid is now available on WooCommerce.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce/configuration.md#convert-cod-orders-to-prepaid)
+-  [Additional conversion options to convert COD orders to prepaid on Shopify.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/order-settings/prepay-cod.md)
+- [ClickPost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/clickpost.md) is added as another logistics provider.
 
          ---
-         Apr 2024 | Optimizer | - [CVV-less flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/cvv-less-flow.md) for card payments is now available on Optimizer.
-- [Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/refunds.md) are now available on Optimizer.
-- [Easebuzz](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/easebuzz.md) is now available on Optimizer.
-- [ Visa, MasterCard, Diners, Amex and Rupay card networks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/tokenisation/#supported-payment-gateways-and-card-networks.md) have now been enabled for tokenization in Optimizer with Easebuzz.
-- [Diners and Amex card networks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/tokenisation/#supported-payment-gateways-and-card-networks.md) have now been enabled for tokenization in Optimizer with Billdesk.
-- [Rupay and Amex card networks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/tokenisation/#supported-payment-gateways-and-card-networks.md) have now been enabled for tokenization in Optimizer with Cashfree.
-- [Diners and Amex card networks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/tokenisation/#supported-payment-gateways-and-card-networks.md) have now been enabled for tokenization in Optimizer with Paytm.
-- [Diners and Amex card networks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/tokenisation/#supported-payment-gateways-and-card-networks.md) have now been enabled for tokenization in Optimizer with Paytm and PineLabs.
-- [Diners card network](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/tokenisation/#supported-payment-gateways-and-card-networks.md) has now been enabled for tokenization in Optimizer with PayU.
+         Apr 2024 | Optimizer | - [CVV-less flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/cvv-less-flow.md) for card payments is now available on Optimizer.
+- [Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/refunds.md) are now available on Optimizer.
+- [Easebuzz](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/easebuzz.md) is now available on Optimizer.
+- [ Visa, MasterCard, Diners, Amex and Rupay card networks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/tokenisation.md#supported-payment-gateways-and-card-networks) have now been enabled for tokenization in Optimizer with Easebuzz.
+- [Diners and Amex card networks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/tokenisation.md#supported-payment-gateways-and-card-networks) have now been enabled for tokenization in Optimizer with Billdesk.
+- [Rupay and Amex card networks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/tokenisation.md#supported-payment-gateways-and-card-networks) have now been enabled for tokenization in Optimizer with Cashfree.
+- [Diners and Amex card networks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/tokenisation.md#supported-payment-gateways-and-card-networks) have now been enabled for tokenization in Optimizer with Paytm.
+- [Diners and Amex card networks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/tokenisation.md#supported-payment-gateways-and-card-networks) have now been enabled for tokenization in Optimizer with Paytm and PineLabs.
+- [Diners card network](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/tokenisation.md#supported-payment-gateways-and-card-networks) has now been enabled for tokenization in Optimizer with PayU.
 
          ---
-         Apr 2024 | Payment Methods | Change in interest rates for [Bank of Baroda, Citibank and IDFC bank Credit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#1-what-are-the-standard-credit-card-interest.md).
+         Apr 2024 | Payment Methods | Change in interest rates for [Bank of Baroda, Citibank and IDFC bank Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#1-what-are-the-standard-credit-card-interest).
          ---
-         Mar 2024 | Payment Methods | - [Bajaj Finserv and ZestMoney](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi/#supported-payment-partners.md) are re-enabled as Cardless EMI providers.
-- [Bank of Baroda](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi/#supported-payment-partners.md) has been deprecated as a Cardless EMI provider.
+         Mar 2024 | Payment Methods | - [Bajaj Finserv and ZestMoney](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi.md#supported-payment-partners) are re-enabled as Cardless EMI providers.
+- [Bank of Baroda](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi.md#supported-payment-partners) has been deprecated as a Cardless EMI provider.
 
          ---
-         Mar 2024 | Magic Checkout | [Coupons feature improvements on Shopify.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#method-1-razorpay-dashboard-2.md)
+         Mar 2024 | Magic Checkout | [Coupons feature improvements on Shopify.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#method-1-razorpay-dashboard-2)
          ---
-         Feb 2024 | Magic Checkout| [Coupons is now available on Shopify.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#method-1-razorpay-dashboard-2.md)
+         Feb 2024 | Magic Checkout| [Coupons is now available on Shopify.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#method-1-razorpay-dashboard-2)
          ---
-         Feb 2024 | Turbo UPI | - Removed dependency on bank and NPCI environments to simplify integration testing in [Android Standard Mock SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/payment-methods/integration-mock.md).
--  Third-party bank account validation for BFSI businesses is now mandatory in [Android Standard TPV SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/payment-methods/integration-tpv.md) and [Cordova Standard TPV SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/cordova-integration/payment-methods/integration-tpv.md).
+         Feb 2024 | Turbo UPI | - Removed dependency on bank and NPCI environments to simplify integration testing in [Android Standard Mock SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/payment-methods/integration-mock.md).
+-  Third-party bank account validation for BFSI businesses is now mandatory in [Android Standard TPV SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/payment-methods/integration-tpv.md) and [Cordova Standard TPV SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/cordova-integration/payment-methods/integration-tpv.md).
 
          ---
-         Feb 2024 | Smart Collect | [VPA](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect.md) is now deprecated from Smart Collect.
+         Feb 2024 | Smart Collect | [VPA](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect.md) is now deprecated from Smart Collect.
          ---
-         Feb 2024 | Payment Methods | Change in interest rates for [HSBC Credit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#1-what-are-the-standard-credit-card-interest.md).
+         Feb 2024 | Payment Methods | Change in interest rates for [HSBC Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#1-what-are-the-standard-credit-card-interest).
          ---
-         Jan 2024 | Payment Methods | - Change in interest rates for [SBI Credit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#1-what-are-the-standard-credit-card-interest.md).
--  [PayPal](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later/#supported-pay-later-providers.md) is added as another Pay Later payment method provider.
+         Jan 2024 | Payment Methods | - Change in interest rates for [SBI Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#1-what-are-the-standard-credit-card-interest).
+-  [PayPal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md#supported-pay-later-providers) is added as another Pay Later payment method provider.
 
          ---
-         Jan 2024 | Turbo UPI | You can now integrate [Turbo UPI using Cordova Standard SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/cordova-integration/payment-methods/turbo-upi.md).
+         Jan 2024 | Turbo UPI | You can now integrate [Turbo UPI using Cordova Standard SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/cordova-integration/payment-methods/turbo-upi.md).
               
         
 
@@ -690,9 +692,9 @@ Internal tech bug fixes.
         
         Month-Year | Product | Description
         ---
-        Feb 2024 | Widgets | [Launched Razorpay Trusted Business Widget for WooCommerce.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/widgets/trusted-business/rtb-widget-woocommerce.md)
+        Feb 2024 | Widgets | [Launched Razorpay Trusted Business Widget for WooCommerce.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/widgets/trusted-business/rtb-widget-woocommerce.md)
         ---
-        Jan 2024 | Widgets | [Launched Razorpay Trusted Business Widget for Shopify.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/widgets/trusted-business/rtb-widget-shopify.md)
+        Jan 2024 | Widgets | [Launched Razorpay Trusted Business Widget for Shopify.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/widgets/trusted-business/rtb-widget-shopify.md)
              
         
 
@@ -702,6 +704,6 @@ Internal tech bug fixes.
         
         Month-Year | Product | Description
         ---
-        Oct 2025 | SSL Certificates | [Issued new SSL certificates for `api.razorpay.com` for 2025 - 2026.](@/Applications/MAMP/htdocs/new-docs/llm-content/security/whitelists/#ssl-certificates.md)
+        Oct 2025 | SSL Certificates | [Issued new SSL certificates for `api.razorpay.com` for 2025 - 2026.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/whitelists.md#ssl-certificates)
         ---
-        Jan 2024 | SSL Certificates | [Issued new SSL certificates for `api.razorpay.com` for 2024 - 2025.](@/Applications/MAMP/htdocs/new-docs/llm-content/security/whitelists/#ssl-certificates.md)
+        Jan 2024 | SSL Certificates | [Issued new SSL certificates for `api.razorpay.com` for 2024 - 2025.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/whitelists.md#ssl-certificates)

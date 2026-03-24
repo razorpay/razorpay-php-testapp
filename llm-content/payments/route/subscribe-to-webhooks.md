@@ -17,12 +17,12 @@ Webhook Event | Description
 ---
 `transfer.processed` | Triggered when a transfer made to a Linked Account is processed.
 ---
-`settlement.processed` | Triggered when a transfer made to a Linked Account is settled with the parent merchant. (Available only for [Razorpay Route](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route.md)).
+`settlement.processed` | Triggered when a transfer made to a Linked Account is settled with the parent merchant. (Available only for [Razorpay Route](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route.md)).
 ---
 `transfers.failed` | Triggered when a transfer made to a Linked Account is failed.
 
-Know more about [ Webhooks ](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) and check the [sample payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/route.md).
+Know more about [ Webhooks ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) and check the [sample payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/route.md).
 
 ### Related Information
 
-[Route APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/apis.md)
+[Route APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/apis.md)

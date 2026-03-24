@@ -12,7 +12,7 @@ The Store Management module in Billme provides a comprehensive solution for orga
 
 With Store Management, businesses can stay informed and in control of their entire retail footprint in real time. The Store Management page enables businesses to monitor store activity, maintain visibility across locations and take quick action if needed.
 
-![Store Management](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/store-management-company-page.jpg.md)
+![Store Management](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/store-management-company-page.jpg.md)
 
     
 ### Key Features

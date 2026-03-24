@@ -33,13 +33,13 @@ To setup the Vendor Portal:
    - Phone
    - Email
  
-   ![Vendor Portal - Set up Public Profile](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-setup-vendor-portal.jpg.md)
+   ![Vendor Portal - Set up Public Profile](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-setup-vendor-portal.jpg.md)
  
    
 
    **Edit details** if required or click **Save And Continue**.
  
-6. You can either **Invite all vendors** or **Select vendors** from the contact list. Only the [Contact type](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts/#contact-types.md) saved as **vendor** is eligible to use the portal.
+6. You can either **Invite all vendors** or **Select vendors** from the contact list. Only the [Contact type](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md#contact-types) saved as **vendor** is eligible to use the portal.
  
 ## Invite Vendors
 
@@ -48,7 +48,7 @@ After you set up the portal, you can invite your vendors.
 1. On your [RazorpayX Dashboard](https://x.razorpay.com/), navigate to **Menu** → **Contacts**.
 1. Using Quick Filters, choose `vendor` as the contact type.
 1. Select the contact that you want to invite to the portal. In the pop-up that appears to the right, click **Invite To Vendor Portal**, as shown.
-   ![Invite to Vendor Portal option highlighted.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-invite-to-vendor-portal.jpg.md)
+   ![Invite to Vendor Portal option highlighted.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-invite-to-vendor-portal.jpg.md)
  
 When you do so, the vendor receives an invite on their email address. Once the vendor accepts the invite to join the portal, the label under their contact changes from **INVITE SENT** to **PORTAL ENABLED**.
  
@@ -58,7 +58,7 @@ When you do so, the vendor receives an invite on their email address. Once the v
 > 
 > **Handy Tips**
 >  
-> Check and share the url: [https://razorpay.com/docs/x/vendor-payments/portal](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/portal.md) with your vendors for them to see the activities they can perform on the portal.
+> Check and share the url: [https://razorpay.com/docs/x/vendor-payments/portal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/portal.md) with your vendors for them to see the activities they can perform on the portal.
 > 
 
  
@@ -66,7 +66,7 @@ When you do so, the vendor receives an invite on their email address. Once the v
  
 1. Select and open the `vendor` contact of whom you want to disable the portal.
 2. Click **Options**.
-   ![Disable Vendor Portal](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-disable-vendor-portal.jpg.md)
+   ![Disable Vendor Portal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-disable-vendor-portal.jpg.md)
 3. Click **Disable Vendor Portal**.
  
 The vendor loses their access to the portal.
@@ -87,10 +87,10 @@ Watch this video to know how to accept or reject invoices uploaded by your vendo
 4. New requests have `PENDING REVIEW` status. Hover over the the payment to **ACCEPT** or **REJECT** the invoice. You can also click on the invoice to **ACCEPT INVOICE** or **REJECT** the payment.
 5. **PAY** instantly or **SCHEDULE** the payment for later, based on your convenience.
  
-When you accept the invoice, the invoice status changes from `pending review` to `unpaid`. When you make the payment, `unpaid` status moves to `paid`. If you have made the payment outside of RazorpayX Vendor Payment App, you can come back to this invoice and [mark it as paid](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments#mark-inovice-as-paid.md).
+When you accept the invoice, the invoice status changes from `pending review` to `unpaid`. When you make the payment, `unpaid` status moves to `paid`. If you have made the payment outside of RazorpayX Vendor Payment App, you can come back to this invoice and [mark it as paid](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md#mark-inovice-as-paid).
 
 ### Related Information
-- [About Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md)
-- [Partial Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/partial-payouts.md)
-- [Scheduled Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/scheduled-payouts.md)
-- [Bulk Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/bulk.md)
+- [About Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md)
+- [Partial Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/partial-payouts.md)
+- [Scheduled Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/scheduled-payouts.md)
+- [Bulk Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/bulk.md)

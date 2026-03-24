@@ -5,11 +5,11 @@ description: Steps to integrate Recurring Card Payments with Partner Auth using 
 
 # Create Recurring Card Payments with Partner Auth
 
-Use Razorpay [Recurring Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments.md) APIs to seamlessly schedule and manage recurring card payments for your customers, with full control over payment intervals and frequency.
+Use Razorpay [Recurring Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments.md) APIs to seamlessly schedule and manage recurring card payments for your customers, with full control over payment intervals and frequency.
 
 ### Token Sharing for Partnership Auth Model
 
-Token sharing eliminates the need for customers to re-enter card details when making purchases across different businesses under the same legal entity, creating a seamless payment experience. This feature allows tokens created under any merchant ID (MID) to be automatically shared across all MIDs within the same entity, significantly improving customer convenience and reducing checkout friction. Know more about [token sharing for partnership auth model](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/partner-auth/token-sharing/#token-sharing-in-partnership-model.md).
+Token sharing eliminates the need for customers to re-enter card details when making purchases across different businesses under the same legal entity, creating a seamless payment experience. This feature allows tokens created under any merchant ID (MID) to be automatically shared across all MIDs within the same entity, significantly improving customer convenience and reducing checkout friction. Know more about [token sharing for partnership auth model](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/partner-auth/token-sharing.md#token-sharing-in-partnership-model).
 
 ## Integration Steps
 
@@ -113,7 +113,7 @@ curl -X POST https://api.razorpay.com/v1/customers \
 
 You can create the registration payment using:
 - Consolidated Orders and Payments API
-- Individual [Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/cards/authorization-transaction/#112-create-an-order.md) and [Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/cards/authorization-transaction/#113-create-an-authorization-payment.md) APIs
+- Individual [Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/cards/authorization-transaction.md#112-create-an-order) and [Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/cards/authorization-transaction.md#113-create-an-authorization-payment) APIs
 
 Given below is the sample code for the **Consolidated Orders and Payments API**.
 
@@ -892,7 +892,7 @@ curl -X POST https://api.razorpay.com/v1/orders \
 : `string` The 3-letter ISO currency code for the payment. We support INR only.
 
 `notes` _optional_
-: `json object` Key-value object used for passing tracking info. Refer to [Notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) for more details.
+: `json object` Key-value object used for passing tracking info. Refer to [Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) for more details.
 
 `payment` _mandatory_
 : `json object` Details related to the payment.

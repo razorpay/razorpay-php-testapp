@@ -97,7 +97,7 @@ When an auto-charge fails, you can manually attempt to charge the invoice as lon
 
 **Example** 
 
-The customer's account might have an insufficient balance when you attempt to auto-charge. When they receive the payment failure email, they add money to their account and inform you about this. You can [attempt a manual charge on the invoice using the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/manually-charge-card.md).
+The customer's account might have an insufficient balance when you attempt to auto-charge. When they receive the payment failure email, they add money to their account and inform you about this. You can [attempt a manual charge on the invoice using the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/manually-charge-card.md).
 
 - If you have enabled the `subscription.pending` and `subscription.halted` webhook, you receive notifications every time a Subscription moves to one of the above-mentioned states. You can then decide to hold off the delivery of the service as per your business model.
 - We also send an email to the customer notifying them about the payment failure. This email contains a link that the customer can use to change the card details associated with the Subscription.
@@ -230,15 +230,15 @@ The customer's account might have an insufficient balance when you attempt to au
 
       - A sample hosted page is shown below:
 
-         ![Sample hosted page for payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/sub-update-payment-method.jpg.md)
+         ![Sample hosted page for payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/sub-update-payment-method.jpg.md)
 
-      - After the customer clicks the **Update Payment Method** button, the checkout page appears as shown. The customer can choose a card (of [supported banks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/supported-banks-apps.md)), UPI or Emandate (of [supported banks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/supported-banks-apps/#emandate.md)) to make the payment. If the payment is successful, the Subscription moves back to the `actived` state.
+      - After the customer clicks the **Update Payment Method** button, the checkout page appears as shown. The customer can choose a card (of [supported banks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/supported-banks-apps.md)), UPI or Emandate (of [supported banks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/supported-banks-apps.md#emandate)) to make the payment. If the payment is successful, the Subscription moves back to the `actived` state.
 
-          ![Checkout page to update payment method](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/sub-select-payment-method.jpg.md)
+          ![Checkout page to update payment method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/sub-select-payment-method.jpg.md)
 
       - Use the Dashboard status filter to search for `halted` and `pending` Subscriptions. You can send the Subscription link to the respective customers to clear dues and make those Subscriptions active.
 
-         ![Sub Subscription links for halted and pending subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/sub-subscription-link.jpg.md)
+         ![Sub Subscription links for halted and pending subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/sub-subscription-link.jpg.md)
     
 
       The following table lists the supported payment method change.
@@ -261,8 +261,8 @@ The customer's account might have an insufficient balance when you attempt to au
 
 ### Related Information
 
-- [Subscription Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/workflow.md)
-- [Subscription States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/states.md)
-- [Create Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create.md)
-- [Test Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/test.md)
-- [Subscriptions APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/apis.md)
+- [Subscription Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/workflow.md)
+- [Subscription States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/states.md)
+- [Create Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md)
+- [Test Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/test.md)
+- [Subscriptions APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/apis.md)

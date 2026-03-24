@@ -20,7 +20,7 @@ If you are live on Razorpay Standard Checkout, the UI changes are automatically 
 > Offering CVV-less saved card flows to your customers can increase the conversion rate by 4%.
 > 
 
-![CVV Less Card Payment Flow GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pm-cvv-otp-less.gif.md)
+![CVV Less Card Payment Flow GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pm-cvv-otp-less.gif.md)
 
 > **INFO**
 >
@@ -32,4 +32,4 @@ If you are live on Razorpay Standard Checkout, the UI changes are automatically 
 
 ## Related information
 
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/features/cvv-less-flow/#frequently-asked-questions-faqs.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/features/cvv-less-flow.md#frequently-asked-questions-faqs)

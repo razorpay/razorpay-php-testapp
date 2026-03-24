@@ -7,7 +7,7 @@ description: List of states of a Razorpay Webstore and their significance.
 
 There are two states of a Webstore, **Active** and **Inactive**. Given below is an illustration of the life cycle of a Webstore.
 
-![Illustration of lifecycle of a webstore as active or inactive](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-pp-states.jpg.md)
+![Illustration of lifecycle of a webstore as active or inactive](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-pp-states.jpg.md)
 
 The table below lists the various states of a Webstore and gives a brief description of each state:
 
@@ -20,7 +20,7 @@ Inactive | Indicates the Webstore has been deactivated or has expired. You canno
 
 ### Related Information
 
-- [How Razorpay Webstore Works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/how-it-works.md)
-- [Create a Razorpay Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/create.md)
-- [Search for Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/search.md)
-- [Manage Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/manage.md)
+- [How Razorpay Webstore Works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/how-it-works.md)
+- [Create a Razorpay Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/create.md)
+- [Search for Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/search.md)
+- [Manage Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/manage.md)

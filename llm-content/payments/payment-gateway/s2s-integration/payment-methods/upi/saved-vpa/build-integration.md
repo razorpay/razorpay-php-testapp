@@ -436,7 +436,7 @@ For example, for an amount of ₹295, enter `29500`.
 : `string` ISO code for the currency in which you want to accept the payment. Only `INR` is supported.
 
 `order_id` _mandatory_
-: `string` Order ID generated via [Razorpay Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+: `string` Order ID generated via [Razorpay Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 `email` _mandatory_
 : `string` Email address of the customer.
@@ -861,7 +861,7 @@ For example, for an amount of ₹295, enter `29500`.
 : `string` ISO code for the currency in which you want to accept the payment. Only `INR` is supported.
 
 `order_id` _mandatory_
-: `string` Order ID generated via [Razorpay Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+: `string` Order ID generated via [Razorpay Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 `email` _mandatory_
 : `string` Email address of the customer.
@@ -883,6 +883,6 @@ The response contains an HTML page that is rendered in the customer's browser. T
 
 You can check the status of the payments using any of the following methods:
 
--  Poll the Razorpay servers to [fetch a payment](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/fetch-with-id.md) or [fetch the payments made for an order](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-payments-based-on-orders.md).
+-  Poll the Razorpay servers to [fetch a payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/fetch-with-id.md) or [fetch the payments made for an order](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-payments-based-on-orders).
 
-- Subscribe to [payments](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments.md) and [orders](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/orders.md) Webhook events that are generated in Razorpay when the customer completes the payment on your website.
+- Subscribe to [payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md) and [orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/orders.md) Webhook events that are generated in Razorpay when the customer completes the payment on your website.

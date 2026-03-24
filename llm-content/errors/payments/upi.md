@@ -13,7 +13,7 @@ Below are the top error codes associated with UPI payments, along with their rea
          - **Description**: The payment failed due to a downtime on the UPI provider.
          - **Next Steps**: In the case of Standard Checkout, please guide your customers in interpreting downtime information during the checkout process and encourage them to consider using a UPI App to successfully complete the transaction.
 
-         In the case of Custom/S2S Checkout, we recommend integrating the [Downtime API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/downtime.md) into your checkout system. This will allow you to showcase downtime information directly on your checkout interface.
+         In the case of Custom/S2S Checkout, we recommend integrating the [Downtime API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/downtime.md) into your checkout system. This will allow you to showcase downtime information directly on your checkout interface.
         
 
     

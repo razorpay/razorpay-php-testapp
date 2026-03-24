@@ -39,11 +39,11 @@ Watch the video below to see the payment flow via UPI Intent on Mobile Web.
 
 ## Prerequisites
 - [Sign up](https://dashboard.razorpay.com/#/access/signup) for a Razorpay account.
-- [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
-- Integrate Razorpay Standard Checkout on your [Website](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+- [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
+- Integrate Razorpay Standard Checkout on your [Website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
 
 ## Standard Checkout
 
 UPI Intent for mobile websites works automatically if the intent flow is enabled on your account. You can enable UPI Intent in WebView on your: 
-- [Android app](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-android.md)  
-- [iOS app](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-ios.md)
+- [Android app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-android.md)  
+- [iOS app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-ios.md)

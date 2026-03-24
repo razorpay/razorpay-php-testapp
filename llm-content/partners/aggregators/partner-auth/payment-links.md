@@ -10,7 +10,7 @@ Use Payment Links to receive online payments from your customers. Create Payment
 
 ## Create a Payment Link API
 
-Given below is the sample code for Create a Payment Link API. You should send the `account_id` of the sub-merchant using `X-Razorpay-Account` in the header. Refer to the [Payment Links API documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links.md).
+Given below is the sample code for Create a Payment Link API. You should send the `account_id` of the sub-merchant using `X-Razorpay-Account` in the header. Refer to the [Payment Links API documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links.md).
 
 /payment_links
 
@@ -517,4 +517,4 @@ body, err := client.PaymentLink.All(nil, extraHeaders)
 
 ### Related Information
 
-- [Payment Links API documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links.md).
+- [Payment Links API documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links.md).

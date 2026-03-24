@@ -13,13 +13,13 @@ All your transactions on the [RazorpayX Dashboard](https://x.razorpay.com/auth) 
 > 
 > **Is account statement not visible on your dashboard?**
 > 
-> If the given view is not visible on your dashboard, know more about the [alternatives for viewing account statements](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-statement/sftp.md).
+> If the given view is not visible on your dashboard, know more about the [alternatives for viewing account statements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-statement/sftp.md).
 > 
 
 ## View Account Statement
 You can view all the transactions at once or filter it as per your requirement.
 
-![RazorpayX Dashboard Account Statement](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-account-statement-filter.jpg.md) 
+![RazorpayX Dashboard Account Statement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-account-statement-filter.jpg.md) 
 
 ## Download Account Statement
 You can download all of your transaction data for a specific day, month or any time frame as per your business requirements. This information can be downloaded as a `csv` or `xls` file, or sent via email to the intended recipients.
@@ -29,7 +29,7 @@ To download account statement:
 1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
 2. Navigate to **Account Statement** on the left navigation.
 3. Click **EXPORT**.
-    ![Download Account Statement Report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-account-statement-report-export.jpg.md) 
+    ![Download Account Statement Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-account-statement-report-export.jpg.md) 
 4. Select the date range for which you require the statement from the drop-down.
 5. Select the format in which you wish to download the statement. You can choose between `csv` or `xls` files.
 6. **DOWNLOAD** the statement.
@@ -48,9 +48,9 @@ To download account statement:
 
 ## Integrate Accounting Software
 
-Know about [how to integrate account statement with accounting software](@/Applications/MAMP/htdocs/new-docs/llm-content/x/accounting.md).
+Know about [how to integrate account statement with accounting software](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/accounting.md).
 
 ### Related Information
 
-- [Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md)
-- [Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md)
+- [Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md)
+- [Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md)

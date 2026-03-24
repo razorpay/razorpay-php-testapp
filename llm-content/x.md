@@ -18,7 +18,7 @@ Using RazorpayX, you can process:
 
 You can make timely payouts on RazorpayX either via our user-friendly Dashboard or developer-friendly APIs in 3 easy steps.
 
-![Create Payout Process on RazorpayX Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-create-payout.jpg.md)
+![Create Payout Process on RazorpayX Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-create-payout.jpg.md)
 
 Watch this video to know more about RazorpayX:
 
@@ -39,10 +39,10 @@ Watch this video to know more about RazorpayX:
 
 ## Next Steps
 
-- [Set up your RazorpayX account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/set-up.md)
-- [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/api-keys.md)
+- [Set up your RazorpayX account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/set-up.md)
+- [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/api-keys.md)
 
 ### Related Information
 
-- [RazorpayX Account Types](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types.md)
-- [Test Mode](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/test-mode.md)
+- [RazorpayX Account Types](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types.md)
+- [Test Mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/test-mode.md)

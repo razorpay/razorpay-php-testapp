@@ -8,7 +8,7 @@ description: Fetch and view the details of a specific webhook id using Razorpay 
 
 ## Fetch a Webhook With ID
 
-Use this endpoint to retrieve and view the details of a webhook. Know about the [various error responses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md) for this API.
+Use this endpoint to retrieve and view the details of a webhook. Know about the [various error responses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md) for this API.
 
 ### Request
 

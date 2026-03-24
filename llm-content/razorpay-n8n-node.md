@@ -56,14 +56,14 @@ Category | Operations | Key Use Cases
 ---
 **Disputes** | Fetch All | Dispute monitoring and alerts
 
-View [Complete Operations Reference](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/operations-reference.md).
+View [Complete Operations Reference](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/operations-reference.md).
 
 > **INFO**
 >
 > 
 > **Extended Operations Available**
 > 
-> Access **28 additional operations** via [Razorpay MCP Server](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server.md) integration.
+> Access **28 additional operations** via [Razorpay MCP Server](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server.md) integration.
 > 
 
 ## Use Cases
@@ -76,7 +76,7 @@ Explore real-world automation scenarios:
 - **Refund Processing**: Automated refund creation based on rules.
 - **Customer Payment Lookup**: Internal tool for support teams.
 
-View [Use Cases](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/use-cases.md).
+View [Use Cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/use-cases.md).
 
 ## Prerequisites
 
@@ -103,7 +103,7 @@ Ensure you have the following before starting:
 
      - **Active Account**: Sign up at [razorpay.com](https://razorpay.com).
      - **KYC Completed**: Required for live mode (not needed for test mode).
-     - **API Keys**: Generate [API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys.md) from the Razorpay Dashboard.
+     - **API Keys**: Generate [API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md) from the Razorpay Dashboard.
       
 > **INFO**
 >
@@ -117,16 +117,16 @@ Ensure you have the following before starting:
 
 ## Next Steps
 
-1. **[Install the Node](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/installation.md)**: Add Razorpay node to your n8n instance.
+1. **[Install the Node](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/installation.md)**: Add Razorpay node to your n8n instance.
 2. **Configure Credentials**: Generate and add your API keys.
-3. **[Explore Use Cases](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/use-cases.md)**: Learn from real-world examples.
+3. **[Explore Use Cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/use-cases.md)**: Learn from real-world examples.
 4. **Build Your Workflow**: Start with a simple automation.
-5. **[Troubleshoot Issues](@/Applications/MAMP/htdocs/new-docs/llm-content/razorpay-n8n-node/troubleshooting-faqs.md)**: Resolve common problems.
+5. **[Troubleshoot Issues](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/razorpay-n8n-node/troubleshooting-faqs.md)**: Resolve common problems.
 
 ### Related Documentation
 
-- [Razorpay API Reference](@/Applications/MAMP/htdocs/new-docs/llm-content/api.md)
-- [Webhook Integration Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md)
-- [Test Card Details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details.md)
-- [MCP Server Documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server.md)
+- [Razorpay API Reference](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md)
+- [Webhook Integration Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md)
+- [Test Card Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md)
+- [MCP Server Documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server.md)
 - [n8n Documentation](https://docs.n8n.io/)

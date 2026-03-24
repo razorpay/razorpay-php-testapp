@@ -14,7 +14,7 @@ When you search using the search bar in RazorpayX Dashboard, global search shows
 
 Searching for the value 'kiran' shows every entity matching 'kiran' from all over the Dashboard. 'kiran' from Payouts, from Vendor Payments, a Contact, or any other entity,as shown below. 
 
-![RazorpayX Global Search](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-global-search.gif.md)
+![RazorpayX Global Search](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-global-search.gif.md)
 
 Similarily, every action search will return actions available across all RazorpayX products. 
 
@@ -49,6 +49,6 @@ Find the global search bar on the top right corner or use "/" on your keyboard. 
 
 ### Related Information
 
-- [Keyboard Shortcuts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/keyboard-shortcuts.md)
-- [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/api-keys.md)
-- [Test Mode](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/test-mode.md)
+- [Keyboard Shortcuts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/keyboard-shortcuts.md)
+- [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/api-keys.md)
+- [Test Mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/test-mode.md)

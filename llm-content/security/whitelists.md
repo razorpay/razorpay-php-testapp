@@ -13,23 +13,23 @@ SSL certificates for `api.razorpay.com` with valid date ranges are listed below.
 
 Certificate File | Valid From | Expiry
 ---
-[X10.pem](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x10.pem.md) & [Chain](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x10-chain.pem.md) | Oct 9th, 2025 | Nov 10th, 2026
+[X10.pem](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x10.pem.md) & [Chain](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x10-chain.pem.md) | Oct 9th, 2025 | Nov 10th, 2026
 ---
-[X9.pem](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x9.pem.md) & [Chain](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x9-chain.pem.md) | Nov 11th, 2024 | Dec 12th, 2025
+[X9.pem](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x9.pem.md) & [Chain](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x9-chain.pem.md) | Nov 11th, 2024 | Dec 12th, 2025
 ---
-[X8.pem](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x8.pem.md) & [Chain](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x8-chain.pem.md) | Jan 5th, 2024 | Jan 4th, 2025
+[X8.pem](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x8.pem.md) & [Chain](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x8-chain.pem.md) | Jan 5th, 2024 | Jan 4th, 2025
 ---
-[X7.pem](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x7.pem.md) & [Chain](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x7-chain.pem.md) | Feb 3rd, 2023 | Feb 2nd, 2024
+[X7.pem](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x7.pem.md) & [Chain](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x7-chain.pem.md) | Feb 3rd, 2023 | Feb 2nd, 2024
 ---
-[X6.pem](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x6.pem.md) & [Chain](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x6-chain.pem.md) | May 19th, 2022 | May 19th, 2023
+[X6.pem](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x6.pem.md) & [Chain](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x6-chain.pem.md) | May 19th, 2022 | May 19th, 2023
 ---
-[X4.pem](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x4.pem.md) & [Chain](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x4-chain.pem.md) | July 7th, 2021 | June 7th, 2022
+[X4.pem](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x4.pem.md) & [Chain](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x4-chain.pem.md) | July 7th, 2021 | June 7th, 2022
 ---
-[X3.pem](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x3.pem.md) & [Chain](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x3-chain.pem.md) | March 13th, 2020 | July 28th, 2021
+[X3.pem](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x3.pem.md) & [Chain](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x3-chain.pem.md) | March 13th, 2020 | July 28th, 2021
 ---
-[X2.pem](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x2.pem.md) & [Chain](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x2-chain.pem.md) | April 10th, 2019 | April 15th, 2020
+[X2.pem](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x2.pem.md) & [Chain](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x2-chain.pem.md) | April 10th, 2019 | April 15th, 2020
 ---
-[X1.pem](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x1.pem.md) & [Chain](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/certs-x1-chain.pem.md) | Feb 7th, 2016 | April 12th, 2019
+[X1.pem](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x1.pem.md) & [Chain](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/certs-x1-chain.pem.md) | Feb 7th, 2016 | April 12th, 2019
 
 As we roll out our infrastructure changes gradually, we recommend whitelisting our certificate as per **Valid From/Expiry** timelines. You should whitelist all the certificates in that range if they overlap.
 
@@ -96,7 +96,7 @@ Below is the list of IPs from which Webhooks are sent from our servers.
 > `18.96.225.0/26` and `18.99.161.0/26` are CIDR ranges. All the IPs in the range `18.96.225.0 - 18.96.225.63` and `18.99.161.0 - 18.99.161.63` are utilised for sending the webhooks.
 > 
 
-We highly recommend using [Webhook Signature](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/#validation.md) to validate the integrity of the webhooks, even if you have whitelisted our Webhook IPs.
+We highly recommend using [Webhook Signature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md#validation) to validate the integrity of the webhooks, even if you have whitelisted our Webhook IPs.
 
 ## UAT Static IPs
 
@@ -110,4 +110,4 @@ Below is the list of UAT egress IPs.
 
 ### Related Information
 
-[Razorpay Security](@/Applications/MAMP/htdocs/new-docs/llm-content/security.md)
+[Razorpay Security](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security.md)

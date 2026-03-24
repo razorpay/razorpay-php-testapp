@@ -7,7 +7,7 @@ description: Initiate Transfers from captured payments using the Razorpay API.
 
 ## Create Transfers From Payments
 
-Use this endpoint to create Transfers from captured payments. You can create and capture payments in the regular payments flow using the [Razorpay Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md) and [Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#capture-a-payment.md).
+Use this endpoint to create Transfers from captured payments. You can create and capture payments in the regular payments flow using the [Razorpay Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md) and [Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment).
 
 You should perform additional steps to disburse payments using Razorpay Route.
 
@@ -69,7 +69,7 @@ input is an invalid account_code.
 Transfer cannot be made due to insufficient balance
 * code: 400
 * description: This error occurs when the total balance is less than or equal to the transfer amount.
-* solution: Make sure you have enough balance. You can also [add funds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/balances#add-funds-to-your-reserve-balance.md) to the account and then try doing the transfer.
+* solution: Make sure you have enough balance. You can also [add funds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/balances.md#add-funds-to-your-reserve-balance) to the account and then try doing the transfer.
 
 The sum of amount requested for transfer is greater than the captured amount
 * code: 400

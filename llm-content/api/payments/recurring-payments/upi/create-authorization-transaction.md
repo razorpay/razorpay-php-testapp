@@ -85,9 +85,9 @@ When you use the handler function, the response object of the successful payment
       
       Platform | Steps
       ---
-      **mWeb** | Customers are redirected to their preferred UPI app to complete the payment. For the complete integration guide, refer to [UPI Intent on Mobile Web](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/upi-intent/#integrate-on-android-ios-and-mobile-web.md).
+      **mWeb** | Customers are redirected to their preferred UPI app to complete the payment. For the complete integration guide, refer to [UPI Intent on Mobile Web](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/upi-intent.md#integrate-on-android-ios-and-mobile-web).
       ---
-      **Mobile App (WebView)** | UPI Intent requires passing `webview_intent: true` in the checkout options and implementing deep link handling in your Android or iOS app. For the complete integration guide, refer to [UPI Intent in WebView — Android](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-android.md) and [UPI Intent in WebView — iOS](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-ios.md).
+      **Mobile App (WebView)** | UPI Intent requires passing `webview_intent: true` in the checkout options and implementing deep link handling in your Android or iOS app. For the complete integration guide, refer to [UPI Intent in WebView — Android](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-android.md) and [UPI Intent in WebView — iOS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/webview/upi-intent-ios.md).
       ---
       **Desktop Web** | UPI Intent is not supported. A QR code is automatically displayed for customers to scan with their preferred UPI app. No additional code changes are required.
       
@@ -102,7 +102,7 @@ When you use the handler function, the response object of the successful payment
 > 
 >       **Deprecation Notice**
 > 
->       **UPI Collect is deprecated effective 28 February 2026.** This section is applicable only for exempted businesses. If you are an existing Razorpay user not covered by the exemptions, refer to the [migration documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/announcements/upi-collect-migration/recurring-payments/standard-checkout.md) to switch to UPI Intent.
+>       **UPI Collect is deprecated effective 28 February 2026.** This section is applicable only for exempted businesses. If you are an existing Razorpay user not covered by the exemptions, refer to the [migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/recurring-payments/standard-checkout.md) to switch to UPI Intent.
 >       
 
      
@@ -179,7 +179,7 @@ When you use the handler function, the response object of the successful payment
 
 ## 1.2 Using a Registration Link
 
-Registration Link is an alternate way of creating an authorisation transaction. You can create a registration link using the [API](#121-create-a-registration-link) or [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create/#1-create-a-registration-link.md).
+Registration Link is an alternate way of creating an authorisation transaction. You can create a registration link using the [API](#121-create-a-registration-link) or [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#1-create-a-registration-link).
 
 > **INFO**
 >
@@ -189,7 +189,7 @@ Registration Link is an alternate way of creating an authorisation transaction. 
 > You do not have to create a customer if you choose the registration link method for creating an authorisation transaction.
 > 
 
-- When you create a registration link, an [invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices.md) is automatically issued to the customer. They can use this invoice to make the authorisation payment.
+- When you create a registration link, an [invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md) is automatically issued to the customer. They can use this invoice to make the authorisation payment.
 - A registration link should always have an order amount (in paise) the customer is charged when making the authorisation payment. For UPI, the amount must be a minimum of `₹1`.
 
 > **INFO**
@@ -197,7 +197,7 @@ Registration Link is an alternate way of creating an authorisation transaction. 
 > 
 > **Handy Tips**
 > 
-> You can [use Webhooks to get notifications about successful payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/webhooks/#check-registration-link-status-using-webhooks.md) against a registration link.
+> You can [use Webhooks to get notifications about successful payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#check-registration-link-status-using-webhooks) against a registration link.
 > 
 
 ### 1.2.1 Create a Registration Link

@@ -7,8 +7,8 @@ description: Create and edit Customers from the Razorpay Dashboard or using APIs
 # About Customers
 
 You can create customers with basic details such as name and contact details and use them for various Razorpay solution offerings. You can perform the following actions using the Dashboard:
-- [Create a customer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers/#create-a-customer.md)
-- [Edit a customer's details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers/#edit-customer-details.md)
+- [Create a customer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md#create-a-customer)
+- [Edit a customer's details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md#edit-customer-details)
 
 ## Create a Customer
 
@@ -37,10 +37,10 @@ To edit a customer from the Dashboard:
 
 ## APIs
 You can do the following using APIs:
-- [Create a Customer API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers/create.md)
-- [Edit Customer Details API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers/edit.md)
-- [Fetch All Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers/fetch-all.md)
-- [Fetch Customers by ID API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers/fetch-with-id.md)
+- [Create a Customer API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers/create.md)
+- [Edit Customer Details API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers/edit.md)
+- [Fetch All Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers/fetch-all.md)
+- [Fetch Customers by ID API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers/fetch-with-id.md)
 
 ### Related Information
-[Customer Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers/customer-refunds.md)
+[Customer Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers/customer-refunds.md)

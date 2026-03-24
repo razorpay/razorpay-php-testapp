@@ -23,13 +23,13 @@ Given below is a complete end-to-end flow about how you can use Razorpay Payment
     
 ### 2. Create Order from Server
 
-         For each order placed by your customer, use the [Razorpay Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md) to create an order from your server.
+         For each order placed by your customer, use the [Razorpay Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md) to create an order from your server.
         
 
     
 ### 3. Order ID Returned
 
-         Razorpay processes the details sent and returns an `order_id` to you, for example, `order_EKwxwAgItmmXdp`. Map this `order_id` to the transaction_id `#trn-345` you created in the first step. Know more about [order states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders/#order-states.md).
+         Razorpay processes the details sent and returns an `order_id` to you, for example, `order_EKwxwAgItmmXdp`. Map this `order_id` to the transaction_id `#trn-345` you created in the first step. Know more about [order states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders.md#order-states).
         
 
     
@@ -51,22 +51,22 @@ Given below is a complete end-to-end flow about how you can use Razorpay Payment
 
          For successful payments, the Checkout returns the `razorpay_order_id`, `razorpay_payment_id` and `razorpay_signature`.
 
-         Know more about [payment states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/#payment-life-cycle.md).
+         Know more about [payment states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments.md#payment-life-cycle).
         
 
 ### Payment Capture and Settlement
 
-Once your customer completes the payment and Razorpay authenticates it, you must capture it automatically or manually. You can also verify the payment signature to ensure that the payment is received from an authentic source. Know more about [payment capture settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md).
+Once your customer completes the payment and Razorpay authenticates it, you must capture it automatically or manually. You can also verify the payment signature to ensure that the payment is received from an authentic source. Know more about [payment capture settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md).
 
-After the payment is successfully captured, the amount is settled in your account according to your settlement cycle. Know more about [settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements.md).
+After the payment is successfully captured, the amount is settled in your account according to your settlement cycle. Know more about [settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md).
 
 ### Refunds
 
-Customers may claim [ refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds.md) after the transaction. In such cases, you can initiate a refund, post which the funds are sent back to the customer's account.
+Customers may claim [ refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md) after the transaction. In such cases, you can initiate a refund, post which the funds are sent back to the customer's account.
 
 ## Test Cards
 
-Use the [test cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details.md) to test domestic payments, international payments and subscriptions.
+Use the [test cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md) to test domestic payments, international payments and subscriptions.
 
 ### Test Razorpay Checkout
 
@@ -86,12 +86,12 @@ Test the Checkout by clicking the **PAY WITH RAZORPAY** button.
 
 ## Next Step
 
-[Get started with Razorpay Payment Gateway integration.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway.md) 
+[Get started with Razorpay Payment Gateway integration.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md) 
 
 ### Related Information
-- [Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway.md) 
-- [Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods.md)
-- [Features](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/features.md)
+- [Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md) 
+- [Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md)
+- [Features](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/features.md)
 
-- [Set up your Razorpay account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#1-sign-up.md)
-- [List of required KYC documents](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/business-types-kyc-documents.md)
+- [Set up your Razorpay account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#1-sign-up)
+- [List of required KYC documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/business-types-kyc-documents.md)

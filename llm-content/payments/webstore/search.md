@@ -16,13 +16,13 @@ To search for a Webstore:
 2. Navigate to **Payment Pages** from the left menu and select **Razorpay Webstore**.
 3. Search for the Webstore by specifying filters.
 
-![Webstore List](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-payment-pages-list.jpg.md)
+![Webstore List](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-payment-pages-list.jpg.md)
 
 Filter | Description
 ---
 Title | The title of the store.
 ---
-Status | The state of the store. Know more about [Webstore states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/states.md).
+Status | The state of the store. Know more about [Webstore states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/states.md).
 
 ## Search for Product
 
@@ -34,7 +34,7 @@ To search for a Product:
 2. Navigate to **Payment Pages** from the left menu and click **Products**.
 3. Search for the product by specifying filters.
 
-![Webstore Product list on Razorpay Dashboard.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-stores-product-list.jpg.md)
+![Webstore Product list on Razorpay Dashboard.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-stores-product-list.jpg.md)
 
 Filter | Description
 ---
@@ -45,7 +45,7 @@ Status | The state of the product. Possible values are: -  Available
 
 ### Related Information
 
-- [How Webstore Works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/how-it-works.md)
-- [Webstore States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/states.md)
-- [Create a Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/create.md)
-- [Manage Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/manage.md)
+- [How Webstore Works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/how-it-works.md)
+- [Webstore States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/states.md)
+- [Create a Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/create.md)
+- [Manage Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/manage.md)

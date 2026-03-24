@@ -6,7 +6,7 @@ description: Customise the Affordability Widget on your Android App.
 
 # Customisation Options
 
-After you successfully integrate the widget on your Android app, create a JSON Object as per your customisation requirements and add it as an additional parameter in the `loadwidget()` method. Check all the [customisation options](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise.md) available.
+After you successfully integrate the widget on your Android app, create a JSON Object as per your customisation requirements and add it as an additional parameter in the `loadwidget()` method. Check all the [customisation options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/native-web/customise.md) available.
 
 ```java: Java
 JSONObject widgetConfig = new JSONObject(
@@ -41,5 +41,5 @@ widget.render(this, widgetConfig)
 
 ### Related Information
 
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs.md)
-- [About Affordability Widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md)
+- [About Affordability Widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget.md)

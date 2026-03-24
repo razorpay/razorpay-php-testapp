@@ -6,7 +6,7 @@ description: Use the RazorpayX Payroll execution checklist before executing your
 
 # Execute Payroll Checklist
 
-Once you complete [Payroll account setup](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/quickstart.md), you can execute payroll for your organisation. Payroll automates transactions and manages payroll as per settings enabled. Use the following checklist to execute payroll without any misses.
+Once you complete [Payroll account setup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/quickstart.md), you can execute payroll for your organisation. Payroll automates transactions and manages payroll as per settings enabled. Use the following checklist to execute payroll without any misses.
 
 > **WARN**
 >
@@ -24,7 +24,7 @@ Before disbursing salaries, ensure that your employee list is up-to-date. Add, m
 1. In the left menu, navigate to **Admin Options** → **People**.  
 1. Select the relevant employee as per from **ALL** or other tabs. 
 1. Click **EDIT** against the applicable sections, as shown.  
-    ![Editing employee information in Payroll.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-modify-employee.gif.md)
+    ![Editing employee information in Payroll.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-modify-employee.gif.md)
 
 Edit their personal and payment information, their leaves and their attendance before the payroll execution date. 
 
@@ -36,13 +36,13 @@ Check if any employee's critical information, like their bank account number, UA
 1. Go to **Admin Options** → **Reports**
 1. Click **Missing Information**. It provides a list of employees in the left column the information missing about them against their name.
 
-![Employee missing info highlighted in employee's missing info modal in RazorpayX Payroll.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-reports-missing-info.jpg.md)
+![Employee missing info highlighted in employee's missing info modal in RazorpayX Payroll.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-reports-missing-info.jpg.md)
 
 ## 3. Adjust Variables
 
 Variables can either be an addition to the salary, a deduction based on a loss of pay, a recovery or a reimbursement.
 
-![Edit Salary window to enter amount and labels on Payroll.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-edit-salary-additions-deductions.jpg.md)
+![Edit Salary window to enter amount and labels on Payroll.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-edit-salary-additions-deductions.jpg.md)
 
 ### Additions
 
@@ -57,12 +57,12 @@ To update your employees' **Additions**:
 To update your employees' **Deductions**: 
 
 - If your organisation uses the Payroll attendance module to track leaves, navigate to **Reports** → **Attendance** → **Payroll Adjustments** and approve any loss of pay recommendations that Payroll suggests. 
-    ![Leave reccomendations tab on Payroll on the right hand side menu.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xpayroll-leave-suggestions.jpg.md)
+    ![Leave reccomendations tab on Payroll on the right hand side menu.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xpayroll-leave-suggestions.jpg.md)
 
-- If you are tracking the loss of pay (LOP) days outside of Payroll or using the [Jibble integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/jibble.md), follow the given steps:  
+- If you are tracking the loss of pay (LOP) days outside of Payroll or using the [Jibble integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/jibble.md), follow the given steps:  
 
     
-        Know how to [sync loss of pay data from Jibble](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/jibble/#verify-lop-in-payroll.md).
+        Know how to [sync loss of pay data from Jibble](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/jibble.md#verify-lop-in-payroll).
     
     
         1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard).
@@ -72,7 +72,7 @@ To update your employees' **Deductions**:
     
   
 
-Check how you can modify other salary components as part of [Run Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll.md).
+Check how you can modify other salary components as part of [Run Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md).
 
 ## 4. Verify Salaries
 
@@ -102,12 +102,12 @@ ESIC | 10th of the month | 15th of the month
 
 ## 6. Finalise and Execute
 
-Finalise the payroll for the month. [Transfer the funds](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts.md) required to process payroll and then **Request Execution** with ease. You **cannot** [make changes](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/exceptional-cases.md) to payroll after you have executed it. 
+Finalise the payroll for the month. [Transfer the funds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md) required to process payroll and then **Request Execution** with ease. You **cannot** [make changes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/exceptional-cases.md) to payroll after you have executed it. 
 
 Authorise the payroll execution using the OTP received at your registered email address/authenticator app.
 
 ### Related Information
 
-- [Run Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll.md)
-- [Salary](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary.md)
-- [Statutory Compliance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md)
+- [Run Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md)
+- [Salary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md)
+- [Statutory Compliance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md)

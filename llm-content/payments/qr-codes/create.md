@@ -16,7 +16,7 @@ Here is a short video on how to create QR Codes on the Dashboard.
 To create a QR Code:
 1. Log in to the Dashboard.
 1. Go to the **PAYMENT PRODUCTS** section and click **QR Codes** → **+Create QR Codes**.
-    ![Create QR codes on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-codes-create-create-qrcode.jpg.md)
+    ![Create QR codes on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-codes-create-create-qrcode.jpg.md)
 1. Provide the following details:
     
         
@@ -50,16 +50,16 @@ To create a QR Code:
 ### Description [Optional]
 
             Add a description for your reference.
-            ![Add a description while creating a QR code](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-codes-create-add-details.jpg.md)
+            ![Add a description while creating a QR code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-codes-create-add-details.jpg.md)
             - Details added in description will show up in the QR Image.
-                ![QR Image with description](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-code-image.jpg.md)
+                ![QR Image with description](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-code-image.jpg.md)
             
 
         
 ### Advanced Options
 
             Click **View Advanced Options** to view and configure advanced options.
-            ![View advanced options while creating a QR code](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-codes-create-view-advanced-options.jpg.md)
+            ![View advanced options while creating a QR code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-codes-create-view-advanced-options.jpg.md)
             - **Close By (Optional)**: Set a closure date for the QR Code. Select the **Close this QR Code after** option to select the date and time at which the account must be automatically closed. Ensure that the time specified is at least 15 minutes after the QR Code creation time.
             
             
@@ -104,20 +104,20 @@ To create a QR Code:
 ### Add Internal Note
 
             Add notes for internal reference.
-            ![Add customer, name and internal notes while creating a QR code](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-codes-create-configure.jpg.md)
+            ![Add customer, name and internal notes while creating a QR code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-codes-create-configure.jpg.md)
             - This helps with reconciliation and will be available in the payments reports for the payments captured via QR.
-                ![Internal notes of a payment captured via QR code](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-codes-internal-notes.jpg.md)
+                ![Internal notes of a payment captured via QR code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-codes-internal-notes.jpg.md)
             
 
     
  
 1. Click **Create QR Code**. The QR Code is created. 
 
-![QR code created successfully](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-codes-create-generated.jpg.md)
+![QR code created successfully](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-codes-create-generated.jpg.md)
 
 You can download and share the QR Code image with your customers. The QR Code appears in the list.
 
-![List of QR codes on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-codes-create-create-qrcode.jpg.md)
+![List of QR codes on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-codes-create-create-qrcode.jpg.md)
 
 > **INFO**
 >
@@ -134,19 +134,19 @@ To create a customer while creating a QR Code:
 
 1. Click **View Advanced Options**. 
 1. In the **Customers** field, click **+Add New**.
-    ![Create a new customer while creating a QR code](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-codes-create-add-new-customer.jpg.md)
+    ![Create a new customer while creating a QR code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-codes-create-add-new-customer.jpg.md)
 1. Specify details such as **Company/Individual Name**, **Email** and
 **Contact No.**
-    ![Add details to create a new customer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-codes-create-add-customer-details.jpg.md)
+    ![Add details to create a new customer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-codes-create-add-customer-details.jpg.md)
 1. Click **Create and add this customer**.
 
 The details of the newly created customer are auto-populated on the QR Code. This customer name is also displayed under the **Customers** menu, and you can create more QR Codes for them in the future.
 
-Know more about [customers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers.md).
+Know more about [customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md).
 
 ### Add a Custom Brand Name to Your QR Codes
 
-You can increase your brand outreach using QR Codes by customising your brand name. Customers who scan the QR Code will see your custom Business Name after they make the payment. Know more about how you can add a [brand name and logo](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/checkout-styling/#brand-name-and-logo.md) from the Dashboard.
+You can increase your brand outreach using QR Codes by customising your brand name. Customers who scan the QR Code will see your custom Business Name after they make the payment. Know more about how you can add a [brand name and logo](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-styling.md#brand-name-and-logo) from the Dashboard.
 
 ## View Payments
 
@@ -156,14 +156,14 @@ To view payments made for QR Codes:
 
 1. Click **Payments**.
 2. Select the **Payment Id** from the list.
-     ![List of payments made via QR codes on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-codes-create-payment.jpg.md)
+     ![List of payments made via QR codes on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-codes-create-payment.jpg.md)
 3. The payment details appear in the right pane. You can perform the following operations from this tab:
-    1. **Create Transfer**: Transfer the payment to a linked account. Know more about [Route](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route.md).
-    2. **Create Refund**: Refund the payment to the customer. Know more about [Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds.md).
-     ![Create a transfer or a refund for a payment](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-codes-create-payment-details.jpg.md)
+    1. **Create Transfer**: Transfer the payment to a linked account. Know more about [Route](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route.md).
+    2. **Create Refund**: Refund the payment to the customer. Know more about [Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md).
+     ![Create a transfer or a refund for a payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-codes-create-payment-details.jpg.md)
 
 ## What Next
-Once you have created the QR Code, you can share the short URL with the customer. You can also print or download it and send the image. You can also choose to [close the QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/close.md).
+Once you have created the QR Code, you can share the short URL with the customer. You can also print or download it and send the image. You can also choose to [close the QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/close.md).
 
 > **INFO**
 >
@@ -175,7 +175,7 @@ Once you have created the QR Code, you can share the short URL with the customer
 > 
 
 ### Related information
-- [QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes.md)
-- [How QR Codes Work](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/how-it-works.md)
-- [Search a QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/search.md)
-- [Close a QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/close.md)
+- [QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes.md)
+- [How QR Codes Work](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/how-it-works.md)
+- [Search a QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/search.md)
+- [Close a QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/close.md)

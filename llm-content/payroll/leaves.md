@@ -92,7 +92,7 @@ There are three options for adding loss-of-pay based on attendance, and you can 
 
         The loss of pay is calculated as: **Salary** x **Number of unpaid leaves** / **total number of days in the month**. 
 
-        ![Automatically add loss-of-pay for unpaid leaves](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-holidays-leaves-attendance.jpg.md)
+        ![Automatically add loss-of-pay for unpaid leaves](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-holidays-leaves-attendance.jpg.md)
     
     
         If the option for automatic loss-of-pay is disabled, then you can use our LOP suggestions report under **Reports** → **Attendance** → **Payroll Adjustments**. 
@@ -105,14 +105,14 @@ There are three options for adding loss-of-pay based on attendance, and you can 
         You must disable the option for automatic loss-of-pay disabled if you opt for this.
     
 
-Know more about calculating [salary based on Loss of Pay](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#calculations.md). 
+Know more about calculating [salary based on Loss of Pay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#calculations). 
 
 ## Leave Encashment 
 
-When an employee leaves your organisation, you can pay them for the leaves they have not availed from their balance. Know more about [Leave Encashment during exit](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll#full-and-final-settlement.md).
+When an employee leaves your organisation, you can pay them for the leaves they have not availed from their balance. Know more about [Leave Encashment during exit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#full-and-final-settlement).
 
 ### Related Information
 
-- [Human Resources](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator.md) 
-- [Run Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll.md) 
-- [Employees](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees.md)
+- [Human Resources](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md) 
+- [Run Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md) 
+- [Employees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md)

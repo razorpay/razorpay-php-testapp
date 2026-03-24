@@ -7,7 +7,7 @@ description: Directly transfer the payments received from customers via Payment 
 
 ## Transfer Payments Received Using Payment Links
 
-Use this endpoint to transfer the payments received from your customers automatically to your linked accounts. Know how to [create a linked account and transfer payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/transfer-payments.md).
+Use this endpoint to transfer the payments received from your customers automatically to your linked accounts. Know how to [create a linked account and transfer payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/transfer-payments.md).
 
 ### Request
 
@@ -432,7 +432,7 @@ The \{input field\} is required
 wrong input fields sent.
 * code: 400
 * description: When wrong input fields are sent during Payment Link creation.
-* solution: Ensure that the input fields are added correctly. Refer to these [request parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links#request-parameters.md) on how to add correct input fields.
+* solution: Ensure that the input fields are added correctly. Refer to these [request parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links.md#request-parameters) on how to add correct input fields.
 
 payment link creation with reference ID already attempted
 * code: 400

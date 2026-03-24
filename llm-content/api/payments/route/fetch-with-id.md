@@ -145,16 +145,16 @@ curl -u [YOUR_KEY_ID]:[YOUR_SECRET]
 : `string` The name of the account holder's business. For example, `Acme Corp`. The minimum length is 4 characters and the maximum length is 200.
 
 `business_type`
-: `string` The type of business operated by the account holder. Possible values: [Business Types](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md). 
+: `string` The type of business operated by the account holder. Possible values: [Business Types](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md). 
 
 `profile`
 : `object` The account holder's business details.
 
     `category`
-    : `string` The business category of the account holder. For example, `healthcare`. Possible values: [Business Category](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/#business-category.md).
+    : `string` The business category of the account holder. For example, `healthcare`. Possible values: [Business Category](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md#business-category).
 
     `subcategory`
-    : `string` The business sub-category of the account holder. For example, `clinic`. Possible values: [Business Sub-Category](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/#business-sub-category.md).
+    : `string` The business sub-category of the account holder. For example, `clinic`. Possible values: [Business Sub-Category](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md#business-sub-category).
 
     `addresses`
     : `object` Details of account holder's address.  
@@ -206,7 +206,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_SECRET]
       
 
 `legal_info`
-: `object` The legal details about the account holder's business. The mandatory [KYC requirement](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md) parameters should be passed depending on the business requirements.
+: `object` The legal details about the account holder's business. The mandatory [KYC requirement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md) parameters should be passed depending on the business requirements.
 
     `pan`
     : `string` Valid PAN number details of the account holder's business. 

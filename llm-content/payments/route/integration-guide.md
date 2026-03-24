@@ -11,7 +11,7 @@ Razorpay Route can split payments between third parties, sellers or bank account
 
 - Create a Razorpay account.
 
-- Log in to the Dashboard and [generate the API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md). You need to use these keys while using our APIs and Checkout.
+- Log in to the Dashboard and [generate the API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys). You need to use these keys while using our APIs and Checkout.
 
 ## Integration Steps
 
@@ -32,31 +32,31 @@ Follow these steps to create Linked Accounts and transfer funds to them.
 
          To transfer funds to various third parties, sellers, bank accounts or vendors, you should add them as Linked Accounts. When you add a Linked Account, you gain complete visibility and control of all the fund movements, such as transfers, reversals and refunds for each of your Linked Accounts.
 
-         You can create Linked Accounts using [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account#add-and-manage-linked-accounts.md) and APIs. Follow these steps to create Linked Accounts using APIs:
+         You can create Linked Accounts using [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md#add-and-manage-linked-accounts) and APIs. Follow these steps to create Linked Accounts using APIs:
 
          
           
             1.1.1 Create a Linked Account
             
-             [Create a Linked Account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/create-linked-account.md) using the API. A unique `account_id` will be assigned to the created account.
+             [Create a Linked Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/create-linked-account.md) using the API. A unique `account_id` will be assigned to the created account.
             
 
           
 ### 1.1.2. Create a Stakeholder
 
-             You should now [create a stakeholder](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/create-stakeholder.md) using the `account_id`. A unique `stakeholder_id` will be assigned to the created stakeholder account.
+             You should now [create a stakeholder](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/create-stakeholder.md) using the `account_id`. A unique `stakeholder_id` will be assigned to the created stakeholder account.
             
 
           
 ### 1.1.3. Request a Product Configuration
 
-             Now that both Linked Account and stakeholder are created, you should [request a Route product configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/request-product-config.md).
+             Now that both Linked Account and stakeholder are created, you should [request a Route product configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/request-product-config.md).
             
 
           
 ### 1.1.4. Update a Product Configuration
 
-             You should now trigger the [update product configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/update-product-config.md) API with the bank account details of the Linked Account. The configuration will be activated if the information review is successful.
+             You should now trigger the [update product configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/update-product-config.md) API with the bank account details of the Linked Account. The configuration will be activated if the information review is successful.
 
              If the `activation_status` moves to the `needs_clarification` state, you can check the `requirements` array in the response for `needs_clarification` reasons. The array will contain the following information:
 
@@ -83,9 +83,9 @@ Follow these steps to create Linked Accounts and transfer funds to them.
 ### Step 1.2 Transfer Funds to Linked Accounts
 
          After you create Linked Accounts, you can start transferring funds to them. You can transfer funds using the following methods:
-         - [Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-funds-to-linked-accounts/#transfer-via-orders.md): You can set up transfers at the time of order creation. The transfer is automatically created and settled to the respective Linked Accounts after the payment is captured and the order is paid.
-         - [Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-funds-to-linked-accounts/#transfers-via-payments.md): You can initiate a transfer from the received payments.
-         - [Direct Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-funds-to-linked-accounts/#direct-transfers.md): You can transfer funds to Linked Accounts directly from your account balance using Direct Transfers.
+         - [Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md#transfer-via-orders): You can set up transfers at the time of order creation. The transfer is automatically created and settled to the respective Linked Accounts after the payment is captured and the order is paid.
+         - [Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md#transfers-via-payments): You can initiate a transfer from the received payments.
+         - [Direct Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md#direct-transfers): You can transfer funds to Linked Accounts directly from your account balance using Direct Transfers.
        
          
 > **INFO**
@@ -104,14 +104,14 @@ Follow these steps to create Linked Accounts and transfer funds to them.
 
 ## 2. Test Integration
 
-After completing the integration, you can simulate a test transfer in the test mode using the [Transfer via Payment](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-funds-to-linked-accounts/#transfers-via-payments.md) or [Direct Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-funds-to-linked-accounts/#direct-transfers.md) methods from the Dashboard.
+After completing the integration, you can simulate a test transfer in the test mode using the [Transfer via Payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md#transfers-via-payments) or [Direct Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md#direct-transfers) methods from the Dashboard.
 
 > **WARN**
 >
 > 
 > **Watch Out!**
 > 
-> Transfers via orders can only be done using [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/create-transfers-orders.md).
+> Transfers via orders can only be done using [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/create-transfers-orders.md).
 > 
 
 ## 3. Go-live Checklist
@@ -134,7 +134,7 @@ Consider the following steps before taking your integration live.
     
 ### 3.2 Subscribe to Webhooks
 
-     [Set up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md) to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL. You can subscribe to these [Route webhook events](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/route/#route.md).
+     [Set up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md) to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL. You can subscribe to these [Route webhook events](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/route.md#route).
     
 
 ## Appendix
@@ -241,5 +241,5 @@ This section provides information about business type, category, sub-category, K
 
 ### Related Information
 
-- [Route API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md)
-- [Route Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/subscribe-to-webhooks.md)
+- [Route API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md)
+- [Route Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/subscribe-to-webhooks.md)

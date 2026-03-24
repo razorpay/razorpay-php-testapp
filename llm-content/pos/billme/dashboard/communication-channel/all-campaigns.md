@@ -17,7 +17,7 @@ Businesses can view, filter and create new campaigns according to their marketin
 - Coupons on bills
 - YouTube videos on bills 
 
-![All Campaigns Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/all-campaigns-page-lists.jpg.md)
+![All Campaigns Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/all-campaigns-page-lists.jpg.md)
 
 Here is the information provided for each campaign type:
 
@@ -37,7 +37,7 @@ There are various actions you can perform on this page.
 To select a campaign type:
 
 - Click on the dropdown icon behind **Select Campaign Listing** and select the campaign type.
-![Select Campaigns List Dropdown](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/select-campaigns-list.jpg.md)
+![Select Campaigns List Dropdown](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/select-campaigns-list.jpg.md)
 
 ### Search Campaign
 
@@ -46,7 +46,7 @@ You can search for a specific campaign.
 To search for a specific campaign:
 
 - Click on the search icon on the right side of the page and enter the campaign name.
-![Search Campaigns Button](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/search-campaigns.jpg.md)
+![Search Campaigns Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/search-campaigns.jpg.md)
 
 ### Filter Campaigns
 
@@ -54,9 +54,9 @@ You can filter campaigns based on time range and status of the campaign.
 
 To filter campaigns:
 
-1. Click on the filter icon behind the search icon. The filter popup page appears.![Filter Campaigns Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/campaign-filters-page.jpg.md)
+1. Click on the filter icon behind the search icon. The filter popup page appears.![Filter Campaigns Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/campaign-filters-page.jpg.md)
 2. Select the **Campaign State** and click **Save**. You can select multiple states.
-3. Click **Time Frame** and select the time range you want to filter.![Filter Campaigns By Time Frame](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/filter-campaign-time-range.jpg.md)
+3. Click **Time Frame** and select the time range you want to filter.![Filter Campaigns By Time Frame](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/filter-campaign-time-range.jpg.md)
 
 ### Actions
 
@@ -65,7 +65,7 @@ You can edit, view, duplicate and delete campaigns. You can also view and unpubl
 To perform an action against a particular campaign:
 
 - Hover over to the ellipsis icon against a particular campaign. An actions menu appears.
-![Campaigns Actions](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/campaigns-actions.jpg.md)
+![Campaigns Actions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/campaigns-actions.jpg.md)
 
 #### Edit
 
@@ -101,7 +101,7 @@ You can create a new campaign on this page.
 
 To create a new campaign:
 
-1. Click **New Campaign**. ![Campaigns Actions](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/new-campaigns-option.jpg.md)
+1. Click **New Campaign**. ![Campaigns Actions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/new-campaigns-option.jpg.md)
 2. Select the Campaign type you want to create.
 3. Enter the campaign name, description and other relevant details on the next page.
 4. Preview your campaign, make any final changes and publish.

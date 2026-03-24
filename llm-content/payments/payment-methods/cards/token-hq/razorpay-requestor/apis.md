@@ -73,7 +73,7 @@ Given below is a sample entity.
 : `string` The name of the entity. Here, it is `token`.
 
 `customer_id`
-: `string` This is the Razorpay customer id. You can create token for a specific customer using their customer id. Use the [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md) to create customer id.
+: `string` This is the Razorpay customer id. You can create token for a specific customer using their customer id. Use the [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md) to create customer id.
 
 `method`
 : `string` The type of object that was tokenised. Currently, it only supports `card`.
@@ -238,7 +238,7 @@ You can create the token when your customer opts to save their card on your chec
 : `string` The 3-character ISO code of the currency. Here, it is `INR`.
 
 `order_id` _mandatory_
-: `string` The unique identifier of the order created for this payment. Create an order using the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+: `string` The unique identifier of the order created for this payment. Create an order using the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 `email` _mandatory_
 : `string` The customer's email address.
@@ -407,7 +407,7 @@ When a customer initiates a subsequent payment using the saved card, use this AP
 : `string` The 3-character ISO code of the currency. Here, it is `INR`.
 
 `order_id` _mandatory_
-: `string` The unique identifier of the order created for this payment. Create an order using the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+: `string` The unique identifier of the order created for this payment. Create an order using the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 `email` _mandatory_
 : `string` The customer's email address.
@@ -490,11 +490,11 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
 > 
 > **Handy Tips**
 
-> Know more about the [S2S Integration payment flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2.md).
+> Know more about the [S2S Integration payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2.md).
 > 
 
 ### Related Information
 
-- [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md)
-- [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md)
-- [Server-to-Server JSON V2 Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2.md)
+- [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md)
+- [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md)
+- [Server-to-Server JSON V2 Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2.md)

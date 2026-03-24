@@ -12,10 +12,10 @@ description: Create a Payment Link to store additional information about the pro
 : `integer` Amount to be paid using the Payment Link. Must be in the smallest unit of the currency. For example, if you want to receive a payment of , you must enter the value `30000`.
 
 `currency` _optional_
-: `string` A three-letter ISO code for the currency in which you want to accept the payment. For example, INR. Refer to the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` A three-letter ISO code for the currency in which you want to accept the payment. For example, INR. Refer to the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 `accept_partial` _optional_
-: `boolean` Indicates whether customers can make [partial payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/partial-payments.md) using the Payment Link. Possible values:
+: `boolean` Indicates whether customers can make [partial payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/partial-payments.md) using the Payment Link. Possible values:
   - `true`: Customer can make partial payments.
   - `false` (default): Customer cannot make partial payments.
 
@@ -52,7 +52,7 @@ description: Create a Payment Link to store additional information about the pro
     - `false`: You handle the notification.
 
 `reminder_enable` _optional_
-: `boolean` Used to send [reminders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/reminders.md) for the Payment Link. Possible values:
+: `boolean` Used to send [reminders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/reminders.md) for the Payment Link. Possible values:
     - `true`: To send reminders.
     - `false`: To disable reminders.
 
@@ -133,7 +133,7 @@ description: Create a Payment Link to store additional information about the pro
  Can have a maximum length of 7 characters.
 
     `mf_amc_code` _mandatory for RTA_
-    : `string` The AMC code for the mutual fund. Can have a maximum length of 5 characters. [List of possible values](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/products/appendix.md)
+    : `string` The AMC code for the mutual fund. Can have a maximum length of 5 characters. [List of possible values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/products/appendix.md)
 
     
 
@@ -141,7 +141,7 @@ description: Create a Payment Link to store additional information about the pro
 ### Response Parameters
 
 `accept_partial` 
-: `boolean` Indicates whether customers can make [partial payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/partial-payments.md) using the Payment Link. Possible values:
+: `boolean` Indicates whether customers can make [partial payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/partial-payments.md) using the Payment Link. Possible values:
   - `true`: Customer can make partial payments.
   - `false` (default): Customer cannot make partial payments.
 
@@ -158,7 +158,7 @@ description: Create a Payment Link to store additional information about the pro
 : `integer` Timestamp, in Unix, indicating when the Payment Link was created.
 
 `currency`
-: `string` Defaults to INR. We accept payments in [international currencies.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md)
+: `string` Defaults to INR. We accept payments in [international currencies.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies)
 
 `customer`
 : `string` Customer details
@@ -232,7 +232,7 @@ description: Create a Payment Link to store additional information about the pro
 : `integer` Timestamp, in Unix, indicating when the Payment Link was updated.
 
 `reminder_enable`
-: `boolean` Used to send [reminders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/reminders.md) for the Payment Link. Possible values:
+: `boolean` Used to send [reminders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/reminders.md) for the Payment Link. Possible values:
     - `true`: To send reminders.
     - `false`: To disable reminders.
 

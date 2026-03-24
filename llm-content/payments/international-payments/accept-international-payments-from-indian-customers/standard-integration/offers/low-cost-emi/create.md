@@ -22,7 +22,7 @@ In the **Description** section, enter the following details. All the fields are 
 2. **Display Text**: Enter a meaningful description for the offer. For example, **Low Cost EMI Offers**. This appears at the Checkout.
 3. **Terms**: Enter the terms and conditions for this offer.
 4. Click **Next**.
-  ![Enter the offer details to proceed](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-low-cost-emi-description.jpg.md)
+  ![Enter the offer details to proceed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-low-cost-emi-description.jpg.md)
 
 ## Discount Type
 In the **Discount Type** section, enter the discount details that should be applied to the offer.
@@ -30,7 +30,7 @@ In the **Discount Type** section, enter the discount details that should be appl
 1. **Minimum Order amount**: Enter the minimum bill amount for which the Low Cost EMI Offer can be applied. For example, the offer can be applied to a minimum amount of **₹4,000**. This is a mandatory field.
 2. **Maximum Order amount**: Enter the maximum bill amount for which the Low Cost EMI Offer can be applied. For example, the offer can be applied to a maximum amount of **₹1,00,000**.
 3. Click **Next**.
-  ![Enter the discount details to proceed](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-low-cost-emi-discount-type.jpg.md)
+  ![Enter the discount details to proceed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-low-cost-emi-discount-type.jpg.md)
 
 ## Applicable On
 
@@ -40,7 +40,7 @@ Under the **Applicable On** tab, fill in the following details:
 2. **EMI Tenure**: Select the tenures to be listed at the Checkout. 
 3. **EMI Offer Type**: Select **Low Cost EMI** from the drop-down list and configure the interest rate that you will bear for each tenure. The remaining interest rate is auto-filled which is borne by the customer.
 4. Click **Next**.
-  ![Enter the payment method details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-low-cost-emi-applicable-on.jpg.md)
+  ![Enter the payment method details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-low-cost-emi-applicable-on.jpg.md)
 
 ## Offer Validity
 
@@ -52,10 +52,10 @@ In the **Offer Validity** tab, set how long the offer should be valid and how yo
     - **Do not allow payment to go through**: The payment has failed.
     - **Allow customer to pay without availing offer**: The payment is allowed even though the set validations are not met. However, the offer is not applied to the bill amount. The customer will be charged the entire order amount.
 4. **Max Usage**: Set the number of times the offer should be applied across all transactions. For example, **100**.
-5. **Show Offer on Checkout**: Select this check box for the created offer to be displayed for all Standard Checkout payments including [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links.md).
+5. **Show Offer on Checkout**: Select this check box for the created offer to be displayed for all Standard Checkout payments including [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links.md).
 6. Click **Next**.
 
-  ![Enter the offer validity details to proceed](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-low-cost-emi-offer-validity.jpg.md)
+  ![Enter the offer validity details to proceed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-low-cost-emi-offer-validity.jpg.md)
 
 ## Overview
 
@@ -63,13 +63,13 @@ Click the **Overview** tab to view the offer summary you just created.
 
 1. **Terms and Conditions**: Select the check box after you have read the disclaimer.
 2. Click **Create EMI Offer**.
-  ![Check the terms and conditions and create an offer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-low-cost-emi-overview.jpg.md)
+  ![Check the terms and conditions and create an offer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-low-cost-emi-overview.jpg.md)
 
 By default, all the created offers are in the **enabled** state.
 
 ## Test the Low Cost EMI Offer
 
-You can test the created Low Cost EMI offer for all Standard Checkout payments, including [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links.md), [Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button.md), [Payment Pages](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages.md) and so on.
+You can test the created Low Cost EMI offer for all Standard Checkout payments, including [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links.md), [Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button.md), [Payment Pages](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages.md) and so on.
 
 > **INFO**
 >
@@ -84,11 +84,11 @@ You can test the created Low Cost EMI offer for all Standard Checkout payments, 
 We will test the offer using a valid Payment Link for this example. Follow the steps given below: 
 
 1. Select the **Payment Link Id** you wish to test the created offer from the Dashboard.
-    ![Payment Link Test Offer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offer-dashboard-test.jpg.md)
+    ![Payment Link Test Offer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offer-dashboard-test.jpg.md)
 2. Copy the **Payment Link** URL and open it in your browser.
 3. Enter your contact details and click **Proceed**. 
 4. Select **EMI**.
-5. Select the payment option you created for the offer on from the Dashboard. Select the EMI plan and enter the required [test details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details.md).
+5. Select the payment option you created for the offer on from the Dashboard. Select the EMI plan and enter the required [test details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md).
 6. Click **Pay via EMI**
 7. Select **Success** or **Failure**, depending on which flow you wish to test.
 8. You should see a confirmation message depending on the flow you have selected.
@@ -102,8 +102,8 @@ To disable Low Cost EMI offers:
 ## Next Steps
 
 Now that the Low Cost EMI is created, you should integrate it with the Checkout for customers to avail the EMI scheme.
-Know more about [integrating Low Cost EMI Offers with Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/low-cost-emi/standard-integration.md).
+Know more about [integrating Low Cost EMI Offers with Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/low-cost-emi/standard-integration.md).
 
 ### Related Information
-- [Tutorial - How to Create Low Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/low-cost-emi/tutorial.md)
-- [Low Cost EMI FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/low-cost-emi/faqs.md)
+- [Tutorial - How to Create Low Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/low-cost-emi/tutorial.md)
+- [Low Cost EMI FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/offers/low-cost-emi/faqs.md)

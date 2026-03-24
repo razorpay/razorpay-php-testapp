@@ -8,7 +8,7 @@ description: Offer Debit Card EMIs to your customers at Razorpay Checkout. Check
 
 - **Debit Card EMI Changelog**: Discover new features, updates and deprecations related to Debit Card EMI (since Jan 2024).
 
-Using Razorpay, you can let your customers use Debit EMI as a payment method to buy various products on EMI using their Debit Cards without paying the entire amount immediately. Razorpay supports EMIs on debit cards issued by [major banks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#5-can-you-provide-a-list-of-the.md). EMI is available by default on Razorpay Standard Checkout. No additional integration is needed.
+Using Razorpay, you can let your customers use Debit EMI as a payment method to buy various products on EMI using their Debit Cards without paying the entire amount immediately. Razorpay supports EMIs on debit cards issued by [major banks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#5-can-you-provide-a-list-of-the). EMI is available by default on Razorpay Standard Checkout. No additional integration is needed.
 
 > **WARN**
 >
@@ -33,7 +33,7 @@ ICIC | ICICI Bank
 > 
 > **Handy Tips**
 > 
-> Check the [standard debit card interest rates](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#5-can-you-provide-a-list-of-the.md) and the minimum amount charged by the banks.
+> Check the [standard debit card interest rates](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#5-can-you-provide-a-list-of-the) and the minimum amount charged by the banks.
 > 
 
 ## Payment Flow on Standard Checkout
@@ -45,15 +45,15 @@ On the Checkout page, the customers:
 1. Enter the **Phone Number** and click **Continue**.
 2. Select **EMI** as the payment method.
     
-    ![Select emi payment option on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-options-card.jpg.md)
+    ![Select emi payment option on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-options-card.jpg.md)
     
 3. Select **Debit Card**.
     
-    ![Select debit card payment option on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-debit-card.jpg.md)
+    ![Select debit card payment option on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-debit-card.jpg.md)
     
 4. Choose a bank from the list and select the EMI tenure. Click **Continue**.
     
-    ![EMI tenure and click Select Plan](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-credit-tenure.jpg.md)
+    ![EMI tenure and click Select Plan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-credit-tenure.jpg.md)
     
 5.  They enter the relevant card details and choose if they want to **Save this card as per RBI guidelines** or pay without saving the card. 
 6. Click **Continue**. 
@@ -64,4 +64,4 @@ After the successful payment, Razorpay redirects customers to your application o
 
 ## FAQs
 
-[Debit Card EMI FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#debit-card-emi.md).
+[Debit Card EMI FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#debit-card-emi).

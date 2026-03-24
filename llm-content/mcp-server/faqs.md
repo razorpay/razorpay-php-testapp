@@ -19,7 +19,7 @@ description: Common issues, debugging techniques, and solutions for the Razorpay
     
 ### 3. How do I switch between test and live modes?
 
-         Use the corresponding [Razorpay API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) for your desired environment. For test mode, use test environment API keys (starting with rzp_test_). For live mode, use production API keys (starting with rzp_live_). The MCP Server automatically detects the environment based on your API keys.
+         Use the corresponding [Razorpay API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) for your desired environment. For test mode, use test environment API keys (starting with rzp_test_). For live mode, use production API keys (starting with rzp_live_). The MCP Server automatically detects the environment based on your API keys.
         
 
     

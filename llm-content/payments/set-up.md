@@ -8,8 +8,8 @@ description: Set up a Razorpay account, submit your KYC using CKYC/Video KYC and
 You must sign up for a Razorpay account to use the Razorpay Payments products, access the Dashboard and accept payments from customers.
 
   
-   [Set up an account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#set-up-account.md) to use Razorpay products to accept customer payments. 
-You can also [set up multiple accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#set-up-multiple-accounts.md) with the same mobile number and email id.
+   [Set up an account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#set-up-account) to use Razorpay products to accept customer payments. 
+You can also [set up multiple accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#set-up-multiple-accounts) with the same mobile number and email id.
   
 
   
@@ -29,7 +29,7 @@ Watch this video to create a new account on Razorpay and complete your KYC.
 > 
 > Razorpay now offers immediate identity validation for businesses with existing Central KYC records. This enables full account activation in minutes by removing the necessity for Video KYC and manual document uploads.
 > 
-> Know more about [CKYC and Traditional KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#ckyc-verification-vs-traditional-verification.md).
+> Know more about [CKYC and Traditional KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#ckyc-verification-vs-traditional-verification).
 > 
 > **Key Benefits**
 > 
@@ -45,7 +45,7 @@ Watch this video to create a new account on Razorpay and complete your KYC.
 > 
 > **Assisted Onboarding**
 > 
-> Hire a dedicated onboarding manager for an additional fee to assist you through your onboarding journey. The onboarding manager will provide end-to-end assistance, from sign-up and KYC document submission to verification and account activation. Know more about [Assisted Onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#assisted-onboarding.md).
+> Hire a dedicated onboarding manager for an additional fee to assist you through your onboarding journey. The onboarding manager will provide end-to-end assistance, from sign-up and KYC document submission to verification and account activation. Know more about [Assisted Onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#assisted-onboarding/).
 > 
 > 
 
@@ -59,12 +59,12 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
          Provide your contact details to get started:
 
          1. Enter an **email address or 10-digit phone number**.
-            ![Enter phone number or email address](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-sign-up-enter-email-phone.jpg.md)
+            ![Enter phone number or email address](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-sign-up-enter-email-phone.jpg.md)
          2. Create a **password**. Ensure that the criteria is fulfilled.
          3. **Enter the OTP** sent to your email address or phone number. Click **Verify**.
             If you did not receive the OTP, click **Resend OTP**.
          4. Click **Submit OTP**.
-             ![Submit OTP](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-sign-up-enter-otp.jpg.md)
+             ![Submit OTP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-sign-up-enter-otp.jpg.md)
          5. Select **business type**. Click **Proceed**.
         
 
@@ -74,19 +74,19 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
          Provide your basic details to set up your account.
 
          1. Enter your **Full name**. This name must be of the person who will be completing the onboarding. Click **Continue**.
-            ![Enter name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-basic-details-enter-name.jpg.md)
+            ![Enter name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-basic-details-enter-name.jpg.md)
          2. Enter your **Mobile number**. Click **Continue**.
-            ![Enter phone number](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-basic-details-enter-number.jpg.md)
+            ![Enter phone number](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-basic-details-enter-number.jpg.md)
          3. **Enter the OTP** sent to your mobile number. Click **Continue**.
-            ![Enter otp](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-basic-details-enter-otp.jpg.md)
+            ![Enter otp](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-basic-details-enter-otp.jpg.md)
          4. **Select the platforms** where you would like to accept payments. Click **Continue**.
-            ![Select platforms](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-basic-details-select-platforms.jpg.md)
+            ![Select platforms](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-basic-details-select-platforms.jpg.md)
          5. Add **website or application links**. Click **Continue**. If you wish to add these later, click **Add later**. 
-            ![Enter website or app links](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-basic-details-add-web-app-links.jpg.md) 
+            ![Enter website or app links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-basic-details-add-web-app-links.jpg.md) 
          6. Add the **Social media links** that are available. Click **Continue**. If you wish to add these later, click **Add later**. 
-            ![Enter social media links](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-basic-details-add-social-links.jpg.md) 
+            ![Enter social media links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-basic-details-add-social-links.jpg.md) 
          7. **Review** the basic details you entered. Click **Continue** after verifying the information.
-            ![Review basic details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-basic-details-review.jpg.md) 
+            ![Review basic details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-basic-details-review.jpg.md) 
         
 
     
@@ -95,9 +95,9 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
          Provide your business details. 
 
          1. Select your business type: **Registered or Unregistered**. Click **Continue**.
-            ![Select business type](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-business-details-biz-type.jpg.md) 
+            ![Select business type](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-business-details-biz-type.jpg.md) 
          2. Select your **business sub-type** based on the available options. Click **Continue**.
-            ![Select business subtype](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-business-details-biz-subtype.jpg.md)
+            ![Select business subtype](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-business-details-biz-subtype.jpg.md)
 
             
 > **INFO**
@@ -116,26 +116,26 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
                   If you are an unregistered Individual business:
                   
                   1. Enter your **personal PAN number**. Click **Continue**.
-                     ![Enter personal PAN number](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-business-details-enter-pan.jpg.md)
+                     ![Enter personal PAN number](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-business-details-enter-pan.jpg.md)
                   2. Razorpay will automatically capture your details based on your PAN number. Review your PAN.
                      
                      If the details are correct, click **Yes, confirm**. Or, click **Edit PAN**.
                      
-                     ![Review PAN](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-business-details-review-pan.jpg.md)
+                     ![Review PAN](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-business-details-review-pan.jpg.md)
                   3. Select your **brand name**. If the available options do not match your brand name, click **Other** and enter your brand name. Click **Continue**.
-                     ![Review PAN](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-business-details-brand-name.jpg.md)
+                     ![Review PAN](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-business-details-brand-name.jpg.md)
                   4. **Review** the business details you entered. Click **Continue** after verifying the information.
-                     ![Review business details - Unregistered](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-business-details-review-unregd.jpg.md)                
+                     ![Review business details - Unregistered](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-business-details-review-unregd.jpg.md)                
                   
 
                
 ### If you are a registered business:
 
                   5. Enter the **full name** of your business name. Ensure you do not use any special characters. Click **Continue**.
-                     ![Enter business full name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-business-details-enter-business-name.jpg.md)
+                     ![Enter business full name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-business-details-enter-business-name.jpg.md)
                   6. Enter your **Personal PAN number**.
                   7. Select the **Date of Incorporation**.
-                     ![Enter business full name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-business-details-pan-doi.jpg.md)
+                     ![Enter business full name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-business-details-pan-doi.jpg.md)
 
                      
 > **INFO**
@@ -150,11 +150,11 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
                      
                      If the details are correct, click **Yes, confirm**. Or, click **Edit PAN**.
                      
-                     ![Review PAN](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-business-details-review-pan.jpg.md)
+                     ![Review PAN](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-business-details-review-pan.jpg.md)
                   9. Select your **brand name**. If the available options do not match your brand name, click **Other** and enter your brand name. Click **Continue**.
-                     ![Review PAN](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-business-details-brand-name.jpg.md)
+                     ![Review PAN](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-business-details-brand-name.jpg.md)
                   10. **Review** the business details you entered. Click **Continue** after verifying the information.
-                     ![Review business details - Registered](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-business-details-review-regd.jpg.md) 
+                     ![Review business details - Registered](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-business-details-review-regd.jpg.md) 
                      
                   
 
@@ -178,13 +178,13 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
          - Mobile Postpaid Bill 
 
          1. Enter your **GSTIN number**. If you have a GSTIN, you must **upload your GST certificate**. If you do not, select the **I don't have a GSTIN** option. Click **Continue**.
-            ![Enter GSTIN](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-business-documents-gstin.jpg.md) 
+            ![Enter GSTIN](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-business-documents-gstin.jpg.md) 
          2. Enter your **UDYAM MSME number** and **upload the MSME certificate**. Click **Continue**.
-            ![Enter UDYAM MSME details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-business-documents-udyam-msme.jpg.md)
+            ![Enter UDYAM MSME details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-business-documents-udyam-msme.jpg.md)
          3. Select an **Additional document** and upload it. Click **Continue**.
-            ![Upload additional documents](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-business-documents-additional-docs.jpg.md)
+            ![Upload additional documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-business-documents-additional-docs.jpg.md)
          4. **Review** the business documents you provided. Click **Continue** after verifying the information.
-            ![Review business documents](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-business-documents-review.jpg.md) 
+            ![Review business documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-business-documents-review.jpg.md) 
         
 
     
@@ -197,15 +197,15 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
                For unregistered Individual businesses:
                
                1. Enter your **mobile number** linked to your CKYC to avoid performing a video KYC. Click **Generate OTP**. 
-                  ![Review business details - Unregistered](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-ckyc-autofill.jpg.md) 
+                  ![Review business details - Unregistered](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-ckyc-autofill.jpg.md) 
                2. Enter the OTP. Click **Verify OTP**.
 
                   If your details are successfully fetched, the screen appears as shown:
 
-                  ![Fetched CKYC details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-ckyc-details-fetched.jpg.md)
+                  ![Fetched CKYC details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-ckyc-details-fetched.jpg.md)
                   
                   If your CKYC verification fails, follow the below steps to share your Aadhar details using **Digilocker** or **upload manually**.
-                  ![Add identity proof](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-add-identity-proof.jpg.md) 
+                  ![Add identity proof](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-add-identity-proof.jpg.md) 
 
                   
                      
@@ -213,18 +213,18 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
                         
                         1. Select **Share Aadhar details via Digilocker**. Ensure that your mobile number is linked with your Aadhar. Click **Continue**.
                         2. To accept Digilocker's Aadhar terms and conditions, click **Continue to digilocker**.
-                           ![Add identity proof](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-terms.jpg.md) 
+                           ![Add identity proof](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-terms.jpg.md) 
                         3. Enter your **Aadhar number**. Click **Next**.
                         4. Enter the captcha text.
-                           ![Add](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-enter-aadhar.jpg.md) 
+                           ![Add](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-enter-aadhar.jpg.md) 
                         5. **Enter the OTP** sent to your linked mobile number. Click **Continue**.
-                           ![Add Aadhar](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-enter-otp.jpg.md) 
+                           ![Add Aadhar](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-enter-otp.jpg.md) 
                         6. Enter your **6-digit Digilocker pin**.
-                           ![Add Aadhar](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-enter-pin.jpg.md) 
+                           ![Add Aadhar](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-enter-pin.jpg.md) 
                         7. **Provide consent** to share any issued document for KYC purpose. Click **Allow**.
 
                            You will now be redirected back to Razorpay's onboarding page. Once the verification is successful, you can continue with the remaining steps.
-                           ![Add Aadhar](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-select-doc.jpg.md) 
+                           ![Add Aadhar](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-select-doc.jpg.md) 
                         
 
                      
@@ -235,26 +235,26 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
                            - Aadhar Card
                            - Voter id
                            - Passport
-                           ![Add Aadhar](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-manual-select-doc.jpg.md) 
+                           ![Add Aadhar](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-manual-select-doc.jpg.md) 
                         
 
                   
 
                3. Select and confirm your **business category and sub-category**. Click **Continue**.
-                  ![Confirm business category](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-confirm-category.jpg.md)
+                  ![Confirm business category](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-confirm-category.jpg.md)
                4. Select your **Average delivery time after receiving an order**. You will be asked for this information only if your CKYC failed. 
-                  ![Confirm business category](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-avg-del-time.jpg.md)
+                  ![Confirm business category](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-avg-del-time.jpg.md)
                5. Add your **Bank details**.
-                  ![Add Aadhar](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-bank-details.jpg.md)
+                  ![Add Aadhar](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-bank-details.jpg.md)
 
                   Razorpay will now deposit ₹1 to this account to verify. If the bank verification fails you must **upload a proof of the bank account**. Choose from the given options:
                   - Video of cancelled cheque
                   - Letter/email from Branch Manager confirming account
-                     ![Add Aadhar](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-bank-details-proof.jpg.md)
+                     ![Add Aadhar](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-bank-details-proof.jpg.md)
                6. You are now ready to submit your application. Click **Submit Application**. 
-                     ![Add Aadhar](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-submit-application.jpg.md)
+                     ![Add Aadhar](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-submit-application.jpg.md)
 
-                  You can unlock international payments by clicking **Unlock International**. Know more about [International Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments.md). Or you can proceed to explore your dashboard by clicking **Explore Test Dashboard**.
+                  You can unlock international payments by clicking **Unlock International**. Know more about [International Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md). Or you can proceed to explore your dashboard by clicking **Explore Test Dashboard**.
 
                   Once your details are verified by our team, **Live mode** will be enabled.
                   
@@ -279,10 +279,10 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
 
                   If your details are successfully fetched, the screen appears as shown:
 
-                  ![Fetched CKYC details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-ckyc-details-fetched.jpg.md) 
+                  ![Fetched CKYC details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-ckyc-details-fetched.jpg.md) 
 
                   If your CKYC verification fails, follow the below steps to share your Aadhar details using **Digilocker** or **upload manually**.
-                  ![Add identity proof](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-add-identity-proof.jpg.md)
+                  ![Add identity proof](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-add-identity-proof.jpg.md)
 
                   
                      
@@ -290,18 +290,18 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
                         
                         1. Select **Share Aadhar details via Digilocker**. Ensure that your mobile number is linked with your Aadhar. Click **Continue**.
                         2. To accept Digilocker's Aadhar terms and conditions, click **Continue to digilocker**.
-                           ![Add identity proof](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-terms.jpg.md) 
+                           ![Add identity proof](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-terms.jpg.md) 
                         3. Enter your **Aadhar number**. Click **Next**.
                         4. Enter the captcha text.
-                           ![Add](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-enter-aadhar.jpg.md) 
+                           ![Add](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-enter-aadhar.jpg.md) 
                         5. **Enter the OTP** sent to your linked mobile number. Click **Continue**.
-                           ![Add Aadhar](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-enter-otp.jpg.md) 
+                           ![Add Aadhar](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-enter-otp.jpg.md) 
                         6. Enter your **6-digit Digilocker pin**.
-                           ![Add Aadhar](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-enter-pin.jpg.md) 
+                           ![Add Aadhar](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-enter-pin.jpg.md) 
                         7. **Provide consent** to share any issued document for KYC purpose. Click **Allow**.
 
                            You will now be redirected back to Razorpay's onboarding page. Once the verification is successful, you can continue with the remaining steps.
-                           ![Add Aadhar](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-select-doc.jpg.md) 
+                           ![Add Aadhar](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-digilocker-select-doc.jpg.md) 
                         
 
                      
@@ -312,28 +312,28 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
                            - Aadhar Card
                            - Voter id
                            - Passport
-                           ![Add Aadhar](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-manual-select-doc.jpg.md) 
+                           ![Add Aadhar](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-manual-select-doc.jpg.md) 
                         
 
                   
                   
                8. Enter the **Authorised Signatory's name**. Click **Continue**.
-                  ![Enter authorised signatory name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-enter-name.jpg.md) 
+                  ![Enter authorised signatory name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-enter-name.jpg.md) 
                9. Select and confirm your **business category and sub-category**. Click **Continue**.
-                  ![Confirm business category](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-confirm-category.jpg.md)
+                  ![Confirm business category](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-confirm-category.jpg.md)
                10. Add the **Registered Business Address**. You will be asked for this information only if your CKYC failed.
-                  ![Add Aadhar](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-regd-business-address.jpg.md)
+                  ![Add Aadhar](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-regd-business-address.jpg.md)
                11. Add your **Bank details**.
-                  ![Add Aadhar](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-bank-details.jpg.md)
+                  ![Add Aadhar](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-bank-details.jpg.md)
 
                   Razorpay will now deposit ₹1 to this account to verify. If the verification fails you must **upload a proof of the bank account**. Choose from the given options:
                   - Video of cancelled cheque
                   - Letter/email from Branch Manager confirming account
-                     ![Add Aadhar](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-kyc-details-bank-details-proof.jpg.md)
+                     ![Add Aadhar](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-kyc-details-bank-details-proof.jpg.md)
                12. You are now ready to submit your application. Click **Submit Application**. 
-                     ![Add Aadhar](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-submit-application.jpg.md)
+                     ![Add Aadhar](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-submit-application.jpg.md)
 
-                  You can unlock international payments by clicking **Unlock International**. Know more about [International Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments.md). Or you can proceed to explore your dashboard by clicking **Explore Test Dashboard**.
+                  You can unlock international payments by clicking **Unlock International**. Know more about [International Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md). Or you can proceed to explore your dashboard by clicking **Explore Test Dashboard**.
 
                   Once your details are verified by our team, **Live mode** will be enabled.
                   
@@ -356,11 +356,11 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
 
       
       1. If your CKYC failed, you must proceed with the Video KYC process. Click **Start Video KYC**. 
-         ![Start Video KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-video-kyc-start.jpg.md)
+         ![Start Video KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-video-kyc-start.jpg.md)
       2. Confirm if you are the authorised signatory proceeding with the video KYC process. Click **Continue**.
-         ![Start Video KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-video-kyc-confirm-auth-sign.jpg.md)
+         ![Start Video KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-video-kyc-confirm-auth-sign.jpg.md)
       3. If you are not the authorised signatory, you can share the VKYC shareable link with them.
-         ![Start Video KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-video-kyc-share-link.jpg.md)
+         ![Start Video KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-video-kyc-share-link.jpg.md)
       4. If you are the authorised signatory, review the instructions and click **Start**.
          
          
@@ -373,7 +373,7 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
 >          
 
       5. Click **Accept & Proceed** to accept the terms and conditions. 
-         ![Accept Video KYC Terms](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/onboarding-video-kyc-accept-proceed.jpg.md)
+         ![Accept Video KYC Terms](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/onboarding-video-kyc-accept-proceed.jpg.md)
       6. Click **Proceed** to start checking for camera, microphone and location.
 
          
@@ -394,9 +394,9 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
 ### After Your Account is Created
 
       - In some cases, additional details may be required once your account is created. 
-      - You can accept payments and make payouts using a [range of products](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/#product-suite.md).
+      - You can accept payments and make payouts using a [range of products](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md#product-suite).
       - You can access the **Test** mode on the Dashboard to test and experience the products offered by Razorpay. Test mode does not involve actual money transactions.
-      - You have to generate separate API keys for Live and Test modes. Know more about [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+      - You have to generate separate API keys for Live and Test modes. Know more about [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
       
 
     
@@ -405,8 +405,8 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
          Your **KYC Verification** is complete. You can:
 
          - Accept payments without any amount limits.
-         - Razorpay will automatically settle payments in your bank account as per your [settlement cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/#settlement-cycle.md). 
-         - Request for [other payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/#view-payment-methods.md) and apply for [international payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#enable-payments-from-international-debit-and-credit-cards.md). 
+         - Razorpay will automatically settle payments in your bank account as per your [settlement cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md#settlement-cycle). 
+         - Request for [other payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md#view-payment-methods) and apply for [international payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#enable-payments-from-international-debit-and-credit-cards). 
         
 
 ## CKYC Verification vs. Traditional Verification
@@ -462,7 +462,7 @@ Complete KYC to start accepting payments with Razorpay. The new Master KYC-compl
 > 
 > **Handy Tips**
 > 
-> You can provide information in any order you prefer during KYC. Review and modify details from account creation if needed. Check the [complete list of KYC documents](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/business-types-kyc-documents.md) required for your business type.
+> You can provide information in any order you prefer during KYC. Review and modify details from account creation if needed. Check the [complete list of KYC documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/business-types-kyc-documents.md) required for your business type.
 > 
 > 
 
@@ -533,9 +533,9 @@ To set up a Razorpay Account, go to the [Razorpay website](https://razorpay.com/
 > 
 > **After Your Account is Created**
 > 
-> - You can accept payments using a [range of products after KYC completion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/#product-suite.md).
+> - You can accept payments using a [range of products after KYC completion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md#product-suite).
 > - You can access the **Test** mode on the Dashboard to test and experience the products offered by Razorpay. Test mode does not involve actual money transactions.
-> - You have to generate separate API keys for Live and Test modes. Know more about [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+> - You have to generate separate API keys for Live and Test modes. Know more about [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 > 
 
 ## 2. Submit KYC Details
@@ -545,8 +545,8 @@ Upon creating an account, you can start accepting payments from customers once y
 **After Successful Activation**
 
 - Accept payments without any amount limits.
-- Razorpay will automatically settle payments in your bank account as per your [settlement cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/#settlement-cycle.md). 
-- Request for [other payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/#view-payment-methods.md). 
+- Razorpay will automatically settle payments in your bank account as per your [settlement cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md#settlement-cycle). 
+- Request for [other payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md#view-payment-methods). 
 
 ## Set Up Multiple Accounts
 
@@ -566,9 +566,9 @@ Gaurav uses **Multi-Account** feature to set up another account. Razorpay  will 
          1. Enter your mobile number or email id and click **Continue**.
          1. Enter the OTP sent to your registered mobile number and click **Verify**.
          1. All the accounts linked to the entered number/email is are displayed. Click **Create a new account**.
-            ![Create another account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/create-multi-account.jpg.md)
+            ![Create another account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/create-multi-account.jpg.md)
          1. Select the country and click **Verify**.
-         1. Your existing number and email id is already registered with the new account. Enter your name and continue with [Sign Up](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#platform-details.md) and [KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#2-submit-kyc-details.md).
+         1. Your existing number and email id is already registered with the new account. Enter your name and continue with [Sign Up](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#platform-details) and [KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#2-submit-kyc-details).
         
 
     
@@ -577,9 +577,9 @@ Gaurav uses **Multi-Account** feature to set up another account. Razorpay  will 
          1. Log in to the Dashboard.
          1. Click the profile icon → **Switch Merchant**.
          1. Click **Create A New Account**.
-            ![Create multi account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/create-new-account-switch-merchant.jpg.md)
+            ![Create multi account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/create-new-account-switch-merchant.jpg.md)
          1. Select the country and click **Verify**.
-         1. Your existing number and email id is already registered with the new account. Enter your name and continue with [Sign Up](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#platform-details.md) and [KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#2-submit-kyc-details.md).
+         1. Your existing number and email id is already registered with the new account. Enter your name and continue with [Sign Up](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#platform-details) and [KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#2-submit-kyc-details).
         
 
 > **WARN**
@@ -619,12 +619,12 @@ Gaurav uses **Multi-Account** feature to set up another account. Razorpay  will 
 
             1. On the [Razorpay sign-up page](https://easy.razorpay.com/), sign up using your mobile number. 
             2. Click **Know more** under **Hire an onboarding manager for faster account set up!**. Complete the payment.
-                ![Hire a Razorpay onboarding manager.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/hire-onboarding-manager.jpg.md)
+                ![Hire a Razorpay onboarding manager.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/hire-onboarding-manager.jpg.md)
             
             An onboarding manager will be assigned to you within 1 hour to help you set up your account.
         
 
 ### Related Information
 
-- [KYC Documents](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/business-types-kyc-documents.md)
-- [Frequently Asked Questions (FAQs)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/faqs.md)
+- [KYC Documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/business-types-kyc-documents.md)
+- [Frequently Asked Questions (FAQs)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/faqs.md)

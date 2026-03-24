@@ -74,7 +74,7 @@ You have now successfully added a Payment Button to your website. To verify, che
 
 ### Related Information
 
-- [Ghost Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/ghost-integration.md)
-- [Zapier Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/ghost-integration/zapier-integration.md)
-- [Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button.md)
-- [Razorpay Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md)
+- [Ghost Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/ghost-integration.md)
+- [Zapier Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/ghost-integration/zapier-integration.md)
+- [Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button.md)
+- [Razorpay Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)

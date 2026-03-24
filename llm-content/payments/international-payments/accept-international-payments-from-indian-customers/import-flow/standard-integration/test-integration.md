@@ -7,7 +7,7 @@ description: Steps to test if the custom Web integration was successful.
 
 After the integration is complete, a **Pay** button appears on your webpage/app. 
 
-![Test integration on your webpage/app](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/test-int.gif.md)
+![Test integration on your webpage/app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/test-int.gif.md)
 
 Click the button and make a test transaction to ensure the integration is working as expected. You can start accepting actual payments from your customers once the test transaction is successful.
 
@@ -19,8 +19,8 @@ You can make test payments using one of the payment methods configured at the Ch
 > **Watch Out!**
 > 
 > This is a mock payment page that uses your test API keys, test card and payment details. 
-> - Ensure you have entered only your [Test Mode API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) in the Checkout code. 
-> - Test mode may include OTP verification for certain payment methods to replicate the live payment experience.
+> - Ensure you have entered only your [Test Mode API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) in the Checkout code. 
+> - Test mode features a mock bank page with **Success** and **Failure** buttons to replicate the live payment experience.
 > - No real money is deducted due to the usage of test API keys. This is a simulated transaction.
 > 
 
@@ -32,20 +32,20 @@ You can make test payments using one of the payment methods configured at the Ch
         
         Payment Method | Code | Availability
         ---
-        [Debit Card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards.md) | `debit` | ✓
+        [Debit Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards.md) | `debit` | ✓
         ---
-        [Credit Card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards.md) | `credit` | ✓
+        [Credit Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards.md) | `credit` | ✓
         ---
-        [Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/netbanking.md) | `netbanking`| ✓
+        [Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/netbanking.md) | `netbanking`| ✓
         ---
-        [UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi.md) | `upi` | ✓
+        [UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi.md) | `upi` | ✓
         
 
         #### Netbanking
 
         You can select any of the listed banks. After choosing a bank, Razorpay will redirect to a mock page where you can make the payment `success` or a `failure`. Since this is Test Mode, we will not redirect you to the bank login portals.
 
-        Check the list of [supported banks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/netbanking#supported-banks.md).
+        Check the list of [supported banks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/netbanking.md#supported-banks).
 
         #### UPI
 
@@ -55,8 +55,8 @@ You can make test payments using one of the payment methods configured at the Ch
         - `failure@razorpay`: To fail the payment.
 
         Check the following lists: 
-            - [Supported UPI Flows](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi.md).
-            - [UPI Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/payments/upi.md).
+            - [Supported UPI Flows](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi.md).
+            - [UPI Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/payments/upi.md).
 
         
 > **INFO**
@@ -88,11 +88,11 @@ You can make test payments using one of the payment methods configured at the Ch
         
 
         Check the following lists: 
-            - [Supported Card Networks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards.md).
-            - [Cards Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/payments/cards.md).
-            - [Test Error Scenarios](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details/#error-scenario-test-cards.md).
+            - [Supported Card Networks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards.md).
+            - [Cards Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/payments/cards.md).
+            - [Test Error Scenarios](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md#error-scenario-test-cards).
         
 
 ## Next Steps
 
-[Step 3: Go Live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/import-flow/standard-integration/go-live-checklist.md)
+[Step 3: Go Live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/import-flow/standard-integration/go-live-checklist.md)

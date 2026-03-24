@@ -5,7 +5,7 @@ description: Check the details required by the Issuing Bank for Dispute Represen
 
 # Submit Evidence
 
-The process of submitting various evidence documents to banks and gateways for contesting a payment dispute is known as **Dispute Representment**. If you want to successfully contest the chargeback and show the transaction was legitimate, you must submit supporting **chargeback evidence documents**. Know more about [dispute process flow.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/#disputes-process-flow.md)
+The process of submitting various evidence documents to banks and gateways for contesting a payment dispute is known as **Dispute Representment**. If you want to successfully contest the chargeback and show the transaction was legitimate, you must submit supporting **chargeback evidence documents**. Know more about [dispute process flow.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes.md#disputes-process-flow)
 
 ## Chargeback Reason Codes & Evidence Documents for Dispute Resolution
 
@@ -1274,7 +1274,7 @@ If you win the dispute, no amount will be deducted from your balance, successful
 
 ### Related Information
 
-- [About Disputes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes.md)
-- [Disputes - Dashboard Actions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/dashboard.md)
-- [Dispute FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/faqs.md)
+- [About Disputes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes.md)
+- [Disputes - Dashboard Actions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes/dashboard.md)
+- [Dispute FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes/faqs.md)
 - [Contact Support](https://razorpay.com/support/#request) for additional help with disputes.

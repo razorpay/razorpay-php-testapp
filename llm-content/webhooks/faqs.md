@@ -18,7 +18,7 @@ description: Find answers to frequently asked questions about Razorpay webhooks.
    
 ### 2. Why am I getting an error message as "private ip found for host"?
 
-       Webhooks can only be delivered to public URLs. If you attempt to save a localhost endpoint as part of a webhook setup, you will notice this error. Know more about the [ alternatives to localhost](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test/#application-running-on-localhost.md).
+       Webhooks can only be delivered to public URLs. If you attempt to save a localhost endpoint as part of a webhook setup, you will notice this error. Know more about the [ alternatives to localhost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md#application-running-on-localhost).
       
 
    
@@ -38,7 +38,7 @@ description: Find answers to frequently asked questions about Razorpay webhooks.
 >             The webhook secret does not need to be the merchant secret key provided by Razorpay.
 >             
 
-            If you do not remember the secret used during setup, change the secret by editing the webhook. Know more about [editing Payments webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md) and [Editing Payouts Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payouts.md).
+            If you do not remember the secret used during setup, change the secret by editing the webhook. Know more about [editing Payments webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md) and [Editing Payouts Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payouts.md).
 
        -  **Issue with the signature generation logic**
 
@@ -76,7 +76,7 @@ description: Find answers to frequently asked questions about Razorpay webhooks.
 
          
          
-         ![Webhooks Replay Request.gif](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/webhook-replay-request.gif.md)
+         ![Webhooks Replay Request.gif](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/webhook-replay-request.gif.md)
       
 
    
@@ -116,7 +116,7 @@ description: Find answers to frequently asked questions about Razorpay webhooks.
 
        1. The TLS protocol is used to encrypt your servers' communications with Razorpay, so it is important that your integration uses the latest version (TLS 1.2 is much more secure than its predecessors.).
 
-       2. As an integration checklist, please whitelist all the [ Webhook IPs](@/Applications/MAMP/htdocs/new-docs/llm-content/security/whitelists/#webhook-ips.md).
+       2. As an integration checklist, please whitelist all the [ Webhook IPs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/whitelists.md#webhook-ips).
       
 
    
@@ -125,15 +125,15 @@ description: Find answers to frequently asked questions about Razorpay webhooks.
     To view the webhooks log history:
      1. Log in to your Dashboard.
      2. On the left navigation, click **Developers** → **Webhooks**.
-         ![webhooks logs](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/webhook-logs.jpg.md)
+         ![webhooks logs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/webhook-logs.jpg.md)
      3. Select the webhook for which you want to view the log history.
-         ![webhooks logs details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/webhook-log-details.jpg.md)
+         ![webhooks logs details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/webhook-log-details.jpg.md)
    
 
    
 ### 10. Is there a standard webhook response structure for all payment methods?
 
-       No, there is no standard webhook response structure across all payment methods. However, core parameters remain consistent while method-specific fields vary. Refer to [webhook events](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments/#sample-payloads.md) for payload examples for each payment method.
+       No, there is no standard webhook response structure across all payment methods. However, core parameters remain consistent while method-specific fields vary. Refer to [webhook events](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md#sample-payloads) for payload examples for each payment method.
       
 
    

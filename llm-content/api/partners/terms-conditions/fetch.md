@@ -8,7 +8,7 @@ description: Fetch Terms and Conditions for a Sub-Merchant using Razorpay Partne
 
 ## Fetch Terms and Conditions
 
-Use this endpoint to retrieve the terms and conditions of a sub-merchant. Know about the [various error responses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md) for this API.
+Use this endpoint to retrieve the terms and conditions of a sub-merchant. Know about the [various error responses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md) for this API.
 
 ### Request
 

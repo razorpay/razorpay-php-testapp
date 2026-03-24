@@ -18,7 +18,7 @@ Razorpay Magic Checkout enables seamless prepaid and COD transactions on your pl
 > **Feature Request**
 > 
 > - This is an on-demand feature. Please fill out the [form](https://share.hsforms.com/1l6lBAl5_S82QSEN8_HMYHg3b5b6) to get this feature activated on your Razorpay account.
-> - At present, Magic Checkout is available only on [Web](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/web.md), [Android](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/android-integration.md), [iOS](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/ios-integration.md), [React Native Android](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/react-native-android-integration.md), [React Native iOS](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/react-native-ios-integration.md), [Flutter](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/flutter-integration.md), [Capacitor](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/capacitor-integration.md), [WooCommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce.md) and [Shopify](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify.md) integrations.
+> - At present, Magic Checkout is available only on [Web](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/web.md), [Android](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/android-integration.md), [iOS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/ios-integration.md), [React Native Android](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/react-native-android-integration.md), [React Native iOS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/react-native-ios-integration.md), [Flutter](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/flutter-integration.md), [Capacitor](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/capacitor-integration.md), [WooCommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md) and [Shopify](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify.md) integrations.
 > 
 
 Watch the video below to know more about Magic Checkout.
@@ -58,7 +58,7 @@ Watch the video below to know more about Magic Checkout.
 ### Prerequisites
 
          - Create a [Razorpay account](https://dashboard.razorpay.com/signup).
-         - [Generate test API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) on the Dashboard. 
+         - [Generate test API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) on the Dashboard. 
 
              
 > **INFO**
@@ -100,7 +100,7 @@ Razorpay Magic Checkout is supported on the following platforms:
 
 ### Related Information
 
-- [How Magic Checkout Works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/how-it-works.md)
-- [Use Cases](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/use-cases.md)
-- [Features](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/features.md)
-- [Customisations and Extensions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/customisations-extensions.md)
+- [How Magic Checkout Works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/how-it-works.md)
+- [Use Cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/use-cases.md)
+- [Features](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/features.md)
+- [Customisations and Extensions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/customisations-extensions.md)

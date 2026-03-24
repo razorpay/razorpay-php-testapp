@@ -35,7 +35,7 @@ Whenever a webhook is disabled, you are notified on your **Alert Email Address**
 
 > 
 
-You can also manually disable webhooks from the Dashboard. Know more about [Payments Deactivation](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments/#deactivation.md) and [RazorpayX Deactivation](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payouts/#deactivation.md).
+You can also manually disable webhooks from the Dashboard. Know more about [Payments Deactivation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md#deactivation) and [RazorpayX Deactivation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payouts.md#deactivation).
 
 ## Event Handling
 
@@ -43,7 +43,7 @@ Correct handling of webhook events is crucial to ensuring your integration's bus
 
 ### Handle Duplicate Events
 
-There could be scenarios where your endpoint might receive the same webhook event multiple times. This is an expected behaviour based on the webhook design. In such a scenario, we recommend you to follow [idempotency](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test/#idempotency.md).
+There could be scenarios where your endpoint might receive the same webhook event multiple times. This is an expected behaviour based on the webhook design. In such a scenario, we recommend you to follow [idempotency](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md#idempotency).
 
 You could be receiving the same events multiple times as Razorpay follows at-least-once delivery semantics. In this approach, if we do not receive a successful response from your server, we resend the webhook. There could be situations where your server accepts the event but fails to respond in 5 seconds. In such cases, the session is marked timeout. It is assumed that the webhook was not processed and is sent again.
 
@@ -61,7 +61,7 @@ You could be receiving the same events multiple times as Razorpay follows at-lea
 
 ### Order Of Events
 
-Ideally, you should receive a webhook in the order in which the webhook events occur. However, you may not always receive the webhooks in order. Know more about [Order of Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test/#order-of-webhooks.md).
+Ideally, you should receive a webhook in the order in which the webhook events occur. However, you may not always receive the webhooks in order. Know more about [Order of Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md#order-of-webhooks).
 
 ## Security
 
@@ -69,9 +69,9 @@ Maintaining your endpoints secure is crucial to protecting your customer's infor
 
 ### Receive events with an HTTPS server
 
-Razorpay Production environment does not support the older versions of TLS 1.0 and 1.1 due to security concerns around these protocols. The TLS protocol is used to encrypt your servers communications with Razorpay, so your integration must use the latest version (TLS 1.2 is much more secure than its predecessors). As an integration checklist, please whitelist all the [Webhook IPs](@/Applications/MAMP/htdocs/new-docs/llm-content/security/whitelists/#webhook-ips.md).
+Razorpay Production environment does not support the older versions of TLS 1.0 and 1.1 due to security concerns around these protocols. The TLS protocol is used to encrypt your servers communications with Razorpay, so your integration must use the latest version (TLS 1.2 is much more secure than its predecessors). As an integration checklist, please whitelist all the [Webhook IPs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/whitelists.md#webhook-ips).
 
 ### Verify Events are Sent from Razorpay
 
-You can [verify webhook signatures](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test/#validate-webhooks.md) to confirm that received events are sent from Razorpay.
-You can also [resolve webhook signature validation errors](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/faqs/#3-how-to-resolve-webhook-signature-validation-errors.md).
+You can [verify webhook signatures](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md#validate-webhooks) to confirm that received events are sent from Razorpay.
+You can also [resolve webhook signature validation errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/faqs.md#3-how-to-resolve-webhook-signature-validation-errors).

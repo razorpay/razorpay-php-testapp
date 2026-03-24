@@ -21,7 +21,7 @@ To support Google Pay Cards on your S2S integration:
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -29,9 +29,9 @@ To support Google Pay Cards on your S2S integration:
 ## Prerequisites
 
 - Sign up for a Razorpay account.
-- Generate [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) on the Dashboard.
-- Configure [payment capture settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/#dashboard-actions.md) on the Dashboard.
-- Follow the [Razorpay S2S Integration documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v1.md).
+- Generate [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) on the Dashboard.
+- Configure [payment capture settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments.md#dashboard-actions) on the Dashboard.
+- Follow the [Razorpay S2S Integration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v1.md).
 - You must have a PCI compliance certificate to get this feature enabled on your account.
 
 ## Integration Steps
@@ -127,7 +127,7 @@ Show `Pay with Google Pay cards` method to your end customers only when `isReady
 Order is an important step in the payment process.
 
 - An order should be created for every payment.
-- You can create an order using the [Orders API](#api-sample-code). It is a server-side API call.  Know how to [authenticate](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) Orders API.  
+- You can create an order using the [Orders API](#api-sample-code). It is a server-side API call.  Know how to [authenticate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) Orders API.  
 - The order_id received in the response should be passed to the checkout. This ties the Order with the payment and secures the request from being tampered.
 
 > **WARN**
@@ -183,7 +183,7 @@ client.order.create(data=DATA)
 $order  = $client->order->create([
   'receipt'         => 'order_rcptid_11',
   'amount'          => 50000, // amount in the smallest currency unit
-  'currency'        => 'INR'// [See the list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).)
+  'currency'        => 'INR'// [See the list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).)
 ]);
 ```csharp: .NET
 Dictionary options = new Dictionary();
@@ -236,7 +236,7 @@ Here is the list of parameters and their description for creating an order:
 >   
 
 `currency` _mandatory_
-: `string` The currency in which the transaction should be made. See the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be 3 characters.
+: `string` The currency in which the transaction should be made. See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be 3 characters.
 
   
   
@@ -246,7 +246,7 @@ Here is the list of parameters and their description for creating an order:
 > 
 >   **Handy Tips**
 > 
->   Razorpay has added support for zero decimal currencies, such as JPY and three decimal currencies, such as KWD, BHD and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>   Razorpay has added support for zero decimal currencies, such as JPY and three decimal currencies, such as KWD, BHD and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
 >   
 
   
@@ -265,15 +265,15 @@ Here is the list of parameters and their description for creating an order:
 `id` _mandatory_
 : `string` Unique identifier of the customer. For example, `cust_1Aa00000000004`.
 
-Know more about [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 #### Response Parameters
 
-Descriptions for the response parameters are present in the [Orders Entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/entity.md) table.
+Descriptions for the response parameters are present in the [Orders Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/entity.md) table.
 
 #### Error Response Parameters
 
-The error response parameters are available in the [API Reference Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md).
+The error response parameters are available in the [API Reference Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md).
 
 The `razorpay_order_id` returned on successful creation of the order should be sent to the Checkout form.
 
@@ -336,7 +336,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 : `integer` The amount to be paid by the customer in currency subunits. For example, if the amount is ₹100, enter `10000`.
 
 `currency` _mandatory_
-: `string` The currency in which the payment should be made by the customer. See the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` The currency in which the payment should be made by the customer. See the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 `order_id` _mandatory_
 : `string` Order ID generated in the previous step.
@@ -550,6 +550,6 @@ private void handleResultStatusCode(int statusCode) {
 ### Step 9: Verify Payment Status
 
 When your application gets `Result_OK` from the Google app, you can verify the same using any of the following methods:
-- [Fetch Payments API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md)
-- [Payments Webhooks (Recommended)](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments/#payments.md)
-- [Orders Webhooks (Recommended)](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/orders/#orders.md)
+- [Fetch Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments)
+- [Payments Webhooks (Recommended)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md#payments)
+- [Orders Webhooks (Recommended)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/orders.md#orders)

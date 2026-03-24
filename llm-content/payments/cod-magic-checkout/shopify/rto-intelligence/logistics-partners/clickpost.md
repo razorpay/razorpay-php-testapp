@@ -17,6 +17,6 @@ Follow these steps on the Razorpay Dashboard:
 3. Navigate to **RTO Settings** → **Delivery Tracking** and click **Connect** next to **ClickPost**.
 4. Enter the same **Username** and **Key** as provided by ClickPost during the registration.
 5. Click **Connect to ClickPost**.
-    ![Paste the API Keys on the Razorpay Dashboard and connect](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-logistics-clickpost-creds.jpg.md)
+    ![Paste the API Keys on the Razorpay Dashboard and connect](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-logistics-clickpost-creds.jpg.md)
 
 You have successfully integrated COD & Magic Checkout with ClickPost. In case you want to disconnect ClickPost, click **Disconnect**.

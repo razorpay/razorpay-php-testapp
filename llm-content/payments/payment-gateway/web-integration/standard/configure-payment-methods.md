@@ -28,11 +28,11 @@ Depending on the use cases that you might have, Razorpay allows you to create an
 
 To control payment methods on the Checkout, there are different ways to pass the configuration to the Checkout:
 
-- **Configure via Dashboard**: Choose the payment methods and instruments you want to display at checkout, arrange them in your preferred order, and tailor the checkout experience to match your business needs. Create custom payment blocks for specific customer segments on the Razorpay Dashboard. Know more about [Payment Configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-configuration.md).
+- **Configure via Dashboard**: Choose the payment methods and instruments you want to display at checkout, arrange them in your preferred order, and tailor the checkout experience to match your business needs. Create custom payment blocks for specific customer segments on the Razorpay Dashboard. Know more about [Payment Configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-configuration.md).
 
-- **Pass Configuration at Runtime**: Pass the configuration to the `options` parameter of the Checkout code at the run time.  This is useful when you want to modify the order of the payment methods for a particular set of payments while rendering the Checkout. See the [Sample Code](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/sample-code.md) for details.
+- **Pass Configuration at Runtime**: Pass the configuration to the `options` parameter of the Checkout code at the run time.  This is useful when you want to modify the order of the payment methods for a particular set of payments while rendering the Checkout. See the [Sample Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/sample-code.md) for details.
 
-- **Use a Configuration ID**: Create a global setting of the payments as a **Configuration ID** and pass these values while creating the Order. This is useful when you want control the checkout configurations dynamically using different **Configuration IDs**. You can create a **Configuration ID** through the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-configuration.md). There are two ways to pass the Configuration ID:
+- **Use a Configuration ID**: Create a global setting of the payments as a **Configuration ID** and pass these values while creating the Order. This is useful when you want control the checkout configurations dynamically using different **Configuration IDs**. You can create a **Configuration ID** through the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-configuration.md). There are two ways to pass the Configuration ID:
   - While creating the order: Add the `checkout_config_id` field in the order creation request.
   - While opening the checkout: Include the `checkout_config_id` in the checkout options.
 
@@ -42,12 +42,12 @@ To control payment methods on the Checkout, there are different ways to pass the
 
 ## Next Steps
 
-[Understand the Configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/understand-configuration.md)
+[Understand the Configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/understand-configuration.md)
 
 ### Related Information
 
-- [Customise Checkout Appearance](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/checkout-styling.md)
-- [Customise Checkout Experience](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/checkout-features.md)
-- [Customise Payment Methods on Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-configuration.md)
-- [Supported Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md)
-- [Sample Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/sample-code.md)
+- [Customise Checkout Appearance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-styling.md)
+- [Customise Checkout Experience](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-features.md)
+- [Customise Payment Methods on Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-configuration.md)
+- [Supported Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md)
+- [Sample Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/sample-code.md)

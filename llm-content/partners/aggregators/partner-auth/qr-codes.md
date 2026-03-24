@@ -13,12 +13,12 @@ Use Razorpay QR Codes to receive UPI payments from your customers. Create QR Cod
 > 
 > **Handy Tips**
 > 
-> Consider these [prerequisites](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/#prerequisites.md) before getting started with QR Codes.
+> Consider these [prerequisites](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes.md#prerequisites) before getting started with QR Codes.
 > 
 
 ## Create a QR Code API
 
-Given below is the sample code for Create a QR Code API. Pass the `account_id` of the sub-merchant using `X-Razorpay-Account` in the header. Refer to the [QR Codes API documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes.md).
+Given below is the sample code for Create a QR Code API. Pass the `account_id` of the sub-merchant using `X-Razorpay-Account` in the header. Refer to the [QR Codes API documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes.md).
 
 payments/qr_codes
 
@@ -162,7 +162,7 @@ body, err := client.QrCode.create(data, extraHeaders)
 `type` _mandatory_
 : `string` The type of QR code. Possible values:
   - `upi_qr`: Create a QR code that accepts only UPI payments.
-  - `bharat_qr`: Create a QR code that accepts UPI and card payments. This is an on-demand feature. Know more about [Bharat QR](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/bharatqr.md).
+  - `bharat_qr`: Create a QR code that accepts UPI and card payments. This is an on-demand feature. Know more about [Bharat QR](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bharatqr.md).
 
 `name` _optional_
 : `string` Label entered to identify the QR code. For example, Store Front Display.
@@ -187,7 +187,7 @@ body, err := client.QrCode.create(data, extraHeaders)
 : `object` Key-value pair that can be used to store additional information about the QR code. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty"`.
 
 `customer_id` _optional_
-: `string` Unique identifier of the customer the QR code is linked with. Know more about the [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md).
+: `string` Unique identifier of the customer the QR code is linked with. Know more about the [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md).
 
 `close_by` _optional_
 : `integer` UNIX timestamp at which the QR code is scheduled to be automatically closed. The time must be at least 2 minutes after the current time. The date range can be set to 2147483647 in UNIX timestamp format (equivalent to Tuesday, January 19, 2038 8:44:07 AM GMT+05:30).
@@ -202,11 +202,11 @@ body, err := client.QrCode.create(data, extraHeaders)
 
 ### Response Parameters
 
-Descriptions for the response parameters are present in the [QR Codes Entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes#qr-code-entity.md) parameters table.
+Descriptions for the response parameters are present in the [QR Codes Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes.md#qr-code-entity) parameters table.
 
 ### Error Response Parameters
 
-Error codes and descriptions are present in the [Error Response Parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes#error-response-parameters.md) table.
+Error codes and descriptions are present in the [Error Response Parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes.md#error-response-parameters) table.
 
 ## Fetch all QR Codes API
 
@@ -293,12 +293,12 @@ body, err := client.QrCode.All(nil, extraHeaders)
 ```
 ### Response Parameters
 
-Descriptions for the response parameters are present in the [QR Codes Entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes#qr-code-entity.md) parameters table.
+Descriptions for the response parameters are present in the [QR Codes Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes.md#qr-code-entity) parameters table.
 
 ### Error Response Parameters
 
-Error codes and descriptions are present in the [Error Response Parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes#error-response-parameters-2.md) table.
+Error codes and descriptions are present in the [Error Response Parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes.md#error-response-parameters-2) table.
 
 ### Related Information
 
-- [QR Codes API documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/qr-codes.md)
+- [QR Codes API documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/qr-codes.md)

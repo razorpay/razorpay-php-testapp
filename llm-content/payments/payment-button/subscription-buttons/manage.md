@@ -159,4 +159,4 @@ You can update an Active Subscription as follows:
 
 ### Related Information
 
-[Subscription Button FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/subscription-buttons/faqs.md)
+[Subscription Button FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/subscription-buttons/faqs.md)

@@ -13,7 +13,7 @@ Enabling GST Input Credit allows RazorpayX to use GSTR-2A data and check if your
 > 
 > **Watch Out!**
 > 
-> This feature is available only for GST registered businesses. If you want to update your GSTIN on RazorpayX, [contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md).
+> This feature is available only for GST registered businesses. If you want to update your GSTIN on RazorpayX, [contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md).
 > 
 
 ## Set up GST Input Credit
@@ -39,10 +39,10 @@ To set up the GST Input Credit integration:
     
 5. Select the **I have completed above steps** checkbox and click **Next**.
 6. Your GSTIN is displayed. Enter the GSTIN portal **Username** and click **Generate OTP**.
-    ![Generate OTP](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-vp-gst-otp.jpg.md)
+    ![Generate OTP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-vp-gst-otp.jpg.md)
 7. Enter the OTP sent to your registered mobile number on the GSTIN portal and click **Next**.
 
-As soon as you setup the GST credit checker, the data syncs for the current financial year. Post set up, the data syncs every 24 hours. You can also [manually refresh](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/gst-credit-checker/#refresh-gstr-2a-data.md) the data. The integration lasts for 30 days at once. After 30 days, you must [**Re-authenticate**](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/gst-credit-checker/#re-authenticate-gst-input-credit.md) for the system to access your GSTR-2A data. 
+As soon as you setup the GST credit checker, the data syncs for the current financial year. Post set up, the data syncs every 24 hours. You can also [manually refresh](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/gst-credit-checker.md#refresh-gstr-2a-data) the data. The integration lasts for 30 days at once. After 30 days, you must [**Re-authenticate**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/gst-credit-checker.md#re-authenticate-gst-input-credit) for the system to access your GSTR-2A data. 
 
     
 ### Re-authenticate GST Input Credit
@@ -71,7 +71,7 @@ As soon as you setup the GST credit checker, the data syncs for the current fina
 
 You can view whether the vendor has reported GST for the respective invoice on the [RazorpayX Dashboard](https://x.razorpay.com/auth) → **Vendor Payments** → **Invoices**. The GSTR-2A coloumn displays the status.
 
-![GST status on RazorpayX dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-vp-gst-status.jpg.md)
+![GST status on RazorpayX dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-vp-gst-status.jpg.md)
 
 To view more information, select the required invoice. The relevant information is available in the right-pane.
 
@@ -92,11 +92,11 @@ To disable the GST Input Credit integration:
 1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
 2. Navigate to the profile icon at the top right and click **My Accounts & Settings** → **Integrations**.
 3. Find **GST Input Credit** and click **Disable**.
-    ![Disable GST integration](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-vp-gst-disable.jpg.md)
+    ![Disable GST integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-vp-gst-disable.jpg.md)
 4. In the pop-up, click **Disable**.
 
 This integration is disabled.
 
 ## Related Information
 
-- [Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/invoices.md)
+- [Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/invoices.md)

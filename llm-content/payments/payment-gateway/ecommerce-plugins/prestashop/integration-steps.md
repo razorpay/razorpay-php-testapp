@@ -28,7 +28,7 @@ Follow the steps given below:
         - For PrestaShop 1.7, download releases tagged 2.x.y. The latest release for PrestaShop 1.7 is [version 2.5.3](https://github.com/razorpay/razorpay-prestashop/releases/download/2.5.3/razorpay.zip).
         - For PrestaShop 8.0 and 8.1, download releases tagged 2.x.y. The latest release for PrestaShop 8.0 and 8.1 is [version 2.5.4](https://github.com/razorpay/razorpay-prestashop/releases).
   2. Log in to your [PrestaShop account](https://addons.prestashop.com/en/).
-      ![Prestashop Login](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/prestashop-login.jpg.md)
+      ![Prestashop Login](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/prestashop-login.jpg.md)
   3. Navigate to the **Modules** tab and click **Add a New Module**.
   4. Click **Browse** to open the Windows search on your computer. Select the ZIP file that you have downloaded and click **OK**.
   5. Click **Upload this Module**.
@@ -52,7 +52,7 @@ Follow the steps given below:
 > 
 >   **Handy Tips**
 > 
->   Webhook is auto-configured when you enter and save the API key ID and secret on the plugin settings page. You need to verify if webhooks are enabled on your Razorpay [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/prestashop/troubleshooting-faqs/#2-how-can-i-verify-if-webhooks-are.md). However, for versions lower than 2.5.0, you need to [configure webhooks manually](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/prestashop/troubleshooting-faqs/#1-my-webhooks-are-not-auto-configured-since-i.md).
+>   Webhook is auto-configured when you enter and save the API key ID and secret on the plugin settings page. You need to verify if webhooks are enabled on your Razorpay [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/prestashop/troubleshooting-faqs.md#2-how-can-i-verify-if-webhooks-are). However, for versions lower than 2.5.0, you need to [configure webhooks manually](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/prestashop/troubleshooting-faqs.md#1-my-webhooks-are-not-auto-configured-since-i).
 >   
 
   If you face any errors, refer to the [PrestaShop guide](https://addons.prestashop.com/en/content/21-how-to).
@@ -84,7 +84,7 @@ You can make test payments using one of the payment methods configured at the Ch
                     ![](/docs/assets/images/testpayment.jpg)
             
             
-                  [Poll Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md) to check the payment status.
+                  [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments) to check the payment status.
             
         
         

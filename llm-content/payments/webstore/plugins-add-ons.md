@@ -11,6 +11,6 @@ If you use Razorpay Webstore to accept payments from customers and also:
 - Advertise on Facebook and use Facebook Pixel to track conversions
 
 You can do the following to track Google and Facebook ads and analyse conversions:
-- [Add Google Analytics Tracking ID to Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/plugins-add-ons/google-analytics.md)
-- [Add Facebook Pixel to Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/plugins-add-ons/fb-pixel.md)
-- [Add Facebook Pixel to your payment success page](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/plugins-add-ons/fb-payment-success.md)
+- [Add Google Analytics Tracking ID to Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/plugins-add-ons/google-analytics.md)
+- [Add Facebook Pixel to Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/plugins-add-ons/fb-pixel.md)
+- [Add Facebook Pixel to your payment success page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/plugins-add-ons/fb-payment-success.md)

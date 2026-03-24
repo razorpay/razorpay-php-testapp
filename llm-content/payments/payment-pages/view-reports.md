@@ -13,9 +13,9 @@ To view the payments made on a particular Payment Page:
 1. Navigate to **Payment Pages** on the Dashboard.
 2. Click the required page id. The page details view appears.
 3. Scroll down to the transaction details section. Here the list of all payments made to the page is displayed.
-    ![View Report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-view-reportpp.jpg.md)
+    ![View Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-view-reportpp.jpg.md)
 4. You can click on the payment_id for more details.
-    ![View Payment](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-view-paymentpp.jpg.md)
+    ![View Payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-view-paymentpp.jpg.md)
 
 ## Download Report
 
@@ -30,7 +30,7 @@ To download a report:
 3. Scroll down to the transaction details section. Here the list of all payments made to the page is displayed.
 4. Hover the mouse pointer on **Download Report**, and click one of the formats.
 
-![Download Report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-view-reportpp.jpg.md)
+![Download Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-view-reportpp.jpg.md)
 
     
 ### The downloaded report has the following columns:

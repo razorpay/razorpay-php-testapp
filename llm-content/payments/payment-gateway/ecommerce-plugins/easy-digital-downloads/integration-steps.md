@@ -43,7 +43,7 @@ Follow the steps given below:
          7. Navigate to the **Settings** page and click the **Checkout/Payment Gateways** tab.
          8. Click **Razorpay** to edit the settings.
          9. Enable the Payment Method and name it Credit Card/Debit Card/Internet Banking (this will show up on the payment page your customer sees).
-         10. Enter your `[KEY_ID]` and `[KEY_SECRET]`. Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Razorpay Dashboard.
+         10. Enter your `[KEY_ID]` and `[KEY_SECRET]`. Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Razorpay Dashboard.
          11. Click **Save** to save the changes.
         
 
@@ -74,7 +74,7 @@ You can make test payments using one of the payment methods configured at the Ch
                     ![](/docs/assets/images/testpayment.jpg)
             
             
-                  [Poll Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md) to check the payment status.
+                  [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments) to check the payment status.
             
         
         

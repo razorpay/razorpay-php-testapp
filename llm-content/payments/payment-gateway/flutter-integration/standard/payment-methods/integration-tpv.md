@@ -27,7 +27,7 @@ Third-party validation (TPV) of bank accounts is mandatory for businesses in the
              - `android/app/uiLibrary`: Library for Turbo UI SDK.
              - `android/app/build.gradle`: All transitive dependencies needed to integrate the Turbo SDK.
 
-         2. Integrate with [Razorpay Flutter Standard Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/standard/integration-steps.md).
+         2. Integrate with [Razorpay Flutter Standard Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/standard/integration-steps.md).
 
          3. Import the following frameworks:
              - Razorpay Android Standard SDK
@@ -49,7 +49,7 @@ Third-party validation (TPV) of bank accounts is mandatory for businesses in the
 >          **Watch Out!**
 > 
 >          - `minSDKversion` for using Turbo UPI is currently 19 and cannot be overwritten.
->          - Use the `rzp_test_0wFRWIZnH65uny` API key id for testing on the UAT environment and the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+>          - Use the `rzp_test_0wFRWIZnH65uny` API key id for testing on the UAT environment and the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.
 >          - As a compliance requirement, you should get approval from Google for **READ_SMS** permission. Refer [to the Google article](https://support.google.com/googleplay/android-developer/answer/10208820?hl=en) for more details.
 >          
 
@@ -485,7 +485,7 @@ Given below are the steps:
     
 ### Step 4: Handle Payment Success and Failure
 
-         The way you handle payment success and failure scenarios depends on the Checkout sample code you opted for in the previous step. Know how to [handle payment success and failure](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/standard-integration/#step-14-handle-payment-success-and-failure.md).
+         The way you handle payment success and failure scenarios depends on the Checkout sample code you opted for in the previous step. Know how to [handle payment success and failure](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation/standard-integration.md#step-14-handle-payment-success-and-failure).
         
 
     
@@ -530,7 +530,7 @@ Given below are the steps:
          1. Create a signature in your server using the following attributes:
             - `order_id`: Retrieve the `order_id` from your server. Do not use the `razorpay_order_id` returned by Checkout.
             - `razorpay_payment_id`: Returned by Checkout.
-            - `key_secret`: Available in your server. The `key_secret` that was generated from the  [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md).  
+            - `key_secret`: Available in your server. The `key_secret` that was generated from the  [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).  
 
          2. Use the SHA256 algorithm, the `razorpay_payment_id` and the `order_id` to construct a HMAC hex digest as shown below:
 
@@ -549,7 +549,7 @@ Given below are the steps:
 
 Razorpay provides a single exposed function that allows you to manage linked UPI accounts and access all non-transactional flows seamlessly. 
 
-![View the non-transactional flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-non-transactional.jpg.md)
+![View the non-transactional flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-non-transactional.jpg.md)
 
     
 ### Manage UPI Accounts
@@ -621,7 +621,7 @@ The SDKs given below provide access to exposed models for seamless integration.
 
          
 
-         [Refer to the list of possible error reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/standard/payment-methods/turbo-upi/error-codes.md).
+         [Refer to the list of possible error reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/standard/payment-methods/turbo-upi/error-codes.md).
         
 
     
@@ -685,4 +685,4 @@ Complete these steps to take your integration live:
     - `keep class retrofit2.** { *; }`
     - `keep class okhttp3.** { *; }`
 
-- Replace the UAT credential with the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+- Replace the UAT credential with the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.

@@ -15,7 +15,7 @@ You can request reimbursements or avail imprest for expenses on the Payroll Dash
 > 
 > **Handy Tips**
 > 
-> You can also claim reimbursements via [WhatsApp](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/whatsapp-integration.md). 
+> You can also claim reimbursements via [WhatsApp](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/whatsapp-integration.md). 
 > 
 
 > **SUCCESS**
@@ -23,7 +23,7 @@ You can request reimbursements or avail imprest for expenses on the Payroll Dash
 > 
 > **Available Now!**
 > 
-> Watch the video on to how to [claim reimbursements](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/video-tutorials/#claim-reimbursements.md).
+> Watch the video on to how to [claim reimbursements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/video-tutorials.md#claim-reimbursements).
 > 
 
 ## Apply for Reimbursements 
@@ -50,12 +50,12 @@ To apply for reimbursements:
 
     1. Click **REQUEST REIMBURSEMENT**. 
 
-    ![Request reimbursements on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-reimbursements.jpg.md)
+    ![Request reimbursements on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-reimbursements.jpg.md)
 
 You have successfully requested reimbursements from your employer. Once your manager approves the request, Payroll processes the reimbursement as chosen by your employer. You can click **View Past Requests** to view your past requests and their status.
 
 ### Related Information
 
-- [Employee Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees.md)
-- [WhatsApp Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/whatsapp.md)
-- [IT Declarations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations.md)
+- [Employee Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md)
+- [WhatsApp Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/whatsapp.md)
+- [IT Declarations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations.md)

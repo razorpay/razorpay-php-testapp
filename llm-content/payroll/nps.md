@@ -36,7 +36,7 @@ On Payroll, you must first enable NPS for the oragnisation to allow contribution
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard).
 1. Navigate to **ADMIN OPTIONS** → **Settings** in the left menu.
 1. Go to the **Employer NPS Setup** section and click **EDIT**. 
-    ![Enable NPS for Organisation on RazorpayX Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-enable-nps-org.jpg.md)
+    ![Enable NPS for Organisation on RazorpayX Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-enable-nps-org.jpg.md)
 1. Enable the toggle against **Enable/Disable NPS**. 
 1. Click **Save & Confirm**. 
 
@@ -48,16 +48,16 @@ You must enable NPS for eligible employees to allow them to set their NPS prefer
 1. Navigate to **ADMIN OPTIONS** → **People** in the left menu. 
 1. Go to the particular employee's profile and navigate to the **Provident Fund, Professional Tax, ESI, LWF & NPS** section. **Click EDIT**.
 
-    ![Enable NPS for employee](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-nps-employee-enable.jpg.md)
+    ![Enable NPS for employee](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-nps-employee-enable.jpg.md)
 1. Go to the **NPS Status** section and select **Enabled** from the drop-down list. 
-1. Enter the employee's 12-digit PRAN in the text box. We pre-fill employee's PRAN if the employee provided their PRAN during [onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/#set-up-profile.md).
+1. Enter the employee's 12-digit PRAN in the text box. We pre-fill employee's PRAN if the employee provided their PRAN during [onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md#set-up-profile).
 1. Click **CONTINUE**. 
 
 You have successfully enabled the employee to contribute to NPS.
 
 ### Enable NPS Declaration 
 
-On Payroll, your eligible employees can choose their NPS contribution percentage. However, you must enable this setting separately. When disabled, we contribute the percentage reserved for NPS as specified in the [salary structure](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary#setup-salary-structure.md). 
+On Payroll, your eligible employees can choose their NPS contribution percentage. However, you must enable this setting separately. When disabled, we contribute the percentage reserved for NPS as specified in the [salary structure](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md#setup-salary-structure). 
 
 To allow eligible employees to declare NPS contribution percentage: 
 
@@ -66,7 +66,7 @@ To allow eligible employees to declare NPS contribution percentage:
 1. Go to **Employer NPS Setup** and click **EDIT**. 
 1. On the **NPS for Employer Setup** page, toggle the setting against **Employees can declare NPS contribution**. 
 
-    ![Setting to choose NPS contribution on RazorpayX Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-enable-nps-contribution-choose.jpg.md)
+    ![Setting to choose NPS contribution on RazorpayX Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-enable-nps-contribution-choose.jpg.md)
 
 This enables the setting. You must now select the frequency and duration for the declaration window to remain open. 
 1. Go to the **Declaration Window for NPS** section and select the custom duration from the drop-down list. You can choose from the following: 
@@ -74,13 +74,13 @@ This enables the setting. You must now select the frequency and duration for the
     - **Every month for a certain period**: Select the date range using the drop-down list to keep the declaration window open for that date range. 
     - **Custom range**: Select the date range using the drop-down calendar. Click **+ Add new range** to create multiple time ranges throughout the annual year. 
 
-    ![Choose NPS declaration window](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-nps-declaration-window.jpg.md)
+    ![Choose NPS declaration window](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-nps-declaration-window.jpg.md)
 1. Click **Save & confirm**. 
 
 This allows employees to declare their NPS contribution. Whenever the declaration window is open, we send an email to the NPS eligible employees to declare or make changes to their NPS declaration. 
-- Ensure the declaration window is open during [onboarding](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/#employee-onboarding.md) and [salary revision](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#revise-salary.md) process.
+- Ensure the declaration window is open during [onboarding](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md#employee-onboarding) and [salary revision](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#revise-salary) process.
 - NPS contribution is recorded in the salary structure as a benefit. Enter an upper limit amount or a percentage for Payroll and custom salary structures respectively. This sets a limit for employees' NPS contribution.
 
 ### Related Information
 
-- [Employee NPS Declaration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations/nps.md)
+- [Employee NPS Declaration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations/nps.md)

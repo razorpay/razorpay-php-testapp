@@ -29,6 +29,6 @@ You can set up and edit webhooks from the RazorpayX Dashboard.
 @include rzpx/webhooks/deactivation
 
 ### Related Information
-- [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md)
-- [Set Up and Edit Payments Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md)
-- [Validate and Test Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test.md)
+- [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md)
+- [Set Up and Edit Payments Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)
+- [Validate and Test Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md)

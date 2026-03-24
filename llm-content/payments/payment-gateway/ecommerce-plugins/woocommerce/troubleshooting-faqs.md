@@ -14,9 +14,9 @@ description: Troubleshoot common errors and find answers to frequently asked que
          To set up webhooks:
          1. In the WordPress Dashboard, click **WooCommerce** and navigate to **Settings**.
          2. In the **Payments** tab, enter the **Key ID** and **Key Secret**. 
-            ![Enter key id and secret](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/plugin-wooc-key-id-secret.jpg.md)
+            ![Enter key id and secret](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/plugin-wooc-key-id-secret.jpg.md)
          3. Click **Save Changes**.
-            ![Save changes for auto webhook generation](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/plugin-wooc-save.jpg.md)
+            ![Save changes for auto webhook generation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/plugin-wooc-save.jpg.md)
         
 
     
@@ -34,9 +34,9 @@ description: Troubleshoot common errors and find answers to frequently asked que
          To set up webhooks manually: 
          1. Log in to the Razorpay Dashboard and navigate to **Account & Settings**.
          2. In the **Website and app settings** section, click **Webhooks**.
-            ![Navigate to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
+            ![Navigate to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
          3. Click **+ Add New Webhook**.
-            ![Add a new webhooks button on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/webhooks-webhook-creation-1.jpg.md)
+            ![Add a new webhooks button on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/webhooks-webhook-creation-1.jpg.md)
          4. In the **Webhook Setup** pop-up page:
             1. Enter the **URL** where you want to receive the webhook payload when an event is triggered. We recommend using an HTTPS URL.
                 
@@ -45,11 +45,11 @@ description: Troubleshoot common errors and find answers to frequently asked que
 > 
 >                 **Handy Tips**
 > 
->                 You can set up to **30 URLs** to receive Webhook notifications. Webhooks can only be delivered to public URLs. If you attempt to save a localhost endpoint as part of a webhook setup, you will notice an error. Know more about [testing Webhooks on an application running on localhost](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test/#application-running-on-localhost.md).
+>                 You can set up to **30 URLs** to receive Webhook notifications. Webhooks can only be delivered to public URLs. If you attempt to save a localhost endpoint as part of a webhook setup, you will notice an error. Know more about [testing Webhooks on an application running on localhost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md#application-running-on-localhost).
 >                 
 
     
-            2. Enter a **Secret** for the webhook endpoint. The secret is used to validate that the webhook is from Razorpay. Do not expose the secret publicly. Know more about [how to validate webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test.md).
+            2. Enter a **Secret** for the webhook endpoint. The secret is used to validate that the webhook is from Razorpay. Do not expose the secret publicly. Know more about [how to validate webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md).
 
                 
 > **INFO**
@@ -65,10 +65,10 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
             3. In the **Alert Email** field, enter the email address to which the notifications should be sent in case of webhook failure. You will receive webhook deactivation notifications to this email address.
             4. Select the required events from the list of **Active Events**.
-                ![List of active webhook events on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/webhooks-webhook-creation-2.jpg.md) 
+                ![List of active webhook events on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/webhooks-webhook-creation-2.jpg.md) 
 
          5. Click **Create Webhook**. After you set a webhook, it appears on the list of webhooks.
-            ![List of webhooks on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)
+            ![List of webhooks on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)
          6. You can select the webhook and click **Edit** to make more changes.
         
 
@@ -78,10 +78,10 @@ description: Troubleshoot common errors and find answers to frequently asked que
          To verify if webhooks are enabled:
          1. Log in to the Razorpay Dashboard and navigate to **Account & Settings**.
          2. In the **Website and app settings** section, click **Webhooks**.
-            ![Navigate to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
+            ![Navigate to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
          3. Select the relevant webhook **URL**.
          4. On the right panel, check if the status for `payment.authorized` and `refund.created` is enabled.
-            ![List of webhooks created](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)
+            ![List of webhooks created](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)
         
 
     
@@ -123,7 +123,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 
          If you encounter this error message while trying to activate the Razorpay for WooCommerce plugin, follow the steps given below to resolve the issue:
          1. Uninstall the Razorpay for WooCommerce plugin from your WordPress Dashboard. Ensure you delete the plugin entirely, not just deactivate it.
-         2. Remove the WooCommerce webhook associated with Razorpay from the Dashboard. Know how to [delete a webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments/#delete-a-webhook.md).
+         2. Remove the WooCommerce webhook associated with Razorpay from the Dashboard. Know how to [delete a webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md#delete-a-webhook).
          3. After removing both the plugin and the webhook, install the latest version of the [Razorpay for WooCommerce plugin](https://wordpress.org/plugins/woo-razorpay/).
 
          If the issue persists even after following these steps, contact our [Support team](https://razorpay.com/support/) with the following information:
@@ -142,11 +142,11 @@ description: Troubleshoot common errors and find answers to frequently asked que
          If you encounter this error, follow the steps given below to resolve the issue:
          1. Log in to WordPress Dashboard, click **WooCommerce** and navigate to **Settings**.
          2. In the **Advanced** tab, look for the **Page Setup** section. Ensure that you have correctly linked the **Cart page** and **Checkout page**.
-            ![Enter Cart page and checkout page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/plugin-wooc-faq-pagesetup.jpg.md)
+            ![Enter Cart page and checkout page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/plugin-wooc-faq-pagesetup.jpg.md)
          3. Validate the **Checkout Endpoints** settings: 
          - For the **Pay** endpoint, set it to **order-pay**.
          - For the **Order Received** endpoint, set it to **order-received**.
-            ![Enter pay endpoint and order endpoint](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/plugin-wooc-faq-checkout-endpoint.jpg.md)
+            ![Enter pay endpoint and order endpoint](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/plugin-wooc-faq-checkout-endpoint.jpg.md)
 
          If the issue persists even after following these steps, contact our [Support team](https://razorpay.com/support/).
         
@@ -155,7 +155,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 ### 11. What troubleshooting procedures should be carried out before initiating a support ticket?
 
          Follow the troubleshooting steps given below:
-         1. Ensure that your system meets all the requirements mentioned [here](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/#compatibilities-and-dependencies.md).
+         1. Ensure that your system meets all the requirements mentioned [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce.md#compatibilities-and-dependencies).
          2. We recommend you to keep your WordPress, WooCommerce, and Razorpay for WooCommerce plugins up to date. You can find the latest versions [here](https://github.com/razorpay/razorpay-woocommerce/releases).
          3. You can perform initial debugging. Follow the steps given below to debug:
              1. Deactivate all plugins except for Razorpay and WooCommerce.
@@ -177,7 +177,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 
          To reconfigure webhooks for Razorpay in WooCommerce, follow the steps given below:
          1. Deactivate and delete the Razorpay WooCommerce plugin from your [WordPress Dashboard](https://wordpress.com/log-in).
-         2. Remove the WooCommerce webhook associated with Razorpay from the Dashboard. Know how to [delete a webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments/#delete-a-webhook.md).
+         2. Remove the WooCommerce webhook associated with Razorpay from the Dashboard. Know how to [delete a webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md#delete-a-webhook).
          3. After removing both the plugin and the webhook, install the latest version of the [Razorpay for WooCommerce plugin](https://wordpress.org/plugins/woo-razorpay/). 
         
 
@@ -199,7 +199,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 >              
 
          3. Open the **Block Inserter**, search for **Order Confirmation Block** and add it.
-             ![woocommerce add order confirmation](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/woocommerce-order-confirmation.jpg.md)
+             ![woocommerce add order confirmation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/woocommerce-order-confirmation.jpg.md)
          4. Click **Save**.
         
 
@@ -214,7 +214,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 
          If you encounter this error message, follow the below steps to troubleshoot this issue:
          1. Uninstall the Razorpay for WooCommerce plugin from your WordPress Dashboard. Ensure you delete the plugin entirely, not just deactivate it.
-         2. Remove the WooCommerce webhook associated with Razorpay from the Dashboard. Know how to [delete a webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments/#delete-a-webhook.md).
+         2. Remove the WooCommerce webhook associated with Razorpay from the Dashboard. Know how to [delete a webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md#delete-a-webhook).
          3. After removing both the plugin and the webhook, install the latest version of the [Razorpay for WooCommerce plugin](https://wordpress.org/plugins/woo-razorpay/).
 
          If the issue persists even after following these steps, contact our [Support team](https://razorpay.com/support/).
@@ -249,9 +249,9 @@ description: Troubleshoot common errors and find answers to frequently asked que
 
          To check the Razorpay logs on WooCommerce, follow these steps:
          1. Go to WordPress Admin and navigate to **WooCommerce**. Click **Status**.
-            ![Woocommerce Dashboard status](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/woocommerce-status-logs.jpg.md)
+            ![Woocommerce Dashboard status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/woocommerce-status-logs.jpg.md)
          2. Select **Logs**. Locate and open **razorpay-logs** to view the logs.
-            ![Razorpay logs on logs](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/razorpay-logs.jpg.md)
+            ![Razorpay logs on logs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/razorpay-logs.jpg.md)
         
         
 > **WARN**
@@ -269,13 +269,13 @@ description: Troubleshoot common errors and find answers to frequently asked que
 ### 21. Why is the payment captured on Razorpay but not updated on WooCommerce for some orders?
 
          This issue may arise due to incorrect webhook configuration or domain allowlisting. To resolve this:
-         1. Ensure that the [webhook is configured correctly](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs/#2-my-webhooks-are-not-auto-configured-since-i.md) in your Razorpay Dashboard.
-         2. After placing an order, check the [WooCommerce site logs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs/#20-how-and-where-can-i-check-the.md) for entries such as:
+         1. Ensure that the [webhook is configured correctly](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs.md#2-my-webhooks-are-not-auto-configured-since-i) in your Razorpay Dashboard.
+         2. After placing an order, check the [WooCommerce site logs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs.md#20-how-and-where-can-i-check-the) for entries such as:
             - `Webhook conflict due to early execution for razorpay order`
             - `Webhook conflict over for razorpay order`
             - `Webhook process finished the updateOrder function` 
 
-         If these logs are missing, the issue might occur due to domain allowlisting. To resolve this, list [Razorpay's IPs](@/Applications/MAMP/htdocs/new-docs/llm-content/security/whitelists/#webhook-ips.md) in your server settings.
+         If these logs are missing, the issue might occur due to domain allowlisting. To resolve this, list [Razorpay's IPs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/whitelists.md#webhook-ips) in your server settings.
         
 
     
@@ -289,9 +289,9 @@ description: Troubleshoot common errors and find answers to frequently asked que
 
  Dashboard and navigate to **Account & Settings**.
          2. In the **Website and app settings** section, click **Webhooks**.
-            ![Navigate to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
+            ![Navigate to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
          3. Click **+ Add New Webhook**.
-            ![Add a new webhooks button on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/webhooks-webhook-creation-1.jpg.md)
+            ![Add a new webhooks button on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/webhooks-webhook-creation-1.jpg.md)
          4. In the **Webhook Setup** pop-up page:
             1. Enter the **URL** where you want to receive the webhook payload when an event is triggered. We recommend using an HTTPS URL.
                 
@@ -300,11 +300,11 @@ description: Troubleshoot common errors and find answers to frequently asked que
 > 
 >                 **Handy Tips**
 > 
->                 You can set up to **30 URLs** to receive Webhook notifications. Webhooks can only be delivered to public URLs. If you attempt to save a localhost endpoint as part of a webhook setup, you will notice an error. Know more about [testing Webhooks on an application running on localhost](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test/#application-running-on-localhost.md).
+>                 You can set up to **30 URLs** to receive Webhook notifications. Webhooks can only be delivered to public URLs. If you attempt to save a localhost endpoint as part of a webhook setup, you will notice an error. Know more about [testing Webhooks on an application running on localhost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md#application-running-on-localhost).
 >                 
 
     
-            2. Enter a **Secret** for the webhook endpoint. The secret is used to validate that the webhook is from Razorpay. Do not expose the secret publicly. Know more about [how to validate webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test.md).
+            2. Enter a **Secret** for the webhook endpoint. The secret is used to validate that the webhook is from Razorpay. Do not expose the secret publicly. Know more about [how to validate webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md).
 
                 
 > **INFO**
@@ -320,10 +320,10 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
             3. In the **Alert Email** field, enter the email address to which the notifications should be sent in case of webhook failure. You will receive webhook deactivation notifications to this email address.
             4. Select the required events from the list of **Active Events**.
-                ![List of active webhook events on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/webhooks-webhook-creation-2.jpg.md) 
+                ![List of active webhook events on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/webhooks-webhook-creation-2.jpg.md) 
 
          5. Click **Create Webhook**. After you set a webhook, it appears on the list of webhooks.
-            ![List of webhooks on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)
+            ![List of webhooks on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)
          6. You can select the webhook and click **Edit** to make more changes.
         
     
@@ -333,10 +333,10 @@ description: Troubleshoot common errors and find answers to frequently asked que
          To verify if webhooks are enabled:
          1. Log in to the Razorpay Dashboard and navigate to **Account & Settings**.
          2. In the **Website and app settings** section, click **Webhooks**.
-            ![Navigate to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
+            ![Navigate to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
          3. Select the relevant webhook **URL**.
          4. On the right panel, check if the status for `payment.authorized` and `refund.created` is enabled.
-            ![List of webhooks created](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)
+            ![List of webhooks created](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)
         
 
     
@@ -378,7 +378,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 
          If you encounter this error message while trying to activate the Razorpay for WooCommerce plugin, follow the steps given below to resolve the issue:
          1. Uninstall the Razorpay for WooCommerce plugin from your WordPress Dashboard. Ensure you delete the plugin entirely, not just deactivate it.
-         2. Remove the WooCommerce webhook associated with Razorpay from the Dashboard. Know how to [delete a webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments/#delete-a-webhook.md).
+         2. Remove the WooCommerce webhook associated with Razorpay from the Dashboard. Know how to [delete a webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md#delete-a-webhook).
          3. After removing both the plugin and the webhook, install the latest version of the [Razorpay for WooCommerce plugin](https://wordpress.org/plugins/woo-razorpay/).
 
          If the issue persists even after following these steps, contact our [Support team](https://razorpay.com/support/) with the following information:
@@ -397,11 +397,11 @@ description: Troubleshoot common errors and find answers to frequently asked que
          If you encounter this error, follow the steps given below to resolve the issue:
          1. Log in to WordPress Dashboard, click **WooCommerce** and navigate to **Settings**.
          2. In the **Advanced** tab, look for the **Page Setup** section. Ensure that you have correctly linked the **Cart page** and **Checkout page**.
-            ![Enter Cart page and checkout page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/plugin-wooc-faq-pagesetup.jpg.md)
+            ![Enter Cart page and checkout page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/plugin-wooc-faq-pagesetup.jpg.md)
          3. Validate the **Checkout Endpoints** settings: 
          - For the **Pay** endpoint, set it to **order-pay**.
          - For the **Order Received** endpoint, set it to **order-received**.
-            ![Enter pay endpoint and order endpoint](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/plugin-wooc-faq-checkout-endpoint.jpg.md)
+            ![Enter pay endpoint and order endpoint](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/plugin-wooc-faq-checkout-endpoint.jpg.md)
 
          If the issue persists even after following these steps, contact our [Support team](https://razorpay.com/support/).
         
@@ -410,7 +410,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 ### 11. What troubleshooting procedures should be carried out before initiating a support ticket?
 
          Follow the troubleshooting steps given below:
-         1. Ensure that your system meets all the requirements mentioned [here](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/#compatibilities-and-dependencies.md).
+         1. Ensure that your system meets all the requirements mentioned [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce.md#compatibilities-and-dependencies).
          2. We recommend you to keep your WordPress, WooCommerce, and Razorpay for WooCommerce plugins up to date. You can find the latest versions [here](https://github.com/razorpay/razorpay-woocommerce/releases).
          3. You can perform initial debugging. Follow the steps given below to debug:
              1. Deactivate all plugins except for Razorpay and WooCommerce.
@@ -432,7 +432,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 
          To reconfigure webhooks for Razorpay in WooCommerce, follow the steps given below:
          1. Deactivate and delete the Razorpay WooCommerce plugin from your [WordPress Dashboard](https://wordpress.com/log-in).
-         2. Remove the WooCommerce webhook associated with Razorpay from the Dashboard. Know how to [delete a webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments/#delete-a-webhook.md).
+         2. Remove the WooCommerce webhook associated with Razorpay from the Dashboard. Know how to [delete a webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md#delete-a-webhook).
          3. After removing both the plugin and the webhook, install the latest version of the [Razorpay for WooCommerce plugin](https://wordpress.org/plugins/woo-razorpay/). 
         
 
@@ -454,7 +454,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 >              
 
          3. Open the **Block Inserter**, search for **Order Confirmation Block** and add it.
-             ![woocommerce add order confirmation](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/woocommerce-order-confirmation.jpg.md)
+             ![woocommerce add order confirmation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/woocommerce-order-confirmation.jpg.md)
          4. Click **Save**.
         
 
@@ -469,7 +469,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 
          If you encounter this error message, follow the below steps to troubleshoot this issue:
          1. Uninstall the Razorpay for WooCommerce plugin from your WordPress Dashboard. Ensure you delete the plugin entirely, not just deactivate it.
-         2. Remove the WooCommerce webhook associated with Razorpay from the Dashboard. Know how to [delete a webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments/#delete-a-webhook.md).
+         2. Remove the WooCommerce webhook associated with Razorpay from the Dashboard. Know how to [delete a webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md#delete-a-webhook).
          3. After removing both the plugin and the webhook, install the latest version of the [Razorpay for WooCommerce plugin](https://wordpress.org/plugins/woo-razorpay/).
 
          If the issue persists even after following these steps, contact our [Support team](https://razorpay.com/support/).
@@ -492,9 +492,9 @@ description: Troubleshoot common errors and find answers to frequently asked que
 
          To check the Razorpay logs on WooCommerce, follow these steps:
          1. Go to WordPress Admin and navigate to **WooCommerce**. Click **Status**.
-            ![Woocommerce Dashboard status](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/woocommerce-status-logs.jpg.md)
+            ![Woocommerce Dashboard status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/woocommerce-status-logs.jpg.md)
          2. Select **Logs**. Locate and open **razorpay-logs** to view the logs.
-            ![Razorpay logs on logs](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/razorpay-logs.jpg.md)
+            ![Razorpay logs on logs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/razorpay-logs.jpg.md)
         
         
 > **WARN**
@@ -512,13 +512,13 @@ description: Troubleshoot common errors and find answers to frequently asked que
 ### 19. Why is the payment captured on Razorpay but not updated on WooCommerce for some orders?
 
          This issue may arise due to incorrect webhook configuration or domain allowlisting. To resolve this:
-         1. Ensure that the [webhook is configured correctly](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs/#2-my-webhooks-are-not-auto-configured-since-i.md) in your Razorpay Dashboard.
-         2. After placing an order, check the [WooCommerce site logs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs/#20-how-and-where-can-i-check-the.md) for entries such as:
+         1. Ensure that the [webhook is configured correctly](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs.md#2-my-webhooks-are-not-auto-configured-since-i) in your Razorpay Dashboard.
+         2. After placing an order, check the [WooCommerce site logs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce/troubleshooting-faqs.md#20-how-and-where-can-i-check-the) for entries such as:
             - `Webhook conflict due to early execution for razorpay order`
             - `Webhook conflict over for razorpay order`
             - `Webhook process finished the updateOrder function` 
 
-         If these logs are missing, the issue might occur due to domain allowlisting. To resolve this, list [Razorpay's IPs](@/Applications/MAMP/htdocs/new-docs/llm-content/security/whitelists/#webhook-ips.md) in your server settings.
+         If these logs are missing, the issue might occur due to domain allowlisting. To resolve this, list [Razorpay's IPs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/whitelists.md#webhook-ips) in your server settings.
         
 
     

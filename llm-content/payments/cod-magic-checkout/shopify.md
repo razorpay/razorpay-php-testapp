@@ -47,18 +47,18 @@ Follow the steps given below:
                  - **Smart COD Configurations**: Show/hide the COD payment option based on 15+ criteria, such as order value, product SKU, or shipping location to reduce COD orders from high RTO risk customers and charge a COD fee to offset potential losses.
                   - **Payments & Checkout**: Combine a fast, efficient checkout process with Razorpay's payment gateway, offering 100+ payment modes and features like login, address pre-fill and smart coupons to streamline checkout experience.
                   - **Affordability Widget**: Display discounts and EMI options directly on the product screen, increasing customer interest and boosting purchase intent.
-                 ![select features to enable COD & Magic Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-checkout-features.jpg.md)
+                 ![select features to enable COD & Magic Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-checkout-features.jpg.md)
              6. In the **Install Apps** section, install the required apps based on the selected features. For each app installation, you will be redirected to the Shopify app store and admin. Once the installation is complete, you will be returned to onboarding.
-                 ![Install remaining apps](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-checkout-install-apps.jpg.md)
-                 1. **Razorpay COD Payments App**: Enables a safe and seamless checkout process and lets you configure COD availability based on pincodes and customer details to reduce RTO. Know more about [Razorpay COD Payments App](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-cod.md).
-                 2. **1 Razorpay App**: Enhance conversions with superior checkout, 100+ payment methods and leading success rates. Know more about [1 Razorpay App](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify.md).
+                 ![Install remaining apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-checkout-install-apps.jpg.md)
+                 1. **Razorpay COD Payments App**: Enables a safe and seamless checkout process and lets you configure COD availability based on pincodes and customer details to reduce RTO. Know more about [Razorpay COD Payments App](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-cod.md).
+                 2. **1 Razorpay App**: Enhance conversions with superior checkout, 100+ payment methods and leading success rates. Know more about [1 Razorpay App](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify.md).
         
 
     
 ### 2. Activate Apps
 
          You must activate the selected features to complete the payment setup. In the **Activate Apps on Shopify** section, activate the following apps:
-             ![Activate installed apps](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-checkout-activate-app.jpg.md)
+             ![Activate installed apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-checkout-activate-app.jpg.md)
              1. **Razorpay COD & Magic Checkout App**
                  1. Click **Activate Now** in the bottom right corner. 
                  2. You will be redirected to the Shopify theme editor page  to inject the Checkout script on your checkout, click **Save** in the top right corner. 
@@ -84,6 +84,6 @@ You have successfully integrated Razorpay COD & Magic Checkout with your Shopify
 ## Next Steps
 
 Navigate to **Control Center** on the Razorpay Dashboard and configure the following
-- [COD Configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/cod-magic-checkout/shopify/configure-cod.md)
-- [RTO Prediction](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence.md)
-- [Checkout Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/cod-magic-checkout/shopify/magic-checkout.md)
+- [COD Configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/cod-magic-checkout/shopify/configure-cod.md)
+- [RTO Prediction](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence.md)
+- [Checkout Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/cod-magic-checkout/shopify/magic-checkout.md)

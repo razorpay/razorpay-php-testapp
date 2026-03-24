@@ -24,10 +24,10 @@ You must integrate and set up the two-way integration between RazorpayX and Tall
 
 You can perform the following four core bookkeeping and reconciliation actions of vendor payments with this integration:
 
-- [Sync Purchase Voucher](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally/sync-purchase-vouchers.md) payment entries and reconciliation in Tally.
-- [Sync Payment Voucher](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally/sync-payment-vouchers.md) reconciliation in Tally.
-- Automate bookkeeping process, that is: bill creation → payment entry → reconciliation, by [bringing bills](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally/bring-bills.md) to Tally. 
-- Use [Smart Bank Statement](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/tally/bank-statement-sync.md) to source each and every transaction from all over RazorpayX to Tally.
+- [Sync Purchase Voucher](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally/sync-purchase-vouchers.md) payment entries and reconciliation in Tally.
+- [Sync Payment Voucher](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally/sync-payment-vouchers.md) reconciliation in Tally.
+- Automate bookkeeping process, that is: bill creation → payment entry → reconciliation, by [bringing bills](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally/bring-bills.md) to Tally. 
+- Use [Smart Bank Statement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/tally/bank-statement-sync.md) to source each and every transaction from all over RazorpayX to Tally.
 
 RazorpayX automatically syncs all the above flows when you make the entries in Tally.
 
@@ -59,6 +59,6 @@ With the RazorpayX-Tally Integration, you enjoy many intelligent benefits, which
 
 ### Related Information 
 
-- [About Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments.md)
-- [Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/invoices.md)
-- [Tally Account Statement Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/x/accounting/tally/account-statement.md)
+- [About Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md)
+- [Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/invoices.md)
+- [Tally Account Statement Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/accounting/tally/account-statement.md)

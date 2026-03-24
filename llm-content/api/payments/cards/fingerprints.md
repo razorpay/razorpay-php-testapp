@@ -14,7 +14,7 @@ description: Retrieve a unique card reference for a given card or token using th
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -60,11 +60,11 @@ This API is helpful for card identification in various situations:
 
 API Endpoint | Description
 ---
-[Fetch Card Reference Number Using Card Number](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/cards/fingerprints/fetch-card-number.md) | Fetches the card reference number for a specific card using card number.
+[Fetch Card Reference Number Using Card Number](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/cards/fingerprints/fetch-card-number.md) | Fetches the card reference number for a specific card using card number.
 ---
-[Fetch Card Reference Number Using Tokenised Card Number](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/cards/fingerprints/fetch-tokenised-number.md) | Fetches the card reference number for a specific card using tokenised card number.
+[Fetch Card Reference Number Using Tokenised Card Number](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/cards/fingerprints/fetch-tokenised-number.md) | Fetches the card reference number for a specific card using tokenised card number.
 ---
-[Fetch Card Reference Number Using Razorpay Token](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/cards/fingerprints/fetch-razorpay-token.md) | Fetches the card reference number for a specific card using Razorpay Token.
+[Fetch Card Reference Number Using Razorpay Token](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/cards/fingerprints/fetch-razorpay-token.md) | Fetches the card reference number for a specific card using Razorpay Token.
 
 ## Card Fingerprint Entity
 

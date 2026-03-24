@@ -10,7 +10,7 @@ Use Razorpay Turbo UPI to make UPI payments faster. Follow these steps to integr
     
 ### Prerequisites
 
-         1. Integrate with the [Razorpay Android Custom SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/build-integration.md).
+         1. Integrate with the [Razorpay Android Custom SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/build-integration.md).
 
          2. Contact our [Integrations team](mailto:integrations@razorpay.com) and provide the following details to get allowlisted:
 
@@ -65,7 +65,7 @@ Use Razorpay Turbo UPI to make UPI payments faster. Follow these steps to integr
 > 
 >          **Watch Out!**
 > 
->          - Use the `rzp_test_0wFRWIZnH65uny` API key id for testing on the UAT environment and the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) on the prod testing.
+>          - Use the `rzp_test_0wFRWIZnH65uny` API key id for testing on the UAT environment and the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) on the prod testing.
 > 
 >          - Replace the placeholders ($CUSTOMUI_VERSION, $TURBO_VERSION and $CHECKOUT_VERSION) with the latest versions provided by Razorpay's team or similar to `app/build.gradle` file in the Sample app.
 >          
@@ -925,4 +925,4 @@ Complete these steps to take your integration live:
     - `keep class retrofit2.** { *; }`
     - `keep class okhttp3.** { *; }`
 
-- Replace the UAT credential with the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+- Replace the UAT credential with the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.

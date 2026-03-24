@@ -29,7 +29,7 @@ Instead of redirecting customers to a Razorpay-hosted page, the SDK renders nati
      6. Your page receives payment events (`onPaymentComplete`, `onError`) via callbacks.
 
      No redirect to `api.razorpay.com` is required, the entire flow happens on your domain.
-     ![Express checkout flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-blocks-apple-pay-flow.jpg.md)
+     ![Express checkout flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-blocks-apple-pay-flow.jpg.md)
     
 
 ## Prerequisites
@@ -37,7 +37,7 @@ Instead of redirecting customers to a Razorpay-hosted page, the SDK renders nati
 Before you begin the integration, ensure you have:
 
 - **Active Razorpay Account**: A Razorpay account with payments enabled.
-- **Order Creation via Backend**: Your server must be able to create orders using the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md) and pass the `order_id` to the frontend.
+- **Order Creation via Backend**: Your server must be able to create orders using the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md) and pass the `order_id` to the frontend.
 - **HTTPS Protocol**: Your website must be served over HTTPS for security compliance. Digital wallet require a secure context.
 
 > **INFO**
@@ -99,11 +99,11 @@ The SDK core is under 10 KB (gzipped). Wallet-specific adapters are loaded dynam
 
 ### 1.2 Create an Order
 
-Before initiating a payment, create an order on your backend using the [Razorpay Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md). Pass the resulting `order_id` to your frontend to initialise the SDK.
+Before initiating a payment, create an order on your backend using the [Razorpay Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md). Pass the resulting `order_id` to your frontend to initialise the SDK.
 
 The SDK flow requires your site to call `Create Order (amount, currency)` on the Razorpay backend and receive an `order_id` in response. Use this `order_id` when initialising the SDK in [step 1.3](#13-initialise-sdk-and-check-wallet-eligibility).
 
-Refer to the [Orders API documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md) for detailed request and response parameters.
+Refer to the [Orders API documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md) for detailed request and response parameters.
 
 ### 1.3 Initialise SDK and Check Wallet Eligibility
 

@@ -21,6 +21,6 @@ description: Simplify billing operations and turn every bill into an opportunity
 
 ### Related Information
 
-- [Billme Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/billme/dashboard.md)
-- [Bills](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/billme/dashboard/bills.md)
-- [Razorpay Bills API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/bills.md)
+- [Billme Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/billme/dashboard.md)
+- [Bills](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/billme/dashboard/bills.md)
+- [Razorpay Bills API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/bills.md)

@@ -22,10 +22,10 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 3. Can I use Quick Integration to integrate Razorpay Checkout on a mobile app or at a server level?
 
-          No, Quick Integration is not supported for mobile apps or server-level integration. If you want to integrate Razorpay with your mobile app or at a server level, check the list of [other integration methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/#integration-types.md) available.
+          No, Quick Integration is not supported for mobile apps or server-level integration. If you want to integrate Razorpay with your mobile app or at a server level, check the list of [other integration methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md#integration-types) available.
         
 
     
 ### 4. What payment methods are supported by Razorpay Quick Integration?
 
-          Razorpay Quick Integration supports a wide range of payment methods including netbanking, credit and debit cards, wallets, UPI and more. Check the list of [support payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/quick-integration/integration-steps/#supported-payment-methods.md).
+          Razorpay Quick Integration supports a wide range of payment methods including netbanking, credit and debit cards, wallets, UPI and more. Check the list of [support payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/quick-integration/integration-steps.md#supported-payment-methods).

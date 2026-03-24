@@ -20,7 +20,7 @@ You can share your historical order data (pre-Magic Checkout) and delivery statu
 
 You can share the monthly delivery status data for Magic Checkout orders to be eligible for RTO protection and get improved COD intelligence.
 
-If you have not integrated with logistics partners like [Shiprocket](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/shiprocket.md), [Delhivery](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/delhivery.md), [iThink Logistics](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/ithink-logistics.md), [Unicommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/unicommerce.md) and [ClickPost](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/clickpost.md), you must manually upload the data. 
+If you have not integrated with logistics partners like [Shiprocket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/shiprocket.md), [Delhivery](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/delhivery.md), [iThink Logistics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/ithink-logistics.md), [Unicommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/unicommerce.md) and [ClickPost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners/clickpost.md), you must manually upload the data. 
 
     
 ### To upload the delivery statuses:
@@ -30,7 +30,7 @@ If you have not integrated with logistics partners like [Shiprocket](@/Applicati
          3. Navigate to **RTO Reduction Setup** → **Delivery Data Upload**. 
          4. In the **RTO Reduction Setup** section, navigate to the **Delivery Data Upload** tab. 
          5. Click **+ Upload Delivery Statuses**.
-             ![Monthly delivery data on the Razorpay Dashboard and upload the file](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-monthly-delivery.jpg.md)
+             ![Monthly delivery data on the Razorpay Dashboard and upload the file](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-monthly-delivery.jpg.md)
          6. Download the **sample file** for the template. Enter the Order id, Status, Shipping Charges, AWB number and Shipping Provider to claim RTO Insurance. Upload the file.
              
 > **WARN**
@@ -46,7 +46,7 @@ If you have not integrated with logistics partners like [Shiprocket](@/Applicati
 >              - The number of rows in the file should not exceed 1 million.
 >              
 
-             ![download the sample file and enter the details required](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-delivery-upload.jpg.md)
+             ![download the sample file and enter the details required](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-delivery-upload.jpg.md)
 
          Here is a glimpse of the sample file:
         
@@ -67,11 +67,11 @@ Follow the steps given below to share the order history:
                   Follow the steps given below:
 
                   1. Log in to the [Shiprocket Dashboard](https://app.shiprocket.in/login) and navigate to **Orders**.
-                      ![Navigate to orders on the Shiprocket Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-shiprocket-orders.jpg.md)
+                      ![Navigate to orders on the Shiprocket Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-shiprocket-orders.jpg.md)
                   1. Under **All**, select **Custom** and filter the data for the last 6 months. Click **Apply**.
-                      ![Filter the data for the last 6 months](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-shiprocket-date.jpg.md)
+                      ![Filter the data for the last 6 months](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-shiprocket-date.jpg.md)
                   1. Click the download icon.
-                      ![Download the data filtered](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-shiprocket-download.jpg.md).
+                      ![Download the data filtered](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-shiprocket-download.jpg.md).
                   1. Your report is sent to your email id or you can also download it from the **Reports Panel**.
                  
 
@@ -81,12 +81,12 @@ Follow the steps given below to share the order history:
                   Follow the steps given below:
 
                   1. Log in to the [Delhivery Dashboard](https://cl.delhivery.com/app/home) and click **Go to Dashboard**.
-                      ![Navigate to the Delhivery Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-delhivery-dashboard.jpg.md)
+                      ![Navigate to the Delhivery Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-delhivery-dashboard.jpg.md)
                   1. Click **APPLY FILTER**.
                   1. Click **Custom Date Range** and select the **Start Date** and the **End Date**. Click **Apply Filter**.
-                      ![Filter the data for the last 6 months](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-delhivery-date.jpg.md)
+                      ![Filter the data for the last 6 months](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-delhivery-date.jpg.md)
                   1. Click **Download**.
-                      ![Download the data filtered](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-delhivery-download.jpg.md)
+                      ![Download the data filtered](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-delhivery-download.jpg.md)
                  
 
              
@@ -96,13 +96,13 @@ Follow the steps given below to share the order history:
 
                   1. Log in to the Pickrr Dashboard.
                   1. Navigate to **Reports** → **Advanced Report**.
-                      ![Navigate to Advanced Reports on the Pickr Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-pickrr-reports.jpg.md)
+                      ![Navigate to Advanced Reports on the Pickr Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-pickrr-reports.jpg.md)
                   1. Select **Download By Data Range**.
                   1. Select upload dates.
                   1. Select the **File Type** as **MIS**.
                   1. Select the **Status** as **All** from the drop-down list.
                   1. Enter your **Email Address** and click **Download**. The report download link is sent to your email ID. 
-                      ![Download the data filtered](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-pickrr-download.jpg.md)
+                      ![Download the data filtered](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-pickrr-download.jpg.md)
                  
 
          
@@ -116,7 +116,7 @@ Follow the steps given below to share the order history:
           2. Select the platform of your e-commerce website, enter the relevant details and click **Next**.
           3. In the **RTO Reduction Setup** section, navigate to the **RTO History** tab. 
           4. Click **+ Upload Order History**.
-              ![Upload order history on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-order-history.jpg.md)
+              ![Upload order history on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-order-history.jpg.md)
           5. Select the **Shipping Provider** from the drop-down list.
           6. Upload the order history file you downloaded in the [previous step](#step-1-export-order-history).
 
@@ -132,9 +132,9 @@ Follow the steps given below to share the order history:
 >               
 
           7. Click **Confirm**.
-              ![Upload the order history file](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-pre-magic.jpg.md)
+              ![Upload the order history file](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-pre-magic.jpg.md)
         
 
 ### Related Information 
-- [RTO Analytics](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/analytics/rto.md)
-- [Integrate with Logistics Partners](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners.md)
+- [RTO Analytics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/analytics/rto.md)
+- [Integrate with Logistics Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/rto-reduction/logistics-partners.md)

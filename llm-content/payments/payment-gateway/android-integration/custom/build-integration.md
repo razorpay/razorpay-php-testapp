@@ -85,7 +85,7 @@ If you are using Proguard for your builds, you need to add the following lines t
 
 #### Initialise
 
-Add your [API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) to `AndroidManifest.xml`.
+Add your [API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) to `AndroidManifest.xml`.
 
   
 > **WARN**
@@ -115,7 +115,7 @@ For additional support on Payment Methods, such as fetching bank or wallet logos
 > 
 > **Handy Tips**
 > 
-> The auto-OTP reading feature is available only for saved cards. Know more about [saved cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/checkout-features/#flash-checkout.md).
+> The auto-OTP reading feature is available only for saved cards. Know more about [saved cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-features.md#flash-checkout).
 > 
 
 To set your API key programmatically, that is, at the runtime instead of statically defining it in your `AndroidManifest.xml`, you can pass it as a parameter to the Razorpay constructor, as shown below:
@@ -178,7 +178,7 @@ razorpay.getPaymentMethods(new PaymentMethodsCallback() {
         })
 ```
 
-Check the various [payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods.md) available with Razorpay Android Custom SDK.
+Check the various [payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods.md) available with Razorpay Android Custom SDK.
 
 > **INFO**
 >
@@ -186,7 +186,7 @@ Check the various [payment methods](@/Applications/MAMP/htdocs/new-docs/llm-cont
 > 
 > **Handy Tips**
 > 
-> If you are using Subscriptions, you can pass the `subscription_id` in the options, which fetches subscription-related details along with the payment method. This saves you a network call to get amount for that `subscription_id`. Know more about [Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md).
+> If you are using Subscriptions, you can pass the `subscription_id` in the options, which fetches subscription-related details along with the payment method. This saves you a network call to get amount for that `subscription_id`. Know more about [Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md).
 > 
 
 ## 1.5 Set Up WebView
@@ -291,7 +291,7 @@ Below is a complete list of Checkout form parameters:
 > 
 > **Handy Tips**
 > 
-> To reuse the Razorpay Checkout web integration inside a web view on Android or iOS, pass a [callback_url](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/callback-url.md) along with other checkout options to process the desired payment.
+> To reuse the Razorpay Checkout web integration inside a web view on Android or iOS, pass a [callback_url](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/callback-url.md) along with other checkout options to process the desired payment.
 > 
 
 #### Use PaymentResultWithDataListener
@@ -348,11 +348,11 @@ razorpay.submit(payload, object : PaymentResultWithDataListener {
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/test-integration.md)
 
 ### Related Information
-- [Integrate With Android Custom SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom.md)
-- [Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods.md)
-- [Troubleshooting & FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/troubleshooting-faqs.md)
+- [Integrate With Android Custom SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom.md)
+- [Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods.md)
+- [Troubleshooting & FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/troubleshooting-faqs.md)
 
-- [Additional Support for Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/additional-features.md)
+- [Additional Support for Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/additional-features.md)

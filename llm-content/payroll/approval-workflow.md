@@ -31,27 +31,27 @@ You can set up Approval Workflows for processes on the [Payroll Dashboard](https
 
 ## How it Works 
 
-1. Set up [user roles](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/user-roles-workflows.md) in Payroll. 
+1. Set up [user roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/user-roles-workflows.md) in Payroll. 
 1. Create and save approval workflows and assign one or two levels of approvers on the Dashboard.
-1. Your team/[collaborators](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/user-roles-workflows/#view-collaborators.md)/user roles make a request and send it for the approvers' review. 
+1. Your team/[collaborators](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/user-roles-workflows.md#view-collaborators)/user roles make a request and send it for the approvers' review. 
 1. The approvers receive and approve/reject the request from the [Payroll Dashboard](https://payroll.razorpay.com/dashboard).
 
 ## Available Workflows
 
 You can create approval workflows for the following Payroll actions: 
 
-- [Edit Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#additions-and-deductions.md)
-- [Finalise Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#execute-payroll.md)
-- [Salary Revision](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#revise-salary.md)
+- [Edit Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#additions-and-deductions)
+- [Finalise Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#execute-payroll)
+- [Salary Revision](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#revise-salary)
 
-Know more about the [Approver Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/approval-workflow/checklist.md). 
+Know more about the [Approver Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/approval-workflow/checklist.md). 
 
 > **WARN**
 >
 > 
 > **Watch Out!**
 > 
-> You must set up [user roles](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/user-roles-workflows.md) before creating approval workflows. Go to **Settings** → **User Roles & Workflows** → **User Roles** → **EDIT** on the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
+> You must set up [user roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/user-roles-workflows.md) before creating approval workflows. Go to **Settings** → **User Roles & Workflows** → **User Roles** → **EDIT** on the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
 > 
 
 ## Set Up Workflow
@@ -61,7 +61,7 @@ To set up the workflow:
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard) as the admin. 
 1. Navigate to **Settings** → **User Roles & Workflows** → **Workflows** → **EDIT**. 
 1. On the **Workflows** page, choose a Payroll process from the left menu to set up an approval workflow. 
-    ![Approval Workflow Set Up on the Razorpay Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-approval-workflow-setup.jpg.md)
+    ![Approval Workflow Set Up on the Razorpay Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-approval-workflow-setup.jpg.md)
 
 ## Create Workflow 
 
@@ -73,9 +73,9 @@ To create an Approval Workflow:
 1. On the **Workflows** page:
     1. Enter the names of all the users you want to assign as approvers in the text box. For example, two finance role users, Gauri Kumari and Gaurav Kumar.
 
-        ![Add Approvers on Payroll Dashboard for Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-approval-workflow-add-approvers.jpg.md)
+        ![Add Approvers on Payroll Dashboard for Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-approval-workflow-add-approvers.jpg.md)
     
-        Ensure the users have the appropriate permissions to approve/reject as defined in the [user roles](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/user-roles-workflows.md). 
+        Ensure the users have the appropriate permissions to approve/reject as defined in the [user roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/user-roles-workflows.md). 
 
     1. Select the minimum number of approvals required at this level from the drop-down list. 
 
@@ -100,7 +100,7 @@ To create an Approval Workflow:
             
             To add a second level of approvers: 
             1. Click **+ Add Level 2 Approvers**.
-                ![Add Approvers on Payroll Dashboard for Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-approval-workflow-add-approvers.jpg.md)
+                ![Add Approvers on Payroll Dashboard for Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-approval-workflow-add-approvers.jpg.md)
             1. Enter the names of user roles in the text box. Ensure the approvers have user roles assigned to them.
             1. Select the minimum number of approvals required from the drop-down list. 
             1. Click **Done**.
@@ -110,7 +110,7 @@ To create an Approval Workflow:
 
         
     1. Click **End Workflow & Save**.
-        ![Payroll end Approval Workflow process](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-approval-workflow-add-approvers.jpg.md)
+        ![Payroll end Approval Workflow process](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-approval-workflow-add-approvers.jpg.md)
 
 You have successfully set up an Approval Workflow.
 
@@ -136,7 +136,7 @@ You can manage the approval workflows in the following ways:
             1. Navigate to [Workflow settings](#set-up-and-manage-workflow).
             1. Select the Payroll action from the left menu. 
             1. Click **Edit Workflow** on the **Workflows** page. 
-                ![Edit Approval Workflow on the Razorpay Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-approval-workflow-edit.jpg.md)
+                ![Edit Approval Workflow on the Razorpay Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-approval-workflow-edit.jpg.md)
             1. Click **Edit** against the level of approvers and make the relevant changes.
             1. Click **End Workflow & Save**.
 
@@ -152,7 +152,7 @@ You can manage the approval workflows in the following ways:
             1. Navigate to [Workflow settings](#set-up-and-manage-workflow).
             1. Select the Payroll action from the left menu. 
             1. When creating the workflow, click **Copy existing workflow**. 
-                ![Approval Workflow Set Up on the Razorpay Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-approval-workflow-copy.jpg.md)
+                ![Approval Workflow Set Up on the Razorpay Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-approval-workflow-copy.jpg.md)
             1. Select an existing workflow from the drop-down list.
             1. Review the workflow and click **End Workflow & Save**.  
 
@@ -169,7 +169,7 @@ You can manage the approval workflows in the following ways:
             1. Select the Payroll action from the left menu. 
             1. Click **Delete** → **Yes, reject and delete**. 
 
-                ![Delete Workflow modal on the Razorpay Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-approval-workflow-delete.jpg.md)
+                ![Delete Workflow modal on the Razorpay Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-approval-workflow-delete.jpg.md)
 
             You have successfully deleted the workflow.
         
@@ -180,11 +180,11 @@ After setting up an Approval Workflow, any member of the organisation can create
 - Requests are successfully created only when there are no errors.
 - You cannot edit requests after sending them for approval. 
 
-When a maker performs any action requiring approval on the Payroll Dashboard, the assigned approvers receive the notification via email and the Dashboard. Approvers can then view the request on the [Approvals Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/approval-workflow/approvers.md).
+When a maker performs any action requiring approval on the Payroll Dashboard, the assigned approvers receive the notification via email and the Dashboard. Approvers can then view the request on the [Approvals Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/approval-workflow/approvers.md).
 
 ## Related Information 
 
-- [Approvals Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/approval-workflow/checklist.md)
-- [Approvals Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/approval-workflow/approvers.md)
-- [User Roles and Workflows](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/user-roles-workflows.md)
-- [Salary Actions in Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary.md)
+- [Approvals Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/approval-workflow/checklist.md)
+- [Approvals Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/approval-workflow/approvers.md)
+- [User Roles and Workflows](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/user-roles-workflows.md)
+- [Salary Actions in Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md)

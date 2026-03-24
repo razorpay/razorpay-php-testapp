@@ -19,7 +19,7 @@ The Razorpay **Affordability Suite** is now rebranded as the **EMI² Suite**, re
 
 ## Affordability Widget
 
-The Affordability Widget displays the multiple payment options (such as EMI, Cardless EMI, and Pay Later) and offers to your customers on the product page. This allows customers to discover payment offers before they reach checkout and make an informed buying decision. Know more about the [Affordability Widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget.md).
+The Affordability Widget displays the multiple payment options (such as EMI, Cardless EMI, and Pay Later) and offers to your customers on the product page. This allows customers to discover payment offers before they reach checkout and make an informed buying decision. Know more about the [Affordability Widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget.md).
 
     
 ### Advantages
@@ -40,11 +40,11 @@ The Affordability Widget displays the multiple payment options (such as EMI, Car
 > 
 
 ### Integration 
-You can integrate the widget on your: [Native Website](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/native-web.md), [WooCommerce Website](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce.md), [Shopify Store](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/shopify.md) and [Android App](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/android.md).
+You can integrate the widget on your: [Native Website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/native-web.md), [WooCommerce Website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce.md), [Shopify Store](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/shopify.md) and [Android App](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/android.md).
 
 ## Eligibility Check
 
-Improve success rate and enhance customer experience by offering a pre-eligibility check at checkout. Check eligibility on Debit Card EMI, Cardless EMI, and Pay Later instruments and let your customers easily choose the most relevant EMI² option and complete the purchase seamlessly. Know more about [Eligibility Check](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/eligibility-check/standard.md).
+Improve success rate and enhance customer experience by offering a pre-eligibility check at checkout. Check eligibility on Debit Card EMI, Cardless EMI, and Pay Later instruments and let your customers easily choose the most relevant EMI² option and complete the purchase seamlessly. Know more about [Eligibility Check](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/eligibility-check/standard.md).
 
     
 ### Advantages
@@ -55,7 +55,7 @@ Improve success rate and enhance customer experience by offering a pre-eligibili
 
 ## Payment Methods
 
-You can offer your customers various payment methods to buy products using [Credit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/credit-card-emi.md), [Debit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md), [Cardless EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi.md), [No Cost EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/no-cost-emi.md), [Low Cost EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/low-cost-emi.md) and [Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later.md).
+You can offer your customers various payment methods to buy products using [Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/credit-card-emi.md), [Debit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md), [Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi.md), [No Cost EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/no-cost-emi.md), [Low Cost EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/low-cost-emi.md) and [Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md).
 
     
 ### Advantages
@@ -132,7 +132,7 @@ Following is the list of payment partners for the various payment methods:
 > 
 >             **EMI Plans and Interest Rates**
 > 
->             Refer to the FAQs for the EMI plans and interest rates of different banks for [Credit Card EMIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs#1-what-are-the-standard-credit-card-interest.md).
+>             Refer to the FAQs for the EMI plans and interest rates of different banks for [Credit Card EMIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#1-what-are-the-standard-credit-card-interest).
 >             
 
         
@@ -154,7 +154,7 @@ Following is the list of payment partners for the various payment methods:
 > 
 >             **EMI Plans and Interest Rates**
 > 
->             Refer to the FAQs for the EMI plans and interest rates of different banks for [Debit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#5-can-you-provide-a-list-of-the.md).
+>             Refer to the FAQs for the EMI plans and interest rates of different banks for [Debit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#5-can-you-provide-a-list-of-the).
 >             
 
         
@@ -202,7 +202,7 @@ Following is the list of payment partners for the various payment methods:
 > 
 >             **EMI Plans and Interest Rates**
 > 
->             Refer to the FAQs for the Cardless EMI plans and interest rates charged by [Banks/Partners](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#1-what-are-the-standard-interest-rates-charged.md) and [Pay Later Providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#2-what-are-the-standard-interest-rates-charged.md).
+>             Refer to the FAQs for the Cardless EMI plans and interest rates charged by [Banks/Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#1-what-are-the-standard-interest-rates-charged) and [Pay Later Providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#2-what-are-the-standard-interest-rates-charged).
 >             
 
         
@@ -224,7 +224,7 @@ Following is the list of payment partners for the various payment methods:
 > 
 >             **Standard Interest Rates**
 > 
->             Refer to the FAQs for the standard interest rates charged by [Pay Later providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs/#2-what-are-the-standard-interest-rates-charged.md).
+>             Refer to the FAQs for the standard interest rates charged by [Pay Later providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#2-what-are-the-standard-interest-rates-charged).
 >             
 
         
@@ -233,11 +233,11 @@ Following is the list of payment partners for the various payment methods:
 
 If you are using Razorpay Standard Checkout, you **do not need to perform any additional integrations** to display these payment methods to your customers. Get this feature enabled on your account by contacting our [Support team](https://razorpay.com/support/#request).
 
-As per your business requirements, you can check the payment methods available on [Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods.md) or [Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/payment-methods/custom-integration.md)
+As per your business requirements, you can check the payment methods available on [Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md) or [Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/payment-methods/custom-integration.md)
 
 ### Try EMI Flow on Checkout
 
-You can try the EMI flow by clicking the **Pay with Razorpay** button. This initiates a ₹5,500 payment. Provide the relevant details and complete the payment. Use the [Test Card for EMI Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details/#test-card-for-emi-payments.md).
+You can try the EMI flow by clicking the **Pay with Razorpay** button. This initiates a ₹5,500 payment. Provide the relevant details and complete the payment. Use the [Test Card for EMI Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md#test-card-for-emi-payments).
 
 > **WARN**
 >
@@ -251,16 +251,16 @@ You can try the EMI flow by clicking the **Pay with Razorpay** button. This init
 
 ## Offers
 
-You can use Offers to attract customers and improve your sales by providing discounts and cashback to customers when they make payments on your website or apps. You can restrict the payment methods on which the offers are applied and limit their usage. Know more about [Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers.md).
+You can use Offers to attract customers and improve your sales by providing discounts and cashback to customers when they make payments on your website or apps. You can restrict the payment methods on which the offers are applied and limit their usage. Know more about [Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers.md).
 
 You can create Offers including No Cost EMI and Low Cost EMI Offers via the Dashboard and display them to your customers on Checkout.
 
-- [No Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/no-cost-emi.md)
-- [Low Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/low-cost-emi.md)
+- [No Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/no-cost-emi.md)
+- [Low Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/low-cost-emi.md)
 
 ### Related Information
 
-- [Affordability Widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget.md)
-- [Affordability Widget Features](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/features.md)
-- [Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods.md)
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs.md)
+- [Affordability Widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget.md)
+- [Affordability Widget Features](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/features.md)
+- [Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md)

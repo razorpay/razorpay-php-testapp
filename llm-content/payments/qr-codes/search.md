@@ -5,7 +5,7 @@ description: Search for QR Codes and Payments on the Razorpay Dashboard using fi
 
 # Search a QR Code
 
-You can search for QR Codes on the Dashboard by specifying various filters. Know more about [QR Code States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/#qr-code-states.md).
+You can search for QR Codes on the Dashboard by specifying various filters. Know more about [QR Code States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes.md#qr-code-states/).
 
 ## Search a QR Code from the Dashboard
 
@@ -30,7 +30,7 @@ Customer Contact | Registered phone number of the customer.
 ---
 Customer Email | Email address of the customer.
 
-![Search for a QR code from the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-codes-search-search-qr-code.jpg.md)
+![Search for a QR code from the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-codes-search-search-qr-code.jpg.md)
 
 ## Search Payments
 
@@ -44,7 +44,7 @@ QR Code Id | Unique identifier of the QR Code.
 ---
 Payment Id | Unique identifier of the payment.
 ---
-Payment Status | The status of the payment. Know more about [payment states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments.md).
+Payment Status | The status of the payment. Know more about [payment states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments.md).
 ---
 Email | Email address of the customer.
 ---
@@ -54,11 +54,11 @@ Notes | Additional information stored in the `Internal Notes` field while creati
 ---
 Count | Number of records to be shown.
 
-![Search for a payment made using QR code from the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/qr-codes-search-search-payments.jpg.md)
+![Search for a payment made using QR code from the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/qr-codes-search-search-payments.jpg.md)
 
 ### Related Information
 
-- [QR Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes.md)
-- [Create a QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/create.md)
-- [Cancel a QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/close.md)
-- [QR Code APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/apis.md)
+- [QR Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes.md)
+- [Create a QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/create.md)
+- [Cancel a QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/close.md)
+- [QR Code APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/apis.md)

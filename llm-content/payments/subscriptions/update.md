@@ -5,7 +5,7 @@ description: Update a Subscription - start date, plan, quantity, duration and th
 
 # Update a Subscription
 
-You can update Subscriptions from the [Dashboard](#update-a-subscription-from-dashboard) or using [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/#update-a-subscription.md).
+You can update Subscriptions from the [Dashboard](#update-a-subscription-from-dashboard) or using [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions.md#update-a-subscription).
 
 ## What Can Be Updated in a Subscription
 
@@ -14,8 +14,8 @@ You can update following parameters of a Subscription that is `active`:
 - `Plan` linked to the Subscription.
 - `Quantity`, that is the number of times the amount should be charged to the customer per billing cycle. For example, this would be the number of users for a software product.
 - `Subscription Start Date` for the updated Subscription details. This can either be immediate or any future date. You can choose to update a Subscription:
-    - [Immediately](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/update/#update-subscriptions-immediately.md)
-    - [At the end of the current billing cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/update/#update-subscription-at-the-end-of-the-current.md)
+    - [Immediately](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/update.md#update-subscriptions-immediately)
+    - [At the end of the current billing cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/update.md#update-subscription-at-the-end-of-the-current)
 - `Total count`, that is the number of billing cycles. This determines the duration of the Subscription.
 
 - `Offer`, this is the offer linked to the Subscription.
@@ -38,7 +38,7 @@ A customer might want to update from a basic plan to an advanced plan that incre
 > 
 > 
 > **Watch Out!**
-> - You can only update Subscriptions in the `authenticated` and `active` states. Subscriptions in the `created`, `pending` or `halted` state cannot be updated. There is no state change when a Subscription is updated. Know more about the [Subscription states.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/states.md)
+> - You can only update Subscriptions in the `authenticated` and `active` states. Subscriptions in the `created`, `pending` or `halted` state cannot be updated. There is no state change when a Subscription is updated. Know more about the [Subscription states.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/states.md)
 > - You cannot update a Subscription if the difference amount after updating a Subscription (credit or refund) is less than the update quantity multiplied by the smallest currency subunit.
 > 
 
@@ -46,8 +46,8 @@ A customer might want to update from a basic plan to an advanced plan that incre
 
 When you update a Subscription immediately, you may have to perform the following:
 
-- [Charge the customer an extra amount](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/update/#charge-a-customer-extra.md)
-- [Refund an amount to the customer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/update/#refund-money-to-a-customer.md)
+- [Charge the customer an extra amount](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/update.md#charge-a-customer-extra)
+- [Refund an amount to the customer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/update.md#refund-money-to-a-customer)
 
 If the remaining amount for the original Subscription is the same as the amount to be charged for the updated Subscription, no charge or refund needs to be done.
 
@@ -358,7 +358,7 @@ To update a Subscription:
 
 ## Update a Subscription Using API
 
-Use the [Update a Subscription API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/update-subscription.md) to update a Subscription.
+Use the [Update a Subscription API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/update-subscription.md) to update a Subscription.
 
 ## Cancel a Subscription Update
 
@@ -384,7 +384,7 @@ To cancel a Subscription update:
 
 ### Related Information
 
-- [Create and View Plans](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-plans.md)
-- [Create Subscriptions via Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-subscription-links.md)
-- [Charge a Card Manually](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/manually-charge-card.md)
-- [Subscriptions Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/settings.md)
+- [Create and View Plans](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-plans.md)
+- [Create Subscriptions via Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-subscription-links.md)
+- [Charge a Card Manually](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/manually-charge-card.md)
+- [Subscriptions Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/settings.md)

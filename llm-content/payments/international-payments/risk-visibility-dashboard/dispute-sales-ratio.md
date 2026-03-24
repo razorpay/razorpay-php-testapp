@@ -5,7 +5,7 @@ description: Know how to calculate dispute-to-sales ratio. Learn how the Risk An
 
 # Dispute-To-Sales Ratio
 
-A dispute is a situation where a customer or the issuing bank questions the validity of payments. It may arise due to unauthorised charges, failure to deliver the promised merchandise, or excessive charges levied by the business. Know more about the [disputes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes.md).
+A dispute is a situation where a customer or the issuing bank questions the validity of payments. It may arise due to unauthorised charges, failure to deliver the promised merchandise, or excessive charges levied by the business. Know more about the [disputes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes.md).
 
 The dispute-to-sales ratio is a metric used in financial analysis to measure the proportion of disputed transactions related to total sales or transactions processed by a business within a specific period. It helps understand disputes relative to the overall sales volume.
 
@@ -14,7 +14,7 @@ Dispute-to-sales ratio is a dynamic indicator of financial health, customer sati
 ## Calculating Dispute-To-Sales Ratio
 
 You can calculate the dispute-to-sales ratio by dividing the total number of disputed transactions within the selected period (as specified in the drop-down menu) by the total number of captured transactions for the current month. Then, multiply it by 100 to express it as a percentage. 
-     ![How to calculate DTS](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/calculate-dts.jpg.md)
+     ![How to calculate DTS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/calculate-dts.jpg.md)
 
 #### Example 1
 
@@ -31,7 +31,7 @@ The e-commerce business's dispute-to-sales ratio is 0.5%. This low ratio suggest
 > **Handy Tips**
 > 
 > The dispute-to-sales ratio will be calculated based on your value selection (INR) versus absolute count. Depending on this selection, either the INR value ratio will be taken or the transaction count ratio will be considered.
->     ![Dispute to sales ratio value](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dts-value-count.jpg.md)
+>     ![Dispute to sales ratio value](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dts-value-count.jpg.md)
 > 
 > 
 
@@ -44,7 +44,7 @@ Consider you have an e-commerce business and processed 10,000 transactions in Ap
 ## Dashboard Actions
 
 You can use the Dashboard to perform a detailed analysis of **Total sales value**, **Value of reported disputes**, **Disputes-to-sales** ratio, and **Number of reported disputes** over a selected period of time. 
-    ![FTS graph](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dts-total-count.jpg.md)
+    ![FTS graph](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dts-total-count.jpg.md)
 
 Let us explore how the Risk Analytics Dashboard can help you effectively reduce your Dispute-to-sales (DTS) ratio:
 
@@ -62,9 +62,9 @@ You can download the list of disputes with parameters such as IP address, email,
 
     1. Log in to your Dashboard.
     2. Navigate to **Risk and Fraud** and click **Download list**.
-        ![Disputes list download](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dts-download-list.jpg.md)
+        ![Disputes list download](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dts-download-list.jpg.md)
     3. On the **Download disputes transaction list** page, select the **duration** and add the **Recipient's Details**. Click **Send Request**.
-        ![Disputes list download send request](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dts-send-request.jpg.md)
+        ![Disputes list download send request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dts-send-request.jpg.md)
     4. After the request is sent, you will receive an email with the file containing the list of disputes for the selected duration.
 
 ### Block Highest Dispute Contributors
@@ -73,9 +73,9 @@ You can block the fraud contributors by requesting a blacklist which helps lower
 
     1. Log in to your Dashboard.
     2. Navigate to **Risk and Fraud** and click **Request blacklist**.
-        ![Disputes blacklist request](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dts-request-blacklist.jpg.md)
+        ![Disputes blacklist request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dts-request-blacklist.jpg.md)
     3. On the **Request blacklist** page. 
         - Select **Parameter**, add **Comments** about why you want to blacklist, enter the email id to which you want to get the updates.
         - Upload an **XLS or XLSV** file of the list items. Click **Send request**.
-        ![Send request blacklist](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dts-blacklist-send-request1.jpg.md)
+        ![Send request blacklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dts-blacklist-send-request1.jpg.md)
     4. After the request is sent successfully, you can track your request on the Dashboard. Navigate to **Account & Settings** → **Support tickets** (under **Business settings**).

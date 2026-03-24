@@ -45,7 +45,7 @@ To integrate with Zaggle:
 1. On the Zaggle integration page, click **CONTINUE SETUP** at the bottom. This opens the setup page. 
 1. On the setup page: 
     1. In the **WALLETS** tab, select the check boxes to make flexible benefits available to your employees. Click **SAVE AND NEXT**.
-        ![Set up Zaggle FBP plan on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-integrations-zaggle-setup.jpg.md)
+        ![Set up Zaggle FBP plan on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-integrations-zaggle-setup.jpg.md)
     1. In the **COMPONENT** tab, enter the maximum monthly amount allowed for flexible benefits at an employee level in the **Monthly amount** text box. 
     
         If you enter 5000 in the text box, ₹5000 is the total flexible benefits amount allocated for every employee in your organisation.
@@ -62,7 +62,7 @@ To integrate with Zaggle:
 
         Click **SAVE AND NEXT**.
 
-        ![Add monthly amount on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-integrations-zaggle-component.jpg.md)
+        ![Add monthly amount on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-integrations-zaggle-component.jpg.md)
     1. In the **ADDRESS** tab, select whether Zaggle should deliver the cards to your organisation's address or individually to your employees' addresses.
 
         
@@ -86,7 +86,7 @@ To manage your integration with Zaggle on the Payroll Dashboard:
 1. Navigate to **Integrations** in the left menu under **ADMIN OPTIONS**. 
 1. Click **Manage** in the Zaggle card.
 
-    ![Click Manage in Payroll Integrations Dashboard Zaggle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-integrations-zaggle-manage.jpg.md)
+    ![Click Manage in Payroll Integrations Dashboard Zaggle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-integrations-zaggle-manage.jpg.md)
 
 The following actions are available: 
 
@@ -96,7 +96,7 @@ The following actions are available:
          You must complete the Zaggle KYC process to deliver your employees' cards. 
 
          1. Navigate to the [Zaggle integration page](#manage-integration) and click **START VERIFICATION**.
-            ![Zaggle Payroll Integration KYC and modify FBP](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-integrations-zaggle-manage1.jpg.md)
+            ![Zaggle Payroll Integration KYC and modify FBP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-integrations-zaggle-manage1.jpg.md)
          1. On the KYC Verification page, provide your **GSTIN Number**, **GSTIN Certificate** and a **Cancelled Cheque**.
          1. Click **Request Verification**. 
 
@@ -115,5 +115,5 @@ The following actions are available:
 
 ### Related Information
 
-- [About Payroll Integrations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations.md)
-- [Integrate with Jibble for Attendance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/jibble.md)
+- [About Payroll Integrations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations.md)
+- [Integrate with Jibble for Attendance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/jibble.md)

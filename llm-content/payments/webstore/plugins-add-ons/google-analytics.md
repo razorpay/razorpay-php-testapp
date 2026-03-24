@@ -23,11 +23,11 @@ To add Google Tracking ID to your Webstore:
 1. Navigate to your Webstore in the edit mode.
 2. Click **Page Settings**.
 3. Go to **Plugins and Add-ons** and click **Configure**.
-    ![Configure Plugins and Add Ons](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-plugins-addons-configure.jpg.md)
+    ![Configure Plugins and Add Ons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-plugins-addons-configure.jpg.md)
 4. Add the **Tracking ID** to track the page views.
-    ![Add Google Tracking ID and FB Pixel](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pp-plugins-addons-GA.jpg.md)
+    ![Add Google Tracking ID and FB Pixel](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pp-plugins-addons-GA.jpg.md)
 5. Click **Save**.
 
 ### Related Information
-- [Add Facebook Pixel to Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/plugins-add-ons/fb-pixel.md)
-- [Add Facebook Pixel to your payment success page](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/plugins-add-ons/fb-payment-success.md)
+- [Add Facebook Pixel to Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/plugins-add-ons/fb-pixel.md)
+- [Add Facebook Pixel to your payment success page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/plugins-add-ons/fb-payment-success.md)

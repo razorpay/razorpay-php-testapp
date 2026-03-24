@@ -23,19 +23,19 @@ description: Find answers to frequently asked questions about RazorpayX Vendor P
     
 ### 3. Can I cancel a Payout for an invoice in the processing state?
 
-         Yes, you can reject or cancel the payout in processing state. Know more about [Vendor Payments Life Cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/life-cycle#processing.md).
+         Yes, you can reject or cancel the payout in processing state. Know more about [Vendor Payments Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/life-cycle.md#processing).
         
 
     
 ### 4. After uploading an invoice, can I replace it?
 
-         Yes, you can [replace an invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/invoices/#replace-an-invoice.md) after it has been added.
+         Yes, you can [replace an invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/invoices.md#replace-an-invoice) after it has been added.
         
 
     
 ### 5. How to cancel an invoice?
 
-         Refer to the [Cancel an Invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/invoices/#cancel-an-invoice.md) section.
+         Refer to the [Cancel an Invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/invoices.md#cancel-an-invoice) section.
         
 
     
@@ -47,7 +47,7 @@ description: Find answers to frequently asked questions about RazorpayX Vendor P
     
 ### 7. After uploading an invoice how to set reminders to make the payment?
 
-         When you upload and [save an invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/invoices/#add-invoices.md), we send automatic reminders to make payment. Reminder emails are sent to your registered email address. We also show you reminder alerts on the Dashboard.
+         When you upload and [save an invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/invoices.md#add-invoices), we send automatic reminders to make payment. Reminder emails are sent to your registered email address. We also show you reminder alerts on the Dashboard.
         
 
     
@@ -59,7 +59,7 @@ description: Find answers to frequently asked questions about RazorpayX Vendor P
     
 ### 9. I uploaded an invoice but made the payment offline. Do I have to cancel the invoice?
 
-         No, you need not cancel the invoice. You can instead [Mark as Paid](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/#mark-invoice-as-paid.md).
+         No, you need not cancel the invoice. You can instead [Mark as Paid](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md#mark-invoice-as-paid).
         
 
 ## TDS
@@ -75,7 +75,7 @@ description: Find answers to frequently asked questions about RazorpayX Vendor P
     
 ### 2. Why is the TDS calculated not showing up in the Tax Payment section after uploading and saving the invoice?
 
-         TDS is recorded in the Tax Payment section only when you [make a vendor payment](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/#invoices.md). It is not recorded when you upload and save an invoice.
+         TDS is recorded in the Tax Payment section only when you [make a vendor payment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments.md#invoices). It is not recorded when you upload and save an invoice.
         
 
     
@@ -87,7 +87,7 @@ description: Find answers to frequently asked questions about RazorpayX Vendor P
     
 ### 4. What happens if I do not have sufficient account balance on the 4th to make the TDS payment?
 
-         If you do not have enough balance on the 4th, we [queue](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle/#queued.md) the Payout and send out reminders. You can add balance to your account and manually initiate the payment from the [RazorpayX Dashboard](https://x.razorpay.com/auth). 
+         If you do not have enough balance on the 4th, we [queue](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md#queued) the Payout and send out reminders. You can add balance to your account and manually initiate the payment from the [RazorpayX Dashboard](https://x.razorpay.com/auth). 
          
          If the payment is not processed on or before the 7th of the month, an interest amount is automatically added to the tax payment as per government norms.
         

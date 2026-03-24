@@ -277,7 +277,7 @@ description: Find answers to some Frequently Asked Questions (FAQs) about Razorp
     
 ### 4. I have submitted my activation form, but my account is not activated. Can I start integrating?
 
-         Yes, you can start integrating without your account getting activated. But you must have an active account for the [settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements.md). Check the [various integration options available](https://razorpay.com/integrations/) to you. If you face any issues during the integration, [raise a Razorpay Support request.](https://razorpay.com/support/#request)
+         Yes, you can start integrating without your account getting activated. But you must have an active account for the [settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md). Check the [various integration options available](https://razorpay.com/integrations/) to you. If you face any issues during the integration, [raise a Razorpay Support request.](https://razorpay.com/support/#request)
         
 
     
@@ -297,13 +297,13 @@ description: Find answers to some Frequently Asked Questions (FAQs) about Razorp
     
 ### 7. What are the documents needed to sign-up?
 
-         To ensure a smooth sign-up process, it is important to provide the necessary documents as per Razorpay's requirements. Check the [list of documents](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/business-types-kyc-documents#kyc-documents.md) required for signing up at Razorpay.
+         To ensure a smooth sign-up process, it is important to provide the necessary documents as per Razorpay's requirements. Check the [list of documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/business-types-kyc-documents.md#kyc-documents) required for signing up at Razorpay.
         
 
     
 ### 8 . What payment methods are supported by Razorpay?
 
-         Razorpay supports [various payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/#supported-payment-methods.md) to cater to diverse customer preferences.
+         Razorpay supports [various payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md#supported-payment-methods) to cater to diverse customer preferences.
         
 
     
@@ -331,7 +331,7 @@ description: Find answers to some Frequently Asked Questions (FAQs) about Razorp
     
 ### 11. I am unable to use my mobile number. It shows that the mobile number already exists. How can I create an account using the same number?
 
-         You can refer to [Create Multiple Account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up/#create-multiple-accounts.md).
+         You can refer to [Create Multiple Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#create-multiple-accounts).
         
 
     
@@ -384,7 +384,7 @@ description: Find answers to some Frequently Asked Questions (FAQs) about Razorp
 
          To setup a password:
          1. Enter your email address and click **Forgot?**. You will receive a verification link on your email ID.
-            ![dashboard password setup](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-password-reset.jpg.md)
+            ![dashboard password setup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-password-reset.jpg.md)
          2. Click the verification link and setup your password.
         
 

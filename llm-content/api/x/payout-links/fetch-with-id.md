@@ -90,7 +90,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
   - `cancelled`
   - `rejected`
 
-Refer to the [Payout Link Life Cycle section](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/life-cycle.md) for more details.
+Refer to the [Payout Link Life Cycle section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/life-cycle.md) for more details.
 
 `amount`
 : `integer` The amount, in paise, that was transferred from the business account to the contact's fund account. 
@@ -125,12 +125,12 @@ Refer to the [Payout Link Life Cycle section](@/Applications/MAMP/htdocs/new-doc
 `fund_account_id`
 : `string` The unique identifier of the contact's fund account to which the payout will be made. For example, `fa_00000000000001`. 
  
- Fund Account id is returned only when the Payout Link moves to the [`processing` state](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/life-cycle.md) after the contact provides their account details.
+ Fund Account id is returned only when the Payout Link moves to the [`processing` state](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/life-cycle.md) after the contact provides their account details.
 
 `payout_id`
 : `string` The unique identifier for the payout made to the contact. For example, `pout_00000000000001`. 
  
- This value is returned only when the Payout Link moves to the [`processed` state](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/life-cycle.md) after the contact receives the amount in their account. 
+ This value is returned only when the Payout Link moves to the [`processed` state](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/life-cycle.md) after the contact receives the amount in their account. 
 
 `cancelled_at`
 : `integer` Timestamp, in Unix, if the Payout Link was cancelled by you. This value is returned only when the Payout Link moves to the `cancelled` state.
@@ -147,7 +147,7 @@ Refer to the [Payout Link Life Cycle section](@/Applications/MAMP/htdocs/new-doc
 `expire_by`
 : `integer` Timestamp, in Unix, when the Payout Link was to expire. This is set at the time of creation of the Payout Link and is set at least 15 minutes ahead of the current time. 
  
- This value is returned only if you have enabled the expiry feature for Payout Links. Know how to [set expiry](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/set-expiry.md) to Payout Links.
+ This value is returned only if you have enabled the expiry feature for Payout Links. Know how to [set expiry](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/set-expiry.md) to Payout Links.
 
 `expired_at`
 : `integer` Timestamp, in Unix, when the Payout Link expired. This is set at the time of creation of the Payout Link.

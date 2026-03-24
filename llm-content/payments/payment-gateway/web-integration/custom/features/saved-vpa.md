@@ -20,7 +20,7 @@ Razorpay enables you to save the VPAs of a customer. The VPAs entered by the cus
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -36,7 +36,7 @@ The user flow for accepting payments using tokens is as follows:
 
 ## Prerequisites
 
-To authenticate API requests sent to Razorpay servers, send the API key, a combination of `Key_Id` and `Key_Secret`, in the request header. [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
+To authenticate API requests sent to Razorpay servers, send the API key, a combination of `Key_Id` and `Key_Secret`, in the request header. [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
 
 ## Integration Steps
 
@@ -114,7 +114,7 @@ instance.customers.create({name, email, contact, notes})
 }
 ```
 
-Know more about [Customers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers.md).
+Know more about [Customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md).
 
 ### 1.2 Create an Order
 
@@ -147,11 +147,11 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 }
 ```
 
-Know more about [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 ### 1.3 Create Tokens for a Customer
 
-While making the UPI collect payment, the customer enters the VPA on the checkout. To save the VPA, send `customer_id` and `save` attributes along with the other [Checkout fields](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration#checkout-options.md) as shown below:
+While making the UPI collect payment, the customer enters the VPA on the checkout. To save the VPA, send `customer_id` and `save` attributes along with the other [Checkout fields](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md#checkout-options) as shown below:
 
 ```js: Custom Checkout Sample Code
 razorpay.createPayment({
@@ -252,7 +252,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 
 Once the VPAs are tokenized, in all the repeat transactions on your website, customers can complete their UPI payments without having to enter their VPAs again.
 
-In subsequent payments, instead of `vpa`, pass `customer_id` and `token` attributes along with the other [Checkout fields](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration#checkout-options.md) as shown below:
+In subsequent payments, instead of `vpa`, pass `customer_id` and `token` attributes along with the other [Checkout fields](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md#checkout-options) as shown below:
 
 ```js: Custom Checkout Sample Code
 .... //beginning of your custom code

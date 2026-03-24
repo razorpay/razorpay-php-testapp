@@ -22,7 +22,7 @@ To allow employees to resign, you must enable it.
 
 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard).
 1. Go to **Settings** → **Employee Resignation Setup** → **EDIT**.
-    ![Scroll to Enable Resignation set up. Click EDIT on RazorpayX Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-enable-resignation.jpg.md)
+    ![Scroll to Enable Resignation set up. Click EDIT on RazorpayX Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-enable-resignation.jpg.md)
 1. Select the **Enable resignations feature** check box.
 
 This enables resignation submission for employees. 
@@ -38,11 +38,11 @@ After an employee submits their resignation, you can view the request and take a
         
             1. Navigate to ADMIN OPTIONS → Reports. 
             1. Click **Resignations**.
-                ![Resignation report in Settings on the Razorpay Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-resignation-report.jpg.md)
+                ![Resignation report in Settings on the Razorpay Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-resignation-report.jpg.md)
         
         
             In the reminders tab, click **resignations**.
-                ![Resignation reminders on the RazorpayX Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-resignations-reminders.jpg.md)
+                ![Resignation reminders on the RazorpayX Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-resignations-reminders.jpg.md)
         
      
 1. View the resignation requests pending your review. Select the employee and click **REVIEW RESIGNATION**. You can only review one request at a time.
@@ -50,7 +50,7 @@ After an employee submits their resignation, you can view the request and take a
     - Change the employee's **Last Working Day**. 
     - Provide **Remarks** on the resignation request. 
 1. Click **UPDATE** to make changes to the employee's resignation. Then, click **APPROVE**.
-    ![Approve or Reject resignations on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-resignation-modal-approve-reject.jpg.md)
+    ![Approve or Reject resignations on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-resignation-modal-approve-reject.jpg.md)
 
 This successfully approves the employee's resignation. 
 - To reject the request, click **REJECT**. 
@@ -73,9 +73,9 @@ Once you approve the resignation request, you can process the employee's full an
 1. On the Resignations report page, select the employee to process the FnF for. Click **PROCESS FNF SETTLEMENT**. This opens the **Full and final settlement** page.
 1. On the Full and final settlement page:
     1. Provide the leave encashment details. You can either enter the number of leaves to encash or the total leave encashment amount.
-    1. Enter any additions or deductions to the employee's salary. You can also enter the [Loss of Pay](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#loss-of-pay.md) days, or the [Jibble Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/jibble.md)  to sync the LOP data automatically.
+    1. Enter any additions or deductions to the employee's salary. You can also enter the [Loss of Pay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#loss-of-pay) days, or the [Jibble Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/jibble.md)  to sync the LOP data automatically.
 
-        ![Payroll Dashboard make additions deductions FNF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-fnf-additions-deductions.jpg.md)
+        ![Payroll Dashboard make additions deductions FNF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-fnf-additions-deductions.jpg.md)
 
         
 > **WARN**
@@ -108,10 +108,10 @@ Once you approve the resignation request, you can process the employee's full an
         
     1. Enter the employee's personal email address for further communication. 
     
-        If Payroll had been handling the employee's [Form 16s](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary/#employee-s-form-16.md), the employee receives it on their personal email address at the end of the financial year.
+        If Payroll had been handling the employee's [Form 16s](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md#employee-s-form-16), the employee receives it on their personal email address at the end of the financial year.
     1. Click **Add to Payment**. 
 
-You have successfully modified the full and final settlement for the employee. The employee receives the settlement payment after you [execute payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#execute-payroll.md) for the month.
+You have successfully modified the full and final settlement for the employee. The employee receives the settlement payment after you [execute payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#execute-payroll) for the month.
 
 ### Maintain Employee Directory 
 
@@ -133,5 +133,5 @@ Full and final settlement | View the details of full and final settlements proce
 
 ### Related Information
 
-- [Dismiss Employees on the Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#terminate-and-run-last-payroll.md)
+- [Dismiss Employees on the Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#terminate-and-run-last-payroll)
 - [About Full and Final Settlement](https://razorpay.com/payroll/learn/full-and-final-settlement-fnf/)

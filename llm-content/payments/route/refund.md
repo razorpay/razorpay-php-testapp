@@ -22,10 +22,10 @@ To issue a refund:
 4. The refund transfer happens from your primary account. Hence, you must create a corresponding reversal for the Linked Account. This can be done manually, or you may use the **Reverse all Route Transfers as well** option for automatic reversal.
 5. A dialog box is displayed. Click **Yes, Refund**.
 
-![Issue Refund confirmation dialog](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-make-partial-refund.jpg.md)
+![Issue Refund confirmation dialog](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-make-partial-refund.jpg.md)
 
 ### Related Information
-- [Transfer Funds to Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md)
-- [Transfers and Related Fees](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-fees-example.md)
-- [Schedule Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/schedule-settlement.md)
-- [Payment Reversals](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/reversal.md)
+- [Transfer Funds to Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md)
+- [Transfers and Related Fees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-fees-example.md)
+- [Schedule Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/schedule-settlement.md)
+- [Payment Reversals](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/reversal.md)

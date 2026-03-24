@@ -35,14 +35,14 @@ To create an offer:
 
 1. Log in to the Dashboard.
 2. Navigate to **Offers** and click **Create New Offer**.
-    ![Create an Offer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-offers-dashboard.jpg.md)
+    ![Create an Offer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-offers-dashboard.jpg.md)
 3. The **Create an Offer** wizard appears with these four tabs. 
     - [**Description**](#description)
     - [**Discount Type**](#discount-type)
     - [**Applicable On**](#applicable-on)
     - [**Offer Validity**](#offer-validity)
 
-    ![View components required during creating an offer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-offers-wizard.jpg.md)
+    ![View components required during creating an offer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-offers-wizard.jpg.md)
 
 You can review the Offer configurations at the end under the [**Overview**](#overview) tab.
 
@@ -55,7 +55,7 @@ Under the **Description** tab, enter the following details. All the fields are m
 3. **Terms**: Enter terms and conditions for the offer.
 4. **Offer Type**: Select the type of offer that you want to create. For example, **Instant**. This means that the offer is applied instantly. The customer pays only the discounted amount while making the payment.
 5. Click **Next**.
-    ![Enter the offer details to proceed](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-offers-description.jpg.md)
+    ![Enter the offer details to proceed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-offers-description.jpg.md)
 
 ### Discount Type
 
@@ -66,7 +66,7 @@ In the **Discount Type** tab, enter the discount details that should be applied 
     2. **Discount Worth**: The percentage by which the original price should be reduced. Enter `10`.
     3. **Maximum Discount**: The maximum amount that can be deducted from the bill amount. Enter `500`.
 2. Click **Next**.
-    ![Enter the discount details to proceed](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-offers-discount-type.jpg.md)
+    ![Enter the discount details to proceed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-offers-discount-type.jpg.md)
 
 ### Applicable On
 
@@ -76,7 +76,7 @@ In the **Applicable On** tab, enter details of the payment method you want to en
 2. **Issuer**: If you want to restrict the offer to online payments from a specific bank, select the bank name from the list. Otherwise, do not select any bank. For this example, since the offer applies to all banks, we will not choose a bank.
 3. Click **Next**.
 
-![Enter the payment method details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-offers-applicable-on.jpg.md)
+![Enter the payment method details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-offers-applicable-on.jpg.md)
 
 ### Offer Validity
 
@@ -89,9 +89,9 @@ Under the **Offer Validity** tab, set how long the offer should be valid and how
     - **Allow customer to pay without availing offer**: The payment is allowed even though the set validations are not met. However, the offer is not applied to the bill amount. The customer will be charged the entire order amount. 
     For this example, we will allow payments to go through.
 4. **Max Usage**: Set the number of times the offer should be applied across all transactions. For example, `100`.
-5. **Show Offer on Checkout**: Select this check box for the created offer to be displayed for all Standard Checkout payments including [Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links.md).
+5. **Show Offer on Checkout**: Select this check box for the created offer to be displayed for all Standard Checkout payments including [Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links.md).
 6. Click **Next**.
-    ![Enter the offer validity details to proceed](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-offers-offer-validity.jpg.md)
+    ![Enter the offer validity details to proceed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-offers-offer-validity.jpg.md)
 
 ### Overview
 
@@ -99,17 +99,17 @@ Click the **Overview** tab to view the offer summary you just created.
 
 1. **Terms and Conditions**: Select the check box after you have read the disclaimer.
 2. Click **Create Offer**.
-    ![Check the terms and conditions and create an offer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/offers-offers-overview.jpg.md)
+    ![Check the terms and conditions and create an offer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/offers-offers-overview.jpg.md)
 
 By default, all the created offers are in the **enabled** state.
 
 ## Integrate Offer with Standard Checkout
 
-Now that an offer is created, you should integrate the offers with the Checkout for customers to avail themselves the discounts and make payments. Know more about [integrating offers with Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/standard-integration.md).
+Now that an offer is created, you should integrate the offers with the Checkout for customers to avail themselves the discounts and make payments. Know more about [integrating offers with Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/standard-integration.md).
 
 ### Related Information
 
-- [About Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers.md)
-- [Offers FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/faqs.md)
+- [About Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers.md)
+- [Offers FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/faqs.md)
 
-- [EMI² Suite](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi².md)
+- [EMI² Suite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi².md)

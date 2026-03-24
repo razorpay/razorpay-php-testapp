@@ -10,10 +10,10 @@ Follow these steps to integrate the Razorpay Magic Checkout on your iOS applicat
 
 ## Prerequisites
 
-- Ensure you enable [Magic Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/troubleshooting-faqs/#3-how-do-i-check-if-magic-checkout.md) on your account.
-- Integrate [Magic Checkout With Shopify Store](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify.md).
-- Integrate with [iOS Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/ios-integration.md).
-- Generate [Live API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/#api-keys.md) from the Dashboard. 
+- Ensure you enable [Magic Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/troubleshooting-faqs.md#3-how-do-i-check-if-magic-checkout) on your account.
+- Integrate [Magic Checkout With Shopify Store](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify.md).
+- Integrate with [iOS Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/ios-integration.md).
+- Generate [Live API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings.md#api-keys) from the Dashboard. 
 
   - **1. Build Integration**:  Integrate with iOS App for Shopify.
 
@@ -301,7 +301,7 @@ Follow the steps given below:
 
          Watch the GIF to see how to add Frameworks, Libraries and Embed Content.
 
-         ![add Frameworks, Libraries and Embed Content](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ios-embed-framework.gif.md)
+         ![add Frameworks, Libraries and Embed Content](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ios-embed-framework.gif.md)
         
 
      
@@ -312,7 +312,7 @@ Follow the steps given below:
 
      To initialise Razorpay iOS Standard SDK, you need the following:
 
-     - API keys. You can generate this from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md).
+     - API keys. You can generate this from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys).
 
          
 > **WARN**
@@ -524,7 +524,7 @@ Follow the steps given below:
               
               ```
 
-              Know more about [UPI Intent and its benefits](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/upi-intent.md).
+              Know more about [UPI Intent and its benefits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/upi-intent.md).
             
 
      

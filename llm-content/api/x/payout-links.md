@@ -5,10 +5,10 @@ description: List of Payout Links API endpoints to create, retrieve and cancel P
 
 # Payout Links
 
-[Payout Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links.md) enable you to make payouts to those Contacts whose Fund Account details are not available. Allowlisting your IP is mandatory for using the Payout Link APIs. Know how to [allowlist your IP](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/allowlist-ip.md).
+[Payout Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links.md) enable you to make payouts to those Contacts whose Fund Account details are not available. Allowlisting your IP is mandatory for using the Payout Link APIs. Know how to [allowlist your IP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/allowlist-ip.md).
         
 
-      Fork the Razorpay Postman Public Workspace and try the Payout Links APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/api-keys.md).
+      Fork the Razorpay Postman Public Workspace and try the Payout Links APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/api-keys.md).
         
 
       [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-60f1103d-eb2b-454b-8b17-7911e3c9d2f5)
@@ -17,9 +17,9 @@ description: List of Payout Links API endpoints to create, retrieve and cancel P
     
 ### Related Guides
  
-      [About Payout Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links.md)
-      [Set Up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payouts.md)
-      [Webhook Payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payout-links.md)
+      [About Payout Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links.md)
+      [Set Up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payouts.md)
+      [Webhook Payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payout-links.md)
     
 
     

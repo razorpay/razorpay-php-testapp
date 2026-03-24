@@ -15,7 +15,7 @@ RazorpayX Escrow Plus empowers businesses with the tools they need to conduct se
 > 
 > **Handy Tips**
 > 
-> Escrow account is mandatory if you want to use [Smart Collect 2.0](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect.md).
+> Escrow account is mandatory if you want to use [Smart Collect 2.0](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect.md).
 > 
 
     
@@ -43,8 +43,8 @@ RazorpayX Escrow Plus empowers businesses with the tools they need to conduct se
 
 We offer Escrow Accounts for:
 
-- [Peer to Peer Lending](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/escrow/use-cases/p2p-lending.md): RazorpayX Escrow ensures trust between borrowers and lenders. It holds funds securely until both parties fulfill their commitments, creating a reliable financial handshake in the world of peer-to-peer loans.
-- [Co-Lending](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/escrow/use-cases/co-lending.md): Since this involves multiple parties, funds are held securely until all parties involved meet their obligations, fostering collaboration and confidence in the realm of digital and co-lending transactions.
+- [Peer to Peer Lending](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/escrow/use-cases/p2p-lending.md): RazorpayX Escrow ensures trust between borrowers and lenders. It holds funds securely until both parties fulfill their commitments, creating a reliable financial handshake in the world of peer-to-peer loans.
+- [Co-Lending](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/escrow/use-cases/co-lending.md): Since this involves multiple parties, funds are held securely until all parties involved meet their obligations, fostering collaboration and confidence in the realm of digital and co-lending transactions.
 
 [Connect with us](https://razorpay.com/x/escrow-accounts/) to understand Escrow Accounts for other use cases.
 

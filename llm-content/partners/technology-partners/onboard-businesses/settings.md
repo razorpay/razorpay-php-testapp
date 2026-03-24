@@ -24,8 +24,8 @@ To customise the theme and logo:
 
 4. Check the preview of the onboarding UI on the right (desktop and phone) and click **Save**.
 
-![Customise Onboarding Flow - Embedded Payments for Platforms & Marketplaces](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/platforms-and-marketplaces-customise-onboarding.jpg.md)
+![Customise Onboarding Flow - Embedded Payments for Platforms & Marketplaces](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/platforms-and-marketplaces-customise-onboarding.jpg.md)
 
 ## Related Information 
 
-- [Track Onboarding Status](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/status.md)
+- [Track Onboarding Status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/status.md)

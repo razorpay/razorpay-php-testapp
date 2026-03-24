@@ -124,7 +124,7 @@ Order order = client.Order.Fetch(orderId);
 : `integer` The amount pending against the order.
 
 `currency`
-: `string` ISO code for the currency in which you want to accept the payment. The default length is 3 characters. Refer to the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).  
+: `string` ISO code for the currency in which you want to accept the payment. The default length is 3 characters. Refer to the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).  
 
 `receipt`
 : `string` Receipt number that corresponds to this order. Can have a maximum length of 40 characters and has to be unique.

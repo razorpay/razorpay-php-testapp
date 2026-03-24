@@ -22,7 +22,7 @@ Know more about [payslips/salary slips](https://razorpay.com/payroll/learn/salar
 > 
 > **Available Now!**
 > 
-> Watch the video on to how to [check and download pay slips](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/video-tutorials/#check-payslips-and-form-16s-on-the-dashboard.md).
+> Watch the video on to how to [check and download pay slips](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/video-tutorials.md#check-payslips-and-form-16s-on-the-dashboard).
 > 
 
 ## Payslip Actions
@@ -41,7 +41,7 @@ The following payslip actions are available on the Payroll Dashboard.
             1. **Select financial year** from the drop-down menu. By default, the current financial year is selected. 
             1. Click the month to view the payslip for that month.
 
-                ![My Pay Slips click month on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-latest-payslips.jpg.md) 
+                ![My Pay Slips click month on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-latest-payslips.jpg.md) 
 
             This opens the payslip for the selected month. On the **Payslip** page, you can: 
             - Click **DOWNLOAD** at the bottom of the page to download the selected payslip.
@@ -70,7 +70,7 @@ The following payslip actions are available on the Payroll Dashboard.
             1. Log in to the Payroll Dashboard. 
             1. Navigate to **Tax Deductions** in the left menu.
             1. Click **View Payslip** in the right pane. 
-                ![View Payslip on the Razorpay Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-payslips.jpg.md)
+                ![View Payslip on the Razorpay Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-payslips.jpg.md)
 
             This opens the payslip preview for the current month. Click **VIEW DETAILS** at the bottom of the page to view the month-wise comparative view of the salary. 
         
@@ -91,7 +91,7 @@ To download your Form 16s for the previous financial year/current assessment yea
 1. Log in to the Payroll Dashboard. 
 1. Go to **My Pay Slips** in the left menu.
 1. In the right pane, click **Form 16**.
-    ![Download Form 16 on Razorpay Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-form-16.jpg.md)
+    ![Download Form 16 on Razorpay Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-form-16.jpg.md)
 
 This opens the Form 16 page, where you can download the document.  
 
@@ -118,7 +118,7 @@ To raise an advance salary request with your employer:
     1. Provide a reason for availing the advance. 
     1. Click **REQUEST ADVANCE**.
 
-    ![Request Salary Advance Razorpay Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-request-salary-advance.jpg.md)
+    ![Request Salary Advance Razorpay Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-request-salary-advance.jpg.md)
 
 This successfully creates an advance salary request. After approval, you can view your salary advance details in: 
 - **My profile** → **Advance Salary**. 
@@ -126,5 +126,5 @@ This successfully creates an advance salary request. After approval, you can vie
 
 ### Related Information
 
-- [IT Declarations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations.md)
-- [Employee Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees.md)
+- [IT Declarations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations.md)
+- [Employee Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md)

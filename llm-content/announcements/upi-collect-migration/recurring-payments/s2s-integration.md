@@ -20,7 +20,7 @@ UPI Collect will continue to be supported for:
 
 **Action Required**
 
-- If you are a new Razorpay user, use [UPI Intent](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/upi-intent.md).
+- If you are a new Razorpay user, use [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/upi-intent.md).
 - If you are an existing Razorpay user not covered by exemptions, you must migrate to UPI Intent or UPI QR code to continue accepting UPI payments if:      
     - You use Server-to-Server (S2S) API integration for UPI payments
     - Your API calls include `"flow": "collect"` parameter
@@ -40,7 +40,7 @@ Contact [Razorpay support](https://razorpay.com/support/) to enable UPI Intent f
 
          **Change Needed**
 
-         1. Update your API call to use UPI Intent flow instead of UPI Collect flow. Remove `vpa` and `expiry_time` parameters from the request body. Replace `collect` with `intent` as the value of the `upi.flow` parameter. Refer to the [UPI Intent guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-intent/authorization-transaction/#113-create-an-authorisation-payment.md) for further information.
+         1. Update your API call to use UPI Intent flow instead of UPI Collect flow. Remove `vpa` and `expiry_time` parameters from the request body. Replace `collect` with `intent` as the value of the `upi.flow` parameter. Refer to the [UPI Intent guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-intent/authorization-transaction.md#113-create-an-authorisation-payment) for further information.
 
             ```curl: Replace UPI Collect with Intent
             curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
@@ -76,7 +76,7 @@ Contact [Razorpay support](https://razorpay.com/support/) to enable UPI Intent f
             }
             ```
 
-         3. Use [webhooks to get payment status updates](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments.md).
+         3. Use [webhooks to get payment status updates](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md).
         
 
     
@@ -122,10 +122,10 @@ Contact [Razorpay support](https://razorpay.com/support/) to enable UPI Intent f
             }
             ```
 
-         3. Use [webhooks to get payment status updates](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments.md).
+         3. Use [webhooks to get payment status updates](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md).
         
 
 ## Related Information
 
-- [UPI Payment Method](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi.md)
-- [Recurring Payments - UPI Autopay S2S Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-intent/authorization-transaction.md)
+- [UPI Payment Method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi.md)
+- [Recurring Payments - UPI Autopay S2S Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-intent/authorization-transaction.md)

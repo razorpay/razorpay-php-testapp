@@ -9,16 +9,16 @@ description: Steps to integrate Razorpay Turbo UPI with your app.
 
 Razorpay Turbo UPI enables businesses to offer faster and simpler payments by reducing the payment process from 5 steps to just 1, eliminating app redirections. This provides a seamless in-app payment experience, reduce dependencies on third-party UPI apps, and offers complete visibility into the payment journey.
 
-You can easily integrate Turbo UPI with the Razorpay Flutter Standard SDK. Explore the full potential of [Razorpay Turbo UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/turbo-upi.md) and learn how it works.
+You can easily integrate Turbo UPI with the Razorpay Flutter Standard SDK. Explore the full potential of [Razorpay Turbo UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/turbo-upi.md) and learn how it works.
 
-![Turbo UPI Standard Checkout Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-flow.jpg.md)
+![Turbo UPI Standard Checkout Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-flow.jpg.md)
 
         
 ### Prerequisites
 
                 1. Contact our [integrations team](mailto:integrations@razorpay.com) to get your mobile number, app, and GitHub account whitelisted for access to the `https://github.com/upi-turbo/razorpay-turbo-flutter` sample app repository.
                                                                          
-                2. Review the [Razorpay Flutter Standard SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/standard.md) documentation for integration guidelines.
+                2. Review the [Razorpay Flutter Standard SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/standard.md) documentation for integration guidelines.
 
                 3. Add Location Dependency: The SDK requires location permission to complete device onboarding. Ensure you have added the necessary location dependencies as described below.    
 
@@ -84,7 +84,7 @@ You can easily integrate Turbo UPI with the Razorpay Flutter Standard SDK. Explo
 
 ## Onboarding Flow
 
-Ensure your customers [onboard with Razorpay Turbo UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/turbo-upi/#onboarding-flow.md) to get started.
+Ensure your customers [onboard with Razorpay Turbo UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/turbo-upi.md#onboarding-flow) to get started.
 
 ## 1. Integration Steps
 
@@ -336,7 +336,7 @@ By following these steps, you can seamlessly link customer UPI accounts and hand
 
 Razorpay provides a single exposed function that allows you to manage linked UPI accounts and access all non-transactional flows seamlessly. 
 
-![View the non-transactional flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-non-transactional.jpg.md)
+![View the non-transactional flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-non-transactional.jpg.md)
 
         
 ### Manage UPI Accounts
@@ -410,7 +410,7 @@ The SDKs given below provide access to exposed models for seamless integration.
 
                  
 
-                 [Refer to the list of possible error reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/standard/payment-methods/turbo-upi/error-codes.md).
+                 [Refer to the list of possible error reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/standard/payment-methods/turbo-upi/error-codes.md).
                 
 
         

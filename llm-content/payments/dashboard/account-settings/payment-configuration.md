@@ -18,7 +18,7 @@ This enhances the user experience, improves discoverability and boosts conversio
 > 
 > **Handy Tips**
 > 
-> - You can hide, show, create custom blocks and rearrange payment methods and instruments as required, but you cannot enable or disable them from this setting. Know more about how to [enable/disable payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-methods/#enable-payment-methods.md).
+> - You can hide, show, create custom blocks and rearrange payment methods and instruments as required, but you cannot enable or disable them from this setting. Know more about how to [enable/disable payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-methods.md#enable-payment-methods).
 > - You can switch between mobile and desktop views to preview changes.
 > 
 
@@ -27,7 +27,7 @@ This enhances the user experience, improves discoverability and boosts conversio
 To view Razorpay's default payment configuration:
 1. Navigate to **Accounts & Settings** → **Payment Configuration** under **Checkout settings** section. 
 2. Click **View** against the **Standard Payment Options** section. This setting is read-only and cannot be edited. 
-![Navigate to payment config and view the standard payment options](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/editor-view-std.gif.md)
+![Navigate to payment config and view the standard payment options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/editor-view-std.gif.md)
 
 ## Configure Payment Options
 
@@ -42,9 +42,9 @@ Follow these steps to configure your payment options:
              You can customise the payment options to display only the methods you want your customers to see, instead of Razorpay's default configuration.
              1. Click **Create a custom payment configuration**.
              2. Enter the **Configuration name** and click **Save**. 
-                 ![Create custom config on Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/editor-custom-config.gif.md)
+                 ![Create custom config on Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/editor-custom-config.gif.md)
              3. By default, all payment methods available on your account are enabled. You can show or hide payment methods as needed. Additionally, you can rearrange them in your preferred order by dragging and dropping, based on customer preferences, success rates, or usage frequency. 
-                 ![Hide/Show and Rearrange Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/editor-hide-rearrange.gif.md)
+                 ![Hide/Show and Rearrange Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/editor-hide-rearrange.gif.md)
              4. Click **Save all changes**.
             
 
@@ -57,16 +57,16 @@ Follow these steps to configure your payment options:
              3. Click **+ Add a single payment instrument** to highlight a specific instrument.
              4. Select a payment method from the drop-down and choose a payment instrument. 
              5. Click **Save**. 
-                 ![Create Custom Blocks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/editor-custom-block.gif.md)
+                 ![Create Custom Blocks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/editor-custom-block.gif.md)
              6. You can further customise the following payment methods. Select a payment method:
                  
                     
                         Show/hide UPI QR Code, UPI Apps and UPI ID/Number.
-                        ![Configure UPI payment option](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/editor-customise-upi.gif.md)
+                        ![Configure UPI payment option](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/editor-customise-upi.gif.md)
                     
                     
                         Show/hide specific banks.
-                        ![Configure Netbanking payment option](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/editor-customise-netbanking.gif.md)
+                        ![Configure Netbanking payment option](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/editor-customise-netbanking.gif.md)
                     
                     
                         Configure card payment options based on:
@@ -74,7 +74,7 @@ Follow these steps to configure your payment options:
                         - **Card Provider**: Choose from available card networks.
                         - **Card Issuer**: Select specific issuers.
                         - **BIN Number**: Add one or multiple BINs (first 6-8 digits of a card number) to filter eligible cards. The system validates and saves the BINs, ensuring only specified cards are allowed for transactions.
-                        ![Configure card payment options](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/editor-customise-card.gif.md)
+                        ![Configure card payment options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/editor-customise-card.gif.md)
                     
                     
                         Configure EMI payment options based on:
@@ -82,23 +82,23 @@ Follow these steps to configure your payment options:
                         - **Card Provider**: Select the EMI card networks from the list.
                         - **Card Issuer**: Select the card issuer from the list.
                         - **BIN Number**: Add one or multiple BINs (first 6-8 digits of a card number) to filter eligible cards. The system validates and saves the BINs, ensuring only the specified cards are eligible for EMI plans.
-                        ![Configure EMI payment options](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/editor-customise-emi.gif.md)
+                        ![Configure EMI payment options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/editor-customise-emi.gif.md)
                     
                     
                         Show/hide various providers of wallets.
-                        ![Configure wallet payment option](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/editor-customise-wallet.gif.md)
+                        ![Configure wallet payment option](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/editor-customise-wallet.gif.md)
                     
                     
                         Show/hide various providers of pay later.
-                        ![Configure pay later payment option](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/editor-customise-pay-later.gif.md)
+                        ![Configure pay later payment option](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/editor-customise-pay-later.gif.md)
                     
                     
                      Show/hide cash on delivery.
-                    ![Configure COD payment option](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/editor-customise-cod.jpg.md)
+                    ![Configure COD payment option](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/editor-customise-cod.jpg.md)
                     
                 
              7. Click **Save all changes**. If you have multiple custom blocks, drag and drop them to rearrange them in your preferred order. 
-                 ![Rearrange multiple custom blocks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/editor-rearrange-custom-blocks.gif.md)
+                 ![Rearrange multiple custom blocks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/editor-rearrange-custom-blocks.gif.md)
                 
                  
 > **WARN**
@@ -119,7 +119,7 @@ If needed, you can save a configuration as the default, which displays the payme
 
 1. Identify the configuration you want to set as default and click on the options icon → **Save as Default**. Click **Save all changes**. 
 2. Once saved, this configuration will be displayed to your customers at checkout.
-    ![Save configuration as default](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/editor-set-default.gif.md)
+    ![Save configuration as default](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/editor-set-default.gif.md)
 3. All the changes will reflect on the **Checkout** page, **Invoices**, **Payment Button**,   **Webstore**, **Payment Links** and **Payment Pages**.
 4. Share the Configuration ID with your developer to integrate this setup. You can also define conditions for displaying this configuration to a particular set of customers by using the Configuration ID.
 
@@ -128,7 +128,7 @@ If needed, you can save a configuration as the default, which displays the payme
 By default, the checkout displays payment options in the following order:
 
   
-   ![Payment options order on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/editor-sample-config.jpg.md)
+   ![Payment options order on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/editor-sample-config.jpg.md)
   
 
   

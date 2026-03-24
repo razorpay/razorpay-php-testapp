@@ -26,10 +26,10 @@ To create the trigger:
 >     
 
 2. Select **Zaps** from the dropdown menu to create a new automated workflow.
-    ![Create and Zap](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/create-zap.jpg.md)
+    ![Create and Zap](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/create-zap.jpg.md)
 
 3. Name your Zap as per your preference by clicking on **Untitled Zap** at the top of the editor and selecting **Rename**.
-    ![Rename zap](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rename-zap.jpg.md)
+    ![Rename zap](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rename-zap.jpg.md)
 
 4. Click **Trigger** step box to configure the trigger event.
 
@@ -43,10 +43,10 @@ To create the trigger:
 >     Webhooks by Zapier is a Premium feature. Ensure your Zapier plan supports Premium apps.
 >     
 
-    ![select webhooks by zapier](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/zap-webhook-premium.jpg.md)
+    ![select webhooks by zapier](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/zap-webhook-premium.jpg.md)
 
 6. Choose **Catch Hook** as the Trigger Event from the available options and click **Continue** to proceed with the setup.
-    ![select catch hook on trigger](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/trigger-catchhook.jpg.md)
+    ![select catch hook on trigger](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/trigger-catchhook.jpg.md)
 
 7. (Optional) Configure the **Pick off a Child Key** field if you want Zapier to extract only a specific key from the webhook payload. Leave this blank to receive the entire payload.
     
@@ -60,18 +60,18 @@ To create the trigger:
 
 8. Click **Continue** to proceed to the Test step.
 
-9. Zapier generates a **Custom Webhook URL**. Copy and save this URL for later use. You will need this URL while creating the [Razorpay Webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md).
+9. Zapier generates a **Custom Webhook URL**. Copy and save this URL for later use. You will need this URL while creating the [Razorpay Webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md).
     
 > **INFO**
 >
 > 
 >     **Important**
 > 
->     Configure your Razorpay Dashboard to send the `payment.captured` webhook to this Zapier URL. Refer to [Razorpay Webhook Setup](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md) for detailed instructions.
+>     Configure your Razorpay Dashboard to send the `payment.captured` webhook to this Zapier URL. Refer to [Razorpay Webhook Setup](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md) for detailed instructions.
 >     
 
 10. Click **Test trigger** to verify the webhook connection. Once a test payment is captured, Zapier will display the received data.
-    ![Test Trigger](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/test-trigger.jpg.md)
+    ![Test Trigger](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/test-trigger.jpg.md)
 
 ### Action
 
@@ -82,19 +82,19 @@ To set up the action:
 2. Search for and select **Webhooks by Zapier** again from the app selection panel.
 
 3. Choose **Custom Request** as the **Action Event** and click **Continue**.
-    ![Action select custom request](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/custom-request-action.jpg.md)
+    ![Action select custom request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/custom-request-action.jpg.md)
 
 4. Configure the Custom Request to **Find Member**:
 
     Follow the steps in Zapier to fetch the customer email from Ghost. Here, you pass the customer email from Razorpay Webhook to check if it exists in your Ghost database.
-        ![configure custom request](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/configure-custom-request.jpg.md)
+        ![configure custom request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/configure-custom-request.jpg.md)
 
     - **Method**: Select `GET` from the dropdown options (GET, PUT, POST, PATCH and DELETE).
     - **URL**: Your Ghost Admin API URL. Replace `email` with the email field from your Razorpay webhook data (for example, `payload__payment__entity__email`). 
       URL example: `https://your-ghost-site.com/ghost/api/admin/members/?search=test@example.com`
     - **Data Pass-Through?**: Select `True`.
     - **Headers**:
-        - Authorisation: Ghost-Admin. Replace `your_admin_api_key` with the Ghost Admin API credentials you got while [setting up Ghost](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/ghost-integration/#integration-steps.md) (refer #3 under Integrations).
+        - Authorisation: Ghost-Admin. Replace `your_admin_api_key` with the Ghost Admin API credentials you got while [setting up Ghost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/ghost-integration.md#integration-steps) (refer #3 under Integrations).
         - Content-Type: application/json
         - Accept-Version: v6.0 (or v5.0 depending on your Ghost version)
     - **Data**: Enter the JSON structure as shown below:
@@ -135,7 +135,7 @@ To set up the action:
                 - Method: `PUT`
                 - URL: Your Ghost Admin API URL. Get the id from the **Find Member** step's output (for example, `members__0__id`). URL example: `https://your-ghost-site.com/ghost/api/admin/members/60f7e6f0a0b0c0d0e0f0g0h0`
                 - Headers: 
-                    - Authorisation: Ghost-Admin. Replace `your_admin_api_key` with the Ghost Admin API credentials you got while [setting up Ghost](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/ghost-integration/#integration-steps.md) (refer #3 under [Integrations](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/ghost-integration/#integration-steps.md)).
+                    - Authorisation: Ghost-Admin. Replace `your_admin_api_key` with the Ghost Admin API credentials you got while [setting up Ghost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/ghost-integration.md#integration-steps) (refer #3 under [Integrations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/ghost-integration.md#integration-steps)).
                 - Data Pass-Through: Yes
                 - Data: As given below:
 
@@ -170,7 +170,7 @@ To set up the action:
                 - Method: `POST`
                 - URL: Your Ghost Admin API URL + /members/
                 - Headers:
-                    - Authorisation: Ghost-Admin. Replace `your_admin_api_key` with the Ghost Admin API credentials you got while [setting up Ghost](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/ghost-integration/#integration-steps.md) (refer #3 under [Integrations](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/ghost-integration/#integration-steps.md)).
+                    - Authorisation: Ghost-Admin. Replace `your_admin_api_key` with the Ghost Admin API credentials you got while [setting up Ghost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/ghost-integration.md#integration-steps) (refer #3 under [Integrations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/ghost-integration.md#integration-steps)).
                 - Data Pass-Through: Yes
                 - Data: As given below:
                     
@@ -200,7 +200,7 @@ To set up the action:
 
 ### Related Information
 
-- [Ghost Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/ghost-integration.md)
-- [Integrate a Payment Button with Ghost](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/ghost-integration/add-payment-button.md)
-- [Razorpay Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button.md)
-- [Razorpay Webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md)
+- [Ghost Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/ghost-integration.md)
+- [Integrate a Payment Button with Ghost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/ghost-integration/add-payment-button.md)
+- [Razorpay Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button.md)
+- [Razorpay Webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)

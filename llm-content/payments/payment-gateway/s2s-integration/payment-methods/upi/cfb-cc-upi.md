@@ -22,9 +22,9 @@ Customer Fee Bearer (CFB) on Credit Card on UPI is a payment feature that allows
 
 - This feature is available on the Axis Switch gateway only.
 - Integrate with Server-to-Server (S2S) integration:
-  - [S2S JSON V2 (Latest)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2.md)
-  - [S2S JSON V1](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v1.md)
-  - [S2S Redirect](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/redirect.md)
+  - [S2S JSON V2 (Latest)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2.md)
+  - [S2S JSON V1](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v1.md)
+  - [S2S Redirect](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/redirect.md)
 - This feature is **not** available on UPI Collect method (NPCI restriction).
 - Certain business categories are restricted as per NPCI guidelines. The following MCC codes cannot accept credit card payments on UPI:
 
@@ -259,7 +259,7 @@ Use the Calculate Fee API response to show customers:
 
 The fee breakdown must be displayed transparently before the customer confirms payment.
 
-![CFB on CC on UPI fee breakdown](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cfb-cc-upi-fee.jpg.md)
+![CFB on CC on UPI fee breakdown](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cfb-cc-upi-fee.jpg.md)
 
 ### Step 4: Process Payment
 
@@ -328,7 +328,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 : `integer` (**CFB feature only**) The fee amount obtained from the calculate fee API response in the smallest currency unit. For example, `1` for ₹0.01 fee on regular UPI or `236` for ₹2.36 fee on credit card on UPI.
 
 `order_id` _mandatory_
-: `string` Unique identifier of the order created using the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md).
+: `string` Unique identifier of the order created using the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md).
 
 `upi` _mandatory_
 : `object` Additional fields to accept UPI payments.
@@ -396,7 +396,7 @@ You will receive the payments in your bank account as per the settlement cycle a
 - **Tax**: Applicable taxes.
 - **CFB**: When enabled, `Order amount + fees = debit amount`.
 
-Refer to the [Settlement APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/apis.md).
+Refer to the [Settlement APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/apis.md).
 
 ## Frequently Asked Questions (FAQs)
 

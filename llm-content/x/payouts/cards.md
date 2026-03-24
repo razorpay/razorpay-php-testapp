@@ -16,12 +16,12 @@ Payouts via IMPS, NEFT, and UPI are supported on both RazorpayX Lite and Current
   
 ### Payouts to Tokenised Cards
 
-     [Tokenisation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor-with-network-tokens.md) is the process by which the original card number / Primary Account Number is replaced with a surrogate value called a `token`. According to the recent RBI guidelines, Payment Aggregators (PA)/ Payment Gateway (PG) and businesses cannot save their customers' card numbers and other card data on their servers. Hence, you can save card numbers and make payouts to it only by creating tokens. 
+     [Tokenisation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor-with-network-tokens.md) is the process by which the original card number / Primary Account Number is replaced with a surrogate value called a `token`. According to the recent RBI guidelines, Payment Aggregators (PA)/ Payment Gateway (PG) and businesses cannot save their customers' card numbers and other card data on their servers. Hence, you can save card numbers and make payouts to it only by creating tokens. 
 
      You can create tokens using:
 
-     - [External Tokenization Providers](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts-cards/create/save-card/external-token/payout.md)
-     - [Razorpay TokenHQ](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts-cards/create/save-card/razorpay-tokenhq/payout.md)
+     - [External Tokenization Providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts-cards/create/save-card/external-token/payout.md)
+     - [Razorpay TokenHQ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts-cards/create/save-card/razorpay-tokenhq/payout.md)
 
      
 > **WARN**
@@ -58,7 +58,7 @@ Create a payout to a card | ✓ | x | x
 View payout details | ✓ | ✓ | x
 ---
 
-Know more about [creating payouts to cards using APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts-cards.md).
+Know more about [creating payouts to cards using APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts-cards.md).
 
 ## Supported Networks and Banks
 
@@ -217,6 +217,6 @@ Credit
 
 ### Related Information
 
-- [About Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts.md)
-- [Payout Status Details](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md)
-- [Payout Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/best-practices.md)
+- [About Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md)
+- [Payout Status Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md)
+- [Payout Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/best-practices.md)

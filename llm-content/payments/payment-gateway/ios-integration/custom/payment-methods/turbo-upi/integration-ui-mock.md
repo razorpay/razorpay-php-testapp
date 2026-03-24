@@ -24,7 +24,7 @@ Mock SDK is a tool designed to facilitate your integration with Turbo UPI. Unlik
              - In this repository, you will find the framework files (libraries for Turbo) and the sample app source code to help you with the integration.
              - Use branch `custom_ui/turbo_ui` to access the sample app and frameworks for Turbo UPI. The sample app workspace is divided into Prod, UAT and Mock environment targets with separate pod dependencies.
 
-         2. Integrate with the [Razorpay iOS Custom SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/build-integration.md).
+         2. Integrate with the [Razorpay iOS Custom SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/build-integration.md).
 
          3. Add the below line of code to your the `Podfile`, to install Turbo pods:
 
@@ -51,14 +51,14 @@ Mock SDK is a tool designed to facilitate your integration with Turbo UPI. Unlik
 >          - API Key Usage for Different Environments:
 >              - Use the `rzp_test_0wFRWIZnH65uny` API key id for testing on the UAT environment.
 >              - Use the `rzp_test_vacN5cmVqNIlhO` API key id for testing on the Mock environment.
->              - Use the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+>              - Use the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.
 >          
 
        
 
 ## 1. Integration Steps
 
-Follow these steps to integrate with [Turbo UPI with UI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/integrate-ui/#1-integration-steps.md).
+Follow these steps to integrate with [Turbo UPI with UI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/integrate-ui.md#1-integration-steps).
 
 ## 2. Test Integration
 
@@ -354,7 +354,7 @@ Given are the various test cases and their sequential steps.
                         Payments Successful
                         
                          When it comes to transactional scenarios, with a focus on ensuring a successful payment, follow these steps:
-                         1. Begin by following the [integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/integrate-ui/#1-integration-steps.md), specifically the `submit` method.
+                         1. Begin by following the [integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/integrate-ui.md#1-integration-steps), specifically the `submit` method.
                          2. Enter an amount that is lower than the account balance.
                          3. Enter the correct PIN, on the Mock NPCI screen.
                          4. Subsequently, you will receive a callback on `onPaymentSuccess`. This indicates that the payment has been successfully processed.  
@@ -374,7 +374,7 @@ Given are the various test cases and their sequential steps.
 ### Invalid PIN
 
                          In situations where an invalid PIN is entered, follow these steps:
-                         1. Begin by following the [integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/integrate-ui/#1-integration-steps.md), specifically the `submit` method.
+                         1. Begin by following the [integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/integrate-ui.md#1-integration-steps), specifically the `submit` method.
                          2. Enter an amount lower than the account balance mentioned in [Test Data](#21-test-data).  
                          3. Enter the incorrect PIN, on the Mock NPCI screen.
                          4. Subsequently, you will receive a callback on `onPaymentError`. This indicates that an error occurred during the payment process due to the invalid PIN.
@@ -384,7 +384,7 @@ Given are the various test cases and their sequential steps.
 ### Timeout
 
                          When dealing with transactional scenarios, specifically focusing on handling timeouts, follow these steps:
-                         1. Begin by following the [integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/integrate-ui/#1-integration-steps.md), specifically the `submit` method.
+                         1. Begin by following the [integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/integrate-ui.md#1-integration-steps), specifically the `submit` method.
                          2. Enter the amount as 24.
                          3. Enter the correct PIN, on the Mock NPCI screen.
                          4. Subsequently, you will receive a callback on `onPaymentError`. This indicates that an error occurred during the payment process due to a timeout.
@@ -394,7 +394,7 @@ Given are the various test cases and their sequential steps.
 ### Insufficient Balance
 
                          When it comes to transactional scenarios with a focus on handling insufficient balance, follow these steps:
-                         1. Begin by following the [integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/integrate-ui/#1-integration-steps.md), specifically the `submit` method.
+                         1. Begin by following the [integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/integrate-ui.md#1-integration-steps), specifically the `submit` method.
                          2. Enter an amount greater than the account balance as mentioned in [Test Data](#21-test-data).
                          3. Enter the correct PIN, on the Mock NPCI screen.
                          4. Subsequently, you will receive a callback on `onPaymentError`. This indicates that an error occurred during the payment process due to insufficient balance.  
@@ -526,4 +526,4 @@ Pay | Amount = ₹24 | 91 | Timeout
 
 ## 3. Go-live Checklist
 
-Complete this [Go-live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/integrate-ui/#3-go-live-checklist.md) to take your integration live.
+Complete this [Go-live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi/integrate-ui.md#3-go-live-checklist) to take your integration live.

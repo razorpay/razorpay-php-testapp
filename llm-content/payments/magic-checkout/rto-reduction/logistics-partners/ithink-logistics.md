@@ -15,9 +15,9 @@ iThink logistics is a third-party logistics service provider that makes your eco
 
          1. Log in to the [iThink Logistics Dashboard](https://my.ithinklogistics.com/login) and hover over the settings icon on the bottom left. 
          2. Click **API Key**.
-             ![Navigate to API keys section on the iThink logistics Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-logistics-ithink.jpg.md)
+             ![Navigate to API keys section on the iThink logistics Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-logistics-ithink.jpg.md)
          3. Copy the **API Key** and **Secret Key**.
-             ![Copy the API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-logistics-ithink-keys.jpg.md)
+             ![Copy the API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-logistics-ithink-keys.jpg.md)
         
 
     
@@ -27,9 +27,9 @@ iThink logistics is a third-party logistics service provider that makes your eco
          2. Select the platform of your e-commerce website, enter the relevant details and click **Next**.
          3. In the **RTO Reduction Setup** section, navigate to the → **Delivery Tracking** tab. 
          4. Click **Connect** next to **iThink Logistics**.
-             ![Connect Magic Checkout with iThink Logistics](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-logistics-connect.jpg.md)
+             ![Connect Magic Checkout with iThink Logistics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-logistics-connect.jpg.md)
          5. Paste the **API Key** and **Secret Key** copied from the iThink Logistics Dashboard. 
          6. Click **Connect to iThink Logistics**.
-             ![Paste the API Keys on the Razorpay Dashboard and connect](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-logistics-ithink-creds.jpg.md)
+             ![Paste the API Keys on the Razorpay Dashboard and connect](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-logistics-ithink-creds.jpg.md)
 
          You have successfully integrated Magic Checkout with iThink Logistics. In case you want to disconnect iThink Logistics, click **Disconnect**.

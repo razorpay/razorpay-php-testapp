@@ -36,37 +36,37 @@ Explore the quick links as available on the Payroll Dashboard.
             - Custom salary structure for the organisation.
             - Custom salary structure for a specific employee.
         
-            Know more about [Custom Salary Structure](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary/#custom-salary-structure.md).
+            Know more about [Custom Salary Structure](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md#custom-salary-structure).
         
 
     
 ### Are there any best practices to note before I execute payroll?
 
-         You can refer to the [Execute Payroll checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/execute-payroll.md).
+         You can refer to the [Execute Payroll checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/execute-payroll.md).
         
 
     
 ### How can I make one-time payments?
 
-         Refer to the steps on how to create [one-time payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/one-time-payments/#make-one-time-payments.md).
+         Refer to the steps on how to create [one-time payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/one-time-payments.md#make-one-time-payments).
         
 
     
 ### Can I revise salaries in bulk?
 
-         Yes, you can [bulk revise salaries](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#revise-salary.md) on the Payroll Dashboard.
+         Yes, you can [bulk revise salaries](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#revise-salary) on the Payroll Dashboard.
         
 
     
 ### How do I upload additions, deductions and Loss of Pay in bulk?
 
-         You can use the [bulk upload](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#bulk-upload.md) feature to pay and deduct additions, deductions and loss of pay.
+         You can use the [bulk upload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#bulk-upload) feature to pay and deduct additions, deductions and loss of pay.
         
 
     
 ### When will Payroll pay my ESIC/PT/PF/TDS dues?
 
-         You can refer to the [Compliance payments due dates](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance/#payment-due-dates.md).
+         You can refer to the [Compliance payments due dates](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md#payment-due-dates).
         
 
 ## Account & Settings 
@@ -74,19 +74,19 @@ Explore the quick links as available on the Payroll Dashboard.
     
 ### 1. Why was my Payroll account deactivated?
 
-         Your account may be deactivated due to inactivity for an extended period. We hibernate your account if you have not used Payroll to [finalise and execute payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll.md) for an extended period of time.
+         Your account may be deactivated due to inactivity for an extended period. We hibernate your account if you have not used Payroll to [finalise and execute payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md) for an extended period of time.
         
 
     
 ### 2. Can I reactivate my Payroll account?
 
-         Yes, you can reactivate your Payroll account. [Contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/plans/#contact-support.md) with the reason for your inactivity and the plan for future Payroll usage to reactivate.
+         Yes, you can reactivate your Payroll account. [Contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/plans.md#contact-support) with the reason for your inactivity and the plan for future Payroll usage to reactivate.
         
 
         
 ### 3. Is it mandatory to use the core payroll module in Payroll?
 
-         Yes, it is mandatory. You can use other payroll modules such as Leave and Attendance, Resignation, Bonus and more in addition to the core payroll module. Core payroll includes finalising and executing payroll. Know more about [Executing Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll.md).
+         Yes, it is mandatory. You can use other payroll modules such as Leave and Attendance, Resignation, Bonus and more in addition to the core payroll module. Core payroll includes finalising and executing payroll. Know more about [Executing Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md).
         
 
         
@@ -102,15 +102,15 @@ Explore the quick links as available on the Payroll Dashboard.
          
          For example, you can create a user role: `Human Resource`, configure permissions for the user role and assign it to employees. The assigned employee/s start to have access to the permitted Payroll modules.
          
-         Know how to [create, edit and manage user roles](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/user-roles-workflows.md). Navigate to **Settings** → **User Roles** on the Dashboard.
+         Know how to [create, edit and manage user roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/user-roles-workflows.md). Navigate to **Settings** → **User Roles** on the Dashboard.
         
 
     
 ### 6. How can I create approval workflows for one-time payments and reimbursements?
 
-         Currently, you cannot create approval workflows for one-time payments and reimbursements. You can check the [available approval workflows](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/approval-workflow/#available-workflows.md).
+         Currently, you cannot create approval workflows for one-time payments and reimbursements. You can check the [available approval workflows](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/approval-workflow.md#available-workflows).
          
-         You can instead [create user roles](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/user-roles-workflows.md) and assign it to your team members.
+         You can instead [create user roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/user-roles-workflows.md) and assign it to your team members.
         
 
 ## Payroll Payouts 
@@ -121,7 +121,7 @@ Explore the quick links as available on the Payroll Dashboard.
          
          If your payment status shows `In Progress`, it means that Payroll is awaiting payment confirmation status from the bank.
 
-         Please wait for confirmation from the bank. You can also check the status in the **Ledger** on the Payroll Dashboard. Know more about the [payment status](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts/#check-payment-status.md) and the [Payout modes and TAT](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/#payout-modes-and-tat.md). 
+         Please wait for confirmation from the bank. You can also check the status in the **Ledger** on the Payroll Dashboard. Know more about the [payment status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md#check-payment-status) and the [Payout modes and TAT](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#payout-modes-and-tat). 
         
 
     
@@ -129,31 +129,31 @@ Explore the quick links as available on the Payroll Dashboard.
 
          If your payouts are processed successfully, yet the amount is not credited, please wait for 3 days for the payment to reflect in the employees' accounts.  
 
-         You can retry the payment from **Reports** → **Ledger** on the Payroll Dashboard after 3 days. Know more about [Payment Statuses](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts/#no-credit-after-payment-success.md). 
+         You can retry the payment from **Reports** → **Ledger** on the Payroll Dashboard after 3 days. Know more about [Payment Statuses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md#no-credit-after-payment-success). 
         
 
     
 ### 3. How long does Payroll take to process payments? By when should we prepare the monthly payroll for execution?
 
-         Refer to the [fund credit timelines](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts/#fund-credit-timelines.md) to understand how long Payroll takes to process salary payments. You can also check the [Payment Statuses](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts/#no-credit-after-payment-success.md). 
+         Refer to the [fund credit timelines](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md#fund-credit-timelines) to understand how long Payroll takes to process salary payments. You can also check the [Payment Statuses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md#no-credit-after-payment-success). 
 
-         Payroll automates the monthly payroll calculations, so you need not manually prepare the monthly payroll. However, we recommend you execute payroll before the [Payroll due dates](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/execute-payroll/#5-check-due-dates.md). 
+         Payroll automates the monthly payroll calculations, so you need not manually prepare the monthly payroll. However, we recommend you execute payroll before the [Payroll due dates](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/execute-payroll.md#5-check-due-dates). 
         
 
     
 ### 4. Can we reverse salary payments after execution?
 
-         No, it is not possible to reverse salary payments after you execute payroll. Know why we restrict [payroll modification](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/exceptional-cases/#modify-salary-after-payroll-is-executed.md) after execution.
+         No, it is not possible to reverse salary payments after you execute payroll. Know why we restrict [payroll modification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/exceptional-cases.md#modify-salary-after-payroll-is-executed) after execution.
 
-         You can instead add arrears or create deductions in the upcoming payroll activity. Know more about [payroll additions and deductions](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#additions-and-deductions.md).
+         You can instead add arrears or create deductions in the upcoming payroll activity. Know more about [payroll additions and deductions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#additions-and-deductions).
 
-         Ensure you follow the [Execute Payroll checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/execute-payroll.md) before executing payroll for employees.
+         Ensure you follow the [Execute Payroll checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/execute-payroll.md) before executing payroll for employees.
         
 
     
 ### 5. How long does it take for employees to receive their salary post execution?
 
-         It takes up to 8 hours for salaries to reflect in the employees' bank accounts. Know more about [fund credit timelines](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts/#fund-credit-timelines.md). 
+         It takes up to 8 hours for salaries to reflect in the employees' bank accounts. Know more about [fund credit timelines](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md#fund-credit-timelines). 
         
 
     
@@ -164,7 +164,7 @@ Explore the quick links as available on the Payroll Dashboard.
 
 ### Fund Loading, Transfer, Account Balance
 
-Transferring funds to your Payroll account updates your Payroll balance. Know more about [fund transfer and payroll payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts/#transfer-funds.md) in Payroll.
+Transferring funds to your Payroll account updates your Payroll balance. Know more about [fund transfer and payroll payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md#transfer-funds) in Payroll.
 
     
 ### 1. When will Payroll update my account balance after I transfer funds?
@@ -182,7 +182,7 @@ Transferring funds to your Payroll account updates your Payroll balance. Know mo
          - You transferred funds from a non-whitelisted bank account source. Fund transfer is only possible via validated accounts. 
          - Your bank account details could be incorrect.
 
-         Know more about [fund transfer failure](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts/#funds-not-updated.md). 
+         Know more about [fund transfer failure](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md#funds-not-updated). 
 
          To resolve this, retry the payment using the steps mailed to your registered email address.
         
@@ -200,7 +200,7 @@ Transferring funds to your Payroll account updates your Payroll balance. Know mo
 
          While IMPS works on all days of the week, we highly recommend that you do not process employees' salaries on non-working days or banking holidays to reduce the risk of delayed payments. 
          
-         Know more about [payroll payout modes](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts/#modify-default-payout-mode.md).
+         Know more about [payroll payout modes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md#modify-default-payout-mode).
         
 
     
@@ -215,9 +215,9 @@ Transferring funds to your Payroll account updates your Payroll balance. Know mo
          It is possible you encounter errors while transferring funds from your personal/corporate Axis account to Payroll's Axis account. Follow the given steps to troubleshoot:
             1. On this Axis netbanking portal: 
                 - Select **Other Bank Payees** instead of **Axis Payees** if you use Axis Bank's Corporate Banking portal. 
-                    ![Axis corp banking Payroll fund transfer resolution](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-axis-crbanking-fix.jpg.md)
+                    ![Axis corp banking Payroll fund transfer resolution](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-axis-crbanking-fix.jpg.md)
                 - Select **Other Bank** under **Payee** if you use Axis Bank's Retail Banking portal.  
-                    ![Axis retail banking Payroll fund transfer resolution](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-axis-retailbanking-fix.jpg.md)
+                    ![Axis retail banking Payroll fund transfer resolution](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-axis-retailbanking-fix.jpg.md)
 
                     
 > **WARN**
@@ -229,7 +229,7 @@ Transferring funds to your Payroll account updates your Payroll balance. Know mo
 >                     
 
                     
-            1. Enter the account number and IFSC available on the **Money Transfer** page to add funds. You can transfer the funds to your Axis account between 1:30 am-9:30 pm. Know more about [fund transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts/#transfer-funds.md).
+            1. Enter the account number and IFSC available on the **Money Transfer** page to add funds. You can transfer the funds to your Axis account between 1:30 am-9:30 pm. Know more about [fund transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md#transfer-funds).
         
 
 ## Compliance Payments 
@@ -258,11 +258,11 @@ Following are the frequently asked questions about compliance payments.
             1. Clear the relevant check boxes in the **Compliance Payments Settings** section.
 
                 Due to [PF 2FA](#pf-payments) applicability, Provident Fund (PF) is automatically cleared.
-                ![Compliance Payments Setting section Clear checkboxes Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-compliance-settings-disable.jpg.md)
+                ![Compliance Payments Setting section Clear checkboxes Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-compliance-settings-disable.jpg.md)
 
             You have successfully disabled Payroll's automatic deduction of compliance payments. 
             
-            Ensure you make the compliance payments externally with the respective departments [on time](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance/#payment-due-dates.md) to avoid government notices and penalties.
+            Ensure you make the compliance payments externally with the respective departments [on time](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md#payment-due-dates) to avoid government notices and penalties.
         
 
     
@@ -274,7 +274,7 @@ Following are the frequently asked questions about compliance payments.
     
 ### 4. Why do compliance payments deductions appear in my employees' payslips even after I have disabled them on the Dashboard?
 
-         The compliances continue to appear on your employees' payslips as the payments are mandatory for employees. After disabling compliance settings, it is your responsibility to make the compliance payments [on time](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance/#payment-due-dates.md).
+         The compliances continue to appear on your employees' payslips as the payments are mandatory for employees. After disabling compliance settings, it is your responsibility to make the compliance payments [on time](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md#payment-due-dates).
         
 
 ### Professional Tax 
@@ -294,7 +294,7 @@ Following are the frequently asked questions about compliance payments.
     
 ### 3. Will Payroll continue to make TDS and ESIC payments?
 
-         Yes, TDS and ESIC payments are unaffected. Know more about the [compliance payments due dates](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance/#payment-due-dates.md). 
+         Yes, TDS and ESIC payments are unaffected. Know more about the [compliance payments due dates](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md#payment-due-dates). 
         
 
     
@@ -312,7 +312,7 @@ Following are the frequently asked questions about compliance payments.
          1. Click **Salary Register**.
          1. Use the **PT Location** filter to list the employees whose PT payments you must make. 
          1. Scroll horizontally against the employees' names to view the PT amounts.
-            ![Payroll Dashboard PT payments](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-professional-tax-update.jpg.md)
+            ![Payroll Dashboard PT payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-professional-tax-update.jpg.md)
          
          The amount mentioned in the **PT** column is the PT amount payable to the government.
         
@@ -326,13 +326,13 @@ Following are the frequently asked questions about compliance payments.
     
 ### 7. By when must I make the Professional Tax payments?
 
-         Ensure you make the pending PT payments to the Karnataka government by 20th of the month. Know more about the [compliance payments due dates](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance/#payment-due-dates.md).
+         Ensure you make the pending PT payments to the Karnataka government by 20th of the month. Know more about the [compliance payments due dates](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md#payment-due-dates).
         
 
     
 ### 8. How can I make the PT payments for my employees based in Karnataka?
 
-         You must [manually make PT payments for Karnataka-based employees](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/professional-tax/#pt-payment-for-karnataka-employees.md).
+         You must [manually make PT payments for Karnataka-based employees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/professional-tax.md#pt-payment-for-karnataka-employees).
         
 
 ### PF Payments
@@ -368,7 +368,7 @@ Following are the frequently asked questions about compliance payments.
 
          In such cases, the following are applicable: 
          - You can load ₹900 (multiplied by the total number of employees) into your Payroll wallet to process the monthly payroll. 
-         - You must remit the ₹100 to the EPFO (due to Payroll temporarily pausing automated PF payments). Follow the steps to [make PF Payments via EPFO](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/provident-fund/#make-pf-payments-on-epfo.md).
+         - You must remit the ₹100 to the EPFO (due to Payroll temporarily pausing automated PF payments). Follow the steps to [make PF Payments via EPFO](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/provident-fund.md#make-pf-payments-on-epfo).
          
          We maintain the above calculation to generate accurate payslips for your employees.
         
@@ -390,7 +390,7 @@ Following are the frequently asked questions about compliance payments.
          - PF ECR files are available on the Payroll Dashboard from the 5th of the following month. 
          - Navigate to **Run Payroll** and click **here** in the **Urgent: PF payment is pending** warning. 
 
-         Know how to [make Provident Fund payments via EPFO](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/provident-fund/#register-employees.md).
+         Know how to [make Provident Fund payments via EPFO](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/provident-fund.md#register-employees).
         
 
     
@@ -402,7 +402,7 @@ Following are the frequently asked questions about compliance payments.
     
 ### 6. Where can I download the PF ECR file?
 
-         You can download the PF ECR file from the [Payroll Dashboard](https://payroll.razorpay.com/run-payroll). Know more about making [PF payments on the EPFO portal](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/provident-fund/#1-download-pf-ecr-txt-file.md).
+         You can download the PF ECR file from the [Payroll Dashboard](https://payroll.razorpay.com/run-payroll). Know more about making [PF payments on the EPFO portal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/provident-fund.md#1-download-pf-ecr-txt-file).
         
 
 ### ESIC 
@@ -426,7 +426,7 @@ Following are the frequently asked questions about compliance payments.
          To view ESIC, PT, PF challans:
          1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard).
          1. Navigate to **ADMIN OPTIONS** → **Reports** → **Provident Fund, ESI & Professional Tax**.
-            ![Challans PF, PT, TDS, ESI on Razorpay Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-reports-challans.jpg.md)
+            ![Challans PF, PT, TDS, ESI on Razorpay Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-reports-challans.jpg.md)
          1. On the **Compliance Documents** page, click the attachments under the respective compliance columns to download them.
         
 
@@ -447,7 +447,7 @@ Following are the frequently asked questions about compliance payments.
 
          TDS challans could be unavilable due to incorrect IT credentials provided on the Payroll Dashboard. As a result, Payroll is unable to fetch the challans. 
 
-         To rectify, [update your Income Tax portal credentials](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/quickstart/#enable-compliances.md) on the Payroll Dashboard. 
+         To rectify, [update your Income Tax portal credentials](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/quickstart.md#enable-compliances) on the Payroll Dashboard. 
         
 
 ### TDS & charges
@@ -457,13 +457,13 @@ Following are the frequently asked questions about compliance payments.
 
          You need not pay TDS on Razorpay charges unless the charges are more than ₹30,000. If Razorpay charges are more than ₹30,000, you can deduct TDS using Payroll, or pay it manually. 
 
-         Know more about [TDS Charges](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tds/#tds-for-razorpay-charges .md).
+         Know more about [TDS Charges](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tds.md#tds-for-razorpay-charges ).
         
 
     
 ### 2. Will my TDS deduction increase if I pay bonus to my employees?
 
-         Yes, your TDS increases as providing a bonus is an addition to the employee's salary. Know how bonus on top of salary affects TDS and how [treats such additions](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tds/#tds-on-bonus.md).
+         Yes, your TDS increases as providing a bonus is an addition to the employee's salary. Know how bonus on top of salary affects TDS and how [treats such additions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tds.md#tds-on-bonus).
         
 
     
@@ -479,7 +479,7 @@ Following are the frequently asked questions about compliance payments.
     
 ### 1. When will my employees get the Form 16?
 
-         Employees receive their Form 16 after the end of the financial year, around June. Know more about [Form 16](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tds/#form-16-16a.md). 
+         Employees receive their Form 16 after the end of the financial year, around June. Know more about [Form 16](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tds.md#form-16-16a). 
         
 
     
@@ -498,7 +498,7 @@ Following are the frequently asked questions about compliance payments.
          - The Contractor's name and PAN. 
          - The quarter for which you need the Form 16A. 
 
-         However, you can request Form 16A only if you have used Payroll to pay your contractors and file 26Q returns. Know more about [Form 16A](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/tds/#tds-for-contractors.md).
+         However, you can request Form 16A only if you have used Payroll to pay your contractors and file 26Q returns. Know more about [Form 16A](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/tds.md#tds-for-contractors).
         
 
 ## Bonus
@@ -507,15 +507,15 @@ Following are the frequently asked questions about compliance payments.
 ### 1. How can I pay bonuses to my employees?
 
          There are three ways in which you can pay bonuses to your employees: 
-         - Use the [Bonus module](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/bonus.md). 
-         - Make [One-time payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/one-time-payments/#make-one-time-payments.md) for bonus payouts.
-         - Add bonus as an [addition](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#additions.md) to the monthly salary.
+         - Use the [Bonus module](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/bonus.md). 
+         - Make [One-time payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/one-time-payments.md#make-one-time-payments) for bonus payouts.
+         - Add bonus as an [addition](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#additions) to the monthly salary.
         
 
     
 ### 2. How can I pay an instant bonus to employees?
 
-         You can [make one-time payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/one-time-payments/#make-one-time-payments.md) to pay an instant bonus to your employees. 
+         You can [make one-time payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/one-time-payments.md#make-one-time-payments) to pay an instant bonus to your employees. 
         
 
     
@@ -523,14 +523,14 @@ Following are the frequently asked questions about compliance payments.
 
          The Bonus Type drop-down menu can be empty when you have not configured the types of bonuses applicable for your organisation. 
          
-         Ensure you [set up the bonus types](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/bonus/#setup-bonus-types.md) on the Payroll Dashboard before you create a bonus for an employee.
+         Ensure you [set up the bonus types](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/bonus.md#setup-bonus-types) on the Payroll Dashboard before you create a bonus for an employee.
         
 
     
 ### 4. Can I make bonus payments in bulk?
 
          Bulk bonus payments depend on whether the bonus payment has a clawback rule.
-         - If the bonus does not have a [clawback rule](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/bonus/#2-add-clawback-rule.md), you can use the [bulk additions template](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#bulk-upload.md).
+         - If the bonus does not have a [clawback rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/bonus.md#2-add-clawback-rule), you can use the [bulk additions template](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#bulk-upload).
          - If the bonus has a clawback rule, you cannot make bonus payments in bulk.
         
 
@@ -560,7 +560,7 @@ Following are the frequently asked questions about compliance payments.
 
             **TDS**
             
-            - TDS is [deducted on bonuses](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/faqs/#2-will-my-tds-deduction-increase-if-i.md) as per tax slabs, and it can increase the employee’s overall tax liability. 
+            - TDS is [deducted on bonuses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/faqs.md#2-will-my-tds-deduction-increase-if-i) as per tax slabs, and it can increase the employee’s overall tax liability. 
 
         
 
@@ -571,7 +571,7 @@ Following are the frequently asked questions about compliance payments.
 
          By default, Payroll automatically carries forward the unused paid time off (PTOs) to the next financial year. 
 
-         To modify or remove carrying unused leaves forward to the next year, refer to the [Leave Setup Steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/leaves/#configure-leave-setup.md) and configure it to 0/none. 
+         To modify or remove carrying unused leaves forward to the next year, refer to the [Leave Setup Steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/leaves.md#configure-leave-setup) and configure it to 0/none. 
         
 
 ## Salary 
@@ -579,7 +579,7 @@ Following are the frequently asked questions about compliance payments.
     
 ### 1. Payroll's Loss of Pay calculation is not matching with our calculation. Why?
 
-         If LOP days do not match your calculations, it may be because LOP is calculated using total working days in the month instead of the total number of days in the month. Know more about [LOP Calculations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#calculations.md). 
+         If LOP days do not match your calculations, it may be because LOP is calculated using total working days in the month instead of the total number of days in the month. Know more about [LOP Calculations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#calculations). 
         
 
     
@@ -593,10 +593,10 @@ Following are the frequently asked questions about compliance payments.
     
 ### 3. What are the supported payment modes to process an employee's FNF?
 
-            We support NEFT and IMPS to process the employee's full and final settlement. However, we recommend using NEFT as the default payment mode. Know more about [payroll payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts/#make-payroll-payouts.md).
+            We support NEFT and IMPS to process the employee's full and final settlement. However, we recommend using NEFT as the default payment mode. Know more about [payroll payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md#make-payroll-payouts).
         
 
     
 ### 4. Is it possible to revise salary in bulk?
 
-         Yes, you can revise salary in bulk. Know more about [bulk salary revision](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#bulk-revision.md).
+         Yes, you can revise salary in bulk. Know more about [bulk salary revision](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#bulk-revision).

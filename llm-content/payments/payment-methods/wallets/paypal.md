@@ -9,7 +9,7 @@ description: Integrate PayPal with Razorpay to accept international payments. Ch
 
 ## Standard Checkout Integration
 
-If you are using Razorpay Standard Checkout, you just need to enable PayPal from your dashboard and complete the [onboarding procedure](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/wallets/paypal#onboarding-process-to-enable-paypal.md). After the onboarding is completed and PayPal is enabled for you, it appears on your checkout form for all supported currencies.
+If you are using Razorpay Standard Checkout, you just need to enable PayPal from your dashboard and complete the [onboarding procedure](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets/paypal.md#onboarding-process-to-enable-paypal). After the onboarding is completed and PayPal is enabled for you, it appears on your checkout form for all supported currencies.
 
 ## Currency Conversion
 

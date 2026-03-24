@@ -13,14 +13,14 @@ All successful responses are returned with HTTP Status code 200. In case of fail
 > 
 > **Note:**
 > 
-> If you are using an official [Razorpay Language-wise SDK Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/server-integration.md), the error responses result in exceptions that need to be handled in your integration.
+> If you are using an official [Razorpay Language-wise SDK Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/server-integration.md), the error responses result in exceptions that need to be handled in your integration.
 > 
 
 ## Error Response
 
 The error response contains `code`, `description`, `field`, `source`, `step`, `reason` and `metadata` parameters that help you diagnose and solve the error.
 
-To understand more about error codes, refer to the [Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md) section.
+To understand more about error codes, refer to the [Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md) section.
 
 ```json: Sample Error Response
 {

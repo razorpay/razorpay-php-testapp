@@ -7,7 +7,7 @@ description: Initiate the process of Refunds for EMI transactions and Pay Later.
 
 You can refund payments to customers who have used EMI methods, such as Debit Card EMI, Credit Card EMI, Cardless EMI and so on, offered by different banks that have partnered with Razorpay.
 
-You can also process refunds to your customers who have made payments using the [Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later.md) option. Know more about the various [third-party providers offering Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later.md).
+You can also process refunds to your customers who have made payments using the [Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md) option. Know more about the various [third-party providers offering Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md).
 
 ## How EMI and Pay Later Refunds Work
 
@@ -73,7 +73,7 @@ When your customer makes an online purchase using EMI methods on your website or
         - A customer purchases 3 products - Product A, B and C, in a single payment using the Debit Card EMI option. The customer cancels Product A within 5 days of purchase and then cancels Product B on the 7th day. Here, a partial refund will not be supported as there are multiple items/orders, and Razorpay does not provide an order-level split up to the bank. A full refund request can be raised with the bank for all the 3 products.
         - A customer purchases 2 products - Product A (₹2000) and Product B (₹7000). In a 3-month EMI plan, the customer needs to pay an EMI amount of ₹3100 (Total payment of ₹9300 in 3 months). After paying the first installment, the customer returns Product A. In this case, for a Debit Card EMI option, you cannot raise a partial refund request for ₹2000. You will have to raise a full refund request for the entire amount of ₹9000. The interest of ₹100 that the customer paid as part of the first EMI installment cannot be refunded.
 
-        Know more about [Debit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md).
+        Know more about [Debit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md).
     
     
         If a customer purchases a product on your website or app using the Credit Card EMI option and requests for refund, there can be the following two scenarios in case the refund is processed:
@@ -98,7 +98,7 @@ When your customer makes an online purchase using EMI methods on your website or
 >         - To cancel a Credit Card EMI, your customer should contact the credit card issuing bank.
 >         
 
-        To cancel a Credit Card EMI, your customer must reach out to the bank. Know more about [Credit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi.md).
+        To cancel a Credit Card EMI, your customer must reach out to the bank. Know more about [Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi.md).
     
     
       The No Cost EMI Refund process is similar to a normal [EMI Refunds](#refund-flow-for-emi-transactions) process. The only difference is that the Principal Amount used in calculations is the amount after subtracting the discount amount.
@@ -126,7 +126,7 @@ Your customer will pay interest on a discounted amount of ₹14632.67. The inter
 >         - The processing charges levied by the bank for using the No Cost EMI option cannot be refunded to the customer.
 >         
 
-        Know more about [No Cost EMIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/no-cost-emi.md).
+        Know more about [No Cost EMIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/no-cost-emi.md).
     
     
         Your customer purchases a product from your website or app using the Cardless EMI option and requests for a refund. Any EMI instalments paid by the customer is refunded to the same payment mode or account that was used to make the payment.
@@ -139,14 +139,14 @@ Your customer will pay interest on a discounted amount of ₹14632.67. The inter
 >         Razorpay does not do calculations for Cardless EMI.
 >         
 
-        Know more about [Cardless EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi.md).
+        Know more about [Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi.md).
     
 
 ## Refund Flow for Pay Later
 
 1. You receive a refund request from your customer.
 2. You will raise a Refund Request with Razorpay, indicating the amount to be refunded.
-3. Razorpay passes the refund request details to the respective [Pay Later providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later/#supported-pay-later-providers.md), where the refund takes place before the Payback Period:
+3. Razorpay passes the refund request details to the respective [Pay Later providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md#supported-pay-later-providers), where the refund takes place before the Payback Period:
     - If it is a **full refund**, your customer’s loan is closed by the respective provider. They are no longer billed to repay this amount.
     - If it is a **partial refund**, your customer is billed and will need to repay the balance amount to the Pay Later provider. Here, the refunded amount gets adjusted against the loan amount.
 
@@ -160,7 +160,7 @@ Your customer will pay interest on a discounted amount of ₹14632.67. The inter
 >     - Where the amount is repaid to the Pay Later provider, your customer gets a good credit limit (amount of credit available for use) with the refund amount. This balance amount can be used for subsequent payments.
 >     
 
-Know more about [Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later.md).
+Know more about [Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md).
 
 ## Refund Timelines 
 

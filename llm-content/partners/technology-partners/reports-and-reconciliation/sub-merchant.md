@@ -10,11 +10,11 @@ Razorpay offers a range of reports that enable you to track the cash flow of you
 
 ## Download Reports
 
-Know how to [download reports](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/reports#download-reports.md) from the Dashboard.
+Know how to [download reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/reports.md#download-reports) from the Dashboard.
 
 ## List of Reports
 
-Sub-merchants can download reports for all Razorpay products used by them. Check the [list of reports](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/reports/#list-of-reports.md) available.
+Sub-merchants can download reports for all Razorpay products used by them. Check the [list of reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/reports.md#list-of-reports) available.
 
 ### Related Reports
 

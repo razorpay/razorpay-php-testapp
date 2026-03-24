@@ -24,7 +24,7 @@ With this feature:
 
 Given below is an illustration of the workflow:
 
-![Instant Activation Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-onboarding-api-instant-activation-flow.jpg.md)
+![Instant Activation Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-onboarding-api-instant-activation-flow.jpg.md)
 
 ## Webhook Events and Payloads
 

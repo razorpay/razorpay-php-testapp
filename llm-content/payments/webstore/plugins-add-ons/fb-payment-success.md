@@ -30,5 +30,5 @@ To do this:
 Every time a customer successfully completes a payment, they are directed to the success page. Facebook pixel tracks this event.
 
 ### Related Information
-- [Add Facebook Pixel to Razorpay Webstore](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/plugins-add-ons/fb-pixel.md)
-- [Add Google Analytics Tracking ID](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/webstore/plugins-add-ons/google-analytics.md)
+- [Add Facebook Pixel to Razorpay Webstore](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/plugins-add-ons/fb-pixel.md)
+- [Add Google Analytics Tracking ID](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/webstore/plugins-add-ons/google-analytics.md)

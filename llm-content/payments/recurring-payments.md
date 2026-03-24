@@ -33,7 +33,7 @@ Use Razorpay Recurring Payments to create flexible payment schedules for subscri
       - **Flexible billing cycles**: Charge customers based on usage, milestones or variable schedules.
       - **Manual control**: You decide when to charge each payment.
 
-      For automated, fixed-schedule billing (weekly, monthly, quarterly), consider using [Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md) instead.
+      For automated, fixed-schedule billing (weekly, monthly, quarterly), consider using [Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md) instead.
     
 
   
@@ -104,9 +104,9 @@ Choose the payment method that best suits your business model:
 
      **Recommended Method**: Cards or UPI for quick authorisation (₹1 minimum)
 
-     → [Set up with Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/cards/create-authorization-transaction.md)
+     → [Set up with Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/cards/create-authorization-transaction.md)
      
-     → [Set up with UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/upi/create-authorization-transaction.md)
+     → [Set up with UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/upi/create-authorization-transaction.md)
      
     
 
@@ -123,7 +123,7 @@ Choose the payment method that best suits your business model:
 
      
      
-     → [Set up with Emandate](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/emandate/create-authorization-transaction.md) | [Set up with Paper NACH](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/paper-nach/create-authorization-transaction.md)
+     → [Set up with Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/emandate/create-authorization-transaction.md) | [Set up with Paper NACH](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/paper-nach/create-authorization-transaction.md)
      
     
 
@@ -136,12 +136,12 @@ Select the [payment method](#available-payment-methods) based on your use case a
 
      
       Set up the authorisation payment using:
-      - [APIs for Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/cards/create-authorization-transaction.md)
-      - [APIs for UPI Autopay](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/upi/create-authorization-transaction.md)
-      - [APIs for UPI OTM](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/upi-otm/authorization-transaction.md)
-      - [APIs for UPI TPV](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/upi-tpv/create-authorization-transaction.md)
-      - [APIs for Emandate](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/emandate/create-authorization-transaction.md)
-      - [APIs for Paper NACH](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/paper-nach/create-authorization-transaction.md)
+      - [APIs for Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/cards/create-authorization-transaction.md)
+      - [APIs for UPI Autopay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/upi/create-authorization-transaction.md)
+      - [APIs for UPI OTM](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/upi-otm/authorization-transaction.md)
+      - [APIs for UPI TPV](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/upi-tpv/create-authorization-transaction.md)
+      - [APIs for Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/emandate/create-authorization-transaction.md)
+      - [APIs for Paper NACH](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/paper-nach/create-authorization-transaction.md)
       
 
       
@@ -154,12 +154,12 @@ Select the [payment method](#available-payment-methods) based on your use case a
 
       
        Fetch the customer's token detail to proceed with the authorisation payment using:
-       - [APIs for Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/cards/tokens.md)
-       - [APIs for UPI Autopay](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/upi/tokens.md)
-       - [APIs for UPI TPV](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/upi-tpv/tokens.md)
-       - [APIs for UPI OTM](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/upi-otm/tokens.md)
-       - [APIs for Emandate](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/emandate/tokens.md)
-       - [APIs for Paper NACH](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/paper-nach/tokens.md)
+       - [APIs for Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/cards/tokens.md)
+       - [APIs for UPI Autopay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/upi/tokens.md)
+       - [APIs for UPI TPV](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/upi-tpv/tokens.md)
+       - [APIs for UPI OTM](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/upi-otm/tokens.md)
+       - [APIs for Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/emandate/tokens.md)
+       - [APIs for Paper NACH](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/paper-nach/tokens.md)
       
       
       
@@ -170,12 +170,12 @@ Select the [payment method](#available-payment-methods) based on your use case a
 
       
        Use the token to charge customers as needed using:
-       - [APIs for Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/cards/create-subsequent-payments.md)
-       - [APIs for UPI Autopay](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/upi/create-subsequent-payments.md)
-       - [APIs for UPI TPV](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/upi-tpv/create-subsequent-payments.md)
-       - [APIs for UPI OTM](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/upi-otm/one-time-payment.md)
-       - [APIs for Emandate](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/emandate/create-subsequent-payments.md)
-       - [APIs for Paper NACH](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/paper-nach/create-subsequent-payments.md)
+       - [APIs for Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/cards/create-subsequent-payments.md)
+       - [APIs for UPI Autopay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/upi/create-subsequent-payments.md)
+       - [APIs for UPI TPV](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/upi-tpv/create-subsequent-payments.md)
+       - [APIs for UPI OTM](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/upi-otm/one-time-payment.md)
+       - [APIs for Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/emandate/create-subsequent-payments.md)
+       - [APIs for Paper NACH](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/paper-nach/create-subsequent-payments.md)
             
             
       
@@ -202,8 +202,8 @@ Razorpay Recurring Payments is supported on the following platforms:
 
 ### Related Information
 
-- [Emandate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/integrate.md)
-- [Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/cards/integrate.md)
-- [Paper NACH](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/paper-nach/integrate.md)
-- [UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upi/integrate.md)
-- [Optimizer Recurring Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/recurring-payments.md)
+- [Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/integrate.md)
+- [Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/cards/integrate.md)
+- [Paper NACH](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/paper-nach/integrate.md)
+- [UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upi/integrate.md)
+- [Optimizer Recurring Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/recurring-payments.md)

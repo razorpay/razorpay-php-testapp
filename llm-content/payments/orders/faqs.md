@@ -20,10 +20,10 @@ description: Find answers to some Frequently Asked Questions (FAQs) about Razorp
     
 ### 3. Can I view order details on the Dashboard?
 
-        Yes, you can [view the order details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders/dashboard/#view-order-details-from-dashboard.md) from the Dashboard.
+        Yes, you can [view the order details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders/dashboard.md#view-order-details-from-dashboard) from the Dashboard.
         
 
     
 ### 4. What are the different states of an order? 
 
-        An order can be in one of three states: Created, Attempted, or Paid. Know more about the [different states of an order](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders/#order-states.md).
+        An order can be in one of three states: Created, Attempted, or Paid. Know more about the [different states of an order](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders.md#order-states).

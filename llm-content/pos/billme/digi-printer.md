@@ -53,4 +53,4 @@ With its robust architecture, Digi Printer empowers merchants to streamline file
         
 
 ### Related Information
-[Troubleshooting and FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/billme/digi-printer/troubleshooting-faqs.md)
+[Troubleshooting and FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/billme/digi-printer/troubleshooting-faqs.md)

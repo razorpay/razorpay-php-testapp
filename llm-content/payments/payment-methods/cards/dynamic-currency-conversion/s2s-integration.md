@@ -14,7 +14,7 @@ For example, a customer whose home currency is INR and if the amount is displaye
 > 
 > **Watch Out!**
 > 
-> Dynamic Currency Conversion (DCC) is not available for [Razorpay Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer.md).
+> Dynamic Currency Conversion (DCC) is not available for [Razorpay Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer.md).
 > 
 
 ## DCC S2S Payment Flow
@@ -22,11 +22,11 @@ For example, a customer whose home currency is INR and if the amount is displaye
 Below is the Dynamic Currency Conversion S2S payment flow:
 
 1. The cardholder selects the payment method on the S2S checkout page and tries to make the payment.
-    ![select payment method](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-dynamic-currency-conversion-select-payment.jpg.md)
+    ![select payment method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-dynamic-currency-conversion-select-payment.jpg.md)
 2. If the card is a non-INR card, the user is directed to the Currency Conversion screen to change the currency.
-    ![currency conversion screen](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-dynamic-currency-conversion-currency-conversion-screen.jpg.md)
+    ![currency conversion screen](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-dynamic-currency-conversion-currency-conversion-screen.jpg.md)
 3. The users also get the option to change the currency as per their choice. Based on the selected currency, the amount is displayed. The user can check the amount in the selected currency and proceed to make the payment.
-    ![conversion screen](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-dynamic-currency-conversion-conversion.jpg.md)
+    ![conversion screen](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-dynamic-currency-conversion-conversion.jpg.md)
 
 ### Disable Dynamic Currency Conversion
 
@@ -34,5 +34,5 @@ The DCC feature is available by default for all the S2S integrations. Please con
 
 ### Related Information
 
-- [DCC Custom Checkout Payment Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion/custom-integration.md)
-- [International Payment Support](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments.md)
+- [DCC Custom Checkout Payment Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion/custom-integration.md)
+- [International Payment Support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md)

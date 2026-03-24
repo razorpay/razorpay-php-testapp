@@ -9,4 +9,4 @@ description: Steps to test if the custom Web integration was successful.
 
 ## Next Steps
 
-[Step 3: Go Live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/chargeback/go-live-checklist.md)
+[Step 3: Go Live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/chargeback/go-live-checklist.md)

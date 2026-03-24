@@ -67,7 +67,7 @@ To enable VPF for your organisation:
         - Use only basic salary for calculating PF (optional).
         -  Use PF limit of ₹15,000 while calculating contributions.
         -  Select the **Allow employees to update Voluntary PF** option.
-        ![Setup VPF option for employees](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/vpf-setup.jpg.md)
+        ![Setup VPF option for employees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/vpf-setup.jpg.md)
 4. Click the **Save** button at the bottom of the section to apply your changes.
 
 Once PF is properly set up, employees can opt in for VPF contributions.
@@ -93,13 +93,13 @@ Once PF is properly set up, employees can opt in for VPF contributions.
             3. Open the employee's profile and navigate to their **Compensation** tab.
             4. Click on the **Deductions** tab to view all deduction options.
             5. Locate the **Voluntary PF** section and click **Opt in to VPF**.
-             ![VPF contribution dialog box](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/opt-in-vpf.jpg.md)
+             ![VPF contribution dialog box](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/opt-in-vpf.jpg.md)
                
             6. In the **Voluntary PF** dialog box that appears:
                - Enter the **Monthly Contribution** amount the employee wishes to contribute.
                - Note the declaration can be maximum of 88% of PF wages.
                - Check the confirmation box.
-             ![Opt in to VPF on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/vpf-opt-in.jpg.md) 
+             ![Opt in to VPF on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/vpf-opt-in.jpg.md) 
             7. Click **Opt in** to confirm.
 
          The VPF contribution will be applied from the next salary cycle.
@@ -115,13 +115,13 @@ Once PF is properly set up, employees can opt in for VPF contributions.
             3. Open the employee's profile and navigate to their **Compensation** tab.
             4. Click on the **Deductions** tab to view all deduction options.
             5. Locate the **Voluntary PF** section and click **Manage VPF**.
-                ![Modify VPF amount option](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/vpf-modify2.jpg.md)
+                ![Modify VPF amount option](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/vpf-modify2.jpg.md)
             6. From the drop-down menu, select **Modify VPF amount**.
             7. In the **Modify VPF amount** dialog box:
                - Enter the new **Monthly Contribution** amount.
                - Note the declaration can be maximum of 88% of PF wages.
                - Check the confirmation box if not already checked.
-               ![Modify VPF amount option](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/vpf-modify3.jpg.md)
+               ![Modify VPF amount option](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/vpf-modify3.jpg.md)
             8. Click **Modify** to save the changes.
 
          The modified VPF amount will be effective from the next salary cycle.
@@ -138,7 +138,7 @@ Once PF is properly set up, employees can opt in for VPF contributions.
             4. Click on the **Deductions** tab to view all deduction options.
             5. Locate the **Voluntary PF** section and click **Manage VPF**.
             6. From the drop-down menu, select **Opt out of VPF**.
-               ![Opt out of VPF option](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/opt-out-vpf2.jpg.md)
+               ![Opt out of VPF option](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/opt-out-vpf2.jpg.md)
             7. Click **Opt out** to confirm or **Cancel** to go back.
          After opting out, the VPF contribution will stop from the next salary cycle.
 
@@ -149,7 +149,7 @@ Once PF is properly set up, employees can opt in for VPF contributions.
 >          **Watch Out!**
 > 
 >          When VPF configuration is disabled by your organisation, employees will see a message stating "VPF configuration is disabled by your organisation. Contact admin for further details." In such cases, the organisation admin must enable VPF settings first.
->          ![Confirm opt out of VPF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/vpf-disabled.jpg.md)
+>          ![Confirm opt out of VPF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/vpf-disabled.jpg.md)
 >          
 
         
@@ -200,5 +200,5 @@ Once PF is properly set up, employees can opt in for VPF contributions.
 
 ### Related Information
 
-- [Provident Fund](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/provident-fund.md)
-- [Statutory Compliance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md)
+- [Provident Fund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/provident-fund.md)
+- [Statutory Compliance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md)

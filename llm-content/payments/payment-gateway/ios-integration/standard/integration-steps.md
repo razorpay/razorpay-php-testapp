@@ -53,7 +53,7 @@ Follow the steps given below:
 
                  Watch the GIF to see how to add Frameworks, Libraries and Embed Content.
 
-                 ![add Frameworks, Libraries and Embed Content](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ios-embed-framework.gif.md)
+                 ![add Frameworks, Libraries and Embed Content](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ios-embed-framework.gif.md)
                 
 
          
@@ -64,7 +64,7 @@ Follow the steps given below:
 
          To initialize Razorpay iOS Standard SDK, you need the following:
 
-         - API keys. You can generate this from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md).
+         - API keys. You can generate this from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys).
 
              
 > **WARN**

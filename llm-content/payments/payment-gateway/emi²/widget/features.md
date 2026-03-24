@@ -7,10 +7,10 @@ description: List of features that will help you increase customer conversion us
 # Features
 
 Razorpay Affordability Widget consists of the following additional features. These features are available only after you integrate the Affordability Widget on your:
-- [Native Website](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/native-web.md)
-- [WooCommerce Website](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce.md)
-- [Shopify Store](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/shopify.md)
-- [Android App](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/android.md)
+- [Native Website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/native-web.md)
+- [WooCommerce Website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/woocommerce.md)
+- [Shopify Store](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/shopify.md)
+- [Android App](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/android.md)
 
 ## Discount Whisperer
 
@@ -41,15 +41,15 @@ Discount Whisperer is a real-time indicator of potential savings for your custom
 
          Customers click **View offers** on the widget and view the discounts already unlocked or how much more they can shop for to unlock even bigger discounts.
 
-         ![View the discount whisperer section on the widget](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/aff-widget-discount-whisperer.jpg.md)
+         ![View the discount whisperer section on the widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/aff-widget-discount-whisperer.jpg.md)
         
 
     
 ### Prerequisites
 
          - Create a [Razorpay account](https://dashboard.razorpay.com/signup).
-         - Integrate with the [Razorpay Affordability Widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget.md).
-         - Create instant discount and cashback offers with minimum order amount via [Razorpay Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/create.md).
+         - Integrate with the [Razorpay Affordability Widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget.md).
+         - Create instant discount and cashback offers with minimum order amount via [Razorpay Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/create.md).
         
              
 > **INFO**
@@ -94,7 +94,7 @@ Razorpay offers a pre-eligibility check on EMI² instruments for customers to ch
 > 
 > **Handy Tips**
 > 
-> - The eligibility check is performed only for [ Debit Card EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md), [Cardless EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/credit-card-emi.md), and [Pay Later](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/pay-later.md). 
+> - The eligibility check is performed only for [ Debit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md), [Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/credit-card-emi.md), and [Pay Later](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md). 
 > - It is not applicable for Credit Card EMI as it is a pre-eligible form of credit.
 > 
 
@@ -118,14 +118,14 @@ Razorpay offers a pre-eligibility check on EMI² instruments for customers to ch
 ### Customer Experience
 
         Customers view the product and click **View plans** on the widget. They enter the phone number and OTP to check their eligibility for payment options. 
-            ![Verify phone number for eligibility check](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/eligibility-widget.gif.md)
+            ![Verify phone number for eligibility check](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/eligibility-widget.gif.md)
 
         They can clearly differentiate between the eligible and ineligible payment options.
         
             - **Eligible**: The customer selects an eligible payment instrument and proceeds to checkout.
 
             - **Ineligible**: The customer can view the reason for ineligibility as highlighted below.
-                ![View reason for ineligibility](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/aff-widget-ineligible.jpg.md)
+                ![View reason for ineligibility](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/aff-widget-ineligible.jpg.md)
 
                 To proceed with the payment in case of ineligibility, the customer can choose to:
                 - Change the phone number for the chosen payment instrument and try again. 
@@ -136,7 +136,7 @@ Razorpay offers a pre-eligibility check on EMI² instruments for customers to ch
 ### Prerequisites
 
          - Create a [Razorpay account](https://dashboard.razorpay.com/signup).
-         - Integrate with the [Razorpay Affordability Widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget.md). 
+         - Integrate with the [Razorpay Affordability Widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget.md). 
 
          
 > **WARN**
@@ -188,17 +188,17 @@ Your customers can check the eligibility and complete their purchase directly fr
 
          Customers view the existing plans and offers on the widget, choose an eligible payment instrument or offer and click **Buy Now**. They are redirected to your checkout page, where they enter their contact and shipping details and proceed to checkout. 
 
-         They are then redirected to the Razorpay checkout if you have integrated the widget with our [Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/standard-integration.md). If not, they are redirected to your custom-built checkout. Once redirected to our Standard Checkout, the payment option or offer the customer selects on the widget appears pre-selected on checkout. They enter the relevant details and complete the payment. 
-         ![Checkout from widget](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-widget.gif.md)
+         They are then redirected to the Razorpay checkout if you have integrated the widget with our [Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/standard-integration.md). If not, they are redirected to your custom-built checkout. Once redirected to our Standard Checkout, the payment option or offer the customer selects on the widget appears pre-selected on checkout. They enter the relevant details and complete the payment. 
+         ![Checkout from widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-widget.gif.md)
         
 
     
 ### Prerequisites
 
          - Create a [Razorpay account](https://dashboard.razorpay.com/signup).
-         - Integrate with the [Razorpay Affordability Widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/native-web.md). 
-         - Integrate with [Razorpay Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
-         - Integrate Checkout from Widget using [Standard Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/standard-integration.md).
+         - Integrate with the [Razorpay Affordability Widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/native-web.md). 
+         - Integrate with [Razorpay Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+         - Integrate Checkout from Widget using [Standard Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/standard-integration.md).
 
             
 > **INFO**
@@ -206,7 +206,7 @@ Your customers can check the eligibility and complete their purchase directly fr
 > 
 >             **Handy Tips**
 >             
->             If you have a [custom-built checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md), integrate with checkout from widget using [Custom Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/custom-integration.md).
+>             If you have a [custom-built checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md), integrate with checkout from widget using [Custom Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/custom-integration.md).
 >             
 
             

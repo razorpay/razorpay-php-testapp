@@ -18,7 +18,7 @@ description: Find answers to frequently asked questions about WHMCS plugin.
 ### 2. What troubleshooting procedures should be carried out prior to initiating a support ticket?
 
          Follow the troubleshooting steps given below:
-         1. Reinstall the Razorpay WHMCS plugin and ensure that your system meets all the requirements mentioned [here](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/whmcs/integration-steps.md).
+         1. Reinstall the Razorpay WHMCS plugin and ensure that your system meets all the requirements mentioned [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/whmcs/integration-steps.md).
          2. We recommend you to keep your Razorpay WHMCS plugin up to date. You can find the latest versions [here](https://github.com/razorpay/razorpay-whmcs/releases).
          3. If the issue persists after following these steps, contact our [Support team](https://razorpay.com/support/). Provide the following information while creating a ticket:
             - Razorpay WHMCS plugin version

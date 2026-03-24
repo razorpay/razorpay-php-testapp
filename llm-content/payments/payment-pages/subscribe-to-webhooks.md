@@ -24,11 +24,11 @@ Webhook Events | Description
 ---
 `order.paid` | Triggered when an order is successfully paid.
 
-Know more about [webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) and check the [sample payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments.md).
+Know more about [webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) and check the [sample payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md).
 
 ### Related Information
 
-- [How Payment Pages Work](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/how-it-works.md)
+- [How Payment Pages Work](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/how-it-works.md)
 
-- [Payment Pages States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/states.md)
-- [Create a Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/create.md)
+- [Payment Pages States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/states.md)
+- [Create a Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/create.md)

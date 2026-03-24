@@ -12,7 +12,7 @@ The Dashboard Home page provides a consolidated view of your business activity a
 
 Use the navigation bar on the top of the page to navigate between different Razorpay suite of products such as Payments, Banking Plus, Payroll, Partners program and more.
 
-![razorpay home dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/razorpay-home.jpg.md)
+![razorpay home dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/razorpay-home.jpg.md)
 
 > **WARN**
 >
@@ -74,7 +74,7 @@ This section shows a snapshot of your financial flows within Razorpay:
 
 This widget helps track how well your payments are performing.
 
-![payments insights](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-insights-razorpay-home.jpg.md)
+![payments insights](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-insights-razorpay-home.jpg.md)
 
 Metric | Description
 ---
@@ -95,13 +95,13 @@ You can filter data using the time range dropdown:
 - Last Week
 - Last Month
 
-Click [**See detailed insights**](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard.md) for a more granular view on the Payments home page.
+Click [**See detailed insights**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard.md) for a more granular view on the Payments home page.
 
 ## Other Insights
 
 This section covers operational and growth-related widgets.
 
-![other insights](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/other-insights-razorpay-home.jpg.md)
+![other insights](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/other-insights-razorpay-home.jpg.md)
 
 Term | Description
 ---

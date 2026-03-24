@@ -38,7 +38,7 @@ As per the [press release](https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR
 
 ## Alternative Solution: UPI Autopay
 
-We will soon be enabling UPI Autopay on your Dashboard. You can [create a subscription link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-subscription-links.md) that will allow your customers to choose UPI to make recurring payments.
+We will soon be enabling UPI Autopay on your Dashboard. You can [create a subscription link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-subscription-links.md) that will allow your customers to choose UPI to make recurring payments.
 
     
 ### Supporting Banks and UPI Apps
@@ -49,7 +49,7 @@ We will soon be enabling UPI Autopay on your Dashboard. You can [create a subscr
 
 If you do not want to use UPI Autopay, you can disable it from the Settings tab on the Subscriptions page from your Dashboard.
 
-Learn more about UPI Autopay from our [blog](https://razorpay.com/blog/what-is-upi-autopay-recurring-payments-razorpay-subscriptions/) and [documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/faqs/#upi.md).
+Learn more about UPI Autopay from our [blog](https://razorpay.com/blog/what-is-upi-autopay-recurring-payments-razorpay-subscriptions/) and [documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/faqs.md#upi).
 
 ## MandateHQ: Helping Issuing Banks Comply with the RBI Circular
 

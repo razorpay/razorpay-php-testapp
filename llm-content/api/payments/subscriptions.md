@@ -10,22 +10,22 @@ You can use Subscriptions to charge a customer periodically. A Subscription cont
  
 
  
- Below are the steps to integrate Subscriptions. You can also refer to our comprehensive [Subscriptions Integration guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/integration-guide.md).
+ Below are the steps to integrate Subscriptions. You can also refer to our comprehensive [Subscriptions Integration guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/integration-guide.md).
 
- 1. [Create a Plan](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/create-plan.md)
- 2. [Create a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/create-subscription.md)
- 3. [Checkout Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/integration-guide/#step-14-integrate-with-standard-checkout.md)
+ 1. [Create a Plan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/create-plan.md)
+ 2. [Create a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/create-subscription.md)
+ 3. [Checkout Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/integration-guide.md#step-14-integrate-with-standard-checkout/)
 
- Fork the Razorpay Postman Public Workspace and try the Subscription APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+ Fork the Razorpay Postman Public Workspace and try the Subscription APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
  
  [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-33ddca50-ea58-4c30-be41-bd7643a1438c)
 
 ### Related Guides
 
-[About Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md)
-[Integrate With Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/integration-guide.md)
-[Set Up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md)
-[Webhook Payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/subscriptions.md)
+[About Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md)
+[Integrate With Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/integration-guide.md)
+[Set Up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)
+[Webhook Payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/subscriptions.md)
 
 ### Endpoints
 

@@ -12,7 +12,7 @@ Given below are the steps to integrate Razorpay Standard Checkout on your websit
 > 
 > **Handy Tips**
 > 
-> You can try out our APIs on the Razorpay Postman Public Workspace. Fork the workspace and test the APIs with your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#test-mode-api-keys.md).
+> You can try out our APIs on the Razorpay Postman Public Workspace. Fork the workspace and test the APIs with your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#test-mode-api-keys).
 > 
 
 ## 1.1 Create a Customer in Server
@@ -237,7 +237,7 @@ instance.customers.create({
        ---
        The API `` provided is invalid. | The API credentials passed in the API call differ from the ones generated on the Dashboard. Possible reasons: - Different keys for test mode and live modes.
 - Expired API key.
- | The API keys must be active and entered correctly with no whitespace before or after the keys. Know how to [Generate API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+ | The API keys must be active and entered correctly with no whitespace before or after the keys. Know how to [Generate API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
        ---
        Contact number should be at least 8 digits, including country code. | The contact number is less than 8 digits. | Enter contact number that meets the validation criteria. It should have at least 8 digits, including the country code. For example, "+919000090000".
        
@@ -245,7 +245,7 @@ instance.customers.create({
 
 ## 1.2 Create an Order in Server
 
-After a customer is created, an order needs to be generated using the Orders API. This order contains details such as the payment amount, currency, customer details, tax-related information and other custom notes. After the order is created, an `order_id` is generated, for example, `order_NGrgEcmYJsfUyl`. You must pass this `order_id` in the checkout code to associate this order with the payment. Learn more about [Order and Payment states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders/#order-states.md).
+After a customer is created, an order needs to be generated using the Orders API. This order contains details such as the payment amount, currency, customer details, tax-related information and other custom notes. After the order is created, an `order_id` is generated, for example, `order_NGrgEcmYJsfUyl`. You must pass this `order_id` in the checkout code to associate this order with the payment. Learn more about [Order and Payment states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders.md#order-states).
 
 Use the API sample code given below to create an order.
 
@@ -613,7 +613,7 @@ document.getElementById('rzp-button1').onclick = function(e){
 > 
 > **Handy Tips**
 > 
-> Test your integration using these [test cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/test-integration/#Cards.md).
+> Test your integration using these [test cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/test-integration.md#Cards).
 > 
 
 > **WARN**
@@ -637,7 +637,7 @@ document.getElementById('rzp-button1').onclick = function(e){
       - Netbanking
       - UPI
       - Cards
-      - [Recurring](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/recurring-payments.md) 
+      - [Recurring](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/recurring-payments.md) 
 
       For recurring payments, additional integration is needed. Cards, UPI, and UPI with TPV are supported as a payment methods.
     
@@ -666,7 +666,7 @@ Blocked by CORS policy. | Occurs when the server-to-server request is hit from t
 
      Multiple payment methods are available on the Razorpay Web Standard Checkout.
        - The payment methods are **fixed** and cannot be changed.
-       - You can configure the order or make certain payment methods prominent. Know more about [configuring payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods.md).
+       - You can configure the order or make certain payment methods prominent. Know more about [configuring payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods.md).
     
 
 > **INFO**
@@ -693,7 +693,7 @@ If you used the sample code with the handler function:
 
  
 
-   The customer is notified about payment failure and asked to retry the payment. Know about the [error parameters.](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/#response-parameters.md)
+   The customer is notified about payment failure and asked to retry the payment. Know about the [error parameters.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md#response-parameters)
 
     ```js: Failure Handling Code
     rzp1.on('payment.failed', function (response){
@@ -735,7 +735,7 @@ If you used the sample code with the callback URL:
 
 @include integration-steps/verify-signature
 
-Here are the links to our [SDKs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#client-libraries.md) for the supported platforms.
+Here are the links to our [SDKs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#client-libraries) for the supported platforms.
 
 ## 1.7 Verify Payment Status
 
@@ -743,4 +743,4 @@ Here are the links to our [SDKs](@/Applications/MAMP/htdocs/new-docs/llm-content
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/test-integration.md)

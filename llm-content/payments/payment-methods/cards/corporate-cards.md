@@ -63,4 +63,4 @@ Corporate Cards usually have higher transaction limits (sometimes up to ₹50 la
          2. Navigate to **Transactions** → **Payments**.
          3. Click the **Payment Id** for which you want to check the details.
          4. Check the **Payment Method** in the right panel. If it says **Business**, it is a Corporate Card. If it says **Consumer**, it is a regular card.
-         ![Corporate Card payment method](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/corporate_card.jpg.md)
+         ![Corporate Card payment method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/corporate_card.jpg.md)

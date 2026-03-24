@@ -7,7 +7,7 @@ description: Integrate Razorpay Standard Checkout with your website to start acc
 
 You can start accepting payments from customers on your website using the Razorpay Web Standard Checkout. Razorpay has developed the Standard Checkout method and manages it. You can configure payment methods, orders, company logo and also select custom colour based on your convenience. 
 
-![Razorpay Payment Gateway Demo](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/demo.gif.md)
+![Razorpay Payment Gateway Demo](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/demo.gif.md)
 
 > **WARN**
 >
@@ -22,8 +22,8 @@ You can start accepting payments from customers on your website using the Razorp
 Before integrating with the Checkout, run through this checklist:
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup).
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
-- Know about the [Razorpay Payment Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md).
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Know about the [Razorpay Payment Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md).
 
 > **WARN**
 >
@@ -39,13 +39,13 @@ Before integrating with the Checkout, run through this checklist:
 Follow these integration steps:
 
 1. Build Integration
-- [E-Commerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/chargeback/build-integration-ecommerce.md)
-- [Hotel](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/chargeback/build-integration-hotel.md)
-- [Travel](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/chargeback/build-integration-travel.md)
-2. [Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/chargeback/test-integration.md)
-3. [Go-Live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/chargeback/go-live-checklist.md)
+- [E-Commerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/chargeback/build-integration-ecommerce.md)
+- [Hotel](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/chargeback/build-integration-hotel.md)
+- [Travel](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/chargeback/build-integration-travel.md)
+2. [Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/chargeback/test-integration.md)
+3. [Go-Live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/chargeback/go-live-checklist.md)
 
 ### Related Information
 
-- [Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/best-practices.md)
-- [Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md)
+- [Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/best-practices.md)
+- [Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md)

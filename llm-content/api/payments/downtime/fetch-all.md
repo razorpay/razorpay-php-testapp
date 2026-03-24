@@ -314,7 +314,7 @@ Possible values:
 `updated_at`
 : `integer` Timestamp (in Unix) that indicates the time at which the downtime record was updated in Razorpay servers. 
 
-Know more about [the possible values](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi.md).
+Know more about [the possible values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi.md).
 
 ### Errors
 

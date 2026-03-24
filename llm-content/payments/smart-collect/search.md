@@ -12,7 +12,7 @@ To search for a Customer Identifier:
 1. Log in to the Dashboard.
 2. Select **Smart Collect** from the left menu and search for a Customer Identifier under **Customer Identifiers** by specifying filters.
 
-![Customer Identifier List](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/smart-collect-virtual-account-search.jpg.md)
+![Customer Identifier List](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/smart-collect-virtual-account-search.jpg.md)
 
 Filter | Description
 ---
@@ -21,7 +21,7 @@ Customer Identifier Id | The unique ID of the Customer Identifier.
 Notes | The Internal Note added by you during the creation of the Customer Identifier.
 
 ### Related Information
-- [Create Customer Identifiers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/create.md)
-- [Close Customer Identifiers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/close.md)
-- [Refund Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/refund.md)
-- [Make Test Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/test-payments.md)
+- [Create Customer Identifiers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/create.md)
+- [Close Customer Identifiers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/close.md)
+- [Refund Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/refund.md)
+- [Make Test Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/test-payments.md)

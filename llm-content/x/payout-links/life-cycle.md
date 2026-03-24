@@ -16,13 +16,13 @@ A Payout Link can have the following statuses during its life cycle:
 - `expired`
 - `rejected`
 
-![Payout Links States and Life Cycle depicting the above-mentioned states.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-payout-links-pl-states.jpg.md)
+![Payout Links States and Life Cycle depicting the above-mentioned states.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-payout-links-pl-states.jpg.md)
 
 ### Pending
 
-As soon as a Payout Link is created, it immediately moves to the `pending` state as shown in the image below. The Payout Link remains in this state until it is sent for approval. This status is applicable only for cases where [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) is enabled.
+As soon as a Payout Link is created, it immediately moves to the `pending` state as shown in the image below. The Payout Link remains in this state until it is sent for approval. This status is applicable only for cases where [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) is enabled.
 
-![Payout Link Status Pending on RazorpayX Dashboard.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-pending-payout.jpg.md)
+![Payout Link Status Pending on RazorpayX Dashboard.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-pending-payout.jpg.md)
 
 For cases where workflow is not applicable, Payout Link status is updated to `issued` immediately.
 
@@ -54,11 +54,11 @@ This is a last state for the Payout Link.
 
 A Payout Link moves to this state when the payout amount is not claimed by your contact within the stipulated date and time. A Payout Link that has expired can be duplicated to create another Payout Link without having to enter contact or amount details.
 
-Know how you can [set Payout Links to expire](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/set-expiry.md) after a certain duration. 
+Know how you can [set Payout Links to expire](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/set-expiry.md) after a certain duration. 
 
 ### Rejected
 
-A Payout Link moves to the `rejected` state if it is rejected by the Approver. This status is applicable only for cases where [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) is enabled.
+A Payout Link moves to the `rejected` state if it is rejected by the Approver. This status is applicable only for cases where [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) is enabled.
 
 ## Payout Life Cycle
 
@@ -73,10 +73,10 @@ Once your contact clicks on a Payout Link and enters their details, a payout is 
 - `rejected`
 - `failed`
 
-Refer to [Payout Life Cycle and States](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/#payout-life-cycle.md) for more information.
+Refer to [Payout Life Cycle and States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#payout-life-cycle) for more information.
 
 ### Related Information
 
-- [About Payout Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links.md)
-- [Bulk Payout Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/bulk.md)
-- [Shopify Payout Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/shopify.md)
+- [About Payout Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links.md)
+- [Bulk Payout Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/bulk.md)
+- [Shopify Payout Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links/shopify.md)

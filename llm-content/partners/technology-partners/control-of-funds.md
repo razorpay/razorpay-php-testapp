@@ -30,7 +30,7 @@ As a platform with a multi-party business model, you can charge a fee for your p
 
 Below image illustrates the money movement when a third-party is involved.
 
-![money movement flow with third-party](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cof-partners-third-party-fees.jpg.md)
+![money movement flow with third-party](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cof-partners-third-party-fees.jpg.md)
 
     
 ### Example #2
@@ -52,7 +52,7 @@ Below image illustrates the money movement when a third-party is involved.
 
 Below image illustrates the money movement only with partner fee, when no third-party is involved.
 
-![money movement flow with partners](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cof-partners-partner-fee.jpg.md)
+![money movement flow with partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cof-partners-partner-fee.jpg.md)
 
 > **WARN**
 >
@@ -103,7 +103,7 @@ After creating Linked Accounts, you can create payments on your sub-merchant acc
 
 To collect platform and third-party fees:
 
-1. [Set up Platform and Third-Party Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/control-of-funds/set-up-accounts.md)
-2. [Process Platform and Third-Party Fees](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/control-of-funds/process-fees.md)
+1. [Set up Platform and Third-Party Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/control-of-funds/set-up-accounts.md)
+2. [Process Platform and Third-Party Fees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/control-of-funds/process-fees.md)
 
-You can also create [refunds and reversals](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/control-of-funds/refunds-and-reversals.md) for transactions.
+You can also create [refunds and reversals](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/control-of-funds/refunds-and-reversals.md) for transactions.

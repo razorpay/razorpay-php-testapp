@@ -13,12 +13,12 @@ Payments APIs are used to capture and fetch payments. You can also fetch payment
 > 
 >  **Handy Tips**
 > 
->  You can use Payments API only to retrieve payment details or change the status from `authorized` to `captured` and **not** to collect payments. You can use our [products](@/Applications/MAMP/htdocs/new-docs/llm-content/payments.md) to accept payments. 
+>  You can use Payments API only to retrieve payment details or change the status from `authorized` to `captured` and **not** to collect payments. You can use our [products](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md) to accept payments. 
 >  
 
  
 
- Fork the Razorpay Postman Public Workspace and try the Payments APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md).
+ Fork the Razorpay Postman Public Workspace and try the Payments APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys).
 
  [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-11b2db21-9019-4814-9669-c70305b8fd6e)
 
@@ -26,9 +26,9 @@ Payments APIs are used to capture and fetch payments. You can also fetch payment
 
 ### Related Guides
 
-[ About Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments.md)
-[Set Up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md)
-[Sample Payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments.md)
+[ About Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md)
+[Set Up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)
+[Sample Payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md)
 
 ### Endpoints
 

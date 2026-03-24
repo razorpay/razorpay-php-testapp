@@ -14,4 +14,4 @@ description: Troubleshoot common error scenarios and find answers to frequently 
     
 ### 2. How do I integrate Razorpay with Laravel?
 
-         You can integrate Razorpay with Laravel using [Razorpay PHP SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/server-integration/php.md) which is compatible with Laravel and other PHP frameworks.
+         You can integrate Razorpay with Laravel using [Razorpay PHP SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/server-integration/php.md) which is compatible with Laravel and other PHP frameworks.

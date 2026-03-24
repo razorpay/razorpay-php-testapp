@@ -17,13 +17,13 @@ To view settlement details:
     - **Available Balance**: After the deduction of fees and tax, the payments received from your customers are added to your Available Balance.
     - **Next Settlement**: Date and time of next settlement.
 
-![razorpay settlements details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-settlements-details.jpg.md)
+![razorpay settlements details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-settlements-details.jpg.md)
 
 ## Segregated Balances
 
 If you are an omni-channel business (using both Payment Gateway and POS) or a cross-border business, your balances are **segregated by channel type (Online (Domestic transactions + International Cards), In-person and Alternate Payment Method (International))**. This ensures complete fund isolation and regulatory compliance.
 
-![razorpay settlements details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-settlements-details-segg-bal.jpg.md)
+![razorpay settlements details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-settlements-details-segg-bal.jpg.md)
 
 ### Types of Segregated Balances
 

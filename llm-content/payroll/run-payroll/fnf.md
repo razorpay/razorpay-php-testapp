@@ -6,13 +6,13 @@ description: Hold employee salary for individual employees and continue complian
 
 # FnF Hold Salary Pay Compliance
 
-You can terminate employees on the Dashboard and process their [full and final settlement (FnF)](https://razorpay.com/payroll/learn/full-and-final-settlement-fnf/). This enables you to offboard employees from your organisation and Payroll. Know more about [employee dismissal](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/resignation/#process-full-final-settlement.md). 
+You can terminate employees on the Dashboard and process their [full and final settlement (FnF)](https://razorpay.com/payroll/learn/full-and-final-settlement-fnf/). This enables you to offboard employees from your organisation and Payroll. Know more about [employee dismissal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/resignation.md#process-full-final-settlement). 
 
 When dismissing employees, you can hold employees' salaries to recover employee overhead costs while also continuing to make compliance payments on Payroll. 
 
 #### How Hold Salary Pay Compliance Works
 
-In some cases, you may need to withhold the employee's salary for the duration of their notice period to recover any losses incurred by the employee during their tenure of employment. However, you must continue to make the [compliance payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md).
+In some cases, you may need to withhold the employee's salary for the duration of their notice period to recover any losses incurred by the employee during their tenure of employment. However, you must continue to make the [compliance payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md).
          
 In such cases, you can enable the hold salary setting for that employee to withhold salary and continue to make compliance payments. 
 
@@ -45,7 +45,7 @@ This initiates the employee's full and final settlement process and redirects yo
 ### Hold Salary
 
 To hold the employee's salary:
-1. Select the **Last working date** (LWD) from the calendar and provide a reason for dismissal. If you have enabled the [resignation module](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/resignation.md), we automatically add the LWD.
+1. Select the **Last working date** (LWD) from the calendar and provide a reason for dismissal. If you have enabled the [resignation module](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/resignation.md), we automatically add the LWD.
 
     
 > **WARN**
@@ -58,16 +58,16 @@ To hold the employee's salary:
 
 1. In the **Salary during resignation months** section, select **Hold net pay till the last working month**. You can then select the start month for withholding salary from the **Hold net pay starting from** drop-down menu. 
 
-    ![Hold salary pay compliance during FnF on RazorpayX Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-hspc-dismiss-employee.jpg.md)
+    ![Hold salary pay compliance during FnF on RazorpayX Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-hspc-dismiss-employee.jpg.md)
     
-    You can select **Release Salary** to process the final settlement as per the regular [employee dismissal](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/resignation/#process-full-final-settlement.md) process. 
+    You can select **Release Salary** to process the final settlement as per the regular [employee dismissal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/resignation.md#process-full-final-settlement) process. 
 1. Click **Dismiss Employee**. Click **Dismiss** in the modal to confirm employee dismissal.
 
 You have successfully dismissed the employee. To prorate salary calculations including the additions, loss of pay and deductions based on the LWD, follow the steps to go to the [settlement/Net Pay](#settlement) page.
 
 Once you hold salary for an employee, you notice an **Net pay on hold** label against the employee/s names on the payroll during payroll execution. Employees cannot avail payslips via their Dashboard/WhatsApp/email for the on-hold months. 
 
-![RazorpayX Payroll Hold Salary Pay Compliance netpay on hold](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-hspc-netpay-onhold.jpg.md)
+![RazorpayX Payroll Hold Salary Pay Compliance netpay on hold](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-hspc-netpay-onhold.jpg.md)
 
 ### Settlement 
 
@@ -78,8 +78,8 @@ To make adjustments to the settlement amount:
 1. Log in to the Payroll Dashboard.
 1. Navigate to **ADMIN OPTIONS** → **People** and navigate to the particular employee's profile. 
 1. On the top-right pane, click **here** to open the resettlement page.
-    ![RazorpayX Payroll dismiss employee details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-hspc-dismissal.jpg.md)
-1. This opens the **Full and final settlement** page for the employee. Enter the adjustments as per the usual [employee dismissal](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/resignation/#process-full-final-settlement.md) process. 
+    ![RazorpayX Payroll dismiss employee details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-hspc-dismissal.jpg.md)
+1. This opens the **Full and final settlement** page for the employee. Enter the adjustments as per the usual [employee dismissal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/resignation.md#process-full-final-settlement) process. 
 
     
         
@@ -92,7 +92,7 @@ To make adjustments to the settlement amount:
                 - **Deductions (excluding salary advance)**.
                 - **Personal Email Address**.
 
-                 ![Payroll Dashboard make additions deductions FNF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-fnf-additions-deductions.jpg.md)
+                 ![Payroll Dashboard make additions deductions FNF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-fnf-additions-deductions.jpg.md)
             
 
     
@@ -110,7 +110,7 @@ After you fulfil the requirement for withholding employees' salary, you can adju
 To release net pay: 
 
 1. Navigate to **ADMIN OPTIONS** → **Pay Employees** → **Release Net Pay**.
-    ![RazorpayX Payroll release net pay for dismissed employees](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-hspc-release-netpay.jpg.md)
+    ![RazorpayX Payroll release net pay for dismissed employees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-hspc-release-netpay.jpg.md)
 1. Select the employee/s to view the net pay breakup in the right pane. 
 
     To make any changes to the employees' additions/deductions, LOP or personal email id, you can either hover on the employee's details and click **Manage FNF**, or click **Manage FNF Settlement →** in the right pane. 
@@ -126,7 +126,7 @@ You have successfully released the net pay for the employee/s.
 
             You may not be able to view the dismissal or net pay information of some of your dismissed employees as the payroll for the employee's last working month is not finalised. 
 
-            [Finalise Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#execute-payroll.md) in **Run Payroll** for the dismissed employee's net pay information to reflect on the RazorpayX Dashboard. 
+            [Finalise Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#execute-payroll) in **Run Payroll** for the dismissed employee's net pay information to reflect on the RazorpayX Dashboard. 
 
             Suppose your employee's LWD is 15th May. In that case, finalise the payroll for the month of May for the employee's dismissal information to appear on the **Release Net Pay** page. 
         
@@ -134,7 +134,7 @@ You have successfully released the net pay for the employee/s.
     
 ### 2. Does Payroll immediately transfer the net pay after I choose 'Release Salary' when initiating FNF?
 
-         No, choosing **Release Salary** does not immediately release the employee's net pay. Instead, Payroll processes the employee's [Full and final settlement](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/resignation/#process-full-final-settlement.md) as part of the monthly payroll activity. 
+         No, choosing **Release Salary** does not immediately release the employee's net pay. Instead, Payroll processes the employee's [Full and final settlement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/resignation.md#process-full-final-settlement) as part of the monthly payroll activity. 
         
 
     
@@ -146,7 +146,7 @@ You have successfully released the net pay for the employee/s.
     
 ### 4. What are the supported payment modes to process employee's FNF?
 
-            We support both NEFT and IMPS payment modes to process employee's full and final settlement. However, we recommend you choose NEFT as your default payment mode. Know more about [payroll payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/payroll-payouts/#make-payroll-payouts.md).
+            We support both NEFT and IMPS payment modes to process employee's full and final settlement. However, we recommend you choose NEFT as your default payment mode. Know more about [payroll payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/payroll-payouts.md#make-payroll-payouts).
         
 
     
@@ -163,4 +163,4 @@ You have successfully released the net pay for the employee/s.
 
 ### Related Information
 
-- [Terminate Employee and Run Last Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/resignation/#process-full-final-settlement.md)
+- [Terminate Employee and Run Last Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/resignation.md#process-full-final-settlement)

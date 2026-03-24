@@ -31,6 +31,6 @@ Let us create this offer.
 
 ### Related Information
 
-- [About No Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/no-cost-emi.md)
-- [No Cost EMI FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/low-cost-emi/faqs.md)
-- [EMI² Suite](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi².md)
+- [About No Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/no-cost-emi.md)
+- [No Cost EMI FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/low-cost-emi/faqs.md)
+- [EMI² Suite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi².md)

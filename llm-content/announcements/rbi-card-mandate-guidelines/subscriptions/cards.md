@@ -5,7 +5,7 @@ description: Check the banks that are going live on cards, existing mandates man
 
 # Cards Go Live on Subscriptions
 
-The [RBI issued a new circular](@/Applications/MAMP/htdocs/new-docs/llm-content/announcements/rbi-card-mandate-guidelines/subscriptions.md) on 31 March 2021 for banks to authorise mandates and collect recurring payments on credit, debit, and prepaid cards. According to the circular, all issuing banks must comply with the new guidelines. As a result, Cards as a payment method has been at a standstill since April 2021 and has impacted the entire recurring ecosystem.
+The [RBI issued a new circular](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/rbi-card-mandate-guidelines/subscriptions.md) on 31 March 2021 for banks to authorise mandates and collect recurring payments on credit, debit, and prepaid cards. According to the circular, all issuing banks must comply with the new guidelines. As a result, Cards as a payment method has been at a standstill since April 2021 and has impacted the entire recurring ecosystem.
 
 Certain banks have now complied with the new RBI guidelines and going live on Cards for Subscriptions. The following FAQs provide more information about such banks and our efforts to help businesses process Subscriptions and Recurring Payments without any issues.
 
@@ -17,7 +17,7 @@ Given below are some of the frequently asked questions.
 
 Businesses like yours can onboard customers and process recurring payments through debit, credit and prepaid cards of the following banks from October 1, 2021. Customers can now sign up for Subscription plans using their card details easily.
 
-Refer to the [list of banks that support cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/supported-banks-apps/#cards.md).
+Refer to the [list of banks that support cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/supported-banks-apps.md#cards).
 
 > **WARN**
 >
@@ -75,7 +75,7 @@ We will migrate existing Subscription plans of City Union Bank (CUB), OneCard an
 > 1. Cancel all card-based Subscriptions, and the status will be moved to the `cancelled` state.
 > 2. Notify your customers about the cancelled Subscriptions and send new subscription links, and request them to register afresh using UPI or the cards of banks that are live.
 > 
-> Refer to the [Subscriptions document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md) for more information.
+> Refer to the [Subscriptions document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md) for more information.
 > 
 > 
 

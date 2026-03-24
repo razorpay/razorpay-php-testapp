@@ -12,4 +12,4 @@ Consider this step before taking the integration live.
 
 After your testing is complete, use the production client keys to go live.
 
-![View Production and Development Credentials for Application](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/partners-oauth-create-application-prod-dev-credentials.jpg.md)
+![View Production and Development Credentials for Application](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-oauth-create-application-prod-dev-credentials.jpg.md)

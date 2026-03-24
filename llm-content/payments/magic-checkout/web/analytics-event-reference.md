@@ -5,7 +5,7 @@ description: Complete reference for Magic Checkout analytics events, payload sch
 
 # Magic Checkout Analytics Event Reference
 
-This page is a technical reference for all Magic Checkout analytics events. For setup instructions, see the [Magic Checkout Analytics Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/web/analytics-integration.md) guide.
+This page is a technical reference for all Magic Checkout analytics events. For setup instructions, see the [Magic Checkout Analytics Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/web/analytics-integration.md) guide.
 
 ## Common Payload Fields
 

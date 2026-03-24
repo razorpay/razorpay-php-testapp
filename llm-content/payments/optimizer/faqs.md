@@ -11,7 +11,7 @@ description: Find answers to frequently asked questions about Optimizer.
     
 ### 1. Which types of Razorpay Checkout does Optimizer support?
 
-         Optimizer is compatible with all types of Razorpay Checkout, including [Standard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md), [Custom](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md), and [Server-to-Server (S2S)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration.md) integrations.
+         Optimizer is compatible with all types of Razorpay Checkout, including [Standard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md), [Custom](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md), and [Server-to-Server (S2S)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration.md) integrations.
         
 
     
@@ -23,13 +23,13 @@ description: Find answers to frequently asked questions about Optimizer.
     
 ### 3. Which payment gateways are supported by Optimizer?
 
-         Optimizer supports a wide range of payment gateways and aggregators, including PayU, Pinelabs, Billdesk, Cashfree, Paytm, and many others. Find the complete [list of supported gateways](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/add-payment-providers#supported-payment-providers.md).
+         Optimizer supports a wide range of payment gateways and aggregators, including PayU, Pinelabs, Billdesk, Cashfree, Paytm, and many others. Find the complete [list of supported gateways](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/add-payment-providers.md#supported-payment-providers).
         
 
     
 ### 4. What payment modes are supported by Optimizer for different payment gateways?
 
-         Optimizer supports a range of payment modes, including cards, UPI, Netbanking, wallets, and EMI, providing a comprehensive payment solution. Optimizer also facilitates seamless refund and settlement processes, enhancing the overall payment experience. Know more about [supported gateways and methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md).
+         Optimizer supports a range of payment modes, including cards, UPI, Netbanking, wallets, and EMI, providing a comprehensive payment solution. Optimizer also facilitates seamless refund and settlement processes, enhancing the overall payment experience. Know more about [supported gateways and methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md).
         
 
     
@@ -37,7 +37,7 @@ description: Find answers to frequently asked questions about Optimizer.
 
          To onboard additional gateways on Optimizer, follow these simple steps:
          1. Log in to your Dashboard.
-         2. Follow the [steps to add a payment gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/add-payment-providers.md).
+         2. Follow the [steps to add a payment gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/add-payment-providers.md).
 
          
 > **WARN**
@@ -46,7 +46,7 @@ description: Find answers to frequently asked questions about Optimizer.
 >          **Watch Out!**
 > 
 >          - Ensure that the required prerequisites for your Merchant ID (MID) are enabled/configured by the respective gateways.
->          - Please note that the prerequisites may vary for each gateway. Know more about [prerequisites for various gateways](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/add-payment-providers/#supported-payment-providers.md).
+>          - Please note that the prerequisites may vary for each gateway. Know more about [prerequisites for various gateways](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/add-payment-providers.md#supported-payment-providers).
 >          
 
          Once the necessary steps are completed, the gateway will instantly activate, allowing you to start routing transactions through Optimizer.
@@ -87,7 +87,7 @@ description: Find answers to frequently asked questions about Optimizer.
     
 ### 8. How can I identify the payment gateway used for a payment in the payment fetch API or webhook events?
 
-         When Optimizer is enabled for your account, an additional parameter `gateway_provider` is included in the payment fetch response and webhook events. This parameter specifies the payment gateway through which the payment was made. Know more about [Payment API and Webhook events](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/get-started/#payments-api.md).
+         When Optimizer is enabled for your account, an additional parameter `gateway_provider` is included in the payment fetch response and webhook events. This parameter specifies the payment gateway through which the payment was made. Know more about [Payment API and Webhook events](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/get-started.md#payments-api).
         
 
     
@@ -117,7 +117,7 @@ description: Find answers to frequently asked questions about Optimizer.
     
 ### 1. Where can I pass the custom identifier in the order? 
 
-         The custom identifier needs to be passed in the Payments or Orders API. Know more about [custom identifiers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/create-custom-rule/#custom-identifiers.md).
+         The custom identifier needs to be passed in the Payments or Orders API. Know more about [custom identifiers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/create-custom-rule.md#custom-identifiers).
         
 
     
@@ -154,8 +154,8 @@ description: Find answers to frequently asked questions about Optimizer.
 ### 1. How does Optimizer support refunds?
 
          Refunds in Optimizer can be created using both the API and the Dashboard. There are two types of refunds available:
-         - [Normal Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/normal.md): For normal refunds, the refund is initiated with the respective payment gateway and depends on the availability of funds in the gateway's balance.
-         - [Instant Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/instant.md): For instant refunds, If Razorpay processes the payment, we initiate an instant refund through Razorpay. If another payment gateway processes the payment, we initiate the refund through that specific gateway.
+         - [Normal Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/normal.md): For normal refunds, the refund is initiated with the respective payment gateway and depends on the availability of funds in the gateway's balance.
+         - [Instant Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/instant.md): For instant refunds, If Razorpay processes the payment, we initiate an instant refund through Razorpay. If another payment gateway processes the payment, we initiate the refund through that specific gateway.
         
 
     

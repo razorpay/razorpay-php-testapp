@@ -19,7 +19,7 @@ Integrate with Razorpay React Native Standard SDK to accept payments from custom
 > 
 > **Update SDK**
 > 
-> Check your current SDK version. If it is outdated, please [update the SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/react-native-integration/standard/troubleshooting-faqs/#9-how-can-i-update-the-razorpay-react.md) to ensure uninterrupted settlements of your funds.
+> Check your current SDK version. If it is outdated, please [update the SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/react-native-integration/standard/troubleshooting-faqs.md#9-how-can-i-update-the-razorpay-react) to ensure uninterrupted settlements of your funds.
 > 
 
 > **INFO**
@@ -37,7 +37,7 @@ Integrate with Razorpay React Native Standard SDK to accept payments from custom
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup). 
 
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
 Choose your platform to begin integration:
 
@@ -49,4 +49,4 @@ Choose your platform to begin integration:
 
 ### Related Information
 
-[Troubleshooting and FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard/troubleshooting-faqs.md)
+[Troubleshooting and FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard/troubleshooting-faqs.md)

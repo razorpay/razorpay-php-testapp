@@ -74,6 +74,6 @@ After clicking `Connect`, the team member is redirected to Payroll to login and 
 
 ### Related Information
 
-- [Integrations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations.md) 
-- [Leaves](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/leaves.md) 
-- [Emplyoees](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees.md)
+- [Integrations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations.md) 
+- [Leaves](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/leaves.md) 
+- [Emplyoees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md)

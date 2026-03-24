@@ -10,7 +10,7 @@ Check the prerequisites and steps to integrate Razorpay Subscriptions:
 ## Prerequisites
 
 - Create a Razorpay account.
-- Log in to the Dashboard and [generate the API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md). You need to use these keys while using our APIs and Checkout.
+- Log in to the Dashboard and [generate the API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys). You need to use these keys while using our APIs and Checkout.
 
 ## Integration Steps
 
@@ -32,15 +32,15 @@ Follow these steps to create plans, subscriptions and accept payments from custo
 		 A Plan is a foundation on which a Subscription is built. It acts as a reusable template and contains details of the goods or services offered with the amount to be charged and the frequency at which the customer should be charged (billing cycle). Depending on your business, you can create multiple Plans with different billing cycles and pricing.
 
 		 - Create a Plan before creating a Subscription using your checkout.
-		 - Create Plans from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-plans/#create-a-plan.md) or using [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/create-plan.md).
+		 - Create Plans from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-plans.md#create-a-plan) or using [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/create-plan.md).
 		
 
 	
 ### Step 1.2 Create a Subscription
 
-		 A Subscription contains details like the Plan, the start date, total number of billing cycles, free [trial period](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create/#trial-period.md) (if any) and [upfront amount](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create/#upfront-amount.md) to be collected.
+		 A Subscription contains details like the Plan, the start date, total number of billing cycles, free [trial period](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md#trial-period) (if any) and [upfront amount](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create.md#upfront-amount) to be collected.
 
-         Subscriptions can be created from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/create-subscription-links/#create-a-subscription-link-from-dashboard.md) or using [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/create-subscription.md).
+         Subscriptions can be created from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/create-subscription-links.md#create-a-subscription-link-from-dashboard) or using [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/create-subscription.md).
 		
 
 	
@@ -59,7 +59,7 @@ Follow these steps to create plans, subscriptions and accept payments from custo
 					Code to Add Pay Button
 					
 					
-							Use the sample code to initiate Razorpay Standard Checkout. Check the [list of checkout parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps/#123-checkout-options.md).
+							Use the sample code to initiate Razorpay Standard Checkout. Check the [list of checkout parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#123-checkout-options).
 					
 					```js: Checkout with Callback URL
 					Pay
@@ -155,7 +155,7 @@ Follow these steps to create plans, subscriptions and accept payments from custo
 							---
 							Oops! Something went wrong. Please contact the merchant for further assistance. | - This error occurs when Flash Checkout is not enabled on the Dashboard.
 - This error also occurs if the `subscription_id` is in the cancelled/expired state.
- | - Ensure that flash checkout is enabled on the Dashboard by navigating to Dashboard → Account & Settings → [Flash Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/checkout-features/#flash-checkout.md).
+ | - Ensure that flash checkout is enabled on the Dashboard by navigating to Dashboard → Account & Settings → [Flash Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-features.md#flash-checkout).
 - Ensure that the Subscription is in the authenticated or active state.
 
 							
@@ -232,16 +232,16 @@ Consider the following steps before taking your integration live.
 	
 ### Subscribe to Webhooks
 
-	 [Set up Razorpay Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md) to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL. Subscribe to these [Subscriptions webhook events](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/subscribe-to-webhooks/#webhook-events-and-descriptions.md).
+	 [Set up Razorpay Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md) to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL. Subscribe to these [Subscriptions webhook events](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/subscribe-to-webhooks.md#webhook-events-and-descriptions).
 	
 
 ## Best Practices
 
 Follow the best practices for a smooth Subscriptions integration.
-- [Verify Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/integration-guide/#payment-verification.md): Verify the received payments to confirm the authenticity of the mandate details returned to the Checkout form for successful payments.
-- [Implement Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/integration-guide/#subscribe-to-webhooks.md): Implement Razorpay Webhooks to receive notifications on various events of Subscriptions.
+- [Verify Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/integration-guide.md#payment-verification): Verify the received payments to confirm the authenticity of the mandate details returned to the Checkout form for successful payments.
+- [Implement Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/integration-guide.md#subscribe-to-webhooks): Implement Razorpay Webhooks to receive notifications on various events of Subscriptions.
 
 ### Related Information
 
-- [Subscriptions API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions.md)
-- [Razorpay Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md)
+- [Subscriptions API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions.md)
+- [Razorpay Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md)

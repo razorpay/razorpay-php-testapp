@@ -209,7 +209,7 @@ Click **Download Report** to download the report. This report has the following 
 
 ## Charge Tokens
 
-To charge tokens using the batch upload feature, you will first need the list of [Tokens](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create#3-search-for-the-token.md) for which recurring payments are to be created.
+To charge tokens using the batch upload feature, you will first need the list of [Tokens](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#3-search-for-the-token) for which recurring payments are to be created.
 
 > **INFO**
 >
@@ -239,7 +239,7 @@ To charge tokens immediately:
 1. Log in to Dashboard.
 1. Under **PAYMENT PRODUCTS**, navigate to **Subscriptions** → **Batch Upload** → **Upload New Batch** → **Batch Recurring Payments**.
 1. Download the [sample file](https://cdn.razorpay.com/dashboard/sample_recurring_payments.csv).
-1. Add the required data. Know more about the Batch Fields from the [below table](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/batch-operations/#charge-token-batch-fields.md).
+1. Add the required data. Know more about the Batch Fields from the [below table](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/batch-operations.md#charge-token-batch-fields).
 1. Upload the file to the Dashboard.
 1. Select **Process Now**.
 1. Click **Create**.
@@ -256,7 +256,7 @@ To schedule to charge tokens:
 1. Log in to Dashboard.
 1. Under **PAYMENT PRODUCTS**, navigate to **Subscriptions** → **Batch Upload** → **Upload New Batch** → **Batch Recurring Payments**.
 1. Download the [sample file](https://cdn.razorpay.com/dashboard/sample_recurring_payments.csv).
-1. Add the required data. Know more about the Batch Fields from the [below table](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/batch-operations/#charge-token-batch-fields.md).
+1. Add the required data. Know more about the Batch Fields from the [below table](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/batch-operations.md#charge-token-batch-fields).
 1. Upload the file to the Dashboard.
 1. Select **Schedule for Later** and select the date and time you want to charge the tokens. The schedule time should be at least 1 hour from the current time.
 1. Click **Create**.
@@ -307,5 +307,5 @@ Click `Download Report` to download the processed file. This file has the follow
 : The reason for the error. For example, `Payment amount exceeds the maximum amount allowed.`
 
 ### Related Information
-- [ Create Recurring Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create.md)
-- [Paper NACH Form](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/upload-paper-nach-form.md)
+- [ Create Recurring Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md)
+- [Paper NACH Form](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upload-paper-nach-form.md)

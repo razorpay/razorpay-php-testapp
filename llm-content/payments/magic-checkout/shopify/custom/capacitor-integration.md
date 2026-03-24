@@ -10,10 +10,10 @@ Follow these steps to integrate the Razorpay Magic Checkout on your Capacitor ap
 
 ## Prerequisites
 
-- Ensure you enable [Magic Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/troubleshooting-faqs/#3-how-do-i-check-if-magic-checkout.md) on your account.
-- Integrate [Magic Checkout With Shopify Store](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify.md).
-- Integrate with [Capacitor Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/capacitor-integration.md).
-- Generate [Live API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/#api-keys.md) from the Dashboard. 
+- Ensure you enable [Magic Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/troubleshooting-faqs.md#3-how-do-i-check-if-magic-checkout) on your account.
+- Integrate [Magic Checkout With Shopify Store](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify.md).
+- Integrate with [Capacitor Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/capacitor-integration.md).
+- Generate [Live API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings.md#api-keys) from the Dashboard. 
 
   - **1. Build Integration**:  Integrate with Capacitor App for Shopify.
 
@@ -479,7 +479,7 @@ Follow the steps given below:
               
               ```
 
-              Know more about [UPI Intent and its benefits](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/upi-intent.md).
+              Know more about [UPI Intent and its benefits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/upi-intent.md).
             
 
      

@@ -14,11 +14,11 @@ Follow these steps to issue a refund:
 
 1. Log in with your Dashboard credentials. You can also use the **Login With Google** option. If you have enabled the 2FA feature on your account, complete the OTP process. 
 
-    ![Payments Mobile App Login](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-mobile-app-login.jpg.md)
+    ![Payments Mobile App Login](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-mobile-app-login.jpg.md)
 2. Navigate to **Transactions** → **Payments**. Tap on the payment for which you have to issue a refund.
 
 3. Tap **Issue Refund**.
-    ![Issue Refunds using Razorpay Mobile App](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-mobile-app-refund.jpg.md)
+    ![Issue Refunds using Razorpay Mobile App](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-mobile-app-refund.jpg.md)
 4. Provide the following details:
     - Enter the refund amount. You can choose to make a full or partial refund.
     - Select **Refund Instantly** if you want the refund to reach the customer within a day's time.
@@ -29,7 +29,7 @@ Follow these steps to issue a refund:
 >     **Handy Tips**
 > 
 >         - Instant refund carries additional fees.
->         - This feature is available only on Netbanking, UPI and select debit and credit cards. [Check the complete list of payment methods.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/instant/#payment-methods.md)
+>         - This feature is available only on Netbanking, UPI and select debit and credit cards. [Check the complete list of payment methods.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/instant.md#payment-methods)
 >     
 
     - You can add a comment. This is an optional field.
@@ -37,7 +37,7 @@ Follow these steps to issue a refund:
 
 6. Tap **Yes, Issue Refund** to confirm. You get a confirmation popup as shown: 
 
-    ![successful refund](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-mobile-app-success-refund.jpg.md)
+    ![successful refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-mobile-app-success-refund.jpg.md)
 7. To view the details, tap on the payment for which you initiated a refund.
 
 ## Refund States
@@ -52,5 +52,5 @@ Processed | Once the refund has been processed, it goes to the `processed` state
 
 ### Related Information
 
-- [ Razorpay Mobile App](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/mobile-app.md)
-- [Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds.md)
+- [ Razorpay Mobile App](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/mobile-app.md)
+- [Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md)

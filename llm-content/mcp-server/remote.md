@@ -13,7 +13,7 @@ Before installing the Razorpay Remote MCP Server, ensure you have:
 
 - **AI Assistant**: Claude Desktop, Cursor, Visual Studio Code, or similar AI-assisted application.
 - **Razorpay Account**: Active Razorpay account with API access.
-- **Authentication**: Generate [Razorpay API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard. Alternatively, you can use [OAuth](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/oauth.md).
+- **Authentication**: Generate [Razorpay API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard. Alternatively, you can use [OAuth](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/oauth.md).
 
 ## Step 1: Install Node.js
 
@@ -108,7 +108,7 @@ Choose your AI-assisted application and follow the corresponding configuration s
 > 
 > **Deprecation Notice**
 > 
-> Effective **August 13, 2025**, the endpoint `https://mcp.razorpay.com/sse` is deprecated and replaced by `https://mcp.razorpay.com/mcp`, which supports streamable HTTP responses for improved performance. Update your integrations immediately to avoid service disruptions. Refer to the [changelog](@/Applications/MAMP/htdocs/new-docs/llm-content/api/changelog.md).
+> Effective **August 13, 2025**, the endpoint `https://mcp.razorpay.com/sse` is deprecated and replaced by `https://mcp.razorpay.com/mcp`, which supports streamable HTTP responses for improved performance. Update your integrations immediately to avoid service disruptions. Refer to the [changelog](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/changelog.md).
 > 
 
   
@@ -217,7 +217,7 @@ If successful, you should see a list of available Razorpay MCP tools.
 
 Once your Remote MCP Server is set up:
 
-1. **Explore Use Cases**: Review [practical examples](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/use-cases.md) of AI-powered payment operations.
-2. **Learn Available Tools**: Check the [Tools Reference](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/tools-reference.md) for complete capabilities.
-3. **Advanced Configuration**: See [Configuration Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/configuration.md) for additional options.
+1. **Explore Use Cases**: Review [practical examples](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/use-cases.md) of AI-powered payment operations.
+2. **Learn Available Tools**: Check the [Tools Reference](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/tools-reference.md) for complete capabilities.
+3. **Advanced Configuration**: See [Configuration Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/configuration.md) for additional options.
 4. **Start Building**: Begin using natural language commands to interact with Razorpay APIs

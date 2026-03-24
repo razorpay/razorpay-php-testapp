@@ -20,7 +20,7 @@ In this flow, customers likely enter invalid VPAs or forget their VPAs, which co
 ## Prerequisites
 
 - Create a [Razorpay Account](https://dashboard.razorpay.com/signup).
-- [Generate API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from your Dashboard.
+- [Generate API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from your Dashboard.
 
 ## User Flow
 
@@ -33,4 +33,4 @@ The user flow for accepting payments using tokens is as follows:
 
 ## Integration
 
-Know how to [Build Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/saved-vpa/build-integration.md) to save VPAs.
+Know how to [Build Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/saved-vpa/build-integration.md) to save VPAs.

@@ -43,7 +43,7 @@ Create a segment of young, high-spending customers in metro cities who purchased
 To create a new customer segment:
 
 1. Under **Manage** section, on the **Customer Segmentations** page, click **+ Create New Segment**. The **Create New Segment** page appears.
-    ![Create New Customer Segment](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/create-customer-segmentation.jpg.md)
+    ![Create New Customer Segment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/create-customer-segmentation.jpg.md)
 2. Enter the Segment name and description.
 3. You can configure various combinations of parameters based on which you want to create the customer segment.
     - Select the segment type: Static or Real-time.

@@ -28,7 +28,7 @@ To create a Customer Identifier from the Dashboard:
     - Enable **Bank Transfer (NEFT, RTGS, IMPS)** to create a Customer Identifier.
     - Enable **UPI Transfer** to create a virtual UPI ID.
         - Create custom UPI ID - Enter a custom identifier for the customer in the UPI ID field (12 characters of letters and numbers, for example, `gauravkumar1`). If left blank, the UPI ID will be auto-generated.
-            ![Create Customer Identifier](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/smart-collect-create_ci.jpg.md)
+            ![Create Customer Identifier](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/smart-collect-create_ci.jpg.md)
         - The prefix, `acmecorp` can be modified using the **click here** link. This opens a small modal where you can enter a new prefix.
 
         
@@ -52,13 +52,13 @@ To create a Customer Identifier from the Dashboard:
 > 
 >         **Handy Tips**
 > 
->         Refer to the [Third Party Validation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect/third-party-validation.md) document for more details.
+>         Refer to the [Third Party Validation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/third-party-validation.md) document for more details.
 >         
 
     2. Click **Configure** to add details of **Authorised Accounts**.
-    ![Smart Collect TPV](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/smart-collect-tpv.jpg.md)
+    ![Smart Collect TPV](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/smart-collect-tpv.jpg.md)
     3. Enter **IFSC Code** and **Account Number**.
-    ![TPV - Add Bank Account no and IFSC](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/smart-collect-authorised_accounts.jpg.md)
+    ![TPV - Add Bank Account no and IFSC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/smart-collect-authorised_accounts.jpg.md)
     4. Click **+ Add Another Account** to add accounts. You can add up to 10 **Authorised Accounts**.
     5. Click **Save**.
 
@@ -74,11 +74,11 @@ Once the Customer Identifier has been created, you can copy the details and shar
 > While sharing the details of CIs (created using RBL bank) with the customers, ensure that the fifth character in the IFSC is number `0` and not the letter O. For example, valid IFSC is `RATN0VAAPIS` and not `RATNOVAAPIS`.
 > 
 
-![Customer Identifier Created](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/smart-collect-va_list.jpg.md)
+![Customer Identifier Created](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/smart-collect-va_list.jpg.md)
 
 The Customer Identifier appears in the list as shown below:
 
-![Created CI list](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/smart-collect-va-created-list.jpg.md)
+![Created CI list](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/smart-collect-va-created-list.jpg.md)
 
 ## View Payments
 

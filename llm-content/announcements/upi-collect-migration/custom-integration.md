@@ -7,7 +7,7 @@ description: According to NPCI guidelines, the UPI Collect flow is deprecated. U
 
 According to NPCI guidelines, the UPI Collect flow is being deprecated effective 28 February 2026 to align with the latest ecosystem compliance standards and ensure higher transaction success rates. Customers can no longer make payments by manually entering VPA/UPI id/mobile numbers.
 
-- If you are a new customer, use [UPI Intent](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods/#intent-flow.md). 
+- If you are a new customer, use [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods.md#intent-flow). 
 - If you are an existing customer, you must migrate to UPI Intent or UPI QR code to continue accepting UPI payments.
 
 #### Exemptions

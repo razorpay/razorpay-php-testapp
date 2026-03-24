@@ -13,31 +13,31 @@ description: Find answers to some Frequently Asked Questions (FAQs) about Razorp
 
        Razorpay is an RBI-approved payment aggregator that empowers businesses to accept online customer payments easily. It manages the settlement of these payments, ensuring that funds collected from customers are securely transferred to online businesses. Razorpay supports a variety of payment methods, including debit cards, credit cards, cardless EMIs, UPI, bank transfers, e-wallets, and e-mandates, offering businesses flexible options to enhance customer experience.  
 
-       List of [Razorpay Products](@/Applications/MAMP/htdocs/new-docs/llm-content/payments.md).
+       List of [Razorpay Products](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md).
       
 
    
 ### 2. How can I start using Razorpay products?
 
-       To start using any Razorpay products, you need to sign up with Razorpay. Know more about [setting up your Razorpay account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up.md).
+       To start using any Razorpay products, you need to sign up with Razorpay. Know more about [setting up your Razorpay account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md).
       
 
    
 ### 3. If I have created an account for Razorpay Payment products, do I still need to create an account with RazorpayX?
 
-       If you have an existing Razorpay account for Razorpay Payment products, you can use the same user id and password for RazorpayX. Know more about [getting started with RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/x/set-up.md).
+       If you have an existing Razorpay account for Razorpay Payment products, you can use the same user id and password for RazorpayX. Know more about [getting started with RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/set-up.md).
       
 
    
 ### 4. There are so many Razorpay products. How do I know which one is best for my business?
 
-       Please read the section about [choosing the Razorpay products](@/Applications/MAMP/htdocs/new-docs/llm-content/payments.md) as per your business needs. You can also raise a [support request](https://razorpay.com/support/#request/) for an expert opinion.
+       Please read the section about [choosing the Razorpay products](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md) as per your business needs. You can also raise a [support request](https://razorpay.com/support/#request/) for an expert opinion.
       
 
    
 ### 5. I have signed up now. What do I do next?
 
-       You can log in to the Dashboard, fill out the activation form and submit the same. Know more about [account set up](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up.md).
+       You can log in to the Dashboard, fill out the activation form and submit the same. Know more about [account set up](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md).
       
 
    
@@ -49,7 +49,7 @@ description: Find answers to some Frequently Asked Questions (FAQs) about Razorp
    
 ### 7. Does Razorpay support payments via bank transfers?
 
-       Yes, you can accept payments via bank transfers using the [Bank Transfers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/bank-transfer.md) payment method on Razorpay Checkout. If you do not have a website or app, you can use our product [Smart Collect](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect.md).
+       Yes, you can accept payments via bank transfers using the [Bank Transfers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bank-transfer.md) payment method on Razorpay Checkout. If you do not have a website or app, you can use our product [Smart Collect](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect.md).
       
 
    
@@ -63,37 +63,37 @@ description: Find answers to some Frequently Asked Questions (FAQs) about Razorp
    
 ### 9. I do not have a website. Can I still use Razorpay?
 
-       Yes, you can use Razorpay to accept payments even if you do not have a website or mobile app. Check out our [range of products](@/Applications/MAMP/htdocs/new-docs/llm-content/payments.md).
+       Yes, you can use Razorpay to accept payments even if you do not have a website or mobile app. Check out our [range of products](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md).
       
 
    
 ### 10. How do I sign up for a test or sandbox account?
 
-       After logging in, you can sign up for an account on the Dashboard and use [test mode](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/test-live-modes#test-mode-vs-live-mode.md) to try out the products.
+       After logging in, you can sign up for an account on the Dashboard and use [test mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/test-live-modes.md#test-mode-vs-live-mode) to try out the products.
       
 
    
 ### 11. Does Razorpay provide Invoices?
 
-       Yes, you can use Razorpay Invoices to create and send invoices to customers and accept payments. Know more about [invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices.md).
+       Yes, you can use Razorpay Invoices to create and send invoices to customers and accept payments. Know more about [invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md).
       
 
    
 ### 12. How can I collect subscriptions from my customers?
 
-       You can offer subscription plans to your customers with automated recurring transactions on various payment modes. Know more about [Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md).
+       You can offer subscription plans to your customers with automated recurring transactions on various payment modes. Know more about [Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md).
       
 
    
 ### 13. Can I know more about the split payments solution?
 
-       Razorpay Route allows you to split payments between third parties, sellers or bank accounts. Using Route, you can easily manage settlements, refunds, reconciliations and make vendor payments. It is helpful for businesses that disburse payments in a one-to-many model. Know more about [Route](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route.md).
+       Razorpay Route allows you to split payments between third parties, sellers or bank accounts. Using Route, you can easily manage settlements, refunds, reconciliations and make vendor payments. It is helpful for businesses that disburse payments in a one-to-many model. Know more about [Route](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route.md).
       
 
    
 ### 14. How can I earn money from Razorpay?
 
-       We are a payment solutions provider and help businesses to accept payments online. If you have a business venture and are looking to accept payments online, you can [sign up](https://razorpay.com/partners/) with us. Also, we offer a referral program wherein you can refer a business to Razorpay. Know more about [Partners](@/Applications/MAMP/htdocs/new-docs/llm-content/partners.md).
+       We are a payment solutions provider and help businesses to accept payments online. If you have a business venture and are looking to accept payments online, you can [sign up](https://razorpay.com/partners/) with us. Also, we offer a referral program wherein you can refer a business to Razorpay. Know more about [Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners.md).
       
 
    
@@ -123,26 +123,26 @@ description: Find answers to some Frequently Asked Questions (FAQs) about Razorp
         
         Payment Gateway Ecommerce Plugins | Other Ecommerce Plugins
         ---
-        - [Arastta Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/arastta.md)
-- [BigCommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/bigcommerce.md)
-- [CS-Cart Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/cs-cart.md)
-- [Easy Digital Download Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/easy-digital-downloads.md)
-- [ Magento Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/magento.md)
-- [OpenCart Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/open-cart.md)
-- [PrestaShop Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/prestashop.md)
-- [Shopify Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify.md)
-- [WHMCS Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/whmcs.md)
-- [Wix Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/wix.md)
-- [WooCommerce Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce.md)
-- [WordPress Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/wordpress.md)
- | [Razorpay Direct - Credit Card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/razorpay-direct-credit-card.md)
+        - [Arastta Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/arastta.md)
+- [BigCommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/bigcommerce.md)
+- [CS-Cart Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/cs-cart.md)
+- [Easy Digital Download Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/easy-digital-downloads.md)
+- [ Magento Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/magento.md)
+- [OpenCart Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/open-cart.md)
+- [PrestaShop Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/prestashop.md)
+- [Shopify Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify.md)
+- [WHMCS Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/whmcs.md)
+- [Wix Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/wix.md)
+- [WooCommerce Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/woocommerce.md)
+- [WordPress Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/wordpress.md)
+ | [Razorpay Direct - Credit Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/razorpay-direct-credit-card.md)
         
       
 
    
 ### 2. How do I find my Razorpay credentials?
 
-       The email/password is only used to log in to the Dashboard. To authenticate against the API, you will need to generate a KeyID, and KeySecret. Know how to generate [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+       The email/password is only used to log in to the Dashboard. To authenticate against the API, you will need to generate a KeyID, and KeySecret. Know how to generate [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
       
 
    
@@ -160,25 +160,25 @@ description: Find answers to some Frequently Asked Questions (FAQs) about Razorp
    
 ### 5. How to create a Razorpay API instance?
 
-       The instance creation method differs based on the platform. Refer to the relevant [SDK Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/server-integration.md).
+       The instance creation method differs based on the platform. Refer to the relevant [SDK Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/server-integration.md).
       
 
    
 ### 6. Where can I find the API references?
 
-       Refer to the [API Reference guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api.md).
+       Refer to the [API Reference guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md).
       
 
    
 ### 7. Can I accept customer payments using Paytm wallet?
 
-       Yes, you can provide Paytm as a payment method for your customers via Razorpay. Know more about [Paytm Wallet](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/wallets/paytm.md) as a payment method.
+       Yes, you can provide Paytm as a payment method for your customers via Razorpay. Know more about [Paytm Wallet](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets/paytm.md) as a payment method.
       
 
    
 ### 8. What are the platforms supported by Razorpay?
 
-       We support a range of web and mobile platforms. Refer to the [integration list](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/#integration-types.md).
+       We support a range of web and mobile platforms. Refer to the [integration list](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md#integration-types).
       
 
    
@@ -190,7 +190,7 @@ description: Find answers to some Frequently Asked Questions (FAQs) about Razorp
    
 ### 10. The platform I am integrating with is not listed on your webpage. Can I still integrate?
 
-       If the required platform/plugin is not listed, you can try integrating it on your own using this [method](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/build-your-own.md).
+       If the required platform/plugin is not listed, you can try integrating it on your own using this [method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/build-your-own.md).
       
 
 ### Pricing
@@ -236,17 +236,17 @@ description: Find answers to some Frequently Asked Questions (FAQs) about Razorp
    
 ### 4. How I do display different currencies (other than INR) on the Razorpay Checkout to my customers?
 
-       - You must get the [international payments feature](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments#application-process.md) enabled on your Razorpay account to accept payments in currencies other than INR. 
-       - The native currencies like USD and SGD, which are a part of the [list of currencies supported by Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments#supported-currencies.md), can be updated as a part of the **currency** parameter on the payment request. 
+       - You must get the [international payments feature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#application-process) enabled on your Razorpay account to accept payments in currencies other than INR. 
+       - The native currencies like USD and SGD, which are a part of the [list of currencies supported by Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies), can be updated as a part of the **currency** parameter on the payment request. 
        - Raise a request with the [support team](https://razorpay.com/support/#request/merchant/international-payment-acceptance) to display any currencies that are not a part of the above list.
       
 
 ### Related Information
 
-- [Razorpay Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments.md)
-- [Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway.md)
-- [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard.md)
-- [RazorpayX and Banking Plus](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md)
+- [Razorpay Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md)
+- [Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md)
+- [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard.md)
+- [RazorpayX and Banking Plus](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md)
 
 .
       
@@ -265,6 +265,6 @@ description: Find answers to some Frequently Asked Questions (FAQs) about Razorp
 
 ### Related Information
 
-- [Razorpay Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments.md)
-- [Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway.md)
-- [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard.md)
+- [Razorpay Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md)
+- [Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md)
+- [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard.md)

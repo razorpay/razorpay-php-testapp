@@ -48,10 +48,10 @@ Follow the steps given below:
             2. Navigate to **System Settings** → **Payment Gateways**.
             3. Click **Manage Existing Gateways**.
             4. Select the **Enable Webhook** option.
-            5. Copy the URL that appears on the screen. In the Razorpay Dashboard, configure this URL in **Accounts & Settings** → **Webhooks**. Know more about how to [setup webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
+            5. Copy the URL that appears on the screen. In the Razorpay Dashboard, configure this URL in **Accounts & Settings** → **Webhooks**. Know more about how to [setup webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
             6. Enter the secret.
 
-            ![Setting up Webhooks on WHMCS site](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ecommerce-plugins-whmcs-whmcs-webhooks.jpg.md)
+            ![Setting up Webhooks on WHMCS site](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ecommerce-plugins-whmcs-whmcs-webhooks.jpg.md)
 
             
             
@@ -67,16 +67,16 @@ Follow the steps given below:
 > 
 >                       **Handy Tips**
 >             
->                       Webhooks can only be delivered to public URLs. You will notice an error if you attempt to save a localhost endpoint as part of a webhook setup. Know about [validating and testing webhooks for alternatives to localhost](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test/#test-webhooks.md).
+>                       Webhooks can only be delivered to public URLs. You will notice an error if you attempt to save a localhost endpoint as part of a webhook setup. Know about [validating and testing webhooks for alternatives to localhost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md#test-webhooks).
 >                       
 
-                     - Enter the Secret you provided on the WHMCS site. The secret is used to validate where the webhook is from Razorpay. Do not expose the secret publicly. Know about how to [validate webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test/#validate-webhooks.md).
+                     - Enter the Secret you provided on the WHMCS site. The secret is used to validate where the webhook is from Razorpay. Do not expose the secret publicly. Know about how to [validate webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md#validate-webhooks).
                      - In the **Alert Email field**, enter the email address to which notifications must be sent in case of webhook failure.
                      - Select the `order.paid` event from the list of **Active Events**.
 
                 5. Click **Create Webhook**. 
 
-                 ![Setting up Webhooks on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/ecommerce-plugins-whmcs-rzp-webhooks.jpg.md)
+                 ![Setting up Webhooks on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/ecommerce-plugins-whmcs-rzp-webhooks.jpg.md)
             
            
         

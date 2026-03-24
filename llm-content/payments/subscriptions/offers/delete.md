@@ -5,7 +5,7 @@ description: Remove an Offer from a Subscrition using Dashboard or APIs.
 
 # Delete an Offer Linked to a Subscription
 
-You can delete an Offer linked to a Subscription from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers/delete/#delete-an-offer-linked-to-a-subscription-from.md) or using [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers/delete/#delete-an-offer-linked-to-a-subscription-using.md). The invoices generated after the offer is deleted will be charged in full.
+You can delete an Offer linked to a Subscription from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers/delete.md#delete-an-offer-linked-to-a-subscription-from) or using [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers/delete.md#delete-an-offer-linked-to-a-subscription-using). The invoices generated after the offer is deleted will be charged in full.
 
 ## Delete an Offer Linked to a Subscription From Dashboard
 
@@ -28,13 +28,13 @@ To delete an Offer linked to a Subscription:
 
 ## Delete an Offer Linked to a Subscription Using APIs
 
-Use the [Delete an offer Linked to a Subscription API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/subscriptions/delete-offer.md).
+Use the [Delete an offer Linked to a Subscription API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/delete-offer.md).
 
 @include subscriptions/subscriptions/subscriptions-delete-offer
 
 ### Related Information
 
-- [About Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers.md)
-- [Create Subscription Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers/create.md)
-- [Link an Offer to a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers/link.md)
-- [Update an Offer Linked to a Subscription](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/offers/update.md)
+- [About Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers.md)
+- [Create Subscription Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers/create.md)
+- [Link an Offer to a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers/link.md)
+- [Update an Offer Linked to a Subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers/update.md)

@@ -19,4 +19,4 @@ QR Code is an information matrix in a machine-readable format containing the req
 
 ### What Next
 
-[Integrate with our APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi-qr/api.md) to accept payments. Also, check the [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi-qr/faqs.md) related to UPI QR Codes.
+[Integrate with our APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi-qr/api.md) to accept payments. Also, check the [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi-qr/faqs.md) related to UPI QR Codes.

@@ -37,7 +37,7 @@ Ensure the following prerequisites to integrate Payroll with Zoho People:
                 1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
                 1. Navigate to **ADMIN OPTIONS** → **Integrations**. 
                 1. Look for your Zoho People using the **HRMS** filter at the top and click **I'm Interested**. We enable the integration for you.
-                    ![HRMS Integration options on RazorpayX Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-zoho-integration-explore.jpg.md)
+                    ![HRMS Integration options on RazorpayX Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-zoho-integration-explore.jpg.md)
             
 
     
@@ -81,7 +81,7 @@ There are three steps to integrate Zoho People with Payroll:
                         
                             You can click **Edit Fields** to select the information you want to import to Payroll.
 
-                                ![Select Zoho employee fields to Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-zoho-integration-select-fields.jpg.md) 
+                                ![Select Zoho employee fields to Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-zoho-integration-select-fields.jpg.md) 
                         1. Click **Save and continue**.
 
                         This successfully imports the selected employee details to Payroll. You can edit employees' details such as personal information on Zoho People only.
@@ -96,7 +96,7 @@ There are three steps to integrate Zoho People with Payroll:
 
                         For example, you can choose trainees, full-time employees, interns and more as `employees`. The unselected employee types are mapped as `contractors`.
 
-                        ![Zoho People employee mapping Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-zoho-integration-emp-type.jpg.md)
+                        ![Zoho People employee mapping Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-zoho-integration-emp-type.jpg.md)
                      1. Click **Next**.
 
                      This completes the employee mapping. All the selected types are considered `employees` on the Payroll Dashboard.
@@ -126,7 +126,7 @@ There are three steps to integrate Zoho People with Payroll:
 >                             - Unselected employee statuses are considered as `dismissed`.
 >                          
 
-                         ![Zoho People employee status mapping Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-zoho-integration-emp-status-mapping.jpg.md)
+                         ![Zoho People employee status mapping Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-zoho-integration-emp-status-mapping.jpg.md)
                      1. Click **Next**.
 
                      This successfully imports employee data to Payroll. 
@@ -148,7 +148,7 @@ There are three steps to integrate Zoho People with Payroll:
             - You can download your current Payroll data from the HR Register on the Payroll Dashboard.
          1. Type `Confirm` in the text box.
 
-            ![Payroll Zoho integration type Confirm in text box](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-zoho-integration-confirm.jpg.md)
+            ![Payroll Zoho integration type Confirm in text box](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-zoho-integration-confirm.jpg.md)
          1. Click **Integrate**.
         
 
@@ -171,12 +171,12 @@ On the **Manage Integration** page, you can:
 - **Manually sync data** between HRMS and Payroll when necessary. Click **Sync now**.
 - **Change employee information** such as bank account data, contractor to a full-time employee or vice-versa, employee personal details, and so on using the **Modify Configuration** option.
     
-    Suppose you must sync the bank account data from the HRMS after the integration, or a full-time employee is now a [contractor](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator#differences-between-employee-and-contractor.md). You can change that information here. 
+    Suppose you must sync the bank account data from the HRMS after the integration, or a full-time employee is now a [contractor](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#differences-between-employee-and-contractor). You can change that information here. 
 - To disable the integration, click **Disable**.
 
-![Zoho Payroll Dashboard successful integration](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-zoho-integration-succes.jpg.md) 
+![Zoho Payroll Dashboard successful integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-zoho-integration-succes.jpg.md) 
 
 ### Related Information
 
-- [About Payroll Integrations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations.md)
-- [HRMS Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/hrms.md)
+- [About Payroll Integrations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations.md)
+- [HRMS Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/hrms.md)

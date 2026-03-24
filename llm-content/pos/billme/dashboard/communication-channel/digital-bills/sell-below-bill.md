@@ -15,7 +15,7 @@ To create a new Sell Below Bill Campaign:
 2. Click **+ New Sell Below Bill Campaign**. The **Sell Below Bill - New Campaign** page appears.
 3. Enter the **Campaign Details**, select company and click **Next Step**. The **PDF Upload** page appears.
     - You can upload a PDF of your product catalogue to display below each invoice.
-    ![Upload Catalogue PDF for Sell Below Bill Campaign ](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pdf-upload-sell-below-bill.jpg.md)
+    ![Upload Catalogue PDF for Sell Below Bill Campaign ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pdf-upload-sell-below-bill.jpg.md)
 4. On the **Campaign Settings** page, select your **Brand** and **Stores**. You can also choose to publish the campaign immediately or schedule it. Click **Next Step**.
 5. On the **Preview & Publish** page you can check all campaign details. Click **Export Report** and enter your email to opt for exporting campaign reports. Click **Publish**.
 

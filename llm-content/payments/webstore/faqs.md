@@ -84,9 +84,9 @@ description: Find answers to frequently asked questions about Razorpay Webstore.
     
 ### 9. How do I track the payments made by customers? When will the amount be settled to my account?
 
-         You can view the payments as and when they are made in the [Transactions Details View](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/view-reports.md) of the Webstore.
+         You can view the payments as and when they are made in the [Transactions Details View](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/view-reports.md) of the Webstore.
 
-         ![Transaction details view page for tracking payments](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-view_report.jpg.md)
+         ![Transaction details view page for tracking payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-view_report.jpg.md)
         
 
     
@@ -98,7 +98,7 @@ description: Find answers to frequently asked questions about Razorpay Webstore.
          - UPI
          - Wallets (PayZapp)
 
-         If you want to show more wallets or [payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods.md) at Checkout, please raise a request with the [Razorpay Support team](https://razorpay.com/support/#request).
+         If you want to show more wallets or [payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md) at Checkout, please raise a request with the [Razorpay Support team](https://razorpay.com/support/#request).
         
 
     
@@ -111,7 +111,7 @@ description: Find answers to frequently asked questions about Razorpay Webstore.
 ### 12. Can I accept payments in international currency?
 
          You can accept payments in international currency using Webstore by following these steps:
-         1. Follow [these steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/international-debit-credit-cards/#application-process.md) to enable international payments for your account.
+         1. Follow [these steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-debit-credit-cards.md#application-process) to enable international payments for your account.
          2. While creating the Webstore, click the currency drop-down list in the **Price** field and select the required currency.
 
          

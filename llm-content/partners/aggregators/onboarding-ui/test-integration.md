@@ -20,4 +20,4 @@ After testing the integration, you can go live with the changes.
 
 ### Related Information
 
-- [Fetch Merchant Account Onboarding Status](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/aggregators/onboarding-ui/status.md)
+- [Fetch Merchant Account Onboarding Status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/aggregators/onboarding-ui/status.md)

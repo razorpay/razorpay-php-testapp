@@ -39,11 +39,11 @@ This completes Zoho Books Integration and a success message is displayed as show
 
 After you integrate with Zoho Books, navigate to the Accounting tab from the [RazorpayX Dashboard](https://x.razorpay.com/). You can sync your payouts and vendor payments to Zoho Books here.
 
-![Accounting on RazorpayX Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/accounting-tab.jpg.md)
+![Accounting on RazorpayX Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/accounting-tab.jpg.md)
 
 Payouts are listed under the **Expenses** tab and Vendor Payments are listed under the **Bills** tab.
 
-![specific and meaningful image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/accounting-zohobooks.jpg.md)
+![specific and meaningful image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/accounting-zohobooks.jpg.md)
 
 ## Rules & Configuration
 
@@ -54,9 +54,9 @@ The following are the available settings for your Zoho Books Integration:
 
        You can choose to disable or enable the following options:
 
-         - Sync RazorpayX Bank [Account Statement](@/Applications/MAMP/htdocs/new-docs/llm-content/x/accounting/zohobooks/account-statement.md) to Zoho Books
-         - Sync and Categorise [Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/accounting/zohobooks/vendor-payments.md) from RazorpayX to Zoho Books
-         - Sync and Categorise [Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/accounting/zohobooks/payouts.md) from RazorpayX to Zoho Books
+         - Sync RazorpayX Bank [Account Statement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/accounting/zohobooks/account-statement.md) to Zoho Books
+         - Sync and Categorise [Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/accounting/zohobooks/vendor-payments.md) from RazorpayX to Zoho Books
+         - Sync and Categorise [Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/accounting/zohobooks/payouts.md) from RazorpayX to Zoho Books
 
        You can also **Refresh** Zoho Books Expense Accounts, Bank Ledgers and Tax Groups.
       
@@ -66,13 +66,13 @@ The following are the available settings for your Zoho Books Integration:
 
        Setting rules will automate categorisation and hence reduce the manual effort drastically. You can set the following rules:
        - Contact Rules
-         - Set contact rules for [categorisation of Vendor Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/accounting/zohobooks/vendor-payments/#categorise.md).
+         - Set contact rules for [categorisation of Vendor Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/accounting/zohobooks/vendor-payments.md#categorise).
          - Select the drop-down under Zoho Books Expense Account and choose the relevant Account for the particular contact. You can also **Add Contact +** and add a new rule for it.
-         ![Contact rules](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/set-contact-rules.jpg.md)
+         ![Contact rules](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/set-contact-rules.jpg.md)
        - Purpose Rules
-         - Set purpose rules for [categorisation of Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/accounting/zohobooks/payouts/#categorise.md).
+         - Set purpose rules for [categorisation of Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/accounting/zohobooks/payouts.md#categorise).
          - Select the drop-down under Zoho Books Expense Account and choose the relevant Account for the particular RazorpayX Purpose and select the relevant Tax Slab. You can also **Add Purpose +**.
-         ![Purpose rules](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/set-purpose-rules.jpg.md)
+         ![Purpose rules](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/set-purpose-rules.jpg.md)
       
 
    
@@ -80,7 +80,7 @@ The following are the available settings for your Zoho Books Integration:
 
        Select the relevant Zoho Vendor from the drop-down menu or **+ Create New Vendor** to map it to the particular RazorpayX Contact to avoid duplication of vendors on Zoho Books.
 
-         ![Contact mapping](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/contact-mapping.jpg.md)
+         ![Contact mapping](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/contact-mapping.jpg.md)
       
 
    
@@ -88,4 +88,4 @@ The following are the available settings for your Zoho Books Integration:
 
        Setup ledgers in Zoho Books for RazorpayX accounts. Select the Zoho Books Expense Account you want to map with the particular RazorpayX Account.
 
-         ![Account mapping](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-mapping.jpg.md)
+         ![Account mapping](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-mapping.jpg.md)

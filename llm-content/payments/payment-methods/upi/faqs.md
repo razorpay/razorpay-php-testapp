@@ -29,9 +29,9 @@ description: Find answers to frequently asked questions about UPI as a payment m
      - **Custom/S2S Checkout**: You must take manual action to remove the UPI Collect option from your UI and backend and ensure you have enabled UPI Intent or QR codes. 
 
      Check deprecation and migration guides below:
-     - [Standard Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/announcements/upi-collect-migration/standard-integration.md).
-     - [Custom Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/announcements/upi-collect-migration/custom-integration.md)
-     - [S2S Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/announcements/upi-collect-migration/s2s-integration.md)
+     - [Standard Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/standard-integration.md).
+     - [Custom Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/custom-integration.md)
+     - [S2S Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/s2s-integration.md)
     
 
   
@@ -73,13 +73,13 @@ description: Find answers to frequently asked questions about UPI as a payment m
         
             - UPI Intent (mobile/mobile web) and UPI QR code (desktop) are automatically enabled on your checkout
             - If you were not using these flows previously, you may need to configure them.
-            - Refer to the [Standard Checkout migration guide](@/Applications/MAMP/htdocs/new-docs/llm-content/announcements/upi-collect-migration/standard-integration.md) for more information.
+            - Refer to the [Standard Checkout migration guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/standard-integration.md) for more information.
         
         
             - You must manually integrate UPI Intent and QR code.
             - Refer to the migration guides:
-                - [Custom integration](@/Applications/MAMP/htdocs/new-docs/llm-content/announcements/upi-collect-migration/custom-integration.md).
-                - [S2S integration](@/Applications/MAMP/htdocs/new-docs/llm-content/announcements/upi-collect-migration/s2s-integration.md).
+                - [Custom integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/custom-integration.md).
+                - [S2S integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/s2s-integration.md).
         
      
 

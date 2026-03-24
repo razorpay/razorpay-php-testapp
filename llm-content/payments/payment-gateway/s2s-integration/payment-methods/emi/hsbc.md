@@ -10,7 +10,7 @@ HSBC is an international bank that provides many financial services. You can acc
 ## Prerequisites
 
 - Enable EMI on HSBC BINs on your system to use this. You need not make any changes if you have updated this using our BIN API.
-- Use [methods API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/methods-api.md) to get the EMI plan information.
+- Use [methods API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/methods-api.md) to get the EMI plan information.
  
 ## EMI Plans and Rate of Interest
  

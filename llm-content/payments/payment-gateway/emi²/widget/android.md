@@ -149,17 +149,17 @@ If you are using Proguard for your builds, you must add the following lines to y
 
 ### Switch to Live Mode
 
-After you preview the widget, switch to live mode and replace the test API keys in the sample code with the live ones to take the integration live. Know more about [live API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md).
+After you preview the widget, switch to live mode and replace the test API keys in the sample code with the live ones to take the integration live. Know more about [live API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys).
 
 ## Successful Activation
 
 Here is a glimpse of the default widget with enabled offers and payment method options. 
 
-![Glimpse of the default widget](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/default-widget.jpg.md)
+![Glimpse of the default widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/default-widget.jpg.md)
 
 ## Next Steps
 
-After you successfully integrate the widget on your Android app, you can choose to [customise the widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/android/customise.md) based on your requirement.
+After you successfully integrate the widget on your Android app, you can choose to [customise the widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/android/customise.md) based on your requirement.
 
 > **INFO**
 >
@@ -172,5 +172,5 @@ After you successfully integrate the widget on your Android app, you can choose 
 
 ### Related Information
 
-- [Affordability Widget](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget.md)
-- [Affordability Widget FAQs ](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/widget/faqs.md)
+- [Affordability Widget](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget.md)
+- [Affordability Widget FAQs ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/widget/faqs.md)

@@ -27,13 +27,13 @@ You need to have an active Cashfree account with the necessary payment methods a
          2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
          3. In the top-right section, click **Add Provider**.
          4. Select **Cashfree** and **Instant (beta)** in the list of gateways available and click **Next**.
-             ![Add Cashfree](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-cashfree-new-instant.jpg.md)
+             ![Add Cashfree](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-cashfree-new-instant.jpg.md)
          5. Enter the provider name and description and click **Next**.
-             ![Add cashfree Provider Name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cashfree-provider-name.jpg.md)
+             ![Add cashfree Provider Name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cashfree-provider-name.jpg.md)
          6. Enter your App ID and App secret Key.
          7. Select the payment methods you want to enable for Cashfree and click **Submit**. 
 
-             ![Add App key secret cashfree instant](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-app-key-secret-instant.jpg.md)
+             ![Add App key secret cashfree instant](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-app-key-secret-instant.jpg.md)
          
          You have successfully added **Cashfree** as a payment provider on Optimizer.
         
@@ -57,7 +57,7 @@ Settlements | Live
 Refunds | Live
 
 ## Send Receipt/Order ID to External Gateway
-You might be generating a unique Order ID or Receipt for every order which can be passed to Cashfree via [ Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders#orders-api.md). 
+You might be generating a unique Order ID or Receipt for every order which can be passed to Cashfree via [ Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md#orders-api). 
 
 To make your order id visible on the Cashfree Dashboard:
 1. In Razorpay's Orders API, use the `receipt` parameter to send your unique Order ID or Receipt.
@@ -93,11 +93,11 @@ Before routing all traffic or some traffic to a new gateway via Optimizer, the f
              - In **Parameter** field, select **Amount (In Rupees)**
              - In **Select Connection** field, select **Less Than**
              - In **Enter Amount** field, enter the value 2 and click **Next**.
-                 ![Add Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-rule.jpg.md)
+                 ![Add Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-rule.jpg.md)
          5. Enter the value 100 in the **Route field**, select **Cashfree** in the **Payment Via** field, and click **Next**.
-             ![Cashfree target Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cashfree-target-provider.jpg.md)
+             ![Cashfree target Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cashfree-target-provider.jpg.md)
          6. Click **Publish Rule**.
-             ![Cashfree-Publish Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cashfree-publish-rule.jpg.md)
+             ![Cashfree-Publish Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cashfree-publish-rule.jpg.md)
         
 
 ## Go Live

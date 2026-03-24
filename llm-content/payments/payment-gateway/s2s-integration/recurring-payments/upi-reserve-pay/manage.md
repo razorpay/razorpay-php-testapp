@@ -9,7 +9,7 @@ Once your UPI Reserve Pay integration is live, you can use the following APIs to
 
 ## Track Mandate Funds
 
-Use the `recurring_details` object to monitor the utilisation of funds within an active mandate. This object is available in the response of the [Fetch Token by Customer id](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-reserve-pay/integration-steps/#21-fetch-token-by-customer-id.md) and [Fetch Token by Token id and Customer id](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-reserve-pay/integration-steps/#23-fetch-token-by-token-id-and-customer.md) APIs. This object contains the following parameters:
+Use the `recurring_details` object to monitor the utilisation of funds within an active mandate. This object is available in the response of the [Fetch Token by Customer id](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-reserve-pay/integration-steps.md#21-fetch-token-by-customer-id) and [Fetch Token by Token id and Customer id](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/recurring-payments/upi-reserve-pay/integration-steps.md#23-fetch-token-by-token-id-and-customer) APIs. This object contains the following parameters:
 
 Parameter | Description
 ---

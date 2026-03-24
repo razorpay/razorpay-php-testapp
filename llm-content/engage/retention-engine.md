@@ -72,4 +72,4 @@ The **Razorpay Engage Retention Engine** is a customer retention mechanism consi
 Contact our [Support Team ](https://razorpay.com/support/)to explore how the Engage Retention Engine can transform your Shopify store's customer loyalty strategy.
 
  ### Related Information
- [Shopify Wallets](@/Applications/MAMP/htdocs/new-docs/llm-content/engage/retention-engine/shopify-wallets.md)
+ [Shopify Wallets](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/engage/retention-engine/shopify-wallets.md)

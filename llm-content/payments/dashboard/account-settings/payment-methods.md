@@ -19,7 +19,7 @@ You can view the payment methods enabled for your account from the **Account & S
 > 
 > - This feature is available only on the Live mode of the Dashboard.
 - Users with the following User Roles can configure the payment methods: Owner, Admin and Manager.
-- You can also accept [international payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#get-started.md).
+- You can also accept [international payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#get-started).
 
 > 
 
@@ -35,7 +35,7 @@ Activation of each of the payment methods involves onboarding with our partner b
          1. Log in to the Dashboard and select **Account & Settings** on the left navigation.  
          2. Click the payment method you want to request under the **Payment Methods** tab, for example, **Cards**.
          3. Click the drop-down on the **Additional details required** tab and click **Add now** to update the business website or GSTIN details.
-             ![Payment methods - cards - add additional details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-request-payment-method-additional-details.jpg.md)
+             ![Payment methods - cards - add additional details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-request-payment-method-additional-details.jpg.md)
 
              
 > **WARN**
@@ -46,8 +46,8 @@ Activation of each of the payment methods involves onboarding with our partner b
 >              The **Additional details required** tab must be updated to request any payment method.
 >              
 
-         4. Fill in the business website/app details and click **Proceed to update website/app**. Know more about [how to add website details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/business-website-details.md).
-         5. Fill in the GSTIN details and click **Submit**. Know more about [how to add GSTIN details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/gst-details.md).
+         4. Fill in the business website/app details and click **Proceed to update website/app**. Know more about [how to add website details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/business-website-details.md).
+         5. Fill in the GSTIN details and click **Submit**. Know more about [how to add GSTIN details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/gst-details.md).
 
              
 > **INFO**
@@ -59,7 +59,7 @@ Activation of each of the payment methods involves onboarding with our partner b
 >              
 
          6. Once you submit all the required information, the status of the information provided changes to **Under Review**.
-             ![Payment methods under review](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-payment-method-request-under-review.jpg.md)
+             ![Payment methods under review](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-payment-method-request-under-review.jpg.md)
         7. Once the required information is reviewed and updated, click **Request**.
         8. Fill in the required details and click **Next**.
         9. Click **Submit Request**.
@@ -74,7 +74,7 @@ To view the status of your payment method request:
 2. Click any payment method under **Payment methods**.
 3. You can view the list of payment methods and providers and their status.
 
-![Payment methods tab on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-payment-methods-setting_1.jpg.md)
+![Payment methods tab on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-payment-methods-setting_1.jpg.md)
 
 Some payment methods are enabled by default, while you need to raise a request for others. Below are the various statuses your request can go through.
 

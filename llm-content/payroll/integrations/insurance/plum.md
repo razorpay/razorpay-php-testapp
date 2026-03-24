@@ -47,12 +47,12 @@ All employees between 18 to 80 years and dependent children between 3 months to 
 > - Cross-selection between parents and in-laws is not allowed. You cannot take policies for specific family members either. 
 > - Under the ESC plan, you must cover the spouses of all married employees and all dependent children. 
 > - The total number of parents should be 1.6 times the number of employees. For example, if your organisation covers the parents of 10 employees, you must cover at least 16 parents in the policy.
-> - [Contractors](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator#differences-between-employee-and-contractor.md) are not covered in the insurance plans. 
+> - [Contractors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md#differences-between-employee-and-contractor) are not covered in the insurance plans. 
 > 
 
 ## Prerequisites
 
-1. Your organisation must be using RazorpayX Payroll for all the salary transfers and applicable [compliances](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md).
+1. Your organisation must be using RazorpayX Payroll for all the salary transfers and applicable [compliances](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md).
 
 1. Your organisation must have 2 or more full-time employees. 
     - The Starter plan is available for organisations with at least 2 employees. 
@@ -150,5 +150,5 @@ You can use a combination of these for your accounting purposes.
 
 ### Related Information
 
-- [Income Tax Declaration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees#income-tax-declaration.md) 
-- [Salary](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary.md)
+- [Income Tax Declaration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md#income-tax-declaration) 
+- [Salary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md)

@@ -19,8 +19,8 @@ If Tip Jar is enabled for you, you can easily accept payments using a Razorpay P
 
 ## Prerequisites
 
-- [Set up](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up.md) your Razorpay account and complete the KYC process.
-- Create a [Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/create.md) and copy the page URL. If you already have a Payment Page, follow the steps given below.
+- [Set up](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md) your Razorpay account and complete the KYC process.
+- Create a [Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/create.md) and copy the page URL. If you already have a Payment Page, follow the steps given below.
 
 ## Steps to Accept Payments Using X Tip Jar
 

@@ -5,13 +5,13 @@ description: Search for an Invoice.
 
 # Search an Invoice
 
-You can search for invoices (except those marked **Deleted**) on the Dashboard by specifying various filters. Know more about [invoice states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/states.md).
+You can search for invoices (except those marked **Deleted**) on the Dashboard by specifying various filters. Know more about [invoice states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/states.md).
 
 ## Search an Invoice From Dashboard
 1. Log in to the Dashboard. 
 2. Select **Invoices** from the left menu and search for an invoice under **Invoices** by specifying filters.
 
-![Invoice List](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/invoices-invoices-list-view.jpg.md)
+![Invoice List](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/invoices-invoices-list-view.jpg.md)
 
 Filter | Description
 ---

@@ -21,7 +21,7 @@ You can view the following data points for emandate transactions.
 ### 1. **Emandate Success Rate Trend**
 
          Indicates the success rate trend from the beginning to the end of the selected timeframe.
-            ![emandate euccess rate trend](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emandate-success-rate-trends.jpg.md)
+            ![emandate euccess rate trend](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emandate-success-rate-trends.jpg.md)
         
 
     
@@ -30,7 +30,7 @@ You can view the following data points for emandate transactions.
          1. **Emandate Bank SR (Success Rate)**: Displays the success rate of transactions categorised by different banks paid over time.
          2. **Emandate Bank Payments Count**: Displays the success rate of transactions categorised by different banks paid over time.
          3. **Emandate Bank GMV (Gross Merchandise Value)**: This shows the distribution of total transaction value across different banks paid.
-             ![emandate bank metrics](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emandate-bank-metrics.jpg.md)
+             ![emandate bank metrics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emandate-bank-metrics.jpg.md)
         
 
     
@@ -38,20 +38,20 @@ You can view the following data points for emandate transactions.
 
          1. **Emandate Auth Type SR (Success Rate)**: Displays the success rate of emandate transactions across different authorisation methods like netbanking, debit card and aadhar over time.
          2. **Emandate Auth Type GMV (Gross Merchandise Value)**: Displays the distribution of GMV across different authorisation methods like netbanking, debit card and aadhar over time. 
-            ![emandate auth type metrics](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emandate-authorisation-sr.jpg.md)
+            ![emandate auth type metrics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emandate-authorisation-sr.jpg.md)
         
 
     
 ### 4. Emandate Top Failure Reason
 
          Lists the primary reasons for emandate transaction failures, including their sources, number of failures, GMV impacted, AOV and percentage of total failures.
-            ![emandate Failure Reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emandate-failure-reasons.jpg.md)
+            ![emandate Failure Reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emandate-failure-reasons.jpg.md)
         
 
 ### Related Information
 
-- [About Insights](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights.md)
-- [UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/upi.md) 
-- [Wallet](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/wallet.md)
-- [Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/netbanking.md)
-- [Card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/card.md)
+- [About Insights](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights.md)
+- [UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/upi.md) 
+- [Wallet](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/wallet.md)
+- [Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/netbanking.md)
+- [Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/card.md)

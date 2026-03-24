@@ -32,7 +32,7 @@ To import GRNs in bulk, you must download the [GRN template](#download-grn-templ
                     1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
                     2. Go to **Vendor Payments** in the left navigation and click **GRN**.
                     3. In the **GRN** window, click **+ GRN** drop-down button on the top right and select **Bulk upload GRN** from the drop-down list. 
-                    4. Click **Template** to download the template. You can also [click here](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/GRNtemplate.xlsx.md) to download the template.
+                    4. Click **Template** to download the template. You can also [click here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/GRNtemplate.xlsx.md) to download the template.
                 
 
             
@@ -95,5 +95,5 @@ To import GRNs in bulk, you must download the [GRN template](#download-grn-templ
 
 ### Related Information
 
-- [Import Purchase Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/purchase-order/bulk-import-po.md)
-- [Bulk Import Items](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/items/bulk-import-items.md)
+- [Import Purchase Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/purchase-order/bulk-import-po.md)
+- [Bulk Import Items](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/items/bulk-import-items.md)

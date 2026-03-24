@@ -33,12 +33,12 @@ Follow the steps below to onboard Airwallex as a payment provider.
             2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
             3. In the top-right section, click **Add Provider**.
             4. Select **Airwallex** in the list of gateways available.
-                ![Add airwallex](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-airwallex.jpg.md)
+                ![Add airwallex](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-airwallex.jpg.md)
             5. Enter the provider name and description and click **Next**.
-                ![Airwallex Add Provider Name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/airwallex-provider-name.jpg.md)
+                ![Airwallex Add Provider Name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/airwallex-provider-name.jpg.md)
             6. Enter your **Api Key** and **Client Id**.
             7. Select **Card** as the payment method and click **Submit**. 
-                ![Add Salt Key airwallex](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/airwallex-add-key-salt.jpg.md)
+                ![Add Salt Key airwallex](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/airwallex-add-key-salt.jpg.md)
             You have successfully added **Airwallex** as a payment provider on Optimizer.
         
 
@@ -55,7 +55,7 @@ Wallet | Coming Soon
 > 
 > **Handy Tips**
 > 
-> Airwallex supports [Tokenisation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/tokenisation.md).
+> Airwallex supports [Tokenisation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/tokenisation.md).
 > 
 
 ## Best Practices
@@ -87,11 +87,11 @@ Before routing all traffic or some traffic to a new gateway via Optimizer, the f
             - In **Parameter** field, select **Amount (In Rupees)**.
             - In **Select Connection** field, select **Less Than**.
             - In **Enter Amount** field, enter the value 2 and click **Next**.
-            ![Add Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-rule.jpg.md)
+            ![Add Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-rule.jpg.md)
         5. Enter the value 100 in the **Route field**, select **Airwallex** in the **Payment Via** field, and click **Next**.
-            ![target Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/target-provider.jpg.md)
+            ![target Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/target-provider.jpg.md)
         6. Click **Publish Rule**.
-            ![Publish Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/publish-rule.jpg.md)
+            ![Publish Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/publish-rule.jpg.md)
         
 
 ## Go Live

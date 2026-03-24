@@ -12,8 +12,8 @@ description: Find answers to frequently asked questions about Refunds via Razorp
 ### 1. How do I initiate a refund?
 
        You can issue partial or full refund using:
-       - [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/issue/#issue-refunds.md).
-       - [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds.md).
+       - [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/issue.md#issue-refunds).
+       - [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds.md).
 
        By default, the entire amount is refunded. If you issue a partial refund, ensure the partial refund option is selected and enter the desired value in INR.
 
@@ -43,7 +43,7 @@ description: Find answers to frequently asked questions about Refunds via Razorp
    
 ### 3. I am unable to refund a payment. What do I do?
 
-       If your current balance is less than the amount you are trying to refund, you can either initiate the refund once you receive further payments or you can [add funds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/#add-funds.md) to your account from the Dashboard.
+       If your current balance is less than the amount you are trying to refund, you can either initiate the refund once you receive further payments or you can [add funds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings.md#add-funds) to your account from the Dashboard.
       
 
    

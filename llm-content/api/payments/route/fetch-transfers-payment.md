@@ -7,7 +7,7 @@ description: Fetch Transfers for a payment using the Razorpay API.
 
 ## Fetch Transfers for a Payment
 
-Use this endpoint to retrieve the collection of all transfers created on a specific Payment id. Once the settlement against the transfer is processed, a webhook notification `settlement.processed` is sent which contains a `recipient_settlement_id`. Know more about [sample webhook payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/route/#settlement-processed.md).
+Use this endpoint to retrieve the collection of all transfers created on a specific Payment id. Once the settlement against the transfer is processed, a webhook notification `settlement.processed` is sent which contains a `recipient_settlement_id`. Know more about [sample webhook payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/route.md#settlement-processed).
 
 ### Request
 

@@ -27,7 +27,7 @@ Before you set up TDS automation on Payroll, verify the following:
 
        [TRACES](https://www.tdscpc.gov.in/app/login.xhtml) registration is required by Payroll to download your employees' and contractors' Form 16/16A data.
          
-         If your organisation is currently not registered on TRACES, [contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support/#razorpayx-payroll.md) after Payroll has completed filing TDS returns for any quarter.
+         If your organisation is currently not registered on TRACES, [contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#razorpayx-payroll) after Payroll has completed filing TDS returns for any quarter.
       
 
    
@@ -67,10 +67,10 @@ The TDS deduction happens according to the employees' chosen tax regime. The emp
          1. Log in to the [Payroll Dashboard](https://payroll.razorpay.com/dashboard). 
          1. Navigate to **People** and open the particular employee's profile. 
          1. Click **View Tax Deductions** from the right pane → **Reverse Regime Selection**.
-            ![Reverse regime selection on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-tds-reverse-regime.jpg.md)
+            ![Reverse regime selection on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-tds-reverse-regime.jpg.md)
          1. In the **Reverse tax regime selection** pop-up modal, click **Reverse selection**. 
 
-         This successfully reverses the tax regime for the employee. You can select the regime or allow the employee select the regime from [Tax Deductions](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations.md) on their dashboard.
+         This successfully reverses the tax regime for the employee. You can select the regime or allow the employee select the regime from [Tax Deductions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations.md) on their dashboard.
       
 
    
@@ -130,12 +130,12 @@ Know how Payroll handles Form 16 and 16A on the Dashboard.
        1. Go to **Settings** in the left menu → **TDS Filing Setup**.
        1. Select the **Automatically File 24Q** check box. We usually enable this setting by default. 
 
-       Once the Form 16s are available to us, we upload all employees' **unsigned Form 16s** on the Payroll Dashboard in **My Pay Slips**. Know more about [Payslips and Form 16](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/payslips-form16.md).
+       Once the Form 16s are available to us, we upload all employees' **unsigned Form 16s** on the Payroll Dashboard in **My Pay Slips**. Know more about [Payslips and Form 16](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/payslips-form16.md).
 
        By default, we upload Form 16s without any digital signature as we do not have access to the employees' digital signatures.
        - We email the unsigned Form 16s at your registered email address.
        - Sign the forms with a tool like emSigner and email them back to us.
-       - [Contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/plans/#contact-support.md) to upload the signed Form 16s on the Payroll Dashboard for your employees to access them.
+       - [Contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/plans.md#contact-support) to upload the signed Form 16s on the Payroll Dashboard for your employees to access them.
       
 
    
@@ -191,7 +191,7 @@ TDS can apply on One-time Payments, Razorpay charges, bonus provided, taxable co
          View your current settings. 
          
             
-               You must pay the TDS separately and share the TDS certificate (Form 16A) with the [support team](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/plans/#contact-support.md). Payroll verifies this TDS amount and credits it to your Payroll account.
+               You must pay the TDS separately and share the TDS certificate (Form 16A) with the [support team](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/plans.md#contact-support). Payroll verifies this TDS amount and credits it to your Payroll account.
             
             
                The only way to pay TDS in this case will be to switch to an annual plan. Here, you can make a contractor payment to Razorpay from within Payroll, and Payroll then deducts and pay the TDS automatically on your behalf.
@@ -204,7 +204,7 @@ TDS can apply on One-time Payments, Razorpay charges, bonus provided, taxable co
 
        On one-time payments, you can choose whether you want to pay TDS at the time of making the payment, or club it as a part of your monthly payroll activity. 
        
-       Know more about [TDS on One-time payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/one-time-payments#tds-on-one-time-payments.md). 
+       Know more about [TDS on One-time payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/one-time-payments.md#tds-on-one-time-payments). 
       
 
    
@@ -212,13 +212,13 @@ TDS can apply on One-time Payments, Razorpay charges, bonus provided, taxable co
 
        For Custom Salary Structure, you can set your organisation's salary structure components to be taxable or not, and allow employees to avail felxible benefits. 
        
-       Know more about [Custom Salary Structure](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll#setup-salary-structures.md). 
+       Know more about [Custom Salary Structure](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#setup-salary-structures). 
       
 
    
 ### TDS on Bonus
 
-       When you pay a bonus (as a one-time payment or as a Payroll cycle [addition](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll#additions-and-deductions.md)), specifically in the middle of the financial year, the employee's TDS liability increases. 
+       When you pay a bonus (as a one-time payment or as a Payroll cycle [addition](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#additions-and-deductions)), specifically in the middle of the financial year, the employee's TDS liability increases. 
 
        **Example**:
 
@@ -319,7 +319,7 @@ Know how Payroll handles TDS filings and returns.
 
 ### Related Information
 
-- [Statutory Compliance](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/statutory-compliance.md)
-- [Provident Fund](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/provident-fund.md)
-- [Salary](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary.md)
-- [Salary Exceptional Cases](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/exceptional-cases.md)
+- [Statutory Compliance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/statutory-compliance.md)
+- [Provident Fund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/provident-fund.md)
+- [Salary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md)
+- [Salary Exceptional Cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/exceptional-cases.md)

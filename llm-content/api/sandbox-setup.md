@@ -14,7 +14,7 @@ Follow these steps to set up the sandbox environment.
     
 ### 1. Generate API Keys
 
-         Follow these [steps to generate API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+         Follow these [steps to generate API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
         
 
     
@@ -102,12 +102,12 @@ Follow these steps to set up the sandbox environment.
     
 ### 3. Go live
 
-         After testing is complete, generate [Live API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#live-mode-api-keys.md) from the dashboard. Ensure to replace the Test API keys in your integration with the Live API keys before going live. You can accept real money payments using the Live API Keys.
+         After testing is complete, generate [Live API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#live-mode-api-keys) from the dashboard. Ensure to replace the Test API keys in your integration with the Live API keys before going live. You can accept real money payments using the Live API Keys.
         
 
 ### Related Information
 
-- [Understand Razorpay APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand.md)
-- [Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md)
-- [Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/api/best-practices.md)
-- [Glossary](@/Applications/MAMP/htdocs/new-docs/llm-content/api/glossary.md)
+- [Understand Razorpay APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md)
+- [Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md)
+- [Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/best-practices.md)
+- [Glossary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/glossary.md)

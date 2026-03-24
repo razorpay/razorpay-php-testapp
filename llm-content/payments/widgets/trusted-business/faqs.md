@@ -35,7 +35,7 @@ description: Find answers to frequently asked questions about Razorpay Trusted B
     
 ### 5. How do I sign up for Razorpay Trusted Business Widget? Are there any costs associated with these products?
 
-          Check if you are [eligible](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/features/trusted-business/#eligibility-requirements.md)for Razorpay Trusted Business on the Dashboard. If eligible, you can activate it for a nominal fee, depending on the nature and size of your business. If you are not eligible, you can follow the instructions on the Dashboard to make your business eligible.
+          Check if you are [eligible](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/features/trusted-business.md#eligibility-requirements)for Razorpay Trusted Business on the Dashboard. If eligible, you can activate it for a nominal fee, depending on the nature and size of your business. If you are not eligible, you can follow the instructions on the Dashboard to make your business eligible.
         
 
 ## For Customers

@@ -6,7 +6,7 @@ description: Import invoices to your RazorpayX Dashboard for Vendor Payments.
 
 # Invoices
 
-On Vendor Payments, you can make payouts to vendors against the invoices you receive from them. You can receive and import the invoice through email, [Vendor Portal](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/portal/business.md), upload the PDF on RazorpayX Dashboard or enter the details manually.
+On Vendor Payments, you can make payouts to vendors against the invoices you receive from them. You can receive and import the invoice through email, [Vendor Portal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/portal/business.md), upload the PDF on RazorpayX Dashboard or enter the details manually.
 
 ## Add Invoices
 
@@ -22,15 +22,15 @@ To add an invoice:
     - Hover over **Vendor Payments** on the left navigation and click **+**.
     - You can also click **Vendor Payments** on the left navigation and then click **+ INVOICE** on the left side. 
 3. Upload the invoice. The invoice details are auto-read and uploaded using the OCR technology. You can also click **Enter Details Manually** to add the details yourself.
-4. Select an existing vendor or [create a new vendor](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts#create-a-contact.md). The vendor is the person or entity to which you are making an payment to, basing an invoice received.
-5. Select a Fund account for the vendor or [create a new Fund account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/fund-accounts#create-a-contact-with-fund-account.md). These are the account details (bank account or UPI ID) to which the amount is transferred.
+4. Select an existing vendor or [create a new vendor](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md#create-a-contact). The vendor is the person or entity to which you are making an payment to, basing an invoice received.
+5. Select a Fund account for the vendor or [create a new Fund account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/fund-accounts.md#create-a-contact-with-fund-account). These are the account details (bank account or UPI ID) to which the amount is transferred.
 6. If you have opted to enter the details manually, fill the **Amount Details**, click **Next**. Enter the **Invoice Details** and click **Next**.
 7. Review the **Invoice Details** such as due date, TDS category, GSTIN, PAN and Amount to Vendor.
 8. You can either:
    - Save the invoice and pay it at a later time. RazorpayX sends reminders as you get closer to the due date.
    - Make the payment immediately.
 
-Once you make the payment, it follows the [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) set on your RazorpayX account.
+Once you make the payment, it follows the [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) set on your RazorpayX account.
  
 ### Add Invoices through Email
  
@@ -46,7 +46,7 @@ You have the option to forward these emails to the dedicated email address provi
 6. You can accept or reject or schedule payouts for these invoices via the Vendor Payments Dashboard.
  
 Your unique business email address is visible on the Vendor Payments Dashboard. You can forward all your invoices to the dedicated email address, as shown below:
-![Forward invoices to unique email option highlighted under +INVOICE.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-vendor-payments-email-int.jpg.md)
+![Forward invoices to unique email option highlighted under +INVOICE.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-vendor-payments-email-int.jpg.md)
 
 ## Mark Invoice as Paid
  
@@ -54,7 +54,7 @@ You may have uploaded an invoice on the Dashboard but paid it externally. In suc
 
 - The invoice moves to the `paid` state without creating a corresponding payout.
 - When you mark an invoice as `paid`, you can select the external method you chose to pay the invoice (such as bank transfer, cheque or cash).
-- Invoices marked as `paid` are considered for TDS payments. You can calculate and pay the TDS using [Tax Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments.md).
+- Invoices marked as `paid` are considered for TDS payments. You can calculate and pay the TDS using [Tax Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments.md).
 
 This makes Vendor Payments an end-to-end solution to track all your vendor payments, irrespective of the payment method and gives you an accurate bookkeeping summary.
  

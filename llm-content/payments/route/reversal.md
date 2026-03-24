@@ -11,9 +11,9 @@ Initiate a reversal operation of the funds transferred to your Linked Account us
 - You can initiate a reversal even if the funds are settled to a Linked Account, as long as there is a floating balance available.
 - For all refund requests made by the end customer, the fund transfer happens from the primary account or Linked Account. Hence, you need to initiate a reversal of funds from your Linked Accounts and initiate the customer's refund. You can also use the automated method of reversing funds before a refund. Upon enabling the `Reverse All` option on a payment refund request, we will automatically reverse all transfers made on the payment before refunding the payment to the customer.
 
-![Payments reversal flow description](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route_refund.jpg.md)
+![Payments reversal flow description](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route_refund.jpg.md)
 
-In certain cases, Linked Accounts must directly refund the amount to the customers. To handle this, you can [enable customer refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/#enable-refunds-capability.md) for linked accounts from your Dashboard. The Linked Account users can [issue refund to the customer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/initiate-refund.md) from the Linked Account Dashboard.
+In certain cases, Linked Accounts must directly refund the amount to the customers. To handle this, you can [enable customer refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md#enable-refunds-capability) for linked accounts from your Dashboard. The Linked Account users can [issue refund to the customer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/initiate-refund.md) from the Linked Account Dashboard.
 
 ## Reversal Checklist
 
@@ -38,10 +38,10 @@ To initiate a reversal:
 
 You can view the reversal details under the **Reversals** tab.
 
-![Create reversal confirmation dialog](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-make-reversal.jpg.md)
+![Create reversal confirmation dialog](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-make-reversal.jpg.md)
 
 ### Related Information
-- [Transfer Funds to Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md)
-- [Transfers and Related Fees](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-fees-example.md)
-- [Schedule Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/schedule-settlement.md)
-- [Refund to Customers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/refund.md)
+- [Transfer Funds to Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md)
+- [Transfers and Related Fees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-fees-example.md)
+- [Schedule Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/schedule-settlement.md)
+- [Refund to Customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/refund.md)

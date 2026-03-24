@@ -15,7 +15,7 @@ Use this endpoint to add a bank account receiver to an existing Customer Identif
 > **Handy Tips**
 > 
 > - **Smart Collect 2.0** uses the same API endpoints as **Smart Collect.**
-> - Use [Smart Collect TPV](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect-tpv.md)  APIs to **Add an Allowed Payer** or **Delete an Allowed Payer**
+> - Use [Smart Collect TPV](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect-tpv.md)  APIs to **Add an Allowed Payer** or **Delete an Allowed Payer**
 > 
 > 
 
@@ -59,10 +59,10 @@ Use this endpoint to add a bank account receiver to an existing Customer Identif
 : `integer` The amount paid by the customer into the Customer Identifier.
 
 `notes`
-: `json object` Any custom notes you might want to add to the Customer Identifier can be entered here. Know more about [notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand.md).
+: `json object` Any custom notes you might want to add to the Customer Identifier can be entered here. Know more about [notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md).
 
 `customer_id`
-: `string` Unique identifier of the customer the Customer Identifier is linked with. Know more about [Customer API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md).
+: `string` Unique identifier of the customer the Customer Identifier is linked with. Know more about [Customer API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md).
 
 `receivers`
 : `json object` Configuration of desired receivers for the Customer Identifier.
@@ -90,7 +90,7 @@ Use this endpoint to add a bank account receiver to an existing Customer Identif
   : `string` The `merchant billing label` as it appears on the Dashboard. This parameter appears in the response only when `bank_account` is passed as the receiver `type`.
 
   `notes`
-  : `json object` Any custom notes you might want to add to the virtual bank account or virtual UPI ID can be entered here. Know more about [notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand.md). This parameter appears in the response only when `bank_account` is passed as the receiver `type`.
+  : `json object` Any custom notes you might want to add to the virtual bank account or virtual UPI ID can be entered here. Know more about [notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md). This parameter appears in the response only when `bank_account` is passed as the receiver `type`.
 
   `username`
   : `string` The UPI ID consists of the username and the bank handle. The `username` consists of the `namespace` (assigned by the bank to Razorpay), the `merchant prefix` (which can be customised by you) and the `descriptor` (which you provide to identify the customer). The unique identifier which forms the first half of the virtual UPI ID. For example, `rpy.payto00000gaurikumari`. This parameter appears in the response only when `vpa` is passed as the receiver `type`. The descriptor can be 10 characters only.

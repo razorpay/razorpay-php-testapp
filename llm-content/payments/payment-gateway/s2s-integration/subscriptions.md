@@ -5,7 +5,7 @@ description: Create and fetch Plans and Subscriptions. Create and delete Add-ons
 
 # Subscriptions - S2S Integration
 
-You can create, fetch, query or cancel plans, subscriptions and addons using the Subscriptions API. These operations can also be performed on the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md).
+You can create, fetch, query or cancel plans, subscriptions and addons using the Subscriptions API. These operations can also be performed on the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md).
 
 ## Plans
 
@@ -299,7 +299,7 @@ curl -u : \
 
 #### Response Parameters
 
-If the payment request is valid, the response contains the following fields. Refer to the [S2S Json V2 integration document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/#step-2-create-a-payment.md) for more details.
+If the payment request is valid, the response contains the following fields. Refer to the [S2S Json V2 integration document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2.md#step-2-create-a-payment) for more details.
 
 `razorpay_payment_id`
 : `string` Unique identifier of the payment. Present for all responses.
@@ -380,5 +380,5 @@ Refer to the Webhooks section for sample payloads.
 
 ### Related Information
 
-- [API authentication](@/Applications/MAMP/htdocs/new-docs/llm-content/api.md)
-- [Subscription product documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md)
+- [API authentication](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md)
+- [Subscription product documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md)

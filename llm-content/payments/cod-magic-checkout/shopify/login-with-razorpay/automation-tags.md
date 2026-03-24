@@ -6,7 +6,7 @@ description: Razorpay SSO automatically tags customers in Shopify to enable pers
 
 # Automatic Customer Tagging for Retargeting
 
-When customers authenticate through [Login with Razorpay (SSO)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/cod-magic-checkout/shopify/login-with-razorpay.md) on your Shopify store, specific tags are automatically assigned to their profiles. These tags provide automation capabilities that enhance your marketing efforts and improve customer engagement.
+When customers authenticate through [Login with Razorpay (SSO)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/cod-magic-checkout/shopify/login-with-razorpay.md) on your Shopify store, specific tags are automatically assigned to their profiles. These tags provide automation capabilities that enhance your marketing efforts and improve customer engagement.
 
     
 ### Advantages
@@ -85,4 +85,4 @@ For advanced use cases, combine multiple tags to create targeted customer segmen
 
 ### Related Information
 
-[Customer Analytics](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/cod-magic-checkout/shopify/login-with-razorpay/customer-analytics.md)
+[Customer Analytics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/cod-magic-checkout/shopify/login-with-razorpay/customer-analytics.md)

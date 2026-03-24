@@ -31,5 +31,5 @@ Actions Allowed | Actions Not Allowed
 
 ### Related Information
 
-- [Add sub-merchants from Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/add-on-features/add-submerchants-from-dashboard.md)
-- [Perform submerchant KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/add-on-features/perform-submerchant-kyc.md)
+- [Add sub-merchants from Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/add-on-features/add-submerchants-from-dashboard.md)
+- [Perform submerchant KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/add-on-features/perform-submerchant-kyc.md)

@@ -13,12 +13,12 @@ Follow the steps given below to integrate Razorpay Payment Gateway with your Ope
 Follow these steps to complete the integration:
 
 ### On Your OpenCart Site
-1. [Install the Razorpay Subscriptions for OpenCart Plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/opencart/build-integration/#step-1-install-razorpay-subscriptions-for-opencart-plugin.md).
-1. [Configure OpenCart Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/opencart/build-integration/#step-2-configure-opencart-settings.md).
-1. [Create a Plan for Subscriptions product](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/opencart/build-integration/#step-3-create-a-plan-for-subscriptions-product.md).
-1. [Test integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/opencart/test-integration.md).
+1. [Install the Razorpay Subscriptions for OpenCart Plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/opencart/build-integration.md#step-1-install-razorpay-subscriptions-for-opencart-plugin).
+1. [Configure OpenCart Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/opencart/build-integration.md#step-2-configure-opencart-settings).
+1. [Create a Plan for Subscriptions product](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/opencart/build-integration.md#step-3-create-a-plan-for-subscriptions-product).
+1. [Test integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/opencart/test-integration.md).
 
-1. [Enable Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/opencart/build-integration/#subscribe-to-webhook-events.md).
+1. [Enable Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/opencart/build-integration.md#subscribe-to-webhook-events).
 
 #### Step 1: Install Razorpay Subscriptions for OpenCart Plugin
 
@@ -60,4 +60,4 @@ To create a Plan for Subscriptions product:
 
 ### Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions/plugins/opencart/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/plugins/opencart/test-integration.md)

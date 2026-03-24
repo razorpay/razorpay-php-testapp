@@ -26,8 +26,8 @@ axio is a cardless EMI offering by Capital Float - a BNPL (Buy Now, Pay Later) a
 ## Prerequisites
 
 - Sign up for a Razorpay account.
-- [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
-- Have [Razorpay Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md) integrated on your website.
+- [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
+- Have [Razorpay Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md) integrated on your website.
 
 ## Integrate axio on Custom Checkout
 
@@ -57,4 +57,4 @@ Along with the other checkout options, you must pass:
 
 ### Related Information
 
-- [Know more about axio](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi/axio.md).
+- [Know more about axio](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi/axio.md).

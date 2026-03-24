@@ -6,8 +6,8 @@ description: View settlement and transaction details of external payment gateway
 # Single Reconciliation View
 
 On the Dashboard, you can view:
-- [Transaction details for payments and refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/reconciliation/#transactions-details.md).
-- [Settlement details of the external payment gateways](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/reconciliation/#settlement-details.md).
+- [Transaction details for payments and refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/reconciliation.md#transactions-details).
+- [Settlement details of the external payment gateways](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/reconciliation.md#settlement-details).
 
 ## Transactions Details
 
@@ -28,7 +28,7 @@ You can view the payment details on the Dashboard by specifying various filters.
             ---
             Duration | The time period for which you want to view the payments.
             ---
-            Status | The state of the payment. Know more about [Payment states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/#payment-life-cycle.md).
+            Status | The state of the payment. Know more about [Payment states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments.md#payment-life-cycle).
             ---
             Email | The email id linked to the payment.
             
@@ -43,7 +43,7 @@ To view the transaction details of Payments:
     - Tax collected 
     - Settlement id within which the transaction was settled.
     - Optimizer Details
-![Optimizer Transactions Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-transaction-details.jpg.md)
+![Optimizer Transactions Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-transaction-details.jpg.md)
 
 ### Refunds
 
@@ -74,11 +74,11 @@ To view the transactions details of Refunds:
     - Amount
     - Refund type
     - Optimizer Details
-![Optimizer Refund Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-refund-details.jpg.md)
+![Optimizer Refund Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-refund-details.jpg.md)
 
 ## Settlement Details
 
-You can [download](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/reports/#download-reports.md) or [schedule](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/reports/#schedule-reports.md) the **Optimizer Single View Recon Report** from the Dashboard to view the settlement details.
+You can [download](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/reports.md#download-reports) or [schedule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/reports.md#schedule-reports) the **Optimizer Single View Recon Report** from the Dashboard to view the settlement details.
 
 > **INFO**
 >
@@ -105,9 +105,9 @@ PineLabs | Coming Soon
  
 ### Related Information
 
-- [Add Payment Providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/add-payment-providers.md)
-- [SR Analytics Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/success-rate.md)
-- [Roles and Permissions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/roles-and-permissions.md)
-- [Tokenisation for Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/tokenisation.md)
-- [Supported Gateways and Aggregators](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md)
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/faqs.md)
+- [Add Payment Providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/add-payment-providers.md)
+- [SR Analytics Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/success-rate.md)
+- [Roles and Permissions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/roles-and-permissions.md)
+- [Tokenisation for Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/tokenisation.md)
+- [Supported Gateways and Aggregators](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/supported-gateways-aggregators.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/faqs.md)

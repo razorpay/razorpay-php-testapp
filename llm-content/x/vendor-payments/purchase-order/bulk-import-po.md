@@ -37,7 +37,7 @@ Watch this video to know how to download the Purchase Order import template.
                     1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/auth).
                     2. Go to **Vendor Payments** in the left navigation and click **Purchase Orders**.
                     3. In the **Purchase Orders** window, click **Purchase Order** drop-down button on the top right and select **Bulk upload PO** from the drop-down list.
-                    4. Click **Template** to download the template. You can also [click here](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/PoTemplate.xlsx.md) to download the template. The template is now available in your system.
+                    4. Click **Template** to download the template. You can also [click here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/PoTemplate.xlsx.md) to download the template. The template is now available in your system.
 
 ### Download Vendor Contact ID
 
@@ -193,5 +193,5 @@ Vendor Contact IDs are unique IDs generated for each vendor registered with your
 
 ### Related Information
 
-   - [Bulk Import GRN](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/grn/bulk-import-grn.md)
-   - [Bulk Import Items](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/items/bulk-import-items.md)
+   - [Bulk Import GRN](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/grn/bulk-import-grn.md)
+   - [Bulk Import Items](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/items/bulk-import-items.md)

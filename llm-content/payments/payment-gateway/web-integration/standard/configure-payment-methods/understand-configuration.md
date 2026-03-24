@@ -15,7 +15,7 @@ Let us understand the building blocks that are required to build a configuration
 
 ## Payment Methods
 
-Before deciding the payment methods or payment instruments that you want to configure on the Checkout, refer to the [payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods.md) supported by Razorpay.
+Before deciding the payment methods or payment instruments that you want to configure on the Checkout, refer to the [payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md) supported by Razorpay.
 
 ## Payment Instruments
 
@@ -29,11 +29,11 @@ Payment instruments for the `method: card` are listed below:
 
 Name | Type | Description | Values | Examples
 ---
-issuers | array | List of issuers that are allowed | [Any bank code](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods/#supported-banks.md) | `issuers: ["HDFC", "ICIC"]`
+issuers | array | List of issuers that are allowed | [Any bank code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md#supported-banks) | `issuers: ["HDFC", "ICIC"]`
 ---
-networks | array | List networks that are allowed | [Any card network](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods/#supported-card-networks.md) | `networks: ["Visa", "MasterCard"]`
+networks | array | List networks that are allowed | [Any card network](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md#supported-card-networks) | `networks: ["Visa", "MasterCard"]`
 ---
-types | array | List of card types that are allowed | [Any card type](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods/#supported-cards.md) | `types: ["credit", "debit"]`
+types | array | List of card types that are allowed | [Any card type](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md#supported-cards) | `types: ["credit", "debit"]`
 
 ```js: JavaScript
 // beginning of the code
@@ -59,7 +59,7 @@ Payment instruments for the `method: netbanking` are listed below:
 
 Name | Type | Description | Values | Examples
 ---
-banks | array`` | List of all banks that are allowed | [Any bank code](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods/#supported-banks.md) | `banks: ["HDFC", "ICIC"]`
+banks | array`` | List of all banks that are allowed | [Any bank code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md#supported-banks) | `banks: ["HDFC", "ICIC"]`
 
 ### Wallet
 
@@ -67,7 +67,7 @@ Payment instruments for the `method: wallet` are listed below:
 
 Name | Type | Description | Values | Examples
 ---
-wallets | string | Wallets to be allowed | [Any wallet code](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods/#supported-wallets.md) | `wallets: ["payzapp"]`
+wallets | string | Wallets to be allowed | [Any wallet code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md#supported-wallets) | `wallets: ["payzapp"]`
 
 ### UPI
 
@@ -75,9 +75,9 @@ Payment instruments for the  `method: upi` are listed below:
 
 Name | Type | Description | Values | Examples
 ---
-flows | string | Flows to show | [Any supported UPI flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods/#supported-upi-flows.md) | `flows: [ "qr"]`
+flows | string | Flows to show | [Any supported UPI flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md#supported-upi-flows) | `flows: [ "qr"]`
 ---
-apps | string | Apps to show, for intent | [Any supported UPI apps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods/#supported-upi-apps.md) | `apps: ["google_pay", "phonepe"]`
+apps | string | Apps to show, for intent | [Any supported UPI apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md#supported-upi-apps) | `apps: ["google_pay", "phonepe"]`
 
 ### EMI
 
@@ -85,11 +85,11 @@ Payment instruments for the  `method: emi` are listed below:
 
 Name | Type | Description | Values | Examples
 ---
-issuers | array``  | Providers to be allowed | [Any EMI issuers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods/#supported-emi-providers.md) | `issuers: ["HDFC, ICIC"]`
+issuers | array``  | Providers to be allowed | [Any EMI issuers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md#supported-emi-providers) | `issuers: ["HDFC, ICIC"]`
 ---
-types | array``  | Providers to be allowed | Any [credit](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods/#supported-credit-card-emi-providers.md) and [debit](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods/#supported-debit-card-emi-providers.md) card EMI type | `types: ["debit, credit"]`
+types | array``  | Providers to be allowed | Any [credit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md#supported-credit-card-emi-providers) and [debit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md#supported-debit-card-emi-providers) card EMI type | `types: ["debit, credit"]`
 ---
-iins | array`` | Providers to be allowed | [Any EMI IIN](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods/#supported-emi-providers.md) | `iins: ["438600"]`
+iins | array`` | Providers to be allowed | [Any EMI IIN](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md#supported-emi-providers) | `iins: ["438600"]`
 
 ### Cardless EMI
 
@@ -97,7 +97,7 @@ Payment instruments for the  `method: cardless_emi` are listed below:
 
 Name | Type | Description | Values | Examples
 ---
-providers | string | Providers to be allowed | [Any Cardless EMI provider](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods/#supported-cardless-emi-providers.md) | `providers: ["zestmoney"]`
+providers | string | Providers to be allowed | [Any Cardless EMI provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md#supported-cardless-emi-providers) | `providers: ["zestmoney"]`
 
 ### Pay Later
 
@@ -105,7 +105,7 @@ For the  method: `paylater`, the payment instruments are listed below:
 
 Name | Type | Description | Values | Examples
 ---
-providers | string | Providers to be allowed | [Any paylater provider](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods/#supported-paylater-providers.md) | `providers: ["hdfc"]`
+providers | string | Providers to be allowed | [Any paylater provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md#supported-paylater-providers) | `providers: ["hdfc"]`
 
 ### Apps
 
@@ -113,7 +113,7 @@ For the method `app`, the payment instrument is listed below:
 
 Name | Type | Description | Values | Examples
 ---
-providers | string | Providers to be allowed | [Any app provider](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods/#supported-apps.md) | `providers: ["cred"]`
+providers | string | Providers to be allowed | [Any app provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md#supported-apps) | `providers: ["cred"]`
 
 ```js: JavaScript
 // beginning of the code
@@ -235,13 +235,13 @@ let hiddenInstruments = [cardInstrument, instrumentOfSomeBank];
 > Hiding any instrument using `hide` does not affect the similar instrument defined in `blocks`. So, if you want to hide `UTIB` bank from `netbanking` and have defined the same instrument in one of your blocks, Axis bank will still be displayed in that block.
 > 
 
-![ceratin bank](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-methods-customise-certain-bank.jpg.md)
+![ceratin bank](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-methods-customise-certain-bank.jpg.md)
 
 ## Next Steps
 
-[Display the Configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/display-configuration.md)
+[Display the Configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/display-configuration.md)
 
 ### Related Information
 
-- [Supported Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md)
-- [Sample Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/sample-code.md)
+- [Supported Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/supported-methods.md)
+- [Sample Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods/sample-code.md)

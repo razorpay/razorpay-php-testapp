@@ -26,7 +26,7 @@ To create an authorisation transaction using the Razorpay Standard Checkout, you
 
 Razorpay links recurring tokens to customers using a unique identifier generated through the Customer API.
 
-You can create [customers](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md) with basic information such as `email` and `contact` and use them for various Razorpay offerings. The following endpoint creates a customer.
+You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md) with basic information such as `email` and `contact` and use them for various Razorpay offerings. The following endpoint creates a customer.
 
 /customers
 
@@ -204,7 +204,7 @@ You can create an order once you create a customer for the payment authorisation
 
 ### 1.1.2. Create an Order
 
-Use the [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md) to create a unique Razorpay `order_id` that is associated with the authorisation transaction. The following endpoint creates an order.
+Use the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md) to create a unique Razorpay `order_id` that is associated with the authorisation transaction. The following endpoint creates an order.
 
 /orders
 
@@ -958,7 +958,7 @@ body, err := client.Order.Create(data, nil)
 `payment_capture` _mandatory_
 : `boolean` Determines whether tha payment status should be changed to `captured` automatically or not. Possible values:
   - `true`: Payments are captured automatically.
-  - `false`: Payments are not captured automatically. You can manually capture payments using the [Manually Capture Payments API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#capture-a-payment.md).
+  - `false`: Payments are not captured automatically. You can manually capture payments using the [Manually Capture Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment).
 
 `method` _mandatory_
 : `string` The authorisation method. Here, it is `emandate`.
@@ -985,7 +985,7 @@ body, err := client.Order.Create(data, nil)
     - `aadhaar`
 
   `max_amount` _optional_
-  : `integer` The maximum amount, in paise, that a customer can be charged in one transaction. Know about [maximum and default values](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/faqs/#2-what-is-the-maximum-amount-which-can.md).
+  : `integer` The maximum amount, in paise, that a customer can be charged in one transaction. Know about [maximum and default values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/faqs.md#2-what-is-the-maximum-amount-which-can).
 
   `expire_at` _optional_
   : `integer` The Unix timestamp, till when you can use the token (authorisation on the payment method) to charge the customer subsequent payments. The default value is 10 years for `emandate`. This value can range from the current date to 31-12-2099 (`4102444799`). 
@@ -1060,7 +1060,7 @@ body, err := client.Order.Create(data, nil)
     - `aadhaar`
 
   `max_amount`
-  : `integer` The maximum amount in paise a customer can be charged in a transaction. Know about the [maximum and default values](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/faqs/#2-what-is-the-maximum-amount-which-can.md).
+  : `integer` The maximum amount in paise a customer can be charged in a transaction. Know about the [maximum and default values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/faqs.md#2-what-is-the-maximum-amount-which-can).
 
   `expire_at`
   : `integer` The Unix timestamp to indicate till when you can use the token (authorisation on the payment method) to charge the customer subsequent payments. The default value is 10 years for `emandate`. This value can range from the current date to 31-12-2099 (`4102444799`). 
@@ -1167,7 +1167,7 @@ When you use the handler function, the response object of the successful payment
 
 ### 1.2. Using a Registration Link
 
-Registration Link is an alternate way of creating an authorisation transaction. You can create a registration link using the [API](#121-create-a-registration-link) or [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create/#1-create-a-registration-link.md).
+Registration Link is an alternate way of creating an authorisation transaction. You can create a registration link using the [API](#121-create-a-registration-link) or [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#1-create-a-registration-link).
 
 > **INFO**
 >
@@ -1177,7 +1177,7 @@ Registration Link is an alternate way of creating an authorisation transaction. 
 > You do not have to create a customer if you choose the registration link method for creating an authorisation transaction.
 > 
 
-- When you create a registration link, an [invoice](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices.md) is automatically issued to the customer. They can use this invoice to make the authorisation payment.
+- When you create a registration link, an [invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md) is automatically issued to the customer. They can use this invoice to make the authorisation payment.
 - A registration link should always have an order amount (in paise) the customer will be charged when making the authorisation payment. This amount should be `0` in the case of Emandate.
 
 > **INFO**
@@ -1185,7 +1185,7 @@ Registration Link is an alternate way of creating an authorisation transaction. 
 > 
 > **Handy Tips**
 > 
-> You can [use Webhooks to get notifications about successful payments](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/webhooks/#check-authorization-link-status-using-webhooks.md) against a registration link.
+> You can [use Webhooks to get notifications about successful payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#check-authorization-link-status-using-webhooks) against a registration link.
 > 
 
 ### 1.2.1. Create a Registration Link
@@ -2118,7 +2118,7 @@ body, err := client.Invoice.CreateRegistrationLink(data, nil)
   : `integer` The amount, in paise, the customer should be auto-charged in addition to the authorisation amount. For example, `100000`. Pass a value in the `first_payment_amount` parameter if you want to auto-charge the customer the first payment immediately after mandate authorisation. The first payment amount will be debited, with a new `order_id` and corresponding `payment_id` created automatically and executed within 2 days of emandate token confirmation.
 
   `max_amount` _optional_
-  : `integer` The maximum amount, in paise, a customer can be charged in a transaction. Know about [maximum and default values](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/faqs/#2-what-is-the-maximum-amount-which-can.md).
+  : `integer` The maximum amount, in paise, a customer can be charged in a transaction. Know about [maximum and default values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/faqs.md#2-what-is-the-maximum-amount-which-can).
 
   `expire_at` _optional_
   : `integer` The Unix timestamp indicates till when you can use the token (authorization on the payment method) to charge the customer their subsequent payments. Defaults to `40 years`. The maximum value you can set is 40 years from the current date. Any value beyond this will throw an error.
@@ -2637,9 +2637,9 @@ The following endpoint cancels a registration link.
 
 Once you capture a payment, Razorpay Checkout returns a `razorpay_payment_id`. You can use this id to fetch the `token_id`, which is used to create and charge subsequent payments.
 
-You can retrieve the `token_id` using the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create/#3-search-for-the-token.md) or the APIs given below.
+You can retrieve the `token_id` using the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#3-search-for-the-token) or the APIs given below.
 
-Know more about [Tokens](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/integrate/#fetch-emandate-registration-details.md).
+Know more about [Tokens](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/integrate.md#fetch-emandate-registration-details).
 
 ### 2.1. Fetch Token by Payment ID
 
@@ -2749,7 +2749,7 @@ Payment payment = client.Payment.Fetch(paymentId);
 : `integer` The payment amount represented in smallest unit of the currency passed. For example, `amount = 100` translates to `100` subunits, that is .
 
 `currency`
-: `string` The currency in which the payment is made. Refer to the list of [international currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md) that we support.
+: `string` The currency in which the payment is made. Refer to the list of [international currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies) that we support.
 
 `status`
 : `string` The status of the payment. Possible values:    
@@ -3372,7 +3372,7 @@ Order order = client.Order.Create(orderRequest);
 `payment_capture` _mandatory_
 : `boolean` Determines whether the payment status should be changed to `captured` automatically or not. Possible values:
         - `true`: Payments are captured automatically.
-        - `false`: Payments are not captured automatically. You can manually capture payments using the [Manually Capture Payments API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#capture-a-payment.md).
+        - `false`: Payments are not captured automatically. You can manually capture payments using the [Manually Capture Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment).
 
 ### Response Parameters
 

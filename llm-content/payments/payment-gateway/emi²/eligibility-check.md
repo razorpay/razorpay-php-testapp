@@ -21,7 +21,7 @@ Use the Eligibility Check API to verify your customer's eligibility for EMI²-re
 > **Handy Tips**
 > 
 > - You can check customer and transaction eligibility only for Debit Card EMI, Cardless EMI and Pay Later, not for Credit Card EMI.
-> - You can perform the eligibility check on methods and instruments enabled for your account. Know how to [check the payment methods enabled](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods#view-payment-methods.md) for your account.
+> - You can perform the eligibility check on methods and instruments enabled for your account. Know how to [check the payment methods enabled](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md#view-payment-methods) for your account.
 > 
 
 ## Use Case
@@ -32,7 +32,7 @@ Before your customer navigates to the checkout, you can do an eligibility check 
 
 Following are the various states of an eligibility check:
 
-![Different states of the eligibility check process](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/affordability-eligibility-check.jpg.md)
+![Different states of the eligibility check process](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/affordability-eligibility-check.jpg.md)
 
 States | Description
 ---
@@ -61,7 +61,7 @@ The eligibility check entity has the following parameters:
 : `object` Customer details.
 
   `id` 
-  : `string` Unique identifier of the customer created using [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers.md). For example, `cust_1Aa00000000004`.
+  : `string` Unique identifier of the customer created using [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md). For example, `cust_1Aa00000000004`.
 
   `contact` 
   : `string` The customer's phone number. A maximum length of 15 characters, including country code. For example, `+919000090000`.
@@ -287,7 +287,7 @@ customers/eligibility
 : `object` Customer details.
 
   `id` _optional_
-  : `string` Unique identifier of the customer created using [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers.md). For example, `cust_1Aa00000000004`.
+  : `string` Unique identifier of the customer created using [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md). For example, `cust_1Aa00000000004`.
 
   `contact` _mandatory_
   : `string` The customer's phone number. A maximum length of 15 characters, including country code. For example, `+919000090000`.
@@ -334,7 +334,7 @@ customers/eligibility
 > 
 > **Configure Payment Methods or Instruments** 
 > 
-> Refer to the [Configurations](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/eligibility-check/configurations.md) doc for eligibility checks on specific methods or instruments.
+> Refer to the [Configurations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/eligibility-check/configurations.md) doc for eligibility checks on specific methods or instruments.
 > 
 
 ### Response Parameters
@@ -350,7 +350,7 @@ Given below is the list of errors for eligibility check.
 > 
 > **Handy Tips** 
 > 
-> [Standard Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand.md) for Razorpay APIs are applicable.
+> [Standard Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md) for Razorpay APIs are applicable.
 > 
 
   
@@ -873,6 +873,6 @@ You can test the eligibility using our test phone numbers.
   
 
 Know the interest rates and minimum order amount for:
-- [Debit Card EMI Providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs#5-can-you-provide-a-list-of-the.md)
-- [Cardless EMI Providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs#1-what-are-the-standard-interest-rates-charged.md)
-- [Pay Later Providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi²/faqs#2-what-are-the-standard-interest-rates-charged.md)
+- [Debit Card EMI Providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#5-can-you-provide-a-list-of-the)
+- [Cardless EMI Providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#1-what-are-the-standard-interest-rates-charged)
+- [Pay Later Providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi²/faqs.md#2-what-are-the-standard-interest-rates-charged)

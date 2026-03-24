@@ -18,7 +18,7 @@ By enabling the abandoned cart webhook, you can track when a customer drops off 
 4. Enter the URL where you want to receive the abandoned checkout data.
 5. Click **Save** → **Save settings**.
 
-![enable abandoned webhook](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-abandoned-cart.jpg.md) 
+![enable abandoned webhook](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-abandoned-cart.jpg.md) 
 
 ### Sample Payload
 

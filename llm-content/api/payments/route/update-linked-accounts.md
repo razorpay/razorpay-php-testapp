@@ -120,10 +120,10 @@ curl -X PATCH https://api.razorpay.com/v2/accounts/acc_LWXFUBYnysbYFV \
 : `object` The business details of the Linked Account's account.
 
     `category` _mandatory_
-    : `string` The business category of the Linked Account. Possible values: [List of Business Categories](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md).
+    : `string` The business category of the Linked Account. Possible values: [List of Business Categories](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md).
 
     `subcategory` _mandatory_
-    : `string` The business sub-category of the Linked Account. Possible values: [List of Business Sub-Categories](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md).
+    : `string` The business sub-category of the Linked Account. Possible values: [List of Business Sub-Categories](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md).
 
     `business_model` _optional_
     : `string` The business description. The character limit between 1-255 characters.
@@ -174,7 +174,7 @@ curl -X PATCH https://api.razorpay.com/v2/accounts/acc_LWXFUBYnysbYFV \
           : `string` The country. The minimum length is 2 and the maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`. 
 
 `legal_info` _conditional_
-: `object` The legal details about the Linked Account's business. The mandatory [KYC requirement](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/integration-guide/#kyc-requirements.md) parameters should be passed depending on the business requirements.
+: `object` The legal details about the Linked Account's business. The mandatory [KYC requirement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/integration-guide.md#kyc-requirements) parameters should be passed depending on the business requirements.
 
     `pan` _conditional_
     : `string` Valid PAN number details of the Linked Account's business. 
@@ -287,16 +287,16 @@ curl -X PATCH https://api.razorpay.com/v2/accounts/acc_LWXFUBYnysbYFV \
 : `string` The name of the account holder's business. For example, `Acme Corp`. The minimum length is 4 characters and the maximum length is 200.
 
 `business_type`
-: `string` The type of business operated by the account holder. Possible values: [Business Types](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md). 
+: `string` The type of business operated by the account holder. Possible values: [Business Types](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md). 
 
 `profile`
 : `object` The account holder's business details.
 
     `category`
-    : `string` The business category of the account holder. For example, `healthcare`. Possible values: [Business Category](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md).
+    : `string` The business category of the account holder. For example, `healthcare`. Possible values: [Business Category](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md).
 
     `subcategory`
-    : `string` The business sub-category of the account holder. For example, `clinic`. Possible values: [Business Sub-Category](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md).
+    : `string` The business sub-category of the account holder. For example, `clinic`. Possible values: [Business Sub-Category](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md).
 
     `addresses`
     : `object` Details of account holder's address.  
@@ -344,7 +344,7 @@ curl -X PATCH https://api.razorpay.com/v2/accounts/acc_LWXFUBYnysbYFV \
           : `string` The country. The minimum length is 2 and the maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`.
       
 `legal_info`
-: `object` The legal details about the account holder's business. The mandatory [KYC requirement](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md) parameters should be passed depending on the business requirements.
+: `object` The legal details about the account holder's business. The mandatory [KYC requirement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md) parameters should be passed depending on the business requirements.
 
     `pan`
     : `string` Valid PAN number details of the account holder's business. 

@@ -5,12 +5,12 @@ description: Know how to integrate saved cards at Standard Checkout.
 
 # Integrate Saved Cards at Standard Checkout
 
-Check the prerequisites and the integration steps for [Saved Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/features/saved-cards.md) on your standard checkout page. Know [how to integrate Saved Cards on Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards.md).
+Check the prerequisites and the integration steps for [Saved Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/features/saved-cards.md) on your standard checkout page. Know [how to integrate Saved Cards on Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/saved-cards.md).
 
 ## Prerequisites
 
  - Create a [Razorpay account](https://dashboard.razorpay.com/signup).
- - [Generate API Keys on Dashboard.](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md)
+ - [Generate API Keys on Dashboard.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys)
         
           
               Watch this video to know how to generate Test Mode API keys.
@@ -25,14 +25,14 @@ Check the prerequisites and the integration steps for [Saved Cards](@/Applicatio
 
          
         
- - [Integrate with our Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+ - [Integrate with our Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
 
- - [Generate API Keys on Dashboard.](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) 
- - [Integrate with our Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+ - [Generate API Keys on Dashboard.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) 
+ - [Integrate with our Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
 
  ## Step 1: Enable Flash Checkout on Dashboard
 
-Flash Checkout, enabled by default on your Standard Checkout, lets your customers save their card details for future purchases. Customers can choose whether to save their card information during the payment process. All card details are stored securely using PCI-DSS-compliant technology. Know more about [Flash Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/checkout-features/#flash-checkout.md).
+Flash Checkout, enabled by default on your Standard Checkout, lets your customers save their card details for future purchases. Customers can choose whether to save their card information during the payment process. All card details are stored securely using PCI-DSS-compliant technology. Know more about [Flash Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-features.md#flash-checkout).
 
 ## Step 2: Create a Customer
 
@@ -43,7 +43,7 @@ Create a customer whose card details should be saved from the Dashboard or using
 
         Razorpay identifies a customer by a unique customer identifier generated at the time of creation. This allows Razorpay to take action on a particular customer on behalf of the merchant for example, send an invoice, set recurring payments, and others./create-customer
 
-        Know more about [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md).
+        Know more about [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md).
       
 
         #### Request Parameters
@@ -56,7 +56,7 @@ Create a customer whose card details should be saved from the Dashboard or using
 Order is an important step in the payment process.
 
 - An order should be created for every payment.
-- You can create an order using the [Orders API](#api-sample-code). It is a server-side API call.  Know how to [authenticate](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) Orders API.  
+- You can create an order using the [Orders API](#api-sample-code). It is a server-side API call.  Know how to [authenticate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) Orders API.  
 - The order_id received in the response should be passed to the checkout. This ties the Order with the payment and secures the request from being tampered.
 
 > **WARN**
@@ -112,7 +112,7 @@ client.order.create(data=DATA)
 $order  = $client->order->create([
   'receipt'         => 'order_rcptid_11',
   'amount'          => 50000, // amount in the smallest currency unit
-  'currency'        => 'INR'// [See the list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).)
+  'currency'        => 'INR'// [See the list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).)
 ]);
 ```csharp: .NET
 Dictionary options = new Dictionary();
@@ -165,7 +165,7 @@ Here is the list of parameters and their description for creating an order:
 >   
 
 `currency` _mandatory_
-: `string` The currency in which the transaction should be made. See the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be 3 characters.
+: `string` The currency in which the transaction should be made. See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be 3 characters.
 
   
   
@@ -175,7 +175,7 @@ Here is the list of parameters and their description for creating an order:
 > 
 >   **Handy Tips**
 > 
->   Razorpay has added support for zero decimal currencies, such as JPY and three decimal currencies, such as KWD, BHD and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>   Razorpay has added support for zero decimal currencies, such as JPY and three decimal currencies, such as KWD, BHD and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
 >   
 
   
@@ -194,15 +194,15 @@ Here is the list of parameters and their description for creating an order:
 `id` _mandatory_
 : `string` Unique identifier of the customer. For example, `cust_1Aa00000000004`.
 
-Know more about [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 #### Response Parameters
 
-Descriptions for the response parameters are present in the [Orders Entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/entity.md) table.
+Descriptions for the response parameters are present in the [Orders Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/entity.md) table.
 
 #### Error Response Parameters
 
-The error response parameters are available in the [API Reference Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md).
+The error response parameters are available in the [API Reference Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md).
 
 ## Step 4: Enable Customer Card Saving on Checkout
 
@@ -246,7 +246,7 @@ While making the payment, the customer enters card details and can choose to sav
        
      @include payment-methods/saved-cards-ios
 
-     Know more about [Checkout parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps/#123-checkout-options.md) for web integration.
+     Know more about [Checkout parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#123-checkout-options) for web integration.
 
     
 
@@ -265,7 +265,7 @@ While making the payment, the customer enters card details and can choose to sav
        
        @include payment-methods/saved-cards-ios
 
-        Know more about [Checkout parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps/#141-checkout-options.md) for Android integration.
+        Know more about [Checkout parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps.md#141-checkout-options) for Android integration.
 
     
 
@@ -291,7 +291,7 @@ While making the payment, the customer enters card details and can choose to sav
        
        @include payment-methods/saved-cards-ios
 
-       Know more about [other Checkout parameters for iOS integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard/integration-steps.md).
+       Know more about [other Checkout parameters for iOS integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard/integration-steps.md).
 
     
 
@@ -387,4 +387,4 @@ Once the card is saved, customers can complete payments on repeat purchases by o
 
 ## Test Integration
 
-Use test cards to test your payment integration before going live. The test cards simulate different payment scenarios and error conditions for all supported card networks. Know more about [Test Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details/#saved-cards.md).
+Use test cards to test your payment integration before going live. The test cards simulate different payment scenarios and error conditions for all supported card networks. Know more about [Test Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md#saved-cards).

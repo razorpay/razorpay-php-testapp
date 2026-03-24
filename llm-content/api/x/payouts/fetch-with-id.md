@@ -9,7 +9,7 @@ description: Fetch Payout with ID using API.
 
 Use this endpoint to retrieve the details of a particular payout in the system.
 
-To understand the status of the payouts, refer to [Payout Status Details](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md).
+To understand the status of the payouts, refer to [Payout Status Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md).
 
 @include rzpx/payouts/fetch-id-code
 

@@ -9,7 +9,7 @@ Razorpay is a shared payment service provider. You bear some responsibility for 
 
 Razorpay is responsible for all the backend systems and payment data we process and share with banks. Our security and compliance programme ensures that we are always compliant against PCI-DSS, ISO 27001 and SOC 2 global compliance standards.
 
-We also provide you with a facility to [generate API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) and connect to our systems via automated computer programmes. Know how Razorpay does [Secret Management](https://razorpay.com/blog/secret-management-razorpay/).
+We also provide you with a facility to [generate API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) and connect to our systems via automated computer programmes. Know how Razorpay does [Secret Management](https://razorpay.com/blog/secret-management-razorpay/).
 
 ## While Using Our Payment Gateway
 
@@ -46,7 +46,7 @@ All the security obligations for [Standard Checkout](#standard-checkout) also ap
 - Be compliant with [PCI DSS](https://www.pcisecuritystandards.org/about_us/) standards at all times. 
 - Share your PCI AOC (Attestation of Compliance) before every year's expiration date for continued access to this integration method.
 
-You would be responsible for any misuse by not handling keys or the Dashboard credentials securely. We have an intuitive [security checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/security/checklist.md) to review the security posture and help you interact with us securely.
+You would be responsible for any misuse by not handling keys or the Dashboard credentials securely. We have an intuitive [security checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/checklist.md) to review the security posture and help you interact with us securely.
 
 ## While Using RazorpayX
 
@@ -58,13 +58,13 @@ Follow the below security measures while making Payouts.
 
 - Ensure that no two fund accounts have the same `fund_account_id`.
 - If you are not PCI-DSS compliant, you should **not** process your contact's card details at your backend. 
-- Use the public [Fund Account API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts-cards.md) to create a Fund account with type card. The public Fund Account API only needs your ``. DO NOT send your `` when making this API call, as you will expose this on your website. Know more about [Payouts to Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts-cards.md).
+- Use the public [Fund Account API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts-cards.md) to create a Fund account with type card. The public Fund Account API only needs your ``. DO NOT send your `` when making this API call, as you will expose this on your website. Know more about [Payouts to Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts-cards.md).
 
 #### Allowlisting IPs
 
-To protect your API payouts from malicious attacks, it is mandatory to allowlist the IPs you use for all payout-related API requests (such as create a contact, fund account, payout, fund account validation, and so on). Know how to [allowlist your IPs](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/allowlist-ip.md).
+To protect your API payouts from malicious attacks, it is mandatory to allowlist the IPs you use for all payout-related API requests (such as create a contact, fund account, payout, fund account validation, and so on). Know how to [allowlist your IPs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/allowlist-ip.md).
 
 ### Related Information
 
-- [Razorpay Security](@/Applications/MAMP/htdocs/new-docs/llm-content/security.md)
-- [Security Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/security/checklist.md)
+- [Razorpay Security](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security.md)
+- [Security Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/checklist.md)

@@ -24,37 +24,37 @@ description: Find answers to frequently asked questions about RazorpayX Payouts.
     
 ### 3 . What is Fund Account Validation?
 
-         [Fund Account Validation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/account-validation.md) is a transaction made to ensure the fund account details of the bank account and/or VPA are correct.
+         [Fund Account Validation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/account-validation.md) is a transaction made to ensure the fund account details of the bank account and/or VPA are correct.
         
 
     
 ### 4 . What are Payouts to Cards?
 
-         Payouts to cards are transactions that are processed to cards and card accounts. They can be initiated via traditional banking methods like NEFT or UPI, but they are processed via Visa Direct or Mastercard Send. This feature is only available via the [Payouts to Cards API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts-cards.md).
+         Payouts to cards are transactions that are processed to cards and card accounts. They can be initiated via traditional banking methods like NEFT or UPI, but they are processed via Visa Direct or Mastercard Send. This feature is only available via the [Payouts to Cards API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts-cards.md).
 
-         Know more about [supported banks and cards for Payouts to cards](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/cards#supported-networks-and-banks.md).
+         Know more about [supported banks and cards for Payouts to cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/cards.md#supported-networks-and-banks).
         
 
     
 ### 5 . What is a Payout Link?
 
-         [Payout Links](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links.md) can be generated for those Contacts whose bank account details are not available. 
+         [Payout Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links.md) can be generated for those Contacts whose bank account details are not available. 
          1. The recipient receives the link on their email or mobile number and uploads their bank account information or UPI details. 
          1. This creates a Fund Account for the contact, to which the payout is then processed.
 
-         Know more about other [Payout Links use cases](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payout-links/#use-cases.md).
+         Know more about other [Payout Links use cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payout-links.md#use-cases).
         
 
     
 ### 6 . How do I add purpose to a Payout?
 
-         You can add a Payout purpose under the Payout details while creating the Payout. Know more about [Payout purposes](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/#payout-purpose.md).
+         You can add a Payout purpose under the Payout details while creating the Payout. Know more about [Payout purposes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#payout-purpose).
         
 
     
 ### 7. Why am I not able to add a new Payout Purpose? 
 
-         The maximum number of Payout Purposes you can add is 400. [Contact Support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md) if you want to add more Payout Purposes.
+         The maximum number of Payout Purposes you can add is 400. [Contact Support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md) if you want to add more Payout Purposes.
         
 
     
@@ -72,13 +72,13 @@ description: Find answers to frequently asked questions about RazorpayX Payouts.
     
 ### 10 . Can I make Payouts from Razorpay PG platform?
 
-         No, you cannot make Payouts from the Razorpay Payments Dashboard. You have to log in to the RazorpayX Dashboard to [make Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/#how-to-make-payouts.md).
+         No, you cannot make Payouts from the Razorpay Payments Dashboard. You have to log in to the RazorpayX Dashboard to [make Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#how-to-make-payouts).
         
 
     
 ### 11 . How do I edit a created Payout?
 
-         You cannot edit a Payout after you [create a Payout](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/#how-to-make-payouts.md). However, you can [add an attachment](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/#add-attachments.md). 
+         You cannot edit a Payout after you [create a Payout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#how-to-make-payouts). However, you can [add an attachment](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#add-attachments). 
          
          Navigate to Payouts on the RazorpayX Dashboard and select the payout you want to add an attachment to. Click **Upload** on the right pane.
         
@@ -86,13 +86,13 @@ description: Find answers to frequently asked questions about RazorpayX Payouts.
     
 ### 12 . How can other users on my team create Payouts?
 
-         Refer to [Manage Teams](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams.md) to see how to add and assign user roles based on requirements.
+         Refer to [Manage Teams](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams.md) to see how to add and assign user roles based on requirements.
         
 
     
 ### 13 . How to make transfers to beneficiaries who have provided their RazorpayX Lite?
 
-         Add the [RazorpayX Lite](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/razorpayx-lite.md) details while creating the [Fund Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts/#update-a-contact-and-fund-account.md) for the respective Contact and create a Payout.
+         Add the [RazorpayX Lite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/razorpayx-lite.md) details while creating the [Fund Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md#update-a-contact-and-fund-account) for the respective Contact and create a Payout.
         
 
     
@@ -104,4 +104,4 @@ description: Find answers to frequently asked questions about RazorpayX Payouts.
     
 ### 15 . How to enable RazorpayX Lite?
 
-         [RazorpayX Lite](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/razorpayx-lite.md) is available to you as soon as you complete the KYC process and have your account verified. The approval process is simple and fast.
+         [RazorpayX Lite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/razorpayx-lite.md) is available to you as soon as you complete the KYC process and have your account verified. The approval process is simple and fast.

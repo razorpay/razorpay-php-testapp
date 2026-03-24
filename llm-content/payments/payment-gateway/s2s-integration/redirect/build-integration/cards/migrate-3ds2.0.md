@@ -20,7 +20,7 @@ If you integrated with our S2S APIs before October 15, 2022, you must make the f
 
 3DS2 is an authentication protocol, the successor of 3DS1, that enables businesses and payment providers to send additional information (such as customer device or browser data) to verify the transaction's authenticity. Razorpay integration is compliant with the 3DS2 protocol. 
 
-**Know more**: Razorpay supports [3DS2 transactions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/cards/3ds2.0.md).
+**Know more**: Razorpay supports [3DS2 transactions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/cards/3ds2.0.md).
 
 The customer's bank evaluates the transaction for risk and decides on the payment flow.
 
@@ -40,16 +40,16 @@ The customer's bank evaluates the transaction for risk and decides on the paymen
 
 Given below is a diagram that explains the 3DS2 flow:
 
-![Cards 3DS2 Protocol](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-3ds-flowchart.jpg.md)
+![Cards 3DS2 Protocol](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-3ds-flowchart.jpg.md)
 
 ## Quick Summary of Integration Changes
 
-Ensure you make the following changes in your [Create a Payment API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/redirect/build-integration/cards#12-create-a-payment.md) request. There is no change in the response.
+Ensure you make the following changes in your [Create a Payment API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/redirect/build-integration/cards.md#12-create-a-payment) request. There is no change in the response.
 
 Parameter Changes | Description
 ---
-New Parameters | Pass these new parameters: - `authentication` and related child parameter: These determine the [authentication channel](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/redirect/build-integration/cards/migrate-3ds2.0#:~:text=Details%20of%20the-,authentication%20channel,-..md) being used.
-- `browser` and related child parameters:  These capture the customer's [browser details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/redirect/build-integration/cards/migrate-3ds2.0#:~:text=regarding%20the%20customer%27s-,browser,-.%20This%20parameter%20need.md), which are sent to the banks to aid their risk analysis.
+New Parameters | Pass these new parameters: - `authentication` and related child parameter: These determine the [authentication channel](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/redirect/build-integration/cards/migrate-3ds2.0.md#:~:text=Details%20of%20the-,authentication%20channel,-.) being used.
+- `browser` and related child parameters:  These capture the customer's [browser details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/redirect/build-integration/cards/migrate-3ds2.0.md#:~:text=regarding%20the%20customer%27s-,browser,-.%20This%20parameter%20need), which are sent to the banks to aid their risk analysis.
 
 ---
 Existing Parameter | The `ip` parameter is now mandatory.
@@ -436,7 +436,7 @@ https://api.razorpay.com/v1/payments/create/redirect \
 >     
 
 `notes` _optional_
-: `object` Key-value object used for passing tracking info. Refer to [Notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) for more details.
+: `object` Key-value object used for passing tracking info. Refer to [Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) for more details.
 
 `callback_url` _optional_
 : `string` URL endpoint where Razorpay will submit the final payment status.
@@ -488,7 +488,7 @@ https://api.razorpay.com/v1/payments/create/redirect \
 
 #### Response Parameters
 
-Descriptions for the response parameters are present in the [Payments Entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments#payments-entity.md) parameters table.
+Descriptions for the response parameters are present in the [Payments Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#payments-entity) parameters table.
 
 #### Response Types
 
@@ -498,12 +498,12 @@ Descriptions for the response parameters are present in the [Payments Entity](@/
 `400 Bad Request`
 : This can happen when erroneous parameters are passed in the request, for example, invalid currency or wrong card number.
 
-Know more about [errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md).
+Know more about [errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md).
 
 The HTML form returned in the response should be opened in the customer's browser. The customer completes the payment on the displayed page.
 
 ## Next Step
 
-The rest of the integration steps mentioned in the [S2S Redirect Cards Build Integration document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/redirect/build-integration/cards.md) remain the same. No changes are required in those.
+The rest of the integration steps mentioned in the [S2S Redirect Cards Build Integration document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/redirect/build-integration/cards.md) remain the same. No changes are required in those.
 
-After completing the build integration steps, you can continue with [Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/redirect/test-integration.md)
+After completing the build integration steps, you can continue with [Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/redirect/test-integration.md)

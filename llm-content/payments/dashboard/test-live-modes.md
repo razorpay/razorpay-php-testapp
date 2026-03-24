@@ -10,7 +10,7 @@ description: Check the Test (sandbox environment) and Live modes available on th
 > 
 > **Watch Out!**
 > 
-> The Dashboard offers two modes: **Test** and **Live**. Both modes provide the same functionalities, except that real payments cannot be accepted in **Test** mode. Refer the [table below](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/test-live-modes/#test-mode-vs-live-mode.md) for more details.
+> The Dashboard offers two modes: **Test** and **Live**. Both modes provide the same functionalities, except that real payments cannot be accepted in **Test** mode. Refer the [table below](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/test-live-modes.md#test-mode-vs-live-mode) for more details.
 > 
 
 ## Test Mode Vs Live Mode
@@ -30,11 +30,11 @@ Actions taken in the test mode have no consequences in your live environment. Tr
 > 
 > **Separate Set of API Keys in Test and Live Mode**
 > 
-> You have to generate a separate set of API keys for Live and Test modes. Know more about [Generating API Keys on Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys.md).
+> You have to generate a separate set of API keys for Live and Test modes. Know more about [Generating API Keys on Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md).
 > 
 
 ## Enable Test Mode
 
 You can turn on **Test Mode** using the toggle on your Razorpay Dashboard.
 
-![Switch between Test and Live modes on Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/test-mode-new.jpg.md)
+![Switch between Test and Live modes on Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/test-mode-new.jpg.md)

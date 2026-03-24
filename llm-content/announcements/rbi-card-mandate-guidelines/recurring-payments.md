@@ -48,7 +48,7 @@ We will soon be enabling UPI Autopay on your Dashboard. You can create a registr
 
 If you do not want to use UPI Autopay, you can disable it from the Settings tab on the Subscriptions page from the Dashboard.
 
-**Read More**: Learn more about UPI Autopay from our [blog](https://razorpay.com/blog/what-is-upi-autopay-recurring-payments-razorpay-subscriptions/) and [documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/recurring-payments/upi/create-authorization-transaction.md).
+**Read More**: Learn more about UPI Autopay from our [blog](https://razorpay.com/blog/what-is-upi-autopay-recurring-payments-razorpay-subscriptions/) and [documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/upi/create-authorization-transaction.md).
 
 ## MandateHQ: Helping Issuing Banks Comply with the RBI Circular
 

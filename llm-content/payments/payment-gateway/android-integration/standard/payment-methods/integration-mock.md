@@ -29,7 +29,7 @@ Mock SDK is a tool designed to facilitate your integration with Turbo UPI. Unlik
              - `app/libs`: All libraries (Bank, SecureComponent, and Turbo).
              - `app/build.gradle`: All transitive dependencies needed to integrate Turbo SDK.
 
-         2. Integrate with the [Razorpay Android Standard Checkout SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps.md).
+         2. Integrate with the [Razorpay Android Standard Checkout SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps.md).
 
          3. Import the following frameworks:
 
@@ -56,7 +56,7 @@ Mock SDK is a tool designed to facilitate your integration with Turbo UPI. Unlik
 >          - API Key Usage for Different Environments:
 >              - Use the `rzp_test_0wFRWIZnH65uny` API key id for testing on the UAT environment.
 >              - Use the `rzp_test_vacN5cmVqNIlhO` API key id for testing on the Mock environment.
->              - Use the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+>              - Use the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.
 >          - As a compliance requirement, you need to get approval from Google for READ_SMS permission. Refer to the [Google article](https://support.google.com/googleplay/android-developer/answer/10208820?hl=en) for more details.
 >          
 
@@ -64,7 +64,7 @@ Mock SDK is a tool designed to facilitate your integration with Turbo UPI. Unlik
 
 ## 1. Integration Steps
 
-Follow these steps to integrate with [Turbo UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/payment-methods/turbo-upi.md).
+Follow these steps to integrate with [Turbo UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/payment-methods/turbo-upi.md).
 
 ## 2. Test Integration
 
@@ -454,4 +454,4 @@ Pay | Amount = ₹24 | 91 | Timeout
 
 ## 3. Go-live Checklist
 
-Complete this [Go-live Checklist](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-ui/#3-go-live-checklist.md) to take your integration live.
+Complete this [Go-live Checklist](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-ui.md#3-go-live-checklist) to take your integration live.

@@ -21,13 +21,13 @@ acmecorp.in gives the option of accepting payments via Razorpay products to Gekk
 To make referrals:
 
 1. **Become a Technology Partner** 
- [Create a Partner account](https://razorpay.com/partners/) and request for a partner type [switch to Technology Partner](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/become-technology-partner.md).
+ [Create a Partner account](https://razorpay.com/partners/) and request for a partner type [switch to Technology Partner](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/become-technology-partner.md).
 
 2. **Complete KYC** 
- [Complete KYC](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/kyc.md) by submitting the necessary documents.
+ [Complete KYC](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/kyc.md) by submitting the necessary documents.
 
 3. **Integrate with our APIs** 
- Integrate with our APIs using [Razorpay OAuth](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth.md).
+ Integrate with our APIs using [Razorpay OAuth](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth.md).
 
 4. **Test the flow** 
  Create a sample sub-merchant account and test the end-to-end flow based on your use case. Contact our [integrations team](mailto:integrations@razorpay.com) for any issues during testing. 
@@ -35,8 +35,8 @@ To make referrals:
 5. **Go live** 
  Launch the integration on your platform and enable your businesses to reap the benefits of a powerful payments system. 
 
-You are now a successful Razorpay Technology Partner. You can start referring clients to Razorpay. Know more about your [Earnings](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/commissions.md).
+You are now a successful Razorpay Technology Partner. You can start referring clients to Razorpay. Know more about your [Earnings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/commissions.md).
 
 ### Embedded Payments
 
-You can further choose to integrate with Embedded Payments. Using this, you can onboard businesses, process payments and control the flow of funds from within your platform. Know more about [Embedded Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners/embedded-payments.md).
+You can further choose to integrate with Embedded Payments. Using this, you can onboard businesses, process payments and control the flow of funds from within your platform. Know more about [Embedded Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/embedded-payments.md).

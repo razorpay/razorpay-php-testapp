@@ -20,7 +20,7 @@ However, when new employees join the organisation during the buffer period, calc
 
 ## How it Works 
 
-1. Set up [payroll and attendance cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/quickstart/custom-cycle.md).
+1. Set up [payroll and attendance cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/quickstart/custom-cycle.md).
 1. [Enable and select the new joiner cut-off](#set-up-new-joiner-cut-off-date) date for the organisation. 
 1. Basis the employee's date of joining (DOJ), Payroll either: 
     - Holds new employee's salary for the joining month and pays the prorated salary (including new joiner arrears) in the upcoming month. 
@@ -34,7 +34,7 @@ To set up new joiner's cut-off date:
 1. Go to **Payroll Setup** → **EDIT**. This opens the **Payroll Setup** page. 
 1. Enable the toggle against **New Joiner Cut-Off**. 
 1. Select the cut-off date from the drop-down calendar. 
-    ![Enable new joiner cut-off date Razorpay Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-newjoinee-cut-off.jpg.md)
+    ![Enable new joiner cut-off date Razorpay Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-newjoinee-cut-off.jpg.md)
 1. Click **Save Changes**.
 
 This sets up the new joiner's cut-off date. Employees who join after the cut-off date receive their prorated salary in the upcoming month.
@@ -55,7 +55,7 @@ You have successfully changed the cut-off date.
 > 
 > **Watch Out!**
 > 
-> You cannot change the new joiner cut-off date if you have an upcoming effective [payroll and attendance cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/quickstart/custom-cycle.md). [Cancel the upcoming cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/quickstart/custom-cycle/#cancel-upcoming-cycle.md) and then make changes to the new joiner cut-off date, payroll and attendance cycles. 
+> You cannot change the new joiner cut-off date if you have an upcoming effective [payroll and attendance cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/quickstart/custom-cycle.md). [Cancel the upcoming cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/quickstart/custom-cycle.md#cancel-upcoming-cycle) and then make changes to the new joiner cut-off date, payroll and attendance cycles. 
 > 
 
 ### Payroll Impact
@@ -67,7 +67,7 @@ When an employee joins after the new joiner cut-off date, Payroll processes the 
 > 
 > **Handy Tips**
 > 
-> You can make gross-pay changes like deductions, bonuses, or salary revision to the new joiner's payroll. [Finalise payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#execute-payroll.md) for the employee's joining month to view the prorated salary for the upcoming month. 
+> You can make gross-pay changes like deductions, bonuses, or salary revision to the new joiner's payroll. [Finalise payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#execute-payroll) for the employee's joining month to view the prorated salary for the upcoming month. 
 > 
 
 Know how we process payroll for the joining and upcoming months below.
@@ -77,9 +77,9 @@ Know how we process payroll for the joining and upcoming months below.
 
          - New joiner's payroll for the joining month is **On-Hold**. When you finalise payroll, the **Run Payroll** list for the joining/current month displays the following:
 
-                ![Razorpay Payroll new joiner's salary held](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-newjoiner-arrears-finalise.jpg.md)
+                ![Razorpay Payroll new joiner's salary held](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-newjoiner-arrears-finalise.jpg.md)
 
-         - In the joining month, you can deduct [LOP](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#loss-of-pay.md) days and salary revision for new employees. However, we process them only in the upcoming month.
+         - In the joining month, you can deduct [LOP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#loss-of-pay) days and salary revision for new employees. However, we process them only in the upcoming month.
         
 
     
@@ -89,7 +89,7 @@ Know how we process payroll for the joining and upcoming months below.
          
          In the **Addition details** pop-up modal, you can view the details of the additions added.
 
-            ![specific and meaningful image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-newjoiner-arrears-next-month.jpg.md)
+            ![specific and meaningful image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-newjoiner-arrears-next-month.jpg.md)
         
 
 ## Frequently Asked Questions (FAQs)
@@ -105,7 +105,7 @@ Know how we process payroll for the joining and upcoming months below.
     
 ### 2. I am unable to finalise payroll for the upcoming month. How to resolve this?
 
-         You cannot [finalise payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#execute-payroll.md) for the upcoming month because you have not finalised the new joiner's payroll for the previous month. 
+         You cannot [finalise payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#execute-payroll) for the upcoming month because you have not finalised the new joiner's payroll for the previous month. 
          
          Finalise payroll for the new employee's joining month. Then, finalise the payroll for the upcoming month to pay the arrears and the salary.
         
@@ -121,7 +121,7 @@ Know how we process payroll for the joining and upcoming months below.
     
 ### 4. I cannot find the settings to set up a new joiner cut-off date for my organisation. What should I do to enable it?
 
-         If you cannot find the new joiner cut-off date settings, you are using [Jibble](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/jibble.md) to manage employee's attendance, loss of pay and more. 
+         If you cannot find the new joiner cut-off date settings, you are using [Jibble](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/jibble.md) to manage employee's attendance, loss of pay and more. 
          
          In such cases, you cannot set up a new joiner's cut-off date for your organisation. 
         
@@ -129,9 +129,9 @@ Know how we process payroll for the joining and upcoming months below.
     
 ### 5. How do I add Reverse LOP for my newly joined employees?
 
-         You cannot add [reverse LOP arrears](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#how-to-pay-lop-reversal-arrears.md) to a new employee's payroll.
+         You cannot add [reverse LOP arrears](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#how-to-pay-lop-reversal-arrears) to a new employee's payroll.
          
-         To reverse the LOP deductions, [make changes](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#execute-payroll.md) to the employee's payroll for their joining month.
+         To reverse the LOP deductions, [make changes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#execute-payroll) to the employee's payroll for their joining month.
         
 
     
@@ -145,13 +145,13 @@ Know how we process payroll for the joining and upcoming months below.
     
 ### 7. How can I revise my new employee's salary before paying the arrears?
 
-         You must [make changes](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#execute-payroll.md) to your finalised payroll in the previous month to revise salary for a new employee. 
+         You must [make changes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#execute-payroll) to your finalised payroll in the previous month to revise salary for a new employee. 
         
 
     
 ### 8. How do I make changes/unfinalise payroll?
 
-         Refer to the [Execute Payroll section](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/run-payroll/#execute-payroll.md) to know how to make changes to the monthly payroll.
+         Refer to the [Execute Payroll section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/run-payroll.md#execute-payroll) to know how to make changes to the monthly payroll.
         
 
     

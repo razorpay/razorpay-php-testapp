@@ -7,7 +7,7 @@ description: Customise Payment Pages and send different versions of the same Pay
 
 You can customise Payment Pages for customers and send them custom links with the amount, email, phone and custom fields (such as First Name and Last Name) pre-populated. This serves as a personalisation value-add for customers. You can do this by making changes to the Payment Pages URL before sending it to customers. You can pre-populate [Input Fields](#pre-populate-input-fields) and [Amount Fields](#pre-populate-amount-fields)
 
-![Sample Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-prepopulate_pp.jpg.md)
+![Sample Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-prepopulate_pp.jpg.md)
 
 ## Pre-populate Input Fields
 You can pre-populate the input fields on your Payment Page, such as name, email and contact and send customised Payment Pages to customers.
@@ -51,13 +51,13 @@ The long URL appears as shown:
 
 `https://pages.razorpay.com/pl_DOiqlZTGqnH9F8/view?amount=199&email=saurav.kumar@example.com&phone=8999999999&full_name=Saurav%20Kumar`
 
-This is a unique URL that can be shared with the customer named Saurav Kumar to accept payments from her.It appears as shown below: ![Payment Page - Prepopulate Input Fields](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-prepopulate_pp_sk.jpg.md)
+This is a unique URL that can be shared with the customer named Saurav Kumar to accept payments from her.It appears as shown below: ![Payment Page - Prepopulate Input Fields](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-prepopulate_pp_sk.jpg.md)
 
 Similarly, you can add suffixes to these field names and values and create different versions of the same Payment Page for different customers.
 
 Payment Page appears customised for Bhairav Kumar:
 
-![Payment Page - Customised Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-prepopulate_pp_bk.jpg.md)
+![Payment Page - Customised Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-prepopulate_pp_bk.jpg.md)
 
 > **INFO**
 >
@@ -88,7 +88,7 @@ Add an optional amount field selected by default.
 2. Fill in the details of the product.
 3. In the Payment Details Section, create a price field called `Marble Pink Case` using `Item with Quantity` as the amount field type.
     
-    ![Payment Page - Prepopulate Item with Quantity](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-item_with_quantity.jpg.md)
+    ![Payment Page - Prepopulate Item with Quantity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-item_with_quantity.jpg.md)
     
 4. Create any additional fields required such as Name, Address and so on.
 5. **Save and Publish** the Payment Page.
@@ -112,7 +112,7 @@ The Long URL now appears as shown:
 
 This is now a unique URL wherein the item quantity will always appear selected as `1`:
 
-![Payment Page - Customised Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-item_qty_selected.jpg.md)
+![Payment Page - Customised Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-item_qty_selected.jpg.md)
 
 ### Case 2: Pre-populate Fixed Amount Field
 
@@ -132,7 +132,7 @@ To pre-populate fixed amount field:
 2. Fill in the details of the product.
 3. In the Payment Details Section, create a price field called `Creative Writing Course Registration` using `Fixed Amount` as the amount field type.
     
-    ![Payment Page - Prepopulate Fixed Amount](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-fixed-amount.jpg.md)
+    ![Payment Page - Prepopulate Fixed Amount](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-fixed-amount.jpg.md)
     
     
 
@@ -159,7 +159,7 @@ The Long URL now appears as shown:
 
 This is now a unique URL wherein the amount field will always be appear selected:
 
-![Payment Page - Customised Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-fixed_amount_selected.jpg.md)
+![Payment Page - Customised Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-fixed_amount_selected.jpg.md)
 
 ### Case 3: Display Different Amounts for Different Customers
 
@@ -175,14 +175,14 @@ You want to get registrations for an event. You are creating a Payment Page titl
 
 In this case, you do not have to create multiple Payment Pages. You can fix and pre-populate the amount you want each customer to pay.
 
-![Payment Page - Customised Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-prepopulate_pp.jpg.md)
+![Payment Page - Customised Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-prepopulate_pp.jpg.md)
 
 To display different amounts for different customers:
 
 1. On the Dashboard, create a Payment Page titled **Registration**.
 2. Fill in the details of the event such as description, venue, time and more.
 3. In the Payment Details Section, create a price field. - `Customer Decides Amount`.
-    ![Payment Page - Customer Decides Amount](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-customer_decides_amount.jpg.md)
+    ![Payment Page - Customer Decides Amount](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-customer_decides_amount.jpg.md)
     
 
 4. Create an input field with type as `Single Line` to capture the customer's **Full Name**.
@@ -213,7 +213,7 @@ The long URL now appears as shown:
 
 This is a unique URL that can be shared with the customer named Gaurav Kumar to accept payments from him. It appears as shown below:
 
-![Payment Page - Prepopulate Fields](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-prepopulate_pp.jpg.md)
+![Payment Page - Prepopulate Fields](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-prepopulate_pp.jpg.md)
 
 > **INFO**
 >
@@ -227,5 +227,5 @@ This is a unique URL that can be shared with the customer named Gaurav Kumar to 
 
 ### Related Information
 
-- [Create a Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/create.md)
-- [Add Images, Videos and More](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/add-images-videos.md)
+- [Create a Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/create.md)
+- [Add Images, Videos and More](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/add-images-videos.md)

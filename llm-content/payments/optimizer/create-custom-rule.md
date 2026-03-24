@@ -26,7 +26,7 @@ To set up the custom rule:
     1. **Rule Name** - Add a name for the rule. For example, `VISA Card Transactions`.
     2. **Rule Description** - Enter a description. For example, `Route 80% of all VISA card transactions via Razorpay`. 
 
-    ![Create Custom Rules](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-create-custom-rule.jpg.md)
+    ![Create Custom Rules](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-create-custom-rule.jpg.md)
 3. Click **Next**.
 4. Add the rule conditions:
     
@@ -73,7 +73,7 @@ To set up the custom rule:
     3. **Select Comparing Value** - Select `VISA`.
     4. Click **Next**.
 
-    ![Add Custom Rule Conditions](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-add-custom-rule-condition.jpg.md)
+    ![Add Custom Rule Conditions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-add-custom-rule-condition.jpg.md)
 5. Add the target payment provider through which the transactions should be routed:
     1. Click **Edit Target Provider** to set the priority.
     2. Enter the following details:
@@ -83,9 +83,9 @@ To set up the custom rule:
     3. You can choose to add another provider as Priority 2. To do this, click **Add Priority** and enter the following details:
         1. For example, for XYZ gateway, provide the values for **Route** as 100 and **payment via** as `XYZ`.
     4. Click **Next**.
-    ![Add Target Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-target-provider.jpg.md)
+    ![Add Target Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-target-provider.jpg.md)
 6. Click **Publish Rule** to publish immediately. Alternatively, you can save the rule in draft state and publish later.
-![Publish Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-publish-rule.jpg.md)
+![Publish Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-publish-rule.jpg.md)
 
 ## Custom Identifiers
 
@@ -262,8 +262,8 @@ document.getElementById('rzp-button1').onclick = function(e){
 
 ## Turbo UPI on Optimizer
 
-Watch this short video of how you to route your transactions for [Turbo UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi.md) using Optimizer.
-![Turbo UPI on optimizer gif](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi-turbo-optimizer.gif.md)
+Watch this short video of how you to route your transactions for [Turbo UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi.md) using Optimizer.
+![Turbo UPI on optimizer gif](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-turbo-optimizer.gif.md)
 
 > **INFO**
 >
@@ -273,19 +273,19 @@ Watch this short video of how you to route your transactions for [Turbo UPI](@/A
 > Make sure that you have enabled Turbo UPI as a payment method. If it is not yet enabled, please get in touch with your sales POC to activate this feature for your account.
 > 
 
-Below is an example of how you can route your transactions for [Turbo UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi.md) using Optimizer:
+Below is an example of how you can route your transactions for [Turbo UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi.md) using Optimizer:
 1. Log in to your Dashboard. 
 2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
-    ![optimizer login](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-login.jpg.md)
+    ![optimizer login](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-login.jpg.md)
 3. Click **Add New Rule**.
-    ![Add new rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-new-rule-upi-turbo.jpg.md)
+    ![Add new rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-new-rule-upi-turbo.jpg.md)
 4. Enter the **Rule Name** and **Rule Description** and click **Next**.
-    ![Add rule name & description](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rule-name-description-upi-turbo.jpg.md)
+    ![Add rule name & description](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rule-name-description-upi-turbo.jpg.md)
 5. Enter the following values:
     - **When** - Select `Payment Method`.
     - **is** - Select `Equal to`.
     - **Select Comparing Value** - Select `upi_in_app` and click **Next**.
-    ![Add values](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/enter-values-upi-turbo.jpg.md)
+    ![Add values](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/enter-values-upi-turbo.jpg.md)
 
     
 > **WARN**
@@ -297,7 +297,7 @@ Below is an example of how you can route your transactions for [Turbo UPI](@/App
 >     
 
 6. Enter the target payment provider details and click **Next**.
-    ![Add target provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/provider-details-upi-turbo.jpg.md)
+    ![Add target provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/provider-details-upi-turbo.jpg.md)
 
     
     
@@ -311,13 +311,13 @@ Below is an example of how you can route your transactions for [Turbo UPI](@/App
 >     
 
 7. Click **Publish Rule**.
-    ![publish rule turbo upi](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/publish-rule-upi-turbo.jpg.md)
+    ![publish rule turbo upi](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/publish-rule-upi-turbo.jpg.md)
 8. Click **Publish Now**.
-    ![publish now turbo upi](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/publish-now-upi-turbo.jpg.md)
+    ![publish now turbo upi](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/publish-now-upi-turbo.jpg.md)
 
   
 
 ### Related Information
 
-- [Add Payment Providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/add-payment-providers.md)
-- [Manage Rules](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer/manage-rules.md)
+- [Add Payment Providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/add-payment-providers.md)
+- [Manage Rules](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer/manage-rules.md)

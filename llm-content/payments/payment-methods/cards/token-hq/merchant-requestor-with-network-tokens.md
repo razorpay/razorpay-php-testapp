@@ -47,7 +47,7 @@ In this flow, you will be onboarded with card networks and Issuers as token requ
 
 Given below is the first payment tokenisation flow:
 
-![Tokenisation flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-tokenisation.jpg.md)
+![Tokenisation flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-tokenisation.jpg.md)
 
 1. The customer consents to save a card on your website/app checkout.
 2. The saved card consent is stored by Razorpay Token Requestor after successful authentication of the transaction. 
@@ -56,7 +56,7 @@ Given below is the first payment tokenisation flow:
 
 Given below is the subsequent payment tokenisation flow:
 
-![Subsequent payment Tokenisation flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-tokenisation-subsequent-payment.jpg.md)
+![Subsequent payment Tokenisation flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-tokenisation-subsequent-payment.jpg.md)
 
 1. The customer initiates payment using the token.
 2. We automatically fetch the token cryptogram from the Card Network or the issuing bank.
@@ -65,6 +65,6 @@ Given below is the subsequent payment tokenisation flow:
 
 ### Related Information
 
-- [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/apis.md)
-- [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/webhooks.md)
-- [Tokenisation FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq.md)
+- [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/apis.md)
+- [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/webhooks.md)
+- [Tokenisation FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq.md)

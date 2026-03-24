@@ -33,7 +33,7 @@ To provide your customers with a faster and more seamless payment experience, we
 > Offering CVV-less saved card flows to your customers can increase the conversion rate by 4%.
 > 
 
-![CVV Less Card Payment Flow GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cvv-less-otp-less.gif.md)
+![CVV Less Card Payment Flow GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cvv-less-otp-less.gif.md)
 
 ## Saved Card Payment without CVV
 
@@ -86,4 +86,4 @@ To provide your customers with a faster and more seamless payment experience, we
 
 ### Related information
 
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/features/cvv-less-flow/#frequently-asked-questions-faqs.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/features/cvv-less-flow.md#frequently-asked-questions-faqs)

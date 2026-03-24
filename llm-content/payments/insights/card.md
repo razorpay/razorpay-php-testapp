@@ -21,7 +21,7 @@ You can view the following data points for card transactions.
 ### 1. **Cards Success Rate Trend**
 
          Indicates the success rate trend from the beginning to the end of the selected timeframe.
-            ![UPI Success Rate Trend](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-success-rate-trends.jpg.md)
+            ![UPI Success Rate Trend](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-success-rate-trends.jpg.md)
         
 
     
@@ -29,7 +29,7 @@ You can view the following data points for card transactions.
 
          1. **Card Type SR (Success Rate)**: Displays the success rate of transactions categorised by different card types, such as credit, debit and prepaid over time.
          2. **Card Type GMV (Gross Merchandise Value)**: This shows the distribution of total transaction value across different card types, such as credit, debit and prepaid.
-             ![Card Type Metrics](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/card-type-metrics.jpg.md)
+             ![Card Type Metrics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/card-type-metrics.jpg.md)
         
 
     
@@ -37,7 +37,7 @@ You can view the following data points for card transactions.
 
          1. **Cards Network - Success Rate**: Displays the success rate of transactions across different card networks, such as Visa, MasterCard, and American Express over time.
          2. **Cards Network - GMV (Gross Merchandise Value)**: Shows the distribution of total transaction value across various card networks, including Visa, MasterCard and RuPay.
-            ![Card Network Metrics](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/card-networks.jpg.md)
+            ![Card Network Metrics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/card-networks.jpg.md)
         
 
     
@@ -46,7 +46,7 @@ You can view the following data points for card transactions.
          1. **Card Type - Payments Count**: Displays the total number of transactions processed through different card types, such as credit, debit, and prepaid.
 
          2. **Cards Network - Payments Count**: Shows the distribution of transactions across different card networks, including Visa, MasterCard, and RuPay.
-            ![Payments Count for Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-payments-count.jpg.md)
+            ![Payments Count for Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-payments-count.jpg.md)
         
 
     
@@ -54,21 +54,21 @@ You can view the following data points for card transactions.
 
          1. **Cards Issuer**: Lists the banks or institutions that issued the cards, along with their total transactions, GMV, success rate, AOV and percentage of total transactions.
          2. **Cards Tokenised GMV**: Displays the total transaction value (GMV) split between tokenised and non-tokenised card transactions, showing the adoption and impact of tokenisation on different card types.
-            ![Card Issuer Metrics](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/card-issuer-metrics.jpg.md)
+            ![Card Issuer Metrics](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/card-issuer-metrics.jpg.md)
         
 
     
 ### 6. **Card Authorisation Type SR**
 
          Displays the success rate of card transactions across different authorisation methods, such as headless OTP, 3DS and OTP over time.
-            ![specific and meaningful image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-authorisation-sr.jpg.md)
+            ![specific and meaningful image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-authorisation-sr.jpg.md)
         
 
     
 ### 7. **Cards - Tokenised SR (Success Rate)**
 
          Displays the success rate of tokenised versus non-tokenised card transactions across different card types, such as credit, debit, and prepaid, over time.
-            ![Cards Tokenised SR](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-tokenised-sr.jpg.md)
+            ![Cards Tokenised SR](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-tokenised-sr.jpg.md)
         
 
     
@@ -76,13 +76,13 @@ You can view the following data points for card transactions.
 
          1. **Cards Top Failure Reason**: Lists the primary reasons for card transaction failures, including their sources, number of failures, GMV impacted, AOV, and percentage of total failures.
          2. **Cards Authorisation Type GMV**: Displays the distribution of GMV across different card authorisation methods, such as headless OTP, 3DS, and so on.
-            ![Cards Failure Reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-failure-reasons.jpg.md)
+            ![Cards Failure Reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-failure-reasons.jpg.md)
         
 
 ### Related Information
 
-- [About Insights](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights.md)
-- [UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/upi.md) 
-- [Wallet](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/wallet.md)
-- [Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/netbanking.md)
-- [Emandate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/emandate.md)
+- [About Insights](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights.md)
+- [UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/upi.md) 
+- [Wallet](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/wallet.md)
+- [Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/netbanking.md)
+- [Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/emandate.md)

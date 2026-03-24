@@ -19,7 +19,7 @@ Complete your loan application process in just four simple steps, as shown below
 
 And finally, you can use the loan amount. 
 
-![Razorpay Capital Application Process](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-process.jpg.md)
+![Razorpay Capital Application Process](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-process.jpg.md)
 
 ## Why Razorpay Capital
 
@@ -32,7 +32,7 @@ And finally, you can use the loan amount.
 
 As an existing Razorpay merchant, you will receive an invitation for Loan/[Line of Credit from Razorpay](https://razorpay.com/x/line-of-credit/) on the basis of internal Transaction Data. You may hereby choose to accept and initiate the Business Loan Application process.
 
-![Start Capital Loan Application Process](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-loan-process.gif.md)
+![Start Capital Loan Application Process](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-loan-process.gif.md)
 
 ### Initiate the Loan Process
 
@@ -41,10 +41,10 @@ Following are the detailed steps to complete the loan application process and ge
 1. Log in to the [Razorpay Dashboard](https://dashboard.razorpay.com/app/dashboard) with your credentials.
     
 1. On the left panel, browse to the **Loans** tab. Navigate to **Check your loan eligibility** and click **Start your application** button section to initiate the Business Loan Application process.
-    ![Start Business Loan Application Process](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-loan-tab.jpg.md)
+    ![Start Business Loan Application Process](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-loan-tab.jpg.md)
 
 1. In the **Business Info** section, apart from the pre-filled basic details, you must select appropriate loan requirement details, such as **Monthly Business Value**, **Expected Loan Amount**, **Tenure** and **Purpose**. Click **Save & Next**.
-    ![Confirm Business Details and needs](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-business-info.jpg.md)
+    ![Confirm Business Details and needs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-business-info.jpg.md)
 
 1. On the **Promoter Info** section, you must provide the Authorized Signatory's details. This information is verified with central PAN database and is used to pull the credit report on your behalf. Read through the Terms and Conditions and click **Save & Next**.
    
@@ -56,7 +56,7 @@ Following are the detailed steps to complete the loan application process and ge
 >    The phone number you enter here must be the same as the phone number linked to your PAN.
 >    
 
-   ![Enter and confirm Individual Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-promoter-info.jpg.md)
+   ![Enter and confirm Individual Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-promoter-info.jpg.md)
 
 1. Click **Modify** (in the right panel) to modify the offer details.
 
@@ -65,15 +65,15 @@ Following are the detailed steps to complete the loan application process and ge
 We need your credit score to make a loan offer. We use your phone number and PAN to fetch your credit score.
 
 1. On the **Credit Report** section, enter the OTP sent your phone number and click **Submit OTP**. This authorizes us to view your credit score.
-     ![OTP Verification for Credit Report retrieval](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-otp-info.jpg.md)
+     ![OTP Verification for Credit Report retrieval](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-otp-info.jpg.md)
 
 1. You can view your full credit report onscreen. We also send this report to the email address you have provided, as shown. Based on your credit history, we send you the loan offer status, that is:
      - **Eligible for the loan**: The loan offer is approved. Click **Continue**.
-     ![Loan Approved](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-loan-approved.jpg.md)
+     ![Loan Approved](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-loan-approved.jpg.md)
      - **Not eligible for the loan**: The loan offer is rejected.
-     ![Loan Rejected](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-loan-rejected.jpg.md)
+     ![Loan Rejected](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-loan-rejected.jpg.md)
      - **Information Mismatch**: There is a mismatch between the information provided and the information in the central PAN database. Click **Try Again**, which navigates you to the **Check your loan Eligibility** section. Click **Continue applying** and update the information so it matches data in the central PAN database.
-     ![Information mismatch](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-info-mismatch.jpg.md)
+     ![Information mismatch](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-info-mismatch.jpg.md)
 
 ## Upload Your Documents
 
@@ -94,7 +94,7 @@ As part of the KYC verification process, you must submit documents including Add
 
 Once you upload the required documents, click **Next**.
 
-![Upload required Documents in the three required tabs.](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-document-upload.jpg.md)
+![Upload required Documents in the three required tabs.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-document-upload.jpg.md)
 
 ### Loan Offer
 
@@ -104,7 +104,7 @@ Once your loan is approved, you can see the actual approved loan amount that get
 
 Click **Next** if you agree with the sanctioned amount and charges.
 
-![Loan Offer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-loan-offer.jpg.md)
+![Loan Offer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-loan-offer.jpg.md)
 
 ### Loan Agreement
 
@@ -112,7 +112,7 @@ We generate and upload the loan agreement on the **Loan Agreement** tab. The loa
 
 Once the agreement is ready, click **Sign Loan Agreement** to e-sign the legal agreements and then click **Next**.
 
-![Loan Agreement](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-loan-agreement.jpg.md)
+![Loan Agreement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-loan-agreement.jpg.md)
 
 ### Paper NACH Process
 
@@ -120,31 +120,31 @@ Once you have agreed to the final loan amount and the agreement is signed, a pre
 
 Click the link, download, print and sign the NACH form. Use the same link to upload the signed form as a PDF file and click **Submit**.
 
-![Download NACH Form](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-nach-form.jpg.md)
+![Download NACH Form](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-nach-form.jpg.md)
 
 The details on the uploaded NACH form will be verified and you are updated via email about the same.
 
-![Upload NACH Form and click Submit](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-nach-verification.jpg.md)
+![Upload NACH Form and click Submit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-nach-verification.jpg.md)
 
 ### Document Collection
 
 Once the NACH form is submitted, you must select a slot (date and time) and schedule an appointment for the document collection to be done. Click **Next**.
-![Select Slot for Document Collection](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-doorstep-collection.jpg.md)
+![Select Slot for Document Collection](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-doorstep-collection.jpg.md)
 A representative will be sent to collect your documents, including Proof of Address Individual, Business KYC, NACH, PDC and Loan Agreement. The collated documents are then sent to the lender for validation for a final loan approval followed by loan amount disbursal.
-![Summary of the List of Documents being collected](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-collection-doc.jpg.md)
+![Summary of the List of Documents being collected](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-collection-doc.jpg.md)
 
 ### Final Review
 
 This is mandatory. At this stage, the lender will verify the documents and approve/reject the loan. In either case, you receive a call for a final confirmation about the disbursement of the loan amount. This process can take around 1-2 days.
-![Documents under review](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-final-review.jpg.md)
+![Documents under review](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-final-review.jpg.md)
 
 On a successful authorization, your loan offer will be approved.
-![Loan Approved](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-loan-success.jpg.md)
+![Loan Approved](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-loan-success.jpg.md)
 
 ### Fund Disbursement
 
 The lender will disburse the net disbursal amount to your bank account and notify us about the same so we can start tracking the collections.
-![Fund Disbursed](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/working-capital-loan-fund-disbursement.jpg.md)
+![Fund Disbursed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/working-capital-loan-fund-disbursement.jpg.md)
 
 ## FAQs
 

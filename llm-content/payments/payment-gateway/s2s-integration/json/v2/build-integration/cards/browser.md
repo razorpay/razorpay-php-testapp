@@ -22,8 +22,8 @@ Ensure you make the following changes in your Create a Payment API request. Ther
 
 Parameter Changes | Description
 ---
-New Parameters | Pass these new parameters: - `authentication` and related child parameter: These determine the [authentication channel](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards/migrate-3ds2.0#:~:text=customer%27s%20IP%20address.-,authentication,-optional.md) being used.
-- `browser` and related child parameters:  These capture the customer's [browser details](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards/migrate-3ds2.0#:~:text=the%20authentication%20channel.-,browser,-mandatory.md), which are sent to the banks to aid their risk analysis.
+New Parameters | Pass these new parameters: - `authentication` and related child parameter: These determine the [authentication channel](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards/migrate-3ds2.0.md#:~:text=customer%27s%20IP%20address.-,authentication,-optional) being used.
+- `browser` and related child parameters:  These capture the customer's [browser details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards/migrate-3ds2.0.md#:~:text=the%20authentication%20channel.-,browser,-mandatory), which are sent to the banks to aid their risk analysis.
 
 ---
 Existing Parameter | The `ip` parameter is now mandatory.
@@ -373,7 +373,7 @@ client.payment.createPaymentJson(data)
 >     
 
 `notes` _optional_
-: `object` Key-value object used for passing tracking info. Refer to [Notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) for more details.
+: `object` Key-value object used for passing tracking info. Refer to [Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) for more details.
 
 `callback_url` _optional_
 : `string` URL endpoint where Razorpay will submit the final payment status.
@@ -449,6 +449,6 @@ If you would like the customer to enter the OTP on your website instead of the b
 
 ## Next Step
 
-The rest of the integration steps mentioned in the [S2S JSON V2 Cards Build Integration document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards.md) remain the same. No changes are required in those.
+The rest of the integration steps mentioned in the [S2S JSON V2 Cards Build Integration document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards.md) remain the same. No changes are required in those.
 
-After completing the build integration steps, you can continue with [Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/test-integration.md)
+After completing the build integration steps, you can continue with [Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/test-integration.md)

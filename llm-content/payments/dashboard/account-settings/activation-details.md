@@ -17,4 +17,4 @@ To view account activation details:
 
 You can also view details such as account activated on date and account access status on this page.
 
-![View Account Activation Details on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payments-dashboard-account-settings-activation-details.jpg.md)
+![View Account Activation Details on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payments-dashboard-account-settings-activation-details.jpg.md)

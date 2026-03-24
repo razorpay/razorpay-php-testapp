@@ -15,7 +15,7 @@ description: Find answers to frequently asked questions about Wix plugin.
          To set up Webhooks:
          1. Log in to the Razorpay Dashboard and navigate to **Account & Settings**.
          2. In the **Website and app settings** section, click **Webhooks**.
-            ![Navigate to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
+            ![Navigate to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
          3. Click **+ Add New Webhook**.
             ![](/docs/assets/images/webhooks-webhook-creation-1.jpg)
          4. In the **Webhook Setup** pop-up page:
@@ -74,7 +74,7 @@ description: Find answers to frequently asked questions about Wix plugin.
 ### 4. What troubleshooting procedures should be carried out prior to initiating a support ticket?
 
          Follow the troubleshooting steps given below:
-         1. Reinstall the Razorpay Wix plugin and ensure that your system meets all the requirements mentioned [here](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/wix/integration-steps.md).
+         1. Reinstall the Razorpay Wix plugin and ensure that your system meets all the requirements mentioned [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/wix/integration-steps.md).
          2. If the issue persists after following these steps, contact our [Support team](https://razorpay.com/support/). Provide the following information while creating a ticket:
             - Wix version
             - Razorpay for Wix plugin version
@@ -97,15 +97,15 @@ description: Find answers to frequently asked questions about Wix plugin.
          To verify if webhooks are enabled:
          1. Log in to the Razorpay Dashboard and navigate to **Accounts and Settings**.
          2. Go to **Webhooks** (Under Website and app settings).
-            ![Navigate to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
+            ![Navigate to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
          3. Select the relevant webhook **URL**.
          4. On the right panel, check if the status for `order.paid`, `refund.processed` and `payment.failed` is enabled.
-            ![List of webhooks created](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)
+            ![List of webhooks created](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)
         
 
  Dashboard and navigate to **Account & Settings**.
          2. In the **Website and app settings** section, click **Webhooks**.
-            ![Navigate to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
+            ![Navigate to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
          3. Click **+ Add New Webhook**.
             ![](/docs/assets/images/webhooks-webhook-creation-1.jpg)
          4. In the **Webhook Setup** pop-up page:
@@ -158,7 +158,7 @@ description: Find answers to frequently asked questions about Wix plugin.
 ### 3. What troubleshooting procedures should be carried out prior to initiating a support ticket?
 
          Follow the troubleshooting steps given below:
-         1. Reinstall the Razorpay Wix plugin and ensure that your system meets all the requirements mentioned [here](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/wix/integration-steps.md).
+         1. Reinstall the Razorpay Wix plugin and ensure that your system meets all the requirements mentioned [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/wix/integration-steps.md).
          2. If the issue persists after following these steps, contact our [Support team](https://razorpay.com/support/). Provide the following information while creating a ticket:
             - Wix version
             - Razorpay for Wix plugin version
@@ -181,7 +181,7 @@ description: Find answers to frequently asked questions about Wix plugin.
          To verify if webhooks are enabled:
          1. Log in to the Razorpay Dashboard and navigate to **Accounts and Settings**.
          2. Go to **Webhooks** (Under Website and app settings).
-            ![Navigate to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
+            ![Navigate to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
          3. Select the relevant webhook **URL**.
          4. On the right panel, check if the status for `order.paid`, `refund.processed` and `payment.failed` is enabled.
-            ![List of webhooks created](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)
+            ![List of webhooks created](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)

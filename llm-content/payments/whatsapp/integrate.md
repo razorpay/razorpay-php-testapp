@@ -18,7 +18,7 @@ You must integrate with the WhatsApp Business API through a Business Service Pro
 ### WhatsApp Business API and BSPs
 
          - WhatsApp Business API provides automated messaging, chatbots, and customisation features. You can send messages in bulk and create customised messaging experiences with chatbots. If you have already integrated with WhatsApp Business API, you will see a green tick next to your business name.
-            ![Integrated with WhatsApp Business API](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/whatsapp-api-integrated.jpg.md)
+            ![Integrated with WhatsApp Business API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/whatsapp-api-integrated.jpg.md)
         - BSPs are a worldwide community of third-party solution providers for the WhatsApp Business Platform. BSPs assist you in communicating with your clients on the WhatsApp Business Platform for approved use cases such as customer service and time-sensitive, customised notifications.
         
 

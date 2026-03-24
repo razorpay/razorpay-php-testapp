@@ -24,7 +24,7 @@ These Customer Identifiers are linked to the bank account you have registered wi
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -32,8 +32,8 @@ These Customer Identifiers are linked to the bank account you have registered wi
 ## Prerequisites
 
 - [Create a Razorpay Account](https://dashboard.razorpay.com/signup).
-- [Generate the API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
-- Integrate with [Razorpay Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
+- [Generate the API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
+- Integrate with [Razorpay Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
 
 ## Integration Steps
 
@@ -105,7 +105,7 @@ razorpay.fetchVirtualAccount(data)
 : `string` The unique identifier of the order created in the previous step.
 
 `customer_id` _optional_
-: `string` The unique identifier of the customer. Learn how to create a customer using the [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md). This parameter is mandatory if you want to associate the virtual account with a specific customer.
+: `string` The unique identifier of the customer. Learn how to create a customer using the [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md). This parameter is mandatory if you want to associate the virtual account with a specific customer.
 
 `notes` _optional_
 : `object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
@@ -127,7 +127,7 @@ razorpay.fetchVirtualAccount(data)
 
 ### Step 3: Subscribe to Webhook Event
 
-You must subscribe to the `virtual_account.credited` webhook event on the Dashboard to receive notifications whenever customers make payments using bank transfers. Learn how to [setup webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/#set-up-webhooks.md).
+You must subscribe to the `virtual_account.credited` webhook event on the Dashboard to receive notifications whenever customers make payments using bank transfers. Learn how to [setup webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md#set-up-webhooks).
 
 #### Sample Payload
 

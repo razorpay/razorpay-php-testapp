@@ -413,5 +413,5 @@ Given below are the commonly used terms and their definitions used for Razorpay 
 
 ### Related Information
 
-- [KYC Documents for Companies and Businesses](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/business-types-kyc-documents.md)
-- [Frequently Asked Questions (FAQs)](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/faqs.md)
+- [KYC Documents for Companies and Businesses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/business-types-kyc-documents.md)
+- [Frequently Asked Questions (FAQs)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/faqs.md)

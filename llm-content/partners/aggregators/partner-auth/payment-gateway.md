@@ -16,7 +16,7 @@ Follow these steps to integrate with the Razorpay Payment Gateway:
 
 ## Step 1: Create an Order Using Orders API
 
-Integrate with [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md) to create an order. Given below is the sample code for Create an Order API. Pass the `account_id` of the sub-merchant using `X-Razorpay-Account` in the header.
+Integrate with [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md) to create an order. Given below is the sample code for Create an Order API. Pass the `account_id` of the sub-merchant using `X-Razorpay-Account` in the header.
 
 /orders
 
@@ -154,7 +154,7 @@ Here is the list of parameters and their description for creating an order:
 : `integer` The transaction amount, expressed in the currency subunits. For example, for an actual amount of , the value of this field should be `30000`.
 
 `currency` _mandatory_
-: `string` The currency in which the transaction should be made. See the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be 3 characters.
+: `string` The currency in which the transaction should be made. See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be 3 characters.
 
 `receipt` _optional_
 : `string` Your receipt id for this order should be passed here. Maximum length is 40 characters.
@@ -253,7 +253,7 @@ document.getElementById('rzp-button1').onclick = function(e){
 > 
 > **Handy Tips**
 > 
-> Test your integration using these [test cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps/#2-test-integration.md).
+> Test your integration using these [test cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#2-test-integration).
 > 
 
 ### Checkout Options
@@ -268,7 +268,7 @@ document.getElementById('rzp-button1').onclick = function(e){
 
 @include integration-steps/verify-signature
 
-Check [our SDKs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/server-integration.md) for the supported platforms.
+Check [our SDKs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/server-integration.md) for the supported platforms.
 
 ## Step 5: Verify Payment Status
 
@@ -276,7 +276,7 @@ Check [our SDKs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/server
 
 ## Next Steps
 
-You can view the payments received from customers on the sub-merchant's  Dashboard. Also, you can retrieve the status of the payments by polling our [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api.md).
+You can view the payments received from customers on the sub-merchant's  Dashboard. Also, you can retrieve the status of the payments by polling our [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md).
 
 Given below is the APIs used to fetch payments. You must pass the sub-merchant account identifier as a header while retrieving details using GET requests.
 
@@ -370,4 +370,4 @@ body, err := client.Payment.All(nil, extraHeaders)
 
 ### Related Information
 
-- [Razorpay Payment Gateway: Web Standard Integration Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+- [Razorpay Payment Gateway: Web Standard Integration Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).

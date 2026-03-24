@@ -17,7 +17,7 @@ You can view the following data points for UPI transactions.
 ### 1. **UPI Success Rate Trend**
 
          Indicates the success rate trend from the beginning to the end of the selected time frame.
-            ![UPI Success Rate Trend](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi-success-rate-trend.jpg.md)
+            ![UPI Success Rate Trend](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-success-rate-trend.jpg.md)
         
 
     
@@ -35,8 +35,8 @@ You can view the following data points for UPI transactions.
 
 ### Related Information
 
-- [About Insights](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights.md)
-- [Card](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/card.md) 
-- [Wallet](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/wallet.md)
-- [Netbanking](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/netbanking.md)
-- [Emandate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/insights/emandate.md)
+- [About Insights](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights.md)
+- [Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/card.md) 
+- [Wallet](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/wallet.md)
+- [Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/netbanking.md)
+- [Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/insights/emandate.md)

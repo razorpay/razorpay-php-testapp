@@ -11,14 +11,14 @@ Razorpay POS is a point-of-sale payment solution that allows businesses to accep
 - Unattended/self-serve kiosks.
 - Vending machines.
 
-![Razorpay POS Devices](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos.jpg.md)
+![Razorpay POS Devices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos.jpg.md)
 
 > **INFO**
 >
 > 
 > **Handy Tips**
 > 
-> If you use Razorpay Payments (online payments) also, refer to our [Payments documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments.md).
+> If you use Razorpay Payments (online payments) also, refer to our [Payments documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md).
 > 
 
     
@@ -81,7 +81,7 @@ Razorpay offers a POS device for every use case. Check out our device suite to f
 
             The Android Smart POS comes with a printer, 2MP camera barcode scanner and fingerprint scanner.
 
-            ![Android Smart POS device](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/android-smart-pos.jpg.md)
+            ![Android Smart POS device](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/android-smart-pos.jpg.md)
 
                - Best suited for countertop transactions.
                - Seamlessly integrates with complex apps or existing systems. 
@@ -93,7 +93,7 @@ Razorpay offers a POS device for every use case. Check out our device suite to f
 
             The Android Smart Mini comes with a 2MP camera barcode scanner. Wireless and does not require integration.
 
-            ![Android Smart POS Mini](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/android-smart-pos-mini.jpg.md)
+            ![Android Smart POS Mini](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/android-smart-pos-mini.jpg.md)
 
             - Best suited for small stores.
             - Ideal for busting long queues at store counters.
@@ -106,7 +106,7 @@ Razorpay offers a POS device for every use case. Check out our device suite to f
 
             The Mini POS device works with handsets, kiosks and PCs.
 
-            ![Mini POS device](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/mPOS.jpg.md)
+            ![Mini POS device](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/mPOS.jpg.md)
 
                   - Best suited for delivery and collections.
                   - Syncs with your smartphone.
@@ -123,7 +123,7 @@ Razorpay offers a POS device for every use case. Check out our device suite to f
 
          Listen to instant audio confirmation and view on-screen information as soon as the transaction is made. The Soundbox has a powerful battery life.
 
-         ![POS Soundbox device](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos-soundbox.jpg.md)
+         ![POS Soundbox device](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos-soundbox.jpg.md)
          
                - Clear and vibrant digital display.
                - LED indicators to confirm connectivity.
@@ -133,7 +133,7 @@ Razorpay offers a POS device for every use case. Check out our device suite to f
 
          Integrate and use the Dynamic Soundbox to automatically generate QR Codes. You can view the transactions instantly.
 
-         ![POS Dynamic QR Code device](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos-dqr.jpg.md)
+         ![POS Dynamic QR Code device](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos-dqr.jpg.md)
 
                   - Immediate audio and on-screen transaction confirmation.
                   - Seamless integration with billing solution.
@@ -143,4 +143,4 @@ Razorpay offers a POS device for every use case. Check out our device suite to f
 
 ### Next Step
 
-[Get started](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/quickstart.md) with Razorpay POS, buy the POS devices.
+[Get started](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/quickstart.md) with Razorpay POS, buy the POS devices.

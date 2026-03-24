@@ -43,7 +43,7 @@ Following is the list of supported Payment Partners for Cardless EMI and the min
         ---
         Kotak Bank| `kkbk` | ₹3000
         ---
-        [axio](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi/axio.md) | `walnut369` | ₹900 
+        [axio](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi/axio.md) | `walnut369` | ₹900 
         ---
         Fibe | `earlysalary` | ₹3000  
         ---
@@ -55,7 +55,7 @@ Following is the list of supported Payment Partners for Cardless EMI and the min
 > 
 >         **Handy Tips**
 > 
->         Check the standard [interest rates charged by Banks/Partners](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#1-what-are-the-standard-interest-rates-charged.md).
+>         Check the standard [interest rates charged by Banks/Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#1-what-are-the-standard-interest-rates-charged).
 >         
 
     
@@ -76,7 +76,7 @@ Following is the list of supported Payment Partners for Cardless EMI and the min
 > 
 >         **Handy Tips**
 > 
->         Check the standard [ interest rates charged by Pay Later Providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#2-what-are-the-standard-interest-rates-charged.md).
+>         Check the standard [ interest rates charged by Pay Later Providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#2-what-are-the-standard-interest-rates-charged).
 >        
 
     
@@ -84,9 +84,9 @@ Following is the list of supported Payment Partners for Cardless EMI and the min
         
         Payment Partners | Provider Code | Minimum Order Amount 
         ---
-        [ShopSe](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi/shopse.md) | `shopse` | ₹3000
+        [ShopSe](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi/shopse.md) | `shopse` | ₹3000
         ---
-        [Snapmint](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/cardless-emi/snapmint.md) | `snapmint` | None
+        [Snapmint](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi/snapmint.md) | `snapmint` | None
         
 
         
@@ -95,7 +95,7 @@ Following is the list of supported Payment Partners for Cardless EMI and the min
 > 
 >         **Handy Tips**
 > 
->         Check the standard [ interest rates charged by Pay Later Providers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#2-what-are-the-standard-interest-rates-charged.md).
+>         Check the standard [ interest rates charged by Pay Later Providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#2-what-are-the-standard-interest-rates-charged).
 >        
 
     
@@ -104,7 +104,7 @@ Following is the list of supported Payment Partners for Cardless EMI and the min
 
 Given below is a diagram that explains the payment flow for Cardless EMI:
 
-![payment flow for Cardless EMI](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-flow-cardless_emi.jpg.md)
+![payment flow for Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-flow-cardless_emi.jpg.md)
 
 ## Payment Flow on Standard Checkout
 
@@ -112,11 +112,11 @@ Customers select the products on your website or app and proceed to Checkout. On
 
 1. Enter their **Phone Number** and click **Continue**.
 1. Select **EMI** as the payment method.
-    ![Select emi payment option on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-options-card.jpg.md)
+    ![Select emi payment option on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-options-card.jpg.md)
 1. Select **Cardless and Others**.
-    ![Select Cardless and Others](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-select-cardless.jpg.md)
+    ![Select Cardless and Others](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-select-cardless.jpg.md)
 1. Choose a payment instrument from the list and select the EMI tenure. Click **Continue**.
-    ![EMI tenure and click Select Plan](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/emi-cardless-tenure.jpg.md)
+    ![EMI tenure and click Select Plan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/emi-cardless-tenure.jpg.md)
 
 After the successful payment, Razorpay redirects customers to your application or website. Customers' monthly statements will reflect the EMI amount with interest charged by the bank.
 
@@ -128,4 +128,4 @@ No additional integration is required to show Cardless EMI on your Standard Chec
 
 ## FAQs
 
-See: [Cardless EMI FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/emi/faqs/#cardless-emi.md).
+See: [Cardless EMI FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/faqs.md#cardless-emi).

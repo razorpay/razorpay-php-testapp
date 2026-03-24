@@ -444,7 +444,7 @@ You can now create an order along with a payment using a single API for netbanki
      : `integer` The amount for which the order was created in currency subunits. For example, for an amount of ₹295.00, enter 29500. The same amount will be used for the payment creation. For the partial payment scenario, we will use the amount specified in the payment request object in case.
 
     `currency` _mandatory_
-     : `string` The currency in which the transaction should be made.  See the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be of 3 characters.
+     : `string` The currency in which the transaction should be made.  See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be of 3 characters.
 
      `receipt` _optional_
      : `string` Receipt number that corresponds to this order. Can have a maximum length of 40 characters and has to be unique.
@@ -470,7 +470,7 @@ You can now create an order along with a payment using a single API for netbanki
           : `string` The amount of the transfer.
 
         `currency` _mandatory_
-          : `string` The currency in which the transaction should be made.  See the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be of 3 characters.
+          : `string` The currency in which the transaction should be made.  See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be of 3 characters.
 
         `notes` _optional_
           : `json object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
@@ -499,15 +499,15 @@ You can now create an order along with a payment using a single API for netbanki
         : `string` The IFSC code of the bank.
 
     `payment_config` _optional_
-    : `array` Payment capture settings for the payment. The options sent here override the [account level auto-capture settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md) configured using the Dashboard.
+    : `array` Payment capture settings for the payment. The options sent here override the [account level auto-capture settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md) configured using the Dashboard.
 
       `capture` _mandatory_
       : `string` Option to automatically capture payment. Possible values:
         - `automatic`: Payments are auto-captured according to the configurations specified in the `capture_options` array.
-        - `manual`: You have to manually capture payments using our [Capture API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#capture-a-payment.md) or from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/dashboard/#manually-capture-payments.md).
+        - `manual`: You have to manually capture payments using our [Capture API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment) or from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/dashboard.md#manually-capture-payments).
 
       `capture_options` _optional_
-      : `array` Use this array to determine the expiry period for automatic and [manual capture](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings/api.md) of payments and the refund speed in the case of non-capture.
+      : `array` Use this array to determine the expiry period for automatic and [manual capture](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings/api.md) of payments and the refund speed in the case of non-capture.
 
           `automatic_expiry_period` _mandatory if capture = automatic_
           : `integer` Time in minutes till when payments in the `authorized` state should be auto-captured.
@@ -522,10 +522,10 @@ You can now create an order along with a payment using a single API for netbanki
 
           `refund_speed` _mandatory_
           : `string` Refund speed for payments that were not captured (automatically or manually). Possible values:
-            - `optimum`: We try to process the refund instantly. We charge a small fee for this. If it is not possible to process an instant refund, we will process a normal refund in 5-7 working days. [Learn more about instant refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/#how-instant-refunds-work.md).
+            - `optimum`: We try to process the refund instantly. We charge a small fee for this. If it is not possible to process an instant refund, we will process a normal refund in 5-7 working days. [Learn more about instant refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md#how-instant-refunds-work).
             - `normal`: The refund is processed in 5-7 working days.
 
-If no value is passed, the refund is processed using the [default speed set on the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/#setting-the-default-speed-of-refunds.md).
+If no value is passed, the refund is processed using the [default speed set on the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md#setting-the-default-speed-of-refunds).
 
     `payment` _mandatory_
         : `object` Details of the payment.
@@ -1147,7 +1147,7 @@ If no value is passed, the refund is processed using the [default speed set on t
      : `integer` The amount for which the order was created in currency subunits. For example, for an amount of ₹295.00, enter 29500. The same amount will be used for the payment creation. For the partial payment scenario, we will use the amount specified in the payment request object in case.
 
      `currency` _mandatory_
-     : `string` The currency in which the transaction should be made.  See the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be of 3 characters.
+     : `string` The currency in which the transaction should be made.  See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be of 3 characters.
 
      `receipt` _optional_
      : `string` Receipt number that corresponds to this order. Can have a maximum length of 40 characters and has to be unique.
@@ -1173,7 +1173,7 @@ If no value is passed, the refund is processed using the [default speed set on t
           : `string` The amount of the transfer.
 
         `currency` _mandatory_
-          : `string` The currency in which the transaction should be made.  See the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be of 3 characters.
+          : `string` The currency in which the transaction should be made.  See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be of 3 characters.
 
         `notes` _optional_
           : `json object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
@@ -1190,15 +1190,15 @@ If no value is passed, the refund is processed using the [default speed set on t
       : `string` Timestamp until which the transfer amount is on hold.
 
     `payment_config` _optional_
-    : `array` Payment capture settings for the payment. The options sent here override the [account level auto-capture settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md) configured using the Dashboard.
+    : `array` Payment capture settings for the payment. The options sent here override the [account level auto-capture settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md) configured using the Dashboard.
 
         `capture` _mandatory_
         : `string` Option to automatically capture payment. Possible values:
           - `automatic`: Payments are auto-captured according to the configurations specified in the `capture_options` array.
-          - `manual`: You have to manually capture payments using our [Capture API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#capture-a-payment.md) or from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/dashboard/#manually-capture-payments.md).
+          - `manual`: You have to manually capture payments using our [Capture API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment) or from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/dashboard.md#manually-capture-payments).
 
         `capture_options` _optional_
-        : `array` Use this array to determine the expiry period for automatic and [manual capture](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings/api.md) of payments and the refund speed in the case of non-capture.
+        : `array` Use this array to determine the expiry period for automatic and [manual capture](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings/api.md) of payments and the refund speed in the case of non-capture.
 
             `automatic_expiry_period` _mandatory if capture = automatic_
             : `integer` Time in minutes till when payments in the `authorized` state should be auto-captured.
@@ -1213,10 +1213,10 @@ If no value is passed, the refund is processed using the [default speed set on t
 
             `refund_speed` _mandatory_
             : `string` Refund speed for payments that were not captured (automatically or manually). Possible values:
-              - `optimum`: We try to process the refund instantly. We charge a small fee for this. If it is not possible to process an instant refund, we will process a normal refund in 5-7 working days. [Learn more about instant refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/#how-instant-refunds-work.md).
+              - `optimum`: We try to process the refund instantly. We charge a small fee for this. If it is not possible to process an instant refund, we will process a normal refund in 5-7 working days. [Learn more about instant refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md#how-instant-refunds-work).
               - `normal`: The refund is processed in 5-7 working days.
 
-If no value is passed, the refund is processed using the [default speed set on the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/#setting-the-default-speed-of-refunds.md).
+If no value is passed, the refund is processed using the [default speed set on the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md#setting-the-default-speed-of-refunds).
 
     `payment` _mandatory_
         : `object` Details of the payment.
@@ -1741,7 +1741,7 @@ If no value is passed, the refund is processed using the [default speed set on t
      : `integer` The amount for which the order was created in currency subunits. For example, for an amount of ₹295.00, enter 29500. The same amount will be used for the payment creation. For the partial payment scenario, we will use the amount specified in the payment request object in case.
 
     `currency` _mandatory_
-     : `string` The currency in which the transaction should be made.  See the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be of 3 characters.
+     : `string` The currency in which the transaction should be made.  See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be of 3 characters.
 
      `receipt` _optional_
      : `string` Receipt number that corresponds to this order. Can have a maximum length of 40 characters and has to be unique.
@@ -1767,7 +1767,7 @@ If no value is passed, the refund is processed using the [default speed set on t
           : `string` The amount of the transfer.
 
         `currency` _mandatory_
-          : `string` The currency in which the transaction should be made.  See the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be of 3 characters.
+          : `string` The currency in which the transaction should be made.  See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be of 3 characters.
 
         `notes` _optional_
           : `json object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
@@ -1796,15 +1796,15 @@ If no value is passed, the refund is processed using the [default speed set on t
         : `string` The IFSC code of the bank.
 
      `payment_config` _optional_
-     : `array` Payment capture settings for the payment. The options sent here override the [account level auto-capture settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md) configured using the Dashboard.
+     : `array` Payment capture settings for the payment. The options sent here override the [account level auto-capture settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md) configured using the Dashboard.
 
         `capture` _mandatory_
         : `string` Option to automatically capture payment. Possible values:
           - `automatic`: Payments are auto-captured according to the configurations specified in the `capture_options` array.
-          - `manual`: You have to manually capture payments using our [Capture API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#capture-a-payment.md) or from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/dashboard/#manually-capture-payments.md).
+          - `manual`: You have to manually capture payments using our [Capture API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment) or from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/dashboard.md#manually-capture-payments).
 
         `capture_options` _optional_
-        : `array` Use this array to determine the expiry period for automatic and [manual capture](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings/api.md) of payments and the refund speed in the case of non-capture.
+        : `array` Use this array to determine the expiry period for automatic and [manual capture](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings/api.md) of payments and the refund speed in the case of non-capture.
 
             `automatic_expiry_period` _mandatory if capture = automatic_
             : `integer` Time in minutes till when payments in the `authorized` state should be auto-captured.
@@ -1819,10 +1819,10 @@ If no value is passed, the refund is processed using the [default speed set on t
 
             `refund_speed` _mandatory_
             : `string` Refund speed for payments that were not captured (automatically or manually). Possible values:
-              - `optimum`: We try to process the refund instantly. We charge a small fee for this. If it is not possible to process an instant refund, we will process a normal refund in 5-7 working days. [Learn more about instant refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/#how-instant-refunds-work.md).
+              - `optimum`: We try to process the refund instantly. We charge a small fee for this. If it is not possible to process an instant refund, we will process a normal refund in 5-7 working days. [Learn more about instant refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md#how-instant-refunds-work).
               - `normal`: The refund is processed in 5-7 working days.
 
-If no value is passed, the refund is processed using the [default speed set on the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/#setting-the-default-speed-of-refunds.md).
+If no value is passed, the refund is processed using the [default speed set on the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md#setting-the-default-speed-of-refunds).
 
     `payment` _mandatory_
         : `object` Details of the payment.
@@ -1899,7 +1899,7 @@ If no value is passed, the refund is processed using the [default speed set on t
      : `integer` Indicates the amount due for the order.
 
      `currency`
-     : `string` The currency in which the transaction was made.  See the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be of 3 characters.
+     : `string` The currency in which the transaction was made.  See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be of 3 characters.
 
      `offer_id`
      : `string` The unique identifier of the created offer.
@@ -1964,15 +1964,15 @@ If no value is passed, the refund is processed using the [default speed set on t
      : `string` Unique identifier of the customer.
 
      `payment_config` _optional_
-     : `array` Payment capture settings for the payment. The options sent here override the [account level auto-capture settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md) configured using the Dashboard.
+     : `array` Payment capture settings for the payment. The options sent here override the [account level auto-capture settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md) configured using the Dashboard.
 
         `capture` _mandatory_
         : `string` Option to automatically capture payment. Possible values:
           - `automatic`: Payments are auto-captured according to the configurations specified in the `capture_options` array.
-          - `manual`: You have to manually capture payments using our [Capture API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#capture-a-payment.md) or from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/dashboard/#manually-capture-payments.md).
+          - `manual`: You have to manually capture payments using our [Capture API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment) or from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/dashboard.md#manually-capture-payments).
 
         `capture_options` _optional_
-        : `array` Use this array to determine the expiry period for automatic and [manual capture](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings/api.md) of payments and the refund speed in the case of non-capture.
+        : `array` Use this array to determine the expiry period for automatic and [manual capture](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings/api.md) of payments and the refund speed in the case of non-capture.
 
            `automatic_expiry_period` _mandatory if capture = automatic_
            : `integer` Time in minutes till when payments in the `authorized` state should be auto-captured.
@@ -1987,10 +1987,10 @@ If no value is passed, the refund is processed using the [default speed set on t
 
            `refund_speed` _mandatory_
            : `string` Refund speed for payments that were not captured (automatically or manually). Possible values:
-             - `optimum`: We try to process the refund instantly. We charge a small fee for this. If it is not possible to process an instant refund, we will process a normal refund in 5-7 working days. [Learn more about instant refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/#how-instant-refunds-work.md).
+             - `optimum`: We try to process the refund instantly. We charge a small fee for this. If it is not possible to process an instant refund, we will process a normal refund in 5-7 working days. [Learn more about instant refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md#how-instant-refunds-work).
              - `normal`: The refund is processed in 5-7 working days.
 
-If no value is passed, the refund is processed using the [default speed set on the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/#setting-the-default-speed-of-refunds.md).
+If no value is passed, the refund is processed using the [default speed set on the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md#setting-the-default-speed-of-refunds).
 
      `payment` _mandatory_
      : `object` Details of the payment.
@@ -2135,7 +2135,7 @@ If no value is passed, the refund is processed using the [default speed set on t
      : `integer` The amount for which the order was created in currency subunits. For example, for an amount of , enter `29900`. The same amount will be used for the payment creation. For the partial payment scenario, we will use the amount specified in the payment request object in case.
 
      `currency` _mandatory_
-     : `string` The currency in which the transaction should be made.  See the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be of 3 characters.
+     : `string` The currency in which the transaction should be made.  See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be of 3 characters.
 
      `receipt` _optional_
      : `string` Receipt number that corresponds to this order. Can have a maximum length of 40 characters and has to be unique.
@@ -2152,15 +2152,15 @@ If no value is passed, the refund is processed using the [default speed set on t
      : `string` Unique identifier of the customer.
 
      `payment_config` _optional_
-     : `array` Payment capture settings for the payment. The options sent here override the [account level auto-capture settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md) configured using the Dashboard.
+     : `array` Payment capture settings for the payment. The options sent here override the [account level auto-capture settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md) configured using the Dashboard.
 
         `capture` _mandatory_
         : `string` Option to automatically capture payment. Possible values:
           - `automatic`: Payments are auto-captured according to the configurations specified in the `capture_options` array.
-          - `manual`: You have to manually capture payments using our [Capture API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#capture-a-payment.md) or from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/dashboard/#manually-capture-payments.md).
+          - `manual`: You have to manually capture payments using our [Capture API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment) or from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/dashboard.md#manually-capture-payments).
 
         `capture_options` _optional_
-        : `array` Use this array to determine the expiry period for automatic and [manual capture](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings/api.md) of payments and the refund speed in the case of non-capture.
+        : `array` Use this array to determine the expiry period for automatic and [manual capture](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings/api.md) of payments and the refund speed in the case of non-capture.
 
            `automatic_expiry_period` _mandatory if capture = automatic_
            : `integer` Time in minutes till when payments in the `authorized` state should be auto-captured.
@@ -2175,10 +2175,10 @@ If no value is passed, the refund is processed using the [default speed set on t
 
            `refund_speed` _mandatory_
            : `string` Refund speed for payments that were not captured (automatically or manually). Possible values:
-             - `optimum`: We try to process the refund instantly. We charge a small fee for this. If it is not possible to process an instant refund, we will process a normal refund in 5-7 working days. [Learn more about instant refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/#how-instant-refunds-work.md).
+             - `optimum`: We try to process the refund instantly. We charge a small fee for this. If it is not possible to process an instant refund, we will process a normal refund in 5-7 working days. [Learn more about instant refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md#how-instant-refunds-work).
              - `normal`: The refund is processed in 5-7 working days.
 
-If no value is passed, the refund is processed using the [default speed set on the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/#setting-the-default-speed-of-refunds.md).
+If no value is passed, the refund is processed using the [default speed set on the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md#setting-the-default-speed-of-refunds).
 
      `payment` _mandatory_
      : `object` Details of the payment.
@@ -2280,7 +2280,7 @@ If no value is passed, the refund is processed using the [default speed set on t
      : `integer` Indicates the amount due for the order.
 
      `currency`
-     : `string` The currency in which the transaction was made.  See the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be of 3 characters.
+     : `string` The currency in which the transaction was made.  See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be of 3 characters.
 
      `offer_id`
      : `string` The unique identifier of the created offer.
@@ -2334,7 +2334,7 @@ If no value is passed, the refund is processed using the [default speed set on t
      ```
 
      #### Failure Callback
-     If the payment has failed, the callback will contain details of the error. Refer to [Errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md) for details.
+     If the payment has failed, the callback will contain details of the error. Refer to [Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md) for details.
 
      Given below is a sample error code you will receive when the order fails.
 
@@ -2554,4 +2554,4 @@ If no value is passed, the refund is processed using the [default speed set on t
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/test-integration.md)

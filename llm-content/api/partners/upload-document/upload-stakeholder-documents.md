@@ -8,7 +8,7 @@ description: Upload signatory documents for a Stakeholder using Razorpay APIs.
 
 ## Upload Stakeholder Documents
 
-Use this endpoint to upload signatory documents for a stakeholder. Know about the [various error responses](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/errors.md) for this API.
+Use this endpoint to upload signatory documents for a stakeholder. Know about the [various error responses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/errors.md) for this API.
 
 > **INFO**
 >

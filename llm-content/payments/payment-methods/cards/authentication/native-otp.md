@@ -12,7 +12,7 @@ Use Razorpay's Native OTP feature to provide an efficient and simple OTP flow to
 Before implementing the Native OTP feature, check if the following requirements are in place:
 1. Verify that you are PCI-compliant to accept and process the customer's card details. Know more about [PCI compliance](https://www.pcicomplianceguide.org/faq/#1). The compliance certificate should be updated as per the yearly renewal cycle.
 2. Raise a request with [Razorpay Support](https://razorpay.com/support#request) to enable this feature on your Checkout page.
-3. Understand the [payment process](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md).
+3. Understand the [payment process](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md).
 
 ## Create Workflow for Native OTP
 
@@ -39,7 +39,7 @@ A **Razorpay Order** creates an Order ID corresponding to the unique order (tran
 Order is an important step in the payment process.
 
 - An order should be created for every payment.
-- You can create an order using the [Orders API](#api-sample-code). It is a server-side API call.  Know how to [authenticate](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) Orders API.  
+- You can create an order using the [Orders API](#api-sample-code). It is a server-side API call.  Know how to [authenticate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) Orders API.  
 - The order_id received in the response should be passed to the checkout. This ties the Order with the payment and secures the request from being tampered.
 
 > **WARN**
@@ -95,7 +95,7 @@ client.order.create(data=DATA)
 $order  = $client->order->create([
   'receipt'         => 'order_rcptid_11',
   'amount'          => 50000, // amount in the smallest currency unit
-  'currency'        => 'INR'// [See the list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).)
+  'currency'        => 'INR'// [See the list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).)
 ]);
 ```csharp: .NET
 Dictionary options = new Dictionary();
@@ -148,7 +148,7 @@ Here is the list of parameters and their description for creating an order:
 >   
 
 `currency` _mandatory_
-: `string` The currency in which the transaction should be made. See the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md). Length must be 3 characters.
+: `string` The currency in which the transaction should be made. See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be 3 characters.
 
   
   
@@ -158,7 +158,7 @@ Here is the list of parameters and their description for creating an order:
 > 
 >   **Handy Tips**
 > 
->   Razorpay has added support for zero decimal currencies, such as JPY and three decimal currencies, such as KWD, BHD and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>   Razorpay has added support for zero decimal currencies, such as JPY and three decimal currencies, such as KWD, BHD and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
 >   
 
   
@@ -177,15 +177,15 @@ Here is the list of parameters and their description for creating an order:
 `id` _mandatory_
 : `string` Unique identifier of the customer. For example, `cust_1Aa00000000004`.
 
-Know more about [Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders.md).
+Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
 
 #### Response Parameters
 
-Descriptions for the response parameters are present in the [Orders Entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/entity.md) table.
+Descriptions for the response parameters are present in the [Orders Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/entity.md) table.
 
 #### Error Response Parameters
 
-The error response parameters are available in the [API Reference Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/create.md).
+The error response parameters are available in the [API Reference Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md).
 
 ### 2. Validate Authentication Type
 
@@ -229,7 +229,7 @@ Use the following API to create a payment using the Order ID.
 : `integer` The payment amount in **paise**. For example, if the payment amount is ₹195.55, pass `19555`.
 
 `order_id` _mandatory_
-: `string` The unique identifier of the order created in [step 1](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/authentication/native-otp/#creating-the-workflow-for-native-otp.md).
+: `string` The unique identifier of the order created in [step 1](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/authentication/native-otp.md#creating-the-workflow-for-native-otp).
 
 `email` _mandatory_
 : `string` The customer's email address. For example, `gaurav.kumar@example.com`.
@@ -241,7 +241,7 @@ Use the following API to create a payment using the Order ID.
 : `string` The payment method selected by the customer. The only allowed value is `card`.
 
 `card[number]` _mandatory_
-: `integer` Unformatted card number. This field is required if value of `method` is `card`. Use one of our [ test cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/test-card-details.md) to try out the payment flow.
+: `integer` Unformatted card number. This field is required if value of `method` is `card`. Use one of our [ test cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md) to try out the payment flow.
 
 `card[name]` _mandatory_
 : `string` The name of the cardholder.
@@ -340,7 +340,7 @@ curl -X POST \
 }
 ```
 
-**Know More**: Know more about [API error codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/#error-response.md).
+**Know More**: Know more about [API error codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md#error-response).
 
 ### 4. OTP Authentication
 
@@ -450,7 +450,7 @@ Payment payment = client.Payment.OtpSubmit(paymentId, paymentRequest);
 }
 ```
 
-Know more about [Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/payments/payment-methods-error-parameters/#cards.md).
+Know more about [Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/payments/payment-methods-error-parameters.md#cards).
 
 #### OTP Resend
 

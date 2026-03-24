@@ -39,7 +39,7 @@ update can only be made in created or partially paid state
 wrong input fields sent.
 * code: 400
 * description: When wrong input fields are sent while updating the Payment Link.
-* solution: Ensure that the input fields are added correctly. Refer to these [request parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links#request-parameters.md) on how to add correct input fields.
+* solution: Ensure that the input fields are added correctly. Refer to these [request parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links.md#request-parameters) on how to add correct input fields.
 
 The id provided does not exist
 * code: 400

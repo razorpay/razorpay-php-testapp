@@ -20,25 +20,25 @@ Use Razorpay QR Codes to receive UPI payments from your customers. Create QR Cod
        - **Dynamic or Static QRs**: Create dynamic and static QR Codes to as per your need.
        - **Works with a Range of PSPs**: Customers can use a range of UPI PSP apps such as PhonePe, Google Pay and others to make payments.
        - **Easy Reconciliation**: View and manage every payment received from customers.
-       - **Real-time Notifications**: Get real-time notifications on payments with [QR Code webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/subscribe-to-webhooks.md).
+       - **Real-time Notifications**: Get real-time notifications on payments with [QR Code webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/subscribe-to-webhooks.md).
       
 
-Perform all the actions on QR Codes from the Dashboard - create, close or search. Subscribe to webhook events for immediate notifications. You can perform most of these actions [using QR Code APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/apis.md).
+Perform all the actions on QR Codes from the Dashboard - create, close or search. Subscribe to webhook events for immediate notifications. You can perform most of these actions [using QR Code APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/apis.md).
 
 ## Get Started
 
-Log in to the Dashboard and click **QR Codes**. [Set up your Razorpay account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up.md) if you do not have one already. 
+Log in to the Dashboard and click **QR Codes**. [Set up your Razorpay account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md) if you do not have one already. 
 
 ## Prerequisites
 
 -  to enable QR Codes for your account.
-- Do check the [Glossary](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/glossary.md) to understand the terminologies.
+- Do check the [Glossary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/glossary.md) to understand the terminologies.
 
 ## What Next
-Understand [how you can use Razorpay QR Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/how-it-works.md) and the various [QR Codes states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/states.md).
+Understand [how you can use Razorpay QR Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/how-it-works.md) and the various [QR Codes states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/states.md).
 
 ### Related Information
-- [How QR Codes Work](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/how-it-works.md)
-- [QR Code States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/states.md)
-- [Create a QR Code](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/create.md)
-- [QR Code APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/apis.md)
+- [How QR Codes Work](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/how-it-works.md)
+- [QR Code States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/states.md)
+- [Create a QR Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/create.md)
+- [QR Code APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/apis.md)

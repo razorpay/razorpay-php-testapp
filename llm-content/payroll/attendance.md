@@ -37,7 +37,7 @@ You have three options via Payroll to track the attendance of your employees.
     
 ### Jibble Integration
 
-         Jibble can be connected to your Payroll account using API credentials. Unpaid employee leaves or loss of pay data can easily be fetched from Jibble and added as respective deductions. Know more about [Jibble Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/integrations/jibble.md) for attendance. 
+         Jibble can be connected to your Payroll account using API credentials. Unpaid employee leaves or loss of pay data can easily be fetched from Jibble and added as respective deductions. Know more about [Jibble Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/integrations/jibble.md) for attendance. 
         
 
 ## Integrate and Configure Biometric Device 
@@ -87,7 +87,7 @@ You can integrate a third-party biometric device with Payroll. Follow the below 
 2. On this page, enter all the requested information. If the device is compatible, a success message appears that says **Device Verified**.
 3. Purchase the [Biometric APIs](https://camsunit.com/product/cams-protocol-update-for-enabling-api-to-biometric-attendance-system.html).
 4. On the checkout page, under **Add Services**, select **Razorpay - Biometric Integration with Razorpay Payroll System**, as shown.  
-    ![Add services drop-down menu showing integration option with RazorpayX Payroll](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-time-management-add-services.jpg.md)
+    ![Add services drop-down menu showing integration option with RazorpayX Payroll](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-time-management-add-services.jpg.md)
 5. You have now successfully integrated the third-party biometric device with Payroll. Refer to the rest of the [CAMS device integration flow](#cams-device-integration) to set up your new device. 
 
 ### CAMS Device Integration
@@ -95,9 +95,9 @@ You can integrate a third-party biometric device with Payroll. Follow the below 
 After you have purchased a CAMS device, you can now integrate it with Payroll. To do so, follow the steps mentioned below:
 
 1. Visit the [CAMS unit page](http://www.camsunit.com/), and log in.
-    ![CAMS log in Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-biometric-integration1.jpg.md)
+    ![CAMS log in Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-biometric-integration1.jpg.md)
 2. Navigate to **Device Status** and confirm if your device is online. If it does not appear online, ensure your device is connected to the internet.
-    ![CAMS - Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-xpayroll-biometric-integration2.jpg.md)
+    ![CAMS - Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-xpayroll-biometric-integration2.jpg.md)
 3. Click **Device Management**. Copy-paste the **Service Tag ID** into a text file.
 4. In the **Device Management** tab, to the left of **Device Status** tab: 
     - Click the **Manage** icon. 
@@ -164,6 +164,6 @@ If none of the above works, please [contact us](mailto:xpayroll@razorpay.com).
 
 ### Related Information
 
-- [Admin Role](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/administrator.md)
-- [Leaves](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/leaves.md)
-- [Salary](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/salary.md)
+- [Admin Role](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/administrator.md)
+- [Leaves](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/leaves.md)
+- [Salary](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/salary.md)

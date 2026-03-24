@@ -34,7 +34,7 @@ The Model Context Protocol (MCP) is a standard that allows AI models to interact
       - **Optimise Development**: Build payment-enabled applications with AI assistance.
       - **Generate Standard Checkout Integration Code**: Quickly produce end-to-end Razorpay Standard Checkout integration code for supported frameworks.
 
-      Explore [Use Cases & Examples](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/use-cases.md).
+      Explore [Use Cases & Examples](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/use-cases.md).
     
 
 ## Available Tools
@@ -50,7 +50,7 @@ The Razorpay MCP Server provides comprehensive access to Razorpay APIs through 3
 - **Payouts**: Manage payout operations
 - **Standard Checkout**: Integrate Razorpay Standard Checkout for supported frameworks
 
-View [Complete Tools Reference](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/tools-reference.md).
+View [Complete Tools Reference](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/tools-reference.md).
 
 ## Deployment Options
 
@@ -64,7 +64,7 @@ The Razorpay MCP Server offers two deployment models to suit different needs:
      - **Quick setup** using `npx`.
      - **Best for** users who want instant setup and automatic maintenance.
 
-     Get Started with [Razorpay Remote MCP Server](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/remote.md).
+     Get Started with [Razorpay Remote MCP Server](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/remote.md).
     
 
   
@@ -75,13 +75,13 @@ The Razorpay MCP Server offers two deployment models to suit different needs:
      - **Access to all tools** without restrictions.
      - **Best for** users who need full control or have specific security requirements.
 
-     Get Started with [Razorpay Local MCP Server](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/local.md).
+     Get Started with [Razorpay Local MCP Server](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/local.md).
     
 
 ## Get Started
 
-1. **Choose Your Deployment**: Select between [Remote (recommended)](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/remote.md) or [Local MCP Server](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/local.md).
+1. **Choose Your Deployment**: Select between [Remote (recommended)](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/remote.md) or [Local MCP Server](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/local.md).
 2. **Set Up Prerequisites**: Install required tools (Node.js for Remote, Docker for Local).
-3. **Get API Keys**: Generate Razorpay API keys from your Razorpay Dashboard. Alternatively, use [OAuth](@/Applications/MAMP/htdocs/new-docs/llm-content/mcp-server/oauth.md)..
+3. **Get API Keys**: Generate Razorpay API keys from your Razorpay Dashboard. Alternatively, use [OAuth](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/mcp-server/oauth.md)..
 4. **Configure Your AI Tool**: Add the MCP server configuration to Claude Desktop, Cursor, or VS Code.
 5. **Start Building**: Begin using AI-powered payment operations.

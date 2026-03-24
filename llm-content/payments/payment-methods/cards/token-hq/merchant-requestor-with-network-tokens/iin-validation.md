@@ -109,4 +109,4 @@ Iin iin = client.Iin.Fetch(tokenIin);
 
 ### Related Information
 
-- [Fetch Card IIN Information API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/cards/iin-api.md)
+- [Fetch Card IIN Information API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/cards/iin-api.md)

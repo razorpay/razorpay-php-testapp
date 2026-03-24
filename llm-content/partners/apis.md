@@ -14,13 +14,13 @@ The table below lists the various APIs and gives a brief description of each API
 
 API | Description
 ---
-[Create an Account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/account-onboarding/create.md) | Creates a new sub-merchant account.
+[Create an Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/account-onboarding/create.md) | Creates a new sub-merchant account.
 ---
-[Fetch an Account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/account-onboarding/fetch.md) | Retrieves an existing Account.
+[Fetch an Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/account-onboarding/fetch.md) | Retrieves an existing Account.
 ---
-[Update an Account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/account-onboarding/update.md) | Updates an existing account.
+[Update an Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/account-onboarding/update.md) | Updates an existing account.
 ---
-[Delete an Account](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/account-onboarding/delete.md) | Deletes the account.
+[Delete an Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/account-onboarding/delete.md) | Deletes the account.
 
 ## List of Product Configuration APIs
 
@@ -28,13 +28,13 @@ The table below lists the various APIs and gives a brief description of each API
 
 API | Description
 ---
-[Request a Product Configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration/request.md) | Requests a product configuration for Payment Gateway or Payment Links.
+[Request a Product Configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration/request.md) | Requests a product configuration for Payment Gateway or Payment Links.
 ---
-[Fetch a Product Configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration/fetch.md) | Retrieves the details of a product for a given sub-merchant's account.
+[Fetch a Product Configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration/fetch.md) | Retrieves the details of a product for a given sub-merchant's account.
 ---
-[Update Settlement Account Details](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration/update-settlement-account-details.md) | Updates a product's configuration.
+[Update Settlement Account Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration/update-settlement-account-details.md) | Updates a product's configuration.
 ---
-[Request Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/product-configuration/update-request-payment-methods.md) | Updates a product's configuration and request payment methods like UPI, netbanking and card.
+[Request Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/product-configuration/update-request-payment-methods.md) | Updates a product's configuration and request payment methods like UPI, netbanking and card.
 
 ## List of Stakeholder APIs
 
@@ -42,13 +42,13 @@ The table below lists the various APIs and gives a brief description of each API
 
 API | Description
 ---
-[Create a Stakeholder](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/stakeholder/create.md) | Creates a stakeholder.
+[Create a Stakeholder](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/stakeholder/create.md) | Creates a stakeholder.
 ---
-[Fetch a Stakeholder With ID](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/stakeholder/fetch-with-id.md) | Retrieves the details of a stakeholder.
+[Fetch a Stakeholder With ID](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/stakeholder/fetch-with-id.md) | Retrieves the details of a stakeholder.
 ---
-[Fetch All Stakeholders](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/stakeholder/fetch-all.md) | Retrieves the details of all stakeholders for a given account.
+[Fetch All Stakeholders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/stakeholder/fetch-all.md) | Retrieves the details of all stakeholders for a given account.
 ---
-[Update a Stakeholder](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/stakeholder/update.md) | Updates the details of a stakeholder.
+[Update a Stakeholder](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/stakeholder/update.md) | Updates the details of a stakeholder.
 
 ## List of Document APIs
 
@@ -56,10 +56,10 @@ The table below lists the various APIs and gives a brief description of each API
 
 API | Description
 ---
-[Upload Account Documents](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/upload-document/upload-account-documents.md) | Uploads business documents for a sub-merchant's account.
+[Upload Account Documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/upload-document/upload-account-documents.md) | Uploads business documents for a sub-merchant's account.
 ---
-[Upload Stakeholder Documents](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/upload-document/upload-stakeholder-documents.md) | Uploads signatory documents for a stakeholder.
+[Upload Stakeholder Documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/upload-document/upload-stakeholder-documents.md) | Uploads signatory documents for a stakeholder.
 ---
-[Fetch Account Documents](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/upload-document/fetch-account-documents.md) | Retrieves the documents uploaded for an account.
+[Fetch Account Documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/upload-document/fetch-account-documents.md) | Retrieves the documents uploaded for an account.
 ---
-[Fetch Stakeholder Documents](@/Applications/MAMP/htdocs/new-docs/llm-content/api/partners/upload-document/fetch-stakeholder-documents.md) | Retrieves the documents uploaded for a stakeholder.
+[Fetch Stakeholder Documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/upload-document/fetch-stakeholder-documents.md) | Retrieves the documents uploaded for a stakeholder.

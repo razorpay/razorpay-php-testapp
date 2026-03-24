@@ -13,7 +13,7 @@ Slack is a business communication platform widely used by organisations to commu
 > **Watch Out!**
 > 
 > - Only Owners can install this OAuth App and perform integration. 
-> - If other [standard user roles](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/manage-team/#standard-user-roles.md) need to get notifications, they can be added to the Slack channel(s).
+> - If other [standard user roles](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/manage-team.md#standard-user-roles) need to get notifications, they can be added to the Slack channel(s).
 > 
 
 You can integrate Razorpay with Slack to get real-time updates regarding payment downtimes. 

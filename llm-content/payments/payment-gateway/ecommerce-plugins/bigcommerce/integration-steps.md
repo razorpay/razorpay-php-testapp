@@ -26,12 +26,12 @@ Follow the steps given below:
             Follow the steps given below to install the plugin:
             1. Log in to your [BigCommerce account](https://login.bigcommerce.com/login). 
             2. Navigate to **Apps** → **Marketplace**.
-                ![Navigate to Apps](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bigcommerce-apps.jpg.md)
+                ![Navigate to Apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bigcommerce-apps.jpg.md)
             3. Click **BIGCOMMERCE.COM/APPS** and search for **Razorpay**.
-                ![specific and meaningful image title](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bigcommerce-marketplace.jpg.md)
+                ![specific and meaningful image title](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bigcommerce-marketplace.jpg.md)
             4. Click **Razorpay** and click **GET THIS APP**.
-                ![Install the app](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bigcommerce-get-app.gif.md)
-            5. Enter the **API Key ID** generated from the [Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md). 
+                ![Install the app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bigcommerce-get-app.gif.md)
+            5. Enter the **API Key ID** generated from the [Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys). 
 
                 
 > **INFO**
@@ -39,12 +39,12 @@ Follow the steps given below:
 > 
 >                 **Handy Tips**
 > 
->                 To go live with the integration and start accepting real payments, generate [Live Mode API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) and replace the test key with the live key in the integration.
+>                 To go live with the integration and start accepting real payments, generate [Live Mode API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) and replace the test key with the live key in the integration.
 >                 
  
 
             6. Click **Submit**. 
-            ![Submit detail to install the Razorpay plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bigcommerce-install1.jpg.md)
+            ![Submit detail to install the Razorpay plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bigcommerce-install1.jpg.md)
 
             You have successfully integrated the Razorpay Payment Gateway with your BigCommerce website.
 
@@ -68,7 +68,7 @@ Follow the steps given below:
 
 After the integration is complete, a **RAZORPAY PAYMENTS** button will appear on your web page/app. You need to click the button and make a test transaction to ensure that the integration is working as expected. You can start accepting actual payments from your customers once the test is successful.
 
-![Test the integration on your webpage/app](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/bigcommerce-test.gif.md)
+![Test the integration on your webpage/app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/bigcommerce-test.gif.md)
 
 > **WARN**
 >
@@ -76,8 +76,8 @@ After the integration is complete, a **RAZORPAY PAYMENTS** button will appear on
 > **Watch Out!**
 > 
 > This is a mock payment page that uses your test API keys, test card and payment details. 
-> - Ensure you have entered only your [Test Mode API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) in the Checkout code. 
-> - Test mode may include OTP verification for certain payment methods to replicate the live payment experience.
+> - Ensure you have entered only your [Test Mode API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) in the Checkout code. 
+> - Test mode features a mock bank page with **Success** and **Failure** buttons to replicate the live payment experience.
 > - No real money is deducted due to the usage of test API keys. This is a simulated transaction.
 > 
 
@@ -99,7 +99,7 @@ After the integration is complete, a **RAZORPAY PAYMENTS** button will appear on
                     ![](/docs/assets/images/testpayment.jpg)
             
             
-                  [Poll Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md) to check the payment status.
+                  [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments) to check the payment status.
             
         
         
@@ -133,4 +133,4 @@ To generate API Keys in Live Mode on your Razorpay Dashboard:
     
 ### 3.2 Payment Capture
 
-         After a payment is `authorized`, it is automatically captured and the amount is settled to your account as per the settlement schedule. Know more about [Auto-capture payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings#auto-capture-all-payments.md).
+         After a payment is `authorized`, it is automatically captured and the amount is settled to your account as per the settlement schedule. Know more about [Auto-capture payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md#auto-capture-all-payments).

@@ -61,7 +61,7 @@ Customise your checkout with festive-themed animations and graphics according to
        2. Navigate to **Accounts & Settings** → **Checkout Styling** under **Checkout settings** section.
        3. Toggle on the **Festive Theme** field.
        4. Click **Save all changes**.
-         ![Enable festive theme](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-festive-theme.gif.md)
+         ![Enable festive theme](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-festive-theme.gif.md)
       
 
 ## Background Colour
@@ -76,7 +76,7 @@ You can customise the checkout background colour according to your brand colour.
        3. In the **Background Color** field, click **Edit**. 
        4. You can choose to enter the RGB, HSL or HEX code of your brand colour. 
        5. Click **Save all changes**.
-          ![Edit background colour](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-background-colour.gif.md)
+          ![Edit background colour](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-background-colour.gif.md)
       
 
 ## Brand Name and Logo
@@ -87,7 +87,7 @@ Decide how you want to display your brand name and logo on checkout. You can upd
 
 - On the links sent to customers for Payment Links, Payment Pages.
 
-- As the beneficiary name when you create a Smart Collect Customer Identifier. Know more about [Smart Collect](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect.md).
+- As the beneficiary name when you create a Smart Collect Customer Identifier. Know more about [Smart Collect](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect.md).
 
 > **INFO**
 >
@@ -106,9 +106,9 @@ Decide how you want to display your brand name and logo on checkout. You can upd
        1. Log in to the Dashboard.
        2. Navigate to **Accounts & Settings** → **Checkout Styling** under **Checkout settings** section.
        3. In the **Brand name and logo** field, click **Edit**. 
-          ![Edit brand name and logo](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-title-style.jpg.md)
+          ![Edit brand name and logo](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-title-style.jpg.md)
        4. Choose a title style based on your requirement.
-          ![Select title style](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-title-style-select.jpg.md)
+          ![Select title style](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-title-style-select.jpg.md)
 
           
              
@@ -145,7 +145,7 @@ Choose the border style for various elements on your checkout, such as the check
        2. Navigate to **Accounts & Settings** → **Checkout Styling** under **Checkout settings** section.
        3. In the **Border style** field, you can select **rounded** or **sharp** border style based on your requirement.
        4. Click **Save all changes**.
-          ![Edit border style](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-border-style.gif.md)
+          ![Edit border style](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-border-style.gif.md)
       
 
 ## Font
@@ -159,7 +159,7 @@ Select a font for your brand based on your requirement.
        2. Navigate to **Accounts & Settings** → **Checkout Styling** under **Checkout settings** section.
        3. In the **Font** field, select a font for your brand from the drop-down list to apply it to all text on the checkout. 
        4. Click **Save all changes**.
-          ![Edit font](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-font.gif.md)
+          ![Edit font](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-font.gif.md)
       
 
 ## Sidebar Graphic
@@ -173,12 +173,12 @@ Enhance your checkout sidebar with a decorative graphic. This setting is availab
        2. Navigate to **Accounts & Settings** → **Checkout Styling** under **Checkout settings** section.
        3. Toggle on the **Sidebar graphic** field and select a design pattern that fits your needs.
        4. Click **Save all changes**.
-          ![Add sidebar graphic](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-sidebar-graphic.gif.md)
+          ![Add sidebar graphic](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-sidebar-graphic.gif.md)
       
 
 ## Razorpay Trusted Badge
 
-Show the Razorpay trusted badge on your checkout to build credibility as a trusted business. This reassures your customers (who otherwise might have dropped off due to lack of trust) that they can safely transact with your brand. Know more about [Razorpay trusted badge](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/features/trusted-business#how-razorpay-trusted-business-badge-works.md).
+Show the Razorpay trusted badge on your checkout to build credibility as a trusted business. This reassures your customers (who otherwise might have dropped off due to lack of trust) that they can safely transact with your brand. Know more about [Razorpay trusted badge](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/features/trusted-business.md#how-razorpay-trusted-business-badge-works).
 
    
 ### To enable Razorpay trusted badge:
@@ -187,4 +187,4 @@ Show the Razorpay trusted badge on your checkout to build credibility as a trust
        2. Navigate to **Accounts & Settings** → **Checkout Styling** under **Checkout settings** section.
        3. Toggle on the **Razorpay trusted badge** field.
        4. Click **Save all changes**.
-         ![Show Razorpay trusted badge on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/checkout-rtb.jpg.md)
+         ![Show Razorpay trusted badge on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/checkout-rtb.jpg.md)

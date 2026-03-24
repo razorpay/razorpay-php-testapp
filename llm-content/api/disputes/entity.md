@@ -75,7 +75,7 @@ The Disputes entity has the following parameters:
 : `string` 3-letter ISO currency code associated with the amount. 
 
 `amount_deducted`
-: `integer` The amount, in currency subunits, deducted from your Razorpay current balance when the dispute is `lost`. This amount will be `0` unless the status of dispute is updated to `lost`. Know about the different [ states of disputes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes/#dispute-states.md).
+: `integer` The amount, in currency subunits, deducted from your Razorpay current balance when the dispute is `lost`. This amount will be `0` unless the status of dispute is updated to `lost`. Know about the different [ states of disputes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes.md#dispute-states).
 
 `reason_code`
 : `string` Code associated with the reason for the dispute.
@@ -106,7 +106,7 @@ The Disputes entity has the following parameters:
 : `integer` Unix timestamp when the dispute was created.
 
 `evidence`
-: `object` Provides details of the evidence submitted/saved for contesting a dispute. Use the [Documents API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/documents.md) to securely share documents with Razorpay.
+: `object` Provides details of the evidence submitted/saved for contesting a dispute. Use the [Documents API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/documents.md) to securely share documents with Razorpay.
 
   `amount`
   : `integer` The contested amount in currency subunits, for which evidence is provided. The value can vary from `0` to the dispute amount. The default value is the dispute amount. 

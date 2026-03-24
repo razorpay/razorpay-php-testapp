@@ -30,7 +30,7 @@ To add a team member:
 2. You can to it in two ways:
     - Navigate to the drop-down menu next to **+ Payouts** and click **Team Member**.
     - Navigate to the profile icon → **My Account and Settings** → **Manage Team** and click **+ TEAM MEMBER**. 
-3. You can either select an existing role or you can [create a new role](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/create-user-role.md).
+3. You can either select an existing role or you can [create a new role](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/create-user-role.md).
 4. Once the role is selected, you can preview the permissions associated with the role and enter the email address of the team member.
 5. Click **SEND INVITE**.
 
@@ -49,17 +49,17 @@ To edit the role of a team member:
 1. Log in to the [RazorpayX Dashboard](https://x.razorpay.com/). 
 2. Navigate to the profile icon → **My Account & Settings** → **Manage Team**. 
 3. Hover over the team member on the list you want to change the role for and click the edit icon.
-    ![Edit the role of a team member](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-team-edit-role.jpg.md)
-4. Select from the existing user role templates or [create a new role](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/create-user-role.md).
+    ![Edit the role of a team member](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-team-edit-role.jpg.md)
+4. Select from the existing user role templates or [create a new role](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/create-user-role.md).
 5. You can select and review the the permissions and click **Update Changes**.
-    ![Update the change in user role](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-team-edit-role-2.jpg.md)
+    ![Update the change in user role](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-team-edit-role-2.jpg.md)
 
 > **WARN**
 >
 > 
 > **Watch Out!**
 > 
-> - First [create the custom role](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/create-user-role.md) to change the role of a team member to a new custom role.
+> - First [create the custom role](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/create-user-role.md) to change the role of a team member to a new custom role.
 > - If the team member's role is already a part of approval workflow, make sure to add the team member's newly assigned role to the approval workflow for them to be able to continue approve or reject payouts.
 > 
 
@@ -70,7 +70,7 @@ To remove a team member from your RazorpayX account:
 2. Navigate to the profile icon **My Account & Settings** → **Manage Team**. 
 3. Hover over the user you want to remove from the team and click the delete icon. 
 
-![Remove a user from the team](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-team-remove-member.jpg.md)
+![Remove a user from the team](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-team-remove-member.jpg.md)
 
 ## Resend Invite
 
@@ -79,7 +79,7 @@ To resend an invite to a team member:
 2. Navigate to the profile icon → **My Account & Settings** → **Manage Team**. 
 3. Hover over the pending invite you want to send again and click **RESEND**.
 
-![Resend an invite to the user](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-team-resend-invite.jpg.md)
+![Resend an invite to the user](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-team-resend-invite.jpg.md)
 
 ## Remove Invite
 
@@ -88,16 +88,16 @@ To remove the invite sent to the user:
 2. Navigate to the profile icon → **My Account & Settings** → **Manage Team**. 
 3. Hover over the user you want to remove the invite for and click the delete icon.
 
-![Remove the invite sent to a user](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-team-remove-invite.jpg.md)
+![Remove the invite sent to a user](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-team-remove-invite.jpg.md)
 
 ## Accept an Invitation
 
 To accept an invitation: 
 
 1. Click **ACCEPT INVITE** on the email and you will be redirected to either sign in or sign up for RazorpayX.
-    ![Accept RazorpayX Invitation](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/accept-invitation.jpg.md)
+    ![Accept RazorpayX Invitation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/accept-invitation.jpg.md)
 2. Set a new password for your RazorpayX account and click **Create Account**.
-    ![Set Password and Create Account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/set-password.jpg.md)
+    ![Set Password and Create Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/set-password.jpg.md)
     
 > **WARN**
 >
@@ -107,10 +107,10 @@ To accept an invitation:
 >     To avoid creating a duplicate Merchant ID (MID), we recommend that you set a password directly instead of signing in through Google SSO.
 >     
 
-3. If you are already logged in, you can accept the invite by navigating to **My Account & Settings** → **User Profile** and [Switch Merchant](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/#switch-merchant.md).
+3. If you are already logged in, you can accept the invite by navigating to **My Account & Settings** → **User Profile** and [Switch Merchant](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard.md#switch-merchant).
 
 ### Related Information
 
-- [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md)
-- [Two-Factor Authentication](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/2fa.md)
-- [Chartered Accountant Portal](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/ca-portal.md)
+- [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md)
+- [Two-Factor Authentication](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/2fa.md)
+- [Chartered Accountant Portal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/ca-portal.md)

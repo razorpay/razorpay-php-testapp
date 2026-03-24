@@ -24,8 +24,8 @@ To view order details:
 
 ### View Order Details Using API
 
-- [View all orders using Fetch Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/fetch-all.md).
-- [View specific details of an order using Fetch an Order with ID API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/fetch-with-id.md).
+- [View all orders using Fetch Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/fetch-all.md).
+- [View specific details of an order using Fetch an Order with ID API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/fetch-with-id.md).
 
 ## Subscribe to Webhook Events
 
@@ -38,12 +38,12 @@ To subscribe to Webhook events:
 
 @include orders/orders-available-events
 
-Know more about [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) and check the [sample payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/orders.md).
+Know more about [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) and check the [sample payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/orders.md).
 
 ## Reports
 
-Detailed insights can be gained using reports and real-time data on the Dashboard. These reports can then be used for accounting and reconciliation purposes. Know more about [reports](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/reports.md).
+Detailed insights can be gained using reports and real-time data on the Dashboard. These reports can then be used for accounting and reconciliation purposes. Know more about [reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/reports.md).
 
 ### Related Information
-- [About Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders.md)
-- [Orders APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders/apis.md)
+- [About Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders.md)
+- [Orders APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders/apis.md)

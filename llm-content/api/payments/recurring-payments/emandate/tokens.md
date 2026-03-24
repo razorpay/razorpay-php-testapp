@@ -7,7 +7,7 @@ description: Retrieve tokens using Razorpay APIs to create subsequent payments.
 
 @include recurring-payments/fetch-token-api
 
-Know more about [Tokens](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/emandate/integrate/#fetch-emandate-registration-details.md).
+Know more about [Tokens](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/integrate.md#fetch-emandate-registration-details).
 
 ## 2.1. Fetch Token by Payment ID
 

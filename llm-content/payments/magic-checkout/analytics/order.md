@@ -31,7 +31,7 @@ Follow the steps given below to view insights about the various order activities
 
 You can now view the **Order Analytics** on the Dashboard with order performance metrics.
 
-![View order analytics on dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-analytics-order.jpg.md)
+![View order analytics on dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-analytics-order.jpg.md)
 
 > **INFO**
 >
@@ -56,7 +56,7 @@ You can compare your current data against previous periods to track performance 
     - **Descriptive text** explains the changes. For example: `Orders increased from 55 to 67`.
     - **Charts display overlapping lines** for visual comparison between the selected time periods, with date labels at the bottom showing which line represents which period.
 
-![Compare analytics data](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-analytics-order-comparison.jpg.md)
+![Compare analytics data](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-analytics-order-comparison.jpg.md)
 
 ## Order Metrics
 
@@ -90,9 +90,9 @@ The **Detailed view** section displays charts that allow you to analyse trends a
 
 - **Total orders**: Line chart tracking total order volume trends throughout the selected time period.
 - **Total sales**: Line chart showing total sales revenue patterns.
-    ![View total orders and sales](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-analytics-total-orders-sales.jpg.md)
+    ![View total orders and sales](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-analytics-total-orders-sales.jpg.md)
 - **Prepaid and COD share**: Comparative chart showing the distribution between prepaid and COD orders over time.
 - **Prepaid and COD sales**: Comparative chart showing revenue distribution between prepaid and COD sales over time. 
-    ![View prepaid and COD share and sales](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-analytics-prepaid-cod.jpg.md)
+    ![View prepaid and COD share and sales](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-analytics-prepaid-cod.jpg.md)
 - **Average Order Value**: Line chart displaying AOV fluctuations with hover tooltips showing specific values at different times.
-    ![View average order value](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-analytics-avg-order-value.jpg.md)
+    ![View average order value](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-analytics-avg-order-value.jpg.md)

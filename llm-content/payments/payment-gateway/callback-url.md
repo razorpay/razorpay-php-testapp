@@ -5,9 +5,9 @@ description: Reuse the web integration to process the payments.
 
 # Callback URL
 
-If you reuse your web integration of Razorpay Checkout inside a web view on Android or iOS, the checkout form may not open. Issues like this are handled in our [Android SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard.md) and [iOS SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard.md), with the SDKs being the preferred method of integration.
+If you reuse your web integration of Razorpay Checkout inside a web view on Android or iOS, the checkout form may not open. Issues like this are handled in our [Android SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard.md) and [iOS SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard.md), with the SDKs being the preferred method of integration.
 
-However, if you want to reuse the web integration for some reason, you can pass the following `callback_url` along with other [checkout options](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps/#123-checkout-options.md) to process the desired payment:
+However, if you want to reuse the web integration for some reason, you can pass the following `callback_url` along with other [checkout options](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#123-checkout-options) to process the desired payment:
 
 ```JavaScript: JavaScript
 var options = {

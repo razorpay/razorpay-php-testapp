@@ -26,21 +26,21 @@ Customers select the products on your website or app and proceed to Checkout. On
 
 1. Enter their **Phone Number** and click **Continue**.
 1. Select **EMI** as the payment method.
-    ![Select emi payment option on checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/standard-checkout-emi-option.jpg.md)
+    ![Select emi payment option on checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/standard-checkout-emi-option.jpg.md)
 1. Select **Cardless and Others**.
-    ![Select Cardless and Others](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/standard-checkout-cardless-emi-option.jpg.md)
+    ![Select Cardless and Others](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/standard-checkout-cardless-emi-option.jpg.md)
 1. An OTP is sent to their registered mobile number to check their eligibility. They enter the OTP and click **Continue**.
-    ![Enter Eligibility OTP](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/eligibility-otp.jpg.md)
+    ![Enter Eligibility OTP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/eligibility-otp.jpg.md)
 1. Select **ShopSe Digital Finance** as the Cardless EMI service provider.
-    ![Select shopse payment instrument](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/select-shopse-cardless.jpg.md)
+    ![Select shopse payment instrument](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/select-shopse-cardless.jpg.md)
 1. Select the EMI tenure and complete the payment.
-    ![EMI options select Plan](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopse-payment-options.jpg.md)
+    ![EMI options select Plan](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopse-payment-options.jpg.md)
 
 You receive the full transaction amount from ShopSe. Customers then pay ShopSe the total order amount in EMIs, along with any applicable interest, as per their terms and conditions.
 
 ## Standard Checkout Integration
 
-No additional integration is required to show ShopSe as a Cardless EMI service provider on your Standard Checkout integration. Know [how to integrate ShopSe as a payment method on custom checkout.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods/#cardless-emi.md)
+No additional integration is required to show ShopSe as a Cardless EMI service provider on your Standard Checkout integration. Know [how to integrate ShopSe as a payment method on custom checkout.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods.md#cardless-emi)
 
 ## Related Information
 

@@ -17,7 +17,7 @@ You can generate and process Payment Links in batches on the Dashboard and save 
          Download the sample batch file from the Dashboard. The batch file is a simple **.xlsx** or **.csv** file.
          
          
-         ![Download Sample file from Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/batch-pl-download.jpg.md)
+         ![Download Sample file from Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/batch-pl-download.jpg.md)
 
          
         
@@ -107,7 +107,7 @@ Partial payments are not allowed for UPI Payment Links.
 
          Ensure that the date format does not get modified. Watch this video to see how to fix date formatting issues:
 
-         ![Fix date formatting issues in batch file](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-batch-batch-pl.gif.md)
+         ![Fix date formatting issues in batch file](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-batch-batch-pl.gif.md)
 
          
         
@@ -121,7 +121,7 @@ Partial payments are not allowed for UPI Payment Links.
          2. Click the **Click here to upload** button.
              
 
-             ![Upload batch file button on Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pl-batch-upload-click.jpg.md)
+             ![Upload batch file button on Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pl-batch-upload-click.jpg.md)
 
              
 
@@ -129,7 +129,7 @@ Partial payments are not allowed for UPI Payment Links.
 
          
 
-         ![Batch upload page with Click to Upload button](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/batch_pl.jpg.md)
+         ![Batch upload page with Click to Upload button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/batch_pl.jpg.md)
 
          
 
@@ -148,7 +148,7 @@ Partial payments are not allowed for UPI Payment Links.
 
          
 
-         ![Add details to batch upload pop-up page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/batch_create_pl.jpg.md)
+         ![Add details to batch upload pop-up page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/batch_create_pl.jpg.md)
 
          
 
@@ -164,7 +164,7 @@ Partial payments are not allowed for UPI Payment Links.
 
          
 
-         ![Perform Post batch creation actions page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-batch-screen.jpg.md)
+         ![Perform Post batch creation actions page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-batch-screen.jpg.md)
 
          
 
@@ -232,7 +232,7 @@ Partial payments are not allowed for UPI Payment Links.
 
              2. Click the Batch ID to view the **Total rows processed**, **Payment Links created**, and the number of **Paid** and **Expired** links. You can also view the **Status** and **Created At** information of the batch. The details of individual Payment Links created from the batch are also displayed here.
 
-             ![Batch file status page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/batch_details.jpg.md)
+             ![Batch file status page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/batch_details.jpg.md)
 
              
                  
@@ -287,7 +287,7 @@ Partial payments are not allowed for UPI Payment Links.
 
 ### Related Information
 
-- [How Payment Links Work](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/how-it-works.md)
-- [Payment Links States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/states.md)
-- [Create a Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/create.md)
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/faqs.md)
+- [How Payment Links Work](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/how-it-works.md)
+- [Payment Links States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/states.md)
+- [Create a Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/create.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/faqs.md)

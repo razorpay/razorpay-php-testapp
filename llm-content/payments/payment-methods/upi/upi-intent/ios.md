@@ -10,17 +10,17 @@ Use the iOS Standard SDK to support UPI Intent payments on your iOS apps. We sup
 - PhonePe
 - Paytm
 
-![Payment Process on iOS Apps](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi-intent-ios.gif.md)
+![Payment Process on iOS Apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-intent-ios.gif.md)
 
 ## Prerequisites
 - Sign up for a Razorpay account.
-- [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
+- [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
 
 ## iOS Standard Checkout
 
 To enable UPI Intent on your iOS app's Standard Checkout:
 
-1. Ensure that the [latest version of the iOS Standard SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard/#list-of-razorpay-ios-standard-sdk-versions-last.md) is integrated with your app.
+1. Ensure that the [latest version of the iOS Standard SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard.md#list-of-razorpay-ios-standard-sdk-versions-last) is integrated with your app.
 2. Your iOS app must seek permission from the device to open the UPI PSP app that the customer selects on Checkout. For this, you must make the following changes in your iOS app's info.plist file.
 
 ```xml: info.plist	

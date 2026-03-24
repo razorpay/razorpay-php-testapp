@@ -6,7 +6,7 @@ description: Create Items that can be billed using Razorpay Invoices.
 
 # About Items
 
-Items are products or services that you can add to [Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices.md) and charge customers for. You can create an item on your Razorpay [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard.md) from **Invoice** → **Items** or using [Items API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/invoices/create-item.md). When an item is created, it appears on the list of items in the Dashboard.
+Items are products or services that you can add to [Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md) and charge customers for. You can create an item on your Razorpay [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard.md) from **Invoice** → **Items** or using [Items API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/invoices/create-item.md). When an item is created, it appears on the list of items in the Dashboard.
 
 ## Item Life Cycle
 
@@ -23,11 +23,11 @@ You can perform the following actions using Items APIs and on the Dashboard.
 
 Actions | API Link | Dashboard Link
 ---
-Create an item | [Link](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/invoices/create-item.md) | [Link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/create.md)
+Create an item | [Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/invoices/create-item.md) | [Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/create.md)
 ---
-Update details of an item | [Link](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/invoices/update-item.md) | [Link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/update.md)
+Update details of an item | [Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/invoices/update-item.md) | [Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/update.md)
 ---
-Retrieve details of items | [All items](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/invoices/fetch-all-items.md)
-[Specific item](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/invoices/fetch-with-id-item.md) | NA
+Retrieve details of items | [All items](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/invoices/fetch-all-items.md)
+[Specific item](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/invoices/fetch-with-id-item.md) | NA
 ---
-Delete an item | [Link](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/invoices/delete-item.md) | [Link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/invoices/delete.md)
+Delete an item | [Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/invoices/delete-item.md) | [Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices/delete.md)

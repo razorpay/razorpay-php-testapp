@@ -44,7 +44,7 @@ To become a partner you must meet the following requirements.
 
 #### Advantages
 - **Fast & seamless onboarding**: Get started with Razorpay in less than 5 minutes with 100% paperless onboarding.
-- **Lucrative rewards for all**: Earn [commissions](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/commissions.md) for every transaction carried out by your affiliate accounts.
+- **Lucrative rewards for all**: Earn [commissions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/commissions.md) for every transaction carried out by your affiliate accounts.
 - **Extensive partner support**: Get features like bulk email, chatbot support, refund tracking system along with a dedicated account manager.
 - **Powerful dashboard**: Take better business decisions by analysing detailed reports about payments, settlements and refunds.
 - **API driven products**: Save on time by using our ready-to-use integration kits for leading service providers like Magento, WooCommerce, Shopify and so on.
@@ -55,9 +55,9 @@ To become a partner you must meet the following requirements.
 
 Razorpay supports the following types of Partners where each Partner type has different levels of control on Sub-merchants and gets access to different types of data. All partners are onboarded as Service partners. Based on your requirement, you can request to switch to Technology partner.
 
-- [Service Partners](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/service-partners.md)
+- [Service Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/service-partners.md)
 Businesses or individuals who refer and/or integrate Razorpay for their clients. Service partners are not involved in managing transactions for clients.
-- [Technology Partners](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/technology-partners.md)
+- [Technology Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners.md)
 Marketplaces or platforms who refer and/or integrate Razorpay for their clients. Technology partners might be involved in managing funds for clients.
 
 ## Products for Partnership
@@ -65,7 +65,7 @@ Marketplaces or platforms who refer and/or integrate Razorpay for their clients.
 You can be a Partner for the following products:
 - Payments
 - RazorpayX
-- [POS](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/pos.md) 
+- [POS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/pos.md) 
 
 ## Supported Platforms
 
@@ -89,5 +89,5 @@ Razorpay Partnerships is supported on the following platforms:
 ## Next Steps
 
 Whether you are new to the Razorpay ecosystem or are an existing Razorpay merchant, enrolling for the Razorpay Partnership program is quite simple. The process slightly differs if you are:
-- [**New to Razorpay**](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/new-to-razorpay.md)
-- [**An existing Razorpay merchant**](@/Applications/MAMP/htdocs/new-docs/llm-content/partners/existing-merchant.md)
+- [**New to Razorpay**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/new-to-razorpay.md)
+- [**An existing Razorpay merchant**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/existing-merchant.md)

@@ -8,7 +8,7 @@ description: Use Magic Checkout to pre-fill shipping info, apply coupons automat
 
 After successfully activating COD & Magic Checkout, enable Magic Checkout to enhance your customers' purchasing experience. 
 
-This feature pre-fills shipping info from saved addresses for faster checkout, automatically applies coupons, and helps predict RTO by identifying non-serviceable addresses, reducing RTO rates. Know more about [RTO Intelligence](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence.md).
+This feature pre-fills shipping info from saved addresses for faster checkout, automatically applies coupons, and helps predict RTO by identifying non-serviceable addresses, reducing RTO rates. Know more about [RTO Intelligence](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/cod-magic-checkout/shopify/rto-intelligence.md).
 
 ## Enable Magic Checkout
 
@@ -23,7 +23,7 @@ This feature pre-fills shipping info from saved addresses for faster checkout, a
     - **Theme Color**: Enter the HEX code of your brand colour. 
     - **Mandatory OTP**: Enable secure access with one-time password (OTP) login.
 5. Click **Save Settings**.
-    ![Enable Magic Checkout to activate](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cod-magic-checkout-cod-enable-magic.jpg.md) 
+    ![Enable Magic Checkout to activate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cod-magic-checkout-cod-enable-magic.jpg.md) 
 6. You will be redirected to the theme page on your Shopify store. Click **Save** in the top right corner to complete the setup.
 
 You have successfully enabled Magic Checkout. You can test the checkout process on your Shopify store by clicking **Checkout** on your cart page or **Buy Now** on any product page to ensure everything functions smoothly.

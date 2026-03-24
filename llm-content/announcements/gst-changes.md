@@ -20,7 +20,7 @@ Billing Cycle | Invoice for the month of
 
     Razorpay B2B invoices raised in January 2021 will include an IRN and a QR code, as can be seen below:
 
-     ![Razorpay e-Invoice Example](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/gst-changes-razorpay-invoice.jpg.md)
+     ![Razorpay e-Invoice Example](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/gst-changes-razorpay-invoice.jpg.md)
 
 #### 2. Who is `e-invoicing` applicable to?
     If you have updated your GSTIN on your Razorpay Account, B2B invoices raised in January 2021 for the billing period of 31 December 2020 to 31 January 2021 will be registered on the GST Invoice Registration Portal.

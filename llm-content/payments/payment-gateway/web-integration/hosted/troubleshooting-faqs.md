@@ -44,7 +44,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 4. How can I avoid cases of callback failure?
 
-          To avoid cases of callback failure due to connectivity or network issues, implement webhooks or use the query API. Know more about [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md).
+          To avoid cases of callback failure due to connectivity or network issues, implement webhooks or use the query API. Know more about [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md).
         
 
     

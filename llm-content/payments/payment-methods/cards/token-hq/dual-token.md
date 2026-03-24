@@ -108,7 +108,7 @@ Given below is a sample entity.
 : `string` The name of the entity. Here, it is `token`.
 
 `customer_id`
-: `string` This is the Razorpay customer id. You can create a token for a specific customer using their customer id. Use the [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers.md) to create a customer id. This is an optional parameter.
+: `string` This is the Razorpay customer id. You can create a token for a specific customer using their customer id. Use the [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md) to create a customer id. This is an optional parameter.
 
 `method`
 : `string` The type of object that was tokenised. Currently, it only supports `card`.
@@ -143,7 +143,7 @@ Given below is a sample entity.
   - `suspended` : The token attains this state if: 
     - The token is not activated for any one of the token service providers. 
     - The token is suspended for at least one of the token service providers.
-  - `deactivated` : The token attains this state if the token is not active/suspended for any one of the token service providers and is deactivated for at least one token service provider. Know about the complete list of [token states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/token-lifecycle.md).
+  - `deactivated` : The token attains this state if the token is not active/suspended for any one of the token service providers and is deactivated for at least one token service provider. Know about the complete list of [token states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/token-lifecycle.md).
   
 `status_reason`
 : `string` When the token reaches the deactivated state, this field will provide the reason for deactivation. Possible values:
@@ -352,7 +352,7 @@ instance.tokens.create({
 #### Request Parameters
 
 `customer_id` _optional_
-: `string` The unique identifier of the customer created using [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers.md).
+: `string` The unique identifier of the customer created using [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers.md).
 
 `method` _mandatory_
 : `string` The type of object that needs to be tokenised. Currently, `card` is the only supported value.
@@ -401,7 +401,7 @@ instance.tokens.create({
 
 #### Response Parameters
 
-Descriptions for the response parameters are present in the [Token Entity parameters table](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/dual-token/#token-entity.md).
+Descriptions for the response parameters are present in the [Token Entity parameters table](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/dual-token.md#token-entity).
 
 ### 1.2 Delete a Token
 
@@ -570,7 +570,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
 
 #### Response Parameters
 
-Descriptions for the response parameters are present in the [Token Entity parameters table](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/dual-token/#token-entity.md).
+Descriptions for the response parameters are present in the [Token Entity parameters table](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/dual-token.md#token-entity).
 
 ### 2.2 Initiate Payment Using Only the Network Token
 
@@ -702,4 +702,4 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
 
 #### Response Parameters
 
-Descriptions for the response parameters are present in the [Token Entity parameters table](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/dual-token/#token-entity.md).
+Descriptions for the response parameters are present in the [Token Entity parameters table](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/dual-token.md#token-entity).

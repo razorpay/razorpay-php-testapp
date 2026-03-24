@@ -122,7 +122,7 @@ List order = client.Order.All(orderRequest);
 
 `authorized`_optional_
 : `integer` Possible values:
-  - `1` : Retrieves Orders for which payments have been authorized. Payment and order states differ. Know more about [payment states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/#payment-life-cycle.md).
+  - `1` : Retrieves Orders for which payments have been authorized. Payment and order states differ. Know more about [payment states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments.md#payment-life-cycle).
   - `0` : Retrieves orders for which payments have not been authorized.
 
 `receipt`_optional_
@@ -144,9 +144,9 @@ List order = client.Order.All(orderRequest);
 : `array` Used to retrieve additional information about the payment. Using this parameter will cause a sub-entity to be added to the response. Supported values are:- `payments`: Returns a collection of all payments made for each order.
 - `payments.card`: Returns the card details of each payment made for each order.
 - `transfers`: Returns a collection of transfers created for each order. 
-For more information about creating transfers using orders, refer to the [Route](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md) section of the [Route API](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/route.md) documentation.
+For more information about creating transfers using orders, refer to the [Route](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md) section of the [Route API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/route.md) documentation.
 - `virtual_account`: Returns the virtual account details created for each order. 
-For more information about creating Virtual Accounts, refer to the [Smart Collect API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect.md)
+For more information about creating Virtual Accounts, refer to the [Smart Collect API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect.md)
 
 ### Parameters
 
@@ -166,7 +166,7 @@ For more information about creating Virtual Accounts, refer to the [Smart Collec
 : `integer` The amount pending against the order.
 
 `currency` _mandatory_
-: `string` ISO code for the currency in which you want to accept the payment. The default length is 3 characters. Refer to the [list of supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).  
+: `string` ISO code for the currency in which you want to accept the payment. The default length is 3 characters. Refer to the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).  
 
 `receipt`
 : `string` Receipt number that corresponds to this order. Can have a maximum length of 40 characters and has to be unique.

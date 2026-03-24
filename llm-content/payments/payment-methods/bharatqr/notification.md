@@ -11,7 +11,7 @@ You will be notified of any payments made to your virtual accounts via webhook a
 All payments made using BharatQR towards your account will show up on your Dashboard as well as in the usual payment API response as payments made with receiver `qr_code`. You can view the funds received by a virtual account using the `amount_paid` field in the virtual account entity. This field specifies the total amount (in Paise) that has been paid to the virtual account.
 
 ## Webhooks
-Payments made using this method will also trigger webhooks much like regular payments. Refer our [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) documentation to learn how to use webhooks.
+Payments made using this method will also trigger webhooks much like regular payments. Refer our [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) documentation to learn how to use webhooks.
 
 ### Virtual Account Credited Event
 

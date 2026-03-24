@@ -38,9 +38,9 @@ Sometimes when you try to process a refund request, it fails to get processed an
 
 To check the refund status, navigate to the **Refund Details** pop-up by clicking on the specific **Refund Id** under the **Transactions** → **Refunds** tab.
 
-You can get the ARN/RRN for successfully processed refunds under the [ Dashboard Refunds tab](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/view.md) or using the [Fetch Refund API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds/#fetch-refund-by-id.md). This is a unique reference number that can be used by customers to track refunds.
+You can get the ARN/RRN for successfully processed refunds under the [ Dashboard Refunds tab](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/view.md) or using the [Fetch Refund API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds.md#fetch-refund-by-id). This is a unique reference number that can be used by customers to track refunds.
 
 ### Related Information
-- [About Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/refunds.md)
-- [Normal Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/refunds/normal.md)
-- [Refunds FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/refunds/faqs.md)
+- [About Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/refunds.md)
+- [Normal Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/refunds/normal.md)
+- [Refunds FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/refunds/faqs.md)

@@ -6,7 +6,7 @@ description: Check how to create UPI Payment Link to accept UPI payments.
 
 # UPI Payment Links
 
-You can send the UPI Payment Links as URLs to your customers to accept UPI payments. When the customers click on the URL, a list of UPI apps installed on their mobile device is displayed. Customers can select the UPI app of their choice to complete the payment. You can also use [Standard Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/standard.md) to receive payments using payment methods such as netbanking, cards and UPI.
+You can send the UPI Payment Links as URLs to your customers to accept UPI payments. When the customers click on the URL, a list of UPI apps installed on their mobile device is displayed. Customers can select the UPI app of their choice to complete the payment. You can also use [Standard Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/standard.md) to receive payments using payment methods such as netbanking, cards and UPI.
 
 > **INFO**
 >
@@ -26,11 +26,11 @@ You can send the UPI Payment Links as URLs to your customers to accept UPI payme
 
 ## Supported Features
 
-UPI Payment Links support the following features: [Reminders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/reminders.md) and [Batch Upload](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/batch.md).
+UPI Payment Links support the following features: [Reminders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/reminders.md) and [Batch Upload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/batch.md).
 
 ## Payment Link States
 
-Know about the different [UPI Payment Link states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/states/#upi-payment-links.md).
+Know about the different [UPI Payment Link states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/states.md#upi-payment-links).
 
 ## Create
 
@@ -38,11 +38,11 @@ Know about the different [UPI Payment Link states](@/Applications/MAMP/htdocs/ne
 
   
     Watch this video to see how the UPI Payment Link works when your customers have UPI apps installed on their devices.
-    ![UPI Payment Link - customer interaction with preinstalled upi apps](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-upi-payment.gif.md)
+    ![UPI Payment Link - customer interaction with preinstalled upi apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-upi-payment.gif.md)
   
   
     Watch this video to see how the UPI Payment Link works when your customers do not have UPI apps installed on their devices.
-    ![UPI Payment Link - customer interaction without upi apps](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-upi-pl-no-apps.gif.md)
+    ![UPI Payment Link - customer interaction without upi apps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-upi-pl-no-apps.gif.md)
 
     Your customer can install any UPI app and try again to make the payment.
   
@@ -53,8 +53,8 @@ When customers attempt payment for paid, expired or cancelled Payment Links, the
 
 #### Related Information
 
-- [How Payment Links Work](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/how-it-works.md)
-- [Payment Links States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/states.md)
-- [Standard Payment Links](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/standard.md)
-- [Create a Payment Link](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/create.md)
-- [FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/faqs.md)
+- [How Payment Links Work](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/how-it-works.md)
+- [Payment Links States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/states.md)
+- [Standard Payment Links](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/standard.md)
+- [Create a Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/create.md)
+- [FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/faqs.md)

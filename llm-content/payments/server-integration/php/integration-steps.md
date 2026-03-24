@@ -12,9 +12,9 @@ description: Integrate your PHP-based website with our SDK to start accepting pa
 
 ## Integrate With Razorpay Payment Gateway
 
-Start accepting domestic and international payments from customers on your website using the Razorpay Payment Gateway. Razorpay has developed the Standard Checkout method and manages it. You can configure **payment methods, orders, company logo** and also select **custom colour** based on your convenience. Razorpay supports these [payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods.md) and [ international currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+Start accepting domestic and international payments from customers on your website using the Razorpay Payment Gateway. Razorpay has developed the Standard Checkout method and manages it. You can configure **payment methods, orders, company logo** and also select **custom colour** based on your convenience. Razorpay supports these [payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md) and [ international currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
-![Configure PHP integrated payment gateway checkout based on your requirement](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/web-integration-checkout-new.jpg.md)
+![Configure PHP integrated payment gateway checkout based on your requirement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/web-integration-checkout-new.jpg.md)
 
 Watch this video to know how to integrate Razorpay Payment Gateway on your PHP app.
 
@@ -63,7 +63,7 @@ success.html | A page to redirect users once the payment is successful.
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup). 
 
-- Generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
   - **1. Build Integration**: Integrate with your PHP-based website.
 
@@ -78,7 +78,7 @@ success.html | A page to redirect users once the payment is successful.
 
          Order is an important step in the payment process.
          - An order should be created for every payment.
-         - You can create an order using the [Orders API](#api-sample-code). It is a server-side API call.  Know how to [authenticate](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md) Orders API.  
+         - You can create an order using the [Orders API](#api-sample-code). It is a server-side API call.  Know how to [authenticate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) Orders API.  
          - The `order_id` received in the response should be passed to the checkout. This ties the Order with the payment and secures the request from being tampered.
 
          
@@ -97,7 +97,7 @@ success.html | A page to redirect users once the payment is successful.
 > 
 >          **Handy Tips**
 > 
->          You can capture payments automatically with one-time [Payment Capture setting configuration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/server-integration/php/integration-steps/#3-go-live-checklist.md) on the Dashboard.
+>          You can capture payments automatically with one-time [Payment Capture setting configuration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/server-integration/php/integration-steps.md#3-go-live-checklist) on the Dashboard.
 >          
 
          
@@ -137,13 +137,13 @@ success.html | A page to redirect users once the payment is successful.
              
 ### 1.1.3 Response Parameters
 
-                  Descriptions for the response parameters are present in the [Orders Entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders/entity.md) table.
+                  Descriptions for the response parameters are present in the [Orders Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/entity.md) table.
                  
 
              
 ### 1.1.4 Error Response Parameters
 
-                  The error response parameters are available in the [API Reference Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders#error-response-parameters.md).
+                  The error response parameters are available in the [API Reference Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md#error-response-parameters).
                  
 
          
@@ -256,11 +256,11 @@ success.html | A page to redirect users once the payment is successful.
 > 
 >                   - If you want to use this as your final code, follow the steps given below:
 > 
->                      1. Edit the `[KEY_ID]` inside the html file. Use the test keys while testing your application.  Know how to [Generate API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md).  
+>                      1. Edit the `[KEY_ID]` inside the html file. Use the test keys while testing your application.  Know how to [Generate API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).  
 >                      2. Edit the `[KEY_ID]` and `[KEY_SECRET]` in **config.php**. 
 
 > 
->                   - Test your integration using these [test cards](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/server-integration/php/integration-steps/#2-test-integration.md).
+>                   - Test your integration using these [test cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/server-integration/php/integration-steps.md#2-test-integration).
 > 
 >                   
  
@@ -345,7 +345,7 @@ success.html | A page to redirect users once the payment is successful.
 
                   Multiple payment methods are available on Razorpay Standard Checkout.
                   - The payment methods are **fixed** and cannot be changed.
-                  - You can configure the order or make certain payment methods prominent. Know more about configuring payment methods. Know more about [configuring payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods.md).
+                  - You can configure the order or make certain payment methods prominent. Know more about configuring payment methods. Know more about [configuring payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods.md).
                  
 
          
@@ -371,7 +371,7 @@ success.html | A page to redirect users once the payment is successful.
               ---
               `razorpay_payment_id` | Returned during checkout.
               ---
-              `key_secret` | Available in your server. The `key_secret` that was generated from the  [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#generate-api-keys.md).  
+              `key_secret` | Available in your server. The `key_secret` that was generated from the  [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).  
               
           2. Use the SHA256 algorithm, the `razorpay_payment_id` and the `order_id` to construct an HMAC hex digest as shown below:
 
@@ -403,7 +403,7 @@ success.html | A page to redirect users once the payment is successful.
 > 
 >          **Handy Tips**
 > 
->          On the Dashboard, ensure that the payment status is `captured`. Refer to the payment capture settings page to know how to [capture payments automatically](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings.md).
+>          On the Dashboard, ensure that the payment status is `captured`. Refer to the payment capture settings page to know how to [capture payments automatically](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md).
 >          
 
          You can track the payment status in three ways:
@@ -414,12 +414,12 @@ success.html | A page to redirect users once the payment is successful.
                  1. Log in to the Dashboard and navigate to **Transactions** → **Payments**.
                  2. Check if a **Payment Id** has been generated and note the status. In case of a successful payment, the status is marked as **Captured**. 
                  
-                 ![Check if the payment id is generated and the status is captured](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/testpayment.jpg.md)
+                 ![Check if the payment id is generated and the status is captured](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/testpayment.jpg.md)
 
                  
              
              
-                 You can use Razorpay webhooks to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL. Know how to [set up webhooks.](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md)
+                 You can use Razorpay webhooks to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL. Know how to [set up webhooks.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)
 
                  #### Example
                  If you have subscribed to the `order.paid` webhook event, you will receive a notification every time a customer pays you for an order.
@@ -436,7 +436,7 @@ success.html | A page to redirect users once the payment is successful.
                  ```
              
              
-                 [Poll Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md) to check the payment status.
+                 [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments) to check the payment status.
              
          
         
@@ -500,7 +500,7 @@ To generate API Keys in Live Mode on your Razorpay Dashboard:
 
 ## Integrate With Other Razorpay Products
 
-Razorpay offers a range of [payment products](@/Applications/MAMP/htdocs/new-docs/llm-content/payments.md) to meet your business requirements. Visit our [GitHub repository](https://github.com/razorpay/razorpay-php) for sample codes.
+Razorpay offers a range of [payment products](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md) to meet your business requirements. Visit our [GitHub repository](https://github.com/razorpay/razorpay-php) for sample codes.
 
 #### Initialisation
 
@@ -512,4 +512,4 @@ $api = new Api($api_key, $api_secret);
 
 ### Related Information
 
-[Troubleshooting and FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/server-integration/php/troubleshooting-faqs.md)
+[Troubleshooting and FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/server-integration/php/troubleshooting-faqs.md)

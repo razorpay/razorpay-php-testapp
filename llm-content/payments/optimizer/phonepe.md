@@ -36,10 +36,10 @@ Follow the steps below to onboard PhonePe as a payment provider.
             2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
             3. In the top-right section, click **Add Provider**.
             4. Select **PhonePe** in the list of gateways available and enter the provider name and description. Click **Next**.
-                ![Add Provider Name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/phoneprovider1-name.jpg.md)
+                ![Add Provider Name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/phoneprovider1-name.jpg.md)
             5. Enter your **Merchant Id**, **Key Index** and **Salt key**.
             6. Select the payment methods you want to enable for PhonePe and click **Submit**. 
-                ![Add Salt Key payten](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-key-salt-phonepe.jpg.md)
+                ![Add Salt Key payten](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-key-salt-phonepe.jpg.md)
             You have successfully added **PhonePe** as a payment provider on Optimizer.
         
 
@@ -81,11 +81,11 @@ Before routing all traffic or some traffic to a new gateway via Optimizer, the f
             - In **Parameter** field, select **Amount (In Rupees)**.
             - In **Select Connection** field, select **Less Than**.
             - In **Enter Amount** field, enter the value 2 and click **Next**.
-             ![Add Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-rule.jpg.md)
+             ![Add Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-rule.jpg.md)
         5. Enter the value 100 in the **Route field**, select **PhonePe** in the **Payment Via** field, and click **Next**.
-             ![PhonePe target Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pinelabs-target-provider.jpg.md)
+             ![PhonePe target Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pinelabs-target-provider.jpg.md)
         6. Click **Publish Rule**.
-             ![PhonePe Publish Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pinelabs-publish-rule.jpg.md)
+             ![PhonePe Publish Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pinelabs-publish-rule.jpg.md)
        
    
 

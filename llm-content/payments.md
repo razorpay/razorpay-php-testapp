@@ -79,16 +79,16 @@ Razorpay enables businesses to accept, process, and disburse payments seamlessly
     
     
       #### Razorpay POS
-     ![Accept offline payments with Razorpay POS](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pos.jpg.md)
+     ![Accept offline payments with Razorpay POS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pos.jpg.md)
      
-     Accept in-person payments at physical locations with [Razorpay POS](@/Applications/MAMP/htdocs/new-docs/llm-content/pos.md).
+     Accept in-person payments at physical locations with [Razorpay POS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos.md).
     
     
 
     #### Subscriptions
 
-        ![Accept recurring payments with Razorpay Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/plan-subscriptions.jpg.md)
-        Automate recurring billing with [Razorpay Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md).
+        ![Accept recurring payments with Razorpay Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/plan-subscriptions.jpg.md)
+        Automate recurring billing with [Razorpay Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md).
 
     
 
@@ -144,8 +144,8 @@ Razorpay offers a wide range of integrations as given below:
 
 ### Related Information
 
-- [Quickstart Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/quickstart.md)
+- [Quickstart Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/quickstart.md)
 
-- [Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway.md) 
+- [Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md) 
 
-- [How Payment Gateway Works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/how-it-works.md)
+- [How Payment Gateway Works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md)

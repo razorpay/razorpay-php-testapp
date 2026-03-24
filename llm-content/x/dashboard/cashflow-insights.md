@@ -24,11 +24,11 @@ Cashflow Insights provide a summary of the total cash inflow and outflow in your
 ### View Cashflow Insights
 1. Log in to the RazorpayX Dashboard.
 2. Click **Insights** on the left navigation to go to the Insights home page.
-    ![Cashflow Insights](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cashflowhomepage.jpg.md)
+    ![Cashflow Insights](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cashflowhomepage.jpg.md)
 3. Under **Overview**, you can see the total Payouts volume, number of Payouts, Inflow volume and number of Inflows of all your accounts put together in the past 30 days (default period).
     - You can also view the total account balance towards the right side of **Overview**.
 4. To view the cashflow details of individual accounts, select the account of your choice from the **Select Account** dropdown list.  You can choose so to see the cashflow of the past 7/15/90 days also, by selecting the required duration from the dropdown next to the **Select Account** dropdown list.
-    ![Cashflow Individual Account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cashflow2.jpg.md)
+    ![Cashflow Individual Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cashflow2.jpg.md)
 
 > **WARN**
 >
@@ -40,6 +40,6 @@ Cashflow Insights provide a summary of the total cash inflow and outflow in your
 
 ### Related Information
 
-- [About RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md)
+- [About RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md)
 - [Sign up for a RazorpayX account](https://x.razorpay.com/auth/signup)
 - [Open a Current Account](https://razorpay.com/x/current-accounts/)

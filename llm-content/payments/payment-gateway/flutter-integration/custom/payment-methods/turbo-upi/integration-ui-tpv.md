@@ -5,14 +5,14 @@ description: Know how Razorpay performs Third-Party Validation (TPV) of investor
 
 # Integrate Turbo UPI UI with TPV
 
-Third-party validation (TPV) of bank accounts is mandatory for businesses in the BFSI (Banking, Financial Services and Insurance) sector dealing with Securities, Brokering and Mutual Funds. You can accept customer payments by integrating with the Turbo UPI UI with TPV SDK. Know more about [How TPV works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/#how-it-works.md).
+Third-party validation (TPV) of bank accounts is mandatory for businesses in the BFSI (Banking, Financial Services and Insurance) sector dealing with Securities, Brokering and Mutual Funds. You can accept customer payments by integrating with the Turbo UPI UI with TPV SDK. Know more about [How TPV works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation.md#how-it-works).
 
     
 ### Prerequisites
 
          1. Contact our [integrations team](mailto:integrations@razorpay.com) to get your mobile number, app, and GitHub account whitelisted to get access to the `https://github.com/upi-turbo/razorpay-turbo-flutter` - sample app repository. 
 
-         2. Integrate with [Razorpay Flutter Custom Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/custom/build-integration.md).
+         2. Integrate with [Razorpay Flutter Custom Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/custom/build-integration.md).
 
          3. Update the `pubspec.yaml` with the following dependencies:
 
@@ -39,7 +39,7 @@ Third-party validation (TPV) of bank accounts is mandatory for businesses in the
 >          - `minSDKversion` for using Turbo UPI is currently for Android is 23 and iOS is 12.0 and cannot be overwritten.
 >          - API Key Usage for Different Environments:
 >             - Use the `rzp_test_8UzRYt0d70Ntgz` API key id for testing on the UAT environment.
->             - Use the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+>             - Use the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.
 >          - As a compliance requirement, you need to get approval from Google for **READ_SMS** permission. Refer [to the Google article](https://support.google.com/googleplay/android-developer/answer/10208820?hl=en) for more details.
 > 
 >          
@@ -711,7 +711,7 @@ The SDKs provide access to exposed models for seamless integration.
 
          
 
-         [Refer to the list of possible error reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/custom/payment-methods/turbo-upi/error-codes.md).
+         [Refer to the list of possible error reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/custom/payment-methods/turbo-upi/error-codes.md).
         
 
     
@@ -769,4 +769,4 @@ Complete these steps to take your integration live:
 >     Contact our [integrations team](mailto:integrations@razorpay.com) to get your mobile number and app whitelisted.    
 >     
 
-- Replace the UAT credential with the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+- Replace the UAT credential with the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.

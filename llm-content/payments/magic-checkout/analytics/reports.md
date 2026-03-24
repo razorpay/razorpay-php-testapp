@@ -17,27 +17,27 @@ To generate reports:
 
 1. Log in to the [Dashboard](https://dashboard.razorpay.com/app) and navigate to **Reports**.
 2. In the **Overview** section, click **Download Report**.
-        ![Download Magic Checkout reports](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-reports-download.jpg.md)
+        ![Download Magic Checkout reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-reports-download.jpg.md)
 3. Configure report settings:
     1. Select the report from the drop-down list.
         - **Magic Checkout Orders Report** for completed orders only.
         - **Magic Checkout Checkout Report** for completed orders and abandoned checkouts.
     2. Enter a file name *(optional)*.
     3. 3. Select the file format. Only `CSV` format is supported for Magic Checkout reports.
-        ![Configure report settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-reports-download-config.jpg.md)
+        ![Configure report settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-reports-download-config.jpg.md)
     4. Choose the duration from the drop-down or toggle **Custom** to set a specific date range.
     5. To receive the report via email, toggle **Yes** in the **Do you want this report in an email?** section and enter email addresses for all recipients.
 4. Click **Start Download**.
-    ![Download report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-reports-download-config-start.jpg.md)
+    ![Download report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-reports-download-config-start.jpg.md)
 5. Navigate to the **Downloads** section to track the download status and click the download icon to download the report.
-    ![View and download Magic Checkout reports from Downloads section](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-reports-download-view.jpg.md)
+    ![View and download Magic Checkout reports from Downloads section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-reports-download-view.jpg.md)
 
 > **INFO**
 >
 > 
 > **Schedule Reports**
 > 
-> You can also schedule reports to receive them automatically at regular intervals. This ensures you get timely data for consistent decision-making without manual downloads. Know more about how to [schedule reports](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/reports/#schedule-reports.md).
+> You can also schedule reports to receive them automatically at regular intervals. This ensures you get timely data for consistent decision-making without manual downloads. Know more about how to [schedule reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/reports.md#schedule-reports).
 > 
 
 ## Data Fields
@@ -60,13 +60,13 @@ The reports contain the following data fields:
          ---
          `order_amount` | Total order amount in the smallest currency unit - paise for INR (for example: `12000` is ₹120).
          ---
-         `order_status` | Status of the order. Know more about [Order Status](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders/#order-states.md).
+         `order_status` | Status of the order. Know more about [Order Status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders.md#order-states).
          ---
-         `payment_method` | Code of the payment method used. Know more about [Razorpay Payment Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods.md).
+         `payment_method` | Code of the payment method used. Know more about [Razorpay Payment Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md).
          ---
          `payment_amount` | Amount paid through the payment method in smallest currency unit.
          ---
-         `payment_status` | Status of payment. Know more about [Payment Status](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/#payment-life-cycle.md).
+         `payment_status` | Status of payment. Know more about [Payment Status](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments.md#payment-life-cycle).
          ---
          `payment_currency` | Currency code for the payment.
          ---

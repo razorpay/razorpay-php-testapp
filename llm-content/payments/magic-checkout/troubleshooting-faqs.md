@@ -77,7 +77,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 9. Is Magic Checkout available on plugins?
 
-          At present, Magic Checkout is available only on [WooCommerce](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce.md), [Shopify](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify.md) and Magento. 
+          At present, Magic Checkout is available only on [WooCommerce](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md), [Shopify](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify.md) and Magento. 
         
 
     
@@ -101,7 +101,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 13. How do I customise the Checkout appearance on my store?
 
-          You can customise the look and feel of your checkout and rearrange payment methods or instruments to suit your requirements. Refer to the [checkout settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/checkout-styling.md). 
+          You can customise the look and feel of your checkout and rearrange payment methods or instruments to suit your requirements. Refer to the [checkout settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-styling.md). 
         
 
     
@@ -121,7 +121,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 2. How do I enable and integrate Magic Checkout on my custom website?
 
-        Follow these [integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/web/#integration-steps.md) to set up Magic Checkout on your custom website.
+        Follow these [integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/web.md#integration-steps) to set up Magic Checkout on your custom website.
         
         
 > **INFO**
@@ -149,7 +149,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 5. Can I create payment offers on checkout for my customers?
 
-          Yes, you can provide different types of payment offers to customers on checkout. Know more about how to [create offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers.md).
+          Yes, you can provide different types of payment offers to customers on checkout. Know more about how to [create offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers.md).
         
 
     
@@ -167,7 +167,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 8. Can I configure branding-related settings for Checkout?
 
-          Yes, you can customise Razorpay Checkout to reflect your brand colors and logos. Know more about how to [update brand name, theme color and company logo](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/checkout-styling.md) on checkout.
+          Yes, you can customise Razorpay Checkout to reflect your brand colors and logos. Know more about how to [update brand name, theme color and company logo](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-styling.md) on checkout.
         
 
     
@@ -179,13 +179,13 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 10. What should I do if my domain's firewall or cloud configuration is blocking requests to api.razorpay.com?
 
-          If your domain’s firewall or cloud configuration is blocking requests to api.razorpay.com, you need to whitelist our public IPs. Know more about how to [whitelist IPs](@/Applications/MAMP/htdocs/new-docs/llm-content/security/whitelists/#api-ips.md). 
+          If your domain’s firewall or cloud configuration is blocking requests to api.razorpay.com, you need to whitelist our public IPs. Know more about how to [whitelist IPs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/whitelists.md#api-ips). 
         
 
     
 ### 11. How can I initiate a refund to my customer?
 
-          You can initiate refunds using our [Refunds APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds.md).
+          You can initiate refunds using our [Refunds APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds.md).
         
 
 ## WooCommerce
@@ -195,8 +195,8 @@ description: Troubleshoot common errors and find answers to frequently asked que
 
          Follow the steps given below if you are integrating with our plugin for the first time:
          1. [Create a Razorpay account](https://dashboard.razorpay.com/).
-         2. [Generate the API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard. Navigate to **Account & Settings** → **API Keys** (under **Website and app settings**).
-         3. [Enable features on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/#step-1-enable-features-on-razorpay-dashboard.md).
+         2. [Generate the API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard. Navigate to **Account & Settings** → **API Keys** (under **Website and app settings**).
+         3. [Enable features on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md#step-1-enable-features-on-razorpay-dashboard).
          4. Install Razorpay Plugin: With the release of version 4.1.0, you can install the plugin directly from the [WordPress Plugin Directory](https://wordpress.org/plugins/woo-razorpay/).
             
 > **INFO**
@@ -207,9 +207,9 @@ description: Troubleshoot common errors and find answers to frequently asked que
 >             Ensure you have the PHP-curl extension installed to make network requests.
 >             
 
-         5. [Enable features on WordPress Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/#step-2-enable-features-on-wordpress-dashboard.md). In addition to the other steps, scroll down to **Razorpay** under the **Payments** tab and click **Manage** to edit the settings.
+         5. [Enable features on WordPress Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md#step-2-enable-features-on-wordpress-dashboard). In addition to the other steps, scroll down to **Razorpay** under the **Payments** tab and click **Manage** to edit the settings.
             - Enable the **Payment Method**, name it Credit Card/Debit Card/Internet Banking (Displayed to your customer on the payment page).
-            - Add in your `[KEY_ID]` and `[KEY_SECRET]` generated from the [Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+            - Add in your `[KEY_ID]` and `[KEY_SECRET]` generated from the [Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
             - Set **Payment Action** to **Authorize and Capture** to auto-capture payments. If you want to capture payments manually from the Dashboard after manual verification then set the Payment Action to **Authorize**.
                 ![](/docs/assets/images/magic-checkout-dashboard.jpg)
 
@@ -223,7 +223,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 > 
 >             **Handy Tips**
 > 
->             [Disable the Test mode](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/#step-3-accept-live-payments:~:text=use%20Native%20Checkout.-,Activate%20Test%20Mode,-%3A%20Enable%20Test%20mode.md) to accept live payments.
+>             [Disable the Test mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md#step-3-accept-live-payments:~:text=use%20Native%20Checkout.-,Activate%20Test%20Mode,-%3A%20Enable%20Test%20mode) to accept live payments.
 >             
 
         
@@ -231,7 +231,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 2. How do I enable and integrate Magic Checkout on my WooCommerce website?
 
-         Follow these [integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/woocommerce/#integration-steps.md) to set up Magic Checkout on your WooCommerce website. If you are integrating with our plugin for the first time, refer to these [integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/troubleshooting-faqs/#1-i-am-integrating-with-razorpay-plugin-for.md).
+         Follow these [integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/woocommerce.md#integration-steps) to set up Magic Checkout on your WooCommerce website. If you are integrating with our plugin for the first time, refer to these [integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/troubleshooting-faqs.md#1-i-am-integrating-with-razorpay-plugin-for).
          
          
 > **INFO**
@@ -294,7 +294,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 > 
 >             **Handy Tips**
 > 
->             If you have enabled the COD option for your customers, you should [manually subscribe](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/troubleshooting-faqs/#3-my-webhooks-are-not-auto-configured-since-i.md) to the `payment.pending` event.
+>             If you have enabled the COD option for your customers, you should [manually subscribe](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/troubleshooting-faqs.md#3-my-webhooks-are-not-auto-configured-since-i) to the `payment.pending` event.
 >             
 
             ![](/docs/assets/images/plugin-webhook-faq.jpg)
@@ -306,11 +306,11 @@ description: Troubleshoot common errors and find answers to frequently asked que
          Yes, you can disable Magic Checkout. Once you disable Magic Checkout, your website/app will automatically fall back to your default Woocommerce Checkout experience. Follow the steps given below to disable Magic Checkout:
          1. Log in to the [WordPress account](https://wordpress.com/log-in) and navigate to **Woocommerce** → **Settings**.
          2. Click **Payments**.
-            ![Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-smart.jpg.md)
+            ![Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-smart.jpg.md)
          3. In the Payments tab, scroll down to **Razorpay** and click **Manage** to edit the settings.
-            ![edit](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-razorpay-edit.jpg.md)
+            ![edit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-razorpay-edit.jpg.md)
          4. Scroll down to the **Activate Magic Checkout** field and unselect the check box to deactivate it.
-            ![Disable](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-checkout-woocommerce-disable.jpg.md)
+            ![Disable](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-checkout-woocommerce-disable.jpg.md)
          5. Click **Save Changes**.
         
 
@@ -319,7 +319,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 1. How do I enable and integrate Magic Checkout on my Shopify store?
 
-        To enable Magic Checkout on your Shopify store, fill in the [form](https://razorpay.typeform.com/to/peQh9Pwx#name=xxxxx) and share the required details. Once you share the details, the feature will be enabled on your account within 48 working hours. After activation, follow these [integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/#integration-steps.md) to integrate Magic Checkout on your Shopify store.
+        To enable Magic Checkout on your Shopify store, fill in the [form](https://razorpay.typeform.com/to/peQh9Pwx#name=xxxxx) and share the required details. Once you share the details, the feature will be enabled on your account within 48 working hours. After activation, follow these [integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify.md#integration-steps) to integrate Magic Checkout on your Shopify store.
         
 
     
@@ -343,7 +343,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 5. How do I set up coupon codes with Magic Checkout on Shopify?
 
-        Follow these [steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#coupons.md) to configure coupon codes on your [Razorpay Dashboard](https://dashboard.razorpay.com/app/magic/coupons) for your Shopify store.
+        Follow these [steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#coupons) to configure coupon codes on your [Razorpay Dashboard](https://dashboard.razorpay.com/app/magic/coupons) for your Shopify store.
         
 
     
@@ -425,7 +425,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 ### 12. What is the unavailable coupon feature?
 
           The coupon will appear in a disabled state when users do not meet the cart or eligibility conditions When you enable **Display this coupon at checkout** option and then select **Enable coupon as an unavailable coupon**. Once conditions are met, the coupon automatically becomes available for use.
-             ![Enter the coupon code and description](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-shopify-coupon-code.jpg.md)
+             ![Enter the coupon code and description](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-shopify-coupon-code.jpg.md)
         
 
     
@@ -457,13 +457,13 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 15. How is the refund processed if a customer returns a product paid partially via COD and partially online?
 
-         The refund process depends on the your refund policy. If approved, the refund will be processed as a standard refund, similar to the existing refund options that Razorpay offers. Know more about [refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds.md).
+         The refund process depends on the your refund policy. If approved, the refund will be processed as a standard refund, similar to the existing refund options that Razorpay offers. Know more about [refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md).
         
 
     
 ### 16. How do I set up shipping profiles on Razorpay Dashboard?
 
-          You can configure shipping rates at product, zone and method levels for your customers. Follow these [steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#method-1-razorpay-dashboard-1.md) to set up shipping profiles on the [Razorpay Dashboard](https://dashboard.razorpay.com/app/magic/settings/shipping-setup).
+          You can configure shipping rates at product, zone and method levels for your customers. Follow these [steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#method-1-razorpay-dashboard-1) to set up shipping profiles on the [Razorpay Dashboard](https://dashboard.razorpay.com/app/magic/settings/shipping-setup).
         
 
     
@@ -506,25 +506,25 @@ description: Troubleshoot common errors and find answers to frequently asked que
          - After a customer adds their first item to the cart.
          - During checkout (with the option to make login mandatory).
 
-         Know more about [where you can display the login screen](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/login-with-razorpay/#where-should-we-display-login-screen.md).
+         Know more about [where you can display the login screen](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/login-with-razorpay.md#where-should-we-display-login-screen).
         
 
     
 ### 4. Can I customise how consent is collected from users?
 
-         Yes, you can customise how consent is collected from users. Know more about various options [ to seek consent from your customers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/login-with-razorpay/#ask-consent-from-customer-for-marketing-communication.md).
+         Yes, you can customise how consent is collected from users. Know more about various options [ to seek consent from your customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/login-with-razorpay.md#ask-consent-from-customer-for-marketing-communication).
         
 
     
 ### 5. Can I customise how the login widget looks?
 
-         Yes, you can customise the heading, emojis, background and button colours and fonts to match your brand. Know more about [customisation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/login-with-razorpay/#customise.md)
+         Yes, you can customise the heading, emojis, background and button colours and fonts to match your brand. Know more about [customisation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/login-with-razorpay.md#customise)
         
 
     
 ### 6. How do login rewards work?
 
-         Login rewards are incentives such as coupons offered to users who log in via the widget. You must create the coupon using [ Razorpay Coupon Engine](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/shopify/configuration/#coupons.md) and raise a request with our [support team](https://razorpay.com/support/#request) to get the feature enabled. 
+         Login rewards are incentives such as coupons offered to users who log in via the widget. You must create the coupon using [ Razorpay Coupon Engine](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/shopify/configuration.md#coupons) and raise a request with our [support team](https://razorpay.com/support/#request) to get the feature enabled. 
         
 
     

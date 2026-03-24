@@ -7,7 +7,7 @@ description: Create an Instant Refund using Razorpay Refunds API.
 
 ## Create an Instant Refund
 
-Use this endpoint to process refunds instantaneously to your customers. The instant refund is enabled by default for your account. You should set the refund speed to `optimum` when creating a refund request to ensure refunds are processed instantly. We will consider the default speed if you do not specify the same during the refund request. Know more about [setting the default speed](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/refund-speed.md) from the Dashboard.
+Use this endpoint to process refunds instantaneously to your customers. The instant refund is enabled by default for your account. You should set the refund speed to `optimum` when creating a refund request to ensure refunds are processed instantly. We will consider the default speed if you do not specify the same during the refund request. Know more about [setting the default speed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/refund-speed.md) from the Dashboard.
 
 - Refunds will be processed at an optimal speed based on Razorpay's internal fund transfer logic.
 -  If the refund can be processed instantly, Razorpay will do so irrespective of the payment method used to make the payment.
@@ -105,7 +105,7 @@ Once the refund moves to the `processed` state, the refund response displays the
  For example, if the refund value is  it will be `3000`.
 
 `currency`
-: `string` The currency of payment amount for which the refund is initiated. Check the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+: `string` The currency of payment amount for which the refund is initiated. Check the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
 
 `payment_id`
 : `string` The unique identifier of the payment for which a refund is initiated. For example, `pay_FgR9UMzgmKDJRi`.

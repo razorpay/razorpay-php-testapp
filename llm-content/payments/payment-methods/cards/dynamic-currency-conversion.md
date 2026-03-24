@@ -13,7 +13,7 @@ Razorpay Dynamic Currency Conversion (DCC) feature is available on Standard, Cus
 > **Watch Out!**
 > 
 > - Dynamic Currency Conversion transactions do not support partial payments.
-> - Dynamic Currency Conversion (DCC) is not available for [Razorpay Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer.md). 
+> - Dynamic Currency Conversion (DCC) is not available for [Razorpay Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer.md). 
 > 
 
 ## Advantages  
@@ -33,5 +33,5 @@ Razorpay Dynamic Currency Conversion (DCC) feature is available on Standard, Cus
 
 ### Related Information
 
-- [DCC Custom Checkout Payment Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion/custom-integration/#dcc-custom-checkout-payment-flow.md)
-- [DCC S2S Payment Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion/s2s-integration/#dcc-s2s-payment-flow.md)
+- [DCC Custom Checkout Payment Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion/custom-integration.md#dcc-custom-checkout-payment-flow)
+- [DCC S2S Payment Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/dynamic-currency-conversion/s2s-integration.md#dcc-s2s-payment-flow)

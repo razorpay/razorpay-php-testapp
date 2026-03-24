@@ -13,7 +13,7 @@ You can issue refunds to your customers using the Dashboard or APIs. Refunds are
 > 
 > **Customer Looking for Refund**
 > 
-> If you are a customer looking for a refund, know about [customer refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers/customer-refunds.md).
+> If you are a customer looking for a refund, know about [customer refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers/customer-refunds.md).
 > 
 
 ## Full and Partial Refunds
@@ -46,10 +46,10 @@ To issue refunds:
 
 ### Issue Refunds Using API
 
-- To create a normal refund, use the [Create a Normal Refund API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/refunds/create-normal.md).
+- To create a normal refund, use the [Create a Normal Refund API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds/create-normal.md).
 
 ### Related Information
 
-- [About Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/refunds.md)
-- [Normal Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/refunds/normal.md)
-- [Refunds FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/refunds/faqs.md)
+- [About Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/refunds.md)
+- [Normal Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/refunds/normal.md)
+- [Refunds FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/refunds/faqs.md)

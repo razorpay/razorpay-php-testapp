@@ -7,7 +7,7 @@ description: According to NPCI guidelines, the UPI Collect flow is deprecated. U
 
 According to NPCI guidelines, the UPI Collect flow is being deprecated effective 28 February 2026 to align with the latest ecosystem compliance standards and ensure higher transaction success rates. Customers can no longer make payments by manually entering VPA/UPI id/mobile numbers.
 
-- If you are a new customer, use [UPI Intent](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/intent.md). 
+- If you are a new customer, use [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/intent.md). 
 - If you are an existing customer, you must migrate to UPI Intent or UPI QR code to continue accepting UPI payments.
 
 #### Exemptions
@@ -69,7 +69,7 @@ Follow the platform-specific implementation details below:
          - `https://api.razorpay.com/v1/orders`
          - `https://api.razorpay.com/v1/payments/create/upi`
 
-         Refer to the [UPI Intent documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/intent.md) for implementation details.
+         Refer to the [UPI Intent documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/intent.md) for implementation details.
         
 
     
@@ -82,4 +82,4 @@ Follow the platform-specific implementation details below:
             - Embed the URL into a QR code that you generate on your end, or
             - Use the returned deeplink directly to initiate the UPI Intent flow.
 
-         Refer to the [UPI Intent documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/intent.md) for implementation details.
+         Refer to the [UPI Intent documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/intent.md) for implementation details.

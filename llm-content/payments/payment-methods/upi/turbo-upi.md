@@ -7,7 +7,7 @@ description: Turbo UPI is a 1-step payment experience to enable seamless in-app 
 
 Turbo UPI by Razorpay enables businesses to accept UPI payments from their customers within their mobile application. Customers no longer need to switch to third-party UPI apps to complete payments. This helps increase payment success rates and improves customer experience. Given below is a sample UI representation: 
 
-![Turbo UPI Standard Checkout Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-flow.jpg.md)
+![Turbo UPI Standard Checkout Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-flow.jpg.md)
 
     
 ### On-Demand Feature - Raise a Request
@@ -23,7 +23,7 @@ Turbo UPI by Razorpay enables businesses to accept UPI payments from their custo
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -74,22 +74,22 @@ Turbo UPI is helpful for businesses with high-frequency transactions.
 ## Turbo UPI Flows 
 
 Turbo UPI has three flows: 
-- [Onboarding Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/turbo-upi/#onboarding-flow.md)
-- [Transactional Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/turbo-upi/#transactional-flow.md)
-- [ Non-Transactional Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/turbo-upi/#non-transactional-flow.md)
+- [Onboarding Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/turbo-upi.md#onboarding-flow)
+- [Transactional Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/turbo-upi.md#transactional-flow)
+- [ Non-Transactional Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/turbo-upi.md#non-transactional-flow)
 
 ## Onboarding Flow
 
 Follow the steps to onboard customers:
 
 1. The customer navigates to your app's checkout screen and taps **+Link bank account**.
-    ![Razorpay Turbo UPI- Add bank account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-std-add-bank.jpg.md)
+    ![Razorpay Turbo UPI- Add bank account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-std-add-bank.jpg.md)
 2. The customer needs to give permission so that we can validate the phone number with the bank.
-    ![Razorpay Turbo UPI- Allow Phone Permission](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-std-allow-phone.jpg.md)
+    ![Razorpay Turbo UPI- Allow Phone Permission](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-std-allow-phone.jpg.md)
 3. The customer is shown a list of banks from which they can select one.
-    ![Razorpay Turbo UPI- Bank Selection](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-custom-select-bank-account.png.md)
+    ![Razorpay Turbo UPI- Bank Selection](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-custom-select-bank-account.png.md)
 4. This adds the customer's bank account. After the onboarding is complete the customer can also set up their UPI PIN. 
-    ![Razorpay Turbo UPI- Bank Account Linked](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-in-app-acc-linked.jpg.md)
+    ![Razorpay Turbo UPI- Bank Account Linked](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-in-app-acc-linked.jpg.md)
 5. The customer can complete the payment using the newly added Bank account.
 
 > **INFO**
@@ -116,16 +116,16 @@ The following methods should also be integrated along with Turbo UPI:
 - **Reset UPI PIN**: Customer can reset their UPI PIN for the bank account linked to your app.
 - **Change UPI PIN**: Customer can change their UPI PIN for the bank account linked to your app.
 
-![View the non-transactional flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-non-transactional.jpg.md)
+![View the non-transactional flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-non-transactional.jpg.md)
 
 ## Integrate Turbo UPI
 
 Perform the following steps to integrate Turbo UPI:
 
     
-     - [Android Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/payment-methods/turbo-upi.md)
-     - [iOS Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard/payment-methods/turbo-upi.md)
+     - [Android Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/payment-methods/turbo-upi.md)
+     - [iOS Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard/payment-methods/turbo-upi.md)
     
     
-     - [Android Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi.md)
-     - [iOS Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi.md)
+     - [Android Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi.md)
+     - [iOS Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/custom/payment-methods/turbo-upi.md)

@@ -14,7 +14,7 @@ There could be situations when customers request a refund of the payments made f
 > 
 > **Customer Looking for Refund**
 > 
-> If you are a customer looking for a refund, know about [customer refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers/customer-refunds.md).
+> If you are a customer looking for a refund, know about [customer refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers/customer-refunds.md).
 > 
 
 ## How Refunds Work
@@ -71,11 +71,11 @@ A payment moves to the `refunded` state only when the entire amount is refunded 
          3. Select the payment for which refund is requested. The payment should be in the `captured` state.
          4. On the **Refund Payment** page, in the **amount** field, enter an amount lesser than the captured amount for issuing a partial refund.
          By default, the entire amount will be refunded.
-             ![Refund Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-refund-screen.jpg.md)
+             ![Refund Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-refund-screen.jpg.md)
 
          5. Click the **Issue Full Refund** or **Issue Partial Refund** button, depending on the amount to be refunded.
          6. Once the refund is processed successfully the status of the refund moves to `Refunded`, if not you can view the details of the gateway failure reason along with error code.
-             ![Optimizer Refund details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-refund-gateway-details.jpg.md)
+             ![Optimizer Refund details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-refund-gateway-details.jpg.md)
         
 
 ### View Refunds Details
@@ -86,4 +86,4 @@ A payment moves to the `refunded` state only when the entire amount is refunded 
          1. Log in to the Dashboard.
          2. Navigate to **Transactions** → **Refunds**.
          3. Click a **Refund Id** to view details of the refund.
-            ![Refund Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-refund-view.jpg.md)
+            ![Refund Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-refund-view.jpg.md)

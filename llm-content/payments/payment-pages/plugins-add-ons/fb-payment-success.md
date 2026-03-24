@@ -33,5 +33,5 @@ Every time a customer successfully completes a payment, they are directed to the
 
 ### Related Information
 
-- [Add Facebook Pixel to Payment Page](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/plugins-add-ons/fb-pixel.md)
-- [Add Google Analytics Tracking ID](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/plugins-add-ons/google-analytics.md)
+- [Add Facebook Pixel to Payment Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/plugins-add-ons/fb-pixel.md)
+- [Add Google Analytics Tracking ID](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/plugins-add-ons/google-analytics.md)

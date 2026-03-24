@@ -365,7 +365,7 @@ import razorpayclient = razorpay.Client(auth=("key", "secret"))resp = client.pay
  For example, if the amount to be charged is , then pass `29900` in this field.
 
 `currency` _mandatory_
-: `string` Currency code for the currency in which you want to accept the payment. For example, `INR`. Refer to the [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md) for a list of supported international currencies.
+: `string` Currency code for the currency in which you want to accept the payment. For example, `INR`. Refer to the [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies) for a list of supported international currencies.
 
 `order_id` _mandatory_
 : `string` Unique identifier of the Order created at your server side.
@@ -396,7 +396,7 @@ import razorpayclient = razorpay.Client(auth=("key", "secret"))resp = client.pay
 > 
 > 	**Deprecation Notice**
 > 
-> 	UPI Collect is deprecated effective 28 February 2026. This tab is applicable only for exempted businesses. If you are not covered by the exemptions, refer to the [ migration documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/announcements/upi-collect-migration/s2s-integration.md) to switch to UPI Intent.
+> 	UPI Collect is deprecated effective 28 February 2026. This tab is applicable only for exempted businesses. If you are not covered by the exemptions, refer to the [ migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/s2s-integration.md) to switch to UPI Intent.
 > 	
 
 `card`
@@ -448,7 +448,7 @@ import razorpayclient = razorpay.Client(auth=("key", "secret"))resp = client.pay
 : `string` Wallet code for the wallet used for the payment. Required if the method is `wallet`.
 
 `notes` _optional_
-: `object` Key-value object used for passing tracking info. Refer to [notes](@/Applications/MAMP/htdocs/new-docs/llm-content/api/understand#notes.md) for more details.
+: `object` Key-value object used for passing tracking info. Refer to [notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) for more details.
 
 `callback_url` _optional_
 : `string` URL endpoint where Razorpay will submit the final payment status.
@@ -464,7 +464,7 @@ import razorpayclient = razorpay.Client(auth=("key", "secret"))resp = client.pay
 
 #### Response Parameters 
 
-Descriptions for the response parameters are present in the [Payments Entity](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments#payments-entity.md) parameters table.
+Descriptions for the response parameters are present in the [Payments Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#payments-entity) parameters table.
 
 #### Response Types
 
@@ -484,7 +484,7 @@ Descriptions for the response parameters are present in the [Payments Entity](@/
     }
     ```
 
-Know more about [errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md).
+Know more about [errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md).
 
 The HTML form returned in the response should be opened in the customer's browser. The customer completes the payment on the displayed page.
 
@@ -541,7 +541,7 @@ The key-value parameters of the request are shown below:
     `order_id`
     : `string` Unique identifier of the order associated with the payment.
 
-Know more about [errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.md).
+Know more about [errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md).
 
 ## 1.4 Verify Payment Signature
 
@@ -557,4 +557,4 @@ Know more about [errors](@/Applications/MAMP/htdocs/new-docs/llm-content/errors.
 
 ## Next Steps
 
-[Step 2: Test Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/redirect/test-integration.md)
+[Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/redirect/test-integration.md)

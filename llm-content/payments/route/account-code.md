@@ -28,11 +28,11 @@ An example of an account code is `GoodWill_Traders-1.`
 ## Use Account Code
 
 Know more about:
-- Creation of [Account Code for linked accounts on the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/account-code/dashboard.md).
-- Usage of [Account Code in Transfers API](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/account-code/api.md).
+- Creation of [Account Code for linked accounts on the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/account-code/dashboard.md).
+- Usage of [Account Code in Transfers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/account-code/api.md).
 
 ### Related Information
 
-- [Route Product Documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route.md)
-- [Route API Reference](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route.md)
-- [Route Dashboard Guide](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/batch-upload.md)
+- [Route Product Documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route.md)
+- [Route API Reference](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route.md)
+- [Route Dashboard Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/batch-upload.md)

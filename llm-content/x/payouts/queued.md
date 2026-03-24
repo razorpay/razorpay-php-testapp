@@ -8,7 +8,7 @@ description: Check about scenarios when payouts are queued and how to cancel a q
 
 When you do not have sufficient balance to process a payout, we queue the payout instead of failing the payout, saving you time and effort.
 
-Payouts that are queued get processed when you add funds to your account. Know more about [adding funds to your RazorpayX account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/current-account#add-funds.md), whether it is current account or RazorpayX Lite.
+Payouts that are queued get processed when you add funds to your account. Know more about [adding funds to your RazorpayX account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/current-account.md#add-funds), whether it is current account or RazorpayX Lite.
 
 > **WARN**
 >
@@ -26,7 +26,7 @@ Payouts that are queued get processed when you add funds to your account. Know m
 > **Handy Tips**
 > 
 > - This feature is available to you by default. You do not need to do anything to enable the feature.
-> - A payout is queued only when there is insufficient funds to process the payout. You cannot use this feature to schedule a payout. If you want to schedule your payouts, use [Scheduled payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/scheduled.md).
+> - A payout is queued only when there is insufficient funds to process the payout. You cannot use this feature to schedule a payout. If you want to schedule your payouts, use [Scheduled payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/scheduled.md).
 > 
 
 ### Payout Processing - Order
@@ -56,24 +56,24 @@ Once a payout is queued, it can have the following statuses during its life cycl
 - `cancelled`
 - `failed`
 
-![Payout life cycle](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/RZPX-queued_payout_life_cycle.jpg.md)
+![Payout life cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/RZPX-queued_payout_life_cycle.jpg.md)
 
 > **INFO**
 >
 > 
 > **Handy Tips**
 > 
-> The `Pending` and `Rejected` states are available only if you have [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) enabled on your account.
+> The `Pending` and `Rejected` states are available only if you have [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) enabled on your account.
 > 
 
 ### Cancel a Queued Payout Using API
 
-You can cancel a queued payout using the [Cancel a Queued Payout API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/payouts/cancel.md).
+You can cancel a queued payout using the [Cancel a Queued Payout API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts/cancel.md).
 
 ### Related Information
 
-- [Payout Life Cycle and States](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle.md)
-- [Intelligent Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/intelligent-payouts.md)
-- [Payouts to Cards](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/cards.md)
-- [Payout Status Details](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md)
-- [Payout Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/best-practices.md)
+- [Payout Life Cycle and States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md)
+- [Intelligent Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/intelligent-payouts.md)
+- [Payouts to Cards](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/cards.md)
+- [Payout Status Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md)
+- [Payout Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/best-practices.md)

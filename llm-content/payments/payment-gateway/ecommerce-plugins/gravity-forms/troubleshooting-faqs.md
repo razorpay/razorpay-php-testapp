@@ -11,7 +11,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
          To set up webhooks:
             1. Log in to the Razorpay Dashboard and navigate to **Account & Settings**.
             1. In the **Website and app settings** section, click **Webhooks**.
-                ![Navigate to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
+                ![Navigate to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
             1. Click **+ Add New Webhook**.
                 ![](/docs/assets/images/webhooks-webhook-creation-1.jpg)
             1. In the **Webhook Setup** pop-up page:
@@ -22,10 +22,10 @@ description: Troubleshoot common errors and find answers to frequently asked que
 > 
 >                     **Handy Tips**
 > 
->                     You can set up to **10 URLs** to receive Webhook notifications. Webhooks can only be delivered to public URLs. If you attempt to save a localhost endpoint as part of a webhook setup, you will notice an error. Know more about [testing Webhooks on an application running on localhost](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test/#application-running-on-localhost.md).
+>                     You can set up to **10 URLs** to receive Webhook notifications. Webhooks can only be delivered to public URLs. If you attempt to save a localhost endpoint as part of a webhook setup, you will notice an error. Know more about [testing Webhooks on an application running on localhost](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md#application-running-on-localhost).
 >                     
 
-                1. Enter a **Secret** for the webhook endpoint. The secret is used to validate that the webhook is from Razorpay. Do not expose the secret publicly. Know more about [how to validate webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/validate-test.md).
+                1. Enter a **Secret** for the webhook endpoint. The secret is used to validate that the webhook is from Razorpay. Do not expose the secret publicly. Know more about [how to validate webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/validate-test.md).
                     
 > **INFO**
 >
@@ -50,10 +50,10 @@ description: Troubleshoot common errors and find answers to frequently asked que
          To verify if webhooks are enabled:
             1. Log in to the Razorpay Dashboard and navigate to **Account & Settings**.
             2. In the **Website and app settings**, click **Webhooks**.
-                ![Navigate to Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
+                ![Navigate to Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/account-settings-webhooks.jpg.md)
             3. Select the relevant webhook **URL**.
             4. On the right panel, check if the status for `payment.authorized`, `refund.created` and `virtual_account.credited` is enabled.
-                ![List of webhooks created](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)
+                ![List of webhooks created](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/plugin-webhook-faq.jpg.md)
 
         
 

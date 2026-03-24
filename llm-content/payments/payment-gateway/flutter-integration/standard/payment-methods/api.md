@@ -29,7 +29,7 @@ Documented below is the API package for the plugin.
 > 
 > **Handy Tips**
 > 
-> The `options` map has `key` as a required property in the open checkout method. All other properties are optional. Know about all the [options available on checkout form](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/flutter-integration/standard/integration-steps#17-add-checkout-options.md).
+> The `options` map has `key` as a required property in the open checkout method. All other properties are optional. Know about all the [options available on checkout form](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/flutter-integration/standard/integration-steps.md#17-add-checkout-options).
 > 
 
 ### Event Names

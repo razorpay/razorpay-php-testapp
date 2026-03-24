@@ -20,7 +20,7 @@ The risk decline rate refers to the percentage of transactions a payment system 
 ## Calculating Risk Decline Rate
 
 The risk decline rate can be calculated by dividing the declined transactions due to perceived risks by the total attempted transactions in the same period and multiplying by a hundred. It is important to note that this calculation has no lag, unlike the fraud-to-sales (FTS) and dispute-to-sales (DTS) ratios. Therefore, no caveats, such as delay in reporting, apply here.
-     ![How to calculate risk decline rate](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/calculate-risk-decline.jpg.md)
+     ![How to calculate risk decline rate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/calculate-risk-decline.jpg.md)
 
 #### Example
 
@@ -33,7 +33,7 @@ The online retailer's risk decline rate is 2% in this example. This rate indicat
 ## Dashboard Actions
 
 You can use the Dashboard to perform a detailed analysis of **Total sales value**, **Value of risk declines**, **Risk decline rate**, and **Number of risk declines** over a selected period of time. 
-     ![Risk decline rate graph](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/risk-decline-count.jpg.md)
+     ![Risk decline rate graph](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/risk-decline-count.jpg.md)
 
 ### Download List of Transactions Declined due to Risk
 
@@ -41,7 +41,7 @@ You can download the list of transactions declined due to risk using parameters 
 
      1. Log in to your Dashboard.
      2. Navigate to **Risk and Fraud** and click **Download list**. 
-          ![Risk decline list download](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/risk-decline-download-list.jpg.md)
+          ![Risk decline list download](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/risk-decline-download-list.jpg.md)
      3. On the **Download risk declined list** page, select the **duration** and add the **Recipient's Details**. Click **Send Request**.
-        ![Risk decline list download send request](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/risk-decline-send-request.jpg.md)
+        ![Risk decline list download send request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/risk-decline-send-request.jpg.md)
      4. After the request is sent, you will receive an email with the file containing the list of risks declined for the selected duration.

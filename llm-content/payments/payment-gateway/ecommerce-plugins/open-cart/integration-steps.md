@@ -63,9 +63,9 @@ Follow the steps given below:
 > 
 >           **Handy Tips**
 > 
->           Webhook is auto-configured on OpenCart 3 (versions 5.0.0 and above) and OpenCart 4 when you enter and save the API key ID and secret on the plugin settings page. You need to verify if webhooks are enabled on your Razorpay [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/open-cart/troubleshooting-faqs/#2-how-can-i-verify-if-webhooks-are.md). 
+>           Webhook is auto-configured on OpenCart 3 (versions 5.0.0 and above) and OpenCart 4 when you enter and save the API key ID and secret on the plugin settings page. You need to verify if webhooks are enabled on your Razorpay [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/open-cart/troubleshooting-faqs.md#2-how-can-i-verify-if-webhooks-are). 
 
->           However, for versions lower than 5.0.0, you must [configure webhooks manually](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/open-cart/troubleshooting-faqs/#1-my-webhooks-are-not-auto-configured-since-i.md).
+>           However, for versions lower than 5.0.0, you must [configure webhooks manually](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/open-cart/troubleshooting-faqs.md#1-my-webhooks-are-not-auto-configured-since-i).
 >           
 
           #### Create Cron for OpenCart 3
@@ -85,7 +85,7 @@ Follow the steps given below:
 
 After the integration, Razorpay will appear as a payment option on your webpage/app. You need to click the button and make a test transaction to ensure the integration works as expected. You can start accepting actual payments from your customers once the test is successful.
 
-![Open Cart](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pg-opencart-plugin-test.jpg.md)
+![Open Cart](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pg-opencart-plugin-test.jpg.md)
 
 You can make test payments using one of the payment methods configured at the Checkout.
 - No money is deducted from the customer's account as this is a simulated transaction.
@@ -109,7 +109,7 @@ You can make test payments using one of the payment methods configured at the Ch
                     ![](/docs/assets/images/testpayment.jpg)
             
             
-                  [Poll Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md) to check the payment status.
+                  [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments) to check the payment status.
             
         
         

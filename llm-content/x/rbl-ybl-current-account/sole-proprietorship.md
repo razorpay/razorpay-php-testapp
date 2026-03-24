@@ -34,11 +34,11 @@ KYC documents for Proprietor.
 
 Sl. No. | Document
 ---
-1 | [KYC Documents](@/Applications/MAMP/htdocs/new-docs/llm-content/x/rbl-ybl-current-account/cif.md) in the name of the Proprietor.
+1 | [KYC Documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/rbl-ybl-current-account/cif.md) in the name of the Proprietor.
 ---
-2 | Any two proof of existence for the proprietary firm. [List of acceptable documents](@/Applications/MAMP/htdocs/new-docs/llm-content/x/rbl-ybl-current-account/sole-proprietorship/kyc/#proof-of-existence-any-2.md) (any two).
+2 | Any two proof of existence for the proprietary firm. [List of acceptable documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/rbl-ybl-current-account/sole-proprietorship/kyc.md#proof-of-existence-any-2) (any two).
 ---
-3 | Valid address proof in the name of the proprietary firm. [List of acceptable documents](@/Applications/MAMP/htdocs/new-docs/llm-content/x/rbl-ybl-current-account/sole-proprietorship/kyc/#proof-of-address-of-the-proprietorship-concern-any.md) (any one).
+3 | Valid address proof in the name of the proprietary firm. [List of acceptable documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/rbl-ybl-current-account/sole-proprietorship/kyc.md#proof-of-address-of-the-proprietorship-concern-any) (any one).
 ---
 5 | Sole Proprietorship declaration.
 ---
@@ -46,7 +46,7 @@ Sl. No. | Document
 ---
 7 | A cheque of minimum ₹20,000 in the entity's name. If there are any transfer or currency conversion charges, the cheque amount should be higher to ensure at least ₹20,000 is credited to the new account after all deductions. For example, if the charges are ₹1,500, write a cheque for ₹21,500.
 
-[Download all forms and documents](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x_ca_docs-sole-proprietorship-updated190422.zip.md)
+[Download all forms and documents](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x_ca_docs-sole-proprietorship-updated190422.zip.md)
 
 ## Related Information
 

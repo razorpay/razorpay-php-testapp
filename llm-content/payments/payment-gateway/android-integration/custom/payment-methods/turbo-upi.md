@@ -7,7 +7,7 @@ description: Integrate with Turbo UPI to provide a 2-step UPI payment experience
 
 Use Razorpay Turbo UPI to make UPI payments faster. Following are the sample screens while making payments using Turbo UPI.
 
-![Razorpay Turbo UPI Payment Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi-turbo-cc-transaction-flow.jpg.md)
+![Razorpay Turbo UPI Payment Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-turbo-cc-transaction-flow.jpg.md)
 
 ## Advantages
 
@@ -52,7 +52,7 @@ Use Razorpay Turbo UPI to make UPI payments faster. Following are the sample scr
 > 
 > **Watch Out!**
 > 
-> - Use the `rzp_test_0wFRWIZnH65uny` merchant key for testing on the UAT environment and the [Razorpay live keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) for prod testing.
+> - Use the `rzp_test_0wFRWIZnH65uny` merchant key for testing on the UAT environment and the [Razorpay live keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) for prod testing.
 > - As a compliance requirement, you need to get approval from Google for **READ_SMS** permission. Refer [to this link](https://support.google.com/googleplay/android-developer/answer/10208820?hl=en) for more details.
 > 
 > 
@@ -61,7 +61,7 @@ Use Razorpay Turbo UPI to make UPI payments faster. Following are the sample scr
 
 Your customers can link their credit cards and bank accounts to your app with these steps:
 1. The customer navigates to your app's checkout screen and taps **Link bank a/c & credit card**.
-    ![Turbo UPI Add Bank Account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi-turbo-custom-add-bank-cc-account.jpg.md)
+    ![Turbo UPI Add Bank Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-turbo-custom-add-bank-cc-account.jpg.md)
 
     
 > **INFO**
@@ -70,15 +70,15 @@ Your customers can link their credit cards and bank accounts to your app with th
 >     **Handy Tips**
 > 
 >     The customer needs to give **allow SMS permission** so that we can validate the phone number with the bank.
->      ![Turbo UPI SMS Verification](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi-turbo-custom-sms-verification.jpg.md)
+>      ![Turbo UPI SMS Verification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-turbo-custom-sms-verification.jpg.md)
 >     
 
 2. The customer's bank and credit card details are fetched and linked to the app.
 
-    ![Turbo UPI Fetch Bank Account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi-turbo-custom-fetch-account.jpg.md)
+    ![Turbo UPI Fetch Bank Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-turbo-custom-fetch-account.jpg.md)
 
 3. The customer selects a bank or credit card from the list of banks. The top 8 banks are displayed for easier selection. 
-    ![Turbo UPI Select Bank Account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi-turbo-cc-custom-select-bank-account.jpg.md)
+    ![Turbo UPI Select Bank Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-turbo-cc-custom-select-bank-account.jpg.md)
 
 > **INFO**
 >
@@ -87,7 +87,7 @@ Your customers can link their credit cards and bank accounts to your app with th
 > **Handy Tips**
 > 
 > If no UPI PIN is set, the customers are prompted to provide their card details (debit or credit), to enter an OTP and complete the set-up.
->  ![Turbo UPI Enter Card Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi-turbo-cc-custom-card-details.jpg.md)
+>  ![Turbo UPI Enter Card Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-turbo-cc-custom-card-details.jpg.md)
 > 
 
 This completes the onboarding.
@@ -97,15 +97,15 @@ This completes the onboarding.
 After the customer is onboarded, on the checkout page of your app:
 
 1. The customer selects the linked bank or credit account.
-    ![Razorpay Turbo UPI Payment Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi-turbo-cc-linked-bank.jpg.md)
+    ![Razorpay Turbo UPI Payment Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-turbo-cc-linked-bank.jpg.md)
 2. The customer enters the UPI PIN to complete the payment.
-    ![Turbo UPI Payment Successful](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/upi-turbo-custom-enter-pin.jpg.md)
+    ![Turbo UPI Payment Successful](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-turbo-custom-enter-pin.jpg.md)
 
 ### Related Information
 
-- [Turbo UPI Headless](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-noui.md)
-- [Turbo UPI with UI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-ui.md)
-- [Turbo UPI Headless Mock](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-noui-mock.md)
-- [Turbo UPI with UI Mock](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-ui-mock.md)
-- [Turbo UPI Headless TPV](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-noui-tpv.md)
-- [Turbo UPI with UI TPV](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-ui-tpv.md)
+- [Turbo UPI Headless](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-noui.md)
+- [Turbo UPI with UI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-ui.md)
+- [Turbo UPI Headless Mock](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-noui-mock.md)
+- [Turbo UPI with UI Mock](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-ui-mock.md)
+- [Turbo UPI Headless TPV](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-noui-tpv.md)
+- [Turbo UPI with UI TPV](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/turbo-upi/integration-ui-tpv.md)

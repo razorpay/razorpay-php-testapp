@@ -10,8 +10,8 @@ You can display Bajaj Finserv No Cost EMI offers to your customers by integratin
 ## Prerequisites
 
 - Create a [Razorpay account](https://razorpay.com/dashboard).
-- Generate [API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
-- Refer to our [web custom integration document](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
+- Generate [API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
+- Refer to our [web custom integration document](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
 
 ## Integration flow
 
@@ -238,11 +238,11 @@ razorpay.once('ready', function(response) {
 }
 ```
 
-Know more about [the various payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods.md) offered by Razorpay.
+Know more about [the various payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md) offered by Razorpay.
 
 ### Step 4: Invoke Checkout and Pass Order Id and Other Options 
 
-The list of checkout parameters is available [here](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md).
+The list of checkout parameters is available [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md).
 
 #### Step 4.1: Include the JavaScript code in your Webpage
 
@@ -413,11 +413,11 @@ You can track the status of the payment from the Dashboard, subscribe to the Web
 
 #### Subscribe to Webhook events
 
-You can subscribe to a Webhook event that is generated when a certain event happens in our server. When one of those events is triggered, Razorpay sends the Webhook payload to the configured URL. [Know how to set up Webhooks.](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md)
+You can subscribe to a Webhook event that is generated when a certain event happens in our server. When one of those events is triggered, Razorpay sends the Webhook payload to the configured URL. [Know how to set up Webhooks.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md)
 
 #### Poll APIs
 
-You can retrieve the status of the payments by polling our [Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md).
+You can retrieve the status of the payments by polling our [Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments).
 
 ### Accept Live Payments
 

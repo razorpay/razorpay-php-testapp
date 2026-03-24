@@ -13,7 +13,7 @@ You can view all the feedback posted by your customers. You can view, filter, de
 
 The Responses tab includes multiple features to help you manage feedback effectively.
 
-![Responses Feedback Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/responses-feedback-billme.jpg.md)
+![Responses Feedback Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/responses-feedback-billme.jpg.md)
 
 ### Filter
 
@@ -40,7 +40,7 @@ It is a page to view all the feedback posted by the customers about your past an
 
 You can view, filter, sort, create new feedback forms for your campaigns, search and export campaign feedback from here.
 
-![Campaigns Feedback Page](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/campaigns-feedback-billme.jpg.md)
+![Campaigns Feedback Page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/campaigns-feedback-billme.jpg.md)
 
 ### Campaign Table
 

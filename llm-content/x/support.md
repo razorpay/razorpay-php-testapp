@@ -11,8 +11,8 @@ description: Contact the Support Team for all your queries related to RazorpayX 
 > 
 > **Handy Tips**
 > 
-> - If you are a customer looking for a refund, know about [customer refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers/customer-refunds.md).
-> - To check the status of payouts, follow [these steps](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/status-details/#check-status-on-dashboard.md).
+> - If you are a customer looking for a refund, know about [customer refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers/customer-refunds.md).
+> - To check the status of payouts, follow [these steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/status-details.md#check-status-on-dashboard).
 > 
 
 ## RazorpayX Users
@@ -33,7 +33,7 @@ To raise a support ticket:
                 - [**File a grievance**](#file-a-grievance).
 
                  Click **Next**.
-                 ![Raise a new request or File a grievance](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-support-new-req-grievience.jpg.md) 
+                 ![Raise a new request or File a grievance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-support-new-req-grievience.jpg.md) 
             
 
         
@@ -50,7 +50,7 @@ To raise a support ticket:
 
     
 
-    ![My Account and Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-support-profile.jpg.md)
+    ![My Account and Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-support-profile.jpg.md)
 
 ### Raise a New Request
 
@@ -61,7 +61,7 @@ You can raise a request when you wish for help in setting up certain processes, 
 3. Enter the email addresses of other users who you wish to keep informed.
 4. Click **Submit**.
 
-    ![Raise a new Support ticket](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-support-raise-new-request.jpg.md)
+    ![Raise a new Support ticket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-support-raise-new-request.jpg.md)
 
 ### File a Grievance
 
@@ -70,10 +70,10 @@ You can file a grievance when you are not satisfied with the support provided fo
 1. Select the reason for you to file a grievance.
 2. Mention your ticket reference number. 
 3. Click **Next**.
-    ![Enter support ticket number](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-support-file-grievance-1.jpg.md)
+    ![Enter support ticket number](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-support-file-grievance-1.jpg.md)
 4. Write a description of the complaint and expectations and click **Submit**.
 
-    ![File a Grievance](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-support-file-grievance-2.jpg.md)
+    ![File a Grievance](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-support-file-grievance-2.jpg.md)
 
 You have successfully raised a support request from the RazorpayX Dashboard.
 

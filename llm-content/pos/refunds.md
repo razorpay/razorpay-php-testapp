@@ -14,20 +14,20 @@ There could be situations when customers request a refund of the payments made f
 > 
 > **Customer Looking for Refund**
 > 
-> If you are a customer looking for a refund, know about [customer refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/customers/customer-refunds.md).
+> If you are a customer looking for a refund, know about [customer refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/customers/customer-refunds.md).
 > 
 
 ## Refund Types
 
-You can use [Normal Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/normal.md) to refund payments to your customers. The amount is refunded within 5-7 working days.
+You can use [Normal Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/normal.md) to refund payments to your customers. The amount is refunded within 5-7 working days.
 
 ## Dashboard Actions
 
 You can perform the following actions on refunds from the Dashboard:
 
-- [View Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/refunds/view.md)
-- [Issue Refunds](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/refunds/issue.md)
-- [View Settlement Details of a Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/refunds/view/#view-settlement-details-of-a-refund.md)
+- [View Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/refunds/view.md)
+- [Issue Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/refunds/issue.md)
+- [View Settlement Details of a Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/refunds/view.md#view-settlement-details-of-a-refund)
 
 ## Refund States
 
@@ -60,12 +60,12 @@ Additionally, Razorpay passes the **RRN (Razorpay Reference Number)** of the pay
 
 ## Reports
 
-Detailed insights can be gained using reports and real-time data on the Dashboard. These reports can then be used for accounting and recon purposes. Know more about [reports](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/reports.md).
+Detailed insights can be gained using reports and real-time data on the Dashboard. These reports can then be used for accounting and recon purposes. Know more about [reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/reports.md).
 
-Understand [how the Refund process works](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/refunds/normal/#how-normal-refunds-work.md).
+Understand [how the Refund process works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds/normal.md#how-normal-refunds-work).
 
 ### Related Information
 
-- [Handle refund errors](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/refunds/errors.md)
-- [Refunds API](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/refunds/apis.md)
-- [Refunds FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/pos/refunds/faqs.md)
+- [Handle refund errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/refunds/errors.md)
+- [Refunds API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/refunds/apis.md)
+- [Refunds FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/pos/refunds/faqs.md)

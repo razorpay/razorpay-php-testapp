@@ -70,14 +70,14 @@ Leverage the full potential of UPI Payments by integrating Prepaid Payment Instr
 
          You can retrieve the details of the account type (bank account or credit card) used for UPI payments through the Payment Webhook, Fetch Payment API, and the Dashboard.
          
-         - **Payment Webhook**: The payment entity will now include the payer account type details. Refer to the [Payment Authorized Payload](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/payments/#payment-authorized.md).
-         - **Fetch Payment API**: The payment entity will now include the payer account type details. Refer to the [Fetch API sample code](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments#expanded-upi.md). 
+         - **Payment Webhook**: The payment entity will now include the payer account type details. Refer to the [Payment Authorized Payload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md#payment-authorized).
+         - **Fetch Payment API**: The payment entity will now include the payer account type details. Refer to the [Fetch API sample code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#expanded-upi). 
          - **On the Dashboard** :  
             1. Click on a UPI payment to look at the payment details.
             2. The payment drawer will display the following information for wallet payments on UPI:
                 1. Payment Method: UPI
                 2. Paid from: Wallet
-                ![Image shows Wallet payment via UPI on Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/wallet-upi-dashboard.jpg.md)
+                ![Image shows Wallet payment via UPI on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/wallet-upi-dashboard.jpg.md)
          
          
         
@@ -114,4 +114,4 @@ Leverage the full potential of UPI Payments by integrating Prepaid Payment Instr
     
 ### 7. Which businesses are currently not supported from accepting wallet payments on UPI?
 
-         You will not be able to accept wallet payments on UPI if you fall under the [**businesses on Customer fee bearer (CFB)**](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/configuration/convenience-fees.md) category.
+         You will not be able to accept wallet payments on UPI if you fall under the [**businesses on Customer fee bearer (CFB)**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/configuration/convenience-fees.md) category.

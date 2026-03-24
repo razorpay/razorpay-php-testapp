@@ -10,7 +10,7 @@ You can compare the probability of risk associated with orders reviewed via COD 
 
 ## Widgets
 
-The following widgets are available in the **Risk Report** tab of the [RTO Analytics Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/analytics/rto.md). Check which widgets are applicable when you opt either for: 
+The following widgets are available in the **Risk Report** tab of the [RTO Analytics Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/analytics/rto.md). Check which widgets are applicable when you opt either for: 
 - COD Intelligence.
 - Manual review of COD Orders.  
 
@@ -40,7 +40,7 @@ This graph shows the split between safe and risky users for the total users proc
 
 You can filter data to display it on a **Daily**, **Weekly** or **Monthly** basis. Hover over the graph for a breakdown of the data and the total number of users.
 
-![RTO Analytics safe vs risky users chart](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rto-safe-risky-users.jpg.md)
+![RTO Analytics safe vs risky users chart](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rto-safe-risky-users.jpg.md)
 
 ## RTO Risk Distribution
 
@@ -48,14 +48,14 @@ The following chart provides insights only when you opt for **Manual review of C
 
 The **RTO risk distribution** bar graph provides a time-wise break-up of the orders' riskiness. You can view the graph **Daily**, **Weekly** or **Monthly**. 
 
-![RTO Analytics Risk Distribution across orders bar graph](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rto-risk-dist.jpg.md)
+![RTO Analytics Risk Distribution across orders bar graph](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rto-risk-dist.jpg.md)
 
 > **INFO**
 >
 > 
 > **Handy Tips**
 > 
-> [Automate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders/workflow#how-it-works.md) your manual review process or let COD Intelligence handle your COD Orders. Know more about the [RTO Analytics Dashboard for COD Intelligence](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/analytics/rto.md). 
+> [Automate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders/workflow.md#how-it-works) your manual review process or let COD Intelligence handle your COD Orders. Know more about the [RTO Analytics Dashboard for COD Intelligence](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/analytics/rto.md). 
 > 
 
 ## Breakdown of Risky Users
@@ -69,11 +69,11 @@ The intelligence flags the users as risky because:
 - The user has a lower number of prepaid orders.
 - The user or zip code has a high RTO percentage across many stores.
 
-![RTO Analytics breakdown of risky users](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rto-breakdown-risky-more.jpg.md)
+![RTO Analytics breakdown of risky users](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rto-breakdown-risky-more.jpg.md)
 
 To view all the remaining reasons, click **View all reasons**.
 
-![RTO Analytics breakdown of risky users - view all reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rto-breakdown-risky.jpg.md)
+![RTO Analytics breakdown of risky users - view all reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rto-breakdown-risky.jpg.md)
 
 ## Incremental Prepaid Orders Gained
 
@@ -83,11 +83,11 @@ This chart shows the split between the **Regular orders** and the **Additional p
 
 You can analyse how many potentially risky orders were converted to prepaid because of RTO intelligence.
 
-![RTO Analytics incremental prepaid orders gained chart](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rto-incremental-orders2.jpg.md)
+![RTO Analytics incremental prepaid orders gained chart](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rto-incremental-orders2.jpg.md)
 
 You can filter data to display it on a **Daily**, **Weekly** or **Monthly** basis. Hover over the graph for a breakdown of the data and the total number of orders.
 
 ### Related information
 
-- [RTO Insights](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/analytics/rto/insights.md) 
-- [Manually Review COD Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders.md)
+- [RTO Insights](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/analytics/rto/insights.md) 
+- [Manually Review COD Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/order-settings/review-cod-orders.md)

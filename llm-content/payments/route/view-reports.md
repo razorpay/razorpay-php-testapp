@@ -12,7 +12,7 @@ You can export reports related to all fund movements between your account and yo
 
 The settlement recon API generates a detailed report of all the settlements made towards your account. You can use this report to verify transactions and reconcile payments. These reports can be exported for each Linked Account. You can also generate a consolidated report containing transactions for all the Linked Accounts.
 
-Know more about [generating settlement reports using APIs.](@/Applications/MAMP/htdocs/new-docs/llm-content/api/settlements/#settlement-recon.md)
+Know more about [generating settlement reports using APIs.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/settlements.md#settlement-recon)
 
 ## Transfers and Reversals Reports
 
@@ -44,7 +44,7 @@ You can fetch reports of all transfer and reversal operations that occurred on y
 
          Following is a report sample:
 
-         ![Sample Transfer Report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route_transfers.jpg.md)
+         ![Sample Transfer Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route_transfers.jpg.md)
         
 
     
@@ -66,11 +66,11 @@ You can fetch reports of all transfer and reversal operations that occurred on y
 
         Following is a report sample:
 
-        ![Sample Reversal Report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route_reversals.jpg.md)
+        ![Sample Reversal Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route_reversals.jpg.md)
         
 
 ### Related Information
-- [Route](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route.md)
-- [Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account.md)
-- [Transfer Funds to Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md)
-- [Initiate Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/initiate-refund.md)
+- [Route](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route.md)
+- [Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md)
+- [Transfer Funds to Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md)
+- [Initiate Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/initiate-refund.md)

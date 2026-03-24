@@ -58,11 +58,11 @@ To configure manual payment receipts:
     Donation eligible for exemption under 80-G under IT Act 1861 .. with ID DIT(E)/2009-2010/W-110/15XX dated 24.09.2009
     2. Upload an image of the signature in the **Authorized Signatory** field and click **Save**.
 6. Click **Done**.
-7. Navigate to the page's **Transactions Details** section. All the payments made using the Payment Button are listed here. ![Transaction Details section with list of payments](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-receipt-pp-transactions-send.jpg.md)
+7. Navigate to the page's **Transactions Details** section. All the payments made using the Payment Button are listed here. ![Transaction Details section with list of payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-receipt-pp-transactions-send.jpg.md)
 8. Click the Payment ID to view the payment details.
 9. In the **Payment Receipt** field, click the **Send** button.
 10. Enter a reference number for the receipt as per your business requirements.
-    ![Enter reference number for manual receipt](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-receipt-pp-manual-ref.jpg.md)
+    ![Enter reference number for manual receipt](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-receipt-pp-manual-ref.jpg.md)
 11. Click **Send**.
 
     
@@ -85,4 +85,4 @@ To configure manual payment receipts:
 
 ### Related Information
 
-[Configure Generic Payment Button Receipt](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/receipt.md)
+[Configure Generic Payment Button Receipt](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/receipt.md)

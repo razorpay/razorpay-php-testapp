@@ -121,9 +121,9 @@ description: Find answers to frequently asked questions about Razorpay Payment P
     
 ### 11. How do I track the payments made by customers? When will the amount be settled to my account?
 
-         You can view the payments as and when they are made in the [Transactions Details View](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/view-reports.md) of the page.
+         You can view the payments as and when they are made in the [Transactions Details View](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/view-reports.md) of the page.
 
-         ![Payment Page - View Report](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-v3-view_report.jpg.md)
+         ![Payment Page - View Report](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-v3-view_report.jpg.md)
          
         
 
@@ -136,7 +136,7 @@ description: Find answers to frequently asked questions about Razorpay Payment P
          - UPI
          - Wallet (PayZapp)
 
-         If you want to show more wallets or [payment methods](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods.md) at Checkout, please raise a request with the [Razorpay Support team](https://razorpay.com/support/#request).
+         If you want to show more wallets or [payment methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods.md) at Checkout, please raise a request with the [Razorpay Support team](https://razorpay.com/support/#request).
         
 
     
@@ -149,7 +149,7 @@ description: Find answers to frequently asked questions about Razorpay Payment P
 ### 14. Can I accept payments in international currency?
 
          You can accept payments in international currency using Payment Pages by following these steps:
-         1. Follow [these steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments.md) to enable international payments for your account.
+         1. Follow [these steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md) to enable international payments for your account.
          2. While creating the Payment Page, click the currency drop-down list in the **Price** field and select the required currency.
 
          

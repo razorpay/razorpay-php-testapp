@@ -14,11 +14,11 @@ description: Downtimes on payment methods and how to receive notifications.
 
 ## Fetch Payment Downtime Details
 
-To retrieve details of payment downtimes, see this [endpoint](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/downtime/fetch-all.md).
+To retrieve details of payment downtimes, see this [endpoint](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/downtime/fetch-all.md).
 
 ## Fetch Payment Downtime Details by ID
 
-To retrieve details of payment downtimes by ID, see this [endpoint](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/downtime/fetch-with-id.md).
+To retrieve details of payment downtimes by ID, see this [endpoint](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/downtime/fetch-with-id.md).
 
 ## Webhooks
 

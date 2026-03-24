@@ -22,9 +22,9 @@ Google Pay, [previously Google Tez](https://pay.google.com/intl/en_in/about/), c
 1. [Contact our Support Team](https://razorpay.com/support/#request) and have them whitelist your VPA (UPI ID).
 1. Verify your VPA (UPI ID) details on the [Google Merchant Console](https://support.google.com/pay/business/answer/7684398?hl=en&ref_topic=7684388). Google deposits a small amount into the bank account linked to your VPA (UPI ID).
 1. You should have already integrated one of the following:
-    - [Razorpay Web Integration - Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
-    - [Razorpay Android Integration - Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom.md).
-1. [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
+    - [Razorpay Web Integration - Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
+    - [Razorpay Android Integration - Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom.md).
+1. [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
 
 ### General Branding Guidelines
 
@@ -32,7 +32,7 @@ Refer to [Google's Branding Guidelines](https://developers.google.com/pay/api/we
 
 ## Desktop Integration
 
-On desktop browsers, the Collect request flow works the same way as [Razorpay's UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods/#upi.md).
+On desktop browsers, the Collect request flow works the same way as [Razorpay's UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods.md#upi).
 
 1. Collect the customer's VPA and pass it in the payment request with method as `upi`.
 2. Razorpay then triggers a Collect request. The collection request is sent to the customer's Google Pay application where they can make the payment.
@@ -71,7 +71,7 @@ On mobile-web, for intent-based payments, the flow should be as follows:
     
     ```
 
-    Know more about [Custom Web Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
+    Know more about [Custom Web Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md).
 
 1. Instantiate Razorpay
 
@@ -113,7 +113,7 @@ On mobile-web, for intent-based payments, the flow should be as follows:
     })
     ```
 
-Refer to the [Success/Error Callbacks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration/#14-store-fields-in-your-server.md) section for more details.
+Refer to the [Success/Error Callbacks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md#14-store-fields-in-your-server) section for more details.
 
 ## Android Integration
 
@@ -173,7 +173,7 @@ This offers the advantage of letting you open Google Pay within your application
 
 ### Collect-Based Integration
 
-This is the same as the existing [UPI Collect Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods/#collect-flow.md).
+This is the same as the existing [UPI Collect Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom/payment-methods.md#collect-flow).
 
 1. Collect the customer's VPA and pass it in the payment request, with method as `upi`.
 2. Razorpay then triggers a collect request. The collection request is sent to the customer's Google Pay application, where they can make the payment.

@@ -10,7 +10,7 @@ Razorpay Trusted Business (RTB) Widget offers a simple solution to enhance trust
 
 This widget provides information about your business's legitimacy and product/service quality. It dynamically adjusts its content to match the purchase journey, product, business category, and individual customers, effectively reducing doubt and minimising drop-offs.
 
-![View the RTB widget on desktop](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rtb-widget-desktop.jpg.md)
+![View the RTB widget on desktop](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rtb-widget-desktop.jpg.md)
 
     
 ### Use Cases
@@ -29,13 +29,13 @@ This widget provides information about your business's legitimacy and product/se
 ## How it Works 
 
 The following diagram depicts the customer journey after integrating the Razorpay Trusted Business widget on your website:
-![RTB Widget Flow Diagram](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rtb-widget-flow.jpg.md)
+![RTB Widget Flow Diagram](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rtb-widget-flow.jpg.md)
 
 ## Prerequisites
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup).
-- Generate the API Keys on the Dashboard. You can use the  [Test Mode keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) to test the integration and preview the Widget. Later, switch to **Live Mode** on the Dashboard, generate the [Live API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md) and replace it with the test keys.
-- Check if you are [eligible](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/features/trusted-business/#eligibility-requirements.md) for Razorpay Trusted Business on the Dashboard. 
+- Generate the API Keys on the Dashboard. You can use the  [Test Mode keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) to test the integration and preview the Widget. Later, switch to **Live Mode** on the Dashboard, generate the [Live API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys) and replace it with the test keys.
+- Check if you are [eligible](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/features/trusted-business.md#eligibility-requirements) for Razorpay Trusted Business on the Dashboard. 
     
     
 > **INFO**
@@ -48,7 +48,7 @@ The following diagram depicts the customer journey after integrating the Razorpa
 >         - Domain Whitelisting happens during the onboarding process. If not, you can raise a request with our [Support team](https://razorpay.com/support/#request).
 >     
 
-- Currently, the RTB widget is supported on Web and [shopify](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/widgets/trusted-business/rtb-widget-shopify.md).
+- Currently, the RTB widget is supported on Web and [shopify](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/widgets/trusted-business/rtb-widget-shopify.md).
 
     
 ### Where to place the Widget on your website?
@@ -111,7 +111,7 @@ Follow these steps to integrate the RTB widget on your website:
             ```
 
             `key` _mandatory_
-            : `string` API Key id generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md). For example, `rzp_test_XXXX00000XXXX`.
+            : `string` API Key id generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys). For example, `rzp_test_XXXX00000XXXX`.
         
   
 
@@ -125,7 +125,7 @@ Follow these steps to integrate the RTB widget on your website:
             ```
 
             `key` _mandatory_
-            : `string` API Key id generated from the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md). For example, `rzp_test_XXXX00000XXXX`.
+            : `string` API Key id generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys). For example, `rzp_test_XXXX00000XXXX`.
 
             `dark-mode` _optional_
             : `boolean` Enable or disable dark mode for the widget. Possible values:
@@ -174,7 +174,7 @@ You can now preview and test the widget on the page you integrated it.
 
 ## Go Live With Widget
 
-After you preview and test the widget on your Dashboard, switch to the live mode to generate live API keys. Replace the test keys with these live keys to take the integration live. Know more about [live API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication/#live-mode-api-keys.md).
+After you preview and test the widget on your Dashboard, switch to the live mode to generate live API keys. Replace the test keys with these live keys to take the integration live. Know more about [live API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#live-mode-api-keys).
 
 Your customers can view the widget on your website. Once they click the widget, it redirects them them to the RTB website to access more information. 
 
@@ -183,13 +183,13 @@ Your customers can view the widget on your website. Once they click the widget, 
         
 ### On Web
 
-            ![View the RTB widget on desktop](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rtb-widget-desktop.jpg.md)
+            ![View the RTB widget on desktop](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rtb-widget-desktop.jpg.md)
             
 
         
 ### On Mobile
 
-            ![View the RTB widget on mobile](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rtb-widget-mobile.jpg.md)
+            ![View the RTB widget on mobile](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rtb-widget-mobile.jpg.md)
             
 
     
@@ -200,10 +200,10 @@ Your customers can view the widget on your website. Once they click the widget, 
         
 ### On Web
 
-            ![Desktop view of the RTB website for more information](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rtb-widget-website-desktop.jpg.md)
+            ![Desktop view of the RTB website for more information](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rtb-widget-website-desktop.jpg.md)
             
 
         
 ### On Mobile
 
-            ![Mobile view of the RTB website for more information](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/rtb-widget-website-mobile.jpg.md)
+            ![Mobile view of the RTB website for more information](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rtb-widget-website-mobile.jpg.md)

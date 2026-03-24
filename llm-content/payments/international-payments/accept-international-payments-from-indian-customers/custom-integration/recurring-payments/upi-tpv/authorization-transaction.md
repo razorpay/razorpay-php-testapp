@@ -25,7 +25,7 @@ Given below are the steps to create an authorisation transaction using the Razor
 
 ## 1.2 Create an Order 
 
-The Orders API allows you to create a unique Razorpay `order_id`, for example, `order_1Aa00000000001`, that would be tied to the authorisation transaction. Refer to our detailed [Order documentation](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/orders.md) for more details.
+The Orders API allows you to create a unique Razorpay `order_id`, for example, `order_1Aa00000000001`, that would be tied to the authorisation transaction. Refer to our detailed [Order documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders.md) for more details.
 
 Use the below endpoint to create an order.
 

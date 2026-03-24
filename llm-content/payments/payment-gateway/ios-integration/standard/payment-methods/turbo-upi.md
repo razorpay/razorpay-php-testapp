@@ -7,13 +7,13 @@ description: Steps to integrate Razorpay Turbo UPI with your app.
 
 With Razorpay Turbo UPI, businesses experience faster and simpler payments. It condenses the payment process from 5 steps to just 1, eliminating app redirections. Enjoy a seamless in-app payment experience, reduce dependencies on third-party UPI apps, and gain complete visibility of the payment journey.
 
-You can seamlessly integrate Turbo UPI with Razorpay iOS Standard SDK. Explore the full potential of [Razorpay Turbo UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/turbo-upi.md) and know How it Works.
+You can seamlessly integrate Turbo UPI with Razorpay iOS Standard SDK. Explore the full potential of [Razorpay Turbo UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/turbo-upi.md) and know How it Works.
 
-![Turbo UPI Standard Checkout Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-flow.jpg.md)
+![Turbo UPI Standard Checkout Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-flow.jpg.md)
 
 ## Prerequisites
 
-- Integrate with [Razorpay iOS Standard SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard/integration-steps.md). Ensure that you integrate with SDK version 1.0.0 or higher.
+- Integrate with [Razorpay iOS Standard SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard/integration-steps.md). Ensure that you integrate with SDK version 1.0.0 or higher.
 - Import the following frameworks:
     - Common library/NPCI framework 
     - Axis olive framework
@@ -30,7 +30,7 @@ You can seamlessly integrate Turbo UPI with Razorpay iOS Standard SDK. Explore t
 
 ## Onboarding Flow
 
-Ensure your customers [onboard with Razorpay Turbo UPI](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/upi/turbo-upi#2-onboarding-flow.md) to get started.
+Ensure your customers [onboard with Razorpay Turbo UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/turbo-upi.md#2-onboarding-flow) to get started.
 
 ## Installation
 
@@ -74,14 +74,14 @@ Follow these steps to integrate with Razorpay Turbo UPI:
 > 
 > **Payment Flow**
 > 
-> Razorpay SDK will handle all the changes related to `UpiTurbo` internally. To integrate with the payment flow, [pass payment option and display the checkout form](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard/integration-steps/#14-pass-payment-options-and-display-checkout-form.md).
+> Razorpay SDK will handle all the changes related to `UpiTurbo` internally. To integrate with the payment flow, [pass payment option and display the checkout form](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard/integration-steps.md#14-pass-payment-options-and-display-checkout-form).
 > 
 
 ## Non-Transactional Flow
 
 Razorpay provides a single exposed function that allows you to manage linked UPI accounts and access all non-transactional flows seamlessly. 
 
-![View the non-transactional flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/turbo-upi-non-transactional.jpg.md)
+![View the non-transactional flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/turbo-upi-non-transactional.jpg.md)
 
     
 ### Manage UPI Accounts
@@ -133,7 +133,7 @@ The SDKs given below provide access to exposed models for seamless integration.
 
          
 
-         [Refer to the list of possible error reasons](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ios-integration/standard/payment-methods/turbo-upi/error-codes.md).
+         [Refer to the list of possible error reasons](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard/payment-methods/turbo-upi/error-codes.md).
         
 
 ## Go-Live Checklist

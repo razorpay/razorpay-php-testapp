@@ -11,7 +11,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 1. How do I integrate Razorpay Secure with my Shopify store?
 
-         Follow the [build integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps/#1-build-integration.md) steps to integrate Razorpay Secure with your Shopify store.
+         Follow the [build integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps.md#1-build-integration) steps to integrate Razorpay Secure with your Shopify store.
         
 
     
@@ -19,7 +19,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 
          Follow the steps given below to connect Razorpay Secure with your Razorpay account:
          1. When you try to reconnect, you will get the following screen. Click **Manage**.
-            ![reconnect Razorpay Secure](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/razorpay-secure-reconnect.jpg.md)
+            ![reconnect Razorpay Secure](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/razorpay-secure-reconnect.jpg.md)
          2. You will be redirected to a landing page. Click **I am an existing user**.
            
          3. Scroll down and click **Login**. 
@@ -35,7 +35,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
           
          4. Click **Activate** on the activation screen on your Shopify Dashboard. 
 
-            ![Shopify Authorize](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-1razorpay-activate.jpg.md)
+            ![Shopify Authorize](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-1razorpay-activate.jpg.md)
 
          Razorpay Secure now appears as a Payment Gateway on your Shopify Store checkout.
 
@@ -48,7 +48,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 
          The Activate button may be disabled due to the plugin being integrated into another account or keyless authentication not being enabled. To enable the Activate button:
 
-         - **Check for Integration with Another Account:** Verify if you have integrated your Shopify Store with a different Razorpay MID. If yes, revoke access under applications and retry the Razorpay Secure [integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps/#1-build-integration.md). 
+         - **Check for Integration with Another Account:** Verify if you have integrated your Shopify Store with a different Razorpay MID. If yes, revoke access under applications and retry the Razorpay Secure [integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps.md#1-build-integration). 
 
          - **Enable Keyless Authentication:** Ensure keyless authentication is enabled from Razorpay's end. To enable keyless authentication contact .
         
@@ -58,7 +58,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
 
          This error occurs when there is a discrepancy between the email IDs used in Shopify and Razorpay.
 
-         You can [update the email ID](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/account-details/#update-login-email.md) on Razorpay to match the one used in Shopify. Verify that the email ID associated with owner access on Razorpay matches the one used in Shopify.
+         You can [update the email ID](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/account-details.md#update-login-email) on Razorpay to match the one used in Shopify. Verify that the email ID associated with owner access on Razorpay matches the one used in Shopify.
         
 
     
@@ -74,16 +74,16 @@ description: Troubleshoot common errors and find answers to frequently asked que
          1. Log in to your Shopify admin panel and navigate to **Settings**→**Payments**. 
          2. Click **Add payment methods**.
          3. Click Search by provider and type **Razorpay**. This will show all the Razorpay payment apps installed on your Shopify store. Click the Razorpay app that you wish to uninstall.
-            ![Search Razorpay in Payment Providers](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/search-razorpay-payment-provider.jpg.md)
+            ![Search Razorpay in Payment Providers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/search-razorpay-payment-provider.jpg.md)
          4. Scroll down to the bottom and click the **Uninstall** button to remove the app from your Shopify store.
-            ![Uninstall the app](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/uninstall-app.jpg.md)
+            ![Uninstall the app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/uninstall-app.jpg.md)
          This will successfully uninstall the selected Razorpay payment app from your Shopify store.
         
 
     
 ### 7. Our Payment Gateway stopped displaying after migrating to Shopify. How can we reactivate it?
 
-         After migrating your website to Shopify, you need to integrate with the official Shopify 1 Razorpay plugin, as your previous Payment Gateway integration from the old platform will not be carried over. Follow the [integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps.md) and once activated, your payment gateway will be displayed at checkout, allowing you to accept payments.
+         After migrating your website to Shopify, you need to integrate with the official Shopify 1 Razorpay plugin, as your previous Payment Gateway integration from the old platform will not be carried over. Follow the [integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps.md) and once activated, your payment gateway will be displayed at checkout, allowing you to accept payments.
         
 
 ## Checkout and Payment Issues
@@ -99,7 +99,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
          2. Navigate to **Settings** → **Payments**. Click **Manage on Razorpay Secure**.
          3. Go to **Deactivate Razorpay Secure** and click **Uninstall Razorpay Secure**. This uninstalls the Razorpay Secure app. 
 
-         Follow the [build integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps/#1-build-integration.md) steps to install the plugin again. 
+         Follow the [build integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps.md#1-build-integration) steps to install the plugin again. 
 
          
 > **WARN**
@@ -116,7 +116,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 9. Why is my Shopify checkout showing only Razorpay Direct (cards) instead of all payment methods?
 
-         You might have only integrated with Razorpay Direct - Credit Card Plugin, which supports card payments only. To accept UPI, Netbanking, Wallets and Cards at checkout, you need to [integrate with 1 Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps.md), which is Razorpay's full payment gateway app for Shopify.
+         You might have only integrated with Razorpay Direct - Credit Card Plugin, which supports card payments only. To accept UPI, Netbanking, Wallets and Cards at checkout, you need to [integrate with 1 Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps.md), which is Razorpay's full payment gateway app for Shopify.
         
 
     
@@ -137,7 +137,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 11. How can I test a payment for Razorpay Secure on the Shopify store?
 
-         You can test a payment for Razorpay Secure on the Shopify store by switching to test mode. Know more about [how to test a transaction in test mode.](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps/#21-make-a-test-transaction-in-test-mode.md)
+         You can test a payment for Razorpay Secure on the Shopify store by switching to test mode. Know more about [how to test a transaction in test mode.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps.md#21-make-a-test-transaction-in-test-mode)
             
 > **INFO**
 >
@@ -175,7 +175,7 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 14. Can I integrate a second Razorpay account with my Shopify store?
 
-         No, Shopify currently supports only one Razorpay account integration per store. If you want to integrate a different Razorpay account, you need to [deactivate](#6-how-do-i-uninstall) the existing integration first and then [activate](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps.md) the new account.
+         No, Shopify currently supports only one Razorpay account integration per store. If you want to integrate a different Razorpay account, you need to [deactivate](#6-how-do-i-uninstall) the existing integration first and then [activate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify-razorpay-secure/integration-steps.md) the new account.
         
 
     
@@ -209,4 +209,4 @@ description: Troubleshoot common errors and find answers to frequently asked que
     
 ### 19. How do I integrate Meta Pixel to accept payments through Meta Ads?
 
-         Razorpay does not provide a direct plugin integration for accepting payments through Meta Ads. However, you can use Razorpay Payment Pages with [Facebook Pixel and Google Tracking ID](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-pages/plugins-add-ons.md) to track payments and conversions from your Ad campaigns.
+         Razorpay does not provide a direct plugin integration for accepting payments through Meta Ads. However, you can use Razorpay Payment Pages with [Facebook Pixel and Google Tracking ID](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/plugins-add-ons.md) to track payments and conversions from your Ad campaigns.

@@ -33,23 +33,23 @@ Payment via bank transfers is useful for:
 To create Payment Links with Bank Transfer as a payment method:
 
 1. Create a Payment Link and send them to your customers using 
-    [ Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/create.md) or [Bulk Upload feature](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/batch.md).
+    [ Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/create.md) or [Bulk Upload feature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/batch.md).
 1. Each Payment Link will have a designated Customer Identifier. This Customer Identifier has an account number and IFSC associated with it. 
 1. Customers open the Payment Link and select **Bank Transfer** as the payment method.
     
-   ![Payment Links - select bank transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-bank_transfer.gif.md)
+   ![Payment Links - select bank transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-bank_transfer.gif.md)
    
 1. Customers copy the account number and IFSC number provided at Checkout and make an NEFT or RTGS transfer to the mentioned Customer Identifier.
     
-   ![Bank transfer on Payment Links checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-links-bank_transfer_checkout.jpg.md)
+   ![Bank transfer on Payment Links checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-links-bank_transfer_checkout.jpg.md)
    
 1. The amount is transferred to the designated Customer Identifier. Later, based on your settlement schedule, we will settle the net amount (payment minus fees and tax) to your bank account.
 1. You can view the payment under the **Transactions** → **Payments** tab on the Dashboard.
 
 ### Related Information
 
-- [Bank Transfer FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-links/faqs/#bank-transfer.md)
+- [Bank Transfer FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-links/faqs.md#bank-transfer)
 
-- [Bank Transfer as a Payment Method](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/bank-transfer.md)
+- [Bank Transfer as a Payment Method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bank-transfer.md)
 
-- [About Customer Identifiers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect.md)
+- [About Customer Identifiers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect.md)

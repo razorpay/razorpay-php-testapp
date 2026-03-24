@@ -5,11 +5,11 @@ description: Integrate Smart Collect 2.0 using Razorpay APIs.
 
 # Smart Collect 2.0 APIs
 
-Smart Collect 2.0, which is an upgraded version of [Smart Collect](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect.md) , offers additional APIs which enables you to create Customer Identifiers with Bank Account and VPA Receiver, add VPA Receiver to existing Customer Identifier, and fetch payments made using UPI. 
+Smart Collect 2.0, which is an upgraded version of [Smart Collect](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect.md) , offers additional APIs which enables you to create Customer Identifiers with Bank Account and VPA Receiver, add VPA Receiver to existing Customer Identifier, and fetch payments made using UPI. 
 
-Open a Current account or an Escrow account to start using [Smart Collect 2.0](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect.md).
+Open a Current account or an Escrow account to start using [Smart Collect 2.0](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect.md).
 
-Fork the Razorpay Postman Public Workspace and try the Smart Collect APIs using your [Test API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md).
+Fork the Razorpay Postman Public Workspace and try the Smart Collect APIs using your [Test API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/folder/12492020-9fd01f11-0b59-4e97-a281-40f4b14277ec)
 
@@ -20,7 +20,7 @@ Fork the Razorpay Postman Public Workspace and try the Smart Collect APIs using 
 > 
 > - **Smart Collect 2.0** offers all the existing functionalities of **Smart Collect** and uses the same **Smart Collect** API endpoints, in addition to the new APIs listed on this page.
 > 
-> - Use [Smart Collect TPV](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/smart-collect-tpv.md)  APIs to **Add an Allowed Payer** or **Delete an Allowed Payer**
+> - Use [Smart Collect TPV](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/smart-collect-tpv.md)  APIs to **Add an Allowed Payer** or **Delete an Allowed Payer**
 > 
 > 
 
@@ -34,9 +34,9 @@ Fork the Razorpay Postman Public Workspace and try the Smart Collect APIs using 
 
 ### Related Guides
 
-[About Smart Collect 2.0](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/smart-collect.md)
-[Set Up Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md)
-[Webhook Payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/smart-collect.md)
+[About Smart Collect 2.0](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect.md)
+[Set Up Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)
+[Webhook Payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/smart-collect.md)
 
 ### Endpoints
 

@@ -34,12 +34,12 @@ To claim an instant reimbursement:
 8. Upload supporting documents or images (required if attachments are made compulsory in the settings by the administrator).
 9. Click **Request Reimbursement** to submit.
 
-![Request reimbursements on Payroll Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payroll-employees-reimbursements.jpg.md)
+![Request reimbursements on Payroll Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payroll-employees-reimbursements.jpg.md)
 
 After submission, your reimbursement request is automatically approved. 
 
 You can click **View Past Requests** to track your instant reimbursement requests made in the past. The approved amount shall be credited with your next salary, though instant reimbursements might be processed faster as per company policy. 
 
 ### Related Information
-- [Employee Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees.md)
-- [IT Declarations](@/Applications/MAMP/htdocs/new-docs/llm-content/payroll/employees/declarations.md)
+- [Employee Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees.md)
+- [IT Declarations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payroll/employees/declarations.md)

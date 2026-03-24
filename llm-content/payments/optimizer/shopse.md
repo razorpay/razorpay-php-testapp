@@ -32,9 +32,9 @@ Follow the steps below to onboard ShopSe as a payment provider.
 
         1. Log in to your Dashboard and click **Optimizer**.
         2. In the **Payment Provider** section, click **Add Provider**. 
-        3. Navigate to the **Cardless EMI only** section and click **ShopSe**. ![Add ShopSe payment provider in Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-shopse-provider.jpg.md)
-        4. Enter your **Provider Details**. ![Add ShopSe payment provider in Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-shopse-provider-details.jpg.md)
-        5. Enter your **ShopSe Production API Details** and click **Submit**. ![Add ShopSe production API details in Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-shopse-prod-api.jpg.md)
+        3. Navigate to the **Cardless EMI only** section and click **ShopSe**. ![Add ShopSe payment provider in Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-shopse-provider.jpg.md)
+        4. Enter your **Provider Details**. ![Add ShopSe payment provider in Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-shopse-provider-details.jpg.md)
+        5. Enter your **ShopSe Production API Details** and click **Submit**. ![Add ShopSe production API details in Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-shopse-prod-api.jpg.md)
 
         You have successfully added ShopSe as a payment provider on Optimizer.
         
@@ -47,16 +47,16 @@ Follow the steps below to onboard ShopSe as a payment provider.
     
             1. Log in to your Dashboard and click **Optimizer**.
             2. Click **+ Add New Rule**.
-                ![Add shopse rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-simpl-rule.jpg.md)
+                ![Add shopse rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-simpl-rule.jpg.md)
             3. Enter the **Rule Name** and **Rule Description**. Click **Next**.
-                ![Add shopse](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-add-rule-name-desc.jpg.md)
+                ![Add shopse](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-add-rule-name-desc.jpg.md)
             4. Select the rule conditions as follows and click **Next**:
                 - **When** - `Cardless EMI Provider`.
                 - **is** - `Equal to`.
                 - `ShopSe`.
-                ![Add shopse](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-shopse-rule-conditions.jpg.md) 
-            5. In the **Route** field, enter **100**, and select **shopse** in the **payment via** field. Click **Next**. ![Add shopse](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-shopse-priority-route.jpg.md) 
-            6. Click **Publish Rule**. ![Add shopse](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/optimizer-shopse-publish-rule.jpg.md) 
+                ![Add shopse](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-shopse-rule-conditions.jpg.md) 
+            5. In the **Route** field, enter **100**, and select **shopse** in the **payment via** field. Click **Next**. ![Add shopse](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-shopse-priority-route.jpg.md) 
+            6. Click **Publish Rule**. ![Add shopse](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/optimizer-shopse-publish-rule.jpg.md) 
 
             All transactions will now be routed via ShopSe.
         

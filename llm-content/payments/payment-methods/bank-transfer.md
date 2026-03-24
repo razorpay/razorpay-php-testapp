@@ -8,7 +8,7 @@ description: Offer bank transfer as a payment method to customers at Razorpay Ch
 
 Accept payments from customers using online bank transfers at Razorpay Checkout.
 
-![Checkout screen with Bank Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pm-checkout-bank-transfer.jpg.md)
+![Checkout screen with Bank Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pm-checkout-bank-transfer.jpg.md)
 
   
 ### On-Demand Feature - Raise a Request
@@ -24,7 +24,7 @@ Accept payments from customers using online bank transfers at Razorpay Checkout.
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -57,7 +57,7 @@ You can choose:
 > 
 > **Watch Out!**
 > 
-> All bank transfer payments are auto-captured. [Manual capture](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payments/capture-settings#manually-capture-payments.md) of payments is not supported.
+> All bank transfer payments are auto-captured. [Manual capture](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md#manually-capture-payments) of payments is not supported.
 > 
 
 ## Method 1: Create New Customer Identifier Per Order
@@ -66,7 +66,7 @@ This creates a new Customer Identifier per order, every time a customer selects 
 
 #### Integration
 
-The bank transfer payment method will appear for the [Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md) and products such as Payment Links and Payment Pages.
+The bank transfer payment method will appear for the [Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md) and products such as Payment Links and Payment Pages.
 
 > **INFO**
 >
@@ -81,7 +81,7 @@ Apart from enabling this feature on your account, complete the following steps t
   
 ### Step 1: Track Checkout Modal Using `ondismiss` Function
 
-     If you have integrated with [Razorpay Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md), you must implement the `ondismiss` function to track the lifecycle of the Checkout modal. This displays the `close` icon, which the customer can use to exit the Checkout.
+     If you have integrated with [Razorpay Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md), you must implement the `ondismiss` function to track the lifecycle of the Checkout modal. This displays the `close` icon, which the customer can use to exit the Checkout.
 
       
 > **INFO**
@@ -89,7 +89,7 @@ Apart from enabling this feature on your account, complete the following steps t
 > 
 >       **Handy Tips**
 > 
->       If you are using [Android SDK](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard.md), you can rely on the "payment cancelled by user" error response to track the lifecycle of the Checkout modal.
+>       If you are using [Android SDK](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard.md), you can rely on the "payment cancelled by user" error response to track the lifecycle of the Checkout modal.
 >       
 
       ```js: ondismiss function
@@ -119,7 +119,7 @@ Apart from enabling this feature on your account, complete the following steps t
   
 ### Step 3: Subscribe to Webhook Event
 
-   You must subscribe to the `virtual_account.credited` webhook event on the Dashboard to receive notifications whenever customers make payments using bank transfers. Know how to [set up webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/setup-edit-payments.md).
+   You must subscribe to the `virtual_account.credited` webhook event on the Dashboard to receive notifications whenever customers make payments using bank transfers. Know how to [set up webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md).
 
         **Sample Payload**
 
@@ -224,7 +224,7 @@ This ensures that each customer will be allocated a unique Customer Identifier, 
 
 #### Integration
 
-The bank transfer payment method will appear for the [Payment Gateway](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard.md) and products such as Payment Links and Payment Pages.
+The bank transfer payment method will appear for the [Payment Gateway](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md) and products such as Payment Links and Payment Pages.
 
 > **INFO**
 >
@@ -300,7 +300,7 @@ Apart from enabling this feature on your account, you must implement the followi
   
 ### Step 4: Track Checkout Modal Using `ondismiss` Function
 
-   (Only if you are using [Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/standard/#manual.md))
+   (Only if you are using [Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md#manual))
 
     If you have integrated with Razorpay Standard Checkout, you must implement the `ondismiss` function to track the lifecyle of the Checkout modal. This displays the `close` icon, which the customer can use to exit the Checkout.
 
@@ -331,7 +331,7 @@ Apart from enabling this feature on your account, you must implement the followi
   
 ### Step 6: Subscribe to Webhook Event
 
-    You must subscribe to the `virtual_account.credited` webhook event on the Dashboard to receive notifications whenever customers make payments using bank transfers. Know how to [setup webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/#set-up-webhooks.md).
+    You must subscribe to the `virtual_account.credited` webhook event on the Dashboard to receive notifications whenever customers make payments using bank transfers. Know how to [setup webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md#set-up-webhooks).
 
     **Sample Payload**
 
@@ -433,5 +433,5 @@ Apart from enabling this feature on your account, you must implement the followi
 
 ### Related Information
 
-- [Hosted Integration for Bank Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/bank-transfer/hosted-integration.md)
-- [Custom Integration for Bank Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/bank-transfer/custom-integration.md)
+- [Hosted Integration for Bank Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bank-transfer/hosted-integration.md)
+- [Custom Integration for Bank Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bank-transfer/custom-integration.md)

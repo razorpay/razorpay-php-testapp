@@ -35,7 +35,7 @@ This allows businesses to give role-based or store-specific access as per their 
 To create a new user:
 
 1. Under **Manage** section, click **User Access**. The **Add User** page appears.
-    ![Create New Users](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/user-access-page.jpg.md)
+    ![Create New Users](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/user-access-page.jpg.md)
 2. Select your store from the **Select Stores** dropdown.
 3. Enter the email, phone and password for the new user.
 4. Select the check boxes against the features you want to provide access for this user.

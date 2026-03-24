@@ -9,8 +9,8 @@ description: Provide additional support to your customer in case of payment diff
 
 Exception | Solution | What it does
 ---
-Amount debited though the payment has failed | [Payment Capture Settings](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/rainy-day/capture-settings.md) | Allows you to better deal with 'Money debited but Payment Failed' scenarios.
+Amount debited though the payment has failed | [Payment Capture Settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/rainy-day/capture-settings.md) | Allows you to better deal with 'Money debited but Payment Failed' scenarios.
 ---
-No communication of payment method unavailability | [Payment Downtime Notifications](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/rainy-day/downtime.md) | Sends instant alerts when a particular payment method is down.
+No communication of payment method unavailability | [Payment Downtime Notifications](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/rainy-day/downtime.md) | Sends instant alerts when a particular payment method is down.
 ---
-Errors during the payment process | [Payment Error Codes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/rainy-day/errors.md) | Helps you identify the exact cause of payment error.
+Errors during the payment process | [Payment Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/rainy-day/errors.md) | Helps you identify the exact cause of payment error.

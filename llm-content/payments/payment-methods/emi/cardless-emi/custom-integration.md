@@ -61,8 +61,8 @@ You will receive the entire payment amount from the cardless EMI service provide
 ## Prerequisites
 
 - Keep the API keys (a combination of `Key_Id` and `Key_Secret`) handy for integration. 
-- [Generate API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) from the Dashboard.
-- Have [Razorpay Custom Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/web-integration/custom.md) integrated on your website or app.
+- [Generate API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) from the Dashboard.
+- Have [Razorpay Custom Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom.md) integrated on your website or app.
 
 ## Integration Steps
 

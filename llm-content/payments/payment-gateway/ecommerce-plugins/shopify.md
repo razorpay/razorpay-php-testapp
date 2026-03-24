@@ -16,7 +16,7 @@ Razorpay Shopify integration allows you to accept payments on your Shopify store
 
 - Create a [Razorpay account](https://dashboard.razorpay.com/signup).
 - Sign up for a [Shopify account](https://www.shopify.in).
-- [Ensure that your website](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify/faqs/#18-i-am-getting-the-following-error-message.md) is reviewed before initiating integration with Shopify.
+- [Ensure that your website](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify/faqs.md#18-i-am-getting-the-following-error-message) is reviewed before initiating integration with Shopify.
 - A Razorpay Account with access to the account owner’s credentials. (Only owners can connect Razorpay with Shopify, and API keys are not required for integration.)
 
   - **Video Tutorial**: Watch the video before you start integrating Razorpay Payment Gateway with your Shopify website using our 1 Razorpay App.
@@ -29,7 +29,7 @@ Razorpay Shopify integration allows you to accept payments on your Shopify store
 > 
 > **Watch Out!**
 > 
-> Follow the [migration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify/migration-steps/#migration-steps.md) and upgrade to the **1 Razorpay** App if you integrated with the Shopify store before 28th April 2022. This is to prevent payment failures.
+> Follow the [migration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins/shopify/migration-steps.md#migration-steps) and upgrade to the **1 Razorpay** App if you integrated with the Shopify store before 28th April 2022. This is to prevent payment failures.
 > 
 > 
 
@@ -61,4 +61,4 @@ Payment Gateway | Route | Subscriptions
 
 ### Related Information
 
-[Address Verification System](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/address-verification-system.md)
+[Address Verification System](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/address-verification-system.md)

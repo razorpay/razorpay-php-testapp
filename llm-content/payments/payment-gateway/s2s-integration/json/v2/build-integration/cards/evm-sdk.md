@@ -57,7 +57,7 @@ Razorpay will provide a ready-to-use 3DS 2 SDK certified by **EMVCo**. You may u
 
 ### 1. Pass Additional Parameter in Create a Payment API request
 
-Pass the following additional parameter in the Create a Payment API request apart from the [existing parameters](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards/browser.md).
+Pass the following additional parameter in the Create a Payment API request apart from the [existing parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/build-integration/cards/browser.md).
 
 ```curl: Curl
 curl -X POST \
@@ -508,7 +508,7 @@ Given below is the SDK call to be made to collect 3DS 2 device information:
 ### 5. Verify Payment Status on Razorpay Server
 
 You can use your existing integration to verify payment status. Such as:
-1. [Poll Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md) to check the payment status. This API needs to be hit in a cron job, as payment will get authorized once this API is hit for the first time. And the payment status change will show up on subsequent calls.
+1. [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments) to check the payment status. This API needs to be hit in a cron job, as payment will get authorized once this API is hit for the first time. And the payment status change will show up on subsequent calls.
 2. Listening to payment callback events or webhooks.
 
 ## Changes Required for Frictionless Flow

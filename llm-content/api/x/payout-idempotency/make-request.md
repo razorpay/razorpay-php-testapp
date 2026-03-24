@@ -181,15 +181,15 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 `status`
 : `string` The status of the payout. Possible payout states:
     - `queued`
-    - `pending` (if you have [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) enabled)
-    - `rejected` (if you have [Approval Workflow](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams/approval-workflow.md) enabled)
+    - `pending` (if you have [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) enabled)
+    - `rejected` (if you have [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) enabled)
     - `processing`
     - `processed`
     - `cancelled`
     - `reversed`
     - `failed` 
     
-    Know more about [Payout statuses](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/states-life-cycle.md) and [Payout Status Details](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md).  
+    Know more about [Payout statuses](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md) and [Payout Status Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md).  
 
 `utr`
 : `string` The unique transaction number linked to a payout. For example, `HDFCN00000000001`.
@@ -237,7 +237,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
         - `internal`: Technical error at Razorpay's server.
 
     `reason`
-    : `string` The error reason. For example, `imps_not_allowed`. [Payout Status Details and Next Steps](@/Applications/MAMP/htdocs/new-docs/llm-content/errors/x/payout-status-details.md).
+    : `string` The error reason. For example, `imps_not_allowed`. [Payout Status Details and Next Steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md).
 
 `created_at`
 : `integer` Indicates the Unix timestamp when this order was created.

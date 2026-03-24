@@ -15,7 +15,7 @@ The **Engage** suite encompasses 2 primary product categories -  **Engage Retent
 
 ## Engage Retention Engine
 
-The [Engage Retention Engine](@/Applications/MAMP/htdocs/new-docs/llm-content/engage/retention-engine.md) consists of 2 sub-products, Wallets and Loyalty Rewards, which operate by crediting redeemable loyalty points to customer wallets. It is a customer retention mechanism wherein the system automatically creates digital wallets at first purchase and credits loyalty points for each transaction to retain customers.
+The [Engage Retention Engine](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/engage/retention-engine.md) consists of 2 sub-products, Wallets and Loyalty Rewards, which operate by crediting redeemable loyalty points to customer wallets. It is a customer retention mechanism wherein the system automatically creates digital wallets at first purchase and credits loyalty points for each transaction to retain customers.
 
 ### How Retention Engine Works
 

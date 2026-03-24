@@ -42,8 +42,8 @@ Before you go live with Simpl on Optimizer, add PayLater as a payment method on 
 
          1. On the Razorpay Dashboard, navigate to **Account & Settings**.
          2. Select **PayLater** from the list of **payment methods**.
-         3. Look for **Simpl** and click **Request**. Know more about [how to request for a payment method](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/payment-methods#request-for-payment-methods.md).
-            ![paylater simpl request](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/simpl-paylatr-req.jpg.md)
+         3. Look for **Simpl** and click **Request**. Know more about [how to request for a payment method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/payment-methods.md#request-for-payment-methods).
+            ![paylater simpl request](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/simpl-paylatr-req.jpg.md)
 
          Once you complete the above steps, Simpl appears on your Razorpay Checkout.
         
@@ -58,12 +58,12 @@ Before you go live with Simpl on Optimizer, add PayLater as a payment method on 
             2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
             3. In the top-right section, click **Add Provider**.
             4. Select **Simpl** in the list of gateways available.
-                ![Add simpl](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-simpl.jpg.md)
+                ![Add simpl](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-simpl.jpg.md)
             5. Enter the provider name and description and click **Next**.
-                ![simpl Add Provider Name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/simpl-provider-name.jpg.md)
+                ![simpl Add Provider Name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/simpl-provider-name.jpg.md)
             6. Enter your **Gateway Terminal Id**.
             7. Select **Simpl** from the Paylaters dropdown under the payment method section, and click Submit.
-                ![Add Key simpl](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-terminal-id-simpl.jpg.md)
+                ![Add Key simpl](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-terminal-id-simpl.jpg.md)
             You have successfully added **Simpl** as a payment provider on Optimizer.
         
 
@@ -76,9 +76,9 @@ Before you go live with Simpl on Optimizer, add PayLater as a payment method on 
             1. Log in to your Dashboard. 
             2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
             3. Click **+ Add New Rule**.
-                ![Add simpl rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-simpl-rule.jpg.md)
+                ![Add simpl rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-simpl-rule.jpg.md)
             4. Enter the **Rule Name** and **Rule Description**, then click **Next**.
-                ![Add simpl](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-simpl-rule-name-desc.jpg.md)
+                ![Add simpl](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-simpl-rule-name-desc.jpg.md)
             5. Select the rule conditions as follows:
                 - **When** - Select `Payment Method`.
                 - **is** - Select `Equal to`.
@@ -87,12 +87,12 @@ Before you go live with Simpl on Optimizer, add PayLater as a payment method on 
                 - **When** - Select `PayLater Provider`.
                 - **is** - Select `Equal to`.
                 - **Select Comparing Value** - Select `Simpl Pay in 3`.
-                ![Add simpl](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-simpl-rule-conditions.jpg.md)
+                ![Add simpl](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-simpl-rule-conditions.jpg.md)
             7. Click **Next**.
             8. In the **Route** section, enter **100**, select **Simpl** in the **Payment Via** section, and click **Next**.
-                ![Add simpl](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-simpl-target-provider.jpg.md)
+                ![Add simpl](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-simpl-target-provider.jpg.md)
             9. Click **Publish Rule**.
-                ![Add simpl](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/simpl-publish-rule.jpg.md)
+                ![Add simpl](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/simpl-publish-rule.jpg.md)
 
             All transactions will now be routed via Simpl.
         

@@ -40,7 +40,7 @@ To view settlements:
 2. Click the **Settlements** from the left pane and then click the relevant **Settlement Id**.
 
 ### Related Information
-- [Route](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route.md)
-- [Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account.md)
-- [Initiate Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/initiate-refund.md)
-- [Manage Profile and Team](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/manage-profile.md)
+- [Route](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route.md)
+- [Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md)
+- [Initiate Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/initiate-refund.md)
+- [Manage Profile and Team](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/manage-profile.md)

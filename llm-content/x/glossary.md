@@ -28,7 +28,7 @@ Compliance | **Compliance** is a set of rules and regulations prescribed by the 
 ---
 `.csv` file | **CSV** refers to **Comma-Separated Values**. CSV file format is a plain text format in which values are separated by commas and saved with extension `.csv`. It can be opened in a text editor like Notepad or MS Excel. A `.csv` file consumes less memory than Excel but does not contain formatting, formulae, macros, etc.
 ---
-Current Account | A **Current Account** is a non-interest-bearing bank account, mainly used to service the needs of businesses. A RazorpayX powered Current account is opened in partnership with RBL/Yes Bank/ICICI bank and offers all standard banking features like cheque book, debit card and account statement. Know about [Current Account](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/current-account.md).
+Current Account | A **Current Account** is a non-interest-bearing bank account, mainly used to service the needs of businesses. A RazorpayX powered Current account is opened in partnership with RBL/Yes Bank/ICICI bank and offers all standard banking features like cheque book, debit card and account statement. Know about [Current Account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/current-account.md).
 ---
 Dashboard | A **dashboard** is a way of displaying various types of related information for a user in one place in the system.
 ---
@@ -81,9 +81,9 @@ P2P | **P2P transaction** is one where individuals directly transact business or
 RazorpayX Account | **RazorpayX Account** is a Current Account used for business transactions. Currently, there are two types of accounts: 
 • RazorpayX Lite
  • Current Account 
-Know more about [RazorpayX Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types.md). 
+Know more about [RazorpayX Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types.md). 
 ---
-RazorpayX Lite | **RazorpayX Lite** is a digital account created in RazorpayX for businesses to start accepting payments or make payouts within a short span of time. Know more about [RazorpayX Lite](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-types/razorpayx-lite.md).
+RazorpayX Lite | **RazorpayX Lite** is a digital account created in RazorpayX for businesses to start accepting payments or make payouts within a short span of time. Know more about [RazorpayX Lite](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-types/razorpayx-lite.md).
 ---
 RTGS | **Real Time Gross Settlement** or RTGS is also a form of money transfer routed via RBI by the banks. Unlike NEFT, transactions made using this method are settled instantly. It can be used only when the minimum amount to be transferred is ₹2,00,000/- or more.
 ---
@@ -124,9 +124,9 @@ Allowlist | **Allowlist** is a cybersecurity system that permits only an approve
 ---
 API | **Application Protocol Interface** or API is a software intermediary that translates user input into data which helps the system send back the right response. It allows two applications to communicate with each other.
 ---
-Contact | A **Contact** is an entity to whom payouts are made. [Contacts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts/#contacts.md) have certain identification properties such as name, email id and phone number. To make a payout to a contact, you must add a fund account to the contact.
+Contact | A **Contact** is an entity to whom payouts are made. [Contacts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md#contacts/) have certain identification properties such as name, email id and phone number. To make a payout to a contact, you must add a fund account to the contact.
 ---
-Fund Account | **Fund Account** is an entity to which payouts can be made. Currently, RazorpayX supports three types of [fund accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts/#fund-accounts.md):
+Fund Account | **Fund Account** is an entity to which payouts can be made. Currently, RazorpayX supports three types of [fund accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md#fund-accounts/):
 • **Bank Account**: Make payouts to a Contact's bank account via bank transfer using one of the available Payout Modes such as NEFT, UPI or IMPS.
  • **Cards** : Make payouts directly to a Contact's card via a bank transfer using one of the available Payout Modes such as NEFT, UPI or IMPS.
 • **VPA** (Virtual Payment Address): Make payouts to a Contact's VPA via a UPI transfer.
@@ -193,7 +193,7 @@ TDS | **Tax Deducted at Source or TDS** is an income tax component that you need
  TDS = ₹5,000 x 7.5% 
  TDS = ₹375
 
-Know more about tax payment [here](@/Applications/MAMP/htdocs/new-docs/llm-content/x/tax-payments.md).
+Know more about tax payment [here](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/tax-payments.md).
 ---
 
 ## Accounting and RazorpayX Integrations
@@ -219,6 +219,6 @@ Zoho Books | **Zoho Books** is a financial platform that enables you to create i
 
 ### Related Information
 
-- [About RazorpayX](@/Applications/MAMP/htdocs/new-docs/llm-content/x.md)
-- [Test Mode](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/test-mode.md)
-- [Contacts and Fund Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts.md)
+- [About RazorpayX](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x.md)
+- [Test Mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/test-mode.md)
+- [Contacts and Fund Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md)

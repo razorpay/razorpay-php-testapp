@@ -29,13 +29,13 @@ Razorpay Route simplifies complex payment flows by enabling you to easily split 
 
 ## Prerequisites
 
-You should add Linked Accounts using the [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account#add-and-manage-linked-accounts.md) or [APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/route/create-linked-account.md) before using Route.
+You should add Linked Accounts using the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md#add-and-manage-linked-accounts) or [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/route/create-linked-account.md) before using Route.
 
 ## How Route Works
 
 Given below is the funds flow in Route:
 
-![Route Flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route_flow.gif.md)
+![Route Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route_flow.gif.md)
 
 1. A customer makes a purchase on your site.
 2. You can choose to:
@@ -49,10 +49,10 @@ Given below is the funds flow in Route:
 To get started with Route:
 
 1. Log in to the Dashboard and click **Route** under **PAYMENT PRODUCTS**.
-1. After log in, you should add linked accounts to start using Route. Refer to the [Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account.md) page for more information.
-1. Once Linked Accounts are added, you can then start creating transfers to those accounts. Refer to the [Transfer Funds to Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md) page for more information.
+1. After log in, you should add linked accounts to start using Route. Refer to the [Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md) page for more information.
+1. Once Linked Accounts are added, you can then start creating transfers to those accounts. Refer to the [Transfer Funds to Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md) page for more information.
 
-Explore the [Route Use Cases](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/use-cases.md) to gain insights into the practical applications of Route.
+Explore the [Route Use Cases](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/use-cases.md) to gain insights into the practical applications of Route.
 
 ### Supported Platforms
 
@@ -75,7 +75,7 @@ Route is supported on the following platforms:
 
 ### Related Information
 
-- [Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account.md)
-- [Transfer Funds to Linked Accounts](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md)
-- [Initiate Refund](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account/initiate-refund.md)
-- [Reports](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/view-reports.md)
+- [Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md)
+- [Transfer Funds to Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md)
+- [Initiate Refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account/initiate-refund.md)
+- [Reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/view-reports.md)

@@ -11,7 +11,7 @@ Follow these steps to integrate the Razorpay Magic Checkout on your React Native
 #### Prerequisites
 
 - Create a Razorpay account.
-- Generate [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/#api-keys.md) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
+- Generate [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings.md#api-keys) from the Dashboard. To go live with the integration and start accepting real payments, generate Live Mode API Keys and replace them in the integration.
 
   - **1. Build Integration**:  Integrate with React Native iOS App.
 
@@ -62,18 +62,18 @@ Follow the steps given below:
      
      1. Log in to the Dashboard and navigate to **Magic Checkout**.  
      2. In the **Platform Setup**, select **Custom E-Commerce Platform** from the drop-down list and click **Next**.
-         ![Choose custom platform](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-custom-platform.jpg.md)
+         ![Choose custom platform](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-custom-platform.jpg.md)
      3. In the **Setup & Settings** section, click **Checkout Settings**. 
      4. In the **Coupon Settings** section, enter the following:
         1. **URL for get promotions**: The API URL should return a list of promotions applicable to the specified order_id and customer. Magic Checkout uses this endpoint to fetch these promotions from your server and display them to your customers in the checkout modal.
         2. **URL for apply promotions**: The API URL validates the promotion code applied by the customer and should return the discount amount. Magic Checkout uses this endpoint to apply promotions via your server.
      5. Click **Save settings**.
-        ![Add promotion URLs](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-web-promo-url.jpg.md)
+        ![Add promotion URLs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-web-promo-url.jpg.md)
      6. Navigate to **Shipping Setup**.
      7. Select **API** as the Shipping Service type from the drop-down list.
      8. Enter the **URL for shipping info**. The API URL should return shipping serviceability, COD serviceability, shipping fees and COD fees for a given list of customer addresses. Magic Checkout uses this endpoint to retrieve shipping information from your server. 
      9. Click **Save Settings**.
-        ![Add shipping URL](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/magic-web-shipping-url.jpg.md)
+        ![Add shipping URL](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/magic-web-shipping-url.jpg.md)
     
 
   
@@ -623,4 +623,4 @@ To generate API Keys in Live Mode on your Razorpay Dashboard:
 
 ## Related Information
 
-[React Native: iOS Standard Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/react-native-integration/standard/integration-steps-ios.md)
+[React Native: iOS Standard Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/react-native-integration/standard/integration-steps-ios.md)

@@ -178,11 +178,11 @@ rzpInstance.on('mx-analytics', function (data) {
 > 
 > **Handy Tips**
 > 
-> The event names (`begin_checkout`, `add_payment_info` and so on) above are GA4's recommended e-commerce event names. Your platform may use different conventions; refer to your analytics provider's documentation for the correct event taxonomy. This example covers only a subset of events; refer to the [Event Reference](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/web/analytics-event-reference.md) for the complete list.
+> The event names (`begin_checkout`, `add_payment_info` and so on) above are GA4's recommended e-commerce event names. Your platform may use different conventions; refer to your analytics provider's documentation for the correct event taxonomy. This example covers only a subset of events; refer to the [Event Reference](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/web/analytics-event-reference.md) for the complete list.
 > 
 
 ## Next Steps
 
 Once you get the events from Razorpay, you can further integrate and forward the data to required tracking platform (such as GA4, GTM, Meta Ads and so on) by constructing the payload in the format specified by the platform.
 
-For the full list of events, payload schemas and field definitions, see the [Magic Checkout Analytics Event Reference](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/magic-checkout/web/analytics-event-reference.md).
+For the full list of events, payload schemas and field definitions, see the [Magic Checkout Analytics Event Reference](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/magic-checkout/web/analytics-event-reference.md).

@@ -11,12 +11,12 @@ You can choose to settle the dues against all the invoices raised by the vendor 
 ## Partial Payouts
 Partial Payouts feature in RazorpayX enables you to make payouts in small chunks against one or more invoices of the vendor. You can also use Partial Payouts to pay at regular intervals to a vendor. 
 
-Know more about [Partial Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/partial-payouts.md)
+Know more about [Partial Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/partial-payouts.md)
 
  ## Bulk Payouts
 RazorpayX enables you to do bulk payouts against multiple invoices of a vendor in one shot.  You can view the invoices, select the required invoices for payment and pay the entire amount in one go, or schedule it for a later date and time. 
 
-Know more about [Bulk Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/bulk.md)
+Know more about [Bulk Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/bulk.md)
 
 > **INFO**
 >
@@ -35,10 +35,10 @@ Scheduling payouts helps you to:
 - Ensure the due date is not missed. 
 - Be consistent with your payments thereby enhance your business relationship with your vendors.
 
-Know more about [Scheduled Payouts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/vendor-payouts/scheduled-payouts.md)
+Know more about [Scheduled Payouts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/vendor-payouts/scheduled-payouts.md)
  
 ### Related Information
 
-- [Invoices](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/invoices.md)
-- [Advances](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/advances.md)
-- [Purchase Orders](@/Applications/MAMP/htdocs/new-docs/llm-content/x/vendor-payments/purchase-order.md)
+- [Invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/invoices.md)
+- [Advances](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/advances.md)
+- [Purchase Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/vendor-payments/purchase-order.md)

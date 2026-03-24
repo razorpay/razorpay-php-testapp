@@ -33,8 +33,8 @@ webhookBodyNew = JSON.stringify(webhookBody).replace(/\//g, "\\/")
 validateWebhookSignature(webhookBodyNew, webhookSignature, webhookSecret)
 ```
 
-Know more about [Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks.md) and check the [sample payloads](@/Applications/MAMP/htdocs/new-docs/llm-content/webhooks/qr-codes.md).
+Know more about [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) and check the [sample payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/qr-codes.md).
 
 ### Related Information
-- [QR Code States](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/states.md)
-- [QR Code APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/qr-codes/apis.md)
+- [QR Code States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/states.md)
+- [QR Code APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/qr-codes/apis.md)

@@ -13,10 +13,10 @@ You can use Optimizer and comply with the SEBI guidelines for online payment col
 
 ## Prerequisites
 
-1. You need to have an [active Razorpay account](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up.md) with [Optimizer](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/optimizer.md) enabled.
-2. [Generate API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/api/authentication#generate-api-keys.md) required to authenticate API requests sent to Razorpay servers.
-3. Follow [the integration steps](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/#integration-flow.md) to let Razorpay map the customers' bank accounts to ensure the payment is processed only from their registered bank accounts.
-4. Check the [best practices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/best-practices.md).
+1. You need to have an [active Razorpay account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md) with [Optimizer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/optimizer.md) enabled.
+2. [Generate API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys) required to authenticate API requests sent to Razorpay servers.
+3. Follow [the integration steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation.md#integration-flow) to let Razorpay map the customers' bank accounts to ensure the payment is processed only from their registered bank accounts.
+4. Check the [best practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation/best-practices.md).
 5. Write to your Razorpay and external gateway Relationship Manager to enable **TPV feature flag** for the required payment methods.
 6. Ensure you complete the prerequisites of the particular bank or payment gateway before adding it as a provider. 
 
@@ -26,13 +26,13 @@ Given below is an example of how to add BillDesk with TPV support as a payment p
 2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
 3. In the top-right section, click **+ Add provider**.
 4. Select **Billdesk** in the list of gateways available and click **Next**.
-    ![Add Billdesk](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-billdesk2.jpg.md)
+    ![Add Billdesk](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-billdesk2.jpg.md)
 5. Enter the provider name and description and click **Next**.
-    ![Add Billdesk Provider Name](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/billdesk-provider-name-description.jpg.md)
+    ![Add Billdesk Provider Name](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/billdesk-provider-name-description.jpg.md)
 6. Enter your Client ID and Merchant ID.
 7. Select the payment methods and TPV option you want to enable for Billdesk and click **Submit**. 
 
-    ![Add Security ID Billdesk](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-security-id2.jpg.md)
+    ![Add Security ID Billdesk](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-security-id2.jpg.md)
 You have successfully added **Billdesk** as a payment provider and enabled TPV on Optimizer.
 
 ## Supported Bank Gateways, Payment Gateways and Payment Methods
@@ -75,5 +75,5 @@ List of banks and payment gateways supported on Optimizer TPV is given below:
 
 ### Related Information
 
-- [Third Party Validation on Razorpay Standard Integration](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation.md)
-- [Best Practices](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/third-party-validation/best-practices.md)
+- [Third Party Validation on Razorpay Standard Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation.md)
+- [Best Practices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/third-party-validation/best-practices.md)

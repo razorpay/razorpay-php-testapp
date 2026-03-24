@@ -31,9 +31,9 @@ Set up SFTP with RazorpayX to access the previous day’s account statement in a
 
 To setup SFTP in your system:
 
-- **Express interest**: [Write to RazorpayX Support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support/#razorpayx-users.md) with your registered email ID to initiate the SFTP request. Upon receiving your request, we will work with the bank to setup account statement for you.
+- **Express interest**: [Write to RazorpayX Support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md#razorpayx-users) with your registered email ID to initiate the SFTP request. Upon receiving your request, we will work with the bank to setup account statement for you.
 
-- **Install file access tool**: Install a File Access tool in a trusted system. Ensure that only authorized personnel use this file access software to access SFTP files. You can use any File Access Tool. We recommend [FileZilla](@/Applications/MAMP/htdocs/new-docs/llm-content/x/account-statement/sftp/#setup-filezilla.md).
+- **Install file access tool**: Install a File Access tool in a trusted system. Ensure that only authorized personnel use this file access software to access SFTP files. You can use any File Access Tool. We recommend [FileZilla](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/account-statement/sftp.md#setup-filezilla).
 
 - **Generate public-private key pair**: You will be authenticated for accessing SFTP files through a public-private key mechanism. Generate these keys in your system that are used to access the account statement. Store the private key securely and do not share with anyone. 
 
@@ -61,8 +61,8 @@ If you choose to use FileZilla, you can follow the steps given below:
              - **User**: Username shared by RazorpayX
              - **Key file**: File path to the private key on your system
 
-             ![Setup SFTP](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/x-account-statement-sftp.jpg.md)
+             ![Setup SFTP](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/x-account-statement-sftp.jpg.md)
              
          7. Click **Connect**. You will be able to see all the files in your SFTP folder. You will receive a new account statement file everyday around 9 AM in this folder for the transactions done on the previous day. 
 
-         If you face any problems setting up SFTP on your system, [contact support](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md).
+         If you face any problems setting up SFTP on your system, [contact support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md).

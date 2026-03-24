@@ -82,7 +82,7 @@ Settle amounts **up to ₹5 Crores** through **Instant Settlement** feature via 
         3. Click **Settle Now** to go to the **Instant Settlements** window.
         4. Your current balance, maximum daily withdrawal limit and the current withdrawable amount are displayed. Enter the amount you want to settle to your bank account.
 
-            ![Instant Settlement](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/IS1.jpg.md)
+            ![Instant Settlement](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/IS1.jpg.md)
 
         4. Click **Next**. A pop-up showing **Instant Settlement** opens. 
          The fees + tax for the Instant Settlement and the net amount that will be credited to your account will be displayed in the pop up.
@@ -92,7 +92,7 @@ Settle amounts **up to ₹5 Crores** through **Instant Settlement** feature via 
         
     
     
-            Create and retrieve Instant Settlements requests using APIs. Refer to the [list of Instant Settlements APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/settlements/apis/#list-of-settlements-api.md).
+            Create and retrieve Instant Settlements requests using APIs. Refer to the [list of Instant Settlements APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements/apis.md#list-of-settlements-api).
     
 
 ## Initiate Smart Settlements
@@ -107,7 +107,7 @@ Use the **Smart Settlements** feature to settle amounts **between ₹5 Lakhs to 
         The pop-up displays the total fees plus tax for the Instant Settlement, along with the exact net amount that will be credited to your account.
         4. For amounts more than ₹5 Lakhs, the recommended option is Smart Settlements. 
 
-            ![Smart Settlements](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/SS1.jpg.md)
+            ![Smart Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/SS1.jpg.md)
 
         5. Click **Settle Now** after selecting **Smart Settlements**.
         

@@ -87,8 +87,8 @@ The Low Cost EMI calculation is given below:
 
 ### Related Information
 
-- [Create Low Cost EMI Offers from the Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/low-cost-emi/create.md)
-- [Integrate Low Cost EMI Offers with Standard Checkout](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/low-cost-emi/standard-integration.md)
-- [Tutorial: How to Create Low Cost EMI Offers](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/low-cost-emi/tutorial.md)
-- [Low Cost EMI FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/offers/low-cost-emi/faqs.md)
-- [EMI²](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/emi².md)
+- [Create Low Cost EMI Offers from the Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/low-cost-emi/create.md)
+- [Integrate Low Cost EMI Offers with Standard Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/low-cost-emi/standard-integration.md)
+- [Tutorial: How to Create Low Cost EMI Offers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/low-cost-emi/tutorial.md)
+- [Low Cost EMI FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/offers/low-cost-emi/faqs.md)
+- [EMI²](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/emi².md)

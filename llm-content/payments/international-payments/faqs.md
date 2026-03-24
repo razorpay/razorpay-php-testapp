@@ -25,8 +25,8 @@ description: Find answers to frequently asked questions about Razorpay Internati
    
 ### 4. How do I display different currencies (other than INR) on the Razorpay Checkout to my customers?
 
-       - You must get the [international payments feature](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments#application-process.md) enabled on your Razorpay account to accept payments in currencies other than INR. 
-       - The native currencies like USD and SGD, which are a part of the [list of currencies supported by Razorpay](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments#supported-currencies.md), can be updated as a part of the **currency** parameter on the payment request. 
+       - You must get the [international payments feature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#application-process) enabled on your Razorpay account to accept payments in currencies other than INR. 
+       - The native currencies like USD and SGD, which are a part of the [list of currencies supported by Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies), can be updated as a part of the **currency** parameter on the payment request. 
        -  to display any currencies that are not a part of the above list.
       
 
@@ -54,19 +54,19 @@ description: Find answers to frequently asked questions about Razorpay Internati
    
 ### 6. What currencies do you support?
 
-      Razorpay supports more than 100 international currencies. Refer to the list of [supported currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md).
+      Razorpay supports more than 100 international currencies. Refer to the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
      
 
    
 ### 7. Is there a list of Razorpay products that support international payments?
 
-      Yes. Know more about the [products that support](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-products.md) international payments.
+      Yes. Know more about the [products that support](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-products) international payments.
      
 
    
 ### 8. Who handles the currency conversion?
 
-      - [Supported Currencies](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#supported-currencies.md): No currency conversion is required. You can pass the payment amount in the native currency. Know more about [Currency Conversion](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/international-payments/#currency-conversion.md).
+      - [Supported Currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies): No currency conversion is required. You can pass the payment amount in the native currency. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#currency-conversion/).
       - Non-supported Currencies: For the currencies we do not support, you will have to handle conversion at your end and pass it to Razorpay in INR.
      
 

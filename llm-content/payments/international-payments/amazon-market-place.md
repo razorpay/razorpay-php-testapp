@@ -56,13 +56,13 @@ Follow the steps given below to change your deposit account in Amazon Seller Cen
 
 1. Log in to Amazon Seller Central account.
 2. Navigate to **Settings** and click **Account Info**.
-   ![Amazon Account Info](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/amazon-account-info.jpg.md)
+   ![Amazon Account Info](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/amazon-account-info.jpg.md)
 3. Navigate to the **Payment Information** tab and click **Deposit Methods**.
-   ![Amazon Payment Information](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/amazon-payment-information.jpg.md)
+   ![Amazon Payment Information](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/amazon-payment-information.jpg.md)
 4. Enter the relevant bank account details based on your selling region:
     - ACH account – Amazon USA
     - FPS account – Amazon UK
     - SEPA account – Amazon Europe
-   ![Amazon Deposit Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/amazon-deposit-methods.jpg.md)
+   ![Amazon Deposit Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/amazon-deposit-methods.jpg.md)
 5. Select the **Default Account** check box (Under **Type of Account**) to make Razorpay as your primary deposit method and click **Set Deposit Method**.
-   ![Amazon Set the Deposit Methods](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/amazon-set-deposit-methods.jpg.md)
+   ![Amazon Set the Deposit Methods](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/amazon-set-deposit-methods.jpg.md)

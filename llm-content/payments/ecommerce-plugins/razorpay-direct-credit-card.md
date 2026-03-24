@@ -21,7 +21,7 @@ Follow the steps given below to integrate credit card payment with your Shopify 
 
     
          1. **Install** [Razorpay Direct - Credit Card](https://apps.shopify.com/razorpay-cc-prod) from the Shopify app store.
-            ![Activate Razorpay Direct - Credit Card plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-store-cc-plugin-install.jpg.md)
+            ![Activate Razorpay Direct - Credit Card plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-store-cc-plugin-install.jpg.md)
              
 > **INFO**
 >
@@ -32,10 +32,10 @@ Follow the steps given below to integrate credit card payment with your Shopify 
 >              
 
          2. You will be redirected to the Shopify home screen. Click **Install app**.
-            ![Shopify install app](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cc-installapp.jpg.md)
+            ![Shopify install app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cc-installapp.jpg.md)
          
          3. You will be redirected to a landing page. Click **I am an existing user** and log in to your Razorpay account.
-            ![Shopify auth for existing Razorpay user](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cc-auth.gif.md)
+            ![Shopify auth for existing Razorpay user](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cc-auth.gif.md)
 
              
 > **INFO**
@@ -44,14 +44,14 @@ Follow the steps given below to integrate credit card payment with your Shopify 
 >              **Handy Tips**
 > 
 >              - Ensure you log in with **owner** credentials to connect Razorpay with Shopify successfully.
->              - If you are a new Razorpay user, click **I am new to Razorpay** and [set up](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/set-up.md) an account.
+>              - If you are a new Razorpay user, click **I am new to Razorpay** and [set up](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md) an account.
 >              
 
          4. Click **Activate Razorpay Direct - Credit Card** on the activation screen on your Shopify Dashboard. 
-            ![Activate Razorpay Direct - Credit Card plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-activate-cc-plugin.jpg.md)
+            ![Activate Razorpay Direct - Credit Card plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-activate-cc-plugin.jpg.md)
 
          Razorpay Direct - Credit Card Plugin now appears as a payment method on your Shopify Store.
-         ![Enabled credit card plugin on shopify store](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cc-plugin-store.jpg.md)
+         ![Enabled credit card plugin on shopify store](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cc-plugin-store.jpg.md)
 
          
 > **INFO**
@@ -60,7 +60,7 @@ Follow the steps given below to integrate credit card payment with your Shopify 
 > 
 >          **Handy Tips**
 > 
->          - Webhooks is auto-configured. You need to verify if webhooks are enabled on your [Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/razorpay-direct-credit-card/troubleshooting-faqs/#7-how-can-i-verify-if-webhooks-are.md).
+>          - Webhooks is auto-configured. You need to verify if webhooks are enabled on your [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/razorpay-direct-credit-card/troubleshooting-faqs.md#7-how-can-i-verify-if-webhooks-are).
 >          - The `order.paid`, `payment.authorized`, `refund.processed` and `refund.failed` events are auto-configured. You do not have to configure it on the Dashboard. 
 >          
 
@@ -78,15 +78,15 @@ After the integration is complete, you need to ensure that the integration is wo
                  1. Log in to your [Shopify store](https://accounts.shopify.com/lookup?rid=f19e1541-cd24-4856-a398-156d2ed5d56f).
                  2. Navigate to **Settings** → **Payments**. 
                  3. Click **Manage** on the **Razorpay Direct - Credit Card** app.
-                    ![edit settings on the plugin to enable test mode](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cc-test-navigation.jpg.md)
+                    ![edit settings on the plugin to enable test mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cc-test-navigation.jpg.md)
                  4. At the bottom of the page, select the **Enable test mode** check box and click **Save**.
-                    ![Enable test mode to test the flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cc-enable-test-mode.jpg.md)
+                    ![Enable test mode to test the flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cc-enable-test-mode.jpg.md)
                  5. On your Shopify store, add an item to your cart and click **Buy it now**.
                  6. Fill in your **contact** and **shipping** details and click **Continue to shipping**.
                  7. Select the **Shipping method** and click **Continue to payment**.
                  8. Select **Credit card** and enter the card details.
                  9. Click **Pay now** and complete the order.
-                    ![Test Razorpay Direct - Credit Card plugin](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cc-test.gif.md)
+                    ![Test Razorpay Direct - Credit Card plugin](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cc-test.gif.md)
 
         
 
@@ -102,7 +102,7 @@ After the integration is complete, you need to ensure that the integration is wo
                     
                 
                 
-                    [Poll Payment APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#fetch-multiple-payments.md) to check the payment status.
+                    [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-multiple-payments) to check the payment status.
                 
             
         
@@ -121,7 +121,7 @@ Follow these steps before taking the integration live:
                  2. Navigate to **Settings** → **Payments**.
                  3. On the **Supported payment methods** section, click **Manage** on the **Razorpay Direct - Credit Card** app.
                  4. At the bottom of the page, clear the **Enable test mode** check box and click **Save**.
-                    ![Disable test mode to start accepting payments from customers](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cc-live.jpg.md)
+                    ![Disable test mode to start accepting payments from customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cc-live.jpg.md)
 
                  You can now start accepting actual payments on your Shopify store.
         
@@ -135,16 +135,16 @@ To initiate refunds using Shopify store:
 1. Log in to the [Shopify account](https://www.shopify.in).
 2. After a payment is completed, navigate to **Orders**. 
 3. Select the order you want to initiate a refund.
-        ![Select the order to initiate refund](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cc-orders.jpg.md)
+        ![Select the order to initiate refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cc-orders.jpg.md)
 4. Click **Refund**.
-        ![Initiate refund](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cc-refund.jpg.md)
+        ![Initiate refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cc-refund.jpg.md)
 5. Select the quantity of the item and click **Refund**.
 6. You can either issue a full refund or a partial refund.
     - For a **full refund**, enter the entire payment amount.
     - For a **partial refund**, enter a value lesser than the payment amount.
-        ![Refund the order](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cc-refund-order.jpg.md)
+        ![Refund the order](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cc-refund-order.jpg.md)
 7. You can verify the refund status from the Dashboard. Navigate to **Transactions** → **Refunds** and check if a **Refund Id** is generated for the relevant Payment Id.
-        ![Verify refund status on the Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/shopify-cc-refund-verify.jpg.md)
+        ![Verify refund status on the Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/shopify-cc-refund-verify.jpg.md)
      
 
 ## Support
@@ -152,5 +152,5 @@ If you have queries, raise a ticket on the [Razorpay Support Portal](https://raz
 
 ### Related Information
 
-- [Troubleshooting and FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/ecommerce-plugins/razorpay-direct-credit-card/troubleshooting-faqs.md)
-- [Ecommerce Plugins](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/ecommerce-plugins.md)
+- [Troubleshooting and FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/ecommerce-plugins/razorpay-direct-credit-card/troubleshooting-faqs.md)
+- [Ecommerce Plugins](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ecommerce-plugins.md)

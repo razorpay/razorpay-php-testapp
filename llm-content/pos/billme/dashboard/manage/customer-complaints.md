@@ -11,7 +11,7 @@ The **Customer Complaints** page helps businesses manage and resolve customer gr
 
 This section enables businesses to search, filter, and respond to customer complaints, helping resolve issues faster and improving customer satisfaction.
 
-![Customer Complaints](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/customer-complaints-listing.jpg.md)
+![Customer Complaints](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/customer-complaints-listing.jpg.md)
 
 ### Key Capabilities
 

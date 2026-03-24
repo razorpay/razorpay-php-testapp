@@ -15,11 +15,11 @@ description: Find answers to frequently asked questions about RazorpayX Contacts
 ### 2. How do I create a Contact?
 
          You can create Contacts on RazorpayX by providing the Contact name, email id, mobile, and so on. Contacts can be created via: 
-         - [API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/x/contacts/create.md) 
-         - [RazorpayX Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts.md) 
-         - [Bulk Upload](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts/bulk-uploads.md)
+         - [API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/contacts/create.md) 
+         - [RazorpayX Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md) 
+         - [Bulk Upload](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts/bulk-uploads.md)
          
-         Know how to [create a Contact](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts/#create-a-contact.md).
+         Know how to [create a Contact](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md#create-a-contact).
         
 
     
@@ -27,7 +27,7 @@ description: Find answers to frequently asked questions about RazorpayX Contacts
 
          Yes, you can classify a Contact and assign a type or a category to that Contact. For example, Contact types can be `Vendor`, `Employee` or other custom types as applicable to your business. 
          
-         Know more about [Contact types](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts/#contact-types.md).
+         Know more about [Contact types](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md#contact-types).
         
 
     
@@ -35,7 +35,7 @@ description: Find answers to frequently asked questions about RazorpayX Contacts
 
          When you create a Contact, it is in the **Active** status by default. 
          
-         However, for business needs, you can [mark a Contact as '**Inactive**'](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts#mark-contact-inactive.md). If marked '**Inactive**', you cannot [create Payout](@/Applications/MAMP/htdocs/new-docs/llm-content/x/payouts/#how-to-make-payouts.md) to that Contact. 
+         However, for business needs, you can [mark a Contact as '**Inactive**'](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md#mark-contact-inactive). If marked '**Inactive**', you cannot [create Payout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts.md#how-to-make-payouts/) to that Contact. 
          
          If you want to resume payouts to a Contact, mark them as 'Active' again.
         
@@ -43,13 +43,13 @@ description: Find answers to frequently asked questions about RazorpayX Contacts
     
 ### 5. What modifications can I make to a Contact once created?
 
-         Once created, you can modify any property of the Contact. In fact, you can also mark a Contact as '**Inactive**' or '**Active**'. Know more about [Contact actions](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts.md).
+         Once created, you can modify any property of the Contact. In fact, you can also mark a Contact as '**Inactive**' or '**Active**'. Know more about [Contact actions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md).
         
 
     
 ### 6. How do I block payouts to a Contact?
 
-         You can [mark a Contact as '**Inactive**'](@/Applications/MAMP/htdocs/new-docs/llm-content/x/contacts#mark-contact-inactive.md) to block any payout requests to a Contact. 
+         You can [mark a Contact as '**Inactive**'](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/contacts.md#mark-contact-inactive) to block any payout requests to a Contact. 
         
 
     

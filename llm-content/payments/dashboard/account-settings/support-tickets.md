@@ -27,11 +27,11 @@ You can view only those tickets that were raised using the Dashboard. To track t
 3. Navigate to **Business settings** → **Support Tickets**.
 4. A list of the last three tickets in open status pops up. Click on the ticket ID to view details.
 
-     ![Click Ticket ID to view ticket details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/support-tickets-raise-new-query.jpg.md)
+     ![Click Ticket ID to view ticket details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/support-tickets-raise-new-query.jpg.md)
 
 5. You can request an update, provide information or add attachments such as an error screenshot. Provide the details and click **Send a Reply**.
 
-    ![Reply to Support Ticket](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-support-tickets-send-reply.jpg.md)
+    ![Reply to Support Ticket](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-support-tickets-send-reply.jpg.md)
 
 ## Raise New Support Tickets
 
@@ -41,14 +41,14 @@ To raise a new ticket:
 
 1. Log in to the Dashboard.
 2. Click **Help & Support**.
-    ![Raise a Ticket - Help and Support pop-up - Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-support.jpg.md)
+    ![Raise a Ticket - Help and Support pop-up - Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-support.jpg.md)
 3. Check the FAQs for common concerns. If the FAQs can not resolve your concern, click **Contact Us**. 
 4. You have the following options in the **Contact Us** section:
     - Create ticket: Check existing queries or raise a new support ticket.
     - Chat or Request for callback: Start a live chat with us or request a callback for quicker resolution (selected users only).
-    ![Raise a Ticket - Help and Support pop-up - Razorpay Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-support-options-new.jpg.md)
+    ![Raise a Ticket - Help and Support pop-up - Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-support-options-new.jpg.md)
 5. Select the nature of the request. Check out the existing information before raising the ticket. If you do not find relevant information, please explain your issue, attach relevant documents or screenshots if possible, and click **Create support ticket**.
-    ![Select the topic of a new query](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/dashboard-guide-support-ticket-details.jpg.md)
+    ![Select the topic of a new query](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-support-ticket-details.jpg.md)
 
 Our Support team will get back to you at the earliest. However, reply to the same ticket in case of a follow-up instead of raising a new ticket.
 

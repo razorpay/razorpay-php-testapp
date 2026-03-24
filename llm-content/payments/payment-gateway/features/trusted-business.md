@@ -21,7 +21,7 @@ The Razorpay Trusted Business badge program enables you to build credibility as 
 Razorpay's proprietary algorithm considers several factors to determine which businesses are eligible for the Trusted Business badge program. Below are some of the key requirements:
 
 - You should have completed your KYC verification.
-- You should have a very low number of disputes. Know more about [disputes](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/disputes.md).
+- You should have a very low number of disputes. Know more about [disputes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/disputes.md).
 - You should have spent a reasonable amount of time accepting payments via Razorpay.
 - You must clear all Razorpay risk checks and other proprietary checks.
 
@@ -77,7 +77,7 @@ Follow these steps to opt-out of the Razorpay Trusted Business badge program:
     
 ### 4. How do I get the Razorpay Trusted Business badge enabled for my account?
 
-         Razorpay Trusted Business badge will be enabled by default and start appearing automatically for all eligible merchants. No manual effort or integration is required. Know more about the [eligibility requirements for Razorpay Trusted Business badge](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/features/trusted-business/#eligibility-requirements-for-razorpay-trusted-business-badge.md).
+         Razorpay Trusted Business badge will be enabled by default and start appearing automatically for all eligible merchants. No manual effort or integration is required. Know more about the [eligibility requirements for Razorpay Trusted Business badge](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/features/trusted-business.md#eligibility-requirements-for-razorpay-trusted-business-badge).
         
 
     

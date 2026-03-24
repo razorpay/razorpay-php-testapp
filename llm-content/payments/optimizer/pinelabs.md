@@ -62,14 +62,14 @@ The dynamic URL pattern needs to be whitelisted for PineLabs, or the payments wi
          1. Log in to your Dashboard.
          2. Go to the **PAYMENT PRODUCTS** section and click **Optimizer**.
          3. In the top-right section, click **Add Provider**.
-                 ![Add provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-provider.jpg.md)
+                 ![Add provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-provider.jpg.md)
          4. Select **PineLabs** in the list of gateways available and click **Next**.
-                 ![Add PineLabs](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-pinelabs.jpg.md)
+                 ![Add PineLabs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-pinelabs.jpg.md)
          5. Enter the provider name and description and click **Next**.
-                 ![Add PineLabs Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-provider-pinelabs.jpg.md)
+                 ![Add PineLabs Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-provider-pinelabs.jpg.md)
          6. Enter your Access code, Merchant ID and Secure secret.
          7. Select the payment methods you want to enable for PineLabs and click **Submit**.
-                 ![Add Access Code](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-access-code.jpg.md)
+                 ![Add Access Code](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-access-code.jpg.md)
 
             You have successfully added **PineLabs** as a payment provider on Optimizer.
         
@@ -123,7 +123,7 @@ Netbanking | Coming Soon
         
 
 ## Send Receipt/Order ID to External Gateway
-You might be generating a unique Order ID or Receipt for every order which can be passed to PineLabs via [ Orders API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/orders#orders-api.md).
+You might be generating a unique Order ID or Receipt for every order which can be passed to PineLabs via [ Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md#orders-api).
 
 To make your order id to be visible on the PineLabs Dashboard:
 1. In Razorpay's Orders API, use the `receipt` parameter to send your unique Order ID or Receipt.
@@ -158,11 +158,11 @@ Before routing all traffic or some traffic to a new gateway via Optimizer, the f
             - In **Parameter** field, select **Amount (In Rupees)**.
             - In **Select Connection** field, select **Less Than**.
             - In **Enter Amount** field, enter the value 2 and click **Next**.
-             ![Add Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/add-rule.jpg.md)
+             ![Add Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/add-rule.jpg.md)
         5. Enter the value 100 in the **Route field**, select **PineLabs** in the **Payment Via** field, and click **Next**.
-             ![PineLabs target Provider](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pinelabs-target-provider.jpg.md)
+             ![PineLabs target Provider](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pinelabs-target-provider.jpg.md)
         6. Click **Publish Rule**.
-             ![PineLabs Publish Rule](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/pinelabs-publish-rule.jpg.md)
+             ![PineLabs Publish Rule](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pinelabs-publish-rule.jpg.md)
        
    
 

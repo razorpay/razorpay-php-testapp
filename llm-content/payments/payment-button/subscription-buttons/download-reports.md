@@ -61,5 +61,5 @@ The downloaded report has the following columns:
 
 ### Related Information
 
-- [Payment Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button.md)
-- [Subscription Button](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/subscription-buttons.md)
+- [Payment Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button.md)
+- [Subscription Button](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/subscription-buttons.md)

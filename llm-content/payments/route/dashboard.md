@@ -24,7 +24,7 @@ You can perform the following actions using Route:
 
 From the Dashboard, create a linked account and provide the bank account details:
 1. Click **Accounts** tab, and then click **+ Add Account**.
-   ![Route account](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-account.jpg.md)
+   ![Route account](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-account.jpg.md)
 2. Enter **Account Name** and **Account Email**.
 3. If you want to enable the Dashboard access for the linked account, turn on the toggle bar.
 4. Click **Add**.
@@ -32,7 +32,7 @@ From the Dashboard, create a linked account and provide the bank account details
 
 In the **KYC Form**, enter **Business Details** and **Bank Account Details**, and then click **Submit Form**.
 
-![Submit KYC details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-add-account-kyc.jpg.md)
+![Submit KYC details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-add-account-kyc.jpg.md)
 
 ## Grant Dashboard Access for Linked Accounts
 
@@ -48,7 +48,7 @@ If you want to provide access to the Dashboard for an existing account:
 1. Navigate to the **Accounts** tab.
 2. Turn on the **Dashboard Access** toggle against the relevant account.
 
-For more details, refer to the [Linked Account Dashboard](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/route/linked-account#grant-dashboard-access-to-linked-accounts.md) documentation.
+For more details, refer to the [Linked Account Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md#grant-dashboard-access-to-linked-accounts) documentation.
 
 ### Enable Refunds Capability
 
@@ -88,7 +88,7 @@ You can transfer funds to your linked accounts directly from your account balanc
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -97,7 +97,7 @@ Follow these steps to create a direct transfer to a linked account:
 1. Log in to the Dashboard.
 2. Under **PAYMENT PRODUCTS**, navigate to **Route** → **Transfers**.
 3. Click **+Create Direct Transfer**.
-    ![View Direct Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-create-direct-transfer.jpg.md)
+    ![View Direct Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-create-direct-transfer.jpg.md)
 4. In the popup, provide the following details:
     1. **Account** - Select the linked account to whom the amount should be transferred.
     2. **Billing Amount** - Enter the amount to be transferred.
@@ -108,13 +108,13 @@ Follow these steps to create a direct transfer to a linked account:
     4. **Notes** - You can add any additional information regarding the transfer.
 5. Click **Create Transfer**.
 
-![View Direct Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-add-transfer-details.jpg.md)
+![View Direct Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-add-transfer-details.jpg.md)
 
 #### View Direct Transfers
 
 Once created, the direct transfer appears on the Transfers list. Click on the transfer id to view the details on the side panel. For a direct transfer, the **account id** will appear as the source.
 
-![View Direct Transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-view-direct-transfer.jpg.md)
+![View Direct Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-view-direct-transfer.jpg.md)
 
 ### Transfer from a Payment
 
@@ -131,7 +131,7 @@ The payments received from customers appear in the **Transactions** tab. To view
 3. Add internal notes relevant to the transfer if any. You can choose to share the note with your linked account.
 4. Click **Create Transfer**.
 
-![Route account make transfer](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-make-transfer.jpg.md)
+![Route account make transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-make-transfer.jpg.md)
 
 The transaction is available in the **Route** section under the **Payments** and **Transfers** tabs. From here, you can initiate transfers and reversals for linked accounts.
 
@@ -145,7 +145,7 @@ To issue a refund to the customer:
 3. The refund transfer takes place from your primary account. Hence, you must create a corresponding reversal for the linked account. This can be done manually, or you may use the **Reverse all Route Transfers as well** option for automatic reversal.
 4. In the dialog box that appears, confirm refund by clicking **Yes, Refund**.
 
-![Route account make partial refund](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-make-partial-refund.jpg.md)
+![Route account make partial refund](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-make-partial-refund.jpg.md)
 
 ## Create a Reversal
 
@@ -158,7 +158,7 @@ To move funds back from the linked account to your account, follow the below ste
 
 You can view the reversal in the **Reversals** tab.
 
-![Route account make reversal](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route-make-reversal.jpg.md)
+![Route account make reversal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route-make-reversal.jpg.md)
 
 ## View Transfers and Reversals Reports
 
@@ -173,7 +173,7 @@ To view the **Transfers** report:
 
 This report is displayed as shown below:
 
-![Route account transfers](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route_transfers.jpg.md)
+![Route account transfers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route_transfers.jpg.md)
 
 ### Reversals Report
 
@@ -184,4 +184,4 @@ To view the Reversals report:
 
 This report is displayed as shown below:
 
-![Route account reversals](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/route_reversals.jpg.md)
+![Route account reversals](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/route_reversals.jpg.md)

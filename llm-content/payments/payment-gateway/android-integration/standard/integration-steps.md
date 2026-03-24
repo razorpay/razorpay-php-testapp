@@ -66,7 +66,7 @@ Follow the steps given below:
   
 ### 1.2 Initialize Razorpay Android Standard SDK
 
-     Add your `` dynamically using Checkout's `setKeyId()` method. You can generate the [API Keys](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/dashboard/account-settings/api-keys/#generate-api-keys.md) from the Dashboard.
+     Add your `` dynamically using Checkout's `setKeyId()` method. You can generate the [API Keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) from the Dashboard.
 
      To quickly load the `Checkout` form, the `preload` method of `Checkout` must be called much earlier than the other methods in the payment flow. The loading time of the preload resources can vary depending on your network's bandwidth.
 
@@ -253,7 +253,7 @@ Follow the steps given below:
 
          You can alternatively use the JSONObject options given below.
 
-         Create an instance of the `Checkout` and pass the payment details and options as a `JSONObject`. Ensure that you add the `order_id` generated in [Step 3](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps/#13-create-an-order-in-server.md).
+         Create an instance of the `Checkout` and pass the payment details and options as a `JSONObject`. Ensure that you add the `order_id` generated in [Step 3](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps.md#13-create-an-order-in-server).
 
          ```java: Java
          public void startPayment() {
@@ -590,4 +590,4 @@ To generate API Keys in Live Mode on your Razorpay Dashboard:
         
 
 ### Related Information
-[Google Play's Data Safety](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/standard/google-data-safety.md)
+[Google Play's Data Safety](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/google-data-safety.md)

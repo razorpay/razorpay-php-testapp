@@ -112,7 +112,7 @@ Use this endpoint to close a QR Code.
 : `object` Key-value pair that can be used to store additional information about the QR Code. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
 
 `customer_id`
-: `string` Unique identifier of the customer the QR Code is linked with. Know more about to the [Customers API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md).
+: `string` Unique identifier of the customer the QR Code is linked with. Know more about to the [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md).
 
 `close_by`
 : `integer` UNIX timestamp at which the QR Code is scheduled to be automatically closed. The time must be at least 15 minutes after the current time. The date range can be set to `2147483647` in UNIX timestamp format (equivalent to Tuesday, January 19, 2038 8:44:07 AM GMT+05:30).

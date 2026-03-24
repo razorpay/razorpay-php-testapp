@@ -13,7 +13,7 @@ Use this endpoint to configure the payment methods of your choice on the Checkou
 
 - For example, you can remove a certain bank from Netbanking or highlight a specific wallet.
 
-- These parameters must be passed along with the `options` and `checkout` parameters mentioned in the Request Parameters section below, along with the [Create Payment Link API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/payment-links/#create-payment-link.md) parameters.
+- These parameters must be passed along with the `options` and `checkout` parameters mentioned in the Request Parameters section below, along with the [Create Payment Link API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links.md#create-payment-link) parameters.
 
 ## Use Cases
 

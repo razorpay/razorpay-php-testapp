@@ -9,7 +9,7 @@ You can share payment receipts with customers through email after they complete 
 
 Here is a sample PDF of the payment receipt.
 
-![PDF Receipt](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-receipt-receipt-example.jpg.md)
+![PDF Receipt](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-receipt-receipt-example.jpg.md)
 
 ## Automated Receipt
 
@@ -44,11 +44,11 @@ To configure manual payment receipts:
     2. In the drop-down list, select one of the custom input fields such as `Name`, `Address` or `Landmark`, used on the Payment Button. For example, if you select `Name`, the customer's name `Gaurav Kumar` appears on the payment receipt.
 4. Click **Save**.
 5. Navigate to the page's **Transactions Details** section. All the payments made using the Payment Button are listed here.
-    ![Transaction Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-receipt-pp-transactions-send.jpg.md)
+    ![Transaction Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-receipt-pp-transactions-send.jpg.md)
 6. Click the Payment ID to view the payment details.
 7. In the **Payment Receipt** field, click the **Send Receipt** button.
 8. Enter a reference number for the receipt as per your business requirements.
-    ![Transaction Details](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-receipt-pp-manual-ref.jpg.md)
+    ![Transaction Details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-receipt-pp-manual-ref.jpg.md)
 9. Click **Send**.
 
     
@@ -62,10 +62,10 @@ To configure manual payment receipts:
 
 Payment receipts are sent to customers via email as a PDF attachment. The details entered by the customer while making the payment also appear on the email body as shown below:
 
-![Payment Receipt](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/payment-pages-receipt-email-non80g.jpg.md)
+![Payment Receipt](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-pages-receipt-email-non80g.jpg.md)
 
         
 
 ### Related Information
 
-[Configure 80G-enabled Payment Button Receipt](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-button/80g-receipt.md)
+[Configure 80G-enabled Payment Button Receipt](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/80g-receipt.md)

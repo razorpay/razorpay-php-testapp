@@ -5,7 +5,7 @@ description: Know how to download the Paper Nach Form and upload a customer-sign
 
 # Paper NACH Form
 
-If the method for the [authorisation transaction](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/paper-nach/integrate/#nach-mandate-registration.md) is Paper NACH, a pre-filled NACH form is generated when you create an order or a registration link. This form needs to be downloaded, signed by the customer and uploaded for processing.
+If the method for the [authorisation transaction](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/paper-nach/integrate.md#nach-mandate-registration) is Paper NACH, a pre-filled NACH form is generated when you create an order or a registration link. This form needs to be downloaded, signed by the customer and uploaded for processing.
 
 The pre-filled form can be downloaded in the *.pdf* format. You can upload the signed NACH form only as an image. Following are the supported formats:
 .JPG,.JPEG and .PNG.
@@ -35,5 +35,5 @@ Watch this video to see how your customer can download the NACH form, sign it an
 [Video: https://www.youtube.com/embed/kHeRIVLOqvM]
 
 ### Related Information
-- [ Create Recurring Payments](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/create.md)
-- [Batch Operations](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/recurring-payments/batch-operations.md)
+- [ Create Recurring Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md)
+- [Batch Operations](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/batch-operations.md)

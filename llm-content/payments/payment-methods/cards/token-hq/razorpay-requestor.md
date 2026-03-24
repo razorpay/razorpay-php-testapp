@@ -40,7 +40,7 @@ With this solution, you can:
 > - This is an on-demand feature. Please raise a request with our [Support team](https://razorpay.com/support/#request) to get this feature activated on your Razorpay account.
 > - Watch this video to know how to raise a feature enablement request on the Dashboard.
 > 
-> ![Feature Request GIF](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/feature-request.gif.md)
+> ![Feature Request GIF](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/feature-request.gif.md)
 > 
 
  to get this feature activated on your account.
@@ -65,7 +65,7 @@ With this solution, you can:
 
 Given below is the first payment tokenisation flow:
 
-![Tokenisation flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-tokenisation.jpg.md)
+![Tokenisation flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-tokenisation.jpg.md)
 
 1. The customer consents to save a card on your website/app checkout.
 2. The saved card consent is stored by Razorpay Token Requestor after successful authentication of the transaction. 
@@ -74,7 +74,7 @@ Given below is the first payment tokenisation flow:
 
 Given below is the subsequent payment tokenisation flow:
 
-![Subsequent payment Tokenisation flow](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/cards-tokenisation-subsequent-payment-rtr.jpg.md)
+![Subsequent payment Tokenisation flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/cards-tokenisation-subsequent-payment-rtr.jpg.md)
 
 1. The customer initiates payment using the token.
 2. We automatically fetch the token cryptogram from the Card Network of the issuing bank.
@@ -83,6 +83,6 @@ Given below is the subsequent payment tokenisation flow:
 
 ### Related Information
 
-- [Tokenisation APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor/apis.md)
-- [Tokenisation Webhooks](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor/webhooks.md)
-- [Tokenisation FAQs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq.md)
+- [Tokenisation APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor/apis.md)
+- [Tokenisation Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor/webhooks.md)
+- [Tokenisation FAQs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq.md)

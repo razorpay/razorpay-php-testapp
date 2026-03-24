@@ -250,7 +250,7 @@ Order order = client.Order.Create(orderRequest);
 `payment_capture` _mandatory_
 : `boolean` Determines whether the payment status should be changed to `captured` automatically or not. Possible values:
     - `true`: Payments are captured automatically.
-    - `false`: Payments are not captured automatically. You can manually capture payments using the [Manually Capture Payments API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/payments/#capture-a-payment.md).
+    - `false`: Payments are not captured automatically. You can manually capture payments using the [Manually Capture Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment).
     
 
     

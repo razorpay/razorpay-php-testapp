@@ -13,7 +13,7 @@ New cards are cards that have previously not been saved with Razorpay. Follow th
 
 ## Step 1: Create a Customer
 
-You can create customers using the [Create a Customer API](@/Applications/MAMP/htdocs/new-docs/llm-content/api/customers.md). The `customer_id` received in the response should be passed in the Create Payment request.
+You can create customers using the [Create a Customer API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md). The `customer_id` received in the response should be passed in the Create Payment request.
 
 ## Step 2: Create Payment
 
@@ -261,14 +261,14 @@ body, err := client.Token.All("", nil, nil)
   - `suspended`: The token attains this state if: 
 - The token is not activated for any one of the token service providers. 
 - The token is suspended for at least one of the token service providers.
-  - `deactivated`: The token attains this state if the token is not active/suspended for any one of the token service providers and is deactivated for at least one token service provider. Know about the complete list of [token states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/token-lifecycle.md).
+  - `deactivated`: The token attains this state if the token is not active/suspended for any one of the token service providers and is deactivated for at least one token service provider. Know about the complete list of [token states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/token-lifecycle.md).
 
 > **INFO**
 >
 > 
 > **Handy Tips**
 > 
-> You can convert a token BIN received in response to an **actual BIN** using [token APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor/apis.md).
+> You can convert a token BIN received in response to an **actual BIN** using [token APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor/apis.md).
 > 
 
 ## Step 4: Fetch Card Properties of an Existing Token
@@ -420,14 +420,14 @@ body, err := client.Token.Fetch("", "", nil, nil)
   - `suspended`: The token attains this state if: 
 - The token is not activated for any one of the token service providers. 
 - The token is suspended for at least one of the token service providers.
-  - `deactivated`: The token attains this state if the token is not active/suspended for any one of the token service providers and is deactivated for at least one token service provider. Know about the complete list of [token states](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/token-lifecycle.md).
+  - `deactivated`: The token attains this state if the token is not active/suspended for any one of the token service providers and is deactivated for at least one token service provider. Know about the complete list of [token states](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/merchant-requestor/token-lifecycle.md).
 
 > **INFO**
 >
 > 
 > **Handy Tips**
 > 
-> You can convert a token BIN received in response to an **actual BIN** using [token APIs](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor/apis.md).
+> You can convert a token BIN received in response to an **actual BIN** using [token APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/token-hq/razorpay-requestor/apis.md).
 > 
 
 ## Step 5: Create Payments using Saved Card

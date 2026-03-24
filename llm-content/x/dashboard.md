@@ -5,9 +5,9 @@ description: Switch Merchants, generate Reports, update Account Settings with th
 
 # About RazorpayX Dashboard
 
-RazorpayX Dashboard is an easy to use and interactive page. It offers [Global Search](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/keyboard-shortcuts#global-search.md) and announcements for easy discoverability of new and existing features.
+RazorpayX Dashboard is an easy to use and interactive page. It offers [Global Search](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/keyboard-shortcuts.md#global-search) and announcements for easy discoverability of new and existing features.
 
-![RazorpayX Dashboard Global Search and profile](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xdashboard.jpg.md)
+![RazorpayX Dashboard Global Search and profile](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xdashboard.jpg.md)
 
 ## Profile
 
@@ -17,13 +17,13 @@ This is where you find your Merchant ID (MiD) or Business ID and other necessary
 - [My Account & Settings](#my-account-settings)
 - [Technical Documentation](#technical-documentation)
 - [Announcements](#announcements)
-- [Keyboard Shortcuts](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/keyboard-shortcuts#keyboard-shortcuts.md) 
+- [Keyboard Shortcuts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/keyboard-shortcuts.md#keyboard-shortcuts) 
 - [Go to Razorpay Dashboard](#razorpay-dashboard)
-- [Enable Test Mode](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/test-mode.md) 
+- [Enable Test Mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/test-mode.md) 
 - [Light Theme](#light-theme)
-- [Cashflow Insights](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/cashflow-insights.md)
+- [Cashflow Insights](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/cashflow-insights.md)
 
-![RazorpayX Dashboard Profile](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/xdashboardDark.jpg.md)
+![RazorpayX Dashboard Profile](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/xdashboardDark.jpg.md)
 
 ### Switch Merchant
 
@@ -49,15 +49,15 @@ Public Profile | To customise Payout Links display screen with a colour or logo 
 ---
 Banking | To find all your affiliated bank account details.
 ---
-[Manage Team](@/Applications/MAMP/htdocs/new-docs/llm-content/x/manage-teams.md) | - To enable 2FA for the team.
+[Manage Team](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams.md) | - To enable 2FA for the team.
 - To add and assign roles to the team members.
 
 ---
-Developer Controls | To [generate API keys](@/Applications/MAMP/htdocs/new-docs/llm-content/x/dashboard/api-keys.md) and edit webhooks.
+Developer Controls | To [generate API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/dashboard/api-keys.md) and edit webhooks.
 ---
-[Support Tickets](@/Applications/MAMP/htdocs/new-docs/llm-content/x/support.md) Inbox | To raise queries in case of trouble and follow up on the existing ones.
+[Support Tickets](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/support.md) Inbox | To raise queries in case of trouble and follow up on the existing ones.
 ---
-Integrations | To [integrate with accounting tools](@/Applications/MAMP/htdocs/new-docs/llm-content/x/accounting.md) for easier reconciliation.
+Integrations | To [integrate with accounting tools](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/accounting.md) for easier reconciliation.
 ---
 
 ### Technical Documentation
@@ -76,10 +76,10 @@ You can directly access your Razorpay Dashboard via Profile. Click **Go to Razor
 
 You can switch your Dashboard to Light Theme using the Light Theme toggle. 
 
-![RazorpayX Dashboard Light Mode](@/Applications/MAMP/htdocs/new-docs/llm-content/assets/images/lightmode.jpg.md)
+![RazorpayX Dashboard Light Mode](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/lightmode.jpg.md)
 
 ### Related Information
 
 - [Sign up](https://x.razorpay.com/auth/signup) for a RazorpayX account.
 - [Open a Current Account](https://razorpay.com/x/current-accounts/)
-- [Reports](@/Applications/MAMP/htdocs/new-docs/llm-content/x/reports.md)
+- [Reports](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/reports.md)

@@ -85,13 +85,13 @@ description: Troubleshoot common error scenarios and find answers to frequently 
 	
 ### 5. I received a policy violation notice from Google Play Store when trying to publish my Razorpay-integrated app. How do I proceed? 
 
-		 This error appeared due to an intent redirection issue that was present in the older versions of the Razorpay Android Custom SDK. To resolve this, please [upgrade](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/payment-gateway/android-integration/custom/#step-1-install-razorpay-android-custom-sdk.md) to the latest SDK version.
+		 This error appeared due to an intent redirection issue that was present in the older versions of the Razorpay Android Custom SDK. To resolve this, please [upgrade](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/custom.md#step-1-install-razorpay-android-custom-sdk) to the latest SDK version.
 		
 
 	
 ### 6. How to fetch Subscription details?
 
-		 If you are using [Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md), you can use this code sample to fetch the subscription details:
+		 If you are using [Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md), you can use this code sample to fetch the subscription details:
 
 		 ```java: Fetch Subscription
 			 JSONObject options = new JSONObject();
@@ -114,7 +114,7 @@ description: Troubleshoot common error scenarios and find answers to frequently 
 	
 ### 7. How to fetch Subscription amount?
 
-		 If you are using [Subscriptions](@/Applications/MAMP/htdocs/new-docs/llm-content/payments/subscriptions.md), you can fetch the subscription amount by calling the `getSubscriptionAmount` method.
+		 If you are using [Subscriptions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions.md), you can fetch the subscription amount by calling the `getSubscriptionAmount` method.
 
 		 ```java: Fetch Subscription Amount
 		 razorpay.getSubscriptionAmount("sub_id", new SubscriptionAmountCallback() {
