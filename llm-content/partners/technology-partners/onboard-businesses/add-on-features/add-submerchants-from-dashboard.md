@@ -8,7 +8,13 @@ description: Invite submerchants using email IDs from the Razorpay Partner Dashb
 
 You can invite submerchants for different apps from the Partner Dashboard.
 
-@include partners/platforms/add-ons-callout
+> **INFO**
+>
+> 
+> **Feature Request**
+> 
+> This is an on-demand feature. Please raise a request with your Razorpay point-of-contact to get it activated on your Razorpay account.
+> 
 
 You can send an invite link to an individual account or multiple accounts.
 

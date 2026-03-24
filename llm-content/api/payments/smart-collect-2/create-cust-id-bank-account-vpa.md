@@ -21,15 +21,245 @@ You can customise the merchant prefix of the vpa (`payto00000`) as per your busi
 
 ### Request
 
-@include smart-collect/api/create-bank-account-vpa
+```curl: Curl
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X POST https://api.razorpay.com/v1/virtual_accounts \
+-H "Content-Type: application/json" \
+-d '{
+  "receivers": {
+    "types": [
+      "vpa",
+      "bank_account"
+    ],
+        "bank_account": 
+        {
+          "descriptor": "1234567890"
+        }
+        "vpa": 
+        {
+          "descriptor": "gaurikumari"
+        }
+  },
+  "description": "Receive payment instalment from Gaurav Kumar- Flat No 105",
+  "customer_id": "cust_BM8NbnFAk1BVDA",
+  "close_by": 1681615838
+}'
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+JSONObject request = new JSONObject();
+JSONArray receiverTypeArray = new JSONArray();
+receiverTypeArray.put("vpa","bank_account");
+request.put("receiver_types", receiverTypeArray);
+JSONObject notes = new JSONObject();
+notes.put("receiver_key", "receiver_value");
+request.put("notes", notes);
+request.put("description", "First Customer Identifier");
+
+VirtualAccount virtualAccount = razorpayClient.VirtualAccounts.create(request);
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.virtual_account.create({
+  "receivers": {
+    "types": [
+      "vpa"
+      "bank_account"
+    ]
+  },
+  "description": "Customer Identifier created for Raftar Soft",
+  "customer_id": "cust_CaVDm8eDRSXYME",
+  "close_by": 1681615838,
+  "notes": {
+    "project_name": "Banking Software"
+  }
+})
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->virtualAccount->create(array('receivers' => array('types'=> array('vpa','bank_account')),'allowed_payers' => array(array('type'=>'vpa','bank_account','vpa','bank_account'=>array('ifsc'=>'RATN0VAAPIS','account_number'=>'2223330027558515'))),'description' => 'Customer Identifier created for Raftar Soft','customer_id' => 'cust_HssUOFiOd2b1TJ', 'notes' => array('project_name' => 'Banking Software')));
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.virtualAccounts.create({
+  receivers: {
+    types: [
+      "vpa"
+      "bank_account"
+    ]
+  },
+  description: "Customer Identifier created for Raftar Soft",
+  customer_id: "cust_CaVDm8eDRSXYME",
+  close_by: 1681615838,
+  notes: {
+    project_name: "Banking Software"
+  }
+})
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+types := make(map[string]interface{})
+types["0"] = "vpa","qr_code"
+
+data:= map[string]interface{}{
+  "receivers": map[string]interface{}{
+    "types": types,
+  },
+  "description": "Customer Identifier created for Raftar Soft",
+  "customer_id": "cust_CaVDm8eDRSXYME",
+  "close_by": 1681615838,
+  "notes": map[string]interface{}{
+    "project_name": "Banking Software",
+  },
+}
+
+body, err := client.VirtualAccount.Create(data, nil)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+Dictionary virtualRequest = new Dictionary();
+string[] types = { "vpa", "bank_account" };
+Dictionary typesParam = new Dictionary();
+typesParam.Add("types", types);
+Dictionary vpaParam = new Dictionary();
+vpaParam.Add("descriptor", "gaurikumar");
+typesParam.Add("vpa", vpaParam);
+virtualRequest.Add("receivers", typesParam);
+virtualRequest.Add("description", "Virtual Account created for Raftar Soft");
+virtualRequest.Add("customer_id", "cust_NBJmkv5lDFKnaH");
+virtualRequest.Add("close_by", 1681615838);
+Dictionary notes = new Dictionary();
+notes.Add("project_name", "Banking Software");
+virtualRequest.Add("notes", notes);
+
+VirtualAccount virtualaccount = client.VirtualAccount.Create(virtualRequest);
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+para_attr = {
+  "receivers": {
+    "types": [
+      "vpa","bank_account"
+    ]
+  },
+  "description": "Customer Identifier created for Raftar Soft",
+  "customer_id": "cust_CaVDm8eDRSXYME",
+  "close_by": 1681615838,
+  "notes": {
+    "project_name": "Banking Software"
+  }
+}
+
+Razorpay::VirtualAccount.create(para_attr)
+
+```
 
 ### Response
 
-@include smart-collect/api/create-bank-account-vpa-res-code
+```json: Success
+{
+  "id": "va_DzaznJGgvduD1R",
+  "name": "Acme Corp",
+  "entity": "virtual_account",
+  "status": "active",
+  "description": "Receive payment instalment from Gaurav Kumar- Flat No 105",
+  "amount_expected": null,
+  "notes": [],
+  "amount_paid": 0,
+  "customer_id": "cust_BM8NbnFAk1BVDA",
+  "receivers": [
+    {
+      "id": "ba_Dzaznb0XK1yx1l",
+      "entity": "bank_account",
+      "ifsc": "RATN0VAAPIS",
+      "bank_name": "RBL Bank",
+      "name": "Acme Corp",
+      "notes": [],
+      "account_number": "2223333226676435"
+    },
+    {
+      "id": "vpa_DzaznS24HKkTBY",
+      "entity": "vpa",
+      "username": "rpy.payto00000gaurikumari",
+      "handle": "icici",
+      "address": "rpy.payto00000gaurikumari@icici"
+    }
+  ],
+  "close_by": 1681615838,
+  "closed_at": null,
+  "created_at": 1577965559
+}
+```json: Failure
+{
+  "error": {
+    "code": "BAD_REQUEST_ERROR",
+    "description": "The api key provided is invalid",
+    "source": "NA",
+    "step": "NA",
+    "reason": "NA",
+    "metadata": {}
+  }
+}
+```
 
 ### Parameters
 
-@include smart-collect/api/create-bank-account-req
+`receivers` _mandatory_
+: `json object` Configuration of desired receivers for the Customer Identifier.
+
+    `types`
+    : `array` List of desired receiver types. Possible values:
+        - `bank_account`
+        - `vpa`
+
+    `vpa` _optional_
+    : `json object` Descriptor details for the virtual UPI ID. This is to be passed only when `vpa` is passed as the receiver `types`.
+
+      `descriptor`
+      : `string` You can provide a custom descriptor for the UPI ID. This is a unique identifier provided by you to identify the customer. For example, `gaurikumari` and `akashkumar` are the descriptors in the usernames `rpy.payto00000gaurikumari` and `rpy.payto00000akashkumar` respectively. The combination of merchant prefix and descriptor must be 20 characters. The length of the merchant prefix can vary between 4-10 characters, and the length of descriptor from 10-16 characters.
+
+    `bank_account` _optional_
+    : `json object` Descriptor details for the Bank Account. This is to be passed only when `bank_account` is passed as the receiver `types`.
+
+      `descriptor`_optional_
+      : `string` A unique, numeric / alphanumeric custom descriptor defined by you for the bank account. The maximum length allowed is 10 digits.
+
+> **INFO**
+>
+> **Handy Tips**
+Please reach out to the [support team](https://razorpay.com/support/#request) if you are unable to pass the parameter with `bank_account`.
+
+    
+`description` _optional_
+: `string` A brief description of the Customer Identifier.
+
+`customer_id` _optional_
+: `string` Unique identifier of the customer to whom the Customer Identifier must be tagged. Create a customer using the [Customer API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md).
+
+`notes` _optional_
+: `json object` Any custom notes you might want to add to the Customer Identifier can be entered here. Know more about [notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes).
+
+`close_by` _optional_
+: `integer` UNIX timestamp at which the Customer Identifier is scheduled to be automatically closed. For example, `1681615838`. This needs to be passed only if you want the Customer Identifier to be temporary and auto-deleted after a specific usage time. 
+
+  
+> **WARN**
+>
+> 
+>   **Watch Out!**
+>   - While sharing the details of Customer Identifiers (created using RBL bank) with the customers, ensure that the fifth character in the IFSC is number `0` and not the letter O. For example, valid IFSC is `RATN0VAAPIS` and not `RATNOVAAPIS`.
+>   - A Customer Identifier will close automatically only if the UNIX timestamp is passed in the `close_by` request parameter.
+>   
 
 ### Parameters
 

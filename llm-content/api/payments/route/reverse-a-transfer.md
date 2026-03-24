@@ -22,23 +22,164 @@ Use this endpoint to create reversals on a particular `transfer_id`.
 
 ### Request
 
-@include route/api/transfer-reversal-code
+```curl: Curl
+curl -X POST https://api.razorpay.com/v1/transfers/trf_EAznuJ9cDLnF7Y/reversals \
+-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
+-H 'content-type: application/json'
+-d '{
+   "amount":100,
+   "notes":{
+      "branch":"Acme Corp Bangalore North",
+      "name":"Gaurav Kumar"
+   }
+}'
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String transferId = "trf_EAznuJ9cDLnF7Y";
+
+JSONObject transferRequest = new JSONObject();
+transferRequest.put("amount","100");
+JSONObject notes = new JSONObject();
+notes.put("branch","Acme Corp Bangalore North");
+notes.put("name","Gaurav Kumar");
+transferParams.put("notes",notes);
+ 
+Transfer transfer = razorpay.transfers.reversal(transferId,transferRequest);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->transfer->fetch($transferId)->reverse(array('amount'=>'100','notes' => array('branch' => 'Acme Corp Bangalore North','name' => 'Gaurav Kumar')));
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.transfers.reverse(transferId,{
+    amount:100,
+    notes: {
+        branch: "Acme Corp Bangalore North",
+        name: "Gaurav Kumar"
+      }
+})
+
+```python: Python
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.transfer.reverse(transferId, {
+  "amount": 100,
+  "notes":{
+            "branch":"Acme Corp Bangalore North",
+            "name":"Gaurav Kumar"
+         }
+  })
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+transferId = "trf_EAznuJ9cDLnF7Y"
+
+para_attr = {
+    "amount":100,
+    "notes": {
+        "branch": "Acme Corp Bangalore North",
+        "name": "Gaurav Kumar"
+      }
+}
+
+Razorpay::Transfer.fetch(transferId).reverse(para_attr)
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+data:= map[string]interface{}{
+  "amount": 100,
+  "notes": map[string]interface{}{
+        "branch": "Acme Corp Bangalore North",
+        "name": "Gaurav Kumar"
+      }
+}
+body, err := client.Transfer.Reverse("", data, nil)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]
+");
+
+string transferId = "trf_EAznuJ9cDLnF7Y";
+
+Dictionary transferRequest = new Dictionary();
+transferRequest.Add("amount","100");
+ 
+Reversal transfer = client.Transfer.Fetch(transferId).Reversal(transferRequest);
+```
 
 ### Response
 
-@include route/api/transfer-reversal-res-code
+```json: Success
+{
+  "id": "rvrsl_EB0BWgGDAu7tOz",
+  "entity": "reversal",
+  "transfer_id": "trf_EAznuJ9cDLnF7Y",
+  "amount": 100,
+  "fee": 0,
+  "tax": 0,
+  "currency": "INR",
+  "notes": [],
+  "initiator_id": "CJoeHMNpi0nC7k",
+  "customer_refund_id": null,
+  "created_at": 1580456007
+}
+
+```json: Failure
+{
+   "error":{
+      "code":"BAD_REQUEST_ERROR",
+      "description":"The api key provided is invalid",
+      "source":"NA",
+      "step":"NA",
+      "reason":"NA",
+      "metadata":{
+         
+      }
+   }
+}
+```
 
 ### Parameters
 
-@include route/api/transfer-reversal-path
+`id` _mandatory_
+: `string` Unique identifier of the transfer to be reversed.
 
 ### Parameters
 
-@include route/api/transfer-reversal-request
+`amount` _optional_
+:  `integer` The amount to be reversed from the Linked Account to your account. If this parameter is not passed, the entire transfer amount will be reversed.
+
+`notes` _optional_
+: `json object` Set of key-value pairs that can be associated with an entity. These pairs can be useful for storing additional information about the entity. A maximum of 15 key-value pairs, each of 256 characters (maximum), are supported. For example, `"region": "south", "city": "Bangalore"`.
 
 ### Parameters
 
-@include route/api/transfer-reversal-res
+`id`
+: `string` The unique identifier of the reversal.
+
+`entity`
+: `string` The name of the entity. Here, it is `reversal`.
+
+`transfer_id`
+: `string` The unique identifier of the transfer that was reversed.
+
+`amount`
+: `integer` The amount that was reversed, in paise.
+
+`currency`
+: `string` ISO currency code. We support route reversals only in INR.
+
+`created_at`
+: `integer` Timestamp in Unix. This indicates the time at which the reversal was created.
 
 ### Errors
 

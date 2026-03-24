@@ -14,7 +14,17 @@ To subscribe to webhook events:
 
 ## List of Webhook Events
 
-@include refunds/refund-available-events
+The table below lists the webhook events available for refunds.
+
+Webhook Event | Description
+---
+`refund.created` | Triggered when a refund is created.
+---
+`refund.processed` | Triggered when the refund is successfully processed.
+---
+`refund.failed` | Triggered when we are not able to process a refund.
+---
+`refund.speed_changed` | Triggered when refund speed is changed.
 
 Know more about [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) and check the [sample payloads.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/refunds.md)
 

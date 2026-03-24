@@ -145,7 +145,35 @@ The product is created successfully. Similarly, create another Subscriptions pro
 
 ## Verify Payment Status
 
-@include integration-steps/verify-payment-status
+> **INFO**
+>
+> 
+> **Handy Tips**
+> 
+> On the Razorpay Dashboard, ensure that the payment status is `captured`. Refer to the payment capture settings page to know how to [capture payments automatically](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md).
+> 
+
+    
+### You can track the payment status in three ways:
+
+    
+        To verify the payment status from the Razorpay Dashboard:
+
+        1. Log in to the Razorpay Dashboard and navigate to **Transactions** → **Payments**.
+        2. Check if a **Payment Id** has been generated and note the status. In case of a successful payment, the status is marked as **Captured**.
+        ![](/docs/assets/images/testpayment.jpg)
+    
+    
+        You can use Razorpay webhooks to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL. Know how to [set up webhooks.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)
+
+        #### Example
+        If you have subscribed to the `order.paid` webhook event, you will receive a notification every time a customer pays you for an order.
+    
+    
+        [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/fetch-all-payments.md) to check the payment status.
+    
+
+        
 
 ### Next Steps
 

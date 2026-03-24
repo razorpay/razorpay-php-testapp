@@ -120,7 +120,15 @@ Total Amount | Total amount to be paid to the government with late fees and pena
 
 ## TDS Categories
 
-@include rzpx/tax-payments/category
+Download the TDS categories and rates available to you.
+
+> **INFO**
+>
+> 
+> **Handy Tips**
+> 
+> The TDS rates are subject to change as per government guidelines. Refer to the [income tax website](https://www.incometax.gov.in/iec/foportal/) for the latest TDS updates.
+> 
 
 ### Related Information
 

@@ -92,7 +92,119 @@ If you prefer not to use a Payment Gateway, explore other [Razorpay Products](ht
 
 Razorpay offers a wide range of integrations as given below: 
 
-@include payments/platform/in-axis
+    
+    
+     
+     - **Razorpay Standard Checkout**: 
+      
+
+      - **Razorpay Custom Checkout**: 
+      
+
+     
+     
+      - **PHP**: 
+      
+
+      - **Ruby**: 
+      
+
+      - **Python**: 
+      
+
+      - **NodeJS**: 
+      
+
+      - **.NET**: 
+      
+
+      - **Java**: 
+      
+
+      - **Go**: 
+      
+
+   
+   
+
+    
+    
+     
+      
+      - **Arastta**: 
+      
+
+      - **BigCommerce**: 
+      
+
+      - **Drupal**: 
+      
+
+      - **CS-Cart**: 
+      
+
+      - **Gravity Forms**: 
+      
+
+      - **Easy Digital Download**: 
+      
+
+      - **Magento**: 
+      
+
+      - **OpenCart**: 
+      
+
+      - **PrestaShop**: 
+      
+
+      - **Shopify**: 
+      
+
+      - **WHMCS**: 
+      
+
+      - **Wix**: 
+      
+
+      - **WooCommerce**: 
+      
+
+       - **WordPress**: 
+      
+
+     
+     
+       - **Razorpay Direct - Credit Card**: 
+      
+
+     
+   
+    
+    
+     
+     
+      - **Android SDK**: 
+      
+
+      - **iOS SDK**: 
+      
+
+      - **Cordova SDK**: 
+      
+
+      - **React Native SDK**: 
+      
+
+      - **Flutter SDK**: 
+      
+
+       - **Capacitor SDK**: 
+      
+
+     
+   
+    
 
 Watch all the Integration videos. [Watch Videos](https://www.youtube.com/playlist?list=PLQWuy5G1gIOoSr5Lo1Y12dXB8JbPOvfVR)
 
@@ -124,10 +236,6 @@ Razorpay Payment Gateway is supported on the following platforms:
 > 
 
 You can also view the **supported platforms** for the [other Razorpay products](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments.md#product-suite).
-
-@include payments/platform/my
-
-@include payments/platform/us
 
 ### Related Information
 

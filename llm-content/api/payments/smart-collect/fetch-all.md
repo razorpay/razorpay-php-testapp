@@ -11,15 +11,160 @@ Use this endpoint to retrieve details of all Customer Identifiers.
 
 ### Request
 
-@include smart-collect/api/fetch/all
+```cURL: Curl
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X GET \
+https://api.razorpay.com/v1/virtual_accounts \
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+JSONObject params = new JSONObject();
+params.put("count","1");
+
+List virtualaccount = instance.virtualAccounts.fetchAll(params);
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.virtual_account.all(options)
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('key_id', 'key_secret')
+
+options = {"count":1}
+
+Razorpay::VirtualAccount.all(options)
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->virtualAccount->all($options);
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.virtualAccounts.all(options)
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+data:= map[string]interface{}{
+    "count" : 1,
+}
+
+body, err := client.VirtualAccount.All(data, nil)
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+options = {"count":1}
+
+Razorpay::VirtualAccount.all(options)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]
+
+Dictionary param = new Dictionary();
+param.Add("count","1");
+
+List virtualaccount = client.VirtualAccount.All(param);
+```
 
 ### Response
 
-@include smart-collect/api/fetch/all-res-code
+```json: Success
+{
+  "entity": "collection",
+  "count": 2,
+  "items": [
+    {
+      "id": "va_Di5gbNptcWV8fQ",
+      "name": "Acme Corp",
+      "entity": "virtual_account",
+      "status": "closed",
+      "description": "Customer Identifier created for M/S ABC Exports",
+      "amount_expected": 2300,
+      "notes": {
+        "material": "teakwood"
+      },
+      "amount_paid": 239000,
+      "customer_id": "cust_DOMUFFiGdCaCUJ",
+      "receivers": [
+        {
+          "id": "ba_Di5gbQsGn0QSz3",
+          "entity": "bank_account",
+          "ifsc": "RATN0VAAPIS",
+          "bank_name": "RBL Bank",
+          "name": "Acme Corp",
+          "notes": [],
+          "account_number": "1112220061746877"
+        }
+      ],
+      "close_by": 1574427237,
+      "closed_at": 1574164078,
+      "created_at": 1574143517
+    },
+    {
+      "id": "va_Dho86Avmdw6h09",
+      "name": "Acme Corp",
+      "entity": "virtual_account",
+      "status": "active",
+      "description": "Customer Identifier created for Raftar Soft",
+      "amount_expected": null,
+      "notes": {
+        "material": "oakwood"
+      },
+      "amount_paid": 0,
+      "customer_id": "cust_DOMUFFiGdCaDNK",
+      "receivers": [
+        {
+          "id": "ba_Dho86DoV16LqiO",
+          "entity": "bank_account",
+          "ifsc": "RATN0VAAPIS",
+          "bank_name": "RBL Bank",
+          "name": "Acme Corp",
+          "notes": [],
+          "account_number": "1112220046254840"
+        }
+      ],
+      "close_by": 1574427237,
+      "closed_at": null,
+      "created_at": 1574081690
+    }
+  ]
+}
+
+```json: Failure
+{
+  "error": {
+    "code": "BAD_REQUEST_ERROR",
+    "description": "The api key provided is invalid",
+    "source": "NA",
+    "step": "NA",
+    "reason": "NA",
+    "metadata": {}
+  }
+}
+```
 
 ### Parameters
 
-@include smart-collect/api/fetch/all-query
+`from` _optional_
+: `integer` Timestamp, in seconds, from when Customer Identifiers are to be fetched.
+
+`to` _optional_
+: `integer` Timestamp, in seconds, till when Customer Identifiers are to be fetched.
+
+`count` _optional_
+: `integer` Number of Customer Identifiers to be fetched. The default value is 10 and the maximum value is 100. This can be used for pagination, in combination with `skip`. 
+
+`skip` _optional_
+: `integer` Number of records to be skipped while fetching the Customer Identifiers. This can be used for pagination, in combination with `count`.
 
 ### Parameters
 

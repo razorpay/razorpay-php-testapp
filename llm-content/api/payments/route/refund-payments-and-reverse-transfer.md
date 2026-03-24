@@ -27,23 +27,158 @@ A new `reversal` entity is created internally and linked for every `reversal` de
 
 ### Request
 
-@include route/api/refund-code
+```curl: Curl
+curl -X POST  https://api.razorpay.com/v1/payments/pay_JJCqynf4fQS0N1/refund \
+-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
+-H 'content-type: application/json'
+-d '{
+  "amount": 100,
+  "reverse_all": true
+}'
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String paymentId = "pay_JJCqynf4fQS0N1";
+
+JSONObject params = new JSONObject();
+params.put("amount",100);
+params.put("reverse_all",true);
+
+Refund payment = razorpay.payments.refund(paymentId,params);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->payment->fetch($paymentId)->refund(array('amount'=> '100','reverse_all'=> true));
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.payments.refund(paymentId,{
+    amount : 100,
+    reverse_all : true
+})
+
+```python: Python
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.payment.refund(paymentId, {"amount": 100, "reverse_all": True})
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+paymentId = "pay_JJCqynf4fQS0N1"
+
+para_attr = {
+    "amount" : 100,
+    "reverse_all" : 1
+}
+
+Razorpay::Payment.fetch(paymentId).refund(para_attr)
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+data:= map[string]interface{}{
+  "reverse_all": true,
+}
+body, err := client.Payment.Refund("", , data, nil)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]
+");
+
+String paymentId = "pay_EAdwQDe4JrhOFX";
+
+Dictionary param = new Dictionary();
+param.Add("amount",100);
+param.Add("reverse_all",true);
+
+Refund transfer = client.Payment.Fetch("pay_MZS53duPD7FNd1").Refund(param);
+```
 
 ### Response
 
-@include route/api/refund-res-code
+```json: Success
+{
+  "id": "rfnd_JJFNlNXPHY640A",
+  "entity": "refund",
+  "amount": 100,
+  "currency": "INR",
+  "payment_id": "pay_JJCqynf4fQS0N1",
+  "notes": [],
+  "receipt": null,
+  "acquirer_data": {
+    "arn": null
+  },
+  "created_at": 1649941680,
+  "batch_id": null,
+  "status": "processed",
+  "speed_processed": "normal",
+  "speed_requested": "normal"
+}
+
+```json: Failure
+{
+   "error":{
+      "code":"BAD_REQUEST_ERROR",
+      "description":"The api key provided is invalid",
+      "source":"NA",
+      "step":"NA",
+      "reason":"NA",
+      "metadata":{
+         
+      }
+   }
+}
+```
 
 ### Parameters
 
-@include route/api/refund-path
+`id` _mandatory_
+: `string` A unique identifier of the payment that should be refunded.
 
 ### Parameters
 
-@include route/api/refund
+`amount` _mandatory_
+: `string` The amount of refund in the smallest unit of currency. For example, for an amount of ₹200.35, the value of this field should be 20035.
+
+`reverse_all` _optional_
+: `boolean` Reverses transfer made to a linked account. Possible values:
+  - `true`: Reverses transfer made to a linked account.
+  - `false`: Does not reverse transfer made to a linked account.
 
 ### Parameters
 
-@include route/api/refund-res
+`id`
+: `string` Unique identifier of the refund.
+
+`entity`
+: `string` Indicates the type of entity. Here, it is `refund`.
+
+`amount`
+: `integer` The amount of refund in the smallest unit of currency. For example, for an amount of ₹200.35, the value of this field should be 20035.
+
+`currency`
+: `string` The currency of refund. Currently, only INR is supported.
+
+`payment_id`
+: `string` Unique identifier of the payment for which this refund has been requested.
+
+`created_at`
+: `integer` Timestamp, in Unix, of refund creation.
+
+`notes`
+: `json object` Set of key-value pairs that can be associated with an entity. These pairs can be useful for storing additional information about the entity. A maximum of 15 key-value pairs, each of 256 characters (maximum), are supported. 
+
+`receipt`
+: `string` Unique identifier that you can use for internal reference.
+
+`acquirer_data`
+: `array` A dynamic array consisting of a unique reference number (either RRN, ARN or UTR) that is provided by the banking partner when a refund is processed. This reference number can be used by the customer to track the status of the refund with the bank.
 
 ### Errors
 

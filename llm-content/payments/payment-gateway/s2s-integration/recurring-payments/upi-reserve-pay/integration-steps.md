@@ -158,7 +158,22 @@ instance.customers.create({
   
 ### Request Parameters
 
-     @include recurring-payments/customer/api-req
+     `name`
+: `string` The name of the customer. For example, `Gaurav Kumar`.
+
+`email`
+: `string` The email address of the customer. For example, `gaurav.kumar@example.com`.
+
+`contact`
+: `string` The phone number of the customer. For example, `9876543210`.
+
+`fail_existing` _optional_
+: `string` The request throws an exception by default if a customer with the exact details already exists. You can pass an additional parameter `fail_existing` to get the existing customer's details in the response. Possible values:
+     - `1` (default): If a customer with the same details already exists, throws an error.
+     - `0`: If a customer with the same details already exists, fetches details of the existing customer.
+
+`notes` _optional_
+: `object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
     
 
   
@@ -192,14 +207,218 @@ instance.customers.create({
 
 ### 1.2 Create an Order
 
-@include recurring-payments/auth-order-api-intro-otm
+Use the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md) to create a unique Razorpay `order_id` that is associated with the authorisation transaction for a one time mandate. To create a one-time mandate, pass the value of the `frequency` parameter as `one_time`. The following endpoint creates an order.
 
-@include recurring-payments/upi/order-code-sbmd
+/orders
+
+```cURL: Curl
+curl -u : \
+-X POST https://api.razorpay.com/v1/orders \
+-H "Content-Type: application/json" \
+-d '{
+  "amount": 100,
+  "currency": "INR",
+  "customer_id": "cust_4xbQrmEoA5WJ01",
+  "method": "upi",
+  "token": {
+    "max_amount": 200000,
+    "expire_at": 2709971120,
+    "frequency": "as_presented",
+    "type": "single_block_multiple_debit"
+  },
+  "receipt": "Receipt No. 1",
+  "notes":{
+    "note_key_1":"September",
+    "note_key_2":"Make it so."
+  }
+}'
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+JSONObject orderRequest = new JSONObject();
+orderRequest.put("amount", 100);
+orderRequest.put("currency", "INR");
+orderRequest.put("customer_id", "cust_4xbQrmEoA5WJ01");
+orderRequest.put("method", "upi");
+orderRequest.put("receipt", "receipt#1");
+JSONObject token = new JSONObject();
+token.put("max_amount","200000"); 
+token.put("expire_at","2709971120");
+token.put("frequency","as_presented");
+token.put("type","single_block_multiple_debit");
+orderRequest.put("token", token);
+JSONObject notes = new JSONObject();
+notes.put("notes_key_1","September");
+notes.put("notes_key_2","Make it so.");
+orderRequest.put("notes", notes);
+
+Order order = razorpay.orders.create(orderRequest);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->order->create(array('amount' => 0,'currency' => 'INR','method' => 'upi','customer_id' => 'cust_4xbQrmEoA5WJ01', 'token' => array('max_amount' => 200000, 'expire_at' => 2709971120, 'frequency' => 'as_presented', 'type'=> 'single_block_multiple_debit'),'receipt' => 'Receipt No. 1' ,'notes' => array('notes_key_1' => 'September','notes_key_2' => 'Make it so.')));
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.orders.create({
+  amount: 0,
+  currency: "INR",
+  method: "upi",
+  customer_id: "cust_1Aa00000000001",
+  receipt: "Receipt No. 1",
+  notes: {
+    notes_key_1: "September",
+    notes_key_2: "Make it so."
+  },
+  token: {
+    max_amount: 9999900,
+    expire_at: 4102444799,
+    frequency: "as_presented",
+    type: "single_block_multiple_debit"
+  }
+})
+
+```python: Python
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.order.create({
+   "amount":0,
+   "currency":"INR",
+   "method":"upi",
+   "customer_id":"cust_1Aa00000000001",
+   "receipt":"Receipt No. 1",
+   "notes":{
+      "notes_key_1":"September",
+      "notes_key_2":"Make it so."
+   },
+   "token":{
+      "max_amount":9999900,
+      "expire_at":4102444799,
+      "frequency": "as_presented",
+      "type": "single_block_multiple_debit"
+      }
+   }
+})
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+para_attr = {
+  "amount": 0,
+  "currency": "INR",
+  "method": "upi",
+  "customer_id": "cust_1Aa00000000001",
+  "receipt": "Receipt No. 1",
+  "notes": {
+    "notes_key_1": "September",
+    "notes_key_2": "Make it so."
+  },
+  "token": {
+    "max_amount": 9999900,
+    "expire_at": 4102444799,
+    "frequency": "as_presented",
+    "type": "single_block_multiple_debit"
+  }
+}
+Razorpay.Order.create(para_attr)
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+data := map[string]interface{}{
+   "amount":100,
+   "currency":"INR",
+   "customer_id":"",
+   "method":"upi",
+   "token":map[string]interface{}{
+      "max_amount":5000,
+      "expire_at":2709971120,
+      "frequency":"as_presented",
+      "type": "single_block_multiple_debit"
+   },
+   "receipt":"Receipt No. 1",
+   "notes":map[string]interface{}{
+      "notes_key_1":"September",
+      "notes_key_2":"Make it so.",
+   },
+}
+body, err := client.Order.Create(data, nil)
+```
+
+```json: Success Response
+{
+  "id": "order_1Aa00000000002",
+  "entity": "order",
+  "amount": 100,
+  "amount_paid": 0,
+  "amount_due": 100,
+  "currency": "INR",
+  "receipt": "Receipt No. 1",
+  "offer_id": null,
+  "status": "created",
+  "attempts": 0,
+  "notes": {
+    "notes_key_1": "September",
+    "notes_key_2": "Make it so."
+    },
+  "created_at": 1565172642
+}
+
+```json: Failure Response
+{
+   "error":{
+      "code":"BAD_REQUEST_ERROR",
+      "description":"The api key provided is invalid",
+      "source":"NA",
+      "step":"NA",
+      "reason":"NA",
+      "metadata":{
+         
+      }
+   }
+}
+```
 
   
 ### Request Parameters
 
-     @include recurring-payments/upi/order-req-otm-sbmd
+     `amount` _mandatory_
+: `integer` Amount in currency subunits. The maximum amount that can be blocked is ₹10,000.
+
+`currency` _mandatory_
+: `string` The 3-letter ISO currency code for the payment. Currently, we only support `INR`.
+
+`customer_id` _mandatory_
+: `string` The unique identifier of the customer. For example, `cust_4xbQrmEoA5WJ01`.
+
+`method` _mandatory_
+: `string` The authorisation method. Here, it is `upi`.
+
+`receipt` _optional_
+: `string` A user-entered unique identifier of the order. For example, `Receipt No. 1`. You should map this parameter to the `order_id` sent by Razorpay.
+
+`notes`_optional_
+: `object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters each. For example, `"note_key": "Beam me up Scotty”`.
+
+`token`
+: `object` Details related to the authorisation such as max amount, frequency and expiry information.
+
+    `max_amount` _mandatory_
+    : `integer` The maximum amount that can be debited is ₹10,000.
+    
+    `expire_at` _mandatory_
+    : `integer` The Unix timestamp that indicates when the authorisation transaction must expire. The default and the maximum value allowed is 90 days.
+
+    `frequency` _mandatory_
+    : `string` The frequency at which you can charge your customer. The value should be `as_presented`.
+
+    `type` _mandatory_
+    : `string` Indicates the type of payment. Here, the possible value is `single_block_multiple_debit`.
     
 
   
@@ -338,8 +557,379 @@ curl -u : \
   
 ### Error Response Parameters
 
-@include recurring-payments/auth-payment-error-res-sbmd
+Given below is a list of possible errors you may face while making the authorisation payment.
+
     
+        bad_request_error
+        
+         - **Description**: Invalid Mandate Sequence Number.
+         - **Next Steps**: Retry after some time during the valid cycle.
+        
+
+    
+### bank_account_invalid
+
+         - **Description**: Payment failed because Account linked to VPA is invalid.
+         - **Next Steps**: Create a new mandate with the customer.
+        
+
+    
+### bank_account_validation_failed
+
+         - **Description**: Payment was unsuccessful as the details are invalid. Please retry with the right details.
+         - **Next Steps**: Ask the customer to retry again.
+        
+
+    
+### bank_not_available
+
+         - **Description**: Payment was unsuccessful as the bank linked to this UPI ID is temporarily unavailable. Any amount deducted will be refunded within 5-7 working days.
+         - **Next Steps**: Retry after some time.
+        
+
+    
+### bank_technical_error
+
+         
+            
+                Bank Temporarily Unavailable
+                
+                 - **Description**: Payment was unsuccessful as the bank linked to this UPI ID is temporarily unavailable. Any amount deducted will be refunded within 5-7 working days.
+                 - **Next Steps**: Retry after some time.
+                
+
+            
+### Temporary Bank Issue
+
+                 - **Description**: Payment was unsuccessful due to a temporary issue at your bank. Any amount deducted will be refunded within 5-7 working days.
+                 - **Next Steps**: Retry after some time.
+                
+
+            
+### Bank Declined
+
+                 - **Description**: Payment was unsuccessful as it was declined by your bank. Any amount deducted will be refunded within 5-7 working days.
+                 - **Next Steps**: Retry after some time.
+                
+
+            
+### Bank or Wallet Gateway Error
+
+                 - **Description**: Payment processing failed due to error at bank or wallet gateway.
+                 - **Next Steps**: Retry after some time.
+                
+
+            
+### General Temporary Issue
+
+                 - **Description**: Payment was unsuccessful due to a temporary issue. Any amount deducted will be refunded within 5-7 working days.
+                 - **Next Steps**: Retry after some time.
+                
+
+            
+### Bank Services Halt
+
+                 - **Description**: Payment was unsuccessful due to a temporary halt of services at this bank.
+                 - **Next Steps**: Retry after some time.
+                
+
+         
+        
+    
+
+    
+### credit_to_beneficiary_failed
+
+         - **Description**: Payment was unsuccessful due to a temporary issue. Any amount deducted will be refunded within 5-7 working days.
+         - **Next Steps**: Retry after some time.
+        
+
+    
+### debit_declined
+
+         - **Description**: Payment was unsuccessful as it was declined by remitter bank.
+         - **Next Steps**: Create a new mandate with the customer.
+        
+
+    
+### debit_instrument_blocked
+
+         - **Description**: Payment was unsuccessful as the account linked to this UPI ID is blocked. Try using another account.
+         - **Next Steps**: Create a new mandate with the customer.
+        
+
+    
+### duplicate_mandate_request
+
+         - **Description**: Duplicate mandate request. Please try again with another mandate request.
+         - **Next Steps**: Please try again with another mandate request.
+        
+
+    
+### gateway_technical_error
+
+         
+            
+                Bank or Wallet Gateway Error
+                
+                 - **Description**: Payment processing failed due to error at bank or wallet gateway.
+                 - **Next Steps**: Retry after some time.
+                
+
+            
+### Temporary Issue with Money Deduction
+
+                 - **Description**: Payment was unsuccessful due to a temporary issue. If money got deducted, reach out to the seller.
+                 - **Next Steps**: Retry after some time.
+                
+
+         
+        
+    
+
+    
+### incorrect_pin
+
+         - **Description**: You have entered an incorrect PIN on the UPI app. Please retry with the correct PIN.
+         - **Next Steps**: Ask the customer to retry with correct PIN.
+        
+
+    
+### insufficient_funds
+
+         - **Description**: Transaction failed due to insufficient funds.
+         - **Next Steps**: Ask the customer to add balance to their account and retry.
+        
+
+    
+### invalid_request
+
+         - **Description**: Payment processing failed due to error at bank or wallet gateway.
+         - **Next Steps**: Retry after some time.
+        
+
+    
+### invalid_response_from_gateway
+
+         - **Description**: Payment was unsuccessful due to a temporary issue. Any amount deducted will be refunded within 5-7 working days.
+         - **Next Steps**: Retry after some time.
+        
+
+    
+### invalid_transaction_beneficiary
+
+         - **Description**: Beneficiary address resolution failed. Please try again after some time.
+         - **Next Steps**: Please try again after some time.
+        
+
+    
+### invalid_vpa
+
+         - **Description**: You have entered an incorrect UPI ID. Please retry with the correct UPI ID.
+         - **Next Steps**: Ask the customer to retry with a valid VPA.
+        
+
+    
+### issuer_dispatch_failed
+
+         - **Description**: Payment failed due to some issue at the issuer bank. Please try again after some time.
+         - **Next Steps**: Please try again after some time.
+        
+
+    
+### limit_exceeded_remitting_bank
+
+         - **Description**: Limit exceeded for remitter bank. Please ask customer to try with another bank account.
+         - **Next Steps**: Please ask customer to try with another bank account.
+        
+
+    
+### mandate_debit_beyond_psp_amount_cap
+
+         - **Description**: Debit amount is beyond payer PSP specified amount cap. Please reduce the amount and try again.
+         - **Next Steps**: Please reduce the mandate amount to match customer PSP.
+        
+
+    
+### mandate_request_limit_breached
+
+         - **Description**: Maximum number of mandate creation requests exceeded for customer's bank account. Please wait for some time before initiating new mandate creation requests.
+         - **Next Steps**: Please wait for some time before initiating new mandate creation requests.
+        
+
+    
+### mobile_number_invalid
+
+         - **Description**: Registered Mobile number linked to the account has been changed or removed.
+         - **Next Steps**: Create a new mandate with the customer.
+        
+
+    
+### nature_of_debit_not_allowed
+
+         - **Description**: Nature of debit not allowed in customer's account. Please ask the customer to use a different bank account.
+         - **Next Steps**: Please ask the customer to use a different bank account.
+        
+
+    
+### no_financial_address_record_found
+
+         - **Description**: No financial address record found for this VPA. Please ask customer to try with another bank account.
+         - **Next Steps**: Please ask customer to try with other bank account.
+        
+
+    
+### no_original_request_found
+
+         - **Description**: No mandate details were found in the record during debit. Please try after some time.
+         - **Next Steps**: Please try after some time.
+        
+
+    
+### payment_collect_request_expired
+
+         - **Description**: Payment was unsuccessful as you could not pay with the UPI app within time.
+         - **Next Steps**: Retry after some time.
+        
+
+    
+### payment_declined
+
+         
+            
+                Bank Declined Payment
+                
+                 - **Description**: Payment was unsuccessful as it was declined by your bank. Any amount deducted will be refunded within 5-7 working days.
+                 - **Next Steps**: Ask the customer to retry with other account.
+                
+
+            
+### Customer Declined Payment
+
+                 - **Description**: You have declined the payment request on the UPI app. Please retry when you are ready.
+                 - **Next Steps**: Ask the customer to approve the payment.
+                
+
+         
+        
+    
+
+    
+### payment_failed
+
+         - **Description**: Payment was unsuccessful due to a temporary issue. If amount got deducted, it will be refunded within 5-7 working days.
+         - **Next Steps**: Retry after 1 hour.
+        
+
+    
+### payment_pending
+
+         - **Description**: The status of your payment is pending. You can either wait or retry to pay successfully.
+         - **Next Steps**: Retry after some time.
+        
+
+    
+### payment_risk_check_failed
+
+         - **Description**: Payment was unsuccessful as your account does not pass the risk checks done by your bank. Try using another account.
+         - **Next Steps**: Retry after some time.
+        
+
+    
+### payment_timed_out
+
+         - **Description**: Payment was unsuccessful as you could not complete it in time.
+         - **Next Steps**: Retry after some time.
+        
+
+    
+### pre_debit_notification_failed
+
+         - **Description**: Unable to Notify the Customer.
+         - **Next Steps**: Retry after some time.
+        
+
+    
+### remitter_dispatch_failed
+
+         - **Description**: Payment failed due to some issue at the customer's. Please try again after some time.
+         - **Next Steps**: Please try again after some time.
+        
+
+    
+### request_timed_out
+
+         
+            
+                General Timeout - Temporary Issue
+                
+                 - **Description**: Payment was unsuccessful due to a temporary issue. Any amount deducted will be refunded within 5-7 working days.
+                 - **Next Steps**: Retry after some time.
+                
+
+            
+### Timeout - Bank Declined
+
+                 - **Description**: Payment was unsuccessful as it was declined by your bank. Any amount deducted will be refunded within 5-7 working days.
+                 - **Next Steps**: Retry after some time.
+                
+
+            
+### Timeout - Recurring Payment Creation
+
+                 - **Description**: Payment was unsuccessful as the recurring payment can not be created at this time. Any amount deducted will be refunded within 5-7 working days.
+                 - **Next Steps**: Retry after some time.
+                
+
+         
+        
+    
+
+    
+### transaction_frequency_limit_exceeded
+
+         - **Description**: Payment failed. Please try again with another bank account.
+         - **Next Steps**: Create a new mandate with the customer.
+        
+
+    
+### transaction_limit_exceeded
+
+         
+            
+                Amount Limit Exceeded
+                
+                 - **Description**: Payment failed because Transaction amount limit has exceeded.
+                 - **Next Steps**: Reach out to the customer to collect the amount.
+                
+
+            
+### Bank Account Amount Limit
+
+                 - **Description**: Payment was unsuccessful as you exceeded the amount limit on the bank account linked to this UPI ID.
+                 - **Next Steps**: Ask the customer to retry after some time.
+                
+
+         
+        
+    
+
+    
+### transaction_not_allowed
+
+         - **Description**: Payment was unsuccessful as it was declined by your bank. Reach out to your bank for more details. Try using another account.
+         - **Next Steps**: Create a new mandate with the customer.
+        
+
+    
+### upi_dummy_payment
+
+         - **Description**: Payment was a dummy payment for one time mandate registration.
+         - **Next Steps**: NA
+        
+
+    
+  
 
 ## Fetch Tokens
 
@@ -357,12 +947,144 @@ You can retrieve the `token_id` using the Dashboard or the APIs given below.
 
 ### 2.1 Fetch Token by Customer id
 
-@include recurring-payments/upi/token-by-customer-sbmd
+A customer can have multiple tokens and these tokens can be used to create subsequent payments for multiple products or services. 
+
+> **WARN**
+>
+> 
+> **Watch Out!**
+> 
+> - This endpoint will not fetch the details of expired and unused tokens.
+> - The UPI tokens are not populated in the API response if the `save_vpa` feature is not enabled in your account. Please raise a request with our Support team to get this activated.
+> 
+
+The following endpoint retrieves tokens linked to a customer.
+
+/customers/:id/tokens
+
+```curl: Curl
+curl -u : \
+-X GET https://api.razorpay.com/v1/customers/cust_1Aa00000000002/tokens
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String customerId = "cust_1Aa00000000002";
+
+List tokens = razorpay.customers.fetchTokens(customerId);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->customer->fetch($customerId)->tokens()->all();
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.customers.fetchTokens(customerId)
+
+```python: Python
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.token.all(customerId)
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+customerId = "cust_1Aa00000000004"
+
+Razorpay::Customer.fetch(customerId).fetchTokens
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+body, err := client.Token.All("", nil, nil)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+string customerId = "cust_1Aa00000000001";
+
+List token = client.Customer.Fetch(customerId).Tokens();
+```
+
+```json: Response
+{
+  "entity": "collection",
+  "count": 2,
+  "items": [
+    {
+      "id": "token_RtOSr9o9lZwv5C",
+      "entity": "token",
+      "token": "9uZG3CE8KsVG9J",
+      "bank": null,
+      "wallet": null,
+      "method": "upi",
+      "vpa": {
+        "username": "9876543210",
+        "handle": "upi",
+        "name": "GAURAV KUMAR",
+        "status": "valid",
+        "received_at": 1757596287
+      },
+      "recurring": true,
+      "recurring_details": {
+        "status": "confirmed",
+        "failure_reason": null,
+        "amount_blocked": 200,
+        "amount_debited": 100
+      },
+      "auth_type": null,
+      "mrn": null,
+      "used_at": 1766131328,
+      "created_at": 1766130600,
+      "start_time": 1766130592,
+      "notes": [],
+      "error_description": null,
+      "entity_id": null,
+      "dcc_enabled": false,
+      "max_amount": 200,
+      "expired_at": 1767091469
+    },
+    {
+      "id": "token_RtO5dfKe1AbBqd",
+      "entity": "token",
+      "token": "F6YFhWQ1SZSYLl",
+      "bank": null,
+      "wallet": null,
+      "method": "upi",
+      "vpa": {
+        "username": "9325938054",
+        "handle": "upi",
+        "name": null,
+        "status": null,
+        "received_at": 1759590546
+      },
+      "recurring": true,
+      "recurring_details": {
+        "status": "confirmed",
+        "failure_reason": null
+      },
+      "auth_type": null,
+      "mrn": null,
+      "used_at": null,
+      "created_at": 1766129281,
+      "start_time": 1766129266,
+      "notes": [],
+      "error_description": null,
+      "entity_id": null,
+      "dcc_enabled": false
+    }
+  ]
+}
+```
 
   
 ### Path Parameter
 
-    @include recurring-payments/fetch-token-cust-path-api
+    `id` _mandatory_
+: `string` The unique identifier of the customer for whom tokens are to be retrieved. For example, `cust_1Aa00000000002`.
     
 
   
@@ -698,7 +1420,8 @@ Payment payment = client.Payment.Fetch(paymentid);
   
 ### Path Parameters
 
-    @include recurring-payments/fetch-token-pay-path-api
+    `id` _mandatory_
+: `string` The unique identifier of the payment to be retrieved. For example, `pay_1Aa00000000002`.
     
 
 ### 2.3 Fetch Token by Token id and Customer id
@@ -866,12 +1589,176 @@ Once the initial amount block is authorised, you can execute debits against the 
 
 ### 3.1 Create an Order to Charge the Customer
 
-@include recurring-payments/subsequent-payments/order-otm
+You have to create a new order to charge a one time mandate. This order is different from the one created during the authorisation transaction.
+
+The following endpoint creates an order.
+
+/orders
+
+```cURL: Curl
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X POST https://api.razorpay.com/v1/orders \
+-H "Content-Type: application/json" \
+-d '{
+  "amount":1000,
+  "currency":"INR",
+  "payment_capture": true,
+  "receipt":"Receipt No. 1",
+  "notes": {
+    "notes_key_1":"Tea, Earl Grey, Hot",
+    "notes_key_2":"Tea, Earl Grey… decaf."
+  }
+}'
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+JSONObject orderRequest = new JSONObject();
+orderRequest.put("amount", 1000);
+orderRequest.put("currency", "INR");
+orderRequest.put("payment_capture", true);
+orderRequest.put("receipt", "Receipt No. 1");
+JSONObject notes = new JSONObject();
+notes.put("notes_key_1","Tea, Earl Grey, Hot");
+notes.put("notes_key_2","Tea, Earl Grey… decaf.");
+orderRequest.put("notes", notes);
+
+Order order = razorpay.orders.create(orderRequest);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->order->create(array('receipt' => '123', 'amount' => 100, 'payment_capture' => true, 'currency' => 'INR', 'notes'=> array('key1'=> 'value3','key2'=> 'value2')));
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.orders.create({
+  "amount":1000,
+  "currency":"INR",
+  "payment_capture": true,
+  "receipt":"Receipt No. 1",
+  "notes": {
+    "notes_key_1":"Tea, Earl Grey, Hot",
+    "notes_key_2":"Tea, Earl Grey… decaf."
+  }
+})
+
+```python: Python
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.order.create({
+    'amount': 1000,
+    'currency': 'INR',
+    'payment_capture': True,
+    'receipt': 'Receipt No. 1',
+    'notes': {'notes_key_1': 'Tea, Earl Grey, Hot',
+              'notes_key_2': 'Tea, Earl Grey... decaf.'}
+    })
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+para_attr = {
+  "amount": 1000,
+  "currency": "INR",
+  "payment_capture": true,
+  "receipt": "Receipt No. 1",
+  "notes": {
+    "notes_key_1": "Tea, Earl Grey, Hot",
+    "notes_key_2": "Tea, Earl Grey… decaf."
+  }
+}
+
+Razorpay::Order.create(para_attr)
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_S ECRET")
+
+data:= map[string]interface{}{
+  "amount":1000,
+  "currency":"INR",
+  "payment_capture": true,
+  "receipt":"Receipt No. 1",
+  "notes": map[string]interface{}{
+    "notes_key_1":"Tea, Earl Grey, Hot",
+    "notes_key_2":"Tea, Earl Grey… decaf.",
+  },
+}
+body, err := client.Order.Create(data, nil)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+Dictionary orderRequest = new Dictionary();
+orderRequest.Add("amount", 100);
+orderRequest.Add("currency", "INR");
+orderRequest.Add("receipt", "receipt#12b");
+orderRequest.Add("payment_capture", true);
+Dictionary notes = new Dictionary();
+notes.Add("notes_key_1", "Tea, Earl Grey, Hot");
+notes.Add("notes_key_2", "Tea, Earl Grey… decaf.");
+orderRequest.Add("notes", notes);
+
+Order order = client.Order.Create(orderRequest);
+
+```
+
+```json: Success Response
+{
+   "id":"order_1Aa00000000002",
+   "entity":"order",
+   "amount":1000,
+   "amount_paid":0,
+   "amount_due":1000,
+   "currency":"INR",
+   "receipt":"Receipt No. 1",
+   "offer_id":null,
+   "status":"created",
+   "attempts":0,
+   "notes":{
+      "notes_key_1":"Tea, Earl Grey, Hot",
+      "notes_key_2":"Tea, Earl Grey… decaf."
+   },
+   "created_at":1579782776
+}
+
+```json: Failure Response
+{
+   "error":{
+      "code":"BAD_REQUEST_ERROR",
+      "description":"The id provided does not exist",
+      "source":"business",
+      "step":"payment_initiation",
+      "reason":"input_validation_failed",
+      "metadata":{
+         
+      }
+   }
+}
+```
 
   
 ### Request Parameters
 
-     @include recurring-payments/subsequent-payments/order-req
+     `amount` _mandatory_
+: `integer` Amount in currency subunits.
+
+`currency` _mandatory_
+: `string` The 3-letter ISO currency code for the payment. 
+
+`receipt` _optional_
+: `string` A user-entered unique identifier for the order. For example, `Receipt No. 1`. You should map this parameter to the `order_id` sent by Razorpay.
+
+`notes` _optional_
+: `object` Key-value pair you can use to store additional information about the entity. Maximum of 15 key-value pairs, 256 characters each. For example, `"note_key": "Beam me up Scotty”`.
+
+`payment_capture` _mandatory_
+: `boolean` Determines whether the payment status should be changed to `captured` automatically or not. Possible values:
+        - `true`: Payments are captured automatically.
+        - `false`: Payments are not captured automatically. You can manually capture payments using the [Manually Capture Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment).
     
 
   

@@ -64,7 +64,233 @@ The integration consists of the following steps.
 
 ### 1.1 Create an Order
 
-@include integration-steps/order-creation
+**Order is an important step in the payment process.**
+
+- An order should be created for every payment.
+- You can create an order using the [Orders API](#api-sample-code). It is a server-side API call. Know how to [authenticate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) Orders API.
+- The `order_id` received in the response should be passed to the checkout. This ties the order with the payment and secures the request from being tampered.
+
+> **WARN**
+>
+> 
+> **Watch Out!**
+> 
+> Payments made without an `order_id` cannot be captured and will be automatically refunded. You must create an order before initiating payments to ensure proper payment processing.
+> 
+
+You can create an order:
+- Using the sample code on the Razorpay Postman Public Workspace.
+- By manually integrating the API sample codes on your server.
+
+#### Razorpay Postman Public Workspace
+
+You can use the Postman workspace below to create an order:
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/razorpaydev/workspace/razorpay-public-workspace/request/12492020-6f15a901-06ea-4224-b396-15cd94c6148d)
+
+> **INFO**
+>
+> 
+> **Handy Tips**
+> 
+> Under the **Authorization** section in Postman, select **Basic Auth** and add the Key Id and secret as the Username and Password, respectively.
+> 
+
+#### API Sample Code
+
+Use this endpoint to create an order using the Orders API.
+
+/orders
+
+```curl: Curl
+curl -X POST https://api.razorpay.com/v1/orders
+-U [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
+-H 'content-type:application/json'
+-d '{
+ "amount": 500,
+ "currency": "INR",
+ "receipt": "qwsaq1",
+ "partial_payment": true,
+ "first_payment_min_amount": 230,
+ "notes": {
+   "key1": "value3",
+   "key2": "value2"
+ }
+}'
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+JSONObject orderRequest = new JSONObject();
+orderRequest.put("amount",50000);
+orderRequest.put("currency","INR");
+orderRequest.put("receipt", "receipt#1");
+JSONObject notes = new JSONObject();
+notes.put("notes_key_1","Tea, Earl Grey, Hot");
+notes.put("notes_key_1","Tea, Earl Grey, Hot");
+orderRequest.put("notes",notes);
+
+Order order = instance.orders.create(orderRequest);
+```Python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.order.create({
+ "amount": 50000,
+ "currency": "INR",
+ "receipt": "receipt#1",
+ "partial_payment": False,
+ "notes": {
+   "key1": "value3",
+   "key2": "value2"
+ }
+})
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->order->create(array('receipt' => '123', 'amount' => 100, 'currency' => 'INR', 'notes'=> array('key1'=> 'value3','key2'=> 'value2')));
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+Dictionary orderRequest = new Dictionary();
+orderRequest.Add("amount", 50000);
+orderRequest.Add("currency", "INR");
+orderRequest.Add("receipt", "receipt#1");
+Dictionary notes = new Dictionary();
+notes.Add("notes_key_1", "Tea, Earl Grey, Hot");
+notes.Add("notes_key_2", "Tea, Earl Grey, Hot");
+orderRequest.Add("notes", notes);
+
+Order order = client.Order.Create(orderRequest);
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+para_attr = {
+ "amount": 50000,
+ "currency": "INR",
+ "receipt": "receipt#1",
+ "notes": {
+   "key1": "value3",
+   "key2": "value2"
+ }
+}
+
+Razorpay::Order.create(para_attr)
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.orders.create({
+ "amount": 50000,
+ "currency": "INR",
+ "receipt": "receipt#1",
+ "partial_payment": false,
+ "notes": {
+   "key1": "value3",
+   "key2": "value2"
+ }
+})
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+data := map[string]interface{}{
+ "amount": 50000,
+ "currency": "INR",
+ "receipt": "some_receipt_id",
+ "partial_payment": false,
+ "notes": map[string]interface{}{
+     "key1": "value1",
+     "key2": "value2",
+   },
+}
+body, err := client.Order.Create(data, nil)
+```
+
+```json: Success Response
+{
+ "id": "order_IluGWxBm9U8zJ8",
+ "entity": "order",
+ "amount": 5000,
+ "amount_paid": 0,
+ "amount_due": 5000,
+ "currency": "INR",
+ "receipt": "rcptid_11",
+ "offer_id": null,
+ "status": "created",
+ "attempts": 0,
+ "notes": [],
+ "created_at": 1642662092
+}
+```json: Failure Response
+{
+ "error": {
+   "code": "BAD_REQUEST_ERROR",
+   "description": "Order amount less than minimum amount allowed",
+   "source": "business",
+   "step": "payment_initiation",
+   "reason": "input_validation_failed",
+   "metadata": {},
+   "field": "amount"
+ }
+}
+```
+
+ 
+### Request Parameters
+
+`amount` _mandatory_
+: `integer` Payment amount in the smallest currency subunit. For example, if the amount to be charged is , then pass `29900` in this field. In the case of three decimal currencies, such as KWD, BHD and OMR, to accept a payment of 295.991, pass the value as 295990. And in the case of zero decimal currencies such as JPY, to accept a payment of 295, pass the value as 295.
+
+ 
+> **WARN**
+>
+> 
+>  **Watch Out!**
+> 
+>  As per payment guidelines, you should pass the last decimal number as 0 for three decimal currency payments. For example, if you want to charge a customer 99.991 KD for a transaction, you should pass the value for the amount parameter as `99990` and not `99991`.
+>  
+
+`currency` _mandatory_
+: `string` The currency in which the transaction should be made. See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be 3 characters.
+
+ 
+> **INFO**
+>
+> 
+> 
+>  **Handy Tips**
+> 
+>  Razorpay has added support for zero decimal currencies, such as JPY and three decimal currencies, such as KWD, BHD and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>  
+
+`receipt` _optional_
+: `string` Your receipt id for this order should be passed here. Maximum length is 40 characters.
+
+`notes` _optional_
+: `json object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
+
+`partial_payment` _optional_
+: `boolean` Indicates whether the customer can make a partial payment. Possible values:
+ - `true`: The customer can make partial payments.
+ - `false` (default): The customer cannot make partial payments.
+
+`first_payment_min_amount` _optional_
+: `integer` Minimum amount that must be paid by the customer as the first partial payment. For example, if an amount of 7000 is to be received from the customer in two installments of #1 - 5000, #2 - 2000 then you can set this value as `500000`. This parameter should be passed only if `partial_payment` is `true`.
+
+Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
+   
+
+ 
+### Response Parameters
+
+    Descriptions for the response parameters are present in the [Orders Entity](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/entity.md) parameters table.
+   
+
+ 
+### Error Response Parameters
+
+    The error response parameters are available in the [API Reference Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md).
+   
 
 ### 1.2 Create a Payment
 
@@ -836,11 +1062,141 @@ If the payment has failed, the callback will contain details of the error. Refer
 
 ### 1.4 Verify Payment Signature
 
-@include integration-steps/verify-signature
+This is a mandatory step to confirm the authenticity of the details returned to the Checkout form for successful payments.
+
+  
+### To verify the `razorpay_signature` returned to you by the Checkout form:
+
+     1. Create a signature in your server using the following attributes:
+        - `order_id`: Retrieve the `order_id` from your server. Do not use the `razorpay_order_id` returned by Checkout.
+        - `razorpay_payment_id`: Returned by Checkout.
+        - `key_secret`: Available in your server. The `key_secret` that was generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys).
+
+     2. Use the SHA256 algorithm, the `razorpay_payment_id` and the `order_id` to construct a HMAC hex digest as shown below:
+
+         ```html: HMAC Hex Digest
+         generated_signature = hmac_sha256(order_id + "|" + razorpay_payment_id, secret);
+
+           if (generated_signature == razorpay_signature) {
+             payment is successful
+           }
+         ```
+         
+     3. If the signature you generate on your server matches the `razorpay_signature` returned to you by the Checkout form, the payment received is from an authentic source.
+    
+
+  
+### Generate Signature on Your Server
+
+Given below is the sample code for payment signature verification:
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String secret = "EnLs21M47BllR3X8PSFtjtbd";
+
+JSONObject options = new JSONObject();
+options.put("razorpay_order_id", "order_IEIaMR65cu6nz3");
+options.put("razorpay_payment_id", "pay_IH4NVgf4Dreq1l");
+options.put("razorpay_signature", "0d4e745a1838664ad6c9c9902212a32d627d68e917290b0ad5f08ff4561bc50f");
+
+boolean status =  Utils.verifyPaymentSignature(options, secret);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->utility->verifyPaymentSignature(array('razorpay_order_id' => $razorpayOrderId, 'razorpay_payment_id' => $razorpayPaymentId, 'razorpay_signature' => $razorpaySignature));
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+payment_response = {
+       razorpay_order_id: 'order_IEIaMR65cu6nz3',
+       razorpay_payment_id: 'pay_IH4NVgf4Dreq1l',
+       razorpay_signature: '0d4e745a1838664ad6c9c9902212a32d627d68e917290b0ad5f08ff4561bc50f'
+     }
+Razorpay::Utility.verify_payment_signature(payment_response)
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.utility.verify_payment_signature({
+  'razorpay_order_id': razorpay_order_id,
+  'razorpay_payment_id': razorpay_payment_id,
+  'razorpay_signature': razorpay_signature
+  })
+
+```c: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+Dictionary options = new Dictionary();
+options.Add("razorpay_order_id", "order_IEIaMR65");
+options.Add("razorpay_payment_id", "pay_IH4NVgf4Dreq1l");
+options.Add("razorpay_signature", "0d4e745a1838664ad6c9c9902212a32d627d68e917290b0ad5f08ff4561bc50");
+
+Utils.verifyPaymentSignature(options);
+
+```nodejs: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+var { validatePaymentVerification, validateWebhookSignature } = require('./dist/utils/razorpay-utils');
+validatePaymentVerification({"order_id": razorpayOrderId, "payment_id": razorpayPaymentId }, signature, secret);
+
+```Go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+params := map[string]interface{}{
+ "razorpay_order_id": "order_IEIaMR65cu6nz3",
+ "razorpay_payment_id": "pay_IH4NVgf4Dreq1l",
+}
+
+signature := "0d4e745a1838664ad6c9c9902212a32d627d68e917290b0ad5f08ff4561bc50f";
+secret := "EnLs21M47BllR3X8PSFtjtbd";
+utils.VerifyPaymentSignature(params, signature, secret)
+```
+
+    
+
+  
+### Post Signature Verification
+
+After you have completed the integration, you can [set up webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md), make test payments, replace the test key with the live key and integrate with other [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md).
+    
 
 ### 1.5 Verify Payment Status
 
-@include integration-steps/verify-payment-status
+> **INFO**
+>
+> 
+> **Handy Tips**
+> 
+> On the Razorpay Dashboard, ensure that the payment status is `captured`. Refer to the payment capture settings page to know how to [capture payments automatically](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md).
+> 
+
+    
+### You can track the payment status in three ways:
+
+    
+        To verify the payment status from the Razorpay Dashboard:
+
+        1. Log in to the Razorpay Dashboard and navigate to **Transactions** → **Payments**.
+        2. Check if a **Payment Id** has been generated and note the status. In case of a successful payment, the status is marked as **Captured**.
+        ![](/docs/assets/images/testpayment.jpg)
+    
+    
+        You can use Razorpay webhooks to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL. Know how to [set up webhooks.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)
+
+        #### Example
+        If you have subscribed to the `order.paid` webhook event, you will receive a notification every time a customer pays you for an order.
+    
+    
+        [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/fetch-all-payments.md) to check the payment status.
+    
+
+        
 
 #### Test Cards
 

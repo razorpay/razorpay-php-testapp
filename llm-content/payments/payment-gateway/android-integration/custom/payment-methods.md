@@ -260,7 +260,24 @@ For UPI payments, `method` should be specified as `upi`. The SDK supports two fl
 1. Intent
 2. Collect
 
-@include payment-methods/upi-collect-deprecated/custom
+> **WARN**
+>
+> 
+> **UPI Collect Flow Deprecated**
+> 
+> According to NPCI guidelines, the UPI Collect flow is being deprecated effective 28 February 2026. Customers can no longer make payments or register UPI mandates by manually entering VPA/UPI id/mobile numbers.
+> 
+> **Exemptions:** UPI Collect will continue to be supported for:
+> - MCC 6012 & 6211 (IPO and secondary market transactions).
+> - iOS mobile app and mobile web transactions.
+> - UPI Mandates (execute/modify/revoke operations only)
+> - eRupi vouchers.
+> - PACB businesses (cross-border/international payments).
+> 
+> **Action Required:**
+> - If you are a new Razorpay user, use [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods.md#intent-flow). 
+> - If you are an existing Razorpay user not covered by exemptions, you must migrate to UPI Intent or UPI QR code to continue accepting UPI payments. For detailed migration steps, refer to the [migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/custom-integration.md).
+> 
 
 #### Intent Flow
 
@@ -561,6 +578,323 @@ Know more about the [Customer Onboarding](https://raw.githubusercontent.com/razo
 
 ## CRED
 
-@include payment-methods/cred/android-custom
+Customers can make payments on your Android app using their CRED Coins as well as the credit cards saved on CRED. The SDK supports two flows:
+1. [Intent](#intent-flow-1)
+2. [Collect](#collect-flow-1)
 
-@include payment-methods/upi-collect-deprecated/custom
+> **INFO**
+>
+> 
+> **Handy Tips**
+> 
+> Ensure you have integrated with Razorpay Android SDK version 3.9.0 or higher.
+> 
+
+#### Prerequisites
+
+You need to pass the `app_offer` parameter in the Orders API.
+
+ /orders 
+
+```curl: Curl
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X POST https://api.razorpay.com/v1/orders \
+-H "content-type: application/json" \
+-d '{
+  "amount": 1000,
+  "currency": "INR",
+  "receipt": "receipt#1",
+  "app_offer": true
+}'
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.order.create({
+  "amount": 1000,
+  "currency": "INR",
+  "receipt": "receipt#1",
+  "app_offer": true
+ })
+```php: PHP 
+$api = new Api($key_id, $secret);
+
+$api->order->create(array('receipt' => 'receipt#1', 'amount' => 1000, 'currency' => 'INR', 'app_offer'=> true));
+
+```csharp: .NET 
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+Dictionary options = new Dictionary();
+options.Add("amount", 1000); // amount in the smallest currency unit
+options.Add("receipt", "receipt#1");
+options.Add("currency", "INR");
+options.Add("app_offer", true);
+Order order = client.Order.Create(options);
+
+```js: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.orders.create({
+  amount: 1000,
+  currency: "INR",
+  receipt: "receipt#1",
+  app_offer: true
+})
+
+```go: go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+data := map[string]interface{}{
+  "amount": 1000,
+  "currency": "INR",
+  "receipt": "receipt#1",
+  "app_offer": true
+}
+body, err := client.Order.Create(data, nil)
+
+```ruby: Ruby 
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+order = Razorpay::Order.create amount: 1000, currency: 'INR', receipt: 'receipt#1', app_offer: true
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+JSONObject orderRequest = new JSONObject();
+orderRequest.put("amount", 1000); // amount in the smallest currency unit
+orderRequest.put("currency", "INR");
+orderRequest.put("receipt", "receipt#1");
+orderRequest.put("app_offer", true);
+
+Order order = razorpay.orders.create(orderRequest);
+
+```json: Response
+{
+  "id": "order_FNPoKwCtPyhJOt",
+  "entity": "order",
+  "amount": 1000,
+  "amount_paid": 0,
+  "amount_due": 1000,
+  "currency": "INR",
+  "receipt": null,
+  "status": "created",
+  "attempts": 0,
+  "notes": [],
+  "created_at": 1596703420
+}
+```
+
+#### Request Parameters
+
+`amount` _mandatory_
+: `integer` The transaction amount, expressed in the currency subunit, such as paise (in case of INR). For example, for an actual amount of ₹299.35, the value of this field should be `29935`.
+
+`currency` _mandatory_
+: `string` The currency in which the transaction should be made. See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Default is `INR`.
+
+`app_offer` _optional_
+: `boolean` Allow/do not allow customers to use CRED coins to make payments. This is used to prevent double discounting scenarios where customers have already availed discounts using voucher/coupon, and you do not want them to redeem Coins as well. Possible values:
+    - `true`: Customer not allowed to use CRED coins to make payment.
+    - `false` (default): Customer can use CRED coins to make payment.
+
+`receipt` _optional_
+: `string` Your receipt id for this order should be passed here. Maximum length is 40 characters.
+
+`notes` _optional_
+: `object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
+
+#### Intent Flow
+
+The Android SDK performs the following functions to invoke the intent on the Android device:
+- Handles the intent response from CRED
+- Opens the CRED app
+- Process the payment
+- Send success or failure response back to your app
+
+To use this flow:
+1. [Detect presence of CRED app on customer's Android device](#1-detect-presence-of-cred-app).
+2. [Create a payment](#2-create-payment).
+3. [Implement PaymentResultWithDataListener Method](#3-implement-paymentresultwithdatalistener-method).
+
+#### 1. Detect Presence of CRED App
+
+Use the below code to check if the CRED app is present in the customer's Android device. `Razorpay.isCredAppInstalled(activity)` returns a boolean value, disclosing whether the app is present on the device or not.
+
+```java: Java
+if (Razorpay.isCredAppInstalled(PaymentOptions.this)) {
+  payWithCredBtn.setText("CRED Pay (Intent Flow)");
+} else {
+    payWithCredBtn.setText("CRED Pay (Collect Flow)");
+}
+```kotlin: Kotlin
+if (Razorpay.isCredAppInstalled(this@PaymentOptions)) {
+    payWithCredBtn.setText("CRED Pay (Intent Flow)");
+} else {
+    payWithCredBtn.setText("CRED Pay (Collect Flow)");
+}
+```
+
+#### 2. Create Payment
+
+After you receive the customer's app information, send it to the Razorpay API to complete the creation step of the payment flow. Below is the payload(JSON Object) to be sent:
+
+```java: Java
+razorpay.submit(payload,activityObject)
+
+JSONObject data = new JSONObject("{currency:'INR'}");
+data.put("amount", 29935);
+data.put("order_id", "order_DgZ26rHjbzLLY2");
+data.put("email", "gaurav.kumar@example.com");
+data.put("contact", "9000090000");
+data.put("method", "app");
+data.put("provider", "cred");
+data.put("app_present", true);
+```kotlin: Kotlin
+val data = JSONObject("{currency:'INR'}")
+data.put("amount", 29935)
+data.put("order_id", "order_DgZ26rHjbzLLY2")
+data.put("email", "gaurav.kumar@example.com")
+data.put("contact", "9000090000")
+data.put("method", "app")
+data.put("provider", "cred")
+data.put("app_present", true)
+```
+
+#### Request Parameters
+
+`method` _mandatory_
+: `string` The method used to make the payment. Here, it must be `app`.
+
+`provider` _mandatory if method=app_
+: `string` Name of the PSP app. Here, it must be `cred`.
+
+`app_present` _mandatory if app=cred_
+: `boolean` Based upon response from the app present function, pass the value in this field. Possible values:
+    - `true`: Opens the CRED app on customer's device.
+    - `false` (default): Sends a push notification to customer's device.
+
+#### 3. Implement PaymentResultWithDataListener Method
+
+The `PaymentResultListener` or `PaymentResultWithDataListener` methods can be implemented the way shown in the above function or directly globally to the activity class. The functions will be implemented based on the method chosen. 
+
+#### Sample Code for `PaymentResultListener`
+
+Below are the sample codes for `PaymentResultListener` method.
+
+```java: Java
+razorpay.submit(data, new PaymentResultListener() {
+		@Override
+		public void onPaymentSuccess(String razorpayPaymentId) {
+			// Razorpay payment ID is passed here after a successful payment
+		}
+
+		@Override
+		public void onPaymentError(int code, String description) {
+			// Error code and description is passed here
+		}
+	});
+
+} catch (Exception e) {
+	Log.e(TAG, "Error in submitting payment details", e);
+}
+```kotlin: Kotlin
+razorpay.submit(payload, object : PaymntResultListener {
+    override fun onPaymentSuccess(razorpayPaymentId: String?) {
+        // razorpay payment ID and PaymentData passed here after a successful payment
+    }
+
+    override fun onPaymentError(p0: Int, p1: String?) {
+        // Error code and description is passed here
+    }
+})
+```
+
+#### Sample Code for `PaymentResultWithDataListener`
+
+Below are the sample codes for `PaymentResultWithDataListener` method.
+
+```java: Java
+razorpay.submit(data, new PaymentResultWithDataListener() {
+      @Override
+      public void onPaymentSuccess(String razorpayPaymentId, PaymentData paymentData) {
+          // razorpay payment ID and PaymentData passed here after a successful payment
+      }
+
+      @Override
+      public void onPaymentError(int code, String description) {
+          // Error code and description is passed here
+      }
+  });
+
+} catch (Exception e) {
+    Log.e(TAG, "Error in submitting payment details", e);
+}
+```kotlin: Kotlin
+razorpay.submit(payload, object : PaymentResultWithDataListener {
+    override fun onPaymentSuccess(p0: String?, p1: PaymentData?) {
+        // Razorpay payment ID and PaymentData passed here after a successful payment
+    }
+
+    override fun onPaymentError(p0: Int, p1: String?, p2: PaymentData?) {
+        // Error code and description is passed here
+    }
+})
+```
+
+#### Collect Flow
+
+In Collect Flow, the SDK sends a push notification to the `contact` number passed in the create request. Pass the following parameters to initiate a collect payment.
+
+```java:
+JSONObject data = new JSONObject();
+data.put("amount", 29935);
+data.put("order_id", "order_DgZ26rHjbzLLY2");
+data.put("email", "gaurav.kumar@example.com");
+data.put("contact", "9000090000");
+data.put("method", "app");
+data.put("provider", "cred ");
+data.put("app_present", "false")
+```kotlin: Kotlin
+val data = JSONObject()
+data.put("amount", 29935)
+data.put("order_id", "order_DgZ26rHjbzLLY2")
+data.put("email", "gaurav.kumar@example.com")
+data.put("contact", "9000090000")
+data.put("method", "app")
+data.put("provider", "cred ")
+data.put("app_present", "false")
+```
+
+#### Request Parameters
+
+`method` _mandatory_
+: `string` The method used to make the payment. Here, it must be `app`.
+
+`provider` _mandatory if method=app_
+: `string` Name of the PSP app. Here, it must be `cred`.
+
+`app_present` _mandatory if app=cred_
+: `boolean` Sets the payment flow as collect. Possible values:
+    - `true`: Opens the Cred app on customer's device.
+    - `false` (default): Sends a push notification to customer's device.
+
+> **WARN**
+>
+> 
+> **UPI Collect Flow Deprecated**
+> 
+> According to NPCI guidelines, the UPI Collect flow is being deprecated effective 28 February 2026. Customers can no longer make payments or register UPI mandates by manually entering VPA/UPI id/mobile numbers.
+> 
+> **Exemptions:** UPI Collect will continue to be supported for:
+> - MCC 6012 & 6211 (IPO and secondary market transactions).
+> - iOS mobile app and mobile web transactions.
+> - UPI Mandates (execute/modify/revoke operations only)
+> - eRupi vouchers.
+> - PACB businesses (cross-border/international payments).
+> 
+> **Action Required:**
+> - If you are a new Razorpay user, use [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods.md#intent-flow). 
+> - If you are an existing Razorpay user not covered by exemptions, you must migrate to UPI Intent or UPI QR code to continue accepting UPI payments. For detailed migration steps, refer to the [migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/custom-integration.md).
+>

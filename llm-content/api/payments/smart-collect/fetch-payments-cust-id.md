@@ -11,19 +11,149 @@ Use this endpoint to retrieve payment details for a single Customer Identifier b
 
 ### Request
 
-@include smart-collect/api/fetch/payments
+```cURL: Curl
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X GET \
+https://api.razorpay.com/v1/virtual_accounts/va_CminDKtoToBGmd/payments \
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String virtualId = "va_DlGmm7jInLudH9";
+
+JSONObject params = new JSONObject();
+params.put("count","1");
+        
+List virtualaccounts = instance.virtualAccounts.fetchPayments(virtualId,params);
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.virtual_account.payments(virtualId,options)
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('key_id', 'key_secret')
+
+virtualId = "va_IDDYE8gYTLJCEH"
+
+options = {"count":1}
+
+Razorpay::VirtualAccount.fetch(virtualId).payments(options)
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->virtualAccount->fetch($virtualId)->payments($options);
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.virtualAccounts.fetchPayments(virtualId,options)
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+body, err := client.VirtualAccount.Payments("", nil, nil)
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+virtualId = "va_IDDYE8gYTLJCEH"
+
+options = {"count":1}
+
+Razorpay::VirtualAccount.fetch(virtualId).payments(options)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]
+
+string virtualId = "va_Z6t7VFTb9xHeOs";
+
+Dictionary param = new Dictionary();
+param.Add("count","1");
+        
+List virtualaccount = client.VirtualAccount.Fetch(virtualId).Payments(param);
+```
 
 ### Response
 
-@include smart-collect/api/fetch/payments-res-code
+```json: Success
+{
+  "entity": "collection",
+  "count": 1,
+  "items": [
+    {
+      "id": "pay_JGmL38CqCHTyZZ",
+      "entity": "payment",
+      "amount": 1000,
+      "currency": "INR",
+      "status": "captured",
+      "order_id": null,
+      "invoice_id": null,
+      "international": false,
+      "method": "upi",
+      "amount_refunded": 0,
+      "refund_status": null,
+      "captured": true,
+      "description": null,
+      "card_id": null,
+      "bank": null,
+      "wallet": null,
+      "vpa": "gaurav.kumar@exampleupi",
+      "email": "gaurav.kumar@example.com",
+      "contact": "+919000090000",
+      "customer_id": "cust_HWj3MjySAHSjtq",
+      "notes": [],
+      "fee": 12,
+      "tax": 2,
+      "error_code": null,
+      "error_description": null,
+      "error_source": null,
+      "error_step": null,
+      "error_reason": null,
+      "acquirer_data": {
+        "rrn": "209817848101"
+      },
+      "created_at": 1649402719
+    }
+  ]
+}
+
+```json: Failure
+{
+  "error": {
+    "code": "BAD_REQUEST_ERROR",
+    "description": "The api key provided is invalid",
+    "source": "NA",
+    "step": "NA",
+    "reason": "NA",
+    "metadata": {}
+  }
+}
+```
 
 ### Parameters
 
-@include smart-collect/api/fetch/payments-path
+`id` _mandatory_
+: `string` The unique identifier of the Customer Identifier for which the payment details are to be fetched.
 
 ### Parameters
 
-@include smart-collect/api/fetch/payments-query
+`from` _optional_
+: `integer` Timestamp, in seconds, from when payments are to be fetched.
+
+`to` _optional_
+: `integer` Timestamp, in seconds, till when payments are to be fetched.
+
+`count` _optional_
+: `integer` Number of payments to be fetched. The default value is 10 and the maximum value is 100. This can be used for pagination, in combination with `skip`. 
+
+`skip` _optional_
+: `integer` Number of records to be skipped while fetching the payments. This can be used for pagination, in combination with `count`.
 
 ### Parameters
 

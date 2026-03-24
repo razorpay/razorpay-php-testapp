@@ -48,13 +48,70 @@ The integration flow varies depending on how you choose to create the authorisat
   
 ### Using Razorpay APIs
 
-     @include recurring-payments/inte-flow-rr-custom-checkout
+     ![](/docs/assets/images/recurring-payments-recurring_payments_standard_checkout.jpg)
+
+This is possible only via APIs. The integration flow to collect recurring payments using Razorpay APIs is:
+
+1. Create a customer. This returns a `customer_id`.
+1. Create an order. This returns an `order_id`. The order amount for:
+    - Emandate is ₹0.
+    - Cards is a minimum of ₹1.
+    - Paper NACH is ₹0.
+    - UPI is ₹1.
+1. Pass the `customer_id`, `order_id` and a few additional parameters in your Checkout to create the authorisation payment. The customer completes the authorisation payment, which generates a `token`. This payment can be authorised using one of the following instruments:
+    - Emandate.
+    - Card.
+    - Paper NACH. The following additional steps have to be completed for NACH:
+        1. The customer either downloads a pre-filled NACH form or you can send it to the customer.
+        1. The customer signs the pre-filled NACH form.
+        1. The customer either uploads the signed form or sends it to you to upload for processing.
+    - UPI.
+1. Retrieve and check the status of the token. **Once the token status changes to `confirmed`, you can create and charge subsequent payments**.
+1. Create and charge subsequent payments. To do this, you have to manually:
+    1. Create a new order.
+    1. Create a recurring payment.
+
     
 
   
 ### Using a Registration Link
 
-     @include recurring-payments/inte-flow-reg-link
+     
+
+![](/docs/assets/images/recurring-payments-recurring_payments_registration_link.jpg)
+You can create registration links from the Dashboard or using APIs.
+
+Following is the integration flow to collect recurring payments using a registration link:
+
+1. **Create a registration link and send it to your customer**
+
+The customer completes the authorisation payment, which generates a `token`. This payment can be authorised using one of the following instruments:
+    - Emandate
+    - Card
+    - Paper NACH. The following additional steps have to be completed for NACH:
+        1. The customer either downloads a pre-filled NACH form or you can send it to the customer.
+        1. The customer signs the pre-filled NACH form.
+        1. The customer either uploads the signed form or sends it to you to upload for processing. 
+Know more about [uploading Paper Nach Form](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/upload-paper-nach-form.md).
+    - UPI
+    
+> **INFO**
+>
+> 
+>     **No Need to Create a Customer and Order Separately**
+> 
+>     If you use a registration link to create the authorisation transaction, Razorpay automatically creates a customer and the order on your behalf.
+>     
+
+2. **Retrieve and check the token status**
+
+After the token status changes to `confirmed`, you can create and charge subsequent payments.
+3. **Create and charge subsequent payments**
+
+To do this, you have to manually:
+    1. Create a new order.
+    2. Create a recurring payment.
+
     
 
 ## API Gateway URL

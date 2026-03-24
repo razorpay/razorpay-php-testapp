@@ -63,7 +63,14 @@ This ensures that your settlements are timely and regular and you can maintain s
 
 ## Settlement States
 
-@include settlements/settlement-life-cycle
+Following are the various states of a settlement:
+
+![Settlement Life Cycle flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settlement_life_cycle.jpg.md)
+
+Some reasons for settlement failure:
+- Your bank account is inactive or frozen.
+- Incorrect bank account details.
+- The settlement was rejected by your bank.
 
 ## Dashboard Actions
 

@@ -11,15 +11,149 @@ Use this endpoint to retrieve details of payments made using the bank transfer m
 
 ### Request
 
-@include smart-collect/api/fetch/transfer-method-bank-utr
+```cURL: Curl
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X GET \
+https://api.razorpay.com/v1/payments?skip=0&count=25&va_transaction_id=209817848101&virtual_account=1
+-H "Content-Type: application/json" \
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+JSONObject params = new JSONObject();
+params.put("skip", 0);
+params.put("count", 25);
+params.put("va_transaction_id", 209817848101);
+params.put("virtual_account”, 1);
+            
+List payments = razorpay.Payments.fetchAll(params);
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.payment.all({
+  "skip":  0,
+  "count": 25,
+  “va_transaction_id”: 209817848101,
+  "virtual_account": 1
+})
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->payment->all(array('skip' => 0, 'count' => 25,  'va_transaction_id' => 209817848101, virtual_account'=> 1));
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.payments.all(
+  "count":  25,
+  "skip": 0,
+  "va_transaction_id": 209817848101,
+  “virtual_account”: 1
+})
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+data := map[string]interface{}{
+  "count": 25,
+  “skip”:  0,
+  “va_transaction_id”: 209817848101,
+  “virtual_account”: 1,
+}
+
+body, err := client.Payment.All(data, nil)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+Dictionary paymentRequest = new Dictionary();
+paymentRequest.Add("count", 10);
+paymentRequest.Add("skip", 0);
+paymentRequest.Add("va_transaction_id", 209817848101);
+paymentRequest.Add("virtual_account", 1);
+
+```ruby: Ruby
+require 'razorpay'
+Razorpay.setup("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]")
+
+Razorpay::Payment.all({count:25, skip:0, va_transaction_id: 209817848101, virtual_account: 1})
+```
 
 ### Response
 
-@include smart-collect/api/fetch/transfer-method-bank-utr-res-code
+```json: Success
+{
+  "entity": "collection",
+  "count": 1,
+  "items": [
+    {
+      "id": "pay_JGmL38CqCHTyZZ",
+      "entity": "payment",
+      "amount": 1000,
+      "currency": "INR",
+      "status": "captured",
+      "order_id": null,
+      "invoice_id": null,
+      "international": false,
+      "method": "upi",
+      "amount_refunded": 0,
+      "refund_status": null,
+      "captured": true,
+      "description": null,
+      "card_id": null,
+      "bank": null,
+      "wallet": null,
+      "vpa": "gaurav.kumar@exampleupi ",
+      "email": "saurav.kumar@example.com",
+      "contact": "+919900990099",
+      "customer_id": "cust_HWj3MjySAHSjtq",
+      "notes": [],
+      "fee": 12,
+      "tax": 2,
+      "error_code": null,
+      "error_description": null,
+      "error_source": null,
+      "error_step": null,
+      "error_reason": null,
+      "acquirer_data": {
+        "rrn": "209817848101"
+      },
+      "created_at": 1649402719
+    }
+  ]
+}
+
+```json: Failure
+{
+  "error": {
+    "code": "BAD_REQUEST_ERROR",
+    "description": "The api key provided is invalid",
+    "source": "NA",
+    "step": "NA",
+    "reason": "NA",
+    "metadata": {}
+  }
+}
+```
 
 ### Parameters
 
-@include smart-collect/api/fetch/transfer-method-bank-utr-query
+`count` _optional_
+: `integer` Number of payments to be fetched. Default value is 10. Maximum value is 100. This can be used for pagination, in combination with the `skip` parameter.
+
+`skip` _optional_
+: `integer` Number of records to be skipped while fetching the payments.
+
+`va_transaction_id` _optional_
+: `integer` The UTR number or the unique transaction id of the transaction done via a Customer Identifier.
+
+`virtual_account` _optional_
+: `integer` The product used to fetch is Customer Identifiers.
+Possible values: `1`
 
 ### Parameters
 

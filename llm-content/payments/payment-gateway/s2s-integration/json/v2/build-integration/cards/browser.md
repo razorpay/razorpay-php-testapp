@@ -445,7 +445,176 @@ If the payment request is valid, the response contains the following fields.
 
 If you would like the customer to enter the OTP on your website instead of the bank page, use the `otp_generate` URL. When this URL is triggered, you get the following response:
 
-@include s2s-integration/json/cards/otp-generation
+```curl: Curl
+curl -u [YOUR_KEY_ID]
+-X POST https://api.razorpay.com/v1/payments/pay_FVmAstJWfsD3SO/otp_generate
+-H "Content-Type: application/json" \
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+RazorpayClient razorpayclient = new RazorpayClient("key",""); // Use Only razorpay key
+
+String paymentId = "pay_FVmAstJWfsD3SO";
+
+Payment payment = razorpayclient.payments.otpGenerate(paymentId);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->payment->fetch($paymentId)->otpGenerate();
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.payments.otpGenerate();
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+#Use Only razorpay key
+Razorpay.setup("key", "") 
+
+paymentId = "pay_FVmAstJWfsD3SO";
+
+Razorpay::Payment.otp_generate(paymentId)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+RazorpayClient instance = new RazorpayClient("key",""); // Use Only razorpay key
+
+string paymentId = "pay_Z6t7VFTb9xHeOs";
+
+Payment payment = client.Payment.OtpGenerate(paymentId);
+
+```json: Response
+{
+  "razorpay_payment_id": "pay_FVmAstJWfsD3SO",
+  "next": [
+    {
+      "action": "otp_submit",
+      "url": "https://api.razorpay.com/v1/payments/pay_FVmAstJWfsD3SO/otp_submit/ac2d415a8be7595de09a24b41661729fd9028fdc?key_id="
+    },
+    {
+      "action": "otp_resend",
+      "url": "https://api.razorpay.com/v1/payments/pay_FVmAstJWfsD3SO/otp_resend/json?key_id="
+    }
+  ],
+  "metadata": {
+    "issuer": "HDFC",
+    "network": "MC",
+    "last4": "0153",
+    "iin": "438628"
+  }
+}
+```
+
+#### Path Parameter
+
+`id` _mandatory_
+: `string` Unique identifier of the payment.
+
+#### Response Parameters
+
+If the payment request is valid, the response contains the following fields.
+
+`razorpay_payment_id`
+: `string` Unique identifier of the payment. Present for all responses.
+
+`next`
+: `array` A list of action objects available to you to continue the payment process. Present when the payment requires further processing.
+
+    `action`
+    : `string` An indication of the next step available for payment processing. Possible values:
+      - `opt_submit` - Use this URL to allow the customer to submit OTP and complete the payment on your webpage.
+      - `opt_resend` - Use this URL to resend OTP to the customer.
+    
+    `url`
+    : `string`  URL to be used for the action indicated. 
+
+If the customer faces any latency issues, you can choose to cancel this request and redirect the customer to the bank page to enter the OTP and complete the payment. Thus, you can avoid payment failure by switching the customer to the bank page payment flow.
+
+#### Response on Submitting OTP
+
+Razorpay sends the respective success or failure response after the customer submits the OTP on your page.
+
+The following endpoint submits the OTP:
+
+payments/:id/otp/submit
+
+```curl: Curl
+curl -X POST \
+'https://api.razorpay.com/v1/payments/pay_D5jmY2H6vC7Cy3/otp/submit' \
+-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-H "Content-Type: application/x-www-form-urlencoded" \
+-d 'otp=123456'
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String paymentId = "pay_D5jmY2H6vC7Cy3";
+
+String jsonRequest = "{\n" +
+                "  \"otp\": \"123456\",\n" +
+                "}";
+
+JSONObject requestJson = new JSONObject(jsonRequest);
+
+Payment payment = razorpayclient.payments.otpSubmit(paymentId, requestJson);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->payment->fetch($paymentId)->otpSubmit(array('otp'=> '12345'));
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.payments.otpSubmit(paymentId,{otp:'12345'})
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+para_attr = {
+  "otp": "123456"
+}
+
+paymentId = "pay_D5jmY2H6vC7Cy3";
+
+Razorpay::Payment.otp_generate(paymentId, para_attr)
+
+```csharp: .NET
+
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+string paymentId = "pay_Z6t7VFTb9xHeOs";
+
+Dictionary paymentRequest = new Dictionary();
+paymentRequest.Add("otp", "123456");
+
+Payment payment = client.Payment.OtpSubmit(paymentId, paymentRequest);
+```
+
+```json: Success Response
+{
+  "razorpay_payment_id": "pay_D5jmY2H6vC7Cy3",
+  "razorpay_order_id": "order_9A33XWu170gUtm",
+  "razorpay_signature": "9ef4dffbfd84f1318f6739a3ce19f9d85851857ae648f114332d8401e0949a3d"
+}
+```json: Failure Response
+{
+  "error": {
+    "code" : "BAD_REQUEST_ERROR",
+    "description": "payment processing failed because of incorrect otp"
+  },
+  "next": ["otp_submit", "otp_resend"]
+}
+```
+
+After the payment is completed, the final response is posted to the URL given in `callback_url` of the request, and can then be verified.
 
 ## Next Step
 

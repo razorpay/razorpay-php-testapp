@@ -179,4 +179,12 @@ Given below are the sample payloads for Account Validation webhook events.
 }
 ```
 
-@include webhooks/webhook-code-tips
+> **WARN**
+>
+> 
+> **Watch Out!**
+> 
+> - If you have changed your webhook secret, remember to use the old secret for webhook signature validation while retrying older requests. Using the new secret will lead to a signature mismatch.
+> 
+> - While generating a signature at your end, ensure that the webhook body is passed as an argument in the **raw webhook request body**. **Do not parse or cast the webhook request body**.
+>

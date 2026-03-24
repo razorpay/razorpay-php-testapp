@@ -92,4 +92,131 @@ To start accepting payments using Customer Identifiers, you must:
 - Share Customer Identifier details with customer
 - [Setup webhooks to receive payment notifications](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/smart-collect/va-vpa-qr/notification.md) (optional)
 
-@include smart-collect-qr/api/entity
+## Smart Collect Entity
+
+`id`
+: `string` The unique identifier of the virtual account.
+
+`name`
+: `string` The `merchant billing label` as it appears on the Dashboard.
+
+`entity`
+: `string` Indicates the type of entity. Here, it is `virtual account`.
+
+`status`
+: `string` Indicates whether the virtual account is in `active` or `closed` state.
+
+`description`
+: `string` A brief description about the virtual account.
+
+`amount_paid`
+: `integer` The amount paid by the customer into the virtual account.
+
+`notes`
+: `json object` Any custom notes you might want to add to the virtual account can be entered here. Refer [Notes section of the API Reference Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) to learn more.
+
+`customer_id`
+: `string` Unique identifier of the customer the virtual account is linked with. Refer the [Customer API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md) section to learn more.
+
+`receivers`
+: `json object` Configuration of desired receivers for the virtual account.
+
+  `id`
+  : `string` The unique identifier of the virtual bank account or virtual UPI ID. Sample IDs for:
+
+    
+ - virtual bank account - `ba_Di5gbQsGn0QSz3` 
+ - virtual UPI ID - `vpa_CkTmLXqVYPkbxx` 
+ - virtual qr code - `qr_F7BtWoRgpM7eOn`.
+
+  `entity`
+  : `string` Name of the entity. Possible values are 
+ - `bank_account` 
+ - `vpa` 
+ - `qr_code`
+
+  `ifsc`
+  : `string` The IFSC for the virtual bank account created. For example, `RAZR0000001`. This parameter appears in the response only when `bank_account` is passed as the receiver `type`.
+
+  `bank_name`
+  : `string` The bank associated with the virtual bank account. For example, `RBL Bank`. This parameter appears in the response only when `bank_account` is passed as the receiver `type`.
+
+  `account_number`
+  : `string` The unique account number provided by the bank. For example, `1112220061746877`. This parameter appears in the response only when `bank_account` is passed as the receiver `type`.
+
+  `name`
+  : `string` The `merchant billing label` as it appears on the Dashboard. This parameter appears in the response only when `bank_account` is passed as the receiver `type`.
+
+  `notes`
+  : `json object` Any custom notes you might want to add to the virtual bank account or virtual UPI ID can be entered here. Refer [Notes section of the API Reference Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) to learn more. This parameter appears in the response only when `bank_account` is passed as the receiver `type`.
+
+  `username`
+  : `string` The UPI ID consists of the username and the bank handle. The `username` consists of the `namespace` (assigned by the bank to Razorpay), the `merchant prefix` (which can be customised by you) and the `descriptor` (which you provide to identify the customer). The unique identifier which forms the first half of the virtual UPI ID. For example, `rpy.payto00000gaurikumari`. This parameter appears in the response only when `vpa` is passed as the receiver `type`.
+
+  `handle`
+  : `string` The bank name that forms the second half of the virtual UPI ID.  For example, `icici`. This parameter appears in the response only when `vpa` is passed as the receiver `type`.
+
+  `address`
+  : `string` The UPI ID that combines the `username` and the `handle` with the `@` symbol. For example, `rpy.payto00000gaurikumari@icici`. This parameter appears in the response only when `vpa` is passed as the receiver `type`.
+
+  `reference`
+  : `string` The reference number. This parameter appears in the response only when `qr_code` is passed as the receiver `type`.
+
+  `short_url`
+  : `string` The URL to download the QR code. For example, `https://rzp.io/i/y0hrZw2`. This parameter appears in the response only when `qr_code` is passed as the receiver `type`.
+
+`close_by`
+: `integer` UNIX timestamp at which the virtual account is scheduled to be automatically closed. The time must be at least 15 minutes after current time. The date range can be set till `2147483647` in UNIX timestamp format (equivalent to Tuesday, January 19, 2038 8:44:07 AM GMT+05:30).
+
+> **INFO**
+>
+> **Note**:
+Any request beyond `2147483647` UNIX timestamp will fail.
+
+`closed_at`
+: `integer` UNIX timestamp at which the virtual account is automatically closed.
+
+`created_at`
+: `integer` UNIX timestamp at which the virtual account was created.
+
+```json: Sample Entity
+{
+  "id":"va_CaVE4QbyJvQRdk",
+  "name":"Acme Corp",
+  "entity":"virtual_account",
+  "status":"active",
+  "description":"Virtual Account created for Gaurav Kumar",
+  "notes":{
+    "flat no":"105"
+  },
+  "amount_paid":0,
+  "customer_id":"cust_805c8oBQdBGPwS",
+  "receivers":[
+    {
+      "id": "ba_DzXNNxY8yQu5iV",
+      "entity": "bank_account",
+      "ifsc":"RATN0VAAPIS",
+      "bank_name": "RBL Bank",
+      "name": "Acme Corp",
+      "notes": [],
+      "account_number": "2223333230231378"
+    },
+    {
+      "id":"vpa_CkTmLXqVYPkbxx",
+      "entity":"vpa",
+      "username":"rpy.payto00000gaurikumari",
+      "handle":"icici",
+      "address":"rpy.payto00000gaurikumari@icici"
+    },
+    {
+      "id": "qr_F7BtWoRgpM7eOn",
+      "entity": "qr_code",
+      "reference": "F7BtWoRgpM7eOn",
+      "short_url": "https://rzp.io/i/y0hrZw2",
+    }
+  ],
+  "close_by": 1581615838,
+  "closed_at": null,
+  "created_at": 1577962694
+}
+```

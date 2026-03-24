@@ -73,7 +73,27 @@ null
 
 ### Parameters
 
-@include smart-collect/api-tpv/add-req
+`type` _mandatory_
+: `string` The type of account. Possible value is `bank_account`.
+
+`bank_account` _mandatory_
+: `object` Indicates the bank account details such as `ifsc` and `account_number`.
+
+    `ifsc` _mandatory_
+    : `string` The IFSC associated with the bank account.
+
+    `account_number` _mandatory_
+    : `string` The bank account number.
+      
+> **INFO**
+>
+> 
+>       **Handy Tips**
+> 
+>       SBI account numbers can contain zeros preceding actual numbers. You should enter the complete account number, including these zeros, or else the transaction will fail, and the amount will be refunded automatically.
+> 
+>       For example, if the account number is 00000022234631312, add the complete account number and not just 22234631312.
+>       
 
 ### Errors
 

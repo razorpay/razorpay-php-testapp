@@ -88,7 +88,25 @@ Check the [sample payloads](https://raw.githubusercontent.com/razorpay/razorpay-
 
 #### Sub-Merchant Onboarding Events
 
-@include partners/partners-available-events
+Event Category | Event Name | Description
+---
+PG Product Status | product.payment_gateway.under_review | Triggered when the status for a Payment Gateway product is `under_review`.
+---
+PG Product Status | product.payment_gateway.needs_clarification | Triggered when the status for a Payment Gateway product is `needs clarification`.
+---
+PG Product Status | product.payment_gateway.activated | Triggered when the status for a Payment Gateway product is `activated`.
+---
+PG Product Status | product.payment_gateway.rejected | Triggered when the status for a Payment Gateway product is `rejected`.
+---
+PL Product Status | product.payment_link.under_review | Triggered when the status for a Payment Link product is `under_review`.
+---
+PL Product Status | product.payment_link.needs_clarification | Triggered when the status for a Payment Link product is `needs clarification`.
+---
+PL Product Status | product.payment_link.activated | Triggered when the status for a Payment Link product is `activated`.
+---
+PL Product Status | product.payment_link.rejected | Triggered when the status for a Payment Link product is `rejected`.
+---
+Account | account.suspended | Triggered when the Partner's account gets suspended.
 
 You can check the events and sample payloads of [Sub-Merchant Onboarding Events](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/partners.md). Know more about [Webhook APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/partners/webhooks.md). 
 

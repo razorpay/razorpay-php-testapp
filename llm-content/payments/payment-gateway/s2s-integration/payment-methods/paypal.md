@@ -296,7 +296,134 @@ body, err := client.Order.Create(data, nil)
 
 Once an order is created, your next step is to create a payment. The following API will create a payment with `wallet` as the payment method:
 
-@include s2s-integration/json/paypal/create-payment
+/payments/create/json
+
+```curl: Curl
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X POST https://api.razorpay.com/v1/payments/create/json \
+-H "Content-Type: application/json" \
+ -d '{
+  "amount": "50000",
+  "currency": "",
+  "email": "",
+  "contact": "",
+  "order_id": "order_EAkbvXiCJlwhHR",
+  "ip": "198.29.65.27",
+  "method": "wallet",
+  "wallet": "paypal"
+  }'
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->payment->createPaymentJson(array('amount' => 50000,'currency' => '','email' => '','contact' => '','order_id' => 'order_I6LVPRQ6upW3uh','ip' => '198.29.65.27','method' => 'wallet','wallet' => 'paypal'));
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.payments.createPaymentJson({
+  amount: 50000,
+  currency: "",
+  order_id: "order_EAkbvXiCJlwhHR",
+  ip: "198.29.65.27",
+  email: "",
+  contact: "",
+  method: "wallet",
+  wallet: "paypal"
+})
+
+```python: Python
+import razorpay
+
+client = razorpay.Client(auth=("key", "secret"))
+
+resp = client.payment.createPaymentJson({
+  "amount": 50000,
+  "currency": "",
+  "order_id": "order_ItZMEZjpBD6dhT",
+  "ip": "198.29.65.27",
+  "email": "",
+  "contact": "",
+  "method": "wallet",
+  "wallet": "paypal"
+})
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+para_attr := map[string]interface{}{
+  "amount": 50000,
+  "currency": "",
+  "order_id": "order_EAkbvXiCJlwhHR",
+  "ip": "198.29.65.27",
+  "email": "",
+  "contact": "",
+  "method": "wallet",
+  "card": "paypal"
+}
+body, err := client.Payment.CreatePaymentJson(para_attr, nil)
+
+print(resp)
+
+```json: Response
+{
+    "razorpay_payment_id": "pay_JbQPrlRl1CnSKc",
+    "next": [
+        {
+            "action": "redirect",
+            "url": "https://api.razorpay.com/v1/payments/JbQPrlRl1CnSKc/authenticate"
+        }
+    ]
+}
+```
+
+  
+### Request Parameters
+
+    
+`amount` _mandatory_
+: `integer` The transaction amount, expressed in the currency subunit. For example, for an actual amount of , the value of this field should be `29935`.
+
+`currency` _mandatory_
+: `string` The currency in which the transaction should be made. Refer to the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/paypal/supported-currencies.md). Length must be of 3 characters.
+
+`order_id` _mandatory_
+: `string` Unique identifier of the Order.
+ Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
+
+`ip` _mandatory_
+: `string` Customer's IP address.
+
+`email` _mandatory_
+: `string` Email address of the customer. Maximum length supported is 40 characters. 
+
+`contact` _mandatory_
+: `string`  Phone number of the customer. Maximum length supported is 15 characters, inclusive of country code. 
+
+`method` _mandatory_
+: `string` Name of the payment method. Possible value is `wallet`
+
+`wallet`
+: `string` Wallet code for the wallet used for the payment. Required if the method is `wallet`. Possible value is `paypal`.
+    
+
+  
+### Response Parameters
+
+`razorpay_payment_id`
+: `string` Unique identifier of the payment. Present for all responses.
+
+`next`
+: `array` A list of action objects available to you to continue the payment process. Present when the payment requires further processing.
+
+   `action`
+   : `string` An indication of the next step available to you to continue the payment process. Possible values:
+   - `redirect` : Use this URL to redirect customer to submit the OTP on the bank page.
+    
+   `url`
+   : `string`  URL to be used for the action indicated. 
+    
 
 ## 1.3 Handle Payment Success and Error Events
 
@@ -338,18 +465,182 @@ if (generated_signature == razorpay_signature) {
 
 ### Generate Signature on your Server
 
-@include s2s-integration/json/netbanking/generate-signature
+```java: Java
+/**
+* This class defines common routines for generating
+* authentication signatures for Razorpay Webhook requests.
+*/
+public class Signature
+{
+    private static final String HMAC_SHA256_ALGORITHM = "HmacSHA256";
+    /**
+    * Computes RFC 2104-compliant HMAC signature.
+    * * @param data
+    * The data to be signed.
+    * @param key
+    * The signing key.
+    * @return
+    * The Base64-encoded RFC 2104-compliant HMAC signature.
+    * @throws
+    * java.security.SignatureException when signature generation fails
+    */
+    public static String calculateRFC2104HMAC(String data, String secret)
+    throws java.security.SignatureException
+    {
+        String result;
+        try {
+
+            // get an hmac_sha256 key from the raw secret bytes
+            SecretKeySpec signingKey = new SecretKeySpec(secret.getBytes(), HMAC_SHA256_ALGORITHM);
+
+            // get an hmac_sha256 Mac instance and initialize with the signing key
+            Mac mac = Mac.getInstance(HMAC_SHA256_ALGORITHM);
+            mac.init(signingKey);
+
+            // compute the hmac on input data bytes
+            byte[] rawHmac = mac.doFinal(data.getBytes());
+
+            // base64-encode the hmac
+            result = DatatypeConverter.printHexBinary(rawHmac).toLowerCase();
+
+        } catch (Exception e) {
+            throw new SignatureException("Failed to generate HMAC : " + e.getMessage());
+        }
+        return result;
+    }
+}
+
+```php: PHP
+use Razorpay\Api\Api;
+$api = new Api($key_id, $key_secret);
+$attributes  = array('razorpay_signature'  => '23233',  'razorpay_payment_id'  => '332' ,  'razorpay_order_id' => '12122');
+$order  = $api->utility->verifyPaymentSignature($attributes)
+
+```ruby: Ruby
+require 'razorpay'
+Razorpay.setup('key_id', 'key_secret')
+payment_response = {
+  'razorpay_order_id': '12122',
+  'razorpay_payment_id': '332',
+  'razorpay_signature': '23233'
+}
+
+Razorpay::Utility.verify_payment_signature(payment_response)
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.utility.verify_payment_signature({
+   'razorpay_order_id': razorpay_order_id,
+   'razorpay_payment_id': razorpay_payment_id,
+   'razorpay_signature': razorpay_signature
+   })
+
+```c: .NET
+ Dictionary attributes = new Dictionary();
+
+            attributes.Add("razorpay_payment_id", paymentId);
+            attributes.Add("razorpay_order_id", Request.Form["razorpay_order_id"]);
+            attributes.Add("razorpay_signature", Request.Form["razorpay_signature"]);
+
+            Utils.verifyPaymentSignature(attributes);
+```nodejs: Node.js
+var { validatePaymentVerification } = require('./dist/utils/razorpay-utils');
+
+validatePaymentVerification({"order_id": razorpayOrderId, "payment_id": razorpayPaymentId }, signature, secret);
+```Go: Go
+import (
+	"crypto/hmac"
+	"crypto/sha256"
+	"crypto/subtle"
+	"encoding/hex"
+	"fmt"
+)
+
+func main()  {
+	signature := "477d1cdb3f8122a7b0963704b9bcbf294f65a03841a5f1d7a4f3ed8cd1810f9b"
+	secret := "qp3zKxwLZxbMORJgEVWi3Gou"
+	data := "order_J2AeF1ZpvfqRGH|pay_J2AfAxNHgqqBiI"
+	//fmt.Printf("Secret: %s Data: %s\n", secret, data)
+	
+	// Create a new HMAC by defining the hash type and the key (as byte array)
+	h := hmac.New(sha256.New, []byte(secret))
+	
+	// Write Data to it
+	_, err := h.Write([]byte(data))
+	
+	if err != nil {
+		panic(err)
+	}
+	
+	// Get result and encode as hexadecimal string
+	sha := hex.EncodeToString(h.Sum(nil))
+	
+	fmt.Printf("Result: %s\n", sha)
+	
+	if subtle.ConstantTimeCompare([]byte(sha), []byte(signature)) == 1 {
+		fmt.Println("Works")
+	}
+}
+```
 
 ## 1.5 Integrate Payments Rainy Day Kit
 
-@include rainy-day/section
+Use Payments Rainy Day kit to overcome payments exceptions such as:
+- [Late Authorisation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/late-authorisation.md)
+- [Payment Downtime](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/downtime.md)
+- [Payment Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md)
 
 ## 1.6 Verify Payment Status
 
-@include integration-steps/verify-payment-status
+> **INFO**
+>
+> 
+> **Handy Tips**
+> 
+> On the Razorpay Dashboard, ensure that the payment status is `captured`. Refer to the payment capture settings page to know how to [capture payments automatically](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md).
+> 
+
+    
+### You can track the payment status in three ways:
+
+    
+        To verify the payment status from the Razorpay Dashboard:
+
+        1. Log in to the Razorpay Dashboard and navigate to **Transactions** → **Payments**.
+        2. Check if a **Payment Id** has been generated and note the status. In case of a successful payment, the status is marked as **Captured**.
+        ![](/docs/assets/images/testpayment.jpg)
+    
+    
+        You can use Razorpay webhooks to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL. Know how to [set up webhooks.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)
+
+        #### Example
+        If you have subscribed to the `order.paid` webhook event, you will receive a notification every time a customer pays you for an order.
+    
+    
+        [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/fetch-all-payments.md) to check the payment status.
+    
+
+        
 
 ## Next Steps
 
 [Step 2: Test Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/json/v2/test-integration.md)
 
-@include payment-methods/paypal-settlements-refunds
+## Settlements
+
+You receive the payments made using PayPal directly to your PayPal wallet. PayPal makes the settlements in INR.
+
+## Refunds
+
+> **INFO**
+>
+> 
+> **Refunds - PayPal Balance Required**
+> 
+> Ensure you have sufficient balance in your PayPal account before you initiate a refund.
+> 
+
+1. Refunds can be initiated by you either from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/dashboard.md#issue-refunds) .
+2. The refund amount is deducted from your PayPal account and credited to your customer's PayPal account.

@@ -543,7 +543,90 @@ In addition to the above categories, International Bank Transfer does not suppor
 
 ## Frequently Asked Questions (FAQs)
 
-@include international-payments/moneysaver-faqs
+    
+### 1. I have customers spread across the US, UK and Europe. I want to offer our customers a cheaper, more reliable, and better payment experience. Can I collect payments in USD, GBP or EUR currency?
+
+         Yes, you can offer services to your international customers from the US and other countries by providing them with a local currency bank account, and they can pay in their respective currencies.
+        
+
+    
+### 2. How can I transfer money from the local currency bank accounts to my current account with an Indian bank?
+
+         The money is settled in your current account in INR currency by Razorpay after deducting the appropriate charges.
+        
+
+    
+### 3. Can I keep funds in these local currency accounts for a month or more for other payouts in foreign currency?
+
+         No, you cannot hold the funds in the local currency accounts.
+        
+
+    
+### 4. Do I need to share any bills/invoices with Razorpay?
+
+         Yes. You must provide invoices for all the transactions accepted via MoneySaver account. Airway bill is mandatory for the export of physical goods. Our banking partners require this for audit purposes as mandated by RBI. The settlement will not be initiated without a valid invoice copy, airway bill (in case of delivery of physical goods) and buyer's address details.
+
+         You should [upload the invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer/transactions-invoices.md#uploading-invoices-and-business-buyer-details) on the Dashboard to enable Razorpay to settle funds to the Indian bank account.
+        
+
+    
+### 5. Does Razorpay need the buyer's address details along with the invoices?
+
+         Yes. You must provide the buyer's address details and invoices for all the transactions accepted via a MoneySaver account. You should [upload the buyer's address details](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/buyers-address-details.md) on the Dashboard to enable Razorpay to settle funds to the Indian bank account.
+        
+
+    
+### 6. How can I provide invoices for these payment transactions?
+
+         An invoice or airway bill (in case of delivery of physical goods) is mandatory for export transactions. You may [upload invoices](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/international-bank-transfer/transactions-invoices.md#uploading-invoices-and-business-buyer-details) to your Dashboard. The payment is settled once you share a valid invoice.
+        
+
+    
+### 7. What is the pricing for using this method?
+
+         Please refer to the pricing details mentioned [here](https://razorpay.com/accept-international-payments/bank-transfers/).
+        
+
+    
+### 8. What is the settlement TAT?
+
+         The settlement cycle is T+1 from the time the invoice is captured or invoice details are shared against a payment.
+        
+
+    
+### 9. Does Razorpay support multiple settlement currencies for a seller?
+
+         Yes, we support INR settlements to your current account in India and non-INR settlements to your EEFC account.
+        
+
+    
+### 10. Will I get FIRS for these transactions for tax purposes?
+
+         FIRS will be sent to your contact email within 24 hours after settlement.
+        
+
+    
+### 11. What if my end customer raises a dispute with Razorpay?
+
+         Disputes do not apply to these transactions as they are push transactions.
+        
+
+    
+### 12. Are refunds supported on these transactions?
+
+         No, refunds are not supported for these transactions.
+        
+
+    
+### 13. What is the payment flow for the consumer/buyer?
+
+         The payment flow is given below:
+
+         1. The customer receives your virtual bank account details shared by you via email, WhatsApp or invoice.
+         2. The customer adds your virtual bank account details as a beneficiary in their bank account or online banking portal.
+         3. The customer initiates a local bank transfer to your account using their preferred payment method.
+         4. The payment amount reflects on your Razorpay dashboard within a few hours of the customer initiating the transfer.
+       
 
 ### Related Information
 

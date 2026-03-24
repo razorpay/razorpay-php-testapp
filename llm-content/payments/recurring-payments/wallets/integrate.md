@@ -68,13 +68,27 @@ Mandate registration creates an **authorisation transaction** where customers pr
 
         ### Registration Link Statuses
 
-        @include recurring-payments/registration-link-states
+        A registration link moves through the following states during its life cycle:
+
     
 
     
 ### Authorisation Payment Statuses
 
-         @include recurring-payments/authorization-payment-states
+         Once the customer has made the Authorisation Payment, it moves through the following states as per the [payment flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md):
+
+Status | Description | Webhook
+---
+Created | Payment is created when a customer enters and submits the payment information. | NA
+---
+Authorized | Payment is authorized when the customer’s payment details are successfully authenticated by the bank. | [payment.authorized](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#payment-authorized)
+---
+Captured | Indicates that the payment is verified by you.
+Once a payment is captured you can [retrieve the token](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#3-search-for-the-token). | [payment.captured](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#payment-captured) or [order.paid](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#order-paid)
+---
+Failed | Indicates that the payment has failed.
+If the payment has failed, you need to [create an authorisation transaction](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/cards/create-authorization-transaction.md) again. | [payment.failed](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#payment-failed)
+
         
 
 ## 2. Fetch Token Details
@@ -94,7 +108,8 @@ You can retrieve token information using:
 
          ![Token life cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/rec-pmnts-2_1_1_1.jpg.md)
 
-         @include recurring-payments/token-states
+         
+
         
 
 ## 3. Charge Customers

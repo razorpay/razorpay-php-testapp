@@ -45,7 +45,24 @@ Customers can make intent-based payments using Google Pay on mobile-web applicat
 
 ## Android Integration
 
-@include payment-methods/upi-collect-deprecated/standard
+> **WARN**
+>
+> 
+> **UPI Collect Flow Deprecated**
+> 
+> According to NPCI guidelines, the UPI Collect flow is being deprecated effective 28 February 2026. Customers can no longer make payments or register UPI mandates by manually entering VPA/UPI id/mobile numbers.
+> 
+> **Exemptions:** UPI Collect will continue to be supported for:
+> - MCC 6012 & 6211 (IPO and secondary market transactions).
+> - iOS mobile app and mobile web transactions.
+> - UPI Mandates (execute/modify/revoke operations only)
+> - eRupi vouchers.
+> - PACB businesses (cross-border/international payments).
+> 
+> **Action Required:**
+> - If you are a new Razorpay user, use [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/upi-intent.md). 
+> - If you are an existing Razorpay user not covered by exemptions, you must migrate to UPI Intent or UPI QR code to continue accepting UPI payments. For detailed migration steps, refer to the [migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/standard-integration.md).
+> 
 
 ### Intent-Based Integration
 
@@ -103,4 +120,30 @@ As per NPCI guidelines, the following MCC codes are restricted and cannot accept
      
     
 
-@include payment-methods/google-pay-sdk-integration
+To integrate Google Pay with the Checkout on your Android app using Google's SDK:
+
+1. Download the [Google Pay SDK](https://rzp-1415-prod-mobile.s3.amazonaws.com/android/googlepay-sdk/google-pay-client-api-1.0.0.aar) and add the `.aar` files to the application library.
+    
+> **INFO**
+>
+> 
+>     **Handy Tips**
+> 
+>     The Razorpay-Google Pay SDK acts as a wrapper over the native Google-SDK. This SDK connects Razorpay's SDK with the Google SDK. You need all the 3 SDKs (listed below) for the flow to work.
+>     - Razorpay Android SDK
+>     - Google Pay SDK
+>     - Razorpay-Google Pay SDK
+>     
+
+1. Add the following lines of code to the `build.gradle` file of your application:
+
+    ```java: build.gradle
+        dependencies {
+          implementation(name: 'razorpay-googlepay-1.3.0', ext: 'aar')
+          implementation(name:'google-pay-client-api-1.0.0  ', ext:'aar')
+          implementation 'com.android.support:customtabs:26.1.0'
+          implementation 'com.google.android.gms:play-services-tasks:15.0.1
+        }
+    ```
+
+This adds the dependencies for the SDK and creates a Google Pay UPI payment method on your Checkout form.

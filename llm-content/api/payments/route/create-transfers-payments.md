@@ -16,23 +16,410 @@ You should perform additional steps to disburse payments using Razorpay Route.
 
 ### Request
 
-@include route/api/transfer-via-payments-code
+```curl: Curl
+curl -X POST https://api.razorpay.com/v1/payments/pay_E8JR8E0XyjUSZd/transfers \
+-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
+-H 'content-type: application/json'
+-d '{
+  "transfers": [
+    {
+      "account": "acc_IROu8Nod6PXPtZ",
+      "amount": 100,
+      "currency": "INR",
+      "notes": {
+        "name": "Gaurav Kumar",
+        "roll_no": "IEC2011025"
+      },
+      "linked_account_notes": [
+        "roll_no"
+      ],
+      "on_hold": true,
+      "on_hold_until": 1671222870
+    },
+    {
+      "account": "acc_IRQWUleX4BqvYn",
+      "amount": 300,
+      "currency": "INR",
+      "notes": {
+        "name": "Saurav Kumar",
+        "roll_no": "IEC2011026"
+      },
+      "linked_account_notes": [
+        "roll_no"
+      ],
+      "on_hold": false
+    }
+  ]
+}'
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String paymentId = "pay_E8JR8E0XyjUSZd";
+
+JSONObject transferRequest = new JSONObject();
+List transfers = new ArrayList<>();
+JSONObject transferParams = new JSONObject();
+transferParams.put("account","acc_I0QRP7PpvaHhpB");
+transferParams.put("amount",100);
+transferParams.put("currency","INR");
+JSONObject notes = new JSONObject();
+notes.put("name","Gaurav Kumar");
+notes.put("roll_no","IEC2011026");
+transferParams.put("notes",notes);
+List linkedAccountNotes = new ArrayList<>();
+linkedAccountNotes.add("roll_no");
+transferParams.put("linked_account_notes",linkedAccountNotes);
+transferParams.put("on_hold",true);
+transfers.add(transferParams);
+transferRequest.put("transfers", transfers);
+
+List transfer = razorpay.payments.transfer(paymentId,transferRequest);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->payment->fetch($paymentId)->transfer(array('transfers' => array('account'=> $accountId, 'amount'=> '1000', 'currency'=>'INR', 'notes'=> array('name'=>'Gaurav Kumar', 'roll_no'=>'IEC2011025'), 'linked_account_notes'=>array('branch'), 'on_hold'=> true, 'on_hold_until'=>'1671222870')));
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.payments.transfer(paymentId,{
+   "transfers": [
+    {
+      "account": 'acc_HgzcrXeSLfNP9U',
+      "amount": 100,
+      "currency": "INR",
+      "notes": {
+        "name": "Gaurav Kumar",
+        "roll_no": "IEC2011025"
+      },
+      "linked_account_notes": [
+        "branch"
+      ],
+      "on_hold": true,
+      "on_hold_until": 1671222870
+    }
+  ]
+ })
+
+```python: Python
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.payment.transfer(paymentId,{
+   "transfers": [
+    {
+      "account": 'acc_HgzcrXeSLfNP9U',
+      "amount": 100,
+      "currency": "INR",
+      "notes": {
+        "name": "Gaurav Kumar",
+        "roll_no": "IEC2011025"
+      },
+      "linked_account_notes": [
+        "branch"
+      ],
+      "on_hold": True,
+      "on_hold_until": 1671222870
+    }
+  ]
+ })
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+paymentId = "pay_E8JR8E0XyjUSZd"
+
+para_attr = {
+   "transfers": [
+    {
+      "account": 'acc_HgzcrXeSLfNP9U',
+      "amount": 100,
+      "currency": "INR",
+      "notes": {
+        "name": "Gaurav Kumar",
+        "roll_no": "IEC2011025"
+      },
+      "linked_account_notes": [
+        "branch"
+      ],
+      "on_hold": 1,
+      "on_hold_until": 1671222870
+    }
+  ]
+ }
+
+Razorpay::Payment.fetch(paymentId).transfer(para_attr)
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+data:= map[string]interface{}{
+  "transfers": []interface{}{
+    map[string]interface{}{
+      "account": "acc_HjVXbtpSCIxENR",
+      "amount": 100,
+      "currency": "INR",
+      "notes": map[string]interface{}{
+        "name": "Gaurav Kumar",
+        "roll_no": "IEC2011025",
+      },
+      "linked_account_notes": []string{
+        "roll_no",
+      },
+      "on_hold": true,
+      "on_hold_until": 1671222870,
+    },
+  },
+}
+
+body, err := client.Payment.Transfer("", data, nil)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]
+");
+
+string paymentId = "pay_E8JR8E0XyjUSZd";
+
+Dictionary transferRequest = new Dictionary();
+List> transfers = new List>();
+Dictionary transferParams = new Dictionary();
+transferParams.Add("account", "acc_I0QRP7PpvaHhpB");
+transferParams.Add("amount", 100);
+transferParams.Add("currency", "INR");
+Dictionary notes = new Dictionary();
+notes.Add("name", "Gaurav Kumar");
+notes.Add("roll_no", "IEC2011025");
+transferParams.Add("notes", notes);
+List linkedAccountNotes = new List();
+linkedAccountNotes.Add("roll_no");
+transferParams.Add("linked_account_notes", linkedAccountNotes);
+transferParams.Add("on_hold", true);
+transfers.Add(transferParams);
+transferRequest.Add("transfers", transfers);
+
+List transfer = client.Payment.Fetch(paymentId).Transfer(transferRequest);
+```
 
 ### Response
 
-@include route/api/transfer-via-payments-res-code
+```json: Success
+{
+  "entity": "collection",
+  "count": 2,
+  "items": [
+    {
+      "id": "trf_JJD535tJtk6Yy0",
+      "entity": "transfer",
+      "status": "pending",
+      "source": "pay_JGmCgTEa9OTQcX",
+      "recipient": "acc_IROu8Nod6PXPtZ",
+      "amount": 100,
+      "currency": "INR",
+      "amount_reversed": 0,
+      "notes": {
+        "name": "Gaurav Kumar",
+        "roll_no": "IEC2011025"
+      },
+      "linked_account_notes": [
+        "roll_no"
+      ],
+      "on_hold": true,
+      "on_hold_until": 1671222870,
+      "recipient_settlement_id": null,
+      "created_at": 1649933574,
+      "processed_at": null,
+      "error": {
+        "code": null,
+        "description": null,
+        "reason": null,
+        "field": null,
+        "step": null,
+        "id": "trf_JJD535tJtk6Yy0",
+        "source": null,
+        "metadata": null
+      }
+    },
+    {
+      "id": "trf_JJD536GI6wuz3m",
+      "entity": "transfer",
+      "status": "pending",
+      "source": "pay_JGmCgTEa9OTQcX",
+      "recipient": "acc_IRQWUleX4BqvYn",
+      "amount": 300,
+      "currency": "INR",
+      "amount_reversed": 0,
+      "notes": {
+        "name": "Saurav Kumar",
+        "roll_no": "IEC2011026"
+      },
+      "linked_account_notes": [
+        "roll_no"
+      ],
+      "on_hold": false,
+      "on_hold_until": null,
+      "recipient_settlement_id": null,
+      "created_at": 1649933574,
+      "processed_at": null,
+      "error": {
+        "code": null,
+        "description": null,
+        "reason": null,
+        "field": null,
+        "step": null,
+        "id": "trf_JJD536GI6wuz3m",
+        "source": null,
+        "metadata": null
+      }
+    }
+  ]
+}
+
+```json: Failure
+{
+   "error":{
+      "code":"BAD_REQUEST_ERROR",
+      "description":"The api key provided is invalid",
+      "source":"NA",
+      "step":"NA",
+      "reason":"NA",
+      "metadata":{
+         
+      }
+   }
+}
+```
 
 ### Parameters
 
-@include route/api/transfer-via-payments-path
+`id` _mandatory_
+: `string` Unique identifier of the payment on which the transfer must be created.
 
 ### Parameters
 
-@include route/api/transfer-via-payments-request
+`transfers`
+: `array` Details regarding the transfer.
+
+    `account` _mandatory_
+    : `string` Unique identifier of the Linked Account to which the transfer is to be made. 
+
+    `amount` _mandatory_
+    : `integer` The amount to be transferred to the Linked Account. For example, for an amount of ₹200.35, the value of this field should be 20035.
+
+    `currency` _mandatory_
+    : `string` The currency in which the transfer should be made. We support only `INR` for Route transactions.
+
+    `notes` 
+    : `json object` Set of key-value pairs that can be associated with an entity.  These pairs can be useful for storing additional information about the entity. A maximum of 15 key-value pairs, each of 256 characters (maximum), are supported. For example, `"region": "south", "city": "Bangalore"`.
+
+    `linked_account_notes` 
+    : `array` List of keys from the `notes` object which needs to be shown to Linked Accounts on their Dashboard. For example, `"region", "city"`. Only the keys will be shown, not values.
+
+    `on_hold`
+    : `boolean` Indicates whether the account settlement for transfer is on hold. Know more about [on hold settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/schedule-settlement.md#settlement-settings-for-linked-accounts). Possible values:
+      - `true`: Puts the settlement on hold. 
+      - `false`: Releases the settlement.
+
+    `on_hold_until`
+    : `integer` Timestamp, in Unix, that indicates until when the settlement of the transfer must be put on hold. If no value is passed, the settlement is put on hold indefinitely. We recommend you set the on_hold_until value greater than 30 mins from the transfer creation time.
+
+    
+> **INFO**
+>
+> 
+>     **Handy Tips**
+>     
+>       - The settlement schedule defined for the Linked Account takes precedence over the `on_hold` and `on_hold_until` functionality. This means that a defined settlement schedule is the minimum time required for the transfer to be settled.
+> 
+>       - Let us take the example of a T+10 settlement schedule:
+> 
+>         - If you create a transfer with `on_hold: true` and then release it on T+7 day, the settlement will only go out on T+10 day.
+>         - If you create a transfer with `on_hold: true` and `on_hold_until: 1491567400` (assume the timestamp 1491567400 corresponds to 7 days after transfer), the `on_hold` will change to false on T+7 day. The settlement will only go out on T+10 day.
+>     
 
 ### Parameters
 
-@include route/api/entity-parameters
+`id` 
+: `string`  Unique identifier of the transfer.
+
+`entity`
+: `string` The name of the entity. Here, it is `transfer`.
+
+`transfer_status`
+: `string` The status of the transfer. Possible values are:
+    - `created`
+    - `pending`
+    - `processed`
+    - `failed`
+    - `reversed`
+    - `partially_reversed`
+
+`settlement_status`
+: `string` The status of the settlement. Possible values are:
+    - `pending`
+    - `on_hold`
+    - `settled`
+
+`source` 
+: `string` Unique identifier of the transfer source. The source can be a `payment` or an `order`.
+
+`recipient` 
+: `string` Unique identifier of the transfer destination, that is, the Linked Account.
+
+`amount` 
+: `integer` The amount to be transferred to the Linked Account, in paise. For example, for an amount of ₹200.35, the value of this field should be 20035.
+
+`currency` 
+: `string`  ISO currency code. We support route transfers only in `INR`.
+
+`amount_reversed` 
+: `integer` Amount reversed from this transfer for refunds.
+
+`notes` 
+: `json object` Set of key-value pairs that can be associated with an entity. These pairs can be useful for storing additional information about the entity. A maximum of 15 key-value pairs, each of 256 characters (maximum), are supported. For example, `"region": "south", "city": "Bangalore"`.
+
+`error`
+: `string` Provides error details that may occur during transfers.
+
+    `code`
+    : `string` Type of the error.
+
+    `description`
+    : `string` Error description.
+
+    `field`
+    : `string` Name of the parameter in the API request that caused the error.
+
+    `source`
+    : `string` The point of failure in the specific operation. For example, customer, business and so on.
+
+    `step`
+    : `string` The stage where the transaction failure occurred. Stages can be different depending on the payment method used to make the transaction.
+
+    `id`
+    : `string`  Unique identifier of the transfer.
+
+    `reason`
+    : `string` The exact error reason. It can be handled programmatically.
+
+`linked_account_notes` 
+: `array` List of keys from the `notes` object which needs to be shown to Linked Accounts on their Dashboard. For example, `"region", "city"`. Only the keys will be shown, not values.
+
+`on_hold` 
+: `boolean` Indicates whether the account settlement for transfer is on hold. Possible values:
+    - `true`: Puts the settlement on hold.
+    - `false`: Releases the settlement.
+
+`on_hold_until` 
+: `integer` Timestamp, in Unix format, indicates until when the settlement of the transfer must be put on hold. If no value is passed, the settlement is put on hold indefinitely.
+
+`recipient_settlement_id`
+: `string` Unique identifier of the settlement.
+
+`created_at` 
+: `integer` Timestamp, in Unix, at which the record was created.
 
 ### Errors
 

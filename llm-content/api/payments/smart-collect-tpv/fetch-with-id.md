@@ -11,15 +11,120 @@ Use this endpoint to fetch a Customer Identifier using id.
 
 ### Request
 
-@include smart-collect/api-tpv/fetch/fetch-id
+```cURL: Curl
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X GET \
+https://api.razorpay.com/v1/virtual_accounts/va_D6Vw6zyJ0OmRZg \
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String virtualId = "va_4xbQrmEoA5WJ0G";
+
+VirtualAccount virtualaccount = instance.virtualAccounts.fetch(virtualId);
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.virtual_account.fetch(virtualId)
+
+```php: PHP
+$api = new Api('YOUR_KEY_ID, 'YOUR_KEY_SECRET');
+
+$api->virtualAccount->fetch($virtualId);
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+virtualId = "va_IDDYE8gYTLJCEH"
+
+Razorpay::VirtualAccount.fetch(virtualId)
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.virtualAccounts.fetch(virtualId)
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+body, err := client.VirtualAccount.Fetch("", nil, nil)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]
+
+string virtualId = "va_Z6t7VFTb9xHeOs";
+
+VirtualAccount virtualaccount = client.VirtualAccount.Fetch(virtualId);
+```
 
 ### Response
 
-@include smart-collect/api-tpv/fetch/fetch-id-res-code
+```json: Success
+{
+  "id": "va_D6Vw6zyJ0OmRZg",
+  "name": "Acme Corp",
+  "entity": "virtual_account",
+  "status": "active",
+  "description": "Customer Identifier for Raftar Soft",
+  "amount_expected": 5000,
+  "notes": [],
+  "amount_paid": null,
+  "customer_id": "cust_9xnHzNGIEY4TAV",
+  "receivers": [
+    {
+      "id": "ba_D6Vw76RrHA3DC9",
+      "entity": "bank_account",
+      "ifsc": "RATN0VAAPIS",
+      "bank_name": "RBL Bank",
+      "name": "Acme Corp",
+      "notes": [],
+      "account_number": "2223330025991681"
+    }
+  ],
+  "allowed_payers": [
+    {
+      "type": "bank_account",
+      "id":"ba_DlGmm9mSj8fjRM",
+      "bank_account": {
+        "ifsc": "UTIB0000013",
+        "account_number": "914010012345679"
+      }
+    },
+    {
+      "type": "bank_account",
+      "id":"ba_Cmtnm5tSj6agUW",
+      "bank_account": {
+        "ifsc": "UTIB0000014",
+        "account_number": "914010012345680"
+      }
+    }
+  ],
+  "close_by": null,
+  "closed_at": 1568109789,
+  "created_at": 1565939036
+}
+
+```json: Failure
+{
+  "error": {
+    "code": "BAD_REQUEST_ERROR",
+    "description": "The api key provided is invalid",
+    "source": "NA",
+    "step": "NA",
+    "reason": "NA",
+    "metadata": {}
+  }
+}
+```
 
 ### Parameters
 
-@include smart-collect/api-tpv/fetch/fetch-id-path
+`id` _mandatory_
+: `string` The unique identifier of the Customer Identifier whose details are to be fetched.
 
 ### Parameters
 

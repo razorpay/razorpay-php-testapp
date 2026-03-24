@@ -11,7 +11,11 @@ Based on the concept, *Buy now, Pay Later*, the customers get a running line of 
 
 ## Providers
 
-@include payment-methods/paylater/providers
+Provider | Provider Code | Availability | Minimum Transaction | Maximum Transaction
+---
+LazyPay | `lazypay` | [Requires Approval](https://razorpay.com/support/#request)  | ₹1 | ₹10,000
+---
+PayPal | `paypal` | [Requires Approval](https://razorpay.com/support/#request)  | ₹100 | Based on the customer's approved limit.
 
 ## Payment Flow
 
@@ -34,7 +38,9 @@ Based on the concept, *Buy now, Pay Later*, the customers get a running line of 
 
 After an order is created and the customer's payment details are received, the information should be sent to Razorpay to complete the payment. You can do this by invoking `createPayment` and passing `method=paylater` and `provider=`.
 
-@include payment-methods/paylater/provider-code
+Available providers with provider code:
+- **LazyPay**: `lazypay`
+- **PayPal**: `paypal`
 
 ```js: Sample Request
 razorpay.createPayment({

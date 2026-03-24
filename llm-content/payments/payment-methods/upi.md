@@ -11,7 +11,24 @@ UPI checkout is a smooth payment experience for users as compared to other payme
 
 Check the UPI payment flow and the various UPI integrations available with Razorpay.
 
-@include payment-methods/upi-collect-deprecated/standard
+> **WARN**
+>
+> 
+> **UPI Collect Flow Deprecated**
+> 
+> According to NPCI guidelines, the UPI Collect flow is being deprecated effective 28 February 2026. Customers can no longer make payments or register UPI mandates by manually entering VPA/UPI id/mobile numbers.
+> 
+> **Exemptions:** UPI Collect will continue to be supported for:
+> - MCC 6012 & 6211 (IPO and secondary market transactions).
+> - iOS mobile app and mobile web transactions.
+> - UPI Mandates (execute/modify/revoke operations only)
+> - eRupi vouchers.
+> - PACB businesses (cross-border/international payments).
+> 
+> **Action Required:**
+> - If you are a new Razorpay user, use [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/upi-intent.md). 
+> - If you are an existing Razorpay user not covered by exemptions, you must migrate to UPI Intent or UPI QR code to continue accepting UPI payments. For detailed migration steps, refer to the [migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/standard-integration.md).
+> 
 
 ## Special Onboarding Requirements for SEBI-Registered Intermediaries (MCC 6211)
 
@@ -258,7 +275,88 @@ Given below is the payment flow for UPI:
 
 ![Payment Flow for UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-flow-upi_collect.jpg.md)
 
-@include payment-methods/supported-upi-apps
+## Collect Flow
+
+The Collect Flow works like this:
+1. Customers enter their VPAs or mobile number linked to their UPI in the Checkout.
+2. Open the respective UPI apps and complete the payment after 2-factor authentication (UPI PIN and MPIN are entered) on their mobile devices. 
+3. Customers are redirected to your website or app after successful payment. Watch the video to see how UPI collect flow works.
+
+![Pay via UPI mobile number](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/upi-collect.gif.md)
+
+The customers must accept the request they receive on their UPI app to make the payment successfully.
+
+    
+### Supported Platforms, UPI Apps and Availability
+
+         
+         **Supported Platforms** | **Supported UPI Apps** | **Availability**
+          ---
+            - Web
+- Mobile web
+- Android
+ | [All](https://www.npci.org.in/what-we-do/upi/3rd-party-apps) | Available by default
+        
+        
+
+## Intent flow
+
+After customers select the UPI payment app on the Checkout, the app is launched automatically on their mobile devices. Customers need not enter VPA or phone number as these details are prefilled and submitted along with the other payment details.
+
+![UPI Checkout with Intent Flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pay-pm-upi-intent-android.gif.md)
+
+    
+### Supported Platforms, UPI Apps and Availability
+
+         
+        
+
+        **Supported Platforms** | **Supported UPI Apps** | **Availability**
+        ---
+        - Mobile web
+- Android
+- iOS
+ | - PhonePe and GooglePay for Mobile-web on Google Chrome only
+- Paytm, PhonePe and GooglePay for Android and iOS
+ | Available by default
+        
+        
+
+## Omnichannel
+
+This is an intent flow wherein customers enter their mobile numbers instead of VPAs in the UPI app. The payments are completed after 2-factor authentication (UPIN and MPIN are entered).
+
+    
+### Supported Platforms, UPI Apps and Availability
+
+        
+
+        **Supported Platforms** | **Supported UPI Apps** | **Availability**
+        ---
+        
+        Android only | Only for Google Pay | Requires Approval (Reach out to support) and [**Integration**](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/google-pay/omnichannel.md)
+         
+        
+
+ 
+
+## Google Pay SDK
+
+This is an intent flow wherein the customer can complete the payment within your app itself without being redirected to the UPI app on the mobile device. This is particularly useful when you want the customer to experience a seamless payment experience while safeguarding your brand identity.
+
+    
+### Supported Platforms, UPI Apps and Availability
+
+        
+
+        **Supported Platforms** | **Supported UPI Apps** | **Availability**
+        ---
+        
+        Android only | Only for Google Pay | Requires [Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi/google-pay/custom-integration.md#intent-based-integration-using-google-pay-sdk)
+         
+        
+
+ 
 
 > **INFO**
 >

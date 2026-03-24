@@ -87,11 +87,61 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 
 ### Parameters
 
-@include rzpx/fund-accounts/balance-fetch-query-params
+`account_type` 
+: `string` Filters account based on type. Possible values are `current_account` or `razorpayx_lite`. The parameter is case sensitive.
+    - `current_account`: Current Accounts and Escrow Accounts
+    - `razorpayx_lite`: RazorpayX Lite Accounts
+
+`bank_code` 
+: `string` Filters based on bank name. This should be the first four characters of IFSC for any bank.
+    For example, `RATN`or `YESB`. The parameter is case sensitive.
+
+`count`
+: `integer` Number of accounts to be fetched based on the most recently refreshed balance. 
+ This can be used for pagination, in combination with skip.
+    - Default value : `10`
+    - Maximum value : `100`
+
+`skip` 
+: `integer` Numbers of balances to be skipped. This can be used for pagination, in combination with count.
+ Default value is `0`.
 
 ### Parameters
 
-@include rzpx/fund-accounts/balance-fetch-response-params
+`entity`
+: `string` The entity being returned. For example, `banking_balance`.
+
+`count`
+: `integer` Count of items being returned. For example `2`.
+
+`items`
+: `object` Array of all accounts and their balances.
+
+`currency`
+: `string` Returns the currency in which the balance amount is relayed. For example, `INR`.
+
+`amount`
+: `long` The total INR balance amount in paise. For example, `6358629`.
+
+`account_number`
+: `string` Associated account number. For example, `123456789281`.
+
+`account_type`
+:  `string` Returns associated account type. For example, `current_account`.
+
+`bank_name`
+: `string` Returns the full name of the bank.
+For example `YESB`.
+
+`bank_code`
+: `string` Returns bank code. This will be the first four characters of IFSC for any bank.
+For example `YESB`.
+
+`refreshed_at`
+: `long`  The latest timestamp of Razorpay fetching balance from the bank in epoch format. For example `1729847660`.
+
+`available_amount`
+:  `long` The net withdrawable INR balance amount in paise. This will deduct any lien balance and include any OD balance on the account. For example, `6358629`.
 
 ### Errors
 

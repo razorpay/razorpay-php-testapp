@@ -11,7 +11,24 @@ Customers enter their VPAs on your UI, open the respective UPI apps and complete
 
 In this flow, customers likely enter invalid VPAs or forget their VPAs, which could lead to higher drop-off rates. To overcome this problem, Razorpay enables you to validate and save the VPAs of a customer. Know more about [Saved VPA](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/saved-vpa.md).
 
-@include payment-methods/upi-collect-deprecated/s2s
+> **WARN**
+>
+> 
+> **UPI Collect Flow Deprecated**
+> 
+> According to NPCI guidelines, the UPI Collect flow is being deprecated effective 28 February 2026. Customers can no longer make payments or register UPI mandates by manually entering VPA/UPI id/mobile numbers.
+> 
+> **Exemptions:** UPI Collect will continue to be supported for:
+> - MCC 6012 & 6211 (IPO and secondary market transactions).
+> - iOS mobile app and mobile web transactions.
+> - UPI Mandates (execute/modify/revoke operations only)
+> - eRupi vouchers.
+> - PACB businesses (cross-border/international payments).
+> 
+> **Action Required:**
+> - If you are a new Razorpay user, use [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/intent.md). 
+> - If you are an existing Razorpay user not covered by exemptions, you must migrate to UPI Intent or UPI QR code to continue accepting UPI payments. For detailed migration steps, refer to the [migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/s2s-integration.md).
+> 
 
 **NPCI Restrictions for UPI Collect Flow**
 

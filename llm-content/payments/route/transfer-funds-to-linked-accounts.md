@@ -129,7 +129,24 @@ Watch this video to see how to direct transfer funds to a Linked Account.
 
 ## Transfer Status
 
-@include route/api/transfer-status
+The following table lists transfer statuses and their description:
+
+Status | Description
+---
+`created` | As soon as the transfer is initiated, it moves to the `created` state. Transfers via payments and direct transfers will immediately move to the `pending` state from the `created` state. However, the transfer will stay in the `created` state for transfers via orders until the order is paid.
+---
+`pending` | The transfer will be in the `pending` state till the transfer is waiting to be processed.
+---
+`processed` | Once the transfer is processed, the status will change from `pending` to `processed`. 
+ You can initiate the reversal if required.
+---
+`failed` | If the transfer processing fails because of errors like insufficient balance, the transfer status will change to the `failed` state. 
+ You can proceed to create a new transfer request.
+---
+`reversed` | If the complete reversal is done for the transfer, then it will be marked as `reversed`.
+---
+`partially_reversed` | If the partial reversal is done on transfer, it will be marked as `partially_reversed`.
+---
 
 ### Related Information
 - [Transfers and Related Fees](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-fees-example.md)

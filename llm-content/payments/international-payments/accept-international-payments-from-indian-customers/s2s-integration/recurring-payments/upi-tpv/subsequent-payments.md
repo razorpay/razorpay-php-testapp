@@ -370,4 +370,46 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
     
 ### Error Response Parameters
 
-@include recurring-payments/subsequent-payments/rec-pay-error-res
+Given below is a list of possible errors you may face while creating a Recurring Payment.
+
+Error | Cause | Solution
+---
+Amount exceeds maximum amount allowed | This error occurs when you enter an amount greater than the authorized maximum amount. | Make sure the amount is equal to or less than the maximum amount for the particular token.
+---
+Your payment amount is different from your order amount. To pay successfully, please try using right amount. | This error occurs when you enter a different amount while creating a subsequent payment. | Make sure the order and the subsequent payment amounts are the same.
+---
+bank_account_invalid | This error occurs when The customer's bank account is either closed or no longer valid. The customer or bank may have closed the account. | The customer should re-register the mandate.
+---
+bank_account_validation_failed | This error occurs when the bank could not validate the customer registration for debiting the customer. | You can retry after some time or reach out to Razorpay.
+---
+bank_technical_error | The destination bank was facing technical problems at the time the payment was attempted. This error usually occurs when the Core Banking System encounters a technical error while processing the payment. | You can retry after some time or reach out to Razorpay.
+---
+debit_instrument_blocked | This error occurs when the bank temporarily blocks withdrawals on the customer's account. | The customer should reach out to their bank to get the account unblocked.
+---
+debit_instrument_inactive | This error occurs when the bank temporarily blocks withdrawals on the customer's account. | The customer should reach out to their bank to get the account unblocked.
+---
+gateway_technical_error | The payment failed due to a technical error at the gateway. This error usually occurs when the gateway server encounters a technical error while processing the payment. | You can retry after some time or reach out to Razorpay.
+---
+input_validation_failed | The payment failed due to the wrong request or input sent in the payment request. You can also get this error while creating a payment with incorrect parameter values on the Dashboard. | Rectify the validation issues and try again. Check the error description and field parameters for more information about the error.
+Check your integration/payment request or reach out to Razorpay. Refer to the [API Reference Guide](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md).
+---
+insufficient_funds | This error occurs when the customer does not have sufficient funds in the account to complete the payment. | You can retry after asking the customer to add funds to their bank account.
+---
+invalid_amount | This error occurs when the amount or currency passed in the payment request is not supported or invalid. This can arise when you pass a different variable type in the amount field or pass an unsupported amount value. | You can check your integration and payment request.
+---
+mandate_not_active | This error occurs when the registered mandate is no longer active. The customer or bank could have cancelled the mandate. | The customer should re-register the mandate.
+---
+payment_cancelled | This error occurs when the customer has explicitly cancelled the payment. The customer could have given a cancellation instruction to their banks. | You can retry after informing the customer to remove the cancellation request.
+---
+payment_declined | Destination Bank or Gateway has declined the payment due to business or technical reasons such as terminal and pricing. | You can retry after some time or reach out to Razorpay.
+---
+payment_failed | This error occurs when the destination Bank or Gateway has declined the payment due to business or technical reasons such as terminal and pricing. | You can retry after some time or reach out to Razorpay.
+---
+payment_mandate_not_active | This error occurs when the is not yet activated the registered mandate. Banks sometimes take longer to activate the mandates at their end. | You can retry after some time or reach out to Razorpay.
+---
+payment_timed_out | This error occurs when the bank with the registered mandate could not debit the customer's account in time. | You can retry after some time or reach out to Razorpay.
+---
+server_error | This error occurs when there is a technical error at Razorpay's server. | You can retry after some time or reach out to Razorpay.
+---
+transaction_limit_exceeded | This error occurs when customers exceed their account's credit or debit limit during high-value transactions. | You can retry after some time by informing the customer to update their transaction limits.
+---

@@ -124,7 +124,33 @@ description: Find answers to frequently asked questions about Razorpay Payment L
 
 ## For Bank Transfer Payments
 
-@include payment-links-v2/advanced-options/bank-transfer-faqs
+    
+### 1. What is a Customer Identifier?
+
+         A Customer Identifier is a customisable virtual receiver (with customer identifier number and IFSC) created on top of your current/escrow account. You can share the Customer Identifier information with your customers/businesses and collect payments.
+
+         Normally, reconciling online payments (like NEFT) requires significant time and manual effort. Customer Identifiers solve this by allowing you to accept payments via NEFT, RTGS, and IMPS through a dedicated virtual receiver.
+
+         Since each payment transaction is automatically linked to a specific Customer Identifier, the reconciliation process becomes instant and effortless.
+        
+
+    
+### 2. How will the payments made by customers be settled to my bank account?
+
+         The net amount (payment minus fees and taxes) is transferred from the Customer Identifier to your bank account as per your settlement schedule.
+        
+
+    
+### 3. If I enable Bank Transfers as a payment method for Payment Links, will it appear as a payment option on other Razorpay products as well?
+
+         Yes, once this feature is enabled, it will appear in all instances of Razorpay Checkout, be it Invoices, Payment Pages or the Checkout integrated on your website . You cannot enable or disable it for specific products.
+        
+
+    
+### 4. Will a new Customer Identifier be created for multiple partial payments made on a Payment Link?
+
+         No. Each Payment Link will have only one Customer Identifier associated with it. Even if multiple partial payments are made against the link, the amount will be received by the same Customer Identifier.
+        
 
 ## For Customers
 

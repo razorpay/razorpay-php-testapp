@@ -30,7 +30,58 @@ To delete an Offer linked to a Subscription:
 
 Use the [Delete an offer Linked to a Subscription API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions/delete-offer.md).
 
-@include subscriptions/subscriptions/subscriptions-delete-offer
+```curl: Curl
+curl -u [YOUR_KEY_ID]:YOUR_KEY_SECRET] \
+-X DELETE https://api.razorpay.com/v1/subscriptions/sub_00000000000001/offer_JHD834hjbxzhd38d \
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String subscriptionId = "sub_00000000000001";
+
+String offerId = "offer_JHD834hjbxzhd38d";
+
+Subscription subscription = razorpay.subscription.deleteSubscriptionOffer(subscriptionId, offerId);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->subscription->fetch($subscriptionId)->deleteOffer($offerId)
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.subscriptions.deleteOffer(subscriptionId, offerId)
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.subscription.delete_offer(subscriptionId, offerId)
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+subscriptionId = "sub_00000000000001"
+
+offerId = "offer_JHD834hjbxzhd38d"
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+body, err := client.Subscription.DeleteOffer("", "", nil, nil)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+string subscriptionId = "sub_I3GGEs7Xgmnozy";
+
+string offerId = "offer_JCTD1XMlUmzF6Z";
+
+Subscription subscription = client.Subscription.Fetch(subscriptionId).DeleteOffer(offerId);
+```
 
 ### Related Information
 

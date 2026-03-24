@@ -11,19 +11,29 @@ Use this endpoint to retrieve an Add-on by its unique identifier.
 
 ### Request
 
-@include subscriptions/add-ons/add-ons-fetch
-
 ### Response
 
-@include subscriptions/add-ons/add-ons-fetch-res-code
+### Parameters
+
+`id` _mandatory_
+: `string` The unique identifier of an add-on. For example, `ao_00000000000001`.
 
 ### Parameters
 
-@include subscriptions/add-ons/add-ons-path
+`id`
+: `string` The unique identifier of the created add-on. For example, `ao_00000000000001`.
 
-### Parameters
+`quantity`
+: `integer` This specifies the number of units of the add-on to be charged to the customer. For example, `2`. The total amount is calculated as `amount` * `quantity`.
 
-@include subscriptions/add-ons/add-ons-create-res
+`created_at`
+: `integer` The timestamp, in Unix format, when the add-on was created. For example, `1581597318`.
+
+`subscription_id`
+: `string` The unique identifier of the subscription to which the add-on is being added. For example, `sub_00000000000001`.
+
+`invoice_id`
+: `string` The add-on is added to the **next** invoice that is generated after the add-on is created. This field is populated only after the invoice is generated. Until then, it is `null`. Once the add-on is linked to an invoice, it cannot be deleted.
 
 ### Errors
 

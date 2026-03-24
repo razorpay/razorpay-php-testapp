@@ -127,13 +127,55 @@ Given below are the steps:
                     
                         Request Parameters
                         
-                          Razorpay identifies a customer by a unique customer identifier generated at the time of creation. This allows Razorpay to take action on a particular customer on behalf of the merchant for example, send an invoice, set recurring payments, and others./create-customer-req
+                          
+`name` _optional_
+: `string` Customer's name. Alphanumeric value with period (.), apostrophe ('), forward slash (/), at (@) and parentheses are allowed. The name must be between 3-50 characters in length. For example, `Gaurav Kumar`.
+
+`contact ` _optional_
+: `string` The customer's phone number. A maximum length of 15 characters including country code. For example, `+919876543210`.
+
+`email ` _optional_
+: `string` The customer's email address. A maximum length of 64 characters. For example, `gaurav.kumar@example.com`.
+
+`fail_existing` _optional_
+: `string` Possible values:
+     - `1` (default): If a customer with the same details already exists, throws an error.
+     - `0`: If a customer with the same details already exists, fetches details of the existing customer.
+   
+
+`gstin` _optional_
+: `string` Customer's GST number, if available. For example, `29XAbbA4369J1PA`.
+
+`notes` _optional_
+: `object` This is a key-value pair that can be used to store additional information about the entity. It can hold a maximum of 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
+
                         
 
                     
 ### Response Parameters
 
-                          Razorpay identifies a customer by a unique customer identifier generated at the time of creation. This allows Razorpay to take action on a particular customer on behalf of the merchant for example, send an invoice, set recurring payments, and others./create-customer-res
+                          
+`id`
+: `string` Unique identifier of the customer. For example, `cust_1Aa00000000004`.
+
+`name` 
+: `string` Customer's name. Alphanumeric, with period (.), apostrophe ('), forward slash (/), at (@) and parentheses allowed. The name must be between 3-50 characters in length. For example, `Gaurav Kumar`.
+
+`contact`
+: `string` The customer's phone number. A maximum length of 15 characters including country code. For example, `+919876543210`.
+
+`email`
+: `string` The customer's email address. A maximum length of 64 characters. For example, `gaurav.kumar@example.com`.
+
+`gstin`
+: `string` GST number linked to the customer. For example, `29XAbbA4369J1PA`.
+
+`notes`
+: `json object` This is a key-value pair that can be used to store additional information about the entity. It can hold a maximum of 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
+
+`created_at`
+: `integer` UNIX timestamp, when the customer was created. For example, `1234567890`.
+
                         
 
                  
@@ -297,13 +339,75 @@ Given below are the steps:
             
                 Request Parameters
                 
-                 @include tpv/order-request-parameters
+                 `amount` _mandatory_
+: `integer` The transaction amount expressed in paise (currency supported is INR). For example, for an actual amount of ₹1, the value of this field should be `100`.
+
+`currency` _mandatory_
+: `string` The currency in which the transaction should be made. You can create orders in **INR** only.
+
+`receipt` _optional_
+: `string` Receipt number that corresponds to this order, set for your internal reference. Maximum length is 40 characters.
+
+`notes` _optional_
+: `json object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
+
+`method` _mandatory_
+: `string` The payment method used to make the payment. If this parameter is not passed, investors will be able to make payments using both netbanking and UPI payment methods. Possible values:
+  - `netbanking`: Investors can make payments only using netbanking.
+  - `card`: Investors can make payments using debit card.
+  - `upi`: Investors can make payments only using UPI.
+
+`bank_account` _mandatory_
+: `object` Details of the bank account that the investor has provided at the time of registration.
+
+    `account_number`  _mandatory_
+    : `string` The bank account number from which the investor should make the payment. For example, `765432123456789` Payments will not be processed for an incorrect account number.
+
+    `name` _mandatory_
+    : `string` The name linked to the bank account. For example, `Gaurav Kumar`.
+
+    `ifsc` _mandatory_
+    : `string` The bank IFSC. For example, `HDFC0000053`.
                 
 
             
 ### Response Parameters 
 
-                 @include tpv/order-response-parameters
+                 `id`
+: `string` Unique identifier of the order.
+
+`entity`
+: `string` Indicates the type of entity. Here, it is `order`.
+
+`amount`
+: `integer` The order amount represented in the smallest unit of the currency passed. For example, amount = 100 translates to 100 paise, that is ₹1 (default currency is INR).
+
+`amount_paid`
+: `integer` The amount that has been paid.
+
+`amount_due`
+: `integer` The amount that is yet to be paid.
+
+`currency`
+: `string` The 3-letter ISO currency code for the payment. Currently, we support INR only.
+
+`receipt`
+: `string` A unique identifier of the order entered by the user. For example, `BILL13375649`.
+
+`status`
+: `string` The status of the order.
+
+`notes`
+: `object` Key-value pair you can use to store additional information about the entity. Maximum of 15 key-value pairs, 256 characters each. For example, "note_key": "Beam me up Scotty”.
+
+`created_at`
+: `integer` The Unix timestamp at which the order was created.
+
+`offer_id` 
+: `string` Unique identifier of the offer.
+
+`attempts`
+: `integer` The number of payment attempts, successful and failed, that have been made against this order.
                 
 
          
@@ -695,8 +799,112 @@ Request Parameters
 ### Step 5: Verify Signature
 
         
-            @include integration-steps/verify-signature
+            This is a mandatory step to confirm the authenticity of the details returned to the Checkout form for successful payments.
+
+  
+    To verify the `razorpay_signature` returned to you by the Checkout form:
+    
+     1. Create a signature in your server using the following attributes:
+        - `order_id`: Retrieve the `order_id` from your server. Do not use the `razorpay_order_id` returned by Checkout.
+        - `razorpay_payment_id`: Returned by Checkout.
+        - `key_secret`: Available in your server. The `key_secret` that was generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys).
+
+     2. Use the SHA256 algorithm, the `razorpay_payment_id` and the `order_id` to construct a HMAC hex digest as shown below:
+
+         ```html: HMAC Hex Digest
+         generated_signature = hmac_sha256(order_id + "|" + razorpay_payment_id, secret);
+
+           if (generated_signature == razorpay_signature) {
+             payment is successful
+           }
+         ```
+         
+     3. If the signature you generate on your server matches the `razorpay_signature` returned to you by the Checkout form, the payment received is from an authentic source.
+    
+
+  
+### Generate Signature on Your Server
+
+Given below is the sample code for payment signature verification:
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String secret = "EnLs21M47BllR3X8PSFtjtbd";
+
+JSONObject options = new JSONObject();
+options.put("razorpay_order_id", "order_IEIaMR65cu6nz3");
+options.put("razorpay_payment_id", "pay_IH4NVgf4Dreq1l");
+options.put("razorpay_signature", "0d4e745a1838664ad6c9c9902212a32d627d68e917290b0ad5f08ff4561bc50f");
+
+boolean status =  Utils.verifyPaymentSignature(options, secret);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->utility->verifyPaymentSignature(array('razorpay_order_id' => $razorpayOrderId, 'razorpay_payment_id' => $razorpayPaymentId, 'razorpay_signature' => $razorpaySignature));
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+payment_response = {
+       razorpay_order_id: 'order_IEIaMR65cu6nz3',
+       razorpay_payment_id: 'pay_IH4NVgf4Dreq1l',
+       razorpay_signature: '0d4e745a1838664ad6c9c9902212a32d627d68e917290b0ad5f08ff4561bc50f'
+     }
+Razorpay::Utility.verify_payment_signature(payment_response)
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.utility.verify_payment_signature({
+  'razorpay_order_id': razorpay_order_id,
+  'razorpay_payment_id': razorpay_payment_id,
+  'razorpay_signature': razorpay_signature
+  })
+
+```c: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+Dictionary options = new Dictionary();
+options.Add("razorpay_order_id", "order_IEIaMR65");
+options.Add("razorpay_payment_id", "pay_IH4NVgf4Dreq1l");
+options.Add("razorpay_signature", "0d4e745a1838664ad6c9c9902212a32d627d68e917290b0ad5f08ff4561bc50");
+
+Utils.verifyPaymentSignature(options);
+
+```nodejs: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+var { validatePaymentVerification, validateWebhookSignature } = require('./dist/utils/razorpay-utils');
+validatePaymentVerification({"order_id": razorpayOrderId, "payment_id": razorpayPaymentId }, signature, secret);
+
+```Go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+params := map[string]interface{}{
+ "razorpay_order_id": "order_IEIaMR65cu6nz3",
+ "razorpay_payment_id": "pay_IH4NVgf4Dreq1l",
+}
+
+signature := "0d4e745a1838664ad6c9c9902212a32d627d68e917290b0ad5f08ff4561bc50f";
+secret := "EnLs21M47BllR3X8PSFtjtbd";
+utils.VerifyPaymentSignature(params, signature, secret)
+```
+
+    
+
+  
+### Post Signature Verification
+
+After you have completed the integration, you can [set up webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md), make test payments, replace the test key with the live key and integrate with other [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md).
+    
+
         
+    
 
 ### Get Linked Accounts
 If your customer has already linked the UPI account, use the following code to fetch it. If there are no linked UPI accounts, an empty list is returned

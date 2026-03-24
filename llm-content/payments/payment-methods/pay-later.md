@@ -32,7 +32,13 @@ Based on the concept [Buy Now, Pay Later](https://en.wikipedia.org/wiki/Buy_now,
 
 **At Razorpay Checkout:**
 
-@include payment-methods/paylater/payment-flow
+1. At the Checkout, customers enter their contact details and from the displayed list of **Pay Later** providers, customers select their preferred provider. 
+    
+    ![Pay Later payment method on Checkout screen](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/pm-paylater-checkout.jpg.md)
+
+2. Customers authorise their accounts via the OTP sent to their registered phone numbers.
+
+3. Payment is completed after successful validation.
 
 ## Supported Pay Later Providers
 

@@ -156,7 +156,422 @@ Use Smart Collect 2.0 APIs to create and manage Customer Identifiers of the type
 
          Given below is the list of banks supporting TPV for Smart Collect. 
          
-         @include tpv/bank-list-smart-collect
+         
+Bank Name | Bank Code
+---
+A. P Mahesh Bank | APMC
+---
+Abhyudaya Co-op Bank | ABHY
+---
+Adarsh Cooperative Bank Ltd | ACBX
+---
+Ahmedabad Mercanatile Co-op Bank | AMCB
+---
+Airtel Payments Bank | AIRP
+---
+Allahabad Bank | ALLA
+---
+Andhra Bank | ANDB
+---
+Andhra Pragathi Grameena Bank | APGB
+---
+Andhra Pragathi Grameena Vikas Bank | APGV
+---
+Apna Sahakari Bank | ASBL
+---
+Assam Gramin Vikash Bank | AGVX
+---
+Associate Co-operative Bank Limited,Surat | ASOX
+---
+AU Small Finance Bank | AUBL
+---
+Axis Bank | UTIB
+---
+Banaskantha Mercantile Co-operative Bank Limited | BMPX
+---
+Bandhan Bank | BDBL
+---
+Bank of America | BOFA
+---
+Bank Of Baroda | BARB
+---
+Bank Of India | BKID
+---
+Bank of Maharashtra | MAHB
+---
+Baroda Central Co-operative Bank | BRDX
+---
+Baroda Gujarat Gramin Bank | BGGX
+---
+Baroda Rajasthan Khetriya Gramin Bank | BRGX
+---
+Baroda Uttar Pradesh Gramin Bank | BUGX
+---
+Bassein Catholic Coop Bank | BACB
+---
+Bhagini Nivedita Sahakari Bank Ltd,Pune | BNSB
+---
+Bharat Co-operative Bank | BCBM
+---
+Bhilwara Urban Co-operative Bank Ltd | BHUX
+---
+Canara Bank | CNRB
+---
+Capital Small Finance Bank | CLBL
+---
+Catholic Syrian Bank | CSBK
+---
+Central Bank of india | CBIN
+---
+Chaitanya Godavari Grameena Bank | CGGX
+---
+Chartered Sahakari Bank Niyamitha | CSBX
+---
+Chhattisgarh Rajya Gramin Bank | CGBX
+---
+Citibank Retail | CITI
+---
+Citizen Co-operative Bank Ltd - Noida | CCBX
+---
+Citizens Co-operative Bank Ltd. | CTBX
+---
+City Union Bank | CIUB
+---
+Costal Local Area Bank Ltd | COAS
+---
+Dakshin Bihar Gramin Bank | MBGX
+---
+DBS Digi Bank | DBSS
+---
+DCB Bank | DCBL
+---
+Dena Bank | BKDN
+---
+Dena Gujarat Gramin Bank | DEGX
+---
+Deutsche Bank AG | DEUT
+---
+Dhanalaxmi bank | DLXB
+---
+Dombivli Nagrik Sahakari Bank | DNSB
+---
+Equitas Small Finance Bank | ESFB
+---
+ESAF Small Finance Bank | ESAF,ESMF
+---
+Federal Bank | FDRL
+---
+Fincare Small Finance Bank | FSFB
+---
+Fingrowth Co-operative Bank Ltd | FGCB
+---
+FINO Payments Bank | FINO
+---
+G P Parsik Bank | PJSB
+---
+HDFC | HDFC
+---
+Himachal Pradesh Gramin Bank | HMBX
+---
+HSBC | HSBC
+---
+Hutatma Sahakari Bank Ltd | HUTX
+---
+ICICI Bank | ICIC
+---
+IDBI Bank | IBKL
+---
+IDFC | IDFB
+---
+India Post Payment Bank | IPOS
+---
+Indian Bank | IDIB
+---
+Indian Overseas Bank | IOBA
+---
+Indore Paraspar Sahakari Bank Ltd | IPSX
+---
+IndusInd Bank | INDB
+---
+J & K Grameen Bank | JAKA
+---
+Jalgaona Janata Sahkari Bank | JJSB
+---
+Jalna Merchant's Co-operative Bank Ltd. | JMCX
+---
+Jammu & Kashmir Bank | JAKA
+---
+Jana Small Finance Bank | JSFB
+---
+Janakalyan Sahakari Bank | JSBL
+---
+Janaseva Sahakari Bank Ltd Pune | JANA,JASB
+---
+Janta Sahakari Bank Pune | JSBP
+---
+Jio Payments Bank | JIOP
+---
+Jivan Commercial co-operative Bank Ltd. | JVCX
+---
+Kallappanna Awade Ichalkaranji Janata Sahakari Bank Ltd. | KAIJ
+---
+Kalupur Commercial Co-operative Bank | KCCB
+---
+Karnataka Bank | KARB
+---
+Karnataka vikas Gramin Bank | KVGB
+---
+Karur Vysaya Bank | KVBL
+---
+Kashi Gomti Samyut Gramin Bank | KGSX
+---
+Kerala Gramin Bank | KLGB
+---
+Kokan Merchantile Co-Operative Bank Ltd | KMCB
+---
+Kolhapur District Central Co-operative Bank Limited | KPCX
+---
+Kotak Mahindra Bank | KKBK
+---
+Krishna Bhima Samruddhi Local Area Bank | KBSX
+---
+Maharashtra Grameen Bank | MAHG
+---
+Maharashtra state co opp Bank | MSCI
+---
+Malad Sahakari Bank | MSBL
+---
+Malviya Urban Co-operative Bank Limited | MALX
+---
+Manipur Rural Bank | MRBX
+---
+Manvi Pattana Souharda Sahakari Bank | MVIX
+---
+Maratha Cooprative Bank Ltd | MRTX
+---
+Meghalaya Rural Bank | MERX
+---
+Mizoram Rural Bank | MZRX
+---
+Model Co-operative Bank Limited | MDBK
+---
+Nagarik Sahakari Bank Maryadit, Vidisha | NBMX
+---
+Nanital Bank Ltd | NTBL
+---
+NKGSB | NKGS
+---
+NSDL Payments Bank | NSPB
+---
+Nutan Nagrik Sahakari Bank | NNSB
+---
+Pali Urban Co-operative Bank Ltd. | PALX
+---
+Paschim Banga Gramin Bank | PASX
+---
+Patan Nagrik Sahakari Bank Ltd | PTSX
+---
+Paytm Payments Bank | PYTM
+---
+Pragathi Krishna Gramin Bank | PGBX
+---
+Prathama Bank | PRTH
+---
+Prime Co-operative Bank Ltd. | PMEC
+---
+Priyadarshini Nagari Sahakari Bank Ltd. | PDSX
+---
+Pune Cantonment Sahakari Bank Ltd | PCTX
+---
+Punjab and Maharastra Co. bank | PMCB
+---
+Punjab and Sind Bank | PSIB
+---
+Punjab Gramin Bank | PUGX
+---
+Punjab National Bank | PUNB
+---
+Purvanchal Bank | NA
+---
+Rajasthan Marudhara Gramin Bank | RMGB
+---
+Rajkot Nagari Sahakari Bank Ltd | RNSB
+---
+Rani Channamma Mahila Sahakari Bank Belagavi | ZRNB
+---
+Samarth Sahakari Bank Limited | SBLS
+---
+Samruddhi Co-op bank ltd | SCOB
+---
+Sandue Pattana Souharda Sahakari Bank | SPSX
+---
+Sarva Haryana Gramin Bank | HGBX
+---
+Sarva UP Gramin Bank | SUBX
+---
+Sarvodaya Commercial Co-operative Bank | SVCX
+---
+Saurashtra Gramin Bank | SAGX
+---
+SBM BANK (INDIA) LIMITED | STCB
+---
+Shree Dharati Co-operative Bank Ltd. | SRHX
+---
+Shree Kadi Nagarik Sahakari Bank Ltd | KDIX
+---
+Shri Arihant Co-operative Bank Ltd. | SACB
+---
+Shri Basaveshwar Sahakari Bank Niyamit, Bagalkot | BASX
+---
+Shri Chhatrapathi Rajarsshi Shahu Bank | CRUB
+---
+Shri Mahila Sewa Sahakari Bank Limited | SEWX
+---
+Shri Rajkot District Co-operative Bank Ltd | RJTX
+---
+Shri Veershaiv Co-op Bank Ltd. | VCCX
+---
+Sindhudurg Co-operative Bank | SIDC
+---
+Smriti Nagrik Sahakari Bank Maryadit, Mandsaur | SNSX
+---
+South Indian Bank | SIBL
+---
+Sri Rama Co-operative Bank Ltd | NA
+---
+Sri Vasavamba Cooperative Bank Ltd | SVAX
+---
+Standard Chartered | SCBL
+---
+State Bank Of India | SBIN
+---
+Sterling Urban Co-operative Bank Ltd | STRX
+---
+Suco Souharda Sahakari bank | SSDX
+---
+Surat People Cooperative Bank | SPCB
+---
+Suryoday Small Finance Bank Ltd | SURY
+---
+Sutex Co operative Bank | SUTB
+---
+Suvarnayug Sahakari Bank Ltd | SUVX
+---
+SVC Co-operative Bank | SVCB
+---
+Syndicate Bank | SYNB
+---
+Tamilnad Mercantile Bank | TMBL
+---
+Telangana Gramin Bank | DGBX
+---
+Telangana State Co Operative Apex Bank | TSAB
+---
+Thane Bharat Sahakari Bank | TBSB
+---
+The Adarsh Urban Co-op. Bank Ltd., Hyderabad | ACUX
+---
+The Ahmedabad District Coop bank | ADBX
+---
+The Ahmednagar Merchants Co-operative Bank | AMDN
+---
+The Anand Mercantile Co-Op. Bank Ltd. | TAMX
+---
+The Andhra Pradesh state cooperative | APBL
+---
+The Banaskantha District Central Co-Op. Bank Ltd. | BKDX
+---
+The Baramati Sahakari Bank Ltd. | BARA
+---
+The Cosmos Co-Operative Bank LTD | COSB
+---
+The Darussalam Co-operative Urban Bank Ltd. | DCUX
+---
+The Gadchiroli District Central Co-operative Bank | GDCB
+---
+The Gayatri Co-operative Urban Bank Ltd. | GCUX
+---
+The Gujarat State Co-operative Bank Limited | GSCB
+---
+The Hasti Co-operative Bank Ltd | HCBL
+---
+The Himachal Pradesh State Co-operative Bank Ltd | HPSC,HPSC
+---
+The Kaira District Central Co-Op. Bank Ltd. | KARX
+---
+The Kalyan Janta Sahkari Bank | KJSB
+---
+The Kanakmahalakshmi Co-operative Bank Ltd | IBKL
+---
+The Lakshmi Vilas Bank Limited | LAVB_R
+---
+The Mahanagar Co-Op. Bank Ltd | MCBL
+---
+The Mehsana Urban Co-Operative Bank | MSNU
+---
+The Merchants Souharda Sahakari Bank Ltd | MSSX
+---
+The Modasa Nagarik Sahakari Bank Limited | TMSX
+---
+The Municipal Co-op Bank | MUBL
+---
+The Muslim Co-operative Bank Ltd. | MSLM
+---
+The Pochampally Co-operative Urban bank Ltd | PCUX
+---
+The Ratnakar Bank Limited | RATN
+---
+The Sabarkantha district Central Coop Bank Ltd | SADX
+---
+The Saraswat Co-Operative Bank | SRCB
+---
+The Satara Distric Central Co-operative Bank Ltd. | SDCE
+---
+The SSK Co-operative Bank | NA
+---
+The Surat District Co-op Bank Ltd. | SDCB
+---
+The Thane Janta Sahakari Bank Ltd(TJSB) | TJSB
+---
+The Udaipur Mahila Samridhi Urban Co-operative Bank Ltd. | UMSX
+---
+The Udaipur Mahila Urban Co-op Bank Ltd | TUMX
+---
+The Udaipur Urban Co-operative Bank ltd. | UUCX,UUCB
+---
+The Urban Cooperative Bank Ltd Dharangaon | TUDX
+---
+The Vallabh Vidyanagar Commercial Co-operative Bank Ltd | VVCX
+---
+The Varachha Co-op Bank Ltd. | VARA
+---
+The Vijay Co-operative Bank Ltd, Ahmedabad | VCOB
+---
+The Visakhapatnam Co-operative Bank Ltd. | VISX
+---
+The Vishweshwar Sahakari Bank Ltd | VSBL
+---
+Tripura Gramin Bank | TGBX
+---
+UCO Bank | UCBA
+---
+Ujjivan Small Finance Bank Limited (Web Collect) | UJVN
+---
+Union Bank of India | UBIN
+---
+Uttarakhand Gramin Bank | UTGX
+---
+Vananchal Gramin Bank | VGBX
+---
+Vasai Vikas Co-op Bank Ltd | VVSB
+---
+Vijaya Bank | VIJB
+---
+Vikas Souharda Co-operative Bank Ltd. | VSCX
+---
+Yadagiri Lakshmi Narasimha Swamy Co-Op Urban Bank Ltd | YLNX
+---
+Yes Bank | YESB
 
         
 

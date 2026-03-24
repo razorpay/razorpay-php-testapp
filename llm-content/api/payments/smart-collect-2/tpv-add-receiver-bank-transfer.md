@@ -11,19 +11,147 @@ Use this endpoint to add a bank account receiver to an existing Customer Identif
 
 ### Request
 
-@include smart-collect/api-tpv/update-bank
+```curl: Curl
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
+-X POST https://api.razorpay.com/v1/virtual_accounts/va_DzaBLzIz494C64/receivers
+-H 'content-type: application/json'
+-d '{
+  "types": [
+    "bank_account"
+  ]
+}'
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String virtualId = "va_Di5gbNptcWV8fQ";
+
+JSONObject virtualRequest = new JSONObject();
+List types = new ArrayList<>();
+types.add("bank_account");
+virtualRequest.put("types",types);
+JSONObject vpa = new JSONObject();
+bank_account.put("descriptor","gaurikumari");
+virtualRequest.put("bank_account",bank_account);
+
+VirtualAccount virtualaccount = instance.virtualAccounts.addReceiver(virtualId,virtualRequest);
+
+```python: Python
+import razorpay
+razorpay.Client(auth=("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]"))
+
+client.virtual_account.add_receiver(virtualId,{
+  "types": [
+    "bank_account"
+  ],
+  "bank_account": {
+    "descriptor": "gauravkumar"
+  }
+})
+
+```php: PHP
+$api = new Api('YOUR_KEY_ID, 'YOUR_KEY_SECRET');
+$api->virtualAccount->fetch($virtualId)->addReceiver(array('types' => array('bank_account'),'bank_account' => array('descriptor'=>'gauravkumar')));
+
+```ruby: Ruby
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+virtualId = "va_Di5gbNptcWV8fQ"
+
+para_attr = {
+  "types": [
+    "bank_account"
+  ],
+  "bank_account": {
+    "descriptor": "gauravkumar"
+  }
+}
+
+Razorpay::VirtualAccount.add_receiver(virtualId, para_attr)
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.virtualAccounts.addReceiver(virtualId,{
+  types: [
+    "bank_account"
+  ],
+  bank_account: {
+    descriptor: "gauravkumar"
+  }
+})
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+types := make(map[string]interface{})
+type["0"] = "vpa"
+
+data:= map[string]interface{}{
+	"type": type,
+	"bank_account": map[string]interface{}{
+	  "descriptor": "gauravkumar",
+	},
+  }
+
+body, err :=  client.VirtualAccount.AddReceiver("", data, nil)
+```
 
 ### Response
 
-@include smart-collect/api-tpv/update-bank-res-code
+```json: Success
+{
+  "id": "va_DzcFjMezDcN8vv",
+  "name": "Acme Corp",
+  "entity": "virtual_account",
+  "status": "active",
+  "description": "",
+  "amount_expected": null,
+  "notes": [],
+  "amount_paid": 0,
+  "customer_id": "cust_DzbSeP2RJD1ZHg",
+  "receivers": [
+    {
+      "id": "ba_DzcFjVqAMSCEIW",
+      "entity": "bank_account",
+      "ifsc":"RATN0VAAPIS",
+      "bank_name": "RBL Bank",
+      "name": "Acme Corp",
+      "notes": [],
+      "account_number": "2223333232194699"
+    },
+    {
+      "id": "vpa_DzcZR5ofjCUKAx",
+      "entity": "bank_account",
+      "username": "rpy.payto00000gaurikumari",
+      "handle": "icici",
+      "address": "rpy.payto00000gaurikumari@icici"
+    }
+  ],
+  "close_by": null,
+  "closed_at": null,
+  "created_at": 1577969986
+}
+```
 
 ### Parameters
 
-@include smart-collect/api-tpv/update-path
+`id` _mandatory_
+: `string` The unique identifier of the Customer Identifier to which another receiver type is to be added.
 
 ### Parameters
 
-@include smart-collect/api-tpv/update-req
+`types` _mandatory_
+: `array` The receiver type to be added to the Customer Identifier. Possible values are:
+    - `bank_account`
+    - `vpa`
+
+`vpa` _optional_
+: `json object` Descriptor details for the virtual UPI ID. This is to be passed only when `vpa` is passed as the receiver `types`.
+
+    `descriptor`
+    : `string` You can provide a custom descriptor for the UPI ID. This is a unique identifier provided by you to identify the customer. For example, `gaurikumari` and `akashkumar` are the descriptors in the usernames `rpy.payto00000gaurikumari` and `rpy.payto00000akashkumar` respectively. The combination of merchant prefix and descriptor must be 20 characters. If you go ahead with the default merchant prefix, you will get 10 characters. Hence the descriptor should be 10 characters only. If a user tries to input 11 or more characters in a descriptor, our API will throw an error for invalid character length.
 
 ### Parameters
 

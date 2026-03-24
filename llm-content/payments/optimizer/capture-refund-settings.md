@@ -141,7 +141,7 @@ Ensuring that you reflect the correct information is crucial because downstream 
 
 ## Configure Payment Capture Settings Using Orders API
 
-@include payments/capture-settings/api-section
+Capture values passed in the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings/api.md) take precedence over the Payment Capture settings configured on the Dashboard. You can use this to change the capture settings for individual payments.
 
 ### Related Information
 

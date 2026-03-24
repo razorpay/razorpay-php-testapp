@@ -10,7 +10,14 @@ Third-party service providers can download reports from their Linked Account Das
 
 ## Get Dashboard Access
 
-@include partners/dashboard/grant-linked-account-access
+To download reports, the Platform must provide Dashboard access to your Linked Accounts. To provide Dashboard access:
+1. Log in to the Dashboard.
+2. Navigate to **Route** under **Products**.
+    ![Partners Dashboard select Route](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/partners-dashboard-route.jpg.md)
+3. In the **Accounts** tab, enable **Dashboard Access** for the required **Account Id**.
+    ![Enable Razorpay Dashboard access for Technology Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/enable-dashboard-access-platform.jpg.md)
+4. Once the Dashboard access is granted, a password reset link is sent to the Linked Account's registered email id. 
+5. Reset the password and log in to the Linked Account Dashboard.
 
 ## Download Reports
 

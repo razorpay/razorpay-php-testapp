@@ -41,14 +41,175 @@ Create a customer whose card details should be saved from the Dashboard or using
    
 ### API Sample Code
 
-        Razorpay identifies a customer by a unique customer identifier generated at the time of creation. This allows Razorpay to take action on a particular customer on behalf of the merchant for example, send an invoice, set recurring payments, and others./create-customer
+        The following endpoint creates or add a customer with basic details such as name and contact details. You can use this API for various Razorpay Solution offerings.
+
+/customers
+
+```cURL: Curl
+
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X POST https://api.razorpay.com/v1/customers \
+-H "Content-Type: application/json" \
+-d '{
+    "name": "",
+    "contact": "",
+    "email": "",
+    "fail_existing": "0",
+    "notes": {
+      "notes_key_1": "Tea, Earl Grey, Hot",
+      "notes_key_2": "Tea, Earl Grey… decaf."
+  }
+}'
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+JSONObject customerRequest = new JSONObject();
+customerRequest.put("name","");
+customerRequest.put("contact","");
+customerRequest.put("email","");
+customerRequest.put("fail_existing", "0");
+JSONObject notes = new JSONObject();
+notes.put("notes_key_1","Tea, Earl Grey, Hot");
+notes.put("notes_key_2","Tea, Earl Grey… decaf.");
+customerRequest.put("notes",notes);
+
+Customer customer = razorpay.customers.create(customerRequest);
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.customer.create({
+  "name": "",
+  "contact": "",
+  "email": "",
+  "fail_existing": "0",
+  "notes": {
+    "notes_key_1": "Tea, Earl Grey, Hot",
+    "notes_key_2": "Tea, Earl Grey… decaf."
+  }
+})
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+data := map[string]interface{}{
+    "name": "",
+    "contact": "",
+    "email": "",
+    "fail_existing": "0",
+    "notes": map[string]interface{}{
+      "notes_key_1": "Tea, Earl Grey, Hot",
+      "notes_key_2": "Tea, Earl Grey… decaf.",
+	},
+}
+
+body, err := client.Customer.Create(data, nil)
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->customer->create(array('name' => '', 'email' => '','contact'=>'','notes'=> array('notes_key_1'=> 'Tea, Earl Grey, Hot','notes_key_2'=> 'Tea, Earl Grey… decaf'));
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+Dictionary options = new Dictionary();
+
+options.Add("name", ""); 
+options.Add("contact", ""); 
+options.Add("email", ""); 
+options.Add("fail_existing", "0"); 
+
+Customer customer = Customer.Create(options);
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+Razorpay::Customer.create({
+  "name": "",
+  "contact": "",
+  "email": "",
+  "fail_existing": "0",
+  "notes": {
+    "notes_key_1": "Tea, Earl Grey, Hot",
+    "notes_key_2": "Tea, Earl Grey… decaf."
+  }
+})
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.customers.create({
+  name: "",
+  contact: "",
+  email: "",
+  fail_existing: "0",
+  notes: {
+    notes_key_1: "Tea, Earl Grey, Hot",
+    notes_key_2: "Tea, Earl Grey… decaf."
+  }
+})
+```
+
+```json: Success Response
+{
+  "id" : "cust_1Aa00000000004",
+  "entity": "customer",
+  "name" : "",
+  "email" : "",
+  "contact" : "",
+  "gstin": null,
+  "notes": {
+    "notes_key_1":"Tea, Earl Grey, Hot",
+    "notes_key_2":"Tea, Earl Grey… decaf."
+  },
+  "created_at ": 1234567890
+}
+```json: Failure Response
+{
+  "error": {
+    "code": "BAD_REQUEST_ERROR",
+    "description": "Contact number should be at least 8 digits, including country code",
+    "source": "business",
+    "step": "NA",
+    "reason": "invalid_contact_number",
+    "metadata": {},
+    "field": "contact"
+  }
+}
+```
 
         Know more about [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md).
       
 
         #### Request Parameters
 
-        Razorpay identifies a customer by a unique customer identifier generated at the time of creation. This allows Razorpay to take action on a particular customer on behalf of the merchant for example, send an invoice, set recurring payments, and others./create-customer-req
+        
+`name` _optional_
+: `string` Customer's name. Alphanumeric value with period (.), apostrophe ('), forward slash (/), at (@) and parentheses are allowed. The name must be between 3-50 characters in length. For example, `Gaurav Kumar`.
+
+`contact ` _optional_
+: `string` The customer's phone number. A maximum length of 15 characters including country code. For example, `+919876543210`.
+
+`email ` _optional_
+: `string` The customer's email address. A maximum length of 64 characters. For example, `gaurav.kumar@example.com`.
+
+`fail_existing` _optional_
+: `string` Possible values:
+     - `1` (default): If a customer with the same details already exists, throws an error.
+     - `0`: If a customer with the same details already exists, fetches details of the existing customer.
+   
+
+`gstin` _optional_
+: `string` Customer's GST number, if available. For example, `29XAbbA4369J1PA`.
+
+`notes` _optional_
+: `object` This is a key-value pair that can be used to store additional information about the entity. It can hold a maximum of 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
+
         
 
 ## Step 3: Create an Order
@@ -244,7 +405,8 @@ While making the payment, the customer enters card details and can choose to sav
     
      #### Request Parameter
        
-     @include payment-methods/saved-cards-ios
+     `customer_id` _mandatory_
+: `string` Unique identifier of the customer. This can be obtained from the response of the previous step.
 
      Know more about [Checkout parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/integration-steps.md#123-checkout-options) for web integration.
 
@@ -263,7 +425,8 @@ While making the payment, the customer enters card details and can choose to sav
 
      #### Request Parameter
        
-       @include payment-methods/saved-cards-ios
+       `customer_id` _mandatory_
+: `string` Unique identifier of the customer. This can be obtained from the response of the previous step.
 
         Know more about [Checkout parameters](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/android-integration/standard/integration-steps.md#141-checkout-options) for Android integration.
 
@@ -289,7 +452,8 @@ While making the payment, the customer enters card details and can choose to sav
 
        #### Request Parameter
        
-       @include payment-methods/saved-cards-ios
+       `customer_id` _mandatory_
+: `string` Unique identifier of the customer. This can be obtained from the response of the previous step.
 
        Know more about [other Checkout parameters for iOS integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/ios-integration/standard/integration-steps.md).
 
@@ -331,7 +495,8 @@ Once the card is saved, customers can complete payments on repeat purchases by o
 
         #### Request Parameter
 
-        @include payment-methods/create-payments-cards
+        `customer_id` _mandatory_
+: `string` Unique identifier of the customer. [Created in Step 2](#step-2-create-a-customer).
 
     
     
@@ -345,7 +510,8 @@ Once the card is saved, customers can complete payments on repeat purchases by o
         
         #### Request Parameter
 
-        @include payment-methods/create-payments-cards
+        `customer_id` _mandatory_
+: `string` Unique identifier of the customer. [Created in Step 2](#step-2-create-a-customer).
     
     
     Initiate payment by passing `customer_id` to Checkout along with the other options.
@@ -381,7 +547,8 @@ Once the card is saved, customers can complete payments on repeat purchases by o
 
         #### Request Parameter
 
-        @include payment-methods/create-payments-cards
+        `customer_id` _mandatory_
+: `string` Unique identifier of the customer. [Created in Step 2](#step-2-create-a-customer).
        
     
 

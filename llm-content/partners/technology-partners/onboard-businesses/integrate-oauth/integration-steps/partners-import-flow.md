@@ -547,7 +547,255 @@ After you obtain an access token, you can use it to access the sub-merchant's da
 
 As a Technology Partner, you can allow sub-merchants to accept payments through various Payment Methods and channels. after getting `access_token`.
 
-@include partners/oauth-process-payments-import-flow
+  
+### 1. Access Customer APIs using OAuth
+
+     You can process payments on behalf of your sub-merchants using [Razorpay APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md). Use the tokens generated during [OAuth integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps/partners-import-flow.md).
+
+     Use the `access_token` generated in the [build integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps/partners-import-flow.md#22-get-access-token) step to authenticate using `Bearer Auth`.
+
+     Below is a sample code to create a customer in server.
+
+      /customers
+      ```curl: Curl
+      curl -H "Authorization: Bearer " \
+      -X POST https://api.razorpay.com/v1/customers \
+      -H "content-type: application/json" \
+      -d '{
+        "name": "Gaurav Kumar",
+        "contact": "+919000090000",
+        "email": "gaurav.kumar@example.com",
+        "fail_existing": "0",
+        "notes": {
+            "notes_key_1": "Tea, Earl Grey, Hot",
+            "notes_key_2": "Tea, Earl Grey… decaf."
+        }
+       }'
+
+      ```json: Success
+      {
+        "id": "cust_MpINfSkdEvtdxb",
+        "entity": "customer",
+        "name": "Gaurav Kumar",
+        "email": "gaurav.kumar@example.com",
+        "contact": "+919000090000",
+        "gstin": null,
+        "notes": {
+          "notes_key_1": "Tea, Earl Grey, Hot",
+          "notes_key_2": "Tea, Earl Grey… decaf."
+        },
+        "created_at": 1697550382
+      }
+
+      ```json: Failure
+      {
+        "error": {
+          "code": "BAD_REQUEST_ERROR",
+          "description": "Contact number should be at least 8 digits, including country code",
+          "source": "business",
+          "step": "NA",
+          "reason": "invalid_contact_number",
+          "metadata": {},
+          "field": "contact"
+        }
+      }
+      ```
+
+      The parameter descriptions and errors are present in the [Create a Customer API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/build-integration.md#11-create-a-customer-in-server).
+    
+
+  
+### 2. Access Order APIs using OAuth
+
+     You can process payments on behalf of your sub-merchants using [Razorpay APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md). Use the tokens generated during [OAuth integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps/partners-import-flow.md).
+
+     Use the `access_token` generated in the [build integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/onboard-businesses/integrate-oauth/integration-steps/partners-import-flow.md#22-get-access-token) step to authenticate using `Bearer Auth`.
+
+     Below is a sample code to create an Order and process payments.
+
+      /orders
+
+      ```curl: Curl
+      curl -H "Authorization: Bearer " \
+      -X POST https://api.razorpay.com/v1/orders \
+      -H "content-type: application/json" \
+      -d '{
+        "amount": 10000,
+        "currency": "INR",
+        "receipt": "receipt#1",
+        "customer_id": "cust_OwZZseNBf9Uqsi",
+        "customer_details": {
+          "name": "Gaurav Kumar",
+          "email": "gaurav.kumar@example.com",
+          "contact": "9123456780",
+          "shipping_address": {
+            "line1": "Mantri apartment",
+            "line2": "Koramangala",
+            "city": "Bengaluru",
+            "country": "IND",
+            "state": "Karnataka",
+            "zipcode": "560032",
+            "latitude": "123123",
+            "longitude": "1231231"
+          },
+          "identity": [
+            {
+              "type": "tax_id",
+              "id": "HSCPE4563G"
+            }
+          ]
+        },
+        "notes": {
+          "key1": "value3",
+          "key2": "value2"
+        }
+      }'
+
+      ```json: Success
+      {
+        "amount": 10000,
+        "amount_due": 10000,
+        "amount_paid": 0,
+        "attempts": 0,
+        "created_at": 1703569876,
+        "currency": "INR",
+        "entity": "order",
+        "id": "order_NGrgEcmYJsfUyl",
+        "notes": {
+          "key1": "value3",
+          "key2": "value2"
+        },
+        "offer_id": null,
+        "receipt": "receipt#1",
+        "status": "created"
+      }
+
+      ```json: Failure
+      {
+        "error": {
+          "code": "BAD_REQUEST_ERROR",
+          "description": "The amount must be at least INR 1.00",
+          "source": "business",
+          "step": "payment_initiation",
+          "reason": "input_validation_failed",
+          "metadata": {},
+          "field": "amount"
+        }
+      }
+      ```
+
+      The parameter descriptions and errors are present in the [Create an Order API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/accept-international-payments-from-indian-customers/standard-integration/build-integration.md#12-create-an-order-in-server).
+    
+
+  
+### 3. Integrate with Checkout on Client-Side Using OAuth
+
+     Using the `public_token` for authorisation can secure a public-facing implementation such as Razorpay Checkout. In such cases, the `public_token` can replace the `key_id` field as shown below:
+
+      ```js: Checkout
+      Pay
+      
+      
+      var options = {
+          "key": "YOUR_KEY_ID", // Public Token
+          "amount": "29900", // Amount is in currency subunits. Default currency is INR. 
+          "currency": "INR",
+          "name": "Acme Corp", //your business name
+          "description": "Test Transaction",
+          "image": "https://example.com/your_logo",
+          "customer_id": "cust_MpINfSkdEvtdxb",
+          "order_id": "order_9A33XWu170gUtm",
+          "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
+          "prefill": { //We recommend using the prefill parameter to auto-fill customer's contact information especially their phone number
+              "name": "Gaurav Kumar",
+              "email": "gaurav.kumar@example.com",
+              "contact": "9000090000"
+          },
+          "notes": {
+              "invoice_number": "IRS1245",
+              "goods_description": "Digital Lamp",
+          },
+          "theme": {
+              "color": "#3399cc"
+          }
+      };
+      var rzp1 = new Razorpay(options);
+      document.getElementById('rzp-button1').onclick = function(e){
+          rzp1.open();
+          e.preventDefault();
+      }
+      
+      ```
+
+      Know more about [Web Standard Integration](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard.md).
+    
+
+  
+### 4. Verify Payment Signature
+
+      This is a mandatory step to confirm the authenticity of the details returned to the Checkout form for successful payments.
+
+      To verify the `razorpay_signature` returned to you by the Checkout form:
+
+      1. Create a signature in your server using the following attributes:
+          - `order_id`: Retrieve the `order_id` from your server. Do not use the `razorpay_order_id` returned by Checkout.
+          - `razorpay_payment_id`: Returned by Checkout.
+          - `client_secret`: Available in your server. The `client_secret` that was generated from the [RazorpayDashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/authentication.md#generate-api-keys).
+
+      2. Use the SHA256 algorithm, the `razorpay_payment_id` and the `order_id` to construct a HMAC hex digest as shown below:
+
+          ```html: HMAC Hex Digest
+          generated_signature = hmac_sha256(order_id + "|" + razorpay_payment_id, client_secret);
+
+            if (generated_signature == razorpay_signature) {
+              payment is successful
+            }
+          ```
+
+      3. If the signature you generate on your server matches the `razorpay_signature` returned to you by the Checkout form, the payment received is from an authentic source.
+
+      #### Generate Signature on Your Server
+
+      Given below is the sample code for payment signature verification:
+
+      ```java: Java
+      RazorpayClient razorpay = new RazorpayClient("[CLIENT_KEY_ID]", "[CLIENT_KEY_SECRET]");
+
+      String secret = "EnLs21M47BllR3X8PSFtjtbd";
+
+      JSONObject options = new JSONObject();
+      options.put("razorpay_order_id", "order_IEIaMR65cu6nz3");
+      options.put("razorpay_payment_id", "pay_IH4NVgf4Dreq1l");
+      options.put("razorpay_signature", "0d4e745a1838664ad6c9c9902212a32d627d68e917290b0ad5f08ff4561bc50f");
+
+      boolean status =  Utils.verifyPaymentSignature(options, secret);
+
+      ```ruby: Ruby
+      require "razorpay"
+      Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+      payment_response = {
+            razorpay_order_id: 'order_IEIaMR65cu6nz3',
+            razorpay_payment_id: 'pay_IH4NVgf4Dreq1l',
+            razorpay_signature: '0d4e745a1838664ad6c9c9902212a32d627d68e917290b0ad5f08ff4561bc50f'
+          }
+      Razorpay::Utility.verify_payment_signature(payment_response)
+
+      ```csharp: .NET
+      RazorpayClient client = new RazorpayClient("[CLIENT_KEY_ID]", "[CLIENT_KEY_SECRET]");
+
+      Dictionary options = new Dictionary();
+      options.Add("razorpay_order_id", "order_IEIaMR65");
+      options.Add("razorpay_payment_id", "pay_IH4NVgf4Dreq1l");
+      options.Add("razorpay_signature", "0d4e745a1838664ad6c9c9902212a32d627d68e917290b0ad5f08ff4561bc50");
+
+      Utils.verifyPaymentSignature(options);
+      ```
+
+      #### Post Signature Verification
+
+      With this, your integration is complete. Test the integration before going live. Replace the test key with the live key and integrate with other [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md).
+    
 
 ## 5. Subscribe to Authorization Revoked Webhook
 
@@ -559,7 +807,14 @@ Follow these steps to [subscribe to webhooks](https://raw.githubusercontent.com/
 
 Given below is the sample payload:
 
-@include partners/account-access-revoked-payload
+```json: account.app.authorization_revoked
+{
+  "event": "account.app.authorization_revoked",
+  "account_id": "acc_Dhk2qDbmu6FwZH", // merchant account id
+  "contains": [],
+  "created_at": 1678282666
+}
+```
 
 ## Next Step
 

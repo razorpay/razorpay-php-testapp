@@ -15,15 +15,249 @@ Use this endpoint to create a QR Code.
 
 ### Request
 
-@include qr-codes/api/create
+```curl: Curl
+curl -u : \
+-X POST https://api.razorpay.com/v1/payments/qr_codes \
+-H "Content-Type: application/json" \
+-d '{
+  "type": "upi_qr",
+  "name": "Store Front Display",
+  "usage": "single_use",
+  "fixed_amount": true,
+  "payment_amount": 300,
+  "description": "For Store 1",
+  "customer_id": "cust_HKsR5se84c5LTO",
+  "close_by": 1681615838,
+  "notes": {
+    "purpose": "Test UPI QR Code notes"
+  }
+}'
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+JSONObject qrRequest = new JSONObject();
+qrRequest.put("type","upi_qr");
+qrRequest.put("name","Store Front Display");
+qrRequest.put("usage","single_use");
+qrRequest.put("fixed_amount",true);
+qrRequest.put("payment_amount",300);
+qrRequest.put("description","For Store 1");
+qrRequest.put("customer_id","cust_HKsR5se84c5LTO");
+qrRequest.put("close_by",1681615838);
+JSONObject notes = new JSONObject();
+notes.put("notes_key_1","Tea, Earl Grey, Hot");
+notes.put("notes_key_2","Tea, Earl Grey… decaf.");
+qrRequest.put("notes",notes);
+
+QrCode qrcode = razorpay.qrCode.create(qrRequest);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->qrCode->create(array("type" => "upi_qr","name" => "Store Front Display", "usage" => "single_use","fixed_amount" => true,"payment_amount" => 300,"customer_id" => "cust_HKsR5se84c5LTO","description" => "For Store 1","close_by" => 1681615838,"notes" => array("purpose" => "Test UPI QR code notes")));
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.qrCode.create({
+  type: "upi_qr",
+  name: "Store Front Display",
+  usage: "single_use",
+  fixed_amount: true,
+  payment_amount: 300,
+  description: "For Store 1",
+  customer_id: "cust_HKsR5se84c5LTO",
+  close_by: 1681615838,
+  notes: {
+    purpose: "Test UPI QR Code notes"
+  }
+})
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.qrcode.create({
+  "type": "upi_qr",
+  "name": "Store Front Display",
+  "usage": "single_use",
+  "fixed_amount": True,
+  "payment_amount": 300,
+  "description": "For Store 1",
+  "customer_id": "cust_HKsR5se84c5LTO",
+  "close_by": 1681615838,
+  "notes": {
+    "purpose": "Test UPI QR Code notes"
+  }
+})
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+notes := map[string]interface{}{
+  "purpose": "Test UPI QR Code notes",  
+}  
+
+data := map[string]interface{}{
+  "type": "upi_qr",
+  "name": "Store Front Display",
+  "usage": "single_use",
+  "fixed_amount": true,
+  "payment_amount": 300,
+  "description": "For Store 1",
+  "customer_id": "cust_HKsR5se84c5LTO",
+  "close_by": 1681615838,
+  "notes": notes,
+}
+body, err := client.QrCode.create(data, nil)
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+para_attr = {
+  "type": "upi_qr",
+  "name": "Store Front Display",
+  "usage": "single_use",
+  "fixed_amount": true,
+  "payment_amount": 300,
+  "description": "For Store 1",
+  "customer_id": "cust_HKsR5se84c5LTO",
+  "close_by": 1681615838,
+  "notes": {
+    "purpose": "Test UPI QR Code notes"
+  }
+}
+Razorpay::QrCode.create(para_attr)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+Dictionary qrRequest = new Dictionary();
+qrRequest.Add("type", "upi_qr");
+qrRequest.Add("name", "Store_1");
+qrRequest.Add("usage", "single_use");
+qrRequest.Add("fixed_amount", true);
+qrRequest.Add("payment_amount", 300);
+qrRequest.Add("description", "For Store 1");
+qrRequest.Add("customer_id", "cust_MHYe2dVX323WYD");
+qrRequest.Add("close_by", 1681615838);
+Dictionary notes = new Dictionary();
+notes.Add("notes_key_1", "Tea, Earl Grey, Hot");
+notes.Add("notes_key_2", "Tea, Earl Grey… decaf.");
+qrRequest.Add("notes", notes);
+
+QrCode qrcode = client.QrCode.Create(qrRequest);
+
+```
 
 ### Response
 
-@include qr-codes/api/create-res
+```json: Success 
+{
+  "id": "qr_HMsVL8HOpbMcjU",
+  "entity": "qr_code",
+  "created_at": 1623660301,
+  "name": "Store Front Display",
+  "usage": "single_use",
+  "type": "upi_qr",
+  "image_url": "https://rzp.io/i/BWcUVrLp",
+  "payment_amount": 300,
+  "status": "active",
+  "description": "For Store 1",
+  "fixed_amount": true,
+  "payments_amount_received": 0,
+  "payments_count_received": 0,
+  "notes": {
+    "purpose": "Test UPI QR Code notes"
+  },
+  "customer_id": "cust_HKsR5se84c5LTO",
+  "close_by": 1681615838
+}
+
+```json: Failure 
+{
+    "error": {
+        "code": "BAD_REQUEST_ERROR",
+        "description": "The requested URL was not found on the server.",
+        "source": "NA",
+        "step": "NA",
+        "reason": "NA",
+        "metadata": {}
+    }
+}
+```
 
 ### Parameters
 
-@include qr-codes/api/create-req-param
+`type` _mandatory_
+: `string` The type of the QR Code. 
+  - `upi_qr`: Create a QR Code that accepts only UPI payments.
+  
+> **INFO**
+>
+> 
+>   **Feature Request**
+> 
+>   This is an on-demand feature.  to get this feature activated on your account.
+>   
+
+ 
+`name` _optional_
+: `string` Label entered to identify the QR Code. For example, `Store Front Display`.
+
+`usage` _mandatory_
+: `string` Indicates if the QR Code should be allowed to accept single payment or multiple payments. Possible values:
+  - `single_use`: QR Code will accept only one payment and then close automatically.
+  - `multiple_use` (default): QR Code will accept multiple payments.
+
+`fixed_amount` _optional_
+: `boolean` Indicates if the QR should accept payments of specific amounts or any amount. Possible values:
+  - `true`: QR Code accepts only a specific amount.
+  - `false` (default): QR Code accepts any amount.
+
+  
+> **WARN**
+>
+> 
+>   **Watch Out!**
+>   
+>   When setting the `usage` to `single_use`, ensure that `fixed_amount` is `true` to generate the QR Code successfully.
+>   
+
+`payment_amount` _mandatory if fixed_amount=true_
+: `integer` The amount allowed for a transaction. If this is specified, then any transaction of an amount less than or more than this value is not allowed. For example, if this amount is set as `500000`, the customer cannot pay an amount less than or more than ₹5000.
+
+`description`_optional_
+: `string` A brief description about the QR Code.
+
+`customer_id` _optional_
+: `string` The unique identifier of the customer the QR Code is linked with. Know more about the [Customers API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md).
+
+`close_by` _optional_
+: `integer` Unix timestamp at which the QR Code is scheduled to be automatically closed. The time must be at least 2 minutes after the current time.
+
+  
+> **WARN**
+>
+> 
+>   **Watch Out!**
+>  
+>   This parameter is available for single use QR codes only. You should ideally send a `close_by` value (expiry time less than or equal to 2 hours from QR generation).
+>   - The QR code has a minimum expiration time of 2 minutes and a maximum of 2 hours.
+>   - If `close_by` is `NULL`, the system sets a 2-hour expiry (returned in the response).
+>   - If `close_by` is greater than 2 hours, the system overrides it to 2 hours (returned in the response).
+>   - Use the returned `close_by` value for QR expiry. QR codes expire after the `close_by` time; you must regenerate them.
+>   - This parameter is only available for QR codes with `usage` set as `single_use`. You will not be able to use this parameter for `multiple_use` QR codes as it will generate an error.
+>   
+
+  
+
+  
+`notes` _optional_
+: `object`  Key-value pair that can be used to store additional information about the QR Code. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
 
 ### Parameters
 

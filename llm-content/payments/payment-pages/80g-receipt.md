@@ -76,7 +76,15 @@ You can also download the payment receipt using the **Download** button.
 
 ### Resend and Download Payment Receipt
 
-@include payment-pages/download
+To resend the receipt to a customer:
+
+1. Navigate to the page's **Transactions Details** screen. All the payments made using the Payment Page are listed here.
+2. Click on the Payment id to view the payment details.
+3. In the **Payment Receipt** field, click the **Send** button. This will resend the receipt to the customer.
+
+[Video content]
+
+You can download the payment receipt using the **Download** button.
 
 ### Email Notification to Customers
 

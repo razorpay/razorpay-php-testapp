@@ -23,7 +23,88 @@ To view settlement details:
 
 ### Settlements Break-Up Description
 
-@include settlements/settlement-breakup
+The following screenshot displays the settlement break-up:
+
+![Settlement break-up description image](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/settlements-2.jpg.md)
+
+A settlement has the following components:
+
+`Payment`
+: The total payment amount that is being settled before deductions.
+
+`Adjustment`
+: Adjustments to transactions, if any.
+
+`Tax`
+: Tax deducted on the payment.
+
+`Fee`
+: Fees deducted by Razorpay for the transactions.
+
+`Transfer`
+: Transfers made if any, Transfers are payouts made to your [linked accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/linked-account.md). 
+
+ Linked accounts are accounts created for third-party sellers by you after onboarding them onto the Razorpay platform.
+
+`Refunds`
+: Refunds made if any, are refunds you have issued to your customer.
+
+    
+### Example
+
+         In this example, the amount settled to your account = Payment - Adjustment - Tax - Fee - Transfer + Refunds
+
+         
+
+         Transaction Details | Amount(₹)
+         ---
+         Payment | 50.00
+         ---
+         Refunds | 10.00
+         ---
+         Tax | 2.88
+         ---
+         Fee | 16.00
+         ---
+         Total amount settled in your account | 20.94
+         
+        
+
+    
+### Example: Gross Settelements and Deductions Calculations
+
+         Following is an example of gross settlements and deductions calculations of your settlement:
+
+         ![settlement components detail view](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/settlement-components-view.jpg.md)
+
+         The gross settlements and deductions calculations only apply to merchants on the prepaid model.
+         
+        
+
+---
+Payment | 18012.00
+---
+Adjustment | 6.00
+---
+Tax | 65.56
+---
+Fee | 364.24
+---
+Total amount settled in your account | 17576.20
+
+A settlement has the following components:
+
+`Payment`
+: The total payment amount that is being settled before deductions.
+
+`Adjustment`
+: Adjustments to transactions, if any.
+
+`Tax`
+: Tax deducted on the payment.
+
+`Fee`
+: Fees deducted by Razorpay for the transactions.
 
 ## View Settlement Timeline on Dashboard
 
@@ -39,7 +120,16 @@ To view the settlement timeline:
 
 ## Enable Settlements Placed On Hold
 
-@include settlements/settlement-on-hold
+Your settlement can be placed on hold if we detect some risk with your payments or with your Razorpay account. You are notified about this on your Dashboard.
+
+Contact the [support team](https://razorpay.com/support) to enable settlements that are placed on hold.
+
+![Settlements placed on hold](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/settlements-risk-soh-notice.jpg.md)
+
+To enable settlements when they are put on hold:
+1. Log in to the Dashboard.
+2. Navigate to **Home**.
+3. Click **Resolve** on the notification as shown above..
 
 ## Reports
 

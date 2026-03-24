@@ -125,7 +125,48 @@ failure.html | Displays payment failure message to user.
              
 ### 1.1.2 Request Parameters
 
-                 @include server-integration/request-parameters
+                 Here is the list of parameters for creating an order:
+
+`amount` _mandatory_
+: `integer` Payment amount in the smallest currency sub-unit. For example, if the amount to be charged is , then pass `29900` in this field. In the case of three decimal currencies, such as KWD, BHD and OMR, to accept a payment of 295.991, pass the value as 295990. And in the case of zero decimal currencies such as JPY, to accept a payment of 295, pass the value as 295.
+
+  
+> **WARN**
+>
+> 
+>   **Watch Out!**
+> 
+>   As per payment guidelines, you should pass the last decimal number as 0 for three decimal currency payments. For example, if you want to charge a customer 99.991 KD for a transaction, you should pass the value for the amount parameter as `99990` and not `99991`.
+>   
+
+`currency` _mandatory_
+: `string` The currency in which the transaction should be made. See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Length must be 3 characters.
+
+  
+> **INFO**
+>
+> 
+> 
+>   **Handy Tips**
+> 
+>   Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>   
+
+`receipt` _optional_
+: `string` Your receipt id for this order should be passed here. Maximum length is 40 characters.
+
+`notes` _optional_
+: `json object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
+
+`partial_payment` _optional_
+: `boolean` Indicates whether the customer can make a partial payment. Possible values:
+  - `true`: The customer can make partial payments.
+  - `false` (default): The customer cannot make partial payments.
+
+`first_payment_min_amount` _optional_
+: `integer` Minimum amount that must be paid by the customer as the first partial payment. For example, if an amount of 7000 is to be received from the customer in two installments of #1 - 5000, #2 - 2000 then you can set this value as `500000`. This parameter should be passed only if `partial_payment` is `true`.
+
+Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
                  
 
              
@@ -164,6 +205,8 @@ failure.html | Displays payment failure message to user.
 
 -  On failure, the customer is notified of the failure and asked to retry the payment.
  
+                  
+
                   
 
                   
@@ -268,7 +311,250 @@ failure.html | Displays payment failure message to user.
              
 ### 1.2.3 Checkout Options
 
-                  @include checkout-parameters/standard
+                  `key` _mandatory_
+: `string` API Key ID generated from the Dashboard.
+
+`amount` _mandatory_
+: `integer` Payment amount in the smallest currency subunit. For example, if the amount to be charged is , enter `222250` in this field. In the case of three decimal currencies, such as KWD, BHD and OMR, to accept a payment of 295.991, pass the value as 295990. And in the case of zero decimal currencies such as JPY, to accept a payment of 295, pass the value as 295.
+
+   
+> **WARN**
+>
+> 
+>    **Watch Out!**
+> 
+>    As per payment guidelines, you should pass the last decimal number as 0 for three decimal currency payments. For example, if you want to charge a customer 99.991 KD for a transaction, you should pass the value for the amount parameter as `99990` and not `99991`.
+>    
+
+`currency` _mandatory_
+: `string` The currency in which the payment should be made by the customer. See the list of [supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
+
+   
+> **INFO**
+>
+> 
+> 
+>    **Handy Tips**
+> 
+>    Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>    
+
+`name` _mandatory_
+: `string` Your Business/Enterprise name shown on the Checkout form. For example, **Acme Corp**.
+
+`description` _optional_
+: `string` Description of the purchase item shown on the Checkout form. It should start with an alphanumeric character.
+
+`image` _optional_
+: `string` Link to an image (usually your business logo) shown on the Checkout form. Can also be a **base64** string if you are not loading the image from a network.
+
+`order_id` _mandatory_
+: `string` Order ID generated via [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
+
+`prefill`
+: `object` You can prefill the following details at Checkout.
+
+   
+> **INFO**
+>
+> 
+>    **Boost Conversions and Minimise Drop-offs**
+> 
+>    - Autofill customer contact details, especially phone number to ease form completion. Include customer’s phone number in the `contact` parameter of the JSON request's `prefill` object. Format: +(country code)(phone number). Example: "contact": "+919000090000".   
+>    - This is not applicable if you do not collect customer contact details on your website before checkout, have Shopify stores or use any of the no-code apps.
+> 
+>    
+
+   `name` _optional_
+   : `string` Cardholder's name to be prefilled if customer is to make card payments on Checkout. For example, **Gaurav Kumar**.
+
+   `email` _optional_
+   : `string` Email address of the customer.
+
+   `contact` _optional_
+   : `string` Phone number of the customer. The expected format of the phone number is `+ {country code}{phone number}`. If the country code is not specified, `91` will be used as the default value. This is particularly important while prefilling `contact` of customers with phone numbers issued outside India. **Examples**:
+       - +14155552671 (a valid non-Indian number)
+       - +919977665544 (a valid Indian number). 
+If 9977665544 is entered, `+91` is added to it as +919977665544.
+
+   `method` _optional_
+   : `string` Pre-selection of the payment method for the customer. Will only work if `contact` and `email` are also prefilled. Possible values:
+       
+       - `card`
+
+       - `netbanking`
+
+       - `wallet`
+
+       - `upi`
+
+       - `emi`
+
+       
+
+`notes` _optional_
+: `object` Set of key-value pairs that can be used to store additional information about the payment. It can hold a maximum of 15 key-value pairs, each 256 characters long (maximum).
+
+`theme`
+: `object` Thematic options to modify the appearance of Checkout.
+
+   `color` _optional_
+   : `string` Enter your brand colour's HEX code to alter the text, payment method icons and CTA (call-to-action) button colour of the Checkout form.
+
+   `backdrop_color` _optional_
+   : `string` Enter a HEX code to change the Checkout's backdrop colour.
+
+`modal`
+: `object` Options to handle the Checkout modal.
+
+   `backdropclose` _optional_
+   : `boolean` Indicates whether clicking the translucent blank space outside the Checkout form should close the form. Possible values:
+       - `true`: Closes the form when your customer clicks outside the checkout form.
+       - `false` (default): Does not close the form when customer clicks outside the checkout form.
+
+   `escape` _optional_
+   : `boolean` Indicates whether pressing the **escape** key should close the Checkout form. Possible values:
+       - `true` (default): Closes the form when the customer presses the **escape** key.
+       - `false`: Does not close the form when the customer presses the **escape** key.
+
+   `handleback` _optional_
+   : `boolean` Determines whether Checkout must behave similar to the browser when back button is pressed. Possible values:
+       - `true` (default): Checkout behaves similarly to the browser. That is, when the browser's back button is pressed, the Checkout also simulates a back press. This happens as long as the Checkout modal is open.
+       - `false`: Checkout does not simulate a back press when browser's back button is pressed.
+
+   `confirm_close` _optional_
+   : `boolean` Determines whether a confirmation dialog box should be shown if customers attempts to close Checkout. Possible values:
+       - `true`: Confirmation dialog box is shown.
+       - `false` (default): Confirmation dialog box is not shown.
+  
+   `ondismiss` _optional_
+   : `function` Used to track the status of Checkout. You can pass a modal object with `ondismiss: function()\{\}` as options. This function is called when the modal is closed by the user. If `retry` is `false`, the `ondismiss` function is triggered when checkout closes, even after a failure.
+
+   `animation` _optional_
+   : `boolean` Shows an animation before loading of Checkout. Possible values:
+       - `true`(default): Animation appears.
+       - `false`: Animation does not appear.
+
+`subscription_id` _optional_
+: `string` If you are accepting recurring payments using Razorpay Checkout, you should pass the relevant `subscription_id` to the Checkout. Know more about [Subscriptions on Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/subscriptions.md#checkout-integration).
+
+`subscription_card_change` _optional_
+: `boolean` Permit or restrict customer from changing the card linked to the subscription. You can also do this from the [hosted page](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/payment-retries.md#update-the-payment-method-via-our-hosted-page). Possible values:
+   - `true`: Allow the customer to change the card from Checkout.
+   - `false` (default): Do not allow the customer to change the card from Checkout.
+
+`recurring` _optional_
+: `boolean` Determines if you are accepting [recurring (charge-at-will) payments on Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments.md) via instruments such as emandate, paper NACH and so on. Possible values:
+   - `true`: You are accepting recurring payments.
+   - `false` (default): You are not accepting recurring payments.
+
+`callback_url` _optional_
+: `string` Customers will be redirected to this URL on successful payment. Ensure that the domain of the Callback URL is allowlisted.
+
+`redirect` _optional_
+: `boolean` Determines whether to post a response to the event handler post payment completion or redirect to Callback URL. `callback_url` must be passed while using this parameter. Possible values:
+   - `true`: Customer is redirected to the specified callback URL in case of payment failure.
+   - `false` (default): Customer is shown the Checkout popup to retry the payment with the suggested next best option.
+
+`customer_id` _optional_
+: `string` Unique identifier of customer. Used for:
+
+   - [Local saved cards feature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/features/saved-cards.md#manage-saved-cards).
+   - Static bank account details on Checkout in case of [Bank Transfer payment method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bank-transfer.md).
+
+`remember_customer` _optional_
+: `boolean` Determines whether to allow saving of cards. Can also be configured via the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-features.md#flash-checkout). Possible values:
+   - `true`: Enables card saving feature.
+   - `false` (default): Disables card saving feature.
+
+`timeout` _optional_
+: `integer` Sets a timeout on Checkout, in seconds. After the specified time limit, the customer will not be able to use Checkout.
+
+    
+> **WARN**
+>
+> 
+>     **Watch Out!**
+>     
+>     Some browsers may pause `JavaScript` timers when the user switches tabs, especially in power saver mode. This can cause the checkout session to stay active beyond the set timeout duration.
+>     
+
+`readonly`
+: `object` Marks fields as read-only.
+
+   `contact` _optional_
+   : `boolean` Used to set the `contact` field as readonly. Possible values:
+       - `true`: Customer will not be able to edit this field.
+       - `false` (default): Customer will be able to edit this field.
+
+   `email` _optional_
+   : `boolean` Used to set the `email` field as readonly. Possible values:
+       - `true`: Customer will not be able to edit this field.
+       - `false` (default): Customer will be able to edit this field.
+      
+   `name` _optional_
+   : `boolean` Used to set the `name` field as readonly. Possible values:
+       - `true`: Customer will not be able to edit this field.
+       - `false` (default): Customer will be able to edit this field.
+
+`hidden`
+: `object` Hides the contact details.
+
+   `contact` _optional_
+   : `boolean` Used to set the `contact` field as optional. Possible values:
+       - `true`: Customer will not be able to view this field.
+       - `false` (default): Customer will be able to view this field.
+
+   `email` _optional_
+   : `boolean` Used to set the `email` field as optional. Possible values:
+       - `true`: Customer will not be able to view this field.
+       - `false` (default): Customer will be able to view this field.
+
+`send_sms_hash` _optional_
+: `boolean` Used to auto-read OTP for cards and netbanking pages. Applicable from Android SDK version 1.5.9 and above. Possible values:
+   - `true`: OTP is auto-read.
+   - `false` (default): OTP is not auto-read.
+
+`allow_rotation` _optional_
+: `boolean` Used to rotate payment page as per screen orientation. Applicable from Android SDK version 1.6.4 and above. Possible values:
+   - `true`: Payment page can be rotated.
+   - `false` (default): Payment page cannot be rotated.
+
+`retry` _optional_
+: `object` Parameters that enable retry of payment on the checkout.
+
+   `enabled`
+   : `boolean` Determines whether the customers can retry payments on the checkout. Possible values:
+       - `true` (default): Enables customers to retry payments.
+       - `false`: Disables customers from retrying the payment.
+  
+   `max_count`
+   : `integer` The number of times the customer can retry the payment. We recommend you to set this to 4. Having a larger number here can cause loops to occur.
+       
+> **WARN**
+>
+> 
+>        **Watch Out!**
+> 
+>        Web Integration does not support the `max_count` parameter. It is applicable only in Android and iOS SDKs.
+>        
+
+  
+`config` _optional_
+: `object` Parameters that enable checkout configuration. Know more about how to [configure payment methods on Razorpay standard checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/standard/configure-payment-methods.md).
+  
+   `display`
+   : `object` Child parameter that enables configuration of checkout display language.
+
+       `language`
+       : `string` The language in which checkout should be displayed. Possible values:
+           - `en`: English
+           - `ben`: Bengali
+           - `hi`: Hindi
+           - `mar`: Marathi
+           - `guj`: Gujarati
+           - `tam`: Tamil
+           - `tel`: Telugu
 
                   
 > **INFO**
@@ -353,9 +639,34 @@ failure.html | Displays payment failure message to user.
     
 ### 1.3 Store Fields in Your Server
 
-         @include integration-steps/store-fields
-        
+         A successful payment returns the following fields to the Checkout form.
 
+  
+    Success Callback
+    
+- You need to store these fields in your server.
+- You can confirm the authenticity of these details by verifying the signature in the next step.
+
+```json: Success Callback
+{
+  "razorpay_payment_id": "pay_29QQoUBi66xm2f",
+  "razorpay_order_id": "order_9A33XWu170gUtm",
+  "razorpay_signature": "9ef4dffbfd84f1318f6739a3ce19f9d85851857ae648f114332d8401e0949a3d"
+}
+```
+
+`razorpay_payment_id`
+: `string` Unique identifier for the payment returned by Checkout **only** for successful payments.
+
+`razorpay_order_id`
+: `string` Unique identifier for the order returned by Checkout.
+
+`razorpay_signature`
+: `string` Signature returned by the Checkout. This is used to verify the payment.
+    
+
+        
+    
     
 ### 1.4 Verify Payment Signature
 
@@ -446,7 +757,132 @@ failure.html | Displays payment failure message to user.
 
 ### 2. Test Integration 
 
-@include integration-steps/next-steps
+After the integration is complete, a **Pay** button appears on your webpage/app. 
+
+![Test integration on your webpage/app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/test-int.gif.md)
+
+Click the button and make a test transaction to ensure the integration is working as expected. You can start accepting actual payments from your customers once the test transaction is successful.
+
+> **WARN**
+>
+> 
+> **Watch Out!**
+> 
+> This is a mock payment page that uses your test API keys, test card and payment details. 
+> - Ensure you have entered only your [Test Mode API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) in the Checkout code. 
+> - Test mode features a mock bank page with **Success** and **Failure** buttons to replicate the live payment experience.
+> - No real money is deducted due to the usage of test API keys. This is a simulated transaction.
+> 
+
+Following are all the payment modes that the customer can use to complete the payment on the Checkout. Some of them are available by default, while others may require approval from us. Raise a request from the Dashboard to enable such payment methods.
+
+Payment Method | Code | Availability
+---
+[Debit Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards.md) | `debit` | ✓
+---
+[Credit Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards.md) | `credit` | ✓
+---
+[Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/netbanking.md) | `netbanking`| ✓
+---
+[UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi.md) | `upi` | ✓
+---
+EMI - [Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/credit-card-emi.md), [Debit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md) and [No Cost EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/no-cost-emi.md) | `emi` | ✓
+---
+[Wallet](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets.md) | `wallet` | ✓
+---
+[Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi.md) | `cardless_emi` | Requires [Approval](https://razorpay.com/support).
+---
+[Bank Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bank-transfer.md) | `bank_transfer` | Requires [Approval](https://razorpay.com/support) and Integration.
+---
+[Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/integrate.md) | `emandate` | Requires [Approval](https://razorpay.com/support) and Integration.
+---
+[Pay Later ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md)| `paylater` | Requires [Approval](https://razorpay.com/support).
+
+You can make test payments using one of the payment methods configured at the Checkout.
+
+    
+### Netbanking
+
+         You can select any of the listed banks. After choosing a bank, Razorpay will redirect to a mock page where you can make the payment `success` or a `failure`. Since this is Test Mode, we will not redirect you to the bank login portals.
+
+         Check the list of [supported banks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/netbanking.md#supported-banks).
+        
+
+    
+### UPI
+
+         You can enter one of the following UPI IDs:
+
+         - `success@razorpay`: To make the payment successful. 
+         - `failure@razorpay`: To fail the payment.
+
+         Check the list of [supported UPI flows](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi.md).
+
+         
+> **INFO**
+>
+> 
+>          **Handy Tips**
+> 
+>          You can use **Test Mode** to test UPI payments, and **Live Mode** for UPI Intent and QR payments.
+>          
+
+        
+
+    
+### Cards
+
+         You can use the following test cards to test transactions for your integration in Test Mode.
+
+         ### Domestic Cards
+
+         Use the following test cards for Indian payments:
+
+         
+         Network | Card Number | CVV & Expiry Date
+         ---
+         Visa  | 4100 2800 0000 1007 | Use a random CVV and any future date ^^^^^
+         ---
+         Mastercard | 5500 6700 0000 1002 | 
+         ---
+         RuPay | 6527 6589 0000 1005 | 
+         ---
+         Diners | 3608 280009 1007 | 
+         ---
+         Amex | 3402 560004 01007 | 
+         
+
+         #### Error Scenarios
+
+         Use these test cards to simulate payment errors. See the [complete list](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test-card-details.md#error-scenario-test-cards) of error test cards with detailed scenarios.
+         Check the following lists: 
+         - [Supported Card Networks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards.md).
+         - [Cards Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/payments/cards.md).
+
+         ### International Cards
+
+         Use the following test cards to test international payments. Use any valid expiration date in the future in the MM/YY format and any random CVV to create a successful payment.
+
+         
+         Card Network | Card Number | CVV & Expiry Date
+         ---
+         Mastercard | 5555 5555 5555 4444
+5105 1051 0510 5100
+5104 0600 0000 0008 | Use a random CVV and any future date ^^
+         ---
+         Visa | 4012 8888 8888 1881 |
+         
+
+         Check the list of [supported card networks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards.md).
+        
+
+    
+### Wallet
+
+         You can select any of the listed wallets. After choosing a wallet, Razorpay will redirect to a mock page where you can make the payment `success` or a `failure`. Since this is Test Mode, we will not redirect you to the wallet login portals.
+
+         Check the list of [supported wallets](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets.md#supported-wallets).
+        
 
 ### 3. Go-live Checklist
 
@@ -477,13 +913,56 @@ To generate API Keys in Live Mode on your Razorpay Dashboard:
     
 ### 3.2 Payment Capture
 
-         @include integration-steps/capture-settings
+         After payment is `authorized`, you need to capture it to settle the amount to your bank account as per the settlement schedule. Payments that are not captured are auto-refunded after a fixed time.
+
+> **WARN**
+>
+> 
+> 
+> **Watch Out**
+> 
+> - You should deliver the products or services to your customers only after the payment is captured. Razorpay automatically refunds all the uncaptured payments.
+> - You can track the payment status using our [Fetch a Payment API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-a-payment) or webhooks.
+> 
+
+  
+    Authorized payments can be automatically captured. You can auto-capture all payments [using global settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md#auto-capture-all-payments) on the Razorpay Dashboard. Know more about [capture settings for payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md).
+
+    
+> **WARN**
+>
+> 
+>     **Watch Out!**
+> 
+>     Payment capture settings work only if you have integrated with Orders API on your server side. Know more about the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md).
+>     
+
+  
+  
+    Each authorized payment can also be captured individually. You can manually capture payments using [Payment Capture API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment) or [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/dashboard.md#manually-capture-payments). Know more about [capture settings for payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md).
+  
+
         
 
     
 ### 3.3 Set Up Webhooks
 
-         @include integration-steps/set-up-webhooks
+         Ensure you have [set up webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md) in the live mode and configured the events for which you want to receive notifications.
+
+         
+> **WARN**
+>
+> 
+>          **Implementation Considerations**
+> 
+>          Webhooks are the primary and most efficient method for event notifications. They are delivered asynchronously in near real-time. For critical user-facing flows that need instant confirmation (like showing "Payment Successful" immediately), supplement webhooks with API verification.
+> 
+>          **Recommended approach** 
+
+>          - Rely on webhooks for all automation, which can be asynchronous.
+>          - If a critical user-facing flow requires instant status, but the webhook notification has not arrived within the time mandated by your business needs, perform an immediate API Fetch call ([Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/fetch-with-id.md), [Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/fetch-with-id.md) and [Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds/fetch-specific-refund-payment.md)) to verify the status.
+>          
+
         
 
  Dashboard:
@@ -498,7 +977,22 @@ To generate API Keys in Live Mode on your Razorpay Dashboard:
     
 ### 3.2 Set Up Webhooks
 
-         @include integration-steps/set-up-webhooks
+         Ensure you have [set up webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md) in the live mode and configured the events for which you want to receive notifications.
+
+         
+> **WARN**
+>
+> 
+>          **Implementation Considerations**
+> 
+>          Webhooks are the primary and most efficient method for event notifications. They are delivered asynchronously in near real-time. For critical user-facing flows that need instant confirmation (like showing "Payment Successful" immediately), supplement webhooks with API verification.
+> 
+>          **Recommended approach** 
+
+>          - Rely on webhooks for all automation, which can be asynchronous.
+>          - If a critical user-facing flow requires instant status, but the webhook notification has not arrived within the time mandated by your business needs, perform an immediate API Fetch call ([Payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/fetch-with-id.md), [Orders](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/fetch-with-id.md) and [Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/refunds/fetch-specific-refund-payment.md)) to verify the status.
+>          
+
         
 
 ## Integrate With Other Razorpay Products

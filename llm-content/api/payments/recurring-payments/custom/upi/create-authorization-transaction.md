@@ -5,45 +5,515 @@ description: Learn how to create an authorisation transaction for upi.
 
 # 1. Create the Authorisation Transaction
 
-@include upi-collect-sunset-autopay/custom
+> **WARN**
+>
+> 
+> 
+> **UPI Collect Flow Deprecated**
+> 
+> According to NPCI guidelines, the UPI Collect flow is being deprecated for new UPI Autopay registrations effective 28 February 2026. 
+> - Customers can no longer register UPI mandates by manually entering VPA/UPI id/mobile numbers. 
+> - Subsequent debits for existing mandates created via UPI Collect will continue to be executed without change.
+> 
+> **Exemptions:** 
+> 
+> UPI Collect will continue to be supported for:
+> - MCC 6012 & 6211 (IPO and secondary market transactions).
+> - iOS mobile app and mobile web transactions.
+> - UPI Mandates (execute/modify/revoke operations only).
+> - eRupi vouchers.
+> - PACB businesses (cross-border/international payments).
+> 
+> **Action Required:**
+> - If you are a new Razorpay user, use UPI Intent.
+> - If you are an existing Razorpay user not covered by exemptions, you must remove the UPI Collect parameters from `razorpay.js` and migrate to UPI Intent or UPI QR code to continue accepting UPI Autopay registrations. For detailed migration steps, refer to the [migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/recurring-payments/custom-checkout.md).
+> 
+> 
 
-@include recurring-payments/create-auth-tran-rr-custom-two-methods
+You can create an authorisation transaction using [Razorpay APIs](#11-using-razorpay-apis) or [Registration Link](#12-using-a-registration-link).
 
 ## 1.1 Using Razorpay APIs
 
-@include recurring-payments/create-auth-tran-rr-custom-checkout-intro
+To create an authorisation transaction using Razorpay APIs, you need to:
+
+1. [Create a Customer](#111-create-a-customer).
+2. [Create an Order](#112-create-an-order).
+3. [Create Authorisation Payment using Razorpay APIs](#113-create-an-authorisation-payment).
+
+> **INFO**
+>
+> 
+> **Handy Tips**
+> 
+> For the Authorisation Payment to be successful in a day (for example, 5th June), you should create an Order and the Authorisation Transaction on the same day (5th June) before 11:59 pm.
+> 
 
 ### 1.1.1 Create a Customer
 
     
 ### Sample Code
 
-         @include recurring-payments/customer/api
+         Razorpay links recurring tokens to customers using a unique identifier generated through the Customer API.
+
+You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md) with basic information such as `email` and `contact` and use them for various Razorpay offerings. The following endpoint creates a customer.
+
+/customers
+
+  
+    Sample Code
+    
+     
+      ```cURL: Curl
+      curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+      -X POST https://api.razorpay.com/v1/customers \
+      -H "Content-Type: application/json" \
+      -d '{
+        "name": "",
+        "email": "",
+        "contact": "",
+        "fail_existing": "0",
+        "notes":{
+          "note_key_1": "September",
+          "note_key_2": "Make it so."
+        }
+      }'
+
+      ```java: Java
+      RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+      JSONObject customerRequest = new JSONObject();
+      customerRequest.put("name","");
+      customerRequest.put("contact","");
+      customerRequest.put("email","");
+      customerRequest.put("fail_existing", "0");
+      JSONObject notes = new JSONObject();
+      notes.put("notes_key_1","Tea, Earl Grey, Hot");
+      notes.put("notes_key_2","Tea, Earl Grey… decaf.");
+      customerRequest.put("notes",notes);
+
+      Customer customer = razorpay.customers.create(customerRequest);
+
+      ```python: Python
+      import razorpay
+      client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+      client.customer.create({
+          'name': '',
+          'email': '',
+          'contact': '',
+          'fail_existing': "0",
+          'notes': {'note_key_1': 'September', 'note_key_2': 'Make it so.'}
+          })
+
+      ```go: Go
+      import ( razorpay "github.com/razorpay/razorpay-go" )
+      client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+      data := map[string]interface{}{
+          "name": "",
+          "contact": ,
+          "email": "",
+          "fail_existing": "0",
+          "notes": map[string]interface{}{
+              "notes_key_1": "Tea, Earl Grey, Hot",
+              "notes_key_2": "Tea, Earl Grey… decaf.",
+          },
+      }
+      body, err := client.Customer.Create(data, nil)
+
+      ```php: PHP
+      $api = new Api($key_id, $secret);
+
+      $api->customer->create(array('name' => '', 'email' => '','contact'=>'','fail_existing' => "0", 'notes'=> array('notes_key_1'=> 'Tea, Earl Grey, Hot','notes_key_2'=> 'Tea, Earl Grey… decaf'));
+      ```csharp: .NET
+      RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+      Dictionary options = new Dictionary();
+
+      options.Add("name", ""); 
+      options.Add("contact", ""); 
+      options.Add("email", ""); 
+      options.Add("fail_existing", "0"); 
+
+      Customer customer = Customer.Create(options);
+
+      ```ruby: Ruby
+      require "razorpay"
+      Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+      para_attr = {
+        "name": "",
+        "contact": "",
+        "email": "",
+        "fail_existing": "0",
+        "notes": {
+          "notes_key_1": "Tea, Earl Grey, Hot",
+          "notes_key_2": "Tea, Earl Grey… decaf."
+        }
+      }
+
+      Razorpay::Customer.create(para_attr)
+
+      ```javascript: Node.js
+      var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+      instance.customers.create({
+        name: "",
+        contact: "",
+        email: "",
+        fail_existing: "0",
+        notes: {
+          notes_key_1: "Tea, Earl Grey, Hot",
+          notes_key_2: "Tea, Earl Grey… decaf."
+        }
+      })
+      ```
+
+      ```json: Response
+      {
+        "id":"cust_1Aa00000000001",
+        "entity":"customer",
+        "name":"",
+        "email":"",
+        "contact":"",
+        "gstin":null,
+        "notes":{
+            "note_key_1":"September",
+            "note_key_2":"Make it so."
+        },
+        "created_at ":1234567890
+      }
+      ```
+      
+    
+
         
+    
 
     
 ### Request Parameters
 
-         @include recurring-payments/customer/api-req
+         `name`
+: `string` The name of the customer. For example, `Gaurav Kumar`.
+
+`email`
+: `string` The email address of the customer. For example, `gaurav.kumar@example.com`.
+
+`contact`
+: `string` The phone number of the customer. For example, `9876543210`.
+
+`fail_existing` _optional_
+: `string` The request throws an exception by default if a customer with the exact details already exists. You can pass an additional parameter `fail_existing` to get the existing customer's details in the response. Possible values:
+     - `1` (default): If a customer with the same details already exists, throws an error.
+     - `0`: If a customer with the same details already exists, fetches details of the existing customer.
+
+`notes` _optional_
+: `object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
         
 
 ### 1.1.2. Create an Order
 
-@include recurring-payments/upi/order
+The Orders API allows you to create a unique Razorpay `order_id`, for example, `order_1Aa00000000001`, that would be tied to the authorisation transaction. Refer to our detailed [Order documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/orders.md) for more details.
+
+You can create a payment against the `order_id` once it is generated.
+
+Use the below endpoint to create an order.
+
+/orders
+
+  
+### Sample Code
+
+      
+      ```cURL: Request
+      curl -u : \
+      -X POST https://api.razorpay.com/v1/orders \
+      -H "Content-Type: application/json" \
+      -d '{
+        "amount": 100,
+        "currency": "INR",
+        "customer_id": "cust_4xbQrmEoA5WJ01",
+        "method": "upi",
+        "payment_capture": true,
+        "token": {
+          "max_amount": 200000,
+          "expire_at": 2709971120,
+          "frequency": "monthly"
+        },
+        "receipt": "Receipt No. 1",
+        "notes": {
+          "notes_key_1": "Tea, Earl Grey, Hot",
+          "notes_key_2": "Tea, Earl Grey… decaf."
+        }
+      }'
+      ```json: Response
+      {
+        "id": "order_1Aa00000000002",
+        "entity": "order",
+        "amount": 100,
+        "amount_paid": 0,
+        "amount_due": 100,
+        "currency": "INR",
+        "receipt": "Receipt No. 1",
+        "offer_id": null,
+        "status": "created",
+        "attempts": 0,
+        "notes": {
+          "notes_key_1": "Tea, Earl Grey, Hot",
+          "notes_key_2": "Tea, Earl Grey… decaf."
+          },
+        "created_at": 1565172642
+      }
+      ```
+      
+    
 
     
 ### Request Parameters
 
-         @include recurring-payments/upi/order-req
+         `amount` _mandatory_
+: `integer` Amount in currency subunits.
+
+`currency` _mandatory_
+: `string` The 3-letter ISO currency code for the payment. Currently, we only support `INR`.
+
+`customer_id` _mandatory_
+: `string` The unique identifier of the customer. For example, `cust_4xbQrmEoA5WJ01`.
+
+`method` _mandatory_
+: `string` The authorisation method. Here, it is `upi`.
+
+`receipt` _optional_
+: `string` A user-entered unique identifier of the order. For example, `Receipt No. 1`. You should map this parameter to the `order_id` sent by Razorpay.
+
+`notes`_optional_
+: `object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters each. For example, `"note_key": "Beam me up Scotty”`.
+
+`token`
+: Details related to the authorisation such as max amount, frequency and expiry information.
+
+  `max_amount` _mandatory_
+  : `integer` The maximum amount that can be debited in a single charge.
+    
+    MCC | Category | Min Value | Max Value
+    ---
+    6211 | Financial Services | `100` (₹1) | `20000000` (₹2,00,000)
+    ---
+    6300 | Financial Services | `100` (₹1) | `20000000` (₹2,00,000)
+    ---
+    7322 | Financial Services | `100` (₹1) | `20000000` (₹2,00,000)
+    ---
+    6529 | Financial Services | `100` (₹1) | `20000000` (₹2,00,000)
+    ---
+    5960 | Services | `100` (₹1) | `20000000` (₹2,00,000)
+    
+
+  For other categories and MCCs, the minimum value is `100` (₹1) and maximum value is 9999900 (₹99,999).
+
+  `expire_at` _mandatory_
+  : `integer` The Unix timestamp that indicates when the authorisation transaction must expire. The default value is 10 years and the maximum value allowed is 30 years.
+
+  `frequency` _mandatory_
+  : `string` The frequency at which you can charge your customer. Possible values:
+    - `daily`
+    - `weekly`
+    - `fortnightly`
+    - `bimonthly`
+    - `monthly`
+    - `quarterly`
+    - `half_yearly`
+    - `yearly`
+    - `as_presented`
+
+  `recurring_value` _optional_
+  : `integer` Determines the exact date or range of dates for recurring debits. Possible values are:
+    - 1-7 for `weekly` frequency
+    - 1-31 for `fortnightly` frequency
+    - 1-31 for `bimonthly` frequency
+    - 1-31 for `monthly` frequency
+    - 1-31 for `quarterly` frequency
+    - 1-31 for `half_yearly` frequency
+    - 1-31 for `yearly` frequency and is not applicable for the `as_presented` frequency.
+    
+> **WARN**
+>
+> 
+>     **Watch Out!**
+> 
+>     If the date entered for the recurring debit is not available for a month, then the last day of the month is considered by default. For example, if the date entered is 31 and the month has only 28 days, then the date 28 is considered.
+>     
+
+  `recurring_type` _optional_
+  : `string` Determines when the recurring debit can be done. Possible values are:
+    - `on`: Recurring debit happens on the exact day of every month.
+      
+> **INFO**
+>
+> 
+>       **Handy Tips**
+>   
+>       For creating an order with `recurring_type`=`on`, set the `recurring_value` parameter to the current date.
+>       
+
+    - `before`: Recurring debit can happen any time before the specified date.
+    - `after`: Recurring debit can happen any time after the specified date.
+    
+    For example, if the `frequency` is `monthly`, `recurring_value` is `17` and `recurring_type` is `before`, recurring debit can happen between the month's 1st and 17th. Similarly, if `recurring_type` is `after`, recurring debit can only happen on or after the 17th of the month.
         
 
 ### 1.1.3. Create an Authorisation Payment
 
-@include recurring-payments/custom-int/upi
+> **INFO**
+>
+> 
+> **Handler Function vs Callback URL**
+> 
+> - **Handler Function**:
+>   
+When you use the handler function, the response object of the successful payment (`razorpay_payment_id`, `razorpay_order_id` and `razorpay_signature`) is submitted to the Checkout Form. You need to collect these and send them to your server.
+> - **Callback URL**:
+>   
+When you use a Callback URL, the response object of the successful payment (`razorpay_payment_id`, `razorpay_order_id` and `razorpay_signature`) is submitted to the Callback URL.
+> 
+
+  
+### UPI Intent
+
+     UPI Intent is supported on **mWeb (Android)** and **Mobile App (WebView)**. On **Desktop Web**, as UPI Intent is not supported, a QR code is displayed instead.
+
+     
+     Platform | Procedure
+     ---
+     **mWeb** | Customers are redirected to their preferred UPI app to complete the payment. For the complete integration guide, refer to [UPI Intent on Mobile Web](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods/upi-intent-mweb.md).
+     ---
+     **Mobile App (WebView)** | UPI Intent requires deep link handling in your Android or iOS app to launch UPI apps from the WebView. For the complete integration guide, refer to [UPI Intent in WebView — Android](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/webview/upi-intent-android.md) and [UPI Intent in WebView — iOS](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/features/webview/upi-intent-ios.md).
+     ---
+     **Desktop Web** | UPI Intent is not supported. A QR code is automatically displayed for customers to scan with their preferred UPI app. No additional code changes are required.
+     
+           
+            
+              List of Supported UPI Apps
+              
+              
+              Android | iOS
+              ---
+              - Google Pay
+- BHIM
+- PhonePe
+- PayTM
+- Amazon Pay
+| - Google Pay
+- PhonePe
+- PayTM
+
+              
+              
+
+          
+    
+  
+
+  
+### UPI Collect
+
+      
+> **WARN**
+>
+> 
+>       **Deprecation Notice**
+> 
+>       **UPI Collect is deprecated effective 28 February 2026.** This tab is applicable only for exempted businesses. If you are not covered by the exemptions, refer to the [migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/recurring-payments/custom-checkout.md) to switch to UPI Intent.
+>       
+
+      ```html: Checkout with handler functions
+      
+       
+        Pay
+      
+        const btn = document.querySelector("#btn");
+                      var razorpay = new Razorpay({
+                        key: "",
+                        image: "https://i.imgur.com/n5tjHFD.jpg"
+                      });
+                razorpay.once("ready", function(response) {
+                  console.log(response.methods);
+                })
+                var data = {
+            "amount": 300, // in currency subunits. Here 1000 = 1000 paise, which equals to ₹10
+            "currency": "INR",// Default is INR. We support more than 90 currencies.
+            "email": "gaurav.kumar@example.com",
+            "contact": "9123456780",
+            "notes": {
+              "address": "Ground Floor, SJR Cyber, Laskar Hosur Road, Bengaluru",
+            },
+            "order_id": "order_00000000000001",
+            "customer_id": "cust_00000000000001",
+            "recurring": "1",
+            "method": "upi",
+            "upi":
+              {
+                "vpa": "gauravkumar@somebank",
+                "flow": "collect"
+              }// Applicable only for exempted businesses. UPI Collect is deprecated for all others effective 28 Feb 2026.
+          };
+            btn.addEventListener("click", function(){ // has to be placed within user initiated context, such as click, in order for popup to open.
+            razorpay.createPayment(data);
+            razorpay.on("payment.success", function(resp) {
+              alert(resp.razorpay_payment_id),
+              alert(resp.razorpay_order_id),
+              alert(resp.razorpay_signature)}); // will pass payment ID, order ID and Razorpay signature to success handler.
+            razorpay.on("payment.error", function(resp){alert(resp.error.description)}); // will pass error object to error handler
+          })
+        
+      
+      ```
+
+      ```html: Custom checkout with Callback URL
+      
+       
+        Pay
+      
+        const btn = document.querySelector("#btn");
+                      var razorpay = new Razorpay({
+                        key: "",
+                        image: "https://i.imgur.com/n5tjHFD.jpg"
+                      });
+                razorpay.once("ready", function(response) {
+                  console.log(response.methods);
+                })
+                var data = {
+            "callback_url": "www.example-callback-url.com",
+            "amount": 300, // in currency subunits. Here 1000 = 1000 paise, which equals to ₹10
+            "currency": "INR",// Default is INR. We support more than 90 currencies.
+            "email": "gaurav.kumar@example.com",
+            "contact": "9123456780",
+            "notes": {
+              "address": "Ground Floor, SJR Cyber, Laskar Hosur Road, Bengaluru",
+            },
+            "order_id": "order_00000000000001",
+            "customer_id": "cust_00000000000001",
+            "recurring": "1",
+            "method": "upi",
+            "upi":
+              {
+                "vpa": "gauravkumar@somebank",
+                "flow": "collect"
+              }// Applicable only for exempted businesses. UPI Collect is deprecated for all others effective 28 Feb 2026.
+          };
+            btn.addEventListener("click", function(){ // has to be placed within user initiated context, such as click, in order for popup to open.
+            razorpay.createPayment(data);
+          })
+        
+      
+      ```
 
 #### Additional Checkout fields
 
-@include recurring-payments/auth-payment-api-additional-fields
+`customer_id` _mandatory_
+: `string` Unique identifier of the customer created in the [first step](#111-create-a-customer).
+
+`order_id` _mandatory_
+: `string` Unique identifier of the  order created in the [second step](#112-create-an-order).
 
 `recurring` _mandatory_
 : `string` Determines if the recurring payment is enabled or not. Possible values:
@@ -52,38 +522,397 @@ description: Learn how to create an authorisation transaction for upi.
 
 ## 1.2. Using a Registration Link
 
-@include recurring-payments/link-api-intro
+Registration Link is an alternate way of creating an authorisation transaction. You can create a registration link using the [API](#121-create-a-registration-link) or [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#1-create-a-registration-link).
+
+> **INFO**
+>
+> 
+> **Handy Tips**
+> 
+> - You do not have to create a customer if you choose the registration link method for creating an authorisation transaction.
+> - You can [use Webhooks to get notifications about successful payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/recurring-payments/webhooks.md#check-authorization-link-status-using-webhooks) against a registration link.
+> 
+
+When you create a registration link, an [invoice](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/invoices.md) is automatically issued to the customer. They can use this invoice to make the authorisation payment.
 
 A registration link must always have the amount (in paise) that the customer will be charged when making the authorisation payment. For UPI, the amount must be a minimum of `₹1`.
 
 ### 1.2.1. Create a Registration Link
 
-@include recurring-payments/upi/link
+Use the below endpoint to create a registration link.
+
+/subscription_registration/auth_links
+
+  
+### Sample Code
+
+     ```curl: Request
+      curl -u :
+      -X POST https://api.razorpay.com/v1/subscription_registration/auth_links
+      -H "Content-Type: application/json" \
+      -d '{
+        "customer": {
+          "name": "Gaurav Kumar",
+          "email": "gaurav.kumar@example.com",
+          "contact": "9123456780"
+        },
+        "type": "link",
+        "amount": "100",
+        "currency": "INR",
+        "description": "Registration Link for Gaurav Kumar",
+        "subscription_registration": {
+            "method": "upi",
+            "max_amount": "500",
+            "expire_at": 4102444799,
+            "frequency": "monthly"
+        },
+        "receipt": "Receipt No. 1",
+        "email_notify": true,
+        "sms_notify": true,
+        "expire_by": 4102444799,
+        "notes":{
+          "note_key 1":"Beam me up Scotty",
+          "note_key 2":"Tea. Earl Gray. Hot."
+        }
+      }'
+      ```json: Response
+      {
+        "id": "inv_FHr1ekX0r2VCVK",
+        "entity": "invoice",
+        "receipt": "Receipt No. 1",
+        "invoice_number": "Receipt No. 1",
+        "customer_id": "cust_BMB3EwbqnqZ2EI",
+        "customer_details": {
+          "id": "cust_BMB3EwbqnqZ2EI",
+          "name": "Gaurav Kumar",
+          "email": "gaurav.kumar@example.com",
+          "contact": "9123456780",
+          "gstin": null,
+          "billing_address": null,
+          "shipping_address": null,
+          "customer_name": "Gaurav Kumar",
+          "customer_email": "gaurav.kumar@example.com",
+          "customer_contact": "9123456780"
+        },
+        "order_id": "order_FHr1ehR3nmNeXo",
+        "line_items": [],
+        "payment_id": null,
+        "status": "issued",
+        "expire_by": 4102444799,
+        "issued_at": 1595489219,
+        "paid_at": null,
+        "cancelled_at": null,
+        "expired_at": null,
+        "sms_status": "pending",
+        "email_status": "pending",
+        "date": 1595489219,
+        "terms": null,
+        "partial_payment": false,
+        "gross_amount": 100,
+        "tax_amount": 0,
+        "taxable_amount": 0,
+        "amount": 100,
+        "amount_paid": 0,
+        "amount_due": 100,
+        "currency": "INR",
+        "currency_symbol": "₹",
+        "description": "Registration Link for Gaurav Kumar",
+        "notes": {
+          "note_key 1": "Beam me up Scotty",
+          "note_key 2": "Tea. Earl Gray. Hot."
+        },
+        "comment": null,
+        "short_url": "https://rzp.io/i/ak1WxDB",
+        "view_less": true,
+        "billing_start": null,
+        "billing_end": null,
+        "type": "link",
+        "group_taxes_discounts": false,
+        "created_at": 1595489219,
+        "idempotency_key": null
+      }
+     ```
+    
 
     
 ### Request Parameters
 
-         @include recurring-payments/link-req-man
+         `customer`
+: Details of the customer to whom the registration link will be sent.
 
-         @include recurring-payments/upi/link-req
+  `name` _mandatory_
+  : `string` Customer's name.
 
-         @include recurring-payments/link-req-opt
+  `email` _mandatory_
+  : `string` Customer's email address.
+
+  `contact`_mandatory_
+  : `string` Customer's phone number.
+
+`type` _mandatory_
+: `string` In this case, the value is `link`.
+
+`currency` _mandatory_
+: `string` The 3-letter ISO currency code for the payment. Currently, only `INR` is supported.
+
+`amount` _mandatory_
+: `integer` The payment amount in the smallest currency sub-unit.
+
+`description` _mandatory_
+: `string` A description that appears on the hosted page. For example, `12:30 p.m. Thali meals (Gaurav Kumar)`.
+
+         `subscription_registration`
+: Details of the authorisation transaction.
+
+  `method` _mandatory_
+  : `string` The authorization method. Here it is `card`.
+
+  `max_amount` _optional_
+  : `integer` Use to set the maximum amount (in paise) per debit request. The value can range from `500` - `9999900`. Defaults to ₹99,000.
+
+  `expire_at` _optional_
+  : `integer` The timestamp, in Unix format, till when you can use the token (authorization on the payment method) to charge the customer subsequent payments.
+
+  `frequency` _mandatory_
+  : `string` The frequency at which you can charge your customer. Must be set to `monthly`.
+
+         `sms_notify` _optional_
+: `boolean` Indicates if SMS notifications are to be sent by Razorpay. Can have the following values:
+    - `true` (default): Notifications are sent by Razorpay.
+    - `false`: Notifications are not sent by Razorpay.
+
+`email_notify` _optional_
+: `boolean` Indicates if email notifications are to be sent by Razorpay. Can have the following values:
+    - `true` (default): Notifications are sent by Razorpay.
+    - `false`: Notifications are not sent by Razorpay.
+
+`expire_by` _optional_
+: `integer` The timestamp, in Unix, till when the registration link should be available to the customer to make the authorisation transaction.
+
+`receipt` _optional_
+: `string` A unique identifier entered by you for the order. For example, `Receipt No. 1`. This parameter should be mapped to the `order_id` sent by Razorpay.
+
+`notes` _optional_
+: `object` This is a key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
         
 
 ### 1.2.2. Send/Resend Notifications
 
-@include recurring-payments/send-notification-api
+The following endpoint sends/resends notifications with the short URL to the customer:
+
+/invoices/:id/notify_by/:medium
+
+  
+### Sample Code
+
+     ```cURL: Curl
+      curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
+      -X POST https://api.razorpay.com/v1/invoices/inv_1Aa00000000001/notify_by/sms
+
+      ```java: Java
+      RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+      String invoiceId = "inv_1Aa00000000001";
+
+      String medium = "sms";
+
+      Invoice invoice = razorpay.invoices.notifyBy(invoiceId, medium);
+
+      ```php: PHP
+      $api = new Api($key_id, $secret);
+
+      $api->invoice->fetch($invoiceId)->notify($medium);
+
+      ```javascript: Node.js
+      var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+      instance.invoices.notifyBy(invoiceId, medium)
+
+      ```python: Python
+      client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+      client.invoice.notify_by(invoiceId, medium)
+
+      ```ruby: Ruby
+      require "razorpay"
+      Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+      invoiceId = "inv_JDdNb4xdf4gxQ7"
+
+      medium = "email" 
+
+      Razorpay::Invoice.notify_by(invoiceId, medium)
+
+      ```go: Go
+      import ( razorpay "github.com/razorpay/razorpay-go" )
+      client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+      body, err := client.Invoice.Notify("", "", nil, nil)
+
+      ```csharp: .NET
+      RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+      string invoiceId = "inv_Z6t7VFTb9xHeOs";
+
+      string medium = "sms";
+
+      Invoice invoice = client.Invoice.Fetch(invoiceId).NotifyBy(medium);
+      ```
+
+      ```json: Response
+      {
+        "success": true
+      }
+      ```
+    
 
     
 ### Path Parameters
 
-         @include recurring-payments/send-notification-path-api
+         `id`_mandatory_
+: `string` The unique identifier of the invoice linked to the registration link for which you want to send the notification. For example, `inv_1Aa00000000001`.
+
+`medium` _mandatory_
+: `string` Determines through which medium you want to resend the notification. Possible values:
+        - `sms`
+        - `email`
         
 
 ### 1.2.3. Cancel a Registration Link
 
-@include recurring-payments/cancel-auth-link-api
+The following endpoint cancels a registration link.
+
+/invoices/:id/cancel
+
+> **INFO**
+>
+> 
+> 
+> **Handy Tips**
+> 
+> You can only cancel registration link in the `issued` state.
+> 
+
+  
+### Sample Code
+
+     ```cURL: Curl
+      curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
+      -X POST https://api.razorpay.com/v1/invoices/inv_1Aa00000000001/cancel
+
+      ```java: Java
+      RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+      String invoiceId = "inv_1Aa00000000001";
+
+      Invoice invoice = razorpay.invoices.cancel(invoiceId);
+
+      ```php:PHP
+      $api = new Api($key_id, $secret);
+
+      $api->invoice->fetch($invoiceId)->cancel();
+      ```javascript: Node.js
+      var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+      instance.invoices.cancel(invoiceId)
+
+      ```python: Python
+      client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+      client.invoice.cancel(invoiceId)
+
+      ```ruby: Ruby
+      require "razorpay"
+      Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+      invoiceId = "inv_1Aa00000000001"
+
+      Razorpay::Invoice.cancel(invoiceId)
+
+      ```go: Go
+      import ( razorpay "github.com/razorpay/razorpay-go" )
+      client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+      body, err := client.Invoice.Cancel("", nil, nil)
+
+      ```csharp: .NET
+      RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+      string invoiceId = "inv_Z6t7VFTb9xHeOs";
+
+      Invoice invoice = client.Invoice.Fetch(invoiceId).Cancel();
+      ```
+
+      
+
+      ```json: Response
+      {
+        "id": "inv_FHrfRupD2ouKIt",
+        "entity": "invoice",
+        "receipt": "Receipt No. 1",
+        "invoice_number": "Receipt No. 1",
+        "customer_id": "cust_BMB3EwbqnqZ2EI",
+        "customer_details": {
+            "id": "cust_BMB3EwbqnqZ2EI",
+            "name": "",
+            "email": "",
+            "contact": "",
+            "gstin": null,
+            "billing_address": null,
+            "shipping_address": null,
+            "customer_name": "",
+            "customer_email": "",
+            "customer_contact": ""
+        },
+        "order_id": "order_FHrfRw4TZU5Q2L",
+        "line_items": [],
+        "payment_id": null,
+        "status": "cancelled",
+        "expire_by": 4102444799,
+        "issued_at": 1595491479,
+        "paid_at": null,
+        "cancelled_at": 1595491488,
+        "expired_at": null,
+        "sms_status": "sent",
+        "email_status": "sent",
+        "date": 1595491479,
+        "terms": null,
+        "partial_payment": false,
+        "gross_amount": 100,
+        "tax_amount": 0,
+        "taxable_amount": 0,
+        "amount": 100,
+        "amount_paid": 0,
+        "amount_due": 100,
+        "currency": "",
+        "currency_symbol": "₹",
+        "description": "Registration Link for Gaurav Kumar",
+        "notes": {
+            "note_key 1": "Beam me up Scotty",
+            "note_key 2": "Tea. Earl Gray. Hot."
+        },
+        "comment": null,
+        "short_url": "https://rzp.io/i/QlfexTj",
+        "view_less": true,
+        "billing_start": null,
+        "billing_end": null,
+        "type": "link",
+        "group_taxes_discounts": false,
+        "created_at": 1595491480,
+        "idempotency_key": null
+      }
+
+      ```
+      
+
+      
+
+      
+
+      
+    
 
 ### Path Parameter
 
-@include recurring-payments/cancel-path
+`id` _mandatory_
+: `string` The unique identifier for the invoice linked to the registration link that you want to cancel. For example, `inv_1Aa00000000001`.

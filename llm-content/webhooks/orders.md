@@ -9,7 +9,11 @@ Order creation is an important step as it helps you associate every payment with
 
 ## List of Orders Webhook Events
 
-@include orders/orders-available-events
+The table below lists the webhook events available for orders.
+
+Webhook Event | Description
+---
+`order.paid` | Triggered when an order is successfully paid.
 
 ### Comparison: order.paid vs. payment.captured
 
@@ -27,6 +31,257 @@ Given below is the sample payload for orders webhook event.
 
 ### Order Paid
 
-@include orders/orders-paid-payload
+```json: Netbanking
+{
+  "entity": "event",
+  "account_id": "acc_BFQ7uQEaa7j2z7",
+  "event": "order.paid",
+  "contains": [
+    "payment",
+    "order"
+  ],
+  "payload": {
+    "payment": {
+      "entity": {
+        "id": "pay_DESlfW9H8K9uqM",
+        "entity": "payment",
+        "amount": 100,
+        "currency": "INR",
+        "status": "captured",
+        "order_id": "order_DESlLckIVRkHWj",
+        "invoice_id": null,
+        "international": false,
+        "method": "netbanking",
+        "amount_refunded": 0,
+        "refund_status": null,
+        "captured": true,
+        "description": null,
+        "card_id": null,
+        "bank": "HDFC",
+        "wallet": null,
+        "vpa": null,
+        "email": "gaurav.kumar@example.com",
+        "contact": "+919876543210",
+        "notes": [],
+        "fee": 2,
+        "tax": 0,
+        "error_code": null,
+        "error_description": null,
+        "created_at": 1567674599
+      }
+    },
+    "order": {
+      "entity": {
+        "id": "order_DESlLckIVRkHWj",
+        "entity": "order",
+        "amount": 100,
+        "amount_paid": 100,
+        "amount_due": 0,
+        "currency": "INR",
+        "receipt": "rcptid #1",
+        "offer_id": null,
+        "status": "paid",
+        "attempts": 1,
+        "notes": [],
+        "created_at": 1567674581
+      }
+    }
+  },
+  "created_at": 1567674606
+}
+```json: Card
+{
+  "entity": "event",
+  "account_id": "acc_BFQ7uQEaa7j2z7",
+  "event": "order.paid",
+  "contains": [
+    "payment",
+    "order"
+  ],
+  "payload": {
+    "payment": {
+      "entity": {
+        "id": "pay_DESp9bgForNoUd",
+        "entity": "payment",
+        "amount": 100,
+        "currency": "INR",
+        "status": "captured",
+        "order_id": "order_DESoU0U4ikYA19",
+        "invoice_id": null,
+        "international": false,
+        "method": "card",
+        "amount_refunded": 0,
+        "refund_status": null,
+        "captured": true,
+        "description": null,
+        "card_id": "card_DESp9fNnu0RoNc",
+        "card": {
+          "id": "card_DESp9fNnu0RoNc",
+          "entity": "card",
+          "name": "Gaurav Kumar",
+          "last4": "0153",
+          "network": "Visa",
+          "type": "debit",
+          "issuer": null,
+          "international": false,
+          "emi": false
+        },
+        "bank": null,
+        "wallet": null,
+        "vpa": null,
+        "email": "gaurav.kumar@example.com",
+        "contact": "+919876543210",
+        "notes": [],
+        "fee": 2,
+        "tax": 0,
+        "error_code": null,
+        "error_description": null,
+        "created_at": 1567674797
+      }
+    },
+    "order": {
+      "entity": {
+        "id": "order_DESoU0U4ikYA19",
+        "entity": "order",
+        "amount": 100,
+        "amount_paid": 100,
+        "amount_due": 0,
+        "currency": "INR",
+        "receipt": "rcptid #1",
+        "offer_id": null,
+        "status": "paid",
+        "attempts": 1,
+        "notes": [],
+        "created_at": 1567674759
+      }
+    }
+  },
+  "created_at": 1567674804
+}
+```json: Wallets
+{
+  "entity": "event",
+  "account_id": "acc_BFQ7uQEaa7j2z7",
+  "event": "order.paid",
+  "contains": [
+    "payment",
+    "order"
+  ],
+  "payload": {
+    "payment": {
+      "entity": {
+        "id": "pay_DEStK8twGApHtW",
+        "entity": "payment",
+        "amount": 100,
+        "currency": "INR",
+        "status": "captured",
+        "order_id": "order_DESso0U9bpuzQc",
+        "invoice_id": null,
+        "international": false,
+        "method": "wallet",
+        "amount_refunded": 0,
+        "refund_status": null,
+        "captured": true,
+        "description": null,
+        "card_id": null,
+        "bank": null,
+        "wallet": "payzapp",
+        "vpa": null,
+        "email": "gaurav.kumar@example.com",
+        "contact": "+919876543210",
+        "notes": [],
+        "fee": 2,
+        "tax": 0,
+        "error_code": null,
+        "error_description": null,
+        "created_at": 1567675034
+      }
+    },
+    "order": {
+      "entity": {
+        "id": "order_DESso0U9bpuzQc",
+        "entity": "order",
+        "amount": 100,
+        "amount_paid": 100,
+        "amount_due": 0,
+        "currency": "INR",
+        "receipt": "rcptid #1",
+        "offer_id": null,
+        "status": "paid",
+        "attempts": 1,
+        "notes": [],
+        "created_at": 1567675004
+      }
+    }
+  },
+  "created_at": 1567675037
+}
+```json: UPI
+{
+  "entity": "event",
+  "account_id": "acc_BFQ7uQEaa7j2z7",
+  "event": "order.paid",
+  "contains": [
+    "payment",
+    "order"
+  ],
+  "payload": {
+    "payment": {
+      "entity": {
+        "id": "pay_DESyzxuld02Zul",
+        "entity": "payment",
+        "amount": 100,
+        "currency": "INR",
+        "status": "captured",
+        "order_id": "order_DESxiijbl9xjDB",
+        "invoice_id": null,
+        "international": false,
+        "method": "upi",
+        "amount_refunded": 0,
+        "refund_status": null,
+        "captured": true,
+        "description": null,
+        "card_id": null,
+        "bank": null,
+        "wallet": null,
+        "vpa": "gaurav.kumar@upi",
+        "email": "gaurav.kumar@example.com",
+        "contact": "+919876543210",
+        "notes": [],
+        "fee": 2,
+        "tax": 0,
+        "error_code": null,
+        "error_description": null,
+        "created_at": 1567675356
+      }
+    },
+    "order": {
+      "entity": {
+        "id": "order_DESxiijbl9xjDB",
+        "entity": "order",
+        "amount": 100,
+        "amount_paid": 100,
+        "amount_due": 0,
+        "currency": "INR",
+        "receipt": "rcptid #1",
+        "offer_id": null,
+        "status": "paid",
+        "attempts": 1,
+        "notes": [],
+        "created_at": 1567675283
+      }
+    }
+  },
+  "created_at": 1567675356
+}
+```
 
-@include webhooks/webhook-code-tips
+> **WARN**
+>
+> 
+> **Watch Out!**
+> 
+> - If you have changed your webhook secret, remember to use the old secret for webhook signature validation while retrying older requests. Using the new secret will lead to a signature mismatch.
+> 
+> - While generating a signature at your end, ensure that the webhook body is passed as an argument in the **raw webhook request body**. **Do not parse or cast the webhook request body**.
+>

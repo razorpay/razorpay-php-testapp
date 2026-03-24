@@ -43,7 +43,16 @@ In addition to the account-level schedule explained above, you can also define t
 
 ### Settlement Status
 
-@include route/api/settlement-status
+The following table lists settlement statuses and their description:
+
+Status | Description
+---
+`pending` | This status indicates that the transfer is processed and the settlement is pending. You can create the reversal if required.
+---
+`on_hold` | If you have used the `on_hold` parameter to hold settlements for the transfer and do not pass the `on_hold_until` parameter to define till when it should be `on_hold`, the transfer will be on hold indefinitely. We will mark such transfers as `on_hold.`
+---
+`settled` | When the transfer is settled to the Linked Account.
+---
 
 ### Related Information
 - [Transfer Funds to Linked Accounts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/route/transfer-funds-to-linked-accounts.md)

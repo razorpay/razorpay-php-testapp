@@ -246,7 +246,24 @@ You can accept in-app payments from your customers transacting in PhonePe Switch
 
 ## UPI
 
-@include payment-methods/upi-collect-deprecated/custom
+> **WARN**
+>
+> 
+> **UPI Collect Flow Deprecated**
+> 
+> According to NPCI guidelines, the UPI Collect flow is being deprecated effective 28 February 2026. Customers can no longer make payments or register UPI mandates by manually entering VPA/UPI id/mobile numbers.
+> 
+> **Exemptions:** UPI Collect will continue to be supported for:
+> - MCC 6012 & 6211 (IPO and secondary market transactions).
+> - iOS mobile app and mobile web transactions.
+> - UPI Mandates (execute/modify/revoke operations only)
+> - eRupi vouchers.
+> - PACB businesses (cross-border/international payments).
+> 
+> **Action Required:**
+> - If you are a new Razorpay user, use [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods.md#intent-flow). 
+> - If you are an existing Razorpay user not covered by exemptions, you must migrate to UPI Intent or UPI QR code to continue accepting UPI payments. For detailed migration steps, refer to the [migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/custom-integration.md).
+> 
 
 #### Intent Flow
 
@@ -494,7 +511,11 @@ razorpay.createPayment({
 
 You can enable your customers to make payments using the **Pay Later** service offered by various third-party providers such as:
 
-@include payment-methods/paylater/providers
+Provider | Provider Code | Availability | Minimum Transaction | Maximum Transaction
+---
+LazyPay | `lazypay` | [Requires Approval](https://razorpay.com/support/#request)  | ₹1 | ₹10,000
+---
+PayPal | `paypal` | [Requires Approval](https://razorpay.com/support/#request)  | ₹100 | Based on the customer's approved limit.
 
 Before you begin, follow the steps given below:
 
@@ -505,7 +526,9 @@ Before you begin, follow the steps given below:
 
 After creating an order and obtaining the customer's payment details, send the information to Razorpay to complete the payment. You can do this by invoking `createPayment` and passing `method=paylater` and `provider=`.
 
-@include payment-methods/paylater/provider-code
+Available providers with provider code:
+- **LazyPay**: `lazypay`
+- **PayPal**: `paypal`
 
 ```js: Example
 razorpay.createPayment({
@@ -638,4 +661,145 @@ razorpay.createPayment({
 
 ## CRED
 
-@include payment-methods/cred/web-custom
+To add CRED as a payment method, you need to:
+- Pass the `app_offer` parameter in Orders API.
+- Pass the `method` and `provider` parameters in [Create Payment Method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/build-integration.md#133-submit-payment-details).
+
+#### 1. Pass app_offer Parameter in Order
+
+You must create an order using Orders API. In the response, you obtain an `order_id` which you must pass to Checkout.
+
+ /orders 
+
+```curl: Curl
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X POST https://api.razorpay.com/v1/orders \
+-H "content-type: application/json" \
+-d '{
+  "amount": 1000,
+  "currency": "INR",
+  "receipt": "receipt#1",
+  "app_offer": true
+}'
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.order.create({
+  "amount": 1000,
+  "currency": "INR",
+  "receipt": "receipt#1",
+  "app_offer": true
+ })
+```php: PHP 
+$api = new Api($key_id, $secret);
+
+$api->order->create(array('receipt' => 'receipt#1', 'amount' => 1000, 'currency' => 'INR', 'app_offer'=> true));
+
+```csharp: .NET 
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+Dictionary options = new Dictionary();
+options.Add("amount", 1000); // amount in the smallest currency unit
+options.Add("receipt", "receipt#1");
+options.Add("currency", "INR");
+options.Add("app_offer", true);
+Order order = client.Order.Create(options);
+
+```js: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.orders.create({
+  amount: 1000,
+  currency: "INR",
+  receipt: "receipt#1",
+  app_offer: true
+})
+
+```go: go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+data := map[string]interface{}{
+  "amount": 1000,
+  "currency": "INR",
+  "receipt": "receipt#1",
+  "app_offer": true
+}
+body, err := client.Order.Create(data, nil)
+
+```ruby: Ruby 
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+order = Razorpay::Order.create amount: 1000, currency: 'INR', receipt: 'receipt#1', app_offer: true
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+JSONObject orderRequest = new JSONObject();
+orderRequest.put("amount", 1000); // amount in the smallest currency unit
+orderRequest.put("currency", "INR");
+orderRequest.put("receipt", "receipt#1");
+orderRequest.put("app_offer", true);
+
+Order order = razorpay.orders.create(orderRequest);
+
+```json: Response
+{
+  "id": "order_FNPoKwCtPyhJOt",
+  "entity": "order",
+  "amount": 1000,
+  "amount_paid": 0,
+  "amount_due": 1000,
+  "currency": "INR",
+  "receipt": null,
+  "status": "created",
+  "attempts": 0,
+  "notes": [],
+  "created_at": 1596703420
+}
+```
+
+#### Request Parameters
+
+`amount` _mandatory_
+: `integer` The transaction amount, expressed in the currency subunit, such as paise (in case of INR). For example, for an actual amount of ₹299.35, the value of this field should be `29935`.
+
+`currency` _mandatory_
+: `string` The currency in which the transaction should be made. See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Default is `INR`.
+
+`app_offer` _optional_
+: `boolean` Allow/do not allow customers to use CRED coins to make payments. This is used to prevent double discounting scenarios where customers have already availed discounts using voucher/coupon and you do not want them to redeem Coins as well. Possible values:
+    - `true`: Customer not allowed to use CRED coins to make payment.
+    - `false` (default): Customer can use CRED coins to make payment.
+
+`receipt` _optional_
+: `string` Your receipt id for this order should be passed here. Maximum length is 40 characters.
+
+`notes` _optional_
+: `object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
+
+#### 2. Pass Method and Provider Parameters During Payment Creation
+
+```js: Cred
+razorpay.createPayment({
+  amount: 12340,
+  currency: 'INR',
+  email: 'gaurav.kumar@example.com',
+  contact: '9111145678',
+  order_id: 'order_EAbtuXPh24LrEc',
+  method: 'app',
+  provider: 'cred'
+});
+```
+
+#### Request Parameters
+
+Along with the other checkout options, you must pass:
+
+`method` _mandatory_
+: `string` The method used to make the payment. Here, it must be `app`.
+
+`provider` _mandatory if method=app_
+: `string` Name of the PSP app. Here, it must be `cred`.

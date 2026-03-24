@@ -24,8 +24,77 @@ You can view the wallets enabled for your Razorpay account from the **Account & 
 
 ## Supported Wallets
 
-@include payment-methods/supported-wallets
+The table below lists the various wallets available to you. Some of them are available by default, while others require approval from us. Raise a request with our [ Support Team](https://razorpay.com/support/#request) to enable such wallets.
+
+Wallet Provider | Availability | Wallet Code
+---
+PayZapp | Requires [approval](https://razorpay.com/support) | `payzapp`
+---
+Airtel Money | ✓ | `airtelmoney`
+---
+MobiKwik | ✓ | `mobikwik`
+---
+JioMoney | ✓ | `jiomoney`
+---
+Ola Money | ✓ | `olamoney`
+---
+Bajaj Pay | Requires [approval](https://razorpay.com/support) | `bajajpay` 
+---
+PhonePe | Requires [approval](https://razorpay.com/support) | `phonepe`
+---
+[PhonePe Switch](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch.md) | **For businesses registered with PhonePe Switch only** | `phonepeswitch`
+---
+[PayPal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets/paypal.md) | **International Payments Only**.
+Requires [approval](https://razorpay.com/support) | `paypal`
+---
+[Amazon Pay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets/amazon-pay.md)| Requires [approval](https://razorpay.com/support) | `amazonpay`
+
+.
+
+Wallet Provider | Wallet Code | Availability
+---
+PayZapp | `payzapp` | Requires approval (Reach out to support team)
+---
+Airtel Money | `airtelmoney` | ✓
+---
+MobiKwik | `mobikwik` | ✓
+---
+JioMoney| `jiomoney` | ✓ 
+---
+Ola Money | `olamoney` | ✓
+---
+PhonePe | `phonepe` | Requires approval (Reach out to support team)
+---
+[PhonePe Switch](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch.md) | `phonepeswitch` | **For businesses registered with PhonePe Switch only**
+---
+[PayPal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets/paypal.md) | `paypal` | **International Payments Only**
+Requires approval (Reach out to support team)
+---
+[Amazon Pay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets/amazon-pay.md) | `amazonpay` | Requires approval (Reach out to support team)
 
 ## Related Information
 
 [Payment Methods and Transaction Limit](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/transaction-limits.md#payment-methods-and-transaction-limits)
+
+.
+
+Wallet Provider | Wallet Code | Availability
+---
+PayZapp | `payzapp` | Requires approval (Reach out to support team)
+---
+Airtel Money | `airtelmoney` | ✓
+---
+MobiKwik | `mobikwik` | ✓
+---
+JioMoney| `jiomoney` | ✓ 
+---
+Ola Money | `olamoney` | ✓
+---
+PhonePe | `phonepe` | Requires approval (Reach out to support team)
+---
+[PhonePe Switch](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/phonepe-switch.md) | `phonepeswitch` | **For businesses registered with PhonePe Switch only**
+---
+[PayPal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets/paypal.md) | `paypal` | **International Payments Only**
+Requires approval (Reach out to support team)
+---
+[Amazon Pay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets/amazon-pay.md) | `amazonpay` | Requires approval (Reach out to support team)

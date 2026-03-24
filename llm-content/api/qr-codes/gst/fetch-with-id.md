@@ -11,15 +11,96 @@ Use this endpoint to fetch the details of a QR Code.
 
 ### Request
 
-@include qr-codes/gst-api/fetch/fetch-id
+```cURL: Curl
+curl -u : \
+-X GET https://api.razorpay.com/v1/payments/qr_codes/qr_FuZIYx6rMbP6gs \
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String qrCodeId = "qr_FuZIYx6rMbP6gs";
+
+QrCode qrcode = razorpay.qrCode.fetch(qrCodeId);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+$api->qrCode->fetch($qrCodeId)
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.qrCode.fetch(qrCodeId)
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.qrcode.fetch(qrCodeId)
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+qrCodeId := "qr_FuZIYx6rMbP6gs"
+
+body, err := client.QrCode.fetch(qrCodeId)
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+qrCodeId = "qr_FuZIYx6rMbP6gs"
+
+Razorpay::QrCode.fetch(qrCodeId)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+string qrCodeId = "qr_Z6t7VFTb9xHeOs";
+
+QrCode qrcode = client.QrCode.Fetch(qrCodeId);
+```
 
 ### Response
 
-@include qr-codes/gst-api/fetch/fetch-id-response
+```json: Success
+{
+  "id": "qr_HO2r1MDprYtWRT",
+  "entity": "qr_code",
+  "created_at": 1623915088,
+  "name": "Store_1",
+  "usage": "single_use",
+  "type": "upi_qr",
+  "image_url": "https://rzp.io/i/oCswTOcCo",
+  "payment_amount": 300,
+  "status": "active",
+  "description": "For Store 1",
+  "fixed_amount": true,
+  "payments_amount_received": 0,
+  "payments_count_received": 0,
+  "notes": {
+    "purpose": "Test UPI QR Code notes"
+  },
+  "customer_id": "cust_HKsR5se84c5LTO",
+  "close_by": 1681615838,
+  "closed_at": null,
+  "close_reason": null,
+  "tax_invoice": {
+    "number": "INV001",
+    "date": 1589994898,
+    "customer_name": "Gaurav Kumar",
+    "business_gstin": "06AABCU9605R1ZR",
+    "gst_amount": 4000,
+    "cess_amount": 0,
+    "supply_type": "interstate"
+  }
+}
+```
 
 ### Parameters
 
-@include qr-codes/gst-api/path-param
+`id` _mandatory_
+: `string` The unique identifier of the QR Code.
 
 ### Parameters
 

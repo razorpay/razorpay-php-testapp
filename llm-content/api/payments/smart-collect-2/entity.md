@@ -9,7 +9,40 @@ The Smart Collect 2.0 entity has the following parameters:
 
 ### Response
 
-@include smart-collect/api/add-receivers-vpa-res-code
+```json: Success
+{
+  "id": "va_DzcFjMezDcN8vv",
+  "name": "Acme Corp",
+  "entity": "virtual_account",
+  "status": "active",
+  "description": "",
+  "amount_expected": null,
+  "notes": [],
+  "amount_paid": 0,
+  "customer_id": "cust_DzbSeP2RJD1ZHg",
+  "receivers": [
+    {
+      "id": "ba_DzcFjVqAMSCEIW",
+      "entity": "bank_account",
+      "ifsc":"RATN0VAAPIS",
+      "bank_name": "RBL Bank",
+      "name": "Acme Corp",
+      "notes": [],
+      "account_number": "2223333232194699"
+    },
+    {
+      "id": "vpa_DzcZR5ofjCUKAx",
+      "entity": "vpa",
+      "username": "rpy.payto00000gaurikumari",
+      "handle": "icici",
+      "address": "rpy.payto00000gaurikumari@icici"
+    }
+  ],
+  "close_by": null,
+  "closed_at": null,
+  "created_at": 1577969986
+}
+```
 
 ### Parameters
 

@@ -8,7 +8,13 @@ description: Perform actions on behalf of sub-merchants by switching Razorpay Da
 
 You can switch to a sub-merchant's Dashboard and perfrom certain functions. The Dashboard access will be available only after sub-merchant has given OAuth access. 
 
-@include partners/platforms/add-ons-callout
+> **INFO**
+>
+> 
+> **Feature Request**
+> 
+> This is an on-demand feature. Please raise a request with your Razorpay point-of-contact to get it activated on your Razorpay account.
+> 
 
 ## Actions Allowed
 

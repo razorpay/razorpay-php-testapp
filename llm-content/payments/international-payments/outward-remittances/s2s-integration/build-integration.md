@@ -23,7 +23,118 @@ Follow these steps to integrate with the Outward Remittance LRS Flow APIs.
 
 ## 1.1 Fetch Forex Rates
 
-@include lrs/forex-charges
+Use the following API to fetch the real-time conversion rate Razorpay will charge to facilitate the transaction. This includes additional charges within the LRS flow. 
+
+/forex_charges
+
+```curl: Curl
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X GET 'https://api.razorpay.com/v1/forex_charges?amount=1000&base_currency=USD&conversion_currency=INR
+-H "Authorization: Bearer "
+```
+
+```json: Success
+{
+  "amount": 1000,
+  "base_currency": "USD",
+  "converted_amount": 83000,
+  "conversion_currency": "INR",
+  "expiry_time": 1590604500,
+  "fee": [
+    {
+      "type": "bank",
+      "amount": "100"
+    },
+    {
+      "type": "miscellaneous",
+      "amount": "100"
+    }
+  ],
+  "taxes": [
+    {
+      "type": "tcs",
+      "amount": "1000"
+    },
+    {
+      "type": "gst",
+      "amount": "1000"
+    }
+  ]
+}
+
+```json: Failure
+{
+  "error": {
+    "code": "BAD_REQUEST_ERROR",
+    "description": "The id provided does not exist",
+    "source": "business",
+    "reason": "input_validation_failed",
+    "step": "NA",
+    "metadata": {},
+    "field": "beneficiary_id"
+  }
+}
+
+```
+
+  
+### Query Parameters
+
+`amount` _mandatory_
+: `integer`  The amount which needs to be converted in currency subunits. For example, for an amount of ₹295.00, enter 29500.
+
+`base_currency` _mandatory_
+: `string` Currency ISO code for the given amount. The default length is 3 characters. Refer to the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
+
+`conversion_currency` _mandatory_
+: `string`  ISO code for the currency to which the given amount should be converted, specified in currency subunits. If left blank, the conversion amount is provided for all supported currencies as a list. Otherwise, provides the conversion amount only for the requested currency. Refer to the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
+    
+
+  
+### Response Parameters
+
+`amount`
+: `string` The amount which needs to be converted in currency subunits.
+
+`base_currency`
+: `string` Currency ISO code for the given amount.
+
+`converted_amount`
+: `string` Converted amount in the requested currency.
+
+`conversion_currency`
+: `string` ISO code for the currency to which the given amount should be converted, specified in currency subunits.
+
+`expiry_time`
+: `integer` Unix timestamp at which the conversion rate will expire.
+
+`fee`
+: `integer` Fee charged by the bank.
+
+  `type`
+  : `string` Type of identity information collected. Possible value is `bank`.
+
+  `amount`
+  : `string` The amount which needs to be converted in currency subunits.
+
+`taxes`
+: `integer` Taxes collected for the remittance.
+
+    `type`
+  : `string` Type of identity information collected. Possible value is `tcs`.
+
+  `amount`
+  : `string` The amount which needs to be converted in currency subunits.
+    
+
+  
+### Error Response Parameters
+
+Error | Cause | Solution
+---
+`` is missing. | A mandatory field is missing. | Ensure all mandatory fields and values are present.
+
+    
 
 ## 1.2 Create an Order
 
@@ -509,11 +620,161 @@ if (generated_signature == razorpay_signature) {
 
 ### Generate Signature on your Server
 
-@include s2s-integration/json/cards/generate-signature
+    
+### Sample code
+
+```java: Java
+/**
+* This class defines common routines for generating
+* authentication signatures for Razorpay Webhook requests.
+*/
+public class Signature
+{
+    private static final String HMAC_SHA256_ALGORITHM = "HmacSHA256";
+    /**
+    * Computes RFC 2104-compliant HMAC signature.
+    * * @param data
+    * The data to be signed.
+    * @param key
+    * The signing key.
+    * @return
+    * The Base64-encoded RFC 2104-compliant HMAC signature.
+    * @throws
+    * java.security.SignatureException when signature generation fails
+    */
+    public static String calculateRFC2104HMAC(String data, String secret)
+    throws java.security.SignatureException
+    {
+        String result;
+        try {
+
+            // get an hmac_sha256 key from the raw secret bytes
+            SecretKeySpec signingKey = new SecretKeySpec(secret.getBytes(), HMAC_SHA256_ALGORITHM);
+
+            // get an hmac_sha256 Mac instance and initialize with the signing key
+            Mac mac = Mac.getInstance(HMAC_SHA256_ALGORITHM);
+            mac.init(signingKey);
+
+            // compute the hmac on input data bytes
+            byte[] rawHmac = mac.doFinal(data.getBytes());
+
+            // base64-encode the hmac
+            result = DatatypeConverter.printHexBinary(rawHmac).toLowerCase();
+
+        } catch (Exception e) {
+            throw new SignatureException("Failed to generate HMAC : " + e.getMessage());
+        }
+        return result;
+    }
+}
+
+```php: PHP
+use Razorpay\Api\Api;
+$api = new Api($key_id, $key_secret);
+$attributes  = array('razorpay_signature'  => '23233',  'razorpay_payment_id'  => '332' ,  'razorpay_order_id' => '12122');
+$order  = $api->utility->verifyPaymentSignature($attributes)
+
+```ruby: Ruby
+require 'razorpay'
+Razorpay.setup('key_id', 'key_secret')
+payment_response = {
+  'razorpay_order_id': '12122',
+  'razorpay_payment_id': '332',
+  'razorpay_signature': '23233'
+}
+
+Razorpay::Utility.verify_payment_signature(payment_response)
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.utility.verify_payment_signature({
+   'razorpay_order_id': razorpay_order_id,
+   'razorpay_payment_id': razorpay_payment_id,
+   'razorpay_signature': razorpay_signature
+   })
+
+```c: .NET
+ Dictionary attributes = new Dictionary();
+
+            attributes.Add("razorpay_payment_id", paymentId);
+            attributes.Add("razorpay_order_id", Request.Form["razorpay_order_id"]);
+            attributes.Add("razorpay_signature", Request.Form["razorpay_signature"]);
+
+            Utils.verifyPaymentSignature(attributes);
+```nodejs: Node.js
+var { validatePaymentVerification } = require('./dist/utils/razorpay-utils');
+
+validatePaymentVerification({"order_id": razorpayOrderId, "payment_id": razorpayPaymentId }, signature, secret);
+```Go: Go
+import (
+	"crypto/hmac"
+	"crypto/sha256"
+	"crypto/subtle"
+	"encoding/hex"
+	"fmt"
+)
+
+func main()  {
+	signature := "477d1cdb3f8122a7b0963704b9bcbf294f65a03841a5f1d7a4f3ed8cd1810f9b"
+	secret := "qp3zKxwLZxbMORJgEVWi3Gou"
+	data := "order_J2AeF1ZpvfqRGH|pay_J2AfAxNHgqqBiI"
+	//fmt.Printf("Secret: %s Data: %s\n", secret, data)
+	
+	// Create a new HMAC by defining the hash type and the key (as byte array)
+	h := hmac.New(sha256.New, []byte(secret))
+	
+	// Write Data to it
+	_, err := h.Write([]byte(data))
+	
+	if err != nil {
+		panic(err)
+	}
+	
+	// Get result and encode as hexadecimal string
+	sha := hex.EncodeToString(h.Sum(nil))
+	
+	fmt.Printf("Result: %s\n", sha)
+	
+	if subtle.ConstantTimeCompare([]byte(sha), []byte(signature)) == 1 {
+		fmt.Println("Works")
+	}
+}
+```
+        
 
 ## 1.7 Verify Payment Status
 
-@include integration-steps/verify-payment-status
+> **INFO**
+>
+> 
+> **Handy Tips**
+> 
+> On the Razorpay Dashboard, ensure that the payment status is `captured`. Refer to the payment capture settings page to know how to [capture payments automatically](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md).
+> 
+
+    
+### You can track the payment status in three ways:
+
+    
+        To verify the payment status from the Razorpay Dashboard:
+
+        1. Log in to the Razorpay Dashboard and navigate to **Transactions** → **Payments**.
+        2. Check if a **Payment Id** has been generated and note the status. In case of a successful payment, the status is marked as **Captured**.
+        ![](/docs/assets/images/testpayment.jpg)
+    
+    
+        You can use Razorpay webhooks to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL. Know how to [set up webhooks.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)
+
+        #### Example
+        If you have subscribed to the `order.paid` webhook event, you will receive a notification every time a customer pays you for an order.
+    
+    
+        [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/fetch-all-payments.md) to check the payment status.
+    
+
+        
 
 ## Next Steps
 

@@ -11,19 +11,161 @@ Use this endpoint to fetch the payments made on a QR Code using this endpoint.
 
 ### Request
 
-@include qr-codes/gst-api/fetch/payments
+```cURL: Curl
+curl -u : \
+-X GET https://api.razorpay.com/v1/payments/qr_codes/qr_FuZIYx6rMbP6gs/payments \
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String qrCodeId = "qr_FuZIYx6rMbP6gs";
+
+JSONObject params = new JSONObject();
+params.put("count","1");
+            
+List qrcode = razorpay.qrCode.fetchAllPayments(qrCodeId, params);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->qrCode->fetch($qrCodeId)->fetchAllPayments($options)
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.qrCode.fetchAllPayments(qrCodeId, options)
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.qrcode.fetch_all_payments(qrCodeId, options)
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+QrCodeID = "qr_FuZIYx6rMbP6gs"
+
+body, err := client.QrCode.FetchPayments(QrCodeID, nil, nil)
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+para_attr = {
+  "count" : 1  
+}
+Razorpay::QrCode.fetch(qrCodeId).fetch_payments(para_attr)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+string qrCodeId = "qr_Z6t7VFTb9xHeOs";
+
+Dictionary paramRequest = new Dictionary();
+paramRequest.Add("count","1");
+            
+List qrcode = client.QrCode.FetchAllPayments(qrCodeId, paramRequest);
+```
 
 ### Response
 
-@include qr-codes/gst-api/fetch/payments-res
+```json: Success
+{
+  "entity": "collection",
+  "count": 2,
+  "items": [
+    {
+      "id": "pay_HMtDKn3TnF4D8x",
+      "entity": "payment",
+      "amount": 500,
+      "currency": "INR",
+      "status": "captured",
+      "order_id": null,
+      "invoice_id": null,
+      "international": false,
+      "method": "upi",
+      "amount_refunded": 0,
+      "refund_status": null,
+      "captured": true,
+      "description": "QRv2 Payment",
+      "card_id": null,
+      "bank": null,
+      "wallet": null,
+      "vpa": "gauri.kumari@okhdfcbank",
+      "email": "gauri.kumari@example.com",
+      "contact": "+919000090000",
+      "customer_id": "cust_HKsR5se84c5LTO",
+      "notes": [],
+      "fee": 0,
+      "tax": 0,
+      "error_code": null,
+      "error_description": null,
+      "error_source": null,
+      "error_step": null,
+      "error_reason": null,
+      "acquirer_data": {
+        "rrn": "116514257019"
+      },
+      "created_at": 1623662800
+    },
+    {
+      "id": "pay_HMsr242ZnaLumA",
+      "entity": "payment",
+      "amount": 1000,
+      "currency": "INR",
+      "status": "refunded",
+      "order_id": null,
+      "invoice_id": null,
+      "international": false,
+      "method": "upi",
+      "amount_refunded": 1000,
+      "refund_status": "full",
+      "captured": true,
+      "description": "QRv2 Payment",
+      "card_id": null,
+      "bank": null,
+      "wallet": null,
+      "vpa": "gauri.kumari@okhdfcbank",
+      "email": "gauri.kumari@example.com",
+      "contact": "+919000090000",
+      "customer_id": "cust_HKsR5se84c5LTO",
+      "notes": [],
+      "fee": 0,
+      "tax": 0,
+      "error_code": null,
+      "error_description": null,
+      "error_source": null,
+      "error_step": null,
+      "error_reason": null,
+      "acquirer_data": {
+        "rrn": "116514090501"
+      },
+      "created_at": 1623661533
+    }
+  ]
+}
+```
 
 ### Parameters
 
-@include qr-codes/gst-api/path-param
+`id` _mandatory_
+: `string` The unique identifier of the QR Code.
 
 ### Parameters
 
-@include qr-codes/gst-api/fetch/payments-query-param
+`from`
+: `integer` Timestamp, in seconds, from when payments are to be fetched.
+
+`to`
+: `integer` Timestamp, in seconds, till when payments are to be fetched.
+
+`count`
+: `integer` Number of payments to be fetched. The default value is `10` and the maximum value is `100`. This can be used for pagination, in combination with `skip`. 
+
+`skip`
+: `integer` Number of records to be skipped while fetching the payments. This can be used for pagination, in combination with `count`.
 
 ### Parameters
 

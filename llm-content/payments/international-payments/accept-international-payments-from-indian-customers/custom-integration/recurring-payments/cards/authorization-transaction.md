@@ -9,23 +9,193 @@ Given below are the steps to create an authorisation transaction using the Razor
 
 ## 1.1 Create a Customer 
 
-@include recurring-payments/customer/api
+Razorpay links recurring tokens to customers using a unique identifier generated through the Customer API.
+
+You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/customers.md) with basic information such as `email` and `contact` and use them for various Razorpay offerings. The following endpoint creates a customer.
+
+/customers
+
+  
+### Sample Code
+
+     
+      ```cURL: Curl
+      curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+      -X POST https://api.razorpay.com/v1/customers \
+      -H "Content-Type: application/json" \
+      -d '{
+        "name": "",
+        "email": "",
+        "contact": "",
+        "fail_existing": "0",
+        "notes":{
+          "note_key_1": "September",
+          "note_key_2": "Make it so."
+        }
+      }'
+
+      ```java: Java
+      RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+      JSONObject customerRequest = new JSONObject();
+      customerRequest.put("name","");
+      customerRequest.put("contact","");
+      customerRequest.put("email","");
+      customerRequest.put("fail_existing", "0");
+      JSONObject notes = new JSONObject();
+      notes.put("notes_key_1","Tea, Earl Grey, Hot");
+      notes.put("notes_key_2","Tea, Earl Grey… decaf.");
+      customerRequest.put("notes",notes);
+
+      Customer customer = razorpay.customers.create(customerRequest);
+
+      ```python: Python
+      import razorpay
+      client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+      client.customer.create({
+          'name': '',
+          'email': '',
+          'contact': '',
+          'fail_existing': "0",
+          'notes': {'note_key_1': 'September', 'note_key_2': 'Make it so.'}
+          })
+
+      ```go: Go
+      import ( razorpay "github.com/razorpay/razorpay-go" )
+      client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+      data := map[string]interface{}{
+          "name": "",
+          "contact": ,
+          "email": "",
+          "fail_existing": "0",
+          "notes": map[string]interface{}{
+              "notes_key_1": "Tea, Earl Grey, Hot",
+              "notes_key_2": "Tea, Earl Grey… decaf.",
+          },
+      }
+      body, err := client.Customer.Create(data, nil)
+
+      ```php: PHP
+      $api = new Api($key_id, $secret);
+
+      $api->customer->create(array('name' => '', 'email' => '','contact'=>'','fail_existing' => "0", 'notes'=> array('notes_key_1'=> 'Tea, Earl Grey, Hot','notes_key_2'=> 'Tea, Earl Grey… decaf'));
+      ```csharp: .NET
+      RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+      Dictionary options = new Dictionary();
+
+      options.Add("name", ""); 
+      options.Add("contact", ""); 
+      options.Add("email", ""); 
+      options.Add("fail_existing", "0"); 
+
+      Customer customer = Customer.Create(options);
+
+      ```ruby: Ruby
+      require "razorpay"
+      Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+      para_attr = {
+        "name": "",
+        "contact": "",
+        "email": "",
+        "fail_existing": "0",
+        "notes": {
+          "notes_key_1": "Tea, Earl Grey, Hot",
+          "notes_key_2": "Tea, Earl Grey… decaf."
+        }
+      }
+
+      Razorpay::Customer.create(para_attr)
+
+      ```javascript: Node.js
+      var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+      instance.customers.create({
+        name: "",
+        contact: "",
+        email: "",
+        fail_existing: "0",
+        notes: {
+          notes_key_1: "Tea, Earl Grey, Hot",
+          notes_key_2: "Tea, Earl Grey… decaf."
+        }
+      })
+      ```
+
+      ```json: Response
+      {
+        "id":"cust_1Aa00000000001",
+        "entity":"customer",
+        "name":"",
+        "email":"",
+        "contact":"",
+        "gstin":null,
+        "notes":{
+            "note_key_1":"September",
+            "note_key_2":"Make it so."
+        },
+        "created_at ":1234567890
+      }
+      ```
+      
+    
 
     
 ### Request Parameters
 
-         @include recurring-payments/customer/api-req
+         `name`
+: `string` The name of the customer. For example, `Gaurav Kumar`.
+
+`email`
+: `string` The email address of the customer. For example, `gaurav.kumar@example.com`.
+
+`contact`
+: `string` The phone number of the customer. For example, `9876543210`.
+
+`fail_existing` _optional_
+: `string` The request throws an exception by default if a customer with the exact details already exists. You can pass an additional parameter `fail_existing` to get the existing customer's details in the response. Possible values:
+     - `1` (default): If a customer with the same details already exists, throws an error.
+     - `0`: If a customer with the same details already exists, fetches details of the existing customer.
+
+`notes` _optional_
+: `object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
         
 
     
 ### Response Parameters
 
-         @include recurring-payments/customer/api-res 
+         `id`
+: `string` The unique identifier of the customer. For example `cust_1Aa00000000001`.
+
+`entity`
+: `string` The name of the entity. Here, it is `customer`.
+
+`name`
+: `string` The name of the customer. For example, `Gaurav Kumar`.
+
+`email`
+: `string` The email address of the customer. For example, `gaurav.kumar@example.com`.
+
+`contact`
+: `string` The phone number of the customer. For example, `9876543210`.
+
+`notes`
+: `object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
+
+`created_at`
+: `integer` A Unix timestamp, at which the customer was created.
+
+You can create an order once you create a customer for the payment authorisation. 
         
 
 ## 1.2 Create an Order 
 
-@include recurring-payments/auth-order-api-intro
+Use the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md) to create a unique Razorpay `order_id` that is associated with the authorisation transaction. The following endpoint creates an order.
+
+/orders
 
 ```cURL: Request
 curl -u : \

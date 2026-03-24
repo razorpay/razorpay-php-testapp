@@ -34,7 +34,15 @@ Follow these steps to configure automated payment receipts:
 
 ### Resend and Download Payment Receipt
 
-@include payment-button/download
+Watch this video to see how to resend and download a payment receipt.
+
+[Video: https://www.youtube.com/embed/me-gVlb09cQ]
+
+To resend and download a payment receipt:
+1. Navigate to the button's **Transactions Details** page. All the payments made using the Payment Button are listed here.
+2. Click on the Payment ID to view the payment details.
+3. In the **Payment Receipt** field, click the **Send** button. This will resend the receipt to the customer.
+4. You can download the payment receipt using the **Download** button.
 
 ## Manual Receipt
 

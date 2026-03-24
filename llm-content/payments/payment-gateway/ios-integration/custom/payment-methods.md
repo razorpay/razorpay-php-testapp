@@ -251,7 +251,24 @@ Customers enter their `vpa` or [phone number](#upi-payments-using-phone-number) 
 
 You can now pass the `vpa` parameter in the `upi` array as shown below.
 
-@include payment-methods/upi-collect-deprecated/custom
+> **WARN**
+>
+> 
+> **UPI Collect Flow Deprecated**
+> 
+> According to NPCI guidelines, the UPI Collect flow is being deprecated effective 28 February 2026. Customers can no longer make payments or register UPI mandates by manually entering VPA/UPI id/mobile numbers.
+> 
+> **Exemptions:** UPI Collect will continue to be supported for:
+> - MCC 6012 & 6211 (IPO and secondary market transactions).
+> - iOS mobile app and mobile web transactions.
+> - UPI Mandates (execute/modify/revoke operations only)
+> - eRupi vouchers.
+> - PACB businesses (cross-border/international payments).
+> 
+> **Action Required:**
+> - If you are a new Razorpay user, use [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods.md#intent-flow). 
+> - If you are an existing Razorpay user not covered by exemptions, you must migrate to UPI Intent or UPI QR code to continue accepting UPI payments. For detailed migration steps, refer to the [migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/custom-integration.md).
+> 
 
 #### Sample Code
 
@@ -472,6 +489,383 @@ Know more about the [Customer Onboarding](https://raw.githubusercontent.com/razo
 
 ## CRED
 
-@include payment-methods/upi-collect-deprecated/custom
+> **WARN**
+>
+> 
+> **UPI Collect Flow Deprecated**
+> 
+> According to NPCI guidelines, the UPI Collect flow is being deprecated effective 28 February 2026. Customers can no longer make payments or register UPI mandates by manually entering VPA/UPI id/mobile numbers.
+> 
+> **Exemptions:** UPI Collect will continue to be supported for:
+> - MCC 6012 & 6211 (IPO and secondary market transactions).
+> - iOS mobile app and mobile web transactions.
+> - UPI Mandates (execute/modify/revoke operations only)
+> - eRupi vouchers.
+> - PACB businesses (cross-border/international payments).
+> 
+> **Action Required:**
+> - If you are a new Razorpay user, use [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/web-integration/custom/payment-methods.md#intent-flow). 
+> - If you are an existing Razorpay user not covered by exemptions, you must migrate to UPI Intent or UPI QR code to continue accepting UPI payments. For detailed migration steps, refer to the [migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/custom-integration.md).
+> 
 
-@include payment-methods/cred/ios-custom
+Customers can make payments on your iOS app using their CRED Coins as well as the credit cards saved on CRED. The SDK supports two flows:
+
+1. [Collect](#collect-flow-1)
+2. [Intent](#intent-flow-1)
+
+> **IMP**
+>
+> 
+> 
+> **Handy Tips**
+> 
+> Ensure you have integrated with Razorpay iOS SDK version 1.3.5 or higher.
+> 
+> 
+
+#### Prerequisites
+
+For both collect and intent flow, you need to pass the `app_offer` parameter in the Orders API.
+
+ /orders 
+
+```curl: Curl
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X POST https://api.razorpay.com/v1/orders \
+-H "content-type: application/json" \
+-d '{
+  "amount": 1000,
+  "currency": "INR",
+  "receipt": "receipt#1",
+  "app_offer": true
+}'
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.order.create({
+  "amount": 1000,
+  "currency": "INR",
+  "receipt": "receipt#1",
+  "app_offer": true
+ })
+```php: PHP 
+$api = new Api($key_id, $secret);
+
+$api->order->create(array('receipt' => 'receipt#1', 'amount' => 1000, 'currency' => 'INR', 'app_offer'=> true));
+
+```csharp: .NET 
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+Dictionary options = new Dictionary();
+options.Add("amount", 1000); // amount in the smallest currency unit
+options.Add("receipt", "receipt#1");
+options.Add("currency", "INR");
+options.Add("app_offer", true);
+Order order = client.Order.Create(options);
+
+```js: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.orders.create({
+  amount: 1000,
+  currency: "INR",
+  receipt: "receipt#1",
+  app_offer: true
+})
+
+```go: go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+data := map[string]interface{}{
+  "amount": 1000,
+  "currency": "INR",
+  "receipt": "receipt#1",
+  "app_offer": true
+}
+body, err := client.Order.Create(data, nil)
+
+```ruby: Ruby 
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+order = Razorpay::Order.create amount: 1000, currency: 'INR', receipt: 'receipt#1', app_offer: 1
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+JSONObject orderRequest = new JSONObject();
+orderRequest.put("amount", 1000); // amount in the smallest currency unit
+orderRequest.put("currency", "INR");
+orderRequest.put("receipt", "receipt#1");
+orderRequest.put("app_offer", true);
+
+Order order = razorpay.orders.create(orderRequest);
+
+```json: Response
+{
+  "id": "order_FNPoKwCtPyhJOt",
+  "entity": "order",
+  "amount": 1000,
+  "amount_paid": 0,
+  "amount_due": 1000,
+  "currency": "INR",
+  "receipt": null,
+  "status": "created",
+  "attempts": 0,
+  "notes": [],
+  "created_at": 1596703420
+}
+```
+
+#### Request Parameters
+
+`amount` _mandatory_
+: `integer` The transaction amount, expressed in the currency subunit, such as paise (in case of INR). For example, for an actual amount of ₹299.35, the value of this field should be `29935`.
+
+`currency`  _mandatory_
+: `string` The currency in which the transaction should be made. See the [list of supported currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies). Default is `INR`.
+
+`app_offer` _optional_
+: `boolean` Allow/do not allow customers to use CRED coins to make payments. This is used to prevent double discounting scenarios where customers have already availed discounts using voucher/coupon, and you do not want them to redeem Coins as well. Possible values:
+    - `true`: Customer not allowed to use CRED coins to make payment.
+    - `false` (default): Customer can use CRED coins to make payment.
+
+`receipt` _optional_
+: `string` Your receipt id for this order should be passed here. Maximum length is 40 characters.
+
+`notes` _optional_
+: `object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
+
+#### Collect Flow
+
+In the Collect Flow, the SDK sends a push notification to the `contact` number passed in the create request. To initiate collect flow, send `app_present` the parameter as `0` while creating the payment.
+
+```swift: ViewController.swift
+let options: [String: Any] = [
+  "amount": 100,
+  "currency": "INR",
+  "contact": "9000090000",
+  "order_id": "order_FNPoKwCtPyhJOt",
+  "email": "gaurav.kumar@example.com",
+  "method": "app",
+  "provider": "cred",
+  "app_present": 0
+]
+razorpay?.authorize(options)
+```objectivec: ViewController.m
+NSDictionary *options = @{
+  "amount": @"100", // amount in currency subunits. Defaults to INR. 100 = 100 paise = INR 1.
+  "currency": @"INR",
+  "email": @"gaurav.kumar@example.com",
+  "contact": @"9000090000",
+  "order_id": @"order_4xbQrmEoA5WJ0G",
+  "method": @"app",
+  "provider": @"cred",
+  "app_present": @NO,
+};
+[_razorpay payWithCred: options];
+```
+
+#### Request Parameters
+
+Along with the other payment creation request parameters, you must pass:
+
+`method` _mandatory_
+: `string` The method used to make the payment. Here, it must be `app`.
+
+`provider` _mandatory if method=app_
+: `string` Name of the PSP app. Here, it must be `cred`.
+
+`app_present` _mandatory if app=cred_
+: `integer` Sets the payment flow as collect. Possible values:
+    - `1`: Opens the CRED app on the customer's device.
+    - `0` (default): Sends a push notification to the customer's device.
+
+#### Intent Flow
+
+In Intent Flow, the SDK invokes an intent, which is handled by the Cred app installed on the iOS device. Follow these steps:
+
+#### Step 1: Update the info.plist File
+
+You must make the following changes to your iOS app's info.plist file:
+
+```xml: info.plist
+LSApplicationQueriesSchemes
+
+    credpay
+
+```
+
+#### Step 2: Detect CRED App in Customer's Mobile
+
+- Check if the CRED app is present on the customer's mobile using the `isCredAppAvailable()` method. 
+
+    ```swift: ViewController.swift
+    /// This checks if the app is available on the device or not.
+    private func isCredAppAvailable() -> Int {
+        let credURIScheme = "credpay://" // This will open the CRED URL.
+        if let urlString = credURIScheme.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed) {
+            if let credURL = URL(string: urlString) {
+                if UIApplication.shared.canOpenURL(credURL) {
+                    return 1
+                }
+            }
+        }
+        return 0
+    }
+    ```objectivec: ViewController.m
+    - (int)isCredAppAvailable {
+        NSString *credURIScheme = [NSString stringWithFormat:@"credpay://"];
+        NSString *urlString = [credURIScheme stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLHostAllowedCharacterSet]];
+        NSURL *url = [NSURL URLWithString:urlString];
+        if ([[UIApplication sharedApplication] canOpenURL:url]) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+    ```
+
+- CRED app listens to the URI Schema.
+
+    ```xml:
+    credpay://
+    ```
+
+    This can be passed in the `uriSchema` parameter in the above function. `isCredAppAvailable()` returns a boolean value informing whether the app is present on the device or not.
+
+    ```swift: ViewController.swift
+    if (isCredAppAvailable()) {
+        payWithCredBtn.setText("CRED Pay (Intent Flow)");
+    } else {
+        payWithCredBtn.setText("CRED Pay (Collect Flow)");
+    }
+    ```objectivec: ViewController.m
+    if ([self isCredAppAvailable]) {
+        [_payButton setTitle:@"Pay With Cred (Intent Flow)" forState:UIControlStateNormal];
+    } else {
+        [_payButton setTitle:@"Pay With Cred (Collect Flow)" forState:UIControlStateNormal];
+    }
+    ```
+
+- If the CRED app is installed, pass the `callback_url` parameter in the payload:
+
+    ```swift: ViewController.swift
+    options["callback_url"] = "://"
+    ```objectivec: ViewController.m
+    [dict setObject:@"://" forKey:@"callback_url"];
+    ```
+
+> **INFO**
+>
+> 
+> 
+> **Handy Tips**
+> 
+> The redirect happens from the CRED app based on the URL scheme passed in the payload. If not passed, the app will not redirect.
+> 
+> 
+
+#### Listen to CRED Callback
+
+Listen to CRED callback in the `AppDelegate` class by implementing the `open url`  method. Handle the success response.
+
+```swift: ViewController.swift
+func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+    DispatchQueue.main.asyncAfter(deadline: .now() + 4.0) {
+        /** Post the notification to CustomWebVC **/
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "CREDPAYURIEVENT"), object: nil, userInfo: ["response":url.absoluteString])
+    }
+    return false
+}
+```objectivec: ViewController.m
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary *)options {
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"CREDPAYURIEVENT" object:NULL userInfo:@{@"response": [url absoluteString]}];
+    return NO;
+}
+```
+
+#### Register for Notification
+
+Register for notification in CustomWebVC using the code sample given below:
+
+```swift: ViewController.swift
+NotificationCenter.default.addObserver(self, selector: #selector(self.statusCredData(_:)), name:NSNotification.Name(rawValue: "CREDPAYURIEVENT"), object: nil);
+```objectivec: ViewController.m
+[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(statusCredData:) name:@"CREDPAYURIEVENT" object:NULL];
+```
+
+Use the code given below to handle payment data:
+
+```swift: ViewController.swift
+@objc func statusCredData(_ notification: NSNotification) {
+    if let dict = notification.userInfo {
+        if let uriScheme = dict["response"] as? String {
+            DispatchQueue.main.async {
+                self.razorpay?.publishUri(with: uriScheme)
+            }
+        }
+    }
+}
+```objectivec: ViewController.m
+- (void)statusCredData:(NSNotification *) notification {
+    NSDictionary *dict = [notification userInfo];
+    NSString *uriScheme = dict[@"response"];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [razorpay publishUri:uriScheme];
+    });
+}
+```
+
+#### Initiate Intent Flow
+
+To initiate intent flow, send the `app_present` parameter as `1` while creating the payment.
+
+```swift: ViewController.swift
+let options: [String:Any] = [
+  "amount": 100,
+  "currency": "INR",
+  "contact": "9000090000",
+  "order_id": "order_FNPoKwCtPyhJOt",
+  "email": "gaurav.kumar@example.com",
+  "method": "app",
+  "provider": "cred",
+  "app_present": 1,
+  "callback_url": "://"
+]
+razorpay.payWithCred(options)
+```objectivec: ViewController.m
+NSDictionary *options = @{
+    @"amount": @"100", // amount in currency subunits. Defaults to INR. 100 = 100 paise = INR 1.
+    @"currency": @"INR",
+    @"email": @"gaurav.kumar@example.com",
+    @"contact": @"9000090000",
+    @"order_id": @"order_4xbQrmEoA5WJ0G",
+    @"method": @"app",
+    @"provider": @"cred",
+    @"app_present": @YES,
+    @"callback_url": @"://"
+};
+
+[_razorpay payWithCred: options];
+```
+
+#### Request Parameters
+
+Along with the other payment creation request parameters, you must pass:
+
+`method`  _mandatory_
+: `string` The method used to make the payment. Here, it must be `app`.
+
+`provider` _mandatory if method=app_
+: `string` Name of the PSP app. Here, it must be `cred`.
+
+`app_present` _mandatory if app=cred_
+: `integer` Based upon response from the app present function, pass the value in this field. Possible values:
+    - `1`: Opens the CRED app on customer's device.
+    - `0` (default): Sends a push notification to the customer's device.
+
+`callback_url` _mandatory_
+: `string` The URI scheme, using which the CRED app will be opened on the customer's mobile device.

@@ -5,7 +5,12 @@ description: Provide additional support to your customer in case of payment diff
 
 # Handle Payment Exceptions with Rainy Day Kit
 
-@include rainy-day/intro
+While Razorpay strives to provide a positive payment experience to every customer, they might face payment exceptions such as:
+- Late Authorization
+- Payment Downtime
+- Payment Errors
+
+To overcome such exceptions and provide a smooth payment experience to your customers, use the Rainy Day Kit.
 
 Exception | Solution | What it does
 ---

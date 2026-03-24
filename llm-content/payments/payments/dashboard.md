@@ -68,7 +68,31 @@ To subscribe to webhook events:
 1. Log in to the Dashboard.
 2.  Navigate to **Accounts & Settings** → **Webhooks** to subscribe to events available for payments.
 
-@include payments/payments-available-events
+The table below lists the webhook events available for payments.
+
+Webhook Event | Description
+---
+`payment.authorized` | Triggered when a payment is authorised.
+---
+`payment.captured` | Triggered when a payment is successfully captured.
+---
+`payment.failed` | Triggered when a payment fails.
+
+> **INFO**
+>
+> 
+> **Handy Tips**
+> 
+> - The payload for a Webhook is a snapshot of the entity when the event occurred.
+> For example, when a customer makes a payment, its status changes to `authorized`. It can then immediately move to the `captured` state.
+
+> - The payment can be in the `captured` state when the `payment.authorized` Webhook is fired. However, the payload for the `payment.authorized` event contains details of the events when the payment was authorised, not when it was captured.
+
+> - In case of network tokenised cards, the last 4 digits will be of the tokenised card and not the actual card.
+- The field `flow` is present only in the case of Turbo UPI Payments.
+
+> 
+> 
 
 Know more about [webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) and check the [sample payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/payments.md).
 

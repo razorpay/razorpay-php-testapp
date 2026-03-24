@@ -5,7 +5,9 @@ description: Retrieve tokens using Razorpay APIs to create subsequent payments.
 
 # 2. Fetch and Manage Tokens
 
-@include recurring-payments/fetch-token-api
+Once you capture a payment, Razorpay Checkout returns a `razorpay_payment_id`. You can use this id to fetch the `token_id`, which is used to create and charge subsequent payments.
+
+You can retrieve the `token_id` using the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/create.md#3-search-for-the-token) or the APIs given below.
 
 ## 2.1. Fetch Token by Payment ID
 
@@ -159,17 +161,110 @@ Payment payment = client.Payment.Fetch(paymentid);
   
 ### Path Parameters
 
-     @include recurring-payments/fetch-token-pay-path-api
+     `id` _mandatory_
+: `string` The unique identifier of the payment to be retrieved. For example, `pay_1Aa00000000002`.
     
 
 ## 2.2. Fetch Tokens by Customer ID
 
-@include recurring-payments/upi/token-by-customer
+A customer can have multiple tokens and these tokens can be used to create subsequent payments for multiple products or services. The following endpoint retrieves tokens linked to a customer.
+
+> **WARN**
+>
+> 
+> **Watch Out!**
+> 
+> - This endpoint will not fetch the details of expired and unused tokens.
+> - The UPI tokens are not populated in the API response if the `save_vpa` feature is not enabled in your account. Please raise a request with our Support team to get this activated.
+> 
+
+/customers/:id/tokens
+
+```curl: Curl
+curl -u : \
+-X GET https://api.razorpay.com/v1/customers/cust_1Aa00000000002/tokens
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String customerId = "cust_1Aa00000000002";
+
+List tokens = razorpay.customers.fetchTokens(customerId);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->customer->fetch($customerId)->tokens()->all();
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.customers.fetchTokens(customerId)
+
+```python: Python
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.token.all(customerId)
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+customerId = "cust_1Aa00000000004"
+
+Razorpay::Customer.fetch(customerId).fetchTokens
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+body, err := client.Token.All("", nil, nil)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+string customerId = "cust_1Aa00000000001";
+
+List token = client.Customer.Fetch(customerId).Tokens();
+```
+
+```json: Response
+{
+  "entity": "collection",
+  "count": 1,
+  "items": [
+    {
+      "id": "token_FHfAzGzREc1ug6",
+      "entity": "token",
+      "token": "9KHsdPaCELeQ0t",
+      "bank": null,
+      "wallet": null,
+      "method": "upi",
+      "vpa": {
+        "username": "gaurav.kumar",
+        "handle": "upi",
+        "name": null
+      },
+      "recurring": true,
+      "recurring_details": {
+        "status": "confirmed",
+        "failure_reason": null
+      },
+      "auth_type": null,
+      "mrn": null,
+      "used_at": 1595447490,
+      "created_at": 1595447490,
+      "start_time": 1595447455,
+      "dcc_enabled": false
+    }
+  ]
+}
+```
 
   
 ### Path Parameters
 
-     @include recurring-payments/fetch-token-cust-path-api
+     `id` _mandatory_
+: `string` The unique identifier of the customer for whom tokens are to be retrieved. For example, `cust_1Aa00000000002`.
     
 
 ## 2.3. Delete Tokens
@@ -182,12 +277,95 @@ Payment payment = client.Payment.Fetch(paymentid);
 > Deleting a token removes it from Razorpay's database. The deleted token will not appear on the Dashboard or when all tokens are fetched. However, it does not cancel the mandate. If you wish to cancel the mandate from NPCI, use the [Cancel Token API](#24-cancel-token).
 > 
 
-@include recurring-payments/fetch-token-delete-api
+The following endpoint deletes a token.
+
+/customers/:customer_id/tokens/:token_id
+
+```curl: Curl
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X DELETE https://api.razorpay.com/v1/customers/cust_1Aa00000000002/tokens/token_1Aa00000000001
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String customerId = "cust_1Aa00000000002";
+
+String tokenId = "token_1Aa00000000001";
+
+Customer customer = razorpay.customers.deleteToken(customerId, tokenId);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->customer->fetch($customerId)->tokens()->delete($tokenId);
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.customers.deleteToken(customerId, tokenId)
+
+```python: Python
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.token.delete(customerId, tokenId)
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+customerId = "cust_1Aa00000000004"
+
+tokenId = "token_Hxe0skTXLeg9pF"
+
+Razorpay::Customer.fetch(customerId).deleteToken(tokenId)
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+body, err := client.Token.Delete("", "", nil, nil)
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+customerId = "cust_1Aa00000000004"
+
+tokenId = "token_Hxe0skTXLeg9pF"
+
+Razorpay::fetch(customerId).deleteToken(tokenId)
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String customerId = "cust_DtHaBuooGHTuyZ";
+
+String tokenId = "token_HouA2OQR5Z2jTL";
+
+Customer customer = instance.customers.deleteToken(customerId, tokenId);
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+string customerId = "cust_Z6t7VFTb9xHeOs";
+
+string tokenId = "token_1Aa00000000001";
+
+Customer customer = client.Customer.Fetch(customerId).DeleteToken(tokenId);
+```
+```json: Response
+{
+    "deleted": true
+}
+```
 
   
 ### Path Parameters
 
-     @include recurring-payments/delete-token-path
+     `customer_id` _mandatory_
+: `string` The unique identifier of the customer with whom the token is linked. For example, `cust_1Aa00000000002`.
+
+`token_id` _mandatory_
+: `string` The unique identifier of the token that is to be deleted. For example, `token_1Aa00000000001`.
     
 
 ## 2.4. Cancel Token

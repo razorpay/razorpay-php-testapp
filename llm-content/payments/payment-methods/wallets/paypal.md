@@ -5,7 +5,63 @@ description: Integrate PayPal with Razorpay to accept international payments. Ch
 
 # PayPal
 
-@include payment-methods/paypal-onboarding
+PayPal is a payment method that you can integrate with your [Razorpay Checkout](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway.md#integration-types) to accept payments in [international currencies](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments.md#supported-currencies).
+
+You can accept payments based on the transaction limit of your PayPal account. Know more about the other [payment methods and the transaction limits](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/transaction-limits.md).
+
+### Advantages
+
+Integrating PayPal as a payment method on Checkout offers you the following advantages:
+
+- **Better Success Rates**: Enjoy up to 20% higher success rates.
+- **Faster Settlement time**: Get paid on a T+1 settlement schedule.
+- **Wide user base**: Reach Over 300 million PayPal users around the world.
+- **No additional charges**: PayPal defines the rates for transactions.
+- **Currency Conversion**: Handle currency conversions from INR to your customer's native currency.
+
+## Onboarding Process to Enable PayPal
+
+Watch this video to see the onboarding process to enable PayPal on your checkout form.
+
+[Video: https://www.youtube.com/embed/N5ZtN-_zye8?si=C0VWahb6kPT7Lk4s]
+
+> **INFO**
+>
+> 
+> **Handy Tips**
+> 
+> - The PayPal section is visible only in the **Live** mode on the Dashboard.
+> - PayPal now supports the Pay Later feature. You should enable both [PayPal](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/wallets/paypal.md#to-enable-paypal) and the Pay Later options under Account & Settings → Pay Later (under Payment methods) on the Dashboard to enable the Pay Later feature.
+> 
+> 
+
+    
+### To enable PayPal:
+
+         1. Log in to the Dashboard.
+         2. Navigate to **Account & Settings** → **International payments** (under Payment methods). Scroll to the **PayPal** section and click **Link Account**.
+                ![Link PayPal Account on Razorpay Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/paypal-link-account.jpg.md)
+         3. Upon redirection to PayPal:
+                - If you do not have a PayPal account, you need to complete the verification process and KYC. This will include confirming your email address by clicking on the link sent to you by PayPal.
+                - If you already have a PayPal account, you need to authorise Razorpay to accept payments.
+
+            You should now be able to see your PayPal enablement status set to `Pending` on your Dashboard. PayPal will activate your account within 48 hours if all of the previous steps are successfully completed.
+
+            You can now proceed with the integration. This depends on how you have integrated Razorpay on your website or application.
+
+            By default, your PayPal account is configured to receive USD payments. You can enable more currencies on your account from your PayPal Dashboard.
+
+            
+> **WARN**
+>
+> 
+>             **Watch Out!**
+> 
+>             - You should not use the same email ID for multiple MIDs.
+>             - Each business should set up a separate PayPal account for each MID.
+>             
+
+        
 
 ## Standard Checkout Integration
 
@@ -38,7 +94,22 @@ Customers can use PayPal Currency Conversion to convert international payments i
 > - This is currently supported only on Razorpay standard checkout integration.
 > 
 
-@include payment-methods/paypal-settlements-refunds
+## Settlements
+
+You receive the payments made using PayPal directly to your PayPal wallet. PayPal makes the settlements in INR.
+
+## Refunds
+
+> **INFO**
+>
+> 
+> **Refunds - PayPal Balance Required**
+> 
+> Ensure you have sufficient balance in your PayPal account before you initiate a refund.
+> 
+
+1. Refunds can be initiated by you either from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/dashboard.md#issue-refunds) .
+2. The refund amount is deducted from your PayPal account and credited to your customer's PayPal account.
 
 ## Frequently Asked Questions (FAQs)
 

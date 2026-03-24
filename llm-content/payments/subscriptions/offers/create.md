@@ -9,11 +9,19 @@ You can create offers only from the Dashboard. You can control the discounts you
 
 ## Create Offers
 
-@include subscriptions/offers/create
-
 ## Disable Offers
 
-@include subscriptions/offers/disable
+In certain scenarios, you might want to disable an existing offer. When you disable an offer it is no longer available to your customers.
+
+> **INFO**
+>
+> 
+> **Handy Tips**
+> 
+> Disabling an offer does not mean it is deleted from any subscriptions to which it is linked. It only means the offer will no longer be available to your customers.
+> 
+> Know how to [delete an offer linked to a subscription](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/offers/delete.md).
+> 
 
 ### Related Information
 

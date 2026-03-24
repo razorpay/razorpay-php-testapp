@@ -199,15 +199,35 @@ After the customer has successfully completed the payment, you can:
 
 ### Send Payment Receipt
 
-@include payment-button/configure
+You can ensure that your customers receive payment receipts via email once they complete the payment. Know how to [ send and download automated or manual payment receipts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/receipt.md).
+
+If you are an NGO, you can [ send and download payment receipts with 80-G information](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-button/80g-receipt.md).
 
 ### Show Custom Message
 
-@include payment-button/custom-message
+You can show a custom message to your customers once they complete a payment. 
+
+To show custom messages:
+
+1. On the **Button Created Successfully** pop-up page, click **Configure** against **Redirect URL and Custom Message**.
+2. On the pop-up page, enable **Show a custom message**.
+3. Add the custom message in the field.
+4. Click **Save**.
+
+![Button Settings custom message](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-custom-message.jpg.md)
 
 ### Add a Redirect URL
 
-@include payment-button/redirect-url
+You can redirect your customers to another page after they complete a payment. 
+
+To redirect your customers: 
+
+1. On the **Button Created Successfully** pop-up page, click **Configure** against **Redirect URL and Custom Message**.
+2. On the pop-up page, enable **Redirect URL**.
+3. Add the redirect URL in the field.
+4. Click **Save**.
+
+![Button Settings redirect URL](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/payment-button-redirect.jpg.md)
 
 ## View Transaction Details on Dashboard
 

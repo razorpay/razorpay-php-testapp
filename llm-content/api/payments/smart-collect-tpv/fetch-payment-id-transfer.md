@@ -11,15 +11,137 @@ Use this endpoint to fetch payment details for a bank transfer. If Razorpay does
 
 ### Request
 
-@include smart-collect/api-tpv/fetch/transfer-method-bank
+```cURL: Curl
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X GET \
+https://api.razorpay.com/v1/payments/pay_CmiztqmYJPtDAu/bank_transfer \
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String paymentId = "pay_CmiztqmYJPtDAu";
+
+Payment payment = instance.payments.fetchBankTransfers(paymentId);
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.payment.bank_transfer(paymentId)
+
+```php: PHP
+$api = new Api($api_key, $api_secret);
+
+$api->payment->fetch($paymentId)->bankTransfer();
+
+```ruby: Ruby
+payment_id = "pay_Di5iqCqA1WEHq6"
+
+Razorpay::Payment.fetch(paymend_id).bank_transfer
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.payments.bankTransfer(paymentId)
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+body, err := client.Payment.BankTransfer("", nil, nil)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]
+
+string paymentId = "pay_Z6t7VFTb9xHeOs";
+
+BankTransfer virtualaccount = client.Payment.Fetch(paymentId).BankTransfers();
+```
 
 ### Response
 
-@include smart-collect/api-tpv/fetch/transfer-method-bank-res-code
+```json: Success
+{
+  "id": "bt_Di5iqCElVyRlCb",
+  "entity": "bank_transfer",
+  "payment_id": "pay_Di5iqCqA1WEHq6",
+  "mode": "NEFT",
+  "bank_reference": "157414364471",
+  "amount": 239000,
+  "payer_bank_account": {
+    "id": "ba_Di5iqSxtYrTzPU",
+    "entity": "bank_account",
+    "ifsc": null,
+    "bank_name": null,
+    "name": "Acme Corp",
+    "notes": [],
+    "account_number": "765432123456789"
+  },
+  "virtual_account_id": "va_Di5gbNptcWV8fQ",
+  "virtual_account": {
+    "id": "va_Di5gbNptcWV8fQ",
+    "name": "Acme Corp",
+    "entity": "virtual_account",
+    "status": "closed",
+    "description": "Customer Identifier created for M/S ABC Exports",
+    "amount_expected": 2300,
+    "notes": {
+      "material": "teakwood"
+    },
+    "amount_paid": 239000,
+    "customer_id": "cust_DOMUFFiGdCaCUJ",
+    "receivers": [
+      {
+        "id": "ba_Di5gbQsGn0QSz3",
+        "entity": "bank_account",
+        "ifsc": "RATN0VAAPIS",
+        "bank_name": "RBL Bank",
+        "name": "Acme Corp",
+        "notes": [],
+        "account_number": "1112220061746877"
+      }
+    ],
+    "allowed_payers": [
+      {
+        "type": "bank_account",
+        "id":"ba_DlGmm9mSj8fjRM",
+        "bank_account": {
+          "ifsc": "UTIB0000013",
+          "account_number": "914010012345679"
+        }
+      },
+      {
+        "type": "bank_account",
+        "id":"ba_Cmtnm5tSj6agUW",
+        "bank_account": {
+          "ifsc": "UTIB0000014",
+          "account_number": "914010012345680"
+        }
+      }
+    ],
+    "close_by": 1574427237,
+    "closed_at": 1574164078,
+    "created_at": 1574143517
+  }
+}
+
+```json: Failure
+{
+  "error": {
+    "code": "BAD_REQUEST_ERROR",
+    "description": "The api key provided is invalid",
+    "source": "NA",
+    "step": "NA",
+    "reason": "NA",
+    "metadata": {}
+  }
+}
+```
 
 ### Parameters
 
-@include smart-collect/api-tpv/fetch/transfer-method-bank-path
+`id` _mandatory_
+: `string` The unique identifier of the payment made to the Customer Identifier.
 
 ### Parameters
 

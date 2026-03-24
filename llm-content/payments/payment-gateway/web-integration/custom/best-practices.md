@@ -11,7 +11,10 @@ Given below are some of the best practices to be followed for smoother integrati
 
 ## 1. Integrate Payments Rainy Day Kit
 
-@include rainy-day/section
+Use Payments Rainy Day kit to overcome payments exceptions such as:
+- [Late Authorisation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/late-authorisation.md)
+- [Payment Downtime](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/downtime.md)
+- [Payment Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md)
 
 ## 2. Integrate Orders API
 

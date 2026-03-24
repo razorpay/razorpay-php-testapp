@@ -11,15 +11,146 @@ Use this endpoint to retrieve the details of multiple QR Codes.
 
 ### Request
 
-@include qr-codes/api/fetch/all
+```cURL: Curl
+curl -u : \
+-X GET https://api.razorpay.com/v1/payments/qr_codes \
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+JSONObject params = new JSONObject();
+params.put("count","1");
+
+List qrcode = razorpay.qrCode.fetchAll(params);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->qrCode->all($options)
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.qrCode.all()
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.qrcode.all()
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+data := map[string]interface{}{
+  "count": "2",
+}
+
+body, err := client.QrCode.All(nil, nil)
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+para_attr = {
+  "count": 1  
+}
+
+Razorpay::QrCode.all(para_attr)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+Dictionary paramRequest = new Dictionary();
+paramRequest.Add("count", "1");
+
+List paymentlink = client.QrCode.All(paramRequest);
+```
 
 ### Response
 
-@include qr-codes/api/fetch/all-res
+```json: Success 
+{
+  "entity": "collection",
+  "count": 2,
+  "items": [
+    {
+      "id": "qr_HO2jGkWReVBMNu",
+      "entity": "qr_code",
+      "created_at": 1623914648,
+      "name": "Store_1",
+      "usage": "single_use",
+      "type": "upi_qr",
+      "image_url": "https://rzp.io/i/w2CEwYmkAu",
+      "payment_amount": 300,
+      "status": "active",
+      "description": "For Store 1",
+      "fixed_amount": true,
+      "payments_amount_received": 0,
+      "payments_count_received": 0,
+      "notes": {
+        "purpose": "Test UPI QR Code notes"
+      },
+      "customer_id": "cust_HKsR5se84c5LTO",
+      "close_by": 1681615838,
+      "closed_at": null,
+      "close_reason": null
+    },
+    {
+      "id": "qr_HO2e0813YlchUn",
+      "entity": "qr_code",
+      "created_at": 1623914349,
+      "name": "Acme Groceries",
+      "usage": "multiple_use",
+      "type": "upi_qr",
+      "image_url": "https://rzp.io/i/X6QM7LL",
+      "payment_amount": null,
+      "status": "closed",
+      "description": "Buy fresh groceries",
+      "fixed_amount": false,
+      "payments_amount_received": 200,
+      "payments_count_received": 1,
+      "notes": {
+        "Branch": "Bangalore - Rajaji Nagar"
+      },
+      "customer_id": "cust_HKsR5se84c5LTO",
+      "close_by": 1625077799,
+      "closed_at": 1623914515,
+      "close_reason": "on_demand"
+    }
+  ]
+}
+
+```json: Failure 
+{
+    "error": {
+        "code": "SERVER_ERROR",
+        "description": "We are facing some trouble completing your request at the moment. Please try again shortly.",
+        "source": "NA",
+        "step": "NA",
+        "reason": "NA",
+        "metadata": {}
+    }
+}
+```
 
 ### Parameters
 
-@include qr-codes/api/fetch/all-query
+`from` _optional_
+: `integer` Unix timestamp, in seconds, from when QR Codes are to be retrieved.
+
+`to` _optional_
+: `integer` Unix timestamp, in seconds, till when QR Codes are to be retrieved.
+
+`count` _optional_
+: `integer` Number of QR Codes to be retrieved. 
+  - Default value: 10
+  - Maximum value: 100
+  - This can be used for pagination, in combination with `skip`. 
+
+`skip` _optional_
+: `integer` Number of records to be skipped while fetching the QR Codes. This can be used for pagination, in combination with `count`.
 
 ### Parameters
 

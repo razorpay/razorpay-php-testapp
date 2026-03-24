@@ -11,7 +11,9 @@ Razorpay OAuth is a token-based authentication method where you can obtain an ac
 
 The table below lists the webhook events available for OAuth partners.
 
-@include partners/partners-oauth-available-events
+Event Name | Description
+---
+`account.app.authorization_revoked` | Triggered when the sub-merchant revokes access to the partner application.
 
 ## Sample Payloads
 
@@ -19,6 +21,21 @@ Given below is the sample payload for the Partners Oauth webhook event.
 
 ### Account App Authorization Revoked
 
-@include partners/account-access-revoked-payload
+```json: account.app.authorization_revoked
+{
+  "event": "account.app.authorization_revoked",
+  "account_id": "acc_Dhk2qDbmu6FwZH", // merchant account id
+  "contains": [],
+  "created_at": 1678282666
+}
+```
 
-@include webhooks/webhook-code-tips
+> **WARN**
+>
+> 
+> **Watch Out!**
+> 
+> - If you have changed your webhook secret, remember to use the old secret for webhook signature validation while retrying older requests. Using the new secret will lead to a signature mismatch.
+> 
+> - While generating a signature at your end, ensure that the webhook body is passed as an argument in the **raw webhook request body**. **Do not parse or cast the webhook request body**.
+>

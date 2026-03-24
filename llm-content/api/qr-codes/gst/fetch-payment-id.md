@@ -11,15 +11,104 @@ Use this endpoint to retrieve the details of a QR Code by using a Payment id.
 
 ### Request
 
-@include qr-codes/gst-api/fetch/payment-id
+```cURL: Curl
+curl -u : \
+-X GET https://api.razorpay.com/v1/payments/qr_codes?payment_id=pay_Di5iqCqA1WEHq6 \
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+JSONObject params = new JSONObject();
+params.put("payment_id","pay_Di5iqCqA1WEHq6");
+
+List qrcodes = razorpay.qrCode.fetchAll(params);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->qrCode->all(["payment_id" => $paymentId])
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.qrCode.all({"payment_id":paymentId})
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+ client.qrcode.all({"payment_id":paymentId})
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+para_attr := map[string]interface{}{
+	"payment_id" : "pay_HMtDKn3TnF4D8x",
+}
+
+body, err := client.QrCode.All(para_attr, nil)
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+para_attr = {"payment_id":paymentId}
+
+Razorpay::QrCode.all(para_attr)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+Dictionary paramRequest = new Dictionary();
+params.Add("payment_id","pay_Z6t7VFTb9xHeOs");
+
+List paymentlink = client.QrCode.All(paramRequest);
+```
 
 ### Response
 
-@include qr-codes/gst-api/fetch/payment-id-res
+```json: Success
+{
+  "entity": "collection",
+  "count": 1,
+  "items": [
+    {
+      "id": "qr_HMsqRoeVwKbwAF",
+      "entity": "qr_code",
+      "created_at": 1623661499,
+      "name": "Fresh Groceries",
+      "usage": "multiple_use",
+      "type": "upi_qr",
+      "image_url": "https://rzp.io/i/eI9XD54Q",
+      "payment_amount": null,
+      "status": "active",
+      "description": "Buy fresh groceries",
+      "fixed_amount": false,
+      "payments_amount_received": 1000,
+      "payments_count_received": 1,
+      "notes": [],
+      "customer_id": "cust_HKsR5se84c5LTO",
+      "close_by": 1624472999,
+      "close_reason": null,
+      "tax_invoice": {
+        "number": "INV001",
+        "date": 1589994898,
+        "customer_name": "Gaurav Kumar",
+        "business_gstin": "06AABCU9605R1ZR",
+        "gst_amount": 4000,
+        "cess_amount": 0,
+        "supply_type": "interstate"
+      }
+    }
+  ]
+}
+```
 
 ### Parameters
 
-@include qr-codes/gst-api/fetch/payment-id-query
+`id` _mandatory_
+: `string` The unique identifier of the payment.
 
 ### Parameters
 

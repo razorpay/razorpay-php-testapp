@@ -7,7 +7,24 @@ description: Integrate TPV using S2S integration with UPI Collect Flow.
 
 With UPI payments, your customers can make payments using a Virtual Payment Address (VPA) without the need to enter the bank account details. In the UPI Collect flow, customers enter their registered VPA at checkout, open the UPI PSP app and complete the payment.
 
-@include payment-methods/upi-collect-deprecated/s2s
+> **WARN**
+>
+> 
+> **UPI Collect Flow Deprecated**
+> 
+> According to NPCI guidelines, the UPI Collect flow is being deprecated effective 28 February 2026. Customers can no longer make payments or register UPI mandates by manually entering VPA/UPI id/mobile numbers.
+> 
+> **Exemptions:** UPI Collect will continue to be supported for:
+> - MCC 6012 & 6211 (IPO and secondary market transactions).
+> - iOS mobile app and mobile web transactions.
+> - UPI Mandates (execute/modify/revoke operations only)
+> - eRupi vouchers.
+> - PACB businesses (cross-border/international payments).
+> 
+> **Action Required:**
+> - If you are a new Razorpay user, use [UPI Intent](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/s2s-integration/payment-methods/upi/intent.md). 
+> - If you are an existing Razorpay user not covered by exemptions, you must migrate to UPI Intent or UPI QR code to continue accepting UPI payments. For detailed migration steps, refer to the [migration documentation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/announcements/upi-collect-migration/s2s-integration.md).
+> 
 
 **NPCI Restrictions for UPI Collect Flow**
 
@@ -82,11 +99,170 @@ Skip this step if the customer is already created for your account.
 
 Create a customer whose VPAs should be saved with details such as `email` and `contact`.
 
-Razorpay identifies a customer by a unique customer identifier generated at the time of creation. This allows Razorpay to take action on a particular customer on behalf of the merchant for example, send an invoice, set recurring payments, and others./create-customer
+The following endpoint creates or add a customer with basic details such as name and contact details. You can use this API for various Razorpay Solution offerings.
+
+/customers
+
+```cURL: Curl
+
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X POST https://api.razorpay.com/v1/customers \
+-H "Content-Type: application/json" \
+-d '{
+    "name": "",
+    "contact": "",
+    "email": "",
+    "fail_existing": "0",
+    "notes": {
+      "notes_key_1": "Tea, Earl Grey, Hot",
+      "notes_key_2": "Tea, Earl Grey… decaf."
+  }
+}'
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+JSONObject customerRequest = new JSONObject();
+customerRequest.put("name","");
+customerRequest.put("contact","");
+customerRequest.put("email","");
+customerRequest.put("fail_existing", "0");
+JSONObject notes = new JSONObject();
+notes.put("notes_key_1","Tea, Earl Grey, Hot");
+notes.put("notes_key_2","Tea, Earl Grey… decaf.");
+customerRequest.put("notes",notes);
+
+Customer customer = razorpay.customers.create(customerRequest);
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.customer.create({
+  "name": "",
+  "contact": "",
+  "email": "",
+  "fail_existing": "0",
+  "notes": {
+    "notes_key_1": "Tea, Earl Grey, Hot",
+    "notes_key_2": "Tea, Earl Grey… decaf."
+  }
+})
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+data := map[string]interface{}{
+    "name": "",
+    "contact": "",
+    "email": "",
+    "fail_existing": "0",
+    "notes": map[string]interface{}{
+      "notes_key_1": "Tea, Earl Grey, Hot",
+      "notes_key_2": "Tea, Earl Grey… decaf.",
+	},
+}
+
+body, err := client.Customer.Create(data, nil)
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->customer->create(array('name' => '', 'email' => '','contact'=>'','notes'=> array('notes_key_1'=> 'Tea, Earl Grey, Hot','notes_key_2'=> 'Tea, Earl Grey… decaf'));
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+Dictionary options = new Dictionary();
+
+options.Add("name", ""); 
+options.Add("contact", ""); 
+options.Add("email", ""); 
+options.Add("fail_existing", "0"); 
+
+Customer customer = Customer.Create(options);
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+Razorpay::Customer.create({
+  "name": "",
+  "contact": "",
+  "email": "",
+  "fail_existing": "0",
+  "notes": {
+    "notes_key_1": "Tea, Earl Grey, Hot",
+    "notes_key_2": "Tea, Earl Grey… decaf."
+  }
+})
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.customers.create({
+  name: "",
+  contact: "",
+  email: "",
+  fail_existing: "0",
+  notes: {
+    notes_key_1: "Tea, Earl Grey, Hot",
+    notes_key_2: "Tea, Earl Grey… decaf."
+  }
+})
+```
+
+```json: Success Response
+{
+  "id" : "cust_1Aa00000000004",
+  "entity": "customer",
+  "name" : "",
+  "email" : "",
+  "contact" : "",
+  "gstin": null,
+  "notes": {
+    "notes_key_1":"Tea, Earl Grey, Hot",
+    "notes_key_2":"Tea, Earl Grey… decaf."
+  },
+  "created_at ": 1234567890
+}
+```json: Failure Response
+{
+  "error": {
+    "code": "BAD_REQUEST_ERROR",
+    "description": "Contact number should be at least 8 digits, including country code",
+    "source": "business",
+    "step": "NA",
+    "reason": "invalid_contact_number",
+    "metadata": {},
+    "field": "contact"
+  }
+}
+```
 
 #### Request Parameters
 
-Razorpay identifies a customer by a unique customer identifier generated at the time of creation. This allows Razorpay to take action on a particular customer on behalf of the merchant for example, send an invoice, set recurring payments, and others./create-customer-req
+`name` _optional_
+: `string` Customer's name. Alphanumeric value with period (.), apostrophe ('), forward slash (/), at (@) and parentheses are allowed. The name must be between 3-50 characters in length. For example, `Gaurav Kumar`.
+
+`contact ` _optional_
+: `string` The customer's phone number. A maximum length of 15 characters including country code. For example, `+919876543210`.
+
+`email ` _optional_
+: `string` The customer's email address. A maximum length of 64 characters. For example, `gaurav.kumar@example.com`.
+
+`fail_existing` _optional_
+: `string` Possible values:
+     - `1` (default): If a customer with the same details already exists, throws an error.
+     - `0`: If a customer with the same details already exists, fetches details of the existing customer.
+   
+
+`gstin` _optional_
+: `string` Customer's GST number, if available. For example, `29XAbbA4369J1PA`.
+
+`notes` _optional_
+: `object` This is a key-value pair that can be used to store additional information about the entity. It can hold a maximum of 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
 
 ### Step 1.2: Create an Order
 
@@ -364,7 +540,35 @@ body, err := client.Order.Create(data, nil)
 }
 ```
 
-@include tpv/order-request-parameters
+`amount` _mandatory_
+: `integer` The transaction amount expressed in paise (currency supported is INR). For example, for an actual amount of ₹1, the value of this field should be `100`.
+
+`currency` _mandatory_
+: `string` The currency in which the transaction should be made. You can create orders in **INR** only.
+
+`receipt` _optional_
+: `string` Receipt number that corresponds to this order, set for your internal reference. Maximum length is 40 characters.
+
+`notes` _optional_
+: `json object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
+
+`method` _mandatory_
+: `string` The payment method used to make the payment. If this parameter is not passed, investors will be able to make payments using both netbanking and UPI payment methods. Possible values:
+  - `netbanking`: Investors can make payments only using netbanking.
+  - `card`: Investors can make payments using debit card.
+  - `upi`: Investors can make payments only using UPI.
+
+`bank_account` _mandatory_
+: `object` Details of the bank account that the investor has provided at the time of registration.
+
+    `account_number`  _mandatory_
+    : `string` The bank account number from which the investor should make the payment. For example, `765432123456789` Payments will not be processed for an incorrect account number.
+
+    `name` _mandatory_
+    : `string` The name linked to the bank account. For example, `Gaurav Kumar`.
+
+    `ifsc` _mandatory_
+    : `string` The bank IFSC. For example, `HDFC0000053`.
 
 ### Step 1.3: Validate the VPA
 
@@ -904,7 +1108,35 @@ curl -u : \
 
 #### Request Parameters
 
-@include tpv/order-request-parameters
+`amount` _mandatory_
+: `integer` The transaction amount expressed in paise (currency supported is INR). For example, for an actual amount of ₹1, the value of this field should be `100`.
+
+`currency` _mandatory_
+: `string` The currency in which the transaction should be made. You can create orders in **INR** only.
+
+`receipt` _optional_
+: `string` Receipt number that corresponds to this order, set for your internal reference. Maximum length is 40 characters.
+
+`notes` _optional_
+: `json object` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty”`.
+
+`method` _mandatory_
+: `string` The payment method used to make the payment. If this parameter is not passed, investors will be able to make payments using both netbanking and UPI payment methods. Possible values:
+  - `netbanking`: Investors can make payments only using netbanking.
+  - `card`: Investors can make payments using debit card.
+  - `upi`: Investors can make payments only using UPI.
+
+`bank_account` _mandatory_
+: `object` Details of the bank account that the investor has provided at the time of registration.
+
+    `account_number`  _mandatory_
+    : `string` The bank account number from which the investor should make the payment. For example, `765432123456789` Payments will not be processed for an incorrect account number.
+
+    `name` _mandatory_
+    : `string` The name linked to the bank account. For example, `Gaurav Kumar`.
+
+    `ifsc` _mandatory_
+    : `string` The bank IFSC. For example, `HDFC0000053`.
 
 ### Step 2.2: Fetch VPA Tokens of a Customer
 
@@ -1265,14 +1497,215 @@ For example, **Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Geck
 
 ### Step 2.4: Verify the Payment Signature
 
-@include integration-steps/verify-signature
+This is a mandatory step to confirm the authenticity of the details returned to the Checkout form for successful payments.
+
+  
+### To verify the `razorpay_signature` returned to you by the Checkout form:
+
+     1. Create a signature in your server using the following attributes:
+        - `order_id`: Retrieve the `order_id` from your server. Do not use the `razorpay_order_id` returned by Checkout.
+        - `razorpay_payment_id`: Returned by Checkout.
+        - `key_secret`: Available in your server. The `key_secret` that was generated from the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys).
+
+     2. Use the SHA256 algorithm, the `razorpay_payment_id` and the `order_id` to construct a HMAC hex digest as shown below:
+
+         ```html: HMAC Hex Digest
+         generated_signature = hmac_sha256(order_id + "|" + razorpay_payment_id, secret);
+
+           if (generated_signature == razorpay_signature) {
+             payment is successful
+           }
+         ```
+         
+     3. If the signature you generate on your server matches the `razorpay_signature` returned to you by the Checkout form, the payment received is from an authentic source.
+    
+
+  
+### Generate Signature on Your Server
+
+Given below is the sample code for payment signature verification:
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String secret = "EnLs21M47BllR3X8PSFtjtbd";
+
+JSONObject options = new JSONObject();
+options.put("razorpay_order_id", "order_IEIaMR65cu6nz3");
+options.put("razorpay_payment_id", "pay_IH4NVgf4Dreq1l");
+options.put("razorpay_signature", "0d4e745a1838664ad6c9c9902212a32d627d68e917290b0ad5f08ff4561bc50f");
+
+boolean status =  Utils.verifyPaymentSignature(options, secret);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->utility->verifyPaymentSignature(array('razorpay_order_id' => $razorpayOrderId, 'razorpay_payment_id' => $razorpayPaymentId, 'razorpay_signature' => $razorpaySignature));
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+payment_response = {
+       razorpay_order_id: 'order_IEIaMR65cu6nz3',
+       razorpay_payment_id: 'pay_IH4NVgf4Dreq1l',
+       razorpay_signature: '0d4e745a1838664ad6c9c9902212a32d627d68e917290b0ad5f08ff4561bc50f'
+     }
+Razorpay::Utility.verify_payment_signature(payment_response)
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.utility.verify_payment_signature({
+  'razorpay_order_id': razorpay_order_id,
+  'razorpay_payment_id': razorpay_payment_id,
+  'razorpay_signature': razorpay_signature
+  })
+
+```c: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+Dictionary options = new Dictionary();
+options.Add("razorpay_order_id", "order_IEIaMR65");
+options.Add("razorpay_payment_id", "pay_IH4NVgf4Dreq1l");
+options.Add("razorpay_signature", "0d4e745a1838664ad6c9c9902212a32d627d68e917290b0ad5f08ff4561bc50");
+
+Utils.verifyPaymentSignature(options);
+
+```nodejs: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+var { validatePaymentVerification, validateWebhookSignature } = require('./dist/utils/razorpay-utils');
+validatePaymentVerification({"order_id": razorpayOrderId, "payment_id": razorpayPaymentId }, signature, secret);
+
+```Go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+params := map[string]interface{}{
+ "razorpay_order_id": "order_IEIaMR65cu6nz3",
+ "razorpay_payment_id": "pay_IH4NVgf4Dreq1l",
+}
+
+signature := "0d4e745a1838664ad6c9c9902212a32d627d68e917290b0ad5f08ff4561bc50f";
+secret := "EnLs21M47BllR3X8PSFtjtbd";
+utils.VerifyPaymentSignature(params, signature, secret)
+```
+
+    
+
+  
+### Post Signature Verification
+
+After you have completed the integration, you can [set up webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md), make test payments, replace the test key with the live key and integrate with other [APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api.md).
+    
 
 ### Payment Capture Settings
 
-@include integration-steps/capture-settings
+After payment is `authorized`, you need to capture it to settle the amount to your bank account as per the settlement schedule. Payments that are not captured are auto-refunded after a fixed time.
 
-@include integration-steps/next-steps-tpv
+> **WARN**
+>
+> 
+> 
+> **Watch Out**
+> 
+> - You should deliver the products or services to your customers only after the payment is captured. Razorpay automatically refunds all the uncaptured payments.
+> - You can track the payment status using our [Fetch a Payment API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#fetch-a-payment) or webhooks.
+> 
+
+  
+    Authorized payments can be automatically captured. You can auto-capture all payments [using global settings](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md#auto-capture-all-payments) on the Razorpay Dashboard. Know more about [capture settings for payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md).
+
+    
+> **WARN**
+>
+> 
+>     **Watch Out!**
+> 
+>     Payment capture settings work only if you have integrated with Orders API on your server side. Know more about the [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders/create.md).
+>     
+
+  
+  
+    Each authorized payment can also be captured individually. You can manually capture payments using [Payment Capture API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md#capture-a-payment) or [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/dashboard.md#manually-capture-payments). Know more about [capture settings for payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md).
+  
+
+After the integration is complete, a **Pay** button will appear on your webpage/app. 
+
+![Test integration on your webpage/app](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/test-int.gif.md)
+
+Click the button and make a test transaction to ensure the integration is working as expected. You can start accepting actual payments from your customers once the test is successful.
+
+You can make test payments using one of the payment methods configured at the Checkout.
+
+> **WARN**
+>
+> 
+> **Watch Out!**
+> 
+> This is a mock payment page that uses your test API keys, test card and payment details. 
+> - Ensure you have entered only your [Test Mode API keys](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/api-keys.md#generate-api-keys) in the Checkout code. 
+> - Test mode features a mock bank page with **Success** and **Failure** buttons to replicate the live payment experience.
+> - No real money is deducted due to the usage of test API keys. This is a simulated transaction.
+> 
+
+### Supported Payment Methods
+
+Following are all the payment modes that the customer can use to complete the payment on the Checkout. Some of them are available by default, while others require approval from us. Raise a request from the Dashboard to enable such payment methods.
+
+Payment Method | Code | Availability
+---
+[Debit Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards.md) | `debit` | ✓
+---
+[Credit Card](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards.md) | `credit` | ✓
+---
+[Netbanking](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/netbanking.md) | `netbanking`| ✓
+---
+[UPI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi.md) | `upi` | ✓
+---
+EMI - [Credit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/credit-card-emi.md), [Debit Card EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/debit-card-emi.md) and [No Cost EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/no-cost-emi.md) | `emi` | ✓
+---
+[Cardless EMI](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/emi/cardless-emi.md) | `cardless_emi` | Requires [Approval](https://razorpay.com/support).
+---
+[Bank Transfer](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bank-transfer.md) | `bank_transfer` | Requires [Approval](https://razorpay.com/support) and Integration.
+---
+[Emandate](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/recurring-payments/emandate/integrate.md) | `emandate` | Requires [Approval](https://razorpay.com/support) and Integration.
+---
+[Pay Later ](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/pay-later.md)| `paylater` | Requires [Approval](https://razorpay.com/support).
+
+###  Netbanking
+
+You can select any of the listed banks. After choosing a bank, Razorpay will redirect to a mock page where you can make the payment `success` or a `failure`. Since this is Test Mode, we will not redirect you to the bank login portals.
+
+Check the list of [supported banks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/netbanking.md#supported-banks).
+
+###  UPI
+
+You can enter one of the following UPI IDs:
+
+- `success@razorpay`: To make the payment successful. 
+- `failure@razorpay`: To fail the payment.
+
+Check the following lists: 
+            - [Supported UPI Flows](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/upi.md).
+            - [UPI Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/payments/upi.md).
+
+> **INFO**
+>
+> 
+> 
+> **Handy Tips**
+> 
+> You can use **Test Mode** to test UPI payments, and **Live Mode** for UPI Intent and QR payments.
+> 
 
 ### Related Information
 
-@include integration-steps/related-info
+- [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) (Recommended)
+- [Error Codes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md) (Recommended)
+- [How Payment Gateway Works](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-gateway/how-it-works.md)
+- [Payment States](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments.md)
+- [Settlements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/settlements.md)
+- [Refunds](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/refunds.md)

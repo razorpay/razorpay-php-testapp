@@ -63,7 +63,21 @@ From the `pending` state, payouts can either move to the:
 
 ### Queued
 
-@include rzpx/payouts/payout-states/queued
+A payout is assigned the `queued` status only when you do not have sufficient balance in your business account.
+
+At this stage, the payout details are stored in the system, but no processing has been done either by Razorpay or the contact's bank.
+
+> **WARN**
+>
+> 
+> **Watch Out!**
+> 
+> The payout remains in this state until you add sufficient funds to your business account. Any payout in `queued` state for more than 3 months will automatically be `failed`.
+> 
+
+From the `queued` state, payouts can either move to the:
+- `processing` state when you add sufficient balance to process the payout.
+- `cancelled` state if you cancel the payout.
 
 > **INFO**
 >
@@ -146,11 +160,23 @@ After NPCI and beneficiary bank reconcile the deemed success transactions, we re
 
 ### Processed
 
-@include rzpx/payouts/payout-states/processed
+The `processed` status means that payout has been processed by the contact's Bank.
+
+A payout in the `processed` state can move to the `reversed` state if a payout failure is detected.
+
+This can happen due to various reasons such as the customer's bank reversing the transaction or if the payout was reversed by the clearing house.
+
+This is a terminal state for a payout. No further action is possible on a payout at this state.
 
 ### Reversed
 
-@include rzpx/payouts/payout-states/reversed
+A payout acquires the `reversed` state when the payout operation fails. This can happen due to issues with our partner banks, clearing house or even the customer's bank.
+
+As soon as Razorpay identifies a payout failure scenario, it moves the payout to the `reversed` state and creates a reversal transaction that credits your business account with the original payout amount including fees and tax.
+
+A Payout can move from `reversed` state to `failed` state only in case of RazorpayX powered Current accounts.
+
+This is a terminal state for a payout. No further action is possible on a payout at this state.
 
 > **WARN**
 >

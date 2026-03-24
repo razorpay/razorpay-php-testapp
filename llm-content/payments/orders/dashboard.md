@@ -36,7 +36,11 @@ To subscribe to Webhook events:
 1. Log in to the Dashboard.
 2. Navigate to **Accounts & Settings** → Webhooks to subscribe to any of the following events:
 
-@include orders/orders-available-events
+The table below lists the webhook events available for orders.
+
+Webhook Event | Description
+---
+`order.paid` | Triggered when an order is successfully paid.
 
 Know more about [Webhooks](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks.md) and check the [sample payloads](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/orders.md).
 

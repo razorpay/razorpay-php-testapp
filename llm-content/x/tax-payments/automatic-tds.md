@@ -151,7 +151,15 @@ Hence, the amount must be paid manually and updated on the Dashboard. To mark a 
 
 ## TDS Categories
 
-@include rzpx/tax-payments/category
+Download the TDS categories and rates available to you.
+
+> **INFO**
+>
+> 
+> **Handy Tips**
+> 
+> The TDS rates are subject to change as per government guidelines. Refer to the [income tax website](https://www.incometax.gov.in/iec/foportal/) for the latest TDS updates.
+> 
 
 ### TDS Calculation
 

@@ -171,7 +171,9 @@ The label cannot exceed 16 characters.
 
 ### Step 3: Configure Payment Receipt (Optional)
 
-@include payment-pages/configure
+You can ensure that your customers receive payment receipts via email once they complete the payment. Know how you can [send and download automated or manual payment receipts](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/receipt.md).
+
+If you are an NGO, [know how you can send and download payment receipts with 80-G information](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-pages/80g-receipt.md).
 
 ### Step 4: Configure Page Settings
 

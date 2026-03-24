@@ -11,15 +11,100 @@ Use this endpoint to close a QR Code.
 
 ### Request
 
-@include qr-codes/api/close
+```cURL: Curl
+curl -u : \
+-X POST https://api.razorpay.com/v1/payments/qr_codes/qr_HMsVL8HOpbMcjU/close
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String qrCodeId = "qr_HMsVL8HOpbMcjU";
+
+QrCode qrcode = razorpay.qrCode.close(qrCodeId);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->qrCode->fetch($qrCodeId)->close()
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.qrCode.close(qrCodeId)
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.qrcode.close(qrCodeId);
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+qrCodeId = "qr_HMsVL8HOpbMcjU"
+
+body, err := client.QrCode.Close(qrCodeId);
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+qrCodeId = "qr_HMsVL8HOpbMcjU"
+
+Razorpay::QrCode.fetch(qrCodeId).close
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+string qrCodeId = "qr_Z6t7VFTb9xHeOs";
+
+QrCode qrcode = client.QrCode.Fetch(qrCodeId).Close();
+```
 
 ### Response
 
-@include qr-codes/api/close-res
+```json: Success 
+{
+  "id": "qr_HMsVL8HOpbMcjU",
+  "entity": "qr_code",
+  "created_at": 1623660301,
+  "name": "Store_1",
+  "usage": "single_use",
+  "type": "upi_qr",
+  "image_url": "https://rzp.io/i/BWcUVrLp",
+  "payment_amount": 300,
+  "status": "closed",
+  "description": "For Store 1",
+  "fixed_amount": true,
+  "payments_amount_received": 0,
+  "payments_count_received": 0,
+  "notes": {
+    "purpose": "Test UPI QR Code notes"
+  },
+  "customer_id": "cust_HKsR5se84c5LTO",
+  "close_by": 1681615838,
+  "closed_at": 1623660445,
+  "close_reason": "on_demand"
+}
+
+```json: Failure 
+{
+    "error": {
+        "code": "BAD_REQUEST_ERROR",
+        "description": "The requested URL was not found on the server.",
+        "source": "NA",
+        "step": "NA",
+        "reason": "NA",
+        "metadata": {}
+    }
+}
+```
 
 ### Parameters
 
-@include qr-codes/api/path-param
+`id` _mandatory_
+: `string` The unique identifier of the QR Code.
 
 ### Parameters
 

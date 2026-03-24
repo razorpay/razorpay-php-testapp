@@ -13,7 +13,14 @@ You can request KYC access from your client:
 
 After the client approves your request, you can [perform their KYC](#perform-kyc).
 
-@include partners/perform-kyc-advantages
+#### Advantages
+
+- **Decreases Onboarding Time by 50%** 
+
+    Partner performing KYC for sub-merchants decreases onboarding time by half and ensures a seamless onboarding experience.
+- **Value Added Service** 
+
+    Partner performing KYC acts as a delight feature for your clients.
 
 ## Request KYC Access When Sending an Invite
 

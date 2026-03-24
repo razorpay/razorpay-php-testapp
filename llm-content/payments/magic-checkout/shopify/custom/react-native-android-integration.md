@@ -402,7 +402,222 @@ Follow the steps given below:
         
             Checkout Options
             
-             @include checkout-parameters/magic-sdk
+             `key` _mandatory_
+: `string` API key id generated from the Dashboard.
+
+`amount` _mandatory_
+: `integer` The amount to be paid by the customer in currency subunits. For example, if the amount is , enter `50000`.
+
+`currency` _mandatory_
+: `string` The currency in which the payment should be made by the customer. Length must be of 3 characters.
+
+`name` _mandatory_
+: `string` Your Business/Enterprise name shown on the Checkout form. For example, **Acme Corp**.
+
+`description` _optional_
+: `string` Description of the purchase item shown on the Checkout form. It should start with an alphanumeric character.
+
+`image` _optional_
+: `string` Link to an image (usually your business logo) shown on the Checkout form. Can also be a **base64** string if you are not loading the image from a network.
+
+`order_id` _mandatory_
+: `string` Order id generated via [Orders API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md).
+
+`prefill`
+: `object` You can prefill the following details at Checkout.
+
+   
+> **INFO**
+>
+> 
+>    **Boost Conversions and Minimise Drop-offs**
+> 
+>    - Autofill customer contact details, especially phone number to ease form completion. Include customer’s phone number in the `contact` parameter of the JSON request's `prefill` object. Format: +(country code)(phone number). Example: "contact": "+919000090000".   
+>    - This is not applicable if you do not collect customer contact details on your website before checkout, have Shopify stores or use any of the no-code apps.
+> 
+>    
+
+   `name` _optional_
+   : `string` Cardholder's name to be prefilled if customer is to make card payments on Checkout. For example, **Gaurav Kumar**.
+
+   `email` _optional_
+   : `string` Email address of the customer.
+
+   `contact` _optional_
+   : `string` Phone number of the customer. The expected format of the phone number is `+ {country code}{phone number}`. If the country code is not specified, `91` will be used as the default value. This is particularly important while prefilling `contact` of customers with phone numbers issued outside India. **Examples**:
+       - +14155552671 (a valid non-Indian number)
+       - +919977665544 (a valid Indian number). 
+If 9977665544 is entered, `+91` is added to it as +919977665544.
+
+   `method` _optional_
+   : `string` Pre-selection of the payment method for the customer. Will only work if `contact` and `email` are also prefilled. Possible values:
+       
+       - `card`
+
+       - `netbanking`
+
+       - `wallet`
+
+       - `upi`
+
+       - `cod`
+
+       
+
+`notes` _optional_
+: `object` Set of key-value pairs that can be used to store additional information about the payment. It can hold a maximum of 15 key-value pairs, each 256 characters long (maximum).
+
+`show_coupons` _optional_
+: `boolean` Determines whether to show the coupons to customer on the checkout. Possible values:
+  - `true` (default): Enables the Coupon feature.
+  - `false`: Disables the Coupon feature.
+
+`theme`
+: `object` Thematic options to modify the appearance of Checkout.
+
+   `color` _optional_
+   : `string` Enter your brand colour's HEX code to alter the text, payment method icons and CTA (call-to-action) button colour of the Checkout form.
+
+   `backdrop_color` _optional_
+   : `string` Enter a HEX code to change the Checkout's backdrop colour.
+
+`modal`
+: `object` Options to handle the Checkout modal.
+
+   `backdropclose` _optional_
+   : `boolean` Indicates whether clicking the translucent blank space outside the Checkout form should close the form. Possible values:
+       - `true`: Closes the form when your customer clicks outside the checkout form.
+       - `false` (default): Does not close the form when customer clicks outside the checkout form.
+
+   `escape` _optional_
+   : `boolean` Indicates whether pressing the **escape** key should close the Checkout form. Possible values:
+       - `true` (default): Closes the form when the customer presses the **escape** key.
+       - `false`: Does not close the form when the customer presses the **escape** key.
+
+   `handleback` _optional_
+   : `boolean` Determines whether Checkout must behave similar to the browser when back button is pressed. Possible values:
+       - `true` (default): Checkout behaves similarly to the browser. That is, when the browser's back button is pressed, the Checkout also simulates a back press. This happens as long as the Checkout modal is open.
+       - `false`: Checkout does not simulate a back press when browser's back button is pressed.
+
+   `confirm_close` _optional_
+   : `boolean` Determines whether a confirmation dialog box should be shown if customers attempts to close Checkout. Possible values:
+       - `true`: Confirmation dialog box is shown.
+       - `false` (default): Confirmation dialog box is not shown.
+  
+   `ondismiss` _optional_
+   : `function` Used to track the status of Checkout. You can pass a modal object with `ondismiss: function()\{\}` as options. This function is called when the modal is closed by the user. If `retry` is `false`, the `ondismiss` function is triggered when checkout closes, even after a failure.
+
+   `animation` _optional_
+   : `boolean` Shows an animation before loading of Checkout. Possible values:
+       - `true`(default): Animation appears.
+       - `false`: Animation does not appear.
+
+`callback_url` _optional_
+: `string` Customers will be redirected to this URL on successful payment. Ensure that the domain of the Callback URL is allowlisted.
+
+`redirect` _optional_
+: `boolean` Determines whether to post a response to the event handler post payment completion or redirect to Callback URL. `callback_url` must be passed while using this parameter. Possible values:
+   - `true`: Customer is redirected to the specified callback URL in case of payment failure.
+   - `false` (default): Customer is shown the Checkout popup to retry the payment with the suggested next best option.
+
+`customer_id` _optional_
+: `string` Unique identifier of customer. Used for:
+   - [Local saved cards feature](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/cards/features/saved-cards.md#manage-saved-cards).
+   - Static bank account details on Checkout in case of [Bank Transfer payment method](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/bank-transfer.md).
+
+`remember_customer` _optional_
+: `boolean` Determines whether to allow saving of cards. Can also be configured via the [Dashboard](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/dashboard/account-settings/checkout-features.md#flash-checkout). Possible values:
+   - `true`: Enables card saving feature.
+   - `false` (default): Disables card saving feature.
+
+`timeout` _optional_
+: `integer` Sets a timeout on Checkout, in seconds. After the specified time limit, the customer will not be able to use Checkout.
+
+    
+> **WARN**
+>
+> 
+>     **Watch Out!**
+>     
+>     Some browsers may pause `JavaScript` timers when the user switches tabs, especially in power saver mode. This can cause the checkout session to stay active beyond the set timeout duration.
+>     
+
+`readonly`
+: `object` Marks fields as read-only.
+
+   `contact` _optional_
+   : `boolean` Used to set the `contact` field as read-only. Possible values:
+       - `true`: Customer will not be able to edit this field.
+       - `false` (default): Customer will be able to edit this field.
+
+   `email` _optional_
+   : `boolean` Used to set the `email` field as read-only. Possible values:
+       - `true`: Customer will not be able to edit this field.
+       - `false` (default): Customer will be able to edit this field.
+      
+   `name` _optional_
+   : `boolean` Used to set the `name` field as read-only. Possible values:
+       - `true`: Customer will not be able to edit this field.
+       - `false` (default): Customer will be able to edit this field.
+
+`hidden`
+: `object` Hides the contact details.
+
+   `contact` _optional_
+   : `boolean` Used to set the `contact` field as optional. Possible values:
+       - `true`: Customer will not be able to view this field.
+       - `false` (default): Customer will be able to view this field.
+
+   `email` _optional_
+   : `boolean` Used to set the `email` field as optional. Possible values:
+       - `true`: Customer will not be able to view this field.
+       - `false` (default): Customer will be able to view this field.
+
+`send_sms_hash` _optional_
+: `boolean` Used to auto-read OTP for cards and netbanking pages. Applicable from Android SDK version 1.5.9 and above. Possible values:
+   - `true`: OTP is auto-read.
+   - `false` (default): OTP is not auto-read.
+
+`allow_rotation` _optional_
+: `boolean` Used to rotate payment page as per screen orientation. Applicable from Android SDK version 1.6.4 and above. Possible values:
+   - `true`: Payment page can be rotated.
+   - `false` (default): Payment page cannot be rotated.
+
+`retry` _optional_
+: `object` Parameters that enable retry of payment on the checkout.
+
+   `enabled`
+   : `boolean` Determines whether the customers can retry payments on the checkout. Possible values:
+       - `true` (default): Enables customers to retry payments.
+       - `false`: Disables customers from retrying the payment.
+  
+   `max_count`
+   : `integer` The number of times the customer can retry the payment. We recommend you to set this to 4. Having a larger number here can cause loops to occur.
+       
+> **WARN**
+>
+> 
+>        **Watch Out!**
+> 
+>        Web Integration does not support the `max_count` parameter. It is applicable only in Android and iOS SDKs.
+>        
+
+  
+`config` _optional_
+: `object` Parameters that enable checkout configuration.
+  
+   `display`
+   : `object` Child parameter that enables configuration of checkout display language.
+
+       `language`
+       : `string` The language in which checkout should be displayed. Possible values:
+           - `en`: English
+           - `ben`: Bengali
+           - `hi`: Hindi
+           - `mar`: Marathi
+           - `guj`: Gujarati
+           - `tam`: Tamil
+           - `tel`: Telugu
 
              You must pass these parameters in Checkout to initiate the payment.
 
@@ -424,9 +639,704 @@ Follow the steps given below:
   
 ### 1.7 Perform Post Payment Processing
 
-     @include magic/post-payment
+     Based on the response, you can handle post-payment processing on your end. 
+
+> **WARN**
+>
+> 
+> **Timeout Handling**
+> 
+> If no API call is made within 45 seconds, our background job will assume there is a network drop off and will proceed to place the order on Shopify automatically.
+> 
+
+    
+        Fetch an Order
+        
+         Use the Fetch Orders API to retrieve order details, including customer information, address, shipping method and promotions of a particular order:
+
+          v1/orders/:id 
+
+         ```curl: Curl
+         curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]\
+         -X GET https://api.razorpay.com/v1/orders/order_R1yDkxyIuKXXXX \
+         ```java: Java
+         RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+         import com.razorpay.Order;
+         import com.razorpay.RazorpayClient;
+         import com.razorpay.RazorpayException;
+         try {
+           Order order = razorpay.Orders.fetch("");
+         } catch (RazorpayException e) {
+           // Handle Exception
+           System.out.println(e.getMessage());
+         }
+         ```Python: Python
+         # do easy_install razorpay or
+         #    pip install razorpay
+
+         import razorpay
+         razorpay.Client(auth=("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]"))
+
+         order_id = 
+         resp = client.order.fetch(order_id)
+         ```php: PHP 
+         $api = new Api($key_id, $secret);
+
+         $api->order->fetch($orderId);
+         ```ruby: Ruby
+         require "razorpay"
+         Razorpay.setup('key_id', 'key_secret')
+
+         order = Razorpay::Order.fetch('order_R1yDkxyIuKXXXX')
+         ```javascript: Node.js
+         var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+         instance.orders.fetch(orderId)
+         ```go: Go
+         import ( razorpay "github.com/razorpay/razorpay-go" )
+         client := razorpay.NewClient("", "")
+
+         body, err := client.Order.Fetch("", nil, nil)
+         ```
+         ```json: Response: COD Orders
+         {
+           "id": "order_R1yDkxyIuKXXXX",
+           "entity": "order",
+           "amount": 507000,
+           "amount_paid": 0,
+           "amount_due": 507000,
+           "currency": "INR",
+           "receipt": "#30567",
+           "offers": [
+               "offer_QXwkRH1bOvXXXX",
+               "offer_QXwoP07qnHXXXX",
+               "offer_QYrcJ29gBCXXXX",
+               "offer_QZDsVyMNzDXXXX",
+               "offer_QtfwFTZYkGXXXX",
+               "offer_Qtg3UsQyZaXXXX"
+           ],
+           "status": "placed",
+           "attempts": 0,
+           "notes": {
+               "cart_id": "hWN2Am4BGnQrizKE3hzeQaXc?key=2b3cad31",
+               "storefront_id": "gid://shopify/Cart/hf5Q?key=14bbbce35b8",
+               "shopify_order_id": "6302119854247"
+           },
+           "created_at": 1756045901,
+           "description": null,
+           "checkout": null,
+           "promotions": [
+               {
+                   "code": "orderOff",
+                   "type": "cart_value",
+                   "value": 10000,
+                   "description": "order off",
+                   "reference_id": "offer_ORnSr9d2eAXXXX"
+               }
+           ],
+           "cod_fee": 5000,
+           "shipping_fee": 7000,
+           "customer_details": {
+               "contact": "+919100000000",
+               "email": "gaurav.kumar@example.com",
+               "shipping_address": {
+                   "city": "Bengaluru",
+                   "contact": "+919100000000",
+                   "country": "in",
+                   "line1": "Houseno:24",
+                   "line2": "Andree Road, Bheemanna Garden, Shanti Nagar",
+                   "name": "Gaurav Kumar",
+                   "state": "KARNATAKA",
+                   "tag": "Home",
+                   "type": "shipping_address",
+                   "zipcode": "560001"
+               },
+               "billing_address": {
+                   "city": "Bengaluru",
+                   "contact": "+919100000000",
+                   "country": "in",
+                   "line1": "Houseno:24",
+                   "line2": "Andree Road, Bheemanna Garden, Shanti Nagar",
+                   "name": "Gaurav Kumar",
+                   "state": "KARNATAKA",
+                   "tag": "Home",
+                   "type": "shipping_address",
+                   "zipcode": "560001"
+               }
+           },
+           "line_items_total": 600000,
+           "tax_details": {
+               "total_tax": 4128,
+               "taxes_included": true
+           }
+         }
+         ```json: Response: Prepaid Orders
+         {
+           "id": "order_R1yDkxyIuKXXXX",
+           "entity": "order",
+           "amount": 100700,
+           "amount_paid": 100700,
+           "amount_due": 0,
+           "currency": "INR",
+           "receipt": "#30414",
+           "offers": [
+               "offer_QXwkRH1bOvXXXX",
+               "offer_QXwoP07qnHXXXX",
+               "offer_QYrcJ29gBCXXXX",
+               "offer_QZDsVyMNzDXXXX",
+               "offer_QtfwFTZYkGXXXX",
+               "offer_Qtg3UsQyZaXXXX"
+           ],
+           "status": "paid",
+           "attempts": 1,
+           "notes": {
+               "cart_id": "hWN1TcwL?key=1a3a5a7c",
+               "storefront_id": "gid://shopify/Cart/hIkey=af7c7800",
+               "flits_cart_token": "hWcwL?key=1a3741dc_8740f5_175447",
+               "shopify_order_id": "6266036191399"
+           },
+           "created_at": 1754466155,
+           "description": null,
+           "checkout": null,
+           "promotions": [
+               {
+               "code": "orderOff",
+               "type": "cart_value",
+               "value": 10000,
+               "description": "order off",
+               "reference_id": "offer_ORnSr9d2eAXXXX"
+               }
+           ],
+           "cod_fee": 0,
+           "shipping_fee": 700,
+           "customer_details": {
+               "billing_address": {
+               "city": "South West Delhi",
+               "contact": "+919000090000",
+               "country": "in",
+               "id": "Qb3BljuFFoXXXX",
+               "line1": "12",
+               "line2": "Qutab Garh, Rama Krishna Puram",
+               "name": "Gaurav Kumar",
+               "state": "Delhi",
+               "tag": "Home",
+               "type": "billing_address",
+               "zipcode": "110057"
+               },
+               "contact": "+919000090000",
+               "email": "gaurav.kumar@example.com",
+               "shipping_address": {
+               "city": "South West Delhi",
+               "contact": "+919000090000",
+               "country": "in",
+               "id": "Qb3BljuFFoXXXX",
+               "line1": "12",
+               "line2": "Qutab Garh, Rama Krishna Puram",
+               "name": "Gaurav Kumar",
+               "state": "Delhi",
+               "tag": "Home",
+               "type": "shipping_address",
+               "zipcode": "110057"
+               }
+           },
+           "line_items_total": 110000,
+           "tax_details": {
+               "total_tax": 0,
+               "taxes_included": true
+           }
+         }
+         ```
+
+         Know more about the [Orders API.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/orders.md)
+
+         
+> **INFO**
+>
+> 
+>          **Order Status**
+> 
+>          Check the order status for the following:
+> 
+>          - Prepaid orders: `paid`. 
+>          - COD orders: `placed`.
+>          
+
+         
+            
+                Path Parameter
+                
+`id` _mandatory_
+: `string` Unique identifier of the order to be retrieved.
+                
+
+            
+### Response Parameters
+
+`id`
+: `string` Unique identifier of the order. For example, `order_R1yDkxyIuKXXXX`.
+
+`entity`
+: `string` Type of entity. Value is `order`.
+
+`amount`
+: `integer` Total order amount in the smallest currency unit (paise). 
+
+`amount_paid`
+: `integer` Amount paid towards the order in paise. For prepaid orders, this shows the actual amount paid. For COD orders, this is `0` until payment is collected.
+
+`amount_due`
+: `integer` Outstanding amount due in paise. For prepaid orders, this shows any remaining balance. For COD orders, this equals the `amount` field until payment is collected.
+
+`currency`
+: `string` The 3-letter ISO currency code. For example, `INR`.
+
+`receipt`
+: `string` Receipt identifier for internal reference. For example, `#30567`.
+
+`offers`
+: `array` Array of offer IDs applied to the order. 
+
+`status`
+: `string` Current status of the order. Possible values:
+    - `placed`: Order placed but payment pending (COD orders).
+    - `paid`: Order placed and payment completed (prepaid orders).
+    - `cancelled`: Order cancelled.
+    - `refunded`: Order refunded.
+
+`attempts`
+: `integer` Number of payment attempts made for this order. For example, `1`.
+
+`notes`
+: `object` Custom notes added to the order containing integration-specific data.
+
+    `cart_id`
+    : `string` Shopping cart identifier.
+
+    `storefront_id`
+    : `string` Storefront system identifier.
+
+    `shopify_order_id`
+    : `string` Shopify order reference.
+
+    `flits_cart_token`
+    : `string` Flits integration token (optional).
+
+`created_at`
+: `integer` Unix timestamp indicating when the order was created. For example, `1756045901`.
+
+`description`
+: `string|null` Order description. Returns `null` if no description is provided.
+
+`checkout`
+: `string|null` Checkout identifier. Returns `null` if not applicable.
+
+`promotions`
+: `array` Array of promotion objects applied to the order.
+
+    `code`
+    : `string` Promotion code used. For example, `orderOff`.
+
+    `type`
+    : `string` Type of promotion. For example, `cart_value`.
+
+    `value`
+    : `integer` Discount value in paise. For example, `10000` for ₹100.
+
+    `description`
+    : `string` Human-readable promotion description.
+
+    `reference_id`
+    : `string` Internal reference for the promotion.
+
+`cod_fee`
+: `integer` Cash on Delivery charges in paise. For COD orders, this contains the fee amount (for example, `5000` for ₹50). For prepaid orders, this is `0`.
+
+`shipping_fee`
+: `integer` Shipping charges in paise. For example, `700` for ₹7.
+
+`customer_details`
+: `object` Customer information.
+
+    `contact`
+    : `string` Customer's phone number.
+
+    `email`
+    : `string` Customer's email address.
+
+    `shipping_address`
+    : `object` Complete shipping address information.
+
+        `city`
+        : `string` City name.
+        
+        `contact`
+        : `string` Contact number for delivery.
+        
+        `country`
+        : `string` Country code. For example, `in`.
+        
+        `id`
+        : `string` Address identifier (optional).
+        
+        `line1`
+        : `string` Address line 1.
+        
+        `line2`
+        : `string` Address line 2.
+        
+        `name`
+        : `string` Recipient name.
+        
+        `state`
+        : `string` State name.
+        
+        `tag`
+        : `string` Address tag. For example, `Home`.
+        
+        `type`
+        : `string` Address type. Value is `shipping_address`.
+        
+        `zipcode`
+        : `string` Postal code.
+
+    `billing_address`
+    : `object` Complete billing address information.
+
+        `city`
+        : `string` City name.
+        
+        `contact`
+        : `string` Contact number for billing.
+        
+        `country`
+        : `string` Country code. For example, `in`.
+        
+        `id`
+        : `string` Address identifier (optional).
+        
+        `line1`
+        : `string` Address line 1.
+        
+        `line2`
+        : `string` Address line 2.
+        
+        `name`
+        : `string` Account holder name.
+        
+        `state`
+        : `string` State name.
+        
+        `tag`
+        : `string` Address tag. For example, `Home`.
+        
+        `type`
+        : `string` Address type. Value is `billing_address`.
+        
+        `zipcode`
+        : `string` Postal code.
+
+`line_items_total`
+: `integer` Total value of line items in paise before adding shipping fees and COD fees, after applying promotions. For example, `60000` for ₹600.
+
+`tax_details`
+: `object` Tax information.
+
+    `total_tax`
+    : `integer` Total tax amount in paise. For example, `4128`.
+
+    `taxes_included`
+    : `boolean` Indicates whether taxes are included in the item prices. Possible values:
+      - `true`: Taxes are included in item prices.
+      - `false`: Taxes are separate from item prices.
+
+         
+        
+    
+    
+### Fetch a Payment
+
+         Use the Fetch Payments API to retrieve comprehensive payment details, including transaction status, payment method, customer information, settlement details, and the associated order information for a specific payment:
+
+          v1/payments/:id 
+
+         ```curl: Curl
+         curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
+         -X GET https://api.razorpay.com/v1/payments/pay_R1yFlWQar3XXXX
+
+         ```java: Java
+         RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+         String paymentId = "pay_R1yFlWQar3XXXX";
+
+         Payment payment = razorpay.payments.fetch(paymentId);
+
+         ```python: Python
+         import razorpay
+         client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+         client.payment.fetch(paymentId)
+
+         ```go: Go
+         import ( razorpay "github.com/razorpay/razorpay-go" )
+         client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+         paymentId := "pay_R1yFlWQar3XXXX"
+
+         body, err := client.Payment.Fetch(paymentId, nil, nil)
+
+         ```php: PHP
+         $api = new Api($key_id, $secret);
+
+         $api->payment->fetch($paymentId);
+
+         ```ruby: Ruby
+         require "razorpay"
+         Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+         paymentId = "pay_R1yFlWQar3XXXX"
+
+         Razorpay::Payment.fetch(paymentId)
+
+         ```javascript: Node.js
+         var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+         instance.payments.fetch(paymentId)
+
+         ```csharp: .NET
+         RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+         Payment payment = client.Payment.Fetch(paymentId);
+         ```
+
+         ```json: Response: COD Orders
+         {
+           "id": "pay_R1yFlWQar3XXXX",
+           "entity": "payment",
+           "amount": 55700,
+           "currency": "INR",
+           "status": "pending",
+           "order_id": "order_R1yDkxyIuKXXXX",
+           "invoice_id": null,
+           "international": false,
+           "method": "cod",
+           "amount_refunded": 0,
+           "refund_status": null,
+           "captured": false,
+           "description": null,
+           "card_id": null,
+           "bank": null,
+           "wallet": null,
+           "vpa": null,
+           "email": "gaurav.kumar@example.com",
+           "contact": "+919100000000",
+           "notes": {
+             "cart_id": "hWN2QaXc?key=2b3cad31",
+             "storefront_id": "gid://shopify/Cart/h?key=14bbf59ce35b8"
+           },
+           "fee": null,
+           "tax": null,
+           "error_code": null,
+           "error_description": null,
+           "error_source": null,
+           "error_step": null,
+           "error_reason": null,
+           "acquirer_data": {},
+           "created_at": 1756046099,
+           "receiver_type": null
+         }
+         ```json: Response: Prepaid Orders
+         {
+           "id": "pay_R1yFlWQar3XXXX",
+           "entity": "payment",
+           "amount": 90630,
+           "currency": "INR",
+           "status": "captured",
+           "order_id": "order_R1yDkxyIuKXXXX",
+           "invoice_id": null,
+           "international": false,
+           "method": "upi",
+           "amount_refunded": 0,
+           "refund_status": null,
+           "captured": true,
+           "description": null,
+           "card_id": null,
+           "bank": null,
+           "wallet": null,
+           "vpa": "gaurav.kumar@exampleupi",
+           "email": "gaurav.kumar@example.com",
+           "contact": "+919000090000",
+           "notes": {
+             "cart_id": "hWNsVrcwL?key=1a3a457ddc",
+             "storefront_id": "gid://shopify/Cart/hWv3e8?key=af707",
+             "flits_cart_token": "hWrcwL?key=1a3a5a70f5_17547",
+             "optimizer_provider_name": "razorpay"
+           },
+           "fee": 0,
+           "tax": 0,
+           "error_code": null,
+           "error_description": null,
+           "error_source": null,
+           "error_step": null,
+           "error_reason": null,
+           "acquirer_data": {
+             "rrn": "727947422583",
+             "upi_transaction_id": "1F723677C679EF578A95"
+           },
+           "created_at": 1754466271,
+           "receiver_type": null,
+           "upi": {
+             "vpa": "gaurav.kumar@exampleupi"
+           }
+         }
+         ```
+
+         Know more about the [Payments API](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments.md).
+         
+            
+                Path Parameter
+                
+`id` _mandatory_
+: `string` Unique identifier of the payment to be retrieved.
+                
+
+            
+### Response Parameters
+
+`id`
+: `string` Unique identifier of the payment. For example, `pay_R1yFlWQar3XXXX`.
+
+`entity`
+: `string` Type of entity. Value is `payment`.
+
+`amount`
+: `integer` Payment amount in the smallest currency unit (paise). For COD payments, this includes the COD fee (for example, `55700` for ₹557). For prepaid payments, this equals the captured amount (for example, `90630` for ₹906.30).
+
+`currency`
+: `string` The 3-letter ISO currency code. For example, `INR`.
+
+`status`
+: `string` Current status of the payment. Possible values:
+  - `pending`: Payment pending collection (COD orders).
+  - `captured`: Payment successfully captured (prepaid orders).
+  - `authorized`: Payment authorized but not captured.
+  - `failed`: Payment attempt failed.
+
+`order_id`
+: `string` Unique identifier of the associated order. For example, `order_R1yDkxyIuKXXXX`.
+
+`invoice_id`
+: `string|null` Unique identifier of the associated invoice. Returns `null` if no invoice is linked.
+
+`international`
+: `boolean` Indicates whether this is an international payment. Possible values:
+  - `true`: International payment.
+  - `false`: Domestic payment.
+
+`method`
+: `string` Payment method used. Possible values include:
+  - `cod`
+  - `upi`
+  - `card`
+  - `netbanking`
+  - `wallet`
+
+`amount_refunded`
+: `integer` Amount refunded in paise. For example, `0` indicates no refund has been processed.
+
+`refund_status`
+: `string|null` Current refund status. Returns `null` if no refund is applicable. Possible values:
+  - `partial`: Partial refund processed.
+  - `full`: Full refund processed.
+
+`captured`
+: `boolean` Indicates whether the payment has been captured. Possible values:
+  - `true`: Payment has been captured.
+  - `false`: Payment has not been captured.
+
+`description`
+: `string|null` Payment description. Returns `null` if no description is provided.
+
+`card_id`
+: `string|null` Unique identifier of the card used for payment. Returns `null` for non-card payments.
+
+`bank`
+: `string|null` Bank identifier for netbanking payments. Returns `null` for other payment methods.
+
+`wallet`
+: `string|null` Wallet provider identifier. Returns `null` for non-wallet payments.
+
+`vpa`
+: `string|null` Virtual Payment Address for UPI payments. For example, `gaurav.kumar@exampleupi`. Returns `null` for non-UPI payments.
+
+`email`
+: `string` Customer's email address.
+
+`contact`
+: `string` Customer's phone number.
+
+`notes`
+: `object` Custom notes added to the payment containing integration-specific data.
+
+  `cart_id`
+  : `string` Shopping cart identifier.
+  
+  `storefront_id`
+  : `string` Storefront system identifier.
+  
+  `flits_cart_token`
+  : `string` Flits integration token (optional).
+  
+  `optimizer_provider_name`
+  : `string` Payment optimizer provider name (optional).
+
+`fee`
+: `integer|null` Processing fee charged in paise. For example, `0` indicates no fee. Returns `null` for COD payments.
+
+`tax`
+: `integer|null` Tax amount on processing fee in paise. For example, `0` indicates no tax. Returns `null` for COD payments.
+
+`error_code`
+: `string|null` Error code if payment failed. Returns `null` for successful payments.
+
+`error_description`
+: `string|null` Human-readable error description. Returns `null` for successful payments.
+
+`error_source`
+: `string|null` Source of the error. Returns `null` for successful payments.
+
+`error_step`
+: `string|null` Step at which error occurred. Returns `null` for successful payments.
+
+`error_reason`
+: `string|null` Reason for the error. Returns `null` for successful payments.
+
+`acquirer_data`
+: `object` Data from the payment acquirer.
+
+  `rrn`
+  : `string` Retrieval Reference Number from the acquirer (optional).
+  
+  `upi_transaction_id`
+  : `string` UPI transaction identifier from the acquirer (optional).
+
+`created_at`
+: `integer` Unix timestamp indicating when the payment was created. For example, `1756046099`.
+
+`receiver_type`
+: `string|null` Type of receiver for the payment. Returns `null` if not applicable.
+
+`upi`
+: `object` UPI-specific payment details (only present for UPI payments).
+
+  `vpa`
+  : `string` Virtual Payment Address used for the UPI payment.
+                
+
+         
+        
     
 
+    
+  
   
 ### 1.8 Complete Checkout Call
 

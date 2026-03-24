@@ -11,15 +11,121 @@ Use this endpoint to close a Customer Identifier.
 
 ### Request
 
-@include smart-collect/api-tpv/close
+```cURL: Curl
+curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-X POST https://api.razorpay.com/v1/virtual_accounts/va_Di5gbNptcWV8fQ/close
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+String virtualId = "va_Di5gbNptcWV8fQ";
+
+instance.virtualAccounts.close(virtualId);
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.virtual_account.close(virtualId)
+
+```php: PHP
+$api = new Api($api_key, $api_secret);
+
+$api->virtualAccount->fetch($virtualId)->close();
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+virtualId = "va_Di5gbNptcWV8fQ"
+
+Razorpay::VirtualAccount.close(virtualId)
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.virtualAccounts.close(virtualId)
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+body, err := client.VirtualAccount.Close("", nil, nil)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]
+
+string virtualId = "va_Z6t7VFTb9xHeOs";
+
+VirtualAccount virtulaccount = client.VirtualAccount.Fetch("va_MaxCJzVjbKRBAr").Close();
+```
 
 ### Response
 
-@include smart-collect/api-tpv/close-res-code
+```json: Success
+{
+  "id":"va_Di5gbNptcWV8fQ",
+  "name":"Acme Corp",
+  "entity":"virtual_account",
+  "status":"closed",
+  "description":"Customer Identifier created for M/S ABC Exports",
+  "amount_expected":230000,
+  "notes":{
+    "material":"teakwood"
+  },
+  "amount_paid":239000,
+  "customer_id":"cust_DOMUFFiGdCaCUJ",
+  "receivers":[
+    {
+      "id":"ba_Di5gbQsGn0QSz3",
+      "entity":"bank_account",
+      "ifsc":"RATN0VAAPIS",
+      "bank_name": "RBL Bank",
+      "name":"Acme Corp",
+      "notes":[],
+      "account_number":"1112220061746877"
+    }
+  ],
+  "allowed_payers": [
+    {
+      "type": "bank_account",
+      "id":"ba_DlGmm9mSj8fjRM",
+      "bank_account": {
+        "ifsc": "UTIB0000013",
+        "account_number": "914010012345679"
+      }
+    },
+    {
+      "type": "bank_account",
+      "id":"ba_Cmtnm5tSj6agUW",
+      "bank_account": {
+        "ifsc": "UTIB0000014",
+        "account_number": "914010012345680"
+      }
+    }
+  ],
+  "close_by":1574427237,
+  "closed_at":1574164078,
+  "created_at":1574143517
+}
+
+```json: Failure
+{
+  "error": {
+    "code": "BAD_REQUEST_ERROR",
+    "description": "The api key provided is invalid",
+    "source": "NA",
+    "step": "NA",
+    "reason": "NA",
+    "metadata": {}
+  }
+}
+```
 
 ### Parameters
 
-@include smart-collect/api-tpv/close-path
+`id` _mandatory_
+: `string` The unique identifier of the Customer Identifier that is to be closed.
 
 ### Parameters
 

@@ -1226,19 +1226,211 @@ If no value is passed, the refund is processed using the [default speed set on t
   
 ### Step 2: Create a Payment
 
-     @include s2s-integration/json/international-cards/payment-api-req-res
+     Once the order is created, pass the `order_id` from the Orders API response to the Payments API.
+
+/payments/create/json
+
+```curl: Request
+curl -X POST \
+https://api.razorpay.com/v1/payments/create/json \
+-u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
+-H "Content-Type: application/json" \
+-d '{
+  "amount": 10000,
+  "currency": "INR",
+  "contact": "9900008989",
+  "email": "gaurav.kumar@example.com",
+  "order_id": "order_PrcuyJDT7uSwaf",
+  "callback_url": "https://merchant_callback_url..",
+  "method": "card",
+  "card": {
+    "number": "4111111111111111",
+    "name": "Gaurav",
+    "expiry_month": "11",
+    "expiry_year": "30",
+    "cvv": "100"
+  },
+  "authentication": {
+    "authentication_channel": "browser"
+  },
+  "browser": {
+    "java_enabled": false,
+    "javascript_enabled": false,
+    "timezone_offset": 11,
+    "color_depth": 23,
+    "screen_width": 23,
+    "screen_height": 100
+  },
+  "ip": "105.106.107.108",
+  "referer": "https://merchansite.com/example/paybill",
+  "user_agent": "Mozilla/5.0"
+}'
+
+```
+
+```json: Response
+{
+  "next": [
+    {
+      "action": "redirect",
+      "url": "https://api.razorpay.com/pg_router/v1/payments/pay_Ps0cnb0OrxFcSH/dcc_info"
+    }
+  ],
+  "razorpay_payment_id": "pay_Ps0cnb0OrxFcSH"
+}
+```
 
      
       
         Request Parameters
           
-     @include s2s-integration/json/international-cards/payment-api-req-par
+     
+
+     `amount` _mandatory_
+     : `integer` Payment amount in the smallest currency sub-unit. For example, if the amount to be charged is , then pass `29900` in this field. In the case of three decimal currencies, such as KWD, BHD and OMR, to accept a payment of 295.991, pass the value as 295990. And in the case of zero decimal currencies such as JPY, to accept a payment of 295, pass the value as 295.
+
+       
+> **WARN**
+>
+> 
+>        **Watch Out!**
+> 
+>        As per payment guidelines, you should pass the last decimal number as 0 for three decimal currency payments. For example, if you want to charge a customer 99.991 KD for a transaction, you should pass the value for the amount parameter as `99990` and not `99991`.
+>        
+
+     `currency` _mandatory_
+     : `string` Currency code for the currency in which you want to accept the payment. For example, INR. Refer to the list of supported currencies. The length must be 3 characters.
+
+       
+> **INFO**
+>
+> 
+> 
+>        **Handy Tips**
+> 
+>        Razorpay has added support for zero decimal currencies, such as JPY, and three decimal currencies, such as KWD, BHD, and OMR, allowing businesses to accept international payments in these currencies. Know more about [Currency Conversion](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/international-payments/currency-conversion.md) (May 2024).
+>        
+
+     
+
+     
+
+     `order_id` _mandatory_
+     : `string` Unique identifier of the Order.
+
+     `email` _mandatory_
+     : `string` Email address of the customer. The maximum length supported is 40 characters.
+
+     `contact` _mandatory_
+     : `string` Phone number of the customer. The maximum length supported is 15 characters, inclusive of country code.
+
+     `method` _mandatory_
+     : `string` Name of the payment method. Possible value is `card`.
+
+     
+
+     `card` _mandatory_
+     : `object` Details associated with the card.
+
+         `number`
+         : `string` Unformatted card number.
+
+         `name`
+         : `string` Name of the cardholder.
+
+         `expiry_month`
+         : `string` Expiry month for the card in MM format.
+
+         `expiry_year`
+         : `string` Expiry year for the card in YY format.
+
+         `cvv`
+         : `string` CVV printed on the back of the card.
+           
+> **INFO**
+>
+> 
+>            **Handy Tips**
+> 
+>              - CVV is not required by default for tokenised cards across all networks.
+>              - CVV is optional for tokenised card payments. Do not pass dummy CVV values.
+>              - To implement this change, skip passing the `cvv` parameter entirely, or pass a `null` or empty value in the CVV field.
+>              - We recommend removing the CVV field from your checkout UI/UX for tokenised cards.
+>              - If CVV is still collected for tokenised cards and the customer enters a CVV, pass the entered CVV value to Razorpay.   
+>            
+
+     
+
+     
+
+     `user-agent` _mandatory_
+     : `string` The User-Agent header of the user's browser. The default value will be passed by Razorpay if not provided by you.
+
+     `ip` _mandatory_
+     : `string` The customer's IP address.
+
+     `authentication` _optional_
+     : `object` Details of the authentication channel.
+
+         `authentication_channel`
+         : `string` The authentication channel for the payment. Possible values:
+           - `browser` (default)
+           - `app`
+
+     `browser` _mandatory_
+     : `object` Information regarding the customer's browser. This parameter need not be passed when `authentication_channel=app`.
+
+         `java_enabled`
+         : `boolean` Indicates whether the customer's browser supports Java. Obtained from the `navigator` HTML DOM object. Possible values:
+             - `true`: Customer's browser supports Java.
+             - `false`: Customer's browser does not support Java.
+
+         `javascript_enabled`
+         : `boolean` Indicates whether the customer's browser can execute JavaScript. Obtained from the `navigator` HTML DOM object. Possible values:
+             - `true`: Customer's browser can execute JavaScript.
+             - `false`: Customer's browser cannot execute JavaScript.
+
+         `timezone_offset`
+         : `integer` Time difference between UTC time and the cardholder's browser local time. Obtained from the `getTimezoneOffset()` method applied to the `Date` object.
+
+         `screen_width`
+         : `integer` Total width of the payer's screen in pixels. Obtained from the `screen.width` HTML DOM property.
+
+         `screen_height`
+         : `integer` Obtained from the `navigator` HTML DOM object.
+
+         `color_depth`
+         : `integer` Obtained from the payer's browser using the `screen.colorDepth` HTML DOM property.
+
+         `language`
+         : `string` Obtained from the payer's browser using the `navigator.language` HTML DOM property. Maximum limit of 8 characters.
+
+     `notes` _optional_
+     : `object` Key-value object used for passing tracking info. Refer to [Notes](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/understand.md#notes) for more details.
+
+     `callback_url` _optional_
+     : `string` URL endpoint where Razorpay will submit the final payment status.
+
+     `referrer` _optional_
+     : `string` Referrer header passed by the client's browser.
         
 
       
 ### Response Parameters
 
-     @include s2s-integration/json/international-cards/payment-api-res-par
+     `next`
+     : `array` A list of action objects available to continue the payment process. Present when the payment requires further processing.
+
+       `action`
+       : `string` Indicates the next step to continue the payment process. Possible values:
+           - `otp_generate`: Use this URL to allow the customer to generate OTP and complete the payment on your webpage.
+           - `redirect`: Use this URL to redirect the customer to submit the OTP on the bank page.
+
+       `url`
+       : `string` URL to be used for the action indicated.
+
+     `razorpay_payment_id`
+     : `string` Unique identifier of the payment. Present for all responses.
         
 
       
@@ -1293,15 +1485,168 @@ if (generated_signature == razorpay_signature) {
 
 #### Generate Signature on your Server
 
-@include s2s-integration/json/cards/generate-signature
+    
+### Sample code
+
+```java: Java
+/**
+* This class defines common routines for generating
+* authentication signatures for Razorpay Webhook requests.
+*/
+public class Signature
+{
+    private static final String HMAC_SHA256_ALGORITHM = "HmacSHA256";
+    /**
+    * Computes RFC 2104-compliant HMAC signature.
+    * * @param data
+    * The data to be signed.
+    * @param key
+    * The signing key.
+    * @return
+    * The Base64-encoded RFC 2104-compliant HMAC signature.
+    * @throws
+    * java.security.SignatureException when signature generation fails
+    */
+    public static String calculateRFC2104HMAC(String data, String secret)
+    throws java.security.SignatureException
+    {
+        String result;
+        try {
+
+            // get an hmac_sha256 key from the raw secret bytes
+            SecretKeySpec signingKey = new SecretKeySpec(secret.getBytes(), HMAC_SHA256_ALGORITHM);
+
+            // get an hmac_sha256 Mac instance and initialize with the signing key
+            Mac mac = Mac.getInstance(HMAC_SHA256_ALGORITHM);
+            mac.init(signingKey);
+
+            // compute the hmac on input data bytes
+            byte[] rawHmac = mac.doFinal(data.getBytes());
+
+            // base64-encode the hmac
+            result = DatatypeConverter.printHexBinary(rawHmac).toLowerCase();
+
+        } catch (Exception e) {
+            throw new SignatureException("Failed to generate HMAC : " + e.getMessage());
+        }
+        return result;
+    }
+}
+
+```php: PHP
+use Razorpay\Api\Api;
+$api = new Api($key_id, $key_secret);
+$attributes  = array('razorpay_signature'  => '23233',  'razorpay_payment_id'  => '332' ,  'razorpay_order_id' => '12122');
+$order  = $api->utility->verifyPaymentSignature($attributes)
+
+```ruby: Ruby
+require 'razorpay'
+Razorpay.setup('key_id', 'key_secret')
+payment_response = {
+  'razorpay_order_id': '12122',
+  'razorpay_payment_id': '332',
+  'razorpay_signature': '23233'
+}
+
+Razorpay::Utility.verify_payment_signature(payment_response)
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+client.utility.verify_payment_signature({
+   'razorpay_order_id': razorpay_order_id,
+   'razorpay_payment_id': razorpay_payment_id,
+   'razorpay_signature': razorpay_signature
+   })
+
+```c: .NET
+ Dictionary attributes = new Dictionary();
+
+            attributes.Add("razorpay_payment_id", paymentId);
+            attributes.Add("razorpay_order_id", Request.Form["razorpay_order_id"]);
+            attributes.Add("razorpay_signature", Request.Form["razorpay_signature"]);
+
+            Utils.verifyPaymentSignature(attributes);
+```nodejs: Node.js
+var { validatePaymentVerification } = require('./dist/utils/razorpay-utils');
+
+validatePaymentVerification({"order_id": razorpayOrderId, "payment_id": razorpayPaymentId }, signature, secret);
+```Go: Go
+import (
+	"crypto/hmac"
+	"crypto/sha256"
+	"crypto/subtle"
+	"encoding/hex"
+	"fmt"
+)
+
+func main()  {
+	signature := "477d1cdb3f8122a7b0963704b9bcbf294f65a03841a5f1d7a4f3ed8cd1810f9b"
+	secret := "qp3zKxwLZxbMORJgEVWi3Gou"
+	data := "order_J2AeF1ZpvfqRGH|pay_J2AfAxNHgqqBiI"
+	//fmt.Printf("Secret: %s Data: %s\n", secret, data)
+	
+	// Create a new HMAC by defining the hash type and the key (as byte array)
+	h := hmac.New(sha256.New, []byte(secret))
+	
+	// Write Data to it
+	_, err := h.Write([]byte(data))
+	
+	if err != nil {
+		panic(err)
+	}
+	
+	// Get result and encode as hexadecimal string
+	sha := hex.EncodeToString(h.Sum(nil))
+	
+	fmt.Printf("Result: %s\n", sha)
+	
+	if subtle.ConstantTimeCompare([]byte(sha), []byte(signature)) == 1 {
+		fmt.Println("Works")
+	}
+}
+```
+        
 
 ### 1.5 Integrate Payments Rainy Day Kit
 
-@include rainy-day/section
+Use Payments Rainy Day kit to overcome payments exceptions such as:
+- [Late Authorisation](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/late-authorisation.md)
+- [Payment Downtime](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/downtime.md)
+- [Payment Errors](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors.md)
 
 ### 1.6 Verify Payment Status
 
-@include integration-steps/verify-payment-status
+> **INFO**
+>
+> 
+> **Handy Tips**
+> 
+> On the Razorpay Dashboard, ensure that the payment status is `captured`. Refer to the payment capture settings page to know how to [capture payments automatically](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md).
+> 
+
+    
+### You can track the payment status in three ways:
+
+    
+        To verify the payment status from the Razorpay Dashboard:
+
+        1. Log in to the Razorpay Dashboard and navigate to **Transactions** → **Payments**.
+        2. Check if a **Payment Id** has been generated and note the status. In case of a successful payment, the status is marked as **Captured**.
+        ![](/docs/assets/images/testpayment.jpg)
+    
+    
+        You can use Razorpay webhooks to configure and receive notifications when a specific event occurs. When one of these events is triggered, we send an HTTP POST payload in JSON to the webhook's configured URL. Know how to [set up webhooks.](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/webhooks/setup-edit-payments.md)
+
+        #### Example
+        If you have subscribed to the `order.paid` webhook event, you will receive a notification every time a customer pays you for an order.
+    
+    
+        [Poll Payment APIs](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/fetch-all-payments.md) to check the payment status.
+    
+
+        
 
 ## Next Steps
 

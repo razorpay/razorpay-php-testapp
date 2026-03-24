@@ -8,9 +8,22 @@ description: Know how to perform KYC for your sub-merchants from the Partner Das
 
 You can perform KYC for your sub-merchants from the Dashboard. The sub-merchant can skip KYC during onboarding. After getting this feature enabled, you would not require approval from your sub-merchants to perform their KYC.
 
-@include partners/platforms/add-ons-callout
+> **INFO**
+>
+> 
+> **Feature Request**
+> 
+> This is an on-demand feature. Please raise a request with your Razorpay point-of-contact to get it activated on your Razorpay account.
+> 
 
-@include partners/perform-kyc-advantages
+#### Advantages
+
+- **Decreases Onboarding Time by 50%** 
+
+    Partner performing KYC for sub-merchants decreases onboarding time by half and ensures a seamless onboarding experience.
+- **Value Added Service** 
+
+    Partner performing KYC acts as a delight feature for your clients.
 
 ## Perform KYC
 

@@ -19,7 +19,17 @@ There are two types of Payment Links:
 
 Upon successful payment, customers can be directed to a designated URL through the `callback_url` and `callback_method` parameters. For example, you can redirect customers to `https://example-callback-url.com/`.
 
-@include payment-links-v2/callback_url_response
+Parameter | Description
+---
+`razorpay_payment_id` | Payment ID of the successful payment.
+---
+`razorpay_payment_link_id` | Payment Link ID generated at the time of link creation.
+---
+`razorpay_payment_link_reference_id` | Internal order ID set by you for business reference using the `reference_id` parameter at the time of link creation. No value is returned if `reference_id` parameter was not used.
+---
+`razorpay_payment_link_status` | Current status of the link.
+---
+`razorpay_signature` | Signature for server-side validation to be calculated as HMAC hex digest using SHA256 algorithm. This is described below with a sample code.
 
 The query parameters are added to the URL as shown:
 
@@ -33,7 +43,16 @@ razorpay_payment_link_status=partially_paid&razorpay_signature=b0ea302006
 
 You can verify the `razorpay_signature` parameter to validate that it is authentic and sent from Razorpay servers.
 
-@include payment-links-v2/callback_url_validation
+The `razorpay_payment_link_id​` attribute should be stored in your system against an order, right after it is returned in the create [Payment Link](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/payments/payment-links.md) response. This is displayed as just `id` (for example, `"id": "plink_FKeEiabyAAiSVQ"`) in the response.
+
+- The `razorpay_signature` should be validated by your server. In order to verify the signature, you need to create a signature using 
+  - `razorpay_payment_link_id` 
+  - `razorpay_payment_link_reference_id` 
+  - `razorpay_payment_link_status`
+  - `razorpay_payment_id​` 
+  as payload and your `key_secret​` (your API secret) as secret.
+
+After validating the signature, you should fetch the order in your system corresponding to the `razorpay_payment_link_id`​ and mark this order as successful.
 
 ### Related Information
 

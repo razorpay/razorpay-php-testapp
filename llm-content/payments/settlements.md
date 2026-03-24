@@ -9,7 +9,10 @@ Settlement is the process in which the money received from your customers is set
 
 #### Prerequisites
 
-@include settlements/settlement-prerequisites
+Following are some of the prerequisites for settlements of payments from customers to your bank account:
+- Your account must be KYC approved.
+- Your account must be fully activated for payments to be settled to your bank account. Know more about [KYC Verification](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/set-up.md#2-submit-kyc-details).
+- The payment must be captured. Know more about [capturing payments](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/capture-settings.md).
 
 ## Settlement Cycle
 
@@ -104,7 +107,14 @@ This ensures that your settlements are timely and regular and you can maintain s
 
 ## Settlement States
 
-@include settlements/settlement-life-cycle
+Following are the various states of a settlement:
+
+![Settlement Life Cycle flow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/assets/images/dashboard-guide-settlement_life_cycle.jpg.md)
+
+Some reasons for settlement failure:
+- Your bank account is inactive or frozen.
+- Incorrect bank account details.
+- The settlement was rejected by your bank.
 
 ## Dashboard Actions
 

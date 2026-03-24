@@ -11,15 +11,108 @@ Use this endpoint to retrieve the details of a QR Code by using a Customer id.
 
 ### Request
 
-@include qr-codes/gst-api/fetch/customer-id
+```cURL: Curl
+curl -u : \
+-X GET https://api.razorpay.com/v1/payments/qr_codes?customer_id=cust_HKsR5se84c5LTO \
+
+```java: Java
+RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+JSONObject params = new JSONObject();
+params.put("customer_id","cust_HKsR5se84c5LTO");
+
+List qrcodes = razorpay.qrCode.fetchAll(params);
+
+```php: PHP
+$api = new Api($key_id, $secret);
+
+$api->qrCode->all(["customer_id" => $customerId])
+
+```javascript: Node.js
+var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
+
+instance.qrCode.all({"customer_id":customerId})
+
+```python: Python
+import razorpay
+client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
+
+ client.qrcode.all({"customer_id":customerId})
+
+```go: Go
+import ( razorpay "github.com/razorpay/razorpay-go" )
+client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
+
+para_attr := map[string]interface{}{
+	"customer_id" : "cust_HKsR5se84c5LTO",
+}
+
+body, err := client.QrCode.All(para_attr, nil)
+
+```ruby: Ruby
+require "razorpay"
+Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
+
+para_attr = {"customer_id":customerId}
+
+Razorpay::QrCode.all(para_attr)
+
+```csharp: .NET
+RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
+
+string CustomerId = cust_JDdNazagOgg9Ig
+
+Dictionary paramRequest = new Dictionary();
+paramRequest.Add("customer_id", CustomerId);
+
+List paymentlink = client.QrCode.All(paramRequest);
+
+```
 
 ### Response
 
-@include qr-codes/gst-api/fetch/customer-id-res
+```json: Success
+{
+  "entity": "collection",
+  "count": 1,
+  "items": [
+    {
+      "id": "qr_HMsgvioW64f0vh",
+      "entity": "qr_code",
+      "created_at": 1623660959,
+      "name": "Store_1",
+      "usage": "single_use",
+      "type": "upi_qr",
+      "image_url": "https://rzp.io/i/DTa2eQR",
+      "payment_amount": 300,
+      "status": "active",
+      "description": "For Store 1",
+      "fixed_amount": true,
+      "payments_amount_received": 0,
+      "payments_count_received": 0,
+      "notes": {
+        "purpose": "Test UPI QR Code notes"
+      },
+      "customer_id": "cust_HKsR5se84c5LTO",
+      "close_by": 1681615838,
+      "tax_invoice": {
+        "number": "INV001",
+        "date": 1589994898,
+        "customer_name": "Gaurav Kumar",
+        "business_gstin": "06AABCU9605R1ZR",
+        "gst_amount": 4000,
+        "cess_amount": 0,
+        "supply_type": "interstate"
+      }
+    }
+  ]
+}
+```
 
 ### Parameters
 
-@include qr-codes/gst-api/fetch/customer-id-query
+`id` _mandatory_
+: `string` The unique identifier of the customer. For example, `cust_FUEQArey3YFi9R`.
 
 ### Parameters
 

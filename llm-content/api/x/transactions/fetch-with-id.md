@@ -67,4 +67,100 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 
 ### Parameters
 
-@include rzpx/transactions/transactions-res
+`id`
+: `string` The unique identifier linked to the transaction. For example, `txn_00000000000001`.
+
+`entity`
+: `string` The entity created. Here, it is `transaction`.
+
+`account_number`
+: `string` The business account from which the payout was made. For example, `7878780080316316`.
+
+`amount`
+: `integer` The amount transferred, in paise. The transfer can either be a credit (when you add funds to your account) or a debit (when you make a payout).
+
+ The value passed here does not include fees and tax. Fees and tax, if any, are deducted from your account balance.
+
+`currency`
+: `string` The transaction currency. Here, it is `INR`.
+
+`credit`
+: `integer` The amount, in paise, credited to your account. Is `0` for debit transactions (when making payouts).
+
+`debit`
+: `integer` The amount, in paise, debited to your account. Is `0` for credit transactions (when adding funds to your account).
+
+`balance`
+: `integer` The remaining amount, in paise, in your account after the debit or credit transaction.
+
+`source`
+: `object` Details of the payout made or details of the bank account from which money was added to your business account.
+
+  `id`
+  : `string` The payout id when making payouts or the bank transfer id when adding funds to your account.
+
+  `entity`
+  : `string` The entity for which the transaction was created. Possible values:
+    - `payout`
+    - `bank_transfer`
+
+  `amount`
+  : `integer` The amount transferred, in paise.
+
+  `fund_account_id`
+  : `string` The unique identifier linked to the fund account. For example, `fa_00000000000001`. 
+ This value is returned only when the source entity is `payout`. 
+
+  `notes`
+  : `object` User-entered notes for internal reference. This is a key-value pair. You can enter a maximum of 15 key-value pairs. For example, `"note_key": "Beam me up Scotty”`. 
+ 
+ This value is returned only when the source entity is `payout`.
+
+  `payer_name`
+  : `string` Name linked to the account making the transfer. For example, `Saurav Kumar`. 
+ This value is returned only when the source entity is `bank_transfer`.
+
+  `payer_account`
+  : `string` The account number from which money is transferred to your business bank account. For example, `6543266545411243`. 
+ This value is returned only when the source entity is `bank_transfer`.
+
+  `payer_ifsc`
+  : `string` The branch IFSC from where the transfer is being made. For example, `UTIB0000002`. This value is returned only when the source entity is `bank_transfer`.
+
+  `mode`
+  : `string` The mode used to transfer money to your business bank account. For example, `NEFT`. This value is returned only when the source entity is `bank_transfer`.
+
+  `bank_reference`
+  : `string` Reference from the bank from which money was transferred to your business bank account. For example, `AXIR000000000001`. 
+ This value is returned only when the source entity is `bank_transfer`.
+
+`fees`
+: `integer` The fees, in paise, for the transaction. This field is populated only when the transaction moves to the `processing` state. For example, `5`. 
+ This value is returned only when the source entity is `payout`.
+
+`tax`
+: `integer` The tax, in paise, for the fee being charged. This field is populated only when the transaction moves to the `processing` state. For example, `1`. 
+ This value is returned only when the source entity is `payout`.
+
+`status`
+: `string` The status of the transaction. A transaction can be in any of the following states:
+  - `pending`
+  - `queued`
+  - `processing`
+  - `processed`
+  - `reversed`
+  - `cancelled`
+  - `rejected` 
+
+  This value is returned only when the source entity is `payout`.
+
+`utr`
+: `string` The unique transaction number for the transaction. For example, `HDFCN00000000001`. 
+ This value is returned only when the source entity is `payout`.
+
+`mode`
+: `string` The payout mode. Refer to the [Supported Banks and Payout Modes section](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/x/payouts-cards.md#supported-banks-and-payout-modes) for more details. 
+ This value is returned only when the source entity is `payout`.
+
+`created_at`
+: `integer` Timestamp, in Unix, when the source entity or transaction entity was created. For example, `1545320320`.

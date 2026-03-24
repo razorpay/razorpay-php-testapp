@@ -30,4 +30,28 @@ Track settlements by subscribing to settlement webhook events, which notify when
 
 Given below is the sample payload for Settlement webhook events.
 
-@include route/settlement-processed-payload
+```json: settlement.processed
+{
+  "entity": "event",
+  "account_id": "acc_PR7UDve9UNcOxW",
+  "event": "settlement.processed",
+  "contains": [
+    "settlement"
+  ],
+  "payload": {
+    "settlement": {
+      "entity": {
+        "id": "setl_Rf8uva1MU98B4l",
+        "entity": "settlement",
+        "amount": 1524,
+        "status": "processed",
+        "fees": 0,
+        "tax": 0,
+        "utr": "AXISCN1153863727",
+        "created_at": 1763019089
+      }
+    }
+  },
+  "created_at": 1763021990
+}
+```

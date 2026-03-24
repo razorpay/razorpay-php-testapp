@@ -69,4 +69,176 @@ The Contact, Fund Account and Payout Entities have the following parameters:
 
 ### Parameters
 
-@include rzpx/payouts/composite-amazon-pay-res
+`id`
+: `string` The unique identifier of the order.
+
+`entity`
+: `string` The entity being created. Here, it will be `payout`.
+
+`fund_account_id`
+: `string` The unique identifier linked to the fund account. For example, `fa_00000000000001`.
+
+`fund_account`
+: `object` Contact and fund account details to which the payout was made.
+
+  `id`
+  : `string` The unique identifier linked to the fund account. For example, `fa_00000000000001`.
+
+  `entity`
+  : `string` Here it will be `fund_account`.
+
+  `contact_id`
+  : `string` The unique identifier linked to the contact. For example, `cont_00000000000001`.
+
+  `contact`
+  : `object` Details of the contact to whom the payout is being made.
+
+    `id`
+    : `string` The unique identifier linked to the contact. For example, `cont_00000000000001`.
+
+    `entity`
+    : `string` The entity being created. Here, it will be `contact`.
+
+    `name`
+    : `string` The contact's name. For example, `Gaurav Kumar`.
+
+    `contact`
+    : `string` The contact's phone number. For example, `9000090000`.
+
+    `email`
+    : `string` The contact's email address. For example, `gaurav.kumar@example.com`.
+
+    `type`
+    : `string` Classification for the contact being created. For example, `employee`. Classifications are available by default:
+      - `vendor`
+      - `customer`
+      - `employee`
+      - `self`
+      
+ 
+
+      Additional Classifications can be created via the [Dashboard](https://x.razorpay.com/) and then used in APIs. It is not possible to create new Classifications via API.
+
+    `reference_id`
+    : `string` A reference you entered for the contact. For example, `Acme Contact ID 12345`.
+
+    `batch_id`
+    : `string` This value is returned if the contact was created as part of a bulk upload. For example, `batch_00000000000001`.
+
+    `active`
+    : `boolean` Possible values:
+      - `true`: active
+      - `false`: inactive
+
+    `notes`
+    : `object` User-entered notes for internal reference. This is a key-value pair. For example, `"note_key": "Beam me up Scotty"`.
+
+    `created_at`
+    : `integer` Timestamp, in Unix, when the contact was created. For example, `1545320320`.
+
+  `account_type`
+  : `string` The type of fund account being created. Here, it will be `wallet`.
+
+  `wallet`
+  : `object` The contact's wallet details. 
+
+    `provider`
+    : `string` The wallet provider. Here, it is `amazonpay`.
+
+    `phone` 
+    : `string` 10 digit beneficiary phone number with the country code. For example, `+919876543210`.
+
+    `email`
+    : `string` Beneficiary email address. For example, `gaurav.kumar@example.com`.
+
+    `name ` 
+    : `string` Wallet holder's name. Between 4 and 120 characters. This field is case-sensitive. Supported characters: `a-z`, `A-Z`, `0-9`, `space`, `’` , `-` , `_` , `/` , `(` , `)` and , `.`. For example, `Gaurav Kumar`.
+
+  `active`
+  : `boolean` Possible values:
+    - `true`: active
+    - `false`: inactive
+
+  `batch_id`
+  : `string` This value is returned if the fund account was created as part of a bulk upload. For example, `batch_00000000000001`.
+
+  `created_at`
+  : `integer` Timestamp, in Unix, when the fund account was created. For example, `1545320320`.
+
+`amount`
+: `integer` The payout amount, in paise. For example, pass `1000000` to transfer an amount of ₹10,000. Minimum value `100`. 
+ 
+ The value passed here does not include fees and tax. Fees and tax, if any, are deducted from your account balance.
+
+`currency`
+: `string` The payout's currency. Here, it is `INR`.
+
+`notes`
+: `array of objects` Key-value pair that can be used to store additional information about the entity. Maximum 15 key-value pairs, 256 characters (maximum) each. For example, `"note_key": "Beam me up Scotty"`.
+
+`fees`
+: `integer` The fees for the payout. This value is returned only when the payout moves to the `processing` state. For example, `5`.
+
+`tax`
+: `integer` The tax that is applicable for the fee being charged. This value is returned only when the payout moves to the `processing` state. For example, `1`.
+
+`status`
+: `string` The status of the payout. Possible payout states:
+    - `queued`
+    - `pending` (if you have [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) enabled)
+    - `rejected` (if you have [Approval Workflow](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/manage-teams/approval-workflow.md) enabled)
+    - `processing`
+    - `processed`
+    - `cancelled`
+    - `reversed` 
+
+    Refer to [Payout Life Cycle](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/x/payouts/states-life-cycle.md).
+
+`purpose`
+: `string` The purpose of the payout that is being created. The following classifications are available in the system by default:
+  - `refund`
+  - `cashback`
+  - `payout`
+  - `salary`
+  - `utility bill`
+  - `vendor bill`
+  
+
+  
+  Additional purposes for payouts can be created via the [RazorpayX Dashboard](https://x.razorpay.com/) and then used in the API. However, it is not possible to create a new purpose for the payout via the API.
+
+`utr`
+: `string` The unique transaction number linked to a payout. For example, `GCID1234567`.
+
+`mode`
+: `string` The mode used to make the payout. Available modes is `amazonpay`. The payout modes are case-sensitive.
+
+`reference_id`
+: `string` A user-generated reference given to the payout. Maximum length is 40 characters. For example, `Acme Transaction ID 12345`. You can use this field to store your own transaction ID, if any.
+
+`narration`
+: `string` Custom note that also appears on the bank statement. Maximum length 30 characters. Allowed characters: a-z, A-Z, 0-9 and space. 
+ 
+ You cannot enter a custom narration when creating a payout via Amazon Pay. 
+
+`batch_id`
+: `string` This value is returned if the contact was created as part of a bulk upload. For example, `batch_00000000000001`.
+
+`status_details`
+: `object` This parameter returns the current status of the payout. For example, `IMPS is not enabled on beneficiary account, Retry with different mode`.
+
+    `description`
+    : `string` A description for the error. For example, `IMPS is not enabled on beneficiary account, please retry with different mode`.
+
+    `source`
+    : `string` Possible values:
+        - `gateway`: Technical error at Razorpay Partner bank.
+        - `beneficiary_bank`: Technical error at beneficiary bank.
+        - `business`: Merchant action required.
+        - `internal`: Technical error at Razorpay's server.
+
+    `reason`
+    : `string` The error reason. For example, `imps_not_allowed`. [Payout Status Details and Next Steps](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/errors/x/payout-status-details.md).
+
+`created_at`
+: `integer` Indicates the Unix timestamp when this order was created. For example, `1545320320`.

@@ -140,7 +140,119 @@ Use Razorpay products to split and transfer payments collected from customers an
 
 Razorpay offers a wide range of integrations as given below:
 
-@include payments/platform/in-axis
+    
+    
+     
+     - **Razorpay Standard Checkout**: 
+      
+
+      - **Razorpay Custom Checkout**: 
+      
+
+     
+     
+      - **PHP**: 
+      
+
+      - **Ruby**: 
+      
+
+      - **Python**: 
+      
+
+      - **NodeJS**: 
+      
+
+      - **.NET**: 
+      
+
+      - **Java**: 
+      
+
+      - **Go**: 
+      
+
+   
+   
+
+    
+    
+     
+      
+      - **Arastta**: 
+      
+
+      - **BigCommerce**: 
+      
+
+      - **Drupal**: 
+      
+
+      - **CS-Cart**: 
+      
+
+      - **Gravity Forms**: 
+      
+
+      - **Easy Digital Download**: 
+      
+
+      - **Magento**: 
+      
+
+      - **OpenCart**: 
+      
+
+      - **PrestaShop**: 
+      
+
+      - **Shopify**: 
+      
+
+      - **WHMCS**: 
+      
+
+      - **Wix**: 
+      
+
+      - **WooCommerce**: 
+      
+
+       - **WordPress**: 
+      
+
+     
+     
+       - **Razorpay Direct - Credit Card**: 
+      
+
+     
+   
+    
+    
+     
+     
+      - **Android SDK**: 
+      
+
+      - **iOS SDK**: 
+      
+
+      - **Cordova SDK**: 
+      
+
+      - **React Native SDK**: 
+      
+
+      - **Flutter SDK**: 
+      
+
+       - **Capacitor SDK**: 
+      
+
+     
+   
+    
 
 ### Related Information
 
