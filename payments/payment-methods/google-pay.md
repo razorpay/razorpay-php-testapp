@@ -1,9 +1,9 @@
 ---
-title: Google Pay™
+title: Google Pay
 description: Enable Google Pay as a payment method for international customers using Razorpay Checkout.
 ---
 
-# Google Pay™
+# Google Pay
 
 Google Pay™ is a secure, digital wallet payment method that allows customers to pay using cards stored in their Google Account or tokenised cards on Android devices. Once Google Pay is enabled and integrated, it appears on your Checkout page as a payment option, providing a frictionless checkout experience for international customers. Know more about [Google Pay](https://pay.google.com/).
 
@@ -26,7 +26,7 @@ Google Pay™ is a secure, digital wallet payment method that allows customers t
          - **Reduced Friction**: Eliminate manual card entry with biometric authentication or device PIN.
          - **Enhanced Security**: Benefit from Google's tokenisation and device-based authentication.
          - **Faster Checkout**: 80% reduction in checkout time - from 100+ seconds to under 20 seconds.
-         - **Increased Success Rates**: Achieve 80%+ success rates compared to industry average of 50-55%.
+         - **Increased Success Rates**: Achieve 70%+ success rates compared to industry average of 50-55%.
          - **Broad Device Coverage**: Support for Android devices, Windows, Linux and macOS users (45%+ of international traffic).
          - **Global Reach**: Accept payments from customers using Google Pay across 100+ countries.
         
@@ -119,10 +119,12 @@ Supported networks are automatically configured based on your business account s
 Given below is the payment flow for Google Pay at Razorpay Checkout:
 
 1. The customer selects **Google Pay** at checkout.
+   
 2. If eligible for Dynamic Currency Conversion (DCC), the customer sees a currency selection screen. Select preferred currency (for example, INR or USD) and click **Pay with Google Pay** to proceed.
-3. Google Pay displays the payment sheet with all the card options available.
-4. Customer selects a card and completes the payment instantly.
-5. Payment processes and the customer is returned to the website with a confirmation.
+   
+2. Google Pay displays the payment sheet with all the card options available.
+3. Customer selects a card and completes the payment instantly.
+4. Payment processes and the customer is returned to the website with a confirmation.
 
 ## Device and Platform Support
 

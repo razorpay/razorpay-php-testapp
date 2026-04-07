@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-04-07T20:53:28.331Z",
+  "generated": "2026-04-07T20:58:04.777Z",
   "total": 2213,
   "base_url": "https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/",
   "routes": {
@@ -8807,7 +8807,7 @@
       "url": "https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/giropay/s2s-integration.md"
     },
     "payments/payment-methods/google-pay": {
-      "title": "Google Pay™",
+      "title": "Google Pay",
       "description": "Enable Google Pay as a payment method for international customers using Razorpay Checkout.",
       "category": "payments",
       "url": "https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payment-methods/google-pay.md"

@@ -131,6 +131,27 @@ curl -X POST 'https://api.razorpay.com/v2/accounts' \
     `addresses`
     : `object` Details of Linked Account's address.
 
+        `operation` _optional_
+        : `object` Details of the Linked Account's operational address.
+
+            `street1` 
+            : `string` Address, line 1. The maximum length is 100 characters.
+
+            `street2`
+            : `string` Address, line 2. The maximum length is 100 characters.
+
+            `city`
+            : `string` The city. The maximum length is 100 characters.
+
+            `state`
+            : `string` The state. The minimum length is 2 and the maximum length is 32.
+
+            `postal_code`
+            : `integer` The postal code. This should be exactly 6 characters.
+
+            `country`
+            : `string` The country. The minimum length is 2 and the maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`.
+
         `registered` _mandatory_
         : `object` Details of the Linked Account's registered address.
 
@@ -145,209 +166,6 @@ curl -X POST 'https://api.razorpay.com/v2/accounts' \
 
             `state`
             : `string` The state. The minimum length is 2 and the maximum length is 32.
-
-            
-
-                
-                Below are the list of supported Indian states:
-
-                
-                State Name | State Code
-                ---
-                ANDAMAN & NICOBAR ISLANDS | AN
-                ---
-                ANDAMAN AND NICOBAR ISLANDS | AN
-                ---
-                ANDHRA PRADESH | AP
-                ---
-                ARUNACHAL PRADESH | AR
-                ---
-                ASSAM | AS
-                ---
-                BIHAR | BI
-                ---
-                CHANDIGARH | CH
-                ---
-                CHHATTISGARH | CT
-                ---
-                DADRA & NAGAR HAVELI | DN
-                ---
-                DADRA AND NAGAR HAVELI | DN
-                ---
-                DAMAN & DIU | DD
-                ---
-                DAMAN AND DIU | DD
-                ---
-                DELHI | DL
-                ---
-                GOA | GO
-                ---
-                GUJARAT | GJ
-                ---
-                HARYANA | HA
-                ---
-                HIMACHAL PRADESH | HP
-                ---
-                JAMMU & KASHMIR | JK
-                ---
-                JAMMU AND KASHMIR | JK
-                ---
-                JHARKHAND | JH
-                ---
-                KARNATAKA | KA
-                ---
-                KERALA | KE
-                ---
-                LAKSHADWEEP | LD
-                ---
-                MADHYA PRADESH | MP
-                ---
-                MAHARASHTRA | MH
-                ---
-                MANIPUR | MA
-                ---
-                MEGHALAYA | ME
-                ---
-                MIZORAM | MI
-                ---
-                NAGALAND | NA
-                ---
-                ODISHA | OR
-                ---
-                PONDICHERRY | PO
-                ---
-                PUNJAB | PB
-                ---
-                RAJASTHAN | RJ
-                ---
-                SIKKIM | SK
-                ---
-                TAMIL NADU | TN
-                ---
-                TRIPURA | TR
-                ---
-                TELANGANA | TG
-                ---
-                UTTAR PRADESH | UP
-                ---
-                UTTARAKHAND | UT
-                ---
-                WEST BENGAL | WB
-                
-
-                
-                
-            `postal_code`
-            : `integer` The postal code. This should be exactly 6 characters.
-
-            `country`
-            : `string` The country. The minimum length is 2 and the maximum length is 64. This can either be a country code in capital letters or the full name of the country in lower case letters. For example, for India, you must write either `IN` or `india`.
-
-        `operation` _optional_
-        : `object` Details of the Linked Account's operational address.
-
-            `street1` 
-            : `string` Address, line 1. The maximum length is 100 characters.
-
-            `street2`
-            : `string` Address, line 2. The maximum length is 100 characters.
-
-            `city`
-            : `string` The city. The maximum length is 100 characters.
-
-            `state`
-            : `string` The state. The minimum length is 2 and the maximum length is 32. 
-            
-            
-
-                
-                Below are the list of supported Indian states:
-
-                
-                State Name | State Code
-                ---
-                ANDAMAN & NICOBAR ISLANDS | AN
-                ---
-                ANDAMAN AND NICOBAR ISLANDS | AN
-                ---
-                ANDHRA PRADESH | AP
-                ---
-                ARUNACHAL PRADESH | AR
-                ---
-                ASSAM | AS
-                ---
-                BIHAR | BI
-                ---
-                CHANDIGARH | CH
-                ---
-                CHHATTISGARH | CT
-                ---
-                DADRA & NAGAR HAVELI | DN
-                ---
-                DADRA AND NAGAR HAVELI | DN
-                ---
-                DAMAN & DIU | DD
-                ---
-                DAMAN AND DIU | DD
-                ---
-                DELHI | DL
-                ---
-                GOA | GO
-                ---
-                GUJARAT | GJ
-                ---
-                HARYANA | HA
-                ---
-                HIMACHAL PRADESH | HP
-                ---
-                JAMMU & KASHMIR | JK
-                ---
-                JAMMU AND KASHMIR | JK
-                ---
-                JHARKHAND | JH
-                ---
-                KARNATAKA | KA
-                ---
-                KERALA | KE
-                ---
-                LAKSHADWEEP | LD
-                ---
-                MADHYA PRADESH | MP
-                ---
-                MAHARASHTRA | MH
-                ---
-                MANIPUR | MA
-                ---
-                MEGHALAYA | ME
-                ---
-                MIZORAM | MI
-                ---
-                NAGALAND | NA
-                ---
-                ODISHA | OR
-                ---
-                PONDICHERRY | PO
-                ---
-                PUNJAB | PB
-                ---
-                RAJASTHAN | RJ
-                ---
-                SIKKIM | SK
-                ---
-                TAMIL NADU | TN
-                ---
-                TRIPURA | TR
-                ---
-                TELANGANA | TG
-                ---
-                UTTAR PRADESH | UP
-                ---
-                UTTARAKHAND | UT
-                ---
-                WEST BENGAL | WB
-                
-
-                
 
             `postal_code`
             : `integer` The postal code. This should be exactly 6 characters.

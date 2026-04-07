@@ -220,10 +220,10 @@ body, err := client.Product.Edit(accountId, productId, data, nil)
 
    
 
-   `beneficiary_name` _mandatory_
+   `beneficiary_name`
     : `string` The name of the beneficiary associated with the bank account.
 
-`tnc_accepted` _mandatory_
+`tnc_accepted` _optional_
 : `boolean` This parameter is optional but needs to be added to accept terms and conditions. Possible value is only `true`.
 
 ### Parameters
