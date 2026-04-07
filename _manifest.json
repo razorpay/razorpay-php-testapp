@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "generated": "2026-04-07T10:17:49.408Z",
-  "total": 2212,
+  "generated": "2026-04-07T10:44:41.996Z",
+  "total": 2216,
   "base_url": "https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/",
   "routes": {
     "announcements/gst-changes": {
@@ -2373,6 +2373,12 @@
       "description": "Check Razorpay Capital Instant Settlement APIs (On-demand Settlement APIs).",
       "category": "api",
       "url": "https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/settlements/instant.md"
+    },
+    "api/test-doc-api": {
+      "title": "Testing doc Api",
+      "description": "Sandbox setup for testing Razorpay APIs.",
+      "category": "api",
+      "url": "https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/api/test-doc-api.md"
     },
     "api/understand": {
       "title": "Understand Razorpay APIs",
@@ -9484,6 +9490,12 @@
       "category": "payments",
       "url": "https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/success-rate-analytics.md"
     },
+    "payments/payments/test": {
+      "title": "Testing",
+      "description": "Testing",
+      "category": "payments",
+      "url": "https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/payments/test.md"
+    },
     "payments/payments/test-card-details": {
       "title": "Test Cards Details to Test Payments and Subscriptions",
       "description": "Use test cards to test Indian, international and EMI payments, and Subscriptions.",
@@ -10816,6 +10828,12 @@
       "category": "payments",
       "url": "https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/subscriptions/workflow.md"
     },
+    "payments/test-doc-payment": {
+      "title": "Testing doc Payment route",
+      "description": "Sandbox setup for testing Razorpay APIs.",
+      "category": "payments",
+      "url": "https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/payments/test-doc-payment.md"
+    },
     "payments/third-party-validation/bank-list": {
       "title": "Supported Banks",
       "description": "List of banks that Razorpay has partnered with for Third-Party Validation (TPV).",
@@ -12021,6 +12039,12 @@
       "description": "Download Razorpay SSL certificates and whitelist our API and Webhooks IP addresses.",
       "category": "security",
       "url": "https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/security/whitelists.md"
+    },
+    "test-doc-main": {
+      "title": "Testing doc Main",
+      "description": "Sandbox setup for testing Razorpay APIs.",
+      "category": "test-doc-main",
+      "url": "https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/test-doc-main.md"
     },
     "test-ssr": {
       "title": "Testing SSR",
