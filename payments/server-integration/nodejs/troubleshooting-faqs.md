@@ -36,9 +36,9 @@ description: Troubleshoot common error scenarios and find answers to frequently 
              alert(response.razorpay_signature)
          },
          "prefill": {
-             "name": "",
-             "email": "",
-             "contact": ""
+             "name": "Gaurav Kumar",
+             "email": "gaurav.kumar@example.com",
+             "contact": "+919876543210"
          },
          "notes": {
              "address": "Razorpay Corporate Office"
@@ -76,9 +76,9 @@ description: Troubleshoot common error scenarios and find answers to frequently 
          "order_id": "order_IluGWxBm9U8zJ8", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
          "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
          "prefill": {
-             "name": "",
-             "email": "",
-             "contact": ""
+             "name": "Gaurav Kumar",
+             "email": "gaurav.kumar@example.com",
+             "contact": "+919876543210"
          },
          "notes": {
              "address": "Razorpay Corporate Office"

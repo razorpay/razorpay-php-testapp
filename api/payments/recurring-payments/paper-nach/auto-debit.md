@@ -56,9 +56,9 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       -X POST https://api.razorpay.com/v1/customers \
       -H "Content-Type: application/json" \
       -d '{
-        "name": "",
-        "email": "",
-        "contact": "",
+        "name": "Gaurav Kumar",
+        "email": "gaurav.kumar@example.com",
+        "contact": "+919876543210",
         "fail_existing": "0",
         "notes":{
           "note_key_1": "September",
@@ -70,9 +70,9 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
 
       JSONObject customerRequest = new JSONObject();
-      customerRequest.put("name","");
-      customerRequest.put("contact","");
-      customerRequest.put("email","");
+      customerRequest.put("name","Gaurav Kumar");
+      customerRequest.put("contact","+919876543210");
+      customerRequest.put("email","gaurav.kumar@example.com");
       customerRequest.put("fail_existing", "0");
       JSONObject notes = new JSONObject();
       notes.put("notes_key_1","Tea, Earl Grey, Hot");
@@ -86,9 +86,9 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
 
       client.customer.create({
-          'name': '',
-          'email': '',
-          'contact': '',
+          'name': 'Gaurav Kumar',
+          'email': 'gaurav.kumar@example.com',
+          'contact': '+919876543210',
           'fail_existing': "0",
           'notes': {'note_key_1': 'September', 'note_key_2': 'Make it so.'}
           })
@@ -98,9 +98,9 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
 
       data := map[string]interface{}{
-          "name": "",
-          "contact": ,
-          "email": "",
+          "name": "Gaurav Kumar",
+          "contact": +919876543210,
+          "email": "gaurav.kumar@example.com",
           "fail_existing": "0",
           "notes": map[string]interface{}{
               "notes_key_1": "Tea, Earl Grey, Hot",
@@ -112,15 +112,15 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       ```php: PHP
       $api = new Api($key_id, $secret);
 
-      $api->customer->create(array('name' => '', 'email' => '','contact'=>'','fail_existing' => "0", 'notes'=> array('notes_key_1'=> 'Tea, Earl Grey, Hot','notes_key_2'=> 'Tea, Earl Grey… decaf'));
+      $api->customer->create(array('name' => 'Gaurav Kumar', 'email' => 'gaurav.kumar@example.com','contact'=>'+919876543210','fail_existing' => "0", 'notes'=> array('notes_key_1'=> 'Tea, Earl Grey, Hot','notes_key_2'=> 'Tea, Earl Grey… decaf'));
       ```csharp: .NET
       RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
 
       Dictionary options = new Dictionary();
 
-      options.Add("name", ""); 
-      options.Add("contact", ""); 
-      options.Add("email", ""); 
+      options.Add("name", "Gaurav Kumar"); 
+      options.Add("contact", "+919876543210"); 
+      options.Add("email", "gaurav.kumar@example.com"); 
       options.Add("fail_existing", "0"); 
 
       Customer customer = Customer.Create(options);
@@ -130,9 +130,9 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
 
       para_attr = {
-        "name": "",
-        "contact": "",
-        "email": "",
+        "name": "Gaurav Kumar",
+        "contact": "+919876543210",
+        "email": "gaurav.kumar@example.com",
         "fail_existing": "0",
         "notes": {
           "notes_key_1": "Tea, Earl Grey, Hot",
@@ -146,9 +146,9 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
 
       instance.customers.create({
-        name: "",
-        contact: "",
-        email: "",
+        name: "Gaurav Kumar",
+        contact: "+919876543210",
+        email: "gaurav.kumar@example.com",
         fail_existing: "0",
         notes: {
           notes_key_1: "Tea, Earl Grey, Hot",
@@ -161,9 +161,9 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       {
         "id":"cust_1Aa00000000001",
         "entity":"customer",
-        "name":"",
-        "email":"",
-        "contact":"",
+        "name":"Gaurav Kumar",
+        "email":"gaurav.kumar@example.com",
+        "contact":"+919876543210",
         "gstin":null,
         "notes":{
             "note_key_1":"September",
@@ -2627,8 +2627,8 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 -X POST https://api.razorpay.com/v1/payments/create/recurring \
 -H "Content-Type: application/json" \
 -d '{
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "amount": 1000,
   "currency": "",
   "order_id": "order_1Aa00000000002",
@@ -2646,8 +2646,8 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
 
 JSONObject paymentRequest = new JSONObject();
-paymentRequest.put("email", "");
-paymentRequest.put("contact", "");
+paymentRequest.put("email", "gaurav.kumar@example.com");
+paymentRequest.put("contact", "+919876543210");
 paymentRequest.put("amount", 1000);
 paymentRequest.put("currency", "");
 paymentRequest.put("order_id", "order_1Aa00000000002");
@@ -2664,14 +2664,14 @@ Payment payment = razorpay.payments.createRecurringPayment(paymentRequest);
 ```php: PHP
 $api = new Api($key_id, $secret);
 
-$api->payment->createRecurring(array('email'=>'','contact'=>'','amount'=>100,'currency'=>'','order_id'=>'order_1Aa00000000002','customer_id'=>'cust_1Aa00000000001','token'=>'token_1Aa00000000001','recurring'=>true,'description'=>'Creating recurring payment for Gaurav Kumar'));
+$api->payment->createRecurring(array('email'=>'gaurav.kumar@example.com','contact'=>'+919876543210','amount'=>100,'currency'=>'','order_id'=>'order_1Aa00000000002','customer_id'=>'cust_1Aa00000000001','token'=>'token_1Aa00000000001','recurring'=>true,'description'=>'Creating recurring payment for Gaurav Kumar'));
 
 ```javascript: Node.js
 var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
 
 instance.payments.createRecurringPayment({
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "amount": 1000,
   "currency": "",
   "order_id": "order_1Aa00000000002",
@@ -2689,8 +2689,8 @@ instance.payments.createRecurringPayment({
 client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
 
 client.payment.createRecurring({
-    'email': '',
-    'contact': ,
+    'email': 'gaurav.kumar@example.com',
+    'contact': +919876543210,
     'amount': 1000,
     'currency': '',
     'order_id': "order_1Aa00000000002",
@@ -2707,8 +2707,8 @@ require "razorpay"
 Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
 
 para_attr = {
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "amount": 1000,
   "currency": "",
   "order_id": "order_1Aa00000000002",
@@ -2728,8 +2728,8 @@ import ( razorpay "github.com/razorpay/razorpay-go" )
 client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
 
 data:= map[string]interface{}{
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "amount": 1000,
   "currency": "",
   "order_id": "order_1Aa00000000002",
@@ -2748,8 +2748,8 @@ body, err := Client.Payment.CreateRecurringPayment(data, nil)
 RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
 
 Dictionary paymentRequest = new Dictionary();
-paymentRequest.Add("email", "");
-paymentRequest.Add("contact", "");
+paymentRequest.Add("email", "gaurav.kumar@example.com");
+paymentRequest.Add("contact", "+919876543210");
 paymentRequest.Add("amount", 1000);
 paymentRequest.Add("currency", "");
 paymentRequest.Add("order_id", "order_MZ35KPxZaqxfXq");

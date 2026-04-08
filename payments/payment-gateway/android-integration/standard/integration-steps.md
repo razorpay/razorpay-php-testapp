@@ -357,11 +357,11 @@ You can create an order using:
 
          ```java: Java
          PayloadHelper payloadHelper = new PayloadHelper("", 100, "order_XXXXXXXXX");
-               payloadHelper.setName("");
+               payloadHelper.setName("Gaurav Kumar");
                payloadHelper.setDescription("Description");
-               payloadHelper.setPrefillEmail("");
-               payloadHelper.setPrefillContact("");
-               payloadHelper.setPrefillCardNum("");
+               payloadHelper.setPrefillEmail("gaurav.kumar@example.com");
+               payloadHelper.setPrefillContact("+919876543210");
+               payloadHelper.setPrefillCardNum("4628 9499 7226 2986");
                payloadHelper.setPrefillCardCvv("111");
                payloadHelper.setPrefillCardExp("11/30");
                payloadHelper.setPrefillMethod("card");
@@ -392,11 +392,11 @@ You can create an order using:
                payloadHelper.setOrderId("order_XXXXXXXXXXXXXX");
          ```java: Kotlin
          val payloadHelper = PayloadHelper("", 100, "order_XXXXXXXXX")
-                 payloadHelper.name = ""
+                 payloadHelper.name = "Gaurav Kumar"
                  payloadHelper.description = "Description"
-                 payloadHelper.prefillEmail = ""
-                 payloadHelper.prefillContact = ""
-                 payloadHelper.prefillCardNum = ""
+                 payloadHelper.prefillEmail = "gaurav.kumar@example.com"
+                 payloadHelper.prefillContact = "+919876543210"
+                 payloadHelper.prefillCardNum = "4628 9499 7226 2986"
                  payloadHelper.prefillCardCvv = "111"
                  payloadHelper.prefillCardExp = "11/30"
                  payloadHelper.prefillMethod = "card"
@@ -469,8 +469,8 @@ You can create an order using:
                options.put("theme.color", "#3399cc");
                options.put("currency", "");
                options.put("amount", "50000");//pass amount in currency subunits
-               options.put("prefill.email", "");
-               options.put("prefill.contact","");
+               options.put("prefill.email", "gaurav.kumar@example.com");
+               options.put("prefill.contact","+919876543210");
                JSONObject retryObj = new JSONObject();
                retryObj.put("enabled", true);
                retryObj.put("max_count", 4);
@@ -507,8 +507,8 @@ You can create an order using:
                      options.put("retry", retryObj);
 
                      val prefill = JSONObject()
-                     prefill.put("email","")
-                     prefill.put("contact","")
+                     prefill.put("email","gaurav.kumar@example.com")
+                     prefill.put("contact","+919876543210")
 
                      options.put("prefill",prefill)
                      co.open(activity,options)

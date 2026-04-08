@@ -480,10 +480,10 @@ You must pass these parameters in Checkout to initiate the payment.
        ],
        "shipping_country": "in",
        "customer_details": {
-         "email": "",
-         "contact": "",
+         "email": "gaurav.kumar@example.com",
+         "contact": "+919876543210",
          "shipping_address": {
-           "name": "",
+           "name": "Gaurav Kumar",
            "line1": "123 Main Street",
            "city": "Bengaluru",
            "state": "KARNATAKA",

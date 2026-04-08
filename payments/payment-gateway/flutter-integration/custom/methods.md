@@ -111,8 +111,8 @@ onPressed: () {
            'key': key,
            'amount': 100,
            'currency': '',
-           'email': '',
-           'contact': '',
+           'email': 'gaurav.kumar@example.com',
+           'contact': '+919876543210',
            'method': 'netbanking',
            'bank': 'hdfc'
        };

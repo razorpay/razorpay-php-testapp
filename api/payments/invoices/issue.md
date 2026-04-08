@@ -69,9 +69,9 @@ Invoice invoice = client.Invoice.Fetch(invoiceId).Issue();
   "customer_id": "cust_DAtUWmvpktokrT",
   "customer_details": {
     "id": "cust_DAtUWmvpktokrT",
-    "name": "",
-    "email": "",
-    "contact": "",
+    "name": "Gaurav Kumar",
+    "email": "gaurav.kumar@example.com",
+    "contact": "+919876543210",
     "gstin": null,
     "billing_address": {
       "id": "addr_DAtUWoxgu91obl",
@@ -85,9 +85,9 @@ Invoice invoice = client.Invoice.Fetch(invoiceId).Issue();
       "country": "in"
     },
     "shipping_address": null,
-    "customer_name": "",
-    "customer_email": "",
-    "customer_contact": ""
+    "customer_name": "Gaurav Kumar",
+    "customer_email": "gaurav.kumar@example.com",
+    "customer_contact": "+919876543210"
   },
   "order_id": "order_DBG3P8ZgDd1dsG",
   "line_items": [

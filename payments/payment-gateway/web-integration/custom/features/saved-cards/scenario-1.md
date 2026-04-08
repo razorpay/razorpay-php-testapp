@@ -35,14 +35,14 @@ Use the following code to **Create a Payment**.
        var razorpay = new Razorpay({
         key: "",
         image: "https://i.imgur.com/n5tjHFD.jpg",
-        name: "",
+        name: "Gaurav Kumar",
        });
        var data = {
         amount: 6666,
         currency: "",
         order_id: "order_ISsp1ekSCHgoAw",
-        email: "",
-        contact: ,
+        email: "gaurav.kumar@example.com",
+        contact: +919876543210,
         notes: {
           address: "Ground Floor, SJR Cyber, Laskar Hosur Road, Bengaluru",
         },
@@ -53,7 +53,7 @@ Use the following code to **Create a Payment**.
         card[expiry_month]: '11',
         card[expiry_year]: '23',
         card[cvv]: '123',
-        card[name]: ''
+        card[name]: 'Gaurav Kumar'
        };
 
        document.getElementById("rzp-button1").onclick = function(){
@@ -438,7 +438,7 @@ After the card is saved, customers can quickly complete the payment for every su
        var data = {
         amount: 6666,
         currency: "",
-        email: "",
+        email: "gaurav.kumar@example.com",
         order_id: "order_ISsp1ekSCHgoAw",
         contact: 9123456780,
         notes: {
@@ -593,12 +593,12 @@ Given below is the sample code:
        var razorpay = new Razorpay({
         key: "",
         image: "https://i.imgur.com/n5tjHFD.jpg",
-        name: "",
+        name: "Gaurav Kumar",
        });
        var data = {
         amount: 6666,
         currency: "",
-        email: "",
+        email: "gaurav.kumar@example.com",
         order_id: "order_ISsp1ekSCHgoAw",
         contact: 9123456780,
         notes: {

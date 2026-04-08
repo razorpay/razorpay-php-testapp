@@ -66,9 +66,9 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
   "reference_id": "#21132",
   "description": "Payment for policy no #23456",
   "customer": {
-    "name": "",
-    "contact": "",
-    "email": ""
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com"
   },
   "notify": {
     "sms": true,
@@ -115,9 +115,9 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
   "reference_id": "TSsd3ty1e99uu869",
   "description": "Payment for policy no #23y56",
   "customer": {
-    "name": "",
-    "contact": "",
-    "email": ""
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com"
   },
   "notify": {
     "sms": true,
@@ -175,9 +175,9 @@ instance.paymentLink.create({
   "reference_id": "#21132",
   "description": "Payment for policy no #23456",
   "customer": {
-    "name": "",
-    "contact": "",
-    "email": ""
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com"
   },
   "notify": {
     "sms": true,
@@ -225,9 +225,9 @@ instance.paymentLink.create({
   "reference_id": "#21132",
   "description": "Payment for policy no #23456",
   "customer": {
-    "name": "",
-    "contact": "",
-    "email": ""
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com"
   },
   "notify": {
     "sms": true,
@@ -275,13 +275,13 @@ Use this API endpoint for HDFC Netbanking.
 
 $api = new Api($key_id, $secret);
 
-$api->paymentLink->create(array('amount'=>1000,'currency'=>'INR','accept_partial'=>true,'first_min_partial_amount'=>100,'reference_id'=>'#21132','description'=>'Payment for policy no #23456','customer'=>array('name'=>'','contact'=>'','email'=>'',),'notify'=>array('sms'=>true,'email'=>true,),'reminder_enable'=>true,'options'=>array('checkout'=>array('config'=>array('display'=>array('blocks'=>array('banks'=>array('name'=>'Pay using HDFC','instruments'=>array(0=>array('method'=>'netbanking','banks'=>array(0=>'HDFC',),),),),),'sequence'=>array(0=>'block.banks',),'preferences'=>array('show_default_blocks'=>false,),),),),),));
+$api->paymentLink->create(array('amount'=>1000,'currency'=>'INR','accept_partial'=>true,'first_min_partial_amount'=>100,'reference_id'=>'#21132','description'=>'Payment for policy no #23456','customer'=>array('name'=>'Gaurav Kumar','contact'=>'+919876543210','email'=>'gaurav.kumar@example.com',),'notify'=>array('sms'=>true,'email'=>true,),'reminder_enable'=>true,'options'=>array('checkout'=>array('config'=>array('display'=>array('blocks'=>array('banks'=>array('name'=>'Pay using HDFC','instruments'=>array(0=>array('method'=>'netbanking','banks'=>array(0=>'HDFC',),),),),),'sequence'=>array(0=>'block.banks',),'preferences'=>array('show_default_blocks'=>false,),),),),),));
 
 Use this API endpoint for Reordered Payment Methods.
 
 $api = new Api($key_id, $secret);
 
-$api->paymentLink->create(array('amount'=>1000,'currency'=>'INR','accept_partial'=>true,'first_min_partial_amount'=>100,'reference_id'=>'#21132','description'=>'Payment for policy no #23456','customer'=>array('name'=>'','contact'=>'','email'=>'',),'notify'=>array('sms'=>true,'email'=>true,),'reminder_enable'=>true,'options'=>array('checkout'=>array('config'=>array('display'=>array('blocks'=>array('banks'=>array('name'=>'All Payment Methods','instruments'=>array(0=>array('method'=>'upi',),1=>array('method'=>'netbanking',),2=>array('method'=>'card',),3=>array('method'=>'wallet',),),),),'sequence'=>array(0=>'block.banks',),'preferences'=>array('show_default_blocks'=>false,),),),),),));
+$api->paymentLink->create(array('amount'=>1000,'currency'=>'INR','accept_partial'=>true,'first_min_partial_amount'=>100,'reference_id'=>'#21132','description'=>'Payment for policy no #23456','customer'=>array('name'=>'Gaurav Kumar','contact'=>'+919876543210','email'=>'gaurav.kumar@example.com',),'notify'=>array('sms'=>true,'email'=>true,),'reminder_enable'=>true,'options'=>array('checkout'=>array('config'=>array('display'=>array('blocks'=>array('banks'=>array('name'=>'All Payment Methods','instruments'=>array(0=>array('method'=>'upi',),1=>array('method'=>'netbanking',),2=>array('method'=>'card',),3=>array('method'=>'wallet',),),),),'sequence'=>array(0=>'block.banks',),'preferences'=>array('show_default_blocks'=>false,),),),),),));
 
 ```go: Go 
 
@@ -298,9 +298,9 @@ para_attr := map[string]interface{}{
         "reference_id": "#21132",
         "description": "Payment for policy no #23456",
         "customer": map[string]interface{}{
-          "name": "",
-          "contact": "",
-          "email": ",
+          "name": "Gaurav Kumar",
+          "contact": "+919876543210",
+          "email": gaurav.kumar@example.com",
         },
         "notify": map[string]interface{}{
           "sms": true,
@@ -352,9 +352,9 @@ para_attr := map[string]interface{}{
         "reference_id": "#21132",
         "description": "Payment for policy no #23456",
         "customer": map[string]interface{}{
-          "name": "",
-          "contact": "",
-          "email": "",
+          "name": "Gaurav Kumar",
+          "contact": "+919876543210",
+          "email": "gaurav.kumar@example.com",
         },
         "notify": map[string]interface{}{
           "sms": true,
@@ -418,9 +418,9 @@ paymentLinkRequest.put("expire_by",1691097057);
 paymentLinkRequest.put("reference_id","TS1989");
 paymentLinkRequest.put("description","Payment for policy no #23456");
 JSONObject customer = new JSONObject();
-customer.put("name","");
-customer.put("contact","");
-customer.put("email","");
+customer.put("name","Gaurav Kumar");
+customer.put("contact","+919876543210");
+customer.put("email","gaurav.kumar@example.com");
 paymentLinkRequest.put("customer",customer);
 JSONObject notify = new JSONObject();
 notify.put("sms",true);
@@ -471,9 +471,9 @@ paymentLinkRequest.put("expire_by",1691097057);
 paymentLinkRequest.put("reference_id","TS1989");
 paymentLinkRequest.put("description","Payment for policy no #23456");
 JSONObject customer = new JSONObject();
-customer.put("name","");
-customer.put("contact","");
-customer.put("email","");
+customer.put("name","Gaurav Kumar");
+customer.put("contact","+919876543210");
+customer.put("email","gaurav.kumar@example.com");
 paymentLinkRequest.put("customer",customer);
 JSONObject notify = new JSONObject();
 notify.put("sms",true);
@@ -530,9 +530,9 @@ paymentLinkRequest.Add("expire_by", 1691097057);
 paymentLinkRequest.Add("reference_id", "TS1989");
 paymentLinkRequest.Add("description", "Payment for policy no #23456");
 Dictionary customer = new Dictionary();
-customer.Add("name", "");
-customer.Add("contact", "");
-customer.Add("email", "");
+customer.Add("name", "Gaurav Kumar");
+customer.Add("contact", "+919876543210");
+customer.Add("email", "gaurav.kumar@example.com");
 paymentLinkRequest.Add("customer", customer);
 Dictionary notify = new Dictionary();
 notify.Add("sms", true);
@@ -578,9 +578,9 @@ paymentLinkRequest.Add("expire_by", 1691097057);
 paymentLinkRequest.Add("reference_id", "TS1989");
 paymentLinkRequest.Add("description", "Payment for policy no #23456");
 Dictionary customer = new Dictionary();
-customer.Add("name", "");
-customer.Add("contact", "");
-customer.Add("email", "");
+customer.Add("name", "Gaurav Kumar");
+customer.Add("contact", "+919876543210");
+customer.Add("email", "gaurav.kumar@example.com");
 paymentLinkRequest.Add("customer", customer);
 Dictionary notify = new Dictionary();
 notify.Add("sms", true);
@@ -636,9 +636,9 @@ para_attr = {
     "reference_id": "#21132",
     "description": "Payment for policy no #23456",
     "customer": {
-      "name": "",
-      "contact": "",
-      "email": ""
+      "name": "Gaurav Kumar",
+      "contact": "+919876543210",
+      "email": "gaurav.kumar@example.com"
     },
     "notify": {
       "sms": true,
@@ -690,9 +690,9 @@ para_attr = {
     "reference_id": "#21132",
     "description": "Payment for policy no #23456",
     "customer": {
-      "name": "",
-      "contact": "",
-      "email": ""
+      "name": "Gaurav Kumar",
+      "contact": "+919876543210",
+      "email": "gaurav.kumar@example.com"
     },
     "notify": {
       "sms": true,
@@ -751,9 +751,9 @@ client.payment_link.create({
   "reference_id": "#21132",
   "description": "Payment for policy no #23456",
   "customer": {
-    "name": "",
-    "contact": "",
-    "email": ""
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com"
   },
   "notify": {
     "sms": true,
@@ -802,9 +802,9 @@ client.payment_link.create({
   "reference_id": "#21132",
   "description": "Payment for policy no #23456",
   "customer": {
-    "name": "",
-    "contact": "",
-    "email": ""
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com"
   },
   "notify": {
     "sms": true,

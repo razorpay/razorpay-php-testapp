@@ -81,14 +81,14 @@ List subscription = client.Invoice.All(param);
       "customer_details": {
         "id": "cust_00000000000001",
         "name": null,
-        "email": "",
-        "contact": "",
+        "email": "gaurav.kumar@example.com",
+        "contact": "+919876543210",
         "gstin": null,
         "billing_address": null,
         "shipping_address": null,
         "customer_name": null,
-        "customer_email": "",
-        "customer_contact": ""
+        "customer_email": "gaurav.kumar@example.com",
+        "customer_contact": "+919876543210"
       },
       "order_id": "order_00000000000002",
       "subscription_id": "sub_00000000000001",
@@ -158,14 +158,14 @@ List subscription = client.Invoice.All(param);
       "customer_details": {
         "id": "cust_00000000000001",
         "name": null,
-        "email": "",
-        "contact": "",
+        "email": "gaurav.kumar@example.com",
+        "contact": "+919876543210",
         "gstin": null,
         "billing_address": null,
         "shipping_address": null,
         "customer_name": null,
-        "customer_email": "",
-        "customer_contact": ""
+        "customer_email": "gaurav.kumar@example.com",
+        "customer_contact": "+919876543210"
       },
       "order_id": "order_00000000000001",
       "subscription_id": "sub_00000000000001",

@@ -28,14 +28,14 @@ If you are collecting customer consent, ensure that you pass the following param
        var razorpay = new Razorpay({
         key: "",
         image: "https://i.imgur.com/n5tjHFD.jpg",
-        name: "",
+        name: "Gaurav Kumar",
        });
        var data = {
         amount: 6666,
         currency: "",
-        email: "",
+        email: "gaurav.kumar@example.com",
         order_id: "order_ISsp1ekSCHgoAw",
-        contact: ,
+        contact: +919876543210,
         notes: {
           address: "Ground Floor, SJR Cyber, Laskar Hosur Road, Bengaluru",
         },
@@ -47,7 +47,7 @@ If you are collecting customer consent, ensure that you pass the following param
         card[expiry_month]: '11',
         card[expiry_year]: '23',
         card[cvv]: '123',
-        card[name]: ''
+        card[name]: 'Gaurav Kumar'
        };
 
        document.getElementById("rzp-button1").onclick = function(){
@@ -79,12 +79,12 @@ If you are not collecting customer consent, ensure that you pass the following p
        var razorpay = new Razorpay({
         key: "",
         image: "https://i.imgur.com/n5tjHFD.jpg",
-        name: "",
+        name: "Gaurav Kumar",
        });
        var data = {
         amount: 6666,
         currency: "",
-        email: "",
+        email: "gaurav.kumar@example.com",
         order_id: "order_ISsp1ekSCHgoAw",
         contact: ,
         notes: {
@@ -97,7 +97,7 @@ If you are not collecting customer consent, ensure that you pass the following p
         card[expiry_month]: '11',
         card[expiry_year]: '23',
         card[cvv]: '123',
-        card[name]: ''
+        card[name]: 'Gaurav Kumar'
        };
 
        document.getElementById("rzp-button1").onclick = function(){

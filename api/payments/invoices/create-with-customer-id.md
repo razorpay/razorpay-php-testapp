@@ -142,14 +142,14 @@ Invoice invoice = client.Invoice.Create(invoiceRequest);
   "customer_details": {
     "id": "cust_HOQzpsovChhcpl",
     "name": null,
-    "email": "",
-    "contact": "",
+    "email": "gaurav.kumar@example.com",
+    "contact": "+919876543210",
     "gstin": null,
     "billing_address": null,
     "shipping_address": null,
     "customer_name": null,
-    "customer_email": "",
-    "customer_contact": ""
+    "customer_email": "gaurav.kumar@example.com",
+    "customer_contact": "+919876543210"
   },
   "order_id": "order_K6g5bxSIwYIXJS",
   "line_items": [

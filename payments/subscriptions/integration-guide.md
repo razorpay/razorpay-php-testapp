@@ -73,9 +73,9 @@ Follow these steps to create plans, subscriptions and accept payments from custo
 									"image": "/your_logo.jpg",
 									"callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
 									"prefill": {
-										"name": "",
-										"email": "",
-										"contact": ""
+										"name": "Gaurav Kumar",
+										"email": "gaurav.kumar@example.com",
+										"contact": "+919876543210"
 									},
 									"notes": {
 										"note_key_1": "Tea. Earl Grey. Hot",
@@ -107,9 +107,9 @@ Follow these steps to create plans, subscriptions and accept payments from custo
 										alert(response.razorpay_signature);
 									},
 									"prefill": {
-										"name": "",
-										"email": "",
-										"contact": ""
+										"name": "Gaurav Kumar",
+										"email": "gaurav.kumar@example.com",
+										"contact": "+919876543210"
 									},
 									"notes": {
 										"note_key_1": "Tea. Earl Grey. Hot",

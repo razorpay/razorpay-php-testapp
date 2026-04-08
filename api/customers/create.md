@@ -127,9 +127,9 @@ instance.customers.create({
 {
   "id" : "cust_1Aa00000000004",
   "entity": "customer",
-  "name" : "",
-  "email" : "",
-  "contact" : "",
+  "name" : "Gaurav Kumar",
+  "email" : "gaurav.kumar@example.com",
+  "contact" : "+919876543210",
   "gstin": null,
   "notes": {
     "notes_key_1":"Tea, Earl Grey, Hot",

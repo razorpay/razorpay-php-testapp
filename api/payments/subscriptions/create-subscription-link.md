@@ -37,8 +37,8 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
     "notes_key_2":"Tea, Earl Grey… decaf."
   },
   "notify_info":{
-    "notify_phone": "",
-    "notify_email": ""
+    "notify_phone": "+919876543210",
+    "notify_email": "gaurav.kumar@example.com"
   }
 }'
 
@@ -66,8 +66,8 @@ notes.Add("notes_key_1", "Tea, Earl Grey, Hot");
 notes.Add("notes_key_2", "Tea, Earl Grey… decaf.");
 subscriptionRequest.Add("notes", notes);
 Dictionary notifyInfo = new Dictionary();
-notifyInfo.Add("notify_phone", "");
-notifyInfo.Add("notify_email", "");
+notifyInfo.Add("notify_phone", "+919876543210");
+notifyInfo.Add("notify_email", "gaurav.kumar@example.com");
 subscriptionRequest.Add("notify_info", notifyInfo);
 
 Subscription subscription = client.Subscription.Create(subscriptionRequest);
@@ -97,8 +97,8 @@ notes.put("notes_key_1","Tea, Earl Grey, Hot");
 notes.put("notes_key_2","Tea, Earl Grey… decaf.");
 subscriptionRequest.put("notes", notes);
 JSONObject notifyInfo = new JSONObject();
-notifyInfo.put("notify_phone","");
-notifyInfo.put("notify_email","");
+notifyInfo.put("notify_phone","+919876543210");
+notifyInfo.put("notify_email","gaurav.kumar@example.com");
 subscriptionRequest.put("notify_info",notifyInfo);
 
 Subscription subscription = razorpay.subscriptions.create(subscriptionRequest);
@@ -106,7 +106,7 @@ Subscription subscription = razorpay.subscriptions.create(subscriptionRequest);
 ```php: PHP
 $api = new Api($key_id, $secret);
 
-$api->subscription->create(array('plan_id' => 'plan_HoYg68p5kmuvzD','total_count' => 12,'quantity' => 1,'expire_by' => 1633237807,'customer_notify' => true, 'addons' => array(array('item'=>array('name' => 'Delivery charges','amount' => 30000,'currency' => ''))),'notes'=>array('notes_key_1'=>'Tea, Earl Grey, Hot','notes_key_2'=>'Tea, Earl Grey… decaf.'),'notify_info'=>array('notify_phone' => '','notify_email'=> '')));
+$api->subscription->create(array('plan_id' => 'plan_HoYg68p5kmuvzD','total_count' => 12,'quantity' => 1,'expire_by' => 1633237807,'customer_notify' => true, 'addons' => array(array('item'=>array('name' => 'Delivery charges','amount' => 30000,'currency' => ''))),'notes'=>array('notes_key_1'=>'Tea, Earl Grey, Hot','notes_key_2'=>'Tea, Earl Grey… decaf.'),'notify_info'=>array('notify_phone' => '+919876543210','notify_email'=> 'gaurav.kumar@example.com')));
 
 ```javascript: Node.js
 var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
@@ -131,8 +131,8 @@ instance.subscriptions.create({
     notes_key_2: "Tea, Earl Grey… decaf."
   },
   notify_info: {
-    notify_phone: "",
-    notify_email: ""
+    notify_phone: "+919876543210",
+    notify_email: "gaurav.kumar@example.com"
   }
 })
 
@@ -150,8 +150,8 @@ client.subscription.create({
                'currency': ''}}],
     'notes': {'notes_key_1': 'Tea, Earl Grey, Hot',
               'notes_key_2': 'Tea, Earl Grey\xe2\x80\xa6 decaf.'},
-    'notify_info': {'notify_phone': '',
-                    'notify_email': ''}
+    'notify_info': {'notify_phone': '+919876543210',
+                    'notify_email': 'gaurav.kumar@example.com'}
     })
 
 ```ruby: Ruby
@@ -178,8 +178,8 @@ para_attr = {
     "notes_key_2": "Tea, Earl Grey… decaf."
   },
   "notify_info": {
-    "notify_phone": "",
-    "notify_email": ""
+    "notify_phone": "+919876543210",
+    "notify_email": "gaurav.kumar@example.com"
   }
 }
 
@@ -211,8 +211,8 @@ data := map[string]interface{}{
     "notes_key_2":"Tea, Earl Grey… decaf.",
   },
   "notify_info":map[string]interface{}{
-    "notify_phone": "",
-    "notify_email": "",
+    "notify_phone": "+919876543210",
+    "notify_email": "gaurav.kumar@example.com",
   },
 }
 body, err := client.Subscription.Create(data, nil)

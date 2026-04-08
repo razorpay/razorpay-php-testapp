@@ -17,9 +17,9 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
 -H 'content-type : application/json'
 -d '{
   "contact": "+919000090000",
-  "email": "",
+  "email": "gaurav.kumar@example.com",
   "shipping_address": {
-    "name": "",
+    "name": "Gaurav Kumar",
     "line1": "125/12, Rajaji Street,",
     "line2": "Near Culverton Park",
     "zipcode": "560068",
@@ -30,7 +30,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
     "primary": false
   },
   "billing_address": {
-    "name": "",
+    "name": "Gaurav Kumar",
     "line1": "125/12, Rajaji Street,",
     "line2": "Near Culverton Park",
     "zipcode": "560068",

@@ -400,8 +400,8 @@ try {
 	data.put("amount", 50000); // pass in currency subunits.
     data.put("currency", ""); // pass the currency code.
 	data.put("order_id", "order_DgZ26rHjbzLLY2");//sample order_id. Generate orders using Orders API
-	data.put("email", "");
-	data.put("contact", "");
+	data.put("email", "gaurav.kumar@example.com");
+	data.put("contact", "+919876543210");
 	JSONObject notes = new JSONObject();
 	notes.put("custom_field", "abc");
 	data.put("notes", notes);
@@ -433,7 +433,7 @@ try {
                 "{currency: ''}")
             payload.put("amount", "50000")
             payload.put("contact", "9000090000")
-            payload.put("email", "")
+            payload.put("email", "gaurav.kumar@example.com")
         } catch (e: Exception) {
             e.printStackTrace()
         }

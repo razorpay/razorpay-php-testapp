@@ -393,7 +393,7 @@ Follow the steps given below:
                      currency: '',
                      name: 'Acme Corp',
                      prefill: {
-                         email: '',
+                         email: 'gaurav.kumar@example.com',
                          contact: '9000090000'
                      },
                      theme: {
@@ -1467,10 +1467,10 @@ If 9977665544 is entered, `+91` is added to it as +919977665544.
        ],
        "shipping_country": "in",
        "customer_details": {
-         "email": "",
-         "contact": "",
+         "email": "gaurav.kumar@example.com",
+         "contact": "+919876543210",
          "shipping_address": {
-           "name": "",
+           "name": "Gaurav Kumar",
            "line1": "123 Main Street",
            "city": "Bengaluru",
            "state": "KARNATAKA",

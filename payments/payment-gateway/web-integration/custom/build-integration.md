@@ -483,8 +483,8 @@ Know more about [sample codes for various payment methods](https://raw.githubuse
 var data = {
   amount: 1000, // in currency subunits. 
   currency: "",// 
-  email: '',
-  contact: '',
+  email: 'gaurav.kumar@example.com',
+  contact: '+919876543210',
   notes: {
     address: 'Ground Floor, SJR Cyber, Laskar Hosur Road, Bengaluru',
   },
@@ -514,8 +514,8 @@ var data = {
   callback_url: 'https://www.examplecallbackurl.com/',
   amount: 1000, // in currency subunits. 
   currency: "",// 
-  email: '',
-  contact: '',
+  email: 'gaurav.kumar@example.com',
+  contact: '+919876543210',
   notes: {
     address: 'Ground Floor, SJR Cyber, Laskar Hosur Road, Bengaluru',
   },

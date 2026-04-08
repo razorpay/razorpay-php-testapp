@@ -404,13 +404,13 @@ Follow the steps given below:
       'key': '',
       'amount': 50000, 
       'currency': '',
-      'name': '',
+      'name': 'Gaurav Kumar',
       'order_id': 'order_EMBFqjDHEEn80l', // Generate order_id using Orders API
       'description': 'Fine T-Shirt',
       'timeout': 60, // in seconds
       'prefill': {
-        'contact': '',
-        'email': ''
+        'contact': '+919876543210',
+        'email': 'gaurav.kumar@example.com'
       },
       'show_coupons': true // magic checkout
      };
@@ -1465,10 +1465,10 @@ If 9977665544 is entered, `+91` is added to it as +919977665544.
        ],
        "shipping_country": "in",
        "customer_details": {
-         "email": "",
-         "contact": "",
+         "email": "gaurav.kumar@example.com",
+         "contact": "+919876543210",
          "shipping_address": {
-           "name": "",
+           "name": "Gaurav Kumar",
            "line1": "123 Main Street",
            "city": "Bengaluru",
            "state": "KARNATAKA",

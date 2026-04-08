@@ -28,7 +28,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
 -d '{
   "orderId": "FFADADADADASDAS",
   "contact": "+919000090000",
-  "email": ""
+  "email": "gaurav.kumar@example.com"
 }'
 ```json: Response
 {
@@ -96,7 +96,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
 -d '{
   "orderId": "FFADADADADASDAS",
   "contact": "+919000090000",
-  "email": "",
+  "email": "gaurav.kumar@example.com",
   "cart_value": 1000,
   "shipping_charge": 24,
   "cod_charge": 10,

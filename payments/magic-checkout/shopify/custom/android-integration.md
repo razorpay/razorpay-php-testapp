@@ -394,15 +394,15 @@ Follow the steps given below:
          try {
              JSONObject options = new JSONObject();
 
-             options.put("name", "");
+             options.put("name", "Gaurav Kumar");
              options.put("description", "Reference No. #123456");
              options.put("image", "http://example.com/image/rzp.jpg");
              options.put("order_id", "order_DBJOWzybf0sJbb");//from response of step 3.
              options.put("theme.color", "#3399cc");
              options.put("currency", "");
              options.put("amount", "50000");//pass amount in currency subunits
-             options.put("prefill.email", "");
-             options.put("prefill.contact","");
+             options.put("prefill.email", "gaurav.kumar@example.com");
+             options.put("prefill.contact","+919876543210");
              options.put("show_coupons", true); // magic checkout
 
              JSONObject retryObj = new JSONObject();
@@ -441,7 +441,7 @@ Follow the steps given below:
                  options.put("retry", retryObj);
 
                  val prefill = JSONObject()
-                 prefill.put("email","")
+                 prefill.put("email","gaurav.kumar@example.com")
                  prefill.put("contact","9876543210")
                  options.put("show_coupons", true) // magic checkout
 
@@ -1445,10 +1445,10 @@ If 9977665544 is entered, `+91` is added to it as +919977665544.
        ],
        "shipping_country": "in",
        "customer_details": {
-         "email": "",
-         "contact": "",
+         "email": "gaurav.kumar@example.com",
+         "contact": "+919876543210",
          "shipping_address": {
-           "name": "",
+           "name": "Gaurav Kumar",
            "line1": "123 Main Street",
            "city": "Bengaluru",
            "state": "KARNATAKA",

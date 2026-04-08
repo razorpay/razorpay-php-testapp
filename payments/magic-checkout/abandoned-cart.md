@@ -37,7 +37,7 @@ Given below is a sample payload:
     "platform": "shopify",
     "token": "a9de14647f2c1e7b58cafeac93c4712c",
     "cart_token": "c1-68be3bdc331cfec1e79d05d8c4caa7d7",
-    "email": "",
+    "email": "gaurav.kumar@example.com",
     "phone": "+919999999999",
     "abandoned_checkout_url": "https://magic-checkout-test-store-url",
     "currency": "",
@@ -75,7 +75,7 @@ Given below is a sample payload:
         }
     ],
     "customer": {
-        "email": "",
+        "email": "gaurav.kumar@example.com",
         "first_name": "Gaurav",
         "last_name": "Kumar",
         "Shipping_address": {
@@ -88,7 +88,7 @@ Given below is a sample payload:
         "Country": "India",
         "Zip": "829122",
         "Phone": "+919999999999",
-        "Name": "",
+        "Name": "Gaurav Kumar",
         "Province_code": "KA",
         "Country_code": "IN",
         "Country_name": "India"

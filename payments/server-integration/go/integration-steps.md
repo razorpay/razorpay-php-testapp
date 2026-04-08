@@ -241,9 +241,9 @@ Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay
                           alert(response.razorpay_signature)
                       },
                       "prefill": {
-                          "name": "",
-                          "email": "",
-                          "contact": ""
+                          "name": "Gaurav Kumar",
+                          "email": "gaurav.kumar@example.com",
+                          "contact": "+919876543210"
                       },
                       "notes": {
                           "address": "Razorpay Corporate Office"
@@ -281,9 +281,9 @@ Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay
                       "order_id": "order_IluGWxBm9U8zJ8", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
                       "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
                       "prefill": {
-                          "name": "",
-                          "email": "",
-                          "contact": ""
+                          "name": "Gaurav Kumar",
+                          "email": "gaurav.kumar@example.com",
+                          "contact": "+919876543210"
                       },
                       "notes": {
                           "address": "Razorpay Corporate Office"
@@ -754,7 +754,7 @@ If 9977665544 is entered, `+91` is added to it as +919977665544.
                  ```go: Go
                  /* Go SDK: https://github.com/razorpay/razorpay-go */
 
-                 webhookbody := `{"entity":"event","account_id":"acc_HVFD0PFnHPAzKj","event":"payment.authorized","contains":["payment"],"payload":{"payment":{"entity":{"id":"pay_JUEM4c0pSLpFEW","entity":"payment","amount":12300,"currency":"","status":"authorized","order_id":"order_JUELuT6cFaHkvd","invoice_id":null,"international":false,"method":"netbanking","amount_refunded":0,"refund_status":null,"captured":false,"description":"#JUELZ1z1EC0pwi","card_id":null,"bank":"SBIN","wallet":null,"vpa":null,"email":"","contact":"+919999999999","notes":[],"fee":null,"tax":null,"error_code":null,"error_description":null,"error_source":null,"error_step":null,"error_reason":null,"acquirer_data":{"bank_transaction_id":"6416615"},"created_at":1652339804}}},"created_at":1652339806}`;
+                 webhookbody := `{"entity":"event","account_id":"acc_HVFD0PFnHPAzKj","event":"payment.authorized","contains":["payment"],"payload":{"payment":{"entity":{"id":"pay_JUEM4c0pSLpFEW","entity":"payment","amount":12300,"currency":"","status":"authorized","order_id":"order_JUELuT6cFaHkvd","invoice_id":null,"international":false,"method":"netbanking","amount_refunded":0,"refund_status":null,"captured":false,"description":"#JUELZ1z1EC0pwi","card_id":null,"bank":"SBIN","wallet":null,"vpa":null,"email":"gaurav.kumar@example.com","contact":"+919999999999","notes":[],"fee":null,"tax":null,"error_code":null,"error_description":null,"error_source":null,"error_step":null,"error_reason":null,"acquirer_data":{"bank_transaction_id":"6416615"},"created_at":1652339804}}},"created_at":1652339806}`;
 
                  signature := "56df260ab4647b07b729b0b48d2a95b71de42f109884949e5ec387a2bb8b6919";
                  webhook_secret := "123456";

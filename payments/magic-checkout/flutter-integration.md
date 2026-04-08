@@ -555,7 +555,7 @@ Order order = client.Order.Create(orderRequest);
       {
         "order_id": "SomeReceiptValue", // This is the receipt field set in the Razorpay order
         "razorpay_order_id": "EKwxwAgItmmXdp", // This is the RZP order created without the `order_` prefix
-        "email": "", // Email field will be set if the customer enters an email
+        "email": "gaurav.kumar@example.com", // Email field will be set if the customer enters an email
         "contact": "+919900000000", // Customer phone number with country code
         "addresses": [
           {
@@ -698,7 +698,7 @@ Order order = client.Order.Create(orderRequest);
       {
         "order_id": "SomeReceiptValue", // this is the receipt field set in Razorpay order
         "contact": "+919000090000", 
-        "email": ""
+        "email": "gaurav.kumar@example.com"
       }'
       ```json: Response
       {
@@ -759,7 +759,7 @@ Order order = client.Order.Create(orderRequest);
           {
             "order_id": "SomeReceiptValue", // this is the receipt field set in Razorpay order
             "contact": "+919000090000",
-            "email": "",
+            "email": "gaurav.kumar@example.com",
             "code": "500OFF"
             }'
 
@@ -869,13 +869,13 @@ Order order = client.Order.Create(orderRequest);
       'key': '',
       'amount': 50000, 
       'currency': '',
-      'name': '',
+      'name': 'Gaurav Kumar',
       'order_id': 'order_EMBFqjDHEEn80l', // Generate order_id using Orders API
       'description': 'Fine T-Shirt',
       'timeout': 60, // in seconds
       'prefill': {
-        'contact': '',
-        'email': ''
+        'contact': '+919876543210',
+        'email': 'gaurav.kumar@example.com'
       },
       'one_click_checkout': true, // magic checkout
       'show_coupons': true // magic checkout
