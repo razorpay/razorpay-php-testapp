@@ -20,9 +20,9 @@ The Payment Link entity has the following fields:
   "created_at": 1591097057,
   "currency": "",
   "customer": {
-    "contact": "",
-    "email": "",
-    "name": ""
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com",
+    "name": "Gaurav Kumar"
   },
   "description": "Payment for policy no #23456",
   "expire_by": 1691097057,
@@ -57,9 +57,9 @@ The Payment Link entity has the following fields:
   "created_at": 1591097057,
   "currency": "",
   "customer": {
-    "contact": "",
-    "email": "",
-    "name": ""
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com",
+    "name": "Gaurav Kumar"
   },
   "description": "Payment for policy no #23456",
   "expire_by": 1691097057,

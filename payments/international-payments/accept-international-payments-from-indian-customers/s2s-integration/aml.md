@@ -39,9 +39,9 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
   "customer_id": "cust_OwZZseNBf9Uqsi",
   "customer_details": {
     "business_type": "individual",
-    "name": "",
-    "email": "",
-    "contact": "",
+    "name": "Gaurav Kumar",
+    "email": "gaurav.kumar@example.com",
+    "contact": "+919876543210",
     "individual": {
       "date_of_birth": {
         "day": 27,
@@ -319,9 +319,9 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
     "screening": ["aml"]
   },
   "customer_details": {
-    "name": "",
-    "email": "",
-    "contact": "",
+    "name": "Gaurav Kumar",
+    "email": "gaurav.kumar@example.com",
+    "contact": "+919876543210",
     "billing_address": {
       "line1": "Mantri apartment",
       "line2": "Koramangala",
@@ -756,9 +756,9 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 -d '{
   "customer_details": {
     "type": "individual",
-    "name": "",
-    "email": "",
-    "contact": "",
+    "name": "Gaurav Kumar",
+    "email": "gaurav.kumar@example.com",
+    "contact": "+919876543210",
     "individual": {
       "date_of_birth": {
         "day": 27,
@@ -790,9 +790,9 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
   "status": "attempted",
   "attempts": 1,
   "customer_details": {
-    "name": "",
-    "email": "",
-    "contact": "",
+    "name": "Gaurav Kumar",
+    "email": "gaurav.kumar@example.com",
+    "contact": "+919876543210",
     "business_type": "individual",
     "individual": {
       "date_of_birth": {

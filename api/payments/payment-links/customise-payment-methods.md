@@ -30,9 +30,9 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
   "reference_id": "#523442",
   "description": "Payment for policy no #23456",
   "customer": {
-    "name": "",
-    "contact": "",
-    "email": ""
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com"
   },
   "notify": {
     "sms": true,
@@ -54,7 +54,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 ```php: PHP
 $api = new Api($key_id, $secret);
 
-$api->paymentLink->create(array('amount'=>500, 'currency'=>'INR', 'accept_partial'=>true, 'first_min_partial_amount'=>100, 'description' => 'For XYZ purpose', 'customer' => array('name'=>'', 'email' => '', 'contact'=>''),  'notify'=>array('sms'=>true, 'email'=>true) ,'reminder_enable'=>true , 'options'=>array('checkout'=>array('method'=>array('netbanking'=> true, 'card'=> true, 'upi'=>false, 'wallet'=>false)))));
+$api->paymentLink->create(array('amount'=>500, 'currency'=>'INR', 'accept_partial'=>true, 'first_min_partial_amount'=>100, 'description' => 'For XYZ purpose', 'customer' => array('name'=>'Gaurav Kumar', 'email' => 'gaurav.kumar@example.com', 'contact'=>'+919876543210'),  'notify'=>array('sms'=>true, 'email'=>true) ,'reminder_enable'=>true , 'options'=>array('checkout'=>array('method'=>array('netbanking'=> true, 'card'=> true, 'upi'=>false, 'wallet'=>false)))));
 
 ```javascript: Node.js
 var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
@@ -66,9 +66,9 @@ instance.paymentLink.create({
   first_min_partial_amount: 100,
   description: "For XYZ purpose",
   customer: {
-    name: "",
-    email: "",
-    contact: ""
+    name: "Gaurav Kumar",
+    email: "gaurav.kumar@example.com",
+    contact: "+919876543210"
   },
   notify: {
     sms: true,
@@ -98,9 +98,9 @@ client.payment_link.create({
   "first_min_partial_amount": 100,
   "description": "For XYZ purpose",
   "customer": {
-    "name": "",
-    "email": "",
-    "contact": ""
+    "name": "Gaurav Kumar",
+    "email": "gaurav.kumar@example.com",
+    "contact": "+919876543210"
   },
   "notify": {
     "sms": true,
@@ -131,9 +131,9 @@ data := map[string]interface{}{
   "reference_id": "#523442",
   "description": "Payment for policy no #23456",
   "customer": map[string]interface{}{
-    "name": "",
-    "contact": "",
-    "email": "",
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com",
   },
   "notify": map[string]interface{}{
     "sms": true,
@@ -164,9 +164,9 @@ para_attr = {
   "first_min_partial_amount": 100,
   "description": "For XYZ purpose",
   "customer": {
-    "name": "",
-    "email": "",
-    "contact": ""
+    "name": "Gaurav Kumar",
+    "email": "gaurav.kumar@example.com",
+    "contact": "+919876543210"
   },
   "notify": {
     "sms": true,
@@ -204,9 +204,9 @@ paymentLinkRequest.put("reference_id","#aasasw8");
 paymentLinkRequest.put("first_min_partial_amount",100);
 paymentLinkRequest.put("description","Payment for policy no #23456");
 JSONObject customer = new JSONObject();
-customer.put("name","");
-customer.put("contact","");
-customer.put("email","");
+customer.put("name","Gaurav Kumar");
+customer.put("contact","+919876543210");
+customer.put("email","gaurav.kumar@example.com");
 paymentLinkRequest.put("customer",customer);
 JSONObject notify = new JSONObject();
 notify.put("sms",true);
@@ -242,9 +242,9 @@ paymentLinkRequest.Add("reference_id", "#aasasw8");
 paymentLinkRequest.Add("first_min_partial_amount", 100);
 paymentLinkRequest.Add("description", "Payment for policy no #23456");
 Dictionary customer = new Dictionary();
-customer.Add("contact", "");
-customer.Add("name", "");
-customer.Add("email", "");
+customer.Add("contact", "+919876543210");
+customer.Add("name", "Gaurav Kumar");
+customer.Add("email", "gaurav.kumar@example.com");
 paymentLinkRequest.Add("customer", customer);
 Dictionary notify = new Dictionary();
 notify.Add("sms", true);

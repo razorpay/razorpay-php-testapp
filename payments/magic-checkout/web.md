@@ -447,7 +447,7 @@ Order order = client.Order.Create(orderRequest);
      {
       "order_id": "SomeReceiptValue", // This is the receipt field set in the Razorpay order
       "razorpay_order_id": "EKwxwAgItmXXXX", // This is the RZP order created without the `order_` prefix
-      "email": "", // Email field will be set if the customer enters an email
+      "email": "gaurav.kumar@example.com", // Email field will be set if the customer enters an email
       "contact": "+919000090000", // Customer phone number with country code
       "addresses": [{
         "id": "0", 
@@ -589,7 +589,7 @@ Order order = client.Order.Create(orderRequest);
      {
        "order_id": "SomeReceiptValue", // this is the receipt field set in Razorpay order
        "contact": "+919000090000", 
-       "email": ""
+       "email": "gaurav.kumar@example.com"
      }
      ```json: Response
      {
@@ -648,7 +648,7 @@ Order order = client.Order.Create(orderRequest);
          {
            "order_id": "SomeReceiptValue", // this is the receipt field set in Razorpay order
            "contact": "+919000090000",
-           "email": "",
+           "email": "gaurav.kumar@example.com",
            "code": "500OFF"
          }
 
@@ -893,8 +893,8 @@ Order order = client.Order.Create(orderRequest);
               "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
               "redirect": "true",
               "prefill": { // We recommend using the prefill parameter to auto-fill customer's contact information especially their phone number
-                  "name": "", // your customer's name
-                  "email": "",
+                  "name": "Gaurav Kumar", // your customer's name
+                  "email": "gaurav.kumar@example.com",
                   "contact": "9000090000", // Provide the customer's phone number for better conversion rates
                   "coupon_code": "500OFF" // any valid coupon code that gets auto-applied once magic opens
               },
@@ -924,8 +924,8 @@ Order order = client.Order.Create(orderRequest);
                   alert(response.razorpay_signature)
               },
               "prefill": { // We recommend using the prefill parameter to auto-fill customer's contact information, especially their phone number
-                  "name": "", // your customer's name
-                  "email": "", 
+                  "name": "Gaurav Kumar", // your customer's name
+                  "email": "gaurav.kumar@example.com", 
                   "contact": "9000090000"  // Provide the customer's phone number for better conversion rates 
               },
               "notes": {

@@ -133,9 +133,9 @@ The customer's account might have an insufficient balance when you attempt to au
             alert(response.razorpay_signature);
           },
           "prefill": {
-            "name": "",
-            "email": "",
-            "contact": ""
+            "name": "Gaurav Kumar",
+            "email": "gaurav.kumar@example.com",
+            "contact": "+919876543210"
           },
           "notes": {
             "note_key_1": "Tea. Earl Grey. Hot",
@@ -164,9 +164,9 @@ The customer's account might have an insufficient balance when you attempt to au
           "subscription_card_change": true,
           "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
           "prefill": {
-            "name": "",
-            "email": "",
-            "contact": ""
+            "name": "Gaurav Kumar",
+            "email": "gaurav.kumar@example.com",
+            "contact": "+919876543210"
           },
           "notes": {
             "note_key_1": "Tea. Earl Grey. Hot",

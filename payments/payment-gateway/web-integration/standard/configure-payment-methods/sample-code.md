@@ -26,8 +26,8 @@ If you want to list all the payment methods offered by `Axis` bank, allow card p
     "image": "example.com/image/rzp.jpg",
     "prefill":
     {
-      "email": "",
-      "contact": ,
+      "email": "gaurav.kumar@example.com",
+      "contact": +919876543210,
     },
     config: {
       display: {

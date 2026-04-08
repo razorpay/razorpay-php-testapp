@@ -399,9 +399,9 @@ Follow the steps given below:
          name: 'Acme Corp',
          order_id: 'order_DslnoIgkIDL8Zt',// Replace this with an order_id created using Orders API.
          prefill: {
-           email: '',
+           email: 'gaurav.kumar@example.com',
            contact: '9191919191',
-           name: ''
+           name: 'Gaurav Kumar'
          },
          show_coupons: true, // magic checkout
          theme: {color: '#53a20e'}
@@ -1423,10 +1423,10 @@ If 9977665544 is entered, `+91` is added to it as +919977665544.
        ],
        "shipping_country": "in",
        "customer_details": {
-         "email": "",
-         "contact": "",
+         "email": "gaurav.kumar@example.com",
+         "contact": "+919876543210",
          "shipping_address": {
-           "name": "",
+           "name": "Gaurav Kumar",
            "line1": "123 Main Street",
            "city": "Bengaluru",
            "state": "KARNATAKA",

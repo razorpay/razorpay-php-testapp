@@ -287,38 +287,7 @@ You can create an order using:
          var rzpOptions = {
              key: "",
              amount: "50000", 
-             currency: "",
-                 email: ""
-             },
-             notes: {
-                 address: "Hello World"
-             },
-             theme: {
-                 color: "#3399cc"
-             }
-         };
-
-         var successCallback = function(success) {
-           alert('payment_id: ' + success.razorpay_payment_id)
-           var orderId = success.razorpay_order_id
-           var signature = success.razorpay_signature
-         };
-
-         var cancelCallback = function(error) {
-           alert(error.description + ' (Error '+error.code+')')
-           alert(error.source);
-                 alert(error.step);
-                 alert(error.reason);
-                 alert(error.metadata.order_id);
-                 alert(error.metadata.payment_id);
-         };
-         ```js: Ionic
-         payWithRazorpay(){
-             var options = {
-             description: 'Credits towards consultation',
-             image: 'https://i.imgur.com/3g7nmJC.jpg',
-             order_id: 'order_DBJOWzybf0sJbb',
-             currency: '',
+             currency: "',
              key:'',
              amount:'5000',
              name: 'Acme Corp',

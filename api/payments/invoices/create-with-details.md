@@ -33,9 +33,9 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET]
   "description": "Invoice for the month of January 2020",
   "partial_payment": true,
   "customer": {
-    "name": "",
-    "contact": "",
-    "email": "",
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com",
     "billing_address": {
       "line1": "Bakers Street",
       "line2": "Country Road",
@@ -79,9 +79,9 @@ invoiceRequest.put("type", "invoice");
 invoiceRequest.put("description", "Invoice for the month of January 2020");
 invoiceRequest.put("partial_payment",true);
 JSONObject customer = new JSONObject();
-customer.put("name","");
-customer.put("contact","");
-customer.put("email","");
+customer.put("name","Gaurav Kumar");
+customer.put("contact","+919876543210");
+customer.put("email","gaurav.kumar@example.com");
 JSONObject billingAddress = new JSONObject();
 billingAddress.put("line1","Ground & 1st Floor, SJR Cyber Laskar");
 billingAddress.put("line2","Hosur Road");
@@ -124,9 +124,9 @@ client.invoice.create({
   "description": "Invoice for the month of January 2020",
   "partial_payment": true,
   "customer": {
-    "name": "",
-    "contact": "",
-    "email": "",
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com",
     "billing_address": {
       "line1": "Ground & 1st Floor, SJR Cyber Laskar",
       "line2": "Hosur Road",
@@ -177,9 +177,9 @@ data := map[string]interface{}{
   "description": "Invoice for the month of January 2020",
   "partial_payment": true,
   "customer": map[string]interface{}{
-    "name": "",
-    "contact": "",
-    "email": "",
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com",
     "billing_address": map[string]interface{}{
       "line1": "Ground & 1st Floor, SJR Cyber Laskar",
       "line2": "Hosur Road",
@@ -212,9 +212,9 @@ $api->invoice->create(array(
     'description' => 'Invoice for the month of January 2020',
     'partial_payment' => true,
     'customer' => array(
-        'name' => '',
-        'contact' => '',
-        'email' => '',
+        'name' => 'Gaurav Kumar',
+        'contact' => '+919876543210',
+        'email' => 'gaurav.kumar@example.com',
         'billing_address' => array(
             'line1' => 'Ground & 1st Floor, SJR Cyber Laskar',
             'line2' => 'Hosur Road',
@@ -256,9 +256,9 @@ Razorpay::Invoice.create({
   "description": "Invoice for the month of January 2020",
   "partial_payment": true,
   "customer": {
-    "name": "",
-    "contact": "",
-    "email": "",
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com",
     "billing_address": {
       "line1": "Ground & 1st Floor, SJR Cyber Laskar",
       "line2": "Hosur Road",
@@ -299,9 +299,9 @@ instance.invoice.create({
   "description": "Invoice for the month of January 2020",
   "partial_payment": true,
   "customer": {
-    "name": "",
-    "contact": "",
-    "email": "",
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com",
     "billing_address": {
       "line1": "Ground & 1st Floor, SJR Cyber Laskar",
       "line2": "Hosur Road",
@@ -342,9 +342,9 @@ invoiceRequest.Add("type", "invoice");
 invoiceRequest.Add("description", "Invoice for the month of January 2020");
 invoiceRequest.Add("partial_payment", true);
 Dictionary customer = new Dictionary();
-customer.Add("name", "");
-customer.Add("contact", "");
-customer.Add("email", "");
+customer.Add("name", "Gaurav Kumar");
+customer.Add("contact", "+919876543210");
+customer.Add("email", "gaurav.kumar@example.com");
 Dictionary billingAddress = new Dictionary();
 billingAddress.Add("line1", "Bakers Street");
 billingAddress.Add("line2", "Country Road");
@@ -390,9 +390,9 @@ Invoice invoice = client.Invoice.Create(invoiceRequest);
   "customer_id": "cust_E7q0trFqXgExmT",
   "customer_details": {
     "id": "cust_E7q0trFqXgExmT",
-    "name": "",
-    "email": "",
-    "contact": "",
+    "name": "Gaurav Kumar",
+    "email": "gaurav.kumar@example.com",
+    "contact": "+919876543210",
     "gstin": null,
     "billing_address": {
       "id": "addr_E7q0ttqh4SGhAC",
@@ -416,9 +416,9 @@ Invoice invoice = client.Invoice.Create(invoiceRequest);
       "state": "Karnataka",
       "country": "in"
     },
-    "customer_name": "",
-    "customer_email": "",
-    "customer_contact": ""
+    "customer_name": "Gaurav Kumar",
+    "customer_email": "gaurav.kumar@example.com",
+    "customer_contact": "+919876543210"
   },
   "order_id": "order_E7q0tvRpC0WJwg",
   "line_items": [

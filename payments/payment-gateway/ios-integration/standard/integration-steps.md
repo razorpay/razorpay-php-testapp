@@ -334,8 +334,8 @@ You can create an order using:
                          "image": "https://url-to-image.jpg",
                          "name": "business or product name",
                          "prefill": [
-                             "contact": "",
-                             "email": ""
+                             "contact": "+919876543210",
+                             "email": "gaurav.kumar@example.com"
                          ],
                          "theme": [
                              "color": "#F37254"
@@ -355,8 +355,8 @@ You can create an order using:
                                      @"description": @"purchase description",
                                      @"order_id": @"order_4xbQrmEoA5WJ0G",
                                      @"prefill" : @{
-                                         @"email": @"",
-                                         @"contact": @""
+                                         @"email": @"gaurav.kumar@example.com",
+                                         @"contact": @"+919876543210"
                                      },
                                      @"theme": @{
                                          @"color": @"#F37254"

@@ -228,9 +228,9 @@ var options = {
         alert(response.razorpay_signature)
     },
     "prefill": {
-        "name": "",
-        "email": "",
-        "contact": ""
+        "name": "Gaurav Kumar",
+        "email": "gaurav.kumar@example.com",
+        "contact": "+919876543210"
     },
     "notes": {
         "address": "Razorpay Corporate Office"

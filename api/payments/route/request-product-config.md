@@ -116,7 +116,7 @@ body, err := client.Product.RequestProductConfiguration(accountId, data, nil);
       "settlements":{
          "account_number": 7878780080310012,
          "ifsc_code":"RATN0VAAPIS",
-         "beneficiary_name":""
+         "beneficiary_name":"Gaurav Kumar"
       }
    },
    "requirements":[

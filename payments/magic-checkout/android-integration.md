@@ -526,7 +526,7 @@ Order order = client.Order.Create(orderRequest);
      {
         "order_id": "SomeReceiptValue", // This is the receipt field set in the Razorpay order
         "razorpay_order_id": "EKwxwAgItmmXdp", // This is the RZP order created without the `order_` prefix
-        "email": "", // Email field will be set if the customer enters an email
+        "email": "gaurav.kumar@example.com", // Email field will be set if the customer enters an email
         "contact": "+919900000000", // Customer phone number with country code
         "addresses": [{
           "id": "0", 
@@ -667,7 +667,7 @@ Order order = client.Order.Create(orderRequest);
      {
        "order_id": "SomeReceiptValue", // this is the receipt field set in Razorpay order
        "contact": "+919000090000", 
-       "email": ""
+       "email": "gaurav.kumar@example.com"
      }'
      ```json: Response
      {
@@ -726,7 +726,7 @@ Order order = client.Order.Create(orderRequest);
          {
            "order_id": "SomeReceiptValue", // this is the receipt field set in Razorpay order
            "contact": "+919000090000",
-           "email": "",
+           "email": "gaurav.kumar@example.com",
            "code": "500OFF"
            }'
 
@@ -855,15 +855,15 @@ Order order = client.Order.Create(orderRequest);
      try {
          JSONObject options = new JSONObject();
 
-         options.put("name", "");
+         options.put("name", "Gaurav Kumar");
          options.put("description", "Reference No. #123456");
          options.put("image", "http://example.com/image/rzp.jpg");
          options.put("order_id", "order_DBJOWzybf0sJbb");//from response of step 3.
          options.put("theme.color", "#3399cc");
          options.put("currency", "");
          options.put("amount", "50000");//pass amount in currency subunits
-         options.put("prefill.email", "");
-         options.put("prefill.contact","");
+         options.put("prefill.email", "gaurav.kumar@example.com");
+         options.put("prefill.contact","+919876543210");
          c
          JSONObject retryObj = new JSONObject();
          retryObj.put("enabled", true);
@@ -901,7 +901,7 @@ Order order = client.Order.Create(orderRequest);
                  options.put("retry", retryObj);
 
                  val prefill = JSONObject()
-                 prefill.put("email","")
+                 prefill.put("email","gaurav.kumar@example.com")
                  prefill.put("contact","9876543210")
                  options.put("one_click_checkout",true) // magic checkout
                  options.put("show_coupons", true) // magic checkout

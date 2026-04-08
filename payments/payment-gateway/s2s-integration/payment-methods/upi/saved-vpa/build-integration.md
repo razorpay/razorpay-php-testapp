@@ -45,8 +45,8 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
 
 JSONObject request = new JSONObject();
-request.put("name", );
-request.put("email", );
+request.put("name", Gaurav Kumar);
+request.put("email", gaurav.kumar@example.com);
 
 Customer customer = razorpayClient.Customers.create(request);
 

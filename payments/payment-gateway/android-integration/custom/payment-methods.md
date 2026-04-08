@@ -52,11 +52,11 @@ JSONObject data = new JSONObject();
 data.put("amount", 29935);
 data.put("currency", "");
 data.put("order_id", "order_DgZ26rHjbzLLY2");//sample order_id. Generate orders using Orders API
-data.put("email", "");
-data.put("contact", "");
+data.put("email", "gaurav.kumar@example.com");
+data.put("contact", "+919876543210");
 data.put("method", "card");
-data.put("card[name]", "");
-data.put("card[number]", "");
+data.put("card[name]", "Gaurav Kumar");
+data.put("card[number]", "4628 9499 7226 2986");
 data.put("card[expiry_month]", "12");
 data.put("card[expiry_year]", "30");
 data.put("card[cvv]", "100");
@@ -65,11 +65,11 @@ val data = JSONObject()
 data.put("amount", 29935)
 data.put("amount", "")
 data.put("order_id", "order_DgZ26rHjbzLLY2") //sample order_id. Generate orders using Orders API
-data.put("email", "")
-data.put("contact", "")
+data.put("email", "gaurav.kumar@example.com")
+data.put("contact", "+919876543210")
 data.put("method", "card")
-data.put("card[name]", "")
-data.put("card[number]", "")
+data.put("card[name]", "Gaurav Kumar")
+data.put("card[number]", "4628 9499 7226 2986")
 data.put("card[expiry_month]", "12")
 data.put("card[expiry_year]", "30")
 data.put("card[cvv]", "100")
@@ -91,12 +91,12 @@ The sample code below allows checkout to accept a card payment of ₹3999.35:
 JSONObject data = new JSONObject();
 data.put("amount", 399935);
 data.put("order_id", "order_DgZ26rHjbzLLY2");//sample order_id. Generate orders using Orders API
-data.put("email", "");
-data.put("contact", "");
+data.put("email", "gaurav.kumar@example.com");
+data.put("contact", "+919876543210");
 data.put("method", "emi");
 data.put("emi_duration", 2); //defines the number of months for the EMI.
-data.put("card[name]", "");
-data.put("card[number]", "");
+data.put("card[name]", "Gaurav Kumar");
+data.put("card[number]", "4628 9499 7226 2986");
 data.put("card[expiry_month]", "12");
 data.put("card[expiry_year]", "30");
 data.put("card[cvv]", "100");
@@ -104,12 +104,12 @@ data.put("card[cvv]", "100");
 val data = JSONObject()
 data.put("amount", 399935)
 data.put("order_id", "order_DgZ26rHjbzLLY2") //sample order_id. Generate orders using Orders API
-data.put("email", "")
-data.put("contact", "")
+data.put("email", "gaurav.kumar@example.com")
+data.put("contact", "+919876543210")
 data.put("method", "emi")
 data.put("emi_duration", 2) //defines the number of months for the EMI.
-data.put("card[name]", "")
-data.put("card[number]", "")
+data.put("card[name]", "Gaurav Kumar")
+data.put("card[number]", "4628 9499 7226 2986")
 data.put("card[expiry_month]", "12")
 data.put("card[expiry_year]", "30")
 data.put("card[cvv]", "100")
@@ -152,17 +152,17 @@ The sample code below allows checkout to accept a card payment of ₹5999.35:
 ```java: Java
 JSONObject payload = new JSONObject("{\"currency\":\"\"}");
 payload.put("amount", 599935);
-payload.put("contact", "");
+payload.put("contact", "+919876543210");
 payload.put("order_id", "order_9A33XWu170gUtm");
-payload.put("email", "");
+payload.put("email", "gaurav.kumar@example.com");
 payload.put("method", "cardless_emi");
 payload.put("provider", "walnut369");
 ```kotlin: Kotlin
 val payload = JSONObject("{\"currency\":\"\"}")
 payload.put("amount", 599935)
-payload.put("contact", "")
+payload.put("contact", "+919876543210")
 payload.put("order_id", "order_9A33XWu170gUtm")
-payload.put("email", "")
+payload.put("email", "gaurav.kumar@example.com")
 payload.put("method", "cardless_emi")
 payload.put("provider", "walnut369")
 ```
@@ -180,16 +180,16 @@ The sample code shown below allows the checkout to perform a netbanking transact
 JSONObject data = new JSONObject();
 data.put("amount", 29935);
 data.put("order_id", "order_DgZ26rHjbzLLY2");//sample order_id. Generate orders using Orders API
-data.put("email", "");
-data.put("contact", "");
+data.put("email", "gaurav.kumar@example.com");
+data.put("contact", "+919876543210");
 data.put("method", "netbanking");
 data.put("bank", "SBIN");
 ```kotlin: Kotlin
 val data = JSONObject()
 data.put("amount", 29935)
 data.put("order_id", "order_DgZ26rHjbzLLY2") //sample order_id. Generate orders using Orders API
-data.put("email", "")
-data.put("contact", "")
+data.put("email", "gaurav.kumar@example.com")
+data.put("contact", "+919876543210")
 data.put("method", "netbanking")
 data.put("bank", "SBIN")
 ```
@@ -208,17 +208,17 @@ Use the sample code given below:
 ```java: Java
 JSONObject payload = new JSONObject("{\"currency\":\"\"}");
 payload.put("amount",5000);
-payload.put("contact","");
+payload.put("contact","+919876543210");
 payload.put("order_id","order_9A33XWu170gUtm");
-payload.put("email", "");
+payload.put("email", "gaurav.kumar@example.com");
 payload.put("method", "paylater");
 payload.put("provider", "lazypay");
 ```kotlin: Kotlin
 val payload = JSONObject("{\"currency\":\"\"}")
 payload.put("amount", 5000)
-payload.put("contact", "")
+payload.put("contact", "+919876543210")
 payload.put("order_id", "order_9A33XWu170gUtm")
-payload.put("email", "")
+payload.put("email", "gaurav.kumar@example.com")
 payload.put("method", "paylater")
 payload.put("provider", "lazypay")
 ```
@@ -237,16 +237,16 @@ The sample code shown below allows the checkout to perform a wallet transaction 
 JSONObject data = new JSONObject();
 data.put("amount", 29935);
 data.put("order_id", "order_DgZ26rHjbzLLY2");//sample order_id. Generate orders using Orders API
-data.put("email", "");
-data.put("contact", "");
+data.put("email", "gaurav.kumar@example.com");
+data.put("contact", "+919876543210");
 data.put("method", "wallet");
 data.put("wallet", "mobikwik");
 ```kotlin: Kotlin
 val data = JSONObject()
 data.put("amount", 29935)
 data.put("order_id", "order_DgZ26rHjbzLLY2") //sample order_id. Generate orders using Orders API
-data.put("email", "")
-data.put("contact", "")
+data.put("email", "gaurav.kumar@example.com")
+data.put("contact", "+919876543210")
 data.put("method", "wallet")
 data.put("wallet", "mobikwik")
 ```
@@ -367,8 +367,8 @@ To implement this flow:
         JSONObject data = new JSONObject();
         data.put("amount", 29935);
         data.put("order_id", "order_DgZ26rHjbzLLY2");//sample order_id. Generate orders using Orders API
-        data.put("email", "");
-        data.put("contact", "");
+        data.put("email", "gaurav.kumar@example.com");
+        data.put("contact", "+919876543210");
         data.put("method", "upi");
         data.put("_[flow]", "intent");
         data.put("upi_app_package_name", "in.org.npci.upiapp"); //For BHIM app
@@ -376,8 +376,8 @@ To implement this flow:
         val data = JSONObject()
         data.put("amount", 29935)
         data.put("order_id", "order_DgZ26rHjbzLLY2") //sample order_id. Generate orders using Orders API
-        data.put("email", "")
-        data.put("contact", "")
+        data.put("email", "gaurav.kumar@example.com")
+        data.put("contact", "+919876543210")
         data.put("method", "upi")
         data.put("_[flow]", "intent")
         data.put("upi_app_package_name", "in.org.npci.upiapp") //For BHIM app
@@ -388,8 +388,8 @@ To implement this flow:
         ```java: Java
         JSONObject data = new JSONObject("{currency: ''}");
         data.put("amount", "10000");
-        data.put("contact", "");
-        data.put("email", "");
+        data.put("contact", "+919876543210");
+        data.put("email", "gaurav.kumar@example.com");
         data.put("order_id", "order_DgZ26rHjbzLLY2");// mandatory for UPI Autopay payments
         data.put("customer_id", "cust_805c8oBQdBGPwS");// mandatory for UPI Autopay payments
         data.put("recurring", "1");
@@ -400,8 +400,8 @@ To implement this flow:
         ```kotlin: Kotlin
         val data = JSONObject("{currency: ''}")
         data.put("amount", "10000")
-        data.put("contact", "")
-        data.put("email", "")
+        data.put("contact", "+919876543210")
+        data.put("email", "gaurav.kumar@example.com")
         data.put("order_id", "order_DgZ26rHjbzLLY2") // mandatory for UPI Autopay payments
         data.put("customer_id", "cust_805c8oBQdBGPwS") // mandatory for UPI Autopay payments
         data.put("recurring", "1")
@@ -416,8 +416,8 @@ To implement this flow:
         ```java: Java 
         JSONObject data = new JSONObject("{currency: ''}");
         data.put("amount", "10000");
-        data.put("contact", "");
-        data.put("email", "");
+        data.put("contact", "+919876543210");
+        data.put("email", "gaurav.kumar@example.com");
         data.put("order_id", "order_DgZ26rHjbzLLY2");// mandatory for UPI Autopay payments
         data.put("customer_id", "cust_805c8oBQdBGPwS");// mandatory for UPI Autopay payments
         data.put("recurring", "preferred");
@@ -428,8 +428,8 @@ To implement this flow:
         ```kotlin: Kotlin
         val data = JSONObject("{currency: ''}")
         data.put("amount", "10000")
-        data.put("contact", "")
-        data.put("email", "")
+        data.put("contact", "+919876543210")
+        data.put("email", "gaurav.kumar@example.com")
         data.put("order_id", "order_DgZ26rHjbzLLY2") // mandatory for UPI Autopay payments
         data.put("customer_id", "cust_805c8oBQdBGPwS") // mandatory for UPI Autopay payments
         data.put("recurring", "preferred")
@@ -489,16 +489,16 @@ The sample code below sends a collect request to `gaurav.kumar@exampleupi` handl
 JSONObject data = new JSONObject();
 data.put("amount", 29935);
 data.put("order_id", "order_DgZ26rHjbzLLY2");//sample order_id. Generate orders using Orders API
-data.put("email", "");
-data.put("contact", "");
+data.put("email", "gaurav.kumar@example.com");
+data.put("contact", "+919876543210");
 data.put("method", "upi");
 data.put("vpa", "gaurav.kumar@exampleupi");
 ```kotlin: Kotlin
 val data = JSONObject()
 data.put("amount", 29935)
 data.put("order_id", "order_DgZ26rHjbzLLY2") //sample order_id. Generate orders using Orders API
-data.put("email", "")
-data.put("contact", "")
+data.put("email", "gaurav.kumar@example.com")
+data.put("contact", "+919876543210")
 data.put("method", "upi")
 data.put("vpa", "gaurav.kumar@exampleupi")
 ```
@@ -511,7 +511,7 @@ data.put("vpa", "gaurav.kumar@exampleupi")
      1. You must collect the customer's phone number from your end.
      2. Check if any `vpa` is associated with the given number and get the `vpa_token` for that number using the sample code given below:
         ```java: Java
-        razorpay.isValidVpa("", new ValidateVpaCallback() {
+        razorpay.isValidVpa("+919876543210", new ValidateVpaCallback() {
             @Override
             public void onResponse(JSONObject response) {
                 if (response.has("error")) {
@@ -529,7 +529,7 @@ data.put("vpa", "gaurav.kumar@exampleupi")
             }
         });
         ```kotlin: Kotlin
-        razorpay.isValidVpa("", object : ValidateVpaCallback {
+        razorpay.isValidVpa("+919876543210", object : ValidateVpaCallback {
             override fun onResponse(response: JSONObject?) {
                 response?.let {
                     if (it.has("error")) {
@@ -552,16 +552,16 @@ data.put("vpa", "gaurav.kumar@exampleupi")
         JSONObject data = new JSONObject();
         data.put("amount", 29935);
         data.put("order_id", "order_DgZ26rHjbzXXXX");//sample order_id. Generate orders using Orders API
-        data.put("email", "");
-        data.put("contact", "");
+        data.put("email", "gaurav.kumar@example.com");
+        data.put("contact", "+919876543210");
         data.put("method", "upi");
         data.put("vpa_token", "f731951149df8903d374b117f921ab41");
         ```kotlin: Kotlin
         val data = JSONObject()
         data.put("amount", 29935)
         data.put("order_id", "order_DgZ26rHjbzXXXX") //sample order_id. Generate orders using Orders API
-        data.put("email", "")
-        data.put("contact", "")
+        data.put("email", "gaurav.kumar@example.com")
+        data.put("contact", "+919876543210")
         data.put("method", "upi")
         data.put("vpa_token", "f731951149df8903d374b117f921ab41")
         ```

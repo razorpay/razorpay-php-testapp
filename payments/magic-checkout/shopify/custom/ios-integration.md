@@ -418,8 +418,8 @@ Follow the steps given below:
                      "image": "https://url-to-image.jpg",
                      "name": "business or product name",
                      "prefill": [
-                         "contact": "",
-                         "email": ""
+                         "contact": "+919876543210",
+                         "email": "gaurav.kumar@example.com"
                      ],
                      "show_coupons": true, //magic checkout
                      "theme": [
@@ -440,8 +440,8 @@ Follow the steps given below:
                                  @"description": @"purchase description",
                                  @"order_id": @"order_4xbQrmEoA5WJ0G",
                                  @"prefill" : @{
-                                     @"email": @"",
-                                     @"contact": @""
+                                     @"email": @"gaurav.kumar@example.com",
+                                     @"contact": @"+919876543210"
                                  },
                                  @"show_coupons": @"true", //magic checkout
                                  @"theme": @{
@@ -1483,10 +1483,10 @@ If 9977665544 is entered, `+91` is added to it as +919977665544.
        ],
        "shipping_country": "in",
        "customer_details": {
-         "email": "",
-         "contact": "",
+         "email": "gaurav.kumar@example.com",
+         "contact": "+919876543210",
          "shipping_address": {
-           "name": "",
+           "name": "Gaurav Kumar",
            "line1": "123 Main Street",
            "city": "Bengaluru",
            "state": "KARNATAKA",

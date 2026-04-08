@@ -20,8 +20,8 @@ var options = {
                 "key": key,
                 "amount": 29935,
                 "currency": "",
-                "contact": "",
-                "email": "",
+                "contact": "+919876543210",
+                "email": "gaurav.kumar@example.com",
                 "order_id": "order_EMBFqjDHEEn80l", // Generate order_id using Orders API,
                 "description": "Fine T-Shirt"
                 "method": "card",

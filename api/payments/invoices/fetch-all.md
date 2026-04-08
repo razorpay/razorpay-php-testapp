@@ -72,9 +72,9 @@ List invoice = client.Invoice.All();
       "customer_id": "cust_DAtUWmvpktokrT",
       "customer_details": {
         "id": "cust_DAtUWmvpktokrT",
-        "name": "",
-        "email": "",
-        "contact": "",
+        "name": "Gaurav Kumar",
+        "email": "gaurav.kumar@example.com",
+        "contact": "+919876543210",
         "gstin": null,
         "billing_address": {
           "id": "addr_DAtUWoxgu91obl",
@@ -88,9 +88,9 @@ List invoice = client.Invoice.All();
           "country": "in"
         },
         "shipping_address": null,
-        "customer_name": "",
-        "customer_email": "",
-        "customer_contact": ""
+        "customer_name": "Gaurav Kumar",
+        "customer_email": "gaurav.kumar@example.com",
+        "customer_contact": "+919876543210"
       },
       "order_id": null,
       "line_items": [
@@ -179,9 +179,9 @@ List invoice = client.Invoice.All();
       "customer_id": "cust_DAuFux32LnIsqJ",
       "customer_details": {
         "id": "cust_DAuFux32LnIsqJ",
-        "name": "",
-        "email": "",
-        "contact": "",
+        "name": "Gaurav Kumar",
+        "email": "gaurav.kumar@example.com",
+        "contact": "+919876543210",
         "gstin": null,
         "billing_address": {
           "id": "addr_DAuFuz499I5mgk",
@@ -195,9 +195,9 @@ List invoice = client.Invoice.All();
           "country": "in"
         },
         "shipping_address": null,
-        "customer_name": "",
-        "customer_email": "",
-        "customer_contact": ""
+        "customer_name": "Gaurav Kumar",
+        "customer_email": "gaurav.kumar@example.com",
+        "customer_contact": "+919876543210"
       },
       "order_id": "order_DAul2V0vnGXIML",
       "line_items": [

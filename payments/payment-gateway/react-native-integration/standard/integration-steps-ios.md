@@ -321,9 +321,9 @@ You can create an order using:
          name: 'Acme Corp',
          order_id: 'order_DslnoIgkIDL8Zt',//Replace this with an order_id created using Orders API.
          prefill: {
-           email: '',
-           contact: '',
-           name: ''
+           email: 'gaurav.kumar@example.com',
+           contact: '+919876543210',
+           name: 'Gaurav Kumar'
          },
          theme: {color: '#53a20e'}
        }

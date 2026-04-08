@@ -65,9 +65,9 @@ The following is a sample API request and response for creating an order:
        "receipt": "receipt#1111",
        "partial_payment": false,
        "customer_details": {
-         "name": "",
-         "contact": "",
-         "email": "",
+         "name": "Gaurav Kumar",
+         "contact": "+919876543210",
+         "email": "gaurav.kumar@example.com",
          "insights": {
            "order_count": "22",
            "chargeback_count": "4",
@@ -907,8 +907,8 @@ After creating an order and obtaining the customer's payment details, send the i
 var data = {
   amount: 1000,
   currency: "",
-  email: '',
-  contact: '',
+  email: 'gaurav.kumar@example.com',
+  contact: '+919876543210',
   notes: {
     address: 'Ground Floor, SJR Cyber, Laskar Hosur Road, Bengaluru',
   },
@@ -935,8 +935,8 @@ var data = {
   callback_url: 'https://www.examplecallbackurl.com/',
   amount: 1000,
   currency: "",
-  email: '',
-  contact: '',
+  email: 'gaurav.kumar@example.com',
+  contact: '+919876543210',
   notes: {
     address: 'Ground Floor, SJR Cyber, Laskar Hosur Road, Bengaluru',
   },

@@ -83,8 +83,8 @@ Payment payment = client.Payment.Fetch(paymentId);
   "bank": null,
   "wallet": null,
   "vpa": null,
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "customer_id": "cust_DtHaBuooGHTuyZ",
   "token_id": "token_FHfn3rIiM1Z8nr",
   "notes": {
@@ -294,7 +294,7 @@ List token = client.Customer.Fetch(customerId).Tokens();
          "method":"card",
          "card":{
             "entity":"card",
-            "name":"",
+            "name":"Gaurav Kumar",
             "last4":"8950",
             "network":"Visa",
             "type":"credit",
@@ -539,7 +539,7 @@ List token = client.Customer.Fetch(customerId).Tokens();
    "method":"card",
    "card":{
       "entity":"card",
-      "name":"",
+      "name":"Gaurav Kumar",
       "last4":"7558",
       "network":"Visa",
       "type":"credit",

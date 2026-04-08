@@ -65,8 +65,8 @@ body, err := client.Payment.Fetch("", nil, nil)
   "bank": null,
   "wallet": null,
   "vpa": null,
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "customer_id": "cust_DtHaBuooGHTuyZ",
   "token_id": "token_FHfn3rIiM1Z8nr",
   "notes": {
@@ -153,7 +153,7 @@ Razorpay::Customer.fetch(customerId).fetchToken(tokenId)
       "method": "card",
       "card": {
         "entity": "card",
-        "name": "",
+        "name": "Gaurav Kumar",
         "last4": "2002",
         "network": "Visa",
         "type": "credit",

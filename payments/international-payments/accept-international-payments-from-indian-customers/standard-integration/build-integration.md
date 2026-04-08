@@ -542,9 +542,9 @@ var options = {
     "order_id": "order_NGrgEcmYJsfUyl", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
     "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
     "prefill": { //We recommend using the prefill parameter to auto-fill customer's contact information especially their phone number
-        "name": "", //your customer's name
-        "email": "",
-        "contact": "" //Provide the customer's phone number for better conversion rates 
+        "name": "Gaurav Kumar", //your customer's name
+        "email": "gaurav.kumar@example.com",
+        "contact": "+919876543210" //Provide the customer's phone number for better conversion rates 
     },
     "notes": {
         "invoice_number": "IRS1245",
@@ -578,9 +578,9 @@ var options = {
         alert(response.razorpay_signature)
     },
     "prefill": { //We recommend using the prefill parameter to auto-fill customer's contact information, especially their phone number
-        "name": "", //your customer's name
-        "email": "", 
-        "contact": ""  //Provide the customer's phone number for better conversion rates 
+        "name": "Gaurav Kumar", //your customer's name
+        "email": "gaurav.kumar@example.com", 
+        "contact": "+919876543210"  //Provide the customer's phone number for better conversion rates 
     },
     "notes": {
         "invoice_number": "IRS1245",
