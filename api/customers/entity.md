@@ -13,9 +13,9 @@ The Customers entity has the following parameters:
 {
   "id": "cust_JbRkXMROZUMCVq",
   "entity": "customer",
-  "name": "",
-  "email": "",
-  "contact": "",
+  "name": "Gaurav Kumar",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "gstin": null,
   "notes": [],
   "created_at": 1653915355

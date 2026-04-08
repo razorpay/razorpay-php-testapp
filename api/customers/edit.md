@@ -16,9 +16,9 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 -X PUT https://api.razorpay.com/v1/customers/cust_1Aa00000000003 \
 -H "Content-Type: application/json" \
 -d '{
-  "name": "",
-  "email": "",
-  "contact": ""
+  "name": "Gaurav Kumar",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210"
 }'
 
 ```java: Java
@@ -27,9 +27,9 @@ RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]
 String customerId = "cust_1Aa00000000003";
 
 JSONObject customerRequest = new JSONObject();
-customerRequest.put("name","");
-customerRequest.put("contact","");
-customerRequest.put("email","");
+customerRequest.put("name","Gaurav Kumar");
+customerRequest.put("contact","+919876543210");
+customerRequest.put("email","gaurav.kumar@example.com");
 
 Customer customer = razorpay.customers.edit(customerId,customerRequest);
 
@@ -38,9 +38,9 @@ import razorpay
 client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
 
 client.customer.edit(customerId,{
-  "name": "",
-  "email": "",
-  "contact": 
+  "name": "Gaurav Kumar",
+  "email": "gaurav.kumar@example.com",
+  "contact": +919876543210
 })
 
 ```go: Go
@@ -50,16 +50,16 @@ client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
 customerId := "cust_1Aa00000000003"
 
 data = map[string]interface{}{
-  "name": "",
-  "email": "",
-  "contact": ,
+  "name": "Gaurav Kumar",
+  "email": "gaurav.kumar@example.com",
+  "contact": +919876543210,
 }
 body, err := client.Customer.Edit(customerId, data, nil)
 
 ```php: PHP
 $api = new Api($key_id, $secret);
 
-$api->customer->fetch($customerId)->edit(array('name' => '', 'email' => '', 'contact': '', 'notes'=> array('notes_key_1'=> 'Tea, Earl Grey, Hot','notes_key_2'=> 'Tea, Earl Grey… decaf')));
+$api->customer->fetch($customerId)->edit(array('name' => 'Gaurav Kumar', 'email' => 'gaurav.kumar@example.com', 'contact': '+919876543210', 'notes'=> array('notes_key_1'=> 'Tea, Earl Grey, Hot','notes_key_2'=> 'Tea, Earl Grey… decaf')));
 
 ```ruby: Ruby
 require "razorpay"
@@ -68,18 +68,18 @@ Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
 customerId = "cust_1Aa00000000003"
 
 Razorpay::Customer.edit(customerId,{
-  "name": "",
-  "email": "",
-  "contact": ,
+  "name": "Gaurav Kumar",
+  "email": "gaurav.kumar@example.com",
+  "contact": +919876543210,
 })
 
 ```javascript: Node.js
 var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
 
 instance.customers.edit(customerId,{
-  name: "",
-  email: "",
-  contact: 
+  name: "Gaurav Kumar",
+  email: "gaurav.kumar@example.com",
+  contact: +919876543210
 })
 
 ```csharp: .NET
@@ -88,9 +88,9 @@ RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]")
 string customerId = "cust_1Aa00000000003";
 
 Dictionary customerRequest = new Dictionary();
-customerRequest.Add("name", "");
-customerRequest.Add("contact", "");
-customerRequest.Add("email", "");
+customerRequest.Add("name", "Gaurav Kumar");
+customerRequest.Add("contact", "+919876543210");
+customerRequest.Add("email", "gaurav.kumar@example.com");
 
 Customer card = client.Customer.Fetch(customerId).Edit(customerRequest);
 ```

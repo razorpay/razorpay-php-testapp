@@ -246,9 +246,9 @@ Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay
                                   "order_id": orderId,
                                   "image": "https://example.com/your_logo",
                                   "prefill": {
-                                      "name": "",
-                                      "email": "",
-                                      "contact": "",
+                                      "name": "Gaurav Kumar",
+                                      "email": "gaurav.kumar@example.com",
+                                      "contact": "+919876543210",
                                   },
                                   "notes": {
                                       "address": "Hello World"
@@ -315,9 +315,9 @@ Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay
                                   "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
                                   "redirect": true,
                                   "prefill": {
-                                      "name": "",
-                                      "email": "",
-                                      "contact": "",
+                                      "name": "Gaurav Kumar",
+                                      "email": "gaurav.kumar@example.com",
+                                      "contact": "+919876543210",
                                   },
                                   "notes": {
                                       "address": "Hello World"

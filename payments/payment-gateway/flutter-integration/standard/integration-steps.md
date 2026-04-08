@@ -352,8 +352,8 @@ You can create an order using:
        'description': 'Fine T-Shirt',
        'timeout': 60, // in seconds
        'prefill': {
-         'contact': '',
-         'email': ''
+         'contact': '+919876543210',
+         'email': 'gaurav.kumar@example.com'
        }
      };
      ```

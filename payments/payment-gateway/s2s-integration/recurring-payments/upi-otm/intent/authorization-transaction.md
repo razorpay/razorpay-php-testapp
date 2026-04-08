@@ -1001,15 +1001,15 @@ The following endpoint cancels a registration link.
         "customer_id": "cust_BMB3EwbqnqZ2EI",
         "customer_details": {
             "id": "cust_BMB3EwbqnqZ2EI",
-            "name": "",
-            "email": "",
-            "contact": "",
+            "name": "Gaurav Kumar",
+            "email": "gaurav.kumar@example.com",
+            "contact": "+919876543210",
             "gstin": null,
             "billing_address": null,
             "shipping_address": null,
-            "customer_name": "",
-            "customer_email": "",
-            "customer_contact": ""
+            "customer_name": "Gaurav Kumar",
+            "customer_email": "gaurav.kumar@example.com",
+            "customer_contact": "+919876543210"
         },
         "order_id": "order_FHrfRw4TZU5Q2L",
         "line_items": [],

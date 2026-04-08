@@ -2067,8 +2067,8 @@ If no value is passed, the refund is processed using the [default speed set on t
        },
        "payment": {
          "amount": 50000,
-         "email": "",
-         "contact": "",
+         "email": "gaurav.kumar@example.com",
+         "contact": "+919876543210",
          "method": "ach",
          "notes": {
            "key1": "value3",
@@ -2076,7 +2076,7 @@ If no value is passed, the refund is processed using the [default speed set on t
          },
          "bank_account": {
            "account_number": "000000001234",
-           "name": "",
+           "name": "Gaurav Kumar",
            "bank_code": "122105278",
            "bank_code_category": "routing_number",
            "account_type": "personal_savings"
@@ -2421,8 +2421,8 @@ If no value is passed, the refund is processed using the [default speed set on t
         "currency": "",
         "method": "card",
         "card": {
-          "number": "",
-          "name": "",
+          "number": "4628 9499 7226 2986",
+          "name": "Gaurav Kumar",
           "expiry_month": "11",
           "expiry_year": "30",
           "cvv": "100"
@@ -2446,8 +2446,8 @@ If no value is passed, the refund is processed using the [default speed set on t
       "payment": {
         "method": "card",
         "card": {
-          "number": "",
-          "name": "",
+          "number": "4628 9499 7226 2986",
+          "name": "Gaurav Kumar",
           "expiry_month": "11",
           "expiry_year": "30",
           "cvv": "100"

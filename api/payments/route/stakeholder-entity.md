@@ -18,8 +18,8 @@ The Stakeholder entity has the following parameters.
     "executive":true
   },
   "phone":{
-    "primary":"",
-    "secondary":""
+    "primary":"+919876543210",
+    "secondary":"+919876543210"
   },
   "notes":[
     
@@ -28,8 +28,8 @@ The Stakeholder entity has the following parameters.
     "pan":"AVOPB1111K"
   },
   "id":"sth_GLGgm8fFCKc92m",
-  "name":"",
-  "email":"",
+  "name":"Gaurav Kumar",
+  "email":"gaurav.kumar@example.com",
   "percentage_ownership":null,
   "addresses":{
     "residential":{

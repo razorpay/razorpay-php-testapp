@@ -78,8 +78,8 @@ PATCH | Applies partial modifications to a resource. | [Update Order](https://ra
         },
         "bank": null,
         "wallet": null,
-        "email": "",
-        "contact": "",
+        "email": "gaurav.kumar@example.com",
+        "contact": "+919876543210",
         "notes": {
           "address": "Corporate Office"
         },

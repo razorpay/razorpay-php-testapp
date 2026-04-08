@@ -24,9 +24,9 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
   "reference_id": "#2234542",
   "description": "Payment for policy no #23456",
   "customer": {
-    "name": "",
-    "contact": "",
-    "email": ""
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com"
   },
   "notify": {
     "sms": true,
@@ -43,7 +43,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 ```php: PHP
 $api = new Api($key_id, $secret);
 
-$api->paymentLink->create(array('amount'=>500, 'currency'=>'', 'accept_partial'=>true, 'first_min_partial_amount'=>100, 'description' => 'For XYZ purpose', 'customer' => array('name'=>'', 'email' => '', 'contact'=>''),  'notify'=>array('sms'=>true, 'email'=>true) ,'reminder_enable'=>true , 'options'=>array('checkout'=>array('name'=>'Lacme Corp'))));
+$api->paymentLink->create(array('amount'=>500, 'currency'=>'', 'accept_partial'=>true, 'first_min_partial_amount'=>100, 'description' => 'For XYZ purpose', 'customer' => array('name'=>'Gaurav Kumar', 'email' => 'gaurav.kumar@example.com', 'contact'=>'+919876543210'),  'notify'=>array('sms'=>true, 'email'=>true) ,'reminder_enable'=>true , 'options'=>array('checkout'=>array('name'=>'Lacme Corp'))));
 
 ```javascript: Node.js
 var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
@@ -56,9 +56,9 @@ instance.paymentLink.create({
   reference_id: "#2234542",
   description: "Payment for policy no #23456",
   customer: {
-    name: "",
-    contact: "",
-    email: ""
+    name: "Gaurav Kumar",
+    contact: "+919876543210",
+    email: "gaurav.kumar@example.com"
   },
   notify: {
     sms: true,
@@ -84,9 +84,9 @@ client.payment_link.create({
   "reference_id": "#2234542",
   "description": "Payment for policy no #23456",
   "customer": {
-    "name": "",
-    "contact": "",
-    "email": ""
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com"
   },
   "notify": {
     "sms": true,
@@ -112,9 +112,9 @@ data := map[string]interface{}{
   "reference_id": "#2234542",
   "description": "Payment for policy no #23456",
   "customer": map[string]interface{}{
-    "name": "",
-    "contact": "",
-    "email": "",
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com",
   },
   "notify": map[string]interface{}{
     "sms": true,
@@ -141,9 +141,9 @@ para_attr = {
   "reference_id": "#2234542",
   "description": "Payment for policy no #23456",
   "customer": {
-    "name": "",
-    "contact": "",
-    "email": ""
+    "name": "Gaurav Kumar",
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com"
   },
   "notify": {
     "sms": true,
@@ -176,9 +176,9 @@ paymentLinkRequest.put("reference_id","#aasasw8");
 paymentLinkRequest.put("first_min_partial_amount",100);
 paymentLinkRequest.put("description","Payment for policy no #23456");
 JSONObject customer = new JSONObject();
-customer.put("name","");
-customer.put("contact","");
-customer.put("email","");
+customer.put("name","+919876543210");
+customer.put("contact","Gaurav Kumar");
+customer.put("email","gaurav.kumar@example.com");
 paymentLinkRequest.put("customer",customer);
 JSONObject notify = new JSONObject();
 notify.put("sms",true);
@@ -189,7 +189,7 @@ paymentLinkRequest.put("reminder_enable",true);
 JSONObject options = new JSONObject();
 JSONObject notes = new JSONObject();
 notes.put("branch","Acme Corp Bangalore North");
-notes.put("name","");
+notes.put("name","Gaurav Kumar");
 
 JSONObject checkout = new JSONObject();
 checkout.put("name","Lacme Corp");
@@ -210,8 +210,8 @@ paymentLinkRequest.Add("first_min_partial_amount", 100);
 paymentLinkRequest.Add("description", "Payment for policy no #23456");
 Dictionary customer = new Dictionary();
 customer.Add("contact", "+919999999999");
-customer.Add("name", "");
-customer.Add("email", "");
+customer.Add("name", "Gaurav Kumar");
+customer.Add("email", "gaurav.kumar@example.com");
 paymentLinkRequest.Add("customer", customer);
 Dictionary notify = new Dictionary();
 notify.Add("sms", true);
@@ -222,7 +222,7 @@ paymentLinkRequest.Add("reminder_enable", true);
 Dictionary options = new Dictionary();
 Dictionary notes = new Dictionary();
 notes.Add("branch", "Acme Corp Bangalore North");
-notes.Add("name", "");
+notes.Add("name", "Gaurav Kumar");
 
 Dictionary checkout = new Dictionary();
 checkout.Add("name", "Lacme Corp");
@@ -245,9 +245,9 @@ PaymentLink paymentlink = client.PaymentLink.Create(paymentLinkRequest);
   "created_at": 1596187657,
   "currency": "",
   "customer": {
-    "contact": "",
-    "email": "",
-    "name": ""
+    "contact": "+919876543210",
+    "email": "gaurav.kumar@example.com",
+    "name": "Gaurav Kumar"
   },
   "description": "Payment for policy no #23456",
   "expire_by": 0,

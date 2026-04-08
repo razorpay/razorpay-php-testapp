@@ -380,9 +380,9 @@ Follow the steps given below:
          name: 'Acme Corp',
          order_id: 'order_EKwxwAgItmmXdp',//Replace this with order_id from Step 1.2
          prefill: {
-           email: '',
-           contact: '',
-           name: '',
+           email: 'gaurav.kumar@example.com',
+           contact: '+919876543210',
+           name: 'Gaurav Kumar',
            coupon_code: 'MY_COUPON_NAME' // Coupon from your cart to auto-apply (as explained in Step 1.6)
          },
          show_coupons: true, // magic checkout
@@ -1374,10 +1374,10 @@ If 9977665544 is entered, `+91` is added to it as +919977665544.
        ],
        "shipping_country": "in",
        "customer_details": {
-         "email": "",
-         "contact": "",
+         "email": "gaurav.kumar@example.com",
+         "contact": "+919876543210",
          "shipping_address": {
-           "name": "",
+           "name": "Gaurav Kumar",
            "line1": "123 Main Street",
            "city": "Bengaluru",
            "state": "KARNATAKA",

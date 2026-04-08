@@ -267,12 +267,12 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
   "amount": 50000,
   "currency": "",
   "order_id": "order_GAWN9beXgaqRyO",
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "method": "ach",
   "bank_account": {
     "account_number": "000000001234",
-    "name": "",
+    "name": "Gaurav Kumar",
     "bank_code": "122105278",
     "bank_code_category": "routing_number",
     "account_type": "personal_savings"
@@ -511,8 +511,8 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
   "bank": "JP Morgan and Chase",
   "wallet": null,
   "vpa": null,
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "notes": {
     "merchant_order_id": "M-12345",
     "source": "pg-router"
@@ -528,7 +528,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
     "bank_transaction_id": "123456789012"
   },
   "bank_account": {
-    "name": "",
+    "name": "Gaurav Kumar",
     "last_4": "xxxxxxx1234",
     "bank_code": "122105278",
     "bank_code_category": "routing_number",

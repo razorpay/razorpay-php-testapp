@@ -230,9 +230,9 @@ Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay
                       "description"       => "Test transaction",
                       "image"             => "https://cdn.razorpay.com/logos/GhRQcyean79PqE_medium.png",
                       "prefill"           => [
-                      "name"              => "",
-                      "email"             => "",
-                      "contact"           => "",
+                      "name"              => "Gaurav Kumar",
+                      "email"             => "gaurav.kumar@example.com",
+                      "contact"           => "+919876543210",
                       ],
                       "notes"             => [
                       "address"           => "Razorpay Corporate Office",
@@ -269,9 +269,9 @@ Know more about [Orders API](https://raw.githubusercontent.com/razorpay/razorpay
                               image: "https://cdn.razorpay.com/logos/GhRQcyean79PqE_medium.png",
                               order_id: "' . $order_IluGWxBm9U8zJ8 . '", // This is a sample Order ID. Pass the `id` obtained in the response of Step 1
                               prefill: {
-                                  name: "",
-                                  email: "",
-                                  contact: ""
+                                  name: "Gaurav Kumar",
+                                  email: "gaurav.kumar@example.com",
+                                  contact: "+919876543210"
                               },
                               notes: {
                                   address: "Razorpay Corporate Office"

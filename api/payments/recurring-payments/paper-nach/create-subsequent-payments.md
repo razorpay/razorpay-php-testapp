@@ -238,8 +238,8 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 -X POST https://api.razorpay.com/v1/payments/create/recurring \
 -H "Content-Type: application/json" \
 -d '{
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "amount": 1000,
   "currency": "",
   "order_id": "order_1Aa00000000002",
@@ -257,8 +257,8 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
 
 JSONObject paymentRequest = new JSONObject();
-paymentRequest.put("email", "");
-paymentRequest.put("contact", "");
+paymentRequest.put("email", "gaurav.kumar@example.com");
+paymentRequest.put("contact", "+919876543210");
 paymentRequest.put("amount", 1000);
 paymentRequest.put("currency", "");
 paymentRequest.put("order_id", "order_1Aa00000000002");
@@ -275,14 +275,14 @@ Payment payment = razorpay.payments.createRecurringPayment(paymentRequest);
 ```php: PHP
 $api = new Api($key_id, $secret);
 
-$api->payment->createRecurring(array('email'=>'','contact'=>'','amount'=>100,'currency'=>'','order_id'=>'order_1Aa00000000002','customer_id'=>'cust_1Aa00000000001','token'=>'token_1Aa00000000001','recurring'=>true,'description'=>'Creating recurring payment for Gaurav Kumar'));
+$api->payment->createRecurring(array('email'=>'gaurav.kumar@example.com','contact'=>'+919876543210','amount'=>100,'currency'=>'','order_id'=>'order_1Aa00000000002','customer_id'=>'cust_1Aa00000000001','token'=>'token_1Aa00000000001','recurring'=>true,'description'=>'Creating recurring payment for Gaurav Kumar'));
 
 ```javascript: Node.js
 var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
 
 instance.payments.createRecurringPayment({
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "amount": 1000,
   "currency": "",
   "order_id": "order_1Aa00000000002",
@@ -300,8 +300,8 @@ instance.payments.createRecurringPayment({
 client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
 
 client.payment.createRecurring({
-    'email': '',
-    'contact': ,
+    'email': 'gaurav.kumar@example.com',
+    'contact': +919876543210,
     'amount': 1000,
     'currency': '',
     'order_id': "order_1Aa00000000002",
@@ -318,8 +318,8 @@ require "razorpay"
 Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
 
 para_attr = {
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "amount": 1000,
   "currency": "",
   "order_id": "order_1Aa00000000002",
@@ -339,8 +339,8 @@ import ( razorpay "github.com/razorpay/razorpay-go" )
 client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
 
 data:= map[string]interface{}{
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "amount": 1000,
   "currency": "",
   "order_id": "order_1Aa00000000002",
@@ -359,8 +359,8 @@ body, err := Client.Payment.CreateRecurringPayment(data, nil)
 RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
 
 Dictionary paymentRequest = new Dictionary();
-paymentRequest.Add("email", "");
-paymentRequest.Add("contact", "");
+paymentRequest.Add("email", "gaurav.kumar@example.com");
+paymentRequest.Add("contact", "+919876543210");
 paymentRequest.Add("amount", 1000);
 paymentRequest.Add("currency", "");
 paymentRequest.Add("order_id", "order_MZ35KPxZaqxfXq");

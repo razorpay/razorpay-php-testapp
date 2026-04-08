@@ -149,9 +149,9 @@ This step demonstrates how to create an Order and process a Payment using Razorp
        "receipt": "receipt#1111",
        "partial_payment": false,
        "customer_details": {
-         "name": "",
-         "contact": "",
-         "email": "",
+         "name": "Gaurav Kumar",
+         "contact": "+919876543210",
+         "email": "gaurav.kumar@example.com",
          "insights": {
            "order_count": "22",
            "chargeback_count": "4",
@@ -229,8 +229,8 @@ This step demonstrates how to create an Order and process a Payment using Razorp
          "key2": "value2"
        },
        "payment": {
-         "contact": "",
-         "email": "",
+         "contact": "+919876543210",
+         "email": "gaurav.kumar@example.com",
          "callback_url": "https://merchant_callback_url..",
          "method": "card",
          "app": {
@@ -721,9 +721,9 @@ If no value is passed, the refund is processed using the [default speed set on t
        "receipt": "receipt#1111",
        "partial_payment": false,
        "customer_details": {
-         "name": "",
-         "contact": "",
-         "email": "",
+         "name": "Gaurav Kumar",
+         "contact": "+919876543210",
+         "email": "gaurav.kumar@example.com",
          "insights": {
            "order_count": "22",
            "chargeback_count": "4",
@@ -1160,8 +1160,8 @@ https://api.razorpay.com/v1/payments/create/json \
 -d '{
   "amount": 10000,
   "currency": "",
-  "contact": "",
-  "email": "",
+  "contact": "+919876543210",
+  "email": "gaurav.kumar@example.com",
   "order_id": "order_PrcuyJDT7uSwaf",
   "callback_url": "https://merchant_callback_url..",
   "method": "card",

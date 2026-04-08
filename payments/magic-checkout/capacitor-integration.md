@@ -518,7 +518,7 @@ Order order = client.Order.Create(orderRequest);
       {
         "order_id": "SomeReceiptValue", // This is the receipt field set in the Razorpay order
         "razorpay_order_id": "EKwxwAgItmmXdp", // This is the RZP order created without the `order_` prefix
-        "email": "", // Email field will be set if the customer enters an email
+        "email": "gaurav.kumar@example.com", // Email field will be set if the customer enters an email
         "contact": "+919900000000", // Customer phone number with country code
         "addresses": [
           {
@@ -661,7 +661,7 @@ Order order = client.Order.Create(orderRequest);
       {
         "order_id": "SomeReceiptValue", // this is the receipt field set in Razorpay order
         "contact": "+919000090000", 
-        "email": ""
+        "email": "gaurav.kumar@example.com"
       }'
       ```json: Response
       {
@@ -722,7 +722,7 @@ Order order = client.Order.Create(orderRequest);
           {
             "order_id": "SomeReceiptValue", // this is the receipt field set in Razorpay order
             "contact": "+919000090000",
-            "email": "",
+            "email": "gaurav.kumar@example.com",
             "code": "500OFF"
             }'
 
@@ -871,7 +871,7 @@ Order order = client.Order.Create(orderRequest);
                      currency: '',
                      name: 'Acme Corp',
                      prefill: {
-                         email: '',
+                         email: 'gaurav.kumar@example.com',
                          contact: '9000090000'
                      },
                      theme: {

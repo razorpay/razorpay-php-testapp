@@ -69,9 +69,9 @@ Invoice invoice = client.Invoice.Fetch(invoiceId);
   "customer_id": "cust_E7q0trFqXgExmT",
   "customer_details": {
     "id": "cust_E7q0trFqXgExmT",
-    "name": "",
-    "email": "",
-    "contact": "",
+    "name": "Gaurav Kumar",
+    "email": "gaurav.kumar@example.com",
+    "contact": "+919876543210",
     "gstin": null,
     "billing_address": {
       "id": "addr_E7q0ttqh4SGhAC",
@@ -95,9 +95,9 @@ Invoice invoice = client.Invoice.Fetch(invoiceId);
       "state": "Karnataka",
       "country": "in"
     },
-    "customer_name": "",
-    "customer_email": "",
-    "customer_contact": ""
+    "customer_name": "Gaurav Kumar",
+    "customer_email": "gaurav.kumar@example.com",
+    "customer_contact": "+919876543210"
   },
   "order_id": "order_E7q0tvRpC0WJwg",
   "line_items": [

@@ -329,8 +329,8 @@ You can create an order using:
                      currency: '',
                      name: 'Acme Corp',
                      prefill: {
-                         email: '',
-                         contact: ''
+                         email: 'gaurav.kumar@example.com',
+                         contact: '+919876543210'
                      },
                      theme: {
                          color: '#3399cc'

@@ -303,8 +303,8 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
  -d '{
   "amount": "50000",
   "currency": "",
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "order_id": "order_EAkbvXiCJlwhHR",
   "ip": "198.29.65.27",
   "method": "wallet",
@@ -314,7 +314,7 @@ curl -u [YOUR_KEY_ID]:[YOUR_KEY_SECRET] \
 ```php: PHP
 $api = new Api($key_id, $secret);
 
-$api->payment->createPaymentJson(array('amount' => 50000,'currency' => '','email' => '','contact' => '','order_id' => 'order_I6LVPRQ6upW3uh','ip' => '198.29.65.27','method' => 'wallet','wallet' => 'paypal'));
+$api->payment->createPaymentJson(array('amount' => 50000,'currency' => '','email' => 'gaurav.kumar@example.com','contact' => '+919876543210','order_id' => 'order_I6LVPRQ6upW3uh','ip' => '198.29.65.27','method' => 'wallet','wallet' => 'paypal'));
 
 ```javascript: Node.js
 var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
@@ -324,8 +324,8 @@ instance.payments.createPaymentJson({
   currency: "",
   order_id: "order_EAkbvXiCJlwhHR",
   ip: "198.29.65.27",
-  email: "",
-  contact: "",
+  email: "gaurav.kumar@example.com",
+  contact: "+919876543210",
   method: "wallet",
   wallet: "paypal"
 })
@@ -340,8 +340,8 @@ resp = client.payment.createPaymentJson({
   "currency": "",
   "order_id": "order_ItZMEZjpBD6dhT",
   "ip": "198.29.65.27",
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "method": "wallet",
   "wallet": "paypal"
 })
@@ -355,8 +355,8 @@ para_attr := map[string]interface{}{
   "currency": "",
   "order_id": "order_EAkbvXiCJlwhHR",
   "ip": "198.29.65.27",
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "method": "wallet",
   "card": "paypal"
 }

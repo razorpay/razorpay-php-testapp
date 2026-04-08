@@ -56,9 +56,9 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       -X POST https://api.razorpay.com/v1/customers \
       -H "Content-Type: application/json" \
       -d '{
-        "name": "",
-        "email": "",
-        "contact": "",
+        "name": "Gaurav Kumar",
+        "email": "gaurav.kumar@example.com",
+        "contact": "+919876543210",
         "fail_existing": "0",
         "notes":{
           "note_key_1": "September",
@@ -70,9 +70,9 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
 
       JSONObject customerRequest = new JSONObject();
-      customerRequest.put("name","");
-      customerRequest.put("contact","");
-      customerRequest.put("email","");
+      customerRequest.put("name","Gaurav Kumar");
+      customerRequest.put("contact","+919876543210");
+      customerRequest.put("email","gaurav.kumar@example.com");
       customerRequest.put("fail_existing", "0");
       JSONObject notes = new JSONObject();
       notes.put("notes_key_1","Tea, Earl Grey, Hot");
@@ -86,9 +86,9 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
 
       client.customer.create({
-          'name': '',
-          'email': '',
-          'contact': '',
+          'name': 'Gaurav Kumar',
+          'email': 'gaurav.kumar@example.com',
+          'contact': '+919876543210',
           'fail_existing': "0",
           'notes': {'note_key_1': 'September', 'note_key_2': 'Make it so.'}
           })
@@ -98,9 +98,9 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
 
       data := map[string]interface{}{
-          "name": "",
-          "contact": ,
-          "email": "",
+          "name": "Gaurav Kumar",
+          "contact": +919876543210,
+          "email": "gaurav.kumar@example.com",
           "fail_existing": "0",
           "notes": map[string]interface{}{
               "notes_key_1": "Tea, Earl Grey, Hot",
@@ -112,15 +112,15 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       ```php: PHP
       $api = new Api($key_id, $secret);
 
-      $api->customer->create(array('name' => '', 'email' => '','contact'=>'','fail_existing' => "0", 'notes'=> array('notes_key_1'=> 'Tea, Earl Grey, Hot','notes_key_2'=> 'Tea, Earl Grey… decaf'));
+      $api->customer->create(array('name' => 'Gaurav Kumar', 'email' => 'gaurav.kumar@example.com','contact'=>'+919876543210','fail_existing' => "0", 'notes'=> array('notes_key_1'=> 'Tea, Earl Grey, Hot','notes_key_2'=> 'Tea, Earl Grey… decaf'));
       ```csharp: .NET
       RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]");
 
       Dictionary options = new Dictionary();
 
-      options.Add("name", ""); 
-      options.Add("contact", ""); 
-      options.Add("email", ""); 
+      options.Add("name", "Gaurav Kumar"); 
+      options.Add("contact", "+919876543210"); 
+      options.Add("email", "gaurav.kumar@example.com"); 
       options.Add("fail_existing", "0"); 
 
       Customer customer = Customer.Create(options);
@@ -130,9 +130,9 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
 
       para_attr = {
-        "name": "",
-        "contact": "",
-        "email": "",
+        "name": "Gaurav Kumar",
+        "contact": "+919876543210",
+        "email": "gaurav.kumar@example.com",
         "fail_existing": "0",
         "notes": {
           "notes_key_1": "Tea, Earl Grey, Hot",
@@ -146,9 +146,9 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
 
       instance.customers.create({
-        name: "",
-        contact: "",
-        email: "",
+        name: "Gaurav Kumar",
+        contact: "+919876543210",
+        email: "gaurav.kumar@example.com",
         fail_existing: "0",
         notes: {
           notes_key_1: "Tea, Earl Grey, Hot",
@@ -161,9 +161,9 @@ You can create [customers](https://raw.githubusercontent.com/razorpay/razorpay-p
       {
         "id":"cust_1Aa00000000001",
         "entity":"customer",
-        "name":"",
-        "email":"",
-        "contact":"",
+        "name":"Gaurav Kumar",
+        "email":"gaurav.kumar@example.com",
+        "contact":"+919876543210",
         "gstin":null,
         "notes":{
             "note_key_1":"September",
@@ -546,15 +546,15 @@ curl -u : \
   "customer_id": "cust_4xbQrmEoA5WJ01",
   "recurring": true,
   "save": 1,
-  "email": "",
-  "contact": "",
+  "email": "gaurav.kumar@example.com",
+  "contact": "+919876543210",
   "method": "card",
   "card": {
     "number": "4854980604708430",
     "cvv": "",
     "expiry_month": "12",
     "expiry_year": "30",
-    "name": ""
+    "name": "Gaurav Kumar"
   }
 }'
 
@@ -713,14 +713,14 @@ curl -u :
 -H "Content-Type: application/json" \
 -d '{
   "customer":{
-    "name":"",
-    "email":"",
-    "contact":""
+    "name":"Gaurav Kumar",
+    "email":"gaurav.kumar@example.com",
+    "contact":"+919876543210"
   },
   "type":"link",
   "amount":"100",
   "currency":"",
-  "description":"Registration Link for ",
+  "description":"Registration Link for Gaurav Kumar",
   "subscription_registration":{
     "method":"card",
     "max_amount":"1000000",
@@ -742,14 +742,14 @@ RazorpayClient razorpay = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]
 
 JSONObject registrationLinkRequest = new JSONObject();
 JSONObject customer = new JSONObject();
-customer.put("name","");
-customer.put("email","");
-customer.put("contact","");
+customer.put("name","Gaurav Kumar");
+customer.put("email","gaurav.kumar@example.com");
+customer.put("contact","+919876543210");
 registrationLinkRequest.put("customer", customer);
 registrationLinkRequest.put("type", "link");
 registrationLinkRequest.put("amount", 100);
 registrationLinkRequest.put("currency", "");
-registrationLinkRequest.put("description", "Registration Link for ");
+registrationLinkRequest.put("description", "Registration Link for Gaurav Kumar");
 JSONObject subscriptionRegistration = new JSONObject();
 subscriptionRegistration.put("method","card");
 subscriptionRegistration.put("max_amount",1000000);
@@ -770,20 +770,20 @@ Invoice invoice = razorpay.invoices.createRegistrationLink(registrationLinkReque
 ```php: PHP
 $api = new Api($key_id, $secret);
 
-$api->subscription->createSubscriptionRegistration(array('customer'=>array('name'=>'','email'=>'','contact'=>''),'type'=>'link','amount'=>100,'currency'=>'','description'=>'Registration Link for ','subscription_registration'=>array('method'=>'card','max_amount'=>'1000000','expire_at'=>'1634215992','frequency'=>'monthly'),'receipt'=>'Receipt No. 5','email_notify'=> true,'sms_notify'=>true,'expire_by'=>1634215992, 'notes'=> array('note_key 1'=> 'Beam me up Scotty','note_key 2'=> 'Tea. Earl Gray. Hot.')));
+$api->subscription->createSubscriptionRegistration(array('customer'=>array('name'=>'Gaurav Kumar','email'=>'gaurav.kumar@example.com','contact'=>'+919876543210'),'type'=>'link','amount'=>100,'currency'=>'','description'=>'Registration Link for Gaurav Kumar','subscription_registration'=>array('method'=>'card','max_amount'=>'1000000','expire_at'=>'1634215992','frequency'=>'monthly'),'receipt'=>'Receipt No. 5','email_notify'=> true,'sms_notify'=>true,'expire_by'=>1634215992, 'notes'=> array('note_key 1'=> 'Beam me up Scotty','note_key 2'=> 'Tea. Earl Gray. Hot.')));
 ```javascript: Node.js
 var instance = new Razorpay({ key_id: 'YOUR_KEY_ID', key_secret: 'YOUR_SECRET' })
 
 instance.subscriptions.createRegistrationLink({
   customer: {
-    name: "",
-    email: "",
-    contact: ""
+    name: "Gaurav Kumar",
+    email: "gaurav.kumar@example.com",
+    contact: "+919876543210"
   },
   type: "link",
   amount: 100,
   currency: "",
-  description: "Registration Link for ",
+  description: "Registration Link for Gaurav Kumar",
   subscription_registration: {
     method: "card",
     max_amount: 1000000,
@@ -803,9 +803,9 @@ instance.subscriptions.createRegistrationLink({
 client = razorpay.Client(auth=("YOUR_ID", "YOUR_SECRET"))
 
 client.registration_link.create({
-    'customer': {'name': '',
-                 'email': '',
-                 'contact': ''},
+    'customer': {'name': 'Gaurav Kumar',
+                 'email': 'gaurav.kumar@example.com',
+                 'contact': '+919876543210'},
     'type': 'link',
     'amount': '100',
     'currency': '',
@@ -826,14 +826,14 @@ Razorpay.setup('YOUR_KEY_ID', 'YOUR_SECRET')
 
 para_attr = {
   "customer":{
-    "name": "",
-    "email": "",
-    "contact": ""
+    "name": "Gaurav Kumar",
+    "email": "gaurav.kumar@example.com",
+    "contact": "+919876543210"
   },
   "type": "link",
   "amount": "100",
   "currency": "",
-  "description": "Registration Link for ",
+  "description": "Registration Link for Gaurav Kumar",
   "subscription_registration":{
     "method": "card",
     "max_amount": "1000000",
@@ -858,14 +858,14 @@ client := razorpay.NewClient("YOUR_KEY_ID", "YOUR_SECRET")
 
 data:= map[string]interface{}{
   "customer":map[string]interface{}{
-    "name":"",
-    "email":"",
-    "contact":"",
+    "name":"Gaurav Kumar",
+    "email":"gaurav.kumar@example.com",
+    "contact":"+919876543210",
   },
   "type":"link",
   "amount":"100",
   "currency":"",
-  "description":"Registration Link for ",
+  "description":"Registration Link for Gaurav Kumar",
   "subscription_registration":map[string]interface{}{
     "method":"card",
     "max_amount":"1000000",
@@ -889,14 +889,14 @@ RazorpayClient client = new RazorpayClient("[YOUR_KEY_ID]", "[YOUR_KEY_SECRET]")
 
 Dictionary registrationLinkRequest = new Dictionary();
 Dictionary customer = new Dictionary();
-customer.Add("name", "");
-customer.Add("email", "");
-customer.Add("contact", "");
+customer.Add("name", "Gaurav Kumar");
+customer.Add("email", "gaurav.kumar@example.com");
+customer.Add("contact", "+919876543210");
 registrationLinkRequest.Add("customer", customer);
 registrationLinkRequest.Add("type", "link");
 registrationLinkRequest.Add("amount", 100);
 registrationLinkRequest.Add("currency", "");
-registrationLinkRequest.Add("description", "Registration Link for ");
+registrationLinkRequest.Add("description", "Registration Link for Gaurav Kumar");
 Dictionary subscriptionRegistration = new Dictionary();
 subscriptionRegistration.Add("method", "card");
 subscriptionRegistration.Add("max_amount", 1000000);
@@ -923,15 +923,15 @@ Invoice invoice = client.Invoice.CreateRegistrationLink(registrationLinkRequest)
   "customer_id": "cust_BMB3EwbqnqZ2EI",
   "customer_details": {
     "id": "cust_BMB3EwbqnqZ2EI",
-    "name": "",
-    "email": "",
-    "contact": "",
+    "name": "Gaurav Kumar",
+    "email": "gaurav.kumar@example.com",
+    "contact": "+919876543210",
     "gstin": null,
     "billing_address": null,
     "shipping_address": null,
-    "customer_name": "",
-    "customer_email": "",
-    "customer_contact": ""
+    "customer_name": "Gaurav Kumar",
+    "customer_email": "gaurav.kumar@example.com",
+    "customer_contact": "+919876543210"
   },
   "order_id": "order_FHrXGJNngJyEAe",
   "line_items": [],
@@ -955,7 +955,7 @@ Invoice invoice = client.Invoice.CreateRegistrationLink(registrationLinkRequest)
   "amount_due": 100,
   "currency": "",
   "currency_symbol": "₹",
-  "description": "Registration Link for ",
+  "description": "Registration Link for Gaurav Kumar",
   "notes": {
     "note_key 1": "Beam me up Scotty",
     "note_key 2": "Tea. Earl Gray. Hot."
@@ -1327,15 +1327,15 @@ The following endpoint cancels a registration link.
         "customer_id": "cust_BMB3EwbqnqZ2EI",
         "customer_details": {
             "id": "cust_BMB3EwbqnqZ2EI",
-            "name": "",
-            "email": "",
-            "contact": "",
+            "name": "Gaurav Kumar",
+            "email": "gaurav.kumar@example.com",
+            "contact": "+919876543210",
             "gstin": null,
             "billing_address": null,
             "shipping_address": null,
-            "customer_name": "",
-            "customer_email": "",
-            "customer_contact": ""
+            "customer_name": "Gaurav Kumar",
+            "customer_email": "gaurav.kumar@example.com",
+            "customer_contact": "+919876543210"
         },
         "order_id": "order_FHrfRw4TZU5Q2L",
         "line_items": [],

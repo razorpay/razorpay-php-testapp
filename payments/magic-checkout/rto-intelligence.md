@@ -95,11 +95,11 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
       "shipping_fee": 100,
       "cod_fee": 100,
       "customer_details": {
-          "name": "",
+          "name": "Gaurav Kumar",
           "contact": "+919000090000",
-          "email": "",
+          "email": "gaurav.kumar@example.com",
           "shipping_address": {
-              "name": "",
+              "name": "Gaurav Kumar",
               "line1": "84th floor, Millennium Tower",
               "line2": "2nd main",
               "zipcode": "560000",
@@ -111,7 +111,7 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
               "landmark": "XYZ Hospital"
           },
           "billing_address": {
-              "name": "",
+              "name": "Gaurav Kumar",
               "line1": "84th floor, Millennium Tower",
               "line2": "2nd main",
               "zipcode": "560000",
@@ -184,12 +184,12 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
     paymentRequest.put("cod_fee", "100");
 
     JSONObject customerDetails = new JSONObject();
-    customerDetails.put("name", "");
-    customerDetails.put("email", "");
+    customerDetails.put("name", "Gaurav Kumar");
+    customerDetails.put("email", "gaurav.kumar@example.com");
     customerDetails.put("contact", "+919000090000");
 
     JSONObject shippingAddress = new JSONObject();
-    shippingAddress.put("name", "");
+    shippingAddress.put("name", "Gaurav Kumar");
     shippingAddress.put("line1", "84th floor, Millennium Tower");
     shippingAddress.put("line2", "2nd main");
     shippingAddress.put("zipcode", "560000");
@@ -200,7 +200,7 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
     shippingAddress.put("landmark", "XYZ Hospital");
 
     JSONObject billingAddress = new JSONObject();
-    billingAddress.put("name", "");
+    billingAddress.put("name", "Gaurav Kumar");
     billingAddress.put("line1", "84th floor, Millennium Tower");
     billingAddress.put("line2", "2nd main");
     billingAddress.put("zipcode", "560000");
@@ -274,11 +274,11 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
       "shipping_fee": 100,
       "cod_fee": 100,
       "customer_details": {
-        "name": "",
+        "name": "Gaurav Kumar",
         "contact": "+919000090000",
-        "email": "",
+        "email": "gaurav.kumar@example.com",
         "shipping_address": {
-          "name": "",
+          "name": "Gaurav Kumar",
           "line1": "84th floor, Millennium Tower",
           "line2": "2nd main",
           "zipcode": "560000",
@@ -290,7 +290,7 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
           "landmark": "XYZ Hospital"
         },
         "billing_address": {
-          "name": "",
+          "name": "Gaurav Kumar",
           "line1": "84th floor, Millennium Tower",
           "line2": "2nd main",
           "zipcode": "560000",
@@ -357,11 +357,11 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
       "shipping_fee":     100,
       "cod_fee":          100,
       "customer_details": map[string]interface{}{
-        "name":    "",
+        "name":    "Gaurav Kumar",
         "contact": "+919000090000",
-        "email":   "",
+        "email":   "gaurav.kumar@example.com",
         "shipping_address": map[string]interface{}{
-          "name":     "",
+          "name":     "Gaurav Kumar",
           "line1":    "84th floor, Millennium Tower",
           "line2":    "2nd main",
           "zipcode":  "560000",
@@ -373,7 +373,7 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
           "landmark": "XYZ Hospital",
         },
         "billing_address": map[string]interface{}{
-          "name":     "",
+          "name":     "Gaurav Kumar",
           "line1":    "84th floor, Millennium Tower",
           "line2":    "2nd main",
           "zipcode":  "560000",
@@ -441,11 +441,11 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
       'shipping_fee' => 100,
       'cod_fee' => 100,
       'customer_details' => array(
-          'name' => '',
+          'name' => 'Gaurav Kumar',
           'contact' => '+919000090000',
-          'email' => '',
+          'email' => 'gaurav.kumar@example.com',
           'shipping_address' => array(
-              'name' => '',
+              'name' => 'Gaurav Kumar',
               'line1' => '84th floor, Millennium Tower',
               'line2' => '2nd main',
               'zipcode' => '560000',
@@ -457,7 +457,7 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
               'landmark' => 'XYZ Hospital',
           ),
           'billing_address' => array(
-              'name' => '',
+              'name' => 'Gaurav Kumar',
               'line1' => '84th floor, Millennium Tower',
               'line2' => '2nd main',
               'zipcode' => '560000',
@@ -524,11 +524,11 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
       "shipping_fee": 100,
       "cod_fee": 100,
       "customer_details": {
-        "name": "",
+        "name": "Gaurav Kumar",
         "contact": "+919000090000",
-        "email": "",
+        "email": "gaurav.kumar@example.com",
         "shipping_address": {
-          "name": "",
+          "name": "Gaurav Kumar",
           "line1": "84th floor, Millennium Tower",
           "line2": "2nd main",
           "zipcode": "560000",
@@ -540,7 +540,7 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
           "landmark": "XYZ Hospital"
         },
         "billing_address": {
-          "name": "",
+          "name": "Gaurav Kumar",
           "line1": "84th floor, Millennium Tower",
           "line2": "2nd main",
           "zipcode": "560000",
@@ -606,11 +606,11 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
       "shipping_fee": 100,
       "cod_fee": 100,
       "customer_details": {
-          "name": "",
+          "name": "Gaurav Kumar",
           "contact": "+919000090000",
-          "email": "",
+          "email": "gaurav.kumar@example.com",
           "shipping_address": {
-              "name": "",
+              "name": "Gaurav Kumar",
               "line1": "84th floor, Millennium Tower",
               "line2": "2nd main",
               "zipcode": "560000",
@@ -622,7 +622,7 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
               "landmark": "XYZ Hospital"
           },
           "billing_address": {
-              "name": "",
+              "name": "Gaurav Kumar",
               "line1": "84th floor, Millennium Tower",
               "line2": "2nd main",
               "zipcode": "560000",
@@ -693,12 +693,12 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
     paymentRequest.Add("cod_fee", "100");
 
     Dictionary customerDetails = new Dictionary();
-    customerDetails.Add("name", "");
-    customerDetails.Add("email", "");
+    customerDetails.Add("name", "Gaurav Kumar");
+    customerDetails.Add("email", "gaurav.kumar@example.com");
     customerDetails.Add("contact", "+919000090000");
 
     Dictionary shippingAddress = new Dictionary();
-    shippingAddress.Add("name", "");
+    shippingAddress.Add("name", "Gaurav Kumar");
     shippingAddress.Add("line1", "84th floor, Millennium Tower");
     shippingAddress.Add("line2", "2nd main");
     shippingAddress.Add("zipcode", "560000");
@@ -709,7 +709,7 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
     shippingAddress.Add("landmark", "XYZ Hospital");
 
     Dictionary billingAddress = new Dictionary();
-    billingAddress.Add("name", "");
+    billingAddress.Add("name", "Gaurav Kumar");
     billingAddress.Add("line1", "84th floor, Millennium Tower");
     billingAddress.Add("line2", "2nd main");
     billingAddress.Add("zipcode", "560000");
@@ -766,15 +766,15 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
             "line1": "84th floor, Millennium Tower",
             "line2": "2nd main",
             "longitude": null,
-            "name": "",
+            "name": "Gaurav Kumar",
             "state": "Karnataka",
             "tag": "home",
             "zipcode": "560000"
           },
           "contact": "+919000090000",
-          "email": "",
+          "email": "gaurav.kumar@example.com",
           "insights": null,
-          "name": "",
+          "name": "Gaurav Kumar",
           "shipping_address": {
             "city": "Bangalore",
             "contact": "+919000090000",
@@ -784,7 +784,7 @@ Pass the `order_id` received in response in the subsequent API calls as the iden
             "line1": "84th floor, Millennium Tower",
             "line2": "2nd main",
             "longitude": null,
-            "name": "",
+            "name": "Gaurav Kumar",
             "state": "Karnataka",
             "tag": "home",
             "zipcode": "560000"
