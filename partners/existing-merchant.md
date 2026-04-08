@@ -1,0 +1,62 @@
+---
+title: Existing Razorpay Merchant
+description: Become a Razorpay Partner from the Partners webpage or the Razorpay Dashboard.
+---
+
+# Existing Razorpay Merchant
+
+You can become a Razorpay Partner, offer your customers a complete suite of payment solutions and get rewarded for it in the form of [commissions](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/commissions.md). As an existing Razorpay merchant, you can join the Razorpay Partnership program by completing a few simple steps.
+
+## Become a Razorpay Partner
+
+> **INFO**
+>
+> 
+> **Handy Tips**
+> 
+> - Review the [eligibility requirements](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners.md#who-can-become-a-partner) for the Razorpay Partnership Program.
+> - All Partners are onboarded as Service Partners by default. If you have a use case, you can request a Partner type switch to [Technology Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/technology-partners/become-technology-partner.md).
+> 
+
+You can join the program either from the Razorpay Partners Webpage or the Dashboard.
+
+    
+         To become a Partner:
+            1. Navigate to the [Razorpay Partners webpage](https://razorpay.com/partners) and click **Become a Partner**.
+                
+            2. On the sign up page, enter your mobile number and click **Get Started**.
+                
+            3. If you were previously logged into the Dashboard, you will be redirected to it. If not, you will be redirected to the **Welcome Back!** page. Click the **Login Now** button to navigate to the Dashboard.
+                
+            3. Once logged in, navigate to the top-right menu. Click the drop-down list next to the merchant name.
+                
+            4. Click **Explore Partner Program**.
+            5. On the **Welcome to your Partner Dashboard** dialog box, click **Next**.
+                
+            6. On the next page, the details regarding the commissions are displayed. Click **Next**.
+            8. In the **Terms and Conditions** modal, click **Accept and Get Started**.
+    
+    
+           To become a Partner:
+            1. Log in to the Dashboard with your existing credentials.
+            2. Once logged in, navigate to the top-right menu. Click the drop-down menu next to the merchant name.
+                
+            3. Click **Explore Partner Program**.
+            4. On the **Welcome to your Partner Dashboard** dialog box, click **Next**.
+                
+            5. On the next page, the details regarding the commissions are displayed. Click **Next**.
+            6. In the **Terms and Conditions** modal, click **Accept and Get Started**.
+    
+
+## Enable Partner Commissions
+
+To enable commissions on your account, send an email to the [Razorpay Partnerships team](mailto:partnerships@razorpay.com).
+
+## Add Sub-Merchants
+
+Know how to [add new sub-merchants](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/service-partners/add-submerchants.md) on your Dashboard.
+
+### Related Information
+
+- [Partners](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners.md)
+- [Become a Partner - New to Razorpay](https://raw.githubusercontent.com/razorpay/razorpay-php-testapp/markdown-docs/llm-content/partners/new-to-razorpay.md)
