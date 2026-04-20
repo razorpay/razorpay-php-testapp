@@ -17,7 +17,7 @@ $api = new Api($keyId, $keySecret);
 $orderData = [
     'receipt'         => 3456,
     'amount'          => 2000 * 100, // 2000 rupees in paise
-    'currency'        => 'INR',
+    'currency'        => $displayCurrency,
     'payment_capture' => 1 // auto capture
 ];
 
@@ -29,13 +29,6 @@ $_SESSION['razorpay_order_id'] = $razorpayOrderId;
 
 $displayAmount = $amount = $orderData['amount'];
 
-if ($displayCurrency !== 'INR')
-{
-    $url = "https://api.fixer.io/latest?symbols=$displayCurrency&base=INR";
-    $exchange = json_decode(file_get_contents($url), true);
-
-    $displayAmount = $exchange['rates'][$displayCurrency] * $amount / 100;
-}
 
 $checkout = 'automatic';
 
@@ -65,11 +58,6 @@ $data = [
     "order_id"          => $razorpayOrderId,
 ];
 
-if ($displayCurrency !== 'INR')
-{
-    $data['display_currency']  = $displayCurrency;
-    $data['display_amount']    = $displayAmount;
-}
 
 $json = json_encode($data);
 
